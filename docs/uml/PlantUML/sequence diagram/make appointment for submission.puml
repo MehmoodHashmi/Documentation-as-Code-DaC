@@ -1,0 +1,39 @@
+@startuml
+
+!pragma teoz true
+
+autonumber
+actor Recycler #pink
+participant System <<GUI>> #0acaabc9
+
+[o-> Recycler
+Recycler -> Recycler : login()
+Recycler -> System ++: check<b>User</b>nameAndPassword()
+
+    System -> System ++: verify()
+    deactivate System
+
+alt#Gold #LightBlue Successful case
+    System --> Recycler --: pass ()
+
+    loop#lightgreen #white select Material ID
+        Recycler -> Recycler : selectMaterialID()
+        Recycler -> System ++: displayListofCollectors()
+            deactivate System
+
+        Recycler -> Recycler : recordCollectorName<size:14><b>And</b></size>ProposedDate()
+        Recycler -> System ++: <b>save</b>()
+
+        System -> System ++: <b>recordProposedDate</b>()
+            deactivate System
+
+        Recycler -> Recycler : <b>submitMoreMaterial</b>()
+        Recycler -> System : <b>DisplayRecyclerFullnameAndMaterialList</b>()
+    end
+
+else #Pink Failure
+     System --> Recycler: Authentication Rejected
+        deactivate System
+end
+
+@enduml

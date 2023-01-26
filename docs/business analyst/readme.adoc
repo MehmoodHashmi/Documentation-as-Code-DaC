@@ -1,0 +1,601 @@
+:toc:
+:toc-title: Bussiness Analyst Fundamental
+
+Requirements documents are used to communicate the aims of a project in a clear, concise way to ensure all stakeholders are on the same page.
+
+When we talk about a https://qracorp.com/write-clear-requirements-document/[requirements document] we are often referring to a Business Requirements Document - or a BRD.
+
+But as well as a BRD, there are 9 other types of requirements documents that a business may want to use while pushing a project through its stages of completion. The type of format to be used depends on the result of the project itself, whether it’s a product, service or system, and the particular requirements it has.
+
+== THE KEY PLAYERS
+
+Before we jump into the 10 types of requirements documents, let's talk about the main people involved in their creation.
+
+* *The Customer* is ultimately responsible for determining the requirements. The customers’ needs are the origin of the project.
+
+* *The Business Analyst* is responsible for __discovering __the problem/requirements and determining the solution.
+
+* *The Project Manager* is responsible for __delivering __the solution to a problem.
+
+* *The Systems Analyst* uses analysis and design to satisfy business requirements using information technology.
+
+* *The Marketing Manager* develops the marketing strategy for the project in line with its requirements.
+
+* *The Product Manager* is responsible for defining the why, when, and what of the product that the development team will build.
+
+
+== *9* DIFFERENT TYPES OF REQUIREMENTS DOCUMENTS (*https://www.linkedin.com/pulse/requirements-documents-purpose-who-writes-them-/[article]*)
+
+*image:https://www.modernanalyst.com/Portals/0/Users/009/09/9/9-Types-Requirements-Documents-MA.png[9 Types Of Requirements Documents, width=400]*
+
+
+Requirements documents are used to communicate the aims of a project in a clear, concise way to ensure all stakeholders are on the same page.
+
+image::https://media.licdn.com/dms/image/C5612AQF5OuZdynj5uA/article-inline_image-shrink_1500_2232/0/1615543287225?e=1679529600&v=beta&t=CXe1D63kSJozA6AIiPmFS63fTGicsk40HKs6tM7ZxfI[width=350, float=right]
+
+*Here are the main people involved in their creation:*
+
+✔ The Customer is ultimately responsible for determining the requirements
+
+✔ The Business Analyst is responsible for discovering the problem/requirements
+
+✔ The Project Manager is responsible for delivering the solution to a problem
+
+✔ The Systems Analyst uses analysis and design to satisfy business requirements using IT
+
+✔ The Marketing Manager develops the marketing strategy for the project in line with its requirements
+
+✔ The Product Manager is responsible for defining the why, when, and what of the product that the development team will build.
+
+
+
+*Types Of Requirements Documents:*
+
+{empty}1. Business Requirements Document
+
+{empty}2. Functional Requirements Document
+
+{empty}3. Market Requirements Document
+
+{empty}4. Product Requirements Document
+
+{empty}5. User Interface Requirements Document
+
+{empty}6. Technical Requirements Document
+
+{empty}7. Quality Requirements Document
+
+{empty}8. Software Requirements Document or Software Requirements Specification
+
+{empty}9. Customer Requirements Document
+
+
+image::https://media.licdn.com/dms/image/C5612AQFKR3rV5OVH1A/article-inline_image-shrink_1500_2232/0/1615543389406?e=1679529600&v=beta&t=gZphVYfxY9qW90AgTANNwyHXr0K_ZG-WJp8lUgPYDok[width=350, float= right]
+
+*1. Business Requirements Document (BRD)*
+
+Also known as a Business Needs Specification, a BRD is the first stage in a product life cycle.
+It details the problems
+that a product/service/system is trying
+to solve by logically listing high-level business requirements in relation to customers’
+needs.
+As well as non-negotiables, it also details features the project should provide,
+which can be interpreted as goals for the development team
+
+It often includes:
+
+✔  An outline of the requirements of the project
+
+✔  Objectives of the project
+
+✔  A needs statement detailing why the project is needed and how it will meet those needs
+
+✔  Financial statements, demonstrating how the project will be funded and its effect on the company’s balance sheet
+
+✔  Functional requirements and features
+
+✔  A SWOT analysis of the business and how the project fits into it
+
+✔  Personnel needs - who do we want to work on the project?
+
+✔  Schedule, timeline and deadlines
+
+✔  A cost-benefit analysis (if required)
+
+
+
+A BRD is normally prepared by the #Business Analyst or Project Manager#.
+
+image::https://media.licdn.com/dms/image/C5612AQFA_CN4gcLL-A/article-inline_image-shrink_1500_2232/0/1615543431132?e=1679529600&v=beta&t=NrzRXObCWODHN3-qftWK2dNvIg4yAzClO1SGJwLnHyk[float=right]
+
+*2. Functional Requirements Document (FRD)*
+
+An FRD defines in logical terms how a system or project will accomplish the requirements laid out in the BRD. It outlines the functionality of the system in detail by capturing the intended behaviour of the system expressed as services, tasks or functions that the developers have agreed to provide. Rather than define the ‘inner-workings’ and specifications, an FRD focuses on what users might observe when interacting with the system.
+
+An example functional requirement might be: “When the user clicks the OK button, the dialog is closed, and the user is returned to the main window in the state it was in before the dialog was displayed”.
+
+An FRD sometimes includes screen mock-ups or wireframes to illustrate the system’s design.
+
+Depending on the complexity, FRDs can vary in length from 10 pages to several hundred.
+
+An FRD is normally written by the## Business Analyst or Systems Analyst.##
+
+image::https://media.licdn.com/dms/image/C5612AQE2XyRumXH7Qg/article-inline_image-shrink_1500_2232/0/1615543475205?e=1679529600&v=beta&t=Xtg6vHSlZ6Ofyqg24zS3w54wrzrQ3mOgedG5GVkkmas[width=350, float=right]
+
+*3. Market Requirements Document (MRD)*
+
+Sometimes referred to as a Marketing Requirements Document, an MRD focuses on the target market’s needs. It typically explains:
+
+🎯 What the product is
+
+🎯 Who the target customers are
+
+🎯 What products are in competition with it
+
+🎯 Why customers are likely to want this product.
+
+
+
+An MRD typically includes:
+
+✔ A definition of the target market: an imagining of the potential buyer or user
+
+✔ A comprehensive list of market requirements the solution will need to satisfy
+
+✔ Indicators of success for each requirement
+
+✔ A prioritized list of requirements from your market’s point of view
+
+✔ A timeframe for the product’s launch
+
+✔ An MRD is normally prepared by the## Marketing Manager or Product Manager.##
+
+image::https://media.licdn.com/dms/image/C5612AQGSD9GdE19Sqg/article-inline_image-shrink_1500_2232/0/1615543500480?e=1679529600&v=beta&t=0sm4BNzJJL5kMNKMmH7PEjuHrzElF4ten02SIPa995E[width=400, float=left]
+
+*4. Product Requirements Document (PRD)*
+
+ A PRD is used to communicate everything that must be included in a product release for it to be considered complete. It is written from a user’s point-of-view to understand what a product should do.
+
+It usually includes the same content as an FRD, but with ‘non-functional requirements’ added. Although non-functional requirements are not related to the functionality of the product, it’s often important to identify them - they may include such needs as reliability, security and scalability.
+
+
+
+A typical PRD might contain:
+
+✔ Objectives for the product
+
+✔ Features
+
+✔ User experience (UX) flow & design notes
+
+✔ System and environment requirements
+
+✔ Assumptions, constraints & dependencies - What’s expected as well as any limitations or obstacles that may impede the project’s progress
+
+
+
+✔ A *PRD* is normally prepared by the #Product Manager.#
+
+image::https://media.licdn.com/dms/image/C5612AQGemXZHwETJdg/article-inline_image-shrink_1500_2232/0/1615543523328?e=1679529600&v=beta&t=2tJg0oo3zGQ0fll3svzsf-k04jWgGcBy3f1gMaP4JcY[width=600, float=right]
+
+*5. User Interface Requirements Document (UIRD)*
+
+ A UIRD describes the look and feel of the User Interface (UI) of the system.
+
+
+
+It often defines:
+
+✔ How the content is presented to the user
+
+✔ User navigation
+
+✔ Colour codes to be used
+
+✔ Hints, tips and suggestions to be displayed
+
+✔  ‘Save data’ options
+
+✔ Shortcut keys.
+
+
+
+A UIRD more often than not includes mock-up screenshots and wireframes to give readers an idea of what the finished system will look like. It’s written by the #user interface design team.#
+
+*6. Technical Requirements Document (TRD)*
+
+ A TRD contains the software, hardware and platform requirements of the product. It includes requirements like the programming language the system should be developed in, and the processor speed required to run the system.
+
+It might also consider the limitations of the system and its performance.
+
+
+
+A good TRD will include the following key items:
+
+✔ An executive summary of the project and its background
+
+✔ Assumptions, risks, and factors that may affect the project
+
+✔ Functional and non-functional requirements
+
+✔ References or a list of supporting documents
+
+✔ A TRD is written by the #Engineering Team.#
+
+image::https://media.licdn.com/dms/image/C5612AQGQnJROpbzVEQ/article-inline_image-shrink_1500_2232/0/1615543551005?e=1679529600&v=beta&t=GwuNbUxai91Uf5ZUDESx81gHyzlzHWT6wkK5kdA5AoQ[width=800]
+
+*7. Quality Requirements Document*
+
+The quality requirements document outlines the expectations of the customer for the quality of the final product. It consists of various criteria, factors and metrics that must be satisfied.
+
+Quality requirements might revolve around reliability, consistency, availability, usability, maintainability and customer experience.
+
+This document can be written by the## project manager or business analyst.##
+
+
+*8. Software Requirements Document or Software Requirements Specification (SRS)*
+
+An SRS outlines the features and the intended behaviour of a system. It describes the business’ understanding of the end user’s needs while laying out functional and non-functional requirements.
+
+
+
+The contents may include:
+
+✔ A product overview
+
+✔ A summary of the current system
+
+✔ The proposed methods and procedures
+
+✔ Design considerations
+
+✔ Security considerations
+
+✔ An SRS is normally compiled by the #Lead Engineer of the project.#
+
+
+
+*9. Customer Requirements Document*
+
+This is sometimes referred to as Client Requirement Document and it can refer to a *PRD* but for a specific customer or client.
+
+
+
+== Specifying Requirements for Outsourced Projects (*https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/6192/Specifying-Requirements-for-Outsourced-Projects.aspx[article]*)
+
+
+
+Rather than building systems in house, many organizations outsource development to contract development companies. They might outsource the work to take advantage of skills they do not have available in-house, to augment their internal staff, or in an attempt to save money or time. The outsourced development supplier could be located physically nearby, on the other side of the world, or anywhere in between.
+
+The role of a business analyst is even more important on these projects than on a co-located project. If the team members are all in one location, developers can walk down the hall to ask the BA a question or to demonstrate newly developed functionality. This close collaboration can’t happen in the same way with outsourced development. Compared to in-house development, outsourced—and particularly offshore—projects face requirements-related challenges such as the following:
+
+* It’s harder to get developer input on requirements and to pass along user feedback to developers.
+
+* A formal contractual definition of requirements is necessary, which can lead to contention if differences of interpretation are discovered late in the project
+
+* There might be a bigger gap between what the customers ultimately need and the product they get based on the initial requirements, because there are fewer opportunities to adjust the project’s direction along the way.
+
+* It can take longer to resolve requirements issues because of large time zone differences.
+
+* Communicating the requirements is more difficult because of language and cultural barriers.
+
+* Limited written requirements that might be adequate for in-house projects are insufficient for outsourced projects, because users and BAs are not readily available to answer developer questions, clarify ambiguities, and close gaps.
+
+This article suggests some techniques for successful requirements development and management on outsourced projects.
+
+== APPROPRIATE REQUIREMENTS PRECISION
+
+Outsourcing product development demands high-quality written requirements, because your direct interactions with the development team are likely to be minimal. As shown in Figure 1, you’ll be sending the supplier a request for proposal (RFP), a set of requirements, and product acceptance criteria. Both parties will engage in a review and will reach agreement, perhaps with negotiation and adjustments, before the supplier initiates development. The supplier will deliver the finished software product and supporting documentation.
+
+.Requirements are the cornerstone of an outsourced project.
+image:https://www.modernanalyst.com/Portals/0/Public%20Uploads/requirements-for-outsourced-projects.png[Requirements for Outsourced Projects,title="Requirements for Outsourced Projects", width=450, float=left]
+
+
+With outsourcing, you won’t have the same opportunities for day-to-day clarifications, decision making, and changes that you enjoy when developers and customers work in close proximity. Particularly with offshore development, you should anticipate that the supplier will build exactly what you ask them to build. You will get no more and (hopefully!) no less, sometimes with no questions asked. The supplier likely won’t implement the implicit and assumed requirements you thought were too obvious to write down. Poorly defined and managed requirements are a common cause of outsourced project failure.
+
+As with in-house development, visual requirements models augment functional and nonfunctional requirements for outsourced teams. Using visual models to supplement written specifications is even more valuable if you are working across cultures and native languages, because it gives developers something to check their interpretations against. However, be sure the developers can understand the models you send them and interpret them accurately.
+
+Prototypes can also help clarify expectations for the supplier team. Similarly, the supplier can create prototypes to demonstrate to the acquirer their interpretation of the requirements and how they plan to respond to them. This is a way to create more customer-development interaction points to make course adjustments early in the project rather than late.
+
+Watch out for the ambiguous terms found in Chapter 11 of _https://www.amazon.com/exec/obidos/ASIN/0735679665/processimpact[Software Requirements, 3rd Edition]_ that cause so much confusion. I once read a requirements specification intended for outsourcing that contained the word “support” in many places. The BA who wrote the requirements acknowledged that the contractor who was going to implement the software wouldn’t know just what “support” meant in each case. A glossary is valuable when dealing with people who don’t share the tacit knowledge held by those who are familiar with the acquiring company’s environment.
+
+== ACQUIRER-SUPPLIER INTERACTIONS
+
+Without real-time, face-to-face communication you need other mechanisms to stay on top of what the supplier is doing, so arrange formal touch points between the acquirer and the supplier. Plan time for multiple review cycles of the requirements. Use collaboration tools to facilitate peer reviews with participants in multiple locations. Incremental development permits early course corrections when a misunderstanding sends the supplier’s developers in the wrong direction. If the supplier raises questions, document them and integrate the answers into the requirements. Use an issue-tracking tool to which both supplier and acquirer teams have access.
+
+Outsourced projects often involve teams with disparate company cultures and attitudes. Some suppliers are so eager to please that they agree to outcomes they cannot deliver. When an error is brought to their attention, they might strive to save face by not fully accepting responsibility for the problems. Some developers might hesitate to ask for help or clarification, or to say “I don’t understand.” Employ elicitation and facilitation techniques such as reading between the lines for what isn’t said and asking open-ended questions. Establish ground rules with all team members regarding how they should interact when they work together.
+
+Developers whose first language is different than the language in which the requirements are written might not pick up nuances or fully appreciate the implications of certain statements. They might make user interface design choices that you wouldn’t expect. Things as diverse as date formats, systems of measurement, the symbolism of colors, and the order of people’s given and family names vary between countries. The requirements should avoid the use of colloquialisms, jargon, idioms, and references to pop culture that could be misconstrued.
+
+== CHANGE MANAGEMENT
+
+At the beginning of the project, establish a change control process that all participants can use. Using a common set of web-based tools for handling change requests and tracking open issues is essential. Identify the decision makers for proposed changes and the communication mechanisms you’ll use to keep the right people informed. The outsourced development contract should specify who will pay for various kinds of changes, such as newly requested functionality or corrections made in the original requirements, and the process for incorporating the changes into the product.
+
+== ACCEPTANCE CRITERIA
+
+Define in advance how you’ll assess whether the contracted product is acceptable to you and your customers. How will you judge whether to make the final payment to the supplier? If the acceptance criteria are not fully satisfied, who’s responsible for making corrections, and who pays for those? Include acceptance criteria in the RFP so the supplier knows your expectations up front. Validate the requirements before you give them to the outsourced team, to help ensure that the delivered product will be on target.
+
+Properly handled, outsourcing the development work can be an effective strategy to build your software system. An essential starting point for a successful outsourcing experience is a set of high-quality, complete, and explicitly clear requirements. If the requirements you provide to the supplier are incomplete or misunderstood, failure is probably at least as much your fault as theirs.
+
+---
+
+== The *6* Most Important Requirements Practices (*https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/6074/The-6-Most-Important-Requirements-Practices.aspx[article]*)
+
+
+_The TL;DR for a 640-page book on software requirements_
+
+image:https://www.modernanalyst.com/Portals/0/Public%20Uploads/6-most-important-requirements-practices.jpeg[The 6 Most Important Requirements Practices,title="The 6 Most Important Requirements Practices"]
+
+Photo by Karl Wiegers
+
+Authors sometimes make things longer and more complicated than necessary. Some readers might feel that I’ve been guilty of this myself. The third edition of my book _Software Requirements_, co-authored with Joy Beatty, is about 245,000 words long, nearly 640 pages in a rather small font. Maybe that seems like overkill, but to be fair, the requirements domain is large and complex.
+
+Books like _Software Requirements, Mastering the Requirements Process_ by Suzanne and James Robertson, and the IIBA’s _Business Analysis Body of Knowledge_ describe dozens of valuable techniques for requirements elicitation, analysis, specification, validation, and management. They’re all useful when thoughtfully applied in appropriate situations. But if you don’t have time to wade through these large volumes, you might like this TL;DR version of the six most important requirements practices that every project team should perform.
+
+== **PRACTICE #1:** DEFINE BUSINESS OBJECTIVES
+
+Organizations undertake a project to solve a problem, exploit a business opportunity, or create a new market. Defining the project’s business objectives communicates to all participants and other stakeholders https://medium.com/analysts-corner/why-are-we-working-on-this-project-a2fa24e4f00[why they are working on the project]. The organization could hope to achieve both financial and non-financial business objectives with the new product. Try to quantify the business objectives, and make them measurable, with statements like these:
+
+* Capture a market share of X percent within Y months.
+
+* Reach a sales volume of X units or revenue of $Y within Z months.
+
+* Save X dollars per year currently spent on a high-maintenance legacy system.
+
+Using business objectives aligns all of the team’s work and key decisions. Without defined business objectives, you can’t craft a clear product vision statement or https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/2116/Defining-Project-Scope-Scope-Part-1.aspx[establish the scope] of either the entire project or any development increment. The team can’t make good decisions about scope changes or proposed functionality unless they know how those changes match up with the business objectives. Keeping the scope in focus helps the team avoid https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/2118/Managing-Scope-Creep-Scope-Part-3.aspx[scope creep] while still adapting to changing business realities. And how can you know if the project was a success unless someone defined measurable business objectives and success criteria up front?
+
+== *PRACTICE #2:* UNDERSTAND WHAT USERS NEED TO DO WITH THE PRODUCT
+
+I strongly advocate taking a usage-centric approach to requirements development and solution design, rather than a feature- or product-centric approach. Understanding the tasks that users need to perform and the goals they want to achieve lets the business analyst (BA) derive the functionality that developers must implement. When you focus on exploring features rather than user goals, it’s easy to overlook some necessary functionality. It’s also easy to include functionality that seems cool but doesn’t help users get their jobs done. Use cases are an effective technique for maintaining this usage-centric mindset.
+
+Seeking to understand what users need to do with the product implies several other important BA activities, including these:
+
+* Identifying a wide range of project stakeholders
+
+* Characterizing distinct user classes that have largely different requirements
+
+* Identifying individuals to serve as the voice of the customer for each user class (product champions)
+
+* Selecting appropriate requirements elicitation techniques to engage with users
+
+* Establishing decision-making processes to resolve conflicts and priorities across user classes
+
+* Building and evaluating prototypes or early releases to stimulate user feedback
+
+== *PRACTICE #3:* PRIORITIZE THE REQUIREMENTS
+
+I doubt that any project has ever implemented every bit of requested functionality. Even if you could implement it all, you can’t do it all at once. Your goal is to deliver the maximum business value to your customers at the lowest cost and in the shortest time. Achieving this goal demands that you prioritize requirements so the team can work on them in the most appropriate sequence.
+
+Prioritization involves considering how much each proposed requirement contributes to achieving the project’s business objectives. Prioritizing requirements lets the team decide which of the work items remaining in the backlog to defer or omit because of time and resource constraints. There are numerous requirements prioritization techniques available, including https://www.simplilearn.com/agile-prioritization-techniques-article[these]:
+
+* In or out
+
+* Pairwise comparison and rank ordering
+
+* Three-level scale
+
+* MoSCoW
+
+* Relative weighting
+
+* $100 test
+
+Some of these methods take more effort than others, but those methods also help the project manager or product owner make finer-grained choices. Choose any technique that lets the right stakeholders make good business decisions throughout the project to avoid a frantic “rapid descoping phase” late in the game.
+
+== *PRACTICE #4:* EXPLORE NONFUNCTIONAL REQUIREMENTS
+
+People naturally focus on a product’s functionality when discussing requirements, but those are only part of the solution. Nonfunctional requirements contribute heavily to user satisfaction and suitability for use. When speaking of nonfunctional requirements, people most commonly think of quality attributes, sometimes called the “-ilities.” These product characteristics include usability, maintainability, security, reliability, and many others. To help designers devise the most appropriate solution, BAs need to discuss nonfunctional requirements as part of requirements elicitation.
+
+Developers don’t directly implement requirements concerning safety, reliability, portability, security, or other characteristics. Instead, these attributes serve as the origin of many functional requirements and drive design decisions. Table 1 indicates the likely categories of technical information that different types of quality attributes will generate.
+
+image:https://www.modernanalyst.com/Portals/0/Public%20Uploads/translating-quality-requirements-into-specifications.png[Translating quality attributes into technical specifications ,title="Translating quality attributes into technical specifications "]
+
+Table 1. Translating quality attributes into technical specifications
+
+(from Software Requirements, 3rd Edition, by Karl Wiegers and Joy Beatty)
+
+Another challenge is that it’s not possible to optimize all of the desired quality factors at once. Designers must https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/2926/Specifying-Quality-Requirements-With-Planguage.aspx[make trade-off decisions] among the various attributes. Therefore, the team needs to determine which ones are most important to customer success and optimize those. Carefully specifying quality attributes lets you build a product that delights its users, beyond merely doing what it’s supposed to.
+
+== *PRACTICE #5:* REVIEW THE REQUIREMENTS
+
+How do you know if your requirements are accurate? How can you tell if they’re clear enough so all the team members know what to do with them and other stakeholders know what to expect in the solution? No matter how you choose to represent requirements knowledge, it is sometimes ambiguous, incomplete, or simply incorrect.
+
+One of the most powerful quality practices available is peer review of requirements. Convene some colleagues to review both textual requirements and diagrams. Different project participants — BAs, designers, developers, testers, users — will find different kinds of problems during these reviews. Requirements reviews pose some https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/5360/Requirements-Review-Challenges.aspx[particular challenges]. Rather than simply inviting people to look over the requirements, provide some training so reviewers know how to participate effectively and can find as many issues as possible.
+
+A related requirements validation practice is to write conceptual tests based on requirements. Testing requirements is something you can do early in each development cycle to reveal many errors before they are cast into code. Requirements and tests are complementary views of the same knowledge. Requirements describe how the product should behave under certain conditions; tests describe how to tell if it’s exhibiting the correct behaviors.
+
+== *PRACTICE #6:* PLAN FOR REQUIREMENTS CHANGE
+
+No matter how well you understand the problem and how carefully you prepare the requirements, they won’t be perfect, complete, or static. The world changes around us as we work. New users and new ideas appear. Business rules surface and evolve. Projects inevitably grow beyond their originally envisioned scope. Every team must anticipate requirements changes and establish mechanisms for dealing with them without derailing the team’s commitments.
+
+When you know the project outcome is incompletely defined and likely to change a lot, an incremental, agile approach is a good way to cope with it. You plan to build the requirements — and the solution — in a series of small chunks, expecting the direction to change and accepting the uncertainty of what you’ll have at the end and when you’ll have it.
+
+When the likely degree of change is less extreme, plan to accommodate some growth (along with risks, imprecise estimates, and unexpected events) by building contingency buffers into development schedules. Establish a requirements change process so the right people can get the right information to https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/6061/Using-Feature-Trees-to-Depict-Scope.aspx[make good business decisions about which proposed changes to incorporate] to add value with minimal disruption. Don’t use the expectation of change as a justification for skimping on requirements thinking, though. Excessive requirements churn often indicates that objectives were unclear or the elicitation approach wasn’t effective.
+
+== NEGLECT THESE PRACTICES AT YOUR PERIL
+
+Of course, there are many other valuable requirements activities besides these six. However, these practices greatly increase your chances of building a solution that achieves the desired business outcomes efficiently and effectively. Applying them doesn’t guarantee success for any BA, product owner, or product manager. But neglecting them likely ensures failure.
+
+---
+https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/5912/categoryId/73/Selecting-and-Tailoring-Business-Analysis-Approaches-Techniques.aspx[Selecting and Tailoring Business Analysis Approaches & Techniques
+]
+
+== Overview of #*AWS*# (Amazon Web Services) for #Business Analysts# (*https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/6075/Overview-of-AWS-Amazon-Web-Services-for-Business-Analysts.aspx[article]*)
+
+== *PURPOSE*
+
+I’ve written this article to provide an overview of AWS (Amazon Web Services) for Business Analysts.
+
+The cloud (in particular AWS) is now a part of many projects. If you’ve been in meetings where people have mentioned: `‘EC2’, ‘ELB’, ‘AZs’` and thought ‘WTF’ then this article should help you.
+
+This article will provide:
+
+* an overview of AWS (what is it, why its popular, how it’s used)
+* typical AWS architecture for a project (e.g. VPN, Regions, AZs)
+* cheat sheet for other key terms (EBS, EFS etc)
+
+== *1. OVERVIEW OF AWS*
+
+*What is AWS*
+
+AWS is the most popular cloud platform in the world. It’s owned by Amazon & is almost as large as the next 2 cloud providers combined (Google Cloud + Microsoft’s Azure).
+
+In a nutshell – AWS allows companies to use on-demand cloud computing from Amazon. Customers can easily access servers, storage, databases and a huge set of application services using a pay-as-you-go model.
+
+_*Key Point:* AWS is a cloud platform (owned by Amazon) used by companies to host and manage services in the cloud._
+
+*Why companies use it*
+
+Historically companies have owned their own IT infrastructure (e.g. servers / routers / storage). This has an overhead in terms of maintenance. It meant companies had to pay large amounts of money to own their infrastructure – even if that infrastructure was barely used certain times (e.g. at 3am). Companies also struggled to ramp up the infrastructure if demand suddenly went up (e.g. viral video on a website).
+
+AWS & the cloud in general helps companies with that situation. It has 5 main benefits:
+
+[arabic]
+. Pay for what you use
+. Scale the infrastructure to meet the demand
+. Resiliency (if one data centre goes down, your service can use another)
+. Cheaper (leverages the purchasing scale of Amazon)
+. Removes the need to own and manage your own data centres
+
+_*Key Point:* AWS allows companies to only pay for the infrastructure they use. It also allows companies to quickly ramp up & ramp down infrastructure depending on demand._
+
+*How companies use it*
+
+There are 3 main cloud computing models. Most companies use IaaS:
+
+[arabic]
+. *Infrastructure as a Service (IaaS)* – provides access to networking features, computers (virtual or dedicated hardware) and data storage. This provides the greatest flexibility as you control the software / IT resources. With this model you get the kit but you manage it
+. *Platform as a Service (PaaS)* – removes the need for your organisation to manage the infrastructure (hardware and operating systems). You don’t have to worry about software updates, resource procurement & capacity planning. With this model there’s even less to do – you just deploy / manage your own application (e.g. your website code)
+. *Software as a Service (SaaS)* – provides you with a product that is run and managed by AWS. In this model you don’t need to worry about the infrastructure OR the service
+
+If Amazon provides a suitable managed service, then it's often cheaper to use PaaS rather than IaaS - because you don't need to build and manage the service yourself.
+
+A note about cloud deployment models …. broadly speaking there’s two models & most companies operate as Hybrid:
+
+[arabic]
+. *Cloud* = application is fully deployed in the cloud. All parts of the application run in the cloud
+. *Hybrid* = connects infrastructure & applications between cloud-based resources and non-cloud based resources. This is typically used when legacy resources were built on-premises & it’s too complex to move them to the cloud - or because the company doesn’t want certain information in the cloud (e.g. privileged customer information)
+
+_*Key Point:* Most companies use AWS to provision infrastructure (IaaS). Amazon also offer PaaS and SaaS. PaaS means Amazon manage the platform (e.g. hardware / OS). SaaS means Amazon provides the product / service as well as the infrastructure._
+
+== *2. TYPICAL AWS ARCHITECTURE*
+
+*Region / Availability Zone*
+
+AWS has multiple Regions around the world. A *Region* is a geographic location (e.g. London, Ireland). You will typically deploy your application to one Region (e.g. London). +
+An *Availability Zone* is a data centre. A Region will have multiple Availability Zones. This means if one Availability Zone (AZ) fails, the other one(s) will keep running so you have resiliency. If you deploy to the London region – you will be in 3 AZs.
+
+_*Key Point:* Your application is likely to be hosted in 1 Region (London). Across 3 Availability Zones._
+
+image:https://www.modernanalyst.com/Portals/0/Public%20Uploads/userfiles/54193/06-06-2022.png[float=right]
+
+*VPC / subnet*
+
+A *VPC (Virtual Private Cloud)* is your own chunk of the cloud. It allows you to create your own network in the cloud. Essentially a VPC is a subsection of the cloud – allowing you more control. You control what traffic goes in and out of the network. +
+A VPC sits at the region level. You can leverage any of the Availability Zones to create your virtual machines (e.g. EC2 instances) and other services. Within a VPC you can create many subnets – which are isolated parts of the network. Subnets are just a way to divide up your VPC and exist at the AZ level. You can have public or private subnets (or both). +
+The main AWS Services inside a VPC are: EC2, RDS, ELB. Although most things can now sit in a VPC.
+
+_*Key Point:* You’ll likely have 1 VPC (Virtual Private Cloud) in London & it will span all 3 AZs. A VPC gives your company an isolated part of AWS. You will create subnets to break-up the VPC into smaller chunks._
+
+image:https://www.modernanalyst.com/Portals/0/Public%20Uploads/userfiles/54193/06-06-2022_1.png[width=350, float=left]
+
+*Internet Gateway* = configures incoming and outgoing traffic to your VPC. It’s attached to the VPC & allows it to communicate with the Internet. +
+*Route Table* = Each VPC has a route table which makes the routing decision. Used to determine where network traffic is directed. +
+*NACL* = Acts as a firewall at the subnet level. Controls traffic coming in and out of a subnet. You can associate multiple subnets with a single NACL. There are 2 levels of firewall in a VPC: Network access control list (NACL) = at a subnet level. Security group = At an EC2 instance level. +
+*Subnet* = a subnetwork inside a VPC. It exists in 1 AZ. You can assign it an IP range & it allows you to control access to resources (e.g. you could create a private subnet for a DB and ensure its only accessible by the VPC). +
+*NAT* (not represented in the diagram) = Network address translation. NATs are devices which sit on the public subnet and can talk to the Internet on behalf of EC2 which are on private instances. +
+Every VPC comes with a private IP address range which is called *CIDR* (classless inter-domain routing). A VPC comes with a default local router that routes the traffic within a VPC.
+
+== *3. KEY AWS CONCEPTS*
+
+*EC2 / EBS / AMI – server, storage, machine image*
+
+*EC2 = Elastic Compute Cloud.* It’s a virtual machine in the cloud. You can run applications on it. It’s a bit like having a computer. It’s at an AZ level. You install an image on the EC2 instance (e.g. Windows or Linux) & chose the size (CPU / memory / storage). Storage is not persisted on an EC2 (e.g. if you delete an EC2 instance the storage is lost), so you will need EBS.
+
+*EBS = Elastic Block Storage*. It’s like a hard drive & is local to an EC2 instance. This means it’s at an AZ level. You use it for storing things like the EC2 Operating System. It behaves like a raw, unformatted block device & is used for persistent storage.
+
+Some other storage options in AWS include:
+
+* *S3* (Simple Storage Service) = Object Storage. Essentially a bucket where you can store things – S3 can be accessed over the internet. S3 is flat storage (there’s no hierarchy). It offers unlimited storage. Used for uploading and sharing files like images/videos, log files & data backups etc
+* *EFS* (Elastic File System) = File Storage. It’s shared between EC2 instances. It allows a hierarchical structure. It’s at a region level and can be accessed across multiple AZs. Used for web serving, data analytics etc
+
+*AMI = Amazon Machine Image*. A template that contains the software configuration (e.g. OS, application, server) required to launch your EC2 instance.
+
+*_Key Point:* You will spin up EC2 instances on your subnets. EC2 instances are like computers (with OS, CPU, memory storage) & you can run your application on them. EBS is storage attached to an EC2 instance. AMI is a template for launching EC2 instances._
+
+*ELB, Autoscaling & CloudWatch – load balancing, scaling, monitoring*
+
+*Elastic Load Balancer (ELB)* allows you to balance incoming traffic across multiple EC2 instances. It allows you to route traffic across EC2 instances so that they’re not overwhelmed. +
+*Autoscaling* adds capacity on the fly to ELB. Autoscaling increases or decreases the number of EC2 instances based on a scaling policy. Autoscaling will increase instances when a threshold value is exceeded and remove instances when they are not being utilised. +
+*Cloudwatch* is a monitoring service. It monitors the health of resources and applications. If an action is to be taken it will trigger the appropriate resources via alarms. Cloudwatch triggers the autoscaling.
+
+*_Key Point:* Elastic Load Balancer (ELB) distributes traffic across your existing EC2 instances. Cloudwatch monitors the service & triggers autoscaling. Autoscaling will perform scaling up or down of EC2 instances._
+
+*IAM – access management*
+
+*IAM = Identity and Access Management*. This is where you manage access to AWS resources (e.g. an S3 bucket) & the actions that can be performed (e.g. create an S3 bucket). It’s commonly used to manage users, groups, IAM Access Policies & roles. You can use IAM roles for example to grant applications permissions to AWS resources.
+
+IAM is set at a global level (above region level – essentially at an AWS account level).
+
+*_Key Point:* #IAM# is where you manage access to computing, storage, database & application services. You can decide what resources a user or application can access, and what actions they can perform._
+
+*ELK – analytics, data processing & visualisation*
+
+*ELK = Elasticsearch + Logstash + Kibana*. It’s often used to aggregate and analyse the logs from all your systems. +
+Elasticsearch is a search and analytics engine. Logstash is used for data processing; Logstash ingests data from multiple sources, transforms it & sends it to Elasticsearch. Kibana lets you view data with charts and graphs. Here’s an example from Kibana:
+
+image:https://www.modernanalyst.com/Portals/0/Public%20Uploads/userfiles/54193/06-06-2022_2.png[image]
+
+*Elastic Stack* is the next evolution of ELK. It includes Beats:
+
+* *Beats* = lightweight, single purpose data shippers. Sits on your server and sends data to Logstash or Elasticsearch
+* Example Beats include: Filebeat (ships logs and other data), Metricbeat (ships metric data), Packetbeat (ships network data)
+
+As a note - there is an Amazon-managed elastic service called 'Amazon OpenSearch Service'.
+
+_*Key Point:* ELK lets you analyse logs and visualise them on a dashboard. You can see errors, volumes, performance (& more) for your service. Elastic Stack is ELK + Beats (data shippers)._
+
+== *4. EXAMPLE AWS IMPLEMENTATIONS*
+
+*#1 Simple example -VPC in 1 region, 3 AZs, with multiple subnets*
+
+Here we have a VPC spanning 3 AZs. This VPC could be in the London Region.
+
+To segment the VPC into smaller networks – they have setup private and public subnets. Each subnet is likely to have EC2 instances / DB instances in them.
+
+image:https://www.modernanalyst.com/Portals/0/Public%20Uploads/userfiles/54193/06-06-2022_3.png[image]
+
+*#2 Detailed example - VPC in 1 region, 2 AZs, with multiple subnets (public and private)*
+
+In this example you have a VPC in 1 Region across 2 AZs. You can see that they’ve setup public subnets (to connect to the Internet) and private subnets (for EC2 instances and to host a DB with private information). The IGW (Internet Gateway) is attached to the VPC; the Internet Gateway is controlling incoming & outgoing traffic and allows the VPC to communicate with the Internet.
+
+There is an Elastic Load Balancer (ELB) which is being used to balance incoming traffic across EC2 instances – so that the EC2 instances are not overwhelmed. It’s not shown here – but they may also be using Cloudwatch and Autoscaling to increase / decrease the number of EC2 instances depending on traffic.
+
+image:https://www.modernanalyst.com/Portals/0/Public%20Uploads/userfiles/54193/06-06-2022_4.png[image]
+
+*#3 Complex example - Multiple VPCs, VPC peering, transit gateway, VPN tunnels and direct connects*
+
+Looking at the right hand side of the image. In this design there are multiple VPCs.
+
+One big application may be across multiple VPCs. *VPC peering* allows one VPC to talk to another using a dedicated and private network. They can be in the same AWS region or a different AWS region. It means you don’t have to talk over public internet but via AWS managed connectivity. HOWEVER this is VPC-to-VPC and if you have many VPCs this becomes complex because its 1:1 connection between VPCs. +
+If you want to connect hundreds of VPCs you can use a *transit gateway*. With this design all VPCs connect to a transit gateway + the transit gateway can connect to any VPC (it acts like a hub). +
+There is a 3rd way to connect a VPC to another VPC – if you don’t want to expose all the machines in one VPC (e.g. if its a SAAS product). It’s not represented in this diagram but if you only want to expose 1 service you can use “private link”. Which allows the Network load balancer of one VPC to connect to the VPC Endpoint Interface.
+
+Finally – in the bottom right you can see a *Virtual Private Gateway*. This allows your VPC to connect to your on-prem network or your on-prem data centre. It can enable connectivity using VPN tunnels or a dedicated connection called AWS direct connect (the latter gives more bandwidth reliability). Essentially its used for hybrid connectivity – where some of your workloads are on premise & some are in AWS.
+
+image:https://www.modernanalyst.com/Portals/0/Public%20Uploads/userfiles/54193/06-06-2022_5.png[image]
+
+== *5. CONCLUSIONS*
+
+The aim of this article was to provide an overview of a very technical area (AWS).
+
+I haven’t listed all of the AWS technologies (e.g. Kubernetes, containers, serverless). If you’re interested in learning more about AWS I’d recommend:
+
+* https://docs.aws.amazon.com/whitepapers/latest/aws-overview/amazon-web-services-cloud-platform.html[Amazon Web Services Cloud]
+
+ * https://www.youtube.com/watch?v=r4YIdn2eTm4[AWS In 10 Minutes | AWS Tutorial For Beginners | AWS Training Video | AWS Tutorial | Simplilearn]
+
+* https://www.youtube.com/c/AWSTrainingCenter[Introduction to AWS Networking]
+
+
+I hope you find this useful. I’d like to thank *Matt Clark* (Head of Architecture for the BBC’s Digital Projects) & *Gavin Campbell* (DevOps Engineer at Equal Experts) for providing feedback on the article.

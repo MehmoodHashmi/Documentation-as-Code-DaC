@@ -1,0 +1,1 @@
+# When you work on a new project, you learn something new, but when you <mark>reuse</mark> `(code or documentation)` only then you make more money and save time. _So, always think `reuse`_.

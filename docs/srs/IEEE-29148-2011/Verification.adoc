@@ -1,0 +1,23 @@
+:numbered:
+:hardbreaks:
+:sectnumlevels: 6
+:sectids:
+:sectanchors:
+:imagesdir: ./images
+:iconsdir: ./icons
+:stylesdir: ./styles
+:scriptsdir: ./js
+
+== Verifications 
+
+Provide the verification approaches and methods planned to qualify the software. The information items for verification are recommended to be given in a parallel manner with the information items in subclause <<SpecificRequirements.adoc#trueexternal-interfaces>> to <<SpecificRequirements#truesoftware-system-attributes>>.
+
+=== External interfaces
+=== Functions
+=== Usability requirements
+=== Performance requirements
+=== Logical database requirements
+=== Design constraints
+=== Software system attributes
+=== Supporting information
+

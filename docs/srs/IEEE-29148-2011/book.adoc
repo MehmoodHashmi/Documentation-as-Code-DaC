@@ -1,0 +1,37 @@
+Software Requirements Specifications
+====================================
+Syaiful Nizam Yahya <syaifulnizamyahya@gmail.com>
+v1.0, 2016-02-09
+:Author Initials: SNY
+:AKA: publicENEMY
+:toc: left
+:numbered:
+:website: http://syaifulnizamyahya.bitbucket.org/
+:original reference document: https://standards.ieee.org/findstds/standard/29148-2011.html
+:standard reference: ISO/IEC/IEEE 29148:2011
+:asciidoc writing guideline: http://asciidoctor.org/docs/asciidoc-writers-guide/
+:hardbreaks:
+:sectnumlevels: 6
+:sectids:
+:sectanchors:
+:imagesdir: ./images
+:iconsdir: ./icons
+:stylesdir: ./styles
+:scriptsdir: ./js
+:doctype: book
+:encoding: utf-8
+:lang: en
+
+include::GeneralContent.adoc[]
+
+include::Introduction.adoc[]
+
+include::References.adoc[]
+
+include::SpecificRequirements.adoc[]
+
+include::Verification.adoc[]
+
+include::Appendices.adoc[]
+
+include::Index.adoc[]

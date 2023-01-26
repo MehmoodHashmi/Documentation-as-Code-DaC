@@ -1,0 +1,19 @@
+:!numbered:
+:hardbreaks:
+:sectnumlevels: 6
+:sectids:
+:sectanchors:
+:imagesdir: ./images
+:iconsdir: ./icons
+:stylesdir: ./styles
+:scriptsdir: ./js
+
+== Title
+
+Project Name:
+Author/s:
+[underline]##Editors##:
+Version:
+[underline]##Creation date##:
+Date of release/Last update:
+Approved signature:

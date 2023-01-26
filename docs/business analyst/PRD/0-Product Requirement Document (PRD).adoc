@@ -1,0 +1,107 @@
+:toc:
+:doctype:
+:docdatetime:
+:description: A PRD (product requirements document) outlines the requirements of what you’re going to build so that people know what the completed product should do. Remember: the overall goal of a PRD is to define what you’re going to build — not how you’re going to build it.
+
+
+
+https://www.perforce.com/blog/alm/how-write-product-requirements-document-prd[PRD link to the website]
+
+== 1. Define the Purpose of the Product
+
+Everyone in development needs to be aligned on the purpose of the product. The purpose needs to drive the features.
+
+The purpose should outline:
+
+* What problems this product solves.
+* Who will use the product.
+* Why it’s important.
+
+Every stakeholder should agree on the purpose — and be aware of it as development progresses.
+
+== 2. Break the Purpose Down Into Features
+
+Your next step is to determine the feature requirements for the release. Every feature should support the overall purpose of your product.
+
+A best practice for [.MsoHyperlink]#https://www.perforce.com/webinars/software-development-best-practices-planning-theme-setting-requirements[setting feature requirements]# is to first define themes and initiatives.
+
+A theme aligns the organization for years.
+
+Some examples of a theme might be:
+
+* API
+* Performance
+* Mobile
+
+Themes can cross multiple years and release cycles.
+
+Initiatives are used to align development efforts to achieve a theme. And initiatives ensure you know that things are going in the right direction. An initiative might span multiple themes, for instance incorporating features for API, performance, and mobile.
+
+From there, an initiative breaks down into feature requirements.
+
+=== [.MsoHyperlink]#https://www.perforce.com/webinars/software-development-best-practices-planning-theme-setting-requirements[▶️ ]#_[.MsoHyperlink]#WATCH:https://www.perforce.com/webinars/software-development-best-practices-planning-theme-setting-requirements[ From Planning a Theme to Setting Requirements >>]#_
+
+
+
+== 3. Set the Goals For the Release Criteria
+
+Setting the right goals for the release criteria will help you achieve the purpose of the product release.
+
+Your goals should be:
+
+* Easy to understand.
+* Actionable.
+* Achievable.
+* Measurable.
+
+And release criteria should cover five areas.
+
+=== _Functionality_
+
+You’ll need to define the minimum functionality you need in order to release the product. An example is defining requirements that are critical to the release.
+
+=== _Usability_
+
+You’ll need to ensure the product is easy to use. An example is determining the scope of user testing — and what you’ll do with those results.
+
+=== _Reliability_
+
+You’ll need to determine that your product is reliable. An example is making sure it can recover from system failure.
+
+=== _Performance_
+
+You’ll need to set a baseline for performance. An example is determining how fast your product needs to load.
+
+=== _Supportability_
+
+You’ll need to determine that the release can be supported. An example is ensuring it can be installed and configured by users.
+
+== 4. Determine the Timeline
+
+Every product release needs a goal release date — even if it’s a rough estimate.
+
+This should give you flexibility to adapt to a change in priorities. But it should restrict scope creep by limiting how many features stakeholders can add.
+
+Managing the release process — and hitting that target release date — can be tricky.
+
+=== [.MsoHyperlink]#https://www.perforce.com/webinars/how-fix-your-release-process[▶️]#_[.MsoHyperlink]#https://www.perforce.com/webinars/how-fix-your-release-process[]WATCH:https://www.perforce.com/webinars/how-fix-your-release-process[ How to Fix Your Release Process >>]#_
+
+
+
+== 5. Make Sure Stakeholders Review It
+
+When you create a PRD, it’s vital that key stakeholders review the document.
+
+This can be tricky when you’re managing a requirements document in Microsoft Word.
+
+It’s a best practice to have a central solution where you can manage [.MsoHyperlink]#https://www.perforce.com/resources/alm/managing-requirement-reviews-helix-alm[requirements reviews]# online. Then, you can ensure that everyone is looking at the most recent version of the document. And you can go back and track how things have changed.
+
+It’s also important that everyone involved in development of the product knows what’s on the PRD. It should be shared with everyone from developers to testers to managers.
+
+== [.line-through]#A PRD and Traceability#
+
+[.line-through]##Writing a PRD is just one step towards efficient development and a better release process.
+Successful releases also depend on thorough testing and speedy bug resolution.##
+
+[.line-through]##So, it’s a best practice to have a tool — such as [.MsoHyperlink]#https://www.perforce.com/products/helix-alm[Helix ALM]# — where you can track user stories (or requirements), tests, and issues all in the same spot. Then, you can even use your PRD to ensure test coverage by creating test cases from user stories. And you can track results through to bug resolution.
+##

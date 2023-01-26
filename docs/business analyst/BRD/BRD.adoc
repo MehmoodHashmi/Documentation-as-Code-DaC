@@ -1,0 +1,23 @@
+:toc:
+
+A business requirement document or BRD is created to define the requirements of the particular product or software that the client needs the company to work upon and finally achieve the results as discussed in the meetings with the client. A BRD is one such document that everyone refers to throughout the project life cycle. This document helps them make the right choices for every phase without making a rookie mistake during the process.
+
+A BRD focuses on what would be the intended business solution based on the problem statement as presented by the client. Hence, it is safe to say that the BRD mentions and gathers all the essential requirements as explained by the business stakeholder.
+
+Along with the Business Analyst, the project manager, the scrum master, the client, the domain experts, the senior managers create the BRD to ensure that the business requirements are correctly understood and jotted down for reference purposes.
+
+The Business Requirement Document normally contains:
+
+== A little background of the Project
+
+== Goals and objectives of the Business
+
+== Stakeholders involved in the project
+
+== Requirement scope
+
+== Gathering the relevant Data for the project
+
+== Interface requirements for the projects to function well
+
+== Business glossary/ Jargons (if required)

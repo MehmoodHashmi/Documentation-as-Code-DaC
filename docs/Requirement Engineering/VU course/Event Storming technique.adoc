@@ -1,0 +1,44 @@
+
+
+Even if you aren't using #*DDD or event sourcing*#, you can use event storming because it is a general technique/tool/strategy
+
+.What is event storming?
+image::images/image-2023-01-24-00-36-30-390.png[width=600]
+
+.What is a complex business domain?
+image::images/image-2023-01-24-00-38-45-335.png[width=500]
+
+.When does event storming apply?
+image::images/image-2023-01-24-00-39-53-914.png[width=500]
+
+.Temporal modeling VS Structural modeling
+image::images/image-2023-01-24-00-41-11-113.png[width=380,float=right]
+
+We are interested in temporal modeling that is:
+
+* What's going on?
+* What changes?
+* What are interactions b/w different actors?
+
+That's why we are using something like event storming.
+
+.Knowledge is distributed
+image::images/image-2023-01-24-00-44-35-255.png[width=700]
+
+image::images/image-2023-01-24-00-45-36-793.png[width=600]
+
+image::images/image-2023-01-24-00-46-11-111.png[width=600]
+
+image::images/image-2023-01-24-00-46-31-397.png[width=600]
+
+image::images/image-2023-01-24-00-46-58-451.png[width=600]
+
+image::images/image-2023-01-24-00-47-17-633.png[width=600]
+
+image::images/image-2023-01-24-00-47-36-653.png[width=600]
+
+image::images/image-2023-01-24-00-47-52-368.png[width=600]
+
+image::images/image-2023-01-24-00-48-14-808.png[width=500]
+
+image::images/image-2023-01-24-00-48-57-248.png[]

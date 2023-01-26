@@ -1,0 +1,37 @@
+@startuml
+title "__//<:1f600:> Echo Save<:1f517:><:1f553:><:1f52d:> ""System""<:1f578:><:1f578:><size:18> Corporation</size>//__ "
+!pragma teoz true
+
+left to right direction
+skinparam actorStyle awesome
+
+together  {
+    actor "Echo Save \r Admin" as admin #gold
+
+    rectangle users #grey {
+        actor "Collector" as collector <<human>> #lightgreen
+        actor "Recycler" as recycler #pink
+    }
+}
+
+rectangle  "Echo Save System" <<subsystem>> #yellow {
+
+    usecase "Test"
+
+    admin -> (Maintain material \r type) #red : can >
+    admin -> (submission \r history) : > can check
+
+    collector --> (submission \r history) : > can view
+    collector --> (Sign up) : can do >
+    collector --> (record material \n submission)  : can >
+
+    recycler --> (submission \r history) : can view >
+    recycler --> (Sign up) : can do >
+    recycler --> (Make appointment \n for submission) : can >
+    recycler --> (record material \n submission)
+
+}
+    database nothing_DB <<non human>>
+    "Test"-- nothing_DB
+
+@enduml

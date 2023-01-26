@@ -1,0 +1,107 @@
+@startuml
+
+left to right direction
+skinparam actorStyle awesome
+skinparam handwritten true
+
+
+actor "Sales Assistant" as assistant #blue
+actor "Store Manager" as StoreManager #lightgreen
+actor "Warehouse Manager" as WarehouseManager #red
+actor "Warehouse Employee" as WarehouseEmplyee #grey
+actor "Customer" as Customer #gold
+rectangle "\n<b>PayPal service</b>" <<external-actor>> as PayPalService #pink
+rectangle "\n<b>Card service</b>" <<external-actor>> as CardService #pink
+
+rectangle "<size:22>Komplott Data</size>" {
+
+    together {
+
+        usecase "Authentication &\n authorization" #lightgreen
+
+            note top of "Authentication &\n authorization"
+            The sales assistant identify themselves <b>(with card & code)</b>) every
+            time before they process an item or order or refund an item.
+            end note
+
+        together {
+            usecase "Process \n order" as ProcessOrder #grey
+                note top of ProcessOrder
+                <b>Product quantity and product number </b>
+                 both are required when processing an order
+                end note
+
+            usecase "Immediate \npickup" #grey
+            usecase "Delivery from \n stock" #grey
+            usecase "Refund order" #grey
+            usecase "Delivery/PIckup \nnot in stock" #grey
+
+        }
+
+        usecase "Print Sales \n Report" #gold
+        usecase "Print Report per \nSales assistant" #gold
+
+
+    }
+     usecase "Monitor inventory \n& sales rate" as MonitorInventorySalesRate << <color:red>**thread** </color>>> #pink
+     usecase "Set Minimum \n inventory "  #pink
+
+     usecase "Register Item arrival"  #lightblue
+
+     usecase "Collect item"  #yellow
+     usecase "Collect from store"  #yellow
+     note top of "Collect from store"
+                      Record the <b>name & phone number </b>
+                      of the customer.
+                     end note
+     usecase "Generate \npickup receipt"  #yellow
+
+     usecase "Delivery from \n warehouse"  #yellow
+     note top of "Delivery from \n warehouse"
+                     Record the **name, phone number & address**
+                     of the customer.
+                     end note
+     usecase "Add delivery\n charge"  #yellow
+
+     usecase "Order Payment"  #red
+     usecase "Card "  #red
+     usecase "PayPal "  #red
+     usecase "Cash"  #red
+     usecase "Generate receipt"  #red
+
+}
+
+    assistant -- "Authentication &\n authorization"
+    assistant -- ProcessOrder
+
+    ProcessOrder <-- "Immediate \npickup" : <<extend>>
+    ProcessOrder <-- "Delivery from \n stock" : <<extend>>
+    ProcessOrder <-- "Refund order" : <<extend>>
+    ProcessOrder <-- "Delivery/PIckup \nnot in stock" : <<extend>>
+
+    StoreManager -- "Print Sales \n Report"
+    "Print Sales \n Report" ..> "Print Report per \nSales assistant" : <<include>>
+
+     MonitorInventorySalesRate <-- "Set Minimum \n inventory " : <<extend>>
+     WarehouseManager -- MonitorInventorySalesRate
+
+     WarehouseEmplyee -- (Register Item arrival)
+
+    Customer -- "Collect item"
+    "Collect item"  <--  "Collect from store" : <<extend>>
+    "Collect from store" --> "Generate \npickup receipt" : <<include>>
+
+    "Collect item" <-- "Delivery from \n warehouse" : <<extend>>
+    "Delivery from \n warehouse" --> "Add delivery\n charge" : <<include>>
+
+    Customer -- "Order Payment"
+    "Order Payment" <-- "Card " : <<extend>>
+    "Order Payment" <-- "PayPal " : <<extend>>
+    "Order Payment" <-- "Cash" : <<extend>>
+    "Order Payment" --> "Generate receipt" : <<include>>
+
+
+    "Card " --- CardService
+    "PayPal " --- PayPalService
+
+@enduml

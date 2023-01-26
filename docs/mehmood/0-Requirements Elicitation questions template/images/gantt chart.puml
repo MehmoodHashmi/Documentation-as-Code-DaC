@@ -1,0 +1,22 @@
+@startgantt
+'https://plantuml.com/gantt-diagram
+
+[Project Management planning] lasts 1 day and is colored in Lavender/LightBlue
+--__**Phase-1 Documentation**__  --
+[Requirements Specification] lasts 2 days and is colored in Coral/Green and starts 0 days after [Project Management planning]'s end
+
+--**__Modeling and Design__** --
+
+[Use Case Diagram] lasts 1 day and is colored in Coral/Green and starts 0 days after [Requirements Specification]'s end
+[User Stories] lasts 1 day and is colored in Coral/Green and starts 0 days after [Use Case Diagram]'s end
+[Data Model] lasts 1 day and is colored in Coral/Green and starts 0 days after [User Stories]'s end
+[Wireframes] lasts 1 day and is colored in Coral/Green and starts 0 days after [Data Model]'s end
+--**__Testing__** --
+[Test Plan] lasts 11 day and is colored in Coral/Green and starts 0 days after [User Stories]'s end
+--**__Evaluation__** --
+[Project evaluation] lasts 13 day and is colored in Coral/Green and starts 0 days after [Requirements Specification]'s end
+
+--**__Phase-2 App Implementation__** --
+[Development] lasts 10 days and is colored in yellow and starts 0 days after [Data Model]'s end
+
+@endgantt

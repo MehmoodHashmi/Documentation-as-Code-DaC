@@ -1,0 +1,23 @@
+:!numbered:
+:hardbreaks:
+:sectnumlevels: 6
+:sectids:
+:sectanchors:
+:imagesdir: ./images
+:iconsdir: ./icons
+:stylesdir: ./styles
+:scriptsdir: ./js
+
+[appendix]
+
+== Appendix
+
+The appendixes are not always considered part of the actual SRS and are not always necessary. 
+
+.They may include
+.. Sample input/output formats, descriptions of cost analysis studies, or results of user surveys;
+.. Supporting or background information that can help the readers of the SRS; 
+.. A description of the problems to be solved by the software;
+.. Special packaging instructions for the code and the media to meet security, export, initial loading, or other requirements.
+
+When appendixes are included, the SRS should explicitly state whether or not the appendixes are to be considered part of the requirements.

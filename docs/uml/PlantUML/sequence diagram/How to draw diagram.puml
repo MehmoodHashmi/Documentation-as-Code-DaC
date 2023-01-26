@@ -1,0 +1,108 @@
+@startuml
+!pragma teoz true
+
+skinparam Shadowing true
+skinparam responseMessageBelowArrow true
+skinparam SequenceGroupBodyBackgroundColor #FFFFFF90
+
+    skinparam ParticipantPadding 20
+    skinparam BoxPadding 10
+    skinparam style strictuml
+
+ skinparam sequence {
+    ArrowColor DeepSkyBlue
+    ActorBorderColor DeepSkyBlue
+    LifeLineBorderColor blue
+    LifeLineBackgroundColor #A9DCDF
+    ParticipantBorderColor DeepSkyBlue
+    ParticipantBackgroundColor DodgerBlue
+    ParticipantFontName Impact
+    ParticipantFontSize 17
+    ParticipantFontColor #A9DCDF
+    ActorBackgroundColor aqua
+    ActorFontColor DeepSkyBlue
+    ActorFontSize 17
+    ActorFontName Aapex
+}
+
+box "Internal Service" #LightBlue
+    participant Bablu
+        box "Subteam"
+        participant Alice
+        participant John
+        end box
+end box
+
+participant Other
+ Bob -> John    : Hello
+John ->(40) Bob: <<**duration**>> Message
+Bob ->(35) John: <<**duration**>> Message
+
+group#gold Concurrent calls
+
+    Alice ->> Alice
+    Alice ->> Soni
+    Soni ->> Soni
+    Alice ->> Alice
+end
+
+[-> John: <b>inComming</b> Message
+[<- John: <b>outGoing </b> Message
+==Start==
+ref over Alice, Bob : <color:red> refer to sequence diagram
+box "Internal Service" #LightBlue
+    participant Bob
+    participant Alice
+     participant Soni << (C,#ADD1B2) Testable >>
+end box
+
+box "Other" #LightGreen
+    participant Other
+end box
+
+group group
+    Bob -[#red]> Alice ++ #pink: <b>synchronous</b> message
+
+        {start} Alice -> Bob : doing things during duration
+        Bob -> Max : something
+        ||||
+        Max -> Bob : something else
+        {end} Bob -> Alice : finish
+        {start} <->  {end} : <color:red> <b> <size:12>Duration constraint
+
+    Alice --[#blue]> Bob : <b>response</b> message
+    return another <b>response</b> message
+    Alice -[#red]> Other : <b><<destroy>></b> message
+    destroy Other
+    Alice -[#green]> Other !!  : another <b><<destroy>></b> message
+end
+==Intialization==
+
+Bob ->> Alice : <b>asynchronous</b> message
+...<color:blue><b><size:16>5 minute later \t\t\t\t...
+
+Bob -> Soni ** : **<<create>>** message
+
+Bob -> Bob : **self** message
+[o-> Bob : <<**found**>> message
+?o-> Alice : <<**found**>> message
+||||
+?o<- Bob : <<**lost**>> message
+Bob ->o? : <<**lost**>> message
+alt <color:purple>successful case
+Bob -> Alice: Authentication Accepted
+else some kind of failure
+Bob -> Alice: Authentication Failure
+    group <color:red> My own label [<color:blue>My own label 2]
+
+    Alice -> Log : Log attack start
+        loop 1000 times
+            Alice -> Bob: DNS Attack
+        end
+    Alice -> Log : Log attack end
+    end
+else Another type of failure
+Bob -> Alice: Please repeat
+end
+
+@enduml

@@ -1,0 +1,214 @@
+:toc:
+
+== Lecture 1 S/W req. introduction
+
+* "*Software Requirements*" must capture the external behavior of the software product that one wants to build.
+
+* Requirements can be a part of "S/W contract".
+
+.IEEE Definition
+image::images/image-2023-01-24-00-51-13-666.png[]
+
+* Many People find it convenient to describe *#How#* should be done as compared to *#What#* should be done. And this is classical *#What#* VS *#How#* dilemma.
+
+.Importance of software requirements
+image::images/image-2023-01-24-00-53-20-620.png[]
+
+* *#What#* describes "_policy matters the functionality aspect_" as compared to #*HOW*# which is the "*Mechanisms*. To develop mechanisms for s/w products is the *#responsibility#* of `*_s/w designers and developers_*`, [.underline]#_it is not the responsibility of s/w requirement engineers. If S/W engineers describe *How* S/w Product Should be developed,  then they are encroaching into the domain of `*s/w designers and developers*`, who are better equipped and more trained to do their job as compared to_# #requirement engineers#.
+
+* *_"Functional Requirements" Form the backbone of S/W Product.
+They capture what system "must do"._*
+
+image::images/image-2023-01-24-00-58-12-246.png[width=400,float=left]
+
+image::images/image-2023-01-24-00-58-35-409.png[width=300]
+
+== Lecture 2 Kinds of S/W Requirements
+
+image::images/image-2023-01-24-01-02-50-346.png[width=300,float=left]
+Most of the `*_Developers and Requirement Engineers_*` spend their #time gathering functional requirements, and that is unfortunate in a sense  that many times we forget to give due attention to NON-Functional Requirements.#
+
+.Requirements kinds
+image::images/image-2023-01-24-01-05-13-230.png[]
+
+.more requirements kinds
+image::images/image-2023-01-24-01-06-22-718.png[]
+
+.non-functional requirements
+image::images/image-2023-01-24-01-12-10-235.png[width=300,float=left]
+
+These requirements are often not given due importance by the customers or developers because they are sometimes written as "General Goals" by the *#Customers#*.
+
+
+"`*#Easy to use#*`" is  easy to say, but it is hard to do, How, because how you will quantify "Easy to use". You can't, because it varies from person to person.
+
+General #*Goals*#(`*Metrics*`) of s/w product should be expressed in quantitative measures so that we objectively test them. So that we can clearly and factually state that this product is better in these respects over the other product.
+
+== Lecture 3 Metrics of Non Functional requirements
+
+.Metrics of Non Functional requirements
+image::images/image-2023-01-24-01-16-08-443.png[]
+
+== Lecture 4 requirements perspective
+.requirements perspective
+image::images/image-2023-01-24-01-17-27-152.png[]
+
+
+== Lecture 5 Req Engineering Process Intro
+
+.Requirements Engineering Process Intro
+image::images/image-2023-01-24-01-20-08-607.png[]
+
+== Lecture 6 Req Engineering Process
+
+image::images/image-2023-01-24-01-23-55-914.png[float=left,width=350]
+
+image::images/image-2023-01-24-01-24-32-890.png[width=500]
+
+image::images/image-2023-01-24-01-26-16-211.png[]
+
+== Software Development Roles
+
+.Software Development Roles
+image::images/image-2023-01-24-01-29-54-684.png[]
+
+== S/W Development Best Practices
+image::images/image-2023-01-24-01-32-02-319.png[]
+
+== Lecture 7 Process improvement
+
+*#_Process improvement_#* _is an active area of research in all fields of s/w engineering. Companies and Government are putting lots of money and training so that the productivity of s/w engineers, developers, testers, improves and, as a result, the bottom line of the companies and the economy of the country get better results due to the productivity._
+
+
+Companies main process ko introduce krny ke ek bure wajeh communication hote ha k har ek ke bat hierarchy main top tak ja suky, companies/organizations main be politics hote ha.
+Sustainable
+
+#*_Nadeem ny kha tha k mjy 6-months  sath s/w company/business buna k smj aya k business krna and s/w development krna mukamal different ha._*#
+
+image::images/image-2023-01-24-01-35-15-983.png[]
+
+.15%-35% of the total cost goes to requirement activities
+image::images/image-2023-01-24-01-36-47-073.png[width=500,float=right]
+
+*_Har step ke alg best practices han_*
+
+[arabic]
+. #Req. Elicitation# ke best practices han
+. #Analysis and Negotiation# ke best practices han
+. #Validation# ke best practices han
+. And many other
+. In fact, s/w engineering main har step ke apne best practices han
+
+image::images/image-2023-01-24-01-41-34-150.png[width=300]
+
+== Lecture 8 social and cultural issues in Requirement engineering
+`__It is a known Problem that software developers ke interpersonal skills or management skills ache nehe hote, and jin ke ache hote ha wo apny profession main bhot agy turake krty han.
+__`
+
+This is The most Important Lecture. Es main most issues mj main han.
+
+#Requirement Engineering# is a *#_social Activity_#* as it involves interactions b/w clients, engineers, and other s/w systems and hardware systems as well
+
+image::images/image-2023-01-24-01-44-26-751.png[]
+
+image::images/image-2023-01-24-01-45-18-788.png[width=300,float=right]
+
+#A natural phenomenon that is *programmers* do not like `*documentation*` for the `*code*` they have produced.# This is true everywhere in the world.
+
+
+== Lecture 9 requirements Engineering process
+====
+image::images/image-2023-01-24-01-48-15-918.png[]
+====
+
+== Lecture 10 components of Requirements elicitation
+image::images/image-2023-01-24-01-50-41-127.png[width=500, float=right]
+
+From requirements Engineering perspective , agr ap ek ache *#requirements Model#* `_banana ha tu jis *application domain* main ap kam kr rhy han us *application domain* ko ache tarhan study krna hoga And kise  hud tak application domain main apko apne knowledge base bunane hoge usk begair ap Jo be requirements ap collect karain gay Ya Requirement Model develop krain gay us main tashnage rhy gee or apka Apna elm sahe nehe hoga ya mukamal nhe hoga ya ap keh sukty Hain k main NY requirements gather kr Lee Hain lakin ap comfortable nhe hogy us application domain kam krny k hawaly say,_` #*_Most I.M.P Thing k ap domain expert be Nhe bun sukty Q K app basically computer Professional  han Ya s/w Engineer han BUT you should have sufficient information about Application domain._*#
+
+image::images/image-2023-01-24-01-54-38-816.png[]
+
+image::images/image-2023-01-24-01-55-06-960.png[width=650,float=left]
+image::images/image-2023-01-24-01-55-46-835.png[width=600]
+
+== Lecture 11 How to Conduct Requirements interview best practices
+image::images/image-2023-01-24-01-57-44-164.png[width=250,float=left]
+#*_Listen to learn_*#, do not listen as a dumb listener but listen to learn. Give the speaker your undivided attention, just do not wait for your turn to speak, so if other person is getting the impression that you are not listening, then the other person will not feel comfortable in providing you accurate information. Concentrate on the message not on the person, so don't try to find faults within the interview but try to concentrate on the message that is being delivered. Don't interrupt the speaker whenever you have the urge to ask. Let the speaker finish first, then you can ask probe question.
+
+[.underline]#_You need to tune out distractions such as interfering noises, wondering thoughts, and emotional reactions to the speaker's message, Every human being goes through these unrelated events in human mind but one needs to learn to tune them out while listening. And you need to suspend judgements until you have heard all the facts, don't jump on conclusion rather wait till everything has been said and then make the decision based on the facts. Take notes on key points if appropriate with respect to the environment of the interview. Learn to manage your own emotional filters, personal blunders and biases which can keep you from what really being said. So don't get influenced by your own biases. It is natural if you do not listen to information correctly, then you are not going to process that information correctly, cannot analyze it, cannot model it correctly_.#
+
+* "*Scenarios*" are #user stories#; #*End-user*# describes how he wants to interact with the system.
+
+== Software quality assurance plan
+image::images/image-2023-01-24-02-06-48-255.png[width=600]
+
+== Lecture 12 Requirement Analysis
+image::images/image-2023-01-24-02-07-43-490.png[]
+
+image::images/image-2023-01-24-02-08-01-688.png[width=500,float=left]
+Ek requirements engineer acha #*analyst*# ho sukta ha usy hona be cheye q k this Is the part of the job, and he should have good negotiation skills but this is an aspect which varies from person to person and this is usually left up to *_#Leaders and Project Managers to#_* negotiate with customers.
+
+Difference between Requirements *#Validation and Verification#*.
+
+*#Validation:#* we do validation when requirements are complete to some extent.
+
+image::images/image-2023-01-24-02-12-08-486.png[]
+image::images/image-2023-01-24-02-15-11-497.png[]
+image::images/image-2023-01-24-02-17-07-101.png[width=400]
+
+image::images/image-2023-01-24-02-18-57-682.png[width=200,float=left]
+
+The #*Interaction matrix*# works only if there are very small number of requirements  are less than or equal to #200#
+
+If the number of conflicting requirements is high, you should not assume that requirement engineers did not work well. Instead, it is an opportunity to understand the different perspectives of requirements
+
+
+image::images/image-2023-01-24-02-24-40-442.png[]
+
+== Artifacts/Documents produced in s/w Project
+image::images/image-2023-01-24-02-17-48-140.png[width=600]
+
+== Lecture 14 Requirement Defect/errors
+* *Requirement defect OR "not quality requirements"* and deficiency in the requirements.
+* It is not necessary to perform all S/w Development Activities in a project. Some projects are quite simple
+
+image::images/image-2023-01-24-02-28-30-596.png[]
+
+== S/w Process Improvement
+A process does not bind you in chains rather it is going to liberate you from doing a lot of unnecessary and unguided things; One thing must be clear to you that is a process Is not your enemy. An S/W process Is your friend, and this applies in all walks of life.
+
+Han jahan ap ya sumajhty han  k ya process cumbersome(weighty, ungainly,
+burdensome) ho rha ha for a particular problem Or you have enouht experience that you can skip some steps than good processes
+allow you to do that.
+
+image::images/image-2023-01-24-02-31-03-431.png[]
+
+== Lecture 15 Requirement Defect/errors Removal
+* It is not possible to remove 100% errors from Requirements, but we can apply techniques to identify or discover defects and remove them.
+* Defects identification or Defects discovery one thing and Defect removal is 2nd thing and are different. Computer science and s/w engineering main kafee literature managerial aspects pur available ha.
+
+image::images/image-2023-01-24-02-32-45-754.png[]
+
+image::images/image-2023-01-24-02-33-25-761.png[width=500,float=right]
+
+#How to identify defects in Requirements?#
+
+[arabic]
+. Review requirements documents
+. Do Inspections
+
+== Lecture 16,17,18 Requirement gathering steps
+
+image::images/image-2023-01-24-02-36-20-281.png[]
+image::images/image-2023-01-24-02-36-32-899.png[]
+
+== Creating good and open source software
+image::images/image-2023-01-24-02-37-00-871.png[]
+
+== How to develop software
+
+* _We don't develop software alone, instead we need to work in a team to develop advanced software_.
+
+* _We #*share*# the `*Design*` we #*share*# the `*source code*`. we #*share*# the `*ideas*` while developing software  in a team. To make this task easier and realistic for remote software teams/members, we can use a #*shared cloud repository*#. This will enable remote developers/teams to work concurrently on the same design on the same diagram on the same source code_
+
+image::images/image-2023-01-24-02-41-18-198.png[]
