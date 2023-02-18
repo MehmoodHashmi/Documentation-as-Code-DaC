@@ -1,5 +1,27 @@
 # :star: _Documentation-as-Code (DaC)_ :star:
-
+<!-- TOC -->
+* [:star: _Documentation-as-Code (DaC)_ :star:](#-star--_documentation-as-code-dac_--star-)
+  * [What should be documented?](#what-should-be-documented)
+    * [When there is a change request, it modifies  many artifacts, so be intelligent while keeping & maintaining these artifacts in a project.](#when-there-is-a-change-request-it-modifies--many-artifacts-so-be-intelligent-while-keeping--maintaining-these-artifacts-in-a-project)
+  * [Four Types of Documentation](#four-types-of-documentation)
+  * [Project Documentation: Examples and Templates](#project-documentation--examples-and-templates)
+  * [What is project documentation?](#what-is-project-documentation)
+  * [Examples of project documents](#examples-of-project-documents)
+  * [Project proposal](#project-proposal)
+  * [Project charter](#project-charter)
+  * [Project plan](#project-plan)
+  * [Project status report](#project-status-report)
+  * [Project retrospective](#project-retrospective)
+  * [Other project document examples](#other-project-document-examples)
+  * [The value of project documentation](#the-value-of-project-documentation)
+  * [Choosing the right documentation software](#choosing-the-right-documentation-software)
+  * [How to document a project](#how-to-document-a-project)
+  * [Organize all project documentation in one place](#organize-all-project-documentation-in-one-place)
+  * [Make it easy to access and search](#make-it-easy-to-access-and-search)
+  * [Keep it lightweight](#keep-it-lightweight)
+  * [Collaboratively maintain it](#collaboratively-maintain-it)
+  * [Project documentation template](#project-documentation-template)
+<!-- TOC -->
 ## [What should be documented?](https://blog.codecentric.de/architecture-documentation-as-code-with-structurizr-and-asciidoctor-part-2-asciidoctor)
 
 One of the main questions when writing architecture documentation is:
