@@ -1,4 +1,4 @@
-# _Documentation-as-Code (DaC)_
+# :star: _Documentation-as-Code (DaC)_ :star:
 
 ## [What should be documented?](https://blog.codecentric.de/architecture-documentation-as-code-with-structurizr-and-asciidoctor-part-2-asciidoctor)
 
@@ -6,11 +6,19 @@ One of the main questions when writing architecture documentation is:
 
 What should we document about our architecture? 👀️
 
-This question is not easy to answer. While there are aspects of the architecture like quality requirements, architecture decisions, or the system context which are essential parts of an architecture documentation, other aspects might not be relevant. What is relevant or not depends on things like the system to be documented, external factors like legal requirements, and the documentation's target audience.
+This question is not easy to answer. While there are aspects of the architecture like quality requirements, architecture decisions, or the system context which are essential parts of architecture documentation, other aspects might not be relevant. What is relevant or not depends on things like the system to be documented, external factors like legal requirements, and the documentation's target audience?
 
-Another aspect to consider it the level of detail. Detailed information tends to outdate faster than more general information. As a result, detailed documents need to be updated more often, resulting in more efforts to keep the documentation up-to-date. Therefore, the goal is to find the right balance between what’s really relevant and the efforts needed to maintain the documentation.
+Another aspect to consider it is the level of detail. Detailed information tends to outdate faster than more general information. As a result, detailed documents need to be updated more often, resulting in more efforts to keep the documentation up-to-date. Therefore, the goal is to find the right balance between what’s really relevant and the efforts needed to maintain the documentation.
 
-However, architecture document templates can help with answering the question of what should be documented. Such templates describe the contents as well as the document structure of an architecture documentation. Multiple of those templates are freely available on the internet.
+However, architecture document templates can help with answering the question of what should be documented.
+Such templates describe the contents as well as the document structure of an architecture documentation.
+Multiple of those templates is freely available on the internet.
+
+### When there is a change request, it modifies  many artifacts, so be intelligent while keeping & maintaining these artifacts in a project.
+
+**Figure 29-2** (given below) illustrates many kinds of traceability relationships that can be defined on a project. _**Of course, you don’t need to define and manage all these trace link types.**_ On many projects, you can gain most of the traceability benefits you want for just a fraction of the potential effort. _**Maybe you only need to trace system tests back to functional requirements or user requirements.**_ Perform a **cost-benefit analysis** to decide which links will contribute to the success of your project, both in terms of **development** and long-term **maintenance** effort. Don’t ask **team members** to spend time recording information unless you know how they can use it.
+
+![img.png](img.png)
 
 <iframe width="600" height="200" src="https://www.youtube.com/embed/qMBSBMDUJVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

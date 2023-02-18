@@ -1,0 +1,359 @@
+
+
+.*TeXiFy - PyCharm IntelliJ LaTeX plug-in - compile Python or R code and LaTeX documents using one IDE*
++++
+<iframe width="360" height="200" src="https://www.youtube.com/embed/bxXMZV9f9P8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
++++
+🎥 #*_Content of this video:_*#
+
+* 00:00 - What you will learn
+* 02:10 - Example
+* 06:30 - TeXiFy official documentation
+* 07:00 - What do you need
+* #*09:00 - Install Sumatra PDF*#
+* *#09:40 - Install MiKTeX#*
+* 11:30 - #*Install TeXiFy IDEA*#
+* *#15:25 - Create new LaTeX project#*
+* *#17:30 - Set-up run configuration LaTeX#*
+* 19:50 - Compile project
+* 20:05 - TeXiFy smart suggestions
+* *#20:50 - Bibliography#*
+* *#22:30 - BibTeX configuration#*
+* 24:10 - *#Add sections#*
+* 26:40 - Custom compiler arguments
+* 28:00 - Error logs
+* 29:20 - Add directory for Python or R code
+* 30:00 - Initialize git
+* 30:50 - Install git
+* 32:00 - Track changes git
+* 33:00 - Commit changes
+* 33:40 - Inverse search
+* 24:10 - Forward search
+* 35:00 - Format code
+* *_##37:00 - Python and LaTeX, he also explained how to set the path for an image/source file which is located in different directory/folder##_*
+* 28:45 - Include figure in LaTeX
+
+*  https://www.youtube.com/@digitidea[Write Your First *IEEE Conference Paper using Latex in 20-minute* [A to Z]]
+
+* https://www.google.com/search?q=two+column+in+latex&oq=tow+column+in+la&aqs=chrome.1.69i57j0i13i512l2j0i22i30i625l7.9339j0j7&sourceid=chrome&ie=UTF-8[*_Two column document in latex_*]
+
+
+* https://github.com/FedericoTartarini/reproducible-research[Reusable latex report (*Elsevier*
+ template) github]
+
+*Elsevier Inc.* is a global leader in information and analytics, providing educational and reference materials, decision support tools, and other resources to help researchers and healthcare professionals advance science and improve health outcomes. Elsevier specializes in scientific, technical, and medical content, publishing books and journals in various languages. The company also offers products and services such as analytics, e-learning, and workflow solutions to support its customers.
+
+*Elsevier* is a Dutch academic publishing company specializing in scientific, technical, and medical content. https://en.wikipedia.org/wiki/Elsevier[Wikipedia]
+
+* https://www.youtube.com/watch?v=6ll6TDaZOt0&ab_channel=FedericoTartarini[python Pandas DataFrame to LaTeX *table*]
+
+
+* https://www.youtube.com/watch?v=JinsVU3ORaI&t=0s&ab_channel=FedericoTartarini[Export *citations* from *Mendeley* into LaTeX]
+** https://www.youtube.com/@digitidea[*Reference Management* During PhD Using a Single *Bib File*]
+
+
+
+
+
+
+
+.How to Change *Bibliography Styles* in a Latex Document [APA, Chicago etc]
++++
+<iframe width="360" height="200" src="https://www.youtube.com/embed/Y-TQAuhWHkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
++++
+
+. https://www.youtube.com/watch?v=YPCZ4MukJMk&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=2[Latex *_##footnotes, paragraph, line spacing & margin notes##_* ]
+
+** https://www.youtube.com/watch?v=iCqFbs8coKY&ab_channel=ChandraHas[*#Page Numbering#* in LaTeX]
+
+** https://www.youtube.com/watch?v=_buC-qz3XME&ab_channel=ChandraHas[ How to #*Create Back of a Book Index*# using LaTeX]
+
+
+. https://www.youtube.com/watch?v=QHao_KdUom0&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=3[The correct sequence of doing latex installations ]
+
+. https://www.youtube.com/watch?v=ub6wKP-obw8&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=4[Latex Font Size: Default Text Sizes in Latex ]
+
+. https://www.youtube.com/watch?v=8t5bS2cQlLI&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=5[Latex bibliography: **How to use Bibtex to put References in Latex **]
+
+. https://www.youtube.com/watch?v=sS1-wk6c-xs&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=6[Presentation Themes in Latex ]
+
+. https://www.youtube.com/watch?v=LxTCWkXgukw&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=7[Getting Started With Latex : For High Quality Documents ]
+
+. https://www.youtube.com/watch?v=QqmbD4Xc-6s&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=9[Latex *Long-table [Latex Tutorial on Creating Landscape Tables*]]
+
+. https://www.youtube.com/watch?v=wdpXlLGpdtE&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=10[Latex Pgfplots: How to Plot in Latex Part 3 of 3 ]
+
+. https://www.youtube.com/watch?v=7C3sU0nQvlE&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=11[Latex Tutorial: *The Dedication Page and The Abstract in Thesis*]
+
+. https://www.youtube.com/watch?v=1_ZI2leIfJo&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=12[Latex array and matrix environments ]
+
+. https://www.youtube.com/watch?v=hEjvAhLe35E&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=13[*Inserting images in a latex document, single and side-by-side* ]
+** https://www.youtube.com/watch?v=YR65PX1_tjk&ab_channel=LabtimewithR%26Python[*_##include figures and subfigures##_* in LaTeX]
+
+** https://www.youtube.com/watch?v=70PQn0FiWe0&ab_channel=LabtimewithR%26Python[*_##include programming language code## in LaTeX document_*]
+
+*** separate *source file* or write code
+
+** https://www.youtube.com/watch?v=ByduYnAu2jM&ab_channel=FedericoTartarini[*_##Display source code in LaTeX - source code listing##_*]
+
+** https://www.youtube.com/watch?v=Qjj1nQFRDRY&ab_channel=HunterJohnson[LaTeX *_##Include##_* Command]
+
+** https://www.youtube.com/watch?v=nMjpFHBg_1Q&ab_channel=Electricallectures[*_How to Convert #MS-Word to Latex# [FREE & 100% Working]_*]
+
+*** https://getintopc.com/softwares/utilities/grindeq-math-utilities-2020-free-download/[*_GrindEQ Math_*
+], download this utility software
+
+**** *file password:* #123#
+
+
+. https://www.youtube.com/watch?v=1MyFuvWwcfM&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=14[LaTeX Tutorial 1 - Creating Your First LaTeX Document]
+
+. https://www.youtube.com/watch?v=xZWiRkqe8hE&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=15[Latex Tutorial: The Structure of a Latex Document with 2 examples]
+
+. https://www.youtube.com/watch?v=6mInm_51vPw&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=16[**Units used in Latex Documents em, pt, mu, ex, etc. **]
+
+. https://www.youtube.com/watch?v=J9o9Oci4nt0&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=17[Latex *Glossaries and Acronyms* ]
+
+. https://www.youtube.com/watch?v=FY1Rz-Dx6xo&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=18[**Page Styles in Latex **]
+
+. https://www.youtube.com/watch?v=nHHowTvB__g&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=19[How to make a timeline diagram in Latex ]
+
+. https://www.youtube.com/watch?v=2BkED0TqKZY&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=20[Latex Pgfplots: How to Plot in Latex Part 1 of 3 ]
+
+. https://www.youtube.com/watch?v=qfgsvlHKT7M&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=21[*Writing Math Equations in Latex* ]
+
+** https://www.youtube.com/watch?v=qVduH8PuR2E&ab_channel=digitidea[*_How to ##Convert a Word Equation to a Latex Equation##_*]
+
+. https://www.youtube.com/watch?v=dk6YPgVGyVE&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=22[Latex Pgfplots: How to Plot in Latex Part 2 of 3 ]
+
+. https://www.youtube.com/watch?v=ih2QJ8V_CWI&list=PL5Q4xJ4bbfxUkqMHVy1mCGWqBL_7T6YQz&index=23[Plotting in Latex for Higher Quality Graphs Complete Course [Not for Beginners]]
+
+. https://www.youtube.com/@digitidea[How to Convert an *#_Excel Table to a Latex table_#*]
+** You can generate the table code for latex without writing a single line of code, and the table may be as complex as you like.
+** https://www.youtube.com/@DrTrefor[*Tables in LaTeX*]
+
+*** 0:51 Basics of tabular
+*** 1:45 Column alignment and vertical or horizontal lines
+*** 2:35 Specifying widths and linebreaks
+*** 4:41 Table properties in the preamble
+*** 6:55 Multiple rows and columns
+*** 10:26 Coloring cells, rows, and columns
+*** 13:01 Formatting cells
+*** 13:24 Alternating row colors
+*** 14:39 The table environment, placement, captions, labels
+*** 17:01 Other packages
+*** 17:44 Cool Overleaf features
+
+
+. https://www.youtube.com/@AcademicLesson[LaTex Tutorial for Beginners Full Course]
+
+
+* *⭐ Table of Content ⭐*
+
+** (0:00)    Just Enough LaTeX to Survive - 01 - Introduction
+** (5:47)    Just Enough LaTeX to Survive - 02 - Basic Text Manipulation
+** (11:47)  Just Enough LaTeX to Survive - 03 - Basic Math Manipulation
+** (19:36)  Just Enough LaTeX to Survive - 04 - Tables and Arrays
+** (26:51)  Just Enough LaTeX to Survive - 05 - Calculus Notation
+** (34:26)  Just Enough LaTeX to Survive - 06 - Miscellaneous Notation
+** (42:43)  *_#Just Enough LaTeX to Survive - 07 - ⭐ Basic Customization ⭐#_*
+** (48:14)  Just Enough LaTeX to Survive - 08 - LaTeX Environments
+** (54:32)  Just Enough LaTeX to Survive - 09 - Random Other Things
+** (1:3:27) Just Enough LaTeX to Survive - 10 - TikZ   (Part 1)
+** (1:10:11) Just Enough LaTeX - 11 - TikZ   (Part 2)
+** (1:16:49)  Just Enough LaTeX to Survive -12 - TikZ   (Part 3)
+** (1:23:45)  Just Enough LaTeX to Survive - 13 - Beamer
+
+*⭐ Table of Content ⭐*
+
+.  https://www.youtube.com/watch?v=0ivLZh9xK1Q&list=PL1D4EAB31D3EBC449&index=1&t=639s[(UPDATED) LaTeX Tutorial 1 - Creating a LaTeX Document]
+.  https://www.youtube.com/watch?v=bCumVPGR4ts&list=PL1D4EAB31D3EBC449&index=2[(UPDATED) LaTeX Tutorial 2 - Common Mathematical Notation]
+.  https://www.youtube.com/watch?v=kefvRACdXHs&list=PL1D4EAB31D3EBC449&index=3[(UPDATED) LaTeX Tutorial 3 - Brackets, Tables, and Arrays]
+.  https://www.youtube.com/watch?v=dZitO3IJTys&list=PL1D4EAB31D3EBC449&index=4[(UPDATED) LaTeX Tutorial 4 - *#Creating Lists#*]
+.  https://www.youtube.com/watch?v=3KvsemMjHPU&list=PL1D4EAB31D3EBC449&index=5[(UPDATED) LaTeX Tutorial 5 - Text and Document Formatting]
+.  https://www.youtube.com/watch?v=L7WzLrzU2Ec&list=PL1D4EAB31D3EBC449&index=6[(UPDATED) LaTeX Tutorial 6: Packages, Macros and Graphics]
+.  https://www.youtube.com/watch?v=bYoTJc81-qk&list=PL1D4EAB31D3EBC449&index=7[(UPDATED) LaTeX Tutorial 7: Errors and Debugging]
+ .  https://www.youtube.com/watch?v=eDeRsE-NTb4&list=PL1D4EAB31D3EBC449&index=9[LaTeX Tutorial 9 - Calculus Notation]
+.  https://www.youtube.com/watch?v=FcVP3gGUtGI&list=PL1D4EAB31D3EBC449&index=10[LaTeX Tutorial: How to Format a Math Paper]
+.  https://www.youtube.com/watch?v=0fsWGg81RwU&list=PL1D4EAB31D3EBC449&index=11[LaTeX Tutorial 11: Beamer Slide Presentation]
+.  https://www.youtube.com/watch?v=bwcr25334J8&list=PL1D4EAB31D3EBC449&index=12[Using LaTeX to Create Anki Flashcards]
+
+https://www.youtube.com/watch?v=VhmkLrOjLsw&t=1343s&ab_channel=DerekBanas[*⭐ Table of Content ⭐*
+click me]
+
+. 00:21 Install Windows
+. 01:20 Install MacOS
+. 02:12 Basics
+. 04:35 Packages
+. 05:45 Get Package Help
+. 06:10 Blindtext
+. 06:34 Environment
+. 08:29 Landscape
+. 08:46 Custom Margins
+. 12:46 Table of Contents
+. 18:41 Using Pictures
+. 23:05 Spacing
+. 26:56 Bulleted List
+. 28:44 Numbered List
+. 32:12 Definition List
+. 33:00 Tabbing
+. 34:45 Tables / Fonts
+. 41:07 Accent Characters
+. 41:32 Tons of Fonts
+. 42:06 More Type Emphasis
+. 45:06 Math Formulas
+. 50:38 Custom Commands
+. 52:40 Text Boxes / Justification
+. 54:48 Footnotes
+. 55:20 Referencing
+. 56:53 Bibliography
+. 57:53 Index
+
+*⭐ Table of Content ⭐*
+
+. link:++https://www.youtube.com/watch?v=TG0ubEeBtlI&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=1++[LaTeX101x S101 Overview]
+
+. link:++https://www.youtube.com/watch?v=J2_NJpm3W24&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=2++[LaTeX101x S102 Install LaTeX]
+
+. link:++https://www.youtube.com/watch?v=sXz43n6f8u0&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=3++[LaTeX101x S103 Create First LaTeX Document]
+
+. link:++https://www.youtube.com/watch?v=sItaQFp0kQo&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=4++[LaTeX101x S104 Defining Sections]
+
+. link:++https://www.youtube.com/watch?v=aaQWg-mrkyo&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=5++[LaTeX101x S105 Recapitulate Topic - 1]
+
+. link:++https://www.youtube.com/watch?v=MnMYsVq_ZLw&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=6++[LaTeX101x S106 Paper Size and Margin]
+
+. link:++https://www.youtube.com/watch?v=VXQMOth1voE&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=7++[LaTeX101x S107 Page Style]
+
+. link:++https://www.youtube.com/watch?v=hSKVqxYvHwk&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=8++[LaTeX101x S108 More on Page Formatting]
+
+. link:++https://www.youtube.com/watch?v=fK7rmOQHi9k&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=9++[LaTeX101x S109 Multi Column Document]
+
+. link:++https://www.youtube.com/watch?v=W_jBtPwT72o&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=10++[LaTeX101x S110 Reading Error Messages]
+
+. link:++https://www.youtube.com/watch?v=66ZNfRjlCXQ&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=11++[LaTeX101x S111 Recapitulate Topic - 2]
+
+. link:++https://www.youtube.com/watch?v=vbs8BU0Ljh0&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=12++[LaTeX101x S112 Formating Text]
+
+. link:++https://www.youtube.com/watch?v=EI-1IcT15E8&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=13++[LaTeX101x S113 Coloring Text]
+
+. link:++https://www.youtube.com/watch?v=sCEVf6E2XwU&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=14++[LaTeX101x S114 Align Text]
+
+. link:++https://www.youtube.com/watch?v=8mjWI4svcE4&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=15++[LaTeX101x S115 Spacing]
+
+. link:++https://www.youtube.com/watch?v=Qx_C7j2pikg&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=16++[LaTeX101x S116 Bullets and Numbering]
+
+. link:++https://www.youtube.com/watch?v=Sg8pd54fcCM&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=17++[LaTeX101x S117 Mathematics]
+
+. link:++https://www.youtube.com/watch?v=LD9mKkXafxA&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=18++[LaTeX101x S118 Mathematics - II]
+
+. link:++https://www.youtube.com/watch?v=Ax09i1T2UMs&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=19++[LaTeX101x S119 Recapitulate Topic - 3]
+
+. link:++https://www.youtube.com/watch?v=xz7TDvA3zWI&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=20++[LaTeX101x S120 Creating Tables]
+
+. link:++https://www.youtube.com/watch?v=alcMuJDD5ig&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=21++[LaTeX101x S121 Table Borders]
+
+. link:++https://www.youtube.com/watch?v=fX7F3MLlfCA&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=22++[LaTeX101x S122 Merging Rows and Columns]
+
+. link:++https://www.youtube.com/watch?v=bi1evAuKFgc&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=23++[LaTeX101x S123 Saviour for Large Tables]
+
+. link:++https://www.youtube.com/watch?v=9HRQkUMBPNQ&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=24++[LaTeX101x S124 Table Environment]
+
+. link:++https://www.youtube.com/watch?v=dwGc_jr4m9Q&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=25++[LaTeX101x S125 Including Graphics]
+
+. link:++https://www.youtube.com/watch?v=1XHqmVZkEM8&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=26++[LaTeX101x S126 Image Properties]
+
+. link:++https://www.youtube.com/watch?v=hCOahKE4aRQ&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=27++[LaTeX101x S127 Working with Image Borders]
+
+. link:++https://www.youtube.com/watch?v=lqv6fuRLRfk&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=28++[LaTeX101x S128 Figure and Sub Figure]
+
+. link:++https://www.youtube.com/watch?v=PeB1mNw0lg4&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=29++[LaTeX101x S129 Recapitulate Topic - 4]
+
+. link:++https://www.youtube.com/watch?v=Oyjfgy9c2wM&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=30++[LaTeX101x S130 Creating Title Page]
+
+. link:++https://www.youtube.com/watch?v=bU_8P7U4HLY&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=31++[LaTeX101x S131 Hyperlinks]
+
+. link:++https://www.youtube.com/watch?v=XXuFAzv4epI&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=32++[LaTeX101x S132 Cross Referencing]
+
+. link:++https://www.youtube.com/watch?v=O1sDZj7-k88&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=33++[LaTeX101x S133 Creating Indexes]
+
+. link:++https://www.youtube.com/watch?v=WnNQGXr9x9Y&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=34++[LaTeX101x S134 Creating Bibliography]
+
+. link:++https://www.youtube.com/watch?v=eDLaJ95_GV0&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=35++[LaTeX101x S135 Recapitulate Topic - 5]
+
+. link:++https://www.youtube.com/watch?v=CQ0lHYJxJ64&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=36++[LaTeX101x S136 Introduction to Beamer]
+
+. link:++https://www.youtube.com/watch?v=53XtZEcobt4&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=37++[LaTeX101x S137 Blocks and Columns]
+
+. link:++https://www.youtube.com/watch?v=lYjG5RtWyZ4&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=38++[LaTeX101x S138 Overlays]
+
+. link:++https://www.youtube.com/watch?v=d6_PfHXmGOs&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=39++[LaTeX101x S139 Customize Basic Information]
+
+. link:++https://www.youtube.com/watch?v=61B-ZVnVN1E&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=40++[LaTeX101x S140 Customize Themes]
+
+. link:++https://www.youtube.com/watch?v=XZfC30e9uOE&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=41++[LaTeX101x S141 Aspect Ratio]
+
+. link:++https://www.youtube.com/watch?v=DtTHvH4KByQ&list=PL_uaeekrhGzKJBJWiiTnAQzMW--mNkVgK&index=42++[LaTeX101x S142 Recapitulate Topic - 6]
+
+
+What You Will Learn - Handle different types of documents
+
+- Organize documents into different sections, subsections, etc..
+- Formatting pages (margins, header, footer, orientation)
+- Formatting text
+- Write complex mathematical formulae
+- Include tables and images Cross-referencing, bibliography, and Indexing
+- Read error messages as and when required
+- Create presentations using Beamer
+
+
+.In this playlist, I explain how to use LaTeX. For example, by watching it you will learn how to embed figures into your document, add tables, math equations, sections, chapters, and much more. It comprises short 100 seconds videos in which a target a specific topic at a time, as well as a longer video in which I explain in detail how to perform some specific actions.
++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLY91jl6VVD7wnyOlAgPRe-i9ov4_ZqHV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
++++
+
+. https://www.latextemplates.com/template/legrand-orange-book[Reuseable book templates:] this link contains many templates from each category such as article, thesis, book, book cover, title page, presentation/slides etc.
+
+Here are the step-by-step instructions for compiling the LaTeX BOOK template given above:
+
+[arabic]
+. *_##Open a command line interface (e.g., Terminal on Mac/Linux or Command Prompt on Windows).##_* #is the most important step#
+. Navigate to the directory where the LaTeX files are located using the `+cd+` command. For example, if the files are located in a folder named "main" on the Desktop, you would run:
+
+....
+cd ~/Desktop/main
+....
+
+[arabic, start=3]
+. Run the first pdflatex command:
+
+....
+pdflatex main
+....
+
+[arabic, start=4]
+. Create the index by running the following command:
+
+....
+makeindex main.idx -s indexstyle.ist
+....
+
+[arabic, start=5]
+. Create the bibliography by running the following command:
+
+....
+biber main
+....
+
+[arabic, start=6]
+. Run the final two pdflatex commands:
+
+....
+pdflatex main
+pdflatex main
+....
+
+[arabic, start=7]
+. Your compiled PDF document should now be generated.
+
+Note: Make sure you have installed LaTeX, biber, and makeindex on your system before trying to compile the template.

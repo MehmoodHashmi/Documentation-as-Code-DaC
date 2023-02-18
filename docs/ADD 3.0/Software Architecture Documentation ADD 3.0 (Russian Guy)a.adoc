@@ -1,13 +1,13 @@
-:toc:
+= Software Architecture Document
+Author name Mehmood-ur-Rehman <mehmood_hashmi2009@outlook.com>
+:sectnumlevels: 4
+:toclevels: 4
+:sectnums: 4
+:toc: left
+:icons: font
+:toc-title: Table of contents
 :doctype: pdf
 
-
-= Software Architecture Document
-Mehmood-ur-Rehman <mehmood_hashmi2009@outlook.com>
-:description: Software Architecture Document
-:sectanchors:
-:url-repo: https://my-git-repo.com
-:localtime:
 
 .Revesion History
 |===
@@ -43,7 +43,7 @@ This SAD specifies the software architecture for #<insert scope of SAD>#.
 All information regarding the software architecture may be found in this document,
 although much information is incorporated by reference to other documents.
 
-SAD elicits the significant architecture drivers such as business, functional, non-functional requirements, constraints, and defines architecture.
+SAD elicits significant architecture drivers such as business, functional, non-functional requirements, constraints, and defines architecture.
 
 This SAD is designed following ISO/lEC/lEEE42010 and based on the Software Engineering Institute's "View and Beyond" method for documenting software architectures
 
@@ -130,7 +130,7 @@ The references sections provide a complete list of all the documents referenced 
 |
 |===
 
-.this image is for taking help when filling the above given mentioned table.
+.this image is for taking help when filling the above-given mentioned table.
 image::images/image-2023-01-16-00-55-49-359.png[]
 
 === 	Relationship to other SADs
@@ -181,7 +181,6 @@ in which case this section would explain how the information in here traces to i
 === 	Documentation Roadmap
 This section guides into the SAD structure to help find information of interest.
 
-[arabic]
 . [.underline]#Architectural Background# elicits the known essential requirements and constraints for the solution to design which play a key role in forming architecture decisions and overall architecture.
 . [.underline]#System Overview:# describes the general function and purpose of the system or subsystem whose architecture is described
 . [.underline]#Business Case# describes the solution from the business standpoint including major features
