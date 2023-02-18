@@ -33,7 +33,7 @@ Multiple of those templates is freely available on the internet.
 3. **Technical references**, which capture information-oriented, theoretical knowledge.
 4. **Explanations (or discussions)**, which capture understanding-oriented, theoretical knowledge.
 
-![four types of documenation.png](docs/ADD 3.0/images/four documentation types.png)
+![fourdocumentationtypes.png](fourdocumentationtypes.png)
 
 [**Daniele**](https://www.writethedocs.org/videos/eu/2017/the-four-kinds-of-documentation-and-why-you-need-to-understand-what-they-are-daniele-procida/) argues that to have effective and clear technical documentation, content should be structured explicitly around these four types, all kept separate and distinct from each other.
 
@@ -66,8 +66,7 @@ It may seem tedious, but comprehensive documentation is what can make the differ
 
 Project documents come in many forms – from _**project proposals**_ and business cases, to **_project plans_** and project status reports.
 
-**_Your team's collective brain
-Bring all your knowledge, docs, and projects together in one place._**
+**_Your team's collective brain, bring all your knowledge, docs, and projects together in one place._**
 
 ## Examples of project documents
 
@@ -77,7 +76,7 @@ But some basic documents are needed in most cases. Here are five project documen
 
 ## Project proposal
 
-A **_project proposal_** is written to initiate a **project** – it's the first step in the project **_management process._** The goal of this document is to convince the decision-makers and stakeholders that the idea behind the project is worth pursuing. A project proposal needs to outline the project's core value proposition, which is often done in the form of a business case.
+A **_project proposal_** is written to initiate a **project** – it is the first step in the project **_management process._** The goal of this document is to convince the decision-makers and stakeholders that the idea behind the project is worth pursuing. A project proposal needs to outline the project's core value proposition, which is often done in the form of a business case.
 
 ## Project charter
 
@@ -85,7 +84,7 @@ A project charter is another key project documentation example. This document la
 
 ## Project plan
 
-After the high-level planning is complete, the project manager creates a more detailed **_project plan_**. It serves as a roadmap for the project, defining the key project milestones and placing them on a timeline. This document evolves together with the project, capturing all changes and decisions and facilitating communication among project stakeholders.
+After high-level planning is complete, the project manager creates a more detailed **_project plan_**. It serves as a roadmap for the project, defining the key project milestones and placing them on a timeline. This document evolves together with the project, capturing all changes and decisions and facilitating communication among project stakeholders.
 
 ## Project status report
 
@@ -119,14 +118,14 @@ The first and perhaps the most important reason why you should document your pro
 * Ensure that all stakeholders are informed about the progress
   But it can also create long-term benefits for your organization even after the project is concluded:
 
-1. [X]  **Faster** _**new employee onboarding**_. Good project documentation gives new team members access to all the knowledge that has been collected over the course of your projects, both past and ongoing. New team members are able to immediately understand decisions made in the past and to find relevant information without having to ask others on the team over the course of many weeks.
+1. [X]  **Faster** _**new employees onboarding**_. Good project documentation gives new team members access to all the knowledge that has been collected over the course of your projects, both past and ongoing. New team members are able to immediately understand decisions made in the past and to find relevant information without having to ask others on the team over the course of many weeks.
 2. [X]  **Better cross-team alignment**. Thorough documentation brings clarity and transparency to what everyone is working on. As a result, decisions and discussions don't get scattered over chat and email, less time is spent in meetings, and work is less likely to get duplicated.
 3. [X]  **More effective knowledge management**. The insights and lessons learned from one project can be transferred to new projects. Capturing and sharing this knowledge can help you develop new best practices, prevent repeated mistakes, and continuously improve your team's overall performance.
    But in order to deliver on these goals, your **internal documentation** needs to be well-written, accurate, and up-to-date. In this guide, we will cover the tools and best practices you can use to improve the quality of your project documentation.
 
 ## Choosing the right documentation software
 
-There are many different tools you can use to document a project – Google Docs, Confluence (and a variety of Confluence alternatives), different types of internal wikis and knowledge bases, and more.
+There are many tools you can use to document a project – Google Docs, Confluence (and a variety of Confluence alternatives), different types of internal wikis and knowledge bases, and more.
 
 Depending on the size of your team and your approach to project management, your requirements may differ. Some teams need complex solutions with advanced features, such as built-in approval workflows and automated tasks, while others prefer simpler and easier tools with no learning curve. Whatever tool you choose, make sure all project stakeholders know how to use it.
 
@@ -154,7 +153,7 @@ The easier you make it for people to find the information they need, the more li
 
 ## Keep it lightweight
 
-While it's important to keep your project documentaion thorough, it also needs to be concise. No one will bother reading pages and pages of text – write down what you need and only what you need, with a clear purpose and audience in mind. Follow the rules of Agile documentation.
+While it's important to keep your project documentation thorough, it also needs to be concise. No one will bother reading pages and pages of text – write down what you need and only what you need, with a clear purpose and audience in mind. Follow the rules of Agile documentation.
 
 ## Collaboratively maintain it
 
