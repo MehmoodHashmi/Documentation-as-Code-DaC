@@ -257,8 +257,6 @@ k
 ;docs/uml/PlantUML/sequence diagram/How to draw diagram.puml,c\c\cc1d7036908990af685d3c5888d42cc1a998da0b
 w
 Gdocs/uml/PlantUML/sequence diagram/make appointment for submission.puml,9\d\9d54b27562511cc0dbb8155b39a3ce5127bd6887
-{
-Kdocs/ADD 3.0/Software Architecture Documentation ADD 3.0 (Russian Guy)a.pdf,c\4\c4408b94a34be9488634ca0f48a64e3657c948ad
 ^
 .docs/arch42/src/01_introduction_and_goals.adoc,0\b\0bc559f270f3447df81f691343178aa430a9393a
 X
