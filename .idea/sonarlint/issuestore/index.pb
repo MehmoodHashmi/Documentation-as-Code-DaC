@@ -481,8 +481,6 @@ c
 3docs/visual paradigm files/Communications Plan.adoc,5\1\51393c2380da93899b43647ae5efc960e6200133
 w
 G.idea/sonarlint/issuestore/1/7/179c2d3482842b169826f14bf2b0a2a1cac51cb4,4\1\4169c95652ca1069d89c63209d4f5d99bc3f0945
-f
-6docs/uml/PlantUML/use-case diagram/NFTmarketplace.puml,8\c\8c3bd7b71375adebcff5bf970e1afd940a0033cb
 w
 G.idea/sonarlint/issuestore/8/d/8d51d762e75a19f319eecf9a2e60efdeffdb1336,0\a\0ad3d76b2bd5f2b171b0f7a40d6af5ec471200ca
 w
@@ -549,7 +547,5 @@ y
 Idocs/architecture-document-template-master/diagrams/C4/C4_Deployment.puml,4\d\4d11536983def702d2580f2ea152cb9665318dea
 n
 >docs/architecture-document-template-master/diagrams/C4/C4.puml,9\8\98eed917fe70a5b27b4d3d34e4984df4d28fffb4
-R
-"docs/srs/IEEE-29148-2011/book.adoc,1\7\17e6002729a74c3fe6770e9b357db05d4249a65d
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

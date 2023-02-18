@@ -15,6 +15,7 @@ rectangle "\n<b>Card service</b>" <<external-actor>> as CardService #pink
 
 rectangle "<size:22>Komplott Data</size>" {
 
+'together compels the block elements to stay together
     together {
 
         usecase "Authentication &\n authorization" #lightgreen
@@ -99,7 +100,6 @@ rectangle "<size:22>Komplott Data</size>" {
     "Order Payment" <-- "PayPal " : <<extend>>
     "Order Payment" <-- "Cash" : <<extend>>
     "Order Payment" --> "Generate receipt" : <<include>>
-
 
     "Card " --- CardService
     "PayPal " --- PayPalService
