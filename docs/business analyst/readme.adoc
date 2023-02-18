@@ -1,6 +1,11 @@
-:toc:
+= Bussiness Analyst Fundamental
+:sectnumlevels: 4
+:toclevels: 4
+:sectnums: 4
+:toc: left
+:icons: font
 :toc-title: Bussiness Analyst Fundamental
-
+:doctype: book
 Requirements documents are used to communicate the aims of a project in a clear, concise way to ensure all stakeholders are on the same page.
 
 When we talk about a https://qracorp.com/write-clear-requirements-document/[requirements document] we are often referring to a Business Requirements Document - or a BRD.

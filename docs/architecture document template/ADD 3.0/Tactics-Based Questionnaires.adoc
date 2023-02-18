@@ -1,0 +1,174 @@
+
+// enable table-of-contents
+:toc:
+
+=== Tactics-Based Questionnaires
+
+____
+This appendix provides a set of tactics-based questionnaires for the
+seven most important quality attributes: *availability, interoperability,
+modifiability, performance, security, testability, and usability*.
+How do we know that these are the seven most important ones? This
+decision was based on an analysis of the quality attributes that were
+elicited from stakeholders in more than 15 years of SEI ATAM data.
+
+In addition to these “top seven”, we include a tactics-based
+questionnaire for DevOps, which is a combination of tactics from
+modifiability, availability, performance, and testability, to illustrate
+how simple it is to tailor such questionnaires for your own use.
+____
+
+==== link:#_bookmark5[Using the Questionnaires]
+
+____
+These questionnaires could **[.underline]#be used by an analyst, who
+poses each question, in turn, to the architect and records the
+responses, as a means of conducting a lightweight architecture review.
+Alternatively, the questionnaires could be employed as a set of
+reflective questions, that you could, on your own, use to examine your
+architecture.#**
+
+In either case, to use these questionnaires, simply follow these four
+steps:
+
+1. Foreach tactics question, fill the “*Supported*” column with *Y* if the
+tactic is supported in the architecture and with *N* otherwise. The
+tactic name in the “Tactics Question” column appears in *bold.*
+____
+
+[arabic, start=2]
+. If the answer in the “Supported” column is *Y*, then in the “Design
+Decisions and Location” column describe the specific design decisions
+made to support the tactic and enumerate where these decisions are
+manifested (located) in the architecture. For example, indicate which
+code modules, frameworks, or packages implement this tactic.
+. In the “Risk” column, indicate the anticipated/experienced difficulty
+or risk of implementing the tactic using a #*(H = high, M = medium, L = low)*# scale. For example, a tactic that was of medium difficulty or risk
+to implement (or which is anticipated to be of medium difficulty, if it
+has not yet been implemented) would be labeled M.
+. In the “Rationale” column, describe the rationale for the design
+decisions made (including a decision to _not_ use this tactic). Briefly
+explain the implications of this decision. For example, you might
+explain the rationale and implications of the decision in terms of the
+effort on cost, schedule, evolution, and so forth.
+
+[arabic]
+
+
+
+== 1. Availability
+
+[options="header"]
+|===
+| #  | Tactics Group  | Tactics Question  | Supported? (Y/N)  | Design Decisions and Risk Location  | Assumptions   | Rationale and Assumptions
+|   1 |                |                   |                   |                                     |               |
+|  2  |                |                   |                   |                                     |               |
+|    3|                |                   |                   |                                     |               |
+|    4|                |                   |                   |                                     |               |
+|    5|                |                   |                   |                                     |               |
+|    6|                |                   |                   |                                     |               |
+|    7|                |                   |                   |                                     |               |
+
+|===
+
+== 2. Interoperability
+
+[options="header"]
+|===
+| #  | Tactics Group  | Tactics Question  | Supported? (Y/N)  | Design Decisions and Risk Location  | Assumptions   | Rationale and Assumptions
+|   1 |                |                   |                   |                                     |               |
+|  2  |                |                   |                   |                                     |               |
+|    3|                |                   |                   |                                     |               |
+|    4|                |                   |                   |                                     |               |
+|    5|                |                   |                   |                                     |               |
+|    6|                |                   |                   |                                     |               |
+|    7|                |                   |                   |                                     |               |
+
+|===
+== 3.   Modifiability
+
+[options="header"]
+|===
+| #  | Tactics Group  | Tactics Question  | Supported? (Y/N)  | Design Decisions and Risk Location  | Assumptions   | Rationale and Assumptions
+|   1 |                |                   |                   |                                     |               |
+|  2  |                |                   |                   |                                     |               |
+|    3|                |                   |                   |                                     |               |
+|    4|                |                   |                   |                                     |               |
+|    5|                |                   |                   |                                     |               |
+|    6|                |                   |                   |                                     |               |
+|    7|                |                   |                   |                                     |               |
+
+|===
+
+== Performance
+
+[options="header"]
+|===
+| #  | Tactics Group  | Tactics Question  | Supported? (Y/N)  | Design Decisions and Risk Location  | Assumptions   | Rationale and Assumptions
+|   1 |                |                   |                   |                                     |               |
+|  2  |                |                   |                   |                                     |               |
+|    3|                |                   |                   |                                     |               |
+|    4|                |                   |                   |                                     |               |
+|    5|                |                   |                   |                                     |               |
+|    6|                |                   |                   |                                     |               |
+|    7|                |                   |                   |                                     |               |
+
+|===
+==  Security
+
+[options="header"]
+|===
+| #  | Tactics Group  | Tactics Question  | Supported? (Y/N)  | Design Decisions and Risk Location  | Assumptions   | Rationale and Assumptions
+|   1 |                |                   |                   |                                     |               |
+|  2  |                |                   |                   |                                     |               |
+|    3|                |                   |                   |                                     |               |
+|    4|                |                   |                   |                                     |               |
+|    5|                |                   |                   |                                     |               |
+|    6|                |                   |                   |                                     |               |
+|    7|                |                   |                   |                                     |               |
+
+|===
+
+==  Testability
+
+[options="header"]
+|===
+| #  | Tactics Group  | Tactics Question  | Supported? (Y/N)  | Design Decisions and Risk Location  | Assumptions   | Rationale and Assumptions
+|   1 |                |                   |                   |                                     |               |
+|  2  |                |                   |                   |                                     |               |
+|    3|                |                   |                   |                                     |               |
+|    4|                |                   |                   |                                     |               |
+|    5|                |                   |                   |                                     |               |
+|    6|                |                   |                   |                                     |               |
+|    7|                |                   |                   |                                     |               |
+
+|===
+==  Usability
+
+[options="header"]
+|===
+| #  | Tactics Group  | Tactics Question  | Supported? (Y/N)  | Design Decisions and Risk Location  | Assumptions   | Rationale and Assumptions
+|   1 |                |                   |                   |                                     |               |
+|  2  |                |                   |                   |                                     |               |
+|    3|                |                   |                   |                                     |               |
+|    4|                |                   |                   |                                     |               |
+|    5|                |                   |                   |                                     |               |
+|    6|                |                   |                   |                                     |               |
+|    7|                |                   |                   |                                     |               |
+
+|===
+
+== 9. DevOps
+
+[options="header"]
+|===
+| #  | Tactics Group  | Tactics Question  | Supported? (Y/N)  | Design Decisions and Risk Location  | Assumptions   | Rationale and Assumptions
+|   1 |                |                   |                   |                                     |               |
+|  2  |                |                   |                   |                                     |               |
+|    3|                |                   |                   |                                     |               |
+|    4|                |                   |                   |                                     |               |
+|    5|                |                   |                   |                                     |               |
+|    6|                |                   |                   |                                     |               |
+|    7|                |                   |                   |                                     |               |
+
+|===

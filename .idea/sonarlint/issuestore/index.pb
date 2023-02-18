@@ -123,8 +123,6 @@ x
 Hdocs/business analyst/SRS/0-Software Requirement Specificaion (SRS).adoc,a\a\aac15a6bcc2a88f325295e1548039a2c4e8e4349
 T
 $docs/business analyst/SRS/1-SRS.adoc,2\0\202dd177c7fb99a5568500c7efb51b83b388ae0d
-Q
-!docs/business analyst/readme.adoc,d\5\d5212daa8259498c31323c35d0b9eb4c38b4e9c2
 Y
 )docs/project charter/project charter.adoc,1\a\1acbce4a7917796f1114ee7acffa0043ee121cca
 R
@@ -133,18 +131,12 @@ R
 Rdocs/mehmood/0-Requirements Elicitation questions template/images/gantt chart.puml,2\5\25113144dfef58f942380e1699dbf79724166c99
 S
 #docs/project plan/Project plan.adoc,a\f\afdabf75c26d986baca86452dbc30eec55e88c2b
-–
-fdocs/mehmood/0-Requirements Elicitation questions template/0-Agile Modeling with Mind Map and UML.adoc,e\8\e8fe8ff08733e2b0e5e118499954480ce0298430
 “
 cdocs/mehmood/0-Requirements Elicitation questions template/3- Requirements Gathering Questions.adoc,3\2\321b593e240ca3f1921600f54b56983607160a2c
 §
 wdocs/mehmood/0-Requirements Elicitation questions template/2- What Questions to ask during Requirement Elicitation.adoc,0\2\02835f4d0c9fc5fa90cc7cb97ffa87f12260f926
 ˜
 hdocs/mehmood/0-Requirements Elicitation questions template/1-question for each use case a framework.adoc,a\2\a27e1408b0fe273a077c3aaea8271908bb7a2567
-Š
-Zdocs/mehmood/0-Requirements Elicitation questions template/0-audio or video recording.adoc,2\d\2d08757a5dd92a7778c33b7a071fb83904fe8f98
-t
-Ddocs/mehmood/0-Requirements Elicitation questions template/task.adoc,a\a\aa6fa3c984390abd94a6a5c143251cf998a2fa6c
 a
 1docs/ADD 3.0/Quality attributes 4rth edition.adoc,a\4\a4a4d4ca25aee12705fc5eafa5d7bacde8e60de8
 ^
@@ -185,8 +177,6 @@ Qdocs/mehmood/0-Requirements Elicitation questions template/images/gantt chart.s
 Rdocs/architecture-document-template-master/diagrams/general-application-design.svg,f\5\f55ce2b1d8c3fb35743236fbdca0b169d618f629
 Z
 *docs/srs/IEEE-29148-2011/Introduction.html,8\d\8d5859f30e13819c1ca05f561c40826c7a565cde
-†
-Vdocs/mehmood/0-Requirements Elicitation questions template/Modern Technical Writing.md,0\4\0406412c1f9124807cbd8fe0b7f569d7af4049a2
 Œ
 \docs/mehmood/0-Requirements Elicitation questions template/images/PPEMR use case diagram.svg,f\9\f947be14369577f2e6981fc1113864ea73716012
 i
@@ -239,8 +229,6 @@ k
 ;docs/architecture-document-template-master/view-sizing.adoc,e\5\e52e5d9e702fd3d2441410f67ac8ea91d4c6a903
 m
 =docs/architecture-document-template-master/view-security.adoc,2\6\26c6d55b4264ee934f1d8a5ad042c6e028e00e2d
-s
-Cdocs/architecture-document-template-master/view-infrastructure.adoc,a\5\a56a23ff364750127d726b0ba04ec4e4ff092d65
 p
 @docs/architecture-document-template-master/view-development.adoc,8\0\80133e1584319b3bd50fa41d7e401fa2ed93a784
 p
@@ -385,8 +373,6 @@ w
 G.idea/sonarlint/issuestore/a/a/aadf8ae4c27f118519bcd9abf79afef4dd2c9a17,b\6\b693247b4d25bf51ef6954ec9cb81b37ccf263b8
 w
 G.idea/sonarlint/issuestore/1/4/140851719689f34d72b58b2473c82cfc9f3c9128,9\e\9e52451462f2ccbb2e2771b839ba5595c31186f2
-K
-docs/DevOps/kubernetes.adoc,f\b\fb8a1fe6008e9c7600a289744a331446ce7caf3c
 w
 G.idea/sonarlint/issuestore/6/4/648ef16d0088ae222b84c499bc67900961032147,9\8\980d1476b5a28bac07b90f2127fc84c60a399741
 w
@@ -417,8 +403,6 @@ w
 G.idea/sonarlint/issuestore/c/4/c4889ad7302c03c55c8c15b471b258abe25fe636,3\a\3a4587a36dc51cdffbbb8be20b0f4321f2ff5796
 b
 2docs/latex/latex-project-report-template/title.tex,5\1\519f9feed3d1ffa3d10c14718f7c357a5155b1ca
-G
-docs/DevOps/docker.adoc,d\9\d95d183a41a7d812b240cf38762131b152e778e6
 w
 G.idea/sonarlint/issuestore/e/8/e8fe8ff08733e2b0e5e118499954480ce0298430,7\2\72db765d26431c05a424dbb4be3f05629798bfd1
 `
@@ -443,8 +427,6 @@ w
 G.idea/sonarlint/issuestore/e/a/eaac0c29f773837c1278dcf60c581fd835c9e09b,b\0\b09349a4ab9c429ef1132e75bb8f761460990a08
 w
 G.idea/sonarlint/issuestore/e/f/ef890f441f08d93a59ba4fd11930ba58b5570cb1,4\e\4eae8d47ab6597d081046bfa3f803809106984a7
-u
-Edocs/cloud computing/Architecting Distributed Cloud Applications.adoc,9\9\99f1e2f6d0dfa3e12a69d090025931d9c277d1d6
 w
 G.idea/sonarlint/issuestore/4/1/41d3b6a90c005a251874a050c22033c70c56cc8a,b\b\bb5fcb83adf823d334f09b8b1aab3380faef9918
 w
@@ -465,8 +447,6 @@ G
 docs/DevOps/gradle.adoc,0\8\08eb845556c7d9ab231177ef55865b78f9fc8f13
 F
 docs/DevOps/maven.adoc,b\2\b2db36dbd41069ec263db9e8c49d3b6010572e13
-G
-docs/DevOps/devOps.adoc,a\6\a6132a562b333e10b23d1ecab7a4a1c849c645ff
 H
 docs/DevOps/jenkins.adoc,e\9\e90ea1d945e5f57a38b00309e7ceca83c6355d0d
 r

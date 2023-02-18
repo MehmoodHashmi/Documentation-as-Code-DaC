@@ -1,0 +1,101 @@
+= What Questions to ask during Requirement Elicitation
+
+:author: Bhuvan Deshwal
+:docdate: 21-Jun-2020
+
+
+This article is about identifying targeted questions,
+called a requirements questionnaire, #*_for a project that has already been scoped for._*#
+
+== What is a Questionnaire #on Requirements#?
+
+A questionnaire on requirements is a list of questions relating to project requirements.
+The questions are typically organized by [red]#*feature*# *#(or business requirement or project objective).#*
+Essentially,
+each high-level requirement should have a list of questions from your scope document
+to further develop your understanding.
+
+Investing time in a questionnaire on requirements will help ensure not only that you collect requirements,
+but also that you discover requirements that are undreamed of.
+[.underline]#So, while it may sound like it will take a lot of time,
+the fact is that a well-thought-out questionnaire would help you run a more successful stakeholder meeting.#
+
+Here are some general questions that you can use to spur (derive) your thoughts on.
+
+== Asking How
+
+* How is that functionality going to be used?
+
+* Is that a process function and if so, what are the steps? Or what can I ask as certain steps?
+
+* How could we satisfy the need for this business?
+
+* How could we be thinking a little differently about this feature?
+
+* How are we going to know that's full?
+
+== Asking Where
+
+* Where is the process taking off?
+
+* Where would this feature get to the user?
+
+* Where would the user be physically positioned when this feature is used?
+
+* Where would you see the results?
+
+=== Asking When
+
+* When will they use this feature?
+
+* When is it you need to know...?
+
+* When are we ready to commence (begin/start)?
+
+=== Asking Who
+
+* Who is going to use that feature?
+
+* Who will deliver feature inputs?
+
+* Who will be having the feature's outputs?
+
+* What would use this feature to learn about someone's outcomes?
+
+* What may I ask to know more about this?
+
+=== Asking What
+
+* What do I know of that feature? Or what assumptions do I have to confirm concerning this feature?
+
+* What needs to be done with that feature?
+
+* What is the end result of that?
+
+* What next needs to happen?
+
+* What should happen in advance?
+
+* And if ...? Think of all the alternative scenarios and ask questions about what should happen if they are true.
+
+* What needs to be tracked?
+
+* What if, then ...? Think about all the alternative scenarios and ask questions about what if those scenarios are true.
+
+What do we need to track?
+
+=== Asking Why
+
+* Is there any other way to get this done?
+
+* Does this function satisfy the company’s needs and solve the question we are trying to solve?
+
+== Don't ask the questions one by one
+
+#The last thing you want to do with this topic is to run down your one-by-one list of questions. That can be a great waste of meeting time and often does not lead to an engaging debate.#
+
+[red]#*_One should pick a few key questions from the list, instead, and ask them to get the stakeholder to speak. When they start talking about their vision for the features, use this list of questions to direct the conversation, and make sure you explore the feature thoroughly. You could filter out half of the diverse questions to begin a new conversation and the rest could fall as you drill deep into the conversation._*#
+
+
+We are an [.underline]#*ERP Development Company*# with the goal of augmenting enterprises with cutting-edge technologies that transform the way organizations work. A forward-looking and innovative enterprise ourselves, we believe in building up *Custom ERP systems* that are intelligent, efficient, flexible, and economical. Get in touch with us for a comprehensive analysis of your business needs to implement the most suited ERP software solutions.
+

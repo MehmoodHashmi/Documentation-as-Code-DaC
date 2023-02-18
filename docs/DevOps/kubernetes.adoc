@@ -255,3 +255,15 @@ Installing minikube and kubectl is a straightforward process. You can follow the
 
 === ► create and start a minikube cluster
 To create and start a minikube cluster, you need to run a few commands in your terminal. First, you need to start minikube using the minikube start command. Then, you can use kubectl to interact with your cluster and deploy your applications. Minikube provides an easy-to-use environment for testing and experimenting with Kubernetes.
+
+== Summary:
+
+* A *Container* image:images/docker.svg[width=40] helps an organization to perform maintenance and update without interrupting services
+* Kubernetes is an example of a container management system developed in the Google platform.
+* The biggest advantage of using Kubernetes is that it can run on-premises OpenStack, public clouds Google, Azure, AWS, etc.
+* Kubernetes offers automated Scheduling and Self-Healing Capabilities.
+* Cluster, master, node, and namespace are important basics of kubernetes
+* Master node and work nodes are important components of Kubernetes architecture.
+* Replication Controllers, Replication sets, Deployments, Stateful Sets, Daemon Sets are other important terms used in Kubernetes.
+* Docker swarm does not allow auto-scaling while Kubernetes allows auto-scaling.
+* The biggest drawback of Kubernetes is that it’s dashboard is not very useful and effective

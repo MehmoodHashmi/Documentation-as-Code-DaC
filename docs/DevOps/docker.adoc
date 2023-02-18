@@ -36,6 +36,12 @@ https://www.youtube.com/watch?v=3c-iBn73dDE&t=9183s[2:33:03] - Volumes Demo - Co
 
 https://www.youtube.com/watch?v=3c-iBn73dDE&t=9913s[2:45:13] - Wrap Up
 
+== Why you need containers?
+
+Today’s internet user never accepts downtime. Therefore, developers have to find a method to perform maintenance and update without interrupting their services.
+
+Therefore, containers, which are isolated environments. It includes everything needed for application to run. It makes it easy for a developer to edit and deploy apps. Moreover, containerization has become a preferred method for *packaging, deploying, and update*#** web apps**#.
+
 
 Docker & cheff both work at the *same level of abstraction,* but they've different *responsibilities*.
 

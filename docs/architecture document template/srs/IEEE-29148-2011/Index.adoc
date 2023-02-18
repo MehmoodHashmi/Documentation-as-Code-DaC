@@ -1,0 +1,14 @@
+:!numbered:
+:hardbreaks:
+:sectnumlevels: 6
+:sectids:
+:sectanchors:
+:imagesdir: ./images
+:iconsdir: ./icons
+:stylesdir: ./styles
+:scriptsdir: ./js
+
+[index]
+== Index
+
+Index are quite important and should follow general compositional practices.

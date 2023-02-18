@@ -1,0 +1,107 @@
+Remember, your goal is to get the client talking about the project, both the issue and the solution.
+
+Not all questions apply to all projects, but they represent a broad range of considerations that can help to think through what’s really needed.
+
+== General Questions
+
+* What do you hope to accomplish with the proposed project?
+
+* Who are the key stakeholders and users?
+
+** Do their goals differ?
+
+** If so, how?
+
+* How do the project/system’s goals map to the department’s goals or needs?
+
+* Will the project/system change the way you are doing things now?
+
+* What will the project accomplish that is not currently accomplished manually or with other projects/software?
+
+* Are there other projects/systems with which this project/system will interface?
+
+* Is there any existing project/system documentation?
+
+** If so, where?
+
+* Who else should I talk to?
+
+
+
+== Current Needs
+
+* What department/business requirements will this project/system address?
+
+* What information do you need from this project/system that you don’t have now?
+
+* Is any of this data currently captured in any other project/system?
+
+* Is the data and/or functionality shared by others?
+
+
+
+== Current Problems
+
+* What problems should this project/system solve?
+
+* Do you have to do things manually that you would like to automate?
+
+* Do you have performance problems that need to change?
+
+* Do you have functional limitations that you’d like to change?
+
+== Criteria for Success
+
+*What is most important for the success of the project?
+
+* What are the training considerations?
+
+* What resources might be needed (budget, staff, etc.)
+
+* Are there any dependencies on another project/system in completing the project/system?	Please specify.
+
+* Are their resource constraints in maintaining the project/system
+
+** Do you have the in-house expertise we need?
+
+* Are there technical constraints to developing this project/system?
+** What are they?
+
+
+
+== Improving an Existing System
+
+* Will the new project/system have additional functionality?
+
+* Will the new project/system help you be more efficient?
+
+** To what extent?
+
+* What is most important (rank in order of importance):
+
+** Application is easier to use
+
+** Application has nicer front-end
+
+** Application has additional functionality (list)
+
+** Application is more efficient
+
+** Application is redesigned to better reflect the business
+
+
+
+== Criteria for Success
+
+* What needs to happen to make this project/system successful?
+
+
+== High-Level Functions
+
+* What will this project/system do that is entirely new?
+
+* Does the current system do things that this system will not do?
+
+* How do these functions interact with each other?
+
+* Are there other systems this system will interface with?

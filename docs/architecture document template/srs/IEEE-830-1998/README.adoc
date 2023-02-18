@@ -1,0 +1,54 @@
+IEEE Std 830-1998 Software Requirements Specifications
+======================================================
+
+This is a template for writing Software Requirements Specifications based on IEEE Std 830-1998. It is written in http://asciidoctor.org/ using http://www.asciidocfx.com/. All items are based on said standard except __underlined__ items which are additional items practiced by INCOSE.
+
+.Why asciidoctor and not Microsoft Word or Latex or Markdown?
+Document written in Word is not suitable for git versioning since Word stored its files in binaries. Latex, while powerful, has very high learning curve. Markdown while very easy, is very limited in capabilities. Asciidoctor is suitable for git versioning since its text based, is human readable like Markdown and easier to learn than Latex. Asciidoctor can also produce output as good as Latex(graphs, maths etc).
+
+.Any alternative other than Asciidoctor?
+AFAIK, Madoko is a good alternative to Asciidoctor.
+
+To see what the output looks like, http://syaifulnizamyahya.bitbucket.org/IEEE-830-1998/book.html
+
+== Prerequisite
+
+.Have this installed
+. AsciidocFX
+. Graphviz
+
+== Usage
+
+. Open AsciidocFX
+.. Create a batch file named asciidocfx.bat in AsciidocFX installation folder.
+.. Edit the batch file to contain these lines. Make sure it points to correct Graphviz path.
+[source,batch]
+----
+SET GRAPHVIZ_DOT=D:\Program Files (x86)\Graphviz2.38\bin\dot.exe
+AsciidocFX.exe
+----
+.. Launch AsciidocFX using the batch file we just created.
+. Change workdir to the folder where you downloaded this template.
+. Open book.adoc. This is the main entry point for our document.
+. There are 9 templates for Specific Requirements. Use only one and comment/remove other Specific Requirements templates in book.adoc.
+. Once you have make the necessary changes/edit, open book.adoc. Click HTML button in preview pane. And choose save. This will generate HTML file(book.html) for our documents. Open book.html(this is the final output)
+
+== Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
+## History
+
+TODO: Write history
+
+## Credits
+
+Syaiful Nizam Yahya (syaifulnizamyahya@gmail.com)
+
+## License
+
+TODO: Write license
