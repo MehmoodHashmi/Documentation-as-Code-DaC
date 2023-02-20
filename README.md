@@ -1,5 +1,7 @@
 # :star: _Documentation-as-Code (DaC)_ :star:
+
 <!-- TOC -->
+
 * [:star: _Documentation-as-Code (DaC)_ :star:](#-star--_documentation-as-code-dac_--star-)
   * [What should be documented?](#what-should-be-documented)
     * [When there is a change request, it modifies  many artifacts, so be intelligent while keeping & maintaining these artifacts in a project.](#when-there-is-a-change-request-it-modifies--many-artifacts-so-be-intelligent-while-keeping--maintaining-these-artifacts-in-a-project)
@@ -21,7 +23,9 @@
   * [Keep it lightweight](#keep-it-lightweight)
   * [Collaboratively maintain it](#collaboratively-maintain-it)
   * [Project documentation template](#project-documentation-template)
+
 <!-- TOC -->
+
 ## [What should be documented?](https://blog.codecentric.de/architecture-documentation-as-code-with-structurizr-and-asciidoctor-part-2-asciidoctor)
 
 One of the main questions when writing architecture documentation is:

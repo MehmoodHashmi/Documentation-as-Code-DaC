@@ -39,6 +39,12 @@ image::image-2023-02-16-22-22-20-418.png[]
 image::image-2023-02-16-22-20-05-854.png[]
 image::image-2023-02-16-22-22-46-029.png[]
 
+== Understanding Cloud Computing
+=== https://dzone.com/refcardz/getting-started-cloud[Amazon EC2, Google App Engine, and Microsoft Azure]
+
+
+
+
 == Introduction https://www.youtube.com/playlist?list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY[click me] YouTube link
 
 Cloud applications are fundamentally different than traditional applications that run on the desktop, in a browser, or on a mobile device. This master class from Wintellect cofounder and Microsoft Software Architect Jeffrey Richter offers a deep dive into cloud architecture that is independent of platform. Whether you are designing applications for Microsoft Azure, Amazon Web Services, or other cloud platforms, watching this series — and absorbing the principles contained therein — is a MUST before writing the first line of code.
