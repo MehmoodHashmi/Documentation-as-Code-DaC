@@ -21,23 +21,53 @@ they ask how we best align the way
 people are building applications today instead of doing it the way they were doing it 10-years ago
 & then again updating it.
 
-image:IaaS,PaaS,SaaS.png[]
+image:images/IaaS,PaaS,SaaS.png[]
 
 ====
 *Server-less* is an even advanced concept:
 
 NOTE: *Container image:../DevOps/images/docker.svg[width=40]* #---># *_Kubernetes_* #---># *_server-less_* #---># *(Future ?)*
 
-*_##Server-less [.underline]#program# does auto-scaling (vertically & horizontally)##_*
+*_##Server-less [.underline]#the program# does auto-scaling (vertically & horizontally)##_*
 
 *Serverless computing* is a *cloud computing model* which enables *developers* to build and run applications without the need to manage or provision servers. Some key attributes of serverless computing are *#scalability, cost efficiency, flexibility, and simplified development and deployment.#* It offers a pay-as-you-go model, allowing developers to only pay for the resources they use, and it also offers *near-instant scalability, allowing applications to scale up and down automatically as needed*. Additionally, serverless computing eliminates the need to manage server infrastructure, as all the servers are managed by the cloud provider, and makes development and deployment simpler and faster.
-
 ====
-image::image-2023-02-16-22-17-21-992.png[]
-image::image-2023-02-16-22-21-22-584.png[]
-image::image-2023-02-16-22-22-20-418.png[]
-image::image-2023-02-16-22-20-05-854.png[]
-image::image-2023-02-16-22-22-46-029.png[]
+
+
+
+image::images/cloud pyramid.png[]
+image::images/image-2023-02-16-22-17-21-992.png[]
+
+.*_How PaaS, IaaS, SaaS, CaaS & FaaS (Server-less) are separated at service level_* In this section, we are going to learn about how we can separate *_##IaaS, PaaS, and SaaS##_* at the service level:
+
+image:images/supporting_layers_by_vendors.png[]
+
+As the previous diagram suggests, we have the first column as *OPS*, which stands for *operations*. [.underline]#That means the bare minimum requirement for any typical server. When we are going with a server to buy, we should consider the preceding features before buying.#
+
+*_##It includes Application, Data, Runtime, Framework, Operating System, Server, Disk, and Network Stack.##_*
+
+When we move to cloud and decide to go with #*IaaS*#—in this case we are not bothered about *server, disk, and network stack*. Thus, the headache of handling hardware part is no more with us. That's why it is called Infrastructure as a Service.
+
+Now if we think of *#PaaS#*, we should not be worried about *runtime, framework, and operating system* along with the components in IaaS. Things that we need to focus on are only application and data.
+
+And the last deployment model is *SaaS—Software* as a Service. In this model we are not concerned about literally anything. The only thing that we need to work on is the code and just a look at the bill. It's that simple!
+
+== Phases of Cloud Adoption
+
+. https://youtu.be/IBTpNptxYF4[*_Phases of Cloud Adoption_*]
+. https://rescale.com/blog/cloud-3-0-the-rise-of-big-compute/[*_Cloud 1.0 ---is-> SaaS, Cloud 2.0 ---is-> Big Data, Cloud 3.0 ---is-> Big #Compute_#*]
+    ** *Cloud 1.0:* SaaS (In this model we are not concerned about literally anything. The only thing that we need to work on is the *code* and just a look at the *bill*.)
+    ** *Cloud 2.0:* Big Data (removed constraints on *#data#* and transformed major enterprise software categories)
+    ** *Cloud 3.0:* Big Compute (eliminates constraints on *#compute hardware#* and provides the ability to scale computational workloads seamlessly on workload-optimized infrastructure configurations without sacrificing performance.)
+
+.IaasS,PaaS,SaaS
+image::../../docs/DevOps/images/IaasS,PaaS,SaaS.png[]
+image::images/image-2023-02-16-22-21-22-584.png[]
+image::images/image-2023-02-16-22-22-20-418.png[]
+image::images/image-2023-02-16-22-20-05-854.png[]
+image::images/image-2023-02-16-22-22-46-029.png[]
+
+When your *software architecture* is about *microservices*, then *containers* are a good choice. When you are using old *monolithic applications* then *VMs* are not a bad option. So it always depends on the context what you need to learn specifically. The topic is rather broad to summarize it. A book might help with that, but sadly I cannot suggest a good broad one. "Kubernetes in Action" gives you a good start in Kubernetes though.
 
 == Understanding Cloud Computing
 === https://dzone.com/refcardz/getting-started-cloud[Amazon EC2, Google App Engine, and Microsoft Azure]
@@ -47,7 +77,7 @@ image::image-2023-02-16-22-22-46-029.png[]
 
 == Introduction https://www.youtube.com/playlist?list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY[click me] YouTube link
 
-Cloud applications are fundamentally different than traditional applications that run on the desktop, in a browser, or on a mobile device. This master class from Wintellect cofounder and Microsoft Software Architect Jeffrey Richter offers a deep dive into cloud architecture that is independent of platform. Whether you are designing applications for Microsoft Azure, Amazon Web Services, or other cloud platforms, watching this series — and absorbing the principles contained therein — is a MUST before writing the first line of code.
+*#Cloud applications#* are fundamentally different than #traditional applications# that run on the *desktop, in a browser, or on a mobile device*. This master class from Wintellect cofounder and Microsoft Software Architect Jeffrey Richter offers a deep dive into cloud architecture that is independent of platform. Whether you are designing applications for Microsoft Azure, Amazon Web Services, or other cloud platforms, watching this series — and absorbing the principles contained therein — is a MUST before writing the first line of code.
 
 [cols="3,1,1"]
 |===
@@ -156,7 +186,7 @@ Infrastructure/PIatform/Containers/Functions as a Service
 health, upgrades, scaling, & deploys/runs service code.
 
 .observe the diagram carefully
-image::../visual paradigm files/Step-1-Identify microservices .drawio.png[]
+image::../architecture document template/more architecture templates/Step-1-Identify microservices .drawio.png[]
 
 == Networking Communication
 
@@ -189,12 +219,15 @@ Microservices use networking to communicate with each other, but architecting a 
 
 . 7:02 https://www.youtube.com/watch?v=9Ng00IlBCtw&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=1[Welcome to the 'Designing & Versioning HTTP/REST APIs' video series]
 
-. https://www.youtube.com/watch?v=kNIRz7pC7og&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=2[7:42] https://www.youtube.com/watch?v=kNIRz7pC7og&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=2[The Importance of API Design]
-. https://www.youtube.com/watch?v=zra_YLqxhCA&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=3[19:32] https://www.youtube.com/watch?v=zra_YLqxhCA&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=3[HTTP URLs, Headers, Requests & Responses]
-. https://www.youtube.com/watch?v=Jv8oe8tPneo&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=4[13:35] https://www.youtube.com/watch?v=Jv8oe8tPneo&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=4[HTTP Method Idempotency]
-. https://www.youtube.com/watch?v=PFK6RRTwXCg&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=5[24:29] https://www.youtube.com/watch?v=PFK6RRTwXCg&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=5[REST Fundamentals]
+. https://www.youtube.com/watch?v=kNIRz7pC7og&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=2[7:42] https://www.youtube.com/watch?v=kNIRz7pC7og&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=2[The Importance of *API Design*]
+. https://www.youtube.com/watch?v=zra_YLqxhCA&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=3[19:32] https://www.youtube.com/watch?v=zra_YLqxhCA&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=3[*#HTTP URLs, Headers, Requests & Responses#*]
+. https://www.youtube.com/watch?v=Jv8oe8tPneo&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=4[13:35] https://www.youtube.com/watch?v=Jv8oe8tPneo&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=4[HTTP Method *#Idempotency#*]
+. https://www.youtube.com/watch?v=PFK6RRTwXCg&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=5[24:29] https://www.youtube.com/watch?v=PFK6RRTwXCg&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=5[*#REST Fundamentals#*]
 . https://www.youtube.com/watch?v=SLFwVUsjo4I&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=6[9:51] https://www.youtube.com/watch?v=SLFwVUsjo4I&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=6[Processing an HTTP Request]
-. https://www.youtube.com/watch?v=ycoXRuTdfNo&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=7[20:07] https://www.youtube.com/watch?v=ycoXRuTdfNo&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=7[JSON, The Network Type System]
+. https://www.youtube.com/watch?v=ycoXRuTdfNo&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=7[20:07] https://www.youtube.com/watch?v=ycoXRuTdfNo&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=7[*#JSON, The Network Type System#*]
+ *What is a #Payload# in an API?* The payload of an API is *the data you are interested in transporting to the server when you make an API request*. Simply put, it is the body of your HTTP request and response message.
+
+
 . https://www.youtube.com/watch?v=e19sF2jXYnk&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=8[4:08] https://www.youtube.com/watch?v=e19sF2jXYnk&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=8[Identity, Naming, & Relationships]
 . https://www.youtube.com/watch?v=5UHjLTLZ2oE&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=9[9:02] https://www.youtube.com/watch?v=5UHjLTLZ2oE&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=9[Updating a Resource]
 . https://www.youtube.com/watch?v=tY9ECBuqEYs&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=10[14:50] https://www.youtube.com/watch?v=tY9ECBuqEYs&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=10[Conditional Access]
@@ -258,7 +291,7 @@ Building reliable and scalable services that manage state is exponentially more 
 [cols="5,55"]
 |===
 |00:00:00 |Introduction
-|00:00:20 |Data-Storage Considerations
+|00:00:20 |*#Data-Storage Considerations#*
 |00:03:55 |Data Temperature
 |00:09:29 |Caching
 |00:12:47 |#File and Object Storage#

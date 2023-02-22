@@ -1,0 +1,37 @@
+:toc:
+
+== Teamcity Jetbrains CI/CD tool
+
+.CI/CD with JetBrains TeamCity | TeamCity Tutorial
++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zqi4fDF-S60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
++++
+
+== Jenkins (open source)
+
+.*Complete Jenkins Pipeline Tutorial | Jenkinsfile explained*
++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7KCS70sCoK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
++++
+
+*▬▬▬▬▬▬ T I M E S T A M P S ⏰  ▬▬▬▬▬▬*
+
+0:00    Intro
+
+0:11    #What is Jenkinsfile?#
+
+0:50    #From Scripted to Declarative Pipeline Syntax#
+
+2:48    Basic Structure of Jenkinsfile
+
+8:40    Post Build Actions in Jenkinsfile
+
+10:15  Define Conditionals / When expression
+
+12:45  Using Environmental Variables in Jenkinsfile
+
+20:13  Using Tools attribute for making build tools available
+
+22:30  Using Parameters for a Parameterized Build
+
+27:29  #Using external Groovy scripts#

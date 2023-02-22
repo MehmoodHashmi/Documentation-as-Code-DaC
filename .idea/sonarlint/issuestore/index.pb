@@ -77,8 +77,6 @@ G
 docs/DevOps/gradle.adoc,0\8\08eb845556c7d9ab231177ef55865b78f9fc8f13
 F
 docs/DevOps/maven.adoc,b\2\b2db36dbd41069ec263db9e8c49d3b6010572e13
-H
-docs/DevOps/jenkins.adoc,e\9\e90ea1d945e5f57a38b00309e7ceca83c6355d0d
 r
 Bdocs/blockchain/Blockchain_Dipl_Thesis_Christos_Hadjichristofi.pdf,5\7\57535d734169089a7b25ac1c3a4832c01a5c6cb2
 O
@@ -113,8 +111,6 @@ M
 docs/DevOps/images/volume.svg,9\0\9053150c301fcb418b25896ded12753466352c8f
 I
 docs/blockchain/readme.md,6\4\64925a36a19f4fdaa264fbec3a54a9d03e2ee96a
-M
-docs/DevOps/gitAndGitOps.adoc,d\7\d7e8565f953173ef120475ca8274d1b3d223520a
 H
 docs/books/stopwords.txt,1\e\1eb9dfebce72455bebc790c887838b94aecebcf1
 p
@@ -319,8 +315,6 @@ zdocs/architecture document template/0-Requirements Elicitation questions templa
 Ždocs/architecture document template/0-Requirements Elicitation questions template/2- What Questions to ask during Requirement Elicitation.adoc,5\7\57214c0890dab3e353c67e1a32f00ca0208d6b64
 ¯
 docs/architecture document template/0-Requirements Elicitation questions template/1-question for each use case a framework.adoc,c\2\c20d8ad06a171fc59607e0f50adf71926b91099a
-K
-docs/DevOps/kubernetes.adoc,f\b\fb8a1fe6008e9c7600a289744a331446ce7caf3c
 €
 Pdocs/architecture document template/ADD 3.0/Quality attributes 4rth edition.adoc,a\f\af18ad5865b600e49dbfbca61d1de20722a87b33
 š
@@ -411,3 +405,23 @@ x
 Hdocs/architecture document template/arch42/src/04_solution_strategy.adoc,c\c\ccc61f9c6ca8dbb8b2235ad3ca48f4d4e1c939ba
 ?
 docs/tools.adoc,c\5\c542a82fdf92a8599c4ddd1edd41bc3e1506421a
+f
+6docs/programming languages/JVM ecosystem/kotlin/a.adoc,9\c\9c32f3b974dd52f341c9615771316c3c938ec866
+k
+;docs/programming languages/clean architecture/archunit.adoc,6\9\69a40e6dec74a3793a5b094e5c17f431609bca0e
+y
+Idocs/programming languages/clean architecture/hexagonal architecture.adoc,7\6\768ec144a52ffbb164522ec6becd4ef7e6d5afcc
+d
+4docs/programming languages/JVM ecosystem/java/d.adoc,7\a\7adb641f07472c8f76a98ed1c043ea7382b21430
+o
+?docs/uml/draw.io/Cloud architecture/AWS Cloud/microservices.svg,7\1\71c2f182845b1049bee1ea381789b09ff8552ec2
+D
+docs/books/readme.md,b\1\b1a99c431dbb15c9327af478826e0d9d442b79be
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+t
+Ddocs/programming languages/clean architecture/use case modeling.adoc,6\b\6ba51ff8080572f402ebc56c0a202800ba4a0f03
+N
+docs/DevOps/chef_InDevOps.adoc,2\8\288e5d423049df4cccfa88e4cf1e40030510543c
+M
+docs/DevOps/gitAndGitOps.adoc,d\7\d7e8565f953173ef120475ca8274d1b3d223520a
