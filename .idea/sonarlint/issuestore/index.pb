@@ -17,10 +17,6 @@ R
 "docs/business analyst/BRD/FRD.adoc,b\c\bc9fcf5351559702fdd64eb1645a796628d57b30
 V
 &docs/Requirement Engineering/readme.md,4\4\4414ce010a5f6c186cf9b4c8a5af4df59ca69713
-k
-;docs/uml/PlantUML/sequence diagram/How to draw diagram.puml,c\c\cc1d7036908990af685d3c5888d42cc1a998da0b
-w
-Gdocs/uml/PlantUML/sequence diagram/make appointment for submission.puml,9\d\9d54b27562511cc0dbb8155b39a3ce5127bd6887
 R
 "docs/business analyst/BRD/BRD.adoc,8\d\8d51d762e75a19f319eecf9a2e60efdeffdb1336
 D
@@ -41,8 +37,6 @@ w
 G.idea/sonarlint/issuestore/b/c/bc9fcf5351559702fdd64eb1645a796628d57b30,6\e\6e40d0564f9535dc684dd3afd01a7eb6a8c67c9b
 w
 G.idea/sonarlint/issuestore/2/0/202dd177c7fb99a5568500c7efb51b83b388ae0d,9\8\98ea8b94991d147ef210e5441f9be95b22fc1484
-c
-3docs/latex/latex-project-report-template/report.tex,d\0\d0fdf10cfabdc62a6f4583ad8b9e69a64c30a599
 c
 3docs/latex/latex-project-report-template/acknow.tex,5\2\5292d3fca89f243842f92136c14fd8a071b592a1
 c
@@ -73,24 +67,12 @@ w
 G.idea/sonarlint/issuestore/c/c/cc1d7036908990af685d3c5888d42cc1a998da0b,1\6\163454e13f43794713701a35a75b339bb917f2b8
 K
 docs/latex/latex-notes.adoc,9\6\96619979529ac04d0d8cae912ca5e1f99ca88a75
-G
-docs/DevOps/gradle.adoc,0\8\08eb845556c7d9ab231177ef55865b78f9fc8f13
-F
-docs/DevOps/maven.adoc,b\2\b2db36dbd41069ec263db9e8c49d3b6010572e13
-r
-Bdocs/blockchain/Blockchain_Dipl_Thesis_Christos_Hadjichristofi.pdf,5\7\57535d734169089a7b25ac1c3a4832c01a5c6cb2
 O
 docs/database design/DDBMS.adoc,6\2\627ea448fcaa6b3fb28efdba603f1704416e36b7
 w
-Gdocs/database design/How to choose a database for your application.adoc,b\8\b8f8fda3d42c4ef796f546a2b90048454de2915a
-w
 G.idea/sonarlint/issuestore/8/d/8d51d762e75a19f319eecf9a2e60efdeffdb1336,0\a\0ad3d76b2bd5f2b171b0f7a40d6af5ec471200ca
-N
-docs/database design/DBMS.adoc,5\2\5227b812d4fcde01ec25ec8d9d1191d2ff1bfb2c
 W
 'docs/DevOps/images/cluster,node,pod.svg,4\8\48b7b0161a9f5612d6b218bbef02e759fc909e5c
-Q
-!docs/DevOps/images/deployment.svg,5\c\5cb116b475cb32dac166a8596ea877a51bf77cf5
 M
 docs/DevOps/images/docker.svg,4\b\4b4d494702fb7ddbc4dd66c3118d38e6ad387c39
 N
@@ -109,14 +91,8 @@ S
 #docs/DevOps/images/Stateful-Set.svg,a\8\a81fcc5144910033708f7aedac36f077c058bcef
 M
 docs/DevOps/images/volume.svg,9\0\9053150c301fcb418b25896ded12753466352c8f
-I
-docs/blockchain/readme.md,6\4\64925a36a19f4fdaa264fbec3a54a9d03e2ee96a
 H
 docs/books/stopwords.txt,1\e\1eb9dfebce72455bebc790c887838b94aecebcf1
-p
-@docs/uml/PlantUML/use-case diagram/Tomplot Use Case diagram.puml,d\a\da76e9a1ec1a756cf210087037c7cef96ab4065d
-M
-Documentation-as-Code-DaC.iml,7\c\7ccca88fb9cc14ddfa17fa9902d87cae9aacb1a9
 w
 Gdocs/architecture document template/srs/IEEE-29148-2011/References.adoc,c\a\cac3513445ea8d8c30acee90db83fe7b5058c05c
 r
@@ -155,12 +131,8 @@ s
 Cdocs/architecture document template/srs/IEEE-830-1998/Appendix.adoc,d\2\d2e319a485efea2f5d6dd69ff2a32c6c8032e118
 ”
 ddocs/architecture document template/architecture-document-template-master/blank-template/README.adoc,2\5\252d6a9c1492cc9a6c2221c0d9f73ab95a93045e
-–
-fdocs/architecture document template/srs/IEEE-830-1998/SpecificRequirementsOrganizedByModeVersion2.adoc,c\1\c1d951751f22f517e64a82eb1254e961ccd8775a
 ›
 kdocs/architecture document template/architecture-document-template-master/blank-template/view-security.adoc,3\d\3d8b3ab454ddcebcd1a9d97459cb2807f374c604
-}
-Mdocs/architecture document template/srs/IEEE-830-1998/OverallDescription.adoc,d\5\d57e815400f77238fbb3753e5c86bd998d4598e1
 ž
 ndocs/architecture document template/architecture-document-template-master/blank-template/view-development.adoc,2\5\25c785f1e19bff0afbe5f7d7a0b56491155f560a
 y
@@ -173,14 +145,10 @@ fdocs/architecture document template/srs/IEEE-830-1998/SpecificRequirementsOrgan
 ndocs/architecture document template/architecture-document-template-master/blank-template/view-application.adoc,5\d\5dddf851c4dd146759c3beb408f9a1d200c53ed6
 ‘
 adocs/architecture document template/srs/IEEE-830-1998/SpecificRequirementsOrganizedByFeature.adoc,6\8\68457c0791d96bc4a23d5a589fb90868647d6804
-—
-gdocs/architecture document template/architecture-document-template-master/diagrams/C4/C4_Container.puml,a\a\aae9f3c85d8b9855bd5978f045d56532730f2891
 p
 @docs/architecture document template/srs/IEEE-830-1998/Title.adoc,3\5\35a9ff47a7d0faf92e82c800e6ce3711aae71637
 ˜
 hdocs/architecture document template/architecture-document-template-master/diagrams/C4/C4_Deployment.puml,9\1\918ad03f8f77bf8c4bb363e54f85658b366cce26
-
-mdocs/architecture document template/srs/IEEE-830-1998/SpecificRequirementsOrganizedByFunctionalHierarchy.adoc,4\3\43a796c9660d2f132c54b435b0e8463933850c7a
 •
 edocs/architecture document template/architecture-document-template-master/diagrams/C4/C4_Dynamic.puml,0\c\0c364602ae2dd0a981a2d74460f8c028693e925f
 
@@ -203,14 +171,10 @@ kdocs/architecture document template/srs/IEEE-830-1998/SpecificRequirementsShowi
 idocs/architecture document template/architecture-document-template-master/blank-template/view-sizing.adoc,d\c\dc6db608399df20aec08ca104ead20365e241462
 
 ]docs/architecture document template/architecture-document-template-master/diagrams/infra.puml,7\5\750b2228464007904b01e19eefdca50f36848ec1
-—
-gdocs/architecture document template/architecture-document-template-master/diagrams/C4/C4_Component.puml,6\0\60ec3e635376cffe2b8cf3040590fe394c5c6bad
 •
 edocs/architecture document template/architecture-document-template-master/diagrams/C4/composants.puml,d\b\db2d9d283c5da03245c33af919a49d411920b5d7
 «
 {docs/architecture document template/architecture-document-template-master/diagrams/detailled-application-design-static.puml,0\4\04e82f8eecb0566c20d6b2b4df2ee701d7bba497
-•
-edocs/architecture document template/architecture-document-template-master/diagrams/C4/C4_Context.puml,4\8\488291c8eacab4e396cb15154cd686b65dbe57cd
 ¬
 |docs/architecture document template/architecture-document-template-master/diagrams/detailled-application-design-dynamic.puml,f\1\f17d6ff1b7d282b539e908dd91b407998bfc97cc
 ¢
@@ -233,8 +197,6 @@ _docs/architecture document template/architecture-document-template-master/view-
 ”docs/books/1_books backlog/software architecture/Software Architecture in Practice, 4th Edition (Len Bass Paul Clements Rick Kazman) (z-lib.org).pdf,1\b\1b267f1d33c2f3fff36772e1c7ee9b28a673fa14
 º
 ‰docs/books/1_books backlog/software architecture/Software architecture in practice (Len Bass, Paul Clements, Rick Kazman) (z-lib.org).pdf,1\c\1cce910d7269b95a40276f5f17f38fece754f64b
-
-_docs/architecture document template/architecture-document-template-master/view-application.adoc,c\5\c57369152c9f3b389954a50a404b5a35d7929fbc
 ®
 ~docs/books/1_books backlog/other/Andrew Etter - Modern Technical Writing_ An Introduction to Software Documentation (2016).pdf,6\c\6cddf94c452c0abc9974ab732e51490b5702a7f9
 å
@@ -319,8 +281,6 @@ zdocs/architecture document template/0-Requirements Elicitation questions templa
 Pdocs/architecture document template/ADD 3.0/Quality attributes 4rth edition.adoc,a\f\af18ad5865b600e49dbfbca61d1de20722a87b33
 š
 jdocs/architecture document template/ADD 3.0/Software Architecture Documentation ADD 3.0 (Russian Guy)a.pdf,f\8\f85969acafee118fffea57234e91e3151c2d6b78
-s
-Cdocs/architecture document template/ADD 3.0/reveal-my-asciidoc.adoc,6\d\6d76f64f6f23a34815d05043e4fd4aba3da1cd70
 }
 Mdocs/architecture document template/ADD 3.0/Tactics-Based Questionnaires.adoc,4\4\4493c113fd457d742c1b515d4d8942c1bfee10c6
 G
@@ -337,8 +297,6 @@ j
 :docs/architecture document template/arch42/src/config.adoc,1\d\1d68bccd82d34f28eab831ba0c43ea51f0f1fc74
 {
 Kdocs/architecture document template/arch42/src/10_quality_requirements.adoc,3\b\3bfc538d585527bff6aedf440dff6a19f325f6bf
-s
-Cdocs/architecture document template/arch42/src/06_runtime_view.adoc,0\2\022d5e9b70929e2b9add900496c5e1e4eb1a7b74
 o
 ?docs/architecture document template/arch42/src/12_glossary.adoc,d\b\db741c1e55b1a186378826ad038d30b36bdeb6f7
 G
@@ -347,8 +305,6 @@ o
 ?docs/architecture document template/arch42/src/08_concepts.adoc,0\f\0f29ae2d202fdc2ed1485f19dd93a6792bf8cb6b
 ú
 Édocs/books/1_books backlog/software architecture/(SEI series in software engineering) Cervantes, Humberto_Kazman, Rick - Designing software architectures_ a practical approach-Addison-Wesley (2016).pdf,d\0\d0a7c91cad85efc4058f7e74cbc7f2cfaac0147e
-n
->docs/architecture document template/arch42/arc42-template.adoc,d\4\d4e285722b5c4105d2ace2c4378e4a685f3b9e50
 ¹
 ˆdocs/books/1_books backlog/software architecture/Software.Architecture.The.Hard.Parts.Neal.Ford.OReilly.9781492086895.EBooksWorld.ir.pdf,3\1\3129135494907170129fdd8f65e88abbbfa526a4
 o
@@ -391,10 +347,32 @@ Odocs/architecture document template/ADD 3.0/images/Tomplot Use Case diagram.svg
 mdocs/architecture document template/0-Requirements Elicitation questions template/Modern Technical Writing.md,b\f\bf33c5f0bbb3a50d8de7f8f3f54473c59cec79c7
 ¡
 qdocs/architecture document template/0-Requirements Elicitation questions template/0-audio or video recording.adoc,9\a\9a39093c70c27c1676037a0df8895d16fd1a7976
-r
-Bdocs/uml/PlantUML/use-case diagram/Echo Save Use case diagram.puml,7\1\717da2027840ccb7b1efbdd43f347f2daff8cdb5
 v
 Fdocs/architecture document template/arch42/src/07_deployment_view.adoc,7\1\713c9d3efce0b81dc0fe7d3a36055f6920d81448
+k
+;docs/programming languages/clean architecture/archunit.adoc,6\9\69a40e6dec74a3793a5b094e5c17f431609bca0e
+D
+docs/books/readme.md,b\1\b1a99c431dbb15c9327af478826e0d9d442b79be
+s
+Cdocs/architecture document template/arch42/src/06_runtime_view.adoc,0\2\022d5e9b70929e2b9add900496c5e1e4eb1a7b74
+G
+docs/DevOps/gradle.adoc,0\8\08eb845556c7d9ab231177ef55865b78f9fc8f13
+F
+docs/DevOps/maven.adoc,b\2\b2db36dbd41069ec263db9e8c49d3b6010572e13
+H
+docs/DevOps/jenkins.adoc,e\9\e90ea1d945e5f57a38b00309e7ceca83c6355d0d
+L
+docs/DevOps/helm_charts.adoc,b\3\b3c0ddc56005e21381261c864c4c46ec0d434b3e
+N
+docs/DevOps/chef_InDevOps.adoc,2\8\288e5d423049df4cccfa88e4cf1e40030510543c
+M
+docs/DevOps/gitAndGitOps.adoc,d\7\d7e8565f953173ef120475ca8274d1b3d223520a
+I
+docs/DevOps/ansibile.adoc,5\1\51e601ab5354150481c1faa707e5e04ec0181c6e
+y
+Idocs/programming languages/clean architecture/hexagonal architecture.adoc,7\6\768ec144a52ffbb164522ec6becd4ef7e6d5afcc
+
+_docs/architecture document template/architecture-document-template-master/view-application.adoc,c\5\c57369152c9f3b389954a50a404b5a35d7929fbc
 }
 Mdocs/architecture document template/arch42/src/01_introduction_and_goals.adoc,2\b\2b996251190c480c1327dacbe39cf11809930364
 
@@ -403,25 +381,19 @@ Odocs/architecture document template/arch42/src/02_architecture_constraints.adoc
 Odocs/architecture document template/arch42/src/03_system_scope_and_context.adoc,c\5\c50e4fabd8cf9760796689b473eba8ca2d7bc962
 x
 Hdocs/architecture document template/arch42/src/04_solution_strategy.adoc,c\c\ccc61f9c6ca8dbb8b2235ad3ca48f4d4e1c939ba
-?
-docs/tools.adoc,c\5\c542a82fdf92a8599c4ddd1edd41bc3e1506421a
-f
-6docs/programming languages/JVM ecosystem/kotlin/a.adoc,9\c\9c32f3b974dd52f341c9615771316c3c938ec866
-k
-;docs/programming languages/clean architecture/archunit.adoc,6\9\69a40e6dec74a3793a5b094e5c17f431609bca0e
-y
-Idocs/programming languages/clean architecture/hexagonal architecture.adoc,7\6\768ec144a52ffbb164522ec6becd4ef7e6d5afcc
-d
-4docs/programming languages/JVM ecosystem/java/d.adoc,7\a\7adb641f07472c8f76a98ed1c043ea7382b21430
+
+mdocs/architecture document template/srs/IEEE-830-1998/SpecificRequirementsOrganizedByFunctionalHierarchy.adoc,4\3\43a796c9660d2f132c54b435b0e8463933850c7a
+–
+fdocs/architecture document template/srs/IEEE-830-1998/SpecificRequirementsOrganizedByModeVersion2.adoc,c\1\c1d951751f22f517e64a82eb1254e961ccd8775a
+}
+Mdocs/architecture document template/srs/IEEE-830-1998/OverallDescription.adoc,d\5\d57e815400f77238fbb3753e5c86bd998d4598e1
+n
+>docs/architecture document template/arch42/arc42-template.adoc,d\4\d4e285722b5c4105d2ace2c4378e4a685f3b9e50
+I
+docs/blockchain/readme.md,6\4\64925a36a19f4fdaa264fbec3a54a9d03e2ee96a
 o
 ?docs/uml/draw.io/Cloud architecture/AWS Cloud/microservices.svg,7\1\71c2f182845b1049bee1ea381789b09ff8552ec2
-D
-docs/books/readme.md,b\1\b1a99c431dbb15c9327af478826e0d9d442b79be
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-t
-Ddocs/programming languages/clean architecture/use case modeling.adoc,6\b\6ba51ff8080572f402ebc56c0a202800ba4a0f03
 N
-docs/DevOps/chef_InDevOps.adoc,2\8\288e5d423049df4cccfa88e4cf1e40030510543c
+docs/database design/DBMS.adoc,5\2\5227b812d4fcde01ec25ec8d9d1191d2ff1bfb2c
 M
-docs/DevOps/gitAndGitOps.adoc,d\7\d7e8565f953173ef120475ca8274d1b3d223520a
+Documentation-as-Code-DaC.iml,7\c\7ccca88fb9cc14ddfa17fa9902d87cae9aacb1a9

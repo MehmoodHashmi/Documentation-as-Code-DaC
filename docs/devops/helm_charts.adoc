@@ -1,0 +1,44 @@
+▬▬▬▬▬▬ T I M E S T A M P S ⏰ ▬▬▬▬▬▬
+
+
+https://www.youtube.com/watch?v=-ykwb1d0DXU&t=0s[0:00]- Intro
+
+https://www.youtube.com/watch?v=-ykwb1d0DXU&t=37s[0:37]- Package Manager and Helm Charts
+
+https://www.youtube.com/watch?v=-ykwb1d0DXU&t=285s[4:45]- Templating Engine
+
+https://www.youtube.com/watch?v=-ykwb1d0DXU&t=433s[7:13]- Use Cases for Helm
+
+https://www.youtube.com/watch?v=-ykwb1d0DXU&t=494s[8:14]- Helm Chart Structure
+
+https://www.youtube.com/watch?v=-ykwb1d0DXU&t=597s[9:57]- Values injection into template files
+
+https://www.youtube.com/watch?v=-ykwb1d0DXU&t=684s[11:24]- Release Management / Tiller (Helm Version 2!)
+
+https://www.youtube.com/watch?v=-ykwb1d0DXU&t=788s[13:08]- Downsides of Helm
+
+
+.What is Helm in Kubernetes? Helm and Helm Charts explained
++++
+<iframe width="560" height="315" src=https://www.youtube.com/embed/-ykwb1d0DXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
++++
+
+
+https://www.youtube.com/watch?v=Aw5_NKLRfb8&t=0s[00:00] Introduction
+
+https://www.youtube.com/watch?v=Aw5_NKLRfb8&t=34s[00:34] Agenda
+
+https://www.youtube.com/watch?v=Aw5_NKLRfb8&t=57s[00:57] What is Helm?
+
+https://www.youtube.com/watch?v=Aw5_NKLRfb8&t=136s[02:16] What is Helm Chart?
+
+https://www.youtube.com/watch?v=Aw5_NKLRfb8&t=173s[02:53] When is it used and when to use it?
+
+https://www.youtube.com/watch?v=Aw5_NKLRfb8&t=353s[05:53] Helm Chart Structure
+
+https://www.youtube.com/watch?v=Aw5_NKLRfb8&t=422s[07:02] Demo: Creating a Helm Chart
+
+.What is Helm Chart in Kubernetes? | Helm Chart explained
++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Aw5_NKLRfb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
++++

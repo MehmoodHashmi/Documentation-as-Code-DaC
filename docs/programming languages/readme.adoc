@@ -1,0 +1,9 @@
+XML, YAML, JSON, HTML, XHTML, CSS etc. are type of external DSLs.
+
+One thing very important I learned was:
+. especially DSL written in XML, YAML can be used with any programming language
+
+. on the other hand if you have written a DSL with Kotlin that is an internal DSL then, it will be used by people who know kotlin language.
+
+internal DSL are language dependent while external DSLs are language independent
+

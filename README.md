@@ -88,7 +88,7 @@ It may seem tedious, but comprehensive documentation is what can make the differ
 
 ## What is project documentation?
 
-**Project documentation** is the process of recording the key project details and producing the documents that are required to implement it successfully. Simply put, it's an umbrella term which includes all the documents created over the course of the project.
+**Project documentation** is the process of recording the key project details and producing the documents that are required [po-098c] to implement it successfully. Simply put, it's an umbrella term which includes all the documents created over the course of the project.
 
 Project documents come in many forms – from _**project proposals**_ and business cases, to **_project plans_** and project status reports.
 

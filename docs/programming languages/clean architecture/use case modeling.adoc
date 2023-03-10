@@ -38,6 +38,16 @@ https://www.uml-diagrams.org/references.html#ref-uml-25-b1[[UML 2.5 FTF - Beta 1
 image::images/use-case.png[]
 image::images/Screenshot_33.png[]
 image::images/Screenshot_3x.png[]
+If a *#use case is <service>#* and also there exists an *integration service* that can fulfill *use-case* needs then in such a scenario you have to look for the *API documentation* and determine the following:
+
+. *OpenAPI or swagger* and determine what function to use
+. If doest not exist then design the API by determining  all data that  will be consumed and produced by this API.
+** The API can synchronous or asynchronous
+** REST is only about state (Resource) bu no action, still some people hack the API to include action but that should be avoided
+** REST only performs *#CRUD#* operations
+
+image::../../devops/images/image-2023-02-22-16-42-27-549.png[]
+
 image::images/s.png[]
 
 image::images/image-2023-02-20-18-29-44-446.png[]
@@ -52,6 +62,8 @@ image::images/image-2023-02-20-18-36-44-142.png[]
 
 
 
+
+*#_API (OpenAPI or swagger)_#*
 
 .APIs Vs. Events | Can they coexist? | API First or Event First
 +++

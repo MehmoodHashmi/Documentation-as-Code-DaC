@@ -47,7 +47,7 @@ Picking a database is a long-term commitment, so the decision shouldn’t be mad
 .how to choose a right database for your application
 image::images/how to choose database.jpg[]
 
-
+[[how_to_choose_a_right_database_for_your_application]]
 _**From performance to programmability, the right database makes all the difference. Here are 12 key questions to help guide your selection>
 **_
 
@@ -103,6 +103,7 @@ It is important to monitor the storage usage over time to ensure that I have eno
 To calculate the storage needs for two years,
 with an event size of 560 bytes and an average ingestion rate of 3000 events per second, using a compression ratio of 10:1, I can use the following formula:
 
+[[storage_size_calculation]]
 .Storage size calculation
 ====
 The following equation calculates the storage size needed for two years, given an event size of 560 bytes and an average ingestion rate of 3000 events per second, with a compression ratio of 10:1:

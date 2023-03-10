@@ -26,7 +26,7 @@ image:images/IaaS,PaaS,SaaS.png[]
 ====
 *Server-less* is an even advanced concept:
 
-NOTE: *Container image:../DevOps/images/docker.svg[width=40]* #---># *_Kubernetes_* #---># *_server-less_* #---># *(Future ?)*
+NOTE: *Container image:../devops/images/docker.svg[width=40]* #---># *_Kubernetes_* #---># *_server-less_* #---># *(Future ?)*
 
 *_##Server-less [.underline]#the program# does auto-scaling (vertically & horizontally)##_*
 
@@ -61,7 +61,7 @@ And the last deployment model is *SaaS—Software* as a Service. In this model w
     ** *Cloud 3.0:* Big Compute (eliminates constraints on *#compute hardware#* and provides the ability to scale computational workloads seamlessly on workload-optimized infrastructure configurations without sacrificing performance.)
 
 .IaasS,PaaS,SaaS
-image::../../docs/DevOps/images/IaasS,PaaS,SaaS.png[]
+image::../../docs/devops/images/IaasS,PaaS,SaaS.png[]
 image::images/image-2023-02-16-22-21-22-584.png[]
 image::images/image-2023-02-16-22-22-20-418.png[]
 image::images/image-2023-02-16-22-20-05-854.png[]
@@ -164,7 +164,7 @@ Monoliths vs. Microservices
 |https://www.wintellectnow.com/Videos/Watch?videoId=architecting-distributed-cloud-applications-part-1-fundamentals#[00:57:29] |#Service-Level Agreements (SLAs) and Dependent Services#
 |https://www.wintellectnow.com/Videos/Watch?videoId=architecting-distributed-cloud-applications-part-1-fundamentals#[01:01:35] |Auto-Scaling (has 3-techniques)
 |https://www.wintellectnow.com/Videos/Watch?videoId=architecting-distributed-cloud-applications-part-1-fundamentals#[01:07:46] |12-Factor Services and Applications
-|https://www.wintellectnow.com/Videos/Watch?videoId=architecting-distributed-cloud-applications-part-1-fundamentals#[01:19:22] |*Containers* image:../DevOps/images/docker.svg[width=40], *image* once created then becomes  *immutable*
+|https://www.wintellectnow.com/Videos/Watch?videoId=architecting-distributed-cloud-applications-part-1-fundamentals#[01:19:22] |*Containers* image:../devops/images/docker.svg[width=40], *image* once created then becomes  *immutable*
 |https://www.wintellectnow.com/Videos/Watch?videoId=architecting-distributed-cloud-applications-part-1-fundamentals#[01:24:24] |
 
 *Why Containers? #Isolation# vs.   #_Density_#*
@@ -215,7 +215,15 @@ Microservices use networking to communicate with each other, but architecting a 
 |https://www.wintellectnow.com/Videos/Watch?videoId=architecting-distributed-cloud-applications-part-2-networking-communication#[01:07:12] |*Implementing Operations Idempotently*
 |===
 
+
+
 === https://www.youtube.com/playlist?list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65[Designing & Versioning HTTP/REST APIs]
+*#_API (OpenAPI or swagger)_#*
+
+.APIs Vs. Events | Can they coexist? | API First or Event First
++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3t7pMx35Reg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
++++
 
 . 7:02 https://www.youtube.com/watch?v=9Ng00IlBCtw&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=1[Welcome to the 'Designing & Versioning HTTP/REST APIs' video series]
 
@@ -230,12 +238,13 @@ Microservices use networking to communicate with each other, but architecting a 
 
 . https://www.youtube.com/watch?v=e19sF2jXYnk&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=8[4:08] https://www.youtube.com/watch?v=e19sF2jXYnk&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=8[Identity, Naming, & Relationships]
 . https://www.youtube.com/watch?v=5UHjLTLZ2oE&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=9[9:02] https://www.youtube.com/watch?v=5UHjLTLZ2oE&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=9[Updating a Resource]
+
 . https://www.youtube.com/watch?v=tY9ECBuqEYs&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=10[14:50] https://www.youtube.com/watch?v=tY9ECBuqEYs&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=10[Conditional Access]
 . https://www.youtube.com/watch?v=MNIHxHqWubw&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=11[4:23] https://www.youtube.com/watch?v=MNIHxHqWubw&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=11[Performing an Action]
 . https://www.youtube.com/watch?v=y4YyqadogQg&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=12[11:14] https://www.youtube.com/watch?v=y4YyqadogQg&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=12[Service Considerations]
 . https://www.youtube.com/watch?v=jI7fTQT1gac&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=13[11:56] https://www.youtube.com/watch?v=jI7fTQT1gac&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=13[Collections]
-. https://www.youtube.com/watch?v=bG984_L6dS0&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=14[33:04] https://www.youtube.com/watch?v=bG984_L6dS0&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=14[Versioning HTTP APIs]
-. https://www.youtube.com/watch?v=zmB4W6V2Xrc&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=15[4:15] https://www.youtube.com/watch?v=zmB4W6V2Xrc&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=15[Final Thoughts]
+. https://www.youtube.com/watch?v=bG984_L6dS0&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=14[33:04] https://www.youtube.com/watch?v=bG984_L6dS0&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=14[#Versioning HTTP APIs#]
+. https://www.youtube.com/watch?v=zmB4W6V2Xrc&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=15[4:15] https://www.youtube.com/watch?v=zmB4W6V2Xrc&list=PL9XzOCngAkqs4m0XdULJu_78nM3Ok3Q65&index=15[#Final Thoughts#]
 
 == Messaging
 === Description
@@ -291,17 +300,51 @@ Building reliable and scalable services that manage state is exponentially more 
 [cols="5,55"]
 |===
 |00:00:00 |Introduction
-|00:00:20 |*#Data-Storage Considerations#*
-|00:03:55 |Data Temperature
+|00:00:20 |*#Data-Storage Considerations#* <<storage_size_calculation>>
+ |00:03:55 |Data Temperature
 |00:09:29 |Caching
-|00:12:47 |#File and Object Storage#
+|00:12:47 |#File and Object Storage# <<how_to_choose_a_right_database_for_your_application>>
+
+*➢* Object (blob) storage services for documents, pictures, images, and videos.
+
+*➢* How to improve performance of client's accessing these documents by using a Content Delivery Network (CDN).
+
+
 |00:22:18 |#Database Storage#
+
+*➢ SQL* (table or entities have relationship with each other)
+
+*➢ NoSQL* (table or entities do not have relationship with each other), scalability is easy. Not good for working with data that has relationship with each other.
+
+How you partition your data is your choice and its super important.
+
 |00:33:58 |#*_Data Partitioning_*#
-|00:48:15 |Data Consistency
+
+*➢* _Data is *partitioned* for ##size, speed or both##_
+
+*➢* _Each *partition's* data is *replicated* for ##reliability##_
+image:images/data partition and replica.png[]
+
+|00:48:15 |Data Consistency:
+The concept of strong & weak data consistency, the CAP theorem, and apology-based computing.
+image:images/data consistency.png[]
+
+image:images/consistency or availabilty which is better.png[]
+
 |01:05:34 |#The CQRS Pattern#
+The Command Query Responsibility Segregation (CQRS) pattern which separates data modifications (commands) from data queries.
+
 |01:10:06 |#The Event-Sourcing Pattern#
-|01:16:59 |#Eventual Consistency#
+The Event sourcing pattern as a way of storing *#immutable (big)#* data and then producing *#views#* over this data.
+image:images/event sourcing.png[]
+|
+01:16:59 |#Eventual Consistency:#
+Some patterns and tips for how to deal with and implement eventual consistency.
+image:images/implementing eventual consistency.png[]
+
 |01:21:12 |#The Saga Pattern#
+The Saga pattern for dealing with eventual consistency which compromises atomicity for availability.
+
 |01:28:17 |Data Concurrency and Versioning
 |01:32:46 |Optimistic Concurrency
 |01:38:27 |Versioning Data Schemas
@@ -309,3 +352,5 @@ Building reliable and scalable services that manage state is exponentially more 
 |01:50:49 |Recovery Point and Time Objectives
 |01:53:22 |Disaster Recovery
 |===
+
+

@@ -16,6 +16,7 @@ title Amazon S3 objects using IAM Temporary Credentials
 !include AWSPuml/SecurityIdentityCompliance/IdentityAccessManagementRole.puml
 !include AWSPuml/Storage/SimpleStorageServiceBucket.puml
 !include AWSPuml/Storage/SimpleStorageServiceObject.puml
+!include AWSPuml/Compute/ApplicationAutoScaling.puml
 
 hide footbox
 skinparam style strictuml
@@ -58,6 +59,7 @@ $AWSIcon(Cognito, "Identity Pool", "Amazon Cognito") as idpool
 $AWSIcon(SimpleStorageServiceBucket, "Bucket", "Amazon S3") as s3 <<Multi-Tenant>>
 $AWSIcon(IdentityAccessManagementAWSSTSAlternate, " ", "AWS STS") as sts
 $AWSIcon(IdentityAccessManagementPermissions, "Policy", "AWS IAM") as permissions
+
 
 note over userpool
   1. Authenticate and get tokens
