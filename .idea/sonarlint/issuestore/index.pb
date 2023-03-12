@@ -61,10 +61,6 @@ h
 8docs/latex/latex-project-report-template/future-work.tex,9\9\99539f189fb12317e9702a2bd902b53d50120ed7
 h
 8docs/latex/latex-project-report-template/certificate.tex,3\b\3b4aebefcf6ae7fae3f44c58dd8db6db78195aea
-w
-G.idea/sonarlint/issuestore/9/d/9d54b27562511cc0dbb8155b39a3ce5127bd6887,a\9\a938197e9dc76008e42ec75c797157e1351efa19
-w
-G.idea/sonarlint/issuestore/c/c/cc1d7036908990af685d3c5888d42cc1a998da0b,1\6\163454e13f43794713701a35a75b339bb917f2b8
 K
 docs/latex/latex-notes.adoc,9\6\96619979529ac04d0d8cae912ca5e1f99ca88a75
 O

@@ -79,11 +79,11 @@ https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html link to
 == What is VPC and how it works | Types of VPC -2
 
 .*2-Types of VPC*
-. *Default vcp:* default internet gateway is available hence can communicate to internet
+. *Default VPC:* default internet gateway is available hence can communicate to internet
 
-. *Custom vcp:* default internet gateway is not available hence cannot communicate to internet. but you can create internet gateway and talk to internet.
+. *Custom VPC:* default internet gateway is not available hence cannot communicate to internet. but you can create internet gateway and talk to internet.
 
-.IPs which you cannot use in your VPC
+.*IPs* which you cannot use in your *VPC*
 image::image-2023-03-03-18-43-39-346.png[width=400, float=right]
 .*4-most important steps in creating VPC*
 . create a *VPC*

@@ -99,7 +99,7 @@ image::img.png[]
 
 .this is the level of detail a *DevOps engineer* has about AWS when create diagram or infrastructure for the application or create different environment (dev, qa, stage, production)image::img_1.png[]
 
-.there is yet anohter level of detail for the system administrator wwho knows even more than DevOps guy
+.there is yet another level of detail for the *system administrator* who knows even more than *DevOps guy*
 image::img_1.png[]
 
 
@@ -229,7 +229,9 @@ image::img_1.png[]
 
 . https://www.youtube.com/watch?v=JIbIYCM48to&t=656s[10:56] CloudFormation
 
-. https://www.youtube.com/watch?v=JIbIYCM48to&t=668s[11:08] Amplify #https://www.youtube.com/watch?v=JIbIYCM48to&t=680s[11:20] Budget#
+. https://www.youtube.com/watch?v=JIbIYCM48to&t=668s[11:08] Amplify
+
+. https://www.youtube.com/watch?v=JIbIYCM48to&t=680s[11:20] Budget
 
 
 (00:00) amazon web services launched in 2006 with a total of three products _**#storage buckets compute instances and a messaging queue#**_ today it offers a mind-numbing 200 and something services and what's most confusing is that many of them appear to do almost the exact same thing it's kind of like shopping at a big grocery store where you have different aisles of product categories filled with things to buy that meet the needs of virtually every developer on the planet in today's video we'll walk down these aisles to gain an

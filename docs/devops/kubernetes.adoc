@@ -53,8 +53,6 @@ Kubernetes, also known as K8s, is the most popular platform for container orches
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X48VuDVv0do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
 +++
 
-This is a video tutorial on Kubernetes for beginners. The video covers the basic concepts of what Kubernetes is and the problems it solves. It covers the architecture of Kubernetes, showcasing all the main components. The video explains how to use Kubernetes by installing Minikube for a local Kubernetes cluster and demonstrates how to create, debug, and delete pods using the kubectl command-line tool. The video also covers the basics of kubernetes yaml configuration files, which are used to create and configure components. It includes a practical use case where a simple application is deployed in a local kubernetes cluster to give the viewer hands-on experience with the tool. The second part of the video covers advanced and important concepts in Kubernetes, such as organizing components using namespaces, making an app available from outside using Ingress, and Helm, which is the package manager for Kubernetes. The video also covers how to persist data in Kubernetes using volumes, deploying stateful applications using stateful sets, and the different Kubernetes service types.
-
 == 🔥 What is Kubernetes image:images/kubernetes.svg[width=40] 🔥
 
 * *#_Kubernetes_# is a container image:images/docker.svg[width=40] orchestration tool, while #_auto-scaling_# (in #_AWS_#) is a tool used for scaling a #_virtual machine image:images/vmware.png[width=80]_#*. #_Containers_# image:images/docker.svg[width=40] are different from a *virtual machine*, #*_EC2_*# is a *virtual machine* image:images/vmware.png[width=80].
@@ -274,6 +272,9 @@ Kubernetes has a #*decentralized architecture*# that does not handle tasks *sequ
 
 . https://phoenixnap.com/kb/prometheus-kubernetes-monitoring[Kubernetes continuously monitors the elements of the cluster] to make sure the *#current state#* of the *application* does not vary from the desired**## state##**.
 
+.container vs image vs pod vs manifest-file
+image::images/container-image-pod-manifest.svg[]
+
 
 === ► Worker Nodes
 * *Worker nodes* are the main components of a Kubernetes cluster that run containerized applications.
@@ -360,7 +361,8 @@ https://www.youtube.com/watch?v=oBf5lrmquYI&list=PLy7NrYWoggjwk5fAX1q8gBNYrisYeH
 
 . disaster recovery
 
-These practices are related to the operationss, that's the reason why
+These practices are related to the operations, that's the reason why:
+
 *#DevOps#*--to-> *#DevSecOps#*
 
 
