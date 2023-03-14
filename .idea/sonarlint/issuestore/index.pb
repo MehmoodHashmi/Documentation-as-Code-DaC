@@ -397,3 +397,5 @@ e
 5docs/cloud computing/Oracle Cloud/virtualization.adoc,f\c\fc59d426b5121cfed98073b9c133b215cd337409
 W
 'docs/cloud computing/AWS Cloud/aws.adoc,9\e\9efb24ccc24a7ebf40c6d361d6075dd6bcd26031
+K
+docs/devops/kubernetes.adoc,8\b\8b2ac8eb098cc2d461326df479ec9675b2cbb99f
