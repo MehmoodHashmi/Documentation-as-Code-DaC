@@ -1,4 +1,4 @@
-= Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]
+= Kubernetes image:images/kubernetes.svg[width=40] is the O/S image:images/linux-windows-os.svg[width=80] for the Cloud image:images/cloudmachine.svg[width=80]
 Author Name Mehmood-ur-Rehman
 :sectnumlevels: 4
 :toclevels: 4
@@ -7,6 +7,32 @@ Author Name Mehmood-ur-Rehman
 :icons: font
 :toc-title: Table of contents
 :doctype: book
+
+== Devops / Cloud tools and plugins
+. kubernetes
+* Helm (download)
+. kubectl (client)
+. go templates
+. k9s (interactive command line dashboard) for managing *_kubernetes cluster_*
+. Terraform and HCL
+* AWS toolkit
+* azure
+* GCP cloud
+. Synk security (check for security in IaC)
+. Docker
+. git
+
+*Kubernetes* image:images/kubernetes.svg[width=40] is the *O/S* image:images/linux-windows-os.svg[width=80] for the *Cloud* image:images/cloudmachine.svg[width=80]
+
+.*Platform:* offers 2-things
+. Portability
+. Extensibility
+
+.Kubernetes: Finally...A True *Cloud Platform*
++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/of45hYbkIZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
++++
+There's no way to write a *_##single spec or design##_* that goes across different *cloud providers*.*Kubernetes* can help with this if you have design or spec written in kubernetes topology.
 
 image::images/image-2023-02-02-23-04-30-073.png[width=800]
 
@@ -43,7 +69,6 @@ https://www.youtube.com/watch?v=X48VuDVv0do&t=9487s[2:38:07] - *_##Persisting Da
 https://www.youtube.com/watch?v=X48VuDVv0do&t=10718s[2:58:38] - _**#Deploying Stateful Apps with StatefulSet#**_
 
 https://www.youtube.com/watch?v=X48VuDVv0do&t=11623s[3:13:43] - K8s Services explained
-
 
 
 
@@ -317,8 +342,18 @@ Minikube is a tool that makes it easy to run a single-node Kubernetes cluster lo
 
 
 === ► What is kubectl?
-kubectl is a command-line tool that allows you to manage your Kubernetes cluster. It allows you to interact with your cluster and deploy, inspect, and manage various components, such as pods, services, and configmaps.
 
+.How to set up *_kubectl client_* on *_##IntelliJ IDEA##_*
++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G9MmLUsBd3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
++++
+
+*kubectl* is a command-line tool that allows you to manage your *_##Kubernetes cluster##_*. It allows you to interact with your cluster and deploy, inspect, and manage various components, such as pods, services, and configmaps.
+
+.How to set up *_helm_* on *_##IntelliJ IDEA##_*
++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZKAlKoqlWac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
++++
 
 === ► install minikube and kubectl
 Installing minikube and kubectl is a straightforward process. You can follow the official installation guide on the Kubernetes website. It provides step-by-step instructions for installing minikube and kubectl on various platforms, such as Windows, macOS, and Linux.

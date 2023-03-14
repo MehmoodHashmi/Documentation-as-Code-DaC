@@ -365,8 +365,6 @@ M
 docs/DevOps/gitAndGitOps.adoc,d\7\d7e8565f953173ef120475ca8274d1b3d223520a
 I
 docs/DevOps/ansibile.adoc,5\1\51e601ab5354150481c1faa707e5e04ec0181c6e
-y
-Idocs/programming languages/clean architecture/hexagonal architecture.adoc,7\6\768ec144a52ffbb164522ec6becd4ef7e6d5afcc
 è
 _docs/architecture document template/architecture-document-template-master/view-application.adoc,c\5\c57369152c9f3b389954a50a404b5a35d7929fbc
 }
@@ -393,3 +391,9 @@ N
 docs/database design/DBMS.adoc,5\2\5227b812d4fcde01ec25ec8d9d1191d2ff1bfb2c
 M
 Documentation-as-Code-DaC.iml,7\c\7ccca88fb9cc14ddfa17fa9902d87cae9aacb1a9
+h
+8docs/Requirement Engineering/system design template.adoc,4\c\4ce0d1d49542fccb16d827dc246284d4b11dfff6
+e
+5docs/cloud computing/Oracle Cloud/virtualization.adoc,f\c\fc59d426b5121cfed98073b9c133b215cd337409
+W
+'docs/cloud computing/AWS Cloud/aws.adoc,9\e\9efb24ccc24a7ebf40c6d361d6075dd6bcd26031
