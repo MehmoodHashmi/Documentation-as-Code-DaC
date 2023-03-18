@@ -9,11 +9,16 @@
 
 . https://vivek-singh.medium.com/system-design-cheat-sheet-318ba2e34723[System design cheat-sheet] excellent resource, contains detailed information about the system design component (hardware and software)
 
+. https://github.com/donnemartin/system-design-primer[The System Design Primer]
+
+. https://github.com/karanpratapsingh/system-design[System Design course]
+
+
 .All the cells which are empty/blank and appear on the right needs to be determined/calculated for each system.
 [cols="2,3,3",]
 |===
-|*Requirements* |Functional Requirements |
-| |Non-Functional Requirements |
+|*Requirements* |link:../programming-languages/clean-architecture/use-case-modeling.adoc[*Functioal Requirements*] |
+| |link:../architecture-document-template/ADD-3.0/Quality-attributes-4rth-edition.adoc[*Non-Functional Requirements*] |
 | |Daily Active Users |
 | |Read-to-Write Ratio |
 | |Usage Patterns |

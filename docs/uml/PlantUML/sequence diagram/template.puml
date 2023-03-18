@@ -1,7 +1,9 @@
 @startuml
 
+!theme plain
+
 skinparam sequenceParticipant underline
-skinparam roundcorner 40
+skinparam roundcorner 20
  'hidefootbox
 header "let do coding"
 footer "page %page% of %lastpage%"
@@ -10,11 +12,11 @@ autoactivate on
 autonumber
 
 actor "Web User" as webUser #lightblue
-participant "Front End" as Portal #lightgreen
+participant "Front End" as Portal #pink
 participant Gateway
-participant "Identity \n Server" as IdentityServer #yellow
+participant "Identity \n Server" as IdentityServer #grey
 participant "Rest API" as RestAPI #orange
-database OrderDatabase
+database OrderDatabase #red
 entity "External \nShipping Service" as ExternalShippingService #yellow
 
 webUser -[#red]> Portal ++ : Orders Request

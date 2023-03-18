@@ -186,7 +186,7 @@ Infrastructure/PIatform/Containers/Functions as a Service
 health, upgrades, scaling, & deploys/runs service code.
 
 .observe the diagram carefully
-image::../architecture document template/more architecture templates/Step-1-Identify microservices .drawio.png[]
+image::../architecture-document-template/more architecture templates/Step-1-Identify microservices .drawio.png[]
 
 == Networking Communication
 

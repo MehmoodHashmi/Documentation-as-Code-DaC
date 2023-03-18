@@ -1,0 +1,82 @@
+@startuml Sequence Diagram - Technical
+!pragma teoz true
+
+
+!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v15.0/dist
+!include AWSPuml/AWSCommon.puml
+!include AWSPuml/Compute/all.puml
+!include AWSPuml/ApplicationIntegration/APIGateway.puml
+!include AWSPuml/General/Internetalt1.puml
+!include AWSPuml/Database/DynamoDB.puml
+!include AWSPuml/Storage/SimpleStorageServiceBucket.puml
+!include AWSPuml/Storage/SimpleStorageServiceObject.puml
+!include AWSPuml/Compute/ApplicationAutoScaling.puml
+
+hide footbox
+skinparam style strictuml
+
+skinparam participant {
+    BackgroundColor AWS_BG_COLOR
+    BorderColor AWS_BORDER_COLOR
+    RoundCorner 0
+}
+skinparam sequence {
+    ArrowThickness 2
+    LifeLineBorderColor AWS_COLOR
+    MessageAlignment left
+}
+skinparam note {
+  TextAlignment left
+  BorderColor AWS_COLOR
+  BackgroundColor %lighten(AWS_BORDER_COLOR, 75)
+}
+skinparam WrapWidth 300
+skinparam MaxMessageSize 600
+
+!procedure $AWSIcon($service, $line1, $line2="")
+participant "$AWSImg($service)\n<b>$line1</b>\n$line2"
+!endprocedure
+
+skinparam note<<ReturnIcon>> {
+  BorderColor #Transparent
+  BackgroundColor #Transparent
+}
+
+!procedure $AWSIcon($service, $line1, $line2="")
+participant "$AWSImg($service)\n<b>$line1</b>\n$line2"
+!endprocedure
+
+skinparam note<<ReturnIcon>> {
+  BorderColor #Transparent
+  BackgroundColor #Transparent
+}
+!procedure $AWSReturnIcon($service)
+note<<ReturnIcon>> left
+   %call_user_func("$" + $service + "IMG", "0.5")
+end note
+!endprocedure
+
+actor User as user
+APIGatewayParticipant(api, Credit Card System, All methods are POST)
+LambdaParticipant(lambda,AuthorizeCard,)
+DynamoDBParticipant(db, PaymentTransactions, sortkey=transaction_id+token)
+Internetalt1Participant(processor, Authorizer, Returns status and token)
+SimpleStorageServiceBucketParticipant(s3, Storage, saves data of the user)
+
+SimpleStorageServiceObjectParticipant(storageobject, I'm soni and storage object, I will save data for the user)
+
+
+note over user
+  1. Authenticate and get tokens
+end note
+
+user -> api: Process transaction\nPOST /prod/process
+api -> lambda: Invokes lambda with cardholder details
+lambda -> processor: Submit via API token\ncard number, expiry, CID
+processor -> processor: Validate and create token
+processor -> lambda: Returns status code and token
+lambda -> db: PUT transaction id, token
+lambda -> api: Returns\nstatus code, transaction id
+api -> user: Returns status code
+
+@enduml

@@ -32,6 +32,7 @@ Author Name Mehmood-ur-Rehman
 +++
 <iframe width="560" height="315" src="https://www.youtube.com/embed/of45hYbkIZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 +++
+[[kuberetes-cloudplatform]]
 There's no way to write a *_##single spec or design##_* that goes across different *cloud providers*.*Kubernetes* can help with this if you have design or spec written in kubernetes topology.
 
 image::images/image-2023-02-02-23-04-30-073.png[width=800]
@@ -177,7 +178,7 @@ image::images/pod.svg[width=200,float=right]
 
 *** #Pod# is a layer on top of #container#
 
-**** #"*Kubernetes*" image:images/kubernetes.svg[width=40] wants to abstract away the *"container runtime"* or container technologies (like *docker*) so that you can replace them **(containers). **If you want to avoid vendor lock-in.#
+**** #"*Kubernetes*" image:images/kubernetes.svg[width=40] wants to abstract away the *"container runtime"* or container *_technologies_* (like *docker*) so that you can replace them **(container run-time). **If you want to avoid vendor lock-in.#
 
 
 **** Usually _##"1-application"##_ *per "#pod#"*
@@ -400,6 +401,26 @@ These practices are related to the operations, that's the reason why:
 
 *#DevOps#*--to-> *#DevSecOps#*
 
+.Pdd lifecycle
+image::images/pod-lifecycle.png[]
+
+.container lifecycle
+image::images/container-lifecycle.png[]
+
+
+.process lifecycle
+image::images/process-lifecycle.png[]
+
+
+.<<kuberetes-cloudplatform,*Design ★★★ Any Architecture In Kubernetes*>>  image:images/kubernetes.svg[width=40]
++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S7xAwouFjZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
++++
+
+.Kubernetes cheat-sheet
+image::images/kubernetes-cheatsheet.svg[]
+
+These are some of the main components and services in Kubernetes, but there are many more *features and add-ons* that can be used to *extend and customize the Kubernetes platform* to meet the needs of *specific use cases*.
 
 
 

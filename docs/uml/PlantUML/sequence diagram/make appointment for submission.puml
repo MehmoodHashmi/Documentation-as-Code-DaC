@@ -1,5 +1,6 @@
 @startuml
 
+!theme vibrant
 
 !pragma teoz true
 hide footbox

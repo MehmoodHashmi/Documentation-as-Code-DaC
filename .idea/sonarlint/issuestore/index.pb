@@ -89,106 +89,6 @@ M
 docs/DevOps/images/volume.svg,9\0\9053150c301fcb418b25896ded12753466352c8f
 H
 docs/books/stopwords.txt,1\e\1eb9dfebce72455bebc790c887838b94aecebcf1
-w
-Gdocs/architecture document template/srs/IEEE-29148-2011/References.adoc,c\a\cac3513445ea8d8c30acee90db83fe7b5058c05c
-r
-Bdocs/architecture document template/srs/IEEE-29148-2011/Index.adoc,7\f\7fd797c7ee00713963dbadd5c121b77828bacca9
-Å
-Qdocs/architecture document template/srs/IEEE-29148-2011/SpecificRequirements.adoc,d\b\dbcae00d98922ddb9b6984f36d3c305e152c9c82
-q
-Adocs/architecture document template/srs/IEEE-29148-2011/book.adoc,8\1\81c0e62b6ba313cd150a880e4398b8bb651e603b
-w
-Gdocs/architecture document template/srs/IEEE-29148-2011/Appendices.adoc,d\4\d4813e2b7b20850eec486380f71387d3fa7ae283
-s
-Cdocs/architecture document template/srs/IEEE-29148-2011/README.adoc,c\1\c186111d4cbe8269ccb9d05d24ee6005201013b0
-w
-Gdocs/architecture document template/srs/IEEE-29148-2011/asciidoctor.css,f\5\f56ea1a1ebe95583b381efab8e1d981e5ff28a31
-o
-?docs/architecture document template/srs/IEEE-830-1998/book.adoc,5\8\58e56a3c4f9a4077179ab21e48d072e0db6114fe
-ì
-cdocs/architecture document template/srs/IEEE-830-1998/SpecificRequirementsOrganizedByUserClass.adoc,e\c\ec212e9f5d90c0bdfc6b16c5194aee4ed4d88ace
-ê
-`docs/architecture document template/srs/IEEE-830-1998/SpecificRequirementsOrganizedByObject.adoc,9\3\9351f712f18bb0526993958a9ae57139eeb1f25e
-í
-bdocs/architecture document template/srs/IEEE-830-1998/SpecificRequirementsOrganizedByResponse.adoc,f\8\f804ed9e9469cbce9f04787e788f01b2eaf98a45
-y
-Idocs/architecture document template/srs/IEEE-29148-2011/Introduction.adoc,8\4\8439e03bac896203e84ca381885f46247cb82c6c
-y
-Idocs/architecture document template/srs/IEEE-29148-2011/Verification.adoc,9\6\965dfa8633fdb5f61191827e0d19bb3710593dca
-{
-Kdocs/architecture document template/srs/IEEE-29148-2011/GeneralContent.adoc,f\e\fe3b56bd5a3bee728fda77561dc83bd8ae18f3d1
-
-Odocs/architecture document template/srs/IEEE-29148-2011/OverallDescription.adoc,b\4\b4e01416a1f2e28096700118bef91597682431bc
-ñ
-fdocs/architecture document template/architecture-document-template-master/blank-template/glossary.adoc,7\d\7dcf0d0c2a4892f27b4865db4b91c89a2f9b2ab5
-w
-Gdocs/architecture document template/srs/IEEE-830-1998/Introduction.adoc,0\c\0ccce192f3c8714f3557fee3d020d8b2baabed8b
-s
-Cdocs/architecture document template/srs/IEEE-830-1998/Appendix.adoc,d\2\d2e319a485efea2f5d6dd69ff2a32c6c8032e118
-î
-ddocs/architecture document template/architecture-document-template-master/blank-template/README.adoc,2\5\252d6a9c1492cc9a6c2221c0d9f73ab95a93045e
-õ
-kdocs/architecture document template/architecture-document-template-master/blank-template/view-security.adoc,3\d\3d8b3ab454ddcebcd1a9d97459cb2807f374c604
-û
-ndocs/architecture document template/architecture-document-template-master/blank-template/view-development.adoc,2\5\25c785f1e19bff0afbe5f7d7a0b56491155f560a
-y
-Idocs/architecture document template/srs/IEEE-830-1998/RevisionNotice.adoc,b\b\bb1e0b1fd5e46cce6f94c4299802a783eb0150dc
-í
-bdocs/architecture document template/srs/IEEE-830-1998/SpecificRequirementsOrganizedByStimulus.adoc,2\9\295c6635f0cac965b1ac47c9a3f6e7f6460c3799
-ñ
-fdocs/architecture document template/srs/IEEE-830-1998/SpecificRequirementsOrganizedByModeVersion1.adoc,c\7\c766676c9dd4e33b5b0692810046558e229f2d25
-û
-ndocs/architecture document template/architecture-document-template-master/blank-template/view-application.adoc,5\d\5dddf851c4dd146759c3beb408f9a1d200c53ed6
-ë
-adocs/architecture document template/srs/IEEE-830-1998/SpecificRequirementsOrganizedByFeature.adoc,6\8\68457c0791d96bc4a23d5a589fb90868647d6804
-p
-@docs/architecture document template/srs/IEEE-830-1998/Title.adoc,3\5\35a9ff47a7d0faf92e82c800e6ce3711aae71637
-ò
-hdocs/architecture document template/architecture-document-template-master/diagrams/C4/C4_Deployment.puml,9\1\918ad03f8f77bf8c4bb363e54f85658b366cce26
-ï
-edocs/architecture document template/architecture-document-template-master/diagrams/C4/C4_Dynamic.puml,0\c\0c364602ae2dd0a981a2d74460f8c028693e925f
-ç
-]docs/architecture document template/architecture-document-template-master/diagrams/C4/C4.puml,8\3\83272735846debd93aa8a8bd900c8c6a442c5218
-s
-Cdocs/architecture document template/srs/Lean Canvas/LeanCanvas.adoc,b\4\b48035878a2b9818b0c32dc68b53d52c9a5e0cad
-u
-Edocs/architecture document template/srs/IEEE-830-1998/asciidoctor.css,4\a\4a1fef1a34d382516e5ecf4f03ba0c74a6567cf0
-°
-qdocs/architecture document template/architecture-document-template-master/blank-template/view-infrastructure.adoc,3\9\39017368ab9a8f1792c9fe0254a4c710f1a98859
-q
-Adocs/architecture document template/srs/IEEE-830-1998/README.adoc,a\d\ad865f971a6a1c0c20dcf55d1f43f3530d143609
-è
-_docs/architecture document template/architecture-document-template-master/blank-template/export,7\8\78b8fda5263afe1c02e009c742328c76f1ac098f
-p
-@docs/architecture document template/srs/IEEE-830-1998/Index.adoc,0\c\0c5b55f9054f8b043f3ccfe839b2a52e2b9e2b91
-õ
-kdocs/architecture document template/srs/IEEE-830-1998/SpecificRequirementsShowingMultipleOrganizations.adoc,1\1\119696bab92e432c79abc41562a26b5eb2063736
-ô
-idocs/architecture document template/architecture-document-template-master/blank-template/view-sizing.adoc,d\c\dc6db608399df20aec08ca104ead20365e241462
-ç
-]docs/architecture document template/architecture-document-template-master/diagrams/infra.puml,7\5\750b2228464007904b01e19eefdca50f36848ec1
-ï
-edocs/architecture document template/architecture-document-template-master/diagrams/C4/composants.puml,d\b\db2d9d283c5da03245c33af919a49d411920b5d7
-´
-{docs/architecture document template/architecture-document-template-master/diagrams/detailled-application-design-static.puml,0\4\04e82f8eecb0566c20d6b2b4df2ee701d7bba497
-¨
-|docs/architecture document template/architecture-document-template-master/diagrams/detailled-application-design-dynamic.puml,f\1\f17d6ff1b7d282b539e908dd91b407998bfc97cc
-¢
-rdocs/architecture document template/architecture-document-template-master/diagrams/general-application-design.puml,a\c\ac4d42339dbbab1ac152894205dea30471f4673f
-ç
-]docs/architecture document template/architecture-document-template-master/diagrams/roles.puml,c\d\cda5defde7067f5f33702beba3377a5e6f155b6b
-í
-bdocs/architecture document template/architecture-document-template-master/view-infrastructure.adoc,8\9\89f479b878958cf06f229cca9a6c8b1b128a722e
-ä
-Zdocs/architecture document template/architecture-document-template-master/view-sizing.adoc,5\c\5cbcf199bfcf2bd67e3a8807a0bc39779dab8948
-á
-Wdocs/architecture document template/architecture-document-template-master/glossary.adoc,f\f\fff549db23471dcd00e9ed812d9fee793f83f7b9
-Ö
-Udocs/architecture document template/architecture-document-template-master/README.adoc,b\a\badcd98aafcc1ec1e8d86563dcd25708cdcdf716
-å
-\docs/architecture document template/architecture-document-template-master/view-security.adoc,9\a\9a629952393e28ec35d9e37e3e82e299d5188248
-è
-_docs/architecture document template/architecture-document-template-master/view-development.adoc,7\1\718cd052e53468501a74aeea809579efd14f29e9
 ≈
 îdocs/books/1_books backlog/software architecture/Software Architecture in Practice, 4th Edition (Len Bass Paul Clements Rick Kazman) (z-lib.org).pdf,1\b\1b267f1d33c2f3fff36772e1c7ee9b28a673fa14
 ∫
@@ -203,56 +103,10 @@ _docs/architecture document template/architecture-document-template-master/view-
 {docs/books/1_books backlog/software architecture/Domain-Specific Languages (Martin Fowler, Rebecca Parsons) (z-lib.org).pdf,d\6\d6c4658f046c85bc6597f09fd41b85e4de9ed118
 Å
 Qdocs/books/1_books backlog/other/Anne Gentle - Docs Like Code-Lulu.com (2018).pdf,0\7\070663771485b4947ee313f63c4bb27d557b2d17
-∂
-Ödocs/architecture document template/more architecture templates/architecture templates/Architecture Contract With Business Users.adoc,0\0\008d6fc1068a2c5c48d103bc3be164418a40b732
-©
-ydocs/architecture document template/more architecture templates/architecture templates/Request for Architecture work.adoc,5\e\5e7cb2589e97ec51a460dd4de5f8ae4012b0fa46
-≥
-Çdocs/architecture document template/more architecture templates/architecture templates/Architecture Requirement Specification.adoc,f\3\f3bd6a74c29ac0d717214c8e4382941592d68d73
-ß
-wdocs/architecture document template/more architecture templates/architecture templates/Architecture Change Request.adoc,4\3\43400fe4f1a9d9a9e713944a507a623e59b32175
-™
-zdocs/architecture document template/more architecture templates/architecture templates/Statement of architecture work.adoc,6\d\6d56838f8d8231731008fcdba65e566c5b525edf
-ü
-odocs/architecture document template/more architecture templates/architecture templates/Architecture Vision.adoc,9\5\959006789d26907cd00abfa99458c7854703a1e7
-≤
-Ådocs/architecture document template/more architecture templates/architecture templates/Architecture Principles (Preliminary).adoc,7\6\76748050736d96bab07134b6547254230fa22548
-¨
-|docs/architecture document template/more architecture templates/architecture templates/Architecture Maturity Assessment.adoc,8\0\8035336fa04d3dfc647f939ab5554ee32f3bc42a
-ü
-odocs/architecture document template/more architecture templates/capability templates/Capability Assessment.adoc,4\5\4513fb378f2ea46475d096b014d0f375fb5148a4
-ò
-hdocs/architecture document template/more architecture templates/capability templates/Capability Gap.adoc,5\4\547b599b372ce27d9f372a3d30242f084b402b24
-û
-ndocs/architecture document template/more architecture templates/assessment template/Compliance Assessment.adoc,d\f\df7ff6505c6833b26fa7bda8dd9d47cfe80a8c3c
-©
-ydocs/architecture document template/more architecture templates/assessment template/Implementation Factor Assessment.adoc,4\2\422a72d4903a42281b24e9f4ef29002d0d41e16e
-®
-xdocs/architecture document template/more architecture templates/architecture templates/Architecture Building Blocks.adoc,1\6\16dfc8238f2b28981e485b577038ca12a76cba65
-†
-pdocs/architecture document template/more architecture templates/architecture templates/Architecture Roadmap.adoc,6\4\64c34c82379f4a2e6f99e5113f341557c840ccfa
-¨
-|docs/architecture document template/more architecture templates/architecture templates/Architecture Definition Document.adoc,1\1\11b1910f9962d2efc179905403e6f38e7c1e569f
-º
-ãdocs/architecture document template/more architecture templates/architecture templates/Architecture Contract With Development Partners.adoc,f\5\f5b46d66ec28b142c453d40bc725a72064478b43
-ò
-hdocs/architecture document template/more architecture templates/Organizational Model for Enterprise.adoc,5\5\554a2f81b095f385c9fecedab30094ed59da7880
-™
-zdocs/architecture document template/more architecture templates/Consolidated Gaps, Solutions, and Dependencies Matrix.adoc,f\9\f98362872f32e1bb379e36d723bc1d2cf9254379
-ñ
-fdocs/architecture document template/more architecture templates/Implementation And Migration Plan.adoc,6\5\659535349eb31230b0fa8306d115c8611e2d29f0
-à
-Xdocs/architecture document template/more architecture templates/Communications Plan.adoc,1\6\165a4632408140a6bc3bb565e5ee63202a10a8e4
-î
-ddocs/architecture document template/more architecture templates/Scope of Organizations Impacted.adoc,6\b\6bb8b3f6fd41be5d91ba334141693ec41fa7e31f
-î
-ddocs/architecture document template/more architecture templates/Implementation Governance Model.adoc,b\d\bddb40a5201f998a184df3d856d6c023efb7c6ba
 l
 <docs/business analyst/project proposal/project proposal.adoc,8\3\83577088753cd5fbb370e5349efd4daedc4c2501
 p
 @docs/business analyst/project management/Project management.adoc,f\4\f4a21572e965700cf70a3020ae3fc60f67047e90
-©
-ydocs/architecture document template/more architecture templates/Business Principles, Goals and Drivers (Preliminary).adoc,c\e\ce325f94f5feafde26ad1ad678ca423541b9a3d9
 v
 Fdocs/business analyst/project retrospective/project retrospective.adoc,5\f\5f5b94d34e9317ee8c543154149721b292ffa159
 v
@@ -261,96 +115,18 @@ Q
 !docs/business analyst/readme.adoc,d\5\d5212daa8259498c31323c35d0b9eb4c38b4e9c2
 j
 :docs/business analyst/project charter/project charter.adoc,f\1\f12494d2df84940fa9e973314de03b2fb1a6381f
-ô
-idocs/architecture document template/0-Requirements Elicitation questions template/images/gantt chart.puml,8\1\81d24e84a405877e98a6bbe997a1eef75e1d400d
 d
 4docs/business analyst/project plan/Project plan.adoc,6\4\64be6e153011c5c433e93e7e68c0054d3842c3d4
-≠
-}docs/architecture document template/0-Requirements Elicitation questions template/0-Agile Modeling with Mind Map and UML.adoc,a\d\ade250f2ce7d6e92c9c15f32cde31746ab45680f
-™
-zdocs/architecture document template/0-Requirements Elicitation questions template/3- Requirements Gathering Questions.adoc,c\8\c88d0d9d2c40a9787291dc24c42f0bf8630df628
-ø
-édocs/architecture document template/0-Requirements Elicitation questions template/2- What Questions to ask during Requirement Elicitation.adoc,5\7\57214c0890dab3e353c67e1a32f00ca0208d6b64
-Ø
-docs/architecture document template/0-Requirements Elicitation questions template/1-question for each use case a framework.adoc,c\2\c20d8ad06a171fc59607e0f50adf71926b91099a
-Ä
-Pdocs/architecture document template/ADD 3.0/Quality attributes 4rth edition.adoc,a\f\af18ad5865b600e49dbfbca61d1de20722a87b33
-ö
-jdocs/architecture document template/ADD 3.0/Software Architecture Documentation ADD 3.0 (Russian Guy)a.pdf,f\8\f85969acafee118fffea57234e91e3151c2d6b78
-}
-Mdocs/architecture document template/ADD 3.0/Tactics-Based Questionnaires.adoc,4\4\4493c113fd457d742c1b515d4d8942c1bfee10c6
 G
 docs/intellij-IDEA.adoc,4\d\4dd71324b14dbf3d055851ff3cd90985ce455e86
-}
-Mdocs/architecture document template/arch42/src/09_architecture_decisions.adoc,e\6\e6e00e87d81b9057c760e7d51206a4ad657179f0
-v
-Fdocs/architecture document template/arch42/src/11_technical_risks.adoc,7\e\7ec70312f1f8d2bd7104860cbd476beb219d807b
-õ
-kdocs/architecture document template/ADD 3.0/Software Architecture Documentation ADD 3.0 (Russian Guy)a.adoc,b\5\b5fa84d884aaea4f040c1eb0ebf32ad40bd12e8b
-z
-Jdocs/architecture document template/arch42/src/05_building_block_view.adoc,0\a\0a42bd53d69f6a97a3178cd8b21b075ab227d2a1
-j
-:docs/architecture document template/arch42/src/config.adoc,1\d\1d68bccd82d34f28eab831ba0c43ea51f0f1fc74
-{
-Kdocs/architecture document template/arch42/src/10_quality_requirements.adoc,3\b\3bfc538d585527bff6aedf440dff6a19f325f6bf
-o
-?docs/architecture document template/arch42/src/12_glossary.adoc,d\b\db741c1e55b1a186378826ad038d30b36bdeb6f7
 G
 docs/DevOps/docker.adoc,d\9\d95d183a41a7d812b240cf38762131b152e778e6
-o
-?docs/architecture document template/arch42/src/08_concepts.adoc,0\f\0f29ae2d202fdc2ed1485f19dd93a6792bf8cb6b
 ˙
 …docs/books/1_books backlog/software architecture/(SEI series in software engineering) Cervantes, Humberto_Kazman, Rick - Designing software architectures_ a practical approach-Addison-Wesley (2016).pdf,d\0\d0a7c91cad85efc4058f7e74cbc7f2cfaac0147e
 π
 àdocs/books/1_books backlog/software architecture/Software.Architecture.The.Hard.Parts.Neal.Ford.OReilly.9781492086895.EBooksWorld.ir.pdf,3\1\3129135494907170129fdd8f65e88abbbfa526a4
-o
-?docs/architecture document template/arch42/src/about-arc42.adoc,d\f\df56bcb025138b76eadbca46adbb8ae69f47575d
-à
-Xdocs/architecture document template/ADD 3.0/images/_UseCaseDiagram-Page-1.drawio (1).svg,3\a\3aacb68ebe3fcd2a75543dc7119b1e9895b7de9b
-±
-Ädocs/architecture document template/architecture-document-template-master/diagrams/detailed-application-architecture-dynamic.svg,a\9\a9bbdb576782a668c59950b9f6121ff466bc5b6a
-Ø
-docs/architecture document template/architecture-document-template-master/diagrams/detailed-application-architecture-static.svg,1\a\1af23e10725bd013a87c87a08c9c81fe4ec6d625
-ò
-hdocs/architecture document template/0-Requirements Elicitation questions template/images/gantt chart.svg,7\9\795c7ad8e6975069cc5481e94264c144c315f0c9
-°
-qdocs/architecture document template/architecture-document-template-master/diagrams/general-application-design.svg,4\3\430b15fa00134913ad710b0b5a35593435fac44d
-ï
-edocs/architecture document template/architecture-document-template-master/diagrams/infrastructure.svg,0\6\06334b19d723426a0848c76cd05ef1582a679fb5
-y
-Idocs/architecture document template/srs/IEEE-29148-2011/Introduction.html,f\1\f112d97d3558689fa3def7487f6316127961a99f
-Ñ
-Tdocs/architecture document template/architecture-document-template-master/LICENSE.md,6\2\622b8b89d97595569b2f51edc0d846887ecb144b
-£
-sdocs/architecture document template/0-Requirements Elicitation questions template/images/PPEMR use case diagram.svg,b\1\b152667651550481348e6262c3ef419e5eb7dc34
-à
-Xdocs/architecture document template/ADD 3.0/images/quality attribute scenario.drawio.svg,b\3\b3bb6ea61108bd8b7e8511ccd2678bb8500f523d
-]
--docs/architecture document template/README.md,f\6\f6d07423546f91d405692b7f91938b78f4bcbe7e
-e
-5docs/architecture document template/ADD 3.0/readme.md,0\4\045c81db49ef49c9597cbd384dc818a0b4425485
-d
-4docs/architecture document template/arch42/readme.md,6\9\691f46f5d2a5dd7e225a39cfb71b7b51627b17b0
-s
-Cdocs/architecture document template/ADD 3.0/reveal-my-asciidoc.html,0\2\029e3b7524aca24b4ed76336be45880f30332cbe
-å
-\docs/architecture document template/architecture-document-template-master/diagrams/roles.svg,a\e\ae2a626fd985a642fa3c565817bdcaaf495a0ed4
-ç
-]docs/architecture document template/more architecture templates/SIEM architecture diagram.svg,8\a\8a01242ae033246b140eb232b5ffac874ee8067a
-
-Odocs/architecture document template/ADD 3.0/images/Tomplot Use Case diagram.svg,b\2\b23dbdbbfef85dcbd2a22460240f811c30fa0292
-ù
-mdocs/architecture document template/0-Requirements Elicitation questions template/Modern Technical Writing.md,b\f\bf33c5f0bbb3a50d8de7f8f3f54473c59cec79c7
-°
-qdocs/architecture document template/0-Requirements Elicitation questions template/0-audio or video recording.adoc,9\a\9a39093c70c27c1676037a0df8895d16fd1a7976
-v
-Fdocs/architecture document template/arch42/src/07_deployment_view.adoc,7\1\713c9d3efce0b81dc0fe7d3a36055f6920d81448
-k
-;docs/programming languages/clean architecture/archunit.adoc,6\9\69a40e6dec74a3793a5b094e5c17f431609bca0e
 D
 docs/books/readme.md,b\1\b1a99c431dbb15c9327af478826e0d9d442b79be
-s
-Cdocs/architecture document template/arch42/src/06_runtime_view.adoc,0\2\022d5e9b70929e2b9add900496c5e1e4eb1a7b74
 G
 docs/DevOps/gradle.adoc,0\8\08eb845556c7d9ab231177ef55865b78f9fc8f13
 F
@@ -365,24 +141,6 @@ M
 docs/DevOps/gitAndGitOps.adoc,d\7\d7e8565f953173ef120475ca8274d1b3d223520a
 I
 docs/DevOps/ansibile.adoc,5\1\51e601ab5354150481c1faa707e5e04ec0181c6e
-è
-_docs/architecture document template/architecture-document-template-master/view-application.adoc,c\5\c57369152c9f3b389954a50a404b5a35d7929fbc
-}
-Mdocs/architecture document template/arch42/src/01_introduction_and_goals.adoc,2\b\2b996251190c480c1327dacbe39cf11809930364
-
-Odocs/architecture document template/arch42/src/02_architecture_constraints.adoc,e\f\ef4598e8ec3a87928e96b8c12331ddb7e8962645
-
-Odocs/architecture document template/arch42/src/03_system_scope_and_context.adoc,c\5\c50e4fabd8cf9760796689b473eba8ca2d7bc962
-x
-Hdocs/architecture document template/arch42/src/04_solution_strategy.adoc,c\c\ccc61f9c6ca8dbb8b2235ad3ca48f4d4e1c939ba
-ù
-mdocs/architecture document template/srs/IEEE-830-1998/SpecificRequirementsOrganizedByFunctionalHierarchy.adoc,4\3\43a796c9660d2f132c54b435b0e8463933850c7a
-ñ
-fdocs/architecture document template/srs/IEEE-830-1998/SpecificRequirementsOrganizedByModeVersion2.adoc,c\1\c1d951751f22f517e64a82eb1254e961ccd8775a
-}
-Mdocs/architecture document template/srs/IEEE-830-1998/OverallDescription.adoc,d\5\d57e815400f77238fbb3753e5c86bd998d4598e1
-n
->docs/architecture document template/arch42/arc42-template.adoc,d\4\d4e285722b5c4105d2ace2c4378e4a685f3b9e50
 I
 docs/blockchain/readme.md,6\4\64925a36a19f4fdaa264fbec3a54a9d03e2ee96a
 o
@@ -391,11 +149,23 @@ N
 docs/database design/DBMS.adoc,5\2\5227b812d4fcde01ec25ec8d9d1191d2ff1bfb2c
 M
 Documentation-as-Code-DaC.iml,7\c\7ccca88fb9cc14ddfa17fa9902d87cae9aacb1a9
-h
-8docs/Requirement Engineering/system design template.adoc,4\c\4ce0d1d49542fccb16d827dc246284d4b11dfff6
 e
 5docs/cloud computing/Oracle Cloud/virtualization.adoc,f\c\fc59d426b5121cfed98073b9c133b215cd337409
 W
-'docs/cloud computing/AWS Cloud/aws.adoc,9\e\9efb24ccc24a7ebf40c6d361d6075dd6bcd26031
+'docs/devops/images/linux-windows-os.svg,c\c\cc027ecf859eea753650aa557131ec12a365fe94
+c
+3docs/devops/images/container-image-pod-manifest.svg,f\6\f6c1c5f2bab3da0582ef5d319e2cc914566745b5
+E
+docs/devops/soni.yaml,4\6\46fbf2ed64442bbaececc30451f9875f7a098d31
 K
-docs/devops/kubernetes.adoc,8\b\8b2ac8eb098cc2d461326df479ec9675b2cbb99f
+docs/devops/images/file.svg,d\7\d78b65f7984c707be7ef3b321b8e036f710e9a72
+G
+docs/devops/devOps.adoc,8\5\85827a6cd306392cebcb7e8490554060973c7a5a
+G
+docs/devops/docker.adoc,5\8\5823d2ffdb83c1a5c72ed1823836016bbf9fe5e4
+k
+;docs/uml/PlantUML/sequence diagram/How to draw diagram.puml,c\c\cc1d7036908990af685d3c5888d42cc1a998da0b
+w
+Gdocs/database design/How to choose a database for your application.adoc,b\8\b8f8fda3d42c4ef796f546a2b90048454de2915a
+q
+Adocs/uml/PlantUML/sequence diagram/sequence diagram template.puml,e\f\ef33337a7f83b7cb6604f1fdb7ffe8f6f8c94090

@@ -1,12 +1,19 @@
 
 @startuml Amazon S3 objects using IAM Temporary Credentials
 !pragma teoz true
+'!theme plain
+
 
 title Amazon S3 objects using IAM Temporary Credentials
 ' compare with https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html
 
-!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v14.0/dist
+'change the v15.0 to the latest version to use the latest icons
+!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v15.0/dist
+
+' this include is must !include AWSPuml/AWSCommon.puml in each diagram
 !include AWSPuml/AWSCommon.puml
+
+' add or remove these AWS icons based on the use-case or scenario or need or requirement
 !include AWSPuml/General/User.puml
 !include AWSPuml/General/SAMLtoken.puml
 !include AWSPuml/SecurityIdentityCompliance/Cognito.puml
@@ -17,6 +24,7 @@ title Amazon S3 objects using IAM Temporary Credentials
 !include AWSPuml/Storage/SimpleStorageServiceBucket.puml
 !include AWSPuml/Storage/SimpleStorageServiceObject.puml
 !include AWSPuml/Compute/ApplicationAutoScaling.puml
+!include AWSPuml/ApplicationIntegration/APIGateway.puml
 
 hide footbox
 skinparam style strictuml
@@ -39,6 +47,7 @@ skinparam note {
 skinparam WrapWidth 300
 skinparam MaxMessageSize 600
 
+' The organl author of the diagram has developed this given below function to customize the participant/actor declaration
 !procedure $AWSIcon($service, $line1, $line2="")
 participant "$AWSImg($service)\n<b>$line1</b>\n$line2"
 !endprocedure
@@ -47,11 +56,15 @@ skinparam note<<ReturnIcon>> {
   BorderColor #Transparent
   BackgroundColor #Transparent
 }
+
 !procedure $AWSReturnIcon($service)
 note<<ReturnIcon>> left
    %call_user_func("$" + $service + "IMG", "0.5")
 end note
 !endprocedure
+
+' this is a template to get an idea about how to use this icon in sequence diagram
+$AWSIcon(APIGateway, "Line-1", "Line-2") as soni <<stereotype>> #gold
 
 $AWSIcon(User, " ", "User") as user <<Tenant 1>>
 $AWSIcon(Cognito, "User Pool", "Amazon Cognito") as userpool
