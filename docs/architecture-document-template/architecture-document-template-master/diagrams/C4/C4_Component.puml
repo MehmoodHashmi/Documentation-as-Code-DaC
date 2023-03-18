@@ -5,7 +5,7 @@
   !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 !endif
 
-' Scope: AI-M- DL-and-Data-Science single container.
+' Scope: AI-ML- DL-and-Data-Science single container.
 ' Primary elements: Components within the container in scope.
 ' Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
 ' Intended audience: Software architects and developers.

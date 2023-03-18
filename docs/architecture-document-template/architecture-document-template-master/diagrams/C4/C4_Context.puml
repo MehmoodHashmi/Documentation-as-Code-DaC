@@ -5,7 +5,7 @@
   !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
 !endif
 
-' Scope: AI-M- DL-and-Data-Science single software system.
+' Scope: AI-ML- DL-and-Data-Science single software system.
 ' Primary elements: The software system in scope.
 ' Supporting elements: People and software systems directly connected to the software system in scope.
 ' Intended audience: Everybody, both technical and non-technical people, inside and outside of the software development team.
