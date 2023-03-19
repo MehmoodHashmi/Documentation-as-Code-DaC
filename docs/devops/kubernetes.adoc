@@ -83,7 +83,7 @@ Kubernetes, also known as K8s, is the most popular platform for container orches
 
 * *#_Kubernetes_# is a container image:images/docker.svg[width=40] orchestration tool, while #_auto-scaling_# (in #_AWS_#) is a tool used for scaling a #_virtual machine image:images/vmware.png[width=80]_#*. #_Containers_# image:images/docker.svg[width=40] are different from a *virtual machine*, #*_EC2_*# is a *virtual machine* image:images/vmware.png[width=80].
 
-** When we needed to scale *application performance*
+** When we needed to scale *application performance,*
 what did we use before there was *_eks, AKs and Lambda_*? Well back in the day and
 still today it is *_ec2 auto-scaling_* where we took a *_VM_* image:images/vmware.png[width=80] and we told *AWS* how many copies of a *VM* image:images/vmware.png[width=80] we wanted to run or a threshold for when we needed to deploy additional *VMs (ec2)* image:images/vmware.png[width=80] is kind of the *_##old school##_* way of managing *_##capacity in a web application.##_*
 
@@ -420,9 +420,7 @@ image::images/process-lifecycle.png[]
 .Kubernetes cheat-sheet
 image::images/kubernetes-cheatsheet.svg[]
 
-These are some of the main components and services in Kubernetes, but there are many more *features and add-ons* that can be used to *extend and customize the Kubernetes platform* to meet the needs of *specific use cases*.
-
-
+These are some main components and services in Kubernetes, but there are many more *features and add-ons* that can be used to *extend and customize the Kubernetes platform* to meet the needs of *specific use cases*.
 
 
 
