@@ -78,7 +78,7 @@ image::images/image-2023-02-14-23-04-23-517.png[width=600,float=right]
 
 It is also important to note that #Docker# uses the below *_#operating system features#_*:
 
-image::images/pod.svg[ width=300,float=right]
+image::images/pod.svg[width=300,float=right]
 
 * *Namespaces* make sure a #*process*# image:images/process.svg[width="40"] running in a *container* cannot see or affect processes running outside the *container*.
 * *Control Groups* used for resource accounting and limiting key functionality.
