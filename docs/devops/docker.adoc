@@ -78,7 +78,9 @@ image::images/image-2023-02-14-23-04-23-517.png[width=600,float=right]
 
 It is also important to note that #Docker# uses the below *_#operating system features#_*:
 
-* *Namespaces* make sure a #process# running in a container cannot see or affect processes running outside the container.
+image::images/pod.svg[ width=300,float=right]
+
+* *Namespaces* make sure a #*process*# image:images/process.svg[width="40"] running in a *container* cannot see or affect processes running outside the *container*.
 * *Control Groups* used for resource accounting and limiting key functionality.
 * *UnionFS (FileSystem)* serves as building blocks of containers. It creates layers and enables Docker with lightweight and fast features.
 
@@ -140,8 +142,6 @@ how to share host volume to docker volume, Volumes are the preferred mechanism f
 ** Many times they are just outdated
 
 . Use specific Image versions.  ✓
-
-. Use small-sized official images or image based on a leaner and smaller OS distro. ✓
 
 . Use small-sized official images *#or#* image based on a leaner and smaller OS distro. ✓
 

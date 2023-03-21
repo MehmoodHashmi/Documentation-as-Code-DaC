@@ -157,7 +157,7 @@ image::images/image-2023-02-02-23-33-52-062.png[width=300,float=right]
 
 <6> *Pod* image:images/pod1.svg[width=40] *blueprints* with replica (cloning) mechanism:
     * *Deployment*  image:images/deployment.svg[width=40]
-    * *Stateful-Set*  image:images/Stateful-Set.svg[width=40]
+    * *Stateful-Set*  image:images/stateful-set.svg[width=40]
 
 === ► *#Node#* & *_Pod_*
 
@@ -194,7 +194,7 @@ image::images/pod.svg[width=200,float=right]
 ******* #IP-address# are *#dynamic#* meaning they keep changing
 
 
-=== ► Service & Ingress
+=== ► Service image:images/service.svg[width=40] & Ingress image:images/ingress.svg[width=40]
 
 * *#Service:#* is also a kind of #IP-address# but it's _**#static/permanent IP-address#**_, service address can be attached to each *#pod#*
 
@@ -213,7 +213,7 @@ image::images/pod.svg[width=200,float=right]
 
 ** *#An internal service:#* we do not want our database to be exposed to the outer world, so no direct communication for the databases.
 
-=== ► ConfigMap & Secret
+=== ► ConfigMap ( through ingress image:images/ingress.svg[width=40] ) & Secret image:images/secretes.svg[width=40]
 
 * #*ConfigMap:*# does external configuration of your application
 
@@ -246,15 +246,15 @@ image::images/kubernetes-cluster-node-pod.png[width=800]
 == 	The Above mention *#setup#* only gives #RAM, CPU & Networking# but no *#data Storage#*
 image::images/image-2023-02-03-14-32-20-600.png[width=250,float=right]
 
-=== ► *#Volumes#*
+=== ► *#Volumes#* image:images/volume.svg[width=40]
 
-* #*Volumes:*# is data-storage, it attaches a physical storage to your *"pod"* on the *same/local machine* where your *pod* is located or on a *remote/external machine* meaning outside the *Kubernetes cluster*. e.g. on-premise data-center or another cloud-service
+* #*Volumes:*# image:images/volume.svg[width=40] is data-storage, it attaches a physical storage to your *"pod"* on the *same/local machine* where your *pod* is located or on a *remote/external machine* meaning outside the *Kubernetes cluster*. e.g. on-premise data-center or another cloud-service
 
 ** There is a distinction Kubernetes cluster & all of its components & storage regardless of the storage is local or remote
 
 *** *Kubernetes* does not manages data persistence
 
-=== ► Deployment & StatefulSet
+=== ► Deployment image:images/deployment.svg[width=40] & StatefulSet image:images/stateful-set.svg[width=40]
 
 * *#Deployment:#,* In order to create replica/clone of pod, you will not create a second pod, but instead you would define a blueprint (like class in OOP) for "my-app pod" and then specify how many replica/clone (like object in OOP) of that pod you would like to run. And deployment is the component of Kubernetes which will help you achieve this goal.
 
@@ -302,37 +302,40 @@ Kubernetes has a #*decentralized architecture*# that does not handle tasks *sequ
 image::images/container-image-pod-manifest.svg[]
 
 
-=== ► Worker Nodes
+
+=== ► Worker Nodes image:images/worker-node.svg[width=100]
 * *Worker nodes* are the main components of a Kubernetes cluster that run containerized applications.
 * They communicate with the master node to receive instructions and report their status.
 * Worker nodes have the necessary components to run pods and containers, including the *#container runtime, kubelet, and kube-proxy.#*
 
-=== ► Master Nodes
+=== ► Master Nodes image:images/master-node.svg[width=100]
 * *Master nodes* are responsible for managing the state of the cluster, including scheduling, scaling, and managing the desired state of the cluster.
 * They also act as a control plane, coordinating the work of worker nodes and ensuring the desired state is maintained.
 * Components that run on the master node include the *#API server, scheduler, controller manager, and etcd#*.
 
 
-=== ► API Server
+=== ► API Server image:images/api-server.svg[width=100]
 * The *API server* is the central management component of a Kubernetes cluster.
 * It is responsible for exposing the Kubernetes API, which provides the interface for interacting with the cluster.
 * The API server processes RESTful API requests and communicates with other components of the cluster to perform actions such as scaling or deploying applications.
 
-=== ► Scheduler
+=== ► Scheduler image:images/scheduler.svg[width=100]
 * The *scheduler* is responsible for scheduling pods on worker nodes.
 * It receives requests from the API server and uses various algorithms and policies to determine the best node for each pod.
 * The scheduler is responsible
 for ensuring that the desired state of the cluster is maintained by assigning pods to nodes as needed.
 
-=== ► Controller Manager
+
+
+=== ► Controller Manager image:images/controller-manager.svg[width=100]
 * The *controller manager* is responsible for managing the *state* of the cluster.
 * It watches for changes in the cluster and takes actions to reconcile the _*desired state*_ with the _*actual state*_.
 * The controller manager performs tasks such as responding to node failures, adjusting the number of replicas of a deployment, or recovering from failures.
 
-=== ► etcd - the cluster brain
+=== ► etcd image:images/etcd.svg[width=100] the cluster brain
 * *etcd* is a distributed key-value store that acts as the "brain" of the Kubernetes cluster.
 * It stores the configuration data for the cluster, including the desired state and current state of the cluster.
-* etcd is critical to the operation of the cluster and must be highly available to ensure the cluster remains healthy.
+* etcd is critical to the operation of the cluster and must be highly available to ensure the cluster remains ehealthy.
 
 
 
