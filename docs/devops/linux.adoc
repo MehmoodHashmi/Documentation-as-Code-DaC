@@ -14,3 +14,6 @@ image::images/docker-desktop-sign-in.png[width=400,float=left]
 
 .this highlighted key is different each time you sign in, and has to be passed in along with the command as shown in the terminal
 image::images/docker-desktop-signin-key.png[width=400]
+
+** https://phoenixnap.com/kb/cannot-connect-to-the-docker-daemon-error[*How to Resolve, the “cannot connect to the Docker daemon” Error*] image:images/docker-demon-error-fix.png[width=800]
+
