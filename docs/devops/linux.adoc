@@ -5,8 +5,8 @@ There are three main “*families*” of _**Linux distributions**_: #Debian, Red
 .How to install Docker-desktop on Ubuntu-22.0 LTS release
 
 . https://www.youtube.com/watch?v=Vplj9b0L_1Y&ab_channel=Abstractprogrammer[Youtube Video link]
-. https://docs.docker.com/engine/install/ubuntu/[*Download and install docker-engine*]
-. https://docs.docker.com/desktop/install/linux-install/[*Now, install docker-desktop on the Linux machine*]
+. https://docs.docker.com/engine/install/ubuntu/[*Download and install #docker-engine#*]
+. https://docs.docker.com/desktop/install/linux-install/[*Now, install #docker-desktop# on the Linux machine*]
 ** https://docs.docker.com/desktop/get-started/#credentials-management-for-linux-users[Sign-in in the Docker-desktop]
 
 .Sign-in in the Docker-desktop

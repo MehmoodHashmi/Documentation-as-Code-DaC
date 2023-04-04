@@ -329,13 +329,13 @@ for ensuring that the desired state of the cluster is maintained by assigning po
 
 === ► Controller Manager image:images/controller-manager.svg[width=100]
 * The *controller manager* is responsible for managing the *state* of the cluster.
-* It watches for changes in the cluster and takes actions to reconcile the _*desired state*_ with the _*actual state*_.
+* It watches for changes in the cluster and takes actions to reconcile the *_desired state_* with the *_actual state_*.
 * The controller manager performs tasks such as responding to node failures, adjusting the number of replicas of a deployment, or recovering from failures.
 
 === ► etcd image:images/etcd.svg[width=100] the cluster brain
 * *etcd* is a distributed key-value store that acts as the "brain" of the Kubernetes cluster.
 * It stores the configuration data for the cluster, including the desired state and current state of the cluster.
-* etcd is critical to the operation of the cluster and must be highly available to ensure the cluster remains ehealthy.
+* etcd is critical to the operation of the cluster and must be highly available to ensure the cluster remains healthy.
 
 
 
