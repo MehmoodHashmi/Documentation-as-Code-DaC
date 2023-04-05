@@ -103,7 +103,33 @@ image::../cloud computing/AWS Cloud/containerandvm.png[]
 
 === ► What #*problems*# does Kubernetes image:images/kubernetes.svg[width=40] solve?
 
-* Trend from *monolith* to *microservices*
+* https://www.youtube.com/watch?v=JtTGctBYOvo&t=250s&ab_channel=CloudWithRaj[Trend from *monolith* to *microservices* ]
+** <<choose-the-backend-for-the-project, *Choose the backend for your project*>>
+====
+
+Following are the *use-cases* not suitable for the Kubernetes, https://www.youtube.com/watch?v=NpYUYjQd8fI&t=4s&ab_channel=CloudWithRaj[*Avoid Kubernetes IF...*],
+
+. *Event Driven* Architecture
+**** *alternatives*:
+***** SQS, EventBridge, Amazon MQ, Apache Kafka, etc.
+
+
+. *Simple Microservices*
+**** *alternatives*:
+***** ALB, API Gateway with EC2, Lmabda
+
+. *Databases!!*
+**** *alternatives*:
+***** Do not run databases on kubernetes instead Use *managed services* if there are *cloud native* options available
+
+. *IoT Projects*
+**** *alternatives*:
+***** IoT Needs to be lightweight. Kuberentes is haeavy, better options are available like green-grass etc.
+
+NOTE: *_Not using kubernetes_* does not mean do not use *_containers_* image:images/docker.svg[width=40]
+====
+
+
 
 * Increased usage of *containers* image:images/docker.svg[width=40]
 
@@ -426,6 +452,17 @@ image::images/kubernetes-cheatsheet.svg[]
 These are some main components and services in Kubernetes, but there are many more *features and add-ons* that can be used to *extend and customize the Kubernetes platform* to meet the needs of *specific use cases*.
 
 
+[[choose-the-backend-for-the-project]]
+Since each *microservice* is independent of each other and can even be coded in different programming languages, you can mix and match all these *aws services*, for example.
+
+. *store/get* can run on a *pod* where your backend of the microservice is *dockerized* into a *container*
+. *store/post* can be hosted on *amazon ec2*
+. *store/delete* can run on *aws lambda*
+
+So, which one should you choose? The answer is *it depends* based on the *requirement of the project* you have to choose different backend for the microservices.
+
+.Which one to choose?
+image::which-backend-service.png[]
 
 
 

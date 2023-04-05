@@ -1,7 +1,7 @@
 @startuml
 'https://plantuml.com/activity-diagram-beta
 
-|Home page|
+|Vertical swim-lane one|
 
 start
 #lightgreen :ClickServlet.handleRequest();
@@ -14,7 +14,7 @@ if (Page.onSecurityCheck) then (true)
       stop
     endif
 
-|**Page**|
+|**Vertical swim-lane two**|
 
     if (isPost?) then (yes)
       :Page.onPost();
