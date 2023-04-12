@@ -1,6 +1,10 @@
 = What are the 3 Linux distributions?
 
-There are three main “*families*” of _**Linux distributions**_: #Debian, Red Hat, and SUSE#. Most other Linux distributions use one of these three distributions as their foundation.
+There are three main “*families*” of _**Linux distributions**_: Debian image:images/debian.svg[width=40], Red Hat image:images/redhat.svg[width=40], and SUSE image:images/suse.svg[width=40]. Most other Linux distributions use one of these three distributions as their foundation.
+
+
+
+
 
 .How to install Docker-desktop on Ubuntu-22.0 LTS release
 
@@ -43,4 +47,16 @@ image::images/docker-register-and-docker-dameon.png[]
 
 . https://www.youtube.com/watch?v=Fjy4gUB_asM&list=LL&index=12&ab_channel=TechSolutionZ[How to Install Ubuntu 22.04 Jammy Jellyfish with Manual Partitions | Ubuntu Manual Partitions Linux]
 
-. [How to Install Ubuntu 22.04 Jammy Jellyfish with Manual Partitions | Ubuntu Manual Partitions Linux]
+. https://www.youtube.com/watch?v=8rmDF-5IxeI&list=LL&index=1&t=47s&ab_channel=RollyYesputra[How to Install on Linux visual paradigm]
+
+
+====
+*Dockerfile* and *Bash* are both tools for building and running software applications, but they serve different purposes.
+
+Dockerfile is a file format that defines how to build a Docker image, which is a lightweight, standalone, executable package that includes everything needed to run an application, including the code, runtime, libraries, environment settings, and dependencies. Dockerfile includes instructions for building the image, such as installing packages, copying files, setting environment variables, and exposing ports.
+
+Bash, on the other hand, is a popular shell scripting language used for automating tasks and running commands on Linux and Unix systems. Bash scripts are typically used for system administration tasks, such as installing software, configuring servers, and managing files and directories.
+
+While Dockerfile instructions are written in a syntax similar to Bash commands, Dockerfile is more focused on building images for Docker containers, whereas Bash is more general-purpose and can be used for any scripting task on a Linux system.
+
+In summary, Dockerfile is used for building Docker images, while Bash is a general-purpose scripting language used for automating tasks on Linux systems. While they may share some similarities in syntax, they serve different purposes and are used in different contexts.

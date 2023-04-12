@@ -1,0 +1,14 @@
+
+https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/introduction[Introduction to cloud-native applications]
+
+https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/definition[What is Cloud Native?]
+
+https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/candidate-apps[*_Candidate apps for Cloud Native_*]
+
+https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/summary[Summary - Architecting cloud-native .NET apps for Azure]
+
+https://joachim8675309.medium.com/devops-concepts-pets-vs-cattle-2380b5aab313[*_DevOps Concepts: Pets vs Cattle_*]
+
+* https://12factor.net/[Twelve-Factor Application]
+
+** https://learn.microsoft.com/en-us/azure/architecture/patterns/[Cloud Design Patterns]
