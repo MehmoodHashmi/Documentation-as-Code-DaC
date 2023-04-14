@@ -192,6 +192,7 @@ or *#virtual machine#* image:images/vmware.png[width=100] )
 
 
 
+
 * *Pod:* is the smallest unit of Kubernetes
 
 ** *Pods image:images/pod1.svg[width=40] represent the processes image:images/process.svg[width=40] running on a <<cluster,cluster>>*. By limiting *pods* image:images/pod1.svg[width=40] to a single *process* image:images/process.svg[width=40], Kubernetes can report on the health of each *process* image:images/process.svg[width=40] running in the <<cluster,*cluster*>>. *Pods* image:images/pod1.svg[width=40] have: a *unique IP address* (which allows them to *_communicate_* with each other) persistent storage volumes (as required).

@@ -1,0 +1,34 @@
+@startmindmap
+
+* "**The Phoenix Project:** A Novel About IT, DevOps, and Helping Your Business Win" \n is a novel written by Gene Kim, Kevin Behr, and George Spafford. The book tells \nthe story of an IT manager named Bill Palmer, who is tasked with saving a failing\n project at a fictional company called Parts Unlimited. \n\t \t **Key Takeaways**
+**[#yellow] DevOps principles
+*** Three Ways
+****[#pink] **Flow**
+***** Eliminate bottlenecks
+***** Reduce work in progress
+***** Improve collaboration
+****[#pink] **Feedback**
+***** Measure and monitor performance
+***** Identify areas for improvement
+***** Make changes quickly
+****[#pink] **Continuous learning and experimentation**
+***** Foster a culture of experimentation
+***** Encourage learning
+***** Reward innovation and risk-taking
+**[#yellow] Continuous delivery pipeline
+*** Automate software delivery process
+*** Release software frequently
+*** Improve software quality and confidence
+**[#yellow] Breaking down silos
+*** Create cross-functional teams
+*** Improve communication
+*** Reduce handoffs
+*** Speed up delivery
+**[#yellow] Customer value
+*** Focus on customer needs and preferences
+*** Create products and services that meet customer expectations
+**[#yellow] Learning culture
+*** Encourage continuous learning and improvement
+*** Stay ahead of the curve
+*** Adapt to changing market conditions
+@endmindmap

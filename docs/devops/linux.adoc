@@ -53,7 +53,7 @@ image::images/docker-register-and-docker-dameon.png[]
 ====
 *Dockerfile* and *Bash* are both tools for building and running software applications, but they serve different purposes.
 
-Dockerfile is a file format that defines how to build a Docker image, which is a lightweight, standalone, executable package that includes everything needed to run an application, including the code, runtime, libraries, environment settings, and dependencies. Dockerfile includes instructions for building the image, such as installing packages, copying files, setting environment variables, and exposing ports.
+Dockerfile is a file format that defines how to build a Docker image, which is a lightweight, standalone, executable package that includes everything needed to run an application, including the code, runtime, libraries, environment settings, and dependencies. Dockerfile includes instructions for building the image, such as installing packages, copying files, setting environment variables, and exposing ports.e
 
 Bash, on the other hand, is a popular shell scripting language used for automating tasks and running commands on Linux and Unix systems. Bash scripts are typically used for system administration tasks, such as installing software, configuring servers, and managing files and directories.
 
