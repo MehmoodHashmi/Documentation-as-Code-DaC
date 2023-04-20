@@ -1,0 +1,110 @@
+@startmindmap
+title Advanced Operating Systems
+*[#yellow] **Kernel Architecture**
+** Monolithic Kernel
+*** Advantages
+**** Fast Performance
+**** Tight Integration with Hardware
+**** Shared Memory
+**** Efficient System Calls
+*** Disadvantages
+**** Lack of Modularity
+**** Single Point of Failure
+**** Complex Debugging and Maintenance
+** Microkernel
+*** Advantages
+**** High Modularity
+**** Fault Isolation
+**** Ease of Development and Maintenance
+**** Dynamic Reconfiguration
+*** Disadvantages
+**** Performance Overhead
+**** IPC Communication Overhead
+**** Lack of Standardization
+** Hybrid Kernel
+*** Advantages
+**** Modularity
+**** Flexibility
+**** Performance
+**** Security
+*** Disadvantages
+**** Complexity
+**** Overhead
+**** Security Risks
+*[#yellow] **Virtualization**
+** Full Virtualization
+*** Emulation
+*** Hypervisor
+** Paravirtualization
+*** Lightweight Virtualization
+*** Hardware Assisted Virtualization
+** Containerization
+*** Container Engines
+*** Container Orchestration
+* Concurrency
+** Process Synchronization
+*** Semaphores
+*** Monitors
+*** Mutexes
+*** Spin Locks
+** Deadlock Prevention
+*** Resource Allocation Graphs
+*** Banker's Algorithm
+** Multithreading
+*** User-Level Threads
+*** Kernel-Level Threads
+** Concurrency Control
+*** Lock-Based Protocols
+*** Timestamp-Based Protocols
+*** Validation-Based Protocols
+* File Systems
+** Disk Layout
+*** Partitioning
+*** Formatting
+** File Allocation
+*** Contiguous Allocation
+*** Linked Allocation
+*** Indexed Allocation
+** File Access
+*** Directories
+*** File Sharing
+*** File Locking
+** Journaling File Systems
+*** Write-Back Journaling
+*** Write-Through Journaling
+*** Log-Structured File Systems
+* Memory Management
+** Memory Allocation
+*** Static Allocation
+*** Dynamic Allocation
+** Virtual Memory
+*** Paging
+*** Segmentation
+** Memory Protection
+*** Address Translation
+*** Access Control
+** Garbage Collection
+*** Reference Counting
+*** Mark-and-Sweep
+*** Copying
+* Security
+** Authentication
+*** Password-Based Authentication
+*** Token-Based Authentication
+*** Biometric Authentication
+** Access Control
+*** Mandatory Access Control
+*** Discretionary Access Control
+*** Role-Based Access Control
+** Cryptography
+*** Symmetric Key Encryption
+*** Asymmetric Key Encryption
+*** Hash Functions
+** Malware
+*** Viruses
+*** Worms
+*** Trojans
+** Intrusion Detection
+*** Host-Based IDS
+*** Network-Based IDS
+@endmindmap

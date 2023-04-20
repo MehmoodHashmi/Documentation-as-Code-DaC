@@ -1,0 +1,25 @@
+@startmindmap
+
+title __Key Takeaways from Discussion on ERD and Normalization__
+
+* ERD (Entity-Relationship Diagram)
+** Graphical representation of entities, attributes, and relationships
+** Entity is an object or concept with a unique identity
+** Attributes describe the properties of an entity
+** Relationship is a connection between entities
+** Cardinality specifies the number of occurrences of entities related to each other
+
+* **Normalization**
+** Organizing data to reduce redundancy and improve data integrity
+** Normal forms are a set of rules governing the process
+***[#yellow] **First normal form (1NF)**
+**** Each attribute in a table is atomic and no repeating groups or arrays
+***[#yellow] **Second normal form (2NF)**
+**** Each non-key attribute is functionally dependent on the primary key
+***[#yellow] **Third normal form (3NF)**
+**** Each non-key attribute is not transitively dependent on the primary key
+***[#yellow] **Fourth normal form (4NF)**
+**** No multi-valued dependencies
+***[#yellow] **Fifth normal form (5NF)**
+**** No join dependencies
+@endmindmap

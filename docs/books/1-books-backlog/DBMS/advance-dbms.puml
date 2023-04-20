@@ -1,0 +1,75 @@
+@startmindmap
+title Advanced DBMS
+* Relational Databases
+** Database Schema
+*** Entity-Relationship Model
+*** Relational Model
+*** Normalization
+** Query Optimization
+*** Cost-Based Optimization
+*** Rule-Based Optimization
+** Transaction Management
+*** ACID Properties
+*** Concurrency Control
+*** Recovery Management
+** Indexing
+*** B-Tree Index
+*** Hash Index
+*** Bitmap Index
+** Query Languages
+*** SQL
+*** NoSQL
+*** NewSQL
+*** GraphQL
+*** SPARQL
+*** XQuery
+** Database Architecture
+*** Client-Server Model
+*** Peer-to-Peer Model
+*** Cloud-Based Model
+*** Distributed Databases
+* Data Warehousing
+** Data Warehouse Design
+*** Star Schema
+*** Snowflake Schema
+*** Fact Tables
+*** Dimension Tables
+** Data Integration
+*** ETL
+*** Data Quality
+** Data Analytics
+*** OLAP
+*** Data Mining
+*** Predictive Analytics
+*** Machine Learning
+* Big Data
+** Hadoop Ecosystem
+*** Hadoop Distributed File System
+*** MapReduce
+*** YARN
+*** Hive
+*** Pig
+*** Spark
+** NoSQL Databases
+*** Document-Oriented Databases
+*** Key-Value Databases
+*** Column-Family Databases
+*** Graph Databases
+** Data Lakes
+*** Data Ingestion
+*** Data Processing
+*** Data Governance
+*** Data Discovery
+* Database Security
+** Authentication and Authorization
+*** Role-Based Access Control
+*** Multilevel Security
+*** Database Auditing
+** Encryption and Cryptography
+*** Data Encryption
+*** Key Management
+*** Secure Communications
+** Backup and Recovery
+*** Backup Strategies
+*** Disaster Recovery
+@endmindmap

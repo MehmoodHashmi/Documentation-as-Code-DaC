@@ -1,0 +1,57 @@
+@startmindmap
+title AWS Cloud
+* Core Services
+** Compute
+*** EC2
+*** ECS
+*** Lambda
+** Storage
+*** S3
+*** EFS
+*** Glacier
+** Database
+*** RDS
+*** DynamoDB
+*** Redshift
+** Networking & Content Delivery
+*** VPC
+*** Route53
+*** CloudFront
+*** API Gateway
+*** Direct Connect
+* Other Services
+** Analytics
+*** Kinesis
+*** EMR
+*** QuickSight
+*** Athena
+** Security, Identity & Compliance
+*** IAM
+*** Cognito
+*** Inspector
+*** GuardDuty
+*** Macie
+*** Certificate Manager
+*** WAF & Shield
+** Management & Governance
+*** CloudFormation
+*** CloudTrail
+*** CloudWatch
+*** Systems Manager
+*** OpsWorks
+*** Trusted Advisor
+*** Config
+** Application Integration
+*** SQS
+*** SNS
+*** SWF
+*** Step Functions
+** Artificial Intelligence
+*** Rekognition
+*** Lex
+*** Polly
+*** Comprehend
+*** Translate
+*** Transcribe
+*** SageMaker
+@endmindmap

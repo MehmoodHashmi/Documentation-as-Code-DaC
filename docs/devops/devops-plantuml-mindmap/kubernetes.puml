@@ -1,0 +1,51 @@
+@startmindmap
+title Kubernetes
+
+* Core Components
+** API Server
+** etcd
+** Controller Manager
+** Scheduler
+** Kubelet
+** Kube-proxy
+* Master Components
+** kube-apiserver
+** kube-controller-manager
+** kube-scheduler
+** etcd
+* Node Components
+** kubelet
+** kube-proxy
+* Addons
+** Dashboard
+** DNS
+** Ingress Controller
+** Metrics Server
+** Network Policy Controller
+** Storage Class Provisioner
+* Cluster Architecture
+** Nodes
+*** Pods
+*** Labels and Selectors
+*** Namespaces
+*** Services
+*** Endpoints
+*** Replication Controllers
+*** Deployments
+*** StatefulSets
+*** DaemonSets
+** Volumes
+*** EmptyDir
+*** HostPath
+*** ConfigMap
+*** Secrets
+*** PersistentVolume
+*** PersistentVolumeClaim
+** Configurations
+*** ConfigMaps
+*** Secrets
+** Security
+*** Role-Based Access Control
+*** Service Account
+*** Network Policies
+@endmindmap

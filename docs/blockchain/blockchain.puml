@@ -1,0 +1,51 @@
+@startmindmap
+title Blockchain Technology
+* Introduction
+** What is Blockchain Technology?
+** History of Blockchain Technology
+** How Blockchain Works?
+* Types of Blockchains
+** Public Blockchains
+** Private Blockchains
+** Consortium Blockchains
+* Components of Blockchain
+** Nodes
+** Blocks
+*** Block Header
+*** Block Body
+** Transactions
+*** Transaction Input
+*** Transaction Output
+*** Transaction Fee
+** Chain
+*** Block Hash
+*** Merkle Tree
+*** Blockchain Database
+**[#yellow] **Consensus Mechanisms**
+*** Proof of Work (PoW)
+*** Proof of Stake (PoS)
+*** Delegated Proof of Stake (DPoS)
+*** Proof of Authority (PoA)
+*** Byzantine Fault Tolerance (BFT)
+* **Smart Contracts**
+** What are Smart Contracts?
+** Advantages of Smart Contracts
+** Programming Languages for Smart Contracts
+*** Solidity
+*** Vyper
+*** Serpent
+* **Applications of Blockchain**
+** Cryptocurrencies
+** Supply Chain Management
+** Voting Systems
+** Identity Management
+** Healthcare
+** Real Estate
+** Energy
+* **Challenges and Limitations**
+** Scalability
+** Interoperability
+** Security and Privacy
+** Regulatory Challenges
+** Energy Consumption
+@endmindmap

@@ -1,0 +1,71 @@
+@startmindmap
+title STEM
+* Science
+** Physics
+*** Classical Mechanics
+*** Quantum Mechanics
+*** Thermodynamics
+*** Astrophysics
+*** Electromagnetism
+*** Optics
+*** Atomic Physics
+*** Nuclear Physics
+** Chemistry
+*** Organic Chemistry
+*** Inorganic Chemistry
+*** Physical Chemistry
+*** Analytical Chemistry
+*** Biochemistry
+*** Polymer Chemistry
+** Biology
+*** Ecology
+*** Genetics
+*** Molecular Biology
+*** Cell Biology
+*** Neurobiology
+*** Physiology
+*** Microbiology
+** Earth Science
+*** Geology
+*** Meteorology
+*** Oceanography
+*** Astronomy
+*** Environmental Science
+* Technology
+** Computer Science
+*** Programming
+*** Data Structures
+*** Algorithms
+*** Computer Architecture
+*** Operating Systems
+*** Networking
+** Electrical Engineering
+*** Circuits
+*** Electronics
+*** Digital Systems
+*** Signal Processing
+*** Control Systems
+** Mechanical Engineering
+*** Statics
+*** Dynamics
+*** Materials Science
+*** Thermodynamics
+*** Fluid Mechanics
+*** Manufacturing
+*** Robotics
+** Civil Engineering
+*** Structures
+*** Geotechnical
+*** Transportation
+*** Water Resources
+*** Environmental
+* Engineering
+** Mathematics
+*** Algebra
+*** Geometry
+*** Calculus
+*** Statistics
+** Physics
+** Chemistry
+** Biology
+@endmindmap

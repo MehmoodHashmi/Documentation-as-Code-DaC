@@ -1,0 +1,30 @@
+@startmindmap
+title Advanced Pulumi
+
+* Infrastructure as Code
+** What is Infrastructure as Code?
+** Benefits of IaC
+** Pulumi vs Other IaC Tools
+* Programming Models
+** Understanding Pulumi's Programming Model
+** Types of Programs in Pulumi
+** Using a General-Purpose Programming Language
+** Pulumi SDK vs Pulumi CLI
+* Deployment
+** Deployment Targets
+** Deployment Strategies
+** Managing and Rolling Back Deployments
+** Deploying to Multiple Environments
+* Organization
+** Managing Pulumi Projects
+** Using Pulumi Stacks
+** Managing Stacks for Different Environments
+** Pulumi Policy as Code
+* Advanced Features
+** Using Pulumi Crosswalk for AWS, Azure, and GCP
+** Working with Large Infrastructures
+** Customizing Pulumi with Plugins and Frameworks
+** Pulumi and Kubernetes
+** Testing Infrastructure Code with Pulumi
+** Debugging and Troubleshooting with Pulumi
+@endmindmap

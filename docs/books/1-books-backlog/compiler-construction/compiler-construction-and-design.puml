@@ -1,0 +1,58 @@
+@startmindmap
+title Compiler Construction and Design
+* Phases of a Compiler
+** Lexical Analysis
+*** Tokenization
+*** Regular Expressions
+*** Deterministic Finite Automata (DFA)
+*** Non-Deterministic Finite Automata (NFA)
+*** Lexical Analyser Generator (Lex)
+** Syntax Analysis
+*** Parsing
+**** Top-Down Parsing
+**** Bottom-Up Parsing
+***** LR Parsing
+***** LALR Parsing
+***** LL Parsing
+*** Context-Free Grammars
+*** Syntax Analyser Generator (Yacc/Bison)
+** Semantic Analysis
+*** Type Checking
+*** Symbol Table
+*** Intermediate Code Generation
+*** Error Handling
+** Code Generation
+*** Code Optimization
+*** Target Machine Architecture
+*** Code Generation Tools
+** Linking and Loading
+*** Object Files
+*** Symbol Resolution
+*** Dynamic Linking
+** Compiler Construction Tools
+*** Compiler Compilers
+**** Lex
+**** Yacc/Bison
+*** LLVM
+*** ANTLR
+*** GCC
+*** Clang
+* Compiler Design Patterns
+** Scannerless Parsing
+** Recursive Descent Parsing
+** Attribute Grammar
+** Abstract Syntax Trees (AST)
+** Visitor Pattern
+** Interpreter Pattern
+** Singleton Pattern
+** Factory Pattern
+** Builder Pattern
+** Facade Pattern
+** Command Pattern
+** Compiler Optimization Techniques
+*** Constant Folding
+*** Copy Propagation
+*** Dead Code Elimination
+*** Loop Unrolling
+*** Instruction Scheduling
+@endmindmap

@@ -1,0 +1,56 @@
+@startmindmap
+
+* OODBMS vs NoSQL
+** **OODBMS**
+*** Data Model
+**** Object-oriented
+**** Supports inheritance and encapsulation
+**** Complex data types
+**** Supports relationships
+*** Query Language
+**** Object-oriented
+**** Capable of traversing relationships
+**** Similar to programming languages
+*** ACID Compliance
+**** Yes
+*** Scalability
+**** Vertical
+**** Limited horizontal scaling
+*** Data Integrity
+**** High
+*** Use Cases
+**** Complex data models
+**** Transaction-heavy applications
+**** Enterprise applications
+** **NoSQL**
+*** Data Model
+**** Non-relational
+**** Supports dynamic and semi-structured data
+**** No support for relationships
+*** Query Language
+**** Key-Value Stores
+***** Simple Key-Value lookups
+**** Document Stores
+***** Query based on document content
+**** Column-Family Stores
+***** Query based on columns
+**** Graph Databases
+***** Traverse relationships
+**** Other
+***** Custom query languages
+*** ACID Compliance
+**** Varies by implementation
+**** Usually eventual consistency
+*** Scalability
+**** Horizontal
+**** Can scale to petabytes
+*** Data Integrity
+**** Low to Medium
+**** Tunable for performance
+*** Use Cases
+**** Big Data
+**** Real-time data processing
+**** High-velocity data
+**** Scalable web applications
+
+@endmindmap

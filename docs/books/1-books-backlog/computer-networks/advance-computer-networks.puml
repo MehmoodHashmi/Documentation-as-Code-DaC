@@ -1,0 +1,85 @@
+@startmindmap
+title Advanced Computer Networks
+* Introduction
+** What are Advanced Computer Networks?
+** Applications of Advanced Computer Networks
+* Network Architecture
+** Decentralized Network Architecture
+** Centralized Network Architecture
+** Hybrid Network Architecture
+*[#yellow] **Network Technologies**
+**[#pink] Software-Defined Networking (SDN)
+*** SDN Architecture
+*** SDN Controller
+*** OpenFlow Protocol
+*** Benefits of SDN
+**[#pink] Network Function Virtualization (NFV)
+*** NFV Architecture
+*** Virtual Network Functions (VNFs)
+*** Benefits of NFV
+**[#pink] Network Virtualization
+*** Network Virtualization vs. Server Virtualization
+*** Types of Network Virtualization
+**** Overlay Virtualization
+**** Peer-to-Peer Virtualization
+**** VLAN Virtualization
+*** Benefits of Network Virtualization
+**[#pink] Cloud Networking
+*** Cloud Computing vs. Cloud Networking
+*** Types of Cloud Networking
+**** Public Cloud Networking
+**** Private Cloud Networking
+**** Hybrid Cloud Networking
+*** Benefits of Cloud Networking
+* Network Security
+** Types of Attacks
+*** Denial-of-Service (DoS) Attacks
+*** Man-in-the-Middle (MitM) Attacks
+*** Phishing Attacks
+*** SQL Injection Attacks
+*** Cross-Site Scripting (XSS) Attacks
+*** Distributed Denial-of-Service (DDoS) Attacks
+** Cybersecurity Measures
+*** Firewalls
+*** Intrusion Detection and Prevention Systems (IDPS)
+*** Virtual Private Networks (VPN)
+*** Network Access Control (NAC)
+*** Security Information and Event Management (SIEM)
+*** Multi-Factor Authentication (MFA)
+*** Patch Management
+*** Disaster Recovery
+* Internet of Things (IoT)
+** What is IoT?
+** IoT Devices
+*** Smart Home Devices
+*** Wearable Devices
+*** Industrial IoT (IIoT) Devices
+** IoT Architecture
+*** IoT Devices
+*** IoT Gateway
+*** Cloud Platform
+*** Application Layer
+** IoT Protocols
+*** Message Queuing Telemetry Transport (MQTT)
+*** Constrained Application Protocol (CoAP)
+*** Advanced Message Queuing Protocol (AMQP)
+*** Extensible Messaging and Presence Protocol (XMPP)
+*** Data Distribution Service (DDS)
+** IoT Security
+*** Challenges in IoT Security
+*** IoT Security Measures
+**** Secure Booting
+**** Device Authentication
+**** Encryption and Decryption
+**** Firmware Updates
+**** Access Control
+**** Intrusion Detection and Prevention
+**** Data Privacy
+**** Blockchain for IoT Security
+* Future of Advanced Computer Networks
+** 5G Networks
+** Quantum Networks
+** Edge Computing
+** Artificial Intelligence in Networking
+** Blockchain in Networking
+@endmindmap

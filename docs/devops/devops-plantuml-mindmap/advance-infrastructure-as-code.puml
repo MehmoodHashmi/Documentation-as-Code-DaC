@@ -1,0 +1,63 @@
+@startmindmap
+title Advanced Infrastructure as Code
+
+* Design Patterns
+** Immutable Infrastructure
+** Scalable Architecture
+** High Availability
+** Disaster Recovery
+** Auto Scaling
+** Blue/Green Deployments
+** Canary Deployments
+** Infrastructure Pipelines
+* Security and Compliance
+** Infrastructure Security
+*** Encryption
+*** Access Control
+*** Network Segmentation
+*** Auditing
+*** Penetration Testing
+** Compliance and Governance
+*** PCI DSS
+*** HIPAA
+*** SOC 2
+*** GDPR
+*** ISO 27001
+* Testing and Quality Assurance
+** Unit Testing
+** Integration Testing
+** Load Testing
+** Security Testing
+** Code Quality
+*** Code Smells
+*** Code Coverage
+*** Code Duplication
+*** Code Complexity
+* Collaboration and Workflow
+** Version Control
+*** Git
+*** Subversion
+*** Mercurial
+** Branching Strategies
+*** Trunk-based Development
+*** Feature Branching
+*** Gitflow
+** Code Review
+*** Manual Review
+*** Automated Review
+** Continuous Integration
+*** Jenkins
+*** Travis CI
+*** CircleCI
+** Continuous Delivery
+*** GitLab CI/CD
+*** AWS CodePipeline
+*** Azure DevOps
+** ChatOps
+*** Slack
+*** Microsoft Teams
+*** Google Chat
+*** Webex Teams
+*** Mattermost
+*** Rocket.Chat
+@endmindmap

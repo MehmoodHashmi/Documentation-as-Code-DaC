@@ -1,0 +1,56 @@
+@startmindmap
+* Database Management Systems
+**[#yellow] **SQL/Relational Databases**
+*** Characteristics:
+**** Use tables to store data
+**** Data is organized in a predefined structure
+**** Use SQL to manage and query data
+*** Examples:
+**** MySQL
+**** Oracle Database
+**** Microsoft SQL Server
+*** Key Takeaways:
+**** Well-suited for complex and structured data
+**** Provide a high level of security and consistency
+**** Best for transactional systems that require ACID properties
+***[#pink] **Use Cases:**
+**** E-commerce websites
+**** Banking and financial institutions
+**** Human resource management systems
+**[#yellow] **Object-Oriented Databases**
+*** Characteristics:
+**** Use objects to store and manage data
+**** Support complex data structures, such as inheritance and polymorphism
+**** Use object-oriented query languages
+*** Examples:
+**** db4o
+**** ObjectStore
+**** Versant Object Database
+*** Key Takeaways:
+**** Ideal for handling complex and interrelated data with varying structures
+**** Provide greater flexibility and extensibility for evolving data models
+**** Well-suited for object-oriented programming languages and development environments
+***[#pink] **Use Cases:**
+**** Scientific research and analysis
+**** Real-time systems and applications
+**** Multimedia databases
+**[#yellow] **NoSQL Databases**
+*** Characteristics:
+**** Not based on the traditional tabular relations model
+**** Provide a flexible data model that can handle unstructured, semi-structured, and structured data
+**** Support horizontal scalability and distributed architectures
+*** Examples:
+**** MongoDB
+**** Cassandra
+**** Couchbase
+*** Key Takeaways:
+**** Offer greater flexibility, scalability, and availability than relational databases
+**** Better suited for handling unstructured and large volumes of data
+**** Support for non-traditional data structures, such as key-value stores, document databases, and graph databases
+***[#pink] **Use Cases:**
+**** Web applications with heavy traffic and user-generated content
+**** Big data analytics and processing
+**** Internet of Things (IoT) applications
+**** Real-time bidding systems
+**** Gaming and social media applications
+@endmindmap

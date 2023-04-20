@@ -1,0 +1,65 @@
+@startmindmap
+
+title  **Designing Data-Intensive Applications**\n **Key Takeaways**
+
+*  **Designing Data-Intensive Applications**\n **Key Takeaways**
+**[#yellow] **Choose** the right **__data model__** for your **application**
+***[#white] **Data Model**
+****[#white] **Hierarchical**
+****[#white] **Network**
+****[#red] **Relational (SQL) + ACID**
+*****[#pink]  **schema-based database**
+*****[#white]  **Types**
+******[#yellow]  **Relational**
+*******[#white]  **SQL Server**
+*******[#white]  **My SQL**
+*******[#white]  **Oracle**
+*******[#white]  **Postgres**
+*******[#white]  **SQL Compact**
+******[#yellow]  **Analiticals (OLAP)**
+****[#gold] **Non-Relational (No-SQL) + BASE**
+*****[#pink] **schema-less database**
+*****[#white] **Types**
+******[#yellow] **Document**
+*******[#white] **Mongo DB**
+*******[#white] **Couch DB**
+*******[#white] **Arango DB**
+*******[#white] **RAVEN DB**
+******[#yellow] **Graph**
+*******[#white] **neo4j**
+*******[#white] **AllergoGraph**
+******[#yellow] **Key-Value**
+*******[#white] **redis**
+*******[#white] **memcached**
+*******[#white] **ignite**
+*******[#white] **riak**
+******[#yellow] **Wide-column**
+*******[#white] **cassandra**
+*******[#white] **Apache HBase**
+*** Each **__data model__** has its own **strengths and weaknesses**
+***[#pink] **__The choice of data model can significantly impact performance and scalability__**
+**[#yellow] **Data __storage__ and __retrieval__**
+*** **__Techniques__** include **indexing, caching, and compression**
+***[#pink] __**Choice of storage technique can impact performance and scalability**__
+**[#yellow] **Data processing**
+*** Covers **batch processing and stream processing**
+*** **__Techniques__** include **MapReduce and Apache Kafka**
+****[#pink] **Apache beam** can do **stream and batch processing** & is open source plus latest **technology**. \n It is a **polyglot** tool (meaning works flawlessly with different programing languages)
+*** Emphasizes importance of **fault tolerance**
+**[#yellow] **Distributed systems**
+*** Includes **distributed databases, messaging, and consensus algorithms**
+*** Emphasizes importance of **fault tolerance and replication**
+**[#yellow] **Scalability**
+*** **__Techniques__** include **sharding, partitioning, and replication**
+*** Emphasizes importance of **horizontal scalability**
+**[#yellow] **Reliability**
+*** **__Techniques__** include **replication, consensus algorithms, and failure detection**
+*** Emphasizes importance of **designing for failure**
+**[#yellow] **Performance**
+*** Guidance on **optimizing latency, throughput, and resource utilization**
+**[#yellow] **Trade-offs**
+***[#orange] **__Every design decision involves trade-offs__**
+***[#orange] **Encourages making informed choices**
+
+@endmindmap
+

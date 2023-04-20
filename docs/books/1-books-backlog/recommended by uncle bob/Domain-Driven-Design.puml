@@ -1,0 +1,62 @@
+@startmindmap
+
+title **Domain-Driven Design**
+* Domain-Driven Design
+** Ubiquitous Language
+*** Shared language between stakeholders
+*** Focused on domain, not technical details
+** Bounded Contexts
+*** Divide large domains into smaller pieces
+*** Each context has a well-defined boundary and purpose
+*** Each context has its own ubiquitous language
+** Aggregates
+*** Clusters of domain objects treated as a single unit
+*** Well-defined boundaries and invariants
+*** Ensure consistency within the aggregate
+** Domain Events
+*** Meaningful occurrences with business significance
+*** Tool for communication and coordination
+*** Trigger reactions within the system
+** Context Mapping
+*** Identify relationships and dependencies between bounded contexts
+*** Identify potential areas of conflict
+*** Design appropriate integration strategies
+** Strategic Design
+*** Overall architecture and organization of the domain
+*** Identify core domain concepts
+*** Create a domain model
+*** Select appropriate architectural patterns and technologies
+** Tactical Design
+*** Implementation details of individual bounded contexts and aggregates
+*** Select appropriate design patterns and techniques
+*** Ensure the model is well-implemented and maintainable
+** Continuous Refinement
+*** Iterative process requiring continuous feedback
+*** Evolve the domain model over time
+*** Reflect changing requirements and deeper understanding of the domain
+** Value Objects
+*** Domain objects defined by their attributes
+*** Immutable
+*** Simplify the design of domain entities
+** Repositories
+*** Retrieve and store domain objects
+*** Simple interface for the application layer
+*** Decouple the domain layer from the persistence layer
+** Services
+*** Operations that do not belong to any specific domain object
+*** Implement domain logic that does not fit naturally into an aggregate
+*** Coordinate operations across multiple aggregates
+** Anti-Corruption Layer
+*** Translate between different models or domains
+*** Prevent contamination of core domain model by external systems
+*** Protect integrity of the core domain model
+** Event Sourcing
+*** Persist domain objects by recording all changes as a sequence of events
+*** Reconstruct the state of the system at any point in time
+*** Reliable audit trail
+** CQRS
+*** Separates commands that modify the domain from queries that retrieve data from the domain
+*** Improve scalability and performance
+*** Simplify the design of the domain model
+
+@endmindmap

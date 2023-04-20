@@ -1,0 +1,33 @@
+@startmindmap
+
+* ERD vs Class Diagram
+** **ERD**
+*** Describes data requirements and relationships in a system
+*** Includes entities, attributes, and relationships
+*** Does not include methods or behaviors
+*** Focuses on data modeling
+** **Class Diagram**
+*** Describes the classes in a system and how they interact with each other
+*** Includes classes, attributes, methods, and relationships
+*** Focuses on object-oriented design and programming
+*** Shows both data and behavior of the system
+
+* **Steps to Convert a Class Diagram to an ERD**
+** Identify the Classes
+*** Determine the classes in the Class Diagram
+** Define the Entities
+*** Identify the nouns in the class names
+*** These become the entities in the ERD
+** Add Attributes
+*** Identify the data elements in the class attributes
+*** These become the attributes in the ERD
+** Add Relationships
+*** Identify the associations in the Class Diagram
+*** These become the relationships in the ERD
+*** Determine the cardinality and optionality of the relationships
+** Normalize the ERD
+*** Remove redundancies in the data model
+*** Ensure data integrity and consistency
+*** Apply normalization rules to improve the design
+
+@endmindmap

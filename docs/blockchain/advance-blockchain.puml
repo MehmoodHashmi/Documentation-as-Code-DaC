@@ -1,0 +1,67 @@
+@startmindmap
+title Advance Blockchain Technology
+* **Consensus Mechanisms**
+** Proof of Work (PoW)
+** Proof of Stake (PoS)
+** Delegated Proof of Stake (DPoS)
+** Proof of Authority (PoA)
+** Proof of Space-Time (PoST)
+** Proof of Burn (PoB)
+** Proof of Elapsed Time (PoET)
+** Proof of History (PoH)
+** Federated Byzantine Agreement (FBA)
+** Directed Acyclic Graph (DAG)
+** Hashgraph
+** Algorand
+** Ethereum 2.0
+
+* **Blockchain Scalability**
+** Layer 2 Scaling
+*** Payment Channels
+*** State Channels
+*** Plasma
+*** Sidechains
+** Sharding
+** Off-Chain Transactions
+** Blockchain Interoperability
+** Blockchain as a Service (BaaS)
+** Atomic Swaps
+** Lightning Network
+
+* **Smart Contracts**
+** Ethereum Virtual Machine (EVM)
+** Solidity Programming Language
+** Smart Contract Security
+*** Common Vulnerabilities
+*** Formal Verification
+*** Auditing
+** Decentralized Autonomous Organizations (DAOs)
+** Non-Fungible Tokens (NFTs)
+* Privacy and Security
+** Anonymity and Pseudonymity
+** Zero-Knowledge Proofs
+** Ring Signatures
+** Bulletproofs
+** zk-SNARKs
+** Homomorphic Encryption
+** Multi-Signature Transactions
+** Consensus Attacks and Defenses
+** Blockchain Forensics
+* Blockchain Governance
+** Decentralized Governance Models
+** On-Chain Governance
+** Off-Chain Governance
+** Forks
+** Community Consensus
+** Regulatory Compliance
+* Blockchain Use Cases
+** Cryptocurrencies
+** Supply Chain Management
+** Voting Systems
+** Identity Management
+** Real Estate
+** Healthcare
+** Energy Management
+** Intellectual Property Rights
+** Social Impact
+@endmindmap

@@ -1,0 +1,78 @@
+@startmindmap
+
+title Advance DevOps
+
+* Culture
+** Agile Methodologies
+** Continuous Improvement
+** Collaboration
+** Automation
+** Learning Culture
+** Ownership
+* Processes
+** Agile Frameworks
+*** Scrum
+*** Kanban
+** Continuous Integration
+** Continuous Delivery
+** Continuous Deployment
+** Release Management
+** Change Management
+** DevOps Metrics
+* Tools
+** Source Control
+*** Git
+*** GitHub
+*** GitLab
+** Configuration Management
+*** Chef
+*** Puppet
+*** Ansible
+*** SaltStack
+** Containers
+*** Docker
+*** Kubernetes
+** Cloud Computing
+*** AWS
+*** Azure
+*** Google Cloud Platform
+*** IBM Cloud
+*** Oracle Cloud
+** Monitoring and Logging
+*** Prometheus
+*** Grafana
+*** Elasticsearch
+*** Logstash
+*** Kibana
+** Collaboration
+*** Slack
+*** Microsoft Teams
+*** Jira
+*** Confluence
+* Skills
+** Scripting Languages
+*** Bash
+*** Python
+*** Ruby
+*** PowerShell
+** Infrastructure as Code
+*** Terraform
+*** Pulumi
+*** CloudFormation
+** Continuous Integration/Delivery/Deployment
+*** Jenkins
+*** CircleCI
+*** Travis CI
+*** GitLab CI/CD
+** Container Orchestration
+*** Kubernetes
+*** Amazon ECS
+*** Google Kubernetes Engine
+*** Azure Kubernetes Service
+** Cloud Platforms
+*** AWS
+*** Azure
+*** Google Cloud Platform
+*** IBM Cloud
+*** Oracle Cloud
+@endmindmap

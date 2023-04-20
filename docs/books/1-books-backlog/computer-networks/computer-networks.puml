@@ -1,0 +1,103 @@
+@startmindmap
+
+title Computer Networks
+
+* Introduction
+** Definition of Computer Network
+** History of Computer Networks
+** Types of Computer Networks
+*** LAN
+*** WAN
+*** MAN
+*** CAN
+*** PAN
+** Network Topologies
+*** Bus Topology
+*** Star Topology
+*** Ring Topology
+*** Mesh Topology
+*** Tree Topology
+* **Network Models**
+** OSI Model
+*** Physical Layer
+*** Data Link Layer
+*** Network Layer
+*** Transport Layer
+*** Session Layer
+*** Presentation Layer
+*** Application Layer
+** TCP/IP Model
+*** Application Layer
+*** Transport Layer
+*** Internet Layer
+*** Network Access Layer
+* Data Transmission
+** Analog Transmission
+** Digital Transmission
+** Transmission Media
+*** Guided Transmission Media
+**** Twisted Pair Cable
+**** Coaxial Cable
+**** Fiber Optic Cable
+*** Unguided Transmission Media
+**** Radio Waves
+**** Microwaves
+**** Infrared
+**** Satellite Communication
+**** Bluetooth
+** Transmission Modes
+*** Simplex Mode
+*** Half Duplex Mode
+*** Full Duplex Mode
+* Network Devices
+** Switch
+** Router
+** Gateway
+** Modem
+** Repeater
+** Hub
+** Bridge
+** Wireless Access Point
+*[#yellow] **Network Protocols**
+** TCP/IP Protocol Suite
+** HTTP
+** FTP
+** SMTP
+** POP
+** IMAP
+** DNS
+** DHCP
+** ARP
+** ICMP
+** IGMP
+** SSL/TLS
+** SSH
+** Telnet
+** SNMP
+** NTP
+* Network Security
+** Confidentiality
+** Integrity
+** Availability
+** Authentication
+** Authorization
+** Non-Repudiation
+** Encryption
+** Firewalls
+** Virtual Private Network (VPN)
+** Intrusion Detection and Prevention
+** Security Policies
+* **Wireless Networking**
+** IEEE 802.11 Standards
+*** 802.11a
+*** 802.11b
+*** 802.11g
+*** 802.11n
+*** 802.11ac
+*** 802.11ax
+** Wireless Network Security
+*** WEP
+*** WPA
+*** WPA2
+*** WPA3
+@endmindmap

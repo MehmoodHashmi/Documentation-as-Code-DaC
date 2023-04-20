@@ -1,0 +1,23 @@
+@startmindmap
+
+* Concurrency Control Comparison: OODBMS vs RDBMS
+
+** **Concurrency Control in RDBMS**
+*** Locking-based mechanisms
+**** Individual row, table, or database locks
+**** Shared, exclusive, and update locks
+**** Can lead to contention and deadlocks
+*** Multi-Version Concurrency Control (MVCC)
+**** Uses snapshots of data
+**** Keeps track of different versions of data for different transactions
+
+** **Concurrency Control in OODBMS**
+*** Optimistic Concurrency Control (OCC)
+**** Allows simultaneous operations on the same object
+**** Assumes no conflicts
+*** Conflict Detection and Resolution
+**** Version numbers, time-stamps, conflict sets
+**** Rolls back one or both transactions on conflict
+**** Allows transactions to retry their operations
+
+@endmindmap

@@ -1,0 +1,35 @@
+@startmindmap
+title Infrastructure as Code
+
+* Definition
+** Automated management of infrastructure
+** Configuration as code
+** Reduced manual work
+** Version control
+* Benefits
+** Increased efficiency
+** Improved consistency
+** Faster deployment
+** Reduced errors
+** Better collaboration
+* Examples
+** Terraform
+** CloudFormation
+** Ansible
+** Pulumi
+** Chef
+** Puppet
+* Best Practices
+** Small, reusable code
+** Code review
+** Version control
+** Automated testing
+** Documentation
+** Continuous Integration/Continuous Deployment
+* Challenges
+** Learning curve
+** Testing and verification
+** Handling dependencies
+** Integration with existing systems
+** Scaling
+@endmindmap

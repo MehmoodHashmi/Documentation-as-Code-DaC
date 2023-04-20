@@ -1,0 +1,72 @@
+@startmindmap
+* Mathematics
+** Algebra
+*** Linear Algebra
+**** Vectors and Matrices
+**** Systems of Linear Equations
+**** Eigenvalues and Eigenvectors
+*** Abstract Algebra
+**** Groups
+**** Rings
+**** Fields
+** Calculus
+*** Differential Calculus
+**** Limits and Continuity
+**** Derivatives
+**** Applications of Derivatives
+*** Integral Calculus
+**** Indefinite Integrals
+**** Definite Integrals
+**** Applications of Integrals
+** Geometry
+*** Euclidean Geometry
+**** Lines and Angles
+**** Triangles
+**** Polygons and Circles
+**** Three-Dimensional Geometry
+*** Non-Euclidean Geometry
+**** Hyperbolic Geometry
+**** Elliptic Geometry
+*** Analytic Geometry
+**** Coordinate Systems
+**** Conic Sections
+**** Transformations
+** Probability and Statistics
+*** Probability Theory
+**** Basic Concepts
+**** Discrete Probability Distributions
+**** Continuous Probability Distributions
+**** Joint Probability Distributions
+*** Statistical Inference
+**** Hypothesis Testing
+**** Estimation
+**** Regression Analysis
+** Discrete Mathematics
+*** Graph Theory
+**** Graphs and Digraphs
+**** Graph Algorithms
+*** Combinatorics
+**** Combinatorial Enumeration
+**** Generating Functions
+**** Designs and Configurations
+** Number Theory
+*** Divisibility and Congruences
+*** Prime Numbers and Cryptography
+*** Diophantine Equations
+** Applied Mathematics
+*** Numerical Analysis
+**** Approximation Theory
+**** Numerical Methods for Solving Equations
+**** Interpolation and Extrapolation
+*** Optimization
+**** Linear Programming
+**** Nonlinear Programming
+**** Dynamic Programming
+*** Game Theory
+**** Cooperative and Non-Cooperative Games
+**** Nash Equilibrium
+*** Operations Research
+**** Queuing Theory
+**** Markov Chains
+**** Simulation
+@endmindmap

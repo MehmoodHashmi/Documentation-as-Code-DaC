@@ -1,0 +1,46 @@
+@startmindmap
+title Advanced Terraform
+
+* Modules
+** Designing Modules
+*** Module Composition
+*** Module Versioning
+*** Sub-Modules
+** Modules for Different Environments
+*** Managing Environments
+*** Workspaces
+*** Backend Configuration
+*** Remote State Management
+** Testing Terraform Code
+*** Unit Testing
+*** Integration Testing
+*** Linting
+** Terraform Workflows
+*** Collaborative Workflows
+*** GitOps
+*** Code Review
+* Providers
+** Creating Custom Providers
+** Provider Development Best Practices
+** Provider Maintenance
+* State Management
+** State Management Challenges
+** Remote State Storage
+** Encryption
+** State Locking
+** State Management with Terraform Cloud
+* Operations
+** Managing Secrets
+*** HashiCorp Vault
+*** AWS Secrets Manager
+*** Azure Key Vault
+** Automated Provisioning
+*** Terraform Automation
+*** Continuous Integration/Continuous Deployment
+*** Infrastructure as Code Pipelines
+** Observability
+*** Metrics, Logs, and Traces
+*** Terraform State as a Data Source
+*** Terraform Plan Output as a Data Source
+
+@endmindmap

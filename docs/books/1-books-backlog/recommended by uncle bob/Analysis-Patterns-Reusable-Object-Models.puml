@@ -1,0 +1,47 @@
+@startmindmap
+title Analysis Patterns: Reusable Object Models
+
+* Introduction
+** **Purpose of Analysis Patterns:** To create **reusable object models** for common business problems
+** **Design patterns vs. Analysis patterns:** Comparison of design patterns and analysis patterns
+** **Object-oriented approach:** Explanation of the object-oriented approach
+
+* Foundational Patterns
+** **Domain Distillation Pattern:** Identifying the core domain concepts
+** **Primitive Obsession Pattern:** Avoiding overuse of primitive data types
+** **Value Object Pattern:** Representing values as objects
+** **Entity-Attribute-Value Pattern:** Representing flexible schema structures
+** **Special Case Pattern:** Handling exceptional cases
+** **Money Pattern:** Representing monetary values accurately
+
+* Organizational Patterns
+** **Organization Hierarchy Pattern:** Representing organizational hierarchies
+** **Party Pattern:** Representing individuals and organizations
+** **Role Pattern:** Representing roles played by parties
+** **Accountability Pattern:** Tracking accountability relationships
+** **Time Point Pattern:** Representing points in time
+** **Double Entry  Accounting Pattern:** Implementing double entry accounting
+
+* Process Patterns
+** Process Control Pattern: Controlling a process or a set of processes
+** Life Cycle Pattern: Managing the life cycle of objects
+** Workflow Pattern: Representing workflows
+** Collaboration Pattern: Representing collaborations
+** State Pattern: Modeling states and transitions
+** Rules Pattern: Implementing business rules
+
+* Application Patterns
+** Inventory Pattern: Managing inventory
+** Product Specification Pattern: Defining product specifications
+** Document Generation Pattern: Generating documents
+** Multi-lingual Pattern: Supporting multiple languages
+** Knowledge Base Pattern: Representing knowledge
+** Recycling Pattern: Managing recycling
+
+* Conclusion
+** The value of patterns in analysis: Benefits of using analysis patterns
+** Using patterns in your projects: How to apply analysis patterns in your projects
+** Challenges in using patterns: Common challenges in using analysis patterns
+** The future of Analysis Patterns: Future of analysis patterns in the software development field
+
+@endmindmap

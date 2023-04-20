@@ -1,0 +1,55 @@
+@startmindmap
+title Google Cloud Platform
+* Core Services
+** Compute
+*** Compute Engine
+*** App Engine
+*** Kubernetes Engine
+*** Cloud Functions
+** Storage
+*** Cloud Storage
+*** Cloud SQL
+*** Cloud Bigtable
+*** Cloud Spanner
+** Database
+*** Cloud SQL
+*** Cloud Datastore
+*** Cloud Spanner
+** Networking
+*** Virtual Private Cloud
+*** Cloud Load Balancing
+*** Cloud DNS
+*** Cloud CDN
+** Security
+*** Identity-Aware Proxy
+*** Cloud Armor
+*** Cloud Security Scanner
+*** Key Management Service
+** Big Data & Machine Learning
+*** BigQuery
+*** Cloud Dataflow
+*** Cloud Dataproc
+*** Cloud Machine Learning Engine
+*** Cloud AutoML
+* Other Services
+** IoT
+*** Cloud IoT Core
+*** Cloud Pub/Sub
+** DevOps
+*** Cloud Build
+*** Cloud Deployment Manager
+*** Cloud Source Repositories
+*** Cloud Monitoring
+*** Cloud Logging
+*** Cloud Trace
+*** Cloud Profiler
+*** Cloud Debugger
+*** Stackdriver
+** APIs & Mobile Apps
+*** Cloud Endpoints
+*** Firebase
+** Business Applications
+*** G Suite
+*** Google Cloud Search
+*** Cloud Identity
+@endmindmap

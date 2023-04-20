@@ -1,0 +1,74 @@
+@startmindmap
+title Advance Linux Distros
+
+
+*[#yellow] **Package Management**
+** Advanced Packaging Tools (APT)
+** Yellowdog Updater Modified (YUM)
+** PackageKit
+** Snapcraft
+** Flatpak
+** RPM Package Manager
+** Debian Package Manager
+** Pacman Package Manager
+** Zypper Package Manager
+* System Configuration
+** Systemd
+** SELinux
+** NetworkManager
+** FirewallD
+** Chrony
+** Timeshift
+** Swap Management
+** Cron
+** System Logs
+** Sysctl
+** Udev
+** PAM
+* File Systems
+** Ext4
+** Btrfs
+** XFS
+** ZFS
+** OverlayFS
+** GlusterFS
+** CephFS
+* Virtualization
+** Kernel-based Virtual Machine (KVM)
+** QEMU
+** Xen
+** VirtualBox
+** Docker
+** Podman
+* Security
+** SSH
+** GnuPG
+** AppArmor
+** Firejail
+** Tripwire
+** ClamAV
+** SELinux
+* Networking
+** Network File System (NFS)
+** Secure Shell (SSH)
+** Dynamic Host Configuration Protocol (DHCP)
+** Domain Name System (DNS)
+** Samba
+** Apache
+** NGINX
+** HAProxy
+** Cockpit
+** VPN
+** Wireshark
+* Advanced Tools
+** Bash Scripting
+** Sed
+** Awk
+** Vim
+** Emacs
+** Git
+** SVN
+** Make
+** CMake
+** GDB
+@endmindmap

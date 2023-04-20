@@ -1,0 +1,39 @@
+@startmindmap
+title Terraform
+
+* Configuration
+** Declarative Language
+*** HCL
+*** JSON
+*** YAML
+** Providers
+*** AWS
+*** Azure
+*** Google Cloud Platform
+*** OpenStack
+*** VMware vSphere
+*** Many more...
+** Modules
+*** Reusable Code
+*** Published by community
+** State
+*** Current Infrastructure
+*** Changes required
+** Backend
+*** Terraform Cloud
+*** Amazon S3
+*** Azure Blob Storage
+*** Consul
+*** Etcd
+*** Many more...
+* Commands
+** init
+** validate
+** plan
+** apply
+** destroy
+** import
+** output
+** taint
+** state
+@endmindmap

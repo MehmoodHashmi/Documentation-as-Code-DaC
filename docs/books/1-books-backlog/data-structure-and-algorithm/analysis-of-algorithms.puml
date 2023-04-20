@@ -1,0 +1,73 @@
+@startmindmap
+title Analysis and Design of Algorithms
+
+* Basic Techniques
+** Brute Force
+** Greedy Algorithms
+** Divide and Conquer
+** Dynamic Programming
+** Backtracking
+
+* Advanced Techniques
+** Randomized Algorithms
+** Approximation Algorithms
+** Parallel Algorithms
+** Heuristics
+** Metaheuristics
+
+* Data Structures
+** Arrays and Matrices
+** Linked Lists
+** Stacks and Queues
+** Trees and Graphs
+** Hash Tables
+
+* Algorithm Design Principles
+** Correctness
+** Efficiency
+** Divide and Conquer
+** Recursion
+** Algorithmic Complexity
+** NP-Completeness
+
+* Sorting Algorithms
+** Bubble Sort
+** Insertion Sort
+** Merge Sort
+** Quick Sort
+** Heap Sort
+** Counting Sort
+** Radix Sort
+
+* Searching Algorithms
+** Linear Search
+** Binary Search
+** Depth First Search
+** Breadth First Search
+
+* Graph Algorithms
+** Dijkstra's Algorithm
+** Bellman-Ford Algorithm
+** Floyd-Warshall Algorithm
+** Kruskal's Algorithm
+** Prim's Algorithm
+
+* String Algorithms
+** Brute Force
+** Boyer-Moore Algorithm
+** Knuth-Morris-Pratt Algorithm
+
+* Numerical Algorithms
+** Binary Exponentiation
+** Euclid's Algorithm
+** Sieve of Eratosthenes
+** Fast Fourier Transform
+** Gaussian Elimination
+
+* Geometric Algorithms
+** Convex Hull
+** Closest Pair of Points
+** Line Intersection
+** Polygon Triangulation
+
+@endmindmap

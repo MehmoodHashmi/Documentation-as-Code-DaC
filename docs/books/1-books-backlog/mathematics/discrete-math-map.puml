@@ -1,0 +1,69 @@
+@startmindmap
+* Discrete Mathematics
+** Sets and Logic
+*** Set Operations
+**** Union
+**** Intersection
+**** Complement
+**** Cartesian Product
+*** Predicate Logic
+**** Quantifiers
+**** Truth Tables
+**** Logical Equivalences
+** Number Theory
+*** Divisibility
+*** Prime Numbers
+*** Greatest Common Divisor
+*** Modular Arithmetic
+*** RSA Cryptography
+** Combinatorics
+*** Permutations
+*** Combinations
+*** Pigeonhole Principle
+*** Inclusion-Exclusion Principle
+** Graph Theory
+*** Graph Properties
+**** Directed vs. Undirected
+**** Weighted vs. Unweighted
+**** Paths and Cycles
+**** Connectedness
+**** Planar Graphs
+*** Graph Representation
+**** Adjacency Matrix
+**** Adjacency List
+*** Graph Algorithms
+**** Shortest Path
+**** Minimum Spanning Tree
+** Probability Theory
+*** Sample Space
+*** Events
+*** Probability Distribution
+**** Discrete Probability Distribution
+**** Continuous Probability Distribution
+*** Conditional Probability
+*** Bayes' Theorem
+** Formal Languages and Automata Theory
+*** Regular Languages
+**** Regular Expressions
+**** Finite Automata
+**** Non-deterministic Finite Automata
+*** Context-Free Languages
+**** Context-Free Grammars
+**** Pushdown Automata
+*** Turing Machines
+**** Computability
+**** Undecidability
+** Cryptography
+*** Symmetric Encryption
+**** Substitution Ciphers
+**** Transposition Ciphers
+*** Public Key Cryptography
+**** RSA Cryptography
+*** Cryptographic Hash Functions
+*** Digital Signatures
+** Applications
+*** Computer Science
+*** Engineering
+*** Mathematics
+*** Natural Sciences
+@endmindmap

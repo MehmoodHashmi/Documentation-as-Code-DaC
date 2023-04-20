@@ -1,0 +1,49 @@
+@startmindmap
+title Probability and Statistics
+* Probability
+** Events and Probability
+*** Sample Space
+*** Events
+*** Calculating Probability
+** Random Variables
+*** Discrete Random Variables
+*** Continuous Random Variables
+*** Probability Density Function
+*** Cumulative Distribution Function
+*** Expectation
+** Joint Probability Distributions
+*** Joint Probability Mass Function
+*** Joint Probability Density Function
+*** Marginal Probability Distribution
+*** Conditional Probability Distribution
+** Law of Large Numbers
+** Central Limit Theorem
+** Markov's Inequality
+** Chebyshev's Inequality
+* Statistics
+** Descriptive Statistics
+*** Measures of Central Tendency
+**** Mean
+**** Median
+**** Mode
+*** Measures of Dispersion
+**** Variance
+**** Standard Deviation
+**** Range
+*** Percentiles and Quartiles
+*** Skewness and Kurtosis
+** Inferential Statistics
+*** Sampling
+**** Sampling Methods
+**** Sampling Distributions
+*** Estimation
+**** Point Estimates
+**** Interval Estimates
+**** Hypothesis Testing
+*** Analysis of Variance (ANOVA)
+*** Regression Analysis
+**** Linear Regression
+**** Non-Linear Regression
+**** Multiple Regression
+**** Logistic Regression
+@endmindmap

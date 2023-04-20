@@ -1,0 +1,16 @@
+@startmindmap
+* Types of Databases
+** SQL or Relational Databases
+*** Data stored in tables with predefined schema
+*** **ACID properties (Atomicity, Consistency, Isolation, Durability)**
+*** Examples: MySQL, PostgreSQL, Oracle DB
+** NoSQL Databases
+*** Non-tabular data storage, flexible schema
+*** Different types: document, key-value, column-family, graph
+*** **BASE properties (Basically Available, Soft state, Eventually consistent)**
+*** Examples: MongoDB, Cassandra, Redis
+** Object-Oriented Databases (OODBMS)
+*** Objects stored in database with their attributes and methods
+*** Supports inheritance, encapsulation and polymorphism
+*** Examples: db4o, ObjectStore, Versant
+@endmindmap

@@ -1,0 +1,140 @@
+@startmindmap
+
+title DevOps
+
+* Principles
+** Agile
+** Continuous Delivery
+** Automation
+** Collaboration
+** Monitoring
+** Measurement
+** Feedback
+** Continuous Improvement
+** Infrastructure as Code
+** Microservices
+** Containers
+* Culture
+** Collaboration
+** Shared Responsibility
+** Transparency
+** Continuous Learning
+** Innovation
+** Experimentation
+** Blameless Culture
+* Methods
+** Scrum
+** Kanban
+** Lean
+** ITIL
+** Site Reliability Engineering (SRE)
+** Value Stream Mapping
+** DevSecOps
+* Tools
+** Version Control Systems
+*** Git
+*** Subversion
+*** Mercurial
+** Build Tools
+*** Jenkins
+*** Travis CI
+*** CircleCI
+*** GitLab CI/CD
+** Configuration Management Tools
+*** Chef
+*** Puppet
+*** Ansible
+*** SaltStack
+** Containerization Tools
+*** Docker
+*** Kubernetes
+** Cloud Platforms
+*** Amazon Web Services (AWS)
+*** Microsoft Azure
+*** Google Cloud Platform (GCP)
+** Monitoring Tools
+*** Prometheus
+*** Grafana
+*** ELK Stack
+** Collaboration Tools
+*** Slack
+*** Microsoft Teams
+*** Jira
+
+
+' Advanced DevOps
+
+* Culture
+** Agile Methodologies
+** Continuous Improvement
+** Collaboration
+** Automation
+** Learning Culture
+** Ownership
+* Processes
+** Agile Frameworks
+*** Scrum
+*** Kanban
+** Continuous Integration
+** Continuous Delivery
+** Continuous Deployment
+** Release Management
+** Change Management
+** DevOps Metrics
+* Tools
+** Source Control
+*** Git
+*** GitHub
+*** GitLab
+** Configuration Management
+*** Chef
+*** Puppet
+*** Ansible
+*** SaltStack
+** Containers
+*** Docker
+*** Kubernetes
+** Cloud Computing
+*** AWS
+*** Azure
+*** Google Cloud Platform
+*** IBM Cloud
+*** Oracle Cloud
+** Monitoring and Logging
+*** Prometheus
+*** Grafana
+*** Elasticsearch
+*** Logstash
+*** Kibana
+** Collaboration
+*** Slack
+*** Microsoft Teams
+*** Jira
+*** Confluence
+* Skills
+** Scripting Languages
+*** Bash
+*** Python
+*** Ruby
+*** PowerShell
+** Infrastructure as Code
+*** Terraform
+*** Pulumi
+*** CloudFormation
+** Continuous Integration/Delivery/Deployment
+*** Jenkins
+*** CircleCI
+*** Travis CI
+*** GitLab CI/CD
+** Container Orchestration
+*** Kubernetes
+*** Amazon ECS
+*** Google Kubernetes Engine
+*** Azure Kubernetes Service
+** Cloud Platforms
+*** AWS
+*** Azure
+*** Google Cloud Platform
+*** IBM Cloud
+*** Oracle Cloud
+@endmindmap

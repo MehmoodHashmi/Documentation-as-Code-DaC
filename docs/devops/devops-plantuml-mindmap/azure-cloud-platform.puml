@@ -1,0 +1,60 @@
+@startmindmap
+title Azure Cloud
+* Core Services
+** Compute
+*** Virtual Machines
+*** Kubernetes Service
+*** Functions
+** Storage
+*** Blob Storage
+*** File Storage
+*** Queue Storage
+*** Table Storage
+** Database
+*** SQL Database
+*** Cosmos DB
+*** Azure Database for MySQL
+*** Azure Database for PostgreSQL
+** Networking
+*** Virtual Network
+*** Load Balancer
+*** Application Gateway
+*** Virtual WAN
+** Identity & Access Management
+*** Azure Active Directory
+*** Azure AD B2C
+*** Azure AD Domain Services
+** Security
+*** Security Center
+*** Azure Sentinel
+*** Key Vault
+*** Azure Firewall
+** Artificial Intelligence
+*** Cognitive Services
+*** Machine Learning
+*** Bot Service
+* Other Services
+** Analytics
+*** HDInsight
+*** Azure Databricks
+*** Data Factory
+*** Stream Analytics
+** Internet of Things (IoT)
+*** IoT Hub
+*** Event Hubs
+*** IoT Central
+*** IoT Edge
+** DevOps
+*** Azure DevOps
+*** Azure Artifacts
+*** Azure Repos
+*** Azure Test Plans
+*** Azure Pipelines
+** Integration
+*** Logic Apps
+*** Service Bus
+*** API Management
+** Migration
+*** Azure Migrate
+*** Azure Site Recovery
+@endmindmap

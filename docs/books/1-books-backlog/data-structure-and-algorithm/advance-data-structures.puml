@@ -1,0 +1,37 @@
+@startmindmap
+title Basic and Advanced Data Structures
+
+* Basic Data Structures
+** Arrays
+** Linked Lists
+** Stacks
+** Queues
+** Trees
+*** Binary Trees
+*** Balanced Trees
+*** AVL Trees
+*** Red-Black Trees
+*** B-Trees
+** Hash Tables
+** Graphs
+*** Undirected Graphs
+*** Directed Graphs
+
+* Advanced Data Structures
+** Priority Queues
+** Heaps
+** Fibonacci Heaps
+** Tries
+** Suffix Trees
+** Segment Trees
+** Disjoint Set Union
+** Fenwick Trees
+** Bloom Filters
+** Skip Lists
+** Self-Balancing Search Trees
+*** Splay Trees
+*** Treaps
+*** 2-3 Trees
+*** 2-3-4 Trees
+
+@endmindmap

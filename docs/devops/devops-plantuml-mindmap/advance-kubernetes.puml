@@ -1,0 +1,60 @@
+@startmindmap
+title Advanced Kubernetes
+* Custom Resources
+** Custom Resource Definitions (CRDs)
+** Custom Controllers
+** Custom Operators
+** KubeBuilder
+** Operator SDK
+* Service Meshes
+** Istio
+** Linkerd
+** Consul
+** Traefik Mesh
+* Advanced Networking
+** NetworkPolicies
+** Ingress Controllers
+** Ingress with TLS
+** Network Load Balancers
+** Service Topology
+** Service Mesh
+** Multus
+** CNI Plugins
+* Security
+** Security Contexts
+** PodSecurityPolicies
+** Admission Controllers
+** Kubernetes RBAC
+** Open Policy Agent (OPA)
+** TLS and Certificates
+* Storage
+** Storage Classes
+** Persistent Volumes
+** Persistent Volume Claims
+** CSI Drivers
+** Dynamic Provisioning
+** StatefulSets
+* Observability
+** Metrics
+** Logging
+** Tracing
+** Application Performance Monitoring (APM)
+** Prometheus
+** Grafana
+** Jaeger
+** Elastic Stack (ELK)
+* Autoscaling
+** Horizontal Pod Autoscaling (HPA)
+** Vertical Pod Autoscaling (VPA)
+** Cluster Autoscaling
+** Custom Metrics
+** Kubernetes Event Driven Autoscaling (KEDA)
+* Advanced Deployment Strategies
+** Canary Deployments
+** Blue/Green Deployments
+** Rolling Updates
+** Zero Downtime Deployments
+** Progressive Delivery
+** Helm
+** GitOps
+@endmindmap

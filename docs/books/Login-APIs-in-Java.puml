@@ -1,0 +1,45 @@
+@startmindmap
+title Login APIs in Java
+
+* Login APIs
+** Spring Security
+*** **__Use case:__** Authenticate user with username and password
+*** **__Use case:__** Authenticate user with OAuth 2.0
+*** **__Use case:__** Authenticate user with LDAP
+** Apache Shiro
+*** **__Use case:__** Authenticate user with username and password
+*** **__Use case:__** Authenticate user with digital certificates
+*** **__Use case:__** Authenticate user with Active Directory
+** JAAS (Java Authentication and Authorization Service)
+*** **__Use case:__** Authenticate user with username and password
+*** **__Use case:__** Authenticate user with smart cards
+*** **__Use case:__** Authenticate user with Kerberos
+** OAuth
+*** **__Use case:__** Authenticate user with Facebook account
+*** **__Use case:__** Authenticate user with Google account
+*** **__Use case:__** Authenticate user with Twitter account
+** OpenID Connect
+*** **__Use case:__** Authenticate user with Google account
+*** **__Use case:__** Authenticate user with Microsoft account
+*** **__Use case:__** Authenticate user with LinkedIn account
+** Java Web Tokens (JWT)
+*** **__Use case:__** Authenticate user with username and password
+*** **__Use case:__** Authenticate user with OAuth 2.0
+*** **__Use case:__** Authenticate user with SAML
+** CAS (Central Authentication Service)
+*** **__Use case:__** Authenticate user with username and password
+*** **__Use case:__** Authenticate user with SAML
+*** **__Use case:__** Authenticate user with OAuth 2.0
+** JBoss PicketBox
+*** **__Use case:__** Authenticate user with username and password
+*** **__Use case:__** Authenticate user with digital certificates
+*** **__Use case:__** Authenticate user with Kerberos
+** Keycloak
+*** **__Use case:__** Authenticate user with username and password
+*** **__Use case:__** Authenticate user with OAuth 2.0
+*** **__Use case:__** Authenticate user with SAML
+** Shibboleth
+*** **__Use case:__** Authenticate user with username and password
+*** **__Use case:__** Authenticate user with SAML
+*** **__Use case:__** Authenticate user with LDAP
+@endmindmap

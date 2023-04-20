@@ -1,0 +1,42 @@
+@startmindmap
+
+* Analysis and Design of Algorithms
+** Basic Algorithmic Analysis Techniques
+*** Time and Space Complexity Analysis
+*** Big O Notation
+*** Asymptotic Analysis
+** Basic Algorithmic Design Techniques
+*** Brute Force
+*** Divide and Conquer
+*** Dynamic Programming
+*** Greedy Algorithms
+** Advanced Algorithmic Analysis Techniques
+*** Amortized Analysis
+*** Probabilistic Analysis
+*** Randomized Algorithms
+** Advanced Algorithmic Design Techniques
+*** Backtracking
+*** Branch and Bound
+*** Linear Programming
+*** Network Flow
+** Data Structures for Efficient Algorithmic Design and Analysis
+*** Arrays
+*** Linked Lists
+*** Stacks
+*** Queues
+*** Heaps
+*** Trees
+*** Graphs
+** Algorithmic Optimization Techniques
+*** Memoization
+*** Caching
+*** Pruning
+*** Parallelization
+** Parallel and Distributed Algorithm Design and Analysis Techniques
+** Applications of Algorithmic Analysis and Design Techniques
+*** Computer Science
+*** Engineering
+*** Mathematics
+*** Natural Sciences
+
+@endmindmap
