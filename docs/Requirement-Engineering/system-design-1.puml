@@ -1,0 +1,85 @@
+
+@startmindmap
+title There is a bit difference in terms of detail in "system design and system design 1" mindmap
+* System Design
+** System Requirements
+*** Functional Requirements
+*** Non-functional Requirements
+** Architecture
+*** Monolithic Architecture
+*** Microservices Architecture
+*** Service-Oriented Architecture
+*** Event-Driven Architecture
+*** Layered Architecture
+*** Clean Architecture
+*** Domain-Driven Design
+*** Model-View-Controller (MVC)
+*** Model-View-Presenter (MVP)
+*** Model-View-ViewModel (MVVM)
+*** Hexagonal Architecture
+*** CQRS Architecture
+*** Event Sourcing
+*** Serverless Architecture
+*** Containerization
+*** Orchestration
+*** Scaling Strategies
+**** Vertical Scaling
+**** Horizontal Scaling
+*** Security Architecture
+*** Performance Optimization
+**** Caching
+**** Load Balancing
+**** Database Sharding
+**** Replication
+** Deployment Architecture
+*** On-Premise
+*** Cloud-Based
+*** Hybrid
+** Data Storage
+*** Relational Databases
+**** MySQL
+**** PostgreSQL
+**** Oracle
+**** SQL Server
+*** NoSQL Databases
+**** MongoDB
+**** Cassandra
+**** Redis
+**** Couchbase
+*** In-Memory Databases
+**** Memcached
+**** Redis
+*** Search Engines
+**** Elasticsearch
+**** Solr
+*** Object Storage
+**** Amazon S3
+**** Google Cloud Storage
+**** Azure Blob Storage
+** API Design
+*** RESTful APIs
+*** GraphQL APIs
+*** SOAP APIs
+*** JSON-RPC APIs
+*** gRPC APIs
+** User Interface
+***[#pink] **Web Applications**
+**** Single-Page Applications (SPAs)
+**** Server-Side Rendered Applications (SSR)
+**** Progressive Web Applications (PWAs)
+**** Web Components
+**** WebSockets
+*** Mobile Applications
+**** Native Applications
+**** Hybrid Applications
+**** Progressive Web Applications (PWAs)
+*** Desktop Applications
+**** Windows Applications
+**** MacOS Applications
+**** Linux Applications
+*** Voice Applications
+**** Amazon Alexa
+**** Google Assistant
+**** Microsoft Cortana
+@endmindmap
+

@@ -1,0 +1,61 @@
+@startmindmap
+* IoT, Blockchain, AI, and Cybersecurity
+
+** Internet of Things (IoT)
+*** Definition and Examples
+**** Smart Home Devices
+**** Wearable Technology
+**** Industrial IoT
+*** IoT Architecture
+**** Devices and Sensors
+**** Connectivity and Communication
+**** Cloud and Data Storage
+**** Analytics and Applications
+*** IoT Security
+**** Authentication and Authorization
+**** Confidentiality and Integrity
+**** Availability and Resilience
+
+** Blockchain
+*** Definition and Examples
+**** Cryptocurrencies
+**** Smart Contracts
+**** Supply Chain Management
+*** Blockchain Architecture
+**** Distributed Ledger Technology
+**** Consensus Mechanisms
+**** Mining and Validation
+**** Smart Contract Platforms
+*** Blockchain Security
+**** Cryptography and Encryption
+**** Immutable and Tamper-proof Data
+**** Decentralization and Transparency
+
+** Artificial Intelligence (AI)
+*** Definition and Examples
+**** Machine Learning
+**** Natural Language Processing
+**** Computer Vision
+*** AI Architecture
+**** Data Collection and Preparation
+**** Training and Model Development
+**** Deployment and Integration
+*** AI Security
+**** Data Privacy and Protection
+**** Bias and Fairness
+**** Accountability and Responsibility
+
+** Cybersecurity
+*** Definition and Examples
+**** Threats and Attacks
+**** Malware and Viruses
+**** Phishing and Social Engineering
+*** Cybersecurity Architecture
+**** Prevention and Detection
+**** Incident Response and Recovery
+**** Risk Management and Compliance
+*** Cybersecurity Technologies
+**** Firewall and IDS/IPS
+**** Encryption and Authentication
+**** SIEM and Forensics
+@endmindmap

@@ -1,0 +1,175 @@
+
+@startmindmap
+
+* No-SQL Constructs
+** **Querying**
+*** SELECT
+*** FROM
+*** WHERE
+*** GROUP BY
+*** HAVING
+*** ORDER BY
+*** LIMIT
+*** JOIN
+*** UNION
+*** DISTINCT
+** **Indexes**
+*** Primary Key
+*** Secondary Indexes
+*** Composite Indexes
+*** Multi-Valued Indexes
+*** Geospatial Indexes
+*** Text Indexes
+*** Full-Text Search Indexes
+*** In-Memory Indexes
+*** Covering Indexes
+*** Expire Indexes
+** **Clustering**
+*** Sharding
+*** Replication
+*** Consistency Models
+**** Strong Consistency
+**** Eventual Consistency
+**** Consistent Prefix
+**** Read One, Write All (ROWA)
+**** Read One, Write One (ROWO)
+**** Quorum Consistency
+**** Timeline Consistency
+**** Causal Consistency
+**** Monotonic Reads
+**** Monotonic Writes
+**** Bounded Staleness
+**** Session Consistency
+** **Aggregation Pipeline**
+*** $match
+*** $group
+*** $project
+*** $sort
+*** $skip
+*** $limit
+*** $lookup
+*** $unwind
+*** $graphLookup
+** **Data Types**
+*** String
+*** Integer
+*** Double
+*** Boolean
+*** Date
+*** Timestamp
+*** Object ID
+*** Binary Data
+*** Regular Expression
+*** Array
+*** Embedded Document
+*** UUID
+*** Decimal128
+*** Min/Max Keys
+*** Null
+*** Symbol
+*** JavaScript
+*** BSON Data
+*** Timestamp
+*** Undefined
+*** Object
+*** Long
+*** Decimal
+*** Code
+*** Code with Scope
+*** DBPointer
+*** MaxKey
+*** MinKey
+** **Commands**
+*** Database Commands
+**** createCollection
+**** dropCollection
+**** createUser
+**** dropUser
+**** grantPrivilegesToRole
+**** revokePrivilegesFromRole
+**** createRole
+**** dropRole
+**** createIndexes
+**** dropIndexes
+**** collStats
+**** dbStats
+**** listCollections
+**** listIndexes
+**** getParameter
+**** setParameter
+**** listCommands
+*** Collection Commands
+**** find
+**** findOne
+**** insert
+**** update
+**** delete
+**** count
+**** distinct
+**** mapReduce
+**** aggregate
+**** renameCollection
+**** createView
+**** dropView
+**** validate
+**** getShardDistribution
+**** shardCollection
+**** moveChunk
+**** splitChunk
+**** mergeChunk
+**** compact
+*** Query Commands
+**** explain
+**** hint
+**** maxTimeMS
+**** max
+**** min
+**** returnKey
+**** showRecordId
+**** snapshot
+**** comment
+**** cursor
+**** sort
+**** explainVerbosity
+**** explainPlans
+**** explainSummary
+**** allowDiskUse
+*** Admin Commands
+**** addShard
+**** removeShard
+**** enableSharding
+**** disableSharding
+**** shardingState
+**** shardVersion
+**** split
+**** addTagRange
+**** removeTagRange
+**** getLastError
+**** fsync
+**** clean
+**** repairCursor
+**** splitVector
+**** connPoolSync
+**** buildInfo
+**** collMod
+**** dbHash
+**** connPoolStats
+**** driverOIDTest
+**** dropDatabase
+**** fsyncUnlock
+**** getCmdLineOpts
+**** hostInfo
+**** isMaster
+**** logRotate
+**** ping
+**** repairDatabase
+**** setShardVersion
+**** shutdown
+**** splitChunkAuto
+**** splitChunkMove
+**** startSession
+**** startTransaction
+**** commitTransaction
+**** abort
+
+@endmindmap

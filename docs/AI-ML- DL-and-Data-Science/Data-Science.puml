@@ -1,0 +1,31 @@
+@startmindmap
+* Data Science
+** **Foundations of Data Science**
+*** Statistics
+*** Linear Algebra
+*** Probability Theory
+*** Programming
+** Data Manipulation
+*** Data Cleaning
+*** Data Integration
+*** Data Transformation
+** Data Visualization and Communication
+*** Graphical Perception
+*** Visual Encoding and Interaction
+*** Visualization Design
+** Machine Learning
+*** Supervised Learning
+*** Unsupervised Learning
+*** Semi-Supervised Learning
+*** Deep Learning
+** Big Data
+*** Distributed Computing
+*** Scalability
+*** Storage Systems
+*** Data Streaming
+** Applications of Data Science
+*** Natural Language Processing
+*** Computer Vision
+*** Social Network Analysis
+*** Business Analytics
+@endmindmap

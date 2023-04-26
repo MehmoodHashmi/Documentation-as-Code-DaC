@@ -1,0 +1,38 @@
+@startmindmap
+title = "__Unix Design Philosophy__\n This mindmap outlines the key principles of Unix design philosophy, including simplicity, flexibility, modularity, composition, transparency,\n and robustness. Each principle is broken down into several sub-points that explain what it means and how it is applied in practice.
+
+
+
+
+
+* Simplicity
+** Write programs that do one thing and do it well
+** Write programs to work together
+** Write programs to handle text streams, because that is a universal interface
+
+* Flexibility
+** Allow the user to tailor the environment to their needs
+** Avoid forcing the user to use a specific interface or workflow
+** Emphasize the importance of scripts and scripting
+
+* Modularity
+** Break down complex tasks into smaller, more manageable components
+** Make sure each component does one thing well
+** Encourage the development of reusable components
+
+* Composition
+** Use simple, standardized interfaces to compose complex systems
+** Make sure each component is replaceable and interchangeable
+** Encourage the development of tools to aid composition
+
+* Transparency
+** Design programs to be open and understandable
+** Allow the user to see what is happening under the hood
+** Encourage the development of tools to aid transparency
+
+* Robustness
+** Design programs to handle unexpected input and situations
+** Make sure errors are handled gracefully
+** Emphasize the importance of testing and debugging
+
+@endmindmap

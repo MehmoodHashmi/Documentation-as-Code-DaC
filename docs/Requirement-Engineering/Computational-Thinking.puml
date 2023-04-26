@@ -1,0 +1,33 @@
+@startmindmap
+title This mindmap outlines the key elements of computational thinking, including abstraction, decomposition, pattern recognition, algorithm design, evaluation, and application. Each element is broken down into specific\n subcategories, such as generalization, simplification, and model building under abstraction, and breaking a problem into smaller parts, identifying the relationship between parts, and building a hierarchy of\n modules under decomposition. The mindmap also emphasizes the importance of testing and refining solutions, identifying limitations and potential errors, and iterating and improving solutions in the\n evaluation stage. Finally, the mindmap highlights the application of computational thinking to non-computational problems and the use of computational thinking to analyze and solve real-world problems.
+
+
+
+
+
+* <color #118888>**Computational Thinking**</color>
+** **Abstraction**
+***[#pink] Generalization
+***[#pink] Simplification
+***[#pink] Model Building
+***[#pink] Conceptualization
+** **Decomposition**
+***[#pink] Breaking a problem into smaller parts
+***[#pink] Identifying the relationship between parts
+***[#pink] Building a hierarchy of modules
+** **Pattern Recognition**
+***[#pink] Identifying similarities among problems
+***[#pink] Recognizing patterns and regularities
+***[#pink] Identifying trends and outliers
+** **Algorithm Design**
+***[#pink] Developing step-by-step solutions to problems
+***[#pink] Analyzing the efficiency and effectiveness of solutions
+***[#pink] Optimizing solutions
+** **Evaluation**
+***[#pink] Testing and refining solutions
+***[#pink] Identifying limitations and potential errors
+***[#pink] Iterating and improving solutions
+** **Application**
+***[#pink] Applying computational thinking to non-computational problems
+***[#pink] Using computational thinking to analyze and solve real-world problems
+@endmindmap

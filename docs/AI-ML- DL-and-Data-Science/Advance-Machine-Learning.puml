@@ -1,0 +1,60 @@
+@startmindmap
+* Advance Machine Learning
+** Supervised Learning
+*** Regression
+**** Linear Regression
+**** Polynomial Regression
+**** Multiple Linear Regression
+**** Logistic Regression
+*** Classification
+**** Decision Tree
+**** Random Forest
+**** Naive Bayes
+**** K-Nearest Neighbors (K-NN)
+**** Support Vector Machine (SVM)
+**** Artificial Neural Networks (ANN)
+**** Convolutional Neural Networks (CNN)
+**** Recurrent Neural Networks (RNN)
+**** Long Short-Term Memory (LSTM)
+*** Ensemble Learning
+**** Boosting
+***** AdaBoost
+***** Gradient Boosting
+**** Bagging
+***** Random Forest
+***** Extra-Trees
+*** Other Techniques
+**** Principal Component Analysis (PCA)
+**** Factor Analysis
+**** Independent Component Analysis (ICA)
+**** t-SNE (t-Distributed Stochastic Neighbor Embedding)
+**** Autoencoders
+** Unsupervised Learning
+*** Clustering
+**** K-Means
+**** Hierarchical Clustering
+**** DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
+**** Mean Shift
+**** Fuzzy C-Means
+*** Association Rule Learning
+**** Apriori
+**** Eclat
+*** Dimensionality Reduction
+**** PCA
+**** LDA (Linear Discriminant Analysis)
+**** Kernel PCA
+**** t-SNE
+** Reinforcement Learning
+*** Exploration and Exploitation
+*** Markov Decision Processes (MDPs)
+*** Q-Learning
+*** Policy Gradient
+*** Deep Reinforcement Learning
+** Other Techniques
+*** Semi-Supervised Learning
+*** Transfer Learning
+*** Multi-Task Learning
+*** One-Shot Learning
+*** Generative Adversarial Networks (GANs)
+*** Variational Autoencoders (VAEs)
+@endmindmap

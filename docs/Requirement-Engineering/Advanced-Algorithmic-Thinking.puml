@@ -1,0 +1,29 @@
+@startmindmap
+title = __Advanced Algorithmic Thinking__
+
+* Problem decomposition
+** Breaking down complex problems into smaller, more manageable pieces
+** Identifying patterns and similarities between problem components
+** Building a framework for tackling larger problems
+
+* Algorithm design
+** Selecting and customizing algorithms to suit specific problem requirements
+** Developing and testing new algorithms
+** Utilizing advanced algorithmic techniques, such as dynamic programming and heuristic search
+
+* Optimization
+** Identifying opportunities to optimize algorithm performance
+** Utilizing techniques such as parallel computing and distributed systems
+** Balancing the trade-off between optimization and other constraints, such as space and time complexity
+
+* Scalability
+** Designing algorithms that can handle large data sets and increasing volumes of traffic
+** Utilizing techniques such as sharding and load balancing
+** Understanding the trade-offs between scalability, performance, and cost
+
+*[#yellow] **Machine learning and AI**
+**[#pink] **Developing** <color #118888>**algorithms**</color> that can <color #crimson>**learn and adapt to changing data**</color>
+**[#pink] **Utilizing techniques such as deep learning and neural networks**
+** Balancing the trade-off between accuracy and interpretability
+
+@endmindmap

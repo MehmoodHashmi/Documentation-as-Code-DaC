@@ -1,0 +1,83 @@
+@startmindmap
+
+title A mind map with the advanced system design topics arranged in a hierarchical structure. \nIt provides a high-level overview of the different components and concepts involved in designing and building complex systems.
+
+* Advanced System Design
+** Microservices Architecture
+*** Service Registry
+*** API Gateway
+*** Load Balancing
+*** Service Mesh
+** Distributed Systems
+*** Event-Driven Architecture
+*** Service Discovery
+*** Replication
+*** Consensus Algorithms
+** Cloud Computing
+*** IaaS
+*** PaaS
+*** SaaS
+*** Serverless Computing
+** Data Management
+*** Relational Databases
+**** ACID Properties
+**** Normalization
+**** Sharding
+*** NoSQL Databases
+**** CAP Theorem
+**** Consistency Models
+**** Distributed Databases
+*** Data Warehousing
+**** ETL
+**** OLAP
+**** Data Mining
+**** BI
+*** Data Lake
+**** Data Ingestion
+**** Data Catalog
+**** Data Processing
+**** Data Analysis
+** Scalability
+*** Horizontal Scaling
+*** Vertical Scaling
+*** Sharding
+*** Load Balancing
+** Security
+*** Encryption
+*** Authentication
+*** Authorization
+*** Firewalls
+*** Intrusion Detection
+*** Penetration Testing
+** Performance Optimization
+*** Caching
+*** Compression
+*** Asynchronous Processing
+*** Batch Processing
+*** Lazy Loading
+*** Connection Pooling
+** DevOps
+*** Continuous Integration
+*** Continuous Deployment
+*** Configuration Management
+*** Monitoring and Logging
+*** Infrastructure as Code
+** Emerging Technologies
+*** Artificial Intelligence
+**** Machine Learning
+**** Deep Learning
+**** Neural Networks
+**** Natural Language Processing
+*** Blockchain
+**** Distributed Ledgers
+**** Smart Contracts
+*** Internet of Things
+**** Sensors
+**** Embedded Systems
+**** Edge Computing
+*** Quantum Computing
+**** Quantum Algorithms
+**** Quantum Cryptography
+**** Quantum Communication
+
+@endmindmap

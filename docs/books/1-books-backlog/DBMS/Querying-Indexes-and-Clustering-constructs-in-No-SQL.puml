@@ -1,0 +1,29 @@
+@startmindmap
+title This mindmap includes three main branches: Querying, Indexes, and Clustering.
+
+
+* Querying, Indexes and Clustering constructs in No-SQL
+** Querying
+*** Key-Value Query
+*** Range Query
+*** Graph Query
+*** Full-Text Search Query
+*** MapReduce Query
+** Indexes
+*** B-Tree Index
+*** Hash Index
+*** Geo-Spatial Index
+*** Full-Text Search Index
+*** Bitmap Index
+** Clustering
+*** Shared-Disk Clustering
+*** Shared-Nothing Clustering
+*** In-Memory Clustering
+*** Partitioning
+**** Horizontal Partitioning
+**** Vertical Partitioning
+**** Sharding
+***** Range-Based Sharding
+***** Hash-Based Sharding
+***** Directory-Based Sharding
+@endmindmap

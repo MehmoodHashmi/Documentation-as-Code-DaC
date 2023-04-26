@@ -1,0 +1,92 @@
+ @startmindmap
+title This mind map covers different aspects of system design, including architecture, data storage, scalability, security, deployment, and monitoring. Each topic is further\n divided into subtopics for a more detailed understanding.
+
+
+
+
+
+* System Design
+** **Architecture**
+*** Client-Server
+**** Web Applications
+***** HTTP
+***** REST
+***** SOAP
+**** Desktop Applications
+***** Windows
+***** MacOS
+***** Linux
+*** Microservices
+**** Service Discovery
+**** API Gateway
+**** Load Balancing
+**** Health Checks
+**** Fault Tolerance
+*** Event-Driven
+**** Event Sourcing
+**** CQRS
+**** Message Queues
+**** Pub/Sub
+**[#yellow] **Data Storage**
+*** Relational Databases
+**** MySQL
+**** PostgreSQL
+**** Oracle
+**** SQL Server
+*** NoSQL Databases
+**** MongoDB
+**** Cassandra
+**** Redis
+**** Elasticsearch
+*** Data Warehousing
+**** ETL
+**** Data Lake
+**** OLAP
+**** Data Marts
+** **Scalability**
+*** Vertical Scaling
+**** Upgrading Hardware
+**** Adding More Resources
+**** More Memory/CPU
+*** Horizontal Scaling
+**** Adding More Servers
+**** Load Balancing
+**** Sharding
+**** Replication
+** **Security**
+*** Authentication
+**** OAuth2
+**** OpenID Connect
+**** SAML
+*** Authorization
+**** Role-Based Access Control
+**** Attribute-Based Access Control
+*** Encryption
+**** Symmetric Encryption
+**** Asymmetric Encryption
+**** Hashing
+*** Firewalls
+**** Network Firewalls
+**** Application Firewalls
+*** DDoS Protection
+** **Deployment**
+*** Cloud Computing
+**** IaaS
+**** PaaS
+**** SaaS
+**** Serverless
+*** Containers
+**** Docker
+**** Kubernetes
+**** Container Orchestration
+*** CI/CD
+**** Continuous Integration
+**** Continuous Delivery
+**** Deployment Pipelines
+*** Monitoring
+**** Log Management
+**** Metrics
+**** Tracing
+**** Alerting
+**** Dashboards
+@endmindmap

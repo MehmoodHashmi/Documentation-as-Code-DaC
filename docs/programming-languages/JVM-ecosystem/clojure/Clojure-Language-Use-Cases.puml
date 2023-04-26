@@ -1,0 +1,54 @@
+@startmindmap
+title = __Clojure Language Use Cases__
+
+* Web Development
+** ClojureScript
+** Ring and Compojure
+** Hiccup
+** Luminus
+** Pedestal
+
+* Data Science
+** Incanter
+** core.matrix
+** core.matrix.stats
+** core.logic
+** Clojure Numerics
+
+* Functional Programming
+** Immutable Data Structures
+** Higher Order Functions
+** Recursion and Tail Call Optimization
+** Macros
+** Parallel Processing
+
+* Concurrency and Parallelism
+** Agents
+** Atoms
+** Futures
+** pmap
+** reducers
+** core.async
+
+* Distributed Computing
+** Distributed Systems
+** Distributed Databases
+** Distributed Caching
+** Distributed File Systems
+** Distributed Consensus
+
+* DevOps and Automation
+** Infrastructure as Code
+** Continuous Integration/Continuous Deployment
+** Configuration Management
+** Cloud Computing
+** DevOps Tooling
+
+* Game Development
+** LibGDX
+** play-clj
+** quil
+** Overtone
+** Arcadia
+
+@endmindmap

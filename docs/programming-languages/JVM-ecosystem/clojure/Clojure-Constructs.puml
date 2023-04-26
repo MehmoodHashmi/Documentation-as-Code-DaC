@@ -1,0 +1,56 @@
+@startmindmap
+
+* Clojure Constructs
+
+** Data Types
+*** Numbers
+*** Strings
+*** Booleans
+*** Keywords
+*** Symbols
+*** Collections
+
+** Functions
+*** Defining Functions
+*** Anonymous Functions
+*** Higher-order Functions
+*** Recursion
+*** Function Composition
+
+** Control Flow
+*** Conditional Expressions
+*** Loops
+*** Exception Handling
+*** Threading Macros
+
+** Macros
+*** Defining Macros
+*** Syntax Rules
+*** Macro Expansion
+
+** Namespaces
+*** Defining Namespaces
+*** Referencing Namespaces
+*** Aliasing Namespaces
+
+** Java Interoperability
+*** Calling Java Code
+*** Creating Java Objects
+*** Implementing Java Interfaces
+*** Java Reflection
+
+** Concurrency
+*** Futures
+*** Promises
+*** Atoms
+*** Agents
+*** Locking
+
+** Data Access
+*** Databases
+*** Files
+*** Sockets
+*** REST APIs
+*** Email
+
+@endmindmap

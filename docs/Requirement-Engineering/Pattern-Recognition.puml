@@ -1,0 +1,40 @@
+@startmindmap
+skinparam nodeWidth 180
+skinparam nodeMargin 20
+
+* **Pattern Recognition**
+** Definition
+*** **The ability to identify similarities, patterns, and regularities in data**
+** Importance
+*** Helps in making decisions
+*** Enables problem-solving
+*** Facilitates learning and understanding
+** Types of patterns
+*** Visual patterns
+**** Shapes, colors, textures, and layouts
+*** Auditory patterns
+**** Pitch, rhythm, and melody
+***[#pink] **Sequential patterns**
+**** A series of events that occur in a particular order
+*** Behavioral patterns
+**** A consistent set of actions or responses
+** Pattern recognition process
+*** Acquisition
+**** Collecting data or information
+*** Pre-processing
+**** Cleaning, filtering, and transforming data
+*** Segmentation
+**** Dividing data into smaller parts
+*** Feature extraction
+**** Identifying important features
+*** Classification
+**** Assigning data to specific classes or categories
+*** Evaluation
+**** Measuring the accuracy of the classification
+** Applications
+*** Speech recognition
+*** Image processing
+*** Natural language processing
+*** Fraud detection
+*** Stock market prediction
+@endmindmap

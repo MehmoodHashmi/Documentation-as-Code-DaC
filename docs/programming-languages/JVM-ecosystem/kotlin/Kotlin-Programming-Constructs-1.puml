@@ -1,0 +1,60 @@
+@startmindmap
+* Kotlin Programming Constructs
+** Basics
+*** Packages
+*** Functions
+*** Variables
+*** Control Flow Statements
+** Object-Oriented Programming
+*** Classes
+**** Constructors
+**** Properties
+**** Methods
+**** Inheritance
+**** Interfaces
+**** Abstract Classes
+**** Nested Classes
+*** Data Classes
+*** Sealed Classes
+*** Delegation
+*** Extensions
+*** Enum Classes
+*** Object Expressions and Declarations
+** Functional Programming
+*** Lambda Expressions
+*** Higher-Order Functions
+*** Closures
+*** Recursion
+*** Function Composition
+*** Partial Application and Currying
+** Coroutines
+*** Suspend Functions
+*** Coroutines and Threads
+*** Coroutine Context and Dispatchers
+*** Cancellation and Timeouts
+*** Exception Handling
+*** Flow
+** Collections
+*** List
+*** Set
+*** Map
+*** Sequence
+*** Array
+*** Ranges
+*** Operators
+** Type System
+*** Null Safety
+*** Type Inference
+*** Type Aliases
+*** Generics
+*** Variance
+*** Type Projections
+*** Reified Types
+*** Inline Functions
+** Advanced Topics
+*** Destructuring Declarations
+*** Annotations
+*** Reflection
+*** Metaprogramming
+*** DSLs
+@endmindmap

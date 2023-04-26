@@ -1,0 +1,36 @@
+@startmindmap
+
+title = "This mindmap covers the different types of AI, its applications, techniques used, and the ethics involved in its development and use."
+
+* Artificial Intelligence
+** Types of AI
+*** Rule-Based Systems
+*** Machine Learning
+**** Supervised Learning
+**** Unsupervised Learning
+**** Reinforcement Learning
+*** Deep Learning
+*** Fuzzy Logic
+*** Evolutionary Computation
+*** Natural Language Processing
+** Applications of AI
+*** Image and Speech Recognition
+*** Robotics
+*** Gaming and Entertainment
+*** Predictive Analytics and Forecasting
+*** Healthcare
+*** Automotive
+** AI Techniques
+*** Expert Systems
+*** Decision Trees
+*** Neural Networks
+*** Support Vector Machines
+*** Genetic Algorithms
+*** Bayesian Networks
+*** Hidden Markov Models
+** Ethics in AI
+*** Bias and Fairness
+*** Transparency and Explainability
+*** Accountability and Responsibility
+*** Privacy and Security
+@endmindmap

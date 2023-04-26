@@ -1,0 +1,27 @@
+@startmindmap
+
+* **Class Diagram Best Practices**
+** **Keep it Simple**
+*** Focus on the Main Classes and Relationships
+*** Avoid Overcomplicating with Unnecessary Details
+** Use Consistent and Clear Notation
+*** Choose a Standard Notation
+*** Use Clear and Concise Labels
+*** Avoid Ambiguity and Confusion
+** Organize the Diagram for **Readability**
+*** Group Related Classes and Relationships
+*** Use a Logical and Intuitive Layout
+*** Add White Space and Visual Separators
+** **Keep the Diagram Up-to-Date**
+*** Update the Diagram to Reflect Changes in the Code
+*** Ensure that the Diagram is Accurate and Complete
+*** **Use Automated Tools for Synchronization**
+**[#yellow] **Add Context and Detail as Needed**
+*** Include Relevant Details to Support Understanding
+*** Show Context and Relationships Beyond the System
+*** Consider Using Different Diagram Types for Different Views
+** Share and Communicate Effectively
+*** Use the Diagram to Communicate with Stakeholders
+*** Ensure that the Diagram is Accessible and Understandable
+*** Use Annotations and Descriptions to Provide Context
+@endmindmap

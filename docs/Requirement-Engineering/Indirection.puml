@@ -1,0 +1,61 @@
+@startmindmap
+title = __Indirection__\nThis mindmap covers the definition of indirection as a programming technique, the benefits of using indirection, various examples of indirection in programming languages and design patterns, and techniques for\n implementing indirection, such as pointers, references, templates, reflection, and polymorphism.
+
+
+
+
+
+
+* Indirection
+** Definition
+*** <color #118888>**Indirection**</color> is a **programming technique** where a **function or variable is not accessed directly,** but instead through an **intermediate reference or pointer.**
+** Benefits of Indirection
+*** Increased Flexibility
+*** Enhanced Modularity
+*** Memory Efficiency
+*** Improved Security
+** Examples of Indirection
+*** Pointers in C and C++
+*** References in C++
+*** Java Reflection
+*** Delegation in Design Patterns
+*** Virtual Methods in C++
+** Indirection Techniques
+*** Pointers
+**** Declaration
+**** Initialization
+**** Dereferencing
+**** Pointer Arithmetic
+**** Pointers to Pointers
+**** Arrays of Pointers
+**** Function Pointers
+*** References
+**** Declaration
+**** Initialization
+**** Scope and Lifetime
+**** Use with Standard Library
+**** Use with Classes
+*** Templates
+**** Function Templates
+**** Class Templates
+**** Template Specialization
+**** Variadic Templates
+*** Reflection
+**** Java Reflection
+**** C++ Reflection
+**** .NET Reflection
+**** Object Serialization
+***[#pink] **Polymorphism**
+**** Static Polymorphism
+**** Dynamic Polymorphism
+**** Overloading
+****[#yellow] **Overriding**
+*** Design Patterns
+**** Delegation
+**** Proxy
+**** Adapter
+**** Decorator
+**** Bridge
+**** Strategy
+**** Template Method
+@endmindmap

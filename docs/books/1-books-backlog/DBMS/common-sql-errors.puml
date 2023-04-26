@@ -1,0 +1,26 @@
+@startmindmap
+* **Most Common SQL Errors**
+** Syntax Errors
+*** Misspelled keywords
+*** Missing or extra punctuation
+*** Incorrect capitalization
+*** Invalid column or table names
+*** Incorrect use of quotes
+** Data Type Errors
+*** Mismatched data types
+*** Incorrect data types for values
+*** Exceeding field length limits
+*** Invalid date or time values
+**[#yellow] **Constraint Errors**
+*** Violation of PRIMARY KEY constraint
+*** Violation of FOREIGN KEY constraint
+*** Violation of UNIQUE constraint
+*** Violation of CHECK constraint
+** Authorization Errors
+*** Insufficient privileges
+*** Invalid login credentials
+** Miscellaneous Errors
+*** Insufficient system resources
+*** Server timeout or connectivity issues
+*** Deadlocks or blocking issues
+@endmindmap

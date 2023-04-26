@@ -1,0 +1,34 @@
+
+@startmindmap
+title This mindmap outlines the steps involved in system design thinking, which is a human-centered approach to designing and developing systems. It begins with empathizing\n with the user to understand their needs and requirements, defining the problem and constraints, ideating and prototyping potential solutions, \nimplementing the chosen design, and evaluating the performance of the system to improve it over time.
+
+
+
+
+
+* System Design Thinking
+** Empathize
+*** Understand User Needs
+*** Observe Users
+*** Engage with Users
+** Define
+*** Identify Problem
+*** Analyze Requirements
+*** Specify Constraints
+** Ideate
+*** Brainstorm Solutions
+*** Generate Ideas
+*** Prototype
+** Prototype
+*** Design Models
+*** Build Prototype
+*** Test Prototype
+** Implement
+*** Develop System
+*** Test System
+*** Deploy System
+** Evaluate
+*** Measure Performance
+*** Solicit Feedback
+*** Iterate Design
+@endmindmap

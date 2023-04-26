@@ -1,0 +1,24 @@
+@startmindmap
+title This mindmap covers the different types of NoSQL databases, including key-value stores, document stores, column-family stores, and graph databases. For each type, it\n includes examples of the different types of querying constructs that are typically used, such as basic queries, range queries, aggregation queries, and secondary indexes. \nThe graph database section includes examples of more advanced querying constructs, such as traversal queries, pattern matching queries, shortest path queries, and community detection queries.
+
+* Querying constructs in NoSQL
+**[#yellow] Key-value store
+*** Basic queries
+*** Range queries
+*** Secondary indexes
+**[#yellow] Document store
+*** Basic queries
+*** Projection queries
+*** Aggregation queries
+*** Full-text search
+**[#yellow] Column-family store
+*** Basic queries
+*** Range queries
+*** Aggregation queries
+*** Secondary indexes
+**[#yellow] Graph database
+*** Traversal queries
+*** Pattern matching queries
+*** Shortest path queries
+*** Community detection queries
+@endmindmap

@@ -1,0 +1,54 @@
+@startmindmap
+title T he main components, features, and tools of JDK
+* **JDK**
+** Components
+*** JRE
+**** Java Virtual Machine
+**** Java Runtime Environment Library
+**** Java Application Launcher
+*** JDK Libraries
+**** Java API
+**** Java Class Libraries
+**** JavaFX
+**** Java EE
+**** Java ME
+*** JDK Tools
+**** javac
+**** java
+**** javadoc
+**** jar
+**** jarsigner
+**** jcmd
+**** jconsole
+**** jdb
+**** jdeps
+**** jhat
+**** jinfo
+**** jmap
+**** jps
+**** jrunscript
+**** jstack
+**** jstat
+**** jstatd
+**** jvisualvm
+** Features
+*** Object-Oriented Programming
+*** Platform Independence
+*** Automatic Memory Management
+*** Exception Handling
+*** Multithreading
+*** Networking
+*** Security
+*** Internationalization and Localization
+*** Reflection
+*** Annotations
+*** Generics
+*** Lambda Expressions
+*** Stream API
+*** Optional Class
+** Tools
+*** Eclipse
+*** IntelliJ IDEA
+*** NetBeans
+*** JProfiler
+@endmindmap

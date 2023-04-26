@@ -1,0 +1,82 @@
+@startmindmap
+
+title This mindmap includes techniques, applications, and tools related to advance deep learning. Techniques such as Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), Generative Adversarial Networks (GAN),\n and Autoencoders are included, with subtopics covering architecture, regularization, optimization techniques, and hyperparameter tuning. Applications of deep learning are also included, such as \nnatural language processing, computer vision, speech recognition, and more. Finally, a variety of tools and libraries for deep learning are listed, including TensorFlow, PyTorch, Keras, and more.
+
+* Advance Deep Learning
+** Techniques
+*** Convolutional Neural Networks (CNN)
+**** Architecture
+**** Pooling Layers
+**** Convolutional Layers
+**** Activations
+**** Dropout Layers
+**** Batch Normalization Layers
+**** Transfer Learning
+**** Image Augmentation
+**** Hyperparameter Tuning
+**** Regularization
+**** Optimization Techniques
+*** Recurrent Neural Networks (RNN)
+**** Architecture
+**** Long Short-Term Memory (LSTM)
+**** Gated Recurrent Units (GRU)
+**** Backpropagation Through Time (BPTT)
+**** Vanishing Gradient Problem
+**** Exploding Gradient Problem
+**** Bidirectional RNNs
+**** Attention Mechanism
+**** Sequence to Sequence Models
+**** Beam Search
+**** Hyperparameter Tuning
+**** Regularization
+**** Optimization Techniques
+*** Generative Adversarial Networks (GAN)
+**** Architecture
+**** Training Procedure
+**** Loss Functions
+**** Conditional GANs
+**** Deep Convolutional GANs (DCGAN)
+**** Wasserstein GANs (WGAN)
+**** Style Transfer with GANs
+**** Hyperparameter Tuning
+**** Regularization
+**** Optimization Techniques
+*** Autoencoders
+**** Architecture
+**** Variational Autoencoders (VAE)
+**** Denoising Autoencoders
+**** Sparse Autoencoders
+**** Convolutional Autoencoders
+**** Hyperparameter Tuning
+**** Regularization
+**** Optimization Techniques
+** Applications
+*** Natural Language Processing (NLP)
+*** Computer Vision
+*** Speech Recognition
+*** Image and Video Analysis
+*** Time Series Analysis
+*** Fraud Detection
+*** Healthcare
+*** Robotics
+*** Autonomous Vehicles
+*** Gaming
+*** Music Generation
+*** Virtual Assistants
+** Tools and Libraries
+*** TensorFlow
+*** PyTorch
+*** Keras
+*** Theano
+*** Caffe
+*** MXNet
+*** Torch
+*** DeepLearning4j
+*** H2O.ai
+*** MATLAB
+*** OpenCV
+*** Scikit-learn
+*** Pandas
+*** NumPy
+*** SciPy
+@endmindmap

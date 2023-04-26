@@ -1,0 +1,54 @@
+@startmindmap
+title = "Data Science"
+
+* Introduction
+** Definition of Data Science
+** The role of Data Scientist
+** Skills required to be a Data Scientist
+
+* **Data Collection**
+** Sources of Data
+**[#yellow] **Structured vs. Unstructured Data**
+** Data Cleaning and Preprocessing
+** Data Integration
+
+* Data Analysis
+** Exploratory Data Analysis (EDA)
+** Statistical Analysis
+** Data Visualization
+** Machine Learning
+
+* Data Modelling
+** Linear and Logistic Regression
+** Decision Trees and Random Forest
+** Clustering
+** Neural Networks
+
+* Data Deployment
+** Model Deployment
+** Model Monitoring and Maintenance
+** Ethics and Privacy
+
+* Tools and Technologies
+** Programming Languages
+*** Python
+*** R
+*** Java
+*** SQL
+** Big Data Technologies
+*** Hadoop
+*** Spark
+*** Hive
+** Data Science Platforms
+*** Azure Machine Learning
+*** Amazon SageMaker
+*** Google Cloud AI Platform
+
+* Applications of Data Science
+** Business Analytics
+** Healthcare Analytics
+** Fraud Detection
+** Image and Speech Recognition
+** Recommendation Systems
+
+@endmindmap

@@ -1,0 +1,166 @@
+Sure! Here's the corrected mind map:
+
+@startmindmap
+* Kotlin Programming Constructs
+** Variables
+*** val
+**** Immutable
+**** Declared Once
+**** Assigned Once
+**** Read-only
+*** var
+**** Mutable
+**** Declared Once
+**** Reassigned
+**** Can be set to null
+** Functions
+*** Named Functions
+**** fun
+***** Returns a value
+***** Single-expression functions
+***** Multi-expression functions
+*** Anonymous Functions
+**** lambda
+***** Inline Functions
+***** Higher-order Functions
+*** Member Functions
+**** fun
+***** Object-oriented programming
+***** Refer to the object or class they belong to
+** Classes
+*** Class
+**** Blueprint for creating objects
+**** Properties
+***** Fields
+***** Getters and setters
+**** Constructors
+***** Primary Constructors
+***** Secondary Constructors
+**** Inheritance
+***** Derived classes
+***** Subclass
+***** Superclass
+**** Abstract classes
+**** Sealed classes
+** Control Flow
+*** if and when expressions
+**** Conditional Statements
+**** Multiple Branches
+**** Range Conditions
+**** Type Conditions
+**** Smart Casts
+*** for and while loops
+**** Iterating Over Collections
+**** Iterating Over Ranges
+**** Iterating Over Arrays
+**** Iterating Over Maps
+**** Do-while loops
+*** return and continue statements
+**** Returning from Functions
+**** Continuing loops
+**** Returning from lambdas
+** Type System
+*** Null Safety
+**** Nullable Types
+**** Safe Call Operator
+**** Elvis Operator
+**** Not-null Assertion Operator
+**** Lateinit
+*** Type Inference
+**** Explicit Types
+**** Type Inference
+**** Type Checking
+**** Smart Casts
+*** Type Aliases
+**** Creating Type Aliases
+**** Using Type Aliases
+**** Type Aliases and Generics
+*** Generics
+**** Type Parameters
+**** Reified Type Parameters
+**** Generic Functions
+**** Generic Classes
+*** Variance
+**** Type Projections
+**** Covariance
+**** Contravariance
+**** Invariance
+*** Reified Types
+**** Reified Type Parameters
+**** Type Checking
+**** Accessing Generic Types
+**** Type Erasure
+*** Inline Functions
+**** Inlining Functions
+**** Performance Optimization
+**** Cross-inline Optimization
+**** Inlining Lambdas
+** Collections
+*** List
+**** Mutable and Immutable Lists
+**** List Operations
+*** Set
+**** Mutable and Immutable Sets
+**** Set Operations
+*** Map
+**** Mutable and Immutable Maps
+**** Map Operations
+*** Sequence
+**** Lazy Evaluation
+**** Transformations
+**** Filtering
+**** Slicing
+*** Array
+**** Declaring Arrays
+**** Accessing Elements
+**** Updating Elements
+**** Iterating Over Arrays
+*** Ranges
+**** Declaring Ranges
+**** Accessing Elements
+**** Iterating Over Ranges
+**** Range Operations
+*** Operators
+**** Unary and Binary Operators
+**** Operator Overloading
+**** Equals Operator
+**** In Operator
+**** Index Operator
+**** Invoke Operator
+** Functional Programming
+*** Lambda Expressions
+**** Anonymous Functions
+**** Function Types
+**** Type Inference
+**** Closure
+**** Recursion
+*** Higher-Order Functions
+**** Functions as Parameters
+**** Functions as Return Values
+**** Function Types
+**** Inline Functions
+*** Closures
+**** Capturing Variables
+**** Closure and Function Type
+**** Garbage Collection
+*** Recursion
+**** Tail Recursion
+**** Optimization
+*** Function Composition
+**** Function Composition
+**** Composing Functions
+*** Partial Application and Currying
+**** Partial Function Application
+**** Currying
+** Coroutines
+*** Suspend Functions
+**** Suspending Execution
+**** Asynchronous Programming
+*** Coroutines and Threads
+**** Lightweight Threads
+**** Concurrency
+*** Coroutine Context and Dispatchers
+**** Dispatchers
+**** Context Elements
+**** Coroutine Scope
+@endmindmap

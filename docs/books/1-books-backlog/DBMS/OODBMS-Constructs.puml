@@ -1,0 +1,52 @@
+@startmindmap
+title This mindmap covers the various constructs in Object-Oriented Database Management Systems (OODBMS), including object identity, object classes, object attributes, object\n relationships, and object behavior. It goes into detail on each construct, such as the different types of inheritance and encapsulation, as well as the different types of object attributes, such as simple and\n complex attributes. It also covers the various types of object relationships, such as associations, compositions, and aggregations, and the different types of object behavior, such as methods, triggers, and transactions.
+
+
+
+
+
+* OODBMS Constructs
+** Object Identity
+*** Unique Identifier
+*** OID
+** Object Classes
+*** Classes vs Types
+*** Inheritance
+**** Single Inheritance
+**** Multiple Inheritance
+**** Interface Inheritance
+*** Polymorphism
+**** Subtyping
+**** Dynamic Binding
+**** Message Passing
+*** Encapsulation
+**** Data Abstraction
+**** Information Hiding
+** Object Attributes
+*** Simple Attributes
+**** Data Types
+**** Characteristic Functions
+*** Complex Attributes
+**** Embedded Objects
+**** Collections
+**** Associations
+**** Compositions
+** Object Relationships
+*** Association
+**** Binary Association
+**** N-ary Association
+*** Composition
+*** Aggregation
+** Object Behavior
+*** Methods
+**** Definition
+**** Invocation
+*** Triggers
+**** Event-Condition-Action (ECA) Rules
+**** Active Database Elements (ADEs)
+*** Transactions
+**** ACID Properties
+**** Concurrency Control
+**** Recovery
+
+@endmindmap

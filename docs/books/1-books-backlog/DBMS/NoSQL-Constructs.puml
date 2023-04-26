@@ -1,0 +1,84 @@
+@startmindmap
+title This mindmap outlines the different types of NoSQL databases, including document-based, key-value, column family, and graph-based databases. For each type, it includes\n examples of popular NoSQL databases and the constructs that they use, such as querying, indexing, and clustering.
+
+
+
+
+
+* NoSQL Constructs
+
+**[#yellow] Document-Based
+
+*** MongoDB
+
+**** Querying
+
+**** Aggregation Pipeline
+
+**** Indexes
+
+*** Couchbase
+
+**** Querying
+
+**** Indexes
+
+*** Amazon DynamoDB
+
+**** Querying
+
+**** Indexes
+
+**[#yellow] Key-Value
+
+*** Redis
+
+**** Data Types
+
+**** Commands
+
+*** Riak
+
+**** Querying
+
+**** Indexes
+
+*** Amazon SimpleDB
+
+**** Querying
+
+**** Indexes
+
+**[#yellow] Column Family
+
+*** Cassandra
+
+**** Querying
+
+**** Indexes
+
+**** Clustering
+
+*** HBase
+
+**** Querying
+
+**** Indexes
+
+**** Coprocessors
+
+**[#yellow]  Graph-Based
+
+*** Neo4j
+
+**** Querying
+
+**** Indexes
+
+*** OrientDB
+
+**** Querying
+
+**** Indexes
+
+@endmindmap
