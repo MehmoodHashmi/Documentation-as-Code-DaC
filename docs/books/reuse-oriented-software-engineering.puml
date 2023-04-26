@@ -1,4 +1,5 @@
 @startmindmap
+title = __<color #118888>Reuse-oriented</color> software engineering__
 
 * **Key Takeaways from "Mastering the Requirements Process"**
 ** **Understanding the problem domain**
@@ -52,16 +53,16 @@
 *** Defining clear goals and objectives of the system being developed
 *** Identifying and prioritizing stakeholder needs
 *** Ensuring requirements are complete, accurate, and unambiguous
-** The role of modeling in requirements engineering
+** The role of <color #118888>**modeling**</color> in **requirements engineering**
 *** Using models to represent requirements and their relationships
 *** Utilizing UML diagrams for requirements modeling
 *** Creating visual models to aid in understanding and communication
-** The importance of traceability in requirements engineering
+** The importance of <color #118888>**traceability**</color> in **requirements engineering**
 *** Establishing traceability links between requirements and other artifacts
 *** Ensuring traceability throughout the development process
 *** Supporting maintenance and change management
-** Collaboration and communication in requirements engineering
-*** Involving stakeholders in the requirements engineering process
+** Collaboration and communication in __**requirements engineering**__
+*** Involving stakeholders in the __**requirements engineering**__ process
 *** Facilitating effective communication between stakeholders
 *** Addressing conflicts and resolving issues
 ** Managing requirements throughout the development lifecycle
@@ -122,7 +123,7 @@
 ** Real-time systems have unique requirements for CBSE
 *** Need for predictable timing and reliable performance
 **[#pink] **Emerging trends (e.g. service-oriented architecture, cloud computing)** \n**changing the landscape of CBSE**
-*** Requires adaptation and innovation \nto fully realize benefits
+*** <color #118888>**Requires adaptation and innovation**</color> \n**to fully realize benefits**
 
 **** Interoperability Emphasis
 ***** SOA and cloud computing prioritize interoperability between systems and services
@@ -174,8 +175,8 @@
 *** Characterized by attributes such as modularity, scalability, maintainability, and flexibility
 ** **Building blocks of software architecture**
 ***[#yellow] **Components and connectors**
-*** Component types (e.g., libraries, services, microservices)
-*** Connector types (e.g., message queues, REST APIs, databases)
+*** <color #118888>**Component types**</color> (e.g., libraries, services, microservices)
+*** <color #crimson>**Connector types**</color> (e.g., message queues, REST APIs, databases)
 ** Architectural patterns and styles
 *** Layered architecture
 *** Microservices architecture
@@ -195,13 +196,13 @@
 * **Key Takeaways from "Software Architecture: The Hard Parts"**
 ** Complexities in Distributed System Architecture Design
 *** Balancing Competing Concerns
-**** Scalability, Availability, Security, Performance
+**** <color #crimson>**Scalability, Availability, Security, Performance**</color>
 ** Trade-Off Analysis for Informed Architectural Decisions
 *** Impact on Quality Attributes
 *** Principles of Distributed Systems
 **** **8-Fallacies of Distributed Computing**
-**** CAP Theorem
-**** Eventual Consistency
+**** <color #118888>**CAP Theorem**</color>
+**** **Eventual Consistency**
 *** Popular Architectural Patterns and Styles
 **** Microservices
 **** Service Mesh
@@ -222,14 +223,14 @@
 *** Complexity and Challenges
 *** Informed Decisions
 ** **Cloud Computing and Containerization**
-*** Changing Landscape of Distributed Architectures
-*** New Challenges and Trade-Offs
+*** **Changing Landscape of Distributed Architectures**
+*** <color #118888>**New Challenges and Trade-Offs**</color>
 **** Vendor Lock-In
 **** **Container Orchestration**
 ***** **Kubernetes**
 
 
-* Key Takeaways from Software Architecture Patterns by Mark Richards
+* Key Takeaways from **Software Architecture** \n**Patterns** by Mark Richards
 
 ** Importance of Architecture
 

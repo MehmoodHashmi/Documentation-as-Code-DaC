@@ -1,0 +1,61 @@
+@startmindmap
+title =__Advanced Distributed Systems__
+
+* Definition
+** A distributed system with advanced features like fault tolerance, scalability, and security
+** Uses advanced techniques like consensus algorithms, replication, and sharding
+
+* Features
+** Fault Tolerance
+*** Ensures system availability in the presence of failures
+*** Uses techniques like redundancy, replication, and consensus algorithms
+** Scalability
+*** Allows the system to handle increasing amounts of load
+*** Uses techniques like partitioning, sharding, and load balancing
+** Security
+*** Ensures the confidentiality, integrity, and availability of data
+*** Uses techniques like encryption, authentication, and access control
+** Consistency
+*** Ensures that all replicas of data are consistent with each other
+*** Uses techniques like consensus algorithms and distributed transactions
+
+* Techniques
+** Replication
+*** Creates multiple replicas of data or services
+*** Improves fault tolerance and availability
+** Consensus Algorithms
+*** Enables a group of nodes to reach agreement on a value
+*** Used for leader election, replication, and consistency
+** Partitioning and Sharding
+*** Divides data into smaller partitions or shards
+*** Improves scalability and performance
+** Distributed Transactions
+*** Ensures that a set of operations on multiple nodes are atomic and consistent
+*** Used for complex operations like bank transfers or online orders
+** Event Sourcing
+*** Stores all changes to application state as a sequence of events
+*** Enables auditing, debugging, and historical analysis
+
+* Architectures
+** Microservices
+*** Divides an application into independent and loosely coupled services
+*** Improves scalability and flexibility
+** Serverless
+*** Uses cloud services to execute application logic
+*** Improves scalability and reduces operational overhead
+** Service Mesh
+*** Adds a layer of infrastructure to handle service-to-service communication
+*** Improves observability, security, and reliability
+
+* Challenges
+** Complexity and overhead
+** Debugging and monitoring
+** Testing and validation
+** Data consistency and integrity
+
+* Best Practices
+** Use appropriate techniques and architectures for the requirements
+** Design for fault tolerance, scalability, and security from the beginning
+** Implement monitoring and logging to detect and diagnose issues
+** Use testing and validation to ensure correctness and reliability
+@endmindmap

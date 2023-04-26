@@ -1,0 +1,48 @@
+@startmindmap
+title =__Open Source Licenses__
+
+* Definition
+** Licenses that allow users to use, modify, and distribute software freely
+** The source code of the software must be made available to users
+
+* Popular Licenses
+** GNU General Public License (GPL)
+*** Requires that any derivative works be licensed under the GPL
+*** Provides strong protection for the open source nature of the software
+** MIT License
+*** Allows users to use, modify, and distribute software freely, with minimal restrictions
+*** Requires that the original license and copyright notice be included in any derivative works
+** Apache License
+*** Permits users to use, modify, and distribute software under certain conditions
+*** Provides patent protection for users of the software
+** BSD License
+*** Allows users to use, modify, and distribute software freely, with minimal restrictions
+*** Does not require the source code to be made available
+** Mozilla Public License (MPL)
+*** Permits users to use, modify, and distribute software under certain conditions
+*** Provides clear guidelines for incorporating MPL-licensed software into proprietary software
+
+* Factors to Consider
+** Compatibility with Other Licenses
+*** Some licenses are not compatible with each other, which can cause issues when combining software from different sources
+** Copyleft vs Permissive
+*** Copyleft licenses (like GPL) require derivative works to be licensed under the same license, while permissive licenses (like MIT) allow for more freedom in how the software is used and distributed
+** Patent Protection
+*** Some licenses (like Apache) provide patent protection for users of the software, which can be important for commercial use cases
+
+* License Management
+** License Auditing
+*** The process of checking that software components used in a project are properly licensed and compatible with each other
+*** Can be done manually or with automated tools
+** SPDX (Software Package Data Exchange)
+*** A standard format for exchanging information about open source licenses and copyrights
+*** Can help simplify license management for large projects
+
+* License Enforcement
+** License Violations
+*** Occur when someone uses open source software in a way that violates the terms of the license
+*** Can result in legal action, but most violations are resolved through negotiations and compliance efforts
+** GPL Compliance
+*** The GPL requires that derivative works be licensed under the same license
+*** Organizations that distribute GPL-licensed software must comply with the terms of the license, or risk legal action
+@endmindmap

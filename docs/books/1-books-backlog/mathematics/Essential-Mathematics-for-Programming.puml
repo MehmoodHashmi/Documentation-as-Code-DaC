@@ -1,0 +1,42 @@
+@startmindmap
+title = __Essential Mathematics for Programming__
+
+* Algebra
+** Linear Equations
+*** One variable
+*** Two variables
+*** System of equations
+** Polynomials
+*** Factoring
+*** Quadratic Equations
+*** Synthetic Division
+** Matrices
+*** Matrix Operations
+*** Matrix Multiplication
+*** Determinants
+*** Inverses
+
+* Calculus
+** Limits
+** Derivatives
+*** Basic Rules
+*** Chain Rule
+*** Product Rule
+*** Quotient Rule
+** Integration
+*** Basic Techniques
+*** Integration by Substitution
+*** Integration by Parts
+*** Definite Integrals
+
+* Statistics
+** Descriptive Statistics
+*** Measures of Central Tendency
+*** Measures of Dispersion
+*** Probability Distributions
+** Inferential Statistics
+*** Hypothesis Testing
+*** Confidence Intervals
+*** Regression Analysis
+
+@endmindmap

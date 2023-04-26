@@ -1,11 +1,11 @@
 @startmindmap
-title This mindmap outlines the key elements of computational thinking, including abstraction, decomposition, pattern recognition, algorithm design, evaluation, and application. Each element is broken down into specific\n subcategories, such as generalization, simplification, and model building under abstraction, and breaking a problem into smaller parts, identifying the relationship between parts, and building a hierarchy of\n modules under decomposition. The mindmap also emphasizes the importance of testing and refining solutions, identifying limitations and potential errors, and iterating and improving solutions in the\n evaluation stage. Finally, the mindmap highlights the application of computational thinking to non-computational problems and the use of computational thinking to analyze and solve real-world problems.
+title = __Computational Thinking__ \nThis mindmap outlines the key elements of computational thinking, including abstraction, decomposition, pattern recognition, algorithm design, evaluation, and application. Each element is broken down into specific\n subcategories, such as generalization, simplification, and model building under abstraction, and breaking a problem into smaller parts, identifying the relationship between parts, and building a hierarchy of\n modules under decomposition. The mindmap also emphasizes the importance of testing and refining solutions, identifying limitations and potential errors, and iterating and improving solutions in the\n evaluation stage. <color #118888>**__Finally, the mindmap highlights the application of computational thinking to non-computational problems and the use of computational thinking to analyze and solve real-world problems.__**</color>
+
+caption <color #crimson>**__Artificial Intelligence (AI) will replace computational thinking?__**</color> <color #118888>**Developing Computational Thinking on AI and Big-Data.**</color> \n__The rise of artificial intelligence (AI) and machine learning (ML) has brought about a__ **new data-driven environment that necessitates novel techniques.**\n**Computational thinking (CT)** is a problem-solving technique used by **computer programmers** while creating computer programs and algorithms. \nThe **Significance of Learning Computational Thinking** for the **Field of AI.** **Learning** is central to both **artificial intelligence (AI) and human intelligence,** the former focused on **understanding how machines learn,** \nthe latter concerned with **how humans learn.**
 
 
 
-
-
-* <color #118888>**Computational Thinking**</color>
+* <color #crimson>**__AI, ML, DL and Data-science__**</color> **are trying to automate these 4-skills e.g. chatgpt-3 & 4. **Once **Grady Booch** said in\nhis video lecture that the <color #118888>**5th**</color>** most significant skill is**  <color #118888>**__team building, communication or__ __working in teams.__**</color>\n<color #118888>**Developing Computational Thinking on AI and Big-Data.**</color> \n<img:computational-thinking.png>
 ** **Abstraction**
 ***[#pink] Generalization
 ***[#pink] Simplification

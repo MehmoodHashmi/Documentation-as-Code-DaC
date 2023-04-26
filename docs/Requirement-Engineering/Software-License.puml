@@ -1,0 +1,59 @@
+@startmindmap
+title =__Software License__
+
+* Definition
+** A legal agreement that governs the use, distribution, and modification of software
+** Specifies the conditions under which the software can be used and the rights and responsibilities of the software's users and developers
+
+* Types of Licenses
+** Proprietary
+*** A closed-source license that restricts the use, modification, and distribution of the software
+*** Examples: Microsoft Windows, Adobe Photoshop, Oracle Database
+** Open Source
+*** A license that grants users the freedom to use, modify, and distribute the software without restrictions
+*** Examples: GNU General Public License, Apache License, MIT License
+** Free Software
+*** Similar to open source licenses but places emphasis on the users' freedom to use, modify, and distribute the software for any purpose
+*** Examples: GNU General Public License, BSD License, Apache License
+** Copyleft
+*** A type of open source license that requires any modified versions of the software to be distributed under the same license terms
+*** Examples: GNU General Public License, Mozilla Public License, Eclipse Public License
+** Permissive
+*** A type of open source license that allows users to modify and distribute the software without the requirement of sharing the modifications under the same license terms
+*** Examples: MIT License, BSD License, Apache License
+
+* License Criteria
+** Attribution
+*** Requires that the software's original author be credited in any distribution or derivative works
+** ShareAlike
+*** Requires that any modifications or derivative works be distributed under the same license terms as the original software
+** Non-Commercial
+*** Prohibits the use of the software for commercial purposes without explicit permission from the author
+** No-Derivatives
+*** Prohibits the creation of derivative works from the software
+** Permissive
+*** Allows users to modify and distribute the software without any specific requirements or restrictions
+
+* Considerations
+** License Compatibility
+*** Ensure that the chosen license is compatible with other software components used in the project
+*** Combining incompatible licenses can lead to legal issues and licensing conflicts
+** License Enforcement
+*** Ensure that the license terms are enforced and violations are addressed promptly
+*** Failure to enforce the license terms can result in loss of control over the software and legal disputes
+** License Selection
+*** Choose a license that aligns with the project's goals and values
+*** Consider the license's impact on the project's development, distribution, and community engagement
+
+* Resources
+** Open Source Initiative
+*** A non-profit organization that promotes and supports open source software
+*** Provides a list of approved open source licenses and resources for license compliance
+** Free Software Foundation
+*** A non-profit organization that advocates for free software and maintains the GNU General Public License
+*** Provides resources for understanding and using free software licenses
+** Choose a License
+*** An online tool that helps users choose an appropriate open source license for their project
+*** Provides guidance on license selection based on the user's preferences and requirements
+
+@endmindmap

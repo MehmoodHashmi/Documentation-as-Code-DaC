@@ -1,0 +1,45 @@
+
+@startmindmap
+title =__Decentralized Systems__
+
+* Definition
+** A system in which decision-making and control are distributed across multiple nodes
+** No single node has complete control or knowledge of the system
+
+* Types of Decentralized Systems
+** Peer-to-Peer (P2P) Networks
+*** A network where each node can act as a server or client
+*** No central server is needed
+*** Used in file sharing, messaging, and cryptocurrency systems
+** Blockchain Systems
+*** A distributed ledger system that uses cryptography to maintain a secure and transparent record of transactions
+*** Used in cryptocurrency and supply chain management systems
+** Mesh Networks
+*** A network where each node can communicate with other nodes directly or indirectly
+*** No central hub or router is needed
+*** Used in communication systems and disaster recovery scenarios
+** Federated Systems
+*** A system in which multiple organizations or entities work together with a shared protocol or standard
+*** No single entity has complete control
+*** Used in social media and messaging platforms
+
+* Advantages of Decentralized Systems
+** Resilience to failures and attacks
+** Lower costs for infrastructure and maintenance
+** Increased privacy and security
+** Enhanced scalability and flexibility
+** Reduced risk of data loss or corruption
+
+* Challenges of Decentralized Systems
+** Complexity of design and implementation
+** Difficulty in achieving consensus among nodes
+** Increased communication overhead
+** Challenges in regulating and governing the system
+
+* Examples of Decentralized Systems
+** Bitcoin and other cryptocurrencies
+** File sharing systems like BitTorrent
+** Mesh networking systems like FireChat
+** Social media platforms like Mastodon
+** Supply chain management systems like IBM Food Trust
+@endmindmap

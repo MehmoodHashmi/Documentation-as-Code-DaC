@@ -1,0 +1,37 @@
+@startmindmap
+title =__API Design__
+
+
+* Definition
+** API stands for Application Programming Interface
+** API design is the process of creating a set of guidelines for building an API
+
+* Key considerations
+** Functionality: what the API will allow users to do
+** Ease of use: how easy it is for developers to use and integrate the API
+** Scalability: the ability of the API to handle increased usage and traffic
+** Security: ensuring that the API is secure and protected against unauthorized access and malicious attacks
+** Documentation: clear and concise documentation is essential for developers to understand how to use the API effectively
+
+* API Design Patterns
+** API design patterns provide a proven approach for designing APIs
+** Common patterns include:
+** *REST (Representational State Transfer): a lightweight, scalable, and flexible architecture for building APIs
+** *RPC (Remote Procedure Call): a method for making a request from one system to another
+** *GraphQL: a query language for APIs that provides a single endpoint for all data requests
+
+* API Design Tools
+** API design tools help to streamline the API design process
+** Common tools include:
+** *OpenAPI (formerly Swagger): a tool for designing, building, and documenting RESTful APIs
+** *API Blueprint: a tool for designing and documenting APIs in a human-readable format
+** *RAML (RESTful API Modeling Language): a YAML-based language for designing and documenting RESTful APIs
+
+* API Design Best Practices
+** Use clear and consistent naming conventions
+** Follow standard HTTP status codes for error handling
+** Limit the number of API endpoints
+** Provide clear and concise documentation
+** Follow security best practices
+** Consider versioning the API
+@endmindmap

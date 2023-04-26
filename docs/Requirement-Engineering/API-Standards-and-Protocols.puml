@@ -1,0 +1,29 @@
+@startmindmap
+title = __API Standards and Protocols__
+
+* OpenAPI (formerly Swagger)
+** A standard for documenting RESTful APIs
+** Provides a machine-readable interface for RESTful APIs
+** Allows for easier consumption and integration of APIs by developers
+
+* SOAP (Simple Object Access Protocol)
+** A protocol for exchanging XML-based messages over the internet
+** Used for inter-application communication between different systems
+** Supports advanced features such as security, reliability, and transaction handling
+
+* JSON (JavaScript Object Notation)
+** A lightweight data interchange format
+** Used for exchanging data between different systems and applications
+** Supported by most modern programming languages and platforms
+
+* OAuth (Open Authorization)
+** A protocol for authentication and authorization between applications
+** Used to grant third-party applications access to user data without giving them the user's credentials
+** Supports different grant types such as authorization code, implicit, client credentials, and resource owner password credentials
+
+* GraphQL
+** A query language for APIs developed by Facebook
+** Allows clients to specify the data they need and receive only that data
+** Provides a single endpoint for multiple resources, reducing the number of requests needed
+
+@endmindmap

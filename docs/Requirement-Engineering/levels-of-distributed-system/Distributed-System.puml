@@ -1,0 +1,57 @@
+
+@startmindmap
+title =__Distributed System__
+
+* Definition
+** A system composed of multiple independent components running on different computers or nodes that work together to achieve a common goal
+** Communication between components is done through a network
+
+* Components
+** Nodes
+*** Individual machines or computers that make up the distributed system
+*** May have different hardware, operating systems, and software configurations
+** Middleware
+*** Software layer that connects the nodes and enables communication and coordination between them
+*** May include message brokers, queuing systems, and RPC frameworks
+** Services
+*** Functional components that provide specific business logic or functionality
+*** May be distributed across multiple nodes or may run on a single node
+** Data Storage
+*** Persistent storage for data used by the distributed system
+*** May include relational or non-relational databases, distributed file systems, or key-value stores
+
+* Architecture Patterns
+** Client-Server Architecture
+*** Clients send requests to servers, which process them and send back responses
+*** May have multiple clients and servers, and servers may be load-balanced
+** Peer-to-Peer Architecture
+*** Nodes communicate directly with each other, without the need for a centralized server
+*** May have a decentralized or structured overlay network
+** Event-Driven Architecture
+*** Based on the exchange of events between components
+*** Components react to events by executing specific logic or triggering other events
+** Microservices Architecture
+*** Large system is broken down into smaller, independently deployable services
+*** Each service is responsible for a specific business capability and communicates with other services using lightweight protocols
+
+* Challenges
+** Network Latency
+*** Communication between nodes may be affected by network latency, leading to slow response times
+** Security
+*** Distributed systems may be vulnerable to attacks, and securing them requires additional measures
+** Fault Tolerance
+*** As the number of components increases, the likelihood of failure also increases
+*** Designing for fault tolerance is crucial for ensuring system availability and reliability
+** Data Consistency
+*** Maintaining consistency across distributed data stores can be challenging, especially in the presence of concurrent updates
+
+* Best Practices
+** Design for Resilience
+*** Assume that components will fail and design the system to continue functioning despite failures
+** Use Standard Protocols
+*** Use standard protocols for communication and data interchange, such as REST, HTTP, and JSON
+** Avoid Single Points of Failure
+*** Ensure that critical components are redundant and can fail over to backup components if necessary
+** Monitor Performance and Health
+*** Monitor system performance and health to detect and respond to issues before they become critical
+@endmindmap

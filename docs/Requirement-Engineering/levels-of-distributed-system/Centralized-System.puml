@@ -1,0 +1,47 @@
+
+@startmindmap
+title =__Centralized System__
+
+* Definition
+** A computing system in which all processing is done in a central location
+** Users access the system through remote terminals or devices
+
+* Characteristics
+** Centralized control of resources and data
+** Single point of failure
+** Limited scalability
+** Potential for network congestion
+** Lower hardware and maintenance costs
+
+* Types of Centralized Systems
+** Mainframe Systems
+*** Used for large-scale computing tasks
+*** Highly reliable and secure
+*** Require specialized skills and resources to operate and maintain
+** Client-Server Systems
+*** Consist of a central server and multiple clients
+*** Clients request resources and services from the server
+*** Widely used in business and enterprise environments
+** Cloud Computing Systems
+*** Provide centralized access to computing resources and services over the internet
+*** Users pay for usage rather than purchasing and maintaining hardware and software
+*** Offer scalability, flexibility, and reliability
+
+* Advantages
+** Centralized control of resources and data
+** Easier management and maintenance
+** Lower hardware and maintenance costs
+** Improved security and backup
+
+* Disadvantages
+** Single point of failure
+** Limited scalability
+** Potential for network congestion
+** Less flexibility and innovation
+
+* Best Practices
+** Proper hardware and software selection and configuration
+** Regular backups and disaster recovery planning
+** Monitoring and management of system performance and security
+** Proper resource allocation and load balancing
+@endmindmap

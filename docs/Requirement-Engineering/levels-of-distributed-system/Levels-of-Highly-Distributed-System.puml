@@ -1,0 +1,34 @@
+
+@startmindmap
+title =__Levels of Highly Distributed System__
+
+* Level 1: Centralized
+** One central server controls all operations and data
+** Limited scalability and availability
+** Low fault tolerance and high risk of failure
+
+* Level 2: Decentralized
+** Multiple nodes with distributed control
+** Nodes can work independently or collaboratively
+** Increased scalability and availability
+** Moderate fault tolerance and lower risk of failure
+
+* Level 3: Distributed
+** Nodes work together as a single system with no central control
+** Each node can make decisions and coordinate with other nodes
+** Highly scalable and available
+** High fault tolerance and lower risk of failure
+
+* Level 4: Federated
+** Multiple independent systems connected by standardized protocols
+** Each system retains its own identity and control
+** Interoperable and scalable
+** Moderate fault tolerance and lower risk of failure
+
+* Level 5: Cloud
+** Large-scale distributed systems hosted in the cloud
+** Resources can be dynamically allocated and de-allocated
+** Highly scalable and available
+** High fault tolerance and lower risk of failure
+
+@endmindmap
