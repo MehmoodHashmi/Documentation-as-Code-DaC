@@ -3,20 +3,20 @@
 title =__Highly Distributed System__
 
 * Definition
-** A system that consists of many interconnected components spread across multiple locations
-** Designed to handle large volumes of data and high traffic loads
+**_ A system that consists of many interconnected components spread across multiple locations
+**_ Designed to handle large volumes of data and high traffic loads
 
 * Characteristics
 ** Decentralized architecture
-*** No single point of control or failure
+***_ No single point of control or failure
 ** Autonomous components
-*** Each component can operate independently and make decisions on its own
+***_ Each component can operate independently and make decisions on its own
 ** Asynchronous communication
-*** Components communicate through message passing and may not require immediate response
+***_ Components communicate through message passing and may not require immediate response
 ** Scalability
-*** Designed to handle large volumes of data and high traffic loads
+***_ Designed to handle large volumes of data and high traffic loads
 ** Fault tolerance
-*** Designed to continue operating in the face of component failures or network disruptions
+***_ Designed to continue operating in the face of component failures or network disruptions
 
 * Design Considerations
 ** Service-Oriented Architecture (SOA)
@@ -34,18 +34,18 @@ title =__Highly Distributed System__
 
 * Challenges
 ** Complexity
-*** Designing and maintaining a highly distributed system can be complex and challenging
+***_ Designing and maintaining a highly distributed system can be complex and challenging
 ** Latency
-*** Asynchronous communication and message passing can introduce latency
+***_ Asynchronous communication and message passing can introduce latency
 ** Consistency
-*** Maintaining consistency across distributed components can be difficult
+***_ Maintaining consistency across distributed components can be difficult
 ** Security
-*** Securing a highly distributed system can be challenging
+***_ Securing a highly distributed system can be challenging
 
 * Best Practices
-** Use established architectural patterns and design principles
-** Implement proper monitoring and error handling mechanisms
-** Ensure proper data management and consistency across components
-** Secure the system through authentication, authorization, and encryption
-** Test and validate the system thoroughly before deployment
+**_ Use established architectural patterns and design principles
+**_ Implement proper monitoring and error handling mechanisms
+**_ Ensure proper data management and consistency across components
+**_ Secure the system through authentication, authorization, and encryption
+**_ Test and validate the system thoroughly before deployment
 @endmindmap
