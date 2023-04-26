@@ -1,0 +1,41 @@
+@startmindmap
+title = __Choosing a JVM Language for a New Project__ \n This mindmap focuses on the most important decision factors, allowing for a more straightforward decision-making process. The key factors section reminds users to consider their project\n goals, team expertise, and target audience before selecting a language. The categories are now simplified and clearly labeled, allowing users to quickly determine which language(s) may be the best fit for their project.
+
+
+
+
+
+
+
+* Choosing a JVM Language for a New Project
+
+** **Key Factors**
+***[#pink] Consider your project goals, team expertise, and target audience
+
+** Typing
+*** **Static:** Java, Kotlin
+*** **Dynamic:** Groovy, Clojure
+
+** Compilation
+*** **Compiled:** Java, Kotlin
+*** **Interpreted:** Groovy, Clojure
+
+** Paradigm
+*** **Object-oriented:** Java
+*** **Multi-paradigm:** Kotlin, Groovy, Scala, Clojure
+
+** Memory Management
+*** **Garbage Collected:** Java, Kotlin, Scala, Clojure
+
+** Platform
+*** **Platform Independent:** Java, Kotlin, Scala, Clojure
+
+** Level
+*** **High-Level:** Java, Kotlin, Groovy, Scala
+*** **Low-Level:** Clojure
+
+** Safety
+*** **Strong Typing:** Java, Kotlin, Clojure
+*** **Memory Safe:** Java, Kotlin, Scala, Clojure
+
+@endmindmap

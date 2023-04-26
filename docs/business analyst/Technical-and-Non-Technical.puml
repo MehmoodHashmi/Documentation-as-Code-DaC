@@ -1,0 +1,41 @@
+@startmindmap
+title = __ Technical and Non-Technical Client Mind Map__ \n This is a mind map with two main branches: "Technical Concepts" and "Non-Technical Concepts." Under "Technical Concepts," there are sub-branches for \n"Programming," "Cloud Computing," and "Security," with further sub-branches for specific topics under each. Under "Non-Technical Concepts," there \nare sub-branches for "Business," "Design," and "Finance," with further sub-branches for specific topics under each. \n\nThis mind map can be used to explain various technical and non-technical concepts to clients in a clear and organized manner.
+
+* Technical Concepts
+** Programming
+*** Languages
+**** Java
+**** Python
+**** JavaScript
+*** Data Structures
+**** Arrays
+**** Linked Lists
+**** Stacks and Queues
+*** Algorithms
+**** Sorting
+**** Searching
+**** Graph Traversal
+** Cloud Computing
+*** Infrastructure as a Service (IaaS)
+*** Platform as a Service (PaaS)
+*** Software as a Service (SaaS)
+** Security
+*** Encryption
+*** Authentication
+*** Authorization
+
+* **Non-Technical Concepts**
+**[#yellow] **Business**
+***[#pink] **Marketing**
+***[#pink] **Sales**
+***[#pink] **Customer Service**
+** Design
+*** User Interface (UI)
+*** User Experience (UX)
+*** Graphic Design
+** **Finance**
+***[#pink] **Accounting**
+***[#pink] **Investment**
+***[#pink] **Taxes**
+
+@endmindmap

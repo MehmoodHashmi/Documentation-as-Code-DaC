@@ -1,6 +1,6 @@
 @startmindmap
 
-title __Key Takeaways from Discussion on ERD and Normalization__
+title = __Key Takeaways from Discussion on ERD and Normalization__
 
 * ERD (Entity-Relationship Diagram)
 ** Graphical representation of entities, attributes, and relationships
@@ -22,4 +22,18 @@ title __Key Takeaways from Discussion on ERD and Normalization__
 **** No multi-valued dependencies
 ***[#yellow] **Fifth normal form (5NF)**
 **** No join dependencies
+
+* **Benefits of Normalization**
+** Eliminates data redundancy
+** Improves data consistency and accuracy
+** Simplifies data maintenance and updates
+** Reduces data storage space
+** Provides a foundation for effective database design
+
+* **Challenges of Normalization**
+** Can be time-consuming and complex
+** May result in multiple tables and joins, affecting query performance
+**[#yellow] <color #118888>**__Requires a deep understanding of the data and the business requirements__**</color>
+** <color #118888>**__May not always be necessary, depending on the size and complexity of the data set and the intended use of the database.__**</color>
+
 @endmindmap

@@ -1,0 +1,46 @@
+@startmindmap
+title = __How to Choose a JVM Language for a New Project__
+
+* How to Choose a JVM Language for a New Project
+
+** Static vs Dynamic Typing
+*** Consider type safety, development speed, and code maintainability
+***[#pink] **Examples:** Java (static), Kotlin (static), Groovy (dynamic), Clojure (dynamic)
+
+** Compiled vs Interpreted
+*** Consider performance, development speed, and deployment requirements
+***[#pink] **Examples:** Java (compiled), Kotlin (compiled), Groovy (interpreted), Clojure (compiled)
+
+** Imperative vs Declarative
+*** Consider readability, maintainability, and code reuse
+***[#pink] **Examples:** Java (imperative), Kotlin (both), Clojure (declarative), Scala (both), Groovy (both)
+
+** Functional vs Object-Oriented Programming
+*** Consider code complexity, performance, and code reuse
+***[#pink] **Examples:** Java (object-oriented), Kotlin (both), Scala (functional), Clojure (functional)
+
+** Strong vs Weak Typing
+*** Consider development speed, flexibility, and code safety
+***[#pink] **Examples:** Java (strong), Kotlin (strong), Groovy (weak), Clojure (strong)
+
+** Garbage Collected vs Manual Memory Management
+*** Consider performance, code safety, and developer expertise
+***[#pink] **Examples:** Java (garbage collected), Kotlin (garbage collected), Scala (garbage collected), Clojure (garbage collected)
+
+** Platform Dependence vs Platform Independence
+*** Consider deployment requirements and target audience
+***[#pink] **Examples:** Java (platform independent), Kotlin (platform independent), Scala (platform independent), Clojure (platform independent)
+
+** High-Level vs Low-Level
+*** Consider development speed, performance, and hardware control
+***[#pink] **Examples:** Java (high-level), Kotlin (high-level), Clojure (low-level), Scala (high-level), Groovy (high-level)
+
+** Multi-Paradigm vs Single-Paradigm
+*** Consider code flexibility and maintenance
+***[#pink] **Examples:** Java (multi-paradigm), Kotlin (multi-paradigm), Scala (multi-paradigm), Clojure (multi-paradigm), Groovy (multi-paradigm)
+
+** Memory Safety vs Memory Unsafety
+*** Consider code safety and developer expertise
+***[#pink] **Examples:** Java (memory safe), Kotlin (memory safe), Scala (memory safe), Clojure (memory safe)
+
+@endmindmap

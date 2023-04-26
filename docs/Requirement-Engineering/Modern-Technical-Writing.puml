@@ -1,0 +1,36 @@
+@startmindmap
+title = __ Modern Technical Writing__
+
+* Modern Technical Writing
+** Writing for the Web
+*** Web Standards
+*** Accessibility
+*** Search Engine Optimization (SEO)
+** Structured Writing
+*** DITA
+*** XML
+*** Markdown
+** Content Creation and Management
+*** Content Management Systems (CMS)
+*** Single Sourcing
+*** Content Reuse
+** Collaborative Writing
+*** Version Control
+*** Git
+*** Collaboration Tools
+** API Documentation
+*** Swagger
+*** OpenAPI
+*** API Design
+** Technical Writing Tools
+*** Text Editors
+*** Markdown Editors
+*** Grammar and Spell Checkers
+*** Screen Capture Tools
+*** Diagramming Tools
+** Project Management
+*** Agile Development
+*** Scrum
+*** Kanban
+*** Waterfall
+@endmindmap

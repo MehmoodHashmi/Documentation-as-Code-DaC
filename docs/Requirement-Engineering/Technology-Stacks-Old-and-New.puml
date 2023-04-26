@@ -1,0 +1,43 @@
+@startmindmap
+title = __Technology Stacks - Old and New__
+
+* Technology Stacks
+** Old
+*** LAMP
+**** Linux
+**** Apache
+**** MySQL
+**** PHP
+*** WAMP
+**** Windows
+**** Apache
+**** MySQL
+**** PHP
+*** WIMP
+**** Windows
+**** IIS
+**** MySQL
+**** PHP
+** New/Modern
+*** MEAN
+**** MongoDB
+**** ExpressJS
+**** AngularJS
+**** NodeJS
+*** MERN
+**** MongoDB
+**** ExpressJS
+**** ReactJS
+**** NodeJS
+*** JAMstack
+**** JavaScript
+**** APIs
+**** Markup
+*** Serverless
+**** Functions as a Service (FaaS)
+**** Backend as a Service (BaaS)
+*** PWA
+**** Progressive Web Apps
+**** Service Workers
+**** Web APIs
+@endmindmap

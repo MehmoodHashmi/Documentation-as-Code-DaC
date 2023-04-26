@@ -1,0 +1,17 @@
+@startmindmap
+title = __Technology Stacks__
+
+* Technology Stacks
+** Traditional Stacks
+*** LAMP
+*** WAMP
+*** WIMP
+** JavaScript-Based Stacks
+*** MEAN
+*** MERN
+*** JAMstack
+** Cloud-Based Stacks
+*** Serverless
+*** PaaS
+*** IaaS
+@endmindmap

@@ -1,0 +1,29 @@
+@startmindmap
+
+skinparam shadowing false
+skinparam ArrowColor #707070
+skinparam defaultFontColor #333333
+skinparam nodeBorderRadius 10
+
+title = __ SOLO Taxonomy__ \n This mindmap outlines the different levels of the SOLO Taxonomy, which stands for Structure of Observed Learning Outcome. It is used to assess the depth of understanding of a student's \nlearning outcomes, and it consists of five levels. Each level builds upon the previous one, with the goal of promoting deeper learning and understanding.
+
+
+
+
+
+
+
+
+* SOLO Taxonomy
+** Pre-structural
+*** No understanding of the task
+** Uni-structural
+*** One relevant aspect is understood
+** Multi-structural
+*** Several relevant aspects are understood but they are not integrated into a coherent whole
+** Relational
+*** Several relevant aspects are understood and they are integrated into a coherent whole
+** Extended Abstract
+*** Understanding is transferred to new situations and contexts
+
+@endmindmap
