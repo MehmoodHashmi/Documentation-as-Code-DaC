@@ -1,0 +1,79 @@
+@startmindmap
+<style>
+node {
+    Padding 12
+    Margin 3
+    HorizontalAlignment center
+    LineColor blue
+    LineThickness 3.0
+    BackgroundColor gold
+    RoundCorner 40
+    MaximumWidth 1000
+}
+
+rootNode {
+    LineStyle 8.0;3.0
+    LineColor red
+    BackgroundColor white
+    LineThickness 1.0
+    RoundCorner 0
+    Shadowing 1.0
+}
+
+leafNode {
+    LineColor gold
+    RoundCorner 0
+    Padding 3
+}
+
+arrow {
+    LineStyle 4
+    LineThickness 1.0
+    LineColor green
+}
+</style>
+
+title =__Key Takeaways from The Art of Computer Programming__
+
+* Introduction
+** Importance of Algorithms
+** Historical Context
+
+* Fundamental Algorithms
+** Sorting and Searching
+** Combinatorial Algorithms
+** Number-Theoretic Algorithms
+** Algebraic Algorithms
+** Geometric Algorithms
+
+* Seminumerical Algorithms
+** Random Numbers
+** Arithmetic Algorithms
+** Error-Correcting Codes
+** Arithmetic Coding
+** Digital Signal Processing
+
+* Syntactical Algorithms
+** Regular Expressions
+** Parsing
+** Macro Processing
+** Compilers
+
+* Mathematical Preliminaries
+** Induction and Recursion
+** Combinatorics
+** Probability Theory
+** Graph Theory
+
+* Concrete Mathematics
+** Sums and Recurrences
+** Generating Functions
+** Asymptotics
+** Special Functions
+
+* Conclusion
+** Recap of Key Takeaways
+** Significance of Algorithms
+** Impact on Computer Science
+
+@endmindmap

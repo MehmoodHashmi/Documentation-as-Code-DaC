@@ -1,0 +1,66 @@
+@startmindmap
+<style>
+node {
+    Padding 12
+    Margin 3
+    HorizontalAlignment center
+    LineColor blue
+    LineThickness 3.0
+    BackgroundColor gold
+    RoundCorner 40
+    MaximumWidth 1000
+}
+
+rootNode {
+    LineStyle 8.0;3.0
+    LineColor red
+    BackgroundColor white
+    LineThickness 1.0
+    RoundCorner 0
+    Shadowing 1.0
+}
+
+leafNode {
+    LineColor gold
+    RoundCorner 0
+    Padding 3
+}
+
+arrow {
+    LineStyle 4
+    LineThickness 1.0
+    LineColor green
+}
+</style>
+
+title =__ Hexagonal Architecture__
+
+* **Hexagonal Architecture**
+** Definition
+*** Also known as Ports and Adapters Architecture or Clean Architecture
+*** Separates the application core from external concerns
+*** Focuses on the domain logic by using a layered architecture
+**[#yellow] **Layers**
+*** Application Core
+**** Contains the domain model, business logic, and use cases
+**** Defines the ports for input and output
+*** Adapters
+**** Connect the application core to the external world
+**** Adapters are either inbound (receiving input) or outbound (sending output)
+**** Examples of adapters include: controllers, views, repositories, databases, and services
+*** Infrastructure
+**** Provides the technical foundation for the application
+**** Contains technology-specific implementations for the ports
+**** Examples of infrastructure include: databases, message queues, and external APIs
+** **Example**
+***[#yellow] **A web application that manages a list of contacts**
+*** Application Core
+**** Contains the Contact domain model, ContactRepository port, and CreateContact use case
+*** Adapters
+**** Inbound Adapter: a RESTful API that receives HTTP requests and maps them to the CreateContact use case
+**** Outbound Adapter: a MySQL database that stores contact data
+*** Infrastructure
+**** MySQL database
+**** Spring Boot RESTful API framework
+
+@endmindmap
