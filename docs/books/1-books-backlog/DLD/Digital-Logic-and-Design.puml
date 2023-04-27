@@ -1,0 +1,79 @@
+@startmindmap
+title =__ Digital Logic and Design__
+
+* Digital Logic and Design
+** Digital Signals
+*** Binary Code
+*** Hexadecimal Code
+*** Decimal Code
+*** Gray Code
+** Gates
+*** AND
+*** OR
+*** NOT
+*** XOR
+*** NAND
+*** NOR
+*** XNOR
+** Logic Circuits
+*** Combinational
+**** Adder
+**** Subtractor
+**** Multiplexer
+**** Demultiplexer
+**** Encoder
+**** Decoder
+**** Comparator
+**** Parity Generator and Checker
+*** Sequential
+**** Flip-Flops
+***** SR Flip-Flop
+***** JK Flip-Flop
+***** D Flip-Flop
+***** T Flip-Flop
+**** Counters
+***** Ripple Counter
+***** Synchronous Counter
+***** Johnson Counter
+**** Registers
+***** Shift Register
+***** Parallel Register
+**** Memory
+***** Random Access Memory (RAM)
+***** Read-Only Memory (ROM)
+***** Programmable Logic Device (PLD)
+***** Field-Programmable Gate Array (FPGA)
+** Digital Design
+*** Number Systems
+**** Binary
+**** Octal
+**** Decimal
+**** Hexadecimal
+*** Boolean Algebra
+**** Laws of Boolean Algebra
+**** Simplification Techniques
+**** Karnaugh Map
+**** Quine-McCluskey Method
+*** Logic Gates and Truth Tables
+**** Converting Truth Tables to Logic Gates
+**** SOP and POS Forms
+*** Combinational Circuit Design
+**** Designing using Logic Gates
+**** Karnaugh Map Based Design
+**** Quine-McCluskey Based Design
+*** Sequential Circuit Design
+**** Designing using Flip-Flops
+**** State Transition Diagrams
+**** State Reduction Techniques
+*** Finite State Machine (FSM)
+**** Moore Machine
+**** Mealy Machine
+*** Timing Diagrams
+*** Verilog HDL
+**** Data Types
+**** Operators
+**** Modules
+**** Behavioral Modeling
+**** Structural Modeling
+**** Data Flow Modeling
+@endmindmap

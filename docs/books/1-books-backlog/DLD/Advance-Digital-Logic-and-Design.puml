@@ -1,0 +1,96 @@
+@startmindmap
+title =__ Advance Digital Logic and Design__
+
+* Advance Digital Logic and Design
+** Combinational Logic Design
+*** Boolean Algebra
+**** Basic Laws
+**** Simplification
+*** Logic Gates
+**** AND Gate
+**** OR Gate
+**** NOT Gate
+**** XOR Gate
+**** NAND Gate
+**** NOR Gate
+**** XNOR Gate
+*** Multiplexers and Demultiplexers
+**** 2-to-1 Multiplexer
+**** 4-to-1 Multiplexer
+**** 8-to-1 Multiplexer
+**** 1-to-2 Demultiplexer
+**** 1-to-4 Demultiplexer
+**** 1-to-8 Demultiplexer
+*** Encoders and Decoders
+**** Priority Encoders
+**** Binary Decoders
+**** BCD Decoders
+*** Adders and Subtractors
+**** Half Adder
+**** Full Adder
+**** Ripple Carry Adder
+**** Carry Look-ahead Adder
+**** BCD Adder
+**** Subtractor
+**** ALU
+** Sequential Logic Design
+*** Latches and Flip-Flops
+**** SR Latch
+**** D Latch
+**** JK Latch
+**** SR Flip-Flop
+**** D Flip-Flop
+**** JK Flip-Flop
+*** Registers and Counters
+**** Shift Register
+**** Parallel Load Register
+**** Ring Counter
+**** Johnson Counter
+**** Synchronous Counter
+**** Asynchronous Counter
+*** State Machines
+**** Mealy State Machine
+**** Moore State Machine
+*** Timing Analysis
+**** Setup Time
+**** Hold Time
+**** Propagation Delay
+**** Clock Skew
+** Digital System Design
+*** Clock and Reset Circuit Design
+**** Clock Generation
+**** Clock Distribution
+**** Reset Generation
+**** Reset Distribution
+*** Memory System Design
+**** SRAM
+**** DRAM
+**** Flash Memory
+**** ROM
+**** EPROM
+**** EEPROM
+**** Cache Memory
+*** Input-Output Design
+**** Parallel Interface
+**** Serial Interface
+**** Synchronous Interface
+**** Asynchronous Interface
+*** Finite State Machine Design
+**** High-level Design
+**** RTL Design
+**** Gate-level Design
+**** Verification and Testing
+** Hardware Description Languages (HDLs)
+*** Verilog
+**** Data Types
+**** Operators
+**** Control Statements
+**** Module and Hierarchy
+**** Testbench and Simulation
+*** VHDL
+**** Data Types
+**** Operators
+**** Control Statements
+**** Entity and Architecture
+**** Testbench and Simulation
+@endmindmap

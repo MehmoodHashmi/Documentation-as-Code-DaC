@@ -1,0 +1,80 @@
+@startmindmap
+title = __Advanced Computer Architecture and Assembly Language__
+
+* Advanced Computer Architecture and Assembly Language
+
+** Computer Architecture
+*** Pipelining
+**** Stages
+**** Hazards
+**** Techniques for resolving hazards
+*** Superscalar architecture
+**** Hardware-based instruction-level parallelism
+**** Multiple instructions executed simultaneously
+*** Cache memory
+**** Cache organization
+**** Cache replacement policies
+**** Cache coherence
+*** Memory hierarchy
+**** Memory types
+**** Addressing modes
+**** Virtual memory
+**** Page replacement policies
+*** Multiprocessor systems
+**** Shared memory
+**** Distributed memory
+**** Cache coherence
+**** Interconnection networks
+*** Input/output systems
+**** DMA
+**** Interrupts
+**** I/O ports
+**** Memory-mapped I/O
+*** RISC vs. CISC architectures
+**** Characteristics of RISC and CISC architectures
+**** Advantages and disadvantages of each architecture
+*** Instruction set architecture
+**** Instruction formats
+**** Addressing modes
+**** Assembly language programming
+**** Microprogramming
+
+** Assembly Language
+*** Data types
+**** Integer
+**** Floating-point
+**** Character
+**** Boolean
+**** Strings
+*** Operators
+**** Arithmetic
+**** Logical
+**** Comparison
+**** Bitwise
+**** Assignment
+*** Control Structures
+**** Branching
+**** Conditional statements
+**** Loops
+**** Subroutines
+**** Interrupts
+*** Procedures
+**** Calling conventions
+**** Parameter passing
+**** Local and global variables
+**** Recursion
+**** Exception handling
+*** Macros
+**** Definition and invocation
+**** Macro expansion
+**** Macro libraries
+*** Linking and Loading
+**** Object files
+**** Linking process
+**** Loading process
+*** Debugging
+**** Debugging tools
+**** Debugging techniques
+**** Tracing and profiling
+
+@endmindmap

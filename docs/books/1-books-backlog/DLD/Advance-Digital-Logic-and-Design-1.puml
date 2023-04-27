@@ -1,0 +1,61 @@
+@startmindmap
+
+title =__ Advance Digital Logic and Design-1__
+
+* Advance Digital Logic and Design
+
+** Combinational Circuits
+*** Boolean Algebra
+*** Karnaugh Map
+*** Multiplexers
+*** Encoders and Decoders
+*** Adders and Subtractors
+*** Comparators
+*** Code Converters
+*** Parity Generators and Checkers
+*** Magnitude Comparators
+
+** Sequential Circuits
+*** Flip-Flops
+**** S-R Flip-Flop
+**** D Flip-Flop
+**** J-K Flip-Flop
+**** T Flip-Flop
+*** Timing Diagrams
+*** Shift Registers
+*** Counters
+**** Asynchronous Counters
+**** Synchronous Counters
+*** Registers
+*** Finite State Machines
+**** Mealy Machines
+**** Moore Machines
+
+** Advanced Topics
+*** Programmable Logic Devices (PLDs)
+**** Programmable Array Logic (PAL)
+**** Programmable Logic Array (PLA)
+**** Field-Programmable Gate Array (FPGA)
+*** Hardware Description Languages (HDLs)
+**** VHDL
+**** Verilog
+*** SystemVerilog
+*** Computer Arithmetic
+**** Fixed-Point Arithmetic
+**** Floating-Point Arithmetic
+*** Advanced Logic Design Techniques
+**** Low Power Design
+**** Design for Testability
+**** Synthesis
+**** Timing Analysis
+**** Power Analysis
+
+** Applications
+*** Microprocessors and Microcontrollers
+*** Digital Signal Processing (DSP)
+*** Communications
+*** Computer Networks
+*** Multimedia
+*** Cryptography
+
+@endmindmap

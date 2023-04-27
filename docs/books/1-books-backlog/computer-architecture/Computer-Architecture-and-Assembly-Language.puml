@@ -1,0 +1,46 @@
+@startmindmap
+title =__ Computer Architecture and Assembly Language__
+
+* Computer Architecture and Assembly Language
+** Computer Architecture
+*** CPU
+**** ALU
+**** Control Unit
+**** Registers
+**** Instruction Set Architecture
+*** Memory
+**** RAM
+**** ROM
+**** Cache
+*** Input/Output
+**** Devices
+**** Interrupts
+** Assembly Language
+*** Syntax
+**** Registers
+**** Addressing Modes
+**** Instructions
+*** Programming
+**** Control Structures
+**** Data Types
+**** Procedures
+** Machine Language
+*** Binary Representation
+*** Instruction Set
+*** Programming
+**** Assembly to Machine
+**** Machine to Assembly
+** System Software
+*** Operating Systems
+*** Device Drivers
+*** Assemblers
+*** Linkers
+*** Loaders
+*** Debuggers
+** Performance Optimization
+*** Pipelining
+*** Caching
+*** Parallelism
+*** Instruction-Level Parallelism
+*** Thread-Level Parallelism
+@endmindmap

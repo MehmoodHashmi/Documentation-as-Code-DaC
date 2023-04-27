@@ -1,0 +1,58 @@
+@startmindmap
+title =__ Algorithm Design Strategies__
+
+* Algorithm Design Strategies
+** Brute Force
+*** Linear Search
+*** Quadratic Search
+** Divide and Conquer
+*** Binary Search
+*** Merge Sort
+*** Quick Sort
+** Greedy Algorithms
+*** Huffman Encoding
+*** Kruskal's Algorithm
+** Dynamic Programming
+*** Fibonacci Sequence
+*** Knapsack Problem
+*** Longest Common Subsequence
+** Backtracking
+*** N-Queens Problem
+*** Traveling Salesman Problem
+** Randomized Algorithms
+*** QuickSelect
+*** Randomized Primality Testing
+*** Las Vegas Algorithms
+** Branch and Bound
+*** 0/1 Knapsack Problem
+*** Traveling Salesman Problem
+*** Job Scheduling Problem
+** Heuristic Algorithms
+*** Simulated Annealing
+*** Genetic Algorithms
+*** Ant Colony Optimization
+* Algorithms
+** Searching Algorithms
+*** Linear Search
+*** Binary Search
+** Sorting Algorithms
+*** Bubble Sort
+*** Insertion Sort
+*** Selection Sort
+*** Merge Sort
+*** Quick Sort
+** Graph Algorithms
+*** Depth-First Search
+*** Breadth-First Search
+*** Dijkstra's Algorithm
+*** Bellman-Ford Algorithm
+*** Floyd-Warshall Algorithm
+** String Algorithms
+*** String Matching
+*** Longest Common Subsequence
+*** Knuth-Morris-Pratt Algorithm
+** Numerical Algorithms
+*** Euclid's Algorithm
+*** Sieve of Eratosthenes
+*** Newton-Raphson Method
+@endmindmap

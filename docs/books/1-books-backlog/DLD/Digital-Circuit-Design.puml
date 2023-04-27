@@ -1,0 +1,64 @@
+@startmindmap
+
+title =__ Digital Circuit Design__
+
+* Digital Circuit Design
+
+** Combinational Logic
+*** Boolean Algebra and Logic Gates
+*** Karnaugh Maps
+*** Combinational Circuit Design
+*** Multiplexers and Demultiplexers
+*** Encoders and Decoders
+*** Adders and Subtractors
+
+** Sequential Logic
+*** Latches and Flip-Flops
+*** State Diagrams
+*** State Tables
+*** Registers
+*** Counters
+
+** Memory
+*** Memory Types
+*** Memory Design
+*** Cache
+
+** Hardware Description Languages (HDLs)
+*** VHDL (VHSIC Hardware Description Language)
+*** Verilog
+
+** Digital Circuit Design Methodologies
+*** Top-Down Design
+*** Bottom-Up Design
+*** Design for Testability
+*** Synthesis and Optimization
+
+** Programmable Logic Devices (PLDs)
+*** CPLDs (Complex Programmable Logic Devices)
+*** FPGAs (Field Programmable Gate Arrays)
+
+** Timing Analysis and Design Considerations
+*** Clocking Strategies
+*** Clock Skew
+*** Timing Analysis
+*** Synchronous and Asynchronous Design
+
+** Advanced Digital Design Techniques
+*** Hazard Detection and Elimination
+*** Metastability and Synchronizers
+*** Finite State Machines
+*** Asynchronous Circuits
+
+** Digital Signal Processing
+*** Digital Filters
+*** FFT (Fast Fourier Transform)
+*** DSP (Digital Signal Processing) Chips
+
+** High-Speed Design and Simulation
+*** High-Speed Layout Techniques
+*** Signal Integrity and EMC (Electromagnetic Compatibility)
+*** Spice Simulation
+*** IBIS (Input/Output Buffer Information Specification) Modeling
+
+@endmindmap

@@ -1,0 +1,209 @@
+@startmindmap
+
+title =__ Latency, Throughput, and Related Concepts__
+
+* **Latency, Throughput, and Related Concepts**
+
+** Latency
+*** Definition: The time delay between the initiation of a request and the response to that request
+*** Examples:
+**** Network latency: delay caused by network transmission time
+**** Memory latency: delay caused by accessing data in memory
+*** Factors affecting latency:
+**** Distance between components
+**** Speed of light
+**** Processing time
+*** Ways to reduce latency:
+**** Caching
+**** Load balancing
+**** Compression
+**** Minimizing distance
+**** Reducing processing time
+
+** Throughput
+*** Definition: The amount of work performed in a given period of time
+*** Examples:
+**** Network throughput: the amount of data transferred over a network in a given time period
+**** Disk throughput: the amount of data read/written from a disk in a given time period
+*** Factors affecting throughput:
+**** Bandwidth
+**** Number of parallel operations
+**** Processing time
+*** Ways to increase throughput:
+**** Parallel processing
+**** Compression
+**** Data prefetching
+**** Optimized algorithms
+**** Distributed computing
+
+** Bandwidth
+*** Definition: The maximum amount of data that can be transmitted over a communication channel in a given period of time
+*** Examples:
+**** Network bandwidth: maximum amount of data that can be transmitted over a network in a given time period
+**** Memory bandwidth: maximum amount of data that can be transferred from memory to the processor in a given time period
+*** Factors affecting bandwidth:
+**** Physical properties of the medium
+**** Encoding techniques
+**** Transmission protocols
+*** Ways to increase bandwidth:
+**** Increase physical bandwidth (e.g., using fiber optics)
+**** Use efficient encoding techniques (e.g., compression)
+**** Use efficient transmission protocols (e.g., TCP/IP)
+
+** Pipelining
+*** Definition: Breaking down a task into smaller stages and processing these stages in parallel
+*** Examples:
+**** Instruction pipelining: breaking down instruction processing into stages and executing them in parallel
+**** Data pipelining: breaking down data processing into stages and processing them in parallel
+*** Advantages of pipelining:
+**** Faster processing of tasks
+**** Increased throughput
+*** Disadvantages of pipelining:
+**** Increased latency due to stage processing time
+**** Difficult to optimize for parallelism
+
+** Parallelism
+*** Definition: Performing multiple operations at the same time
+*** Examples:
+**** Multi-core processors: multiple processors on the same chip
+**** GPU: specialized hardware for parallel processing of graphics
+*** Advantages of parallelism:
+**** Increased throughput
+**** Faster processing of tasks
+*** Disadvantages of parallelism:
+**** Increased power consumption
+**** Increased complexity of software design
+
+** Cache
+*** Definition: A small, fast memory used to store frequently accessed data
+*** Examples:
+**** CPU cache: a small, fast memory used to store frequently accessed data by the processor
+**** Web cache: a small, fast memory used to store frequently accessed web pages
+*** Advantages of cache:
+**** Reduced latency for frequently accessed data
+**** Increased throughput
+*** Disadvantages of cache:
+**** Limited size
+**** Inefficient for infrequently accessed data
+
+** Virtual Memory
+*** Definition: A technique for utilizing more memory than is physically available
+*** Examples:
+**** Page file: A file on disk used to store portions of memory that are not currently in use
+**** Memory-mapped files: A technique for mapping a file on disk to memory
+*** Advantages of virtual memory:
+**** Increased memory availability
+**** Isolation of processes
+*** Disadvantages of virtual memory:
+**** Increased latency due to disk access
+**** Increased complexity of memory management
+
+** Compression
+*** Definition: Reducing the size of data
+*** Examples:
+**** Lossless compression: reducing the size of data without losing any information
+**** Lossy compression: reducing the size of data by removing some information
+*** Advantages of compression:
+**** Reduced storage space
+**** Reduced bandwidth requirements
+*** Disadvantages of compression:
+**** Increased processing time
+**** Reduced data quality in case of lossy compression
+
+
+** Fault Tolerance
+*** Definition: The ability of a system to continue functioning in the presence of failures
+*** Examples:
+**** Redundant hardware: having multiple copies of hardware components to take over if one fails
+**** RAID: A technique for storing data across multiple disks to provide redundancy
+*** Advantages of fault tolerance:
+**** Increased reliability
+**** Reduced downtime
+*** Disadvantages of fault tolerance:
+**** Increased cost
+
+** Scheduling
+*** Definition: The process of deciding which task to execute next
+*** Examples:
+**** Process scheduling: deciding which process to run next in a multi-tasking operating system
+**** Disk scheduling: deciding which disk access request to service next
+*** Factors affecting scheduling:
+**** Priority of tasks
+**** Resource utilization
+**** Fairness
+*** Types of scheduling algorithms:
+**** Round-robin scheduling
+**** Priority scheduling
+**** First-come, first-served scheduling
+
+** Memory Hierarchy
+*** Definition: A hierarchy of storage devices, from fastest and smallest to slowest and largest
+*** Examples:
+**** Cache
+**** Main memory (RAM)
+**** Secondary storage (disk)
+*** Advantages of memory hierarchy:
+**** Reduced latency for frequently accessed data
+**** Increased memory capacity
+*** Disadvantages of memory hierarchy:
+**** Increased cost
+**** Complexity of memory management
+
+** Instruction Set Architecture (ISA)
+*** Definition: The set of instructions that a processor can execute
+*** Examples:
+**** x86-64: the instruction set used by most modern desktop and server processors
+**** ARM: the instruction set used by most mobile and embedded processors
+*** Advantages of ISA:
+**** Portability of software
+**** Compatibility with existing software
+*** Disadvantages of ISA:
+**** Limited by the design of the ISA
+**** Difficult to change once established
+*** Factors affecting ISA:
+**** Application requirements
+**** Design constraints
+**** Performance goals
+*** Ways to optimize ISA:
+**** Reducing the number of instructions required for a task
+**** Optimizing instruction encoding
+**** Adding specialized instructions for frequently used tasks
+
+** Microarchitecture
+*** Definition: The implementation of an ISA in hardware
+*** Examples:
+**** Intel Core microarchitecture: used in many modern desktop and server processors
+**** ARM Cortex-A microarchitecture: used in many mobile and embedded processors
+*** Advantages of microarchitecture:
+**** Performance optimizations specific to the ISA
+**** Flexibility to change design without changing the ISA
+*** Disadvantages of microarchitecture:
+**** Limited by the design of the ISA
+**** Complexity of design and verification
+*** Examples:
+**** Lossless compression: reduces the size of data without losing any information
+**** Lossy compression: reduces the size of data by discarding some information
+*** Advantages of compression:
+**** Reduced storage requirements
+**** Increased throughput
+*** Disadvantages of compression:
+**** Increased processing time
+**** Potential loss of data
+
+** Vector Processing
+*** Definition: Performing the same operation on multiple pieces of data simultaneously
+*** Examples:
+**** SIMD (Single Instruction, Multiple Data): executing the same instruction on multiple pieces of data simultaneously
+**** VLIW (Very Long Instruction Word): packing multiple instructions into a single instruction word to be executed in parallel
+*** Advantages of vector processing:
+**** Increased throughput
+**** Reduced processing time for vector operations
+*** Disadvantages of vector processing:
+**** Limited applicability to certain types of operations
+**** Difficult to optimize for parallelism
+
+
+
+
+
+@endmindmap
