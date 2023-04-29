@@ -1,0 +1,28 @@
+@startmindmap
+title = Performance
+
+* Performance
+** Response Time
+*** System Latency
+*** Network Latency
+*** Component Latency
+*** Throughput
+** Load Testing
+*** Load Testing Tools
+*** Stress Testing
+*** Spike Testing
+** Monitoring
+*** System Monitoring
+*** Application Monitoring
+*** Metrics
+*** Dashboards
+** Scalability
+*** Vertical Scaling
+*** Horizontal Scaling
+*** Clustering
+*** Replication
+** Caching
+*** Caching Strategies
+*** Cache Management
+*** Cache Eviction
+@endmindmap

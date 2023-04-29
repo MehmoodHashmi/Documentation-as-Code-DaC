@@ -1,0 +1,113 @@
+@startmindmap
+title = Related Concepts
+
+* Related Concepts
+** Usability vs. Security
+*** Usability
+**** Learnability
+**** Efficiency
+**** Memorability
+**** Errors
+**** Satisfaction
+*** Security
+**** Confidentiality
+**** Integrity
+**** Availability
+**** Non-repudiation
+**** Authenticity
+** Modularity vs. Monolith
+*** Modularity
+**** Loose Coupling
+**** High Cohesion
+**** Reusability
+*** Monolith
+**** Tightly Coupled
+**** Low Cohesion
+**** Non-reusability
+** Maintainability vs. Scalability
+*** Maintainability
+**** Readability
+**** Testability
+**** Modifiability
+*** Scalability
+**** Horizontal Scalability
+**** Vertical Scalability
+**** Elastic Scalability
+** Performance vs. Cost
+*** Performance
+**** Response Time
+**** Throughput
+**** Latency
+**** Resource Utilization
+*** Cost
+**** Hardware Cost
+**** Software Cost
+**** Operating Cost
+**** Maintenance Cost
+** Flexibility vs. Stability
+*** Flexibility
+**** Configurability
+**** Customizability
+**** Adaptability
+**** Interoperability
+*** Stability
+**** Predictability
+**** Consistency
+**** Reliability
+**** Fault Tolerance
+** Complexity vs. Simplicity
+*** Complexity
+**** Technical Complexity
+**** Organizational Complexity
+**** Domain Complexity
+**** External Complexity
+*** Simplicity
+**** Essential Simplicity
+**** Accidental Simplicity
+**** Conceptual Simplicity
+**** Implementation Simplicity
+** Coupling vs. Cohesion
+*** Coupling
+**** Tight Coupling
+**** Loose Coupling
+**** Content Coupling
+**** Control Coupling
+**** Common Coupling
+**** Stamp Coupling
+**** Data Coupling
+**** External Coupling
+**** Message Coupling
+*** Cohesion
+**** High Cohesion
+**** Low Cohesion
+**** Functional Cohesion
+**** Sequential Cohesion
+**** Communicational Cohesion
+**** Procedural Cohesion
+**** Temporal Cohesion
+**** Logical Cohesion
+**** Coincidental Cohesion
+** Functionality vs. Usability
+*** Functionality
+**** Completeness
+**** Correctness
+**** Security
+**** Reliability
+**** Usability
+*** Usability
+**** Learnability
+**** Efficiency
+**** Memorability
+**** Errors
+**** Satisfaction
+** Maintainability vs. Extensibility
+*** Maintainability
+**** Readability
+**** Testability
+**** Modifiability
+*** Extensibility
+**** Additive Extensibility
+**** Perfective Extensibility
+**** Corrective Extensibility
+**** Adaptive Extensibility
+@endmindmap

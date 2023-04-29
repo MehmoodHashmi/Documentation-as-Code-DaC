@@ -1,0 +1,25 @@
+@startmindmap
+title = Architectural Characteristics
+
+* Architectural Characteristics
+** Modifiability
+*** Configurability
+*** Extensibility
+*** Maintainability
+** Performance
+*** Responsiveness
+*** Throughput
+*** Scalability
+** Security
+*** Confidentiality
+*** Integrity
+*** Availability
+** Testability
+*** Observability
+*** Controllability
+*** Decomposability
+** Usability
+*** Learnability
+*** Efficiency
+*** Satisfaction
+@endmindmap

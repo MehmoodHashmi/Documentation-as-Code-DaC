@@ -1,0 +1,29 @@
+@startmindmap
+title =__ IntelliJ IDEA Shortcuts (basic)__
+
+* IntelliJ IDEA Shortcuts
+** Navigation
+*** Navigate to Class: Ctrl + N
+*** Navigate to File: Ctrl + Shift + N
+*** Navigate to Symbol: Ctrl + Alt + Shift + N
+*** Find Usages: Alt + F7
+*** Go to Definition: Ctrl + B
+** Code Editing
+*** Auto-Complete: Ctrl + Space
+*** Duplicate Line or Block: Ctrl + D
+*** Delete Line or Block: Ctrl + Y
+*** Refactor: Ctrl + Shift + Alt + T
+*** Generate Code: Alt + Insert
+*** Comment or Uncomment: Ctrl + /
+** Run and Debug
+*** Run Application: Shift + F10
+*** Debug Application: Shift + F9
+*** Run Test: Ctrl + Shift + F10
+*** Debug Test: Ctrl + Shift + F9
+*** Toggle Breakpoint: Ctrl + Shift + F8
+** Other Useful Shortcuts
+*** Open Terminal: Alt + F12
+*** Find Action: Ctrl + Shift + A
+*** Project Quick Fix: Alt + Enter
+*** Code Formatting: Ctrl + Alt + L
+@endmindmap

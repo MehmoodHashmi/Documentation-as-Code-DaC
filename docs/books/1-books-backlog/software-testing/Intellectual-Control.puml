@@ -1,0 +1,27 @@
+@startmindmap
+title = Intellectual Control
+
+* Intellectual Control
+** Focus on high-level design
+** Human-based decision making
+** Emphasis on code simplicity and readability
+** Long-term maintenance and extensibility
+** Better for complex systems
+** Higher upfront cost but lower long-term cost
+
+* Statistical Control
+** Focus on data-driven decisions
+** Automated processes and analysis
+** Emphasis on code optimization and performance
+** Short-term results and quick feedback loops
+** Better for simple systems
+** Lower upfront cost but higher long-term cost
+
+* Over Time
+** Intellectual Control -> Statistical Control
+*** As software ages, intellectual control decreases while statistical control increases
+** Statistical Control -> Intellectual Control
+*** As software stabilizes, statistical control decreases while intellectual control increases
+** Balance between intellectual and statistical control depends on the specific project and its requirements
+
+@endmindmap

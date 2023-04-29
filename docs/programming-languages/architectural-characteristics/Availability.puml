@@ -1,0 +1,27 @@
+@startmindmap
+
+title = Availability
+
+* Availability
+** Definition Availability is the proportion of time a system is in a functioning condition, taking into account both planned and unplanned downtime.
+** Key Concepts
+*** **Uptime:** The amount of time the system is operational and available to users.
+*** **Downtime:** The amount of time the system is not operational and unavailable to users.
+*** **Mean Time Between Failures (MTBF):** The average time between system failures.
+*** **Mean Time to Recovery (MTTR):** The average time it takes to recover from a system failure.
+*** **Service Level Agreement (SLA):** A commitment between service provider and user that outlines the expected availability and performance of the system.
+** Importance
+*** Ensures users can access the system when needed.
+*** Prevents loss of revenue and customer trust due to downtime.
+*** Helps businesses meet SLAs and avoid penalties.
+** Strategies
+*** Redundancy: Duplicating system components to ensure that a backup is available in case of failure.
+*** Load balancing: Distributing workload across multiple servers to prevent overloading and increase fault tolerance.
+*** Failover: Automatically switching to a backup system when the primary system fails.
+*** Disaster recovery: Having a plan in place to quickly recover from a major system failure.
+** Considerations
+*** Costs: Implementing high-availability strategies can be expensive.
+*** Complexity: Increasing availability often involves adding more components, which can increase system complexity.
+*** Scalability: High availability strategies may impact system scalability if not designed properly.
+
+@endmindmap

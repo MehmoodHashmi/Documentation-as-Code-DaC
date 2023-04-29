@@ -1,0 +1,17 @@
+@startmindmap
+title = TDD Steps
+
+* TDD Steps
+** **1.** Write a Failing Test
+*** Identify the **__behavior__** to be tested
+*** Write a test that will fail
+** **2.** Write Minimal Code to Pass the Test
+*** Write just enough code to pass the test
+*** Don't worry about design or efficiency
+** **3.** Refactor Code
+*** Improve design without changing behavior
+*** Remove duplication
+** **4.** Repeat
+*** Write the next test and follow steps 2-3
+*** Keep repeating until all requirements are met
+@endmindmap

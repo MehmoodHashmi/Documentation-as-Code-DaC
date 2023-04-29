@@ -1,0 +1,22 @@
+@startmindmap
+title = Robustness
+
+* Robustness
+** Definition: The ability of a system to operate as expected under a wide range of conditions and inputs.
+** Characteristics
+*** Fault tolerance: The ability of a system to continue functioning in the event of one or more component failures.
+*** Error handling: The ability of a system to detect and gracefully handle errors.
+*** Resilience: The ability of a system to recover from failures or disruptions and continue functioning.
+*** Scalability: The ability of a system to handle increasing workload without degrading performance.
+** Approaches
+*** Defensive programming: A coding approach that anticipates errors and exceptions and includes mechanisms to handle them.
+*** Redundancy: The use of duplicate components or systems to provide backup in case of failure.
+*** Fault isolation: The ability of a system to contain and isolate faults to prevent them from affecting other components.
+** Techniques
+*** Graceful degradation: The ability of a system to continue functioning with reduced capabilities in the event of a failure.
+*** Failover: The automatic switching of system functions to backup components in the event of a failure.
+*** Load balancing: The distribution of workload across multiple components to prevent overload and improve performance.
+** Tools
+*** Testing frameworks: Automated tools for testing and verifying the robustness of a system.
+*** Monitoring tools: Tools for monitoring the performance and health of a system in real time.
+@endmindmap

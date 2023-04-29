@@ -1,0 +1,39 @@
+@startmindmap
+title = Modularity
+
+* Modularity
+** Definition
+*** Breaking down a system into smaller, independent components with well-defined interfaces
+*** Each component can be developed, tested, and deployed independently
+** Benefits
+*** Easier to reason about and understand
+*** Encourages code reuse
+*** Makes it easier to maintain and modify code
+*** Reduces the impact of changes
+** Types of Modularity
+*** Physical modularity
+**** Based on how the components are physically separated
+**** Components can be in different files, packages, or modules
+*** Logical modularity
+**** Based on how the components are logically separated
+**** Components can be separated based on their responsibilities or functionality
+*** Layered modularity
+**** Based on how the components are layered on top of each other
+**** Each layer provides an abstraction over the layer below it
+*** Aspect-oriented modularity
+**** Separates components based on cross-cutting concerns
+**** AOP can be used to implement this type of modularity
+** Techniques for achieving modularity
+*** Modular design
+**** Designing a system with modularity in mind
+**** Components should have well-defined responsibilities and interfaces
+*** Modular programming
+**** Writing code that is easily divided into independent, reusable components
+**** Components should be loosely coupled and have minimal dependencies
+*** Dependency injection
+**** Injecting dependencies into components at runtime
+**** Allows for components to be easily replaced or modified
+*** Event-driven architecture
+**** Components communicate with each other using events
+**** Components do not need to know about each other, just the events they produce or consume
+@endmindmap

@@ -1,0 +1,43 @@
+@startmindmap
+title = Reliability
+
+* Reliability
+** Definition
+*** Ability of a system to function properly and consistently under varying conditions
+** Importance
+*** Crucial for mission-critical systems
+*** Builds trust with users
+** Types of Failures
+*** Transient
+**** Temporary failure that disappears quickly
+**** Can be recovered from without major impact
+*** Intermittent
+**** Failure that occurs randomly over time
+**** Hard to diagnose and fix
+*** Permanent
+**** Failure that persists until fixed
+**** Requires repair or replacement of the affected component
+** Techniques to Ensure Reliability
+*** Redundancy
+**** Providing duplicate components that can take over if one fails
+**** Can be expensive but highly effective
+*** Fault Tolerance
+**** Ability of a system to continue operation even in the presence of faults
+**** Built-in redundancy, error detection, and correction mechanisms
+*** Error Handling
+**** Gracefully handling errors to minimize their impact
+**** Logging and reporting errors to facilitate diagnosis and resolution
+*** Testing and Validation
+**** Comprehensive testing and validation of all system components
+**** Can uncover and address potential failures before they occur
+** Metrics for Measuring Reliability
+*** Mean Time Between Failures (MTBF)
+**** Average time between system failures
+**** Useful for assessing the reliability of systems that can be repaired or replaced
+*** Mean Time to Failure (MTTF)
+**** Average time until a component fails
+**** Useful for assessing the reliability of systems that cannot be repaired or replaced
+*** Mean Time to Repair (MTTR)
+**** Average time to repair a failed component
+**** Useful for assessing the maintainability of a system
+@endmindmap

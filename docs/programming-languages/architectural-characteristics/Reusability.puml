@@ -1,0 +1,31 @@
+@startmindmap
+title = Reusability
+
+* Reusability
+** Definition
+*** Capability of using software components to create new software systems
+** Benefits
+*** Saves time and effort by reusing existing code
+*** Improves consistency and reduces errors by using tested and proven code
+*** Facilitates modular design and maintenance
+** Techniques
+*** Library-based reuse
+**** Reusing code libraries, such as Java classes or Python modules
+*** Component-based reuse
+**** Reusing software components, such as web services or microservices
+*** Framework-based reuse
+**** Reusing software frameworks, such as Spring or Django
+*** Design patterns
+**** Reusing established solutions to common problems
+**** Examples: Singleton, Observer, Factory, etc.
+** Challenges
+*** Choosing the right level of abstraction
+*** Avoiding tight coupling between reused components
+*** Handling dependencies and versioning issues
+*** Maintaining and updating reused code
+** Best practices
+*** Encapsulate and abstract reused code
+*** Use interfaces to define contracts between components
+*** Use dependency injection to manage dependencies
+*** Use automated testing to ensure compatibility and stability
+@endmindmap

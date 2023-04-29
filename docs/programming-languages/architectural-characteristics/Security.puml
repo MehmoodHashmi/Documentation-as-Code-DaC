@@ -1,0 +1,40 @@
+@startmindmap
+* Security
+** Types of security
+*** Physical security
+*** Cybersecurity
+*** Information security
+*** Application security
+*** Network security
+** Security threats
+*** Malware
+*** Phishing
+*** Social engineering
+*** Man-in-the-middle attack
+*** Denial-of-service attack
+*** Password attack
+** Security controls
+*** Access controls
+*** Encryption
+*** Authentication
+*** Authorization
+*** Firewalls
+*** Intrusion detection and prevention systems
+** Security standards and regulations
+*** ISO 27001
+*** NIST
+*** HIPAA
+*** GDPR
+*** PCI DSS
+** Security testing
+*** Penetration testing
+*** Vulnerability scanning
+*** Code review
+*** Threat modeling
+** Security best practices
+*** Principle of least privilege
+*** Defense in depth
+*** Secure coding practices
+*** Security training and awareness
+*** Incident response plan
+@endmindmap

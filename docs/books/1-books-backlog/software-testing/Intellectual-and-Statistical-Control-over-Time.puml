@@ -1,0 +1,26 @@
+@startmindmap
+title = Intellectual and Statistical Control over Time \nThe __time component__ of the map highlights the importance of continuous integration, delivery, and deployment in maintaining software quality over time.
+
+* Intellectual and Statistical Control over Time
+** Intellectual Control
+*** Code Review
+**** Pair Programming
+**** Ad-hoc Review
+*** Static Analysis
+**** Code Analysis
+**** Code Metrics
+**** Code Smells
+** Statistical Control
+*** Testing
+**** Unit Testing
+**** Integration Testing
+**** System Testing
+*** Profiling
+**** CPU Profiling
+**** Memory Profiling
+**** Network Profiling
+** Time
+*** Continuous Integration
+*** Continuous Delivery
+*** Continuous Deployment
+@endmindmap

@@ -1,0 +1,67 @@
+@startmindmap
+title = __ UI/UX__
+
+* UI/UX
+**[#yellow] **User Interface (UI)**
+*** Design
+**** Aesthetics
+**** Layout
+**** Visual Hierarchy
+**** Typography
+**** Color
+**** Images and Icons
+**** Responsive Design
+*** Components
+**** Buttons
+**** Forms
+**** Dropdowns
+**** Menus
+**** Lists
+**** Icons
+**** Navigation
+**** Cards
+**** Modals
+**** Popovers
+**** Tooltips
+**** Progress Bars
+**** Spinners
+*** Usability
+**** Navigation
+**** Feedback
+**** Consistency
+**** Error Handling
+**** Help and Documentation
+**** Accessibility
+**** Speed and Performance
+**[#yellow] **User Experience (UX)**
+*** Research
+**** User Analysis
+**** Personas
+**** Scenarios
+**** Journey Maps
+**** Surveys
+**** Interviews
+**** Analytics
+**** Usability Testing
+**** A/B Testing
+**** Heatmaps
+*** Strategy
+**** Information Architecture
+**** Wireframes
+**** Prototypes
+**** User Flows
+**** Content Strategy
+**** Business Strategy
+*** Design
+**** Visual Design
+**** Interaction Design
+**** Information Design
+**** Motion Design
+*** Evaluation
+**** User Testing
+**** Expert Reviews
+**** Usability Metrics
+**** Analytics
+**** Feedback
+**** Surveys
+@endmindmap

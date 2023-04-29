@@ -1,0 +1,29 @@
+@startmindmap
+title = BDD (Behavior-Driven Development)
+
+* BDD (Behavior-Driven Development)
+** Core Concepts
+*** Collaboration between developers, testers, and business stakeholders
+*** Focus on behavior, not just features or requirements
+*** Use of ubiquitous language to describe behavior
+*** Automated testing
+*** Living documentation
+** Key Practices
+*** Continuous communication and collaboration
+*** Example mapping to define and prioritize scenarios
+*** Use of given-when-then format to write executable specifications
+*** Use of domain-specific language (DSL) to express behavior
+*** Automated acceptance testing with tools like Cucumber or Behave
+*** Continuous integration and delivery
+** Benefits
+*** Improved communication and collaboration
+*** Improved quality and reliability of software
+*** Faster feedback and iteration cycles
+*** Better alignment with business objectives
+*** Reduced rework and waste
+** Challenges
+*** Learning curve for new tools and practices
+*** Time and effort required to write and maintain tests and documentation
+*** Difficulty in defining and prioritizing scenarios
+*** Need for buy-in and participation from all stakeholders
+@endmindmap

@@ -1,0 +1,15 @@
+@startmindmap
+title Complexity and its Types
+
+* **Complexity**
+** **Definition:** the degree of difficulty in understanding or predicting a system
+** **Types of Complexity**
+*** **Structural Complexity:** the degree of interconnectedness among system components
+**** **Examples:** Coupling, Cohesion, Dependency, Inheritance
+*** **Behavioral Complexity:** the degree of unpredictability in system behavior
+**** **Examples:** Non-determinism, Concurrency, Event-Driven, Feedback Loops
+*** **Cognitive Complexity:** the degree of difficulty in understanding the system
+**** **Examples:** Abstraction, Indirection, Levels of Indirection, Side Effects
+*** **Temporal Complexity:** the degree of difficulty in reasoning about system behavior over time
+**** **Examples:** Statefulness, Lifetimes, State Transitions
+@endmindmap

@@ -1,0 +1,42 @@
+@startmindmap
+
+title = __Best 9 Architectural Characteristics__
+
+* Best 9 Architectural Characteristics
+** Modifiability
+*** Low coupling
+*** High cohesion
+*** Open/closed principle
+** Testability
+*** Easy to test
+*** Test-driven development (TDD)
+** Scalability
+*** Horizontal scaling
+*** Vertical scaling
+** Security
+*** Authentication
+*** Authorization
+*** Confidentiality
+*** Integrity
+*** Non-repudiation
+** Performance
+*** Responsiveness
+*** Resource utilization
+*** Throughput
+*** Scalability
+*** Reliability
+*** Availability
+** Usability
+*** User experience (UX)
+*** User interface (UI)
+** Reusability
+*** Reusable components
+*** Design patterns
+** Deployability
+*** Continuous integration/continuous deployment (CI/CD)
+*** Containerization
+** Availability
+*** High availability
+*** Disaster recovery
+
+@endmindmap

@@ -1,0 +1,42 @@
+@startmindmap
+title = How to Do TDD
+
+* How to Do TDD
+** Introduction
+*** Definition of TDD
+*** Basic Steps of TDD
+*** Benefits of TDD
+** TDD Process
+*** Red, Green, Refactor Cycle
+*** Writing Tests
+*** Running Tests
+*** Debugging Tests
+*** Refactoring Code
+** Best Practices
+*** Focusing on Small Steps
+*** Keeping Tests Simple
+*** Testing Public Interfaces
+*** Prioritizing Tests
+*** Writing Clean Code
+*** Automating Tests
+** Getting Started with TDD
+*** Choose a Language and Framework
+*** Write Your First Test
+*** Run the Test and Watch It Fail
+*** Write the Minimum Code to Pass the Test
+*** Refactor the Code
+*** Repeat the Red, Green, Refactor Cycle
+** Advanced TDD Techniques
+*** Test-Driven Design
+*** **Outside-In TDD**
+*** Behavior-Driven Development (BDD)
+*** Continuous Integration and Continuous Delivery (CI/CD)
+** Conclusion
+*** Summary
+*** Benefits of TDD
+*** Challenges of TDD
+*** Best Practices for TDD
+*** TDD Process
+*** Getting Started with TDD
+*** Advanced TDD Techniques
+@endmindmap

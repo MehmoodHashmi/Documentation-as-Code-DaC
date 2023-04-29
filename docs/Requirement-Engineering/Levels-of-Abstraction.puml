@@ -1,0 +1,22 @@
+@startmindmap
+title = Levels of Abstraction
+
+* Levels of Abstraction
+** Machine Language
+*** 0's and 1's
+** Assembly Language
+*** Low-level language
+** High-Level Language
+*** Programming Language
+**** C, C++, Java, Python
+** Pseudo Code
+*** Natural language
+** Diagrams
+*** UML, ERD, Flowchart
+** Architecture
+*** Modules, Layers, Components
+** Business Level
+*** Business Processes, Workflows
+** Strategy
+*** Business Goals, Objectives, Vision
+@endmindmap

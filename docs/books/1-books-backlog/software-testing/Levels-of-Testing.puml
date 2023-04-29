@@ -1,0 +1,43 @@
+@startmindmap
+title = Levels of Testing
+
+* Levels of Testing
+
+** Unit Testing
+*** Testing of individual units of code in isolation.
+*** Typically automated with tools such as JUnit or pytest.
+*** Fast and efficient way to catch defects early in development.
+
+** Integration Testing
+*** Testing of the interactions between different units of code.
+*** Can be automated or manual.
+*** Often focuses on testing the integration points between systems or modules.
+
+** System Testing
+*** Testing of the entire system in its operational environment.
+*** Typically manual, although some aspects may be automated.
+*** Focuses on validating the system's functionality, performance, and security.
+
+** Acceptance Testing
+*** Testing to ensure that the system meets the stakeholders' needs and requirements.
+*** Typically manual, although some aspects may be automated.
+*** Includes testing from a user's perspective and may involve real-world scenarios.
+
+** Regression Testing
+*** Re-testing of previously tested functionality after changes are made.
+*** Helps ensure that changes do not introduce new defects or break existing functionality.
+
+** Performance Testing
+*** Testing to evaluate the system's responsiveness and scalability under different loads.
+*** Typically automated with tools such as JMeter or Gatling.
+
+** Security Testing
+*** Testing to identify and address security vulnerabilities in the system.
+*** Includes testing for vulnerabilities such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF).
+
+** Usability Testing
+*** Testing to ensure that the system is easy to use and meets the needs of its users.
+*** Typically manual, although some aspects may be automated.
+*** Includes testing for factors such as accessibility, clarity of instructions, and ease of navigation.
+
+@endmindmap

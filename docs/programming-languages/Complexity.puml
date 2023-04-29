@@ -1,0 +1,23 @@
+@startmindmap
+* Complexity
+** Types
+*** **Essential complexity:** arises from selection fo programing languages, frameworks and development methodologies (waterfall, agile)
+*** **Accidental complexity:** inherent to the problem domain itself
+** Causes
+*** Scope
+*** Ambiguity
+*** Changes
+*** Concurrency
+*** Scale
+** Consequences
+*** Time
+*** Cost
+*** Risk
+*** Quality
+** Strategies
+*** Divide and conquer
+*** Abstraction
+*** Simplification
+*** Standardization
+*** Automation
+@endmindmap

@@ -1,0 +1,30 @@
+@startmindmap
+title = BDD (Behavior-Driven Development) Process
+
+* **BDD** (Behavior-Driven Development) **Process**
+** **1. Discovery**
+*** Identify stakeholders and team members
+*** Determine the scope of the project
+*** Gather requirements and define features
+*** Collaboratively define examples of desired behavior
+*** Identify acceptance criteria
+** **2. Formulation**
+*** Write scenarios using the given-when-then format
+*** Collaboratively refine scenarios and examples
+*** Identify gaps in understanding and knowledge
+*** Determine how to automate scenarios
+** **3. Automation**
+*** Write automated tests using a BDD framework such as Cucumber or Behave
+*** Implement the necessary code to make the tests pass
+*** Continuously integrate and test the code
+*** Monitor the build and test results
+** **4. Validation**
+*** Review the automated tests and code implementation
+*** Ensure that the desired behavior is correctly implemented
+*** Verify that all acceptance criteria are met
+** **5. Delivery**
+*** Release the software to production or other environments
+*** Monitor the behavior of the software in production
+*** Collect feedback from users and stakeholders
+*** Identify areas for improvement and iteration
+@endmindmap

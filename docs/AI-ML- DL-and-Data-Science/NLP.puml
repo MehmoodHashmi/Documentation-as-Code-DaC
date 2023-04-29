@@ -1,0 +1,39 @@
+@startmindmap
+title =__ NLP__
+
+* NLP
+** Core Concepts
+*** Syntax
+**** Part of speech tagging
+**** Parsing
+*** Semantics
+**** Named entity recognition
+**** Sentiment analysis
+**** Topic modeling
+*** Discourse
+**** Co-reference resolution
+**** Coreference chains
+** Applications
+*** Machine Translation
+*** Sentiment Analysis
+*** Chatbots
+*** Speech Recognition
+*** Text Summarization
+** Techniques
+*** Rule-based
+*** Machine Learning-based
+**** Supervised learning
+**** Unsupervised learning
+**** Semi-supervised learning
+**** Reinforcement learning
+*** Deep Learning
+**** Convolutional Neural Networks
+**** Recurrent Neural Networks
+**** Transformer
+** Challenges
+*** Ambiguity
+*** Polysemy
+*** Named entity disambiguation
+*** Sentiment polarity
+*** Language variation
+@endmindmap

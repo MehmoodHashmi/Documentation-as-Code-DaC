@@ -1,0 +1,34 @@
+@startmindmap
+title = Statistical Control
+
+* Statistical Control
+** Definition
+*** The use of statistical techniques to determine whether a process is in control or out of control.
+** Process
+*** Collect data
+*** Plot data on a control chart
+*** Calculate control limits
+*** Monitor process data for signals of special causes
+** Benefits
+*** Provides a quantitative basis for process control
+*** Enables early detection of process shifts or drifts
+*** Facilitates the identification of special causes of variation
+** Control Charts
+*** X-bar and R charts
+*** X-bar and s charts
+*** Individuals and moving range charts
+*** p and np charts
+*** c and u charts
+** Key Concepts
+*** Common cause variation
+*** Special cause variation
+*** In-control process
+*** Out-of-control process
+** Steps for Implementation
+*** Determine the process to be monitored
+*** Choose the appropriate control chart
+*** Collect data and calculate control limits
+*** Plot data on the control chart and monitor for signals of special causes
+*** Investigate and eliminate special causes of variation
+*** Revise the control chart as necessary
+@endmindmap

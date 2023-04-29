@@ -1,0 +1,43 @@
+@startmindmap
+title =__ Reliability vs Robustness__
+
+* __ Reliability vs Robustness__
+
+** Definition
+*** Reliability: Ability of a system to perform its intended function under specified conditions for a specified period of time.
+*** Robustness: Ability of a system to continue functioning even when there are problems, errors or faults in the system or its environment.
+** Characteristics
+*** Reliability
+**** Failure rate is low
+**** Predictable behavior
+**** High availability
+**** Fault tolerance
+*** Robustness
+**** Fault tolerant
+**** Can handle unexpected inputs
+**** Able to recover from errors
+**** High resilience
+** Importance
+*** Reliability
+**** Critical for systems with low tolerance for failure or errors, such as medical equipment or aviation systems
+**** Important for systems with high cost of failure, such as financial or trading systems
+*** Robustness
+**** Critical for systems with unpredictable inputs or environments, such as internet-connected systems or mobile applications
+**** Important for systems where downtime can result in loss of revenue or reputation, such as e-commerce or social media platforms
+** Achieving
+*** Reliability
+**** Robust testing
+**** Redundancy and fault tolerance
+**** Effective error handling and recovery
+**** Monitoring and maintenance
+*** Robustness
+**** Anticipating and handling unexpected inputs and events
+**** Defensive programming
+**** Effective error handling and recovery
+**** Monitoring and maintenance
+** Trade-offs
+*** Reliability
+**** Can come at the cost of complexity and increased development and maintenance time and cost.
+*** Robustness
+**** Can come at the cost of decreased performance and increased development and maintenance time and cost.
+@endmindmap

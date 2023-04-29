@@ -1,0 +1,44 @@
+@startmindmap
+title = Lightweight Process
+
+* Lightweight Process
+
+** Definition
+*** A software development process that emphasizes flexibility, speed, and agility over formal processes and heavy documentation.
+
+** Characteristics
+*** Emphasis on communication and collaboration
+*** Iterative and incremental development
+*** Continuous delivery and integration
+*** Rapid prototyping and experimentation
+*** Minimal or no formal documentation
+*** Lean and flexible management and decision-making
+
+** Benefits
+*** Faster time-to-market and delivery
+*** Improved agility and adaptability
+*** Reduced overhead and costs
+*** Improved collaboration and communication
+*** Increased customer satisfaction and feedback
+
+** Practices
+*** Agile software development methodologies (e.g., Scrum, Kanban)
+*** Continuous delivery and integration
+*** Test-driven development (TDD)
+*** Pair programming and code reviews
+*** Lean and flexible project management
+*** Customer-centric design and feedback loops
+
+** Tools
+*** Version control systems (e.g., Git)
+*** Continuous integration and deployment tools (e.g., Jenkins)
+*** Agile project management tools (e.g., Jira)
+*** Collaboration and communication tools (e.g., Slack)
+
+** Examples
+*** Agile software development methodologies (e.g., Scrum, Kanban)
+*** Lean startup methodology
+*** DevOps practices
+*** Continuous delivery and integration frameworks (e.g., Jenkins, Travis CI)
+
+@endmindmap

@@ -1,0 +1,47 @@
+@startmindmap
+title = Usability
+
+* Usability
+** Definition
+*** The degree to which software can be used by specified consumers to achieve quantified objectives with effectiveness, efficiency, and satisfaction in a quantified context of use. (ISO 9241-11)
+** User-Centered Design
+*** Involving users in the design process to create usable and effective software
+*** Steps
+**** Understand the users and their needs
+**** Define user requirements
+**** Design the interface
+**** Develop the prototype
+**** Test with users and refine
+** User Interface (UI) Design Principles
+*** Visibility
+*** Feedback
+*** Consistency
+*** Efficiency
+*** Simplicity
+*** Forgiveness
+*** Attractiveness
+** Usability Testing
+*** Evaluating the usability of software by testing it with real users
+*** Methods
+**** Observational studies
+**** Surveys and questionnaires
+**** Usability testing labs
+**** Automated usability testing
+** Accessibility
+*** Designing software to be usable by people with disabilities
+*** Principles
+**** Perceivable
+**** Operable
+**** Understandable
+**** Robust
+** Heuristics
+*** General usability guidelines to evaluate software
+*** Examples
+**** Nielsen's heuristics
+**** Schneiderman's Eight Golden Rules
+** Tools for Usability
+*** Wireframing tools
+*** Prototyping tools
+*** User testing tools
+*** Analytics tools
+@endmindmap

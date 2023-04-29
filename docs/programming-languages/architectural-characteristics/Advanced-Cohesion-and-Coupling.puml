@@ -1,0 +1,69 @@
+@startmindmap
+title = Advanced Cohesion and Coupling
+
+
+* Advanced Cohesion and Coupling
+** Cohesion
+*** Functional Cohesion
+**** Sequential Cohesion
+**** Communicational Cohesion
+**** Procedural Cohesion
+**** Temporal Cohesion
+**** Logical Cohesion
+**** Informational Cohesion
+**** Transactional Cohesion
+**** Security Cohesion
+**** Contextual Cohesion
+**** Structural Cohesion
+**** Functional Cohesion in OOP
+***** Low Coupling, High Cohesion
+***** Encapsulation
+***** Single Responsibility Principle
+***** Open-Closed Principle
+***** Liskov Substitution Principle
+***** Interface Segregation Principle
+***** Dependency Inversion Principle
+**** Advantages of Functional Cohesion
+***** Easy to Maintain
+***** Code Reusability
+***** Easy to Test
+***** Scalability
+*** Cohesion Metrics
+**** LCOM (Lack of Cohesion of Methods)
+**** CBO (Coupling Between Objects)
+**** RFC (Response for a Class)
+**** DIT (Depth of Inheritance Tree)
+**** NOC (Number of Children)
+**** WMC (Weighted Methods per Class)
+**** Fan-in/Fan-out
+** Coupling
+*** Tight Coupling
+**** Hardcoded Dependencies
+**** High Coupling
+**** Direct Dependencies
+**** Cyclic Dependencies
+**** Tight Coupling in OOP
+***** Strong Dependency
+***** High Dependency
+***** Inflexibility
+***** Difficult to Test
+*** Loose Coupling
+**** Indirect Dependencies
+**** Dependency Injection
+**** Event-Driven Architecture
+**** Service-Oriented Architecture
+**** Message-Oriented Middleware
+**** RESTful Web Services
+**** Microservices Architecture
+**** Loose Coupling in OOP
+***** Easy to Test
+***** Flexibility
+***** Code Reusability
+***** Maintainability
+*** Coupling Metrics
+**** CBO (Coupling Between Objects)
+**** DIT (Depth of Inheritance Tree)
+**** NOC (Number of Children)
+**** Fan-in/Fan-out
+**** Coupling Factor
+@endmindmap

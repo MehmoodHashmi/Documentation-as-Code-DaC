@@ -1,0 +1,33 @@
+@startmindmap
+title = Modularity
+
+* Modularity
+** Definition
+*** A design principle that divides the system into smaller parts/modules that can be independently developed and modified.
+** Advantages
+*** Encourages code reuse
+*** Increases maintainability and testability
+*** Reduces complexity
+*** Promotes parallel development
+*** Allows for easier debugging
+** Types of Modularity
+*** Logical Modularity
+**** Separation of functionality based on logical components
+**** E.g. 3-tier architecture, MVC architecture
+*** Physical Modularity
+**** Separation of functionality based on physical components
+**** E.g. Microservices architecture, Containerization
+** Modularity Metrics
+*** Cohesion
+**** The degree to which the elements of a module are functionally related
+**** Types: Coincidental, Logical, Temporal, Procedural, Communicational, Sequential, Functional
+*** Coupling
+**** The degree to which a module depends on other modules
+**** Types: Content, Common, Control, Stamp, Data, Message, Uncoupled
+** Best Practices
+*** Encapsulate logic within modules
+*** Reduce module coupling
+*** Increase module cohesion
+*** Follow modular design principles such as SOLID
+*** Use well-defined interfaces for communication between modules
+@endmindmap

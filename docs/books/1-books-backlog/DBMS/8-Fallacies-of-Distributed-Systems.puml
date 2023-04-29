@@ -1,0 +1,21 @@
+@startmindmap
+title = 8 Fallacies of Distributed Systems
+
+* **8 Fallacies of Distributed Systems**
+** **The Network Is Reliable**
+*** **Example:** An **application** assumes that network packets will always arrive at their destination, but in reality, network congestion or failures can cause packets to be lost.
+** Latency Is Zero
+*** **Example:** An **application** assumes that communication between two nodes is instantaneous, but in reality, there is always some delay due to network distance, routing, and processing time.
+** Bandwidth Is Infinite
+*** **Example:** An **application** assumes that it can transfer an unlimited amount of data over the network, but in reality, there are limitations on the available bandwidth that can affect performance.
+** **The Network Is Secure**
+*** **Example:** An **application** assumes that data transmitted over the network is safe from unauthorized access or modification, but in reality, the network can be vulnerable to \nattacks such as eavesdropping or data interception.
+** Topology Doesn't Change
+*** **Example:** An **application** assumes that the network topology is static and unchanging, but in reality, network configurations can change due to hardware failures, \nsoftware updates, or changes in traffic patterns.
+** **There Is One Administrator**
+*** **Example:** An **application** assumes that there is a single point of control for the entire distributed system, but in reality, there may be multiple \nadministrators with different levels of access and control.
+** Transport Cost Is Zero
+*** **Example:** An **application** assumes that there is no cost associated with transmitting data over the network, but in reality, there may be costs such as network usage \nfees or resource utilization that must be considered.
+** **The Network Is Homogeneous**
+*** **Example:** An **application** assumes that all nodes in the network have the same capabilities and operating environment, but in reality, there may be differences in \nhardware, software, or network protocols that can affect compatibility and performance.
+@endmindmap

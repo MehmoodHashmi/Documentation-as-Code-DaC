@@ -1,0 +1,32 @@
+@startmindmap
+title = Intellectual Control-1
+
+* Intellectual Control
+** Definition
+*** The process of controlling software complexity by identifying and removing complexity wherever possible.
+** Techniques
+*** Abstraction
+**** Hiding unnecessary details and focusing on essential ones.
+**** Encapsulation
+***** Grouping related information and functionality together and hiding them from the rest of the system.
+*** Refactoring
+**** The process of improving the quality and structure of existing code without changing its external behavior.
+**** Helps to reduce complexity and increase maintainability.
+*** Modularization
+**** Breaking down a large system into smaller, more manageable modules.
+**** Each module should have a well-defined purpose and interface.
+*** Design Patterns
+**** Commonly used solutions to recurring design problems.
+**** Encapsulate knowledge about best practices for designing software.
+*** Test-Driven Development (TDD)
+**** Writing tests before writing the code.
+**** Helps to ensure the code is correct and maintainable.
+*** Continuous Integration (CI)
+**** Integrating and testing changes frequently.
+**** Helps to identify problems early in the development cycle.
+** Benefits
+*** Reduced complexity
+*** Improved maintainability
+*** Improved code quality
+*** Improved developer productivity
+@endmindmap

@@ -1,0 +1,43 @@
+@startmindmap
+title = Elasticity
+
+* Elasticity
+** Definition
+*** Ability to dynamically allocate and deallocate resources
+*** Maintain required quality of service (QoS)
+** Key Aspects
+*** Scalability
+**** Horizontal
+**** Vertical
+*** Auto-scaling
+**** Reactive scaling
+**** Proactive scaling
+*** Resilience
+**** Fault tolerance
+**** High availability
+*** Performance optimization
+**** Load balancing
+**** Caching
+**** Compression
+**** Sharding
+** Benefits
+*** Cost-effectiveness
+*** Improved QoS
+*** Higher availability and resilience
+*** Increased performance and efficiency
+** Challenges
+*** Complexity
+*** Performance overhead
+*** Compatibility issues
+*** Security concerns
+** Tools and Technologies
+*** Elastic Load Balancing (ELB)
+*** Auto Scaling
+*** Amazon EC2 Auto Scaling
+*** Kubernetes
+*** Istio
+*** Envoy
+*** Netflix Hystrix
+*** Apache Stratos
+*** Cloud Foundry
+@endmindmap

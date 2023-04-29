@@ -1,0 +1,30 @@
+@startmindmap
+* Cohesion and Coupling
+** Cohesion
+*** High Cohesion
+**** Functional Cohesion
+**** Sequential Cohesion
+**** Communicational Cohesion
+**** Procedural Cohesion
+**** Temporal Cohesion
+**** Logical Cohesion
+**** Informational Cohesion
+**** Coincidental Cohesion
+*** Low Cohesion
+**** Content Coupling
+**** Common Coupling
+**** Control Coupling
+**** Stamp Coupling
+**** Data Coupling
+**** Message Coupling
+**** No Coupling
+** Coupling
+*** Tight Coupling
+*** Loose Coupling
+*** Data Coupling
+*** Stamp Coupling
+*** Control Coupling
+*** Common Coupling
+*** Content Coupling
+*** External Coupling
+@endmindmap

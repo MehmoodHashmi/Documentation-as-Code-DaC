@@ -1,0 +1,43 @@
+@startmindmap
+
+title = __On the Criteria To Be Used in Decomposing Systems into Modules" by David Parnas, 1972__
+
+* On the Criteria To Be Used in \nDecomposing Systems into Modules" \nby David Parnas, 1972
+** Key takeaways
+*** Module independence
+**** Each module should have a well-defined and limited interface
+**** Modules should be designed to minimize interaction with other modules
+*** Information hiding
+**** Modules should hide design decisions that are likely to change
+**** Modules should hide details of other modules' implementation
+*** Abstraction
+**** Each module should represent a single abstraction
+**** The internal workings of each module should be hidden
+*** Hierarchical organization
+**** The system should be decomposed into a hierarchy of modules
+**** Each module should be at a level of abstraction appropriate to its function
+** Benefits of modularity
+*** Improved maintainability
+**** Changes to one module should have minimal impact on other modules
+**** Modules can be tested independently
+*** Improved reusability
+**** Modules can be reused in other systems or projects
+**** Modules can be shared across a team or organization
+*** Improved understandability
+**** Modules can be understood and modified in isolation
+**** The system's overall design can be more easily understood
+** Challenges in achieving modularity
+*** Identifying and defining module boundaries
+**** Requires a thorough understanding of the system's requirements and design
+**** May require iterations and adjustments as the system evolves
+*** Managing dependencies between modules
+**** Changes to one module can impact many others
+**** Requires careful design and maintenance of module interfaces
+*** Balancing modularity with performance and efficiency
+**** Modular systems may require more overhead than monolithic ones
+**** May require careful consideration of performance-critical modules
+** Conclusion
+*** Modularity is an important principle for software design
+*** Requires careful consideration of module boundaries, information hiding, abstraction, and hierarchy
+*** Benefits include improved maintainability, reusability, and understandability
+@endmindmap

@@ -1,0 +1,26 @@
+@startmindmap
+title = TDD Process
+
+* TDD Process
+** Red, Green, Refactor Cycle
+*** **Red:** Write a failing test
+*** **Green:** Write the minimal code to pass the test
+*** **Refactor:** Improve the code without changing its behavior
+** Writing Tests
+*** Test the behavior, not the implementation
+*** Use meaningful test names
+*** Write the smallest possible test first
+*** Keep tests simple and independent
+** Running Tests
+*** Run tests frequently
+*** Use automated test runners
+*** Keep track of test results
+** Debugging Tests
+*** Use debugging tools to locate problems
+*** Follow the red-green-refactor cycle
+*** Isolate the problem area with unit tests
+** Refactoring Code
+*** Remove duplication
+*** Simplify code
+*** Improve design
+@endmindmap

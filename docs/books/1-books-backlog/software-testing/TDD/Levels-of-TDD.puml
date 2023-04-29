@@ -1,0 +1,35 @@
+@startmindmap
+title = Levels of TDD
+
+* Levels of TDD
+
+** **Level 0** - No TDD
+*** No automated tests are written before or after writing code.
+*** Testing is done manually and is often ad hoc.
+*** Little to no feedback is provided during development.
+
+** **Level 1** - Classic TDD
+*** Tests are written before the code is written.
+*** Code is written to pass the tests.
+*** Tests are run frequently during development.
+*** Feedback is provided quickly.
+
+** **Level 2** - Outside-In TDD
+*** Tests are written for the highest level of functionality first.
+*** Tests are used to drive the development of lower-level functionality.
+*** Tests are run frequently during development.
+*** Feedback is provided quickly.
+
+** **Level 3** - Acceptance Test-Driven Development (ATDD)
+*** Tests are written in collaboration with stakeholders to define the desired behavior.
+*** Tests are used to drive development from the outside-in.
+*** Tests are run frequently during development.
+*** Feedback is provided quickly.
+
+** **Level 4** - Behavior-Driven Development (BDD)
+*** Tests are written in collaboration with stakeholders to define the desired behavior.
+*** Tests are written in a structured, natural language format that is easy for stakeholders to understand.
+*** Tests are used to drive development from the outside-in.
+*** Feedback is provided quickly.
+
+@endmindmap

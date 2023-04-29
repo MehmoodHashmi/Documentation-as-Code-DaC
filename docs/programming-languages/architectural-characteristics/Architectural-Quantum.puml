@@ -1,0 +1,27 @@
+@startmindmap
+title = Architectural Quantum
+
+* Architectural Quantum
+** Definition
+*** Smallest piece of architecture that can be independently deployed and managed
+** Benefits
+*** Facilitates agile development and deployment
+*** Enables faster time-to-market
+*** Reduces the impact of changes
+** Granularity Levels
+*** Application
+**** Single deployable artifact
+*** Service
+**** Collection of related functionalities exposed through a network API
+*** Component
+**** Independent part of a system that provides specific functionality
+*** Module
+**** Independent part of a system that provides a set of cohesive and related functionalities
+*** Library
+**** Collection of functionalities that can be shared and reused across systems
+** Considerations
+*** Balance between size and complexity
+*** Interoperability and integration with other quanta
+*** Dependency management and versioning
+*** Ownership and responsibility
+@endmindmap

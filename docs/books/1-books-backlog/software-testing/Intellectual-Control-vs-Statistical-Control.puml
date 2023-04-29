@@ -1,0 +1,28 @@
+@startmindmap
+* Intellectual Control vs Statistical Control
+
+** Intellectual Control
+*** Definition: A form of control that involves human judgment and expertise to identify and resolve issues in a system
+*** Examples: Code reviews, unit testing, design reviews, user feedback
+
+** Statistical Control
+*** Definition: A form of control that involves analyzing data to identify and resolve issues in a system
+*** Examples: Performance testing, load testing, A/B testing, monitoring metrics
+
+** Differences
+*** Nature of control
+**** Intellectual control is subjective, relying on human judgment and expertise, while statistical control is objective, relying on data analysis.
+*** Focus
+**** Intellectual control focuses on identifying and resolving issues through human judgment and expertise, while statistical control focuses on identifying and resolving \nissues through data analysis.
+*** Execution
+**** Intellectual control is often carried out manually, while statistical control is often automated.
+*** Timeframe
+**** Intellectual control can occur throughout the software development lifecycle, while statistical control is often focused on production systems.
+
+** Similarities
+*** Purpose
+**** Both intellectual and statistical control aim to identify and resolve issues in a system.
+*** Integration
+**** Both intellectual and statistical control can be integrated into a software development process.
+
+@endmindmap

@@ -1,0 +1,20 @@
+@startmindmap
+title =  Scalability
+
+* Scalability
+** Horizontal
+*** Load balancing
+*** Stateless architecture
+*** Microservices
+** Vertical
+*** Scaling up hardware
+*** Optimizing code and algorithms
+** Diagonal
+*** Combination of horizontal and vertical scaling
+*** Auto-scaling
+*** Elasticity
+** Challenges
+*** Bottlenecks
+*** Database scalability
+*** Network latency
+@endmindmap
