@@ -1,0 +1,26 @@
+@startmindmap
+title =__ Design Principles__
+
+* Design Principles
+
+** SOLID
+*** Single Responsibility Principle (SRP)
+*** Open-Closed Principle (OCP)
+*** Liskov Substitution Principle (LSP)
+*** Interface Segregation Principle (ISP)
+*** Dependency Inversion Principle (DIP)
+
+** DRY (Don't Repeat Yourself)
+
+** KISS (Keep It Simple, Stupid)
+
+** YAGNI (You Ain't Gonna Need It)
+
+** Composition over Inheritance
+
+** Law of Demeter (LoD)
+*** Principle of Least Knowledge
+
+** Separation of Concerns (SoC)
+
+@endmindmap

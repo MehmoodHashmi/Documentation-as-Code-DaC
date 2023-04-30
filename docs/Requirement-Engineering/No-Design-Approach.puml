@@ -1,0 +1,22 @@
+@startmindmap
+
+title =__No Design Approach__\nThis script creates a mindmap with the central topic "No Design Approach" and two main branches: "Implementation" and "Deployment." This approach is generally considered to be a \nhigh-risk strategy as there is no upfront planning or design, which can lead to unforeseen issues and errors during implementation. However, some proponents of agile development may argue that a certain \nlevel of design is still present in the form of continuous planning and feedback loops throughout the development process.
+
+
+
+
+
+
+* Implementation
+** Coding
+** Debugging
+** Integration
+** Testing
+*** Unit Testing
+*** Integration Testing
+*** System Testing
+* Deployment
+** Installation
+** Maintenance
+
+@endmindmap

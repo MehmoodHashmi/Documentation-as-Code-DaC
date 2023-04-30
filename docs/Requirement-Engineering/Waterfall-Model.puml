@@ -1,0 +1,28 @@
+@startmindmap
+
+title = Waterfall Model, is good but the iteration (sprint) should be small so that feedback is faster, otherwise it is pure waterfall
+
+* Requirements
+** Gathering
+** Analysis
+** Specification
+* Design
+** System Design
+** Detailed Design
+** Architecture Design
+* Implementation
+** Coding
+** Integration
+** Testing
+*** Unit Testing
+*** Integration Testing
+*** System Testing
+* Deployment
+** Installation
+** Maintenance
+* Feedback
+** Customer Acceptance
+** User Feedback
+** Maintenance Feedback
+
+@endmindmap

@@ -1,0 +1,25 @@
+@startmindmap
+
+title =__Evolutionary Design Approach__\nThe approach is based on the idea that <color #118888>**design and architecture should evolve over time in response to changing requirements and feedback from stakeholders.**</color>\nThis approach advocates for an agile and flexible approach to design, with a focus on delivering value to stakeholders and improving the quality of the product over time.
+
+* Iterative Design
+** Continuous Feedback
+** Incremental Improvements
+** Continuous Refactoring
+* Emergent Design
+** Simple Design
+** Code Smells
+** Refactoring
+** Evolutionary Architecture
+* Collaboration
+** Pair Programming
+** Code Reviews
+** Collective Ownership
+** Continuous Integration
+* Quality Assurance
+** Automated Testing
+** Test-Driven Development (TDD)
+** Acceptance Testing
+** Continuous Delivery
+
+@endmindmap

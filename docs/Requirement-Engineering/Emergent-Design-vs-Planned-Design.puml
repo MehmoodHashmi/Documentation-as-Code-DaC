@@ -1,0 +1,22 @@
+@startmindmap
+
+title = Emergent Design vs Planned Design
+
+* Emergent Design
+** Continuous Refactoring
+** Evolutionary Architecture
+** Test-Driven Development (TDD)
+** Emergent Requirements
+** Minimal Upfront Design
+** Flexibility and Adaptability
+** Emphasis on Collaboration
+* Planned Design
+** Formal Design Process
+** Comprehensive Documentation
+** Detailed Upfront Planning
+** Strict Control and Management
+** Risk Management
+** Emphasis on Predictability
+** Clear Accountability
+
+@endmindmap

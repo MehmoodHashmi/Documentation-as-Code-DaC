@@ -1,0 +1,38 @@
+@startmindmap
+
+title = Planned Design, same like BUFD
+
+* Requirements Gathering
+** Identifying Stakeholders
+** Eliciting Requirements
+*** Interviews
+*** Surveys
+*** Prototyping
+** Prioritizing Requirements
+*** Must-Haves
+*** Should-Haves
+*** Nice-to-Haves
+* Design Specifications
+** High-Level Design
+*** System Architecture
+*** Data Models
+*** Use Cases
+** Detailed Design
+*** Class Diagrams
+*** Sequence Diagrams
+*** Activity Diagrams
+*** State Diagrams
+* Implementation
+** Coding
+** Debugging
+** Integration
+** Testing
+*** Unit Testing
+*** Integration Testing
+*** System Testing
+* Maintenance
+** Bug Fixes
+** Enhancements
+** Upgrades
+
+@endmindmap

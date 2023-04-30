@@ -1,0 +1,31 @@
+@startmindmap
+
+title = __BUFD Approach, usally in waterfall and sometimes also in agile, another name of BUFD is over-engineering; actually this is an anit-pattern__
+
+* Requirements
+** Gathering
+** Analysis
+** Specification
+* Architecture
+** High-Level Design
+*** System Architecture
+*** Data Models
+*** Use Cases
+** Detailed Design
+*** Class Diagrams
+*** Sequence Diagrams
+*** Activity Diagrams
+*** State Diagrams
+* Implementation
+** Coding
+** Debugging
+** Integration
+** Testing
+*** Unit Testing
+*** Integration Testing
+*** System Testing
+* Deployment
+** Installation
+** Maintenance
+
+@endmindmap

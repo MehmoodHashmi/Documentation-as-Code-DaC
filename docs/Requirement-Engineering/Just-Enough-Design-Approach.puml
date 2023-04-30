@@ -1,0 +1,29 @@
+@startmindmap
+
+title =__Just Enough Design Approach__
+
+* Requirements
+** Stakeholder Analysis
+** User Stories
+** Use Cases
+** Acceptance Criteria
+* Design
+** High-Level Design
+*** Architecture Design
+*** Data Models
+*** Interface Design
+** Detailed Design
+*** Class Diagrams
+*** Sequence Diagrams
+*** Activity Diagrams
+*** State Diagrams
+* Implementation
+** Agile Development
+** Test-Driven Development (TDD)
+** Refactoring
+* Deployment
+** Continuous Delivery
+** DevOps
+** Continuous Feedback
+
+@endmindmap

@@ -1,0 +1,68 @@
+@startmindmap
+
+title =__Ola Bini's Language Pyramid__
+
+* Definition
+** The Language Pyramid is a conceptual model created by Ola Bini to describe the relationship between different programming languages based on their **level of abstraction and complexity.**
+*[#pink] **Levels**
+** Assembly Language
+*** Lowest level of programming language that is still considered human-readable.
+** Procedural Languages
+*** Languages that follow a step-by-step approach to programming.
+**** Examples: C, Fortran
+** Object-Oriented Languages
+*** Languages that use objects to represent data and behavior.
+**** Examples: Java, C++
+** Declarative Languages
+*** Languages that focus on describing the desired outcome rather than the step-by-step process of achieving it.
+**** Examples: SQL, HTML
+** Domain-Specific Languages
+*** Languages that are designed for specific tasks or domains.
+**** Examples: LaTeX, Make, XML, Kotlin DSL, Groovy DSL, Terraform DSL
+* Pros and Cons
+** Assembly Language
+*** Pros: Low-level control over hardware, high performance.
+*** Cons: Difficult to write and maintain, platform-specific.
+** Procedural Languages
+*** Pros: Efficient and fast, good for low-level system programming.
+*** Cons: Code can become complex and hard to maintain, limited abstraction.
+** Object-Oriented Languages
+*** Pros: Encapsulation and modularity, easy to reuse code.
+*** Cons: Overhead from object creation, potential performance issues.
+** Declarative Languages
+*** Pros: Focus on outcomes, easy to read and understand.
+*** Cons: Limited control over the process, may be less efficient.
+** Domain-Specific Languages
+*** Pros: Tailored to specific tasks, easy to use.
+*** Cons: May require specialized knowledge, limited flexibility.
+* **Usage**
+** Choosing the appropriate language depends on the project requirements and constraints.
+** Hybrid approaches can be used to combine the strengths of different language levels.
+** Polyglot programming can be used to use different languages for different parts of the system.
+* **Ola Bini's Perspective**
+** Language Pyramid can help developers understand the trade-offs and strengths of different language levels.
+** There is no one-size-fits-all solution, and the best approach depends on the specific project.
+** **Language design should consider the benefits of abstraction, modularity, and maintainability.**
+
+* System Based on Ola Bini's Language Pyramid
+
+** Domain Layer
+*** SQL
+*** HTML/CSS, \tXML/YML
+*** Kotlin DSL, Groovy DSL, Terraform DSL, plumini, jenkins DSL
+*** R
+*** Julia
+
+** Dynamic Layer
+*** Python
+*** Ruby
+*** JavaScript
+*** Groovy
+
+** Static Layer
+*** C
+*** C++
+*** Java
+*** kotlin
+
+@endmindmap

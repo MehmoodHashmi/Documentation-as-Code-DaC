@@ -1,0 +1,31 @@
+@startmindmap
+
+title Emergent Design, something like Agile
+
+* Iterative Development
+** Continuous Feedback
+*** Collecting Feedback
+*** Incorporating Feedback
+** Refactoring
+*** Identifying Code Smells
+*** Cleaning Up Code
+*** Reducing Technical Debt
+* Collaborative Design
+** Pair Programming
+** Code Reviews
+** Communication
+*** Team Meetings
+*** Documentation
+*** Knowledge Sharing
+* Test-Driven Development
+** Writing Tests First
+** Test-Driven Refactoring
+** Regression Testing
+* Simple Design
+** KISS (Keep It Simple, Stupid)
+** YAGNI (You Ain't Gonna Need It)
+** Single Responsibility Principle
+** Loose Coupling
+** High Cohesion
+
+@endmindmap

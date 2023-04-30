@@ -1,0 +1,32 @@
+@startmindmap
+
+title = Agile Methodology
+
+* Agile Manifesto
+** Individuals and Interactions over Processes and Tools
+** Working Software over Comprehensive Documentation
+** Customer Collaboration over Contract Negotiation
+** Responding to Change over Following a Plan
+* Agile Frameworks
+** Scrum
+** Kanban
+** Extreme Programming (XP)
+* Agile Practices
+** User Stories
+** Sprint Planning
+** Daily Standups
+** Retrospectives
+** Continuous Integration
+** Continuous Delivery
+** Pair Programming
+** Test-Driven Development
+* Agile Principles
+** Customer Satisfaction
+** Incremental Delivery
+** Adaptive Planning
+** Face-to-Face Communication
+** Continuous Improvement
+** Sustainable Pace
+** Technical Excellence
+
+@endmindmap

@@ -1,0 +1,29 @@
+@startmindmap
+
+title =__ Read-Eval-Print Loop (REPL)__
+
+* Read-Eval-Print Loop (REPL)
+** Definition
+*** A programming environment that allows you to interactively evaluate and run code
+** Components
+*** Read
+**** Parses the user's input
+*** Eval
+**** Evaluates the parsed input as a program
+*** Print
+**** Outputs the result of the evaluation to the user
+** Advantages
+*** Faster feedback loop than traditional compile-run cycles
+*** Allows for exploratory programming and rapid prototyping
+*** Helpful for testing and debugging small pieces of code
+** Disadvantages
+*** Lack of compile-time error checking
+*** Can be difficult to scale to larger codebases
+*** Not suitable for use in production environments
+** Examples
+*** Python REPL (interactive mode)
+*** Ruby IRB (Interactive Ruby)
+*** Node.js REPL
+*** Lisp REPL
+
+@endmindmap

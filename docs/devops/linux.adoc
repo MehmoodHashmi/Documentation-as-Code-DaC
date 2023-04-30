@@ -47,7 +47,9 @@ image::images/docker-register-and-docker-dameon.png[]
 
 . https://www.youtube.com/watch?v=Fjy4gUB_asM&list=LL&index=12&ab_channel=TechSolutionZ[How to Install Ubuntu 22.04 Jammy Jellyfish with Manual Partitions | Ubuntu Manual Partitions Linux]
 
-. https://www.youtube.com/watch?v=8rmDF-5IxeI&list=LL&index=1&t=47s&ab_channel=RollyYesputra[How to Install on Linux visual paradigm]
+. https://www.youtube.com/watch?v=8rmDF-5IxeI&list=LL&index=1&t=47s&ab_channel=RollyYesputra[*How to Install on Linux visual paradigm*]
+** *run this command: #sudo chmod 755 Visual_Paradigm_17_0_20230401_Linux64.sh#*
+** *now run this command: #./Visual_Paradigm_17_0_20230401_Linux64.sh#*
 
 
 ====

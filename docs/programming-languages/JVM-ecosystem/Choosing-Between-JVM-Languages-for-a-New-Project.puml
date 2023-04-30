@@ -19,15 +19,15 @@ title = __Choosing Between JVM Languages for a New Project__
 ** Java
 *** Mature language with large community
 *** Strongly typed with high level of abstraction
-*** Good for enterprise applications and large-scale systems
+*** Good for enterprise applications and **large-scale systems**
 ** Kotlin
 *** Modern language with good Java interoperability
 *** Concise syntax and expressive language features
-*** Good for building Android apps and backend services
+*** Good for building Android apps and **backend services**
 ** Scala
 *** Object-oriented and functional language
 *** High-level abstractions and powerful type system
-*** Good for building high-performance and distributed systems
+*** Good for building **high-performance and distributed systems**
 ** Groovy
 *** Dynamic language with a simple syntax
 *** Good for scripting and rapid prototyping
@@ -35,7 +35,7 @@ title = __Choosing Between JVM Languages for a New Project__
 ** Clojure
 *** Functional language with a focus on immutability and concurrency
 *** Dynamic and interactive development style
-*** Good for building highly concurrent and distributed systems
+*** Good for building **highly concurrent and distributed systems**
 
 * Decision Factors
 ** Project requirements

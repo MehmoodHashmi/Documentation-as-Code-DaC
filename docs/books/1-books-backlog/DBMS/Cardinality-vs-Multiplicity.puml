@@ -1,0 +1,23 @@
+@startmindmap
+
+title =__ Cardinality vs Multiplicity__
+
+* Cardinality vs Multiplicity
+
+** Cardinality
+*** Definition: The number of instances of an entity that can be associated with another entity.
+*** Types:
+**** One-to-One
+**** One-to-Many
+**** Many-to-One
+**** Many-to-Many
+
+** Multiplicity
+*** Definition: The number of times an instance in one entity can be related to instances in another entity.
+*** Types:
+**** Optional (0..1)
+**** Mandatory (1)
+**** Zero or Many (0..*)
+**** One or Many (1..*)
+
+@endmindmap

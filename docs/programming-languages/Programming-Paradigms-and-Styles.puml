@@ -1,0 +1,18 @@
+@startmindmap
+title =__ Programming Paradigms and Styles__
+
+* Programming Paradigms and Styles
+
+** **Imperative Programming**
+*** Procedural Style
+*** Object-Oriented Style
+
+** **Functional Programming**
+*** Purely Functional Style
+*** Higher-Order Functions Style
+
+** **Object-Oriented Programming**
+*** Inheritance Style
+*** Composition Style
+
+@endmindmap

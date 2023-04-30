@@ -1,0 +1,49 @@
+@startmindmap
+* Object-Oriented Programming (OOP)
+** Concepts
+*** Abstraction
+*** Encapsulation
+*** Inheritance
+*** Polymorphism
+** Principles
+*** Single Responsibility Principle (SRP)
+*** Open/Closed Principle (OCP)
+*** Liskov Substitution Principle (LSP)
+*** Interface Segregation Principle (ISP)
+*** Dependency Inversion Principle (DIP)
+** Design Patterns
+*** Creational Patterns
+**** Factory Method
+**** Abstract Factory
+**** Builder
+**** Prototype
+**** Singleton
+*** Structural Patterns
+**** Adapter
+**** Bridge
+**** Composite
+**** Decorator
+**** Facade
+**** Flyweight
+**** Proxy
+*** Behavioral Patterns
+**** Chain of Responsibility
+**** Command
+**** Interpreter
+**** Iterator
+**** Mediator
+**** Memento
+**** Observer
+**** State
+**** Strategy
+**** Template Method
+**** Visitor
+** OOP Languages
+*** Java
+*** C++
+*** Python
+*** Ruby
+*** C#
+*** Swift
+*** Kotlin
+@endmindmap

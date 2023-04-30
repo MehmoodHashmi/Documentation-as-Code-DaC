@@ -1,0 +1,27 @@
+@startmindmap
+
+title =__ Performance Testing Process__
+
+* Performance Testing Process
+** Identify Performance Metrics
+*** Response Time
+*** Throughput
+*** Resource Usage
+** Establish Performance Baseline
+*** Run initial tests
+*** Measure baseline metrics
+** Create Performance Tests
+*** Simulate different workloads/scenarios
+*** Measure performance metrics
+** Analyze Test Results
+*** Identify bottlenecks/optimization areas
+** Improve Performance
+*** Optimize algorithms
+*** Cache frequently accessed data
+*** Upgrade hardware
+** Re-run Performance Tests
+*** Evaluate effectiveness of changes
+*** Compare results to baseline
+** Repeat until Performance Targets Met
+
+@endmindmap

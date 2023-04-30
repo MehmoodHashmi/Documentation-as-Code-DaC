@@ -1,0 +1,60 @@
+@startmindmap
+
+title =Design by Capability Approach
+
+* Capabilities
+** Identify business capabilities that need to be supported by the system.
+** Break down capabilities into smaller functional areas.
+** Create a capability map to visualize and communicate the relationships between capabilities.
+* Components
+** Design components that support each capability or functional area.
+** Components should be loosely coupled and highly cohesive.
+** Components should be designed to be reusable and replaceable.
+* Interfaces
+** Design interfaces between components to enable communication and collaboration.
+** Interfaces should be designed to be technology agnostic and future-proof.
+** Interfaces should be designed to be simple and easy to understand.
+* Services
+** Design services that provide access to capabilities.
+** Services should be designed to be technology agnostic and platform-independent.
+** Services should be designed to be easy to use and understand.
+* Benefits
+** Improved Business Alignment: Ensures that the system supports the business capabilities.
+** Improved Agility: Enables the system to evolve and adapt to changing business needs.
+** Improved Modularity: Promotes the creation of reusable and replaceable components.
+** Improved Interoperability: Facilitates the integration of the system with other systems and services.
+** Improved Quality: Enables more effective testing and validation of the system.
+* Applications
+** Enterprise Architecture: Design by Capability can be applied to enterprise architecture.
+** Service-Oriented Architecture: Design by Capability can be applied to service-oriented architecture.
+** Agile Development: Design by Capability can be applied to agile development.
+** DevOps: Design by Capability can be applied to DevOps.
+
+*[#pink] **Definition**
+** A design approach that focuses on identifying and defining business capabilities to drive the design of software systems.
+* Benefits
+** Improves alignment between business needs and technology solutions.
+** Enables more flexible and adaptable systems that can evolve with changing business needs.
+** Promotes modularity and reuse of components.
+** Facilitates integration with other systems and services.
+** Enables more effective testing and validation of the system.
+*[#yellow] **Steps**
+** Identify business capabilities.
+** Break down capabilities into smaller functional areas.
+** Create a capability map to visualize and communicate the relationships between capabilities.
+** Design components that support each capability or functional area.
+** Design interfaces between components to enable communication and collaboration.
+** Design services that provide access to capabilities.
+* Key Principles
+** Capability-driven: The design is driven by business capabilities, rather than technical requirements.
+** Modular: The system is broken down into smaller, more manageable components that can be reused and replaced.
+** Service-oriented: The system is designed as a set of services that provide access to capabilities.
+** Technology agnostic: The system is designed to be technology-independent and able to adapt to changing technology trends.
+* Applications
+** Enterprise Architecture: Design by Capability can be applied to enterprise architecture.
+** Service-Oriented Architecture: Design by Capability can be applied to service-oriented architecture.
+** Agile Development: Design by Capability can be applied to agile development.
+** DevOps: Design by Capability can be applied to DevOps.
+
+
+@endmindmap

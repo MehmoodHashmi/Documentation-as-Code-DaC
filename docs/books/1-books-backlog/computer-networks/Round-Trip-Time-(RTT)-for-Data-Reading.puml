@@ -1,0 +1,42 @@
+@startmindmap
+title = Round Trip Time (RTT) for Data Reading
+
+* RTT: Round Trip Time
+** Definition: The time it takes for a packet to travel from a source device to a destination device and back again.
+** Importance: A critical metric for measuring network performance and reliability.
+**[#yellow] **Factors:** Factors that can affect RTT include network congestion, distance, and device processing time.
+
+*** **Local Device**
+**** Cache L1: ~0.5 nanoseconds
+**** Cache L2: ~7 nanoseconds
+**** Cache L3: ~20 nanoseconds
+**** RAM: ~60 nanoseconds
+**** SSD: ~50,000 nanoseconds
+**** HDD: ~8,000,000 nanoseconds
+
+*** **Same Network**
+**** Local Network: ~0.5-2 milliseconds
+**** Remote Network: ~5-50 milliseconds
+
+*** **Remote Network (Same Country)**
+**** Nearby City: ~10-50 milliseconds
+**** Across the Country: ~30-100 milliseconds
+
+*** **Remote Network (Another Continent)**
+**** Nearby Country: ~100-200 milliseconds
+**** Across the Ocean: ~150-300 milliseconds
+
+** Measurement: RTT can be measured using tools such as ping or traceroute.
+** Optimization: RTT is commonly used to optimize network performance and \ntroubleshoot issues such as latency, packet loss, and bandwidth constraints.
+
+*** Load Balancing: Balancing network traffic across multiple paths to improve RTT and overall performance.
+*** Caching: Storing frequently accessed data closer to the user to reduce RTT.
+*** Compression: Reducing the size of data packets to reduce transmission time and improve RTT.
+
+** Applications: RTT is important for many network applications.
+
+*** VoIP: Real-time communication applications such as Voice over IP (VoIP) rely on low RTT for good quality communication.
+*** Gaming: Multiplayer online games require low RTT to ensure smooth gameplay and minimize lag.
+*** Video Streaming: Video streaming services rely on low RTT to deliver high-quality video content without buffering or interruptions.
+
+@endmindmap

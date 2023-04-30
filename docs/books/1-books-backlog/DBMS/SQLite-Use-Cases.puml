@@ -1,0 +1,33 @@
+@startmindmap
+title = SQLite Use Cases
+
+* SQLite:\n A lightweight relational \ndatabase management system.
+** Database Management:\n Managing and organizing data in the database.
+*** Storing Data:\n Saving data in the database for later use.
+**** Client-Side Storage:\n Saving data on the client-side, such as in a mobile app.
+**** Server-Side Storage:\n Saving data on the server-side, such as in a web application.
+*** Data Retrieval:\n Getting data out of the database when needed.
+**** Simple Queries:\n Basic searches for specific data in the database.
+**** Advanced Queries:\n More complex searches, such as sorting or joining data.
+**** Data Aggregation:\n Combining and summarizing data for analysis.
+** Application Development:\n Using SQLite in software development.
+*** Mobile Apps:\n Developing applications for mobile devices.
+**** iOS:\n Developing for Apple's iOS platform.
+**** Android:\n Developing for Google's Android platform.
+*** Desktop Apps:\n Developing applications for desktop computers.
+**** Windows:\n Developing for Microsoft Windows operating system.
+**** macOS:\n Developing for Apple's macOS operating system.
+**** Linux:\n Developing for Linux operating system.
+*** Web Apps:\n Developing applications for the web.
+**** Backend:\n Developing server-side applications.
+**** Frontend:\n Developing client-side applications.
+** System Integration:\n Integrating SQLite with other systems.
+*** Data Import/Export:\n Moving data in and out of the database.
+**** CSV:\n Importing and exporting data in Comma-Separated Value format.
+**** JSON:\n Importing and exporting data in JSON format.
+**** XML:\n Importing and exporting data in XML format.
+*** Interoperability:\n Using SQLite with other systems.
+**** ODBC/JDBC:\n Using Open Database Connectivity or Java Database Connectivity.
+**** REST APIs:\n Using Representational State Transfer Application Programming Interfaces.
+**** Other Data Sources:\n Using SQLite with other data sources, such as text files.
+@endmindmap
