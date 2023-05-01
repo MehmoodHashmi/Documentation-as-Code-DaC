@@ -1,0 +1,20 @@
+@startmindmap
+title =__ Advanced AI Algorithms__
+
+ * Advanced AI Algorithms
+** Deep Learning
+*** Convolutional Neural Networks (CNN): O(n^2)
+*** Recurrent Neural Networks (RNN): O(n^3)
+** Reinforcement Learning
+*** Q-Learning: O(n^3)
+*** Policy Gradient Methods: O(n^2)
+** Natural Language Processing
+*** Part of Speech Tagging: O(n)
+*** Named Entity Recognition: O(n^2)
+** Generative Adversarial Networks (GANs): O(n^4)
+** Evolutionary Algorithms
+*** Genetic Algorithms: O(n * g * k)
+*** Particle Swarm Optimization (PSO): O(n * g)
+
+
+@endmindmap

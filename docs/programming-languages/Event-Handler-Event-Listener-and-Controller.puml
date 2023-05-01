@@ -1,0 +1,94 @@
+@startmindmap
+title = __Event Handler, Event Listener, and Controller (in depth)__
+
+* **Event Handler, Event Listener, and Controller**
+** Event Handler
+*** Receives and processes events
+*** Invokes appropriate methods to handle the events
+*** **Example:** A button click event handler in a GUI application
+** Event Listener
+*** Registers interest in specific events
+*** Waits for the events to occur
+*** Triggers the appropriate event handlers when events occur
+*** **Example:** A key press event listener in a text editor
+** Controller
+*** Receives user input
+*** Determines which actions to take based on the input
+*** Invokes appropriate methods to perform the actions
+*** **Example:** A web application controller that processes user **requests** and updates the **model** and **view** accordingly
+
+* Controller
+** Definition
+*** A controller is a component of the Model-View-Controller (MVC) architectural pattern that receives input, manipulates the model, and provides output to the view.
+** Responsibilities
+*** 1. Receive input from the user or other sources.
+*** 2. Interpret user input and convert it into commands for the model or the view.
+*** 3. Manipulate the model by updating or retrieving data.
+*** 4. Provide output to the view by updating the user interface.
+*** 5. Manage application flow and coordinate the actions of the model and the view.
+** **Types of controllers**
+*** 1. Front controller
+**** A central controller that handles all requests to a web application and delegates the handling of specific requests to other controllers.
+*** 2. Page controller
+**** A controller that handles requests for a specific page or view in a web application.
+*** 3. Action controller
+**** A controller that handles requests for specific actions or operations in a web application, such as creating a new user account or updating a product catalog.
+** Best practices
+*** 1. Keep controllers lightweight and focused on specific tasks.
+*** 2. Use dependency injection to decouple controllers from other components and make them easier to test.
+*** 3. Use a naming convention to ensure consistency and clarity in the names of controller classes and methods.
+***[#pink] **4. Avoid writing business logic in controllers, as this can lead to tightly coupled and difficult-to-maintain code.**
+
+* Event Handling
+** Definition
+*** Event handling is the process of responding to user actions or system events, such as a button click or a database update.
+** **Event Sources**
+*** **User interface events**
+**** User actions, such as button clicks or key presses, are often used as event sources in event-driven programming.
+*** **System events**
+**** System events, such as database updates or network messages, can also be used as event sources.
+** Event Types
+*** User interface events
+**** Common types of user interface events include mouse events (e.g. mouse clicks, mouse movements), keyboard events (e.g. key presses, key releases), \nand focus events (e.g. gaining or losing focus).
+*** System events
+**** Common types of system events include database events (e.g. insert, update, delete), network events (e.g. data received, connection established), \nand timer events (e.g. timeouts, scheduled events).
+**[#pink] Event Handling Models
+***[#yellow] **Synchronous event handling**
+**** In synchronous event handling, the event handler blocks until the event has been fully processed. This means that the user interface or system \nis unresponsive during this time.
+***[#yellow] **Asynchronous event handling**
+**** In asynchronous event handling, the event handler does not block and the user interface or system remains responsive. \nThis allows for better user experience and improved system performance.
+** Event Handling Techniques
+*** Event listeners
+**** Event listeners are functions or methods that are registered with an event source to handle specific events. When the event occurs, \nthe listener is notified and executes its designated code.
+*** Event-driven programming
+**** Event-driven programming is a programming paradigm that focuses on the use of events and event handlers to control program flow. \nIt is often used in graphical user interfaces and other interactive systems.
+
+
+
+
+* Event Listeners
+** Definition
+*** An event listener is a programming construct that listens for specific events and takes some action when those events occur.
+** Types of Event Listeners
+*** Mouse Listener
+**** Responds to mouse clicks, movements, and button presses
+*** Keyboard Listener
+**** Responds to keyboard events, such as key presses and releases
+*** Window Listener
+**** Responds to window events, such as opening and closing
+*** Focus Listener
+**** Responds to changes in focus, such as when a component gains or loses focus
+*** Action Listener
+**** Responds to user actions, such as button clicks or menu selections
+*** List Selection Listener
+**** Responds to changes in the selection of a list or combo box
+** Event Handler vs Event Listener
+*** An event handler is a callback function that gets **invoked** when an event occurs, whereas an event listener is an object that **registers** \n**to receive events and then dispatches them** to the appropriate event handler.
+** Steps to Implement an Event Listener
+*** Create the event listener object
+*** Register the event listener object with the event source
+*** Implement the event handling code in the event listener object
+
+
+
+@endmindmap

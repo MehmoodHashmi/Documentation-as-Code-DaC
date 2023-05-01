@@ -1,0 +1,59 @@
+@startmindmap
+title =  Advanced Data Structures, this is not the exhaustive list of data structures there are many more
+
+*  Advanced Data Structures
+** Heaps
+*** Lookup: O(1)
+*** Insert/Delete: O(log n)
+** Tries
+*** Lookup/Insert/Delete: O(m), where m is the length of the key
+** Bloom Filters
+*** Probabilistic Lookup: O(1)
+*** Insert/Delete: O(k), where k is the number of hash functions used
+** Skip Lists
+*** Lookup/Insert/Delete: O(log n)
+** Fenwick Trees
+*** Prefix Sum: O(log n)
+*** Update: O(log n)
+** Segment Trees
+*** Range Queries: O(log n)
+*** Update: O(log n)
+** B+ Trees
+*** Lookup/Insert/Delete: O(log n)
+** Suffix Trees
+*** String Matching: O(m + n), where m is the length of the pattern and n is the length of the text
+
+** AVL Trees
+*** Lookup/Insert/Delete: O(log n)
+** Splay Trees
+*** Lookup/Insert/Delete: O(log n) (amortized)
+** Red-Black Trees
+*** Lookup/Insert/Delete: O(log n)
+** B-Trees
+*** Lookup/Insert/Delete: O(log n)
+** Hash Tables
+*** Probabilistic Lookup/Insert/Delete: O(1) (average case)
+** Quad Trees
+*** Spatial Data Structures: O(log n) for query operations
+*** Insert/Delete: O(log n) (average case)
+** K-D Trees
+*** Spatial Data Structures: O(log n) for query operations
+*** Insert/Delete: O(log n) (average case)
+** Skip Lists
+*** Lookup/Insert/Delete: O(log n)
+** Fibonacci Heaps
+*** Insert: O(1)
+*** Find Minimum: O(1)
+*** Delete Minimum: O(log n) (amortized)
+** Binomial Heaps
+*** Insert/Delete: O(log n)
+** Trie
+*** String Key-Value Store: O(k) for lookup/insert, where k is the length of the key
+** Bloom Filters
+*** Probabilistic Membership Test: O(1) (constant time)
+** Rope
+*** String Data Structure: Efficient concatenation and substring operations
+** Fenwick Tree
+*** Range Query: O(log n)
+*** Single Element Update: O(log n)
+@endmindmap

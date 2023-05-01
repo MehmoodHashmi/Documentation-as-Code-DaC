@@ -1,0 +1,30 @@
+@startmindmap
+title =__ Data Parallelism__
+
+* Data Parallelism
+** **Definition:** Breaking up a **large dataset** into smaller chunks and processing them \nsimultaneously on multiple computing resources
+*** **Example:** Dividing a large image into smaller sections and processing each section simultaneously on multiple processors
+** **Benefits:**
+*** Faster processing of large datasets
+*** Better utilization of available computing resources
+*** Higher throughput and reduced processing time
+*** Scalable and efficient processing of large datasets
+** **Techniques:**
+*** SIMD (Single Instruction Multiple Data)
+*** MIMD (Multiple Instruction Multiple Data)
+*** GPU (Graphics Processing Unit)
+*** FPGA (Field-Programmable Gate Array)
+*** Distributed processing
+** **Applications:**
+*** Image and video processing
+*** Machine learning and deep learning
+*** Scientific simulations and calculations
+*** Big data processing and analytics
+**[#pink] **Frameworks and Libraries:**
+*** Apache Hadoop
+*** Apache Spark
+*** TensorFlow
+*** PyTorch
+*** CUDA (Compute Unified Device Architecture)
+*** OpenCL (Open Computing Language)
+@endmindmap

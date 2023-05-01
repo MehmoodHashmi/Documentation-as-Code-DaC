@@ -1,0 +1,25 @@
+@startmindmap
+title = Bespoke vs. Custom Software Development
+
+* **Bespoke vs. Custom Software Development**
+
+** Bespoke Software Development
+*** Tailored to the unique needs of a particular business or organization
+*** Developed from scratch
+*** Little or no reliance on pre-existing software components or frameworks
+*** Highly collaborative process between the development team and the client
+*** Ensures the software meets the client's specific requirements
+
+** Custom Software Development
+*** Customized to a client's specific needs
+*** Based on pre-existing software components or frameworks
+*** Development process may involve modifying existing software or integrating multiple components
+*** May not be as collaborative as bespoke development
+*** Faster development process due to the use of pre-existing components
+
+** Summary
+*** Bespoke involves creating software from scratch
+*** Custom involves customizing pre-existing software
+*** Both provide tailored solutions for a client's needs
+*** Bespoke is more collaborative while custom is faster due to use of pre-existing components
+@endmindmap

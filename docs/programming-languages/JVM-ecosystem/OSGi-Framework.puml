@@ -1,0 +1,71 @@
+@startmindmap
+title = OSGi Framework
+
+* OSGi Framework
+** Introduction
+*** Modular architecture
+*** Dynamic component model
+*** Service registry
+*** Versioning
+
+** Benefits of OSGi
+*** Reusability
+*** Maintainability
+*** Scalability
+*** Flexibility
+*** Reliability
+
+** Core Concepts
+*** Bundles
+**** A modular and portable JAR file that contains classes, resources, and metadata
+**** Can be installed, started, stopped, updated, and uninstalled at runtime
+**** Manifest file specifies bundle metadata
+*** Services
+**** A reusable and pluggable component that provides a well-defined interface for other components to interact with
+**** Can be dynamically registered, discovered, and used by other components
+*** Service Registry
+**** A dynamic lookup service that allows components to register and discover services at runtime
+*** Lifecycle
+**** Framework lifecycle, bundle lifecycle, and service lifecycle
+
+** OSGi Services
+*** Service Interfaces
+**** A Java interface that defines the methods for a service
+*** Service Provider
+**** A bundle that implements a service interface
+*** Service Consumer
+**** A bundle that uses the service provided by a service provider
+*** Service Registration
+**** The process of a bundle registering a service with the service registry
+*** Service Discovery
+**** The process of a bundle discovering available services in the service registry
+*** Service Binding
+**** The process of a bundle obtaining a reference to a service from the service registry
+
+** OSGi Bundles
+*** Bundle Manifest
+**** The metadata file that defines the bundle, its dependencies, and services
+*** Bundle Lifecycle
+**** Installation, starting, stopping, updating, and uninstalling
+*** Class Loading
+**** The OSGi class loading model, including visibility and delegation
+
+** OSGi Framework
+*** Framework Architecture
+**** The OSGi framework components and their interactions
+*** Framework Extensions
+**** The optional components that extend the OSGi framework, such as the Http Service and the JMX Service
+*** Framework Security
+**** The OSGi security model, including permissions and policies
+
+** OSGi Tools
+*** Apache Felix
+**** An open-source implementation of the OSGi framework
+*** Eclipse Equinox
+**** An OSGi implementation used by the Eclipse IDE and other Eclipse-based products
+*** Bnd
+**** A tool for building OSGi bundles and libraries
+*** OSGi enRoute
+**** A collection of tools, libraries, and examples for building OSGi applications
+
+@endmindmap

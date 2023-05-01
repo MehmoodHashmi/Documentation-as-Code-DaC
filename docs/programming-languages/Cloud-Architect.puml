@@ -1,0 +1,31 @@
+@startmindmap
+title =__ Cloud Architect__
+
+* Cloud Architect
+** Design and Planning
+*** Capacity Planning
+*** Availability and Scalability
+*** Disaster Recovery
+*** Security and Compliance
+** Cloud Services
+*** IaaS
+**** Compute
+**** Storage
+**** Networking
+*** PaaS
+**** Application Platform
+**** Database Platform
+*** SaaS
+**** Productivity
+**** Collaboration
+**** Customer Relationship Management
+** Cloud Providers
+*** Amazon Web Services (AWS)
+*** Microsoft Azure
+*** Google Cloud Platform
+*** IBM Cloud
+** DevOps and Automation
+*** Continuous Integration/Continuous Deployment (CI/CD)
+*** Infrastructure as Code (IaC)
+*** Configuration Management
+@endmindmap

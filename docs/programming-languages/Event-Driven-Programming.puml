@@ -1,0 +1,38 @@
+@startmindmap
+title = Event-Driven Programming
+
+* Event-Driven Programming
+** Definition
+*** A programming paradigm where the flow of the program is determined by events or messages
+** Key Concepts
+*** Events
+**** Occurrences that **trigger** the program to perform certain **actions**
+*** **Event Handlers**
+**** Code that responds to specific **events**
+*** Event Loops (listener)
+**** **Code that listens for events and dispatches them to the appropriate handlers**
+** Examples
+*** Graphical User Interfaces (GUIs)
+**** Responding to user interactions (e.g. button clicks)
+*** Web Applications
+**** Responding to HTTP requests
+*** IoT Devices
+**** Responding to sensor data
+** Benefits
+*** Reactive and responsive
+*** Efficient use of resources
+*** Modular and extensible
+
+* Event Handling Techniques
+** Polling
+*** Periodically checks for new events
+** Callbacks
+*** Registers a function to be called when an event occurs
+** Event Queues
+*** Maintains a list of events that are waiting to be processed
+** Publish/Subscribe
+*** Event-driven communication pattern where senders of messages (publishers) do not program the messages to be sent directly to specific receivers (subscribers).
+** Channels
+*** Dedicated communication paths between event producers and consumers
+
+@endmindmap

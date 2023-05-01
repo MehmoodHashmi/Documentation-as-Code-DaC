@@ -1,0 +1,39 @@
+@startmindmap
+title =__ Cloud Engineer__
+
+* Cloud Engineer
+** Cloud Services
+*** Compute
+**** Virtual Machines
+**** Container Instances
+**** Functions
+*** Storage
+**** Blob Storage
+**** File Storage
+**** Archive Storage
+*** Networking
+**** Virtual Network
+**** Load Balancer
+**** Traffic Manager
+*** Databases
+**** Relational Databases
+**** NoSQL Databases
+*** Identity and Access Management
+*** Analytics and Monitoring
+*** Artificial Intelligence and Machine Learning
+** Cloud Providers
+*** Amazon Web Services (AWS)
+*** Microsoft Azure
+*** Google Cloud Platform
+*** IBM Cloud
+** DevOps and Automation
+*** Infrastructure as Code (IaC)
+*** Configuration Management
+*** Continuous Integration/Continuous Deployment (CI/CD)
+*** Monitoring and Alerting
+** Security and Compliance
+*** Network Security
+*** Identity and Access Management
+*** Compliance
+*** Incident Response
+@endmindmap

@@ -1,0 +1,31 @@
+@startmindmap
+title = Data Structures
+
+* Data Structures
+** Arrays
+*** Lookup: O(1)
+*** Insert/Delete (beginning or middle): O(n)
+*** Append: O(1) amortized
+** Linked Lists
+*** Lookup: O(n)
+*** Insert/Delete (beginning): O(1)
+*** Insert/Delete (middle): O(n)
+*** Append: O(1)
+** Stacks
+*** Lookup: O(n)
+*** Push/Pop: O(1)
+** Queues
+*** Lookup: O(n)
+*** Enqueue/Dequeue: O(1)
+** Hash Tables
+*** Lookup/Insert/Delete: O(1) average, O(n) worst case
+** Trees
+*** Binary Search Trees
+**** Lookup/Insert/Delete: O(log n) average, O(n) worst case
+*** AVL Trees
+**** Lookup/Insert/Delete: O(log n)
+*** Red-Black Trees
+**** Lookup/Insert/Delete: O(log n)
+*** B-Trees
+**** Lookup/Insert/Delete: O(log n)
+@endmindmap

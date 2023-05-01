@@ -1,0 +1,42 @@
+@startmindmap
+title = SOLID Principles
+
+* SOLID Principles
+** Single Responsibility Principle (SRP)
+*** One class should have only one reason to change
+** Open/Closed Principle (OCP)
+*** Software entities should be open for extension, but closed for modification
+** Liskov Substitution Principle (LSP)
+*** Subtypes should be substitutable for their base types
+** Interface Segregation Principle (ISP)
+*** Clients should not be forced to depend upon interfaces they do not use
+** Dependency Inversion Principle (DIP)
+*** High-level modules should not depend on low-level modules. Both should depend on abstractions
+
+* Package
+** Cohesion:
+*** Common Closure Principle (CCP)
+**** Gather together those classes that change for the same reasons
+**** Ensures that changes to a module do not have unexpected effects on other modules
+**** Modules should have a single, well-defined responsibility
+*** Common Reuse Principle (CRP)
+**** A module should contain only classes that are reused together
+**** Minimizes coupling and maximizes cohesion
+**** Encourages the creation of fine-grained, reusable modules
+
+** Coupling:
+*** Release Reuse Equivalency Principle (REP)
+**** A module should be developed in tandem with a release plan that determines its anticipated reuse
+**** Helps to avoid the trap of over-engineering or under-engineering a module
+**** Allows for proper allocation of resources and development time
+*** Stable Dependencies Principle (SDP)
+**** Depend in the direction of stability
+**** A module should only depend on modules that are more stable than itself
+**** Encourages the creation of stable, well-defined interfaces between modules
+
+*** Stable Abstractions Principle (SAP)
+**** The stability of a module should be proportional to its abstractness
+**** More abstract modules should be more stable, while less abstract modules should be less stable
+**** Encourages the creation of interfaces that are focused on abstraction and are unlikely to change frequently
+
+@endmindmap

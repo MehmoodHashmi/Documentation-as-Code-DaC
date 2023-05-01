@@ -1,0 +1,23 @@
+@startmindmap
+title = Event Sourcing
+
+* Event Sourcing
+** Definition
+*** **Storing the state of an application as a sequence of events**
+** Benefits
+*** Auditability and traceability
+*** Rebuild state of an application at any point in time
+*** Helps in debugging and testing
+*** Enables business intelligence and analytics
+**[#pink] **How it works**
+*** Events are appended to an event log
+*** Application state is derived by replaying the events
+** Challenges
+*** Increased complexity
+*** Performance concerns with large event logs
+*** Security and access control
+** Use cases
+*** Financial systems
+*** Healthcare systems
+*** IoT devices
+@endmindmap

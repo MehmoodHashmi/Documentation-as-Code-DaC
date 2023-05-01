@@ -1,0 +1,46 @@
+@startmindmap
+title =__ Event-Driven Patterns__
+
+* Event-Driven Patterns
+** Definition
+*** Patterns used to design and implement event-driven systems.
+** Categories
+*** Data Management
+**** Event Sourcing
+**** CQRS (Command Query Responsibility Segregation)
+*** Communication
+**** Pub/Sub (Publish/Subscribe)
+**** Pipes and Filters
+*** Processing
+**** Saga
+**** Request-Reply
+**** Asynchronous Messaging
+*** Microservices
+**** Event-Driven Microservices
+**** Choreography
+**** Orchestration
+** Benefits
+*** Scalability
+*** Resilience
+*** Modularity
+*** Agility
+*** Reduced coupling
+*** Real-time processing
+** Challenges
+*** Complexity
+*** Event consistency
+*** Event routing
+*** Data management
+*** Error handling
+*** Security
+*** Testing
+*** Deployment and orchestration
+** Best practices
+*** Choose the right event-driven pattern for the problem
+*** Use patterns to implement event-driven architecture
+*** Use event-driven patterns where they make sense
+*** Plan for failure
+*** Use asynchronous communication
+*** Use a central event schema registry
+*** Monitor events in real-time
+@endmindmap

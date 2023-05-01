@@ -1,0 +1,22 @@
+@startmindmap
+title =__ AI Algorithms__
+
+* AI Algorithms
+** Supervised Learning
+*** Linear Regression: O(n^3)
+*** Logistic Regression: O(n^3)
+*** Decision Trees: O(n log n)
+*** Random Forests: O(n^2 log n)
+*** Support Vector Machines (SVM): O(n^3)
+*** Naive Bayes: O(n)
+** Unsupervised Learning
+*** K-Means: O(k*n*d)
+*** Principal Component Analysis (PCA): O(d^3 + nd^2)
+*** Gaussian Mixture Models (GMM): O(n^3d)
+** Deep Learning
+*** Convolutional Neural Networks (CNN): O(n^2)
+*** Recurrent Neural Networks (RNN): O(n^3)
+** Reinforcement Learning
+*** Q-Learning: O(n^3)
+*** Policy Gradient Methods: O(n^2)
+@endmindmap

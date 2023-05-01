@@ -1,0 +1,28 @@
+@startmindmap
+title =__ basic Algorithms__
+
+* Algorithms
+** Sorting
+*** Bubble Sort: O(n^2)
+*** Insertion Sort: O(n^2)
+*** Selection Sort: O(n^2)
+*** Quick Sort: O(n log n) (average case)
+*** Merge Sort: O(n log n)
+** Searching
+*** Linear Search: O(n)
+*** Binary Search: O(log n)
+*** Hash Table Lookup: O(1) (average case)
+** Graph Algorithms
+*** Breadth-First Search: O(V+E)
+*** Depth-First Search: O(V+E)
+*** Dijkstra's Algorithm: O((V+E) log V)
+*** A* Algorithm: O(n)
+** Dynamic Programming
+*** Fibonacci Sequence: O(n)
+*** Longest Common Subsequence: O(mn)
+** Greedy Algorithms
+*** Huffman Coding: O(n log n)
+*** Kruskal's Algorithm: O(E log V)
+** Backtracking
+*** N-Queens Problem: O(n^n)
+@endmindmap

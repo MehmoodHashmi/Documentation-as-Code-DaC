@@ -1,0 +1,57 @@
+@startmindmap
+title =__ Bespoke Software Development__
+
+* Bespoke Software Development
+** Business Analysis
+*** Requirements Gathering
+*** Needs Assessment
+*** Solution Architecture
+*** Process Improvement
+*** Cost-Benefit Analysis
+*** Project Planning
+** Software Development Life Cycle (SDLC)
+*** Analysis and Design
+*** Implementation and Coding
+*** Testing and Quality Assurance
+*** Deployment and Delivery
+*** Maintenance and Support
+** Software Development Methodologies
+*** Agile Development
+*** Waterfall Development
+*** Iterative Development
+*** Rapid Application Development (RAD)
+** Technology Stack
+*** Front-end Development
+**** HTML, CSS, JavaScript
+**** Frameworks and Libraries
+**** Responsive Design
+*** Back-end Development
+**** Programming Languages
+**** Frameworks and Libraries
+**** Database Design and Management
+**** API Development
+*** Infrastructure
+**** Operating Systems
+**** Cloud Services
+**** Network and Security
+*** Mobile Development
+**** Native Development
+**** Hybrid Development
+**** Responsive Design
+** Quality Assurance
+*** Test Planning
+*** Test Execution
+*** Test Automation
+*** Performance Testing
+*** Security Testing
+** Deployment and Delivery
+*** Continuous Integration/Continuous Deployment (CI/CD)
+*** Release Management
+*** Cloud Deployment
+*** On-premises Deployment
+** Maintenance and Support
+*** Bug Fixing
+*** Upgrades and Enhancements
+*** Security Updates
+*** Performance Optimization
+@endmindmap

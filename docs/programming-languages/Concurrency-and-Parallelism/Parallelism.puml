@@ -1,0 +1,38 @@
+@startmindmap
+title =__ Parallelism__
+
+* Parallelism
+** Types
+*** Bit-level parallelism
+*** Instruction-level parallelism
+*** **Task-level parallelism**
+*** **Data parallelism**
+*** Geometric parallelism
+*** Pipeline parallelism
+*** Hybrid parallelism
+** Techniques
+*** **Multithreading**
+*** SIMD
+*** MIMD
+***[#yellow] **Distributed computing**
+***[#yellow] **GPU computing**
+***[#yellow] **Cluster computing**
+***[#yellow] **Cloud computing**
+*** Quantum computing
+** Benefits
+*** Faster processing
+*** Improved performance
+*** Enhanced scalability
+*** Increased efficiency
+*** Reduced latency
+*** Cost savings
+**[#pink] **Challenges**
+*** Load balancing
+*** Synchronization
+*** Deadlocks
+*** Starvation
+*** Race conditions
+*** Scalability
+*** Debugging
+*** Interprocess communication
+@endmindmap

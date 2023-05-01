@@ -1,0 +1,97 @@
+@startmindmap
+title =__ Advanced Microservices Patterns__
+
+* Advanced Microservices Patterns
+** Definition
+*** Advanced patterns used to design and implement complex microservices architectures.
+**[#pink] **Categories**
+*** Service Design
+**** Event-Driven Microservices
+**** Domain-Driven Design (DDD)
+**** Micro-Frontends
+**** Service Mesh
+**** API Gateway
+**** Service Registry
+**** Sidecar
+**** BFF (Backend for Frontend)
+**** Service Decomposition
+**** Service Composition
+**** Service Versioning
+**** Service Discovery
+**** Reactive Programming
+**** Reactive System
+**** Circuit Breaker
+**** Bulkhead
+**** Blue/Green Deployment
+*** Operations
+**** Microservices Observability
+**** Tracing
+**** Logging
+**** Metrics
+**** Health Checking
+**** Circuit Breaking
+**** Chaos Engineering
+**** Continuous Delivery
+**** Canary Deployment
+**** A/B Testing
+*** Security
+**** Access Token
+**** API Key
+**** OAuth 2.0
+**** OpenID Connect
+**** JWT (JSON Web Token)
+**** Mutual TLS
+**** Service Identity and Access Management
+**** Rate Limiting
+**** Content Security Policy
+**** Cross-Origin Resource Sharing (CORS)
+**** API Security Gateway
+*** Data Management
+**** Distributed Data Management
+**** Database per Service
+**** API Composition
+**** Data Lake
+**** Event Sourcing
+**** CQRS (Command Query Responsibility Segregation)
+**** Database Sharding
+**** Database Replication
+**** SAGA (Stateless Architecture for Greater Agility)
+**** Eventually Consistent Data
+**** Polyglot Persistence
+**** Distributed Transactions
+**** Data Consistency
+**** Data Partitioning
+** Benefits
+*** Increased Flexibility
+*** Scalability
+*** Resilience
+*** Modularity
+*** Agility
+*** Reduced Coupling
+*** Real-Time Processing
+*** Data Consistency
+*** Fine-Grained Control
+** Challenges
+*** Complexity
+*** Distributed Transactions
+*** Eventual Consistency
+*** Microservices Security
+*** Data Integration
+*** Data Privacy
+*** Governance
+*** Testing
+*** Operations
+** Best practices
+*** Use patterns to implement advanced microservices architecture
+*** Use patterns where they make sense
+*** Plan for failure
+*** Use asynchronous communication
+*** Use a central schema registry
+*** Monitor microservices in real-time
+*** Design for testing
+*** Use distributed transactions with caution
+*** Design for eventual consistency
+*** Implement microservices security measures
+*** Implement data integration, privacy, and governance measures
+*** Plan for microservices operations
+@endmindmap

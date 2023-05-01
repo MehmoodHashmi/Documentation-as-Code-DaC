@@ -1,0 +1,42 @@
+@startmindmap
+title =__ GitOps__\nOverall, this mind map should help developers and operations teams gain a deeper understanding of GitOps and learn how to use it to improve their software development processes.
+
+* GitOps
+** Definition
+*** GitOps is a **software development methodology** that uses Git as the source of truth for **infrastructure and application deployment.**
+** Key Principles
+*** Declarative Infrastructure
+**** Infrastructure is defined in code, which can be version-controlled and automated.
+*** Continuous Delivery
+**** Changes to infrastructure and applications are automatically deployed from Git repositories.
+*** Observability
+**** The state of the system can be easily monitored and audited.
+*** Self-Service
+**** Developers can make changes to infrastructure and applications through Git, without needing to go through a central operations team.
+** Benefits
+*** Consistency
+**** Infrastructure is always in the desired state, reducing errors and downtime.
+*** Automation
+**** Infrastructure and application deployment can be automated, saving time and effort.
+*** Collaboration
+**** Developers and operations teams can collaborate more easily, since infrastructure and application changes are made through Git.
+*** Auditability
+**** Changes to the system can be easily audited and tracked.
+** Tools
+*** Git
+**** Used as the source of truth for infrastructure and application deployment.
+*** Kubernetes
+**** Used as the orchestration platform for deploying and managing containerized applications.
+*** Flux
+**** A GitOps tool that automates the deployment and management of Kubernetes applications.
+*** Helm
+**** A package manager for Kubernetes that can be used with GitOps workflows.
+*** Argo CD
+**** A GitOps tool that provides automated deployment and management of Kubernetes applications.
+** Best Practices
+*** Define infrastructure and application changes as code
+*** Use Git to manage configuration and deployment
+*** Automate deployment and rollback processes
+*** Monitor system health and performance
+*** Encourage collaboration between development and operations teams
+@endmindmap

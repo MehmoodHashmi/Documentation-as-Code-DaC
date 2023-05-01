@@ -1,0 +1,36 @@
+@startmindmap
+title =__ Concurrency Patterns__
+
+* Concurrency Patterns
+** Execution
+*** Thread Pool
+**** Fixed Thread Pool
+**** Cached Thread Pool
+**** Work Stealing Thread Pool
+*** Fork/Join
+**** RecursiveTask
+**** RecursiveAction
+** Coordination
+*** Barrier
+**** Cyclic Barrier
+**** Phaser
+*** Latch
+**** Count Down Latch
+**** Concurrent Latch
+*** Semaphore
+**** Binary Semaphore
+**** Counting Semaphore
+** Synchronization
+*** Locks
+**** Reentrant Lock
+**** Read/Write Lock
+*** Atomic Variables
+**** Atomic Integer
+**** Atomic Long
+**** Atomic Reference
+*** Concurrent Collections
+**** Concurrent Hash Map
+**** Concurrent Skip List Map
+**** Copy On Write Array List
+**** Concurrent Linked Queue
+@endmindmap

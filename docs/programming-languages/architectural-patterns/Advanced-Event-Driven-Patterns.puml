@@ -1,0 +1,70 @@
+@startmindmap
+* Advanced Event-Driven Patterns
+** Definition
+*** Advanced patterns used to design and implement **complex event-driven systems.**
+**[#pink] **Categories**
+*** Data Management
+**** Event Sourcing
+**** CQRS (Command Query Responsibility Segregation)
+**** Event Collaboration
+**** Event Carried State Transfer
+**** Temporal Query
+**** Temporal Event Streaming
+**** Dataflow
+*** Communication
+**** Pub/Sub (Publish/Subscribe)
+**** Routing Slip
+**** Scatter-Gather
+**** Point-to-Point Messaging
+**** Request-Reply
+**** Publish-Subscribe-Mediate
+**** Correlation Identifier
+**** Event Notification
+**** Event Routing
+**** Event Choreography
+*** Processing
+**** Saga
+**** Process Manager
+**** Finite State Machine
+**** Long-Running Workflow
+**** Event-Driven Batch Processing
+**** Event-Driven Real-Time Processing
+**** Dynamic Event Processing
+*** **Microservices**
+**** Event-Driven Microservices
+**** Choreography
+**** Orchestration
+** Benefits
+*** Increased Flexibility
+*** Scalability
+*** Resilience
+*** Modularity
+*** Agility
+*** Reduced Coupling
+*** Real-Time Processing
+*** Event Consistency
+*** Fine-Grained Control
+** Challenges
+*** Complexity
+*** Distributed Transactions
+*** Eventual Consistency
+*** Event-Driven Security
+*** Event-Driven Data Integration
+*** Event-Driven Data Privacy
+*** Event-Driven Governance
+*** Event-Driven Testing
+*** Event-Driven Operations
+** Best practices
+*** Use patterns to implement advanced **event-driven architecture**
+*** Use patterns where they make sense
+*** Plan for failure
+*** Use asynchronous communication
+*** Use a central event schema registry
+*** Monitor events in real-time
+*** Design for testing
+*** Use distributed transactions with caution
+*** Design for eventual consistency
+*** Use event-driven security measures
+*** Implement data integration, privacy, and governance measures
+*** Plan for event-driven operations
+@endmindmap

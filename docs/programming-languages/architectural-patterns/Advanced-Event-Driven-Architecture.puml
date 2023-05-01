@@ -1,0 +1,49 @@
+@startmindmap
+title =__ Advanced Event-Driven Architecture__
+
+* Advanced Event-Driven Architecture
+** Definition
+*** An extension of event-driven architecture that enables complex, event-driven systems.
+**[#pink] **Characteristics**
+*** Reactive
+*** Event sourcing
+*** CQRS (Command Query Responsibility Segregation)
+*** Sagas
+*** Event-driven microservices
+*** Serverless functions
+*** Cloud-native
+*** Domain-driven design
+** Components
+*** Event sourcing
+*** Command bus
+*** Event bus
+*** Sagas
+*** CQRS
+*** Domain events
+*** Event-driven microservices
+*** Serverless functions
+** Benefits
+*** Scalability
+*** High availability
+*** Resilience
+*** Flexibility
+*** Reduced coupling
+*** Real-time processing
+*** Simplified data management
+** Challenges
+*** Complexity
+*** Eventual consistency
+*** Error handling
+*** Security
+*** Testing
+*** Deployment and orchestration
+** Best practices
+*** Choose the right event-driven technology
+*** Design events carefully
+*** Use event-driven architecture where it makes sense
+*** Use domain-driven design
+*** Use CQRS to separate read and write concerns
+*** Use sagas to handle long-running processes
+*** Use event sourcing for data storage
+*** Use serverless functions for event-driven processing
+@endmindmap

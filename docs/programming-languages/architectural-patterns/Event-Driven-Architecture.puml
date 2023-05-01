@@ -1,0 +1,48 @@
+@startmindmap
+title =__ Event-Driven Architecture__
+
+* Event-Driven Architecture
+** Definition
+*** A software architecture pattern that involves the production, detection, consumption, and reaction to events.
+** Characteristics
+*** Asynchronous
+*** Decoupled
+*** Scalable
+*** Resilient
+*** Responsive
+*** Distributed
+*** Event-driven
+** Components
+*** Event producers
+*** Event consumers
+*** Event brokers
+*** Event processing
+*** Event storage
+*** Event-driven microservices
+*** Event-driven APIs
+** Benefits
+*** Flexibility
+*** Scalability
+*** Resilience
+*** Modularity
+*** Reduced coupling
+*** Agility
+*** Real-time processing
+** Challenges
+*** Complexity
+*** Event consistency
+*** Event routing
+*** Data management
+*** Error handling
+*** Security
+*** Testing
+*** Deployment and orchestration
+** Best practices
+*** Choose the right event technology
+*** Use event-driven architecture where it makes sense
+*** Use a central event schema registry
+*** Monitor events in real-time
+*** Use an event-driven approach for microservices
+*** Use asynchronous communication
+*** Plan for failure
+@endmindmap

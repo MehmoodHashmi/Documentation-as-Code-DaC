@@ -1,0 +1,47 @@
+@startmindmap
+title =__ Microservices Architecture__
+
+* Microservices Architecture
+** Definition
+*** A software architecture style that structures an application as a collection of small, independent, and loosely-coupled services.
+** Characteristics
+*** Service-oriented
+*** Distributed
+*** Loosely-coupled
+*** Independently deployable
+*** Polyglot
+*** Scalable
+** Components
+*** Service registry
+*** API gateway
+*** Service mesh
+*** Message broker
+*** Data storage
+*** Authentication and authorization
+*** Monitoring and logging
+** Benefits
+*** Scalability
+*** Agility
+*** Resilience
+*** Modularity
+*** Independent development
+*** Continuous deployment
+*** Fault tolerance
+** Challenges
+*** Complexity
+*** Distributed systems
+*** Network latency
+*** Service discovery
+*** Data management
+*** Testing
+*** Security
+*** Deployment and orchestration
+** Best practices
+*** Define clear boundaries
+*** Use smart endpoints and dumb pipes
+*** Embrace autonomy
+*** Design for failure
+*** Implement continuous delivery
+*** Automate infrastructure
+*** Monitor and log everything
+@endmindmap

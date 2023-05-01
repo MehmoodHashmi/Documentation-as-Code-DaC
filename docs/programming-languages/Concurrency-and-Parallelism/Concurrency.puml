@@ -1,0 +1,48 @@
+@startmindmap
+title =__ Concurrency__
+
+* Concurrency
+** Introduction to Concurrency
+*** What is Concurrency?
+*** Why is Concurrency Important?
+*** Examples of Concurrency in Real-World Systems
+** Fundamentals of Concurrency
+*** Processes vs Threads
+*** Synchronous vs Asynchronous Execution
+*** Parallelism vs Concurrency
+** Concurrency Models
+*** Shared Memory Concurrency
+**** Locks and Semaphores
+**** Monitors
+**** Read-Write Locks
+**** Atomic Operations
+*** Message Passing Concurrency
+**** Sockets and Pipes
+**** Message Queues
+**** Remote Procedure Calls (RPCs)
+**** Actors
+** Concurrency Issues and Solutions
+*** Race Conditions
+**** Critical Sections
+**** Deadlocks and Livelocks
+*** Resource Contention
+**** Locking Granularity
+**** Lock-Free Data Structures
+**** Memory Barriers and Fences
+*** Synchronization
+**** Mutual Exclusion
+**** Wait-Free Synchronization
+**** Thread Local Storage
+*** Scalability
+**** Thread Pooling
+**** Task Parallelism
+**** Work Stealing
+** Advanced Concurrency Topics
+*** Parallel Algorithms
+*** Non-blocking Algorithms
+*** Transactional Memory
+*** Software Transactional Memory (STM)
+*** Hardware Transactional Memory (HTM)
+*** Concurrency Testing and Debugging
+*** Concurrency Profiling and Optimization
+@endmindmap

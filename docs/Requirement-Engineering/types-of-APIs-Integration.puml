@@ -1,0 +1,18 @@
+@startmindmap
+* API Integration
+**[#yellow] **Synchronous**
+*** REST
+**** SOAP
+**** JSON-RPC
+**** XML-RPC
+*** GraphQL
+*** gRPC
+*** **Custom**
+**[#yellow] **Asynchronous**
+*** Webhooks
+*** Websockets
+***[#pink] **Event-Driven**
+**** Pub/Sub
+**** Message Queue
+**** Streaming API
+@endmindmap

@@ -1,0 +1,50 @@
+@startmindmap
+* Custom Software Development
+** Project Management
+*** Requirements Gathering
+*** Project Planning and Scheduling
+*** Resource Allocation
+*** Risk Management
+*** Budgeting and Cost Control
+*** Change Management
+** Software Development Life Cycle (SDLC)
+*** Analysis and Design
+*** Implementation and Coding
+*** Testing and Quality Assurance
+*** Deployment and Delivery
+*** Maintenance and Support
+** Software Development Methodologies
+*** Agile Development
+*** Waterfall Development
+*** Lean Development
+*** DevOps
+** Technology Stack
+*** Front-end Development
+**** HTML, CSS, JavaScript
+**** Frameworks and Libraries
+**** Responsive Design
+*** Back-end Development
+**** Programming Languages
+**** Frameworks and Libraries
+**** Database Design and Management
+**** API Development
+*** Infrastructure
+**** Operating Systems
+**** Cloud Services
+**** Network and Security
+*** Mobile Development
+**** Native Development
+**** Hybrid Development
+**** Responsive Design
+** Quality Assurance
+*** Test Planning
+*** Test Execution
+*** Test Automation
+*** Performance Testing
+*** Security Testing
+** Deployment and Delivery
+*** Continuous Integration/Continuous Deployment (CI/CD)
+*** Release Management
+*** Cloud Deployment
+*** On-premises Deployment
+@endmindmap

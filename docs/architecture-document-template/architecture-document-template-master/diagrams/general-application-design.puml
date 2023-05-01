@@ -1,4 +1,5 @@
 @startuml general-application-design
+
 !include C4/C4_Context.puml
 header System context diagram \nGeneral application point of view \n of the AllMyData project
 LAYOUT_WITH_LEGEND()
