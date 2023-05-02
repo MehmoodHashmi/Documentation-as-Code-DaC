@@ -1,5 +1,7 @@
 @startmindmap
-* API Integration
+title =__ Types of API Integration__
+
+* Types of API Integration
 **[#yellow] **Synchronous**
 *** REST
 **** SOAP
@@ -15,4 +17,19 @@
 **** Pub/Sub
 **** Message Queue
 **** Streaming API
+
+* The A.I. Dilemma - March 9, 2023
+** Presenters
+*** Tristan Harris
+*** Aza Raskin
+** Key Takeaways
+*** Existing A.I. capabilities pose catastrophic risks to society [[3](https://msamba.blog/2023/04/25/the-a-i-dilemma-march-9-2023/)]
+*** A.I. companies are in a race to deploy without adequate safety measures [[3](https://msamba.blog/2023/04/25/the-a-i-dilemma-march-9-2023/)]
+*** Upgrading institutions to a post-A.I. world is necessary [[3](https://msamba.blog/2023/04/25/the-a-i-dilemma-march-9-2023/)]
+** Proposed Solutions
+*** Establish an international, publicly funded supercomputing facility for AI research [[6](https://www.reddit.com/r/artificial/comments/12fctyw/the_ai_dilemma_march_9_2023/)]
+*** Democratize AI research [[6](https://www.reddit.com/r/artificial/comments/12fctyw/the_ai_dilemma_march_9_2023/)]
+*** Develop safety measures and regulations for A.I. deployment [[3](https://msamba.blog/2023/04/25/the-a-i-dilemma-march-9-2023/)]
+*** Upgrade institutions to be prepared for a post-A.I. world [[3](https://msamba.blog/2023/04/25/the-a-i-dilemma-march-9-2023/)]
+
 @endmindmap
