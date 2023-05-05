@@ -1,0 +1,62 @@
+
+@startmindmap
+
+title =__ System Design (E-commerce Platform)__
+
+* System Design
+** **E-commerce**
+*** User
+**** Registration
+**** Login
+**** Profile Management
+***** Update Personal Information
+***** Change Password
+***** View Order History
+**** Shopping
+***** Browse Products
+***** Add to Cart
+***** Checkout
+***** Payment
+**** Reviews
+***** Write Review
+***** View Reviews
+*** Admin
+**** Manage Users
+***** Add User
+***** Edit User
+***** Delete User
+**** Manage Products
+***** Add Product
+***** Edit Product
+***** Delete Product
+**** Manage Orders
+***** View Orders
+***** Update Order Status
+***** Cancel Order
+*** Database
+**** Users Table
+**** Products Table
+**** Orders Table
+**** Order_Items Table
+**** Reviews Table
+*** Backend
+**** API
+***** Authentication
+***** User Management
+***** Product Management
+***** Order Management
+***** Review Management
+**** Third-Party Services
+***** Payment Gateway
+***** Email Service
+*** Frontend
+**** User Interface
+***** Home Page
+***** Product Listing Page
+***** Product Detail Page
+***** Cart Page
+***** Checkout Page
+***** Order Confirmation Page
+***** User Profile Page
+***** Admin Dashboard
+@endmindmap

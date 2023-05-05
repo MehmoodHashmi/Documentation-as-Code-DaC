@@ -1,0 +1,51 @@
+@startmindmap
+
+
+* Advanced System Design Thinking
+** Scalability
+*** Horizontal Scaling
+*** Vertical Scaling
+*** Caching
+**** Cache Eviction Policies
+***** LRU
+***** LFU
+***** FIFO
+**** Distributed Caching
+***** Memcached
+***** Redis
+*** Load Balancing
+**** Round Robin
+**** Least Connections
+**** Consistent Hashing
+** Reliability
+*** Fault Tolerance
+**** Redundancy
+**** Failover
+*** Replication
+**** Synchronous Replication
+**** Asynchronous Replication
+*** Monitoring
+**** Metrics Collection
+**** Alerting
+**** Log Aggregation
+** Maintainability
+*** Modularity
+*** Code Quality
+**** Clean Code
+**** Code Reviews
+**** Automated Testing
+*** Documentation
+**** API Documentation
+**** Design Documents
+**** Runbooks
+** Security
+*** Authentication
+**** OAuth
+**** JWT
+*** Authorization
+**** RBAC
+**** ABAC
+*** Encryption
+**** Data EncryptionT
+
+@endmindmap

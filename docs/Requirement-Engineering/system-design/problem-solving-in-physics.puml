@@ -1,0 +1,31 @@
+@startmindmap
+!define AWESOME mindmap
+
+ skinparam {
+  DefaultFontName Arial
+  BackgroundColor gold
+  DefaultFontSize 12
+  DefaultLineColor DEFAULT_LINE_COLOR
+  DefaultTextColor DEFAULT_TEXT_COLOR
+}
+
+title =__**problem-solving-in-physics**__
+
+*:*It's also worth noting that __new techniques and methodologies are being developed all the time,__ and what is considered best practice can change over time. So, it's important to keep up to date with the latest developments in the field.
+* **It's also worth noting that depending on the specific needs and goals of the organization and the stakeholders involved, different techniques may be more or less appropriate.**
+   It's important to evaluate the suitability of each technique for a particular situation before using it.;
+
+* **Step-1, 2, 3 and Step-4 are the most critical,** if you read the problem (a problem statement) and can't understand it, that means you don't understand the **concept (chapter or domain)** well.
+
+* problem (problem statement)
+**[#yellow] **Step-1:** reading (problem statement) carefully and thoroughly
+**[#yellow] **Step-2:** identify and extract the given data (information)
+**[#yellow] **Step-3:** organize and prepare the given data (information) so that it uses the **7-basic units of quantities**
+**[#yellow] **Step-4:** identify the formula that\n **solves** the problem
+*** or derive the **formula**  e.g ** f = ma ** for the problem
+** **Step-4:** put the identified data in the formula to get the solution
+** **Step-5:** check and analyze the solution
+
+
+@endmindmap
+

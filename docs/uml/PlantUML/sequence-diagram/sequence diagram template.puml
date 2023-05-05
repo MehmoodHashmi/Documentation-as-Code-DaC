@@ -1,7 +1,6 @@
 @startuml
 skinparam handwritten true
 
-
 participant Participant as Foo #gold
 actor       Actor       as Foo1 #green
 boundary    Boundary    as Foo2 #lightblue

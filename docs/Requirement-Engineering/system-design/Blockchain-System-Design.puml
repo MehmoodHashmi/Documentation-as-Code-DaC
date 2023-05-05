@@ -1,0 +1,117 @@
+@startmindmap
+!define AWESOME mindmap
+
+ skinparam {
+  DefaultFontName Arial
+  BackgroundColor gold
+  DefaultFontSize 12
+  DefaultLineColor DEFAULT_LINE_COLOR
+  DefaultTextColor DEFAULT_TEXT_COLOR
+}
+
+title =__**Blockchain System Design**__
+
++ **Blockchain System Design**
+++[#pink] **Consensus Algorithms**\n<img:img_2.png>
++++ **Proof of Work (PoW)**
+++++ is done by **miners,** who compete to create new blocks filled with processed transactions. \nThere is a race of who will solve the fastest a **mathematical puzzle.**This **puzzle** is the **work** \nin **proof of work consensus mechanism** and produces the cryptographic link between the \ncurrent block and the previous block.
++++ **Proof of Stake (PoS)**
+++++ done by **validators** who have staked cryptocurrency to participate in the system. For a new \nblock to be created, a random validator node is chosen. When a new block is created, it is \nshared among the network and the selected validator node earns rewards.
++++ Delegated Proof of Stake (DPoS)
++++ Practical Byzantine Fault Tolerance (PBFT)
++++ Federated Byzantine Agreement (FBA)
++++ **Proof of Authority (PoA)**
+++++ In a permissioned blockchain network all nodes are pre-authenticated which allows to use \nconsensus mechanisms which provide high transaction rate and other benefits. **Proof of **\n**Authority** is one of them and it is an algorithm that provides high performance and fault \ntolerance through a consensus mechanism based on identity as a stake. So, in PoA only \nnodes that have proven their identity are awarded to create new blocks and the only way \nto gain this right is to pass preliminary authentication.
++++ Proof of Elapsed Time (PoET)
+
+++ Cryptography
++++ Public Key Cryptography
++++ Private Key Cryptography
++++ Digital Signatures
++++ Hash Functions
+++++ **SHA-256**
+++++ Scrypt
+++++ Ethash
+
+++ Blockchain Components
++++ **Blocks** \n<img:img.png>
+++++ Block Header
++++++ Previous Block Hash
++++++ Merkle Tree Root Hash
++++++ Timestamp
++++++ Nonce
+++++++ is a **32-bit** number. It is randomly generated when a new block\nis created, which then generated a block header hash.\n*The **hash**, a **256-bit** number wedded (married) to the nonce
++++++ Difficulty Target
+++++ Transactions
++++ **Transactions**
+++++ Inputs
+++++ Outputs
+++++ Transaction Fees
+++++ Digital Signatures
++++ Distributed **Ledger:** (means **register or notebook**)
++++ **Smart Contracts**
+++++ **Definition:** A **smart contract** is an agreement between two parties in the form of computer code. Smart contracts are stored in the blockchain, \nso they are part of the public ledger and cannot be changed. Smart contracts run on the blockchain and the transactions that happen are \nprocessed by it, which means they can be sent automatically without a third party. The transactions only occur when specific conditions are met.
+++++ Ethereum
++++++ Solidity
++++++ Vyper
+++++ EOS
++++++ C++
++++++ WebAssembly
+++++ Cardano
++++++ Plutus
++++++ Marlowe
+
+++ __**Blockchain Networks Type:**__\n<img:img_1.png>\n* **Permissionless network:** allows access to any user to pseudo-anonymously join the \nnetwork and become a node, without any restrictions. This particular kind of network is \nprimarily used to exchange and mine cryptocurrencies.\n* **Permissioned network:**  restricts access to the network to certain nodes. In this type of \nnetwork there can be rights restrictions. These private blockchain networks are controlled by a \nsingle organization that determines who can be a node. Pri- vate BC networks are partially \ndecentralized because public access to them is restricted. __Due to the drawbacks of the above__ \nnetworks, consortium and hybrid blockchains were developed.
++++ Public Blockchains
+++++ Bitcoin
+++++ Ethereum
+++++ Litecoin
+++++ Cardano
+++++ Polkadot
++++ Private Blockchains
+++++ Hyperledger Fabric
+++++ R3 Corda
+++++ Quorum
++++ Consortium Blockchains
+++++ Ripple
+++++ Stellar
+
+++ Scalability Solutions
++++ Layer 1 Solutions
+++++ Sharding
++++++ Ethereum 2.0
++++++ Zilliqa
++++++ Polkadot
++++ Layer 2 Solutions
+++++ State Channels
++++++ Lightning Network (Bitcoin)
++++++ Raiden Network (Ethereum)
+++++ Plasma
++++++ OmiseGO
+++++ Rollups
++++++ Optimistic Rollups
++++++ ZK-Rollups
+
+++ Interoperability
++++ Cross-Chain Communication
+++++ Polkadot
+++++ Cosmos
+++++ Wanchain
++++ Atomic Swaps
+++++ Hashed Timelock Contracts (HTLC)
++++++ Lightning Network (Bitcoin)
++++++ Raiden Network (Ethereum)
+
+++ Security
++++ 51% Attack
+++++ In theory, a malicious user (attacker) can compromise consensus by controlling the\n**51%** of the network, but consensus mechanisms are designed in a way that this attack\nis practically impossible. There are different kinds of **consensus mechanisms** that are\ninvented to be used in cryptoeconomic systems.
++++ Double Spending
++++ Replay Attacks
++++ Sybil Attacks
++++ Eclipse Attacks
++++ Smart Contract Vulnerabilities
+++++ Reentrancy Attacks
+++++ Race Conditions
+++++ Overflow and Underflow
+@endmindmap
+

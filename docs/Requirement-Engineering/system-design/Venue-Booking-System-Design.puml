@@ -1,0 +1,81 @@
+@startwbs
+title = __Venue Booking System Design__
+
+* **Main Page**
+** Search Venues
+*** Search by Location
+**** By City
+**** By ZIP Code
+**** By Distance
+*** Search by Capacity
+**** By Number of Guests
+**** By Room Size
+**** By Type of Event
+**** By Amenities
+** Browse Venues
+*** List of Venues
+**** Venue Name
+**** Venue Address
+**** Venue Description
+**** Venue Photos
+**** Venue Amenities
+*** Venue Details
+**** Venue Capacity
+**** Venue Availability
+**** Venue Pricing
+**** Venue Reviews
+*** Book Venue
+**** Select Date and Time
+**** Enter Event Details
+**** Confirm Booking Details
+**** Make Payment
+** Manage Bookings
+*** View Bookings
+**** List of Bookings
+**** Booking Details
+**** Booking Status
+*** Cancel Booking
+**** Select Booking to Cancel
+**** Confirm Cancellation
+*** Manage Payments
+**** View Payment History
+**** Issue Refunds
+**** View Refund Requests
+** Manage Venues
+*** View Venues
+**** List of Venues
+**** Venue Details
+**** Venue Availability
+**** Venue Pricing
+**** Venue Reviews
+*** Add Venue
+**** Enter Venue Details
+**** Add Venue Photos
+**** Set Venue Availability
+**** Set Venue Pricing
+**** Confirm Venue Details
+*** Edit Venue
+**** Select Venue to Edit
+**** Edit Venue Details
+**** Edit Venue Photos
+**** Edit Venue Availability
+**** Edit Venue Pricing
+**** Confirm Changes
+*** Remove Venue
+**** Select Venue to Remove
+**** Confirm Removal
+** Manage Account
+*** View Profile
+**** View Personal Information
+**** View Booking History
+**** View Payment History
+*** Update Profile
+**** Edit Personal Information
+**** Change Profile Picture
+**** Update Contact Information
+**** Update Communication Preferences
+*** Change Password
+**** Enter Old Password
+**** Enter New Password
+**** Confirm New Password
+@endwbs

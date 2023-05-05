@@ -1,0 +1,64 @@
+@startmindmap
+* System Design
+** High-Level Design (HLD)
+*** Define main components
+*** Define relationships
+*** Define interactions
+** Low-Level Design (LLD)
+*** Detailed design of components
+**** Data structures
+**** Algorithms
+**** Interfaces
+** Design Principles
+*** Modularity
+*** Abstraction
+*** Encapsulation
+*** Scalability
+*** Maintainability
+*** Reusability
+** Design Patterns
+*** Creational
+**** Singleton
+**** Factory Method
+**** Abstract Factory
+**** Builder
+**** Prototype
+*** Structural
+**** Adapter
+**** Bridge
+**** Composite
+**** Decorator
+**** Facade
+**** Flyweight
+**** Proxy
+*** Behavioral
+**** Chain of Responsibility
+**** Command
+**** Interpreter
+**** Iterator
+**** Mediator
+**** Memento
+**** Observer
+**** State
+**** Strategy
+**** Template Method
+**** Visitor
+** Performance Considerations
+*** Latency
+*** Throughput
+*** Load balancing
+*** Caching
+*** Data replication
+** Security Considerations
+*** Authentication
+*** Authorization
+*** Data encryption
+*** Secure communication
+*** Input validation
+** Documentation
+*** Architecture diagrams
+*** Component specifications
+*** Interface definitions
+*** Test plans
+@endmindmap
+

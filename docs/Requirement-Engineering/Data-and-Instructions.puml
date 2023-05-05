@@ -1,0 +1,85 @@
+@startmindmap
+title = __Data and Instructions on Data__
+
+* **Data**
+** Raw facts and figures collected and processed by a computer system
+** May include numbers, text, images, audio, and video etc.
+** Can be organized and analyzed to provide information and insights
+*** Used to make decisions and take action
+* **Instructions**
+** Sets of commands or steps that tell a computer system what to do with **data**
+** Written in a programming language
+** Executed by the computer's processor to perform specific tasks
+* Relationship
+** **Instructions** tell a computer what to do with the **data**
+** **Data** is the input to the computer system
+** **Instructions** are the actions that the computer takes based on that input
+* Goal
+** Process **data** to produce useful information and knowledge
+** Solve problems or make decisions based on the processed information
+
+
+* **Data** and **Instructions**
+** **Data**
+*** Raw facts and figures
+**** Numbers
+**** Text
+**** Images
+**** Audio
+**** Video
+**** ...
+*** Can be organized and analyzed
+*** Provides insights and information
+**** Used to make decisions
+*** Input to computer system **(program)**
+** **Instructions**
+*** Sets of commands or steps
+*** Tell computer system **(program)** what to do with **data**
+*** Written in programming language
+*** Executed by computer processor
+*** Perform specific tasks
+** Relationship between **Data** and **Instructions**
+*** **Instructions** tell computer what to do with **data**
+*** **Data** is input to computer system
+*** **Instructions** are actions computer takes based on input
+*** Goal is to process **data** to produce useful information and knowledge
+*** Useful for solving problems or making decisions
+
+*:Few more things to consider when
+it comes to data and instructions;
+
+** **Data**
+*** Data types
+**** Integers
+**** Floating point numbers
+**** Strings
+**** ...
+*** Data structures
+**** Arrays
+**** Linked lists
+**** Trees
+**** ...
+
+*** Data processing
+**** Sorting
+**** Searching
+**** Filtering
+**** Aggregating
+**** ...
+
+*** Data storage
+**** Files
+**** Databases
+**** Memory
+**** ...
+
+** **Instructions**
+*** Instructions execution
+**** Central processing unit (CPU)
+**** Fetching instructions from memory
+**** Decoding instructions
+**** Executing instructions
+**** Storing results back in memory or registers
+
+*** Fundamental building blocks of computer programs
+@endmindmap

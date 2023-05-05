@@ -1,6 +1,6 @@
 @startmindmap
 
-title A mind map with the advanced system design topics arranged in a hierarchical structure. \nIt provides a high-level overview of the different components and concepts involved in designing and building complex systems.
+title = A mind map with the __advanced system design__ topics arranged in a hierarchical structure. \nIt provides a high-level overview of the different components and concepts involved in designing and building complex systems.
 
 * Advanced System Design
 ** Microservices Architecture
