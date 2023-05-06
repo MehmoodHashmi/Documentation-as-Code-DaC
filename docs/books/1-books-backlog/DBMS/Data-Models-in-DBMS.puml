@@ -1,0 +1,44 @@
+@startwbs
+title = __The two types of Data Modeling Techniques__
+
+* **Two types of Data Modeling Techniques are**
+
+** **1. Entity Relationship (E-R) Model**
+*** **Types of Data Models in DBMS**
+**** **1. Conceptual Data Model:**\n<img:img_1.png>
+***** The 3 basic tenants of Conceptual Data Model are:
+****** Entity
+****** Attribute
+****** Relationship
+**** **2. Logical Data Model:**\n<img:img_2.png>
+***** **Define the structure of data elements and to set relationships between them.**
+***** The logical data model adds further information to the conceptual data model elements.
+***** The advantage of using a Logical data model is to provide a foundation to form the base for the Physical model.
+*****[#pink] At this Data Modeling level, no primary or secondary key is defined.
+***** At this Data modeling level, you need to verify and adjust the connector details that were set earlier for relationships.
+***** Designed and developed independently of the DBMS.
+***** Data attributes will have datatypes with exact precisions and length.
+*****[#pink] **Normalization processes** to the model is applied typically till **3NF.**
+
+**** **3. Physical Data Model:**\n<img:img_3.png>
+***** **Characteristics of a physical data model:**
+******:A Physical Data Model describes a database-specific implementation of the data model.
+It offers database abstraction and helps generate the schema.;
+******:The physical data model also helps in visualizing database structure by replicating
+database column keys, constraints, indexes, triggers, and other RDBMS features.;
+******:The physical data model describes data need for a single project or application
+though it maybe integrated with other physical data models based on project scope.;
+******:Data Model contains relationships between tables that which addresses cardinality
+and nullability of the relationships.;
+******:Developed for a specific version of a DBMS, location, data storage or technology
+to be used in the project.;
+****** Columns should have exact datatypes, lengths assigned and default values.
+******:Primary and Foreign keys, views, indexes, access profiles, and authorizations,
+etc. are defined.;
+
+** **2. UML (Unified Modelling Language)**
+*** **Domain Model (less detailed)**
+*** **UML class diagram (more detailed)**
+
+
+@endwbs

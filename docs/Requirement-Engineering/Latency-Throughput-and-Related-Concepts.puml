@@ -12,6 +12,7 @@ title =__ Latency, Throughput, and Related Concepts__
 *** Factors affecting latency:
 **** Distance between components
 **** Speed of light
+***** Grady Booch: told that you can't transfer (send) data faster than the speed of light, this limitation is law of physics
 **** Processing time
 *** Ways to reduce latency:
 **** Caching

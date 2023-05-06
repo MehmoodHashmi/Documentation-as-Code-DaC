@@ -26,12 +26,12 @@ title = Round Trip Time (RTT) for Data Reading
 **** Nearby Country: ~100-200 milliseconds
 **** Across the Ocean: ~150-300 milliseconds
 
-** Measurement: RTT can be measured using tools such as ping or traceroute.
-** Optimization: RTT is commonly used to optimize network performance and \ntroubleshoot issues such as latency, packet loss, and bandwidth constraints.
+** **Measurement:** RTT can be measured using tools such as ping or traceroute.
+** **Optimization:** RTT is commonly used to optimize network performance and \ntroubleshoot issues such as latency, packet loss, and bandwidth constraints.
 
 *** Load Balancing: Balancing network traffic across multiple paths to improve RTT and overall performance.
-*** Caching: Storing frequently accessed data closer to the user to reduce RTT.
-*** Compression: Reducing the size of data packets to reduce transmission time and improve RTT.
+*** **Caching:** Storing frequently accessed data closer to the user to reduce RTT.
+*** **Compression:** Reducing the size of data packets to reduce transmission time and improve RTT.
 
 ** Applications: RTT is important for many network applications.
 

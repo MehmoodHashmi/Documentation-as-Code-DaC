@@ -1,9 +1,9 @@
 @startmindmap
-title = 8 Fallacies of Distributed Systems
+title = __8 Fallacies of Distributed Systems__
 
-* **8 Fallacies of Distributed Systems**
+* **8 Fallacies of** \n**Distributed Systems**
 ** **The Network Is Reliable**
-*** **Example:** An **application** assumes that network packets will always arrive at their destination, but in reality, network congestion or failures can cause packets to be lost.
+*** **Example:** An **application** assumes that network packets will always arrive at their destination, but in reality, **network congestion or failures** can cause packets to be lost.
 ** Latency Is Zero
 *** **Example:** An **application** assumes that communication between two nodes is instantaneous, but in reality, there is always some delay due to network distance, routing, and processing time.
 ** Bandwidth Is Infinite

@@ -1,0 +1,84 @@
+@startmindmap
+
+title =__ Algorithm Design Techniques__
+
+* Algorithm Design Techniques
+
+** Divide and Conquer
+*** Divide the Problem into Subproblems
+*** Solve Each Subproblem Independently
+*** Combine Subproblem Solutions
+
+** Greedy Algorithms
+*** Make Locally Optimal Choices at Each Step
+*** Build Solution Incrementally
+*** May Not Always Produce the Globally Optimal Solution
+
+** Dynamic Programming
+*** Break Problem into Overlapping Subproblems
+*** Store Solutions to Subproblems in a Table
+*** Use Memoization or Tabulation
+
+** Backtracking
+*** Systematically Explore the Search Space
+*** Maintain Partial Solutions
+*** Backtrack and Make Alternative Choices as Needed
+
+** Brute Force
+*** Exhaustively Try All Possible Solutions
+*** Test Each Solution for Validity
+*** Suitable for Small Problem Sizes
+
+** Randomized Algorithms
+*** Use Randomness in Algorithm Design
+*** Introduce Randomness to Achieve Efficiency or Probabilistic Guarantees
+
+** Heuristic Algorithms
+*** Find Acceptable Solutions in Reasonable Time
+*** Trade-Off Optimality for Speed
+*** Use Approximations or Rule-Based Techniques
+
+** Genetic Algorithms
+*** Inspired by Natural Selection and Genetics
+*** Use Selection, Mutation, and Crossover Operators
+*** Iteratively Improve Solutions
+
+** Simulated Annealing
+*** Inspired by Annealing Process in Metallurgy
+*** Start with a Random Solution and Iteratively Improve
+*** Allow "Worse" Solutions Temporarily to Escape Local Optima
+
+** Ant Colony Optimization
+*** Inspired by the Behavior of Ant Colonies
+*** Ants Lay Pheromone Trails to Indicate Good Paths
+*** Use Probability and Pheromone Evaporation to Guide Search
+
+
+
+* Algorithm Design Technique
+
+** Problem Definition
+*** Clearly Define the Problem Statement
+*** Identify Input and Output Requirements
+
+** Algorithm Design Approach
+*** Choose an Algorithm Design Technique
+**** Divide and Conquer
+**** Greedy Algorithms
+**** Dynamic Programming
+**** Backtracking
+**** Brute Force
+**** ...
+
+** Step-by-Step Algorithm Design
+*** Break Down the Problem into Subproblems
+*** Design the Algorithm for Each Subproblem
+
+** Algorithm Analysis
+*** Evaluate Time and Space Complexity
+*** Assess Efficiency and Scalability
+
+** Algorithm Optimization
+*** Identify Bottlenecks and Performance Issues
+*** Optimize the Algorithm Design if Necessary
+@endmindmap

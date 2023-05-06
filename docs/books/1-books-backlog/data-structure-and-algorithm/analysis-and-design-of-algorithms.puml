@@ -1,25 +1,27 @@
 @startmindmap
 
+title =__ Analysis and Design of Algorithms__
+
 * Analysis and Design of Algorithms
-** Basic Algorithmic Analysis Techniques
+** **Basic** Algorithmic **Analysis Techniques**
 *** Time and Space Complexity Analysis
 *** Big O Notation
 *** Asymptotic Analysis
-** Basic Algorithmic Design Techniques
+** **Basic** Algorithmic **Design Techniques**
 *** Brute Force
 *** Divide and Conquer
 *** Dynamic Programming
 *** Greedy Algorithms
-** Advanced Algorithmic Analysis Techniques
+** **Advanced** Algorithmic **Analysis Techniques**
 *** Amortized Analysis
 *** Probabilistic Analysis
 *** Randomized Algorithms
-** Advanced Algorithmic Design Techniques
+** **Advanced** Algorithmic **Design Techniques**
 *** Backtracking
 *** Branch and Bound
 *** Linear Programming
 *** Network Flow
-** Data Structures for Efficient Algorithmic Design and Analysis
+** **Data Structures** for **Efficient** Algorithmic **Design and Analysis**
 *** Arrays
 *** Linked Lists
 *** Stacks
@@ -27,12 +29,12 @@
 *** Heaps
 *** Trees
 *** Graphs
-** Algorithmic Optimization Techniques
+** Algorithmic **Optimization Techniques**
 *** Memoization
 *** Caching
 *** Pruning
 *** Parallelization
-** Parallel and Distributed Algorithm Design and Analysis Techniques
+** **Parallel and Distributed** Algorithm **Design and Analysis Techniques**
 ** Applications of Algorithmic Analysis and Design Techniques
 *** Computer Science
 *** Engineering
