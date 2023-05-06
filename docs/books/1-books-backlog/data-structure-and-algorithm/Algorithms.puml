@@ -46,7 +46,7 @@ Don't write statements which can't be understood & solved e.g, 1/0, (-1)^1/2;
 ***** **Data size can be compressed or reduced?**
 **** **4. Power** consumption complexity Nowadays we are using android, tablet, smartwatch, IoT, and Iphone
 **** **5. CPU register** consumption complexity if you are developing algorithm for **device drivers** the \n**system level programming**
-***  **Class of Functions** and their execution times on a computer executing 1 million operation per second (1 sec = 106 μsec  = 103 msec): \n<img:images/img_11.png> \n**▪ A factorial algorithm – O(n!)** \nRuntime grows the fastest and **becomes quickly unusable for even small values of n.**
+***  **Class of Functions** and their execution times on a computer executing 1 million operation per second (1 sec = 106 μsec  = 103 msec): \n<img:images/img_11.png> \n**▪ A factorial algorithm – O(n!):** Runtime grows the fastest and **becomes quickly unusable for even small values of n.**
 
 ***  Compare Class of Functions \n<img:images/img_10.png> \n**Where, n is the input size and c is a positive constant.** \n<img:images/img_12.png>
 ***:**Space-Time Tradeoff and Efficiency**
@@ -60,8 +60,8 @@ At the end of this topic, we can conclude that finding an algorithm that works i
 and also having less requirement of memory space, can make a huge difference in how well an
 algorithm performs.;
 
-***:**Asymptotic Notations Big Oh - Omega - Theta:** This topic belongs to mathematics, as functions
-belongs to mathematics so does this topic. For time complexity you have been using functions
+***:**Asymptotic Notations Big Oh - Omega - Theta:** This topic belongs to mathematics, as functions belongs to
+mathematics so does this topic. For time complexity you have been using functions
 * Three notations are commonly used: **Big O, Omega, and Theta.**
 * For representing any **function** in **simple and communicable form** so that one can easily get the idea about the
   algorithm. So, that's why **Asymptotic notation** is an important topic in algorithms, used to represent the time
