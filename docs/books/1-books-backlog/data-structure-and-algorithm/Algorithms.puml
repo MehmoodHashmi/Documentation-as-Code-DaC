@@ -22,7 +22,7 @@ title =__ Algorithm Design Strategies by Abdul Bari YouTube__\n I've identified 
 *** **Characteristics of Algorithm**
 **** **Input:** algorithm may take 0 or more input
 **** **Output:** algorithm must produce at least one output
-****:**Definiteness:** every statement should have single and exact meaning
+****:**Definiteness:** Every statement should have single and exact meaning
 Don't write statements which can't be understood & solved e.g, 1/0, (-1)^1/2;
 **** **Finiteness:** algorithm must terminate at some point, duration of algo must be finite
 **** **Effectiveness:** Do not write unnecessary statements, \nevery statement must serve some purpose
@@ -32,12 +32,12 @@ Don't write statements which can't be understood & solved e.g, 1/0, (-1)^1/2;
 **** Do not worry about **minor details**, that are **programming language specific**
 *** **How to Analyze an Algorithm?** \n2-Major complexities **(Time & space)**
 ****[#pink] **1. Time** How much **time/duration algorithm** consumes to produce the output\n<img:images/img_2.png>
-*****[#pink] Every **simple statement (no function invocation)** in an algorithm takes **1-unit of time**
+*****[#pink] Every **simple statement (no function invocation)** in an algorithm takes **1-unit of time.** \nIf there is **function invocation** you will calculate it separately
 *****[#yellow] **1. Frequency Count Method** for finding time complexity of algorithm \n<img:images/img_4.png>
 *****[#yellow] **1. Frequency Count Method** for finding time complexity of algorithm \n<img:images/img_4.png>
 *****[#yellow] **1. Frequency Count Method** example for finding time complexity of algorithm \n<img:images/img_8.png>
-****[#pink] **2. Space** complexity How much **memory space (RAM)** algorithm consumes. \n**Identify the variables** in this **algorithm**  consumes\n<img:images/img_3.png>
-*****[#pink] **Identify the variables** in this **algorithm**  consumes
+****[#pink] **2. Space** complexity How much **memory space (RAM)** algorithm consumes. \n**Identify the variables** this **algorithm**  consumes\n<img:images/img_3.png>
+*****[#pink] **Identify the variables** in this **algorithm**
 *****[#pink] **Finding Space** complexity How much **memory space (RAM)** algorithm consumes \n**Identify the variables** in this **algorithm.** \n**example**\n<img:images/img_5.png>
 *****[#pink] **Finding Space** complexity How much **memory space (RAM)** algorithm consumes.  \n**Identify the variables** in this **algorithm.** \n**example**\n<img:images/img_7.png>
 *****[#pink] **Finding Space** complexity How much **memory space (RAM)** algorithm consumes.  \n**Identify the variables** in this **algorithm.** \n**example**\n<img:images/img_9.png>
@@ -48,7 +48,7 @@ Don't write statements which can't be understood & solved e.g, 1/0, (-1)^1/2;
 **** **5. CPU register** consumption complexity if you are developing algorithm for **device drivers** the \n**system level programming**
 ***  **Class of Functions** and their execution times on a computer executing 1 million operation per second (1 sec = 106 μsec  = 103 msec): \n<img:images/img_11.png> \n**▪ A factorial algorithm – O(n!):** Runtime grows the fastest and **becomes quickly unusable for even small values of n.**
 
-***  Compare Class of Functions \n<img:images/img_10.png> \n**Where, n is the input size and c is a positive constant.** \n<img:images/img_12.png>
+***  Compare __**Class of Functions**__ \n<img:images/img_10.png> \n**Where, n is the input size and c is a positive constant.** \n<img:images/img_12.png>
 ***:**Space-Time Tradeoff and Efficiency**
 There is usually a trade-off between optimal memory use and runtime performance.
 In general for an algorithm, space efficiency and time efficiency reach at two opposite ends and each
@@ -60,7 +60,7 @@ At the end of this topic, we can conclude that finding an algorithm that works i
 and also having less requirement of memory space, can make a huge difference in how well an
 algorithm performs.;
 
-***:**Asymptotic Notations Big Oh - Omega - Theta:** This topic belongs to mathematics, as functions belongs to
+***:**Asymptotic Notations Big Oh - Omega - Theta:** This topic belongs to **mathematics,** as **functions** belongs to
 mathematics so does this topic. For time complexity you have been using functions
 * Three notations are commonly used: **Big O, Omega, and Theta.**
 * For representing any **function** in **simple and communicable form** so that one can easily get the idea about the

@@ -1,7 +1,7 @@
 
 Questions to practice time complexity calculations
 --------
-5. 
+4. 
 
 
     for (i = 1; i < n; i*2) {
@@ -20,7 +20,7 @@ Questions to practice time complexity calculations
     
     }
 
---------
+--------    
 6. 
 
 
@@ -57,46 +57,34 @@ Questions to practice time complexity calculations
     }
 
 --------
+ 9. 
 
 
-matrix 1
-
-| 1 | 2 | 3 |
-|---|---|---|
-| 4 | 5 | 6 |
-| 7 | 8 | 9 |
-
----
-matrix 2
-
-| 1 | 2 | 3 |
-|---|---|---|
-| 4 | 5 | 6 |
-| 7 | 8 | 9 |
- 
-
-
-1, 2, 3,
-
-4, 5, 6, 
-
-7, 8, 9
-
-
-
-
-
-
-## Write down numbered steps for installing MySQL
-
+    p = 0
+    for (i = 0;  i < n;  i = i*2) {
+        
+    P++;
     
+    }
+
+    for (j = 1;  j < p;  jm= j*2) {
+        
+    statement;
+    
+    }
+
+-------- 
+10. 
 
 
+    for (i = 0;  i < n;  i = i++) {
 
+        for (j = 1;  j < n;  j= j*2) {
+        
+    statement;
+    
+    }
+}
 
-
-
-
-
-
-
+--------
+ 

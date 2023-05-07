@@ -16,7 +16,7 @@ title = __Advanced Algorithmic Thinking__
 ** Utilizing techniques such as parallel computing and distributed systems
 ** Balancing the trade-off between optimization and other constraints, such as space and time complexity
 
-* Scalability
+*[#yellow] **Scalability**
 ** Designing algorithms that can handle large data sets and increasing volumes of traffic
 ** Utilizing techniques such as sharding and load balancing
 ** Understanding the trade-offs between scalability, performance, and cost
