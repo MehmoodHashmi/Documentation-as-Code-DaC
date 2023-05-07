@@ -1,0 +1,38 @@
+@startmindmap
+title =__ GitOps__\n Taken from chatgpt-4
+
+* GitOps
+** Principles
+*** Infrastructure as Code (IaC)
+*** Version Control
+*** Continuous Deployment
+*** Automated Reconciliation
+** Components
+*** Version Control System
+**** Git <&git>
+**** GitHub <&github>
+**** GitLab <&gitlab>
+*** Containerization
+**** Docker <&docker>
+*** Orchestration
+**** Kubernetes <&kubernetes>
+** Workflow
+*** Step 1: Code Commit
+*** Step 2: CI/CD Pipeline
+*** Step 3: Deployment
+*** Step 4: Monitoring & Reconciliation
+** Benefits
+*** Consistency
+*** Traceability
+*** Faster Recovery
+*** Improved Security
+** Challenges
+*** Initial Setup
+*** Learning Curve
+*** Security Concerns
+** Tools
+*** Flux
+*** Argo CD
+*** Jenkins X
+*** Gitkube
+@endmindmap
