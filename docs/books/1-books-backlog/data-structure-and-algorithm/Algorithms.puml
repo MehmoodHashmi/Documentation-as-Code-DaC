@@ -73,6 +73,73 @@ mathematics so does this topic. For time complexity you have been using function
 * **Theta notation** represents an** average bound** of a function, **indicating** both **upper and lower bounds** are similar.
 <img:images/img_15.png>
 * This notation is not related to **best-case or worst-case analysis** in algorithms.;
+*** **Properties of Asymptotic notations**
+****:Let's illustrate the properties of asymptotic notations with an example:
+
+Consider the following functions:
+
+                                   f(n) = 2n + 3
+                                   g(n) = n^2
+                                   h(n) = 5n
+
+**1. Reflexivity:**
+
+* f(n) is O(f(n)) since 2n + 3 ≤ 2n + 3 for all values of n.
+* f(n) is Ω(f(n)) since 2n + 3 ≥ 2n + 3 for all values of n.
+* f(n) is Θ(f(n)) since 2n + 3 ≥ 2n + 3 and 2n + 3 ≤ 2n + 3 for all values of n.
+
+**2. Transitivity:**
+
+* Given that f(n) is O(g(n)) and g(n) is O(h(n)):
+** f(n) = 2n + 3 is O(n^2) since 2n + 3 ≤ n^2 for all values of n.
+** g(n) = n^2 is O(5n) since n^2 ≤ 5n for all values of n.
+** Therefore, f(n) = 2n + 3 is O(5n) by transitivity.
+
+**3. Symmetry:**
+
+* Given that f(n) = 2n + 3 is Θ(g(n)) implies that g(n) = n^2 is also Θ(f(n))
+
+**4. Multiplicative Constant:**
+
+* If f(n) = 2n + 3 is O(g(n)) and we introduce a constant c > 0:
+**   cf(n) = c(2n + 3) = 2cn + 3c
+**   Since 2cn + 3c ≤ (2c)n + (3c) for all values of n, cf(n) is also O(g(n)) for any constant c > 0.
+* Similarly, if f(n) = 2n + 3 is Ω(g(n)), then cf(n) is also Ω(g(n)) for any constant c > 0.
+* Likewise, if f(n) = 2n + 3 is Θ(g(n)), then cf(n) is also Θ(g(n)) for any constant c > 0.
+
+**5. Additive Constant:**
+
+* If f(n) = 2n + 3 is O(g(n)) and we introduce a function h(n):
+**    f(n) + h(n) = 2n + 3 + h(n)
+**    Since 2n + 3 + h(n) ≤ 2n + 3 + h(n) for all values of n, f(n) + h(n) is also O(g(n)) for any function h(n).
+* Similarly, if f(n) = 2n + 3 is Ω(g(n)), then f(n) + h(n) is also Ω(g(n)) for any function h(n).
+* Likewise, if f(n) = 2n + 3 is Θ(g(n)) and h(n) = O(g(n)), then f(n) + h(n) is also Θ(g(n)).;
+
+*** **Disjoint Sets**
+****:**Disjoint Sets:**
+are same sets as in mathematics, but we are interested only in two operations
+1. find
+2. union
+
+* disjoint sets are useful for finding **cycle** in **undirected graphs**
+* How represent disjoint sets
+** **Graphical representation**
+** **Array representation**
+* Time efficient operations on disjoint sets are:
+** weighted union & collapsing find
+
+The famous algorithm that uses disjoint sets is **kruskal algorithm** (which detects a cycle in graph)
+<img:images/img.png>
+How we know its disjoint set? ** s1 intersection s2 = empty set**
+* If there is an edge (u, v) let say (4, 8); find out u to which set it belongs and find out v.
+* If there is an edge (u, v) let say (4, 8); find out u to which set it belongs and find out v
+to which set it belongs. If both     (elements) belong to same sets then it means there is a cycle.;
+
+
+
+
+
+
 
 ** **Program**
 *** **Write** the **program** at <color #118888>__**implementation time**__</color>

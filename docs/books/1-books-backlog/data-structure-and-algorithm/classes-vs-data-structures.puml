@@ -1,0 +1,43 @@
+@startmindmap
+title = <color #118888>__Classes vs data-structures__</color>
+
+* **__Classes vs data-structures__**
+** What is a **class**?
+*** A class is the specification of a set of similar objects.
+** What is an **object**?
+
+***:An object is a set of functions that operate upon encapsulated data elements.
+Or rather, an object is a set of functions that operate on implied data elements.
+
+The functions of an object imply the existence of some data elements; but that data is not directly accessible or visible outside of the object.
+
+**Isn’t the data inside the object?**
+
+It could be; but there’s no rule that says it must be. From the point of view of the user, an object is nothing more than a set of functions.
+The data that those functions operate upon must exist, but the location of that data is unknown to the user.;
+
+** What is a **data structure**?
+***:A data structure is a cohesive set of data elements.
+Or, in other words, a data structure is a set of data elements operated upon by implied functions.;
+
+**:Indeed. They are complements of each other. They fit together like a hand in a glove.
+* An Object is a set of functions that operate upon implied data elements.
+
+* A Data Structure is a set of data elements operated upon by implied functions;
+
+**:**Let’s review:**
+
+* <color #crimson>**Adding new functions to a set of classes is hard, you have to change each class.**</color>
+* <color #crimson>**Adding new functions to a set of data structures is easy, you just add the function, nothing else changes.**</color>
+* <color #crimson>**Adding new types to a set of classes is easy, you just add the new class.**</color>
+* <color #crimson>**Adding new types to a set of data structures is hard, you have to change each function.**</color>;
+
+**:OK, so let me see if I can wrap this up. Classes and Data Structures are opposites in at least three different ways.
+
+* <color #green>**Classes make functions visible while keeping data implied. Data structures make data visible while keeping functions implied.**</color>
+* <color #green>**Classes make it easy to add types but hard to add functions. Data structures make it easy to add functions but hard to add types.**</color>
+* <color #green>**Data Structures expose callers to recompilation and redeployment. Classes isolate callers from recompilation and redeployment.**</color>;
+
+** **You got it. These are issues that every good software designer and architect needs to keep in mind.**
+
+@endmindmap

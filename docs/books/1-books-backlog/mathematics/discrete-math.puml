@@ -1,0 +1,80 @@
+@startmindmap
+
+title =__ Discrete Mathematics__
+
+* Discrete Mathematics
+** Sets and Logic
+*** Set theory
+**** Sets and elements
+**** Union and intersection
+**** Subsets
+**** Venn Diagrams
+*** Logic
+**** Propositions and logical operations
+**** Truth tables
+**** Tautologies and contradictions
+**** Rules of inference
+**** Predicate logic
+*** Relations and functions
+**** Defining relations
+**** Equivalence relations
+**** Partial and total orderings
+**** Functions and their properties
+**** Composition of functions
+
+** Combinatorics
+*** Basics of counting
+**** Addition and multiplication principles
+**** Permutations and combinations
+**** Binomial theorem
+*** Advanced counting techniques
+**** Inclusion-exclusion principle
+**** Recurrence relations
+*** Graph theory
+**** Graphs and their properties
+**** Connectivity and trees
+**** Graph isomorphisms
+**** Planar graphs
+**** Coloring and chromatic number
+
+** Number theory
+*** Divisibility and prime numbers
+**** Division algorithm
+**** Euclidean algorithm
+**** Prime numbers and their properties
+**** Fundamental theorem of arithmetic
+*** Modular arithmetic
+**** Congruences
+**** Chinese remainder theorem
+**** Fermat's Little Theorem
+**** Euler's totient function
+*** Diophantine equations
+**** Linear Diophantine equations
+**** Quadratic Diophantine equations
+**** Pell's equation
+
+** Algebra and Algebraic Structures
+*** Algebra
+**** Groups
+**** Rings
+**** Fields
+**** Vector spaces
+*** Lattices and Boolean Algebras
+**** Lattices
+**** Boolean algebras
+**** Applications in computers
+
+** Algorithms and Computational Theory
+*** Basics of algorithms
+**** Algorithmic notation
+**** Computability and complexity
+*** Algorithm design techniques
+**** Divide-and-conquer
+**** Greedy algorithms
+**** Dynamic programming
+**** Backtracking
+*** Computational complexity
+**** Asymptotic notation
+**** P, NP, and NP-Completeness
+
+@endmindmap

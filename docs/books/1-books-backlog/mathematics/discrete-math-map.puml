@@ -29,8 +29,27 @@
 **** Connectedness
 **** Planar Graphs
 *** Graph Representation
-**** Adjacency Matrix
-**** Adjacency List
+**** **Adjacency Matrix**
+*****:**Adjacency Matrix Example**
+
+graph = [
+    [0, 1, 0, 1],
+    [1, 0, 1, 0],
+    [0, 1, 0, 1],
+    [1, 0, 1, 0]
+];
+
+**** **Adjacency List**
+
+*****:**Adjacency List Example**
+
+graph = [
+    [1, 3],
+    [0, 2],
+    [1, 3],
+    [0, 2]
+];
+
 *** Graph Algorithms
 **** Shortest Path
 **** Minimum Spanning Tree
