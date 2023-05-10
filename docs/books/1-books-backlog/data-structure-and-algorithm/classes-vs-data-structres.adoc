@@ -58,7 +58,7 @@ So a DTO – a Data Transfer Object – is not an object?
 [quote]
 Correct. DTOs are data structures.
 
-And so database tables aren’t objects either are they?
+And so database tables aren’t objects either, are they?
 
 [quote]
 Correct again. Databases contain data structures, not objects.
@@ -96,32 +96,32 @@ Not at all. The distinction has significant implications.
 Such as?
 
 [quote]
-Such as the design of the database schema vs. the design of the business objects. Business objects define the structure of the business behavior. Database schemas define the structure of the business data. Those two structures are constrained by very different forces. The structure of the business data is not necessarily the best structure for the business behavior.
+#Such as the design of the database schema vs. the design of the business objects. Business objects define the structure of the business behavior. Database schemas define the structure of the business data. Those two structures are constrained by very different forces. The structure of the business data is not necessarily the best structure for the business behavior.#
 
 Hmmm. That’s confusing.
 
 [quote]
-Think of it this way. The database schema is not tuned for just one application; it must serve the entire enterprise. So the structure of that data is a compromise between many different applications.
+#Think of it this way. The database schema is not tuned for just one application; it must serve the entire enterprise. So the structure of that data is a compromise between many different applications.#
 
 OK, I get that.
 
 [quote]
-Good. But now consider each individual application. The Object model of each application describes the way the behavior of those applications are structured. Each application will have a different object model, tuned to that application’s behavior.
+#Good. But now consider each individual application. The Object model of each application describes the way the behavior of those applications are structured. Each application will have a different object model, tuned to that application’s behavior.#
 
 Oh, I see. Since the database schema is a compromise of all the various applications, that schema will not conform to the object model of any particular application.
 
 [quote]
-Right! Objects and Data Structures are constrained by very different forces. They seldom line up very nicely. People used to call this the Object/Relational impedance mismatch.
+#Right! Objects and Data Structures are constrained by very different forces. They seldom line up very nicely. People used to call this the Object/Relational impedance mismatch.#
 
 I’ve heard of that. But I thought that impedance mismatch was solved by ORMs.
 
 [quote]
-And now you now differently. There is no impedance mismatch because objects and data structures are complementary, not isomorphic.
+#And now you know differently. There is no *impedance mismatch* because objects and data structures are *complementary*, not *isomorphic*.#
 
 Say what?
 
 [quote]
-They are opposites, not similar entities.
+#*They are opposites, not similar entities.*#
 
 Opposites?
 
