@@ -1,6 +1,6 @@
 @startuml
 
-title "__//<:1f600:> Echo Save<:1f517:><:1f553:><:1f52d:> ""System""<:1f578:><:1f578:><size:18> Corporation</size>//__ "
+title "Do not create __use case diagram__ with plantuml\n instead use visual-paradigm or draw.io "
 !pragma teoz true
 
 left to right direction

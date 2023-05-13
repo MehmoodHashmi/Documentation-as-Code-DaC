@@ -1,0 +1,62 @@
+@startwbs
+title = __Mathematics__
+* Mathematics
+** **1. Number System**\n<img:img.png>
+*** Real Numbers
+**** Rational Numbers
+**** Irrational Numbers
+*** Complex Numbers
+**** Real Part
+**** Imaginary Part
+**[#pink] **Discrete Mathematics** is a broad field of mathematics that focuses on \nmathematical structures and objects that are fundamentally discrete \nrather than continuous.\n<img:img_1.png>
+*** Set Theory
+*** Logic and Propositional Calculus
+*** Combinatorics
+*** Graph Theory
+** **2. Structures**
+*** Algebra
+**** Elementary Algebra
+**** Abstract Algebra
+*** Linear Algebra
+**** Vectors
+**** Matrices
+**** Systems of Linear Equations
+*** Number Theory
+**** Prime Numbers
+**** Divisibility
+**** Modular Arithmetic
+** **3. Spaces**
+*** Trigonometry
+**** Trigonometric Functions
+**** Trigonometric Identities
+**** Trigonometric Equations
+*** Geometry
+**** Euclidean Geometry
+**** Coordinate Geometry
+**** Geometric Transformations
+**** Polygons and Circles
+*** Topology
+**** Point-Set Topology
+**** Continuity and Compactness
+**** Connectedness and Separation
+*** Analytic Geometry
+**** Conic Sections
+**** Parametric Equations
+**** Polar Coordinates
+**** Three-Dimensional Geometry
+** **4. Changes**
+*** Calculus
+**** Differential Calculus
+***** Limits
+***** Derivatives
+****** Chain Rule
+****** Product Rule
+****** Quotient Rule
+**** Integral Calculus
+***** Indefinite Integrals
+***** Definite Integrals
+****** Fundamental Theorem of Calculus
+****** Integration Techniques
+****** Applications of Integration
+****** Improper Integrals
+@endwbs
