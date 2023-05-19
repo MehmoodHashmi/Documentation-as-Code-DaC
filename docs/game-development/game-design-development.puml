@@ -1,0 +1,49 @@
+@startmindmap
+
+title = Game Design and Development
+
+* Game Design and Development
+** Game Concept
+*** Storyline
+*** Characters
+*** Setting
+** Game Mechanics
+*** Gameplay
+*** Controls
+*** Interactions
+*** Objectives
+** Art and Graphics
+*** Concept Art
+*** Character Design
+*** Environment Design
+*** Animation
+** Sound Design
+*** Background Music
+*** Sound Effects
+*** Voice Acting
+** Level Design
+*** Layout
+*** Puzzles
+*** Challenges
+*** Progression
+** User Interface (UI)
+*** Menus
+*** HUD
+*** Dialog Boxes
+*** Buttons and Icons
+** Game Development
+*** Programming
+*** Game Engine
+*** Physics
+*** AI
+** Testing and Debugging
+*** Quality Assurance
+*** Bug Tracking
+*** Playtesting
+** Game Deployment
+*** Platforms
+*** Distribution
+*** Marketing
+*** Monetization
+
+@endmindmap

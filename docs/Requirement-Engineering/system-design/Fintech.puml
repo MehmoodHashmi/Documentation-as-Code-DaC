@@ -1,0 +1,72 @@
+@startmindmap
+
+title = Fintech
+* Fintech
+** Payment and Money Transfer
+*** Digital Payments
+*** Mobile Wallets
+*** Peer-to-Peer (P2P) Payments
+*** Remittances and Cross-Border Payments
+*** Payment Gateways
+** Online Lending and Crowdfunding
+*** Peer-to-Peer (P2P) Lending
+*** Marketplace Lending
+*** Crowdfunding Platforms
+*** Microfinance
+*** Credit Scoring and Risk Assessment
+** Digital Banking
+*** Online and Mobile Banking
+*** Digital Account Opening
+*** Personal Financial Management
+*** Digital Identity and Authentication
+*** Robo-Advisory and Wealth Management
+** Insurtech
+*** Digital Insurance Platforms
+*** Online Policy Management
+*** Claims Processing Automation
+*** Usage-Based Insurance
+*** AI-Powered Underwriting and Risk Assessment
+** Blockchain and Cryptocurrency
+*** Distributed Ledger Technology (DLT)
+*** Cryptocurrencies (Bitcoin, Ethereum, etc.)
+*** Smart Contracts and Decentralized Finance (DeFi)
+*** Supply Chain and Trade Finance
+*** Digital Identity and KYC
+** Regtech and Compliance
+*** Regulatory Compliance Solutions
+*** Anti-Money Laundering (AML) and Know Your Customer (KYC)
+*** Risk Management and Fraud Detection
+*** Data Privacy and Security
+*** Reporting and Audit Trails
+** Wealthtech and Robo-Advisory
+*** Automated Investment Advisory
+*** Portfolio Management
+*** Algorithmic Trading
+*** Financial Planning and Retirement Solutions
+*** Robotic Process Automation (RPA)
+** Data Analytics and AI
+*** Predictive Analytics
+*** Fraud Detection and Prevention
+*** Credit Scoring and Risk Management
+*** Market Research and Customer Insights
+*** Natural Language Processing (NLP) and Sentiment Analysis
+** Financial Infrastructure
+*** Open Banking and APIs
+*** Payment Systems and Clearinghouses
+*** Financial Data Aggregators
+*** Marketplaces and Trading Platforms
+*** Regulatory Reporting Systems
+** E-commerce and Retail Finance
+*** Online Marketplaces and Platforms
+*** Point of Sale (POS) Systems
+*** Digital Wallet Integration
+*** Buy Now, Pay Later (BNPL) Solutions
+*** Customer Loyalty and Rewards Programs
+** Robotic Process Automation (RPA)
+*** Automated Financial Processes
+*** Back-Office Operations
+*** Compliance and Reporting Automation
+*** Risk Management Automation
+*** Customer Service Automation
+
+@endmindmap

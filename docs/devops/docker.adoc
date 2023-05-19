@@ -88,6 +88,9 @@ image::images/pod.svg[width=300,float=right]
 image::images/docker-vs-virtual_machine.png[width=500]
 image::images/image-2023-02-14-23-17-20-287.png[]
 
+.what is inside docker-file and its meaning
+image::images/docker-file.svg[]
+
 == What is Docker and how to Install it | How to start & stop a Container in AWS
 1. Docker diff command
 
