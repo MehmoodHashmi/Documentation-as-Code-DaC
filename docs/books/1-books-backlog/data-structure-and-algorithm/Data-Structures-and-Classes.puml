@@ -1,0 +1,40 @@
+@startmindmap
+title =__ Data Structures and Classes__
+
+* **Data Structures** and **Classes**
+**[#pink] **Data Structures**
+*** **Purpose:** Storing and organizing data
+*** **Focus:** Efficiency, access, and manipulation of data
+*** **Examples:** Arrays, linked lists, trees, stacks, queues, graphs, hash tables
+**[#pink] **Classes**
+*** **Purpose:** Blueprint for creating objects with shared characteristics and behavior
+*** **Focus:** Encapsulation, data abstraction, polymorphism, code re-usability (aggregation and composition)
+*** **Examples:** Person, Car, BankAccount
+* Differences between **Data Structures** and **Classes**
+** **Data structures** are primarily concerned with efficient storage and manipulation of data.
+** **Classes** are primarily concerned with providing a blueprint for creating objects and defining their behavior.
+* Efficiency
+** **Data structures** are designed for efficient data access and manipulation.
+** **Examples:** Arrays provide constant-time access to elements, while linked lists offer efficient insertion and deletion.
+** **Classes** can utilize efficient **data structures** internally to optimize operations on objects.
+* Encapsulation
+** Encapsulation hides the internal details and implementation of an object.
+** **Classes** achieve encapsulation by defining private and protected members that are hidden from external access.
+** Encapsulation promotes information hiding and allows for better control over data access and modification.
+* Polymorphism
+**[#pink] **Compile-time and run-time polymorphism.**
+***[#pink] **static and dynamic binding.**
+** Polymorphism allows objects of different types to be treated interchangeably.
+** Achieved through inheritance and method overriding.
+** **Classes** can define virtual methods that can be overridden in **subclasses**, enabling polymorphic behavior.
+* Practical Use
+** **Data structures** and **classes** are often used together in software development.
+** **Data structures** can store and organize the data needed by **classes**.
+** **Classes** can encapsulate **data structures** and provide methods for manipulating the data.
+* Benefits of Using Both
+** By using **data structures** and **classes** together, you can create efficient, reusable, and modular code.
+**[#yellow] **Data structures** enhance the efficiency and organization of **data,** while **classes** provide abstraction, encapsulation, and polymorphism.
+** Understanding **data structures** and **classes** is crucial for **effective software development and problem-solving.**
+
+* **[[https://www.visual-paradigm.com/tutorials/developdomainandimplclassmodel.jsp Domain Model, How to Organize Domain and Implementation Model visual-paradigm?]]** click me \n <img:images/img_30.png> \n **Domain Model** \n<img:images/img_31.png> \n **Domain Model** \n<img:images/img_32.png>\n **Domain Model** \n<img:images/img_33.png>
+@endmindmap

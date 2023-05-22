@@ -135,7 +135,21 @@ How we know its disjoint set? ** s1 intersection s2 = empty set**
 * If there is an edge (u, v) let say (4, 8); find out u to which set it belongs and find out v
 to which set it belongs. If both     (elements) belong to same sets then it means there is a cycle.;
 
+*** **Divide and Conquer Strategy** \n<img:images/img_34.png> \n**general algorithm design for divide and conquer**\n<img:images/img_35.png>
+**** if the sub-problems if the sub-problem is large then again divide the sub-problem and then solve it.
+****:**Note:** whatever the **problem (P)** is, the sub-problem **(P1, P2, ...)** must be of the same nature or behavior
+ as the big problem or Main problem, the sub-problem must not deviate from the orignal problem e.g.
+* if the **big problem** is to **sort** then **sub-problems** must be also be **sort.**
+* if the **big problem** is to **search** then **sub-problems** must be also be **search.**
+* if the **big problem** is to **"Conduct a workshop in college"** then you can divide this problem into sub-problems
+ like **"preparing inviations, preparing posters, inviting guest, inviting resource person".** These sub-tasks are
+ different, each is different than main problem, So, this is not the divide and conquer. When you divide the problem
+ it must remains same, this is how it becomes **recursive** in nature.
+ * When you "divide the problem", you must be able to combine the sub-problem to get the solution, if you can't then you
+ can't apply this strategy (divide and conquer). **OR YOU SHOULD KEEP IT SAME.**
 
+**Following are the problems that come under this topic:**
+<img:images/img_36.png>;
 
 
 
