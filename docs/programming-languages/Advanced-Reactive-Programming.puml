@@ -1,0 +1,39 @@
+@startmindmap
+
+
+title = Advanced Reactive Programming
+
+* Advanced Reactive Programming
+** Reactive Streams
+*** Specification for asynchronous stream processing with non-blocking back pressure.
+*** Defines a standard set of interfaces, classes, and protocols for reactive libraries.
+*** Enables interoperability between different reactive libraries.
+** Back Pressure
+*** Mechanism to control the flow of data between publishers and subscribers.
+*** Allows subscribers to communicate their readiness to handle new data.
+*** Prevents overload and provides a way to handle slow consumers.
+** Hot vs. Cold Observables
+*** Cold observables start emitting data when a subscriber subscribes to them.
+*** Hot observables emit data regardless of whether there are active subscribers.
+*** Hot observables are useful for broadcasting events to multiple subscribers.
+** Error Handling
+*** Reactive programming provides mechanisms to handle errors in data streams.
+*** Operators like `onErrorResumeNext`, `retry`, and `catch` can handle errors gracefully.
+*** Errors can be propagated to subscribers or transformed into alternative streams.
+** Threading and Schedulers
+*** Reactive programming supports concurrency and threading.
+*** Schedulers manage the execution context for observables and their subscribers.
+*** Schedulers provide control over thread pooling, parallelism, and execution order.
+** State Management
+*** Advanced reactive programming addresses state management challenges.
+*** Tools like state containers, immutable data structures, and reducers can be used.
+*** Unidirectional data flow architectures (e.g., Redux) can be applied for complex states.
+** Advanced Operators
+*** Reactive libraries provide a wide range of advanced operators for complex scenarios.
+*** Examples include windowing, grouping, throttling, time-based operations, and more.
+*** These operators allow fine-grained control over data streams and transformations.
+** Testing and Debugging
+*** Reactive programming frameworks offer testing and debugging utilities.
+*** Tools like test schedulers, test subscribers, and mock observables facilitate testing.
+*** Debugging features help diagnose issues in complex reactive pipelines.
+@endmindmap

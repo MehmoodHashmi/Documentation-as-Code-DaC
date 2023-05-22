@@ -16,21 +16,21 @@ caption Design by Contract is a software design approach that focuses on definin
 ** **Static Checking:** The role of the compiler in checking the code against the contract at compile-time.
 ** **Dynamic Checking:** The role of the runtime environment or a specialized library in checking the code against the contract at runtime.
 * Benefits
-** Clear Specification: Provides a clear and formal specification of the expected behavior of the software component.
-** Improved Design: Encourages the creation of well-designed and modular software components.
-** Improved Testing: Enables more effective and efficient testing of software components.
-** Improved Documentation: Facilitates the creation of clear and concise documentation for software components.
-** Improved Collaboration: Enhances collaboration between developers by providing a common language and understanding of software components.
+** **Clear Specification:** Provides a clear and formal specification of the expected behavior of the software component.
+** **Improved Design:** Encourages the creation of well-designed and modular software components.
+** **Improved Testing:** Enables more effective and efficient testing of software components.
+** **Improved Documentation:** Facilitates the creation of clear and concise documentation for software components.
+** **Improved Collaboration:** Enhances collaboration between developers by providing a common language and understanding of software components.
 * Tools
-** Programming Languages: Some programming languages provide built-in support for Design by Contract.
-** Frameworks: Some software frameworks provide support for Design by Contract.
-** Libraries: There are libraries available that provide support for Design by Contract.
-** Tools: There are specialized tools available that support Design by Contract.
+** **Programming Languages:** Some programming languages provide built-in support for Design by Contract.
+** **Frameworks:** Some software frameworks provide support for Design by Contract.
+** **Libraries:** There are libraries available that provide support for Design by Contract.
+** **Tools:** There are specialized tools available that support Design by Contract.
 * Applications
-** Object-Oriented Design: Design by Contract can be applied to object-oriented design.
-** Component-Based Design: Design by Contract can be applied to component-based design.
-** Web Services: Design by Contract can be applied to web services.
-** Distributed Systems: Design by Contract can be applied to distributed systems.
+** **Object-Oriented Design:** Design by Contract can be applied to object-oriented design.
+** **Component-Based Design:** Design by Contract can be applied to component-based design.
+** **Web Services:** Design by Contract can be applied to web services.
+** **Distributed Systems:** Design by Contract can be applied to distributed systems.
 
 
 @endmindmap

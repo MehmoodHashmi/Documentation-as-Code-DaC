@@ -6,23 +6,24 @@ caption <color #crimson>**__Artificial Intelligence (AI) will replace computatio
 
 
 * <color #crimson>**__AI, ML, DL and Data-science__**</color> **are trying to automate these 4-skills e.g. chatgpt-3 & 4. **Once **Grady Booch** said in\nhis video lecture that the <color #118888>**5th**</color>** most significant skill is**  <color #118888>**__team building, communication or__ __working in teams.__**</color>\n<color #118888>**Developing Computational Thinking on AI and Big-Data.**</color> \n<img:computational-thinking.png>
-** **Abstraction**
+** **1. Abstraction**
 ***[#pink] Generalization
 ***[#pink] Simplification
 ***[#pink] Model Building
 ***[#pink] Conceptualization
-** **Decomposition**
+** **2. Decomposition**
 ***[#pink] Breaking a problem into smaller parts
 ***[#pink] Identifying the relationship between parts
 ***[#pink] Building a hierarchy of modules
-** **Pattern Recognition**
+** **3. Pattern Recognition**
 ***[#pink] Identifying similarities among problems
 ***[#pink] Recognizing patterns and regularities
 ***[#pink] Identifying trends and outliers
-** **Algorithm Design**
+** **4. Algorithm Design**
 ***[#pink] Developing step-by-step solutions to problems
 ***[#pink] Analyzing the efficiency and effectiveness of solutions
 ***[#pink] Optimizing solutions
+**[#crimson] **5. Working in Teams**
 ** **Evaluation**
 ***[#pink] Testing and refining solutions
 ***[#pink] Identifying limitations and potential errors

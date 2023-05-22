@@ -1,0 +1,16 @@
+@startmindmap
+title = __ Machine learning basic terminology__
+
+
+*:*Tumhary pas ek bunda aya driving seekny, es wqt es bndy ko driving k bary main khuch mallom nehe
+to eslye esy bunda ko hm algorithm kahain gay, es bunda ko main kaam teach kron ga.
+* Es bunda (algorithm) ko main teach kr rha hon ess teaching ko **AI (aritifical intelligence)** ke duniya main kehty han
+bunda (algorithm) ko **train** krna. **bunda (algorithm)** after training becomes or called a **Trained Model**.
+* or jo **batain** main usko (bunda or algorithm ko) bataon ga teach krty wqt un baton ko kehty han **Data**.
+* Sometimes it happens that you want to hire a **person/driver ( or algorithm)** and this person knows the
+driving in advance, meaning he does not need you to teach him how to drive. So, such a **person/driver (or algorithm)**
+we call him a **Pre Trained Model**.
+;
+
+
+@endmindmap

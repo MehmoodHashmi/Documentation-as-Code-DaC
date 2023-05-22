@@ -1,0 +1,44 @@
+@startmindmap
+title = Reactive Programming
+
+* Reactive Programming
+** Overview
+*** Reactive paradigm focuses on asynchronous data streams and propagation of changes.
+*** It enables declarative programming and provides abstractions to handle data flow.
+** Core Concepts
+*** Data Streams
+**** Streams represent a sequence of events or values over time.
+**** They can be created from various sources like user inputs, sensors, or network responses.
+*** Observables
+**** Observables are the sources of data streams in reactive programming.
+**** They emit values or events over time and can be subscribed to.
+**** Multiple subscribers can receive the emitted values independently.
+*** Subscribers
+**** Subscribers listen to observables and react to the emitted values.
+**** They can define what actions to take when new values arrive or when an error occurs.
+*** Operators
+**** Operators transform, filter, or combine data streams.
+**** They can be used to perform various operations on observables and create new observables.
+**** Examples: map, filter, merge, combineLatest.
+** Benefits
+*** Asynchronous and Event-Driven
+**** Reactive programming is well-suited for handling asynchronous and event-driven scenarios.
+**** It simplifies handling of complex asynchronous operations and avoids callback hell.
+*** Declarative and Composable
+**** It allows expressing complex data flows in a declarative manner.
+**** Operators can be easily composed to create new observables or modify existing ones.
+**** Provides higher code readability and maintainability.
+*** Reactive UIs
+**** Reactive programming can be applied to build responsive and interactive user interfaces.
+**** UI components can react to changes in underlying data and update automatically.
+** Popular Frameworks
+*** RxJava
+**** A widely-used reactive programming library for Java.
+**** Provides a rich set of operators and utilities for handling asynchronous operations.
+*** RxJS
+**** Reactive Extensions for JavaScript.
+**** Popular choice for building reactive applications in JavaScript and TypeScript.
+*** Reactor
+**** A reactive library for building non-blocking applications on the JVM.
+**** Provides powerful abstractions and tools for reactive programming in Java and Kotlin.
+@endmindmap
