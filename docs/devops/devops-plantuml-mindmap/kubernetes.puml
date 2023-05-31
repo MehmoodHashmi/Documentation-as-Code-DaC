@@ -1,5 +1,5 @@
 @startmindmap
-title Kubernetes
+title = __Kubernetes__
 
 * Core Components
 ** API Server

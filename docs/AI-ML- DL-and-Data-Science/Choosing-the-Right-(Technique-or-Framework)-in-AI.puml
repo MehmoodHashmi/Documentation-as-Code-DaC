@@ -16,17 +16,21 @@ title = __choosing the right technique or framework based on the specific proble
 *** Determine the Data
 **** Size of the Data
 **** Complexity of the Data
-**** Structure of the Data
+****[#pink] **Structure of the Data**
+***** Structured-data or labeled data (15%-20%) on internet
+***** un-Structured-data or un-labeled data (80%-85%) on internet
 
 ** Evaluate Techniques/Frameworks
 *** Machine Learning
-**** Supervised Learning
+**** <color #green>**Supervised Learning**</color> (works on **labeled data**), \nlabeled data is also called as **structured data**
 ***** Regression
 ***** Classification
-**** Unsupervised Learning
+**** <color #green>**Unsupervised Learning**</color> (works on **un-labeled data**), \nunlabeled data is also called as **un-structured data**
 ***** Clustering
 ***** Dimensionality Reduction
+***** Anomaly detection
 **** Reinforcement Learning
+***** agent, reward & punishment, state, environment and action
 **** Deep Learning
 ***** Convolutional Neural Networks (CNN)
 ***** Recurrent Neural Networks (RNN)

@@ -38,7 +38,7 @@ title =__APIs (Application Programming Interfaces)__
 ** Includes tasks such as API testing, versioning, documentation, security, and performance monitoring
 ** API gateways and API management platforms are commonly used tools for managing APIs
 
-* API Standards and Protocols
+* API Standards and Protocols\n<img:img.png>
 ** Standards and protocols ensure that APIs can communicate and work together effectively
 **[#pink] **Examples include:**
 *** **OpenAPI **(formerly Swagger), a standard for documenting RESTful APIs

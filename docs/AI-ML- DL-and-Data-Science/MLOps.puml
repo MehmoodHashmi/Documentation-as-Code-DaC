@@ -1,0 +1,55 @@
+@startmindmap
+title = MLOps Mind Map
+
+* MLOps
+** Definition
+*** MLOps stands for Machine Learning Operations.
+*** It is the practice of combining machine learning and operations to manage and deploy machine learning models effectively.
+** Key Components
+*** Data Management
+**** Data Collection
+**** Data Storage
+**** Data Preprocessing
+*** Model Development
+**** Feature Engineering
+**** Model Training
+**** Model Evaluation
+**** Model Selection
+*** Model Deployment
+**** Containerization
+**** Orchestration
+**** Scalability
+**** Monitoring
+*** Continuous Integration and Delivery (CI/CD)
+**** Automated Testing
+**** Version Control
+**** Automated Deployment
+*** Performance Monitoring
+**** Model Performance Metrics
+**** Drift Detection
+**** Retraining
+** Benefits
+*** Faster Time-to-Market
+*** Improved Model Accuracy
+*** Scalability and Efficiency
+*** Greater Collaboration and Transparency
+** Tools and Technologies
+*** Version Control Systems (e.g., Git)
+*** Containerization Platforms (e.g., Docker)
+*** Orchestration Tools (e.g., Kubernetes)
+*** Continuous Integration Tools (e.g., Jenkins)
+*** Monitoring and Logging Tools (e.g., Prometheus, ELK Stack)
+*** Model Tracking Tools (e.g., MLflow, Neptune)
+** Challenges
+*** Data Management and Quality
+*** Reproducibility and Versioning
+*** Deployment Complexity
+*** Monitoring and Model Performance
+*** Governance and Compliance
+** Best Practices
+*** Cross-functional Collaboration
+*** Automation and Standardization
+*** Continuous Monitoring and Feedback Loop
+*** Documentation and Knowledge Sharing
+*** Governance and Compliance Measures
+@endmindmap

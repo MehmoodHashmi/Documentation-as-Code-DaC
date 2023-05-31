@@ -1,8 +1,6 @@
 @startmindmap
 title =__ Using an API__
 
-
-
 * Using APIs
 ** **Step 1:** Identify API Endpoint
 *** **Example:** https://api.example.com/v1/data
@@ -107,5 +105,5 @@ title =__ Using an API__
 *** Healthcare
 *** Industrial IoT
 
-
+* **Architecture styles define how different components of an application programming interface (API) interact with one another** \n<img:img.png>
 @endmindmap

@@ -1,0 +1,49 @@
+@startmindmap
+
+title = __Kubernetes Components__
+
+* Kubernetes Components
+** Compute
+*** Pods \n<img:pod1.svg>
+**** Containers \n<img:docker.svg>
+**** Init Containers
+*** ReplicaSets \n<img:replica-set.svg>
+*** Deployments \n<img:deployment.svg>
+*** StatefulSets \n<img:stateful-set.svg>
+*** DaemonSets
+*** Jobs
+*** CronJobs
+*** Services \n<img:service.svg>
+
+** Storage
+*** Persistent Volumes (PV)
+*** Persistent Volume Claims (PVC)
+*** Storage Classes
+*** Volume Snapshots
+*** Volume Snapshots Restores
+
+** Database
+*** StatefulSets \n<img:stateful-set.svg>
+*** Operators (e.g., etcd Operator, MySQL Operator, etc.)
+*** Database as a Service (DBaaS) solutions (e.g., AWS RDS, Azure Database for MySQL, etc.)
+
+** Networking
+*** Services \n<img:service.svg>
+*** Ingress Controllers
+*** Load Balancers
+*** Network Policies
+*** DNS-Based Service Discovery (e.g., CoreDNS)
+
+** Other
+*** Namespaces
+*** ConfigMaps
+*** Secrets \n<img:secretes.svg>
+*** Resource Quotas
+*** Limit Ranges
+*** Horizontal Pod Autoscaler
+*** Vertical Pod Autoscaler
+*** Custom Resource Definitions (CRDs)
+*** Operators (e.g., Prometheus Operator, Elasticsearch Operator, etc.)
+*** Helm Charts
+
+@endmindmap
