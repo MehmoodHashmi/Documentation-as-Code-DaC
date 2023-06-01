@@ -32,7 +32,9 @@ image::images/docker-register-and-docker-dameon.png[]
 . https://www.youtube.com/watch?v=pbOqobwlueU&list=LL&index=3&ab_channel=KskRoyal[Top 10 Best GNOME Extensions For Ubuntu 22.04 [2022 Edition]]
 
 . https://www.youtube.com/watch?v=Cu4hrOYRt0c&list=LL&index=13&t=595s&ab_channel=AverageLinuxUser[15 Things to Do After Installing Ubuntu 22.04]
-
+** *#How to add urdu font in ubuntu?#*
+*** *open the terminal and type* `sudo apt install fonts-nafees`
+*** You may need to log out and log back in for the changes to take effect.
 . https://www.youtube.com/watch?v=GrI5c9PXS5k&list=LL&index=24&t=353s&ab_channel=LinuxTex[20 Things You MUST DO After Installing Ubuntu (Right Now!)]
 
 . https://www.youtube.com/watch?v=p0TfTWndCtk&list=LL&index=8&ab_channel=TechSolutionZ[How to Install VirtualBox on Ubuntu 22.04 Jammy Jellyfish + Extensions Pack - VM VirtualBox]
