@@ -1,0 +1,17 @@
+= Heap
+Firstname Lastname <author@asciidoctor.org>
+3.0, July 29, 2022: AsciiDoc article template
+:toc:
+:icons: font
+:url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+
+
+
+== Representation of a binary heap using an array
+First, we will discuss representation binary tree using an array. so here is an example.
+
+== Complete binary tree
+== Heap (max and min)
+== Insert in Heap (max)
+== Delete in Heap (max)
+

@@ -1,0 +1,64 @@
+@startmindmap
+title =__ Big Data__
+* Big Data
+** Characteristics
+*** Volume
+*** Velocity
+*** Variety
+*** Veracity
+*** Value
+** Data Sources
+*** Social Media
+*** IoT Devices
+*** Sensors
+*** Web Logs
+*** Transactional Systems
+*** Public Datasets
+** Storage and Processing
+*** Distributed File Systems
+**** Hadoop Distributed File System (HDFS)
+**** Amazon S3
+**** Google Cloud Storage
+*** NoSQL Databases
+**** MongoDB
+**** Cassandra
+**** Redis
+*** Data Warehouses
+**** Amazon Redshift
+**** Google BigQuery
+**** Snowflake
+*** In-Memory Databases
+**** Apache Ignite
+**** Redis
+**** Apache Geode
+*** Stream Processing
+**** Apache Kafka
+**** Apache Flink
+**** Apache Storm
+** Data Analytics
+*** Descriptive Analytics
+*** Diagnostic Analytics
+*** Predictive Analytics
+*** Prescriptive Analytics
+*** Machine Learning
+*** Artificial Intelligence
+** Data Visualization
+*** Charts and Graphs
+*** Dashboards
+*** Interactive Visualizations
+*** Geospatial Visualizations
+*** Time Series Analysis
+** Data Governance
+*** Data Privacy
+*** Data Security
+*** Data Quality
+*** Compliance
+*** Data Governance Frameworks
+** Use Cases
+*** Business Intelligence
+*** Customer Analytics
+*** Fraud Detection
+*** Recommendation Systems
+*** Predictive Maintenance
+*** Internet of Things (IoT)
+@endmindmap

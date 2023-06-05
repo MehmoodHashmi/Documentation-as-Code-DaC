@@ -1,0 +1,51 @@
+@startmindmap
+title = __Big Data__
+* Big Data
+** Data Collection
+*** Data Sources
+**** Structured Data
+***** Relational Databases
+****** MySQL
+****** Oracle
+****** SQL Server
+****** PostgreSQL
+**** Unstructured Data
+***** Text Files
+***** Audio Files
+***** Video Files
+***** Images
+***** Social Media Data
+** Data Storage
+*** Data Warehouses
+**** On-Premise Data Warehouses
+***** Cloud Data Warehouses
+****** Amazon Redshift
+****** Microsoft Azure SQL Data Warehouse
+****** Google Cloud BigQuery
+**** Hybrid Data Warehouses
+***** Amazon Redshift Spectrum
+***** Google Cloud BigQuery BI Engine
+** Data Processing
+*** Data Warehousing
+**** Extract, Transform, and Load (ETL)
+***** Extract data from source systems
+***** Transform data into a consistent format
+***** Load data into a data warehouse
+**** Data Mining
+***** Discover patterns and trends in data
+***** Build predictive models
+***** Improve decision-making
+*** Data Analytics
+**** Business Intelligence (BI)
+***** Provide insights into business performance
+***** Identify opportunities for improvement
+***** Make better decisions
+**** Data Science
+***** Develop new algorithms and models
+***** Build data-driven applications
+***** Solve complex problems
+** Data Visualization
+*** Create charts, graphs, and other visualizations
+**** Communicate insights from data
+**** Improve decision-making
+@endmindmap

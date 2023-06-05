@@ -1,0 +1,96 @@
+@startmindmap
+title =__ Advanced Data Pipeline__
+* **[[https://youtu.be/VtzvF17ysbc  ]]**
+
+* Advanced Data Pipeline
+** Data Ingestion
+*** Real-time Data Streaming
+**** Apache Kafka
+**** Amazon Kinesis
+**** Azure Event Hubs
+**** Google Cloud Pub/Sub
+*** Change Data Capture (CDC)
+**** Debezium
+**** Oracle GoldenGate
+**** Attunity
+*** IoT Data Ingestion
+**** MQTT Protocol
+**** Apache NiFi
+**** AWS IoT Core
+**** Azure IoT Hub
+** Data Processing
+*** Stream Processing
+**** Apache Flink
+**** Apache Storm
+**** Spark Streaming
+**** AWS Kinesis Data Analytics
+*** Batch Processing
+**** Apache Spark
+**** Apache Hadoop MapReduce
+**** AWS Glue
+**** Google Cloud Dataflow
+** Data Storage
+*** Data Warehouses
+**** Snowflake
+**** Amazon Redshift
+**** Google BigQuery
+**** Azure Synapse Analytics
+*** Data Lakes
+**** Apache Hadoop HDFS
+**** Amazon S3
+**** Google Cloud Storage
+**** Azure Data Lake Storage
+*** NoSQL Databases
+**** MongoDB
+**** Cassandra
+**** Apache CouchDB
+**** Amazon DynamoDB
+** Data Governance
+*** Data Catalog
+**** Apache Atlas
+**** AWS Glue Data Catalog
+**** Google Cloud Data Catalog
+**** Collibra Catalog
+*** Data Quality
+**** Apache Griffin
+**** Talend Data Quality
+**** Informatica Data Quality
+**** Trifacta Wrangler
+*** Data Lineage
+**** Apache Atlas
+**** Alation Data Catalog
+**** Informatica Axon
+**** Collibra Data Lineage
+** Data Integration
+*** ETL (Extract, Transform, Load)
+**** Apache Nifi
+**** Talend
+**** Informatica PowerCenter
+**** IBM InfoSphere DataStage
+*** Data Orchestration
+**** Apache Airflow
+**** AWS Step Functions
+**** Google Cloud Composer
+**** Azure Data Factory
+*** Data Virtualization
+**** Denodo
+**** IBM Data Virtualization
+**** Red Hat JBoss Data Virtualization
+**** Oracle Data Virtualization
+** Data Security
+*** Data Encryption
+**** Transparent Data Encryption (TDE)
+**** Amazon Key Management Service (KMS)
+**** Azure Key Vault
+**** Google Cloud Key Management Service (KMS)
+*** Access Control
+**** Role-Based Access Control (RBAC)
+**** Attribute-Based Access Control (ABAC)
+**** Fine-Grained Access Control
+**** Data Masking
+*** Data Privacy
+**** General Data Protection Regulation (GDPR)
+**** California Consumer Privacy Act (CCPA)
+**** Personal Data Protection Act (PDPA)
+**** Health Insurance Portability and Accountability Act (HIPAA)
+@endmindmap
