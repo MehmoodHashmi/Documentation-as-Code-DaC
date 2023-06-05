@@ -7,10 +7,10 @@ title = __Apache Kafka__\n<img:images/img_1.png>
 *** Distributed streaming platform
 *** Handles high-volume, real-time data feeds
 *** Provides fault-tolerant and scalable data processing
-** Core Concepts
-*** Topics
+** **Core Concepts** \n<img:images/img_8.png>\n\n<img:images/img_10.png>
+***[#pink] Topics
 **** Categories or feeds of messages in Kafka
-**** Partitioned and distributed across brokers
+**** Partitioned and distributed across **brokers** (are nothing but **kafka server instances**)
 **** Can have multiple producers and consumers
 *** Producers
 **** Send messages to Kafka topics
@@ -18,10 +18,10 @@ title = __Apache Kafka__\n<img:images/img_1.png>
 *** Consumers
 **** Receive messages from Kafka topics
 **** Process and analyze data
-*** Brokers
-**** Kafka server instances
+***[#pink] **Brokers**
+****[#pink] **are Kafka server instances**
 **** Responsible for storing and managing topics and partitions
-*** Partitions
+***[#pink] Partitions
 **** Subdivisions of topics for better scalability
 **** Each partition is ordered and has a unique offset
 **** Enables parallel processing and load balancing
@@ -58,10 +58,13 @@ title = __Apache Kafka__\n<img:images/img_1.png>
 *** Kafka MirrorMaker
 **** Replicates Kafka topics across data centers or clusters
 **** Facilitates data replication and disaster recovery
-** Integration with Other Technologies
-*** Apache Spark
+**[#pink] Integration with Other Technologies
+***[#pink] Apache **Spark**
 *** Apache Flink
 *** Apache Storm
 *** Elasticsearch
 *** MongoDB
+
+* <img:images/img_9.png>
+
 @endmindmap

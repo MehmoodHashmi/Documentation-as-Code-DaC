@@ -44,8 +44,8 @@ title =__ Hadoop__ \n<img:images/img_6.png>
 *** Log Processing
 **** Collecting and analyzing log data from various sources
 **** Detecting patterns, anomalies, and performance issues
-** Integration with Other Technologies
-*** Apache Spark
+**[#pink] Integration with Other Technologies
+***[#pink] Apache **Spark**
 *** Apache Hive
 *** Apache Pig
 *** Apache HBase
