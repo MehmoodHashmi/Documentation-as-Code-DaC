@@ -1,6 +1,7 @@
 @startmindmap
 title =__ Advanced Data Pipeline__
 * **[[https://youtu.be/VtzvF17ysbc  ]]**
+* **[[https://hazelcast.com/glossary/data-pipeline/]]**
 
 * Advanced Data Pipeline
 ** Data Ingestion
@@ -18,17 +19,18 @@ title =__ Advanced Data Pipeline__
 **** Apache NiFi
 **** AWS IoT Core
 **** Azure IoT Hub
-** Data Processing
-*** Stream Processing
+**[#pink] Data Processing
+*** **Stream Processing** \n<img:images/img_12.png>
 **** Apache Flink
 **** Apache Storm
 **** Spark Streaming
 **** AWS Kinesis Data Analytics
-*** Batch Processing
+*** **Batch Processing** \n<img:images/img_11.png>
 **** Apache Spark
 **** Apache Hadoop MapReduce
 **** AWS Glue
 **** Google Cloud Dataflow
+*** **Lambda Architecture** is hybrid (combination of stream and batch processing) \n<img:images/img_13.png>
 ** Data Storage
 *** Data Warehouses
 **** Snowflake
@@ -84,13 +86,13 @@ title =__ Advanced Data Pipeline__
 **** Azure Key Vault
 **** Google Cloud Key Management Service (KMS)
 *** Access Control
-**** Role-Based Access Control (RBAC)
+****[#pink] Role-Based Access Control (RBAC)
 **** Attribute-Based Access Control (ABAC)
 **** Fine-Grained Access Control
 **** Data Masking
-*** Data Privacy
+***[#pink] Data Privacy
 **** General Data Protection Regulation (GDPR)
 **** California Consumer Privacy Act (CCPA)
 **** Personal Data Protection Act (PDPA)
-**** Health Insurance Portability and Accountability Act (HIPAA)
+****[#pink] Health Insurance Portability and Accountability Act (HIPAA)
 @endmindmap
