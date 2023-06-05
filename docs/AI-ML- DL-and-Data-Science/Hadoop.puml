@@ -1,0 +1,53 @@
+@startmindmap
+title =__ Hadoop__ \n<img:images/img_6.png>
+* **[[https://teachingbee.in/the-ecosystem-of-hadoop-the-future-of-big-data/]]**
+* **[[https://www.altexsoft.com/blog/hadoop-vs-spark/]]**
+
+* **Hadoop** \n<img:images/img_5.png>
+** Overview
+*** Distributed processing framework
+*** Designed for handling large-scale data processing
+*** Provides scalability, fault tolerance, and reliability
+**[#pink] Core Components
+*** Hadoop Distributed File System (HDFS)
+**** Distributed file system for storing data across multiple machines
+**** Provides high throughput data access and fault tolerance
+*** MapReduce
+**** Programming model for processing large datasets in parallel
+**** Splits data into smaller chunks and processes them in parallel
+*** YARN (Yet Another Resource Negotiator)
+**** Resource management framework for scheduling and managing tasks
+**** Enables efficient resource allocation and job coordination
+**[#pink] **Ecosystem** \n<img:images/img_7.png>
+*** Hadoop Common
+**** Common utilities and libraries used by other Hadoop components
+**** Provides support for security, logging, and other shared functionalities
+*** Hadoop MapReduce
+**** Framework for writing and executing MapReduce jobs
+**** Enables processing and analyzing large datasets in parallel
+*** Hadoop Distributed File System (HDFS)
+**** Scalable and fault-tolerant distributed file system
+**** Stores and manages data across a cluster of machines
+*** Hadoop YARN
+**** Resource management and job scheduling framework
+**** Supports running various data processing frameworks like MapReduce, Spark, and Flink
+*** Hadoop Streaming
+**** Enables writing MapReduce programs using non-Java programming languages
+**** Processes data using standard input/output streams
+** Use Cases
+*** Big Data Analytics
+**** Analyzing large volumes of data for insights and decision-making
+**** Running complex data processing algorithms on distributed clusters
+*** Data Warehousing
+**** Storing and managing structured and unstructured data for analysis
+**** Enabling ad-hoc querying and business intelligence reporting
+*** Log Processing
+**** Collecting and analyzing log data from various sources
+**** Detecting patterns, anomalies, and performance issues
+** Integration with Other Technologies
+*** Apache Spark
+*** Apache Hive
+*** Apache Pig
+*** Apache HBase
+*** Apache Sqoop
+@endmindmap

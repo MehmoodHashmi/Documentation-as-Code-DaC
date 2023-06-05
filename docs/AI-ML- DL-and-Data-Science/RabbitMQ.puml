@@ -1,0 +1,62 @@
+@startmindmap
+title =__ RabbitMQ__ \n<img:images/img_4.png>
+
+* **[[https://www.cloudamqp.com/blog/part1-rabbitmq-for-beginners-what-is-rabbitmq.html ]]**
+* **RabbitMQ** \n<img:images/img_3.png>
+** Overview
+*** Open-source message broker
+*** Implements Advanced Message Queuing Protocol (AMQP)
+*** Provides reliable messaging between applications
+** Core Concepts
+*** Publishers
+**** Send messages to exchanges
+**** Responsible for message production
+*** Exchanges
+**** Receives messages from publishers
+**** Routes messages to queues based on rules (bindings)
+*** Queues
+**** Store messages until consumed by consumers
+**** Follow the FIFO (First-In-First-Out) principle
+*** Consumers
+**** Receive messages from queues
+**** Process and act upon messages
+** Key Features
+*** Message Durability
+**** Messages can be persisted on disk to ensure no data loss
+**** Supports reliable message delivery
+*** Message Routing
+**** Multiple exchange types to route messages based on rules
+**** Enables flexible message routing patterns
+*** Message Acknowledgement
+**** Consumers can acknowledge the successful processing of messages
+**** Ensures reliable message processing and prevents message loss
+*** Scalability
+**** Supports the distributed deployment of brokers and queues
+**** Enables horizontal scaling to handle high message throughput
+** Use Cases
+*** Task Distribution
+**** Distributing tasks among workers in a scalable manner
+**** Load balancing and parallel processing of tasks
+*** Event-Driven Architecture
+**** Decoupling and asynchronous communication between microservices
+**** Handling real-time events and updates
+*** Message Queuing
+**** Storing and managing messages for reliable processing
+**** Enabling loose coupling between producers and consumers
+** Ecosystem
+*** Exchange Types
+**** Direct, Fanout, Topic, Headers
+**** Different routing and message distribution strategies
+*** Bindings
+**** Define rules for routing messages from exchanges to queues
+**** Enable message filtering and selective consumption
+*** Plugins and Integrations
+**** Plugins for integrating with other systems and protocols
+**** Enhances functionality and connectivity options
+** Integration with Other Technologies
+*** Apache Kafka
+*** Apache Spark
+*** Elasticsearch
+*** MongoDB
+*** AWS services (Amazon SNS, Amazon SQS)
+@endmindmap
