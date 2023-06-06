@@ -1,0 +1,54 @@
+@startmindmap
+title =__ Data Lake vs Data Warehouse__\n The latest innovation in data world is that we are moving from data warehouse to data to data-lake
+* Data Lake vs Data Warehouse
+** Data Storage
+*** Data Lake:
+**** Stores raw and unprocessed data in its native format.
+**** Supports structured, semi-structured, and unstructured data.
+**** No predefined schema or data transformation.
+*** Data Warehouse:
+**** Stores structured and transformed data.
+**** Organized into predefined schemas.
+**** Optimized for querying and analysis.
+** Data Integration
+*** Data Lake:
+**** Ingests data from various sources without strict integration requirements.
+**** Schema-on-read approach allows flexibility in incorporating new data sources.
+*** Data Warehouse:
+**** Requires structured and integrated data from specific sources.
+**** Data integration processes transform and load data into predefined schemas.
+** Data Processing
+*** Data Lake:
+**** Enables data exploration, ad-hoc analysis, and data discovery.
+**** Supports diverse processing tools and frameworks like Hadoop, Spark, or Presto.
+**** Provides flexibility for data scientists and analysts to perform complex operations.
+*** Data Warehouse:
+**** Focuses on optimized data processing and query performance.
+**** Provides structured and predefined data models for business reporting and analytics.
+**** Uses SQL-based processing engines like SQL Server, Oracle, or Snowflake.
+** Data Governance
+*** Data Lake:
+**** Limited data governance controls due to the lack of predefined schema.
+**** Requires careful metadata management and data cataloging.
+**** Data access and security controls are typically managed at a higher level.
+*** Data Warehouse:
+**** Enforces strong data governance controls.
+**** Follows predefined schemas and data quality standards.
+**** Implements access controls, data lineage, and auditing mechanisms.
+** Data Usage
+*** Data Lake:
+**** Suitable for exploratory analysis, data science, and big data processing.
+**** Supports machine learning, AI, and advanced analytics use cases.
+**** Provides agility and flexibility for new data insights.
+*** Data Warehouse:
+**** Primarily used for business intelligence, reporting, and decision-making.
+**** Provides a single source of truth for consistent and reliable data analysis.
+**** Optimized for structured queries and predefined reporting models.
+** Example Tools
+*** Data Lake:
+**** Hadoop, Apache Spark, Apache Hive, Amazon S3, Google Cloud Storage.
+**** Data Lake Platforms: AWS Glue, Azure Data Lake, Google Cloud Data Lake.
+*** Data Warehouse:
+**** SQL Server, Oracle Database, Snowflake, Redshift, BigQuery, Teradata.
+**** Data Warehouse Platforms: AWS Redshift, Azure Synapse, Google BigQuery.
+@endmindmap
