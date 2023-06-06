@@ -1,7 +1,7 @@
 @startmindmap
 title = Key Takeaways from the CAP Theorem
 
-* Key Takeaways from the CAP Theorem
+* **Key Takeaways from the CAP Theorem** \n<img:img_4.png>
 ** Consistency
 *** All nodes see the same data at the same time
 *** Examples: ATM machine transactions, stock trades
@@ -19,7 +19,7 @@ title = Key Takeaways from the CAP Theorem
 *** Need to consider trade-offs based on the specific use case and requirements
 
 
-* CAP Theorem
+* **CAP Theorem** \n<img:img_4.png>
 ** Consistency
 *** Strong Consistency
 **** **Example:** Traditional RDBMS
@@ -31,7 +31,7 @@ title = Key Takeaways from the CAP Theorem
 *** **Example:** Hadoop
 
 
-* CAP Theorem
+* **CAP Theorem** \n<img:img_4.png>
 ** Consistency
 *** Example: Bank account balance should be updated immediately
 ** Availability

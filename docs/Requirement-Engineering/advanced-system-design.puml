@@ -24,7 +24,7 @@ title = A mind map with the __advanced system design__ topics arranged in a hier
 **** Normalization
 **** Sharding
 *** NoSQL Databases
-**** CAP Theorem
+****[#pink] **CAP Theorem** \n<img:img_4.png>
 **** Consistency Models
 **** Distributed Databases
 *** Data Warehousing
