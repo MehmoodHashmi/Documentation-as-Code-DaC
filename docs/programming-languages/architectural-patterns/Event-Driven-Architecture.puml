@@ -1,5 +1,9 @@
 @startmindmap
-title =__ Event-Driven Architecture__
+title =__ Event-Driven Architecture__\n<img:img.png>
+*:**Event-driven architecture (EDA)** is a software design pattern that enables an organization to detect “events” or important business moments
+(such as a transaction, site visit, shopping cart abandonment, etc) and act on them in real time or near real time. This pattern replaces
+the **traditional “request/response” architecture** where services would have to wait for a reply before they could move onto the next task.
+The flow of event-driven architecture is run by events and it is designed to respond to them or carry out some action in response to an event.;
 
 * Event-Driven Architecture
 ** Definition
