@@ -1,0 +1,60 @@
+@startmindmap
+title =__ Linux Commands__
+* Linux Commands
+** File and Directory Operations
+*** ls - List files and directories
+*** cd - Change directory
+*** pwd - Print working directory
+*** mkdir - Make directory
+*** rm - Remove files and directories
+*** cp - Copy files and directories
+*** mv - Move or rename files and directories
+*** find - Search for files and directories
+*** chmod - Change file permissions
+*** chown - Change file ownership
+** File Content Operations
+*** cat - Concatenate and display file content
+*** less - View file content interactively
+*** head - Display first lines of a file
+*** tail - Display last lines of a file
+*** grep - Search for patterns in files
+*** wc - Count words, lines, and characters in files
+*** sed - Stream editor for text manipulation
+*** awk - Text processing and pattern matching
+** Text Processing
+*** cut - Cut out selected portions of lines
+*** sort - Sort lines of text files
+*** uniq - Report or omit repeated lines
+*** diff - Compare files line by line
+*** paste - Merge lines of files
+*** tr - Translate or delete characters
+** System Information and Monitoring
+*** uname - Print system information
+*** ps - Report process status
+*** top - Monitor system processes
+*** df - Report file system disk space usage
+*** du - Estimate file and directory space usage
+*** free - Display system memory usage
+** Network and Connectivity
+*** ping - Send ICMP echo requests to a host
+*** ifconfig - Configure network interfaces
+*** netstat - Network statistics and connections
+*** ssh - Secure shell remote login
+*** scp - Securely copy files between hosts
+*** curl - Transfer data from or to a server
+*** wget - Retrieve files from the web
+** Package Management
+*** apt-get - Package handling utility (Debian-based systems)
+*** yum - Package manager (Red Hat-based systems)
+*** pacman - Package manager (Arch Linux)
+*** dnf - Package manager (Fedora)
+*** zypper - Package manager (openSUSE)
+** System Administration
+*** sudo - Execute a command as superuser
+*** useradd - Add user accounts
+*** userdel - Delete user accounts
+*** groupadd - Add groups
+*** groupdel - Delete groups
+*** systemctl - Control system services
+*** crontab - Schedule commands to run periodically
+@endmindmap
