@@ -1,0 +1,44 @@
+@startmindmap
+title =__ Cryptography__
+* Cryptography
+** Symmetric Key Cryptography
+*** Block Ciphers
+**** DES
+**** AES
+**** 3DES
+*** Stream Ciphers
+**** RC4
+**** ChaCha20
+** Asymmetric Key Cryptography
+*** RSA
+*** Diffie-Hellman
+*** Elliptic Curve Cryptography (ECC)
+** Hash Functions
+*** MD5
+*** SHA-1
+*** SHA-256
+** Digital Signatures
+*** Digital Signature Algorithm (DSA)
+*** Elliptic Curve Digital Signature Algorithm (ECDSA)
+*** RSA Digital Signature
+** Key Exchange
+*** Secure Socket Layer (SSL)
+*** Transport Layer Security (TLS)
+*** Public Key Infrastructure (PKI)
+** Cryptographic Protocols
+*** Secure Hash Algorithm (SHA)
+*** Pretty Good Privacy (PGP)
+*** OpenPGP
+** Cryptanalysis
+*** Brute Force Attacks
+*** Frequency Analysis
+*** Differential Cryptanalysis
+*** Side-Channel Attacks
+** Cryptographic Standards
+*** National Institute of Standards and Technology (NIST)
+*** Advanced Encryption Standard (AES)
+*** FIPS 140-2
+** Quantum Cryptography
+*** Quantum Key Distribution (QKD)
+*** Post-Quantum Cryptography (PQC)
+@endmindmap

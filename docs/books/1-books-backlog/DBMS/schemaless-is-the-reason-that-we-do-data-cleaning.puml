@@ -1,0 +1,25 @@
+@startmindmap
+title =__ What do you think schema less is the reason that we have to do data cleaning __
+*:Schemaless data storage in NoSQL databases can indeed contribute to the need for data cleaning. Here's why:
+
+Lack of predefined structure: NoSQL databases, particularly document-based ones, often allow for flexible and dynamic schemas.
+This means that data can be stored without strict constraints on its structure or data types. While this flexibility offers
+advantages in terms of agility and adaptability, it can also lead to inconsistent data formats or unexpected variations in the stored data.
+
+Data heterogeneity: Without a predefined schema, different documents or records within a NoSQL database can have varying
+structures, fields, or data representations. This heterogeneity can make it challenging to apply standardized data cleaning
+ processes across the entire dataset. Each document may require individual handling or transformations to conform to the
+ desired data quality standards.
+
+Data integration challenges: In scenarios where data is sourced from multiple systems or applications, the absence of a fixed schema
+ can complicate data integration efforts. Datasets with different structures and semantics need to be reconciled and aligned, requiring
+  additional data cleaning steps to ensure consistency and compatibility across the integrated data.
+
+Data validation and quality control: Without predefined constraints or validations enforced by a schema, there is a higher likelihood of
+ data quality issues such as missing values, incorrect data types, or inconsistent formatting. Data cleaning becomes necessary to identify
+  and rectify these anomalies, ensuring that the data is accurate, complete, and conforms to the expected quality standards.
+
+While schemaless storage offers flexibility, it also places a greater burden on data cleaning processes. Establishing data cleaning
+routines and implementing validation mechanisms specific to the data stored in a NoSQL database becomes crucial to maintain data integrity
+ and quality.;
+@endmindmap

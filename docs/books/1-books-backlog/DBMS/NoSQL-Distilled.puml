@@ -1,0 +1,45 @@
+@startmindmap
+title =__ NoSQL Distilled__
+* NoSQL Distilled
+** Overview
+*** Definition and scope of NoSQL databases
+*** Comparison with traditional relational databases
+*** Common characteristics and principles of NoSQL databases
+** Data Models
+*** Key-value stores
+**** Characteristics, use cases, and examples
+*** Document databases
+**** Characteristics, use cases, and examples
+*** Column-family databases
+**** Characteristics, use cases, and examples
+*** Graph databases
+**** Characteristics, use cases, and examples
+** Architecture and Design Considerations
+*** Scalability and distributed systems
+**** Horizontal scalability and sharding
+**** Replication and fault tolerance
+*** Consistency models
+**** Eventual consistency and trade-offs
+**** ACID vs. BASE principles
+*** Schema flexibility
+**** Dynamic schema and data evolution
+**** Schemaless data models
+** Use Cases and Patterns
+*** Analytics and reporting
+**** Data warehousing and OLAP
+**** MapReduce and distributed processing
+*** Content management systems
+**** Managing unstructured and semi-structured data
+**** Content indexing and search
+*** Social networks and recommendation systems
+**** Graph databases for modeling relationships
+**** Collaborative filtering and personalized recommendations
+** Selecting a NoSQL Database
+*** Evaluating requirements and trade-offs
+**** Performance and scalability needs
+**** Consistency and data integrity requirements
+**** Developer skillset and familiarity
+*** Considering operational aspects
+**** Deployment and management complexity
+**** Community support and ecosystem
+@endmindmap

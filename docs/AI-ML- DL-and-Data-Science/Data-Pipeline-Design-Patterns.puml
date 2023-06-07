@@ -1,0 +1,44 @@
+@startmindmap
+title =__ Data Pipeline Design Patterns__
+* Data Pipeline Design Patterns
+** Batch Processing
+*** Extract, Transform, Load (ETL)
+**** Data Extraction
+**** Data Transformation
+**** Data Loading
+*** MapReduce
+**** Map Phase
+**** Reduce Phase
+**** Shuffling
+**** Sorting
+*** Batch Data Synchronization
+**** Batch Data Ingestion
+**** Batch Data Transformation
+**** Batch Data Output
+** Real-Time Processing
+*** Stream Processing
+**** Event Stream Processing
+**** Stream Analytics
+**** Windowing and Time-based Processing
+*** Event-Driven Architecture
+**** Event Sources
+**** Event Processing and Routing
+**** Event Storage and Persistence
+*** Complex Event Processing (CEP)
+**** Event Detection and Pattern Matching
+**** Event Correlation
+**** Event Aggregation and Filtering
+** Data Integration
+*** Data Replication
+**** Full Replication
+**** Incremental Replication
+**** Change Data Capture (CDC)
+*** Data Federation
+**** Data Virtualization
+**** Data Warehousing
+**** Data Consolidation
+*** Data Migration
+**** Legacy System Migration
+**** Cloud Data Migration
+**** Database Migration
+@endmindmap

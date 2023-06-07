@@ -1,0 +1,37 @@
+@startmindmap
+title =__ How to Choose a Database__\n Suddenly accross organization you will use lots of databases (data-structures). What you are actually doing is choosing a database an appropriate database (data-structure)\n for the nature of the problem you are working with, and because there are many different nature of the problems there are many different different data-stores.\n And the idea of whatever your problem is the answer is RDBMS will go away\n <img:img_5.png>
+* How to Choose a Database
+** Consider Data Requirements
+*** Structured or Unstructured Data
+**** Example: Structured data - Customer information, sales transactions
+**** Example: Unstructured data - Text documents, images, videos
+*** Data Volume and Scalability
+**** Example: Large-scale e-commerce platform with millions of transactions per day
+**** Example: Small blog with limited data storage needs
+** Performance and Latency Requirements
+*** Read/Write Ratio
+**** Example: High-read, low-write workload for a news website
+**** Example: Balanced read/write workload for a social media platform
+*** Response Time and Throughput
+**** Example: Real-time analytics platform requiring sub-second query response times
+**** Example: Batch processing system with longer processing windows
+** Data Model and Query Flexibility
+*** Relational Data Model
+**** Example: Traditional online retail store with structured product and customer data
+*** Document Data Model
+**** Example: Content management system with flexible schema requirements
+*** Graph Data Model
+**** Example: Social network with complex relationships between users
+** Data Consistency and Integrity
+*** ACID Compliance
+**** Example: Financial application requiring strict data consistency and transactional integrity
+*** Eventual Consistency
+**** Example: Distributed system with high availability requirements
+** Ecosystem and Tooling
+*** Integration with Existing Technologies
+**** Example: Java-based application using an ORM framework
+**** Example: Big data analytics platform with Hadoop and Spark integration
+*** Community and Support
+**** Example: Open-source database with active developer community
+**** Example: Proprietary database with dedicated customer support
+@endmindmap

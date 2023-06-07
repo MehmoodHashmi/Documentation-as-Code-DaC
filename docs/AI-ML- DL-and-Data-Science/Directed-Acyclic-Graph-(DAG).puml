@@ -1,0 +1,36 @@
+@startmindmap
+title =__ Directed Acyclic Graph (DAG)__
+* Directed Acyclic Graph (DAG)
+** Definition
+*** A directed graph with no directed cycles
+** Characteristics
+*** Consists of nodes and directed edges
+*** Nodes represent tasks or operations
+*** Edges represent dependencies between tasks
+*** No circular dependencies are allowed
+** Applications
+*** Data pipeline design and orchestration
+*** Task scheduling and dependency management
+*** Workflow management systems
+** Benefits
+*** Enables parallel execution of independent tasks
+*** Provides clear visualization of task dependencies
+*** Facilitates efficient task scheduling and optimization
+*** Supports fault-tolerance and error handling
+** Use Cases
+*** ETL (Extract, Transform, Load) pipelines
+*** Batch processing workflows
+*** Machine learning pipelines
+*** Event-driven architectures
+** Examples
+*** Apache Airflow
+*** Luigi
+*** Apache NiFi
+*** Apache Beam
+** Best Practices
+*** Identify task dependencies and define the DAG structure
+*** Ensure there are no circular dependencies
+*** Optimize task execution order for efficiency
+*** Handle error and failure scenarios gracefully
+*** Monitor and track task progress and dependencies
+@endmindmap
