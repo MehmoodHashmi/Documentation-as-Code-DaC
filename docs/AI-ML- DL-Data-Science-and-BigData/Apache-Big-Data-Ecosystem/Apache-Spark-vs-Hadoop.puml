@@ -1,0 +1,47 @@
+@startmindmap
+title =__Apache Spark vs Hadoop__
+
+* **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
+
+* Apache Spark
+**[#pink] **Architecture**
+***[#pink] **In-memory** computing engine
+*** No distributed file system
+*** Supports integration with various data sources
+** Data Processing Model
+***[#pink] **Supports batch processing, iterative processing, interactive queries, and stream processing**
+*** Introduces Resilient Distributed Datasets (RDDs)
+** Performance
+***[#pink] **In-memory computing improves performance**
+*** **Faster iterative processing, interactive queries, and real-time streaming**
+** Ease of Use and APIs
+*** User-friendly and expressive API
+*** Supports Java, Scala, Python, and R
+*** High-level libraries for SQL, machine learning, graph processing, and stream processing
+** Use Cases
+*** **Interactive data analysis**
+***[#pink] **Real-time stream processing**
+*** Machine learning
+*** Graph processing
+*** Iterative algorithms
+
+* Hadoop
+**[#pink] **Architecture**
+***[#pink] Based on Hadoop Distributed File System **(HDFS)**
+***[#pink] Uses **MapReduce processing model**
+** Data Processing Model
+*** **Primarily uses the MapReduce programming model**
+***[#pink] Splits data, maps tasks, and reduces tasks
+** Performance
+*** Scalable and fault-tolerant
+***[#pink] **Disk I/O overhead in MapReduce jobs**
+** Ease of Use and APIs
+***[#pink] Requires writing code in **Java** or other supported languages
+*** **Manual optimization for performance**
+**[#pink] Use Cases
+***[#pink] **Large-scale batch processing**
+***[#pink] **Offline analytics**
+*** Data transformation
+*** ETL workflows
+
+@endmindmap

@@ -1,0 +1,45 @@
+@startmindmap
+title =__ Regression Analysis__
+
+* Regression Analysis
+** Definition
+*** Statistical Technique for Modeling Relationships between Variables
+*** Predict Dependent Variable based on Independent Variables
+** Types of Regression
+*** Linear Regression
+**** Simple Linear Regression
+**** Multiple Linear Regression
+*** Polynomial Regression
+*** Logistic Regression
+*** Time Series Regression
+** Assumptions
+*** Linearity
+*** Independence of Errors
+*** Homoscedasticity
+*** Normality of Residuals
+** Evaluation and Interpretation
+*** Coefficient of Determination (R-squared)
+*** p-values, Confidence Intervals
+*** Residual Analysis
+*** Model Selection (AIC, BIC)
+** Techniques and Methods
+*** Ordinary Least Squares (OLS)
+*** Ridge Regression
+*** Lasso Regression
+*** Elastic Net Regression
+*** Stepwise Regression
+** Applications
+*** Predictive Modeling
+*** Forecasting
+*** Impact Analysis
+*** Trend Analysis
+*** Risk Assessment
+** Statistical Software
+*** R (lm, glm)
+*** Python (Statsmodels, Scikit-learn)
+*** SPSS
+*** SAS
+*** Stata
+*** Excel
+
+@endmindmap

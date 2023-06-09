@@ -1,0 +1,39 @@
+@startmindmap
+title =__ Interval Notation__
+* Interval Notation
+** Introduction
+*** Interval notation is a way to represent a range of values on the real number line.
+** Open Interval
+*** (a, b)
+**** Represents the interval that includes all real numbers greater than a and less than b.
+**** Example: (2, 5) represents the interval from 2 to 5, excluding the endpoints.
+** Closed Interval
+*** [a, b]
+**** Represents the interval that includes all real numbers greater than or equal to a and less than or equal to b.
+**** Example: [2, 5] represents the interval from 2 to 5, including the endpoints.
+** Half-Open Interval
+*** (a, b]
+**** Represents the interval that includes all real numbers greater than a and less than or equal to b.
+**** Example: (2, 5] represents the interval from 2 to 5, excluding the left endpoint but including the right endpoint.
+** Half-Closed Interval
+*** [a, b)
+**** Represents the interval that includes all real numbers greater than or equal to a and less than b.
+**** Example: [2, 5) represents the interval from 2 to 5, including the left endpoint but excluding the right endpoint.
+** Infinite Interval
+*** (-∞, b)
+**** Represents the interval that includes all real numbers less than b.
+**** Example: (-∞, 5) represents the interval from negative infinity to 5, excluding the endpoint.
+*** (a, ∞)
+**** Represents the interval that includes all real numbers greater than a.
+**** Example: (2, ∞) represents the interval from 2 to positive infinity, excluding the endpoint.
+** Interval Operations
+*** Union (U)
+**** Combines two or more intervals into a single interval that includes all values from each individual interval.
+**** Example: (2, 5) U (7, 9) represents the interval that includes values from both (2, 5) and (7, 9).
+*** Intersection (∩)
+**** Finds the overlap between two intervals, resulting in a new interval that includes only the shared values.
+**** Example: [2, 5] ∩ (4, 7) represents the interval that includes values common to both [2, 5] and (4, 7).
+*** Difference (-)
+**** Subtracts one interval from another, resulting in a new interval that includes values from the first interval but not from the second.
+**** Example: [2, 5] - (3, 4) represents the interval that includes values in [2, 5] except those in (3, 4).
+@endmindmap

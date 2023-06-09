@@ -1,0 +1,27 @@
+@startmindmap
+title =__ Hybrid Cloud vs. Multi-Cloud__
+* Hybrid Cloud vs. Multi-Cloud
+** Hybrid Cloud
+*** Combination of public and private cloud infrastructure.
+*** Integrates on-premises resources with cloud services.
+*** Provides flexibility, scalability, and data sovereignty.
+*** Offers a balance between security and cost-effectiveness.
+*** Enables workload portability and data control.
+** Multi-Cloud
+*** Utilizes multiple cloud service providers (CSPs).
+*** Distributes workloads across different cloud environments.
+*** Reduces vendor lock-in and increases redundancy.
+*** Allows for best-of-breed service selection.
+*** Enhances application performance and availability.
+** Similarities
+*** Both leverage cloud computing technologies.
+*** Provide flexibility and scalability for applications.
+*** Offer increased data resilience and disaster recovery.
+*** Enable cost optimization through resource allocation.
+*** Require robust network connectivity and integration.
+** Differences
+*** Hybrid cloud combines private and public infrastructure, while multi-cloud uses multiple CSPs.
+*** Hybrid cloud emphasizes integration and control, while multi-cloud focuses on service diversity.
+*** Hybrid cloud enables data sovereignty and compliance, while multi-cloud enhances redundancy and availability.
+*** Hybrid cloud requires more complex management and integration, while multi-cloud requires service orchestration.
+@endmindmap

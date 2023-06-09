@@ -1,0 +1,70 @@
+@startmindmap
+title =__Message Broker__
+
+* Message Broker
+** Definition
+*** Middleware for Messaging Between Applications
+*** Facilitates Communication and Coordination
+*** Decouples Producers and Consumers
+** Key Features
+*** Message Routing
+*** Message Queues
+*** Message Transformation
+*** Message Filtering
+*** Message Persistence
+*** Message Acknowledgement
+*** Scalability and High Availability
+*** Security and Access Control
+** Popular Message Brokers
+*** Apache Kafka
+*** RabbitMQ
+*** ActiveMQ
+*** IBM MQ
+*** Apache Pulsar
+*** NATS
+*** Redis Pub/Sub
+** Messaging Patterns
+*** Publish/Subscribe (Pub/Sub)
+*** Request/Reply
+*** Point-to-Point (P2P)
+*** Event-Driven Architecture (EDA)
+** Integration with Systems and Protocols
+*** RESTful APIs
+*** WebSocket
+*** AMQP (Advanced Message Queuing Protocol)
+*** MQTT (Message Queuing Telemetry Transport)
+*** JMS (Java Message Service)
+*** Apache Thrift
+*** gRPC
+** Use Cases
+*** Asynchronous Communication
+*** Event-Driven Architectures
+*** Microservices Communication
+*** IoT Data Ingestion and Processing
+*** Distributed Systems and Stream Processing
+** Benefits
+*** Loose Coupling
+*** Scalability and Flexibility
+*** Reliability and Fault Tolerance
+*** Message Transformation and Enrichment
+*** Decentralized and Distributed Architecture
+** Challenges
+*** Message Ordering and Delivery Guarantees
+*** Message Serialization and Compatibility
+*** Monitoring and Management
+*** Message Durability and Replication
+*** Security and Authentication
+*** Performance and Latency
+*** Error Handling and Dead Letter Queues
+*** Backward Compatibility
+** Tools and Frameworks
+*** Apache Camel
+*** Spring Integration
+*** Apache NiFi
+*** Ballerina
+*** MassTransit (.NET)
+*** Azure Service Bus
+*** AWS Simple Queue Service (SQS)
+*** Google Cloud Pub/Sub
+
+@endmindmap

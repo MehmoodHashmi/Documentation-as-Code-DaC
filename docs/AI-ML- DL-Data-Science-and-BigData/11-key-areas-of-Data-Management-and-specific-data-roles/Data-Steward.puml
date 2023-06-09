@@ -1,0 +1,51 @@
+@startmindmap
+title =__ Data Steward__\n<img:img.png>
+
+* **[[https://www.youtube.com/watch?v=P8qJ7kqbkIk&ab_channel=ITkFunde]]**
+
+* Data Steward
+**[#pink] **Roles and Responsibilities**
+*** Data Governance and Compliance
+*** Data Quality Management
+*** Data Classification and Categorization
+*** Data Standards and Policies
+*** Data Access and Security
+*** Data Privacy and Confidentiality
+*** Metadata Management
+*** Data Documentation and Lineage
+** Skills and Qualifications
+*** Knowledge of Data Governance Frameworks
+*** Understanding of Data Management Principles
+*** Proficiency in Data Analysis and Validation
+*** Familiarity with Data Privacy Regulations (e.g., GDPR)
+*** Strong Communication and Collaboration Skills
+*** Attention to Detail and Organizational Skills
+*** Problem-solving and Troubleshooting Abilities
+** Data Governance Framework
+*** Data Governance Roles and Responsibilities
+*** Data Governance Policies and Procedures
+*** Data Governance Framework Implementation
+*** Data Stewardship Processes and Workflows
+*** Data Quality Metrics and KPIs
+*** Data Issue and Exception Management
+** Data Quality Management
+*** Data Profiling and Analysis
+*** Data Cleansing and Standardization
+*** Data Validation and Verification
+*** Data Monitoring and Reporting
+*** Root Cause Analysis and Issue Resolution
+*** Continuous Improvement of Data Quality
+** Metadata Management
+*** Metadata Capture and Documentation
+*** Metadata Repository and Catalogs
+*** Data Lineage and Impact Analysis
+*** Metadata Governance and Maintenance
+*** Metadata Integration and Interoperability
+** Data Privacy and Security
+*** Data Classification and Sensitivity
+*** Access Controls and Permissions
+*** Data Masking and Anonymization
+*** Data Retention and Deletion Policies
+*** Data Breach Management
+*** Data Privacy Compliance (e.g., GDPR, CCPA)
+@endmindmap

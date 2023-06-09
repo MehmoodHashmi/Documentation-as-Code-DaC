@@ -1,0 +1,75 @@
+@startmindmap
+title =__Apache Hadoop YARN (Yet Another Resource Negotiator)__\n<img:images/img_13.png>
+
+* **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
+
+* Apache Hadoop YARN
+** Overview
+*** Resource Management Framework
+*** Separates Cluster Resource Management from Data Processing
+*** Part of the Apache Hadoop Ecosystem
+
+** Components
+*** ResourceManager
+**** Manages Cluster Resources
+**** Schedules Applications
+**** Monitors NodeManagers
+*** NodeManager
+**** Manages Resources on Individual Nodes
+**** Reports Resource Utilization to ResourceManager
+*** ApplicationMaster
+**** Manages Application Lifecycle
+**** Negotiates Resources with ResourceManager
+**** Coordinates Task Execution
+
+** Features
+*** Scalability
+**** Scales Horizontally Across Cluster Nodes
+**** Handles Large-Scale Data Processing
+*** Flexibility
+**** Supports Various Application Frameworks (e.g., MapReduce, Spark)
+**** Allows Custom Application Scheduling Policies
+*** Multi-Tenancy
+**** Supports Simultaneous Execution of Multiple Applications
+**** Resource Isolation Between Applications
+*** Fault Tolerance
+**** Automatic Task Recovery
+**** Node Failure Handling
+*** Resource Allocation
+**** Dynamic Resource Allocation
+**** Fine-Grained Resource Management
+
+** Workflow
+*** Application Submission
+**** Submit Application to ResourceManager
+**** ResourceManager Allocates ApplicationMaster
+*** Resource Negotiation
+**** ApplicationMaster Requests Resources from ResourceManager
+**** ResourceManager Allocates Container Resources
+*** Task Execution
+**** ApplicationMaster Launches Tasks in Containers
+**** Task Execution on NodeManagers
+*** Monitoring and Status Updates
+**** ApplicationMaster Reports Task Status to ResourceManager
+**** ResourceManager Updates Application Status
+
+** Use Cases
+*** Batch Processing
+*** Stream Processing
+*** Interactive Queries
+*** Machine Learning
+*** Real-Time Analytics
+
+** Integration with Apache Hadoop Ecosystem
+*** Hadoop Distributed File System (HDFS)
+*** Apache MapReduce
+*** Apache Hive
+*** Apache Spark
+
+** Benefits
+*** Efficient Resource Utilization
+*** Improved Cluster Utilization
+*** Enhanced Application Performance
+*** Multi-Tenancy Support
+
+@endmindmap

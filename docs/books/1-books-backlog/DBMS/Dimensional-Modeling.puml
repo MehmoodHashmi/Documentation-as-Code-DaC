@@ -1,0 +1,67 @@
+@startmindmap
+title =__ Dimensional Modeling__
+* **[[https://www.youtube.com/watch?v=l5UcUEt1IzM&ab_channel=ITkFunde]]**
+
+* Dimensional Modeling
+** Overview
+*** Dimensional Modeling is a data modeling technique used in data warehousing and business intelligence.
+*** It focuses on organizing data in a way that optimizes query performance and supports analytical reporting.
+**[#pink] **Key Concepts**
+*** Fact Table
+**** Contains the quantitative, measurable data (facts) related to a specific business process.
+*** Dimension Table
+**** Contains descriptive attributes that provide context to the facts in the Fact Table.
+*** Star Schema
+**** Centralized Fact Table connected to multiple Dimension Tables in a star-like structure.
+*** Snowflake Schema
+**** Fact Table connected to Dimension Tables, which are further normalized into additional tables.
+** Benefits
+*** Query Performance
+**** Optimized for analytical queries and aggregations.
+*** Simplicity
+**** Easy to understand and navigate for business users.
+*** Business Context
+**** Provides a clear representation of business processes and entities.
+*** Flexibility
+**** Adaptable to changing business requirements and new dimensions.
+** Key Components
+*** Fact Table
+**** Primary source of data for analysis.
+**** Contains foreign keys to related Dimension Tables.
+*** Dimension Table
+**** Contains descriptive attributes about a specific dimension.
+**** Can have hierarchies and relationships to other Dimension Tables.
+*** Attributes
+**** Descriptive properties of a dimension.
+**** Can be categorical, numerical, or time-based.
+*** Measures
+**** Quantitative values in the Fact Table that are subject to analysis.
+** Techniques
+*** Star Schema
+**** Simple, denormalized structure.
+**** Fast query performance due to fewer joins.
+*** Snowflake Schema
+**** Normalized structure with additional tables.
+**** Reduces data redundancy and storage requirements.
+**** More complex query performance due to additional joins.
+** Considerations
+*** Grain of the Fact Table
+**** Level of detail at which facts are recorded.
+**** Determines the level of analysis and reporting.
+*** Dimensional Hierarchies
+**** Representing hierarchical relationships within dimensions.
+**** Provides drill-down and roll-up capabilities.
+*** Slowly Changing Dimensions (SCD)
+**** Handling changes to dimension attributes over time.
+**** Types include Type 1, Type 2, and Type 3.
+*** Degenerate Dimensions
+**** Single-column dimension that exists only in the Fact Table.
+**** Typically used for transactional identifiers or keys.
+** Common Tools
+*** OLAP (Online Analytical Processing)
+**** Multidimensional analysis and querying.
+**** Supports slicing, dicing, and drill-down capabilities.
+*** Data Visualization Tools
+**** Presenting and exploring data in a graphical format.
+**** Enables interactive dashboards and reports.
+@endmindmap

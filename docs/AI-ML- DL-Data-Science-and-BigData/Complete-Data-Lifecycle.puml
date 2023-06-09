@@ -1,0 +1,53 @@
+@startmindmap
+title =__ Complete Data Lifecycle__
+* Complete Data Lifecycle
+** Data Acquisition
+*** Data Collection
+*** Data Extraction
+*** Data Ingestion
+** Data Storage
+*** Relational Databases
+*** NoSQL Databases
+*** Data Warehouses
+*** Data Lakes
+** Data Processing
+*** Data Transformation
+**** Data Cleaning
+**** Data Integration
+**** Data Aggregation
+**** Data Enrichment
+**** Data Validation
+**** Data Sampling
+*** Data Analysis
+**** Descriptive Analytics
+**** Diagnostic Analytics
+**** Predictive Analytics
+**** Prescriptive Analytics
+*** Data Visualization
+**** Charts and Graphs
+**** Dashboards
+**** Interactive Reports
+** Data Governance
+*** Data Quality Management
+*** Data Security and Privacy
+*** Data Compliance
+*** Data Cataloging
+*** Data Stewardship
+** Data Usage
+*** Business Intelligence
+*** Reporting and Dashboards
+*** Machine Learning
+*** Artificial Intelligence
+*** Decision Support Systems
+*** Operational Analytics
+** Data Archiving and Retention
+*** Long-Term Storage
+*** Data Backup
+*** Data Restoration
+*** Data Purging
+** Data Disposal
+*** Secure Data Destruction
+*** Compliance with Regulations
+*** Data Anonymization
+*** Data Masking
+@endmindmap

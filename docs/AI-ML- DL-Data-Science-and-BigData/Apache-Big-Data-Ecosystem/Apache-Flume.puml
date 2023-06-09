@@ -1,0 +1,74 @@
+@startmindmap
+title =__Apache Flume__\n<img:images/img_1.png>
+
+* **[[https://www.tutorialspoint.com/apache_flume/apache_flume_quick_guide.htm]]**
+* **[[https://flume.apache.org/]]**
+* **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
+* Apache Flume
+** Overview
+*** Distributed, Reliable, and Scalable Data Ingestion Tool
+*** Designed for Streaming Log Data and **Event Processing**
+*** Part of the Apache Hadoop Ecosystem
+
+**[#pink] **Architecture** \n<img:images/img_2.png>
+*** Sources
+**** Data Producers or Providers
+**** e.g., Logs, Files, Sensors, Network Streams
+*** **Channels**
+**** Buffers Data Between Sources and Sinks
+**** Ensures Reliable Data Transfer
+**** Provides Fault Tolerance
+*** Sinks
+**** Data Destinations
+**** e.g., Hadoop Distributed File System (HDFS), HBase, Kafka, Elasticsearch
+*** **Agents** \n<img:images/img_3.png>
+**** Flume Components Configured for Data Flow
+**** Collect Data from Sources and Send to Sinks
+
+*** **Flume event** \n<img:images/img_4.png>
+**** An **event** is the basic unit of the data transported inside Flume.
+****:It contains a payload of byte array that is to be transported from
+the source to the destination accompanied by optional headers.;
+
+** Features
+*** Data Collection
+**** Ingests Data from Various Sources
+**** Supports Log Data, Events, and Stream Processing
+*** Reliability and Fault Tolerance
+**** Guarantees Reliable Data Transfer
+**** Provides Fault Recovery and Error Handling
+*** Scalability and Flexibility
+**** Scales Horizontally Across Multiple Agents
+**** Allows Dynamic Configuration Changes
+*** Event Driven Architecture
+**** Processes Data in Real Time
+**** Supports Event-Based Flows
+*** Data Transformation and Enrichment
+**** Allows Data Manipulation in Flight
+**** Customizable Interceptors for Data Enrichment
+*** Extensible
+**** Supports Custom Sources, Channels, and Sinks
+**** Integration with External Systems
+**** Custom Plugins and Components
+
+** Use Cases
+*** Log Collection and Analysis
+*** Real-Time Stream Processing
+*** Data Ingestion into Hadoop Ecosystem
+*** Data Pipeline and ETL (Extract, Transform, Load) Flows
+*** Centralized Data Collection and Aggregation
+
+** Integration with Apache Hadoop Ecosystem
+*** Hadoop Distributed File System (HDFS)
+*** Apache HBase
+*** Apache Kafka
+*** Elasticsearch
+
+** Benefits
+*** Scalable and Reliable Data Ingestion
+*** Fault Tolerance and Error Handling
+*** Real-Time Data Processing
+*** Flexible Configuration and Extensibility
+*** Integration with Hadoop Ecosystem
+
+@endmindmap

@@ -1,0 +1,58 @@
+@startmindmap
+title =__ Cloud Design Patterns__
+* Cloud Design Patterns
+** Scalability Patterns
+*** Horizontal Scaling
+**** Load Balancing
+**** Auto Scaling
+*** Vertical Scaling
+**** Resource Reservation
+**** Resource Upgrade
+** Resiliency Patterns
+*** Retry
+*** Circuit Breaker
+*** Bulkhead
+*** Timeout
+*** Failover
+*** Replication
+** Security Patterns
+*** Access Management
+**** Identity and Access Management (IAM)
+**** Role-Based Access Control (RBAC)
+*** Data Encryption
+**** Encryption at Rest
+**** Encryption in Transit
+*** Network Security
+**** Virtual Private Cloud (VPC)
+**** Network Isolation
+*** Compliance
+**** Regulatory Compliance
+**** Audit Logging
+** Performance Optimization Patterns
+*** Caching
+*** Sharding
+*** Content Delivery Network (CDN)
+*** Database Partitioning
+*** Asynchronous Processing
+** Cost Optimization Patterns
+*** Resource Optimization
+*** Usage-Based Pricing
+*** Spot Instances
+*** Resource Consolidation
+** Data Management Patterns
+*** Data Replication
+*** Data Synchronization
+*** Event Sourcing
+*** Batch Processing
+*** Stream Processing
+** Integration Patterns
+*** Message Queueing
+*** Event-Driven Architecture
+*** API Management
+*** Service Orchestration
+** Monitoring and Logging Patterns
+*** Centralized Logging
+*** Real-Time Monitoring
+*** Health Checks
+*** Performance Metrics
+@endmindmap

@@ -1,0 +1,98 @@
+@startmindmap
+title =__Apache Big Data Ecosystem__\n<img:images/img_5.png>
+
+* **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
+
+* Apache Big Data Ecosystem
+** Overview
+*** Collection of Open-Source Projects and Tools for Big Data Processing
+*** Supports Scalable, Distributed, and Fault-Tolerant Data Processing
+*** Provides Solutions for Storage, Processing, Analytics, and Integration
+
+** Storage
+*** Hadoop Distributed File System (HDFS)
+*** Apache HBase
+*** Apache Cassandra
+*** Apache Kudu
+*** Apache Parquet
+*** Apache ORC
+*** Amazon S3
+*** Google Cloud Storage
+
+** Processing and Analytics
+*** Apache Spark
+*** Apache Flink
+*** Apache Beam
+*** Apache Hive
+*** Apache Pig
+*** Apache Storm
+*** Apache Samza
+*** Apache Apex
+*** Apache Tez
+
+** Data Integration and Messaging
+*** Apache Kafka
+*** Apache NiFi
+*** Apache Flume
+*** Apache Sqoop
+*** Apache Airflow
+
+** SQL and Data Warehousing
+*** Apache Hive
+*** Apache HAWQ
+*** Apache Drill
+*** Apache Impala
+*** Presto
+*** Apache Kylin
+*** Apache Calcite
+
+** Machine Learning and AI
+*** Apache Mahout
+*** Apache MXNet
+*** Apache SystemML
+*** Apache PredictionIO
+*** TensorFlow
+*** PyTorch
+
+** Stream Processing
+*** Apache Kafka
+*** Apache Flink
+*** Apache Storm
+*** Apache Samza
+*** Apache Spark Streaming
+*** Apache NiFi
+*** Apache Beam
+
+** Data Governance and Security
+*** Apache Atlas
+*** Apache Ranger
+*** Apache Sentry
+*** Apache Knox
+*** Apache Metron
+*** Apache Argus
+
+** Data Visualization and Business Intelligence
+*** Apache Superset
+*** Apache Zeppelin
+*** Apache Kylin
+*** Apache Druid
+*** Apache Nifi
+
+** Cloud Integration
+*** Amazon Web Services (AWS)
+*** Google Cloud Platform (GCP)
+*** Microsoft Azure
+*** Alibaba Cloud
+*** IBM Cloud
+
+** DevOps and Management
+*** Apache Ambari
+*** Apache ZooKeeper
+*** Apache Oozie
+*** Apache Mesos
+*** Apache Helix
+*** Apache Ranger
+*** Apache Sentry
+*** Apache Knox
+
+@endmindmap

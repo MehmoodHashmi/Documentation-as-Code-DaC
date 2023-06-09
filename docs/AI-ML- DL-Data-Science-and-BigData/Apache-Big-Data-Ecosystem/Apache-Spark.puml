@@ -1,0 +1,65 @@
+@startmindmap
+title =__Apache Spark__\n<img:images/img.png>
+
+* **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
+
+* Apache Spark
+** Overview
+*** Fast and General-Purpose Distributed Computing Engine
+***[#pink] **In-Memory Computing and Processing Framework**
+***[#pink] Part of the Apache Big Data Ecosystem
+
+** Architecture
+*** Cluster Manager
+**** Manages and Allocates Cluster Resources
+**** Supports Standalone, Apache Mesos, Hadoop YARN, Kubernetes
+*** Spark Core
+**** Foundation of Spark
+**** Distributed Task Scheduling and Execution
+**** Memory Management and Fault Recovery
+*** Libraries and APIs
+**** High-Level APIs for Various Data Processing Tasks
+**** Spark SQL, Spark Streaming, MLlib, GraphX
+***[#pink] Data Sources
+**** Integrates with Various Data Sources
+****[#pink] Hadoop Distributed File System (HDFS), Apache HBase, JDBC, S3, Kafka
+*** Spark Applications
+**** User Programs or Jobs
+**** Composed of Multiple Stages and Tasks
+**** Submitted to Spark Cluster for Execution
+
+** Features
+***[#pink] In-Memory Computing
+**** Caches Data in Memory for Faster Processing
+**** Improves Performance and Speeds up Iterative Algorithms
+*** Distributed Processing
+**** Scales Processing Across Cluster of Machines
+**** Parallel Execution of Tasks
+**** Fault Tolerance and Data Locality
+*** High-Level APIs and Libraries
+**** Spark SQL for Structured Data Processing
+**** Spark Streaming for Real-Time Stream Processing
+**** MLlib for Machine Learning
+**** GraphX for Graph Processing
+*** Advanced Analytics
+**** Support for SQL Queries, Machine Learning Algorithms, Graph Algorithms
+**** Enables Complex Analytics and Data Processing Workloads
+*** Integration with Big Data Ecosystem
+**** Integrates with Various Data Sources and Systems
+**** Compatible with Hadoop, Hive, HBase, Kafka, etc.
+
+**[#pink] **Use Cases**
+*** Big Data Processing and Analytics
+*** Real-Time Stream Processing
+*** Machine Learning and Data Science
+*** Interactive Data Analysis and Exploration
+*** ETL (Extract, Transform, Load) Workflows
+
+** Benefits
+*** Speed and Performance
+*** In-Memory Computing Capability
+*** Scalability and Fault Tolerance
+*** Rich Set of Libraries and APIs
+*** Integration with Big Data Ecosystem
+
+@endmindmap

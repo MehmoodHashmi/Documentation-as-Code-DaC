@@ -1,0 +1,66 @@
+@startmindmap
+title =__Hadoop Distributed File System (HDFS)__\n<img:images/img_11.png>
+
+* **[[https://www.youtube.com/watch?v=VavRifvVwIo&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=3&ab_channel=GateSmashers]]**
+* **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
+
+* Hadoop Distributed File System (HDFS)
+** Overview
+*** Distributed File System for Big Data
+*** Designed for High Throughput and Fault Tolerance
+*** Part of the Apache Hadoop Ecosystem
+
+** **Architecture**\n<img:images/img_10.png>
+*** NameNode
+**** Manages Metadata
+**** Stores Filesystem Namespace
+**** Executes File System Operations
+*** DataNode
+**** Stores Actual Data Blocks
+**** Replicates Data for Fault Tolerance
+**** Communicates with NameNode
+
+** Features
+*** Fault Tolerance
+**** Data Replication Across DataNodes
+**** Automatic Data Recovery
+*** Scalability
+**** Horizontally Scales Across Commodity Hardware
+**** Handles Large Data Sets
+*** High Throughput
+**** Optimized for Sequential Data Access
+**** Supports Streaming Data Processing
+*** Data Locality\n<img:images/img_12.png>
+**** Moves Computation Close to Data
+**** Improves Performance
+
+**[#pink] Data Organization
+***[#white] **Blocks**
+**** Fixed-Sized Units of Data Storage
+****[#pink] Typically 64MB or 128MB in Size
+****[#pink] **Files Split into Multiple Blocks**
+***[#white] **Data Replication**
+**** Replicates Blocks Across DataNodes
+**** Default Replication Factor is 3
+**** Provides Data Durability and Availability
+
+** Use Cases
+*** Big Data Processing
+*** Log Analytics
+*** Data Warehousing
+*** Machine Learning
+*** Batch Processing
+
+** Integration with Apache Hadoop Ecosystem
+*** Apache MapReduce
+*** Apache Hive
+*** Apache Spark
+*** Apache HBase
+
+** Data Access and Operations
+*** Command-Line Interface (CLI)
+*** WebHDFS REST API
+*** Hadoop File System Shell (hdfs dfs)
+*** Java API (hadoop-hdfs)
+
+@endmindmap

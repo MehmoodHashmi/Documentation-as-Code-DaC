@@ -1,0 +1,49 @@
+@startmindmap
+title =__ANOVA and MANOVA__
+
+* ANOVA and MANOVA
+** Definition
+*** Statistical Techniques for Comparing Group Means
+*** Analyze Differences Between Multiple Groups
+** ANOVA (Analysis of Variance)
+*** One-Way ANOVA
+**** Compare Means of Three or More Independent Groups
+**** F-test, Between-Groups Variance, Within-Groups Variance
+*** Two-Way ANOVA
+**** Two Independent Variables (Factors)
+**** Interaction Effect Between Factors
+*** Assumptions
+**** Independence of Observations
+**** Normality of Residuals
+**** Homogeneity of Variances
+** MANOVA (Multivariate Analysis of Variance)
+*** Extend ANOVA to Multiple Dependent Variables
+*** Simultaneously Analyze Several Outcome Variables
+*** MANOVA vs. ANOVA
+**** ANOVA: One Dependent Variable
+**** MANOVA: Multiple Dependent Variables
+*** Assumptions
+**** Multivariate Normality
+**** Homogeneity of Covariance Matrices
+**** Independence of Observations
+** Applications
+*** Experimental Studies
+*** Social Sciences
+*** Biological and Medical Research
+*** Market Research
+*** Psychometrics
+** Variations and Extensions
+*** Repeated Measures ANOVA
+*** Mixed-Effects ANOVA
+*** MANCOVA (Multivariate Analysis of Covariance)
+*** MANCOVA vs. MANOVA
+**** Control for Covariates (Continuous Variables)
+**** Adjust Group Differences Based on Covariates
+** Statistical Software
+*** R (ANOVA: aov, MANOVA: manova)
+*** SPSS
+*** SAS
+*** Stata
+*** Python (Statsmodels, Scipy)
+
+@endmindmap

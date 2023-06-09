@@ -1,0 +1,55 @@
+@startmindmap
+title =__ Dataset Developer__\n<img:img.png>
+
+* Dataset Developer
+** Data Analysis
+*** Exploratory Data Analysis (EDA)
+*** Data Visualization
+*** Statistical Analysis
+** Data Collection
+*** Data Sources
+*** Data Extraction
+*** Data Transformation
+*** Data Integration
+** Data Quality
+*** Data Cleansing
+*** Data Validation
+*** Data Standardization
+*** Data Profiling
+** Data Modeling
+*** Conceptual Data Model
+*** Logical Data Model
+*** Physical Data Model
+** Database Management
+*** Relational Databases
+*** NoSQL Databases
+*** Data Warehousing
+*** Data Lake
+** ETL (Extract, Transform, Load) Processes
+*** Data Extraction
+*** Data Transformation
+*** Data Loading
+** Data Governance
+*** Data Policies
+*** Data Privacy
+*** Data Security
+*** Data Compliance
+** Data Documentation
+*** Data Dictionary
+*** Data Lineage
+*** Metadata Management
+*** Data Catalog
+** Data Pipelines
+*** Batch Processing
+*** Stream Processing
+*** Data Orchestration
+** Data Collaboration
+*** Cross-functional Collaboration
+*** Data Sharing
+*** Data Integration
+** Programming Languages
+*** SQL
+*** Python
+*** R
+*** Java
+@endmindmap

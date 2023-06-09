@@ -1,0 +1,76 @@
+@startmindmap
+title =__Statistics__
+
+* Statistics
+** Definition
+*** Branch of Mathematics
+*** Collection, Analysis, Interpretation, Presentation, and Organization of Data
+** Descriptive Statistics
+*** Measures of Central Tendency
+**** Mean
+**** Median
+**** Mode
+*** Measures of Dispersion
+**** Range
+**** Variance
+**** Standard Deviation
+*** Graphical Representation
+**** Histograms
+**** Box Plots
+**** Scatter Plots
+** Inferential Statistics
+*** Hypothesis Testing
+**** Null Hypothesis
+**** Alternative Hypothesis
+**** p-value
+*** Confidence Intervals
+*** Parametric Tests
+**** t-tests
+**** ANOVA
+**** Regression Analysis
+*** Nonparametric Tests
+**** Mann-Whitney U test
+**** Wilcoxon Signed-Rank test
+**** Kruskal-Wallis test
+** Probability
+*** Basic Concepts
+**** Sample Space
+**** Events
+**** Probability Rules
+*** Probability Distributions
+**** Discrete Distributions
+***** Bernoulli Distribution
+***** Binomial Distribution
+***** Poisson Distribution
+**** Continuous Distributions
+***** Normal Distribution
+***** Exponential Distribution
+***** Uniform Distribution
+** Statistical Models
+*** Linear Regression
+*** Logistic Regression
+*** Time Series Analysis
+*** ANOVA and MANOVA
+*** Mixed Effects Models
+*** Bayesian Statistics
+** Sampling Techniques
+*** Simple Random Sampling
+*** Stratified Sampling
+*** Cluster Sampling
+*** Systematic Sampling
+*** Sampling Distributions
+** Experimental Design
+*** Control and Experimental Groups
+*** Randomized Controlled Trials
+*** Factorial Designs
+*** Randomization
+*** Blocking
+** Data Analysis Software
+*** R
+*** Python (NumPy, Pandas, SciPy)
+*** SPSS
+*** SAS
+*** Stata
+*** Excel
+
+@endmindmap

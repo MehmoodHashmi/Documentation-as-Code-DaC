@@ -1,0 +1,77 @@
+@startmindmap
+title =__ Data Vault vs 3NF vs Dimensional Modeling__
+* **[[https://www.youtube.com/watch?v=l5UcUEt1IzM&ab_channel=ITkFunde]]**
+
+* Data Vault vs 3NF vs Dimensional Modeling
+** Data Vault
+*** Overview
+**** Data Vault is a data modeling methodology designed for data warehousing and analytics.
+**** It focuses on scalability, flexibility, auditability, and historical tracking of data.
+*** Key Concepts
+**** Hub
+***** Represents a business key or a unique identifier for an entity.
+**** Link
+***** Represents a many-to-many relationship between Hubs.
+**** Satellite
+***** Contains descriptive or contextual information about Hubs and Links.
+**** Vault
+***** Collection of interconnected Hubs, Links, and Satellites.
+*** Benefits
+**** Scalability
+***** Supports incremental data loading and parallel processing.
+**** Flexibility
+***** Adaptable to changes in business requirements.
+**** Auditability
+***** Tracks historical changes and provides traceability of data.
+*** Challenges
+**** Complexity
+***** Requires additional effort in data modeling and development.
+**** Performance
+***** May impact query performance due to schema complexity.
+** 3NF (Third Normal Form)
+*** Overview
+**** 3NF is a data normalization technique that reduces data redundancy and ensures data integrity.
+**** It focuses on eliminating data anomalies and maintaining data consistency.
+*** Key Concepts
+**** Entity
+***** Represents a distinct real-world object or concept.
+**** Attributes
+***** Descriptive properties of an entity.
+**** Relationships
+***** Associations between entities.
+*** Benefits
+**** Data Integrity
+***** Reduces data redundancy and ensures consistent data.
+**** Relational Integrity
+***** Supports complex relationships between entities.
+**** Data Consistency
+***** Helps maintain data quality and accuracy.
+*** Challenges
+**** Performance
+***** May require complex joins and queries for data retrieval.
+**** Data Redundancy
+***** Can result in larger data storage requirements.
+** Dimensional Modeling
+*** Overview
+**** Dimensional Modeling is a data modeling technique for data warehousing and business intelligence.
+**** It focuses on simplicity, ease of use, and query performance.
+*** Key Concepts
+**** Fact Table
+***** Contains the numerical and measurable data (facts) related to a business process.
+**** Dimension Table
+***** Contains descriptive attributes that provide context to the facts in the Fact Table.
+**** Star Schema
+***** Consists of a central Fact Table connected to multiple Dimension Tables.
+*** Benefits
+**** Query Performance
+***** Optimized for analytical queries and aggregations.
+**** Simplicity
+***** Easy to understand and navigate for business users.
+**** Performance
+***** Efficient for reporting and ad-hoc analysis.
+*** Challenges
+**** Data Redundancy
+***** Can result in duplicated data in Dimension Tables.
+**** Limited Flexibility
+***** Less adaptable to changes in business requirements.
+@endmindmap

@@ -1,0 +1,16 @@
+@startmindmap
+title = __XOR Operation__
+* XOR Operation
+** Definition: XOR is a logical operation that returns true (1) if and only if exactly one of the inputs is true (1).
+** Symbol: ⊕
+** Truth Table:
+*** Input A = 0, Input B = 0, Output = 0
+*** Input A = 0, Input B = 1, Output = 1
+*** Input A = 1, Input B = 0, Output = 1
+*** Input A = 1, Input B = 1, Output = 0
+** Applications:
+*** Digital logic circuits
+*** Cryptography
+*** Error detection
+*** Data manipulation
+@endmindmap

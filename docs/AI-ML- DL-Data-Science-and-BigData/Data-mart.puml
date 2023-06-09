@@ -1,0 +1,50 @@
+@startmindmap
+title =__Data Mart__\n<img:images/img_14.png>
+* **[[https://panoply.io/data-warehouse-guide/data-mart-vs-data-warehouse/]]**
+
+* Data Mart
+** Overview
+*** A Data Mart is a specialized subset of a data warehouse that focuses on a specific subject area or department within an organization.
+*** It provides a consolidated view of data specifically tailored to the needs of a particular business unit or user group.
+** Purpose
+*** Supports decision-making and analysis within a specific functional area or department.
+*** Provides a simplified and optimized structure for querying and reporting on relevant data.
+** Characteristics
+*** Subject-Oriented
+**** Organized around a specific subject area, such as sales, finance, or marketing.
+*** Optimized Schema
+**** Utilizes a dimensional model, typically based on star or snowflake schema, for efficient data retrieval.
+*** Subset of Data Warehouse
+**** Contains a subset of the data from the overall data warehouse, focusing on the most relevant data for a particular business unit.
+*** Aggregated and Summarized Data
+**** Often includes pre-calculated aggregations and summary measures for faster query performance.
+** Benefits
+*** Improved Performance
+**** Data Marts are designed to provide fast and efficient query performance for specific business needs.
+*** Business User-Friendly
+**** Data Marts are designed with a user-friendly structure, making it easier for business users to navigate and access the data they need.
+*** Increased Agility
+**** Data Marts enable faster development and deployment cycles compared to a large, centralized data warehouse.
+*** Enhanced Data Quality
+**** Data Marts allow for data validation and cleansing specific to the subject area, ensuring high-quality data.
+** Types of Data Marts
+*** Dependent Data Mart
+**** Derived directly from the central data warehouse and shares the same data structures.
+*** Independent Data Mart
+**** Built separately from the central data warehouse and has its own data structures and ETL processes.
+*** Virtual Data Mart
+**** Provides a logical view of the data without physically moving or duplicating it.
+** Data Mart Design Considerations
+*** Business Requirements
+**** Understand the specific business requirements and reporting needs of the targeted user group.
+*** Data Granularity
+**** Determine the appropriate level of detail and granularity of the data to be included in the Data Mart.
+*** Data Integration
+**** Identify the necessary data sources and design an integration strategy for populating the Data Mart.
+*** Data Governance and Security
+**** Define data governance and security policies to ensure data integrity and protect sensitive information.
+*** Data Mart Structure
+**** Choose an appropriate dimensional modeling technique, such as star or snowflake schema, to structure the Data Mart.
+*** ETL Processes
+**** Design and implement Extract, Transform, Load (ETL) processes to populate and maintain the Data Mart.
+@endmindmap

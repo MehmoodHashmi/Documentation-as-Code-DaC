@@ -1,0 +1,46 @@
+@startmindmap
+title =__ Sharding__
+* Sharding
+** Definition
+*** Sharding is a data partitioning technique used in distributed databases to horizontally scale data storage and improve performance.
+**[#pink] **Key Concepts**
+*** Data Partitioning
+**** Dividing data into smaller subsets called shards or partitions.
+**** Each shard contains a subset of data based on a predefined partitioning strategy.
+*** Distributed Storage
+**** Storing shards across multiple machines or nodes in a distributed manner.
+**** Each machine/node is responsible for managing a subset of the data.
+*** Scalability
+**** Enables scaling horizontally by adding more machines/nodes to handle increased data load and traffic.
+**** Allows distributing the workload across multiple machines/nodes for better performance.
+** Benefits
+*** Improved Performance
+**** Distributing data across multiple machines/nodes allows parallel processing and reduces the load on individual resources.
+**** Queries and operations can be executed in parallel, leading to faster response times.
+*** Horizontal Scalability
+**** Sharding enables adding more machines/nodes to the system as the data grows, allowing seamless scaling without downtime.
+**** Each machine/node can handle a subset of the data, ensuring efficient utilization of resources.
+*** Fault Tolerance
+**** Sharding provides fault tolerance by replicating data shards across multiple machines/nodes.
+**** If one machine/node fails, the data can still be accessed and served from other available machines/nodes.
+** Sharding Strategies
+*** Range-Based Sharding
+**** Data is partitioned based on a specific range of values (e.g., customer ID, date range).
+**** Each shard manages a specific range of values, and queries targeting a specific range can be directed to the corresponding shard.
+*** Hash-Based Sharding
+**** Data is partitioned based on a hash function applied to a specific key (e.g., user ID, product ID).
+**** The hash function determines the shard where the data should be stored, allowing for even distribution across shards.
+*** Directory-Based Sharding
+**** A centralized directory or metadata service maintains the mapping of data to shards.
+**** The directory helps route queries to the appropriate shard by keeping track of the shard locations for each data item.
+** Considerations and Challenges
+*** Data Consistency
+**** Maintaining consistency across multiple shards can be challenging due to distributed nature.
+**** Techniques like eventual consistency or distributed transactions may be used to ensure data integrity.
+*** Query Routing
+**** Routing queries to the correct shard based on the sharding strategy requires efficient query routing mechanisms.
+**** Query routers or load balancers can be used to direct queries to the appropriate shard.
+*** Data Rebalancing
+**** As the data grows or the number of shards changes, data rebalancing may be necessary to ensure even distribution.
+**** Moving data between shards while maintaining consistency can be a complex task.
+@endmindmap

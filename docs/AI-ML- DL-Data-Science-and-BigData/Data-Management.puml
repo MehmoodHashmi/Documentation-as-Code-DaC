@@ -1,0 +1,46 @@
+@startmindmap
+title =__ Data Management__
+
+* Data Management
+** Data Governance
+*** Data Policies
+*** Data Standards
+*** Data Quality Management
+*** Data Privacy
+** Data Architecture
+*** Data Models
+*** Data Integration
+*** Data Storage
+*** Data Warehousing
+** Data Operations
+*** Data Acquisition
+*** Data Transformation
+*** Data Loading
+*** Data Extraction
+*** Data Migration
+** Data Security
+*** Data Access Control
+*** Data Encryption
+*** Data Masking
+*** Data Auditing
+** Master Data Management
+*** Master Data Definition
+*** Master Data Governance
+*** Master Data Quality
+*** Master Data Integration
+** Metadata Management
+*** Metadata Definition
+*** Metadata Repositories
+*** Metadata Standards
+*** Metadata Governance
+** Data Lifecycle Management
+*** Data Creation
+*** Data Storage
+*** Data Usage
+*** Data Archiving
+** Data Analytics
+*** Data Exploration
+*** Data Visualization
+*** Data Reporting
+*** Data Mining
+@endmindmap

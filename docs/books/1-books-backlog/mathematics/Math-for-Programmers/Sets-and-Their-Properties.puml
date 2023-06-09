@@ -1,0 +1,56 @@
+@startmindmap
+title =__ Sets and Their Properties__
+* Sets and Their Properties
+** Introduction
+*** Sets are collections of distinct elements that share a common characteristic or property.
+** Notation
+*** Set notation is used to represent sets and their elements.
+**** Example: A = {1, 2, 3} represents a set A with elements 1, 2, and 3.
+** Set Operations
+*** Union (U)
+**** Combines two sets into a single set that contains all elements from both sets.
+**** Example: A U B represents the union of sets A and B.
+*** Intersection (∩)
+**** Finds the common elements between two sets, resulting in a new set with those elements.
+**** Example: A ∩ B represents the intersection of sets A and B.
+*** Difference (-)
+**** Subtracts one set from another, resulting in a new set that contains elements from the first set but not the second.
+**** Example: A - B represents the difference between sets A and B.
+*** Complement (')
+**** Represents the elements that are not in a given set but are part of the universal set.
+**** Example: A' represents the complement of set A.
+** Set Properties
+*** Cardinality
+**** Refers to the number of elements in a set.
+**** Example: |A| represents the cardinality of set A.
+*** Subset
+**** A set is a subset of another set if all its elements are also elements of the other set.
+**** Example: A ⊆ B represents that set A is a subset of set B.
+*** Superset
+**** A set is a superset of another set if it contains all the elements of the other set.
+**** Example: A ⊇ B represents that set A is a superset of set B.
+*** Empty Set
+**** Represents a set with no elements.
+**** Example: Ø or {} represents the empty set.
+*** Universal Set
+**** Represents the set that contains all elements under consideration.
+**** Example: U represents the universal set.
+** Set Laws
+*** Identity Laws
+**** A U Ø = A
+**** A ∩ U = A
+*** Domination Laws
+**** A U U = U
+**** A ∩ Ø = Ø
+*** Idempotent Laws
+**** A U A = A
+**** A ∩ A = A
+*** Complement Laws
+**** A U A' = U
+**** A ∩ A' = Ø
+*** Involution Law
+**** (A')' = A
+*** De Morgan's Laws
+**** (A U B)' = A' ∩ B'
+**** (A ∩ B)' = A' U B'
+@endmindmap

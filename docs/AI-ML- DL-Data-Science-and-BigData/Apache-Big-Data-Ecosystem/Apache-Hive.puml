@@ -1,0 +1,69 @@
+@startmindmap
+title =__Apache Hive__\n<img:images/img_6.png>
+
+* **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
+
+* Apache Hive
+** Overview
+*** Data Warehousing and SQL Querying Tool
+*** Built on Apache Hadoop
+*** Provides SQL-like Interface for Big Data Processing
+
+**[#pink] **Architecture** (and hive data flow)\n<img:images/img_7.png>
+*** Metastore
+**** Stores Metadata Information
+**** Schema, Tables, Partition Information
+**** Accessed by Hive Services
+*** Query Processor
+**** Parses and Optimizes Queries
+**** Translates SQL-like Queries to MapReduce or Tez Jobs
+**** Coordinates Query Execution
+*** Execution Engine
+**** MapReduce
+**** Tez
+**** Spark
+
+** Features
+*** SQL-Like Query Language (HiveQL)
+**** Supports Subset of SQL Syntax
+**** Translates Queries to MapReduce or Tez Jobs
+*** Schema on Read
+**** Allows Schema Flexibility
+**** Applies Structure to Data During Query Execution
+*** Data Storage Formats
+**** Text Files
+**** Sequence Files
+**** Parquet
+**** ORC (Optimized Row Columnar)
+*** Data Partitioning
+**** Divides Data into Logical Partitions
+**** Improves Query Performance and Filtering
+*** User-Defined Functions (UDFs)
+**** Extend HiveQL with Custom Functions
+**** Enables Custom Data Transformations
+*** Data Integration
+**** Integration with Hadoop Ecosystem (e.g., HDFS, HBase)
+**** Compatible with Various File Formats
+**** Connects with External Systems (e.g., JDBC, ODBC)
+
+** Use Cases
+*** Data Warehousing
+*** ETL (Extract, Transform, Load) Processing
+*** Ad Hoc Querying and Analysis
+*** Log Processing and Analysis
+*** Reporting and Business Intelligence
+
+** Integration with Apache Hadoop Ecosystem
+*** Hadoop Distributed File System (HDFS)
+*** Apache HBase
+*** Apache Spark
+*** Apache Pig
+
+** Benefits
+*** SQL Interface for Big Data Processing
+*** Familiarity with SQL Syntax
+*** Schema Flexibility
+*** Scalability and Performance
+*** Integration with Hadoop Ecosystem
+
+@endmindmap

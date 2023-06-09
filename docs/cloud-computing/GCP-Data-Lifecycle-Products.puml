@@ -1,0 +1,57 @@
+@startmindmap
+title =__ GCP Data Lifecycle Products__
+* GCP Data Lifecycle Products
+** Data Ingestion
+*** Cloud Pub/Sub
+*** Cloud Dataflow
+*** Cloud IoT Core
+*** Cloud Transfer Service
+** Data Storage
+*** Cloud Storage
+*** Cloud Bigtable
+*** Cloud Firestore
+*** Cloud Spanner
+*** Cloud SQL
+*** Cloud Memorystore
+** Data Processing and Analytics
+*** BigQuery
+*** Cloud Dataproc
+*** Cloud Dataflow
+*** Cloud Datalab
+*** Cloud Data Studio
+*** Cloud Composer
+*** Cloud AI Platform
+*** Cloud ML Engine
+*** Cloud AutoML
+** Data Governance
+*** Cloud Data Catalog
+*** Cloud Data Loss Prevention
+*** Cloud Data Fusion
+*** Cloud Data Governance
+*** Cloud Security Scanner
+** Data Integration
+*** Cloud Dataflow
+*** Cloud Dataprep
+*** Cloud Composer
+*** Cloud Pub/Sub
+*** Cloud Data Fusion
+** Data Visualization and Business Intelligence
+*** Looker
+*** Data Studio
+*** BigQuery BI Engine
+*** Cloud Datalab
+*** Cloud Data Studio
+** Data Security and Compliance
+*** Cloud Data Loss Prevention
+*** Cloud Data Catalog
+*** Cloud Data Fusion
+*** Cloud Security Command Center
+*** Cloud Key Management Service
+*** Cloud Identity and Access Management
+** Data Migration and Transfer
+*** Transfer Appliance
+*** Cloud Storage Transfer Service
+*** Database Migration Service
+*** Data Transfer Service
+*** BigQuery Data Transfer Service
+@endmindmap

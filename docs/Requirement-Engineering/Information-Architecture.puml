@@ -1,0 +1,87 @@
+@startmindmap
+title =__ Information Architecture (is not data architecture)__
+
+* Information Architecture
+** User Experience (UX)
+*** Information Design
+*** Interaction Design
+*** User Research
+*** Usability Testing
+** Content Strategy
+*** Content Planning
+*** Content Organization
+*** Content Creation
+*** Content Governance
+** Information Organization
+*** Taxonomy
+*** Metadata
+*** Classification Schemes
+*** Information Structures
+** Search and Navigation
+*** Search Design
+*** Navigation Design
+*** Search Engine Optimization (SEO)
+*** Faceted Search
+** User Interface (UI)
+*** Visual Design
+*** Interface Design
+*** Responsive Design
+*** Accessibility
+** Information Visualization
+*** Data Visualization
+*** Infographics
+*** Dashboard Design
+*** Interactive Charts
+** Information Retrieval
+*** Search Engines
+*** Information Filters
+*** Information Retrieval Models
+*** Relevance Ranking
+** Content Management Systems (CMS)
+*** CMS Selection
+*** CMS Configuration
+*** Content Workflow
+*** Versioning and Publishing
+
+* Data Architecture
+** Data Sources
+*** Structured Data
+*** Unstructured Data
+*** Semi-structured Data
+** Data Integration
+*** Data Ingestion
+*** ETL/ELT Processes
+*** Data Transformation
+*** Data Quality
+** Data Storage
+*** Relational Databases
+*** NoSQL Databases
+*** Data Warehouses
+*** Data Lakes
+** Data Modeling
+*** Conceptual Data Model
+*** Logical Data Model
+*** Physical Data Model
+*** Dimensional Data Model
+** Data Governance
+*** Data Policies
+*** Data Standards
+*** Data Security
+*** Data Privacy
+** Data Migration
+*** Legacy System Migration
+*** Data Conversion
+*** Data Validation
+*** Data Cutover
+** Data Access
+*** Data APIs
+*** Data Virtualization
+*** Data Catalogs
+*** Data Security and Permissions
+** Data Analytics
+*** Business Intelligence (BI)
+*** Data Mining
+*** Predictive Analytics
+*** Machine Learning
+
+@endmindmap

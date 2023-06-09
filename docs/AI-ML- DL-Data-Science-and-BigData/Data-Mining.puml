@@ -1,0 +1,56 @@
+@startmindmap
+title =__Data Mining__
+
+* Data Mining
+** Definition
+*** Process of Discovering Patterns, Trends, and Insights from Large Datasets
+*** Extracting Meaningful Information for Decision Making
+** Process Steps
+*** Data Collection
+*** Data Cleaning and Preprocessing
+*** Data Transformation
+*** Data Mining Algorithms and Techniques
+*** Pattern Evaluation
+*** Knowledge Presentation and Visualization
+** Techniques
+*** Association Rule Mining
+*** Classification
+*** Clustering
+*** Regression Analysis
+*** Anomaly Detection
+*** Text Mining
+*** Time Series Analysis
+*** Social Network Analysis
+** Algorithms
+*** Apriori
+*** Decision Trees (C4.5, CART)
+*** k-means
+*** Naive Bayes
+*** Support Vector Machines (SVM)
+*** Random Forests
+*** Neural Networks
+** Applications
+*** Market Basket Analysis
+*** Customer Segmentation
+*** Fraud Detection
+*** Churn Prediction
+*** Recommender Systems
+*** Sentiment Analysis
+*** Predictive Maintenance
+*** Healthcare Analytics
+** Tools and Software
+*** R (RapidMiner
+*** Python (scikit-learn, TensorFlow)
+*** Weka
+*** KNIME
+*** Orange
+*** IBM SPSS Modeler
+*** SAS Enterprise Miner
+** Challenges
+*** Data Quality and Integration
+*** Scalability and Performance
+*** Privacy and Security
+*** Interpretability and Explainability
+*** Ethical and Legal Considerations
+
+@endmindmap

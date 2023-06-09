@@ -1,0 +1,114 @@
+@startmindmap
+title =__ Logical Operators__
+* Logical Operators
+** AND Operation
+*** Definition: The AND operation returns true (1) if both inputs are true (1), otherwise it returns false (0).
+*** Symbol: ∧
+*** Truth Table:
+**** Input A = 0, Input B = 0, Output = 0
+**** Input A = 0, Input B = 1, Output = 0
+**** Input A = 1, Input B = 0, Output = 0
+**** Input A = 1, Input B = 1, Output = 1
+** OR Operation
+*** Definition: The OR operation returns true (1) if at least one of the inputs is true (1), otherwise it returns false (0).
+*** Symbol: ∨
+*** Truth Table:
+**** Input A = 0, Input B = 0, Output = 0
+**** Input A = 0, Input B = 1, Output = 1
+**** Input A = 1, Input B = 0, Output = 1
+**** Input A = 1, Input B = 1, Output = 1
+** NOT Operation
+*** Definition: The NOT operation negates the input. It returns true (1) if the input is false (0), and vice versa.
+*** Symbol: ¬
+*** Truth Table:
+**** Input A = 0, Output = 1
+**** Input A = 1, Output = 0
+** XOR Operation
+*** Definition: The XOR operation returns true (1) if and only if exactly one of the inputs is true (1).
+*** Symbol: ⊕
+*** Truth Table:
+**** Input A = 0, Input B = 0, Output = 0
+**** Input A = 0, Input B = 1, Output = 1
+**** Input A = 1, Input B = 0, Output = 1
+**** Input A = 1, Input B = 1, Output = 0
+** NAND Operation
+*** Definition: The NAND operation returns true (1) unless both inputs are true (1), otherwise it returns false (0).
+*** Symbol: ↑
+*** Truth Table:
+**** Input A = 0, Input B = 0, Output = 1
+**** Input A = 0, Input B = 1, Output = 1
+**** Input A = 1, Input B = 0, Output = 1
+**** Input A = 1, Input B = 1, Output = 0
+** NOR Operation
+*** Definition: The NOR operation returns true (1) if both inputs are false (0), otherwise it returns false (0).
+*** Symbol: ↓
+*** Truth Table:
+**** Input A = 0, Input B = 0, Output = 1
+**** Input A = 0, Input B = 1, Output = 0
+**** Input A = 1, Input B = 0, Output = 0
+**** Input A = 1, Input B = 1, Output = 0
+** XNOR Operation
+*** Definition: The XNOR operation returns true (1) if both inputs are either true (1) or false (0), otherwise it returns false (0).
+*** Symbol: ⊙
+*** Truth Table:
+**** Input A = 0, Input B = 0, Output = 1
+**** Input A = 0, Input B = 1, Output = 0
+**** Input A = 1, Input B = 0, Output = 0
+**** Input A = 1, Input B = 1, Output = 1
+** Implication Operation
+*** Definition: The Implication operation returns false (0) if the antecedent is true (1) and the consequent is false (0), otherwise it returns true (1).
+*** Symbol: →
+*** Truth Table:
+**** Input A = 0, Input B = 0, Output = 1
+**** Input A = 0, Input B = 1, Output = 1
+**** Input A = 1, Input B = 0, Output = 0
+**** Input A = 1, Input B = 1, Output = 1
+** Reverse Implication Operation
+*** Definition: The Reverse Implication operation returns false (0) if the antecedent is false (0) and the consequent is true (1), otherwise it returns true (1).
+*** Symbol: ←
+*** Truth Table:
+**** Input A = 0, Input B = 0, Output = 1
+**** Input A = 0, Input B = 1, Output = 0
+**** Input A = 1, Input B = 0, Output = 1
+**** Input A = 1, Input B = 1, Output = 1
+** Converse Implication Operation
+*** Definition: The Converse Implication operation returns true (1) if the antecedent is true (1) and the consequent is true (1), otherwise it returns false (0).
+*** Symbol: ↔
+*** Truth Table:
+**** Input A = 0, Input B = 0, Output = 1
+**** Input A = 0, Input B = 1, Output = 0
+**** Input A = 1, Input B = 0, Output = 0
+**** Input A = 1, Input B = 1, Output = 1
+** Material Nonimplication Operation
+*** Definition: The Material Nonimplication operation returns true (1) if the antecedent is true (1) and the consequent is false (0), otherwise it returns false (0).
+*** Symbol: ↛
+*** Truth Table:
+**** Input A = 0, Input B = 0, Output = 1
+**** Input A = 0, Input B = 1, Output = 1
+**** Input A = 1, Input B = 0, Output = 0
+**** Input A = 1, Input B = 1, Output = 0
+** Reverse Material Nonimplication Operation
+*** Definition: The Reverse Material Nonimplication operation returns true (1) if the antecedent is false (0) and the consequent is true (1), otherwise it returns false (0).
+*** Symbol: ↚
+*** Truth Table:
+**** Input A = 0, Input B = 0, Output = 1
+**** Input A = 0, Input B = 1, Output = 1
+**** Input A = 1, Input B = 0, Output = 1
+**** Input A = 1, Input B = 1, Output = 0
+** Converse Nonimplication Operation
+*** Definition: The Converse Nonimplication operation returns true (1) if the antecedent is true (1) and the consequent is false (0), otherwise it returns false (0).
+*** Symbol: ↮
+*** Truth Table:
+**** Input A = 0, Input B = 0, Output = 1
+**** Input A = 0, Input B = 1, Output = 0
+**** Input A = 1, Input B = 0, Output = 1
+**** Input A = 1, Input B = 1, Output = 0
+** Biconditional Operation
+*** Definition: The Biconditional operation returns true (1) if both inputs have the same truth value (either both true (1) or both false (0)), otherwise it returns false (0).
+*** Symbol: ↔
+*** Truth Table:
+**** Input A = 0, Input B = 0, Output = 1
+**** Input A = 0, Input B = 1, Output = 0
+**** Input A = 1, Input B = 0, Output = 0
+**** Input A = 1, Input B = 1, Output = 1
+@endmindmap

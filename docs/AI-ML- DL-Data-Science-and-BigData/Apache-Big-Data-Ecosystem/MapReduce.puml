@@ -1,0 +1,69 @@
+@startmindmap
+title =__ MapReduce__\n<img:img_9.png>
+
+* **[[https://www.youtube.com/watch?v=pcTFiU7wKkQ&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=4&ab_channel=GateSmashers]]**
+* **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
+* **[[https://www.analyticsvidhya.com/blog/2022/07/learn-everything-about-mapreduce-architecture-and-its-components/]]**
+
+* MapReduce
+** Overview
+*** Programming Model for Processing Big Data
+*** Designed for Parallel and Distributed Computing
+*** Part of the Apache Hadoop Ecosystem
+
+** Components
+*** Map Function
+**** Processes Input Data in Key-Value Pairs
+**** Generates Intermediate Key-Value Pairs
+*** Reduce Function
+**** Aggregates Intermediate Data by Key
+**** Produces Final Output
+
+** **Workflow**\n<img:img_8.png>
+*** Input Data
+**** Split into Input Splits
+**** Assigned to Map Tasks
+*** Map Phase
+**** Map Tasks Process Input Splits
+**** Output Intermediate Key-Value Pairs
+*** Shuffle and Sort
+**** Intermediate Data Grouped by Key
+**** Transferred to Reduce Tasks
+*** Reduce Phase
+**** Reduce Tasks Process Intermediate Data
+**** Output Final Results
+
+** Features
+*** Scalability
+**** Scales Horizontally Across Cluster Nodes
+**** Handles Large Data Sets
+*** Fault Tolerance
+**** Automatic Task Recovery
+**** Data Replication
+*** Parallel Processing
+**** Distributes Computation Across Nodes
+**** Processes Data in Parallel
+*** Data Locality
+**** Moves Computation Close to Data
+**** Minimizes Data Transfer Overhead
+
+** Use Cases
+*** Batch Processing
+*** Data Transformation
+*** Log Analysis
+*** Distributed Computing
+*** Large-Scale Data Processing
+
+** Integration with Apache Hadoop Ecosystem
+*** Hadoop Distributed File System (HDFS)
+*** Apache Hive
+*** Apache Pig
+*** Apache Spark
+
+** Programming Languages and APIs
+*** Java
+*** Python
+*** MapReduce Streaming API
+*** Hadoop MapReduce API
+
+@endmindmap

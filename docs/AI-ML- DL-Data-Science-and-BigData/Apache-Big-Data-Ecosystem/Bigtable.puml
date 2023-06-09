@@ -1,0 +1,48 @@
+@startmindmap
+title =__Bigtable__
+
+* Bigtable
+** Overview
+*** Distributed, Scalable NoSQL Database
+*** Designed for Large-Scale Data Processing
+***[#pink] **Used by Google for Various Services**
+
+** Features
+*** Scalability
+**** Horizontally Scales Across Commodity Servers
+**** Handles Petabytes of Data
+*** High Performance
+**** Low-Latency Data Access
+**** Data Compression and Caching
+*** Flexible Data Model
+**** Sparse, Distributed Storage
+**** Column Families and Columns
+**** Rows Accessed by Row Key
+*** Replication and High Availability
+**** Data Replication Across Data Centers
+**** Fault Tolerance and Failover
+
+** Use Cases
+*** Time-Series Data
+*** Ad Tech Platforms
+*** Internet of Things (IoT)
+*** Financial Services
+*** Analytics and Data Warehousing
+
+** Integration with Google Cloud Platform
+*** BigQuery
+*** Dataflow
+*** Dataproc
+*** Cloud Storage
+
+** Querying and Data Access
+*** API-Based Access
+*** Client Libraries (e.g., Java, Python)
+*** Support for Batch and Real-Time Queries
+
+** Implementation Details
+*** SSTables and Memtables
+*** Chubby Lock Service
+*** Built on Google File System (GFS)
+
+@endmindmap

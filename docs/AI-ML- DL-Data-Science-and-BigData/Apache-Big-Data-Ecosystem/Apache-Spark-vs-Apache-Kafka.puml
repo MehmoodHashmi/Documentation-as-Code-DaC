@@ -1,0 +1,39 @@
+@startmindmap
+title =__Apache Spark vs Apache Kafka__
+
+* **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
+
+* Apache Spark
+** Data Processing and Analytics
+*** In-Memory Computing Engine
+*** Batch Processing, Stream Processing, Machine Learning, Graph Processing
+** Processing Model
+*** Data Sets and Complex Analytics
+*** Iterative Processing, Interactive Queries
+** In-Memory Computing
+*** Emphasis on In-Memory Processing and Caching
+*** High Performance and Faster Data Access
+** Use Cases
+*** Large-Scale Data Processing
+*** Real-Time Stream Processing
+*** Machine Learning and Graph Analytics
+** Integration
+*** Integrates with Apache Kafka for Data Ingestion and Processing
+
+* Apache Kafka
+** Distributed Streaming Platform
+*** High-Throughput, Scalable, Fault-Tolerant Messaging
+** Processing Model
+*** Streaming and Handling of Records or Messages
+*** Publish-Subscribe Model
+** Message Persistence
+*** Emphasis on Fault-Tolerant and Durable Messaging
+*** Disk Storage of Messages
+** Use Cases
+*** Real-Time Data Pipelines
+*** Event Streaming and Processing
+*** Log Aggregation and Analytics
+** Integration
+*** Integrates with Apache Spark and Other Data Processing Frameworks
+
+@endmindmap

@@ -1,0 +1,47 @@
+@startmindmap
+title =__Cluster Analysis__
+
+* Cluster Analysis
+** Definition
+*** Unsupervised Learning Technique for Grouping Objects
+*** Identify Similarity or Dissimilarity Patterns
+** Types of Cluster Analysis
+*** Hierarchical Clustering
+**** Agglomerative (Bottom-up) Clustering
+**** Divisive (Top-down) Clustering
+*** K-means Clustering
+*** DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
+*** Gaussian Mixture Models (GMM)
+** Distance Metrics
+*** Euclidean Distance
+*** Manhattan Distance
+*** Cosine Similarity
+*** Hamming Distance
+** Evaluation and Interpretation
+*** Cluster Validation
+**** Silhouette Coefficient
+**** Calinski-Harabasz Index
+*** Dendrograms (for Hierarchical Clustering)
+*** Cluster Visualization
+**** Scatter Plots
+**** Heatmaps
+*** Interpretation of Cluster Profiles
+** Techniques and Methods
+*** Centroid-Based Clustering
+*** Density-Based Clustering
+*** Model-Based Clustering
+*** Subspace Clustering
+** Applications
+*** Customer Segmentation
+*** Market Research
+*** Pattern Recognition
+*** Image and Object Recognition
+*** Anomaly Detection
+** Statistical Software
+*** R (kmeans, hclust)
+*** Python (Scikit-learn, Scipy)
+*** MATLAB
+*** Weka
+*** RapidMiner
+
+@endmindmap
