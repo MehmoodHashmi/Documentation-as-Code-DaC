@@ -1,0 +1,79 @@
+@startmindmap
+
+title =__ Redshift Nomenclature of SQL__
+
+* Redshift Nomenclature of SQL
+** Schema
+*** Database schema for organizing tables and views
+*** Contains tables, views, and other database objects
+*** Allows logical grouping and organization of data
+** Table
+*** Data storage structure
+*** Consists of rows and columns
+*** Contains structured data
+*** Defines the schema of the data stored in it
+** Column
+*** Represents a specific attribute or field within a table
+*** Defines the data type and constraints of the attribute
+*** Contains data values for each row in the table
+** Primary Key
+*** Unique identifier for a record in a table
+*** Ensures data integrity and uniqueness
+*** Can be composed of one or multiple columns
+** Foreign Key
+*** Links one table's primary key to another table's primary key
+*** Establishes relationships between tables
+*** Maintains data consistency and referential integrity
+** Index
+*** Data structure for faster data retrieval
+*** Improves query performance by facilitating efficient data lookup
+*** Can be created on one or multiple columns
+** View
+*** Virtual table based on the result of a query
+*** Represents a subset of data from one or more tables
+*** Provides a simplified and customized view of data
+** Query
+*** SQL statements used to retrieve, insert, update, or delete data
+*** Manipulates data in tables and views
+*** Includes SELECT, INSERT, UPDATE, DELETE, and other clauses
+** Aggregate Functions
+*** Perform calculations on a set of values and return a single value
+*** Examples: SUM, AVG, COUNT, MAX, MIN
+** Joins
+*** Combines rows from two or more tables based on a related column
+*** Types: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN
+*** Helps retrieve data from multiple tables simultaneously
+** Subqueries
+*** Nested queries within a larger query
+*** Used to retrieve data based on results from another query
+*** Can be used in SELECT, FROM, WHERE, and other clauses
+** Data Manipulation Language (DML)
+*** SQL statements for manipulating data
+*** Includes SELECT, INSERT, UPDATE, DELETE
+** Data Definition Language (DDL)
+*** SQL statements for defining and modifying database structures
+*** Includes CREATE, ALTER, DROP, TRUNCATE
+** Data Control Language (DCL)
+*** SQL statements for managing user privileges and permissions
+*** Includes GRANT, REVOKE
+** Transactions
+*** Atomic unit of work that ensures data consistency and integrity
+*** Composed of one or more SQL statements
+*** Can be committed or rolled back
+** Constraints
+*** Rules applied to columns or tables to enforce data integrity
+*** Examples: NOT NULL, UNIQUE, CHECK, FOREIGN KEY
+** Stored Procedures
+*** Predefined SQL code blocks stored in the database
+*** Can be executed with a single command
+*** Helps improve performance and code modularity
+** Triggers
+*** Database objects that execute automatically in response to events
+*** Can be triggered by data changes in tables
+*** Perform specific actions based on the defined logic
+** User-defined Functions
+*** Custom functions created by users
+*** Perform specific calculations or operations
+*** Can be used in SQL queries as reusable code
+
+@endmindmap

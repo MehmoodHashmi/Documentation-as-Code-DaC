@@ -1,0 +1,83 @@
+@startmindmap
+
+* Apache Kafka Log Data Structure
+** Introduction
+*** Distributed streaming platform
+*** Handles high-throughput, fault-tolerant messaging
+*** Based on a publish-subscribe model
+** Log Abstraction
+*** Topics
+**** Logical category or feed name
+**** Data is organized into topics
+*** Partitions
+**** Each topic is divided into multiple partitions
+**** Independent and ordered sequence of records
+*** Records
+**** Unit of data in Kafka
+**** Key-value pair with optional metadata
+** Log Storage
+*** Segments
+**** Each partition is divided into segments
+**** Fixed-size files containing sequential records
+*** Index Files
+**** Maps offset ranges to physical file positions
+**** Enables fast record lookup and retrieval
+*** Compaction
+**** Removes redundant or obsolete records
+**** Maintains a more compact log storage
+** Log Replication
+*** Replicas
+**** Multiple copies of a partition across brokers
+**** Provides fault tolerance and high availability
+*** Leader and Follower
+**** Leader handles read and write operations
+**** Followers replicate data from the leader
+*** In-Sync Replicas (ISR)
+**** Subset of replicas that are synchronized with the leader
+**** Ensures data consistency and reliability
+** Log Commit and Retention
+***[#pink] Offset
+**** Sequential identifier for each record in a partition
+**** Represents the position in the log
+*** Consumer Offset
+**** Maintains the progress of a consumer group
+**** Tracks the offset of consumed records
+*** Log Compaction
+**** Retains the latest record for each key
+**** Deletes older records with the same key
+*** Log Retention Policy
+**** Determines how long data is retained in Kafka
+**** Based on time or log size
+** Kafka Connect and Streaming APIs
+*** Kafka Connect
+**** Tool for importing and exporting data
+**** Enables integration with external systems
+*** Streaming APIs
+**** Provides stream processing capabilities
+**** Allows real-time data processing and transformations
+** Use Cases
+*** Real-time Data Streaming
+*** Event Sourcing
+*** Log Aggregation and Analysis
+*** Messaging and Queuing
+** Benefits
+*** High Throughput and Scalability
+*** Fault Tolerance and Replication
+*** Durability and Persistence
+*** Real-time Stream Processing
+*** Ecosystem and Integration
+** Apache Kafka Ecosystem
+*** Kafka Streams
+**** Stream processing library
+**** Enables building real-time applications
+*** Kafka Connectors
+**** Pre-built integrations with external systems
+**** Simplifies data ingestion and export
+*** Schema Registry
+**** Centralized schema management
+**** Ensures data compatibility and consistency
+*** Kafka Security
+**** Authentication and Authorization mechanisms
+**** Encryption and SSL/TLS support
+
+@endmindmap

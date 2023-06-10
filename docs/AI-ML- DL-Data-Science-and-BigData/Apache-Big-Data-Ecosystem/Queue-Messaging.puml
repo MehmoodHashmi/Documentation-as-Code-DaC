@@ -1,0 +1,83 @@
+@startmindmap
+
+title =__ Queue Messaging__
+
+* **[[https://www.youtube.com/watch?v=XndpZCyRIXw&ab_channel=JeffreyRichter]]**
+* **[[https://www.youtube.com/watch?v=Tu9WGaePtBA&ab_channel=JeffreyRichter]]**
+
+* Queue Messaging
+** Introduction
+*** Message-oriented communication pattern
+*** Senders produce messages, receivers consume them
+*** Enables asynchronous and decoupled communication
+** Queue
+*** Message Queue
+**** Storage for messages awaiting processing
+**** Follows FIFO (First-In-First-Out) order
+**** Examples: RabbitMQ, Apache ActiveMQ
+*** Queue Management
+**** Message Enqueueing
+**** Message Dequeueing
+**** Queue Size and Capacity
+**[#pink] Messaging Models
+*** Point-to-Point (P2P)
+**** **One sender, one receiver per message**
+***** **Traditional**
+**** Message is consumed and removed from the queue
+****[#pink] Examples: JMS, AMQP
+*****[#pink] Apache ActiveMQ implements the specification of JMS
+*** Publish-Subscribe (Pub/Sub)
+****[#pink] One sender, multiple subscribers per message
+*****[#pink] Modern
+**** Message is broadcasted to all subscribers
+****[#pink] Examples: Apache Kafka, MQTT
+** Message
+*** Payload
+**** Data being transmitted in the message
+**** Can be any format: text, JSON, binary, etc.
+*** Metadata
+**** Additional information about the message
+**** Examples: sender, timestamp, priority
+*** Acknowledgment
+**** Confirmation of message receipt or processing
+**** Ensures reliability and fault tolerance
+**[#pink] **Message Queuing Patterns**
+*** Request-Reply
+**** Send a request and receive a response
+**** Examples: RPC (Remote Procedure Call)
+*** Dead-Letter Queue
+**** Handles failed or unprocessable messages
+**** Allows retries or manual inspection
+*** Message Routing
+**** Directs messages based on specified criteria
+**** Examples: content-based routing, topic-based routing
+*** Message Transformation
+**** Modifies or enriches message content
+**** Examples: data enrichment, format conversion
+** Benefits
+*** Asynchronous Communication
+*** Scalability and Load Balancing
+*** Fault Tolerance and Reliability
+*** Message Prioritization and Ordering
+*** Decoupling of Systems and Components
+** Use Cases
+*** Distributed Systems and Microservices
+*** Event-Driven Architecture
+*** Workflow Orchestration
+*** Asynchronous Processing and Integration
+** Integration Technologies
+***[#pink] Message Brokers
+**** Middleware for message routing and delivery
+**** Examples: Apache Kafka, RabbitMQ
+*** Message Queueing Protocols
+**** Define standards for queue messaging
+**** Examples: AMQP, JMS, MQTT
+***[#pink] Messaging APIs and Libraries
+**** Simplify implementation of messaging solutions
+**** **Examples: Spring JMS, Java Message Service (JMS)**
+*** Enterprise Service Bus (ESB)
+**** Integrates diverse applications and systems
+**** Facilitates message-based communication
+**** Examples: Apache ServiceMix, Mule ESB
+
+@endmindmap
