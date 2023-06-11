@@ -1,0 +1,89 @@
+@startmindmap
+
+title =__ Dataset __
+
+* **Definition**
+** + Collection of Data
+*** - A structured or unstructured collection of data points
+*** - Can be in various formats (CSV, JSON, database, etc.)
+
+* **Characteristics**
+** + Data Types
+*** - Numerical, categorical, text, etc.
+*** - Continuous or discrete values
+** + Variables
+*** - Features or attributes that describe the data
+*** - Independent and dependent variables
+** + Observations
+*** - Individual data points or instances
+*** - Rows or records in a dataset
+** + Data Quality
+*** - Completeness, accuracy, consistency
+*** - Handling missing or erroneous data
+
+* **Types of Datasets**
+** + Tabular Datasets
+*** - Structured data organized in rows and columns
+*** - Represented by DataFrames or database tables
+** + Time Series Datasets
+*** - Sequential data with timestamps
+*** - Trend analysis, forecasting
+** + Text Datasets
+*** - Unstructured text data
+*** - Natural language processing, sentiment analysis
+** + Image Datasets
+*** - Pixel-based images
+*** - Image classification, object detection
+** + Audio Datasets
+*** - Audio waveforms
+*** - Speech recognition, audio classification
+** + Video Datasets
+*** - Sequence of frames
+*** - Video classification, activity recognition
+
+* **Data Preparation**
+** + Data Cleaning
+*** - Handling missing values, duplicates, outliers
+*** - Data normalization, scaling
+** + Feature Engineering
+*** - Creating new features from existing ones
+*** - Feature selection, dimensionality reduction
+** + Data Integration
+*** - Combining multiple datasets
+*** - Data merging, concatenation
+** + Data Transformation
+*** - Encoding categorical variables
+*** - Data discretization, binning
+** + Data Splitting
+*** - Dividing the dataset into training and testing sets
+*** - Cross-validation
+
+* **Exploratory Data Analysis (EDA)**
+** + Descriptive Statistics
+*** - Summary statistics (mean, median, etc.)
+*** - Data distribution, measures of variability
+** + Data Visualization
+*** - Plots, charts, graphs
+*** - Histograms, scatter plots, box plots
+** + Correlation Analysis
+*** - Relationships between variables
+*** - Correlation matrices, heatmaps
+** + Data Profiling
+*** - Understanding the structure and characteristics of data
+*** - Data quality assessment
+
+* **Data Modeling and Analysis**
+** + Machine Learning
+*** - Building predictive models
+*** - Supervised and unsupervised learning
+** + Statistical Analysis
+*** - Hypothesis testing, significance analysis
+*** - Regression, ANOVA, chi-square tests
+** + Deep Learning
+*** - Neural networks and deep learning models
+*** - Image recognition, natural language processing
+** + Predictive Analytics
+*** - Forecasting future trends
+*** - Time series analysis, regression models
+
+@endmindmap

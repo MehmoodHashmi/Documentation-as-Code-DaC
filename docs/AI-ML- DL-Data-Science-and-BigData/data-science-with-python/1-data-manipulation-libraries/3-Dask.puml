@@ -1,0 +1,53 @@
+@startmindmap
+
+title =__ Dask __
+
+* **Dask Basics**
+** + Dask Arrays
+***[#pink] - Parallel computing with array-like data structures
+***[#pink] - Chunked computation for large datasets
+** + Dask DataFrames
+*** - Parallel computing with tabular data structures
+***[#pink] **- Built on top of Pandas**
+** + Dask Delayed
+*** - Lazy execution for custom task scheduling
+*** - Parallelize custom Python code
+
+* **Parallel Computing**
+** + Task Scheduling
+*** - Dynamic task scheduling for efficient computation
+*** - Task graphs and dependencies
+** + Distributed Computing
+*** - Scalable and distributed computing on clusters
+*** - Integration with popular cluster managers (e.g., Dask Kubernetes, Dask-YARN)
+
+* **Big Data Processing**
+** + Scalable Data Processing
+*** - Efficient handling of large datasets
+*** - Out-of-core computation for data that doesn't fit in memory
+** + Parallel Algorithms
+*** - Parallel versions of common algorithms
+*** - Map, reduce, filter operations on large datasets
+
+* **Integration with Ecosystem**
+**[#pink] + Interoperability with Libraries
+*** - Integration with popular Python libraries **(Pandas, NumPy, Scikit-learn)**
+*** - Seamless conversion between Dask and other data structures
+**[#pink] + Integration with Big Data Tools
+*** - Integration with **distributed storage** systems **(Hadoop, Amazon S3)**
+*** - Integration with **__distributed computing frameworks__ (Apache Spark)**
+
+* **Performance Optimization**
+** + Lazy Evaluation
+*** - Delayed computation for efficient execution
+*** - Optimal task scheduling based on dependencies
+** + Distributed Memory Management
+*** - Effective memory usage for distributed computations
+*** - Efficient data serialization and transfer
+
+* **Data Visualization**
+** + Integration with Visualization Tools
+*** - Integration with Matplotlib, Seaborn, and other plotting libraries
+*** - Support for visualizing large datasets
+
+@endmindmap

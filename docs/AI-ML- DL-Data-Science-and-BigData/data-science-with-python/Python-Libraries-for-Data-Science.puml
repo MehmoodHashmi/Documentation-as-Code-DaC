@@ -1,0 +1,59 @@
+@startmindmap
+
+title =__ Python Libraries for Data Science __
+
+* **Data Manipulation**
+** + Pandas
+*** - Data structures (DataFrame, Series)
+*** - Data cleaning, transformation, and aggregation
+** + NumPy
+*** - Efficient numerical computations
+*** - Multidimensional array objects
+
+* **Data Visualization**
+** + Matplotlib
+*** - Data visualization
+*** - Line plots, bar charts, scatter plots, etc.
+** + Seaborn
+*** - Statistical data visualization
+*** - Enhanced aesthetics and built-in themes
+
+* **Machine Learning**
+** + Scikit-learn
+*** - Machine learning algorithms and tools
+*** - Classification, regression, clustering, etc.
+** + TensorFlow
+*** - Deep learning framework
+*** - Neural networks, deep learning models
+** + Keras
+*** - High-level neural networks API
+*** - Simplifies deep learning model development
+** + PyTorch
+*** - Deep learning framework
+*** - Dynamic computational graphs
+
+* **Statistical Analysis**
+** + Statsmodels
+*** - Statistical modeling and testing
+*** - Regression analysis, time series analysis, etc.
+** + SciPy
+*** - Scientific computing and advanced math
+*** - Integration, optimization, interpolation, etc.
+
+* **Natural Language Processing (NLP)**
+** + NLTK
+*** - Natural Language Toolkit
+*** - Tools for tokenization, stemming, tagging, etc.
+** + spaCy
+*** - Industrial-strength NLP library
+*** - Entity recognition, dependency parsing, etc.
+
+* **Data Mining and Exploration**
+** + Scrapy
+*** - Web scraping framework
+*** - Extracting data from websites
+** + NetworkX
+*** - Graph analysis and visualization
+*** - Network analysis, social network analysis, etc.
+
+@endmindmap

@@ -1,5 +1,7 @@
 @startmindmap
-title =__Cloud Native__
+title =__Cloud Native__\n<img:images/img.png>
+
+* **[[https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/definition]]**
 
 * Definition
 ** A software development approach that emphasizes building applications specifically for cloud environments

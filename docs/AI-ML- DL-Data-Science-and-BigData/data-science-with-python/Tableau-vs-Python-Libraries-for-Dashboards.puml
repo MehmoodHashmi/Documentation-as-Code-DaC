@@ -1,0 +1,47 @@
+@startmindmap
+
+title =__ Tableau vs Python Libraries for Dashboards __
+
+* **Tableau**
+** + User-friendly interface
+** + Drag-and-drop functionality
+** + Extensive data visualization options
+** + Interactivity and drill-down capabilities
+** + Advanced features (data blending, calculated fields, etc.)
+** + Strong community and documentation
+
+--[#pink] **Pros of Tableau**
+--- Easy to use for non-technical users
+--- Rich set of pre-built visualization options
+--- Powerful interactive features
+--- Strong support and community
+
+--[#pink] **Cons of Tableau**
+---  Limited customization beyond provided features
+---  Requires learning a specific tool and interface
+---  Can be expensive for enterprise-level usage
+
+
+* **Python Libraries**
+** + Flexibility and customization options
+** + Integration with other Python libraries and tools
+** + Programmatic control and automation
+** + Wide range of visualization libraries (Plotly, Dash, Bokeh, etc.)
+** + Ability to leverage Python ecosystem and data analysis capabilities
+
+
+
+--[#pink] **Pros of Python Libraries**
+--- Greater flexibility and customization
+--- Access to the Python ecosystem and libraries
+--- Programmatic control and automation
+--- Ability to integrate with other Python tools
+
+
+
+--[#pink] **Cons of Python Libraries**
+---  Steeper learning curve for non-programmers
+---  Setup and configuration may require technical expertise
+---  Requires coding and scripting skills
+
+@endmindmap

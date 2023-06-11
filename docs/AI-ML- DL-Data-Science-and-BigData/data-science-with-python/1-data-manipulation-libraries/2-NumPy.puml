@@ -1,0 +1,65 @@
+@startmindmap
+
+title =__ NumPy __
+
+* **Array Objects**
+** + Multidimensional Arrays
+*** - Homogeneous data structures
+*** - Efficient for numerical operations
+** + Broadcasting
+*** - Implicit element-wise operations
+*** - Compatible arrays of different shapes
+** + Data Types
+*** - Built-in numerical data types
+*** - Precision and memory management
+
+* **Array Manipulation**
+** + Shape Manipulation
+*** - Reshaping, resizing, and flattening arrays
+*** - Changing dimensions and sizes
+** + Element-wise Operations
+*** - Mathematical operations on arrays
+*** - Arithmetic, trigonometric, logarithmic functions
+** + Array Concatenation and Splitting
+*** - Combining and dividing arrays
+*** - Vertical and horizontal stacking
+
+* **Array Indexing**
+** + Basic Indexing
+*** - Accessing array elements using indexing
+*** - Slicing and subsetting arrays
+** + Fancy Indexing
+*** - Using arrays as indices
+*** - Boolean indexing for conditional selection
+** + Views vs. Copies
+*** - Sharing memory for efficiency
+*** - Copying arrays for independent modifications
+
+* **Array Operations**
+** + Mathematical Functions
+*** - Element-wise mathematical operations
+*** - Trigonometric, exponential, logarithmic functions
+** + Linear Algebra
+*** - Matrix operations
+*** - Dot product, eigenvalues, determinants
+** + Statistical Functions
+*** - Statistical operations on arrays
+*** - Mean, median, standard deviation, variance
+
+* **Array Input/Output**
+** + File Input/Output
+*** - Reading and writing array data to files
+*** - Support for various file formats (text, binary)
+** + Memory-Mapped Files
+*** - Reading and writing array data directly from/to disk
+*** - Memory efficiency for large datasets
+
+* **Performance Optimization**
+** + Vectorized Operations
+*** - Efficient element-wise operations
+*** - Avoiding explicit loops
+** + Broadcasting
+*** - Implicit expansion of arrays for operations
+*** - Avoiding unnecessary copying
+
+@endmindmap

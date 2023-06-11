@@ -1,0 +1,30 @@
+@startmindmap
+
+title =__ Python Libraries for Data Manipulation __
+
+* **Pandas**
+** + Data manipulation and analysis
+** + Data structures (DataFrame, Series)
+** + Data cleaning, transformation, and aggregation
+
+* **NumPy**
+** + Efficient numerical computations
+** + Multidimensional array objects
+**[#pink] + Mathematical functions and **linear algebra** operations
+
+* **Dask**
+**[#pink] + Parallel computing for big data
+** + Out-of-core computing
+**[#pink] **+ Integration with __Pandas and NumPy__**
+
+* **PySpark**
+**[#pink] + **Distributed data** processing
+**[#pink] + **Big data processing** capabilities
+**[#pink] + Integration with **__Apache Spark__**
+
+* **SQLAlchemy**
+** + SQL toolkit and Object-Relational Mapping (ORM)
+** + Database connectivity and interaction
+** + Query building and execution
+
+@endmindmap

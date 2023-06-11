@@ -1,0 +1,55 @@
+@startmindmap
+
+title =__ Python Libraries for Data Scientists __
+
+* **NumPy**
+** + Efficient numerical computations
+** + Multidimensional array objects
+** + Mathematical functions and linear algebra operations
+
+* **Pandas**
+** + Data manipulation and analysis
+** + Data structures (DataFrame, Series)
+** + Data cleaning, transformation, and aggregation
+
+* **Matplotlib**
+** + Data visualization
+** + Line plots, bar charts, scatter plots, etc.
+** + Customization of plots and figures
+
+* **Seaborn**
+** + Statistical data visualization
+** + Enhanced aesthetics and built-in themes
+** + Advanced statistical plots
+
+* **Scikit-learn**
+** + Machine learning algorithms and tools
+** + Classification, regression, clustering, etc.
+** + Model evaluation and validation
+
+* **TensorFlow**
+** + Deep learning framework
+** + Neural networks, deep learning models
+** + GPU acceleration support
+
+* **Keras**
+** + High-level neural networks API
+** + Simplifies deep learning model development
+** + Built on top of TensorFlow
+
+* **PyTorch**
+** + Deep learning framework
+** + Dynamic computational graphs
+** + GPU acceleration support
+
+* **Statsmodels**
+** + Statistical modeling and testing
+** + Regression analysis, time series analysis, etc.
+** + Hypothesis testing and statistical tests
+
+* **SciPy**
+** + Scientific computing and advanced math
+** + Integration, optimization, interpolation, etc.
+** + Signal processing, image processing, and more
+
+@endmindmap
