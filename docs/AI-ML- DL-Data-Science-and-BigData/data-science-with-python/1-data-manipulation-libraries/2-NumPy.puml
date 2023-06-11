@@ -39,7 +39,7 @@ title =__ NumPy __
 ** + Mathematical Functions
 *** - Element-wise mathematical operations
 *** - Trigonometric, exponential, logarithmic functions
-** + Linear Algebra
+**[#pink] **+ Linear Algebra**
 *** - Matrix operations
 *** - Dot product, eigenvalues, determinants
 ** + Statistical Functions
