@@ -5,7 +5,7 @@ title =__ Amazon Redshift__
 * Amazon Redshift
 ** Cloud-based Data Warehousing
 *** Scalable and fully managed solution
-*** Designed for analyzing large datasets
+***[#pink] **Designed for analyzing large datasets**
 *** Optimized for high-performance queries
 ** Architecture
 *** Columnar Storage
@@ -31,10 +31,10 @@ title =__ Amazon Redshift__
 ** Security and Encryption
 *** Encryption at rest and in transit
 *** Integration with AWS IAM for access control
-** Use Cases
+**[#pink] Use Cases
 *** Business Intelligence
 *** Data Warehousing
-*** Analytics and Reporting
+***[#pink] **Analytics and Reporting**
 ** Benefits
 *** Fast Query Performance
 *** Cost-Effective Scaling

@@ -1,0 +1,40 @@
+@startmindmap
+
+
+title =__ GCP Services for Data Engineers__\n<img:images/img_2.png>
+
+* GCP Services for Data Engineers
+
+** Storage
+*** Cloud Storage
+*** BigQuery
+*** Cloud SQL
+*** Datastore
+
+** Big Data Processing
+*** Dataproc
+*** Dataflow
+*** Pub/Sub
+
+** Analytics
+*** BigQuery
+*** Data Studio
+*** Dataflow
+
+** Machine Learning
+*** AI Platform
+*** AutoML
+
+** Data Pipelines
+*** Dataflow
+*** Cloud Composer
+
+** Workflow Orchestration
+*** Cloud Composer
+*** Cloud Scheduler
+
+** Monitoring and Logging
+*** Stackdriver Monitoring
+*** Stackdriver Logging
+
+@endmindmap

@@ -1,7 +1,14 @@
 @startmindmap
 
-title =__ Choosing Between <color #green>DataFrame</color> and <color #brown>Dataset</color> __
+title =__ Choosing Between <color #green>DataFrame</color> and <color #brown>Dataset</color> __\n\n<img:images/img_2.png>\n\n<img:images/img_1.png>
+
 * **[[https://www.youtube.com/watch?v=mtlZhyxWR9Q&list=LL&index=2&ab_channel=DataSavvy]]**
+* **[[https://www.youtube.com/watch?v=W9k9lHGLSnc&ab_channel=Xebia]]**
+* **[[https://www.youtube.com/watch?v=26zl50iNBp8&ab_channel=BigDataElearning]]**
+* **[[https://www.youtube.com/watch?v=GqHPMMoN4R4&ab_channel=BigDataElearning]]**
+* **[[https://www.linkedin.com/pulse/apache-spark-rdd-vs-dataframe-dataset-chandan-prakash/]]**
+* **[[https://data-flair.training/blogs/apache-spark-rdd-vs-dataframe-vs-dataset/]]**
+
 
 * **Considerations**
 ** + Data Complexity
@@ -17,7 +24,7 @@ title =__ Choosing Between <color #green>DataFrame</color> and <color #brown>Dat
 ** + Developer Familiarity
 *** - Experience with specific libraries or languages
 
-* **DataFrame**
+* **DataFrame**\n<img:images/img_3.png>
 ** + Use Cases
 *** - Data manipulation, exploration, analysis
 *** - Quick prototyping and ad hoc analysis

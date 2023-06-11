@@ -1,0 +1,58 @@
+@startmindmap
+
+
+
+title =__ Azure Services for Data Engineers__\n<img:images/img_3.png>
+
+*:Now when we have understood how what pipeline is, what different stages of pipeline are and what is the significance and components involved in each stage,
+lets look at the high-level design of how data flows from one component to another and how these components are integrated with each other.
+**[[https://medium.com/@ravindersengar/design-a-data-analytic-system-for-insurance-business-using-microsoft-azure-services-a803e65b13c3]]**
+<img:images/img_4.png>;
+
+
+
+* Azure Services for Data Engineers
+
+** Storage
+*** Blob Storage
+*** Data Lake Storage
+*** Azure SQL Database
+*** Cosmos DB
+
+** Big Data Processing
+*** HDInsight
+*** Azure Databricks
+*** Azure Data Lake Analytics
+
+** Analytics
+*** Azure Synapse Analytics
+*** Azure Data Explorer
+*** Power BI
+
+** Database
+*** Azure SQL Database
+*** Azure Cosmos DB
+*** Azure Database for MySQL
+*** Azure Database for PostgreSQL
+
+** Streaming
+*** Event Hubs
+*** Azure Stream Analytics
+
+** Data Pipelines
+*** Azure Data Factory
+*** Azure Logic Apps
+
+** Machine Learning
+*** Azure Machine Learning
+*** Cognitive Services
+
+** Workflow Orchestration
+*** Azure Logic Apps
+*** Azure Data Factory
+
+** Monitoring and Logging
+*** Azure Monitor
+*** Azure Log Analytics
+
+@endmindmap

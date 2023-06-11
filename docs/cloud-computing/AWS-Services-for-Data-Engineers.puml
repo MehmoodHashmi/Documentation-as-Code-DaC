@@ -1,0 +1,59 @@
+@startmindmap
+
+
+title =__ AWS Services for Data Engineers__\n<img:images/img_1.png>
+
+* [[https://www.youtube.com/watch?v=tykcCf-Zz1M&ab_channel=DataEngUncomplicated]]
+
+* AWS Services for Data Engineers
+
+** Storage
+***[#pink] **S3**
+**** Data Lake
+**** Data Warehousing
+**** Data Archiving
+
+** Big Data Processing
+***[#pink] **EMR (Elastic MapReduce)**
+**** Hadoop
+**** Spark
+**** Presto
+
+** Analytics
+*** Athena
+***[#pink] Redshift
+*** Glue
+
+** Database
+*** **RDS (Relational Database Service)**
+**** MySQL
+**** PostgreSQL
+**** Oracle
+*** DynamoDB
+*** Aurora
+
+** Streaming
+*** Kinesis
+*** Lambda
+*** Kafka
+
+** Data Pipelines
+*** Glue
+*** Data Pipeline
+*** Step Functions
+
+** Machine Learning
+*** SageMaker
+*** Rekognition
+*** Comprehend
+*** Textract
+
+** Workflow Orchestration
+*** Step Functions
+*** SWF (Simple Workflow Service)
+
+** Monitoring and Logging
+*** CloudWatch
+*** CloudTrail
+
+@endmindmap
