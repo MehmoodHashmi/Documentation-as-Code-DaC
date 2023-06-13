@@ -1,5 +1,11 @@
 @startmindmap
-title = Reactive Programming
+title = __Reactive Programming__
+
+*:In practice, **data scientists** often utilize a combination of functional, structured, and OOP approaches, depending on the task at hand.They might use:
+**1. functional programming** for **data transformations,**
+**2. structured programming** for **algorithmic implementations,** and
+**3. OOP** for building **reusable data models** or developing complex systems.;
+
 
 * Reactive Programming
 ** Overview

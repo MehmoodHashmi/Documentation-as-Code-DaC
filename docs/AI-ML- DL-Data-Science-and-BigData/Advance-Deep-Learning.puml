@@ -1,6 +1,6 @@
 @startmindmap
 
-title This mindmap includes techniques, applications, and tools related to advance deep learning. Techniques such as Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), Generative Adversarial Networks (GAN),\n and Autoencoders are included, with subtopics covering architecture, regularization, optimization techniques, and hyperparameter tuning. Applications of deep learning are also included, such as \nnatural language processing, computer vision, speech recognition, and more. Finally, a variety of tools and libraries for deep learning are listed, including TensorFlow, PyTorch, Keras, and more.
+title =__Advance Deep Learning__ \nThis mindmap includes techniques, applications, and tools related to advance deep learning. Techniques such as Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), Generative Adversarial Networks (GAN),\n and Autoencoders are included, with subtopics covering architecture, regularization, optimization techniques, and hyperparameter tuning. Applications of deep learning are also included, such as \nnatural language processing, computer vision, speech recognition, and more. Finally, a variety of tools and libraries for deep learning are listed, including TensorFlow, PyTorch, Keras, and more.
 
 * Advance Deep Learning
 ** Techniques

@@ -1,0 +1,39 @@
+@startmindmap
+title =__CI/CD (Continuous Integration/Continuous Delivery)__\n<img:CI_CD.png>
+
+* **Continuous Integration**
+** Frequent code integration to a shared repository
+** Automated build and unit testing
+** Early detection of integration issues
+** Collaboration and communication among team members
+** Version control system integration
+
+* **Continuous Delivery**
+** Automated deployment to staging environments
+** Comprehensive automated testing
+** Release-ready software at any time
+** Manual approval for production deployment
+** Configuration management and environment parity
+
+* **Continuous Deployment**
+** Automated deployment to production environment
+** Full automation of the release process
+** Continuous monitoring and feedback loop
+** Rapid and frequent releases
+** Quick response to customer feedback
+
+* Benefits of CI/CD
+** Faster development and release cycles
+** Early bug detection and reduced integration issues
+** Improved collaboration and communication
+** Increased software quality and stability
+** Rapid feedback and faster time-to-market
+
+* CI/CD Tools
+** Version Control Systems (e.g., Git, SVN)
+** Build Automation Tools (e.g., Jenkins, TeamCity)
+** Testing Frameworks (e.g., JUnit, Selenium)
+** Deployment Automation Tools (e.g., Ansible, Docker)
+** Continuous Integration Platforms (e.g., GitLab CI/CD, CircleCI)
+
+@endmindmap

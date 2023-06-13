@@ -1,0 +1,67 @@
+@startmindmap
+
+title =__ Python Libraries for Data Visualization __
+
+* **Matplotlib**
+**[#pink] + Core library for creating static, animated, and interactive visualizations
+** + Provides a MATLAB-like interface for creating plots and charts
+** + Supports a wide range of plot types (e.g., line plots, bar plots, scatter plots)
+** + Offers customization options for colors, markers, labels, and annotations
+**[#pink] + Enables the creation of 2D and 3D visualizations
+
+* **Seaborn**
+**[#pink] + **Builds on top of Matplotlib** and provides a higher-level interface
+** + Focuses on statistical data visualization and supports complex plots
+** + Offers visually appealing default styles and color palettes
+** + Simplifies the creation of statistical plots (e.g., box plots, violin plots, heatmaps)
+** + Provides support for visualizing categorical and relational data
+
+* **Plotly**
+**[#pink] + Offers **interactive and web-based visualizations**
+**[#pink] + Provides a JavaScript library for creating interactive plots in Python
+** + Supports a wide range of plot types, including **2D and 3D plots**
+**[#pink] + Enables the creation of **interactive dashboards and applications**
+** + Offers online hosting for sharing and collaboration
+
+* **Bokeh**
+**[#pink] + Focuses on interactive and browser-based visualizations
+** + Provides a high-level interface for creating interactive plots
+**[#pink] + Supports interactive tools like zooming, panning, and hovering
+**[#pink] **+ Offers integration with web technologies (e.g., HTML, JavaScript)**
+**[#pink] **+ Allows the creation of interactive dashboards and applications**
+
+* **Plotly Express**
+** **+ Built on top of Plotly** and provides a simplified interface
+**[#pink] + Enables the creation of interactive visualizations with fewer lines of code
+** + Offers a wide range of plot types and customization options
+** + Supports animations, facet grids, and subplots
+** + Provides built-in support for geospatial visualizations
+
+* **Altair**
+** + Declarative statistical visualization library
+** + Enables the creation of complex visualizations using a concise grammar of graphics
+** + Supports interactive and static visualizations
+** + Offers easy data transformation and manipulation
+** + Allows for easy customization of visual properties
+
+* **Wordcloud**
+** + Specialized library for creating word clouds
+** + Visualizes the frequency of words in a given text
+** + Provides customization options for colors, fonts, and layout
+** + Supports the creation of word clouds in different shapes
+
+* **Networkx**
+**[#pink] **+ Library for the analysis and visualization of networks**
+**[#pink] **+ Enables the creation and manipulation of graph structures**
+** + Provides visualization tools for network graphs
+**[#pink] + Supports various layout algorithms for arranging nodes and edges
+** + Offers customization options for node and edge properties
+
+* **GeoPandas**
+**[#pink] + Extends the capabilities of **Pandas** to include geospatial data
+** + Provides tools for working with geospatial datasets and performing spatial operations
+** + Supports the creation of maps and choropleth visualizations
+**[#pink] + Integrates with **Matplotlib** for visualization customization
+** + Offers interoperability with other geospatial libraries (e.g., Shapely, Fiona)
+
+@endmindmap

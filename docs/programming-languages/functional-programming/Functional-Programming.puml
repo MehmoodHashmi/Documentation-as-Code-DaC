@@ -1,0 +1,45 @@
+@startmindmap
+title = __Functional Programming__
+
+*:In practice, **data scientists** often utilize a combination of functional, structured, and OOP approaches, depending on the task at hand.They might use:
+**1. functional programming** for **data transformations,**
+**2. structured programming** for **algorithmic implementations,** and
+**3. OOP** for building **reusable data models** or developing complex systems.;
+
+* What is Functional Programming?
+**:Functional programming is a programming paradigm that treats computation as
+the evaluation of mathematical functions and avoids changing state and mutable data.;
+
+* Key Concepts
+** **Immutability:** Data once defined cannot be changed.
+** **Pure Functions:** Functions that always produce the same output for the same input, without any side effects.
+***:**Referential Transparency:** The ability to replace a function
+call with its result without affecting the program's behavior.;
+**[#pink] **Higher-Order Functions:** Functions that can accept other functions as arguments or return functions as results.
+*** **Function Composition:** Combining functions to create new functions.
+**:**Currying:** The technique of transforming a function with multiple
+arguments into a sequence of functions, each taking a single argument.;
+** **Recursion:** The process of solving a problem by breaking it down into smaller, self-similar subproblems.
+
+* Advantages of Functional Programming
+** **Modularity:** Functions can be developed independently and easily tested.
+** **Readability:** Code is often concise and easier to understand.
+** **Maintainability:** Immutable data reduces bugs and makes debugging easier.
+** **Concurrency:** Functional programming lends itself well to concurrent and parallel programming.
+** **Reusability:** Higher-order functions and pure functions can be easily reused.
+
+* Popular Functional Programming Languages
+** Haskell
+** Lisp
+** Scala
+** Clojure
+** F#
+
+* Functional Programming in Practice
+**[#pink] **Map, Filter, and Reduce:** Common higher-order functions **used for data transformation.**
+** **Pattern Matching:** A technique for extracting elements from complex data structures.
+** **Lazy Evaluation:** Delaying the evaluation of an expression until its value is actually needed.
+** **Algebraic Data Types:** Composite data types made up of several simpler types.
+** **Type Inference:** Automatically deducing the type of an expression based on its context.
+
+@endmindmap

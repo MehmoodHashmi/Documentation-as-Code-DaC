@@ -1,0 +1,50 @@
+@startmindmap
+title =__Functional Programming Constructs__
+
+*:In practice, **data scientists** often utilize a combination of functional, structured, and OOP approaches, depending on the task at hand.They might use:
+**1. functional programming** for **data transformations,**
+**2. structured programming** for **algorithmic implementations,** and
+**3. OOP** for building **reusable data models** or developing complex systems.;
+
+* Functional Programming Constructs
+
+** Pure Functions: Functions that always produce the same output for the same input, without any side effects.
+*** Referential Transparency: The ability to replace a function call with its result without affecting the program's behavior.
+
+** Immutability: Data once defined cannot be changed.
+*** Immutable Data Structures: Data structures that do not allow modifications after creation.
+
+** Higher-Order Functions: Functions that can accept other functions as arguments or return functions as results.
+*** Function Composition: Combining functions to create new functions.
+*** Currying: The technique of transforming a function with multiple arguments into a sequence of functions, each taking a single argument.
+
+** Recursion: The process of solving a problem by breaking it down into smaller, self-similar subproblems.
+*** Tail Recursion: A form of recursion where the recursive call is the last operation in the function.
+
+** Pattern Matching: A technique for extracting elements from complex data structures based on their structure or content.
+*** Destructuring: Extracting values from data structures and binding them to variables.
+
+** Algebraic Data Types (ADTs): Composite data types made up of several simpler types.
+*** Sum Types (or Tagged Unions): Types that can have one of several alternative values.
+*** Product Types: Types that combine multiple values into a single value.
+
+** Laziness: Delaying the evaluation of an expression until its value is actually needed.
+*** Lazy Evaluation: Evaluating expressions only when their results are required.
+
+** Type Inference: Automatically deducing the type of an expression based on its context.
+*** Hindley-Milner Type Inference: A popular type inference algorithm used in many functional programming languages.
+
+** Monads: A design pattern that allows sequencing of computations and handling side effects in a controlled manner.
+*** Maybe Monad: Represents a computation that may or may not produce a result.
+*** Either Monad: Represents a computation that may produce one of two possible results (e.g., success or failure).
+*** State Monad: Enables managing and threading state through a series of computations.
+*** IO Monad: Facilitates handling input/output operations in a pure functional way.
+
+** Type Classes: A way to achieve ad hoc polymorphism by defining a set of functions that can be implemented for different types.
+*** Functor: Represents types that can be mapped over with a function.
+*** Applicative: Allows applying a function within a context to values within another context.
+*** Monad: Represents types that support sequencing computations and handling side effects.
+*** Foldable: Represents types that can be folded or reduced to a single value.
+*** Traversable: Represents types that can be traversed, allowing operations on elements within a structure.
+
+@endmindmap

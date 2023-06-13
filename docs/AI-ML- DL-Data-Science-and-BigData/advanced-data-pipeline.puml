@@ -32,12 +32,12 @@ title =__ Advanced Data Pipeline__
 **** Google Cloud Dataflow
 *** **Lambda Architecture** is hybrid (combination of stream and batch processing) \n<img:images/img_13.png>
 ** Data Storage
-*** Data Warehouses
+***[#pink] Data Warehouses
 **** Snowflake
 **** Amazon Redshift
 **** Google BigQuery
 **** Azure Synapse Analytics
-*** Data Lakes
+***[#pink] Data Lakes
 **** Apache Hadoop HDFS
 **** Amazon S3
 **** Google Cloud Storage

@@ -1,0 +1,40 @@
+@startmindmap
+title =__Functional Reactive Programming Constructs__
+
+*:In practice, **data scientists** often utilize a combination of functional, structured, and OOP approaches, depending on the task at hand.They might use:
+**1. functional programming** for **data transformations,**
+**2. structured programming** for **algorithmic implementations,** and
+**3. OOP** for building **reusable data models** or developing complex systems.;
+
+* FRP Constructs
+
+** **Signals:** Time-varying values that represent data streams.
+*** **Continuous Signals:** Signals that have a value at every point in time.
+*** **Discrete Signals:** Signals **that have** a value only at specific points in time.
+
+** **Behaviors:** Signals that represent a value that changes over time.
+*** **Time-Varying Functions:** Functions that operate on signals and produce signals as output.
+
+** **Events:** Discrete occurrences in time that represent a change in the system.
+*** **Event Streams:** Streams of discrete events over time.
+
+** **Event Handling:** Techniques for handling events and managing event streams.
+*** **Mapping:** Transforming events or values within event streams using functions.
+*** **Filtering:** Selecting specific events or values from event streams based on certain conditions.
+*** **Combining:** Merging or combining multiple event streams into a single event stream.
+*** **Accumulating:** Maintaining state over time using events.
+
+** **Behavior Transformation:** Techniques for transforming behaviors and handling behavior changes.
+*** **Mapping:** Applying functions to behaviors to transform their values.
+*** **Filtering:** Selecting specific values from behaviors based on certain conditions.
+*** **Switching:** Dynamically switching between different behaviors based on events or conditions.
+
+** **Time Manipulation:** Techniques for manipulating time and timing-related operations.
+*** **Time Window Operations:** Performing operations on events or values within a specific time window.
+*** **Throttling:** Limiting the rate of event emission or behavior updates.
+*** **Debouncing:** Filtering out rapid or noisy events to reduce the number of updates.
+
+**  **Dynamic Signal Graphs:** Complex compositions of signals and behaviors forming a directed acyclic graph.
+*** **Dynamic Signal Switching:** Dynamically switching signal graphs at runtime.
+
+@endmindmap

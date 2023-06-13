@@ -4,18 +4,18 @@ title =__Data Mart__\n<img:images/img_14.png>
 
 * Data Mart
 ** Overview
-*** A Data Mart is a specialized subset of a data warehouse that focuses on a specific subject area or department within an organization.
-*** It provides a consolidated view of data specifically tailored to the needs of a particular business unit or user group.
+*** **A Data Mart is a specialized subset of a data warehouse that focuses on a specific subject area or department within an organization.**
+***[#pink] It provides a consolidated view of data specifically tailored to the needs of a particular business unit or user group.
 ** Purpose
 *** Supports decision-making and analysis within a specific functional area or department.
 *** Provides a simplified and optimized structure for querying and reporting on relevant data.
 ** Characteristics
-*** Subject-Oriented
-**** Organized around a specific subject area, such as sales, finance, or marketing.
-*** Optimized Schema
-**** Utilizes a dimensional model, typically based on star or snowflake schema, for efficient data retrieval.
-*** Subset of Data Warehouse
-**** Contains a subset of the data from the overall data warehouse, focusing on the most relevant data for a particular business unit.
+*** **Subject-Oriented**
+****[#pink] Organized around a **specific subject area,** such as **sales, finance, or marketing.**
+***[#pink] **Optimized Schema**
+**** Utilizes a **dimensional model,** typically based on **star or snowflake schema,** for efficient data retrieval.
+***[#pink] **Subset of Data Warehouse**
+****[#yellow] Contains a subset of the data from the overall data warehouse, focusing on the most relevant data for a particular business unit.
 *** Aggregated and Summarized Data
 **** Often includes pre-calculated aggregations and summary measures for faster query performance.
 ** Benefits
@@ -34,9 +34,9 @@ title =__Data Mart__\n<img:images/img_14.png>
 **** Built separately from the central data warehouse and has its own data structures and ETL processes.
 *** Virtual Data Mart
 **** Provides a logical view of the data without physically moving or duplicating it.
-** Data Mart Design Considerations
-*** Business Requirements
-**** Understand the specific business requirements and reporting needs of the targeted user group.
+** **Data Mart Design Considerations**
+*** **Business Requirements**
+****[#pink] Understand the specific business requirements and reporting needs of the targeted user group.
 *** Data Granularity
 **** Determine the appropriate level of detail and granularity of the data to be included in the Data Mart.
 *** Data Integration

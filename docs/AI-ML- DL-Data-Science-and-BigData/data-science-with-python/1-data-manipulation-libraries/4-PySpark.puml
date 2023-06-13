@@ -1,0 +1,65 @@
+@startmindmap
+
+title =__ PySpark __
+* **[[https://www.youtube.com/watch?v=YLg4vuIADnQ&ab_channel=DataMites]]**
+
+* **Definition**
+** + PySpark
+*** - Python library for **Apache Spark**
+*** - Enables distributed processing of large datasets
+*** - Provides high-level APIs for data processing and analysis
+
+* **Key Features**
+** + Distributed Computing
+*** - Ability to process data in parallel across a cluster
+*** - Utilizes Spark's distributed computing engine
+** + Resilient Distributed Datasets (RDDs)
+*** - Immutable distributed collections of objects
+*** - Fundamental data structure in PySpark
+** + DataFrame API
+*** - Provides tabular data structure with a schema
+*** - Allows structured data processing and SQL-like queries
+** + Machine Learning (MLlib)
+*** - Library for machine learning and data mining
+*** - Includes algorithms, utilities, and ML pipelines
+** + Streaming (Spark Streaming)
+*** - Enables real-time processing and analysis of streaming data
+*** - Supports various data sources (e.g., Kafka, Flume)
+** + Graph Processing (GraphX)
+*** - API for graph computation and analysis
+*** - Handles large-scale graph data efficiently
+
+* **Data Processing**
+** + Batch Processing
+*** - Efficient processing of large datasets
+*** - Transformations, aggregations, filtering, etc.
+** + Stream Processing
+*** - Real-time data processing from streaming sources
+*** - Windowed operations, aggregations, etc.
+** + Interactive Analysis
+*** - Exploratory data analysis and interactive querying
+*** - Supports SQL-like queries and data manipulation
+
+* **Integration**
+** + Hadoop Ecosystem
+*** - Integrates with Hadoop Distributed File System (HDFS)
+*** - Utilizes Hadoop YARN for resource management
+** + Data Sources
+*** - Supports various data sources (e.g., CSV, JSON, Parquet)
+*** - Connects to databases (e.g., MySQL, PostgreSQL)
+** + Integration with Python Ecosystem
+*** - Works with popular Python libraries (e.g., Pandas, NumPy)
+*** - Enables seamless integration into existing Python workflows
+
+* **Use Cases**
+** + Big Data Processing
+*** - Large-scale data processing and analytics
+*** - Data cleaning, transformation, and aggregation
+** + Machine Learning
+*** - Building and deploying ML models at scale
+*** - Feature engineering, model training, and evaluation
+** + Real-time Analytics
+*** - Processing and analyzing streaming data
+*** - Real-time decision-making and monitoring
+
+@endmindmap

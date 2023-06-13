@@ -1,0 +1,46 @@
+@startmindmap
+title =__Functional Reactive Programming__
+
+*:In practice, **data scientists** often utilize a combination of functional, structured, and OOP approaches, depending on the task at hand.They might use:
+**1. functional programming** for **data transformations,**
+**2. structured programming** for **algorithmic implementations,** and
+**3. OOP** for building **reusable data models** or developing complex systems.;
+
+* What is Functional Reactive Programming?
+**[#pink]:**Functional Reactive Programming (FRP)** is a programming paradigm that combines functional programming and reactive programming.
+It focuses on the flow of data and how it changes over time, treating it as a stream of events.;
+
+* Key Concepts
+** **Signals:** Time-varying values that represent data streams.
+*** **Continuous Signals:** Signals that have a value at every point in time.
+*** **Discrete Signals:** Signals that have a value only at specific points in time.
+** **Events:** Discrete occurrences in time that represent a change in the system.
+** **Behavior:** A signal that represents a value that changes over time.
+** **Event Streams:** Streams of discrete events over time.
+** **Time-Varying Functions:** Functions that operate on signals and produce signals as output.
+*** **Mapping:** Transforming signals using functions.
+*** **Filtering:** Selecting specific events or values from a signal.
+*** **Combining:** Merging or combining multiple signals into a single signal.
+*** **Accumulating:** Maintaining state over time.
+
+* Advantages of Functional Reactive Programming
+** **Responsiveness:** FRP enables quick and reactive systems by modeling changes as streams of events.
+** **Modularity:** Components can be developed independently and easily tested.
+** **Readability:** FRP code can be expressive and self-explanatory, emphasizing the flow of data.
+** **Maintainability:** FRP helps manage complex systems with changing states and events.
+** **Time-Based Transformations:** FRP allows manipulating and transforming streams of data over time.
+
+* FRP Libraries and Frameworks
+** **ReactiveX:** A popular library that provides a comprehensive set of tools for FRP in multiple programming languages.
+** **Elm:** A functional programming language with built-in FRP capabilities.
+** **Bacon.**js: A small and straightforward FRP library for JavaScript.
+** **Yampa:** A domain-specific language for FRP in Haskell.
+
+* Functional Reactive Programming in Practice
+** **GUI Development: ** FRP simplifies handling user events and updating the graphical user interface.
+** **Game Development: ** FRP can model game events, animations, and behavior in a natural and concise way.
+** **Sensor Networks: ** FRP is suitable for processing and reacting to sensor data in real-time.
+** **Internet of Things (IoT):** FRP helps handle events and data streams in IoT systems.
+** **Reactive Web Applications:** FRP facilitates managing asynchronous events and data flows in web applications.
+
+@endmindmap

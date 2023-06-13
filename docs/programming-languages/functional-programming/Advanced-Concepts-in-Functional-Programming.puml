@@ -1,0 +1,57 @@
+@startmindmap
+title =__Advanced Functional Programming__
+*:In practice, **data scientists** often utilize a combination of functional, structured, and OOP approaches, depending on the task at hand.They might use:
+**1. functional programming** for **data transformations,**
+**2. structured programming** for **algorithmic implementations,** and
+**3. OOP** for building **reusable data models** or developing complex systems.;
+
+* Advanced Concepts in \nFunctional Programming
+
+**:**Monads:** A design pattern in functional programming that allows
+sequencing of computations and handling side effects in a controlled manner.;
+*** **Maybe Monad:** Represents a computation that may or may not produce a result.
+***:**Either Monad:** Represents a computation that may produce one of two possible
+results (e.g., success or failure).;
+*** **State Monad:** Enables managing and threading state through a series of computations.
+*** **IO Monad:** Facilitates handling input/output operations in a pure functional way.
+
+**:**Type Classes:** A way to achieve ad hoc polymorphism by defining
+a set of functions that can be implemented for different types.;
+*** **Functor:** Represents types that can be mapped over with a function.
+*** **Applicative:** Allows applying a function within a context to values within another context.
+*** **Monad:** Represents types that support sequencing computations and handling side effects.
+*** **Foldable:** Represents types that can be folded or reduced to a single value.
+*** **Traversable:** Represents types that can be traversed, allowing operations on elements within a structure.
+
+**:**Lazy Evaluation:** The evaluation strategy where expressions
+are not evaluated until their results are needed.;
+*** **Laziness and Memoization:** Techniques to optimize lazy evaluation and avoid redundant computations.
+*** **Infinite Data Structures:** Lazy evaluation enables the representation and manipulation of infinite data structures.
+
+**:**Type Systems and Type Inference:** Advanced **type systems** in functional
+programming languages help ensure **correctness and facilitate code reuse.**;
+*** **Higher-Kinded Types:** Types that take other types as parameters, allowing generic programming over type constructors.
+***:**GADTs (Generalized Algebraic Data Types):** Advanced data types that
+allow refining the type information carried by constructors.;
+
+**:**Concurrency and Parallelism:** Functional programming facilitates writing concurrent
+ and parallel code due to its emphasis on immutability and pure functions.;
+***:**Functional Reactive Programming:** Combining functional programming with reactive programming to handle
+streams of events and asynchronous data.;
+
+* Advanced Functional Programming Languages
+
+** **Haskell:** A purely functional programming language with a rich type system and advanced functional programming features.
+** **Scala:** A hybrid functional and object-oriented programming language that runs on the Java Virtual Machine (JVM).
+** **F#:** A functional-first programming language targeting the .NET platform.
+** **OCaml:** A strongly typed functional programming language with support for imperative programming.
+
+* Advanced Functional Programming Techniques
+
+** **Partial Application and Currying:** Applying a function to fewer arguments than it expects, resulting in a new function.
+** **Higher-Order Functions and Function Composition:** Functions that operate on other functions or return functions as results.
+** **Tail Call Optimization: **A technique that allows recursion without consuming additional stack space.
+** **Advanced Pattern Matching: **Pattern matching on more complex data structures, such as nested lists or trees.
+** **Continuation Passing Style: **Transforming functions to accept additional continuations, enabling advanced control flow.
+
+@endmindmap
