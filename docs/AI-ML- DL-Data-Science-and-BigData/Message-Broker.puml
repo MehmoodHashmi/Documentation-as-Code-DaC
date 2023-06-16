@@ -16,13 +16,13 @@ title =__Message Broker__
 *** Scalability and High Availability
 *** Security and Access Control
 ** Popular Message Brokers
-*** Apache Kafka
-*** RabbitMQ
-*** ActiveMQ
+***[#pink] Apache Kafka
+***[#pink] RabbitMQ
+***[#pink] ActiveMQ
 *** IBM MQ
 *** Apache Pulsar
 *** NATS
-*** Redis Pub/Sub
+***[#pink] Redis Pub/Sub
 ** Messaging Patterns
 *** Publish/Subscribe (Pub/Sub)
 *** Request/Reply

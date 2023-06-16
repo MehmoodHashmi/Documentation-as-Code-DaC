@@ -1,0 +1,101 @@
+
+@startuml __Amazon S3 objects using IAM Temporary Credentials
+!pragma teoz true
+'!theme plain
+
+title = __Data Pipeline in AWS__
+
+' compare with https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html
+
+'change the v15.0 to the latest version to use the latest icons
+!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v15.0/dist
+
+' The given below include is a must !include AWSPuml/AWSCommon.puml and required in each diagram
+!include AWSPuml/AWSCommon.puml
+
+' These !include are easy to add as they belong to the following categories:
+'1. Compute
+'2. Storage
+'3. Networking
+'4. Databases
+'5. Security, General, Machine learning, Artificial intelligence, Analytics, SecurityIdentityCompliance, ApplicationIntegration etc.
+
+
+' add or remove these AWS icons based on the use-case or scenario or need or requirement
+!include AWSPuml/General/User.puml
+!include AWSPuml/Storage/SimpleStorageServiceBucket.puml
+!include AWSPuml/Analytics/Glue.puml
+!include AWSPuml/Analytics/Redshift.puml
+!include AWSPuml/Analytics/QuickSight.puml
+!include AWSPuml/Compute/Lambda.puml
+
+hide footbox
+skinparam style strictuml
+
+skinparam participant {
+    BackgroundColor AWS_BG_COLOR
+    BorderColor AWS_BORDER_COLOR
+    RoundCorner 0
+}
+skinparam sequence {
+    ArrowThickness 2
+    LifeLineBorderColor AWS_COLOR
+    MessageAlignment left
+}
+skinparam note {
+  TextAlignment left
+  BorderColor AWS_COLOR
+  BackgroundColor %lighten(AWS_BORDER_COLOR, 75)
+}
+skinparam WrapWidth 300
+skinparam MaxMessageSize 600
+
+' The original author of the diagram has developed the given below function to customize the participant/actor declaration
+!procedure $AWSIcon($service, $line1, $line2="")
+participant "$AWSImg($service)\n<b>$line1</b>\n$line2"
+!endprocedure
+
+skinparam note<<ReturnIcon>> {
+  BorderColor #Transparent
+  BackgroundColor #Transparent
+}
+
+!procedure $AWSReturnIcon($service)
+note<<ReturnIcon>> left
+   %call_user_func("$" + $service + "IMG", "0.5")
+end note
+!endprocedure
+
+
+$AWSIcon(User, " ", "User") as user <<Tenant 1>>
+$AWSIcon(SimpleStorageServiceBucket, "Bucket", "Amazon S3") as s3 <<Multi-Tenant>>
+$AWSIcon(Lambda, "Compute", "Lambda") as lambda
+$AWSIcon(Glue, "Analytics", "Glue") as glue
+$AWSIcon(Redshift, "Warehouse", "Redshift") as Redshift
+$AWSIcon(QuickSight, "Visualization", "QuickSight") as QuickSight <<soni>>
+
+ user -> s3: Upload Data
+
+activate s3
+s3 -> lambda: Trigger Event
+deactivate s3
+
+activate lambda
+lambda -> glue: Extract, Transform, Load
+
+activate glue
+glue -> Redshift: Load Data
+
+activate Redshift
+
+user --> Redshift: Query Data
+
+user -> QuickSight: Visualize Data
+
+activate QuickSight
+
+
+
+
+@enduml
+

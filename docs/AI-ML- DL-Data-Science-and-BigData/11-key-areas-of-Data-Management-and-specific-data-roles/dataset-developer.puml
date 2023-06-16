@@ -3,7 +3,7 @@ title =__ Dataset Developer__\n<img:img.png>
 
 * Dataset Developer
 ** Data Analysis
-*** Exploratory Data Analysis (EDA)
+***[#pink] **Exploratory Data Analysis (EDA)** e.g. using python **pandas library**
 *** Data Visualization
 *** Statistical Analysis
 ** Data Collection

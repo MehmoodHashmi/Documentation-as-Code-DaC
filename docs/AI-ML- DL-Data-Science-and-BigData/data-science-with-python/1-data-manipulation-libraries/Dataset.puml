@@ -58,7 +58,7 @@ title =__ Dataset __
 *** - Dividing the dataset into training and testing sets
 *** - Cross-validation
 
-* **Exploratory Data Analysis (EDA)**
+*[#pink] **Exploratory Data Analysis (EDA)** e.g. using python **pandas library**
 ** + Descriptive Statistics
 *** - Summary statistics (mean, median, etc.)
 *** - Data distribution, measures of variability

@@ -1,0 +1,47 @@
+@startuml
+
+title =__Complex Data Pipeline in GCP__
+hide footbox
+skinparam sequence {
+    ArrowThickness 2
+    LifeLineBorderColor #black
+    MessageAlignment center
+}
+
+autonumber
+
+actor User <<Soni>> #gold
+participant "CloudPubSub" <<**__Data Analytics__**>> #lime
+participant "CloudDataflow" <<**Data Analytics**>> #crimson
+participant "BigQuery" <<**Data Analytics**>> #yellow
+
+User -> "CloudPubSub": Publish Data
+
+activate "CloudPubSub"
+"CloudPubSub" -> CloudDataflow: Data Ingestion
+deactivate "CloudPubSub"
+
+activate CloudDataflow
+CloudDataflow -> BigQuery: Store Data
+deactivate CloudDataflow
+
+activate BigQuery
+User --> BigQuery: Query Data
+deactivate BigQuery
+
+User -> Dataproc: Data Processing
+activate Dataproc
+
+
+activate BigQuery
+Dataproc -> BigQuery: Processed Data
+deactivate BigQuery
+deactivate Dataproc
+
+CloudDataflow -> BigQuery ++ : Processed Data
+deactivate BigQuery
+
+User -> DataStudio ++: Visualize Data
+deactivate DataStudio
+
+@enduml

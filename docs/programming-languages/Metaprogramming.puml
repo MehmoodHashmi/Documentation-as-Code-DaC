@@ -20,7 +20,7 @@ title =__Metaprogramming__
 *** A form of metaprogramming that automatically generates code from a specification or template.
 ** Macros
 *** A form of metaprogramming that allows developers to define new syntax or modify existing syntax.
-* Examples
+*[#pink] **Examples**
 ** C++ Templates
 ** Java Reflection
 ** Python Decorators

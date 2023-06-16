@@ -10,7 +10,7 @@ title =__ DataFrame __
 * **Features**
 ** + Indexing
 *** - Accessing and manipulating rows and columns
-*** - Label-based and position-based indexing
+*** - **Label-based** and **position-based** __indexing__
 ** + Column Operations
 *** - Adding, modifying, and deleting columns
 *** - Element-wise operations on columns

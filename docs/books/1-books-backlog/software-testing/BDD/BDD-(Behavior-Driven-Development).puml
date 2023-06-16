@@ -11,9 +11,9 @@ title = BDD (Behavior-Driven Development)
 ** Key Practices
 *** Continuous communication and collaboration
 *** Example mapping to define and prioritize scenarios
-*** Use of given-when-then format to write executable specifications
-*** Use of domain-specific language (DSL) to express behavior
-*** Automated acceptance testing with tools like Cucumber or Behave
+***[#pink] Use of **given-when-then** format to write **executable specifications**
+***[#pink] Use of domain-specific language (DSL) to express behavior
+***[#pink] Automated acceptance testing with tools like Cucumber or Behave
 *** Continuous integration and delivery
 ** Benefits
 *** Improved communication and collaboration

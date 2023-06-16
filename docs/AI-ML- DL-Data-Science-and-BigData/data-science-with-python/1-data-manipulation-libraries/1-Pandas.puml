@@ -7,7 +7,7 @@ title =__ Pandas __\n This library is the basis for doing advance data analysis 
 
 * **Data Structures**
 **[#pink] + **DataFrame**
-*** - Two-dimensional **labeled** data structure\n <img:images/img.png>
+*** - Two-dimensional **labeled data structure**\n <img:images/img.png>
 **** **Both libraries "Dask & pyspark"**\n**are built on top of "pandas"**
 *** **- Columns can have different types (e.g., numeric, string, datetime)**
 *** - Supports indexing and slicing operations

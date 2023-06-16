@@ -1,17 +1,24 @@
 
-@startuml Amazon S3 objects using IAM Temporary Credentials
+@startuml __Amazon S3 objects using IAM Temporary Credentials
 !pragma teoz true
 '!theme plain
 
 
-title Amazon S3 objects using IAM Temporary Credentials
+title = __Amazon S3 objects using IAM Temporary Credentials__
 ' compare with https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html
 
 'change the v15.0 to the latest version to use the latest icons
 !define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v15.0/dist
 
-' this include is must !include AWSPuml/AWSCommon.puml in each diagram
+' The given below include is a must !include AWSPuml/AWSCommon.puml and required in each diagram
 !include AWSPuml/AWSCommon.puml
+
+' These !include are easy to add as they belong to the following categories:
+'1. Compute
+'2. Storage
+'3. Networking
+'4. Databases
+'5. Security, General, Machine learning, Artificial intelligence, Analytics, SecurityIdentityCompliance, ApplicationIntegration etc.
 
 ' add or remove these AWS icons based on the use-case or scenario or need or requirement
 !include AWSPuml/General/User.puml
@@ -47,7 +54,7 @@ skinparam note {
 skinparam WrapWidth 300
 skinparam MaxMessageSize 600
 
-' The organl author of the diagram has developed this given below function to customize the participant/actor declaration
+' The original author of the diagram has developed the given below function to customize the participant/actor declaration
 !procedure $AWSIcon($service, $line1, $line2="")
 participant "$AWSImg($service)\n<b>$line1</b>\n$line2"
 !endprocedure
@@ -63,7 +70,7 @@ note<<ReturnIcon>> left
 end note
 !endprocedure
 
-' this is a template to get an idea about how to use this icon in sequence diagram
+' Give below is a template to get an idea about how to use these icons in the sequence diagram
 $AWSIcon(APIGateway, "Line-1", "Line-2") as soni <<stereotype>> #gold
 
 $AWSIcon(User, " ", "User") as user <<Tenant 1>>
