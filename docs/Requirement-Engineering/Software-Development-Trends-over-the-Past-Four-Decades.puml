@@ -1,0 +1,45 @@
+@startmindmap
+title =__Software Development Trends over the Past Four Decades__
+
+*[#pink] **1980s**
+** Structured Programming
+** Waterfall Model
+** Procedural Languages (C, Pascal)
+** Monolithic Architectures
+** Source Code Control Systems (SCCS)
+
+*[#pink] **1990s**
+** Object-Oriented Programming (OOP)
+** Rapid Application Development (RAD)
+** Client-Server Architecture
+** Graphical User Interfaces (GUI)
+** Relational Databases (RDBMS)
+** Version Control Systems (CVS, Subversion)
+
+*[#pink] **2000s**
+** Agile Development (Scrum, XP)
+** Test-Driven Development (TDD)
+** Service-Oriented Architecture (SOA)
+** Web Applications (HTML, CSS, JavaScript)
+** Object-Relational Mapping (ORM)
+** Continuous Integration (CI)
+
+*[#pink] **2010s**
+** DevOps Practices
+** Cloud Computing
+** Mobile Applications (iOS, Android)
+** Microservices Architecture
+** Big Data and Data Analytics
+** Continuous Delivery (CD)
+** Git and Distributed Version Control Systems (DVCS)
+
+*[#pink] **2020s**
+** Artificial Intelligence (AI) and Machine Learning (ML)
+** Serverless Architecture
+** Containerization (Docker, Kubernetes)
+** Low-Code/No-Code Development
+** Blockchain Technology
+** DevSecOps (Security in DevOps)
+** Quantum Computing
+
+@endmindmap

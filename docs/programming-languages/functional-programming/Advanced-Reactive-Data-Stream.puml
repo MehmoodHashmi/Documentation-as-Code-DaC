@@ -1,0 +1,85 @@
+@startmindmap
+
+skinparam node {
+    BorderColor DarkGray
+    BackgroundColor White
+}
+
+skinparam connector {
+    LineColor DarkGray
+}
+
+title =__ Advanced Reactive Data Stream__
+* Advanced Reactive Data Stream
+
+** Reactive Extensions (Rx)
+
+*** Definition
+**** Library for composing asynchronous and event-based programs using observable sequences
+**** Provides a wide range of operators for manipulating and transforming reactive data streams
+
+*** Key Concepts
+**** Observables
+***** Represents a stream of data or events that can be observed and processed
+***** Emits data items asynchronously to subscribers
+
+**** Observers
+***** Subscribes to observables and reacts to emitted data items or events
+***** Processes the data items asynchronously as they arrive
+
+**** Operators
+***** Functions for transforming, filtering, combining, or manipulating the data stream
+***** Enables complex operations on the data items emitted by observables
+
+**** Schedulers
+***** Control the execution and concurrency of reactive code
+***** Enable specifying the execution context and thread pool for observables and operators
+
+** Reactive Streams
+
+*** Definition
+**** Specification for asynchronous stream processing with non-blocking backpressure
+**** Enables interoperability and composability of reactive systems and libraries
+
+*** Backpressure
+**** Mechanism for controlling the rate of data flow in a reactive data stream
+**** Ensures that subscribers can handle the data they receive without being overwhelmed
+
+** Reactive Systems
+
+*** Definition
+**** Systems that are responsive, elastic, resilient, and message-driven
+**** Built using reactive programming principles and patterns
+
+*** Characteristics
+**** Responsiveness
+***** Provides timely responses and handles a large number of concurrent requests
+
+**** Elasticity
+***** Can scale up or down based on the workload and resource availability
+
+**** Resilience
+***** Handles failures gracefully and recovers from errors
+
+**** Message-Driven
+***** Relies on asynchronous message passing between components
+
+** Advanced Techniques
+
+*** Stream Windowing
+**** Divides the data stream into finite, overlapping, or non-overlapping time intervals
+**** Enables time-based operations and analysis on the data stream
+
+*** Event Time Processing
+**** Assigns timestamps to events based on their occurrence time
+**** Enables accurate analysis and handling of out-of-order events
+
+*** Stream Joining and Aggregation
+**** Combines multiple data streams based on shared attributes or keys
+**** Performs aggregation operations on the combined data
+
+*** Complex Event Processing (CEP)
+**** Identifies complex patterns and correlations in the data stream
+**** Enables real-time analysis and detection of complex events
+
+@endmindmap

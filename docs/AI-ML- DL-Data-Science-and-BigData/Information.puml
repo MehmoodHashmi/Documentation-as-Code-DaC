@@ -1,0 +1,70 @@
+@startmindmap
+skinparam shadowing false
+
+title =__ Information__
+* Information
+** Types of Information
+*** Textual Information
+*** Visual Information
+*** Audio Information
+*** Numeric Information
+
+** Sources of Information
+*** Printed Materials
+*** Online Sources
+*** Databases
+*** Interviews
+*** Surveys
+*** Experts and Professionals
+
+** Information Organization and Storage
+*** File Systems
+*** Databases
+**** Relational Databases
+**** NoSQL Databases
+**** Data Warehouses
+*** Knowledge Management Systems
+*** Content Management Systems
+*** Information Retrieval Systems
+
+** Information Processing
+*** Data Entry and Validation
+*** Data Transformation
+*** Data Aggregation
+*** Data Analysis
+*** Data Visualization
+*** Information Interpretation
+
+** Information Security and Privacy
+*** Encryption
+*** Access Control
+*** Authentication
+*** Data Backup and Recovery
+*** Privacy Policies
+*** Compliance with Regulations
+
+** Information Communication
+*** Written Communication
+*** Oral Communication
+*** Visual Communication
+*** Electronic Communication
+*** Presentation Skills
+*** Information Sharing Platforms
+
+** Information Evaluation and Quality
+*** Information Reliability
+*** Information Accuracy
+*** Information Currency
+*** Information Relevance
+*** Information Bias
+*** Peer Review and Validation
+
+** Information Management
+*** Information Needs Assessment
+*** Information Search and Retrieval
+*** Information Organization
+*** Information Sharing and Dissemination
+*** Information Preservation
+*** Information Governance
+
+@endmindmap

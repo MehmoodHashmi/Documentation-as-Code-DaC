@@ -1,0 +1,88 @@
+@startmindmap
+skinparam shadowing false
+
+title =__ Data__
+* Data
+**[#pink] **Types of Data**
+*** **Numerical Data**
+****[#pink] **Continuous Data**
+****[#pink] **Discrete Data**
+*** Categorical Data
+**** Nominal Data
+**** Ordinal Data
+*** Textual Data
+*** Spatial Data
+
+** Data Collection Methods
+*** Surveys
+*** Interviews
+*** Observations
+*** Experiments
+*** Sensor Data
+*** Web Scraping
+
+** Data Storage and Management
+*** Databases
+**** Relational Databases
+**** NoSQL Databases
+**** Data Warehousing
+**** Data Lakes
+*** Data Governance
+*** Data Quality
+*** Data Security
+*** Data Integration
+*** Data Cleaning
+
+** Data Analysis and Visualization
+*** Exploratory Data Analysis
+**** Descriptive Statistics
+**** Data Visualization
+**** Data Profiling
+*** Statistical Analysis
+**** Inferential Statistics
+**** Hypothesis Testing
+**** Regression Analysis
+*** Machine Learning
+**** Supervised Learning
+**** Unsupervised Learning
+**** Deep Learning
+*** Data Mining
+*** Data Visualization Tools
+**** Charts and Graphs
+**** Dashboards
+**** Geospatial Visualization
+
+**[#pink] **Big Data and Data Science**
+*** **Big Data Concepts**
+****[#pink] Volume, Velocity, Variety, Veracity
+****[#pink] Hadoop and MapReduce
+****[#pink] Distributed File Systems
+****[#pink] Stream Processing
+*** **Data Science Lifecycle**
+**** Problem Formulation
+**** Data Acquisition
+**** Data Preprocessing
+**** Model Development
+**** Model Evaluation
+**** Model Deployment
+*** **Predictive Analytics**
+**** Classification
+**** Clustering
+**** Time Series Analysis
+**** Recommendation Systems
+
+** Data Ethics and Privacy
+*** Data Anonymization
+*** Privacy Protection
+*** Ethical Considerations
+*** Data Regulations
+*** Responsible Data Use
+
+** Data-driven Decision Making
+*** Business Intelligence
+*** Data-driven Strategies
+*** Data-driven Innovation
+*** Data-driven Marketing
+*** Data-driven Governance
+
+@endmindmap

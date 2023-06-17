@@ -1,0 +1,98 @@
+@startmindmap
+
+skinparam node {
+    BorderColor DarkGray
+    BackgroundColor White
+}
+
+skinparam connector {
+    LineColor DarkGray
+}
+
+title =__ Web Scraping vs Web Crawling__
+
+*:Web crawling and web scraping are two distinct processes often used together to collect data from websites. While they share similarities, there are important differences between them.
+
+  **Web Crawling:**
+  **- Process: **Systematically visits websites and downloads their content using web crawlers (spiders or bots).
+  **- Purpose: **Find and download web pages, including HTML code, images, and other files.
+  **- Tools: **Web crawlers (spiders, bots).
+  **- Use cases:** Search engines, website indexing, data analysis, and aggregation.
+  **- Legality:** <color #lime>**Generally legal as long as it adheres to website policies and respects robots.txt.**</color>
+
+  **Web Scraping:**
+  **- Process: **Extracts specific data from web pages using web scrapers (harvesters or spiders).
+  **- Purpose: **Extract targeted data from web pages by leveraging the downloaded HTML code.
+  **- Tools: **Web scrapers (harvesters, spiders).
+  **- Use cases**: Data mining, market research, competitive analysis, lead generation.
+  **- Legality: **<color #green>**Legality depends on website permissions and adherence to terms of service.**</color>
+
+  It's important to note that web scraping may be considered illegal if performed without explicit permission from
+  the website owner. Always review and comply with the terms of service and robots.txt of the websites you intend to scrape.
+
+  **Summary:**
+  Web crawling is focused on discovering and downloading web pages, while web scraping is centered around extracting
+  specific data from those web pages. Both processes have their own purposes, tools, use cases, and legal considerations.;
+
+* Web Scraping vs Web Crawling
+
+**[#pink] **Definition**
+***[#pink] Web Scraping
+**** Extracting specific data from websites
+**** Focuses on targeted data extraction
+
+***[#pink] Web Crawling
+**** Browsing and indexing web pages
+**** Focuses on navigating and exploring websites
+
+** Purpose
+
+*** Web Scraping
+**** Collects data for analysis, research, or integration
+**** Gathers data from specific sources or websites
+
+*** Web Crawling
+**** Indexes web pages for search engines
+**** Builds a comprehensive database of web page information
+
+** Depth of Exploration
+
+*** Web Scraping
+**** Navigates to specific pages or sections of websites
+**** Extracts data from targeted pages only
+
+*** Web Crawling
+**** Traverses through multiple pages of websites
+**** Follows links to discover and index new pages
+
+** Scope
+
+*** Web Scraping
+**** Focuses on extracting specific data elements
+**** Retrieves structured or unstructured data
+
+*** Web Crawling
+**** Covers a wide range of web pages on a domain
+**** Gathers information about the page, its links, and metadata
+
+** Frequency of Access
+
+*** Web Scraping
+**** May access websites periodically or on-demand
+**** Can be limited to avoid overwhelming the server
+
+*** Web Crawling
+**** Accesses and indexes web pages continuously
+**** Follows a systematic and automated process
+
+** Tools and Techniques
+
+*** Web Scraping
+**** Utilizes libraries like BeautifulSoup, Scrapy, or Selenium
+**** Parses HTML or uses APIs to extract data
+
+*** Web Crawling
+**** Implements crawling frameworks like Scrapy or Apache Nutch
+**** Follows rules and policies to respect website boundaries
+
+@endmindmap

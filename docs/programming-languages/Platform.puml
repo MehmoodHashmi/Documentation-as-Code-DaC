@@ -1,0 +1,72 @@
+@startmindmap
+
+skinparam node {
+    BorderColor DarkGray
+    BackgroundColor White
+}
+
+skinparam connector {
+    LineColor DarkGray
+}
+
+title =__ Platform__
+
+* **[[https://stackoverflow.com/questions/3057526/framework-vs-toolkit-vs-library]]**
+* **Platform**
+
+** Definition
+*** Computing environment or software infrastructure
+*** Provides a foundation for developing and running applications
+
+** Characteristics
+
+*** Infrastructure
+**** Provides the underlying hardware and software resources for application development and execution
+**** Includes servers, storage, operating systems, and networking components
+
+*** Abstraction
+**** Hides the complexity of the underlying infrastructure and offers higher-level services and APIs
+**** Enables developers to focus on application logic without worrying about low-level details
+
+*** Scalability
+**** Supports the ability to scale applications horizontally or vertically
+**** Provides mechanisms for handling increased workloads and user demand
+
+*** Interoperability
+**** Enables applications and components to work together across different platforms and technologies
+**** Promotes integration and data exchange between systems
+
+*** Services
+**** Offers prebuilt services and functionalities that can be leveraged by applications
+**** Examples: Database services, messaging services, authentication services
+
+** Types of Platforms
+
+*** Operating System Platforms
+**** Provides the foundation for running applications and managing hardware resources
+**** Examples: Windows, Linux, macOS
+
+*** Cloud Computing Platforms
+**** Offers infrastructure and services for building, deploying, and managing applications in the cloud
+**** Examples: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP)
+
+*** Mobile Platforms
+**** Supports application development for mobile devices and provides associated services
+**** Examples: Android, iOS
+
+*** Web Platforms
+**** Facilitates web application development and deployment
+**** Examples: Apache, Nginx
+
+** Popular Platforms
+
+*** AWS (Amazon Web Services)
+**** Cloud computing platform offering a wide range of services for building and managing applications in the cloud
+
+*** Azure
+**** Cloud computing platform by Microsoft, providing services for building, deploying, and managing applications
+
+*** Android
+**** Mobile platform developed by Google, used for building applications for Android devices
+
+@endmindmap

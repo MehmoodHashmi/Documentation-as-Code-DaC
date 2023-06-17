@@ -1,0 +1,67 @@
+@startmindmap
+
+skinparam node {
+    BorderColor DarkGray
+    BackgroundColor White
+}
+
+skinparam connector {
+    LineColor DarkGray
+}
+title =__ Library__\n<img:images/img.png>
+
+* **[[https://stackoverflow.com/questions/3057526/framework-vs-toolkit-vs-library]]**
+
+* **Library**\n<img:images/img_1.png>
+
+** Definition
+*** Collection of precompiled code and reusable components
+*** Provides specific functionality that can be used by applications
+
+** Characteristics
+
+*** Reusability
+**** Offers reusable components that can be used across different projects and domains
+**** Saves development time by leveraging existing code and solutions
+
+*** Specific Functionality
+**** Focuses on solving specific problems or offering specific features
+**** Provides well-defined APIs and methods for utilizing the library's functionality
+
+*** Modularity
+**** Organizes code into modular components for easy integration and use
+**** Enables developers to select and use specific parts of the library based on requirements
+
+*** Documentation and Support
+**** Provides comprehensive documentation, examples, and guides for using the library
+**** Offers community support through forums, documentation, and community-driven resources
+
+** Types of Libraries
+
+*** Utility Libraries
+**** Offers general-purpose functions and utilities
+**** Examples: String manipulation, file I/O, data parsing
+
+*** Domain-Specific Libraries
+**** Provides functionality specific to a particular domain or industry
+**** Examples: Math libraries, image processing libraries, financial calculation libraries
+
+*** Framework Libraries
+**** Supports the development of applications within a specific framework
+**** Examples: GUI libraries, web development libraries, database access libraries
+
+** Popular Libraries
+
+*** Requests
+**** Library for making HTTP requests in Python
+**** Simplifies the process of sending and receiving HTTP requests
+
+*** jQuery
+**** JavaScript library for simplifying HTML document traversal and manipulation
+**** Provides powerful tools for client-side web development
+
+*** Gson
+**** Java library for converting Java Objects into their JSON representations and vice versa
+**** Offers easy integration of JSON data with Java applications
+
+@endmindmap

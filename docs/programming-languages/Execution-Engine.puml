@@ -1,0 +1,59 @@
+@startmindmap
+
+skinparam node {
+    BorderColor DarkGray
+    BackgroundColor White
+}
+
+skinparam connector {
+    LineColor DarkGray
+}
+
+title =__ Execution Engine__
+* Execution Engine
+
+** Definition
+*** Interprets and executes the program's instructions
+*** Converts high-level code into machine-level instructions
+
+**[#pink] **Types**
+*** **Compiler**
+**** Translates the entire source code into machine code before execution
+**** Generates an executable file that can be directly run by the operating system
+****[#pink] **Examples:** C, C++, Java (JVM-based languages)
+
+*** **Interpreter**
+**** Translates and executes the program line by line without prior compilation
+**** Interprets and executes each line of code on the fly
+****[#pink] **Examples:** Python, Ruby, JavaScript
+
+*** **Just-In-Time (JIT) Compiler**
+**** Combines features of both compiler and interpreter
+**** Translates code into machine code on the fly, but caches it for future use
+**** Provides a balance between speed and flexibility
+****[#pink] **Examples:** Java (JIT-compiled JVM bytecode), .NET languages (JIT compilation)
+
+** Characteristics
+*** Performance
+**** Compilers generally offer faster execution due to precompiled machine code
+**** Interpreters provide flexibility and dynamic runtime modifications
+**** JIT compilers combine benefits of both approaches
+
+*** Portability
+**** Interpreters offer greater portability since they can run code directly on different platforms
+**** Compilers require specific machine code generation for each target architecture
+
+*** Debugging
+**** Interpreters often provide better debugging capabilities with real-time inspection
+**** Compilers may have limited debugging features due to optimization and transformation processes
+
+** Usage
+*** Language-specific
+**** Execution engines may be designed for specific programming languages
+**** Different languages may have their own dedicated execution engines
+
+*** Platform-specific
+**** Execution engines may be tailored for specific platforms or operating systems
+****[#pink] **Examples:** Java Virtual Machine (JVM), .NET Common Language Runtime (CLR)
+
+@endmindmap

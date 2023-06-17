@@ -1,0 +1,54 @@
+@startmindmap
+skinparam node {
+    BorderColor DarkSlateGray
+    BackgroundColor LightCyan
+    FontStyle italic
+}
+skinparam connector {
+    Color DarkSlateGray
+    FontStyle Bold
+}
+
+title =__ Data Manipulation Process__
+* Data Manipulation Process
+
+** Define Manipulation Requirements
+*** Identify Source Data
+*** Determine Manipulation Operations
+*** Specify Manipulation Rules
+
+** Plan Data Manipulation Strategy
+*** Select Manipulation Methods
+*** Determine Manipulation Sequence
+*** Define Data Manipulation Scope
+
+** Implement Data Manipulation
+*** Set up Manipulation Environment
+*** Develop Manipulation Scripts/Programs
+*** Test Data Manipulation Process
+
+** Execute Data Manipulation
+*** Run Manipulation Scripts/Programs
+*** Monitor Manipulation Progress
+*** Handle Errors/Exceptions
+
+** Validate Manipulated Data
+*** Perform Data Quality Checks
+*** Compare Manipulated Data with Expectations
+*** Resolve Discrepancies, if any
+
+** Store Manipulated Data
+*** Choose Storage Medium
+*** Design Data Storage Structure
+*** Implement Data Storage Solution
+
+** Document Data Manipulation Process
+*** Create Manipulation Documentation
+*** Capture Manipulation Parameters
+*** Update Process Documentation
+
+** Review and Improve
+*** Collect Feedback
+*** Analyze Manipulation Performance
+*** Identify Areas for Improvement
+@endmindmap

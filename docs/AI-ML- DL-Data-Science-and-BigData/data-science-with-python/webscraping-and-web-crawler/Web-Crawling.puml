@@ -1,0 +1,77 @@
+@startmindmap
+
+skinparam node {
+    BorderColor DarkGray
+    BackgroundColor White
+}
+
+skinparam connector {
+    LineColor DarkGray
+}
+
+title =__ Web Crawling__
+* Web Crawling
+
+** Definition
+*** Browsing and indexing web pages
+*** Systematically explores websites and follows links
+
+** Process
+
+*** Seed URLs
+**** Start with a set of initial URLs to crawl
+**** Represents the entry point for the crawler
+
+*** Fetch Web Pages
+**** Retrieve HTML content of web pages
+**** Send HTTP requests to web servers
+
+*** Parse HTML
+**** Extract links from the HTML content
+**** Identify relevant URLs to visit next
+
+*** Visit URLs
+**** Follow links to navigate to new web pages
+**** Add visited pages to the crawling queue
+
+*** Index and Store
+**** Collect information from visited pages
+**** Store relevant data or build a search engine index
+
+** Use Cases
+
+*** Search Engine Indexing
+**** Collect and index web pages for search results
+**** Provide up-to-date and comprehensive search results
+
+*** Website Monitoring
+**** Monitor changes and updates on websites
+**** Detect broken links, content changes, or security issues
+
+*** Data Collection
+**** Gather information from multiple websites
+**** Aggregate data for research or analysis purposes
+
+** Tools and Techniques
+
+*** Crawling Frameworks
+**** Scrapy, Apache Nutch, Heritrix
+**** Provides functionalities for crawling and indexing
+
+*** Politeness and Throttling
+**** Respectful crawling to avoid overwhelming servers
+**** Implement delays, rate limiting, or priority settings
+
+*** Duplicate URL Handling
+**** Avoid revisiting the same web page multiple times
+**** Implement techniques to identify and filter duplicates
+
+*** Crawl Frontier Management
+**** Efficiently manage the list of URLs to crawl
+**** Prioritize, schedule, or dynamically adjust crawling queues
+
+*** URL Filtering and Constraints
+**** Define criteria to include or exclude specific URLs
+**** Set rules to limit crawling to a certain domain or path
+
+@endmindmap

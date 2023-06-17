@@ -1,0 +1,67 @@
+@startmindmap
+skinparam node {
+    BorderColor DarkSlateGray
+    BackgroundColor LightCyan
+    FontStyle italic
+}
+skinparam connector {
+    Color DarkSlateGray
+    FontStyle Bold
+}
+
+title =__ Advanced Data Cleaning Criteria__
+
+* Advanced Data Cleaning Criteria
+
+** Define Cleaning Requirements
+*** Identify Data Source
+*** Determine Cleaning Criteria
+*** Specify Cleaning Rules
+
+**[#pink] **Explore Advanced Data Cleaning Techniques**
+*** Handling Missing Values
+*** Outlier Detection and Treatment
+*** Data Standardization
+*** Data Deduplication
+*** Data Type Conversion
+*** Data Encoding and Decoding
+*** Data Anomaly Detection
+*** Data Imputation
+*** Data Consistency Checks
+*** Data Validation Rules
+
+** Plan Advanced Data Cleaning Strategy
+*** Select Cleaning Methods
+*** Determine Cleaning Sequence
+*** Define Data Cleaning Scope
+
+** Implement Advanced Data Cleaning
+*** Set up Cleaning Environment
+*** Develop Cleaning Scripts/Programs
+*** Test Data Cleaning Process
+
+** Execute Advanced Data Cleaning
+*** Run Cleaning Scripts/Programs
+*** Monitor Cleaning Progress
+*** Handle Errors/Exceptions
+
+** Validate Cleaned Data
+*** Perform Data Quality Checks
+*** Compare Cleaned Data with Criteria
+*** Resolve Discrepancies, if any
+
+** Store Cleaned Data
+*** Choose Storage Medium
+*** Design Data Storage Structure
+*** Implement Data Storage Solution
+
+** Document Advanced Data Cleaning Process
+*** Create Cleaning Documentation
+*** Capture Cleaning Parameters
+*** Update Process Documentation
+
+** Review and Improve
+*** Collect Feedback
+*** Analyze Cleaning Performance
+*** Identify Areas for Improvement
+@endmindmap

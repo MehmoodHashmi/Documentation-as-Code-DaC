@@ -1,0 +1,75 @@
+@startmindmap
+
+skinparam node {
+    BorderColor DarkGray
+    BackgroundColor White
+}
+
+skinparam connector {
+    LineColor DarkGray
+}
+
+title =__ Framework__ \n<img:images/img.png>
+
+* **[[https://stackoverflow.com/questions/3057526/framework-vs-toolkit-vs-library]]**
+* **Framework ** \n<img:images/img_1.png>
+
+** Definition
+*** Structured set of pre-written code and reusable components
+*** Provides a complete architecture and control flow for developing applications
+
+** Characteristics
+
+*** Architecture
+**** Offers a structured architecture for developing applications
+**** Defines the overall organization, patterns, and principles to follow
+
+*** Convention over Configuration
+**** Follows a set of conventions and defaults for consistent application development
+**** Reduces the need for explicit configuration and simplifies development
+
+*** Extensibility
+**** Allows developers to extend and customize the framework's behavior
+**** Provides hooks, interfaces, and extension points for adding custom code
+
+*** Modularity
+**** Organizes code into modular components for better maintainability and reusability
+**** Supports building applications using loosely coupled and independent modules
+
+*** Abstraction
+**** Provides abstractions to hide implementation details and simplify development
+**** Offers high-level APIs and interfaces for common tasks and operations
+
+** Types of Frameworks
+
+*** Web Development Frameworks
+**** Provides tools and features for building web applications
+**** Examples: Django, Ruby on Rails, Laravel
+
+*** UI Frameworks
+**** Offers components and tools for building user interfaces
+**** Examples: React, Angular, Vue.js
+
+*** Testing Frameworks
+**** Supports automated testing of applications
+**** Examples: JUnit, pytest, Selenium
+
+*** Application Frameworks
+**** Provides a foundation for developing various types of applications
+**** Examples: Spring Framework (Java), .NET Framework (C#)
+
+** Popular Frameworks
+
+*** Django
+**** Python web development framework
+**** Follows the Model-View-Controller (MVC) pattern for building web applications
+
+*** Ruby on Rails
+**** Ruby web development framework
+**** Emphasizes convention over configuration and follows the MVC pattern
+
+*** Angular
+**** TypeScript-based UI framework
+**** Supports building dynamic and responsive web applications
+
+@endmindmap

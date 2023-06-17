@@ -1,0 +1,72 @@
+@startmindmap
+
+skinparam node {
+    BorderColor DarkGray
+    BackgroundColor White
+}
+
+skinparam connector {
+    LineColor DarkGray
+}
+
+title =__ Reactive Data Stream__
+* Reactive Data Stream
+
+** Definition
+*** Data stream that follows the principles of reactive programming
+*** Emphasizes responsiveness, elasticity, and resilience
+
+** **Reactive Programming**
+*** **Definition**
+**** Programming paradigm focused on building asynchronous and event-driven systems
+**** Enables handling and processing of data streams in a non-blocking manner
+
+***[#pink] **Key Concepts**
+**** Observables
+***** Represents a stream of data or events that can be observed and processed
+***** Emits data items asynchronously to subscribers
+
+**** Observers
+***** Subscribes to observables and reacts to emitted data items or events
+***** Processes the data items asynchronously as they arrive
+
+**** Operators
+***** Functions for transforming, filtering, combining, or manipulating the data stream
+***** Enables complex operations on the data items emitted by observables
+
+** Reactive Streams
+*** Definition
+**** Initiative for providing a standard for asynchronous stream processing with non-blocking backpressure
+**** Enables interoperability and composition of reactive systems and libraries
+
+***[#pink] **Backpressure**
+**** Mechanism for controlling the rate of data flow in a reactive data stream
+**** Prevents overwhelming subscribers with data they cannot handle
+
+*** Technologies and Libraries
+**** ReactiveX (Rx)
+***** Cross-platform library for reactive programming with support for multiple programming languages
+***** Examples: RxJava, RxJS, Rx.NET
+
+**** Project Reactor
+***** Reactive library for building non-blocking applications on the Java Virtual Machine (JVM)
+***** Provides integration with Spring Framework for reactive applications
+
+**** Akka Streams
+***** Stream processing library for building reactive and scalable systems in the Akka toolkit
+***** Offers support for backpressure and asynchronous processing
+
+** Use Cases
+*** Real-Time Applications
+**** Reactive data streams are suitable for building real-time systems
+**** Examples: Real-time analytics, real-time dashboards, streaming data pipelines
+
+*** IoT (Internet of Things)
+**** Reactive streams handle high-velocity and high-volume data from IoT devices
+**** Examples: Sensor data processing, telemetry data analysis
+
+*** Event-Driven Architectures
+**** Reactive programming facilitates event-driven communication and handling of events
+**** Examples: Microservices, event sourcing, event-driven messaging systems
+
+@endmindmap

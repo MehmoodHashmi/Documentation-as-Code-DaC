@@ -1,0 +1,82 @@
+@startmindmap
+
+skinparam node {
+    BorderColor DarkGray
+    BackgroundColor White
+}
+
+skinparam connector {
+    LineColor DarkGray
+}
+
+title =__ Library vs Framework__\n<img:images/img.png>
+
+* **[[https://stackoverflow.com/questions/3057526/framework-vs-toolkit-vs-library]]**
+
+* **Library vs Framework** \n<img:images/img_1.png>
+
+** Definition
+
+*** Library
+**** Collection of precompiled code and reusable components
+**** Provides specific functionality that can be used by applications
+**** Application controls the flow of execution and uses library functionalities as needed
+
+*** Framework
+**** Structured set of prewritten code and reusable components
+**** Provides a complete architecture and control flow for developing applications
+**** Application delegates control to the framework and follows its predefined patterns
+
+** Characteristics
+
+*** Library
+
+**** Reusability
+***** Provides reusable components for specific functionality
+***** Can be used across different projects and domains
+
+****[#pink] **Flexibility**
+***** Allows applications to have control over the flow of execution
+***** Provides freedom to use specific library functionalities as needed
+
+**** **Focus**
+***** Concentrates on solving specific problems or offering specific features
+***** Typically has a narrow scope and specialized functionality
+
+*** Framework
+
+**** Architecture
+***** Provides a structured architecture and control flow for developing applications
+***** Guides developers to follow predefined patterns and practices
+
+**** Convention over Configuration
+***** Follows a set of conventions and defaults for consistent application development
+***** Minimizes configuration and reduces development time
+
+****[#pink] **Extensibility**
+***** Allows developers to extend and customize the framework's behavior
+***** Provides hooks and interfaces for plugging in custom code and functionality
+
+** Examples
+
+*** Library
+
+**** JSON Processing Library
+***** Provides functionalities for parsing, generating, and manipulating JSON data
+***** Application can use specific methods or classes for JSON processing
+
+**** Logging Library
+***** Offers functionalities for logging messages and handling log levels
+***** Application can utilize logging methods for capturing and managing log information
+
+*** Framework
+
+**** Django Web Framework
+***** Offers a complete architecture and control flow for web application development
+***** Application follows the MVC pattern and delegates control to the framework
+
+**** Spring Framework
+***** Provides a comprehensive set of tools and features for enterprise Java development
+***** Application follows inversion of control (IoC) and dependency injection principles
+
+@endmindmap

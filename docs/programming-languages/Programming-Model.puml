@@ -1,0 +1,45 @@
+@startmindmap
+
+skinparam node {
+    BorderColor DarkGray
+    BackgroundColor White
+}
+
+skinparam connector {
+    LineColor DarkGray
+}
+
+title =__ Programming Model__
+* Programming Model
+
+** Definition
+*** Describes the structure and behavior of the program
+*** Specifies how the code is written and organized
+
+**[#pink] **Types**
+*** Procedural Programming
+**** Breaks the program into smaller, reusable procedures or functions
+**** Focuses on step-by-step execution of instructions
+****[#pink] **Examples:** C, Pascal
+
+*** Object-Oriented Programming (OOP)
+**** Organizes code around objects that encapsulate data and behavior
+**** Supports concepts like inheritance, polymorphism, and encapsulation
+****[#pink] **Examples:** Java, C++, Python
+
+*** Functional Programming
+**** Treats computation as the evaluation of mathematical functions
+**** Avoids mutable state and emphasizes immutability and pure functions
+****[#pink] **Examples:** Haskell, Lisp, Scala
+
+*** Event-Driven Programming
+**** Based on the handling of events triggered by user actions or system events
+**** Focuses on event handlers and callbacks to respond to events
+****[#pink] **Examples:** JavaScript, GUI frameworks
+
+*** Concurrent Programming
+**** Deals with programs that run concurrently and interact with shared resources
+**** Utilizes concepts like threads, processes, locks, and synchronization
+****[#pink] **Examples:** Go, Erlang, Java (concurrency utilities)
+
+@endmindmap

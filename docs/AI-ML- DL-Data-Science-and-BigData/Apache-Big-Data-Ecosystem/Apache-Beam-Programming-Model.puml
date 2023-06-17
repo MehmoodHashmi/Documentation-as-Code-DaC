@@ -1,0 +1,81 @@
+@startmindmap
+
+skinparam node {
+    BorderColor DarkGray
+    BackgroundColor White
+}
+
+skinparam connector {
+    LineColor DarkGray
+}
+
+title =__ Apache Beam Programming Model__
+* Apache Beam Programming Model
+
+** Definition
+*** Unified model for building data processing pipelines that can run on various execution engines
+*** Provides a high-level, expressive API for writing batch and streaming data processing jobs
+
+** Core Concepts
+
+*** Pipelines
+**** Represents the entire data processing workflow or computation
+**** Consists of one or more stages and collections of data
+
+*** PCollections (Parallel Collections)
+**** Represents a distributed collection of elements in a pipeline
+**** Serves as the input and output for transformations in the pipeline
+
+*** Transforms
+**** Operations that modify or process data in a PCollection
+**** Examples: Map, Filter, GroupByKey, Combine, Window
+
+*** Windowing
+**** Defines how data is divided into finite windows for time-based processing
+**** Enables operations like windowed aggregations and event-time processing
+
+** Windowing Strategies
+
+*** Fixed Windows
+**** Divides data into fixed-size, non-overlapping time windows
+**** Examples: 1-minute windows, 1-hour windows
+
+*** Sliding Windows
+**** Overlaps adjacent windows by a specified duration
+**** Examples: 1-hour windows with a 15-minute sliding duration
+
+*** Session Windows
+**** Groups data into windows based on gaps between events
+**** Examples: User activity within 30 minutes of inactivity
+
+** Triggers
+
+*** Defines when to emit accumulated results for windowed computations
+*** Based on event time or processing time
+*** Examples: Fixed-time triggers, watermark-based triggers
+
+** Side Inputs and Outputs
+
+*** Side Inputs
+**** Additional input data provided to a transform in a read-only manner
+**** Used for enriching or filtering data during processing
+
+*** Side Outputs
+**** Additional output collections produced by a transform
+**** Enables multiple outputs or branching within a pipeline
+
+** Advanced Features
+
+*** ParDo Function
+**** Allows flexible data processing and transformations
+**** Supports user-defined functions for fine-grained control
+
+*** Stateful Processing
+**** Enables maintaining and updating state across multiple elements
+**** Used for aggregations, pattern detection, and complex computations
+
+*** Timers
+**** Allows setting timers for future processing based on event time or processing time
+**** Enables time-based operations and event-time processing
+
+@endmindmap

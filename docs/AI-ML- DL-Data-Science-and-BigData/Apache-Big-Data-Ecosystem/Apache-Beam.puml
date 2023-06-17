@@ -1,0 +1,69 @@
+@startmindmap
+
+skinparam node {
+    BorderColor DarkGray
+    BackgroundColor White
+}
+
+skinparam connector {
+    LineColor DarkGray
+}
+
+title =__ Apache Beam__
+* Apache Beam
+
+** Definition
+*** Unified programming model for building batch and streaming data processing pipelines
+*** Provides a high-level API for data parallelism and distributed processing
+
+** Key Concepts
+
+*** Pipelines
+**** Represents a data processing workflow or computation
+**** Consists of a series of transformations and operations on input data
+
+*** PCollection (Parallel Collection)
+**** Represents a distributed collection of elements in a pipeline
+**** Acts as input or output for transformations within the pipeline
+
+*** Transformations
+**** Operations that modify or process data in a PCollection
+**** **Examples:** Map, Filter, GroupByKey, Combine, Window
+
+*** Sources and Sinks
+**** Sources: Represents input data sources for a pipeline
+**** Sinks: Represents output destinations or sinks for pipeline results
+
+*** PTransforms (Parallel Transforms)
+**** High-level operations that encapsulate one or more transformations
+**** Enables composability and reuse of data processing logic
+
+** Execution Engines
+
+*** Apache Flink
+**** Distributed stream processing engine with support for batch processing
+**** Provides fault-tolerance, scalability, and high-throughput processing
+
+*** Apache Spark
+**** General-purpose distributed computing engine with support for batch and stream processing
+**** Offers in-memory processing, fault tolerance, and a rich set of built-in libraries
+
+*** Google Cloud Dataflow
+**** Fully managed service for executing Apache Beam pipelines on the Google Cloud Platform
+**** Provides automatic scaling, monitoring, and job management capabilities
+
+** Ecosystem and Integration
+
+*** Integration with Data Processing Frameworks
+**** Apache Kafka, Apache Hadoop, Apache Cassandra, etc.
+**** Allows reading from and writing to various data storage and messaging systems
+
+*** Language SDKs
+**** Provides language-specific APIs and SDKs for writing Apache Beam pipelines
+**** Includes Java, Python, Go, and other community-supported languages
+
+*** Community and Tooling
+**** Active and growing open-source community around Apache Beam
+**** Provides documentation, tutorials, and a range of tools for development and monitoring
+
+@endmindmap

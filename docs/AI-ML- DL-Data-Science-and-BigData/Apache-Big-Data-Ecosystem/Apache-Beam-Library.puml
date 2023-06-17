@@ -1,0 +1,72 @@
+@startmindmap
+
+skinparam node {
+    BorderColor DarkGray
+    BackgroundColor White
+}
+
+skinparam connector {
+    LineColor DarkGray
+}
+
+title =__ Apache Beam Library__
+
+* **Apache Beam Library**
+
+
+** Definition
+*** Open-source, **unified programming model** and set of libraries for **building data processing pipelines**
+***[#pink] Provides a rich ecosystem of connectors, transformations, and utilities for batch and streaming processing
+
+** **Core Components**
+
+*** SDKs (Software Development Kits)
+**** Language-specific SDKs for writing Apache Beam pipelines
+**** Provides language bindings and APIs for different programming languages
+
+***[#pink] **Runners**
+**** **Execution engines** that run __Apache Beam pipelines on various distributed processing platforms__
+**** **Examples:** Apache Flink, Apache Spark, Google Cloud Dataflow
+
+*** IO Connectors
+**** Connectors for reading from and writing to various data sources and sinks
+**** **Examples:** Apache Kafka, Apache Hadoop, Apache Cassandra
+
+** Transformations and Utilities
+
+*** **Core Transformations**
+****[#pink] **Map:** Applies a function to each element in a PCollection
+****[#pink] **Filter:** Filters elements based on a given predicate
+****[#pink] **GroupByKey:** Groups elements with the same key into a single collection
+****[#pink] **Combine:** Combines elements using a user-defined function
+
+*** Windowing Transformations
+**** **Fixed Windows:** Divides data into fixed-size, non-overlapping time windows
+**** **Sliding Windows:** Overlaps adjacent windows by a specified duration
+**** **Session Windows:** Groups data into windows based on gaps between events
+
+*** Advanced Transformations
+**** **ParDo: ** Allows flexible data processing and transformations with user-defined functions
+**** **Stateful Processing:**  Enables maintaining and updating state across multiple elements
+**** **Timers: ** Allows setting timers for future processing based on event time or processing time
+
+*** **Utilities**
+**** **I/O Utilities:** Provide common functions and abstractions for input/output operations
+**** **Metrics:** Enables monitoring and collecting metrics during pipeline execution
+**** **Windowing Functions:** Predefined functions for window-based computations
+
+** Ecosystem and Integration
+
+*** Apache Beam Community
+**** Active and growing open-source community around Apache Beam
+**** Provides support, documentation, and contributions to the project
+
+*** Integration with Apache Projects
+**** Integration with various Apache projects for seamless data processing workflows
+**** **Examples:** Apache Kafka, Apache Hadoop, Apache Cassandra
+
+*** Integration with External Systems
+**** Connectors for integrating with external systems and services
+**** **Examples:** Google Cloud Storage, Amazon S3, BigQuery, Elasticsearch
+
+@endmindmap

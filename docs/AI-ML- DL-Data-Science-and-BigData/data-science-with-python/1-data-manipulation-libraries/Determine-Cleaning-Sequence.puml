@@ -1,0 +1,70 @@
+@startmindmap
+skinparam node {
+    BorderColor DarkSlateGray
+    BackgroundColor LightCyan
+    FontStyle italic
+}
+skinparam connector {
+    Color DarkSlateGray
+    FontStyle Bold
+}
+
+title =__ Determine Cleaning Sequence__
+* Determine Cleaning Sequence
+
+** Define Cleaning Requirements
+*** Identify Data Source
+*** Determine Cleaning Criteria
+
+**[#pink] **Explore Data Cleaning Methods**
+*** Handling Missing Values
+*** Outlier Detection and Treatment
+*** Data Standardization
+*** Data Deduplication
+*** Data Type Conversion
+*** Data Encoding and Decoding
+*** Data Anomaly Detection
+*** Data Imputation
+*** Data Consistency Checks
+*** Data Validation Rules
+
+** Analyze Data Cleaning Dependencies
+*** Identify Interdependencies
+*** Consider Impact on Data Quality
+*** Determine Order of Operations
+
+** Define Cleaning Sequence
+*** Prioritize Cleaning Methods
+*** Establish Sequential Order
+*** Consider Dependencies and Prerequisites
+
+** Implement Cleaning Sequence
+*** Set up Cleaning Environment
+*** Develop Cleaning Scripts/Programs
+*** Follow Defined Sequence
+
+** Execute Data Cleaning
+*** Run Cleaning Scripts/Programs
+*** Monitor Cleaning Progress
+*** Handle Errors/Exceptions
+
+** Validate Cleaned Data
+*** Perform Data Quality Checks
+*** Compare Cleaned Data with Criteria
+*** Resolve Discrepancies, if any
+
+** Store Cleaned Data
+*** Choose Storage Medium
+*** Design Data Storage Structure
+*** Implement Data Storage Solution
+
+** Document Data Cleaning Process
+*** Create Cleaning Documentation
+*** Capture Cleaning Parameters
+*** Update Process Documentation
+
+** Review and Improve
+*** Collect Feedback
+*** Analyze Cleaning Performance
+*** Identify Areas for Improvement
+@endmindmap
