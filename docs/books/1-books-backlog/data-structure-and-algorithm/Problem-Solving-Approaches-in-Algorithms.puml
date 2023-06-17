@@ -1,0 +1,51 @@
+@startmindmap
+* Problem Solving Approaches in Algorithms
+** Brute Force
+*** **Definition:** Involves exhaustively trying all possible solutions to a problem.
+*** **Characteristics:**
+**** Simple and straightforward approach.
+**** May be inefficient for large problem spaces.
+*** **Examples:**
+**** Enumerating all permutations of a set.
+**** Checking every possible combination to find a password.
+** Divide and Conquer
+*** **Definition:** Involves breaking a problem into smaller, manageable subproblems, solving them independently, and combining the solutions.
+*** **Characteristics:**
+**** Recursive approach that divides a problem into subproblems.
+**** Requires a base case to terminate the recursion.
+*** **Examples:**
+**** Merge sort for sorting a list of numbers.
+**** Binary search for finding an element in a sorted list.
+** Greedy Algorithms
+*** **Definition:** Involves making locally optimal choices at each step to find an overall optimal solution.
+*** **Characteristics:**
+**** Makes choices based on the best immediate benefit.
+**** Does not guarantee an optimal global solution.
+*** **Examples:**
+**** Dijkstra's algorithm for finding the shortest path in a graph.
+**** Huffman coding for data compression.
+** Dynamic Programming
+*** **Definition:** Involves breaking a problem into overlapping subproblems and solving each subproblem only once, storing the solutions for future use.
+*** **Characteristics:**
+**** Uses memoization or tabulation to avoid redundant computations.
+**** Optimizes the solution by reusing previously computed results.
+*** **Examples:**
+**** Fibonacci sequence calculation using memoization.
+**** Knapsack problem with dynamic programming approach.
+** Backtracking
+*** **Definition:** Involves exploring all possible solutions by incrementally building a solution and undoing choices when they are found to be invalid.
+*** **Characteristics:**
+**** Systematic trial and error approach.
+**** Involves a depth-first search with backtracking to explore all possibilities.
+*** **Examples:**
+**** N-Queens problem, where queens on a chessboard do not attack each other.
+**** Solving Sudoku puzzles by placing numbers without violating the rules.
+** Branch and Bound
+*** **Definition:** Involves exploring the solution space by incrementally building a solution and using bounds to determine whether to continue exploring a particular branch.
+*** **Characteristics:**
+**** Systematic exploration of the solution space using upper and lower bounds.
+**** Prunes branches of the search tree that are guaranteed to be suboptimal.
+*** **Examples:**
+**** Traveling Salesman Problem using the Branch and Bound algorithm.
+**** Job Scheduling with time windows using Branch and Bound approach.
+@endmindmap

@@ -1,47 +1,47 @@
 @startmindmap
 title =__ Graph__
-* Graph
-** Definition: A graph is a data structure consisting of a set of nodes (vertices) and a set of edges connecting these nodes.
+*[#pink] **Graph**
+** **Definition:** A graph is a data structure consisting of a set of nodes (vertices) and a set of edges connecting these nodes.
 ** Types of Graphs
 *** Directed Graph (Digraph)
-**** Definition: A graph in which the edges have a specific direction from one node to another.
-**** Notation: -> (for directed edges)
+**** **Definition:** A graph in which the edges have a specific direction from one node to another.
+**** **Notation: -> **(for directed edges)
 *** Undirected Graph
-**** Definition: A graph in which the edges have no specific direction.
-**** Notation: -- (for undirected edges)
+**** **Definition:** A graph in which the edges have no specific direction.
+**** **Notation: -- **(for undirected edges)
 *** Weighted Graph
-**** Definition: A graph in which each edge has an associated weight or cost.
-**** Notation: [weight] (e.g., [5] represents an edge with weight 5)
+**** **Definition:** A graph in which each edge has an associated weight or cost.
+**** **Notation: [weight]** (e.g., [5] represents an edge with weight 5)
 *** Cyclic Graph
-**** Definition: A graph that contains at least one cycle, which is a path that starts and ends at the same node.
+**** **Definition:** A graph that contains at least one cycle, which is a path that starts and ends at the same node.
 *** Acyclic Graph
-**** Definition: A graph that does not contain any cycles.
+**** **Definition:** A graph that does not contain any cycles.
 *** Connected Graph
-**** Definition: A graph in which there is a path between every pair of nodes.
+**** **Definition:** A graph in which there is a path between every pair of nodes.
 *** Disconnected Graph
-**** Definition: A graph in which there is at least one pair of nodes with no path between them.
+**** **Definition:** A graph in which there is at least one pair of nodes with no path between them.
 *** Bipartite Graph
-**** Definition: A graph whose nodes can be divided into two disjoint sets such that every edge connects a node from one set to a node from the other set.
+**** **Definition:** A graph whose nodes can be divided into two disjoint sets such that every edge connects a node from one set to a node from the other set.
 ** Graph Representation
 *** Adjacency Matrix
-**** Definition: A two-dimensional array where the rows and columns represent the nodes, and the value at each position indicates the presence or absence of an edge between two nodes.
+**** **Definition:** A two-dimensional array where the rows and columns represent the nodes, and the value at each position indicates the presence or absence of an edge between two nodes.
 *** Adjacency List
-**** Definition: A collection of linked lists or arrays where each list or array represents a node and contains the nodes adjacent to it.
+**** **Definition:** A collection of linked lists or arrays where each list or array represents a node and contains the nodes adjacent to it.
 ** Graph Traversal
 *** Depth-First Search (DFS)
-**** Definition: A graph traversal algorithm that explores as far as possible along each branch before backtracking.
+**** **Definition:** A graph traversal algorithm that explores as far as possible along each branch before backtracking.
 *** Breadth-First Search (BFS)
-**** Definition: A graph traversal algorithm that explores all the neighbors of a node before moving to the next level of neighbors.
+**** **Definition:** A graph traversal algorithm that explores all the neighbors of a node before moving to the next level of neighbors.
 ** Graph Algorithms
-*** Shortest Path Algorithms
-**** Dijkstra's Algorithm: Finds the shortest path between two nodes in a graph with non-negative edge weights.
-**** Bellman-Ford Algorithm: Finds the shortest path between two nodes in a graph that may have negative edge weights.
-**** Floyd-Warshall Algorithm: Finds the shortest path between all pairs of nodes in a graph.
+*** **Shortest Path Algorithms**
+**** **Dijkstra's Algorithm:** Finds the shortest path between two nodes in a graph with non-negative edge weights.
+**** **Bellman-Ford Algorithm:** Finds the shortest path between two nodes in a graph that may have negative edge weights.
+**** **Floyd-Warshall Algorithm:** Finds the shortest path between all pairs of nodes in a graph.
 *** Minimum Spanning Tree Algorithms
-**** Kruskal's Algorithm: Constructs a minimum spanning tree for a connected, weighted graph.
-**** Prim's Algorithm: Constructs a minimum spanning tree for a connected, weighted graph.
+**** **Kruskal's Algorithm:** Constructs a minimum spanning tree for a connected, weighted graph.
+**** **Prim's Algorithm:** Constructs a minimum spanning tree for a connected, weighted graph.
 *** Topological Sorting
-**** Definition: Arranges the nodes of a directed acyclic graph in a linear order such that for every directed edge (u, v), node u comes before node v in the order.
+**** **Definition:** Arranges the nodes of a directed acyclic graph in a linear order such that for every directed edge (u, v), node u comes before node v in the order.
 *** Cycle Detection
-**** Definition: Determines whether a graph contains any cycles.
+**** **Definition:** Determines whether a graph contains any cycles.
 @endmindmap
