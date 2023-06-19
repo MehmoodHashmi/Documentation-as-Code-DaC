@@ -14,34 +14,34 @@ skinparam arrow {
 
 title =__ Four Principles of Optimality__
 
-*:In this PlantUML mind map script, the mind map diagram focuses on the four principles of optimality:
+*:In this PlantUML mind map script, the mind map diagram focuses on the **four principles of optimality:**
 
-  **Principle of Optimality:** This principle states that subproblems should exhibit the optimal substructure property, meaning that the optimal
-  solution to a problem contains optimal solutions to its subproblems. It enables the use of dynamic programming and divide-and-conquer algorithms.
+  **Principle of** <color #pink>**Optimality:**</color> This principle states that **sub-problems should exhibit** the **optimal substructure property,** meaning that the optimal
+  solution to a problem contains optimal solutions to its sub-problems. It enables the use of dynamic programming and divide-and-conquer algorithms.
 
-  **Principle of Overlapping Subproblems:** This principle emphasizes that solutions to subproblems can be reused multiple times. By avoiding
+  **Principle of** <color #pink>**Overlapping Sub-problems:**</color> This principle emphasizes that solutions to sub-problems can be reused multiple times. By avoiding
   redundant computation, the efficiency of algorithms can be improved. This principle is commonly utilized in dynamic programming algorithms.
 
-  **Principle of Greedy Choice:** This principle suggests making locally optimal choices at each step, assuming that a globally optimal
+  **Principle of** <color #pink>**Greedy Choice:**</color> This principle suggests making locally optimal choices at each step, assuming that a globally optimal
   solution can be reached by choosing the best option at each decision point. Greedy algorithms often employ this principle to make quick
   and efficient decisions.
 
-  **Principle of State Transition:** This principle highlights that problem-solving can be represented as a state transition diagram. It
+  **Principle of** <color #pink>**State Transition:**</color> This principle highlights that problem-solving can be represented as a state transition diagram. It
   involves transitioning from one state to another by applying operators or actions. State transition diagrams aid in understanding the
   problem structure and designing efficient algorithms.;
 
 * Four Principles of **Optimality**
-** Principle of Optimality
+** Principle of **Optimality**
 *** Sub-problems should exhibit the **optimal substructure property**.
 *** Optimal solution to a problem contains optimal solutions to its sub-problems.
 *** __Enables the use__ of **dynamic programming and divide-and-conquer** algorithms.
 
-** Principle of Overlapping Sub-problems
+** Principle of **Overlapping Sub-problems**
 *** Solutions to Sub-problems can be reused multiple times.
 *** Avoids redundant computation and improves efficiency.
 *** __Commonly used in **dynamic programming** algorithms.__
 
-** Principle of Greedy Choice
+** Principle of **Greedy Choice**
 *** Make locally optimal choices at each step.
 *** Assume that a globally optimal solution can be reached by choosing the best option at each decision point.
 *** Used in greedy algorithms.
@@ -51,8 +51,9 @@ title =__ Four Principles of Optimality__
 *** Transition from one state to another by applying operators or actions.
 *** **State transition diagrams** __help understand__ **problem structure and design efficient algorithms.**
 
-*:**Mehmood:** Are there more principles?
-**ChatGPT:** Yes, apart from the four principles mentioned earlier, there are additional **__principles and concepts related to optimization and algorithm design.__** Here are a few notable ones:
+*:**Mehmood:** <color #gold>**Are there more principles?**</color>
+**ChatGPT:** Yes, apart from the four principles mentioned earlier, there are additional **__principles and concepts related to optimization and algorithm design.__**
+Here are a few notable ones:
 
   **Principle of Duality:** This principle states that optimization problems have a dual formulation, where the objective and constraints are interchanged. Solving
    the dual problem provides valuable insights into the original problem, and duality can be used to derive bounds, optimality conditions, and sensitivity analysis.
@@ -82,10 +83,10 @@ title =__ Four Principles of Optimality__
 
 ** Principle of Optimality
 *** Subproblems should exhibit the optimal substructure property.
-*** Optimal solution to a problem contains optimal solutions to its subproblems.
+*** Optimal solution to a problem contains optimal solutions to its sub-problems.
 
 ** Principle of Overlapping Subproblems
-*** Solutions to subproblems can be reused multiple times.
+*** Solutions to sub-problems can be reused multiple times.
 *** Avoids redundant computation and improves efficiency.
 
 ** Principle of Greedy Choice

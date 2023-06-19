@@ -1,0 +1,48 @@
+@startmindmap
+skinparam node {
+    FontStyle italic
+}
+
+title =__ Observation vs Experiment__
+
+* Observation vs Experiment
+
+** Definition
+*** **Observation:** Collecting data by observing natural phenomena without manipulating any variables.
+*** **another Observation definition:** Collecting data by observing natural phenomena without manipulating any variables.
+*** **Experiment:** A systematic and controlled procedure performed to test a hypothesis by manipulating variables and collecting data.
+*** **another Experiment definition:** A systematic and controlled procedure performed to test a hypothesis by manipulating variables and collecting data.
+
+** Purpose
+*** **Observation:** To gather information about a phenomenon in its natural state and identify patterns or relationships.
+*** **Experiment:** To test a specific hypothesis, determine cause-and-effect relationships, and establish scientific principles.
+
+** Approach
+*** **Observation:** Passive data collection through direct observation or using instruments without intervention.
+*** **Experiment:** Active intervention and manipulation of variables under controlled conditions.
+
+** Control
+*** **Observation:** No control over external factors or variables; relies on natural variations and settings.
+*** **Experiment:** Control over independent variables to isolate and manipulate specific factors affecting the outcome.
+
+** Variables
+*** **Observation:** Variables are observed and recorded, but not intentionally manipulated.
+*** **Experiment:** Independent and dependent variables are intentionally manipulated and measured.
+
+** Bias
+*** **Observation:** Observer bias can affect interpretation; subjectivity may influence the data collected.
+*** **Experiment:** Efforts are made to minimize bias through randomization, blinding, and controlling variables.
+
+** Data Analysis
+*** **Observation:** Data is collected and analyzed through descriptive methods, such as summarizing, categorizing, and identifying patterns.
+*** **Experiment:** Data is collected and analyzed using statistical methods to determine significance and draw conclusions.
+
+** Hypothesis Testing
+*** **Observation:** Observational studies can generate hypotheses but cannot prove or disprove them definitively.
+*** **Experiment:** Experimental studies can test hypotheses, either supporting or refuting them based on the data collected.
+
+** Examples
+*** **Observation:** Studying animal behavior in their natural habitat, monitoring weather patterns, or analyzing historical data.
+*** **Experiment:** Conducting drug trials, testing the effect of temperature on plant growth, or evaluating the impact of a new teaching method.
+
+@endmindmap

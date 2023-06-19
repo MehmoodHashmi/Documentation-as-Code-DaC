@@ -41,7 +41,7 @@
 **** N-Queens problem, where queens on a chessboard do not attack each other.
 **** Solving Sudoku puzzles by placing numbers without violating the rules.
 ** Branch and Bound
-*** **Definition:** Involves exploring the solution space by incrementally building a solution and using bounds to determine whether to continue exploring a particular branch.
+*** **Definition:** Involves exploring the **solution space** by incrementally building a solution and using bounds to determine whether to continue exploring a particular branch.
 *** **Characteristics:**
 **** Systematic exploration of the solution space using upper and lower bounds.
 **** Prunes branches of the search tree that are guaranteed to be suboptimal.
