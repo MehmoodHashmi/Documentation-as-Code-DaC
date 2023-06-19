@@ -3,12 +3,28 @@ skinparam node {
     FontStyle italic
 }
 
-title =__The-Key-Words-and-Definitions-For-Elementary-Statistics__
+title =__Creating Frequency Distribution and Histograms__
 
-*[#red] Lecture-1 Part-1: **The-Key-Words-and-Definitions-For-Elementary-Statistics**
-* **Data**
-** When we are talking about the **data** in this class (statistics lectures) that means **observations**
-** **Definition:** Any **observations** that have been collected
+*[#red] Lecture-2 Part-1: **Creating Frequency Distribution and Histograms**
+
+* **Frequency Distribution**
+** **Definition:** A  list of values with corresponding **frequencies**
+** **Class Width:** Difference between two **"lower class limits"**
+*** **"lower class limit":** smallest value belonging to a __class__ **(group)**
+*** **"Upper class limit":** largest value belonging to a __class__ **(group)**
+** **Steps:** on how to do this (frequency distribution)?
+***:**Step-1** Determine the number of **classes** (groups)
+**Step-2** Determine the your **class width**
+<img:images/img.png>
+In the **image** the original answer was **2.9** but we
+had **rounded up to 3.** why because in statistic
+we often **round up.**
+**Step-3** Typically start with you smallest value. In
+our case it's **18.5**.
+**Step-4** Create classes using the **class width** = 3
+create the lower class limits first!;
+** **Class midpoint:**
+** **Class boundaries:**
 
 * **Statistics**
 ** Collect data
@@ -119,7 +135,7 @@ something on the scale). So, <color #lime>**Temperature**</color>  does not have
 **[#pink] **Convenience Sample:** use the results that are easy to get (Not Random), so therefore its never used in conducting real observations or experiments
 **[#lime] **Systematic Sample:** put a population in order and select every "K" member
 **[#orange] **__Strata__fied Sample:** "Strata means layers", breaks the population into subgroups based on a characteristic, then sample **__each__** group
-**[#crimson] **__Cluster__ Sample:** divide population into **"groups or clusters"** (regardless of the characteristic), randomly select a certain number "groups or clusters", and then collect data from the **__entire__** cluster
+**[#crimson] **__Cluster Sample:** divide population into **"groups or clusters"** (regardless of the characteristic), randomly select a certain number "groups or clusters", and then collect data from the **__entire__** cluster
 
 * **2-Types of Sampling errors that can occur while you are sampling**
 ** **Non Sampling Error:** when you write down wrong information or make a math error something like this, it's called non-sampling error.
