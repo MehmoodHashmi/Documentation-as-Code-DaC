@@ -1,0 +1,112 @@
+@startmindmap
+title =__How to Select a Graph Based on Relationship to Explore__
+
+* How to Select a Graph Based on Relationship to Explore
+**[#pink] **Relationship to Explore**
+*** Correlation
+*** Proportion
+*** Deviation
+*** Frequency
+*** Part-to-whole
+*** Temporal Patterns
+*** Connectivity
+
+** Graph Types for **Correlation**
+*** Scatter Plot
+*** Line Chart
+*** Heat Map
+*** Network Graph
+
+** Graph Types for **Proportion**
+*** Pie Chart
+*** Stacked Bar Chart
+*** Treemap
+
+** Graph Types for **Deviation**
+*** Line Chart
+*** Area Chart
+*** Box Plot
+*** Violin Plot
+
+** Graph Types for **Frequency**
+*** Histogram
+*** Bar Chart
+*** Line Chart
+
+** Graph Types for **Part-to-Whole**
+*** Pie Chart
+*** Stacked Bar Chart
+*** Treemap
+
+** Graph Types for **Temporal Patterns**
+*** Line Chart
+*** Area Chart
+*** Candlestick Chart
+*** Heat Map
+*** Seasonal Plot
+
+** Graph Types for **Connectivity**
+*** Network Graph
+*** Flowchart
+*** Arc Diagram
+*** Tree Graph
+
+**[#pink] **Considerations**
+*** Data Characteristics
+**** Data Type
+**** Data Granularity
+**** Data Size
+
+***[#crimson] **Audience and Context**
+**** Technical or Non-technical Audience
+**** Presentation Format
+**** Communication Goals
+
+*** Visual Encoding
+**** Position
+**** Length
+**** Angle
+**** Area
+**** Color
+**** Shape
+**** Texture
+**** Opacity
+
+*** Tools and Libraries
+**** Python libraries (matplotlib, seaborn, Plotly)
+**** R packages (ggplot2, lattice, visNetwork)
+**** Business intelligence tools (Tableau, Power BI)
+**** Visualization frameworks (D3.js, Vega-Lite)
+
+*:Yes, there are several criteria to consider when choosing a graph for a specific data or problem. Here are some common criteria:
+
+ ** 1. Data Type:** Consider the type of data you have, such as categorical, numerical, time-series, textual, or network data. Different graph types
+   are suitable for different data types.
+
+  **2. Purpose:** Identify the purpose of the graph. Determine whether you want to visualize trends, compare data, show relationships, explore patterns,
+   or present insights. The purpose will guide your choice of graph type.
+
+ ** 3. Relationship to Explore:** Determine the specific relationship or pattern you want to highlight in your data. Whether it's correlation, proportion,
+   deviation, frequency, part-to-whole, temporal patterns, or connectivity, the nature of the relationship will help determine the appropriate graph type.
+
+ ** 4. Data Characteristics:** Consider the characteristics of your data, such as data size, data complexity, data density, outliers, missing values, and
+   data granularity. These characteristics may influence the choice of graph type that can effectively represent your data.
+
+ ** 5. Audience and Context:** Take into account the audience who will be viewing the graph and the context in which it will be presented. Consider whether
+   the audience is technical or non-technical and the presentation format, such as a report, dashboard, or presentation.
+
+  **6. Visual Encoding:** Choose appropriate visual encodings for your data, such as position, length, angle, area, color, shape, texture, and opacity. Each
+   graph type offers different possibilities for visual encoding, and you should select the ones that effectively represent your data.
+
+ ** 7. Tools and Libraries:** Explore the available tools and libraries for graphing in your chosen data analysis environment. Different programming
+  languages, software, and libraries offer various graphing capabilities, so it's important to consider the tools at your disposal.
+
+ ** 8. Iteration and Evaluation:** Iterate and evaluate different graph types, styles, and configurations to find the most effective representation of
+   your data. Experiment with different options and assess how well they convey the desired information.
+
+  **9. Best Practices and Guidelines:** Follow best practices and guidelines for effective data visualization. Consider aspects such as clarity,
+  simplicity, labeling, color use, accessibility, and adherence to visual design principles.
+
+  By considering these criteria, you can make an informed decision when selecting a graph type that best suits your data and problem.;
+
+@endmindmap

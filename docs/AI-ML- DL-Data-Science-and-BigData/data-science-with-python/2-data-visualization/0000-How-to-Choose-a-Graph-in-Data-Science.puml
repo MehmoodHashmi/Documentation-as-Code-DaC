@@ -1,0 +1,86 @@
+@startmindmap
+title =__How to Choose a Graph in Data Science__
+
+* How to Choose a Graph in Data Science
+** Purpose
+*** Determine the purpose of the graph:
+**** Visualizing trends
+**** Comparing data
+**** Showing relationships
+**** Exploring patterns
+**** Presenting insights
+
+** Data Type and Structure
+*** Identify the type and structure of your data:
+**** Categorical data
+**** Numerical data
+**** Time-series data
+**** Textual data
+**** Network data
+
+** Relationship to Explore
+*** Determine the relationship or pattern you want to highlight:
+**** Comparison
+**** Correlation
+**** Distribution
+**** Composition
+**** Proportion
+**** Ranking
+**** Flow
+
+** Graph Types
+*** Bar chart
+*** Line chart
+*** Scatter plot
+*** Pie chart
+*** Area chart
+*** Histogram
+*** Box plot
+*** Network graph
+*** Heat map
+*** Sankey diagram
+*** Radar chart
+*** Choropleth map
+
+**[#pink] **Data Distribution and Characteristics**
+*** Consider the distribution and characteristics of your data:
+**** Symmetric or skewed distribution
+**** Outliers
+**** Missing values
+**** Seasonality or periodicity
+**** Clusters or groups
+
+** Audience and Context
+*** Consider the audience and the context in which the graph will be presented:
+**** Executive summary
+**** Technical report
+**** Presentation to non-technical stakeholders
+
+** Visual Encoding
+*** Choose appropriate visual encodings for your data:
+**** Position
+**** Length
+**** Angle
+**** Area
+**** Color
+**** Shape
+**** Texture
+**** Opacity
+
+**[#pink] Storytelling and Narrative
+*** Craft a clear and concise narrative to guide the viewer through the graph and communicate key insights effectively.
+
+** Tools and Libraries
+*** Explore different tools and libraries available for graphing in data science:
+**** Python libraries (matplotlib, seaborn, Plotly)
+**** R packages (ggplot2, lattice, visNetwork)
+**** Business intelligence tools (Tableau, Power BI)
+**** Visualization frameworks (D3.js, Vega-Lite)
+
+** Iteration and Evaluation
+*** Iterate and evaluate different graph types and configurations to choose the most appropriate representation for your data and analysis goals.
+
+** Best Practices and Guidelines
+*** Follow best practices and guidelines for effective data visualization, such as simplifying visuals, providing clear labels and titles, using appropriate color schemes, and avoiding chartjunk.
+
+@endmindmap

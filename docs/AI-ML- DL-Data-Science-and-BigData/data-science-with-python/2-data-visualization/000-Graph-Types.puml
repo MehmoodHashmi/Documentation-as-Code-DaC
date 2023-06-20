@@ -1,0 +1,70 @@
+@startmindmap
+title =__Graph Types__
+
+* Graph Types
+** Basic Graphs
+*** Bar Chart
+*** Line Chart
+*** Scatter Plot
+*** Pie Chart
+
+** Advanced Graphs
+*** Area Chart
+*** Histogram
+*** Box Plot
+*** Bubble Chart
+*** Heat Map
+*** Sankey Diagram
+*** Radar Chart
+*** Network Graph
+
+** Specialized Graphs
+*** Treemap
+*** Gantt Chart
+*** Waterfall Chart
+*** Spider Chart
+*** Polar Chart
+*** Choropleth Map
+*** Word Cloud
+
+** Interactive Graphs
+*** Interactive Line Chart
+*** Interactive Scatter Plot
+*** Interactive Heat Map
+*** Interactive Network Graph
+*** Interactive Bubble Chart
+
+** 3D Graphs
+*** 3D Bar Chart
+*** 3D Surface Plot
+*** 3D Scatter Plot
+*** 3D Line Chart
+
+** Statistical Graphs
+*** Box Plot
+*** Violin Plot
+*** Q-Q Plot
+*** Probability Plot
+*** Density Plot
+
+** Geospatial Graphs
+*** Choropleth Map
+*** Bubble Map
+*** Dot Density Map
+*** Cartogram
+*** Heat Map
+
+** Network Graphs
+*** Force-Directed Graph
+*** Arc Diagram
+*** Tree Graph
+*** Flowchart
+*** Hierarchical Graph
+
+** Time-Series Graphs
+*** Time-Series Line Chart
+*** Time-Series Bar Chart
+*** Candlestick Chart
+*** Area Chart
+
+@endmindmap

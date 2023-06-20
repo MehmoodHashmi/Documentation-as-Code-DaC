@@ -7,26 +7,32 @@ title =__Creating Frequency Distribution and Histograms__
 
 *[#red] Lecture-2 Part-1: **Creating Frequency Distribution and Histograms**
 
+**:In chapter 2 we get away from how we collect the data (chapter-1 talks about how we collect the data),
+**__and now we move on how we organize data and then eventually how to summarize data__**;
+
 * **Frequency Distribution**
-** **Definition:** A  list of values with corresponding **frequencies**
-** **Class Width:** Difference between two **"lower class limits"**
+** **Definition:** A  __list of values__ with corresponding **frequencies**
+** **Class Width:** Difference between two **"lower class limits"**\n<img:images/img_5.png>
 *** **"lower class limit":** smallest value belonging to a __class__ **(group)**
 *** **"Upper class limit":** largest value belonging to a __class__ **(group)**
 ** **Steps:** on how to do this (frequency distribution)?
 ***:**Step-1** Determine the number of **classes** (groups)
-**Step-2** Determine the your **class width**
+**Step-2** Determine your **class width**
 <img:images/img.png>
 In the **image** the original answer was **2.9** but we
 had **rounded up to 3.** why because in statistic
 we often **round up.**
-**Step-3** Typically start with you smallest value. In
-our case it's **18.5**.
+**Step-3** Typically start with smallest value. In our
+case it's **18.5**.
 **Step-4** Create classes using the **class width** = 3
 create the lower class limits first!;
 
 **** **Example:** \n<img:images/img_1.png>
-** **Class midpoint:**
-** **Class boundaries:**
+***** **Example:** \n<img:images/img_6.png>
+****** **Example:** \n<img:images/img_3.png>
+** **Class midpoint:** \n<img:images/img_2.png>
+** **Class boundaries:** used to separate our classes without gaps\n<img:images/img_4.png>
+** **Relative (frequency distribution):** will give you a percentage
 
 * **Statistics**
 ** Collect data

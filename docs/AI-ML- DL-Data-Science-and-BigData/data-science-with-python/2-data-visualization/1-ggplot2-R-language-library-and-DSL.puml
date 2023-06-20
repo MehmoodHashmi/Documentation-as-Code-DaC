@@ -1,0 +1,62 @@
+@startmindmap
+title =__ggplot2 Library__
+
+* ggplot2 Library
+** **Core Concepts**
+*** **Data Layers:** Represents different types of data visualizations that can be added to a plot.
+**** **Geom Point:** Displays data points as individual points.
+**** **Geom Line:** Connects data points with lines.
+**** **Geom Bar:** Represents data using vertical or horizontal bars.
+**** **Geom Area:** Fills the area between a line and a baseline.
+**** **Geom Boxplot:** Displays statistical summaries of a dataset.
+**** **Geom Histogram:** Shows the distribution of a continuous variable.
+**** **Geom Density:** Estimates and plots a smoothed density curve.
+
+*** **Aesthetics:** Define how data variables are mapped to visual properties of the plot.
+**** **x:** Specifies the variable to be displayed on the x-axis.
+**** **y:** Specifies the variable to be displayed on the y-axis.
+**** **color:** Maps a variable to color.
+**** **fill:** Fills a shape or area with color.
+**** **size:** Changes the size of a shape.
+**** **shape:** Modifies the shape of a point.
+**** **alpha:** Adjusts the transparency of elements.
+**** **linetype:** Controls the line style.
+
+*** **Geometries:** Determine the visual representation of the data.
+**** **Point:** Represents data as individual points.
+**** **Line:** Connects data points with lines.
+**** **Bar:** Displays data using vertical or horizontal bars.
+**** **Area:** Fills the area between a line and a baseline.
+**** **Boxplot:** Visualizes statistical summaries of a dataset.
+**** **Histogram:** Displays the distribution of a continuous variable.
+**** **Density:** Estimates and plots a smoothed density curve.
+
+*** **Scales:** Control how data values are mapped to visual properties.
+**** **Continuous Scale:** Maps continuous data to a continuous range of values.
+**** **Discrete Scale:** Maps discrete data to a discrete set of values.
+**** **Color Scale:** Assigns colors to data values.
+**** **Fill Scale:** Determines the fill color of shapes or areas.
+**** **Size Scale:** Adjusts the size of shapes.
+**** **Shape Scale:** Modifies the shape of points.
+**** **Alpha Scale:** Controls the transparency of elements.
+**** **Linetype Scale:** Changes the line style.
+
+*** **Facets:** Divides the data into subsets based on one or more variables and creates multiple plots.
+**** **Facet Wrap:** Creates a grid of plots with one variable defining the rows and another defining the columns.
+**** **Facet Grid:** Generates a grid of plots with separate panels for each combination of variables.
+
+*** **Themes:** Customize the appearance and style of the plot.
+**** **Theme_bw:** Applies a black and white theme to the plot.
+**** **Theme_classic:** Applies a classic theme with gray backgrounds and no gridlines.
+**** **Theme_minimal:** Provides a minimalistic theme with no background and thin lines.
+**** **Theme_void:** Removes all backgrounds, gridlines, and axes.
+
+** Additional Features
+*** **Legends:** Display information about the mapping of data variables to plot aesthetics.
+*** **Labels:** Add text labels to the plot to provide additional information.
+*** **Titles:** Specify titles for the plot and axes.
+*** **Annotations:** Add text or graphical annotations to highlight specific data points or regions.
+*** **Statistical Transformations:** Perform statistical calculations on the data before plotting.
+*** **Customization with Layers:** Combine multiple plot elements and customize their appearance.
+
+@endmindmap

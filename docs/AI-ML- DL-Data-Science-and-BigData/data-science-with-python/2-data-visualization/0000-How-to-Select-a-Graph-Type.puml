@@ -1,0 +1,85 @@
+@startmindmap
+title =__How to Select a Graph Type__
+
+* How to Select a Graph Type
+**[#pink] **Data Type**
+***[#gold] Determine the **type of data** you have:
+**** **Categorical**
+**** **Numerical**
+**** **Time-series**
+**** **Textual**
+**** **Network**
+
+** Purpose
+*** **Identify the purpose of the graph:**
+**** Comparison
+**** Relationship
+**** Distribution
+**** Composition
+**** Trend
+**** Ranking
+
+** Relationship to Explore
+*** Determine the relationship or pattern you want to highlight:
+**** Correlation
+**** Proportion
+**** Deviation
+**** Frequency
+**** Part-to-whole
+**** Temporal patterns
+**** Connectivity
+
+** Data Characteristics
+*** Consider the characteristics of your data:
+**** Data size
+**** Data complexity
+**** Data density
+**** Outliers
+**** Missing values
+**** Data granularity
+
+** Graph Types
+*** Bar Chart
+*** Line Chart
+*** Scatter Plot
+*** Pie Chart
+*** Area Chart
+*** Histogram
+*** Box Plot
+*** Network Graph
+*** Heat Map
+*** Sankey Diagram
+*** Radar Chart
+*** Choropleth Map
+
+** Visual Encoding
+*** Choose appropriate visual encodings for your data:
+**** Position
+**** Length
+**** Angle
+**** Area
+**** Color
+**** Shape
+**** Texture
+**** Opacity
+
+** Audience and Context
+*** Consider the audience and the context in which the graph will be presented:
+**** Technical or non-technical audience
+**** Presentation format (report, dashboard, presentation)
+**** Communication goals
+
+** Tools and Libraries
+*** Explore different tools and libraries available for graphing:
+**** Python libraries (matplotlib, seaborn, Plotly)
+**** R packages (ggplot2, lattice, visNetwork)
+**** Business intelligence tools (Tableau, Power BI)
+**** Visualization frameworks (D3.js, Vega-Lite)
+
+**[#pink] Iteration and Evaluation
+*** Iterate and evaluate different graph types to find the most effective representation of your data and insights.
+
+**[#pink] Best Practices and Guidelines
+***[#gold] **Follow best practices and guidelines for effective data visualization, including clarity, simplicity, labeling, color use, and accessibility.**
+
+@endmindmap
