@@ -35,13 +35,13 @@ title =__ Observation vs Experiment__\n given below information I've taken from 
 *** **Observation:** Observer bias can affect interpretation; subjectivity may influence the data collected.
 *** **Experiment:** Efforts are made to minimize bias through randomization, blinding, and controlling variables.
 
-** Data Analysis
-*** **Observation:** Data is collected and analyzed through descriptive methods, such as summarizing, categorizing, and identifying patterns.
-*** **Experiment:** Data is collected and analyzed using statistical methods to determine significance and draw conclusions.
+**[#pink] Data Analysis
+*** **Observation:** Data is collected and analyzed through **descriptive methods,** such as summarizing, categorizing, and identifying patterns.
+*** **Experiment:** Data is collected and analyzed using **statistical methods** ( to determine significance and draw conclusions.
 
-** Hypothesis Testing
-*** **Observation:** Observational studies can generate hypotheses but cannot prove or disprove them definitively.
-*** **Experiment:** Experimental studies can test hypotheses, either supporting or refuting them based on the data collected.
+**[#pink] Hypothesis Testing
+*** **Observation:** Observational studies can **generate hypotheses but cannot prove or disprove them definitively.**
+*** **Experiment:** Experimental studies can **test hypotheses, either supporting or refuting them based on the data collected.**
 
 ** Examples
 *** **Observation:** Studying animal behavior in their natural habitat, monitoring weather patterns, or analyzing historical data.
