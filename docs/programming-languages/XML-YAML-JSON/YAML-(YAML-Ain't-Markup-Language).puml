@@ -18,17 +18,17 @@ title =__ YAML (YAML Ain't Markup Language)__
 *** Anchors & References
 ** Indentation-based Structure
 **[#pink] Example
-*** name: John Doe
+***[#pink] name: John Doe
 *** age: 30
 *** isStudent: false
 *** address:
 ***   street: 123 Main St
 ***   city: New York
 ***   country: USA
-*** interests:
-***   - programming
-***   - reading
-***   - music
+*** **interests:**
+*** \t- **programming**
+*** \t- **reading**
+*** \t- **music**
 ** Common Usage
 *** Configuration Files
 *** Data Serialization

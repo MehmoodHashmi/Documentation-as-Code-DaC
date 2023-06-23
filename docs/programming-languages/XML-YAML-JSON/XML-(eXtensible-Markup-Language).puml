@@ -29,7 +29,7 @@ title =__ XML (eXtensible Markup Language)__
 *** Qualify Element and Attribute Names
 *** Defined with Namespace URI
 **[#pink] Example
-*** <person>
+***[#pink] <person>
 ***   <name>John Doe</name>
 ***   <age>30</age>
 ***   <isStudent>false</isStudent>
@@ -43,7 +43,7 @@ title =__ XML (eXtensible Markup Language)__
 ***     <interest>reading</interest>
 ***     <interest>music</interest>
 ***   </interests>
-*** </person>
+***[#pink] </person>
 ** Common Usage
 *** Data Exchange and Interoperability
 *** Document Storage and Retrieval
