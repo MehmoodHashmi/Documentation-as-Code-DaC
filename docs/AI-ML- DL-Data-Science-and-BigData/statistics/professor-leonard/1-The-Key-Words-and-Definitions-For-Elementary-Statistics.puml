@@ -51,7 +51,7 @@ __But if you take a **sample** from the **population** and then talk those **cha
 *** **Examples:** Gender, Color, Race, Religion, Ethnicity, Army Rank, Zip Code (some **data** like **zip code** might have numbers in them but still they are **Quantitative**)
 *** **Math operations** are **meaningless on Qualitative data** (or categorical data), you can't add, subtract, multiply, divide qualitative data
 **[#gold] **2. Quantitative Data**
-*** **Definition:** its numerical data
+*** **Definition:** its **numerical** data
 *** **Examples:** Height, weight, wages, MPH (miles per hour), Temperature, Time
 *** **Math operations** are **meaningful on Quantitative data**, you can add, subtract, multiply, divide **quantitative data**
 ***[#lime] **2-Types of Quantitative Data**
@@ -99,6 +99,63 @@ does that mean **extinction of temperature?** No, it means
 something on the scale). So, <color #lime>**Temperature**</color>  does not have
 **"Natural Zero"**;
 *** **Example:** Bank balance, Age, etc.\n are **ratio data** But not --**temperature**--
+
+* **Levels of Measurement**\n\tby Chatgpt3
+** Nominal
+*** **Categories or labels**
+***[#pink] No inherent order or magnitude
+*** **Examples:** Gender, Marital Status, Eye Color
+** Ordinal
+*** Ordered **categories or labels**
+*** Relative ranking or position
+*** No consistent measurement intervals
+*** **Examples:** Education Level (High School, Bachelor's, Master's), Rating Scales (Likert Scale)
+** Interval
+*** Ordered **categories or labels**
+*** Equal intervals between values
+*** No meaningful zero point
+*** **Examples:** Temperature (Celsius, Fahrenheit), IQ Scores
+** Ratio
+*** Ordered **categories or labels**
+*** Equal intervals between values
+*** Meaningful zero point
+*** **Examples:** Height, Weight, Income, Time
+
+* Categories of Data and Learning
+**:Unlabeled data typically falls under the category of "Unsupervised Learning" in the context of machine learning.
+Unsupervised learning is a type of learning where the data does not have predefined labels or categories. The goal
+is to explore the patterns, relationships, or structures within the data without any specific guidance.;
+** Labeled Data
+***[#pink] **Supervised Learning**
+**** Classification
+**** Regression
+** Unlabeled Data
+***[#pink] **Unsupervised Learning**
+**** Clustering
+**** Dimensionality Reduction
+**** Anomaly Detection
+**:This updated mindmap script reflects the distinction between labeled data used in supervised learning tasks and unlabeled data used
+in unsupervised learning tasks. Unsupervised learning algorithms aim to discover patterns, groupings, or anomalies in the data without
+relying on predefined labels.;
+
+*:The distinction between labeled and unlabeled data is primarily used in the field of machine learning, where it plays a crucial role
+ in the training and development of models. However, the concept of labeled and unlabeled data can also be relevant in other disciplines
+  that involve data analysis and pattern recognition. Here are a few examples:
+
+  **Data Mining:** Data mining is a field that focuses on discovering patterns, relationships, and insights from large datasets.
+  In data mining, labeled data is often used for supervised learning tasks, while unlabeled data can be utilized for
+  unsupervised learning tasks such as clustering or anomaly detection.
+
+  **Statistics:** In statistics, labeled data is commonly used for statistical modeling, hypothesis testing, and regression analysis.
+   Unlabeled data, on the other hand, can be explored using techniques like **exploratory data analysis or clustering** to gain insights
+    into the underlying structure of the data.
+
+  **Natural Language Processing (NLP):** In NLP, labeled data is often required for tasks like sentiment analysis, named entity recognition,
+   or text classification. Unlabeled data can be utilized for tasks such as topic modeling or word embeddings, where the goal is to uncover
+    latent patterns or representations in text.
+
+  While the terminology may vary across disciplines, the fundamental idea of distinguishing between labeled and unlabeled data remains
+  applicable in various fields that involve data analysis, modeling, and pattern recognition.;
 
 *[#red] Lecture-1 Part-3: **Sampling Techniques: How to Develop a __random Sample__**
 

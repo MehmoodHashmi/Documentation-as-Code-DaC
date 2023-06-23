@@ -1,0 +1,56 @@
+@startmindmap
+title =__ XML (eXtensible Markup Language)__
+
+* XML (eXtensible Markup Language)
+** Markup Language for Structured Data
+**[#pink] Hierarchical Structure
+*** Elements
+**** Start Tag <tag>
+**** End Tag </tag>
+**** Content between Tags
+*** Attributes
+**** Key-Value Pairs within Tags
+**** Attribute Values in Quotes
+** Well-Formedness Rules
+*** Nesting and Hierarchy
+*** Tag Naming Conventions
+*** Proper Closure of Tags
+**[#pink] Document Type Definition (DTD)
+*** Defines Structure and Validity
+*** Element Declarations
+*** Attribute Declarations
+*** Entity Definitions
+**[#pink] XML Schema (XSD)
+*** Specifies Structure and Data Types
+*** Complex Types and Simple Types
+*** Element and Attribute Constraints
+**[#pink] Namespaces
+*** Prevents Naming Conflicts
+*** Qualify Element and Attribute Names
+*** Defined with Namespace URI
+**[#pink] Example
+*** <person>
+***   <name>John Doe</name>
+***   <age>30</age>
+***   <isStudent>false</isStudent>
+***   <address>
+***     <street>123 Main St</street>
+***     <city>New York</city>
+***     <country>USA</country>
+***   </address>
+***   <interests>
+***     <interest>programming</interest>
+***     <interest>reading</interest>
+***     <interest>music</interest>
+***   </interests>
+*** </person>
+** Common Usage
+*** Data Exchange and Interoperability
+*** Document Storage and Retrieval
+*** Configuration Files
+** Tools and Libraries
+*** Parsing and Processing
+**** DOM (Document Object Model)
+**** SAX (Simple API for XML)
+**** JAXB (Java Architecture for XML Binding)
+@endmindmap

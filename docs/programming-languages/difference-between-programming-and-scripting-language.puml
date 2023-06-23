@@ -1,0 +1,63 @@
+@startmindmap
+title = __Accidental and Essential Complexity__
+
+*:The difference between a programming language and a scripting language can be a bit blurry, as there is often overlap between the two. However, there are some general distinctions that can help differentiate them:
+
+  **1. Execution Environment:** One key difference is the execution environment. Programming languages are typically compiled into machine code or bytecode before execution,
+  and the resulting program is run directly by the operating system or a virtual machine. Scripting languages, on the other hand, are usually interpreted at runtime, with the
+   code being executed line by line without prior compilation.
+
+  **2. Application Domain:** Programming languages are often used for developing complex software applications, system software, and large-scale projects. They provide more
+   control and efficiency and are suited for building applications that require performance optimization. Scripting languages, on the other hand, are often used for
+   automating tasks, gluing components together, or performing smaller-scale tasks. They are typically more focused on ease of use and quick prototyping.
+
+  **3. Language Syntax and Features:** Programming languages tend to have stricter syntax rules and more advanced features for managing memory, handling complex
+  data structures, and providing low-level control over hardware resources. Scripting languages, on the other hand, often have more flexible and forgiving syntax,
+   emphasizing readability and ease of use. They may have built-in high-level abstractions and libraries for common tasks, simplifying development.
+
+  **4. Development Process:** Programming languages are often associated with large-scale software development processes, involving modularization,
+  testing, and version control. They typically have development environments and tools that support these processes. Scripting languages, on the other hand, are
+   often used for quick scripting or small-scale projects that don't require extensive development processes. They are commonly used for scripting tasks in
+   system administration, web development, and automation.
+
+  It's worth noting that these distinctions are not absolute, and many programming languages can also be used for scripting purposes, and vice versa.
+  The boundaries between programming and scripting languages have become blurred over time, with the emergence of languages that can be used in both contexts.
+
+  Ultimately, the choice of language depends on the specific requirements of the task at hand, the desired level of control and performance, the available libraries
+   and frameworks, and the developer's familiarity and preference.; Accidental and Essential Complexity;
+
+* Programming Language vs Scripting Language
+** Execution Environment
+*** Programming Language
+**** Compiled into machine code or bytecode
+**** Executed directly by the operating system or a virtual machine
+*** Scripting Language
+**** Interpreted at runtime
+**** Code executed line by line without prior compilation
+** Application Domain
+*** Programming Language
+**** Used for complex software applications and large-scale projects
+**** Suited for performance optimization and system software
+*** Scripting Language
+**** Used for automating tasks and gluing components together
+**** Suited for smaller-scale tasks and quick prototyping
+** Language Syntax and Features
+*** Programming Language
+**** Stricter syntax rules and advanced features
+**** More control over memory, complex data structures, and hardware resources
+*** Scripting Language
+**** More flexible and forgiving syntax
+**** Readability and ease of use emphasized
+** Development Process
+*** Programming Language
+**** Modularization, testing, and version control emphasized
+**** Support for large-scale software development processes
+*** Scripting Language
+**** Quick scripting or small-scale projects
+**** Less emphasis on extensive development processes
+** Examples
+*** Programming Languages
+**** Java, C++, Python, Ruby, etc.
+*** Scripting Languages
+**** Bash, JavaScript, Perl, PHP, etc.
+@endmindmap

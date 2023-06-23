@@ -1,0 +1,80 @@
+@startmindmap
+skinparam node {
+    FontStyle italic
+}
+
+title =__Finding the Center of a Data Set. Mean, Median, Mode__
+
+*[#red] Lecture-3 Part-1: **Finding the Center of a Data Set. Mean, Median, Mode**
+** we are on Chapter-3 and will study **describing data**
+
+
+* **5-Characteristics of describing data**
+** **1- Center**
+** **2- Variation**
+** **3- Distribution** (data is normally distributed or not)
+** **4- Outlier** (if there are outlier in the data)
+*** 1,2,3,4,5,6,7,8,9,10,11,12, **300**, Actually this **300 is outlier**
+** **5- Any changes over time**
+
+
+* **1- Center**
+** **Definition:** What's happening most often, by what value\n data is mostly surrounded OR The **middle** of the data set
+*** **3-ways to find __center__:**
+**** **1- Mean:** is Arithmetic average, add all the values and divide the by the total number\n of values you added\n<img:images/img_12.png>
+***** **Mean** is affected by the **outliers** data
+**** **2- Median:** is the \n**middle value** of the  **data set**
+***** **data:** must be in **order,** otherwise your **middle number** \nwill not necessarily be the middle of your **data set**
+***** **Median** is not affected by the **outliers** data
+***** find middle value
+******[#pink] 2-cases:
+******* **even** number of data values:
+******** **Median** is the **mean** of two middle numbers after the data values are in order\ne.g. 1,2, **3, 4**,5,6 Here (3+4)/2 is median
+******* **odd** number of data values:
+******** **Median** is the middle number after the data values are in order\ne.g. 1,2, **3,** 4,5 Here 3 is median
+**** **3- Mode:** Most commonly occurring data value. e.g. 1, 2 ,2, **3,3,3,** 4,5,6. In this example **mode is 3.**
+**** __Making up frequency distributions__ and __calculating the mean of those frequency distributions__ and calculating the mean of weighted distributions
+****[#gold] **skewed:**
+***** **skewed right:** meaning most** outliers** exists on right side of graph\n<img:images/img_13.png>
+***** **skewed left:** meaning most **outliers** exists on left side of graph\n<img:images/img_14.png>
+***** **Normal:** not bad data \n<img:images/img_15.png>
+****** **Empirical Rule:** if a **data set** is **normally distributed,** \nonly then we can use the **empirical rule**
+*******:**Definition:** if a **data set** is **normally distributed,** then:
+* **68%** of the **data** will fall within **(one or 1)** standard deviation of the **mean**
+* **95%** of the **data** will fall within **(tow or 2)** standard deviation of the **mean**
+* **99.7%** of the **data** will fall within **(three or 3)** standard deviation of the **mean**;
+*******[#pink]:if a **data value** is within **(tow or 2)** standard deviation of the **mean**, that is
+considered **"usual"**, any **data value** outside of the **(tow or 2)** standard deviation
+will be considered as **"unusual"**;
+*******[#gold]:A **data value** outside of **(three or 3)** standard deviation of the **mean**,is very **rare**
+**Example:**
+<img:images/img_19.png>;
+
+
+*[#red] Lecture-3 Part-2: **Finding the Center of a Data Set. Mean, Median, Mode**
+**[#red] Lecture-3 Part-3: **Finding the Standard Deviation of a Data Set**
+
+
+* **2- Variations**
+** **Definition:** how data is spread apart
+** **3- ways to Measure Variations:**
+*** **1- Range:**
+**** **Max Value - Min value**
+**** **easy to find**
+**** **but bad thing is does not considers all values**
+***[#pink] **2- Standard deviation:** standard means average \nand deviation means (how far away it is or deviates)
+****[#pink] **Definition:** measures the average distance your average data values/points from the mean.
+****[#pink] is **never negative**
+****[#pink] is **never zero** unless one thing happens that is all data values/entries are the same
+****[#pink] is **greatly affected** by the **outliers data or values**
+*****[#gold] **Closely grouped data:** will have a **small** standard deviation value
+*****[#gold] **Spread out data:** will have a **Large** standard deviation value
+****[#pink] **__sample standard deviation__** is **denoted by 's'** \n<img:images/img_16.png>
+****[#pink] **__Standard deviation for a population:__** \n<img:images/img_17.png>
+
+
+***[#pink] **3- Variance:**
+****[#pink] **Definition:** **Variance** is inherently based on the **standard deviation**, its the **number** you calculated just before taking the **square root**
+****[#gold] **1- Sample Variance:** is **S** square \n<img:images/img_18.png>
+****[#gold] **2- Population Variance:**\n<img:images/img_18.png>
+@endmindmap

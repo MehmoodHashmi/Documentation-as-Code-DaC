@@ -1,0 +1,41 @@
+@startmindmap
+title =__ YAML (YAML Ain't Markup Language)__
+
+* YAML (YAML Ain't Markup Language)
+** Human-Readable Data Serialization Format
+**[#pink] Key-Value Pairs
+*** key: value
+**[#pink] Data Types
+*** Scalars
+**** String
+**** Number
+**** Boolean
+**** Null
+*** Collections
+**** Lists/Arrays
+**** Dictionaries/Maps
+*** Multi-Line Strings
+*** Anchors & References
+** Indentation-based Structure
+**[#pink] Example
+*** name: John Doe
+*** age: 30
+*** isStudent: false
+*** address:
+***   street: 123 Main St
+***   city: New York
+***   country: USA
+*** interests:
+***   - programming
+***   - reading
+***   - music
+** Common Usage
+*** Configuration Files
+*** Data Serialization
+*** Data Exchange in Web Development
+** Tools and Libraries
+*** Parsing and Serialization
+**** PyYAML (Python)
+**** YAML.NET (.NET)
+**** Jackson (Java)
+@endmindmap

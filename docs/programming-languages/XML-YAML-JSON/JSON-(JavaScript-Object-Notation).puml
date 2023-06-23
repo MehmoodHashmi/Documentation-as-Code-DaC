@@ -1,0 +1,41 @@
+@startmindmap
+title =__ JSON (JavaScript Object Notation)__
+
+* JSON (JavaScript Object Notation)
+** Lightweight Data Interchange Format
+**[#pink] Key-Value Pairs
+*** "key": value
+**[#pink] Data Types
+*** Number
+*** String
+*** Boolean
+*** Object
+*** Array
+*** Null
+**[#pink] Nested Structures
+*** Objects inside Objects
+*** Arrays inside Objects or Arrays
+**[#gold] **Example**
+***[#pink] {
+***   "name": "John Doe",
+***   "age": 30,
+***   "isStudent": false,
+***[#pink]   "address": {
+***     "street": "123 Main St",
+***     "city": "New York",
+***     "country": "USA"
+***[#pink]   },
+***   "interests": ["programming", "reading", "music"]
+***[#pink] }
+** Common Usage
+*** Data Exchange between Systems
+*** Configuration Files
+*** Web APIs (RESTful APIs)
+** Tools and Libraries
+*** Parsing and Serialization
+**** JSON.parse()
+**** JSON.stringify()
+*** JSON Schema Validation
+**** JSON Schema
+**** AJV, JSON.NET, Joi
+@endmindmap
