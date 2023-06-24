@@ -1,0 +1,48 @@
+@startmindmap
+title =__UML State Transition Diagram__
+
+* Main Topics *
+** States
+** Transitions
+** Events
+** Actions
+** Guards
+** Hierarchical States
+** History
+
+* States *
+** Initial State
+** Final State
+** Simple State
+** Composite State
+** Concurrent State
+** Submachine State
+
+* Transitions *
+** Event
+** Condition
+** Action
+
+* Events *
+** Internal Events
+** External Events
+
+* Actions *
+** Entry Actions
+** Exit Actions
+** Do Actions
+
+* Guards *
+** Conditional Expressions
+** Boolean Conditions
+
+* Hierarchical States *
+** Orthogonal Regions
+** Composite States
+** Substates
+
+* History *
+** Shallow History
+** Deep History
+
+@endmindmap

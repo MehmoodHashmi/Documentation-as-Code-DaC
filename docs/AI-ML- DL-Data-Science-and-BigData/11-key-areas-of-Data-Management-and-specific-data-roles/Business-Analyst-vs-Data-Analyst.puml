@@ -15,14 +15,14 @@ title =__ Business Analyst vs. Data Analyst__
 **** Business process modeling: BPMN, Visio
 ****[#pink] Data analysis: Excel, SQL, Tableau
 **** Collaboration: Slack, Microsoft Teams
-** Data Analyst
+** **Data Analyst**\n <img:images/img_2.png>
 *** Definition: Analyzes data to uncover insights, identify trends, and support data-driven decision-making within an organization.
 *** Skills
-**** Data manipulation: Cleans, transforms, and aggregates data for analysis.
-**** Statistical analysis: Applies statistical techniques to identify patterns and relationships in data.
-**** Data visualization: Presents data visually to communicate findings and insights.
-**** Data querying: Retrieves and analyzes data using SQL or other query languages.
-**** Data mining: Extracts useful information and patterns from large datasets.
+**** **Data manipulation:** Cleans, transforms, and aggregates data for analysis.
+**** **Statistical analysis:** Applies statistical techniques to identify patterns and relationships in data.
+**** **Data visualization:** Presents data visually to communicate findings and insights.
+**** **Data querying:** Retrieves and analyzes data using SQL or other query languages.
+**** **Data mining:** Extracts useful information and patterns from large datasets.
 ****[#pink] Domain knowledge: Understands the context and requirements of the data analysis.
 ***[#pink] Tools
 **** **Data manipulation:** Python (Pandas), R

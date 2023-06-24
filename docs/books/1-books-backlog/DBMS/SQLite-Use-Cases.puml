@@ -1,7 +1,8 @@
 @startmindmap
-title = SQLite Use Cases
 
-* SQLite:\n A lightweight relational \ndatabase management system.
+title = __SQLite Use Cases__
+
+* **SQLite:** A lightweight relational\n database management system.
 ** Database Management:\n Managing and organizing data in the database.
 *** Storing Data:\n Saving data in the database for later use.
 **** Client-Side Storage:\n Saving data on the client-side, such as in a mobile app.

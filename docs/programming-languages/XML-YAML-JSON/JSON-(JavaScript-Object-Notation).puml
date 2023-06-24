@@ -1,10 +1,10 @@
 @startmindmap
 title =__ JSON (JavaScript Object Notation)__
 
-* JSON (JavaScript Object Notation)
+* **JSON (JavaScript Object Notation)** \n<img:img.png>
 ** Lightweight Data Interchange Format
 **[#pink] Key-Value Pairs
-*** "key": value
+***[#gold] **"key": value**
 **[#pink] Data Types
 *** Number
 *** String

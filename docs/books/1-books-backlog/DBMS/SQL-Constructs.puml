@@ -5,7 +5,7 @@ title This mindmap covers the four main categories of SQL constructs: Data Defin
 
 
 
-* SQL Constructs
+* **SQL Constructs** \n<img:images/sql-joins.png> \n\n **sql-cheatsheet**\n<img:images/img_1.png>
 **[#yellow] **Data** <color #118888>**Definition**</color> Language **(DDL)**\nis related to **schema** of **database**\nthe **structure** of the database e.g.\nFK, PK , null, not null, compound\nprimary key, column etc.\n\n**Schema has 3-levels:**\n1. conceptual model **(generic)**\n2. logical model\n3. physical model **(specific)**
 *** CREATE
 **** TABLE

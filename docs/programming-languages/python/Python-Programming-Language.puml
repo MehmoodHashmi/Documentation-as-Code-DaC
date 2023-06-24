@@ -9,9 +9,9 @@ skinparam connector {
     LineColor DarkGray
 }
 
-title =__ Python Programming Language__
+title =__ Python Programming Language__\n<img:python_cheatsheet.png>
 
-* Python Programming Language
+* **Python Programming Language** \n<img:python_cheatsheet_1.png>
 
 ** Overview
 *** General-purpose, high-level programming language

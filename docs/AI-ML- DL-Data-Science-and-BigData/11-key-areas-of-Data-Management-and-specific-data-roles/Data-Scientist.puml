@@ -1,0 +1,53 @@
+@startmindmap
+title =__ Data Scientist__ \n<img:images/img_5.png>
+
+* **[[https://www.youtube.com/watch?v=P8qJ7kqbkIk&ab_channel=ITkFunde]]**
+
+* **Main Responsibilities** \n<img:images/img_3.png>
+** Data Analysis
+** Machine Learning
+** Data Visualization
+** Statistical Modeling
+** Data Cleaning and Preprocessing
+** Feature Engineering
+** Predictive Analytics
+** Experiment Design and A/B Testing
+** Data Mining
+** Communication and Presentation of Findings
+
+* **Skills** \n<img:images/img_6.png>
+** Programming (Python, R, SQL)
+** Statistics and Mathematics
+** Machine Learning Algorithms
+** Data Manipulation and Analysis (Pandas, NumPy)
+** Data Visualization (Matplotlib, Seaborn, Tableau)
+** Big Data Technologies (Hadoop, Spark)
+** Deep Learning (TensorFlow, PyTorch)
+** Natural Language Processing
+** Experimental Design and A/B Testing
+**[#pink] **Domain Knowledge**
+
+* Tools and Technologies
+** Python
+** R
+** SQL
+** Jupyter Notebook
+** Anaconda
+** TensorFlow
+** PyTorch
+** Hadoop
+** Spark
+** Tableau
+** Git
+
+* Knowledge Areas \n<img:images/img_7.png>
+** Data Science and Analytics
+** Statistical Analysis
+** Machine Learning
+** Data Visualization
+** Database Systems
+** Big Data Technologies
+**[#pink] **Business Domain Knowledge**
+** Programming and Scripting
+
+@endmindmap
