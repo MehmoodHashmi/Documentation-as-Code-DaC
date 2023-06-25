@@ -104,7 +104,8 @@ in-spite of this the **coefficient of variation = 4.6%** is larger;
 <img:images/img_25.png>
 
 <size:22> A **Z-Score** between -2 and 2 is considered as **"usual"**
-<size:22> A **Z-Score** less than -2 or greater than 2 is considered as **"unusual"**;
+<size:22> A **Z-Score** less than -2 or greater than 2 is considered as **"unusual"**
+<size:22> The larger the **Z-Score**, in terms of **absolute value;** the **rare** your piece of **data**;
 
 ** =**3- ways to Measure Variations:**
 *** **1- Range:**
