@@ -6,11 +6,11 @@ skinparam node {
 title =__The-Key-Words-and-Definitions-For-Elementary-Statistics__
 
 *[#red] Lecture-1 Part-1: **The-Key-Words-and-Definitions-For-Elementary-Statistics**
-* **Data**
+* =**Data**
 ** When we are talking about the **data** in this class (statistics lectures) that means **observations**
 ** **Definition:** Any **observations** that have been collected
 
-* **Statistics**
+* =**Statistics**
 ** Collect data
 ***[#pink] You have to collect the data appropriately, so that your data is not **biased data**
 ***:*If you Collect data and do not know what to do with it, then it's **wasted time and useless data.**
@@ -21,18 +21,18 @@ title =__The-Key-Words-and-Definitions-For-Elementary-Statistics__
 ** Interpret data
 ** And draw conclusions from data
 
-* **Population**
+* =**Population**
 ** Complete set of all elements to be studied (OR being studied)
 ** **Is it necessary to study each element of the set? No**
 
-*[#pink] **Parameter and statistic**
+*[#pink] =**Parameter and statistic**
 ** **Parameter:** Characteristic (trait) of a **Population**
 ** **Statistic:** Characteristic (trait) of a **Sample**
 **:**Example:** These two **(parameter and statistic) could be talking about the same thing.** It just depends on what **group (population or sample)** you are referring.
 E.g. if you find out that everybody's hair color in America is blond then it's **parameter**, everybody's hair color is blond. This will be characteristic of entire population.
 __But if you take a **sample** from the **population** and then talk those **characteristics** then we refer them as **statistics**__;
 
-* **Sample**
+* =**Sample**
 ** is generally smaller than **population** OR **sample** is some subset of the **population**
 **[#pink] **Statistics** generally deals with the **samples**
 ***[#pink] **Population** is usually too big or huge for you to get any information in a timely manner
@@ -45,16 +45,16 @@ __But if you take a **sample** from the **population** and then talk those **cha
 
 
 *[#red] Lecture-1 Part-2: **Exploring Categories of Data, and levels of Measurement**
-*[#pink] **Types of data**
-**[#gold] **1. Qualitative Data (is categorical)**
+*[#pink] =**Types of data**
+**[#gold] ==**1. Qualitative Data (is categorical)**
 *** **Definition:** Data that is **Non-Numeric**
 *** **Examples:** Gender, Color, Race, Religion, Ethnicity, Army Rank, Zip Code (some **data** like **zip code** might have numbers in them but still they are **Quantitative**)
 *** **Math operations** are **meaningless on Qualitative data** (or categorical data), you can't add, subtract, multiply, divide qualitative data
-**[#gold] **2. Quantitative Data**
+**[#gold] ==**2. Quantitative Data**
 *** **Definition:** its **numerical** data
 *** **Examples:** Height, weight, wages, MPH (miles per hour), Temperature, Time
 *** **Math operations** are **meaningful on Quantitative data**, you can add, subtract, multiply, divide **quantitative data**
-***[#lime] **2-Types of Quantitative Data**
+***[#lime] ==**2-Types of Quantitative Data**
 ****[#crimson] **1. Discrete Data**
 ***** **Definition:** **Countable OR finite** (meaning there are only certain number of elements/values you can pick from)
 ***** **Example:** does a chicken lays half eggs, would you like to buy half watching machines, rolling a dice, etc.
@@ -66,7 +66,7 @@ __But if you take a **sample** from the **population** and then talk those **cha
 ***** Usually a **__Measurement__**
 ****** Measurements are not easy, depends on tool used and how specific you want to be
 
-* **4-Levels of Measurement**
+* ===**4-Levels of Measurement**
 **[#white] **1- Nominal Level/Data**
 *** **Definition:** Can be **categorized** but **__not__ ordered**
 *** **Example:** Religion, Race, etc.
@@ -100,7 +100,7 @@ something on the scale). So, <color #lime>**Temperature**</color>  does not have
 **"Natural Zero"**;
 *** **Example:** Bank balance, Age, etc.\n are **ratio data** But not --**temperature**--
 
-* **Levels of Measurement**\n\tby Chatgpt3
+* =**Levels of Measurement**\n\tby Chatgpt3
 ** Nominal
 *** **Categories or labels**
 ***[#pink] No inherent order or magnitude
@@ -121,7 +121,7 @@ something on the scale). So, <color #lime>**Temperature**</color>  does not have
 *** Meaningful zero point
 *** **Examples:** Height, Weight, Income, Time
 
-* Categories of Data and Learning
+* =Categories of Data and Learning
 **:Unlabeled data typically falls under the category of "Unsupervised Learning" in the context of machine learning.
 Unsupervised learning is a type of learning where the data does not have predefined labels or categories. The goal
 is to explore the patterns, relationships, or structures within the data without any specific guidance.;
@@ -159,20 +159,20 @@ relying on predefined labels.;
 
 *[#red] Lecture-1 Part-3: **Sampling Techniques: How to Develop a __random Sample__**
 
-* **Observation vs Experiment**
+* =**Observation vs Experiment**
 ** Definition
 *** **Observation:** Collecting data by observing natural phenomena without manipulating any variables.
 *** **another Observation definition:** Measure specific traits but does not modify the subject.
 *** **Experiment:** A systematic and controlled procedure performed to test a hypothesis by manipulating variables and collecting data.
 *** **another Experiment definition:** Apply **treatment** and then measure the effect on the **subject.**
 
-* **Random**
+* =**Random**
 ** **Definition:** **each member** of a **population** has an equal chance of being selected in a **sample**
 
-* **Simple Random Sample**
+* =**Simple Random Sample**
 ** **Definition:** **each group** of a **size 'm'** has an equal chance of being selected in a **sample**
 
-* **4-Common Sampling Techniques**
+* ==**4-Common Sampling Techniques**
 **[#pink] **Convenience Sample:** use the results that are easy to get (Not Random), so therefore its never used in conducting real observations or experiments
 **[#lime] **Systematic Sample:** put a population in order and select every "K" member
 **[#orange] **__Strata__fied Sample:** "Strata means layers", breaks the population into subgroups based on a characteristic, then sample **__each__** group

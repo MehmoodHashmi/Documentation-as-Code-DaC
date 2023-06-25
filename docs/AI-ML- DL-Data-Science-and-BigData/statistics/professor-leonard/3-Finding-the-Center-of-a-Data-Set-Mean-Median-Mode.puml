@@ -3,22 +3,22 @@ skinparam node {
     FontStyle italic
 }
 
-title =__Finding the Center of a Data Set. Mean, Median, Mode__
+title =__//Finding the Center of a Data Set. Mean, Median, Mode//__
 
 *[#red] Lecture-3 Part-1: **Finding the Center of a Data Set. Mean, Median, Mode**
 ** we are on Chapter-3 and will study **describing data**
 
 
-* **5-Characteristics of describing data**
+* <size: 22>**5-Characteristics of "describing" data**
 ** **1- Center**
 ** **2- Variation**
 ** **3- Distribution** (data is normally distributed or not)
 ** **4- Outlier** (if there are outlier in the data)
-*** 1,2,3,4,5,6,7,8,9,10,11,12, **300**, Actually this **300 is outlier**
+*** = 1,2,3,4,5,6,7,8,9,10,11,12, <size:22>**300**, </size>14,  Actually this **300 is outlier**
 ** **5- Any changes over time**
 
 
-* **1- Center**
+* =**1- Center**
 ** **Definition:** What's happening most often, by what value\n data is mostly surrounded OR The **middle** of the data set
 *** **3-ways to find __center__:**
 **** **1- Mean:** is Arithmetic average, add all the values and divide the by the total number\n of values you added\n<img:images/img_12.png>
@@ -27,42 +27,91 @@ title =__Finding the Center of a Data Set. Mean, Median, Mode__
 ***** **data:** must be in **order,** otherwise your **middle number** \nwill not necessarily be the middle of your **data set**
 ***** **Median** is not affected by the **outliers** data
 ***** find middle value
-******[#pink] 2-cases:
+******[#pink] =2-cases:
 ******* **even** number of data values:
 ******** **Median** is the **mean** of two middle numbers after the data values are in order\ne.g. 1,2, **3, 4**,5,6 Here (3+4)/2 is median
 ******* **odd** number of data values:
 ******** **Median** is the middle number after the data values are in order\ne.g. 1,2, **3,** 4,5 Here 3 is median
 **** **3- Mode:** Most commonly occurring data value. e.g. 1, 2 ,2, **3,3,3,** 4,5,6. In this example **mode is 3.**
 **** __Making up frequency distributions__ and __calculating the mean of those frequency distributions__ and calculating the mean of weighted distributions
-****[#gold] **skewed:**
+****[#gold] <size: 22>**skewed:**</size>
 ***** **skewed right:** meaning most** outliers** exists on right side of graph\n<img:images/img_13.png>
 ***** **skewed left:** meaning most **outliers** exists on left side of graph\n<img:images/img_14.png>
 ***** **Normal:** not bad data \n<img:images/img_15.png>
-****** **Empirical Rule:** if a **data set** is **normally distributed,** \nonly then we can use the **empirical rule**
-*******:**Definition:** if a **data set** is **normally distributed,** then:
-* **68%** of the **data** will fall within **(one or 1)** standard deviation of the **mean**
-* **95%** of the **data** will fall within **(tow or 2)** standard deviation of the **mean**
-* **99.7%** of the **data** will fall within **(three or 3)** standard deviation of the **mean**;
-*******[#pink]:if a **data value** is within **(tow or 2)** standard deviation of the **mean**, that is
-considered **"usual"**, any **data value** outside of the **(tow or 2)** standard deviation
-will be considered as **"unusual"**;
-*******[#gold]:A **data value** outside of **(three or 3)** standard deviation of the **mean**,is very **rare**
+******[#white] <size:22>**Empirical Rule:**</size> if a **data set** is **normally distributed,** \nonly then we can use the **empirical rule**\n<img:images/img_22.png>
+*******:==**Definition:** if a **data set** is **normally distributed,** then:
+* <size:16>**68%** of the **data** will <color #green>**fall within**</color> **one __standard deviation__** of the **mean**
+* <size:16>**95%** of the **data** will <color #green>**fall within**</color> **tow __standard deviation__** of the **mean**
+* <size:16>**99.7%** of the **data** will <color #green>**fall within**</color> **three __standard deviation__** of the **mean**
+<img:images/img_24.png>;
+
+
+*******[#pink]:If a **data value** is within **(tow or 2)** __standard deviation__ of the **mean**, that is
+considered <size:22>**"usual"**,</size> any **data value** outside of the **(tow or 2)** __standard deviation__
+will be considered as <size:22>**"unusual"**</size>;
+
+*******[#gold]:A **data value** outside of **(three or 3)** __standard deviation__ of the **mean**, is very <size:22>**rare.**</size>
 **Example:**
 <img:images/img_19.png>;
+
+*:=The __z-score__ can be perfectly found in a __normal distribution curve__ with no __left skew and right skew.__ The below image shows these curves.
+<img:images/img_23.png>;
 
 
 *[#red] Lecture-3 Part-2: **Finding the Center of a Data Set. Mean, Median, Mode**
 **[#red] Lecture-3 Part-3: **Finding the Standard Deviation of a Data Set**
+***[#red] Lecture-3 Part-4: **Finding Z-Score, Percentiles and Quartiles, and Comparing Standard Deviation**
 
 
-* **2- Variations**
-** **Definition:** how data is spread apart
-** **3- ways to Measure Variations:**
+* =**2- Variations**
+**:=**Definition:** how data is spread apart
+----
+We need to have some way to represent what have more spread.
+We have **two ways** to do it:
+
+# **Coefficient of variation**
+# **Z-score**
+==**OR**==
+=Measure of relative standing
+* **comparing measures** between or within the **data set/values**;
+
+***:<size:18>**1- Coefficient of variation:**</size> which translates __**standard deviation**__ <color #green>**comparison**</color> to its **mean** to a **percentage (%)**
+<img:images/img_20.png>
+It does not says **height** varies **4.6%** more than **weight**, it is just  a way to <color #lime>**compare**</color>
+__height and weight__.
+
+Observe, even though the number of **standard deviation** is smaller for the **height; s=3,**
+in-spite of this the **coefficient of variation = 4.6%** is larger;
+
+***:<size:18>**2- Z-score:**</size> The number of **standard deviations** a **data value (x-axis)** is away from the **mean**
+= [[https://medium.com/pythoneers/z-distribution-or-z-score-application-in-machine-learning-fbba081cd9fe]]
+<img:images/img_21.png>
+* allows comparison of the variation in two different samples or population
+=When you questions like: who is relatively:
+* taller
+* longer
+* larger
+* heavier
+* lighter
+* etc.
+=Use Z-Score for populations
+====
+<size:19>The process of converting **raw observations** into Z-score is also called as **standardization or normalization.**
+<size:19>When the **mean and standard deviation** of a **data set** are known, it is easy to convert them into **Z-score** for
+<size:19>that particular sample or population. The figure below represents different values of Z-scores. Note that Z = +1
+<size:19>represents that the observation is 1 standard deviation away from mean in the positive direction. In the same
+<size:19>way, Z=-1 represents that the observation is 1 standard deviation away from mean in the negative direction.
+<img:images/img_25.png>
+
+<size:22> A **Z-Score** between -2 and 2 is considered as **"usual"**
+<size:22> A **Z-Score** less than -2 or greater than 2 is considered as **"unusual"**;
+
+** =**3- ways to Measure Variations:**
 *** **1- Range:**
 **** **Max Value - Min value**
 **** **easy to find**
 **** **but bad thing is does not considers all values**
-***[#pink] **2- Standard deviation:** standard means average \nand deviation means (how far away it is or deviates)
+***[#pink] =**2- Standard deviation:** \n**standard** means average and\n**deviation** means (how far away it is or deviates)
 ****[#pink] **Definition:** measures the average distance, your average data values/points from the mean.
 ****[#pink] is **never negative**
 ****[#pink] is **never zero** unless one thing happens that is all data values/entries are the same

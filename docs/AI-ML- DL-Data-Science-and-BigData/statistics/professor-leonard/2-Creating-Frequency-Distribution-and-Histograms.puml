@@ -10,7 +10,7 @@ title =__Creating Frequency Distribution and Histograms__
 **:In chapter 2 we get away from how we collect the data (chapter-1 talks about how we collect the data),
 **__and now we move on how we organize data and then eventually how to summarize data__**;
 
-* **Frequency Distribution**
+* =**Frequency Distribution**
 ** **Definition:** A  __list of values__ with corresponding **frequencies**
 ** **Class Width:** Difference between two **"lower class limits"**\n<img:images/img_5.png>
 *** **"lower class limit":** smallest value belonging to a __class__ **(group)**
@@ -37,8 +37,8 @@ create the lower class limits first!;
 *** **Not Normal Data/distribution:** \n<img:images/img_9.png>
 **** **Not Normal Data/distribution:** \n<img:images/img_10.png>
 
-* **Histogram**\n<img:images/img_11.png>
-** touching bar chart
+* =**Histogram**\n<img:images/img_11.png>
+** =touching bar chart
 ***[#pink] **Horizontal:** here put class midpoints or boundaries
 ***[#pink] **Vertical:** put here frequencies or relative frequencies
 

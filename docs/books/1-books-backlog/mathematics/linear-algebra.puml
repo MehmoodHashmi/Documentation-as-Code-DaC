@@ -6,17 +6,17 @@ title **Key Takeaways from "Linear Algebra" by Gilbert Strang"**
 ** **Vector Spaces***
 *** Vector spaces are collections of vectors that satisfy certain axioms, such as closure under addition and scalar multiplication.
 *** Vector spaces provide a powerful tool for understanding the properties of sets of data and for developing efficient algorithms for manipulating them.
-*** Examples of vector spaces include Euclidean space, function spaces, and solution spaces of linear equations.
+*** **Examples:** of vector spaces include Euclidean space, function spaces, and solution spaces of linear equations.
 
 ** **Linear Transformations***
 *** Linear transformations are functions that map one vector space to another in a way that preserves certain properties, such as linearity and continuity.
 *** Linear transformations provide a powerful tool for understanding and analyzing the behavior of systems in a wide range of fields.
-*** Examples of linear transformations include rotations, translations, and reflections.
+*** **Examples:** of linear transformations include rotations, translations, and reflections.
 
 ** **Matrices***
 *** Matrices are rectangular arrays of numbers that can be used to represent and manipulate sets of data in a compact and efficient way.
 *** Matrices can be used to perform a wide range of operations, including solving systems of linear equations, finding eigenvalues and eigenvectors, and computing determinants.
-*** Examples of matrices include identity matrices, diagonal matrices, and symmetric matrices.
+*** **Examples:** of matrices include identity matrices, diagonal matrices, and symmetric matrices.
 
 ** **Eigenvalues and Eigenvectors***
 *** Eigenvalues and eigenvectors are important concepts in linear algebra that are used to describe the behavior of linear transformations.
