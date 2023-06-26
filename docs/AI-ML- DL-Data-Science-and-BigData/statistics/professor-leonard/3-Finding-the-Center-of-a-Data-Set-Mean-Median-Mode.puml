@@ -29,9 +29,9 @@ title =__//Finding the Center of a Data Set. Mean, Median, Mode//__
 ***** find middle value
 ******[#pink] =2-cases:
 ******* **even** number of data values:
-******** **Median** is the **mean** of two middle numbers after the data values are in order\ne.g. 1,2, **3, 4**,5,6 Here (3+4)/2 is median
+******** **Median** is the **mean** of two middle numbers after the data values are in order\ne.g. 1,2, <size:22>**3, 4**,</size>5,6 Here **(3+4)/2** is median
 ******* **odd** number of data values:
-******** **Median** is the middle number after the data values are in order\ne.g. 1,2, **3,** 4,5 Here 3 is median
+******** **Median** is the middle number after the data values are in order\ne.g. 1,2, <size:22>**3**,</size> 4,5 Here 3 is median
 **** **3- Mode:** Most commonly occurring data value. e.g. 1, 2 ,2, **3,3,3,** 4,5,6. In this example **mode is 3.**
 **** __Making up frequency distributions__ and __calculating the mean of those frequency distributions__ and calculating the mean of weighted distributions
 ****[#gold] <size: 22>**skewed:**</size>
@@ -103,9 +103,9 @@ in-spite of this the **coefficient of variation = 4.6%** is larger;
 <size:19>way, Z=-1 represents that the observation is 1 standard deviation away from mean in the negative direction.
 <img:images/img_25.png>
 
-<size:22> A **Z-Score** between -2 and 2 is considered as **"usual"**
-<size:22> A **Z-Score** less than -2 or greater than 2 is considered as **"unusual"**
-<size:22> The larger the **Z-Score**, in terms of **absolute value;** the **rare** your piece of **data**;
+<size:22>A **Z-Score** between -2 and 2 is considered as **"usual"**
+<size:22>A **Z-Score** less than -2 or greater than 2 is considered as **"unusual"**
+<size:22>The larger the **Z-Score**, in terms of **absolute value;** the **rare** your piece of **data**;
 
 ** =**3- ways to Measure Variations:**
 *** **1- Range:**
@@ -128,6 +128,18 @@ in-spite of this the **coefficient of variation = 4.6%** is larger;
 ****[#gold] **1- Sample Variance:** is **S** square \n<img:images/img_18.png>
 ****[#gold] **2- Population Variance:**\n<img:images/img_18.png>
 
+* =Quartiles
+**:it is very similar to the idea of a **median**. A median breaks your data right in the middle, that's why it is called the median
+= Quartiles:
+breaks your data every **quarter**, same basic idea as the median but there are three of them instead of one of them (the median);
+** =First Quartile (Q-1):
+*** represents **bottom 25%** of **sorted** data
+** =Second Quartile (Q-2):
+*** =Second Quartile (Q-2) and __Median__ both are same, and represents bottom 50% of **sorted** data
+** =Third Quartile (Q-3):
+*** represents **bottom 75%** of **sorted** data
 
+* =Percentiles
+** Separates data into 100 parts, Therefore, there are 99 percentiles
 
 @endmindmap
