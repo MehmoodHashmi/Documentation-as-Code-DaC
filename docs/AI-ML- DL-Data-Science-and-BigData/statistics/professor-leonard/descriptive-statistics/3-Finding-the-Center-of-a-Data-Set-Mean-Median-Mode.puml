@@ -5,7 +5,7 @@ skinparam node {
 
 title =__//Finding the Center of a Data Set. Mean, Median, Mode//__
 
-*[#red] Lecture-3 Part-1: **Finding the Center of a Data Set. Mean, Median, Mode**
+*[#red] =Lecture-3 Part-1: **Finding the Center of a Data Set. Mean, Median, Mode**
 ** we are on Chapter-3 and will study **describing data**
 
 
@@ -54,7 +54,7 @@ will be considered as <size:22>**"unusual"**</size>;
 **Example:**
 <img:images/img_19.png>;
 
-*:=The __z-score__ can be perfectly found in a __normal distribution curve__ with no __left skew and right skew.__ The below image shows these curves.
+*:=The __<color #brown>z-score</color>__ can be perfectly found in a __normal distribution curve__ with no __left skew and right skew.__ The below image shows these curves.
 <img:images/img_23.png>;
 
 
@@ -128,7 +128,7 @@ in-spite of this the **coefficient of variation = 4.6%** is larger;
 ****[#gold] **1- Sample Variance:** is **S** square \n<img:images/img_18.png>
 ****[#gold] **2- Population Variance:**\n<img:images/img_18.png>
 
-* =Quartiles
+*[#red] =Quartiles
 **:it is very similar to the idea of a **median**. A median breaks your data right in the middle, that's why it is called the median
 = Quartiles:
 breaks your data every **quarter**, same basic idea as the median but there are three of them instead of one of them (the median);
@@ -139,7 +139,30 @@ breaks your data every **quarter**, same basic idea as the median but there are 
 ** =Third Quartile (Q-3):
 *** represents **bottom 75%** of **sorted** data
 
-* =Percentiles
-** Separates data into 100 parts, Therefore, there are 99 percentiles
+** =IQR (Inter Quartile Range)
+*** =IQR = Q3 - Q1 \n represents middle 50% of data
+*** = 5-Number Summary:\n<img:images/img_27.png>\n<img:images/img_28.png>
+**** =1- minimum (min)
+**** =2- Q1
+**** =3- Median
+**** =4- Q3
+**** =5- maximum (max)
+**** =Box Plot
 
+* =Box plot
+** <img:images/img_29.png>
+*** <img:images/img_30.png>
+
+
+* =Percentiles
+** Separates data into 100 parts, Therefore, there are 99 percentiles\n <img:images/img_26.png>
+** **Example:** lets say yuo <size:22> score 78 on a test/exam </size> and you want to figure out the percentile for the class, you should find out how many people did worse than you.
+
+
+* =Outlier
+**:=Given below is the method to find the outliers mathematically
+=Step-1: Find IQR, that is IQR = Q3- Q1
+=Step-2: <color #green>1.5</color> * (IQR) = ( ? )
+=Step-3: Q1 - <color #green>1.5</color> * (IQR)
+=Step-4: Q3 + <color #green>1.5</color> * (IQR);
 @endmindmap

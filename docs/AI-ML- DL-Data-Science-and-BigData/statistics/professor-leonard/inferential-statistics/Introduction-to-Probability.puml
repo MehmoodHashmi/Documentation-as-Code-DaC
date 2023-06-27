@@ -1,0 +1,65 @@
+@startmindmap
+skinparam node {
+    FontStyle italic
+}
+
+title =__//Introduction to Probability//__
+
+*[#red] =Lecture-4 Part-1: **Introduction to Probability**
+** =we have transitioned from descriptive statistics to inferential statistics
+
+
+*:I've studied probability and statistics without experiencing them. What's the difference? What are they trying to do?
+
+  This analogy helped:
+
+=__Probability__ is starting with an animal, and figuring out what footprints it will make.
+=__Statistics__ is seeing a footprint, and guessing the animal.
+<img:images/img_3.png>
+=https://betterexplained.com/articles/a-brief-introduction-to-probability-statistics/;
+
+**:<size:22>**Probability is straightforward:**</size> you have the bear. Measure the foot size, the leg length, and you
+can deduce the footprints. "Oh, Mr. Bubbles weighs 400lbs and has 3-foot legs, and will make tracks like this." More
+academically: "We have a fair coin. After 10 flips, here are the possible outcomes."
+
+<size:22>**Statistics is harder.**</size> We measure the footprints and have to guess what animal it could be.
+A bear? A human? If we get 6 heads and 4 tails, what're the chances of a fair coin?;
+
+* = basic vocabulary for inferential statistics
+
+
+* =Probability
+** ===it is basis for making decisions about our data, that's really what we will be doing
+** =Definition:
+*** low probability = **rare/un-usual** occurrences
+
+
+* =Event
+** =A collection of outcomes of a procedure \n<img:images/img.png>
+
+* =Procedure
+** =Definition
+*** What you are doing
+** =Example
+*** flip a coin 1 time, flip a coin 3 time, roll a die 1 time, roll a die 2 time
+
+
+* =Simple Event
+** a single outcome
+** <size:22>For example,</size> the probability of getting a <size:22>**3**</size> when a <size:22>**die**</size> is tossed. In the case of a **simple event,** the numerator (number of favourable outcomes) will be <size:22>**1**</size> .
+
+* =Sample Space
+** all simple events OR **all/every** possible outcomes
+
+*:<img:images/img_1.png>
+<img:images/img_2.png>
+# **Procedure:** what you are doing
+# **Event:** what you are looking for
+# **Simple Event**: what you will eventually get
+# **Sample Space**: is a collection of simple events
+
+when you flipped the coin **3 times,** and you were looking for **1-H and 2-T** event, then
+are **3-ways** through which this **event** can be accomplished, what you are looking for, but
+there are **8-simple events** that can occur;
+
+@endmindmap
