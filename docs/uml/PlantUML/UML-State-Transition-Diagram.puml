@@ -2,13 +2,13 @@
 title =__UML State Transition Diagram__
 
 * Main Topics *
-** States
-** Transitions
-** Events
-** Actions
-** Guards
-** Hierarchical States
-** History
+** =States
+** =Transitions
+** =Events
+** =Actions
+** =Guards
+** =Hierarchical States
+** =History
 
 * States *
 ** Initial State
