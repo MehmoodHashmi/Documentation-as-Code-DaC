@@ -43,7 +43,7 @@ title =__How to Choose a Graph in Data Science__\n<img:images/core_principles-of
 *** Choropleth map
 
 **[#pink] =**Data Distribution and Characteristics**
-*** Consider the distribution and characteristics of your data:
+*** Consider the distribution and characteristics\nof your data:
 **** Symmetric or skewed distribution
 **** Outliers
 **** Missing values
@@ -78,9 +78,9 @@ title =__How to Choose a Graph in Data Science__\n<img:images/core_principles-of
 **** Visualization frameworks (D3.js, Vega-Lite)
 
 ** =Iteration and Evaluation
-*** Iterate and evaluate different graph types and configurations to choose the most appropriate representation for your data and analysis goals.
+*** Iterate and evaluate different graph types and configurations to choose the most \nappropriate representation for your data and analysis goals.
 
 ** =Best Practices and Guidelines
-*** Follow best practices and guidelines for effective data visualization, such as simplifying visuals, providing clear labels and titles, using appropriate color schemes, and avoiding chartjunk.
+*** Follow best practices and guidelines for effective data visualization, such as simplifying visuals,\n providing clear labels and titles, using appropriate color schemes, and avoiding chartjunk.
 
 @endmindmap
