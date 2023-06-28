@@ -16,16 +16,16 @@ title =__ Pandas __\n This library is the basis for doing advance data analysis 
 *** - **Homogeneous data (e.g., all integers, all strings)**
 *** - Labels allow for easy data alignment
 
-* =**Data Manipulation**
-** =+ Data Cleaning
+*[#red] =**Data Manipulation**
+**[#lime] =+ Data Cleaning
 *** - Handling missing data (NaN values)
 *** - Dropping or filling missing values
 *** - Removing duplicates
-** =+ Data Transformation
+**[#lime] =+ Data Transformation
 *** - Filtering, sorting, and selecting data
 *** - Adding, deleting, or renaming columns
 *** - Applying functions to data
-** =+ Data Aggregation
+**[#lime] =+ Data Aggregation
 *** - Grouping data based on criteria
 *** - Calculating summary statistics (e.g., mean, median)
 *** - Applying custom aggregation functions
