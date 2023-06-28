@@ -5,64 +5,64 @@ title =__ Pandas __\n This library is the basis for doing advance data analysis 
 * **[[https://www.youtube.com/watch?v=vmEHCJofslg&ab_channel=KeithGalli]]**
 * **[[https://www.youtube.com/watch?v=YLg4vuIADnQ&ab_channel=DataMites]]**
 
-* **Data Structures**
-**[#pink] + **DataFrame**
+*[#red] =//**Data Structures**//
+**[#pink] =+ **DataFrame**
 *** - Two-dimensional **labeled data structure**\n <img:images/img.png>
 **** **Both libraries "Dask & pyspark"**\n**are built on top of "pandas"**
 *** **- Columns can have different types (e.g., numeric, string, datetime)**
 *** - Supports indexing and slicing operations
-**[#pink] + Series
+**[#pink] =+ Series
 *** - One-dimensional **labeled** data structure
 *** - **Homogeneous data (e.g., all integers, all strings)**
 *** - Labels allow for easy data alignment
 
-* **Data Manipulation**
-** + Data Cleaning
+* =**Data Manipulation**
+** =+ Data Cleaning
 *** - Handling missing data (NaN values)
 *** - Dropping or filling missing values
 *** - Removing duplicates
-** + Data Transformation
+** =+ Data Transformation
 *** - Filtering, sorting, and selecting data
 *** - Adding, deleting, or renaming columns
 *** - Applying functions to data
-** + Data Aggregation
+** =+ Data Aggregation
 *** - Grouping data based on criteria
 *** - Calculating summary statistics (e.g., mean, median)
 *** - Applying custom aggregation functions
 
-* **Data Input/Output**
-** + Reading and Writing Data
+* =**Data Input/Output**
+** =+ Reading and Writing Data
 *** - Reading data from various file formats (CSV, Excel, SQL, JSON, etc.)
 *** - Writing data to different formats
-** + Database Operations
+** =+ Database Operations
 *** - Connecting to databases
 *** - Executing SQL queries
 *** - Loading query results into DataFrames
 
-* **Data Analysis**
-** + Descriptive Statistics
+* =**Data Analysis**
+** =+ Descriptive Statistics
 *** - Calculation of summary statistics
 *** - Count, mean, median, standard deviation, etc.
 *** - Handling categorical data
-** + Data Visualization
+** =+ Data Visualization
 *** - Integration with Matplotlib for plotting
 *** - Line plots, bar charts, scatter plots, histograms, etc.
 *** - Customizable plotting options
-** + Time Series Analysis
+** =+ Time Series Analysis
 *** - Handling time-based data
 *** - Resampling, shifting, and window functions
 *** - Time-based plotting
 
-* **Advanced Features**
-** + Multi-Indexing
+* =**Advanced Features**
+** =+ Multi-Indexing
 *** - Hierarchical indexing for DataFrames
 *** - Working with multiple index levels
 *** - Slicing and querying based on multi-index
-** + Merging and Joining Data
+** =+ Merging and Joining Data
 *** - Combining DataFrames based on common columns
 *** - Inner, outer, left, and right joins
 *** - Merging on multiple columns
-** + Pivot Tables
+** =+ Pivot Tables
 *** - Aggregating and reshaping data
 *** - Grouping data and creating pivot tables
 *** - Handling missing values in pivot tables
