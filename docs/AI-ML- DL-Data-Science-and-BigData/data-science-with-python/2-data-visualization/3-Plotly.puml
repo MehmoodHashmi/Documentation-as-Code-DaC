@@ -3,7 +3,7 @@
 title =__ Plotly __
 
 * **Definition**
-** + Plotly
+** =+ Plotly
 *** - Python data visualization library for creating interactive and publication-quality plots
 *** - Supports a wide range of plot types, including scatter plots, line plots, bar plots, histograms, heatmaps, and more
 ***[#pink] - Provides interactive features like zooming, panning, hovering, and tooltips
@@ -11,17 +11,17 @@ title =__ Plotly __
 *** - Can be used both offline and online
 
 * **Key Concepts**
-** + Figure Objects
+** =+ Figure Objects
 *** - The central object in Plotly representing a plot or visualization
 *** - Contains data traces, layout settings, and optional annotations
 *** - Can be customized with various styling options
-** + Data Traces
+** =+ Data Traces
 *** - Represent individual data series or components in a plot
 *** - Each trace can have its own visualization settings, such as marker styles, line styles, and colors
-** + Layout Settings
+** =+ Layout Settings
 *** - Control the overall appearance and structure of the plot
 *** - Includes options like titles, axis labels, axis scales, legends, annotations, and more
-** + Plot Customization
+** =+ Plot Customization
 *** - Plotly provides extensive options for customizing the appearance and behavior of plots, such as:
 **** - Modifying colors, line styles, and marker styles
 **** - Adjusting axis limits, tick labels, and scales
@@ -30,43 +30,43 @@ title =__ Plotly __
 **** - Configuring interactive features like hover labels and tooltips
 
 * **Plot Types**
-** + Scatter Plots
-** + Line Plots
-** + Bar Plots
-** + Histograms
-** + Box Plots
-** + Heatmaps
-** + 3D Plots
-** + Maps and Geographical Plots
-** + Statistical Plots
-** + Subplots and Faceting
-** + Candlestick Charts
-** + Waterfall Charts
-** + Funnel Charts
-** + Polar Charts
-** + Gantt Charts
-** + Error Bars and Confidence Intervals
+** =+ Scatter Plots
+** =+ Line Plots
+** =+ Bar Plots
+** =+ Histograms
+** =+ Box Plots
+** =+ Heatmaps
+** =+ 3D Plots
+** =+ Maps and Geographical Plots
+** =+ Statistical Plots
+** =+ Subplots and Faceting
+** =+ Candlestick Charts
+** =+ Waterfall Charts
+** =+ Funnel Charts
+** =+ Polar Charts
+** =+ Gantt Charts
+** =+ Error Bars and Confidence Intervals
 
 * **Interactive Features**
-** + Zooming and Panning
-** + Hover Labels and Tooltips
-** + Click and Selection Events
-** + Custom Buttons and Controls
-** + Linked Views and Synchronization
-** + Animations and Transitions
-** + Embedding in Web Applications
+** =+ Zooming and Panning
+** =+ Hover Labels and Tooltips
+** =+ Click and Selection Events
+** =+ Custom Buttons and Controls
+** =+ Linked Views and Synchronization
+** =+ Animations and Transitions
+** =+ Embedding in Web Applications
 
 * **Integration and Deployment**
-** + Jupyter Notebook Integration
-** + Exporting Plots to Various Formats (PNG, PDF, SVG)
-** + Publishing and Sharing Plots Online
-** + Building Interactive Dashboards with Dash
+** =+ Jupyter Notebook Integration
+** =+ Exporting Plots to Various Formats (PNG, PDF, SVG)
+** =+ Publishing and Sharing Plots Online
+** =+ Building Interactive Dashboards with Dash
 
-* **Use Cases**
-** + Exploratory Data Analysis
-** + Interactive Data Visualizations
-** + Dashboards and Reports
-** + Web-based Applications
-** + Scientific and Engineering Visualizations
+*[#pink] =//**Use Cases**//
+** =+ Exploratory Data Analysis
+** =+ Interactive Data Visualizations
+** =+ Dashboards and Reports
+** =+ Web-based Applications
+** =+ Scientific and Engineering Visualizations
 
 @endmindmap

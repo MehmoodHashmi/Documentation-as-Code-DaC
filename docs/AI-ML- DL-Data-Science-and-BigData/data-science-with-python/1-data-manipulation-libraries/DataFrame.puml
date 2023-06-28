@@ -1,83 +1,83 @@
 @startmindmap
 
-title =__ DataFrame __
+title =//__ DataFrame __//
 
 * **Definition**
-** + Tabular Data Structure
+** =+ Tabular Data Structure
 *** - Two-dimensional labeled data
 *** - Rows and columns
 
-* **Features**
-** + Indexing
+*[#pink] =//**Features**//
+** =+ Indexing
 *** - Accessing and manipulating rows and columns
 *** - **Label-based** and **position-based** __indexing__
-** + Column Operations
+** =+ Column Operations
 *** - Adding, modifying, and deleting columns
 *** - Element-wise operations on columns
-** + Row Operations
+** =+ Row Operations
 *** - Adding, modifying, and deleting rows
 *** - Filtering rows based on conditions
-** + Aggregation and Grouping
+** =+ Aggregation and Grouping
 *** - Aggregating data using functions (sum, mean, count, etc.)
 *** - Grouping data based on one or more columns
-** + Joins and Merging
+** =+ Joins and Merging
 *** - Combining multiple DataFrames based on common columns
 *** - Inner join, outer join, left join, right join
-** + Sorting and Ordering
+** =+ Sorting and Ordering
 *** - Sorting DataFrame based on column values
 *** - Ascending and descending order
-** + Missing Data Handling
+** =+ Missing Data Handling
 *** - Handling and filling missing values
 *** - Dropping rows or columns with missing values
-** + Reshaping and Pivoting
+** =+ Reshaping and Pivoting
 *** - Changing the structure and orientation of the DataFrame
 *** - Pivoting based on column values
-** + Statistical Analysis
+** =+ Statistical Analysis
 *** - Calculating descriptive statistics
 *** - Correlation, covariance, percentiles
 
-* **Data Manipulation**
-** + Filtering and Subsetting
+*[#red] =**Data Manipulation**
+** =+ Filtering and Subsetting
 *** - Selecting rows and columns based on conditions
 *** - Subsetting DataFrame based on criteria
-** + Transformation
+** =+ Transformation
 *** - Applying functions to columns or rows
 *** - Creating new columns based on existing ones
-** + Merging and Concatenating
+** =+ Merging and Concatenating
 *** - Combining multiple DataFrames horizontally or vertically
 *** - Appending and concatenating DataFrames
-** + Pivoting and Melting
+** =+ Pivoting and Melting
 *** - Reshaping data between wide and long formats
 *** - Pivoting and melting DataFrames
 
-* **Data Cleaning**
-** + Handling Missing Data
+*[#red] =**Data Cleaning**
+** =+ Handling Missing Data
 *** - Identifying and dealing with missing values
 *** - Filling or removing missing data
-** + Data Formatting
+** =+ Data Formatting
 *** - Changing data types of columns
 *** - Formatting values (e.g., date, time)
-** + Handling Duplicates
+** =+ Handling Duplicates
 *** - Identifying and removing duplicate rows
 *** - Handling duplicate values in columns
-** + Renaming and Reordering
+** =+ Renaming and Reordering
 *** - Renaming columns and rows
 *** - Reordering columns
-** + Data Conversion
+** =+ Data Conversion
 *** - Converting data between different formats
 *** - Converting categorical data to numeric
 
-* **Data Analysis**
-** + Descriptive Statistics
+*[#red] =**Data Analysis**
+** =+ Descriptive Statistics
 *** - Calculating basic statistics (mean, median, etc.)
 *** - Summarizing data distribution
-** + Data Visualization
+** =+ Data Visualization
 *** - Creating plots and visualizations
 *** - Histograms, bar charts, line charts, etc.
-** + Aggregation and Grouping
+** =+ Aggregation and Grouping
 *** - Aggregating data based on one or more columns
 *** - Grouping data for analysis
-** + Statistical Testing
+** =+ Statistical Testing
 *** - Hypothesis testing and significance analysis
 *** - T-tests, ANOVA, chi-square tests
 

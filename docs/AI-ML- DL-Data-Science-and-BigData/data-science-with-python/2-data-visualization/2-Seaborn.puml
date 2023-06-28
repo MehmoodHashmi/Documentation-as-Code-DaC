@@ -3,20 +3,20 @@
 title =__ Seaborn __
 
 * **Definition**
-** + Seaborn
+** =+ Seaborn
 ***[#pink] **- Python data visualization library built on top of Matplotlib**
 *** - Provides a high-level interface for creating attractive and informative statistical graphics
 *** - Designed to work well with Pandas data frames
 *** - Offers a variety of built-in themes and color palettes
 
 * **Key Concepts**
-** + Figure Aesthetics
+** =+ Figure Aesthetics
 *** - Built-in themes that control the overall appearance of the plots
 *** - Themes include options like darkgrid, whitegrid, dark, white, and more
-** + Color Palettes
+** =+ Color Palettes
 *** - Predefined color schemes that can be applied to plots
 *** - Seaborn provides a wide range of color palettes to choose from
-**[#pink] **+ Plot Types**
+**[#pink] **=+ Plot Types**
 *** - Seaborn supports various statistical plots, including:
 ****[#pink] **- Distribution plots** (e.g., histograms, kernel density estimation)
 ****[#pink] **- Categorical plots** (e.g., bar plots, count plots)
@@ -24,7 +24,7 @@ title =__ Seaborn __
 ****[#pink] **- Regression plots** (e.g., linear regression, logistic regression)
 ****[#pink] **- Matrix plots** (e.g., heatmaps, cluster maps)
 ****[#pink] **- Time series plots** (e.g., line plots, point plots)
-** + Plot Customization
+** =+ Plot Customization
 *** - Seaborn provides options for customizing the appearance of plots, such as:
 **** - Changing plot colors and styles
 **** - Modifying axis labels and ticks
@@ -33,35 +33,35 @@ title =__ Seaborn __
 **** - Controlling plot grids and spines
 
 * **Built-in Plots**
-** + Histograms
-** + Kernel Density Estimation (KDE) plots
-** + Bar Plots
-** + Count Plots
-** + Box Plots
-** + Violin Plots
-** + Scatter Plots
-** + Line Plots
-** + Regression Plots
-** + Heatmaps
-** + Cluster Maps
-** + Pair Plots
-** + Facet Grids
+** =+ Histograms
+** =+ Kernel Density Estimation (KDE) plots
+** =+ Bar Plots
+** =+ Count Plots
+** =+ Box Plots
+** =+ Violin Plots
+** =+ Scatter Plots
+** =+ Line Plots
+** =+ Regression Plots
+** =+ Heatmaps
+** =+ Cluster Maps
+** =+ Pair Plots
+** =+ Facet Grids
 
 * **Statistical Functionality**
-** + Aggregation and Summarization
+** =+ Aggregation and Summarization
 *** - Seaborn provides functions to compute summary statistics of datasets
 *** - Functions like mean, median, percentiles, and more can be used with plots
-** + Grouping and Categorization
+** =+ Grouping and Categorization
 *** - Seaborn allows grouping data based on categorical variables
 *** - Functions like bar plots, count plots, and box plots can be grouped by categories
-** + Statistical Tests
+** =+ Statistical Tests
 *** - Seaborn integrates with other libraries to perform statistical tests on data
 *** - Functions like t-tests, ANOVA, correlation tests, and more are available
 
-* **Use Cases**
-** + Exploratory Data Analysis
-** + Visualizing Distributions and Relationships
-** + Statistical Modeling and Inference
-** + Presentations and Reports
+*[#pink] =//**Use Cases**//
+** =+ Exploratory Data Analysis
+** =+ Visualizing Distributions and Relationships
+** =+ Statistical Modeling and Inference
+** =+ Presentations and Reports
 
 @endmindmap

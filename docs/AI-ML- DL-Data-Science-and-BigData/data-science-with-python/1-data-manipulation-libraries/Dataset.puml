@@ -3,86 +3,86 @@
 title =__ Dataset __
 
 * **Definition**
-** + Collection of Data
+** =+ Collection of Data
 *** - A structured or unstructured collection of data points
 *** - Can be in various formats (CSV, JSON, database, etc.)
 
 * **Characteristics**
-** + Data Types
+** =+ Data Types
 *** - Numerical, categorical, text, etc.
 *** - Continuous or discrete values
-** + Variables
+** =+ Variables
 *** - Features or attributes that describe the data
 *** - Independent and dependent variables
-** + Observations
+**[#pink] =//+ Observations//
 *** - Individual data points or instances
 *** - Rows or records in a dataset
-** + Data Quality
+** =+ Data Quality
 *** - Completeness, accuracy, consistency
 *** - Handling missing or erroneous data
 
 * **Types of Datasets**
-** + Tabular Datasets
+** =+ Tabular Datasets
 *** - Structured data organized in rows and columns
 *** - Represented by DataFrames or database tables
-** + Time Series Datasets
+** =+ Time Series Datasets
 *** - Sequential data with timestamps
 *** - Trend analysis, forecasting
-** + Text Datasets
+** =+ Text Datasets
 *** - Unstructured text data
 *** - Natural language processing, sentiment analysis
-** + Image Datasets
+** =+ Image Datasets
 *** - Pixel-based images
 *** - Image classification, object detection
-** + Audio Datasets
+** =+ Audio Datasets
 *** - Audio waveforms
 *** - Speech recognition, audio classification
-** + Video Datasets
+** =+ Video Datasets
 *** - Sequence of frames
 *** - Video classification, activity recognition
 
 * **Data Preparation**
-** + Data Cleaning
+** =+ Data Cleaning
 *** - Handling missing values, duplicates, outliers
 *** - Data normalization, scaling
-** + Feature Engineering
+** =+ Feature Engineering
 *** - Creating new features from existing ones
 *** - Feature selection, dimensionality reduction
-** + Data Integration
+** =+ Data Integration
 *** - Combining multiple datasets
 *** - Data merging, concatenation
-** + Data Transformation
+** =+ Data Transformation
 *** - Encoding categorical variables
 *** - Data discretization, binning
-** + Data Splitting
+** =+ Data Splitting
 *** - Dividing the dataset into training and testing sets
 *** - Cross-validation
 
 *[#pink] **Exploratory Data Analysis (EDA)** e.g. using python **pandas library**
-** + Descriptive Statistics
+** =+ Descriptive Statistics
 *** - Summary statistics (mean, median, etc.)
 *** - Data distribution, measures of variability
-** + Data Visualization
+** =+ Data Visualization
 *** - Plots, charts, graphs
 *** - Histograms, scatter plots, box plots
-** + Correlation Analysis
+** =+ Correlation Analysis
 *** - Relationships between variables
 *** - Correlation matrices, heatmaps
-** + Data Profiling
+** =+ Data Profiling
 *** - Understanding the structure and characteristics of data
 *** - Data quality assessment
 
 * **Data Modeling and Analysis**
-** + Machine Learning
+** =+ Machine Learning
 *** - Building predictive models
 *** - Supervised and unsupervised learning
-** + Statistical Analysis
+** =+ Statistical Analysis
 *** - Hypothesis testing, significance analysis
 *** - Regression, ANOVA, chi-square tests
-** + Deep Learning
+** =+ Deep Learning
 *** - Neural networks and deep learning models
 *** - Image recognition, natural language processing
-** + Predictive Analytics
+** =+ Predictive Analytics
 *** - Forecasting future trends
 *** - Time series analysis, regression models
 

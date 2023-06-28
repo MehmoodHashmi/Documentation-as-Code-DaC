@@ -1,8 +1,8 @@
 @startmindmap
 title =__ggplot2 Library__ \n<img:images/img_3.png>
 
-* ggplot2 Library
-** **Core Concepts**
+* =ggplot2 Library
+** =//**Core Concepts**//
 *** **Data Layers:** Represents different types of data visualizations that can be added to a plot.
 **** **Geom Point:** Displays data points as individual points.
 **** **Geom Line:** Connects data points with lines.
@@ -51,7 +51,7 @@ title =__ggplot2 Library__ \n<img:images/img_3.png>
 **** **Theme_minimal:** Provides a minimalistic theme with no background and thin lines.
 **** **Theme_void:** Removes all backgrounds, gridlines, and axes.
 
-** Additional Features
+** =Additional Features
 *** **Legends:** Display information about the mapping of data variables to plot aesthetics.
 *** **Labels:** Add text labels to the plot to provide additional information.
 *** **Titles:** Specify titles for the plot and axes.

@@ -1,8 +1,8 @@
 @startmindmap
 title =__How to Select a Graph Type__\n<img:images/core_principles-of-data-visualization.png>
 
-* How to Select a Graph Type
-**[#pink] **Data Type**
+* =//How to Select a Graph Type//
+**[#pink] =**Data Type**
 ***[#gold] Determine the **type of data** you have:
 **** **Categorical**
 **** **Numerical**
@@ -10,7 +10,7 @@ title =__How to Select a Graph Type__\n<img:images/core_principles-of-data-visua
 **** **Textual**
 **** **Network**
 
-** Purpose
+** =//Purpose//
 *** **Identify the purpose of the graph:**
 **** Comparison
 **** Relationship
@@ -19,7 +19,7 @@ title =__How to Select a Graph Type__\n<img:images/core_principles-of-data-visua
 **** Trend
 **** Ranking
 
-** Relationship to Explore
+** =Relationship to Explore
 *** Determine the relationship or pattern you want to highlight:
 **** Correlation
 **** Proportion
@@ -29,7 +29,7 @@ title =__How to Select a Graph Type__\n<img:images/core_principles-of-data-visua
 **** Temporal patterns
 **** Connectivity
 
-** Data Characteristics
+** =Data Characteristics
 *** Consider the characteristics of your data:
 **** Data size
 **** Data complexity
@@ -38,7 +38,7 @@ title =__How to Select a Graph Type__\n<img:images/core_principles-of-data-visua
 **** Missing values
 **** Data granularity
 
-** Graph Types
+** =Graph Types
 *** Bar Chart
 *** Line Chart
 *** Scatter Plot
@@ -52,7 +52,7 @@ title =__How to Select a Graph Type__\n<img:images/core_principles-of-data-visua
 *** Radar Chart
 *** Choropleth Map
 
-** Visual Encoding
+** =Visual Encoding
 *** Choose appropriate visual encodings for your data:
 **** Position
 **** Length
@@ -63,23 +63,23 @@ title =__How to Select a Graph Type__\n<img:images/core_principles-of-data-visua
 **** Texture
 **** Opacity
 
-** Audience and Context
+** =Audience and Context
 *** Consider the audience and the context in which the graph will be presented:
 **** Technical or non-technical audience
 **** Presentation format (report, dashboard, presentation)
 **** Communication goals
 
-** Tools and Libraries
+** =Tools and Libraries
 *** Explore different tools and libraries available for graphing:
 **** Python libraries (matplotlib, seaborn, Plotly)
 **** R packages (ggplot2, lattice, visNetwork)
 **** Business intelligence tools (Tableau, Power BI)
 **** Visualization frameworks (D3.js, Vega-Lite)
 
-**[#pink] Iteration and Evaluation
+**[#pink] =Iteration and Evaluation
 *** Iterate and evaluate different graph types to find the most effective representation of your data and insights.
 
-**[#pink] Best Practices and Guidelines
-***[#gold] **Follow best practices and guidelines for effective data visualization, including clarity, simplicity, labeling, color use, and accessibility.**
+**[#pink] =Best Practices and Guidelines
+***[#gold] ===Follow best practices and guidelines for effective data visualization, \n===including clarity, simplicity, labeling, color use, and accessibility.
 
 @endmindmap
