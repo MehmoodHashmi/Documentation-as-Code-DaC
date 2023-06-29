@@ -13,19 +13,19 @@ title =__//Introduction to Probability//__
 
   This analogy helped:
 
-=__Probability__ is starting with an animal, and figuring out what footprints it will make.
-=__Statistics__ is seeing a footprint, and guessing the animal.
+=//__**Probability**__// is starting with an animal, and figuring out what footprints it will make.
+=//__**Statistics**__// is seeing a footprint, and guessing the animal.
 <img:images/img_3.png>
 **Probability** is a forward-looking process. It helps in predicting the next output given our knowledge of the distribution of the data
 generating model which is a random process
 
-=https://betterexplained.com/articles/a-brief-introduction-to-probability-statistics/;
+= [[https://betterexplained.com/articles/a-brief-introduction-to-probability-statistics/]];
 
-**:<size:22>**Probability is straightforward:**</size> you have the bear. Measure the foot size, the leg length, and you
-can deduce the footprints. "Oh, Mr. Bubbles weighs 400lbs and has 3-foot legs, and will make tracks like this." More
+**:<size:22>**Probability is straightforward:**</size> you have the <size:22>bear.</size> **Measure the foot size, the leg length,** and you
+can <size:22>deduce the footprints.</size> "Oh, Mr. Bubbles weighs 400lbs and has 3-foot legs, and will make tracks like this." More
 academically: "We have a fair coin. After 10 flips, here are the possible outcomes."
 
-<size:22>**Statistics is harder.**</size> We measure the footprints and have to guess what animal it could be.
+<size:22>**Statistics is harder.**</size> <size:22>We measure the **footprints**</size> and have to <size:22>guess what animal it could be.
 A bear? A human? If we get 6 heads and 4 tails, what're the chances of a fair coin?;
 
 * = basic vocabulary for inferential statistics
@@ -72,8 +72,8 @@ A bear? A human? If we get 6 heads and 4 tails, what're the chances of a fair co
 # **Simple Event**: what you will eventually get
 # **Sample Space**: is a collection of simple events
 
-when you flipped the coin **3 times,** and you were looking for **1-H and 2-T** event, then
-are **3-ways** through which this **event** can be accomplished, what you are looking for, but
-there are **8-simple events** that can occur;
+When you flipped the coin **3 times,** and you were looking for **1-H and 2-T** event. There
+are **3-ways** through which this **event** (what you are looking for) can be **accomplished,**
+but there are **8-simple events** that can occur;
 
 @endmindmap

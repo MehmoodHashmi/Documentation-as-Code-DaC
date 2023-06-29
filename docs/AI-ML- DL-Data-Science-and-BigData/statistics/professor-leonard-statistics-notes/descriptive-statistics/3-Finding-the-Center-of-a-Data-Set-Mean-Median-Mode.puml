@@ -68,7 +68,7 @@ will be considered as <size:22>**"unusual"**</size>;
 
 
 * =**2- Variations**
-**:=**Definition:** how data is spread apart
+**:=**Definition:** how data is **__spread__** apart
 ----
 We need to have some way to represent what have more spread.
 We have **two ways** to do it:
@@ -81,8 +81,7 @@ We have **two ways** to do it:
 
 ***:<size:18>**1- Coefficient of variation:**</size> which translates __**standard deviation**__ <color #green>**comparison**</color> to its **mean** to a **percentage (%)**
 <img:images/img_20.png>
-It does not says **height** varies **4.6%** more than **weight**, it is just  a way to <color #lime>**compare**</color>
-__height and weight__.
+It does not says **height** varies **4.6%** more than **weight**, it is just  a way to <color #lime>**compare**</color> __height and weight__.
 
 Observe, even though the number of **standard deviation** is smaller for the **height; s=3,**
 in-spite of this the **coefficient of variation = 4.6%** is larger;
@@ -123,8 +122,8 @@ in-spite of this the **coefficient of variation = 4.6%** is larger;
 ****[#pink] is **greatly affected** by the **outliers data or values**
 *****[#gold] **Closely grouped data:** will have a **small** standard deviation value
 *****[#gold] **Spread out data:** will have a **Large** standard deviation value
-****[#pink] **__sample standard deviation__** is **denoted by 's'** \n<img:images/img_16.png> \nboth formula are correct any one of them can be used
-****[#pink] **__Standard deviation for a population:__** \n<img:images/img_17.png>
+****[#pink] **__Sample standard deviation__** is **denoted by 's'** \n<img:images/img_16.png> \nboth formula are correct any one of them can be used
+****[#pink] **__Standard deviation for a Population:__** \n<img:images/img_17.png>
 
 
 ***[#pink] **3- Variance:**
@@ -132,28 +131,29 @@ in-spite of this the **coefficient of variation = 4.6%** is larger;
 ****[#gold] **1- Sample Variance:** is **S** square \n<img:images/img_18.png>
 ****[#gold] **2- Population Variance:**\n<img:images/img_18.png>
 
-*[#red] =//Quartiles//
+*[#red] =//**Quartiles**//
 **:it is very similar to the idea of a **median**. A median breaks your data right in the middle, that's why it is called the median
 = Quartiles:
 breaks your data every **quarter**, same basic idea as the median but there are three of them instead of one of them (the median);
 ** =First Quartile (Q-1):
 *** represents **bottom 25%** of **sorted** data
 ** =Second Quartile (Q-2):
-*** =Second Quartile (Q-2) and __Median__ both are same, and represents bottom 50% of **sorted** data
+*** =Second Quartile (Q-2) and //**__Median__**// both are same, and represents bottom 50% of //__**sorted**__// data
 ** =Third Quartile (Q-3):
 *** represents **bottom 75%** of **sorted** data
 
 ** =IQR (Inter Quartile Range)
-*** =IQR = Q3 - Q1 \n represents middle 50% of data
-*** = 5-Number Summary:\n<img:images/img_27.png>\n<img:images/img_28.png>
+*** =**IQR = Q3 - Q1** \n represents middle 50% of data
+*** = 5-Number Summary:
 **** =1- minimum (min)
 **** =2- Q1
-**** =3- Median
+****[#pink] =3- Median
 **** =4- Q3
 **** =5- maximum (max)
 **** =Box Plot
+*** = 5-Number Summary:\n<img:images/img_27.png>\n<img:images/img_28.png>
 
-* =Box plot
+* =//**__Box plot__**//
 ** <img:images/img_29.png>
 *** <img:images/img_30.png>
 
@@ -164,7 +164,7 @@ breaks your data every **quarter**, same basic idea as the median but there are 
 
 
 * =//4- Outlier//
-**:=Given below is the method to find the outliers mathematically
+**:=Given below is the method to find the outliers //**__mathematically__**//
 =Step-1: Find IQR, that is IQR = Q3- Q1
 =Step-2: <color #green>1.5</color> * (IQR) = ( ? )
 =Step-3: Q1 - <color #green>1.5</color> * (IQR)
