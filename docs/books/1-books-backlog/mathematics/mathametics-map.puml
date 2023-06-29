@@ -1,19 +1,22 @@
 @startwbs
 title = __Mathematics__
-* Mathematics
-** **1. Number System**\n<img:img.png>
+*[#red] =//Mathematics//
+** =//1. Number System// \n<img:img.png>
 *** Real Numbers
 **** Rational Numbers
 **** Irrational Numbers
 *** Complex Numbers
 **** Real Part
 **** Imaginary Part
-**[#pink] **Discrete Mathematics** is a broad field of mathematics that focuses on \nmathematical structures and objects that are fundamentally discrete \nrather than continuous.\n<img:img_1.png>
+**[#pink]:=//Discrete Mathematics://
+==is a broad field of mathematics that focuses on __//mathematical structures and objects//__
+==that are fundamentally __//discrete rather than continuous.//__
+<img:img_1.png>;
 *** Set Theory
 *** Logic and Propositional Calculus
 *** Combinatorics
 *** Graph Theory
-** **2. Structures**
+** =//2. Structures//
 *** Algebra
 **** Elementary Algebra
 **** Abstract Algebra
@@ -25,7 +28,7 @@ title = __Mathematics__
 **** Prime Numbers
 **** Divisibility
 **** Modular Arithmetic
-** **3. Spaces**
+** =//3. Spaces//
 *** Trigonometry
 **** Trigonometric Functions
 **** Trigonometric Identities
@@ -44,7 +47,7 @@ title = __Mathematics__
 **** Parametric Equations
 **** Polar Coordinates
 **** Three-Dimensional Geometry
-** **4. Changes**
+** =//4. Changes//
 *** Calculus
 **** Differential Calculus
 ***** Limits

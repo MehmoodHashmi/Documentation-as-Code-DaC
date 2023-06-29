@@ -1,9 +1,9 @@
 @startmindmap
 
-title =__ Discrete Mathematics__
+title =//__ Discrete Mathematics__//
 
 * Discrete Mathematics
-** Sets and Logic
+** =Sets and Logic
 *** Set theory
 **** Sets and elements
 **** Union and intersection
@@ -15,17 +15,17 @@ title =__ Discrete Mathematics__
 **** Tautologies and contradictions
 **** Rules of inference
 **** Predicate logic
-*** Relations and functions
+*** =Relations and functions
 **** Defining relations
 **** Equivalence relations
 **** Partial and total orderings
 **** Functions and their properties
 **** Composition of functions
 
-** Combinatorics
-*** Basics of counting
+** =Combinatorics
+*** =Basics of counting
 **** Addition and multiplication principles
-**** Permutations and combinations
+**** =Permutations and combinations
 **** Binomial theorem
 *** Advanced counting techniques
 **** Inclusion-exclusion principle
@@ -64,15 +64,17 @@ title =__ Discrete Mathematics__
 **** Boolean algebras
 **** Applications in computers
 
-** Algorithms and Computational Theory
+** =Algorithms and Computational Theory
 *** Basics of algorithms
 **** Algorithmic notation
 **** Computability and complexity
-*** Algorithm design techniques
+*** =Algorithm design techniques
 **** Divide-and-conquer
 **** Greedy algorithms
 **** Dynamic programming
+**** Branch and bound
 **** Backtracking
+**** many others
 *** Computational complexity
 **** Asymptotic notation
 **** P, NP, and NP-Completeness

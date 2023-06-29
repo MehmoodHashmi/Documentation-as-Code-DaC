@@ -1,0 +1,16 @@
+@startmindmap
+skinparam node {
+    FontStyle italic
+}
+
+title =__//Professor Leonard Statistics-course//__
+
+*:=//Topics://
+# <size:18> Data Analysis and Interpretation,
+# <size:18> Data Descriptors,
+# <size:18> Probability,
+# <size:18> Binomial and Normal Distributions,
+# <size:18> Confidence Intervals,
+# <size:18> and Hypothesis testing with One Sample.;
+
+@endmindmap

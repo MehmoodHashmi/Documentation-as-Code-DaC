@@ -3,9 +3,9 @@ skinparam node {
     FontStyle italic
 }
 
-title =__The-Key-Words-and-Definitions-For-Elementary-Statistics__
+title =__//The-Key-Words-and-Definitions-For-Elementary-Statistics//__
 
-*[#red] Lecture-1 Part-1: **The-Key-Words-and-Definitions-For-Elementary-Statistics**
+*[#red] =Lecture-1 Part-1: **The-Key-Words-and-Definitions-For-Elementary-Statistics**
 * =**Data**
 ** =When we are talking about the __**data**__ in this class (statistics lectures) that means <color #green>**observations**</color>
 ** **Definition:** Any <size:22><color #green>**observations**</color> </size> that have been __collected__
@@ -23,7 +23,7 @@ title =__The-Key-Words-and-Definitions-For-Elementary-Statistics__
 
 * =**Population**
 ** Complete set of all elements to be studied (OR being studied)
-** **Is it necessary to study each element of the set? No**
+** **Is it necessary to study __each element__ of the <size:22>"set"? No**
 
 *[#pink] =**Parameter and statistic**
 ** **Parameter:** Characteristic (trait) of a **Population**

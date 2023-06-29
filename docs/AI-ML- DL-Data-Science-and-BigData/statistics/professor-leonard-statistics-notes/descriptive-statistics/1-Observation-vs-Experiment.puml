@@ -5,14 +5,14 @@ skinparam node {
 
 title =__ Observation vs Experiment__\n given below information I've taken from chatgpt
 
-*[#red] Lecture-1 Part-3: **Sampling Techniques: How to Develop a __random Sample__**
+*[#red] =Lecture-1 Part-3: **Sampling Techniques: How to Develop a __random Sample__**
 
-* Observation vs Experiment
+*[#pink] =//Observation vs Experiment//
 
-** Definition
-*** **Observation:** Collecting data by observing natural phenomena without manipulating any variables.
-*** **another Observation definition:** Measure specific traits but does not modify the subject.
-*** **Experiment:** A systematic and controlled procedure performed to test a hypothesis by manipulating variables and collecting data.
+**[#red] =//Definition//
+*** **Observation:** Collecting data by observing natural phenomena without manipulating any **variables.**
+*** **another Observation definition:** Measure specific traits but does not modify the **subject.**
+*** **Experiment:** A systematic and controlled procedure performed to test a hypothesis by **manipulating variables** and collecting data.
 *** **another Experiment definition:** Apply **treatment** and then measure the effect on the **subject.**
 
 ** Purpose

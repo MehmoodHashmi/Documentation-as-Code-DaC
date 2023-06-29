@@ -1,5 +1,5 @@
 @startmindmap
-* Discrete Mathematics
+* =//Discrete Mathematics//
 ** Sets and Logic
 *** Set Operations
 **** Union
@@ -21,15 +21,15 @@
 *** Combinations
 *** Pigeonhole Principle
 *** Inclusion-Exclusion Principle
-** Graph Theory
+** =Graph Theory
 *** Graph Properties
 **** Directed vs. Undirected
 **** Weighted vs. Unweighted
 **** Paths and Cycles
 **** Connectedness
 **** Planar Graphs
-*** Graph Representation
-**** **Adjacency Matrix**
+*** =//Graph Representation//
+**** =Adjacency Matrix
 *****:**Adjacency Matrix Example**
 
 graph = [
@@ -39,7 +39,7 @@ graph = [
     [1, 0, 1, 0]
 ];
 
-**** **Adjacency List**
+****  =//Adjacency List//
 
 *****:**Adjacency List Example**
 
