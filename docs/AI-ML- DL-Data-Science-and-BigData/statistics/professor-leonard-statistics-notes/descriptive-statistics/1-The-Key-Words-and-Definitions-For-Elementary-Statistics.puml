@@ -55,12 +55,12 @@ __But if you take a **sample** from the **population** and then talk those **cha
 *** **Examples:** Height, weight, wages, MPH (miles per hour), Temperature, Time
 *** **Math operations** are **meaningful on Quantitative data**, you can add, subtract, multiply, divide **quantitative data**
 ***[#lime] ==**2-Types of Quantitative Data**
-****[#crimson] **1. Discrete Data**
+****[#crimson] ==1. Discrete Data
 ***** **Definition:** **Countable OR finite** (meaning there are only certain number of elements/values you can pick from)
 ***** **Example:** does a chicken lays half eggs, would you like to buy half watching machines, rolling a dice, etc.
 ***** Usually a **count**
 
-****[#crimson] **2. Continuous Data**
+****[#crimson] ==2. Continuous Data
 ***** **Definition:** **Infinite number of values or elements** (not countable)
 ***** **Example:** Temperature, Length, etc.
 ***** Usually a **__Measurement__**
@@ -147,7 +147,7 @@ relying on predefined labels.;
   unsupervised learning tasks such as clustering or anomaly detection.
 
   **Statistics:** In statistics, labeled data is commonly used for statistical modeling, hypothesis testing, and regression analysis.
-   Unlabeled data, on the other hand, can be explored using techniques like **exploratory data analysis or clustering** to gain insights
+   **__Unlabeled data__,** on the other hand, can be explored using techniques like **exploratory data analysis or clustering** to gain insights
     into the underlying structure of the data.
 
   **Natural Language Processing (NLP):** In NLP, labeled data is often required for tasks like sentiment analysis, named entity recognition,
