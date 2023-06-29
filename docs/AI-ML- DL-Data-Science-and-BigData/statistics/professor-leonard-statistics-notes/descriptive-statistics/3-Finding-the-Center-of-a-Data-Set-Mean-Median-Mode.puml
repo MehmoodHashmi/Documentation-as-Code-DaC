@@ -6,7 +6,11 @@ skinparam node {
 title =__//Finding the Center of a Data Set. Mean, Median, Mode//__
 
 *[#red] =Lecture-3 Part-1: **Finding the Center of a Data Set. Mean, Median, Mode**
-** we are on Chapter-3 and will study **describing data**
+** = we are on Chapter-3 and will study **__describing data__**
+
+**:**Descriptive Statistics** is a **method** of organizing, summarizing, and presenting data in a convenient and
+informative way. The actual **method** used depends **__on what information we would like to extract.__**
+<img:images/img_31.png>;
 
 
 * <size: 22>**5-Characteristics of "describing" data**
@@ -128,7 +132,7 @@ in-spite of this the **coefficient of variation = 4.6%** is larger;
 ****[#gold] **1- Sample Variance:** is **S** square \n<img:images/img_18.png>
 ****[#gold] **2- Population Variance:**\n<img:images/img_18.png>
 
-*[#red] =Quartiles
+*[#red] =//Quartiles//
 **:it is very similar to the idea of a **median**. A median breaks your data right in the middle, that's why it is called the median
 = Quartiles:
 breaks your data every **quarter**, same basic idea as the median but there are three of them instead of one of them (the median);
@@ -159,7 +163,7 @@ breaks your data every **quarter**, same basic idea as the median but there are 
 ** **Example:** lets say yuo <size:22> score 78 on a test/exam </size> and you want to figure out the percentile for the class, you should find out how many people did worse than you.
 
 
-* =Outlier
+* =//4- Outlier//
 **:=Given below is the method to find the outliers mathematically
 =Step-1: Find IQR, that is IQR = Q3- Q1
 =Step-2: <color #green>1.5</color> * (IQR) = ( ? )
