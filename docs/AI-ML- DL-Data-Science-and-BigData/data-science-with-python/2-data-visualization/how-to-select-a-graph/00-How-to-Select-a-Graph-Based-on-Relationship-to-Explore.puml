@@ -19,7 +19,7 @@ title =//**__How to Select a Graph Based on Relationship to Explore__**// \n<img
    data granularity. These characteristics may influence the choice of graph type that can effectively represent your data.
 
  ** 5. Audience and Context:** Take into account the audience who will be viewing the graph and the context in which it will be presented. Consider whether
-   the audience is technical or non-technical and the presentation format, such as a report, dashboard, or presentation.
+   //<size:18>the __audience is technical or non-technical__ and the **presentation format, such as a report, dashboard, or presentation.**//
 
   **6. Visual Encoding:** Choose appropriate visual encodings for your data, such as position, length, angle, area, color, shape, texture, and opacity. Each
    graph type offers different possibilities for visual encoding, and you should select the ones that effectively represent your data.
