@@ -59,7 +59,8 @@ will be considered as <size:22>**"unusual"**</size>;
 <img:images/img_19.png>;
 
 *:=The __<color #brown>z-score</color>__ can be perfectly found in a __normal distribution curve__ with no __left skew and right skew.__ The below image shows these curves.
-<img:images/img_23.png>;
+<img:images/img_23.png>
+=//In Cases where data is left-skewed or right-skewed, then __Median__ is better metric for the __data centrality__ instead of the __Mean__.//;
 
 
 *[#red] Lecture-3 Part-2: **Finding the Center of a Data Set. Mean, Median, Mode**
