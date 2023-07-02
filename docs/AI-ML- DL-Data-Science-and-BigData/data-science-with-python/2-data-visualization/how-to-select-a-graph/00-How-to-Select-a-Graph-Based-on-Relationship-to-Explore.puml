@@ -10,10 +10,10 @@ title =//**__How to Select a Graph Based on Relationship to Explore__**// \n<img
    are suitable for different data types.
 
   **2. Purpose:** Identify the purpose of the graph. Determine whether you want to visualize trends, compare data, show relationships, explore patterns,
-   or present insights. The purpose will guide your choice of graph type.
+   or present insights. <size:22>__The purpose will guide your choice of graph type.__
 
  ** <size:22>3. Relationship to Explore:** //Determine the specific relationship or pattern you want to highlight in your data. Whether it's correlation, proportion,//
-   //deviation, frequency, part-to-whole, temporal patterns, or connectivity, the nature of the relationship will help determine the appropriate graph type.//
+   //deviation, frequency, part-to-whole, temporal patterns, or connectivity, <size:17>__the nature of the relationship will help determine the appropriate graph type.__//
 
  ** 4. Data Characteristics:** Consider the characteristics of your data, such as data size, data complexity, data density, outliers, missing values, and
    data granularity. These characteristics may influence the choice of graph type that can effectively represent your data.
