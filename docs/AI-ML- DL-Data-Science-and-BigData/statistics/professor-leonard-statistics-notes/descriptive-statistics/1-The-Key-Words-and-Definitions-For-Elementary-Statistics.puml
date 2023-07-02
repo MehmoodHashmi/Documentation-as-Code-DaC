@@ -51,7 +51,7 @@ __But if you take a **sample** from the **population** and then talk those **cha
 **[#gold] ==**1. Qualitative Data (is <color #crimson>__categorical__</color>)**
 *** **Definition:** Data that is **Non-Numeric**
 *** **Examples:** Gender, Color, Race, Religion, Ethnicity, Army Rank, Zip Code (some **data** like **zip code** might have numbers in them but still they are **Quantitative**)
-*** **Math operations** are **meaningless on Qualitative data** (or categorical data), you can't add, subtract, multiply, divide qualitative data
+*** **Math operations** are **meaningless on Qualitative data** (or categorical data), \nyou can't add, subtract, multiply, divide qualitative data
 ****[#red] =**Examples**
 ***** **Nominal data**
 ***** **Ordinal data**
