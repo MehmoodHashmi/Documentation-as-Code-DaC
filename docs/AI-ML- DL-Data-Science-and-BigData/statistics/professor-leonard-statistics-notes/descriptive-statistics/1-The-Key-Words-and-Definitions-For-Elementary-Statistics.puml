@@ -67,16 +67,36 @@ __But if you take a **sample** from the **population** and then talk those **cha
 ****** Measurements are not easy, depends on tool used and how specific you want to be
 
 * ===**4-Levels of Measurement**
-**[#white] **1- Nominal Level/Data**
+** =//**What kind of "graph" to use for visualization is highly dependent on these 4-levels**//
+***:=Descriptive statistics:
+is all about describing your data. To do this we firstly describe the spread of the data using the range and interquartile range.
+Then we might look at the central tendency of the data using the mean, median and mode. We might also describe the variability using
+the standard deviation and variance.
+= And of course we want to visualise the data using graphs and plots. Selecting the right plot
+and graph might seem difficult but it is really quite easy when you think about the two most important types of variables.
+
+= **Categorical variables and numeric variables.**
+* <size:18>A **single categorical variable** is usually represented with a **bar chart or bar plot.**
+* <size:18>A **single numerical variable** is visualised with a **histogram or box plot (or boxplot).**
+* <size:18>For **two numerics** we use a **scatter plot** and and so on.
+
+This video will talk you through all of the combinations of variables, and how to create graphics that really talk to your audience.
+If you're interested in data science and quantitative analysis, then this video is for you. If you are a beginner and want to learn
+about statistics and how to work with data, then you'll love this video. This video is good for those learning data science but also
+anyone wanting to learn about research methods for a masters degree of a PHD. Research methodology can be difficult but this
+video will make it easy.
+=[[https://www.youtube.com/watch?v=txNvZ3Zndak&t=91s&ab_channel=GlobalHealthwithGregMartin Descriptive statistics and data visualisation. An introduction to statistics and working with data]] YouTube video 14-minute long;
+
+**[#white] =**1- Nominal Level/Data**
 *** **Definition:** Can be **categorized** but **__not__ ordered**
 *** **Example:** Religion, Race, etc.
 
-**[#pink] **2- Ordinal Level/Data**
+**[#pink] =**2- Ordinal Level/Data**
 *** **Definition:** Can be **__Ordered__**, but the **differences (subtraction)** are meaningless
 **** Subtraction meaningless: Saying one is better than another does not make a lot  of sense
-*** **Example:** Rank, Color (spectrum, you can order colors but can't subtract them because differences are meaningless )
+*** **Example:** Rank, <size:15>**Size (Short, Medium, Large, X-Large),**</size> Color (spectrum, you can order colors but can't subtract them because differences are meaningless )
 
-**[#lime] **3- interval Level/Data**
+**[#lime] =**3- interval Level/Data**
 *** **Definition:** Can be **__Ordered__** and **differences (subtraction)** are meaningful, but there is no **__"Natural Zero"__**
 ****:**"Natural Zero:"** A natural zero means if you get a **__zero,__**
 you have absolutely none of that quantity
@@ -88,7 +108,7 @@ something on the scale). So, <color #lime>**Temperature**</color>  does not have
 **"Natural Zero"**;
 *** **Example:** Such as **Temperature**, **temperature is interval data**. But not --Bank balance, Age,-- etc.
 
-**[#gold] **4- Ratio Level/Data**
+**[#gold] =**4- Ratio Level/Data**
 *** **Definition:** just like **interval** but with a **__"Natural Zero"__**
 ****:**"Natural Zero:"** A natural zero means if you get a **__zero,__**
 you have absolutely none of that quantity

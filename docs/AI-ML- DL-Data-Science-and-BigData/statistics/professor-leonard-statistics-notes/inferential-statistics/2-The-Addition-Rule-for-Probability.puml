@@ -1,0 +1,79 @@
+@startmindmap
+skinparam node {
+    FontStyle italic
+}
+
+title =__//Introduction to Probability//__
+
+*[#red] =Lecture-4 Part-1: **Introduction to Probability**
+** =we have transitioned from __descriptive statistics to inferential statistics__
+
+
+*:I've studied probability and statistics without experiencing them. What's the difference? What are they trying to do?
+
+  This analogy helped:
+
+=//__**Probability**__// is starting with an animal, and figuring out what footprints it will make.
+=//__**Statistics**__// is seeing a footprint, and guessing the animal.
+<img:images/img_3.png>
+**Probability** is a forward-looking process. It helps in predicting the next output given our knowledge of the distribution of the data
+generating model which is a random process
+
+= [[https://betterexplained.com/articles/a-brief-introduction-to-probability-statistics/]];
+
+**:<size:22>**Probability is straightforward:**</size> you have the <size:22>bear.</size> **Measure the foot size, the leg length,** and you
+can <size:22>deduce the footprints.</size> "Oh, Mr. Bubbles weighs 400lbs and has 3-foot legs, and will make tracks like this." More
+academically: "We have a fair coin. After 10 flips, here are the possible outcomes."
+
+<size:22>**Statistics is harder.**</size> <size:22>We measure the **footprints**</size> and have to <size:22>guess what animal it could be.
+A bear? A human? If we get 6 heads and 4 tails, what're the chances of a fair coin?;
+
+* = basic vocabulary for inferential statistics
+
+
+* =Probability
+** ===it is the basis for making decisions about our data, that's really what we will be doing
+** =Definition:
+*** likelihood of an event occurring
+*** low probability = **rare/un-usual** occurrences
+***[#red] =3-Types of Probability
+**** =1- Observed Probability
+***** __Probability__ that is **estimated** based on your **observation**, when you actually do something.\n*What **did happen** when you flipped the coin
+***** **Example:** I flip the coin 100 or 1000 times, but I cannot flip the coin infinitely, so flipping the coin \n100-times makes sure that there are good amount of outcomes.\n**Formula:**\n<img:images/img_4.png>\n <size:22>**Where "A" is an __event__**
+**** =2- Classical Probability
+***** __Probability__ based on **chance** of an **event** occurring, (each sample event must have an equal chance of occurring) \n*What **should happen** when you flip the coin every time,
+***** *Here you are just **thinking** about it that this **should happen not actually doing it** \n**Formula:** \n<img:images/img_5.png>\n <size:22>**Where "A" is an __event__**
+**** =3- Subjective Probability
+***** **Definition:** If someone **estimated** based on **educated guess**
+***** =like doctors do; they tell 25% chance of cancer recovery,\n=50% chance of operation success, etc.
+
+
+* =Event
+** =A collection of outcomes of a procedure \n<img:images/img.png>
+
+* =Procedure
+** =Definition
+*** What you are doing
+** =Example
+*** flip a coin 1 time, flip a coin 3 time, roll a die 1 time, roll a die 2 time
+
+
+* =Simple Event
+** a single outcome
+** <size:22>For example,</size> the probability of getting a <size:22>**3**</size> when a <size:22>**die**</size> is tossed. In the case of a **simple event,** the numerator (number of favourable outcomes) will be <size:22>**1**</size> .
+
+* =Sample Space
+** all __simple events__ OR **all/every** __possible outcomes__
+
+*:<img:images/img_1.png>
+<img:images/img_2.png>
+# **Procedure:** what you are doing
+# **Event:** what you are looking for
+# **Simple Event**: what you will eventually get
+# **Sample Space**: is a collection of simple events
+
+When you flipped the coin **3 times,** and you were looking for **1-H and 2-T** event. There
+are **3-ways** through which this **event** (what you are looking for) can be **accomplished,**
+but there are **8-simple events** that can occur;
+
+@endmindmap
