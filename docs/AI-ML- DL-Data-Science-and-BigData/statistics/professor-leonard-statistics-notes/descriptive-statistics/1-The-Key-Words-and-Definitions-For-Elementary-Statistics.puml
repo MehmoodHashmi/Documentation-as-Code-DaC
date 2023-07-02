@@ -45,6 +45,8 @@ __But if you take a **sample** from the **population** and then talk those **cha
 
 
 *[#red] Lecture-1 Part-2: **Exploring Categories of Data, and levels of Measurement**
+*[#gold] <size:35>**0.  [[https://www.youtube.com/watch?v=I10q6fjPxJ0&t=222s&ab_channel=GlobalHealthwithGregMartin Statistics made easy ! ! ! Learn about the t-test, the chi square test, the p value and more]]**
+
 *[#pink] =**Types of data**
 **[#gold] ==**1. Qualitative Data (is <color #crimson>__categorical__</color>)**
 *** **Definition:** Data that is **Non-Numeric**
@@ -54,7 +56,8 @@ __But if you take a **sample** from the **population** and then talk those **cha
 ***** **Nominal data**
 ***** **Ordinal data**
 **[#gold] ==**2. Quantitative Data**
-*** **Definition:** its **numerical** data
+*** =**Definition:** its //**__numerical__**// data
+**** <img:images/img_32.png>
 *** **Examples:** Height, weight, wages, MPH (miles per hour), Temperature, Time
 *** **Math operations** are **meaningful on Quantitative data**, you can add, subtract, multiply, divide **quantitative data**
 ****[#red] =**Examples**
