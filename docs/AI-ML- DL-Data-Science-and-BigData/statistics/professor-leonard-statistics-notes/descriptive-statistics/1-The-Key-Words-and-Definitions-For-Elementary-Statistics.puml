@@ -68,17 +68,17 @@ __But if you take a **sample** from the **population** and then talk those **cha
 
 * ===**4-Levels of Measurement**
 ** =//**What kind of "graph" to use for visualization is highly dependent on these 4-levels**//
-***:=Descriptive statistics:
+***:=//Descriptive statistics://
 is all about describing your data. To do this we firstly describe the spread of the data using the range and interquartile range.
 Then we might look at the central tendency of the data using the mean, median and mode. We might also describe the variability using
 the standard deviation and variance.
-= And of course we want to visualise the data using graphs and plots. Selecting the right plot
-and graph might seem difficult but it is really quite easy when you think about the two most important types of variables.
+= And of course we want to visualise the data using graphs and plots. Selecting the right plot and graph might seem difficult
+= but it is really quite easy when you think about the __two most important types of variables.__
 
-= **Categorical variables and numeric variables.**
-* <size:18>A **single categorical variable** is usually represented with a **bar chart or bar plot.**
-* <size:18>A **single numerical variable** is visualised with a **histogram or box plot (or boxplot).**
-* <size:18>For **two numerics** we use a **scatter plot** and and so on.
+= <color #crimson>**Categorical**</color> and <color #lime>**numeric**</color> variables.
+* <size:18>A **__single categorical variable__** is usually represented with a **bar chart or bar plot.**
+* <size:18>A **__single numerical variable__** is visualized with a **histogram or box plot (or boxplot).**
+* <size:18>For **__two numerics__** we use a **scatter plot** and and so on.
 
 This video will talk you through all of the combinations of variables, and how to create graphics that really talk to your audience.
 If you're interested in data science and quantitative analysis, then this video is for you. If you are a beginner and want to learn
