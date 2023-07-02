@@ -66,7 +66,7 @@ __But if you take a **sample** from the **population** and then talk those **cha
 ***[#lime] ==**2-Types of Quantitative Data**
 ****[#crimson] ==1. Discrete Data
 ***** **Definition:** **Countable OR finite** (meaning there are only certain number of elements/values you can pick from)
-***** **Example:** does a chicken lays half eggs, would you like to buy half watching machines, rolling a dice, etc.
+***** **Example:** does a chicken lays half eggs, would you like to buy half washing machines, rolling a dice, etc.
 ***** Usually a **count**
 
 ****[#crimson] ==2. Continuous Data
@@ -76,7 +76,7 @@ __But if you take a **sample** from the **population** and then talk those **cha
 ****** Measurements are not easy, depends on tool used and how specific you want to be
 
 * ===**4-Levels of Measurement**
-** =//**What kind of "graph" to use for visualization is highly dependent on these 4-levels**//
+** =//**What kind of "graph" to use for visualization**// \n=//**is highly dependent on these 4-levels**//
 ***:=//Descriptive statistics://
 is all about describing your data. To do this we firstly describe the spread of the data using the range and interquartile range.
 Then we might look at the central tendency of the data using the mean, median and mode. We might also describe the variability using
