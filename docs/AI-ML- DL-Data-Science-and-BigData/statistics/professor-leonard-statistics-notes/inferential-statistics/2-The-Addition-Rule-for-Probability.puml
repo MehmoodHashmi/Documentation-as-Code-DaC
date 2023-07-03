@@ -3,7 +3,7 @@ skinparam node {
     FontStyle italic
 }
 
-title =__//Introduction to Probability//__
+title =__//The Addition Rule for Probability//__
 
 *[#red] =Lecture-5 Part-2: **The Addition Rule for Probability**
 ** =we have transitioned from __descriptive statistics to inferential statistics__
