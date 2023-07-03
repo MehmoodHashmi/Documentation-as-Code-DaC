@@ -36,9 +36,18 @@ A bear? A human? If we get 6 heads and 4 tails, what're the chances of a fair co
 ** =Definition:
 *** likelihood of an event occurring
 *** low probability = **rare/un-usual** occurrences
+****[#pink] =Probability are always between 0 and 1.
+*****[#gold] =Probability = 0
+****** =Impossible Event
+*****[#lime] =Probability = 1
+****** =Certain Event
 ***[#red] =3-Types of Probability
 **** =1- Observed Probability
-***** __Probability__ that is **estimated** based on your **observation**, when you actually do something.\n*What **did happen** when you flipped the coin
+*****:__Probability__ that is **estimated** based on your **observation**, when you actually do something.
+*What **did happen** when you flipped the coin
+====
+== [[https://www.youtube.com/watch?v=X2eomv6XfWo&ab_channel=PhysicsVideosbyEugeneKhutoryansky The more a procedure is repeated, the closer observed probability will get to the classical probability]] YouTube Video 20-minute;
+
 ***** **Example:** I flip the coin 100 or 1000 times, but I cannot flip the coin infinitely, so flipping the coin \n100-times makes sure that there are good amount of outcomes.\n**Formula:**\n<img:images/img_4.png>\n <size:22>**Where "A" is an __event__**
 **** =2- Classical Probability
 ***** __Probability__ based on **chance** of an **event** occurring, (each sample event must have an equal chance of occurring) \n*What **should happen** when you flip the coin every time,
@@ -75,5 +84,20 @@ A bear? A human? If we get 6 heads and 4 tails, what're the chances of a fair co
 When you flipped the coin **3 times,** and you were looking for **1-H and 2-T** event. There
 are **3-ways** through which this **event** (what you are looking for) can be **accomplished,**
 but there are **8-simple events** that can occur;
+
+
+* =//Law of Large Numbers//
+* =//Complementary Events//
+** Two events which are mutually exclusive, meaning that you can't be at different sets at the same time, more prcisely you can't wear shoes and sandel at the same time
+
+* =//Complement//
+** The complement of **event** <size:22>**"A"**</size> is denoted by
+*** <img:images/img_6.png> and is all the outcomes when **event** <size:22>**"A"**</size> __does not occur__.
+**:=Example
+* **event:** rolling a 5
+* **complement:** not rolling a 5
+** <size:22>{1,2,3,4,6};
+*** <img:images/img_7.png>\n <size:22>The __probability of an event plus the probability of the complement__ must be equal to **1**
+
 
 @endmindmap

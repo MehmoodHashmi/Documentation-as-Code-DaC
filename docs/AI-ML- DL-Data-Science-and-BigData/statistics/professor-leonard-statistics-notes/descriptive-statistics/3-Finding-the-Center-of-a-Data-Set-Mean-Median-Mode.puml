@@ -24,10 +24,10 @@ informative way. The actual **method** used depends **__on what information we w
 
 * =**1- Center**
 ** **Definition:** What's happening most often, by what value\n data is mostly surrounded OR The **middle** of the data set
-*** **3-ways to find __center__:**
+***[#pink] =**3-ways to find __center__:**
 **** **1- Mean:** is Arithmetic average, add all the values and divide the by the total number\n of values you added\n<img:images/img_12.png>
 ***** **Mean** is affected by the **outliers** data
-**** **2- Median:** is the \n**middle value** of the  **data set**
+**** =**2- Median:** is the \n**middle value** of the  **data set**
 ***** **data:** must be in **order,** otherwise your **middle number** \nwill not necessarily be the middle of your **data set**
 ***** **Median** is not affected by the **outliers** data
 ***** find middle value
@@ -36,11 +36,11 @@ informative way. The actual **method** used depends **__on what information we w
 ******** **Median** is the **mean** of two middle numbers after the data values are in order\ne.g. 1,2, <size:22>**3, 4**,</size>5,6 Here **(3+4)/2** is median
 ******* **odd** number of data values:
 ******** **Median** is the middle number after the data values are in order\ne.g. 1,2, <size:22>**3**,</size> 4,5 Here 3 is median
-**** **3- Mode:** Most commonly occurring data value. e.g. 1, 2 ,2, **3,3,3,** 4,5,6. In this example **mode is 3.**
+**** =**3- Mode:** Most commonly occurring data value. e.g. 1, 2 ,2, **3,3,3,** 4,5,6. In this example **mode is 3.**
 **** __Making up frequency distributions__ and __calculating the mean of those frequency distributions__ and calculating the mean of weighted distributions
 ****[#gold] <size: 22>**skewed:**</size>
 ***** **skewed right:** meaning most** outliers** exists on right side of graph\n<img:images/img_13.png>
-***** **skewed left:** meaning most **outliers** exists on left side of graph\n<img:images/img_14.png>
+****** **skewed left:** meaning most **outliers** exists on left side of graph\n<img:images/img_14.png>
 ***** **Normal:** not bad data \n<img:images/img_15.png>
 ******[#white] <size:22>**Empirical Rule:**</size> if a **data set** is **normally distributed,** \nonly then we can use the **empirical rule**\n<img:images/img_22.png>
 *******:==**Definition:** if a **data set** is **normally distributed,** then:
