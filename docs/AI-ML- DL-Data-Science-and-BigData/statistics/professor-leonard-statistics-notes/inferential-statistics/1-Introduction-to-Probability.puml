@@ -3,7 +3,7 @@ skinparam node {
     FontStyle italic
 }
 
-title =__//Introduction to Probability//__
+title =__//Introduction to Probability//__\n<img:images/img_20.png>
 
 *[#red] =Lecture-4 Part-1: **Introduction to Probability**
 ** =we have transitioned from __descriptive statistics to inferential statistics__
@@ -96,7 +96,7 @@ but there are **8-simple events** that can occur;
 **:=Example
 * **event:** rolling a 5
 * **complement:** not rolling a 5
-** <size:22>{1,2,3,4,6};
+** <size:22>{1,2,3,4,6}</size>;
 *** <img:images/img_7.png>\n <size:22>The __probability of an event plus the probability of the complement__ must be equal to **1**
 
 

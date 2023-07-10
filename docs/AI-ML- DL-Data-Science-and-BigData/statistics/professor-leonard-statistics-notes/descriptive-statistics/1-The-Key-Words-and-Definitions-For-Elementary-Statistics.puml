@@ -3,7 +3,8 @@ skinparam node {
     FontStyle italic
 }
 
-title =__//The-Key-Words-and-Definitions-For-Elementary-Statistics//__
+title =__//The-Key-Words-and-Definitions-For-Elementary-Statistics//__ \n=[[https://www.youtube.com/watch?v=txNvZ3Zndak&t=91s&ab_channel=GlobalHealthwithGregMartin Descriptive statistics and data visualisation. An introduction to statistics and working with data]] YouTube video 14-minutes
+
 
 *[#red] =Lecture-1 Part-1: **The-Key-Words-and-Definitions-For-Elementary-Statistics**
 * =**Data**
@@ -74,6 +75,12 @@ __But if you take a **sample** from the **population** and then talk those **cha
 ***** **Example:** Temperature, Length, etc.
 ***** Usually a **__Measurement__**\n<img:images/img_33.png>
 ****** Measurements are not easy, depends on tool used and how specific you want to be
+
+*:=[[https://www.youtube.com/watch?v=ZA4JkHKZM50&ab_channel=3Blue1Brown Why “probability of 0” does not mean “impossible” | Probabilities of probabilities]] YouTube Video explaination
+<img:images/img_34.png>
+=It is common rule of thumb if you find yourself using <size:22>sum (symbol)</size> in a discrete context, then using <size:22>integral (symbol)</size> in Continuous context.;
+
+
 
 * ===**4-Levels of Measurement**
 ** =//**What kind of "graph" to use for visualization**// \n=//**is highly dependent on these 4-levels**//

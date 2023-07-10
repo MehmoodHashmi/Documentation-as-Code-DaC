@@ -12,6 +12,25 @@ title =__//The Addition Rule for Probability//__
 * =Compound Event:
 ** An event that joins tow or more simple events, or when you are looking for two or more simple events.
 
-* =//__Addition Rule for Probability__//\n<img:images/img_8.png>
+* =//__Addition Rule for Probability__//\n<img:images/img_8.png> \n=__In a single trial__
+** =//Definition://
+*** Probability of 'A' occurring or 'B' occurring or both A and B occurring <size:22>__in a single trial__
+** =//OR:// means one or the other  or both
+*** =//OR:// implies addition (+), in Probability
+** =//Example-1:// \nProbability of rolling **a 1 OR a 5** <size:22>__in a single trial__ \n<img:images/img_9.png>
+***:=//both __simple events__ (1,5) are __mutually exclusive__//
+* **mutually exclusive** means it can't happen so that both (1,5) occur in a single trial;
+** =//Example-2:// \nProbability of blond OR female <size:22>__in a single trial__\n=example-3\n<img:images/img_10.png>
+*** =//both __simple events__ (blond, female) are __not mutually exclusive__ //
+*** Only in such cases we get **"double count"**, so we have to eliminate it through subtracting <size:22>P(A intersection B)
+
+
+
+* =//Disjoint events// \n<img:images/img_11.png>
+** just another way to say <size:22>**mutually exclusive, __events__**</size> that can't happen at the same time
+*** =//Non-Disjoint events//\n<img:images/img_12.png>
+
+* =Complementary events\n<img:images/img_13.png>
+** <img:images/img_14.png>
 
 @endmindmap

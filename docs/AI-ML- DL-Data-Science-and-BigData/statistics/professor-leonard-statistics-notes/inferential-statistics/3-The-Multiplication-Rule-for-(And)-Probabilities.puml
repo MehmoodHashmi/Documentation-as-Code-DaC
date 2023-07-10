@@ -1,0 +1,26 @@
+@startmindmap
+skinparam node {
+    FontStyle italic
+}
+
+title =__//The Multiplication Rule for "And" Probabilities//__\n<img:images/img_15.png>
+
+*[#red] =Lecture-6 Part-1: **The Multiplication Rule for "And" Probabilities**
+** =we have transitioned from __descriptive statistics to inferential statistics__
+
+
+
+
+* =//__Addition Rule for Probability__//\n<img:images/img_8.png> \n=<color #crimson>**//__In a single trial__//**
+** =//Definition://
+*** Probability of 'A' occurring or 'B' occurring or both A and B occurring <size:22>__in a single trial__
+
+* =//Multiplication Rule for <color #lime>"And"</color> Probabilities// \n<img:images/img_16.png>
+** =Definition:
+*** =Probability of 'A' occurring<size:22>, and then </size>'B' occurring in <color #lime>__**successive trial**__
+**:=Example-1:
+<img:images/img_17.png>
+<img:images/img_18.png>;
+***  =Example-2: \n<img:images/img_19.png> \nObserve one thing carefully the value of <size::22>**177** now has come down to **176**</size>\n this is the thing that separates the <size:22>"AND" and "AND Then"</size>
+
+@endmindmap

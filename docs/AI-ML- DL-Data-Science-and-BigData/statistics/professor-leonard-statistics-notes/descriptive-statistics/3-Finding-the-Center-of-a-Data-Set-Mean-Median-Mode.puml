@@ -62,6 +62,21 @@ will be considered as <size:22>**"unusual"**</size>;
 <img:images/img_23.png>
 =//In Cases where data is left-skewed or right-skewed, then __Median__ is better metric for the __data centrality__ instead of the __Mean__.//;
 
+*:=//If//
+=//__1- Data Spread,__//
+=2- IQR or
+=3- normally distributed
+all 3 are same & interchangeable;
+**[#red] =is more
+***:Then:
+# You have <size:22>lots of data</size> for the machine or for the model (algorithm) to learn, hence <size:22>model is very good</size> but
+# the model (algorithm) or machine consumes <size:22>more computation time</size>;
+**[#lime] =is less
+***:Then:
+# You have <size:22>less data</size> for the machine or for the model (algorithm) to learn, hence <size:22>model is not very good</size> but
+# the model (algorithm) or machine consumes <size:22>less computation time</size>;
+
+* =Employee Table: \n<img:images/img_35.png>\n=//__**Data-Set:**__// is all rows or records of the Employee table/entity \n*An **entity/table** such as Employee can have different levels or types of data
 
 *[#red] Lecture-3 Part-2: **Finding the Center of a Data Set. Mean, Median, Mode**
 **[#red] Lecture-3 Part-3: **Finding the Standard Deviation of a Data Set**
@@ -161,7 +176,7 @@ breaks your data every **quarter**, same basic idea as the median but there are 
 
 * =Percentiles
 ** Separates data into 100 parts, Therefore, there are 99 percentiles\n <img:images/img_26.png>
-** **Example:** lets say yuo <size:22> score 78 on a test/exam </size> and you want to figure out the percentile for the class, you should find out how many people did worse than you.
+** **Example:** lets say you <size:22> score 78 on a test/exam </size> and you want to figure out the percentile for the class, you should find out how many people did worse than you.
 
 
 * =//4- Outlier//
