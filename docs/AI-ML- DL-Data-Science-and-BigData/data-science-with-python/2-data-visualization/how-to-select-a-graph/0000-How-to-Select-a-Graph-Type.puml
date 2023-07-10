@@ -4,8 +4,10 @@ title =__How to Select a Graph Type__\n<img:images/core_principles-of-data-visua
 * =//How to Select a Graph Type//
 **[#pink] =**Data Type**
 ***[#gold] Determine the **type of data** you have:
-**** **Categorical**
-**** **Numerical**
+**** =**__Categorical__ or __Qualitative__**
+**** =**__Numerical__ or __Quantitative__**
+***** =**__Discrete__**
+***** =**__Continuous__**
 **** **Time-series**
 **** **Textual**
 **** **Network**

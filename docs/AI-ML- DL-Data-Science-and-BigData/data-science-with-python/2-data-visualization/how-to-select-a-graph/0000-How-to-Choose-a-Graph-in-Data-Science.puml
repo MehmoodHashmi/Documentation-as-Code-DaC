@@ -11,9 +11,11 @@ title =__How to Choose a Graph in Data Science__\n<img:images/core_principles-of
 **** Presenting insights
 
 ** =Data Type and Structure
-*** Identify the type and structure of your data:
-**** Categorical data
-**** Numerical data
+*** Identify the **type and structure** of your data:
+**** =**__Categorical__ or __Qualitative__**
+**** =**__Numerical__ or __Quantitative__**
+***** =**__Discrete__**
+***** =**__Continuous__**
 **** Time-series data
 **** Textual data
 **** Network data
