@@ -21,10 +21,10 @@ title =__How to Choose a Graph in Data Science__\n<img:images/core_principles-of
 ** =Relationship to Explore
 *** Determine the relationship or pattern you want to highlight:
 **** Comparison
-**** Correlation
+****[#red] =Correlation
 **** Distribution
 **** Composition
-**** Proportion
+****[#lime] =Proportion
 **** Ranking
 **** Flow
 
