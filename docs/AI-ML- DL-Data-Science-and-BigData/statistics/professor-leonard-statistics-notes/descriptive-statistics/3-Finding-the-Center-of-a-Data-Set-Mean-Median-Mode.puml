@@ -77,6 +77,8 @@ all 3 are same & interchangeable;
 # the model (algorithm) or machine consumes <size:22>less computation time</size>;
 
 * =Employee Table: \n<img:images/img_35.png>\n=//__**Data-Set:**__// is all rows or records of the Employee table/entity \n*An **entity/table** such as Employee can have different levels or types of data
+** =//__Data model__// for physicians and patients: \n<img:images/img_36.png>
+*** =//__Object model__// in OOP    :
 
 *[#red] Lecture-3 Part-2: **Finding the Center of a Data Set. Mean, Median, Mode**
 **[#red] Lecture-3 Part-3: **Finding the Standard Deviation of a Data Set**

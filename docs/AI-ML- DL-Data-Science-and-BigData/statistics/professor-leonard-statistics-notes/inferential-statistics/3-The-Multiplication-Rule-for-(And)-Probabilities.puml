@@ -18,9 +18,36 @@ title =__//The Multiplication Rule for "And" Probabilities//__\n<img:images/img_
 * =//Multiplication Rule for <color #lime>"And"</color> Probabilities// \n<img:images/img_16.png>
 ** =Definition:
 *** =Probability of 'A' occurring<size:22>, and then </size>'B' occurring in <color #lime>__**successive trial**__
+***:=P(A|B) = P(A ∩ B) / P(A)
+
+*This is valid only when P(A)≠ 0 i.e. when event A is not an impossible event.
+Similarly,
+
+=P(B|A) = P(A ∩ B) / P(B)
+
+* This is valid only when P(B)≠ 0 i.e. when the event B is not an impossible event.
+
+The below figure depicts the Venn diagram representation
+<img:images/img_24.png>;
+
 **:=Example-1:
 <img:images/img_17.png>
 <img:images/img_18.png>;
 ***  =Example-2: \n<img:images/img_19.png> \nObserve one thing carefully the value of <size::22>**177** now has come down to **176**</size>\n this is the thing that separates the <size:22>"AND" and "AND Then"</size>
+
+* =Conditional Probability
+** =Definition:
+*** The probability of an event occurring <size:18>__given that some other event has already occurred__\n<img:images/img_21.png>
+*** Example-1 In case of guilty not guilty example some events did affect the other event
+*** Example-2 In case of flipping a coin example one event did not affect the other event
+
+* =Independent events
+** The occurrence of one event <size:22>does not affect</size> the occurrence of another event (or subsequent events)\n=__Note:__ events that are not independent are __dependent events__\n<img:images/img_22.png>
+
+** =Example\n<img:images/img_23.png>
+
+*[#red] =Lecture-6 Part-2: **Probability of Complementary Events with "At Least One"**
+
+
 
 @endmindmap
