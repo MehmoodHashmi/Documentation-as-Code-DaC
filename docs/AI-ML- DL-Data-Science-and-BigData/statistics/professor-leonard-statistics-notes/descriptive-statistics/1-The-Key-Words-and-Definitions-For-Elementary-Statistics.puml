@@ -46,19 +46,27 @@ __But if you take a **sample** from the **population** and then talk those **cha
 
 
 *[#red] Lecture-1 Part-2: **Exploring Categories of Data, and levels of Measurement**
-*[#gold] <size:27>**0.  [[https://www.youtube.com/watch?v=I10q6fjPxJ0&t=222s&ab_channel=GlobalHealthwithGregMartin Statistics made easy ! ! ! Learn about the t-test, the chi square test, the p value and more]] YouTube Video 14-minute**
+*[#gold] <size:27>**0.  [[https://www.youtube.com/watch?v=I10q6fjPxJ0&t=222s&ab_channel=GlobalHealthwithGregMartin Statistics made easy !!! Learn about the t-test, the chi square test, the p value and more]] YouTube Video 14-minute**
 
 *[#pink] =**Types of data**
-**[#gold] ==**1. Qualitative Data (is <color #crimson>__categorical__</color>)**
+**[#gold] ==**1. Qualitative Data (is <color #crimson>__categorical__</color>)** \n<img:images/img_38.png> \nUse your <size:22>**senses** (internal & external)</size> \nto observe results
 *** **Definition:** Data that is **Non-Numeric**
 *** **Examples:** Gender, Color, Race, Religion, Ethnicity, Army Rank, Zip Code (some **data** like **zip code** might have numbers in them but still they are **Quantitative**)
 *** **Math operations** are **meaningless on Qualitative data** (or categorical data), \nyou can't add, subtract, multiply, divide qualitative data
 ****[#red] =**Examples**
 ***** **Nominal data**
 ***** **Ordinal data**
-**[#gold] ==**2. Quantitative Data**
+**[#gold] ==**2. Quantitative Data** \n<img:images/img_39.png>
 *** =**Definition:** its //**__numerical__**// data
 **** <img:images/img_32.png>
+*****:=__Number System:__
+* <size:22>**Real Numbers**
+** <size:16>**__Rational numbers__**
+*** Integers **{...,-3, -2, -1, 0, 1, 2, 3,...}**
+**** Whole numbers e.g. {**0,**1,2,3,...}
+***** Natural numbers e.g. {1,2,3, ...}
+** <size:16>**__Irrational numbers__**;
+
 *** **Examples:** Height, weight, wages, MPH (miles per hour), Temperature, Time
 *** **Math operations** are **meaningful on Quantitative data**, you can add, subtract, multiply, divide **quantitative data**
 ****[#red] =**Examples**
@@ -68,15 +76,16 @@ __But if you take a **sample** from the **population** and then talk those **cha
 ****[#crimson] ==1. Discrete Data
 ***** **Definition:** **Countable OR finite** (meaning there are only certain number of elements/values you can pick from)
 ***** **Example:** does a chicken lays half eggs, would you like to buy half washing machines, rolling a dice, etc.
-***** Usually a **count**
+***** Usually a <size:18>**count**
 
 ****[#crimson] ==2. Continuous Data
 ***** **Definition:** **Infinite number of values or elements** (not countable)
 ***** **Example:** Temperature, Length, etc.
-***** Usually a **__Measurement__**\n<img:images/img_33.png>
-****** Measurements are not easy, depends on tool used and how specific you want to be
+***** Usually a <size:16>**__Measurement__**\n<img:images/img_33.png>
+****** Measurements are not easy, depends on tool the used and how specific you want to be
+****** **Measurements** are made with instruments such as rulers, balances, graduated cylinders,\n breakers, and thermometers, these results are **measurable. numbers**
 
-*:=[[https://www.youtube.com/watch?v=ZA4JkHKZM50&ab_channel=3Blue1Brown Why “probability of 0” does not mean “impossible” | Probabilities of probabilities]] YouTube Video explaination
+*:=[[https://www.youtube.com/watch?v=ZA4JkHKZM50&ab_channel=3Blue1Brown Why “probability of 0” does not mean “impossible” | Probabilities of probabilities]] YouTube Video explanation
 <img:images/img_34.png>
 =It is common rule of thumb if you find yourself using <size:22>sum (symbol)</size> in a discrete context, then using <size:22>integral (symbol)</size> in Continuous context.;
 
@@ -217,5 +226,7 @@ relying on predefined labels.;
 * **2-Types of Sampling errors that can occur while you are sampling**
 ** **Non Sampling Error:** when you write down wrong information or make a math error something like this, it's called non-sampling error.
 ** **Sampling Error:** is the difference in characteristics between your sample and your population, because usually a sample does not **represents 100%** a population \nperfectly there will always a margin of error, and this difference (of margin error) is called sampling error
+
+* <img:images/img_40.png>
 
 @endmindmap
