@@ -2,7 +2,8 @@
 title =__// Data Structures & Software Design advice "UNIX O/S" book cathedral & bazaar//__
 
 *:<img:images/img_37.png>
-:<img:images/img_38.png>
-;
+<img:images/img_38.png>
+= <size:26>__//Fold "knowledge" into "data structure", so program logic can be stupid and robust//__
+<img:images/img_39.png>;
 
 @endmindmap
