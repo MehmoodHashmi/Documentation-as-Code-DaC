@@ -58,8 +58,8 @@ from -1 to +1, where values close to -1 indicate a strong negative correlation, 
 indicates no linear correlation. Similarly, direct and indirect proportionality can be represented numerically using ratios or equations that describe the
 relationship between the variables.
 
-Despite these similarities, it's important to note that correlation coefficients specifically measure the **__linear relationship between variables,__**
-whereas **direct and indirect proportionality describe the proportionate changes in variables. __Correlation coefficients do not capture non-linear__**
+Despite these similarities, it's important to note that correlation coefficients specifically measure the **__<size:22>linear relationship</size> between variables,__**
+whereas **direct and indirect proportionality describe the proportionate changes in variables. __Correlation coefficients do not capture <size:22>non-linear__**
 **relationships or the exact mathematical relationship between variables, unlike direct and indirect proportionality, which are defined by specific mathematical equations.**
 
 In summary, while there are conceptual similarities between correlation coefficients and direct/indirect proportionality, they represent different
