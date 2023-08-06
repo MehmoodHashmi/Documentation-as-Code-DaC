@@ -48,6 +48,44 @@ The below figure depicts the Venn diagram representation
 
 *[#red] =Lecture-6 Part-2: **Probability of Complementary Events with "At Least One"**
 
+* Sometimes it's easier to deal with the **complement of a set** than the **set** itself.
 
+* ="At Least One" means One or more
+** the complement of **"At Least One"** is <size:22> **"None"**
+
+
+*:<img:images/img_25.png>
+Why we do this because sometimes finding the probability of the
+**complement** is very easier than finding <size:18> **P("At Least One")**;
+
+** =Complementary events\n<img:images/img_13.png>
+*** <img:images/img_14.png>
+** =Example-1
+***:flip the coin 3-times. What is the probability of getting "At Least One"" head?
+= sample space:
+<img:images/img_26.png>
+
+<img:images/img_27.png>;
+
+*** =Another way to solve it or look at this problem
+
+****:<img:images/img_28.png>
+<img:images/img_30.png>
+Here the outcome of 2nd coin flip that is <size:22>**"T"**</size> does not depends on the
+outcome of the first coin flip and so on. These are independent events
+<img:images/img_31.png>;
+
+
+* =Rare and Usual Probabilities
+** =Rare
+*** if you have <size:22>0 to 0.5  </size>value then this event is rare chance occurring
+** =Usual
+*** if you have <size:22>0.5 to 1.0 </size> value then this event is usual chance occurring
+
+* =Conditional probability
+**:The conditional probabilities if I flip them around are not necessarily the same they can be
+different you are talking about two different scenarios if one thing happens before another
+thing it can change that probability
+<img:images/img_32.png>;
 
 @endmindmap
