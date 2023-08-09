@@ -1,0 +1,50 @@
+@startmindmap
+title =//__ Linux/Unix Internals__//
+
+* Linux/Unix Internals
+** Kernel
+*** Core of the operating system
+*** Manages hardware resources and provides services to applications
+** Processes and Threads
+*** Process: An instance of a running program
+*** Thread: Smallest unit of execution within a process
+** Memory Management
+*** Virtual Memory: Separates physical memory from program addresses
+*** Paging and Segmentation: Techniques to manage memory allocation
+*** Memory Mapping: Mapping files to memory for efficient I/O
+** File Systems
+*** Hierarchical structure to organize files and directories
+*** Inodes: Data structures that store metadata about files
+*** Disk Blocks: Storage units for file data
+** Input/Output (I/O)
+*** Device Drivers: Software to interface with hardware devices
+*** System Calls: Interfaces for user programs to perform I/O
+*** Buffers and Caches: Enhance I/O performance
+** Scheduling
+*** Process Scheduling: Determines which processes to execute
+*** Scheduling Algorithms: FIFO, Round Robin, etc.
+*** Priority-Based Scheduling: Assigns priority levels to processes
+** Inter-Process Communication (IPC)
+*** Pipes: Unidirectional communication between processes
+*** Signals: Interrupts to notify processes about events
+*** Message Queues: Allows processes to exchange messages
+*** Shared Memory: Processes share a region of memory
+** Networking
+*** Network Stack: Protocol layers for communication
+*** Sockets: Communication endpoints for network connections
+*** IP Addressing and Routing: Identifying and routing network traffic
+** Shell and Command Line
+*** Command Interpreter: Executes commands entered by users
+*** Shell Scripting: Writing scripts to automate tasks
+*** Environment Variables: Store configuration and system information
+** User Space vs. Kernel Space
+*** User Space: Where user applications run
+*** Kernel Space: Where the kernel and its components execute
+** Security and Permissions
+*** User and Group IDs: Assigning permissions and ownership
+*** Access Control Lists (ACLs): Fine-grained permissions
+*** Security Modules: SELinux, AppArmor, etc.
+** System Initialization
+*** Init Process: The first process spawned by the kernel
+*** systemd: Modern initialization and management system
+@endmindmap
