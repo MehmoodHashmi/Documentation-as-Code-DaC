@@ -1,0 +1,38 @@
+@startmindmap
+title = //__Regular Expressions__//
+
+* =Regular Expressions
+** =Definition
+*** A sequence of characters that defines a search pattern
+** =Basic Components
+***[#pink] **Literal Characters:** Match themselves (e.g., "abc" matches "abc")
+***[#pink] **Metacharacters:** Special symbols with reserved meanings
+**** **. :** Matches any character except a newline
+**** **^ :** Matches the start of a line
+**** **$ :** Matches the end of a line
+****  <b>* :</b> Matches zero or more occurrences of the preceding element
+**** **+ :** Matches one or more occurrences of the preceding element
+**** **? :** Matches zero or one occurrence of the preceding element
+**** **[ ] :** Defines a character class (e.g., [a-z] matches any lowercase letter)
+**** **{ } :** Specifies a quantifier (e.g., a{2,4} matches "aa", "aaa", or "aaaa")
+**** **( ) :** Groups and captures elements
+**** **| :** Acts as an OR operator (e.g., "a|b" matches "a" or "b")
+**[#gold] =Advanced Components
+*** **\ :** Escapes metacharacters to match them as literal characters (e.g., \* matches "*")
+*** **\d :** Matches a digit (0-9)
+*** **\w :** Matches a word character (letter, digit, or underscore)
+*** **\s :** Matches whitespace (space, tab, newline)
+*** **\b :** Matches a word boundary
+*** **[^ ] :** Defines a negated character class (e.g., [^0-9] matches any character except a digit)
+** Examples
+*** Email Validation
+**** ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$
+*** Date Extraction
+**** (\d{2})/(\d{2})/(\d{4})
+** =Applications
+*** Text Search and Extraction
+*** Data Validation
+*** String Manipulation
+*** Lexical Analysis
+*** Pattern Matching in Databases
+@endmindmap
