@@ -1,10 +1,10 @@
 @startmindmap
-title Operating Systems
+title =//__Operating Systems__//
 * Introduction
 ** Definition of an Operating System
 ** Evolution of Operating Systems
 ** Functions of an Operating System
-* Processes and Threads
+* =Processes and Threads
 ** Process Management
 *** Process Scheduling
 *** Interprocess Communication
@@ -13,7 +13,7 @@ title Operating Systems
 *** Thread Scheduling
 *** Thread Synchronization
 ** Deadlock and Starvation
-* Memory Management
+* =Memory Management
 ** Memory Hierarchy
 ** Address Binding
 ** Memory Allocation
@@ -43,7 +43,7 @@ title Operating Systems
 ** Fragmentation
 *** External Fragmentation
 *** Internal Fragmentation
-* File Systems
+* =File Systems
 ** File Concepts
 ** File Access Methods
 ** File Allocation Methods
@@ -67,7 +67,7 @@ title Operating Systems
 *** File System Interface
 *** File System Mounting
 *** File System Performance
-* Input/Output Systems
+* =Input/Output Systems
 ** Device Management
 *** Device Driver
 *** Interrupt Handling
@@ -78,7 +78,7 @@ title Operating Systems
 *** Shortest Seek Time First Algorithm
 *** SCAN Algorithm
 *** C-SCAN Algorithm
-* Security and Protection
+* =Security and Protection
 ** Threats and Attacks
 ** Authentication
 ** Authorization
@@ -87,12 +87,12 @@ title Operating Systems
 ** Firewalls
 ** Intrusion Detection and Prevention
 ** Security Management
-*[#yellow] **Virtualization**
-** Virtual Machines
-**[#pink] Hypervisors
+*[#yellow] =**Virtualization**
+** =Virtual Machines
+**[#pink] =Hypervisors
 ** Emulation
-**[#pink] Containerization
-* Types of Operating Systems
+**[#pink] =Containerization
+* =Types of Operating Systems
 ** Batch Operating System
 ** Time-Sharing Operating System
 ** Real-Time Operating System
