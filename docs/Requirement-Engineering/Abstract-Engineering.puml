@@ -1,26 +1,26 @@
 @startmindmap
 
 title = //**"__Computer science__ is not about __computers__ and neither it's __science__ instead it's **<color #red>**abstract engineering**</color>.// \nThis mindmap covers the definition of abstract engineering, key concepts like abstraction, modularity, scalability, extensibility, and robustness, applications of abstract engineering in various fields \nlike software, hardware, and civil engineering, as well as tools and techniques like modeling and simulation, prototyping, testing and debugging, and documentation used in abstract engineering.
-caption **Computer science** is not about **computers** and neither it's **science** instead it's <color #red>**abstract engineering**</color>.\nThis statement is often attributed to Edsger Dijkstra, a Dutch computer scientist and pioneer in the field of computer science. The statement means that computer science is not merely the study of computers or the \nphysical hardware, but rather the study of algorithms, processes, and systems for solving problems and processing information.\n\nIn other words, computer science is concerned with the theoretical foundations of computing and the algorithms and structures that underlie it. It is about designing and developing computational systems that can \nefficiently and effectively solve problems, process data, and automate tasks. \n\nThe term <color #118888>**"abstract engineering"**</color> refers to the process of designing and building **systems** that are **abstract**, <color #118888>**meaning they exist only in the realm of ideas and concepts, rather than being physical objects.**</color> \nIt **involves designing algorithms and data structures** that can be **implemented in software and hardware**, as well as **developing software and systems that can be used to solve real-world problems."**
+caption <size:34>**Computer science** is not about **computers** and neither it's **science** instead it's <color #red>**abstract engineering**</color>.\nThis statement is often attributed to Edsger Dijkstra, a Dutch computer scientist and pioneer in the field of computer science. The statement means that computer science is not merely the study of computers or the \nphysical hardware, but rather the study of algorithms, processes, and systems for solving problems and processing information.\n\nIn other words, computer science is concerned with the theoretical foundations of computing and the algorithms and structures that underlie it. It is about designing and developing computational systems that can \nefficiently and effectively solve problems, process data, and automate tasks. \n\nThe term <color #118888>**"abstract engineering"**</color> refers to the process of designing and building **systems** that are **abstract**, <color #118888>**meaning they exist only in the realm of ideas and concepts, rather than being physical objects.**</color> \nIt **involves designing algorithms and data structures** that can be **implemented in software and hardware**, as well as **developing software and systems that can be used to solve real-world problems."**
 
 
-* **Abstract Engineering**
+* ===**Abstract Engineering**
 ** Definition
-*** A <color #red>**process**</color> of designing, creating, and developing <color #118888>systems, structures, or processes</color>  that do not exist in <color #118888>**physical form**</color> e.g. **ideas (or thoughts)**
-** Key Concepts
-*** Abstraction
+*** ==A <color #red>**process**</color> of designing, creating, and developing <color #118888>systems, structures, or processes</color>  that do not exist in <color #118888>**physical form**</color> e.g. **ideas (or thoughts)**
+** =Key Concepts
+*** ==Abstraction
 **** The ability to represent complex systems or structures using simplified models
 **** Helps in reducing complexity and creating more efficient designs
-*** Modularity
+*** ==Modularity
 **** Breaking down complex systems into smaller, more manageable parts
 **** Encourages code reusability and simplifies maintenance
-*** Scalability
+*** ==Scalability
 **** The ability to handle larger amounts of <color #118888>**data or increased user traffic**</color> without sacrificing **performance**
 ****[#pink] **Important for software systems that are expected to grow and evolve over time**
-*** Extensibility
+*** ==Extensibility
 **** The ability to easily add new features or functionality to existing systems
 **** Enables systems to adapt to changing requirements and user needs
-***[#yellow] **Robustness**
+***[#yellow] ==**Robustness**
 **** The ability to handle unexpected or erroneous inputs without crashing or causing harm
 ****[#pink] **Important for systems that are expected to run continuously without human intervention**
 **[#yellow] **Applications**
