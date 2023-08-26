@@ -4,12 +4,12 @@ title  = //__**Designing Data-Intensive Applications**__//\n <size:24>**Key Take
 
 *  **Designing Data-Intensive Applications**\n **Key Takeaways**
 **[#yellow] **Choose** the right **__data model__** for your **application**
-***[#white] **Data Model**
-****[#white] **Hierarchical**
-****[#white] **Network**
-****[#red] **Relational (SQL) + ACID**
-*****[#pink]  **schema-based database**
-*****[#white]  **Types**
+***[#white] =**Data Model**
+****[#white] **1- Hierarchical**
+****[#white] **2- Network**
+****[#red] **3- Relational (SQL) + ACID**
+*****[#pink]  ==**schema-based database**
+*****[#white]  =**Types**
 ******[#yellow]  **Relational**
 *******[#white]  **SQL Server**
 *******[#white]  **My SQL**
@@ -17,9 +17,9 @@ title  = //__**Designing Data-Intensive Applications**__//\n <size:24>**Key Take
 *******[#white]  **Postgres**
 *******[#white]  **SQL Compact**
 ******[#yellow]  **Analiticals (OLAP)**
-****[#gold] **Non-Relational (No-SQL) + BASE**
-*****[#pink] **schema-less database**
-*****[#white] **Types**
+****[#gold] **4- Non-Relational (No-SQL) + BASE**
+*****[#pink] ==**schema-less database**
+*****[#white] =**Types**
 ******[#yellow] **Document**
 *******[#white] **Mongo DB**
 *******[#white] **Couch DB**
@@ -37,7 +37,7 @@ title  = //__**Designing Data-Intensive Applications**__//\n <size:24>**Key Take
 *******[#white] **cassandra**
 *******[#white] **Apache HBase**
 *** Each **__data model__** has its own **strengths and weaknesses**
-***[#pink] **__The choice of data model can significantly impact performance and scalability__**
+***[#pink] ==**__The choice of //data model// can significantly impact //performance and scalability//__**
 **[#yellow] **Data __storage__ and __retrieval__**
 *** **__Techniques__** include **indexing, caching, and compression**
 ***[#pink] __**Choice of storage technique can impact performance and scalability**__
