@@ -1,19 +1,27 @@
 @startmindmap
 
-title __Prompt Engineering__
+title =//**__Prompt Engineering__**// \n How prompt engineering works?
 
-* **Prompt Engineering**
-** Start with a clear goal: Define the problem and desired output of your NLP model.
-** Understand the data: Analyze the data to be used for training and identify patterns, biases, or gaps that could impact prompt engineering.
-** Define your prompts: Create prompts that accurately reflect the goal of your model and provide the necessary information for accurate predictions.
-** Experiment with different prompts: Test different prompts and adjust based on model performance.
-** Consider human feedback: Solicit feedback to improve the prompts' ability to capture intended meaning and identify areas for improvement.
-** Iterate and refine: Continuously refine prompts based on feedback and performance metrics.
-** Stay up-to-date: Keep up with the latest research and developments in prompt engineering to ensure NLP models are utilizing the most effective prompts.
-** Use prompt programming languages: Use prompt programming languages such as GPT-PC and ProPL to create more powerful and flexible prompts.
-** Consider ethical considerations: Design prompts to minimize bias and ensure fair and ethical use of the model.
-** Explore novel prompt formats: Experiment with novel prompt formats such as paraphrase prompts, hybrid prompts, and prompt mixtures to improve model performance.
-** Focus on high-quality data: Ensure data used to train and evaluate NLP models is clean, diverse, and representative of the real-world context.
-** Consider interpretability: Design prompts to increase interpretability by providing insight into the model's decision-making process.
-** Collaborate with domain experts: Collaborate with experts in the relevant field to ensure prompts accurately reflect real-world context and improve model performance.
+* =//**Prompt Engineering**//
+**:You can take these <size:24>**//__4-steps__//** </size> & start doing <size:24>**//__prompt engineering__//** </size> irrespective of whether you are working with
+= chatgpt3, chatgpt4, chatgpt5, google bard, github copilot, meta Llma 2, cuda 2 or any other;
+** =1- Assign a __**role**__ to the model
+** =2- Define the __**task**__ and __**give context**__
+** =3- Add __**constraints**__
+** =4- Set __**Expectations**__
+
+* =//**Prompt Engineering**//
+** __**Start with a clear goal:**__ Define the problem and desired output of your NLP model.
+** __**Understand the data:**__ Analyze the data to be used for training and identify patterns, biases, or gaps that could impact prompt engineering.
+** __**Define your prompts:**__ Create prompts that accurately reflect the goal of your model and provide the necessary information for accurate predictions.
+** __**Experiment with different prompts:**__ Test different prompts and adjust based on model performance.
+** __**Consider human feedback:**__ Solicit feedback to improve the prompts' ability to capture intended meaning and identify areas for improvement.
+** __**Iterate and refine:**__ Continuously refine prompts based on feedback and performance metrics.
+** __**Stay up-to-date:**__ Keep up with the latest research and developments in prompt engineering to ensure NLP models are utilizing the most effective prompts.
+** __**Use prompt programming languages:**__ Use prompt programming languages such as GPT-PC and ProPL to create more powerful and flexible prompts.
+** __**Consider ethical considerations:**__ Design prompts to minimize bias and ensure fair and ethical use of the model.
+** __**Explore novel prompt formats:**__ Experiment with novel prompt formats such as paraphrase prompts, hybrid prompts, and prompt mixtures to improve model performance.
+** __**Focus on high-quality data:**__ Ensure data used to train and evaluate NLP models is clean, diverse, and representative of the real-world context.
+** __**Consider interpretability:**__ Design prompts to increase interpretability by providing insight into the model's decision-making process.
+** __**Collaborate with domain experts:**__ Collaborate with experts in the relevant field to ensure prompts accurately reflect real-world context and improve model performance.
 @endmindmap
