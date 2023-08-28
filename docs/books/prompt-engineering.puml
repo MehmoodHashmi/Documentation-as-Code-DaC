@@ -4,11 +4,11 @@ title =//**__Prompt Engineering__**// \n How prompt engineering works?
 
 * =//**Prompt Engineering**//
 **:You can take these <size:24>**//__4-steps__//** </size> & start doing <size:24>**//__prompt engineering__//** </size> irrespective of whether you are working with
-= chatgpt3, chatgpt4, chatgpt5, google bard, github copilot, meta Llma 2, cuda 2 or any other;
-** =1- Assign a __**role**__ to the model
-** =2- Define the __**task**__ and __**give context**__
-** =3- Add __**constraints**__
-** =4- Set __**Expectations**__
+= chatgpt3, chatgpt4, chatgpt5, google bard, github copilot, meta Llama 2, cuda 2 or any other;
+**[#gold] =1- Assign a __**role**__ to the model
+**[#gold] =2- Define the __**task**__ and __**give context**__
+**[#gold] =3- Add __**constraints**__
+**[#gold] =4- Set __**Expectations**__
 **[#pink] Example
 ***:
     <size:22  >**Step-1**</size>  **Act** as my **personal AI Assistant** Wall-E (use an emoji to represent yourself).
