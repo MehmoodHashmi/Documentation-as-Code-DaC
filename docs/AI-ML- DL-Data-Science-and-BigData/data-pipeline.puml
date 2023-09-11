@@ -64,17 +64,17 @@ title =__ Data Pipeline__
 **** Cassandra
 **** Redis
 **** Elasticsearch
-** Data Delivery
-*** Data APIs
+**[#lightgreen] =Data Delivery
+***[#gold] Data APIs
 **** RESTful APIs
 **** GraphQL APIs
 **** SOAP APIs
-*** Data Streaming
+***[#pink] Data Streaming
 **** Apache Kafka
 **** Amazon Kinesis
 **** Apache Flink
 **** Apache Spark Streaming
-*** Data Export
+***[#yellow] Data Export
 **** File Formats (CSV, JSON, XML)
 **** Database Replication
 **** API Integration

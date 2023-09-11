@@ -1,7 +1,7 @@
 @startmindmap
 title =__ Data Normalization and Denormalization__
 * Data Normalization and Denormalization
-** Data Normalization
+**[#a] =Data Normalization
 *** Purpose
 **** Eliminate Data Redundancy
 **** Minimize Data Anomalies
@@ -21,7 +21,7 @@ title =__ Data Normalization and Denormalization__
 **** Establish Relationships with Primary and Foreign Keys
 **** Eliminate Redundant Data
 **** Verify Normalization Rules
-** Data Denormalization
+**[#gold] =Data Denormalization
 *** Purpose
 **** Improve Query Performance
 **** Reduce Joins and Complexity
@@ -42,7 +42,7 @@ title =__ Data Normalization and Denormalization__
 **** Data Consistency and Integrity Trade-offs
 **** Data Update and Maintenance Complexity
 **** Impact on Application Development and Testing
-** Benefits and Trade-offs
+**[#pink] =Benefits and Trade-offs
 *** Data Normalization Benefits
 **** Reduced Data Redundancy
 **** Improved Data Integrity

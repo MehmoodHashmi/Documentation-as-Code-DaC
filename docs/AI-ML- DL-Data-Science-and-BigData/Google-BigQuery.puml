@@ -1,9 +1,9 @@
 @startmindmap
-title =__ Google BigQuery__\n<img:images/img_15.png>
+title =__ //**Google BigQuery**//__ \n<img:images/img_15.png>
 * **[[https://www.whizlabs.com/blog/what-is-bigquery/]]**
 * **[[https://www.youtube.com/watch?v=Wx-aEcTf2h4&ab_channel=ITkFunde]]**
 
-* Google BigQuery
+* =Google BigQuery
 ** Overview
 ***[#pink] Google BigQuery is a fully managed, **serverless data warehouse** and **analytics platform** provided by **Google Cloud.**
 ***[#pink] It is designed for processing and analyzing large-scale datasets with high performance and scalability.
@@ -20,7 +20,7 @@ title =__ Google BigQuery__\n<img:images/img_15.png>
 **** Integrates with other Google Cloud services like Dataflow, Pub/Sub, and Cloud Storage for data ingestion and processing pipelines.
 *** Advanced Analytics
 **** Provides advanced analytics features like machine learning, geospatial analysis, and real-time analytics.
-**[#pink] Querying Data
+**[#lightgreen] =Querying Data
 *** SQL-like Language
 **** BigQuery uses a variant of SQL for querying and manipulating data.
 *** Standard SQL and Legacy SQL

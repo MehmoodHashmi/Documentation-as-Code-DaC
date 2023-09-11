@@ -16,9 +16,9 @@ title = __choosing the right technique or framework based on the specific proble
 *** Determine the Data
 **** Size of the Data
 **** Complexity of the Data
-****[#pink] **Structure of the Data**
-***** Structured-data or labeled data (15%-20%) on internet
-***** un-Structured-data or un-labeled data (80%-85%) on internet
+****[#pink] =**Structure of the Data**
+***** Structured-data or labeled data **(15%-20%)** on internet
+***** un-Structured-data or un-labeled data **(80%-85%)** on internet
 
 ** Evaluate Techniques/Frameworks
 *** Machine Learning

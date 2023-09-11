@@ -1,22 +1,22 @@
 @startmindmap
 title =__ DAG Data Pipeline__
-* DAG Data Pipeline
+* =DAG Data Pipeline
 ** Definition
-*** A data processing pipeline that uses a Directed Acyclic Graph (DAG) as its underlying structure
-** Components
-*** Source: Provides the initial data to be processed
-*** Transformation: Applies operations and transformations on the data
-*** Sink: Stores or outputs the processed data
+*** A data processing pipeline that uses a **Directed Acyclic Graph (DAG)** as its underlying structure
+**[#gold] =Components
+***[#c] **Source:** Provides the initial data to be processed
+***[#c] **Transformation:** Applies operations and transformations on the data
+***[#c] **Sink:** Stores or outputs the processed data
 ** Characteristics
-*** Task-based: Each node in the DAG represents a specific task or operation
-*** Dependency-driven: Edges define the data flow and dependencies between tasks
-*** Parallel execution: Independent tasks can be executed concurrently
-*** Fault-tolerant: Supports error handling and retries for task failures
+*** **Task-based:** Each node in the DAG represents a specific task or operation
+*** **Dependency-driven:** Edges define the data flow and dependencies between tasks
+*** **Parallel execution: **Independent tasks can be executed concurrently
+*** **Fault-tolerant:** Supports error handling and retries for task failures
 ** Advantages
-*** Scalability: Can handle large volumes of data and scale horizontally
-*** Flexibility: Supports different types of data sources, transformations, and sinks
-*** Modularity: Tasks can be added, removed, or modified without affecting the entire pipeline
-*** Reusability: Common tasks or transformations can be shared across multiple pipelines
+*** **Scalability:** Can handle large volumes of data and scale horizontally
+*** **Flexibility:** Supports different types of data sources, transformations, and sinks
+*** **Modularity:** Tasks can be added, removed, or modified without affecting the entire pipeline
+*** **Reusability:** Common tasks or transformations can be shared across multiple pipelines
 ** Use Cases
 *** Data ingestion and extraction
 *** Data transformation and cleansing

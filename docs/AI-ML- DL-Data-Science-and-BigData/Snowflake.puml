@@ -3,11 +3,11 @@ title =__ Snowflake__ \n<img:images/img_16.png>
 
 * **[[https://www.youtube.com/watch?v=C8_os0-ti48&ab_channel=ITkFunde]]**
 
-* Snowflake
-**[#pink] **Overview**
+* =Snowflake
+**[#pink] =**Overview**
 ***[#white] **Cloud-based data warehousing platform**
-***[#green] <color #crimson>**Built for the cloud with a unique architecture**</color>
-***[#green] <color #crimson>**Designed for scalability, flexibility, and performance**</color>
+***[#lightgreen] ==<color #crimson>**Built for the cloud with a unique architecture**</color>
+***[#lightgreen] ==<color #crimson>**Designed for scalability, flexibility, and performance**</color>
 ** Key Features
 *** Elasticity
 **** Automatic scaling of compute resources based on workload demands
@@ -27,7 +27,7 @@ title =__ Snowflake__ \n<img:images/img_16.png>
 *** Performance optimization
 **** Query optimization and execution enhancements
 **** Caching and data materialization for faster query results
-**[#pink] Use Cases
+**[#pink] =Use Cases
 *** Data Warehousing
 **** Analyzing and reporting on large volumes of structured and semi-structured data
 **** Support for complex queries and aggregations

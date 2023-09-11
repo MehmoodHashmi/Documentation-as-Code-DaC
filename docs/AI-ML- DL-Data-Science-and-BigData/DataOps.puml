@@ -1,10 +1,10 @@
 @startmindmap
 title =__ DataOps__
-* DataOps
+* =DataOps
 ** Definition
 *** DataOps combines principles, practices, and technologies to improve the efficiency, reliability, and quality of data operations.
-** Key Components
-***[#pink] Collaboration
+**[#gold] =Key Components
+***[#pink] ===Collaboration
 **** Cross-functional collaboration between data engineers, data scientists, analysts, and other stakeholders.
 **** Collaboration tools like version control, issue tracking, and documentation platforms.
 *** Automation

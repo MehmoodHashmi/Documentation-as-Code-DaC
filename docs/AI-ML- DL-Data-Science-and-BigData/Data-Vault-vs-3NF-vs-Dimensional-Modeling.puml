@@ -3,11 +3,11 @@ title =__ Data Vault vs 3NF vs Dimensional Modeling__
 * **[[https://www.youtube.com/watch?v=l5UcUEt1IzM&ab_channel=ITkFunde]]**
 
 * Data Vault vs 3NF vs Dimensional Modeling
-** Data Vault
+**[#gold] Data Vault
 *** Overview
 **** Data Vault is a data modeling methodology designed for data warehousing and analytics.
 **** It focuses on scalability, flexibility, auditability, and historical tracking of data.
-*** Key Concepts
+***[#a] =Key Concepts
 **** Hub
 ***** Represents a business key or a unique identifier for an entity.
 **** Link
@@ -28,7 +28,7 @@ title =__ Data Vault vs 3NF vs Dimensional Modeling__
 ***** Requires additional effort in data modeling and development.
 **** Performance
 ***** May impact query performance due to schema complexity.
-** 3NF (Third Normal Form)
+**[#pink] 3NF (Third Normal Form)
 *** Overview
 **** 3NF is a data normalization technique that reduces data redundancy and ensures data integrity.
 **** It focuses on eliminating data anomalies and maintaining data consistency.
@@ -51,11 +51,11 @@ title =__ Data Vault vs 3NF vs Dimensional Modeling__
 ***** May require complex joins and queries for data retrieval.
 **** Data Redundancy
 ***** Can result in larger data storage requirements.
-** Dimensional Modeling
+**[#lightgreen] Dimensional Modeling
 *** Overview
 **** Dimensional Modeling is a data modeling technique for data warehousing and business intelligence.
 **** It focuses on simplicity, ease of use, and query performance.
-*** Key Concepts
+***[#a] =Key Concepts
 **** Fact Table
 ***** Contains the numerical and measurable data (facts) related to a business process.
 **** Dimension Table

@@ -6,7 +6,7 @@ title =__Data Thinking__
 ** **Definition**
 ***[#pink] **An approach that emphasizes the critical thinking and mindset required to effectively analyze and make decisions based on data.**
 
-**[#pink] Components
+**[#gold] =Components
 
 *** Data Acquisition
 **** Identifying and collecting relevant data from various sources.
@@ -23,7 +23,7 @@ title =__Data Thinking__
 *** Data Interpretation
 **** Drawing meaningful conclusions and insights from the data analysis.
 
-***[#pink] **Data-Driven Decision Making**
+***[#pink] =**Data-Driven Decision Making**
 **** Using data insights to guide and inform decision-making processes.
 
 ** Skills and Tools
@@ -45,7 +45,7 @@ title =__Data Thinking__
 **** Software and tools used to create visual representations of data.
 **** Examples: Matplotlib, seaborn, ggplot, D3.js.
 
-***[#pink] Domain Knowledge
+***[#pink] =Domain Knowledge
 **** Understanding of the specific domain or industry context in which the data is analyzed.
 
 ** Benefits

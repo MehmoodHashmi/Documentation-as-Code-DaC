@@ -32,7 +32,7 @@ title =__ Advanced Data Stream__
 ***** Allows detection of complex events or situations
 ***** Examples: Fraud detection, anomaly detection, predictive maintenance
 
-**[#pink] **Stream Storage**
+**[#pink] =//**Stream Storage**//
 *** Definition
 **** Storage mechanisms for persistent storage of streaming data
 

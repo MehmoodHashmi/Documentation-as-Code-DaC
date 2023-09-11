@@ -1,12 +1,12 @@
 @startmindmap
-title = __This mindmap includes the following topics related to advanced artificial intelligence:__ \n1. Machine learning, including supervised, unsupervised, and reinforcement learning\n2. Deep learning, including neural networks and deep reinforcement learning\n3. Natural language processing, including text preprocessing, feature extraction, language models, named entity recognition, and sentiment analysis\n4. Computer vision, including image preprocessing, feature extraction, image classification, and object detection\n5. Robotics, including robotic perception, robot control, and reinforcement learning for robotics\n6. Advanced topics, including generative adversarial networks, variational autoencoders, transfer learning, explainable AI, adversarial attacks and defenses, and quantum machine learning.\n Each topic includes several subtopics to provide a comprehensive overview of advanced artificial intelligence.\n
+title = __This mindmap includes the following topics related to advanced artificial intelligence:__ \n1. <color #crimson>Machine learning,</color> including supervised, unsupervised, and reinforcement learning\n2. <color #blue>Deep learning,</color> including neural networks and deep reinforcement learning\n3. <color #red>Natural language processing,</color> including text preprocessing, feature extraction, language models, named entity recognition, and sentiment analysis\n4. <color #green>Computer vision,</color> including image preprocessing, feature extraction, image classification, and object detection\n5. <color #brown>Robotics,</color> including robotic perception, robot control, and reinforcement learning for robotics\n6. Advanced topics, including generative adversarial networks, variational autoencoders, transfer learning, explainable AI, adversarial attacks and defenses, and quantum machine learning.\n Each topic includes several subtopics to provide a comprehensive overview of advanced artificial intelligence.\n
 
-* Artificial Intelligence
-** Discriminative AI
-** Generative AI
-*** like chatgpt
+* =//Artificial Intelligence//
+** ==Discriminative AI
+** ==Generative AI
+***[#gold] like chatgpt
 * Advanced Artificial Intelligence
-** Machine Learning
+** =Machine Learning
 *** Supervised Learning
 **** Classification
 **** Regression
@@ -22,7 +22,7 @@ title = __This mindmap includes the following topics related to advanced artific
 **** SARSA
 **** Policy Gradient
 **** Monte Carlo Tree Search
-** Deep Learning
+** =Deep Learning
 *** Neural Networks
 **** Convolutional Neural Networks (CNNs)
 **** Recurrent Neural Networks (RNNs)
@@ -34,7 +34,7 @@ title = __This mindmap includes the following topics related to advanced artific
 **** Policy Gradient
 **** Deep Deterministic Policy Gradient (DDPG)
 **** Asynchronous Advantage Actor-Critic (A3C)
-** Natural Language Processing
+** =Natural Language Processing
 *** Text Preprocessing
 **** Tokenization
 **** Stop Word Removal
@@ -50,7 +50,7 @@ title = __This mindmap includes the following topics related to advanced artific
 **** Recurrent Neural Networks (RNNs)
 *** Named Entity Recognition (NER)
 *** Sentiment Analysis
-** Computer Vision
+** =Computer Vision
 *** Image Preprocessing
 **** Grayscale Conversion
 **** Edge Detection
@@ -70,7 +70,7 @@ title = __This mindmap includes the following topics related to advanced artific
 **** Haar Cascade Classifiers
 **** Faster R-CNN
 **** You Only Look Once (YOLO)
-** Robotics
+** =Robotics
 *** Robotic Perception
 **** Object Recognition
 **** Localization
@@ -85,7 +85,7 @@ title = __This mindmap includes the following topics related to advanced artific
 **** Model-Free Reinforcement Learning
 **** Imitation Learning
 **** Learning from Demonstrations
-** Advanced Topics
+** =Advanced Topics
 *** Generative Adversarial Networks (GANs)
 *** Variational Autoencoders (VAEs)
 *** Transfer Learning

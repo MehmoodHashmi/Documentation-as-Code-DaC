@@ -6,7 +6,7 @@ title =__Payload__
 *** Data Transmitted as part of a Message or Packet
 *** Carries Information or Instructions
 *** Can be Encrypted, Compressed, or Structured
-** Payload Types
+**[#gold] =Payload Types
 *** Textual Data
 **** JSON
 **** XML
@@ -66,9 +66,9 @@ title =__Payload__
 ** Payload Management Tools
 *** Data Transformation Tools
 *** Data Integration Platforms
-*** Message Brokers
-*** ETL (Extract, Transform, Load) Tools
-*** API Gateways
+***[#gold] ===Message Brokers
+***[#gold] ===ETL (Extract, Transform, Load) Tools
+***[#gold] ===API Gateways
 *** Data Serialization Libraries
 *** Compression/Decompression Libraries
 

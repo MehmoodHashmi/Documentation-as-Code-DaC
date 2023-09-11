@@ -1,7 +1,7 @@
 @startmindmap
 title =__ Data Science__ \n<img:images/img_17.png>
-* Data Science
-** **Foundations of Data Science**
+*[#gold] =Data Science
+**[#a] =**Foundations of Data Science**
 *** Statistics
 *** Linear Algebra
 *** Probability Theory
@@ -14,12 +14,12 @@ title =__ Data Science__ \n<img:images/img_17.png>
 *** Graphical Perception
 *** Visual Encoding and Interaction
 *** Visualization Design
-** Machine Learning
+**[#lightgreen] ==Machine Learning
 *** Supervised Learning
 *** Unsupervised Learning
 *** Semi-Supervised Learning
 *** Deep Learning
-** Big Data
+** =Big Data
 *** Distributed Computing
 *** Scalability
 *** Storage Systems

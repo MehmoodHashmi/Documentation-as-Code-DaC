@@ -1,24 +1,24 @@
 @startmindmap
-title =__ Hadoop__ \n<img:images/img_6.png>
+title =**//__ Hadoop__//** \n<img:images/img_6.png>
 * **[[https://teachingbee.in/the-ecosystem-of-hadoop-the-future-of-big-data/]]**
 * **[[https://www.altexsoft.com/blog/hadoop-vs-spark/]]**
 
-* **Hadoop** \n<img:images/img_5.png>
+*[#a] =**Hadoop** \n<img:images/img_5.png>
 ** Overview
 *** Distributed processing framework
 *** Designed for handling large-scale data processing
 *** Provides scalability, fault tolerance, and reliability
-**[#pink] Core Components
-*** Hadoop Distributed File System (HDFS)
+**[#gold] =Core Components
+***[#feeAAAAA] =Hadoop Distributed File System (HDFS)
 **** Distributed file system for storing data across multiple machines
 **** Provides high throughput data access and fault tolerance
-*** MapReduce
+***[#feeEEEEE] ==MapReduce
 **** Programming model for processing large datasets in parallel
 **** Splits data into smaller chunks and processes them in parallel
-*** YARN (Yet Another Resource Negotiator)
+***[#yellow] ===YARN (Yet Another Resource Negotiator)
 **** Resource management framework for scheduling and managing tasks
 **** Enables efficient resource allocation and job coordination
-**[#pink] **Ecosystem** \n<img:images/img_7.png>
+**[#pink] =**Ecosystem** \n<img:images/img_7.png>
 *** Hadoop Common
 **** Common utilities and libraries used by other Hadoop components
 **** Provides support for security, logging, and other shared functionalities

@@ -1,7 +1,7 @@
 @startmindmap
-title =__ Data Architecture (is not information architecture)__
+title =__<color #crimson>//Data Architecture//</color> (is not <color #green>//Information Architecture//)</color>__
 
-* Data Architecture
+*[#lightgreen] =//**Data Architecture**//
 ** Data Sources
 *** Structured Data
 *** Unstructured Data
@@ -42,7 +42,7 @@ title =__ Data Architecture (is not information architecture)__
 *** Predictive Analytics
 *** Machine Learning
 
-* Information Architecture
+*[#gold] =**//Information Architecture//**
 ** User Experience (UX)
 *** Information Design
 *** Interaction Design

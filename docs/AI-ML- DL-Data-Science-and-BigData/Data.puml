@@ -1,25 +1,25 @@
 @startmindmap
 skinparam shadowing false
 
-title =__ Data__
-* Data
-**[#pink] **Types of Data**
+title =__//**Data**//__
+* =__//**Data**//__
+**[#pink] =**Types of Data**
 *** **Numerical Data**
 ****[#pink] **Continuous Data**
 ****[#pink] **Discrete Data**
 *** Categorical Data
-**** Nominal Data
-**** Ordinal Data
+****[#c] Nominal Data
+****[#c] Ordinal Data
 *** Textual Data
 *** Spatial Data
 
-** Data Collection Methods
-*** Surveys
-*** Interviews
-*** Observations
-*** Experiments
-*** Sensor Data
-*** Web Scraping
+**[#lightgreen] =Data Collection Methods
+***[#c] Surveys
+***[#c] Interviews
+***[#c] Observations
+***[#c] Experiments
+***[#c] Sensor Data
+***[#c] Web Scraping
 
 ** Data Storage and Management
 *** Databases
@@ -34,26 +34,26 @@ title =__ Data__
 *** Data Cleaning
 
 ** Data Analysis and Visualization
-*** Exploratory Data Analysis
+***[#lightgreen] =Exploratory Data Analysis
 **** Descriptive Statistics
 **** Data Visualization
 **** Data Profiling
-*** Statistical Analysis
+***[#lightgreen] =Statistical Analysis
 **** Inferential Statistics
 **** Hypothesis Testing
 **** Regression Analysis
-*** Machine Learning
+***[#lightgreen] =Machine Learning
 **** Supervised Learning
 **** Unsupervised Learning
 **** Deep Learning
-*** Data Mining
+*** =Data Mining
 *** Data Visualization Tools
 **** Charts and Graphs
 **** Dashboards
 **** Geospatial Visualization
 
 **[#pink] **Big Data and Data Science**
-*** **Big Data Concepts**
+***[#c] =**Big Data Concepts**
 ****[#pink] Volume, Velocity, Variety, Veracity
 ****[#pink] Hadoop and MapReduce
 ****[#pink] Distributed File Systems

@@ -2,7 +2,7 @@
 title =__Data Mart__\n<img:images/img_14.png>
 * **[[https://panoply.io/data-warehouse-guide/data-mart-vs-data-warehouse/]]**
 
-* Data Mart
+* =Data Mart
 ** Overview
 *** **A Data Mart is a specialized subset of a data warehouse that focuses on a specific subject area or department within an organization.**
 ***[#pink] It provides a consolidated view of data specifically tailored to the needs of a particular business unit or user group.
@@ -35,7 +35,7 @@ title =__Data Mart__\n<img:images/img_14.png>
 *** Virtual Data Mart
 **** Provides a logical view of the data without physically moving or duplicating it.
 ** **Data Mart Design Considerations**
-*** **Business Requirements**
+***[#a] **Business Requirements**
 ****[#pink] Understand the specific business requirements and reporting needs of the targeted user group.
 *** Data Granularity
 **** Determine the appropriate level of detail and granularity of the data to be included in the Data Mart.

@@ -1,8 +1,8 @@
 @startmindmap
-title = __Apache Kafka__\n<img:images/img_1.png>
+title = //**__Apache Kafka__**// \n<img:images/img_1.png>
 * **[[https://www.youtube.com/watch?v=0V9SK6jmDPk&ab_channel=ITkFunde]]**
 * **[[https://www.youtube.com/watch?v=84HRqqWpqL4&list=PLBb5HFCJVQts9MRueDBfi-K8DB_p_dGLJ&index=2&ab_channel=JavaShastra]]**
-* **Apache Kafka** \n<img:images/img_2.png>
+*[#crimson] =//**Apache Kafka**// \n<img:images/img_2.png>
 ** Overview
 *** Distributed streaming platform
 *** Handles high-volume, real-time data feeds

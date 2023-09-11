@@ -1,12 +1,12 @@
 @startmindmap
 title =__ Data Pipeline Design Patterns__
 * Data Pipeline Design Patterns
-** Batch Processing
-*** Extract, Transform, Load (ETL)
+** =Batch Processing
+*** ===Extract, Transform, Load (ETL)
 **** Data Extraction
 **** Data Transformation
 **** Data Loading
-*** MapReduce
+***[#a] ===MapReduce
 **** Map Phase
 **** Reduce Phase
 **** Shuffling
@@ -15,12 +15,12 @@ title =__ Data Pipeline Design Patterns__
 **** Batch Data Ingestion
 **** Batch Data Transformation
 **** Batch Data Output
-** Real-Time Processing
-*** Stream Processing
+** =Real-Time Processing
+***[#gold] ===Stream Processing
 **** Event Stream Processing
 **** Stream Analytics
 **** Windowing and Time-based Processing
-*** Event-Driven Architecture
+***[#lightgreen] =Event-Driven Architecture
 **** Event Sources
 **** Event Processing and Routing
 **** Event Storage and Persistence

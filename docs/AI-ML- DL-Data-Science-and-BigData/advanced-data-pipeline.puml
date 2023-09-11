@@ -19,19 +19,19 @@ title =__ Advanced Data Pipeline__
 **** Apache NiFi
 **** AWS IoT Core
 **** Azure IoT Hub
-**[#pink] Data Processing
-*** **Stream Processing** \n<img:images/img_12.png>
+**[#pink] =//Data Processing//
+*** ==**Stream Processing** \n<img:images/img_12.png>
 **** Apache Flink
 **** Apache Storm
 **** Spark Streaming
 **** AWS Kinesis Data Analytics
-*** **Batch Processing** \n<img:images/img_11.png>
+*** ==**Batch Processing** \n<img:images/img_11.png>
 **** Apache Spark
 **** Apache Hadoop MapReduce
 **** AWS Glue
 **** Google Cloud Dataflow
 *** **Lambda Architecture** is hybrid (combination of stream and batch processing) \n<img:images/img_13.png>
-** Data Storage
+** =Data Storage
 ***[#pink] Data Warehouses
 **** Snowflake
 **** Amazon Redshift
@@ -47,7 +47,7 @@ title =__ Advanced Data Pipeline__
 **** Cassandra
 **** Apache CouchDB
 **** Amazon DynamoDB
-** Data Governance
+** =Data Governance
 *** Data Catalog
 **** Apache Atlas
 **** AWS Glue Data Catalog
@@ -63,7 +63,7 @@ title =__ Advanced Data Pipeline__
 **** Alation Data Catalog
 **** Informatica Axon
 **** Collibra Data Lineage
-** Data Integration
+** =Data Integration
 *** ETL (Extract, Transform, Load)
 **** Apache Nifi
 **** Talend
@@ -79,7 +79,7 @@ title =__ Advanced Data Pipeline__
 **** IBM Data Virtualization
 **** Red Hat JBoss Data Virtualization
 **** Oracle Data Virtualization
-** Data Security
+** =Data Security
 *** Data Encryption
 **** Transparent Data Encryption (TDE)
 **** Amazon Key Management Service (KMS)

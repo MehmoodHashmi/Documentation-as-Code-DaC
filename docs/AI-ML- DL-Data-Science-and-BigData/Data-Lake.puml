@@ -10,7 +10,7 @@ skinparam connector {
 }
 
 title =__ Data Lake__
-* Data Lake
+* =Data Lake
 
 ** Definition and Purpose
 *** Centralized Repository for Raw and Processed Data

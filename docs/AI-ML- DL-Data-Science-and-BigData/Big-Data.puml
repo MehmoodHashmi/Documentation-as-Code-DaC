@@ -1,7 +1,7 @@
 @startmindmap
 title =__ Big Data__
-* Big Data
-** Characteristics
+* =Big Data
+** =Characteristics
 *** Volume
 *** Velocity
 *** Variety
@@ -35,7 +35,7 @@ title =__ Big Data__
 **** Apache Kafka
 **** Apache Flink
 **** Apache Storm
-** Data Analytics
+** =Data Analytics
 *** Descriptive Analytics
 *** Diagnostic Analytics
 *** Predictive Analytics

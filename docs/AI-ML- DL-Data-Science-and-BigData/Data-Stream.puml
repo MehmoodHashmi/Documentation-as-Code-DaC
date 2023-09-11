@@ -10,13 +10,13 @@ skinparam connector {
 }
 
 title =__ Data Stream__
-* Data Stream
+*[#gold] =Data Stream
 
 ** Definition
 *** Continuous flow of data records or events
 *** Represents the movement of data from a source to a destination
 
-**[#pink] Characteristics
+**[#pink] =Characteristics
 *** Continuity
 **** Data stream is continuous and can be infinite in length
 **** New data records are continuously added to the stream over time
