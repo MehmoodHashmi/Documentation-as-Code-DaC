@@ -7,7 +7,7 @@ skinparam roundcorner 20
  'hidefootbox
 header "let do coding"
 footer "page %page% of %lastpage%"
-title "Coding sequence diagram"
+title  = **//__Coding sequence diagram__//**
 autoactivate on
 autonumber
 
