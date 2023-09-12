@@ -1,0 +1,14 @@
+zenuml
+    title Annotators is @ sign
+    @Actor Alice
+    @Database Bob
+
+    //ec2, sagemaker and s3 declaration
+    @ec2 ec2
+    @s3 S3
+    @sagemaker Sagemaker
+
+    Alice->Bob: Hi Bob
+    Bob->Alice: Hi Alice
+    Bob->Sagemaker:Visit mermaid website for details & check docs
+    ec2->S3: Hi s3, how
