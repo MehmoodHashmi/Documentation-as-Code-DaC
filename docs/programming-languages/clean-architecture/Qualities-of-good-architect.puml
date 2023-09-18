@@ -1,0 +1,66 @@
+@startmindmap
+<style>
+node {
+    Padding 12
+    Margin 3
+    HorizontalAlignment center
+    LineColor blue
+    LineThickness 3.0
+    BackgroundColor gold
+    RoundCorner 40
+    MaximumWidth 1000
+}
+
+rootNode {
+    LineStyle 8.0;3.0
+    LineColor red
+    BackgroundColor white
+    LineThickness 1.0
+    RoundCorner 0
+    Shadowing 1.0
+}
+
+leafNode {
+    LineColor gold
+    RoundCorner 0
+    Padding 3
+}
+
+arrow {
+    LineStyle 4
+    LineThickness 1.0
+    LineColor green
+}
+</style>
+
+title =//__**12 qualities of good architect by venkat subramaniam**__//\n<img:images/img_1.png>
+
+* =12 qualities of good architect
+** =1- be a mentor, not a tormentor (bulldozer, harasser, intimidator, ruffian)
+***  nurturing is your professional responsibility
+*** = Knowledge is a wealth that grows when given
+** =3- Criticize ideas, not people
+*** = Architecting is evaluating tradeoff
+*** = debating with knives
+** =6- guide, don't dictate
+** =7- Practice collective ownership
+** =8- reduce truck factor
+** =9- prototypes beat any arguments
+** =10- gain domain expertise
+*** = 3 kinds of people:
+**** = Those who know:
+***** =<color #red>1- __software but not domain__
+***** =<color #red>2- __domain but not software__
+***** =<color #red>3- __both software and domain__, are very few
+** =11- learn to unlearn
+*** learning is relatively easy when compared to unlearn
+*** Diversify your knowledge portfolio
+*** Pragmatic Programmers:
+**** "We should learn at least one new language each year", does not mean you know **Java now learn C#**
+**** The amount of time you need to learn something new is inversely proportional to the number of different things you 've\n learned in the past few years.
+** =12- Write code
+*** = In some companies architect means I don't code anymore, and I'm power-point architect
+
+
+@endmindmap
+
