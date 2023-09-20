@@ -1,5 +1,5 @@
 @startmindmap
-title This is most significant mindmap
+title =This is most significant mindmap
 * Client Management
 ** **Client Acquisition**
 *** Referrals
@@ -11,7 +11,7 @@ title This is most significant mindmap
 *** Goal Setting
 *** Establishing Expectations
 *** Communication Plan
-**[#yellow] **Client Retention**
+**[#yellow] =**Client Retention**
 *** Customer Service
 *** Account Management
 *** Problem Resolution
