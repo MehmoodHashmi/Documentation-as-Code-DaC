@@ -1,11 +1,12 @@
 
 
 
-Here's a PlantUML script for a mindmap that outlines advanced system design thinking. To render the mindmap, you can use a PlantUML editor or an online tool like https://www.planttext.com/.
 
 @startmindmap
 
 
+
+title = Advanced System Design Thinking
 * Advanced System Design Thinking
 ** Requirements Gathering
 *** Identify Stakeholders

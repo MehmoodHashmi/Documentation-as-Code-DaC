@@ -1,4 +1,6 @@
 @startmindmap
+title = __System Design__
+
 * System Design
 ** High-Level Design (HLD)
 *** Define main components

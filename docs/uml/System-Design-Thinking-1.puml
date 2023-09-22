@@ -1,11 +1,13 @@
 
 
-System design thinking is an approach to problem-solving that involves understanding and addressing complex systems and their components. It focuses on identifying the relationships between different elements within a system, as well as the interactions between those elements and their environment. This approach is particularly useful for designing and optimizing large-scale systems, such as software architectures, organizational structures, and business processes.
-
-Here's a PlantUML mindmap script that outlines advanced system design thinking:
 
 @startmindmap
 
+title = System Design Thinking
+*:System design thinking is an approach to problem-solving that involves understanding and addressing complex systems and their components. It focuses on identifying
+the relationships between different elements within a system, as well as the interactions between those elements and their environment. This approach is particularly
+useful for designing and optimizing large-scale systems, such as software architectures, organizational structures, and business processes.
+Here's a PlantUML mindmap script that outlines advanced system design thinking:;
 + System Design Thinking
 ++ Understanding Complex Systems
 +++ Identifying Components

@@ -1,6 +1,7 @@
 @startmindmap
 
 
+title =  Advanced System Design Thinking
 * Advanced System Design Thinking
 ** Scalability
 *** Horizontal Scaling
