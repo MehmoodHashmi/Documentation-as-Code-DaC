@@ -32,8 +32,24 @@ Author Name Mehmood-ur-Rehman
 +++
 <iframe width="560" height="315" src="https://www.youtube.com/embed/of45hYbkIZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 +++
+
+
 [[kuberetes-cloudplatform]]
 There's no way to write a *_##single spec or design##_* that goes across different *cloud providers*.*Kubernetes* can help with this if you have design or spec written in kubernetes topology.
+
+.What is *Platform Engineering* and how it fits into *DevOps* and Cloud world
++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ghzsBm8vOms?si=3VjsUYScXWSTtjmF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
++++
+
+
+*Platform Engineering* - What it is, how it works and how it fits into DevOps and Cloud world.
+Also how to approach implementing an *IDP - internal developer platform.*
+
+A relatively new hot topic in DevOps and Cloud space, which is “platform engineering”. There is a lot of discussion going on, where some people are asking whether platform engineering replaces DevOps. Many people say it goes hand in hand and is rather an addition to DevOps, but in reality it's a bit more complicated than that. Platform engineering actually changes a lot of established rules we knew about DevOps, SRE and Cloud engineering, it changes the game and introduces some new rules.
+
+So let's clearly define, what platform engineering exactly is, more interestingly, why was there even a need for this new role and how it evolved and of course how it compares to DevOps and Cloud engineering and does it really replace any of these roles?
+
 
 .difference between *k8* user/developer *k8* administrator
 +++
