@@ -35,6 +35,12 @@ Author Name Mehmood-ur-Rehman
 [[kuberetes-cloudplatform]]
 There's no way to write a *_##single spec or design##_* that goes across different *cloud providers*.*Kubernetes* can help with this if you have design or spec written in kubernetes topology.
 
+.difference between *k8* user/developer *k8* administrator
++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S8eX0MxfnB4?si=xFXzP19rr49gy-Qe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
++++
+
+image::images/img.png[width=300]
 image::images/image-2023-02-02-23-04-30-073.png[width=800]
 
 ▬▬▬▬▬▬ T I M E S T A M P S ⏰ ▬▬▬▬▬▬

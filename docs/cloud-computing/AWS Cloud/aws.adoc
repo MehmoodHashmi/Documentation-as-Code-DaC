@@ -48,6 +48,11 @@ Author Name Mehmood-ur-Rehman
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z3SYDTMP3ME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 +++
 
+.aws services breakdown
+image::img_2.png[]
+
+
+
 == AWS VPC Basics - Understanding what is VPC and Calculating #CIDR# for VPC and Subnets
 
 ====
