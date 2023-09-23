@@ -1,0 +1,245 @@
+@startmindmap
+title =Frappe Framework
+
+* Frappe Framework
+** Architecture
+*** Backend
+**** Python
+**** Database (MariaDB)
+*** Frontend
+**** JavaScript
+**** HTML/CSS
+**** Jinja2 Templating
+** Core Components
+*** ORM (Object-Relational Mapping)
+*** REST API
+*** Background Jobs
+*** User Authentication
+** Module System
+*** Apps
+*** Modules
+*** Hooks
+*** Blueprints
+** UI/UX
+*** Desk UI
+*** Web Forms
+*** User Dashboards
+*** Kanban Boards
+** Data Management
+*** DocTypes
+**** Standard DocTypes
+**** Custom DocTypes
+*** Data Import/Export
+*** Data Permissions
+** Scripting
+*** Python Scripts
+*** Server Scripts
+*** Client Scripts
+*** Custom Scripting
+** Integration & Extensibility
+*** REST APIs
+*** Webhooks
+*** Event Streaming
+*** Custom Apps Development
+** Workflow
+*** State Machine
+*** Workflow Actions
+*** Notifications
+** User Management
+*** User Roles
+*** Permissions
+*** LDAP/AD Integration
+** Security
+*** Data Encryption
+*** Role-Based Access Control
+*** Security Policies
+** Testing & Debugging
+*** Unit Testing
+*** Debugging Tools
+*** Error Logging
+** Deployment
+*** Docker Support
+*** Bench CLI
+*** Scalability
+** Documentation & Community
+*** Developer Documentation
+*** User Guides
+*** Community Forums
+*** GitHub Repository
+** Version Control
+*** Git Integration
+*** Code Versioning
+*** Branching & Merging
+** Licensing
+*** Open Source (MIT License)
+*** Commercial Licensing
+
+* Advanced Frappe Framework
+** Architecture
+*** Backend
+**** Python
+**** MariaDB (Database)
+**** Redis (Caching & Queues)
+**** Nginx (Web Server)
+*** Frontend
+**** JavaScript
+**** HTML/CSS
+**** Jinja2 Templating
+*** Communication
+**** RESTful APIs
+**** Websockets
+**** Background Jobs
+** Core Components
+*** ORM (Object-Relational Mapping)
+**** Document Architecture
+**** Dynamic Linking
+**** Data Validation
+*** REST API
+**** API Controllers
+**** Authentication
+**** Rate Limiting
+*** Background Jobs
+**** Asynchronous Processing
+**** Job Queues
+**** Scheduled Jobs
+** Module System
+*** Apps
+**** Custom Apps
+**** Third-Party Integrations
+**** App Management
+*** Modules
+**** Standard Modules
+**** Custom Modules
+*** Hooks
+**** Server-Side Hooks
+**** Client-Side Hooks
+**** Event Handlers
+*** Blueprints
+**** Route Handlers
+**** URL Mapping
+** UI/UX
+*** Desk UI
+**** Desktop Experience
+**** Module Views
+*** Web Forms
+**** Dynamic Forms
+**** Fieldsets
+*** User Dashboards
+**** Dashboard Configuration
+**** Dashboard Widgets
+** Data Management
+*** DocTypes
+**** Standard DocTypes
+**** Custom DocTypes
+**** Dynamic Links
+**** DocType Permissions
+*** Data Import/Export
+**** CSV Import
+**** Data Migration
+*** Data Permissions
+**** Role-Based Permissions
+**** Field-Level Permissions
+** Scripting
+*** Python Scripts
+**** Server Scripts
+**** Client Scripts
+**** Background Scripts
+*** Custom Scripting
+**** Script Reports
+**** Scriptable Objects
+**** Script Actions
+** Integration & Extensibility
+*** REST APIs
+**** API Endpoints
+**** API Versioning
+**** API Authentication
+**** API Documentation
+*** Webhooks
+**** Event Triggers
+**** Webhook Handlers
+*** Event Streaming
+**** Real-Time Updates
+**** WebSocket Integration
+*** Custom Apps Development
+**** App Extensibility
+**** API Development
+**** Custom Workflows
+** Workflow
+*** State Machine
+**** Workflow States
+**** Transition Rules
+**** Workflow Actions
+*** Notifications
+**** Email Notifications
+**** In-App Notifications
+**** Notification Rules
+** User Management
+*** User Roles
+**** Role Permissions
+**** Role Hierarchies
+**** Role-Based Workflows
+*** Permissions
+**** Document Permissions
+**** Field Permissions
+**** Custom Permissions
+*** LDAP/AD Integration
+**** Active Directory Sync
+**** LDAP Authentication
+** Security
+*** Data Encryption
+**** Encryption at Rest
+**** Secure Data Transmission
+**** Data Privacy
+*** Role-Based Access Control
+**** User Role Permissions
+**** Role-Based Filters
+**** User Permission Rules
+*** Security Policies
+**** IP Whitelisting
+**** Rate Limiting Policies
+**** Authentication Policies
+** Testing & Debugging
+*** Unit Testing
+**** Test Fixtures
+**** Test Runners
+*** Debugging Tools
+**** Debugging Console
+**** Error Logging
+**** Tracebacks
+** Deployment
+*** Docker Support
+**** Docker Compose
+**** Bench CLI
+*** Scalability
+**** Load Balancing
+**** Caching Strategies
+**** Distributed Architecture
+** Documentation & Community
+*** Developer Documentation
+**** API Reference
+**** Code Documentation
+*** User Guides
+**** User Manuals
+**** Tutorials
+**** FAQ
+*** Community Forums
+**** User Discussions
+**** Q&A
+**** Community Support
+*** GitHub Repository
+**** Issue Tracking
+**** Contribution Guidelines
+**** Pull Requests
+** Version Control
+*** Git Integration
+**** Code Versioning
+**** Branching & Merging
+**** Collaboration
+*** CI/CD Integration
+**** Continuous Integration
+**** Automated Testing
+**** Deployment Pipelines
+** Licensing
+*** Open Source (MIT License)
+*** Commercial Licensing
+@endmindmap

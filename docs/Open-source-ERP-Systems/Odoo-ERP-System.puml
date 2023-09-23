@@ -1,0 +1,100 @@
+@startmindmap
+title = Odoo ERP System
+
+* Introduction
+** Overview of Odoo
+** Key Features
+
+* Modules
+** Sales
+*** Quotation
+*** Invoicing
+*** CRM
+** Inventory
+*** Stock Management
+*** Product Catalog
+*** Warehousing
+** Manufacturing
+*** Bill of Materials
+*** Work Orders
+*** Quality Control
+** Purchasing
+*** Supplier Management
+*** Purchase Orders
+*** Receiving
+** Accounting
+*** General Ledger
+*** Accounts Payable
+*** Accounts Receivable
+** Human Resources
+*** Employee Management
+*** Payroll
+*** Recruitment
+** E-commerce
+*** Online Store
+*** Website Builder
+*** Online Sales
+** Marketing
+*** Email Marketing
+*** Campaigns
+*** Lead Generation
+** Reporting
+*** Custom Reports
+*** Dashboards
+*** Analytics
+
+* Customization
+** App Store
+** Custom Development
+** Integration Options
+
+* User Interface
+** Dashboard
+** Navigation
+** User-friendly Design
+
+* Implementation
+** Installation
+** Configuration
+** Data Migration
+** User Training
+
+* Community and Support
+** Active Community
+** Forums and Documentation
+** Paid Support
+
+* Licensing
+** Open Source
+** Enterprise Edition
+
+* Scalability
+** Suitable for Small to Large Businesses
+** Scalable Modules
+
+* Security
+** Role-based Access Control
+** Data Encryption
+** Regular Security Updates
+
+* Benefits
+** Cost-effective
+** Comprehensive Features
+** Customizable
+** Scalable
+** Active Community
+
+* Challenges
+** Learning Curve
+** Customization Complexity
+** Integration Efforts
+
+* Case Studies
+** Real-world Implementations
+** Success Stories
+
+* Conclusion
+** Consideration for Your Business
+** Next Steps
+
+@endmindmap

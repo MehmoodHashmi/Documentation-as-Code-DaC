@@ -1,0 +1,66 @@
+@startmindmap
+title = Business Analysis
+
+* Business Analysis
+
+** Key Aspects
+*** Requirements Gathering
+*** Data Analysis
+*** Process Modeling
+*** Stakeholder Communication
+*** Problem Solving
+*** Decision Making
+
+** Techniques
+*** SWOT Analysis
+*** PESTLE Analysis
+*** Use Case Modeling
+*** Data Flow Diagrams (DFD)
+*** Business Process Model and Notation (BPMN)
+*** Stakeholder Analysis
+*** Gap Analysis
+
+** Tools
+*** Microsoft Visio
+*** Lucidchart
+*** JIRA
+*** Confluence
+*** Excel
+*** Business Analysis Software
+
+** =Roles
+*** Business Analyst
+*** Product Owner
+*** Project Manager
+*** Stakeholders
+*** Subject Matter Experts (SMEs)
+
+** Skills
+*** Communication
+*** Problem-Solving
+*** Critical Thinking
+*** Documentation
+*** Data Analysis
+*** Requirements Elicitation
+
+** =Outputs
+*** Business Requirements Document (BRD)
+*** Functional Requirements Document (FRD)
+*** Use Case Documents
+*** Process Maps
+*** Stakeholder Reports
+*** Gap Analysis Reports
+
+** Challenges
+*** Changing Requirements
+*** Scope Creep
+*** Resistance to Change
+*** Conflicting Stakeholder Interests
+
+** Benefits
+*** Improved Decision Making
+*** Enhanced Efficiency
+*** Cost Reduction
+*** Alignment with Business Goals
+*** Better Customer Satisfaction
+@endmindmap
