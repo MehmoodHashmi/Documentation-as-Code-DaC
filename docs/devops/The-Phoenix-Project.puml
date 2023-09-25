@@ -251,8 +251,8 @@ right side
 ***[#white] **Data Model**
 ****[#white] **Hierarchical**
 ****[#white] **Network**
-****[#red] **Relational (SQL) + ACID**
-*****[#pink]  **schema-based database**
+****[#red] =**Relational (SQL) + ACID**
+*****[#pink]  =**schema-based database**
 *****[#white]  **Types**
 ******[#yellow]  **Relational**
 *******[#white]  **SQL Server**
@@ -261,8 +261,8 @@ right side
 *******[#white]  **Postgres**
 *******[#white]  **SQL Compact**
 ******[#yellow]  **Analiticals (OLAP)**
-****[#gold] **Non-Relational (No-SQL) + BASE**
-*****[#pink] **schema-less database**
+****[#gold] =**Non-Relational (No-SQL) + BASE**
+*****[#pink] =**schema-less database**
 *****[#white] **Types**
 ******[#yellow] **Document**
 *******[#white] **Mongo DB**

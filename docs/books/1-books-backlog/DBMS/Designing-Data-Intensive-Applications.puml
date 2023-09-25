@@ -7,7 +7,7 @@ title  = //__**Designing Data-Intensive Applications**__//\n <size:24>**Key Take
 ***[#white] =**Data Model**
 ****[#white] **1- Hierarchical**
 ****[#white] **2- Network**
-****[#red] **3- Relational (SQL) + ACID**
+****[#red] =**3- Relational (SQL) + ACID**
 *****[#pink]  ==**schema-based database**
 *****[#white]  =**Types**
 ******[#yellow]  **Relational**
@@ -17,7 +17,7 @@ title  = //__**Designing Data-Intensive Applications**__//\n <size:24>**Key Take
 *******[#white]  **Postgres**
 *******[#white]  **SQL Compact**
 ******[#yellow]  **Analiticals (OLAP)**
-****[#gold] **4- Non-Relational (No-SQL) + BASE**
+****[#gold] =**4- Non-Relational (No-SQL) + BASE**
 *****[#pink] ==**schema-less database**
 *****[#white] =**Types**
 ******[#yellow] **Document**
