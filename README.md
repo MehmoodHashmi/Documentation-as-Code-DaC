@@ -28,9 +28,10 @@
 
 ## [What should be documented?](https://blog.codecentric.de/architecture-documentation-as-code-with-structurizr-and-asciidoctor-part-2-asciidoctor)
 
-One of the main questions when writing architecture documentation is:
+One of the main questions when writing architecture documentation is: 
 
 What should we document about our architecture? 👀️
+
 
 This question is not easy to answer. While there are aspects of the architecture like quality requirements, architecture decisions, or the system context which are essential parts of architecture documentation, other aspects might not be relevant. What is relevant or not depends on things like the system to be documented, external factors like legal requirements, and the documentation's target audience?
 
