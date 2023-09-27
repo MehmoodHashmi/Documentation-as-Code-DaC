@@ -1,0 +1,86 @@
+@startmindmap
+title = Computational Propaganda
+
+*[#gold] =Definition
+**[#yellow] ====The use of automated and algorithmic techniques to manipulate and spread misinformation for political or ideological purposes.
+
+* =Actors
+**[#pink] ==State Actors
+*** Governments and State Agencies
+*** Political Parties
+**[#pink] ==Non-State Actors
+***[#a] ===Social Media Bots
+*** Troll Farms
+*** Hacktivists
+
+* Techniques
+**[#a] =Automated Social Media Posting
+***[#lightyellow] =using bots
+** Disinformation Campaigns
+***[#lightyellow] =using bots
+**[#lime] =Deepfake Technology
+** Amplification of Polarization
+
+* Goals
+** Influence Elections
+** Shape Public Opinion
+** Undermine Trust in Institutions
+
+* Key Platforms
+** Social Media
+*** Facebook
+*** Twitter
+*** Instagram
+** Messaging Apps
+*** WhatsApp
+*** Telegram
+** Online Forums
+*** Reddit
+*** 4chan
+
+* Detection and Prevention
+** Content Analysis
+** Machine Learning Algorithms
+** Fact-Checking Organizations
+** Digital Forensics
+
+* Case Studies
+** 2016 US Presidential Election
+** Brexit Referendum
+** COVID-19 Misinformation
+
+* Legal and Ethical Considerations
+** Freedom of Speech vs. Misinformation
+** Regulatory Efforts
+** Accountability of Tech Companies
+
+* Impact
+** Erosion of Trust
+** Polarization
+** Threats to Democracy
+
+* Countermeasures
+** Media Literacy Education
+** Improved Algorithms
+** Platform Regulations
+** International Collaboration
+
+* Research Areas
+** Studying Propagation Patterns
+** Developing Misinformation Detection Models
+** Understanding Psychological Factors
+
+* Experts and Organizations
+** [Expert 1]
+** [Expert 2]
+** [Organization 1]
+** [Organization 2]
+
+* Resources
+** Books
+*** "The Disinformation Age" by Nina Jankowicz
+*** "LikeWar" by P.W. Singer and Emerson T. Brooking
+** Reports and Studies
+** Academic Journals
+
+@endmindmap
