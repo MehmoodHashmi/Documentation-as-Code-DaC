@@ -5,11 +5,11 @@
 * https://www.codecentric.de/wissens-hub/blog/architecture-documentation-docs-as-code-structurizr-asciidoctor[*Architecture docs as code with Structurizr &amp; Asciidoctor. Part 1: Workflow and tooling*]
 
 * https://dev.to/simonbrown/software-architecture-isn-t-about-big-design-up-front-4hol[*Software architecture isn't about big design up front*]
-* https://c4model.com/#DeploymentDiagram[*The C4 model for visualising software architecture*]
+* https://c4model.com/#DeploymentDiagram[*The C4 model for visualizing software architecture*]
 
 == Modelling vs Diagramming
 
-Now that we've covered the different types of C4 diagrams, there is one more important concept to cover - *modeling vs diagrams.*
+Now that we've covered the different types of C4 diagrams, there is one more important concept to cover—*modeling vs diagrams.*
 
 *Modeling* is the act of describing your system. We can describe the actors, systems, containers, components and their relationships. _*But modeling can be viewed as the data without the presentation.*_ Modeling does not determine, how we will depict this data.
 
