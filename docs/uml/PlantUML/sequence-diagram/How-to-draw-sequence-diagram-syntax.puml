@@ -1,6 +1,14 @@
 @startuml
 !pragma teoz true
 
+'good for activity diagrams
+skinparam defaultTextAlignment center
+'wraps the text after mentioned characters, let say 100 in our case
+skinparam wrapwidth 100
+
+
+'good for sequence diagram arrows text
+skinparam sequenceMessageAlign center
 skinparam Shadowing true
 skinparam responseMessageBelowArrow true
 skinparam SequenceGroupBodyBackgroundColor #FFFFFF90

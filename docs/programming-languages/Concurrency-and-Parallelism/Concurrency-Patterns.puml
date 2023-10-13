@@ -1,4 +1,5 @@
 @startmindmap
+!theme hacker
 title =__ Concurrency Patterns__
 
 * Concurrency Patterns

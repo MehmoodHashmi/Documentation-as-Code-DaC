@@ -2,6 +2,7 @@
 skinparam node {
     FontStyle italic
 }
+!theme hacker
 
 title =__//Finding the Center of a Data Set. Mean, Median, Mode//__
 

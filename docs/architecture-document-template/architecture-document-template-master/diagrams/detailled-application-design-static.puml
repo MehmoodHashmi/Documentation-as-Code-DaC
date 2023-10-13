@@ -4,6 +4,7 @@ LAYOUT_LEFT_RIGHT()
 LAYOUT_WITH_LEGEND()
 HIDE_STEREOTYPE()
 SHOW_PERSON_PORTRAIT()
+
 skinparam linetype polyline
 header Container diagram \nStatic detailed application point of view \n My Online Info Project (AllMyData)
 

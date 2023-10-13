@@ -1,4 +1,5 @@
 @startmindmap
+!theme hacker
 
 skinparam node {
     BorderColor DarkGray

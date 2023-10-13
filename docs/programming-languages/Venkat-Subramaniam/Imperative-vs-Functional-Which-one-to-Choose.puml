@@ -1,0 +1,56 @@
+@startmindmap
+!theme hacker
+
+title = Imperative vs Functional: Which one to Choose?
+
+*:The imperative style of programming is the most popular, familiar, and widely used, and yet is packed with accidental complexity. Functional programming is gaining popularity,
+less accidental complexity, and makes it easier to understand code once we're familiar with the paradigm. However, it has its own set of limitations. Should we choose to
+program in imperative or should we use functional? Which one is better or should we be choosing one over the other on different occasions? We'll explore the answers to these
+questions in this presentation;
+
+* Imperative vs Functional:\nWhich one to Choose?
+** Imperative Style
+***:It is easier to write (due to familiarity) but hard to read.
+Don't confuse familiar with simple, things that are simple
+should remain simple, and things that are complex should be
+manageable.;
+
+*** You tell **what** to do **and** how to do it
+**** =Imperative style has higher accidental complexity
+**** =Problem with imperative style
+***** ====Garbage variables
+***** ====has mutability
+***** ====verbose
+***** ====error-prone
+***** ====very hard to parallelize
+*** =example \n<img:images/img_3.png>
+** Declarative Style
+*** You tell **what** to do **but not** how to do it
+*** =example \n<img:images/img_2.png>
+
+** Functional Style
+*** **Declarative Style +** <color :crimson> **Higher Order Functions**
+
+
+*** ====<color :crimson> **Higher Order Functions**
+
+****:===Much like how we pass data, we can pass the code or functions around. These functions
+===that can either receive or return function are called <color :crimson>  **Higher Order Functions**;
+*** <color :crimson> **Flows like problem statement, has less complexity**
+*** =example\n<img:images/img.png>
+**** =Parallel code execution\n<img:images/img_1.png>
+***** =__Sharing variables__ is not bad (if encapsulated)
+***** =__Mutating variables__ is not bad either (if encapsulated)
+***** =But __Sharing + Mutating variables__ = bad approach (Devils work)
+**** =Issues with Functional Programming
+***** ===Make sure the lambda expressions (->) and functional pipeline are pure.
+***** ===What is Pure? Pure functions do not have side-effects. They are idempotent.
+***** ===Idempotent: For the same input function always produces same output
+**** =Rules for purity:
+***** =The function does not mutate or change anything that is visible from the outside
+***** =The function does not depend on anything from outside that may/possibly change
+****:=<color:crimson>Exception Handling:</color> is an imperative style programming idea.
+=FP & Exception handling are __mutually exclusive.__ Do not throw exceptions
+=in FP. Treat __"Errors"__ as a form of __"Data"__ and deal with them __"downstream"__;
+
+@endmindmap
