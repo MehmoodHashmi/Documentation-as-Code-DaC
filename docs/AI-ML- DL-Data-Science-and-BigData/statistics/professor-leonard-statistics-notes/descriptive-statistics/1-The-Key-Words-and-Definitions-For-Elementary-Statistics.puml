@@ -74,12 +74,12 @@ __But if you take a **sample** from the **population** and then talk those **cha
 ***** **Interval data**
 ***** **Ratio data**
 ***[#lime] ==**2-Types of Quantitative Data**
-****[#crimson] ==1. Discrete Data
+****[#yellow] ==1. Discrete Data
 ***** **Definition:** **Countable OR finite** (meaning there are only certain number of elements/values you can pick from)
 ***** **Example:** does a chicken lays half eggs, would you like to buy half washing machines, rolling a dice, etc.
 ***** Usually a <size:18>**count**
 
-****[#crimson] ==2. Continuous Data
+****[#yellow] ==2. Continuous Data
 ***** **Definition:** **Infinite number of values or elements** (not countable)
 ***** **Example:** Temperature, Length, etc.
 ***** Usually a <size:16>**__Measurement__**\n<img:images/img_33.png>
