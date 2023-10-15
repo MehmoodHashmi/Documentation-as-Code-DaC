@@ -5,6 +5,20 @@ skinparam node {
 
 title =__//Introduction to Probability//__\n<img:images/img_20.png>
 
+*:== //__**Science**__// knows only two kinds of processes in nature <color:lime>deterministic</color> and <color:crimson>random (non-deterministic) processes</color> and __combination of these two results in <color:brown>**probabilistic processes**__.
+= <color:crimson>Randomness (non-determinism) and probability</color> are not freedom. They mean I can't predict your actions with 100% accuracy because there's randomness.
+= **Technology** is never <color:red>deterministic.</color> You can't build paradise or hell with these technologies. Because they don't have just one type of usage.
+
+* **Deterministic Processes:** These are processes in which the outcomes are entirely determined by initial conditions and governing laws or equations. There is no inherent randomness or uncertainty in deterministic processes.
+
+* **Random Processes:** Random processes are those in which outcomes involve an element of randomness or unpredictability. The behavior of such processes cannot be precisely predicted; instead, it follows probability distributions.
+
+* **Probabilistic Processes:** Probabilistic processes, as you mentioned, result from a combination of deterministic and random elements. In these processes, outcomes are described using probabilities, which reflect both
+    the deterministic and random aspects of the system.
+
+This distinction is fundamental in various scientific fields, helping researchers understand and model the behavior of natural phenomena. Deterministic processes are common in classical physics, while random or
+probabilistic processes play a significant role in quantum mechanics, statistical physics, and various other branches of science.;
+
 *[#red] =Lecture-4 Part-1: **Introduction to Probability**
 ** =we have transitioned from __descriptive statistics to inferential statistics__
 
