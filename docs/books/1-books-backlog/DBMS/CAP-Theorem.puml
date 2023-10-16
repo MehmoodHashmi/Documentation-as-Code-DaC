@@ -4,13 +4,13 @@ title = Key Takeaways from the CAP Theorem
 * **Key Takeaways from the CAP Theorem** \n<img:img_4.png>
 ** Consistency
 *** All nodes see the same data at the same time
-*** Examples: ATM machine transactions, stock trades
+*** **Examples:** ATM machine transactions, stock trades
 ** Availability
 *** Every request receives a response, without guarantee that it contains the most recent version of the information
-*** Examples: Social media platforms, online shopping
+*** **Examples:** Social media platforms, online shopping
 ** Partition tolerance
 *** System continues to function in spite of network partitioning
-*** Examples: Cloud-based systems, distributed systems
+*** **Examples:** Cloud-based systems, distributed systems
 ** Trade-offs
 *** Cannot simultaneously provide all three guarantees (consistency, availability, partition tolerance)
 *** Different applications require different trade-offs based on their requirements
@@ -33,9 +33,9 @@ title = Key Takeaways from the CAP Theorem
 
 * **CAP Theorem** \n<img:img_4.png>
 ** Consistency
-*** Example: Bank account balance should be updated immediately
+*** **Example:** Bank account balance should be updated immediately
 ** Availability
-*** Example: E-commerce site should be available 24/7
+*** **Example:** E-commerce site should be available 24/7
 ** Partition tolerance
-*** Example: Network failure should not bring the system down
+*** **Example:** Network failure should not bring the system down
 @endmindmap
