@@ -1,0 +1,47 @@
+@startmindmap
+title =Communism
+!theme hacker
+skinparam node {
+    BackgroundColor LightRed
+    BorderColor DarkRed
+}
+
+* Communism
+** Definition
+*** Political and economic ideology
+*** Common ownership of the means of production
+*** Classless society
+
+** Key Figures
+*** Karl Marx
+*** Friedrich Engels
+*** Vladimir Lenin
+
+** Principles
+*** Social equality
+*** Abolition of private property
+*** Dictatorship of the proletariat
+
+** Variants
+*** Marxism
+*** Leninism
+*** Maoism
+
+** Historical Context
+*** Response to industrial capitalism
+*** Russian Revolution
+
+** Communist Manifesto
+*** Written by Marx and Engels
+*** Outlines communist principles
+
+** Implementation
+*** Soviet Union
+*** People's Republic of China
+*** Cuba
+
+** Criticisms
+*** Authoritarian regimes
+*** Economic inefficiency
+*** Lack of individual freedoms
+@endmindmap
