@@ -86,9 +86,10 @@ __But if you take a **sample** from the **population** and then talk those **cha
 ****** Measurements are not easy, depends on tool the used and how specific you want to be
 ****** **Measurements** are made with instruments such as rulers, balances, graduated cylinders,\n breakers, and thermometers, these results are **measurable. numbers**
 
-*:=[[https://www.youtube.com/watch?v=ZA4JkHKZM50&ab_channel=3Blue1Brown Why “probability of 0” does not mean “impossible” | Probabilities of probabilities]] YouTube Video explanation
+*[#lime]:=[[https://www.youtube.com/watch?v=ZA4JkHKZM50&ab_channel=3Blue1Brown Why “probability of 0” does not mean “impossible” | Probabilities of probabilities]] YouTube Video explanation
 <img:images/img_34.png>
-=It is common rule of thumb if you find yourself using <size:22>sum (symbol)</size> in a discrete context, then using <size:22>integral (symbol)</size> in Continuous context.;
+=It is common rule of thumb if you find yourself using <size:22>sum (symbol)</size> in a discrete context, then using
+=<size:22>integral (symbol)</size> in Continuous context.;
 
 
 
@@ -173,35 +174,37 @@ Unsupervised learning is a type of learning where the data does not have predefi
 is to explore the patterns, relationships, or structures within the data without any specific guidance.;
 ** Labeled Data
 ***[#pink] **Supervised Learning**
-**** Classification
-**** Regression
+**** **Classification**
+***** **Output** is always **Numeric value**
+**** **Regression**
+***** **Output** is always **category (non-numeric value)**
 ** Unlabeled Data
 ***[#pink] **Unsupervised Learning**
-**** Clustering
-**** Dimensionality Reduction
-**** Anomaly Detection
+****[#yellow] Clustering
+****[#yellow] Dimensionality Reduction
+****[#yellow] Anomaly Detection
 **:This updated mindmap script reflects the distinction between labeled data used in supervised learning tasks and unlabeled data used
 in unsupervised learning tasks. Unsupervised learning algorithms aim to discover patterns, groupings, or anomalies in the data without
 relying on predefined labels.;
 
 *:The distinction between labeled and unlabeled data is primarily used in the field of machine learning, where it plays a crucial role
- in the training and development of models. However, the concept of labeled and unlabeled data can also be relevant in other disciplines
-  that involve data analysis and pattern recognition. Here are a few examples:
+in the training and development of models. However, the concept of labeled and unlabeled data can also be relevant in other disciplines
+that involve data analysis and pattern recognition. Here are a few examples:
 
-  **Data Mining:** Data mining is a field that focuses on discovering patterns, relationships, and insights from large datasets.
-  In data mining, labeled data is often used for supervised learning tasks, while unlabeled data can be utilized for
-  unsupervised learning tasks such as clustering or anomaly detection.
+* **Data Mining:** Data mining is a field that focuses on discovering patterns, relationships, and insights from large datasets.
+In data mining, labeled data is often used for supervised learning tasks, while unlabeled data can be utilized for
+unsupervised learning tasks such as clustering or anomaly detection.
 
-  **Statistics:** In statistics, labeled data is commonly used for statistical modeling, hypothesis testing, and regression analysis.
-   **__Unlabeled data__,** on the other hand, can be explored using techniques like **exploratory data analysis or clustering** to gain insights
-    into the underlying structure of the data.
+* **Statistics:** In statistics, labeled data is commonly used for statistical modeling, hypothesis testing, and regression analysis.
+**__Unlabeled data__,** on the other hand, can be explored using techniques like **exploratory data analysis or clustering** to gain insights
+into the underlying structure of the data.
 
-  **Natural Language Processing (NLP):** In NLP, labeled data is often required for tasks like sentiment analysis, named entity recognition,
-   or text classification. Unlabeled data can be utilized for tasks such as topic modeling or word embeddings, where the goal is to uncover
-    latent patterns or representations in text.
+* **Natural Language Processing (NLP):** In NLP, labeled data is often required for tasks like sentiment analysis, named entity recognition,
+or text classification. Unlabeled data can be utilized for tasks such as topic modeling or word embeddings, where the goal is to uncover
+latent patterns or representations in text.
 
-  While the terminology may vary across disciplines, the fundamental idea of distinguishing between labeled and unlabeled data remains
-  applicable in various fields that involve data analysis, modeling, and pattern recognition.;
+While the terminology may vary across disciplines, the fundamental idea of distinguishing between labeled and unlabeled data remains
+applicable in various fields that involve data analysis, modeling, and pattern recognition.;
 
 *[#red] Lecture-1 Part-3: **Sampling Techniques: How to Develop a __random Sample__**
 
