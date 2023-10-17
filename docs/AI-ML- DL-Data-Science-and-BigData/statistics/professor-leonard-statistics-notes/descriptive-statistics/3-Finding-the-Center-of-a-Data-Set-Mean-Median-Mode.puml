@@ -99,6 +99,9 @@ the data is inconsistent;
 **** =Observation
 **** =Data point
 **** =Distance
+**** =Tuple
+**** =Record
+**** ==All these 've same meaning but used in different contexts
 ** =//__Data model__// for physicians and patients: \n<img:images/img_36.png>
 *** =//__Object model__// in OOP:
 
