@@ -182,6 +182,7 @@ is to explore the patterns, relationships, or structures within the data without
 ***** **Output** is always **Numeric value**
 ****** **Target variable** is always **interval or ratio data/variable**
 ******* **As shown below**\n <img:images/img_42.png>
+******** **Dependent vs Independent variable**\n <img:images/img_44.png>
 ** Unlabeled Data
 ***[#pink] **Unsupervised Learning**
 ****[#yellow] ===Clustering
