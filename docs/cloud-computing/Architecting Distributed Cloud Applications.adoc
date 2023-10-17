@@ -26,7 +26,7 @@ image:images/IaaS,PaaS,SaaS.png[]
 ====
 *Server-less* is an even advanced concept:
 
-NOTE: *Container image:../devops/images/docker.svg[width=40]* #---># *_Kubernetes_* #---># *_server-less_* #---># *(Future ?)*
+NOTE: *Container image:../3-devops/images/docker.svg[width=40]* #---># *_Kubernetes_* #---># *_server-less_* #---># *(Future ?)*
 
 *_##Server-less [.underline]#the program# does auto-scaling (vertically & horizontally)##_*
 
@@ -61,7 +61,7 @@ And the last deployment model is *SaaS—Software* as a Service. In this model w
     ** *Cloud 3.0:* Big Compute (eliminates constraints on *#compute hardware#* and provides the ability to scale computational workloads seamlessly on workload-optimized infrastructure configurations without sacrificing performance.)
 
 .IaasS,PaaS,SaaS
-image::../../docs/devops/images/IaasS,PaaS,SaaS.png[]
+image::../../docs/3-devops/images/IaasS,PaaS,SaaS.png[]
 image::images/image-2023-02-16-22-21-22-584.png[]
 image::images/image-2023-02-16-22-22-20-418.png[]
 image::images/image-2023-02-16-22-20-05-854.png[]
@@ -164,7 +164,7 @@ Monoliths vs. Microservices
 |https://www.wintellectnow.com/Videos/Watch?videoId=architecting-distributed-cloud-applications-part-1-fundamentals#[00:57:29] |#Service-Level Agreements (SLAs) and Dependent Services#
 |https://www.wintellectnow.com/Videos/Watch?videoId=architecting-distributed-cloud-applications-part-1-fundamentals#[01:01:35] |Auto-Scaling (has 3-techniques)
 |https://www.wintellectnow.com/Videos/Watch?videoId=architecting-distributed-cloud-applications-part-1-fundamentals#[01:07:46] |12-Factor Services and Applications
-|https://www.wintellectnow.com/Videos/Watch?videoId=architecting-distributed-cloud-applications-part-1-fundamentals#[01:19:22] |*Containers* image:../devops/images/docker.svg[width=40], *image* once created then becomes  *immutable*
+|https://www.wintellectnow.com/Videos/Watch?videoId=architecting-distributed-cloud-applications-part-1-fundamentals#[01:19:22] |*Containers* image:../3-devops/images/docker.svg[width=40], *image* once created then becomes  *immutable*
 |https://www.wintellectnow.com/Videos/Watch?videoId=architecting-distributed-cloud-applications-part-1-fundamentals#[01:24:24] |
 
 *Why Containers? #Isolation# vs.   #_Density_#*
@@ -186,7 +186,7 @@ Infrastructure/PIatform/Containers/Functions as a Service
 health, upgrades, scaling, & deploys/runs service code.
 
 .observe the diagram carefully
-image::../architecture-document-template/more architecture templates/Step-1-Identify microservices .drawio.png[]
+image::../2-architecture-document-template/more architecture templates/Step-1-Identify microservices .drawio.png[]
 
 == Networking Communication
 

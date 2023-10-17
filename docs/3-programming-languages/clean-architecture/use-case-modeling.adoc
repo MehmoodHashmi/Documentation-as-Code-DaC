@@ -47,7 +47,7 @@ If a *#use case is <service>#* and also there exists an *integration service* th
 ** REST is only about state (Resource) bu no action, still some people hack the API to include action but that should be avoided
 ** REST only performs *#CRUD#* operations
 
-image::../../devops/images/image-2023-02-22-16-42-27-549.png[]
+image::../../3-devops/images/image-2023-02-22-16-42-27-549.png[]
 
 image::images/s.png[]
 

@@ -10,7 +10,7 @@
 
 == Types of instances ec2 (elastic compute cloud)
 
-*#_Kubernetes_# is a container image:../../devops/images/docker.svg[width=40] orchestration tool, while #_auto-scaling_# (in #_AWS_#) is a tool used for scaling a #_virtual machine image:../../devops/images/vmware.png[width=80]_#*. #_Containers_# image:../../devops/images/docker.svg[width=40] are different from a *virtual machine*, #*_EC2_*# is a *virtual machine* image:../../devops/images/vmware.png[width=80].
+*#_Kubernetes_# is a container image:../../3-devops/images/docker.svg[width=40] orchestration tool, while #_auto-scaling_# (in #_AWS_#) is a tool used for scaling a #_virtual machine image:../../3-devops/images/vmware.png[width=80]_#*. #_Containers_# image:../../3-devops/images/docker.svg[width=40] are different from a *virtual machine*, #*_EC2_*# is a *virtual machine* image:../../3-devops/images/vmware.png[width=80].
 
 
 
