@@ -77,9 +77,19 @@ all 3 are same & interchangeable;
 # You have <size:22>less data</size> for the machine or for the model (algorithm) to learn, hence <size:22>model is not very good</size> but
 # the model (algorithm) or machine consumes <size:22>less computation time</size>;
 
-* =Employee Table: \n<img:images/img_35.png>\n=//__**Data-Set:**__// is all rows or records of the Employee table/entity \n*An **entity/table** such as Employee can have different levels or types of data
+*:=Employee Table:
+<img:images/img_35.png>
+==//__**Data-Set:**__// is all the rows or records of the Employee table/entity.
+*An **entity/table** such as Employee can 've different __levels/types of data__
+such as ratio, nominal, ordinal, etc.
+* <color:brown>__Incomplete Data-Set:__</color> lets say in employee table the employee salary
+column does not exist then its is incomplete data-set
+* <color:crimson>__Inconsistent Data:__</color> lets say in employee table one employee's salary
+is 1-billion dollar and remaining 5 employee has 5 thousand salary then
+the data is inconsistent;
+
 ** =//__Data model__// for physicians and patients: \n<img:images/img_36.png>
-*** =//__Object model__// in OOP    :
+*** =//__Object model__// in OOP:
 
 *[#red] Lecture-3 Part-2: **Finding the Center of a Data Set. Mean, Median, Mode**
 **[#red] Lecture-3 Part-3: **Finding the Standard Deviation of a Data Set**
