@@ -88,6 +88,12 @@ column does not exist then its is incomplete data-set
 is 1-billion dollar and remaining 5 employee has 5 thousand salary then
 the data is inconsistent;
 
+** e_salary <color:brown>column</color> is
+*** **attribute** (in statistics world)
+****  & also in computer science specifically database people use this word
+*** **feature** (in statistics world)
+****  & also in AI specifically Machine Learning (ML) people use this word
+*** **variable** (in statistics world)
 ** =//__Data model__// for physicians and patients: \n<img:images/img_36.png>
 *** =//__Object model__// in OOP:
 
