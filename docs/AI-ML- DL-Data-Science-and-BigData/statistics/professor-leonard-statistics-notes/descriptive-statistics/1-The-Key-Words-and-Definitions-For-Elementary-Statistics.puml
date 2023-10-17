@@ -175,14 +175,18 @@ is to explore the patterns, relationships, or structures within the data without
 ** Labeled Data
 ***[#pink] **Supervised Learning**
 **** **Classification**
-***** **Output** is always **Numeric value**
-**** **Regression**
 ***** **Output** is always **category (non-numeric value)**
+****** **Target variable** is always **interval or ratio data/variable**
+******* **As shown below**\n <img:images/img_43.png>
+**** **Regression**
+***** **Output** is always **Numeric value**
+****** **Target variable** is always **interval or ratio data/variable**
+******* **As shown below**\n <img:images/img_42.png>
 ** Unlabeled Data
 ***[#pink] **Unsupervised Learning**
-****[#yellow] Clustering
-****[#yellow] Dimensionality Reduction
-****[#yellow] Anomaly Detection
+****[#yellow] ===Clustering
+****[#yellow] ===Dimensionality Reduction
+****[#yellow] ===Anomaly Detection
 **:This updated mindmap script reflects the distinction between labeled data used in supervised learning tasks and unlabeled data used
 in unsupervised learning tasks. Unsupervised learning algorithms aim to discover patterns, groupings, or anomalies in the data without
 relying on predefined labels.;
