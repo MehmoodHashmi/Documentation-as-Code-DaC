@@ -1,28 +1,28 @@
 @startmindmap
 title =__Descriptive Statistics__
 
-* Main Topics *
+* Main Topics
 ** Measures of Central Tendency
 ** Measures of Variability
 ** Measures of Shape
 ** Correlation and Covariance
 
-* Measures of Central Tendency *
+* Measures of Central Tendency
 ** Mean
 ** Median
 ** Mode
 
-* Measures of Variability *
+* Measures of Variability
 ** Range
 ** Variance
 ** Standard Deviation
 ** Interquartile Range (IQR)
 
-* Measures of Shape *
+* Measures of Shape
 ** Skewness
 ** Kurtosis
 
-* Correlation and Covariance *
+* Correlation and Covariance
 ** Correlation Coefficient
 ** Covariance
 

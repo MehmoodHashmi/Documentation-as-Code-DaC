@@ -176,13 +176,14 @@ is to explore the patterns, relationships, or structures within the data without
 ***[#pink] **Supervised Learning**
 **** **Classification**
 ***** **Output** is always **category (non-numeric value)**
-****** **Target variable** are always **interval or ratio data/variable** \n* __**Target variable** is always **dependent variable**__
+****** **Target variable** are always **interval or ratio data/variable** \n* __**Target variable** is always **dependent variable**__ \n* __**Independent variables** are called **"variables or features"**__ \n* __**Dependent variable** often called **"target or outcome"**__
 ******* **As shown below**\n <img:images/img_43.png>
 **** **Regression**
 ***** **Output** is always **Numeric value**
-****** **Target variable** are always **interval or ratio data/variable** \n* __**Target variable** is always **dependent variable**__
+****** **Target variable** are always **interval or ratio data/variable** \n* __**Target variable** is always **dependent variable**__ \n* __**Independent variables** are called **"variables or features"**__ \n* __**Dependent variable** often called **"target or outcome"**__
 ******* **As shown below**\n <img:images/img_42.png>
 ******** **Dependent vs Independent variable**\n <img:images/img_44.png>
+******** **Regression vs correlation**\n <img:images/img_45.png>
 ** Unlabeled Data
 ***[#pink] **Unsupervised Learning**
 ****[#yellow] ===Clustering

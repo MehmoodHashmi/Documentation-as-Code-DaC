@@ -1,38 +1,38 @@
 @startmindmap
 title =__Inferential Statistics__
 
-* Main Topics *
+* Main Topics
 ** Probability Distributions
 ** Sampling Methods
 ** Estimation
 ** Hypothesis Testing
 ** Confidence Intervals
 
-* Probability Distributions *
+* Probability Distributions
 ** Normal Distribution
 ** Binomial Distribution
 ** Poisson Distribution
 ** T-Distribution
 ** F-Distribution
 
-* Sampling Methods *
+* Sampling Methods
 ** Simple Random Sampling
 ** Stratified Sampling
 ** Cluster Sampling
 ** Systematic Sampling
 
-* Estimation *
+* Estimation
 ** Point Estimation
 ** Interval Estimation
 
-* Hypothesis Testing *
+* Hypothesis Testing
 ** Null and Alternative Hypotheses
 ** Type I and Type II Errors
 ** p-Values
 ** One-Sample Tests
 ** Two-Sample Tests
 
-* Confidence Intervals *
+* Confidence Intervals
 ** Confidence Level
 ** Margin of Error
 
