@@ -90,9 +90,9 @@ the data is inconsistent;
 
 ** e_salary <color:brown>column</color> is
 *** **attribute** (in statistics world)
-****  & also in computer science specifically database people use this word
+****[#yellow]  **& also in computer science specifically __database people__ use this word**
 *** **feature** (in statistics world)
-****  & also in AI specifically Machine Learning (ML) people use this word
+****[#yellow]  **& also in AI specifically __Machine Learning (ML) people__ use this word**
 *** **variable** (in statistics world)
 ** =//__Data model__// for physicians and patients: \n<img:images/img_36.png>
 *** =//__Object model__// in OOP:
