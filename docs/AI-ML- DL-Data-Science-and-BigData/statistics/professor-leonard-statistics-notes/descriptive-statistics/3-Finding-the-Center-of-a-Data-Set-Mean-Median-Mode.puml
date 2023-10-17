@@ -88,7 +88,7 @@ column does not exist then its is incomplete data-set
 is 1-billion dollar and remaining 5 employee has 5 thousand salary then
 the data is inconsistent;
 
-** e_salary <color:brown>column</color> is
+** =="e_salary" <color:brown>column</color> is
 *** **attribute** (in statistics world)
 ****[#yellow]  **& also in computer science specifically __database people__ use this word**
 *** **feature** (in statistics world)
