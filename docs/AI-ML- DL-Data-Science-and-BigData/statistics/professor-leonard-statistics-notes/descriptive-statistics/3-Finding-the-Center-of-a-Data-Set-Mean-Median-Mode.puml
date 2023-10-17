@@ -94,6 +94,11 @@ the data is inconsistent;
 *** **feature** (in statistics world)
 ****[#yellow]  **& also in AI specifically __Machine Learning (ML) people__ use this word**
 *** **variable** (in statistics world)
+** =Employee Table: \n<img:images/img_41.png>
+***[#pink] **One employee** \n**table row is called**
+**** =Observation
+**** =Data point
+**** =Distance
 ** =//__Data model__// for physicians and patients: \n<img:images/img_36.png>
 *** =//__Object model__// in OOP:
 
