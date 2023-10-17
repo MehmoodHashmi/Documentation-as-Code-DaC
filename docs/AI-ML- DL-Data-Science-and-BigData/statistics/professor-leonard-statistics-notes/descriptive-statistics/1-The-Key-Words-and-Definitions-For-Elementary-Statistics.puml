@@ -174,6 +174,7 @@ Unsupervised learning is a type of learning where the data does not have predefi
 is to explore the patterns, relationships, or structures within the data without any specific guidance.;
 ** Labeled Data
 ***[#pink] **Supervised Learning**
+**** **problem conversion from regression to classification or vice versa**
 **** **Classification**
 ***** **Output** is always **category (non-numeric value)**
 ****** **Target variable** are always **interval or ratio data/variable** \n* __**Target variable** is always **dependent variable**__ \n* __**Independent variables** are called **"variables or features"**__ \n* __**Dependent variable** often called **"target or outcome"**__\n* Model **"accuracy"** can be determined \n<img:images/img_46.png>
