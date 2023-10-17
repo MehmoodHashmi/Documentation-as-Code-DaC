@@ -5,12 +5,12 @@ title =__ Regression Analysis__
 ** Definition
 *** Statistical Technique for Modeling Relationships between Variables
 *** Predict Dependent Variable based on Independent Variables
-** Types of Regression
-*** Linear Regression
+**[#yellow] =Types of Regression
+*** =Linear Regression
 **** Simple Linear Regression
 **** Multiple Linear Regression
 *** Polynomial Regression
-*** Logistic Regression
+*** =Logistic Regression
 *** Time Series Regression
 ** Assumptions
 *** Linearity
