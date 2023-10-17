@@ -93,6 +93,8 @@ the data is inconsistent;
 ****[#yellow]  **& also in computer science specifically __database people__ use this word**
 *** **feature** (in statistics world)
 ****[#yellow]  **& also in AI specifically __Machine Learning (ML) people__ use this word**
+***[#pink] **Dimension** (in Math world)
+****[#yellow]  **in Math specifically __Machine Learning (ML) & linear algebra people__ use this word**
 *** **variable** (in statistics world)
 ** =Employee Table: \n<img:images/img_41.png>
 ***[#pink] **Employee table** \n**1-row is called**
@@ -101,6 +103,7 @@ the data is inconsistent;
 **** =Distance
 **** =Tuple
 **** =Record
+****[#yellow] =Dimension
 **** ==All these 've same meaning but used in different contexts
 ** =//__Data model__// for physicians and patients: \n<img:images/img_36.png>
 *** =//__Object model__// in OOP:
