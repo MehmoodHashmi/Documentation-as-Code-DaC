@@ -1,0 +1,74 @@
+@startmindmap
+skinparam node {
+    FontStyle italic
+}
+'    !theme hacker
+
+title =__//Statistics Lecture 5.2: A Study of Probability Distributions, Mean, and Standard Deviation//__\n<img:images/img_15.png>
+
+*[#red] =**[[https://www.youtube.com/watch?v=WNgcmn5cXjI&list=PL5102DFDC6790F3D0&index=13&ab_channel=ProfessorLeonard Statistics Lecture 5.2: A Study of Probability Distributions, Mean, and Standard Deviation]]**
+
+** ==we have transitioned from __descriptive statistics to inferential statistics__\n we are still talking about probabilities but specifically we are talking about discrete distributions probabilities
+
+* =**Discrete Probabilities**
+**[#pink] =**Types of data**
+***[#gold] ==**1. Qualitative Data (is <color #crimson>__categorical__</color>)** \n<img:images/qualitative_38.png> \nUse your <size:22>**senses** (internal & external)</size> \nto observe results
+**** **Definition:** Data that is **Non-Numeric**
+**** **Examples:** Gender, Color, Race, Religion, Ethnicity, Army Rank, Zip Code (some **data** like **zip code** might have numbers in them but still they are **Quantitative**)
+**** **Math operations** are **meaningless on Qualitative data** (or categorical data), \nyou can't add, subtract, multiply, divide qualitative data
+*****[#red] =**Examples**
+****** **Nominal data**
+****** **Ordinal data**
+***[#gold] ==**2. Quantitative Data** \n<img:images/quantitative_39.png>
+**** =**Definition:** its //**__numerical__**// data
+***** <img:images/real-line_32.png>
+******:=__Number System:__
+** <size:22>**Real Numbers**
+*** <size:16>**__Rational numbers__**
+**** Integers **{...,-3, -2, -1, 0, 1, 2, 3,...}**
+***** Whole numbers e.g. {**0,**1,2,3,...}
+****** Natural numbers e.g. {1,2,3, ...}
+*** <size:16>**__Irrational numbers__**;
+
+**** **Examples:** Height, weight, wages, MPH (miles per hour), Temperature, Time
+**** **Math operations** are **meaningful on Quantitative data**, you can add, subtract, multiply, divide **quantitative data**
+*****[#red] =**Examples**
+****** **Interval data**
+****** **Ratio data**
+****[#lime] ==**2-Types of Quantitative Data**
+*****[#yellow] ==1. Discrete Data
+****** **Definition:** **Countable OR finite** (meaning there are only certain number of elements/values you can pick from)
+****** **Example:** does a chicken lays half eggs, would you like to buy half washing machines, rolling a dice, etc.
+****** Usually a <size:18>**count**
+
+*****[#yellow] ==2. Continuous Data
+****** **Definition:** **Infinite number of values or elements** (not countable)
+****** **Example:** Temperature, Length, etc.
+****** Usually a <size:16>**__Measurement__**\n<img:images/measurement_33.png>
+******* Measurements are not easy, depends on tool the used and how specific you want to be
+******* **Measurements** are made with instruments such as rulers, balances, graduated cylinders,\n breakers, and thermometers, these results are **measurable. numbers**
+
+* =Basic vocabulary for __Discrete probabilities__
+
+* =Random Variable
+**:* **Random:** means by chance
+* **Variable:** means outcome that is changeble
+* **Definition:** A variable, **X**, that has a variable for each outcome of a procedure, that is determined by chance.;
+
+* =Probability distribution
+** **Definition:** A table that gives the probability for each value of a random variable
+** **Example:**\n<img:images/img_48.png> \n<img:images/img_49.png>
+*** **This example is actually __classical probability__**
+*** **IF we would graph this thing we will get a flat line__**
+
+* =Discrete Random Variable
+** **Definition:** A variable with __**countable or finite**__ number of values
+** **Example:** \n*The total number of students in a class \n* The number of eggs a chicken can lay in  a week
+*** = In Chapter# 5, in this mindmap
+
+* =Continuous Random Variable
+** **Definition:** A variable with __**uncountable or infinite**__ number of **possible** values
+** **Example:** Usually a measurement such as the volume, time, temperature,
+*** = In Chapter# 6
+
+@endmindmap
