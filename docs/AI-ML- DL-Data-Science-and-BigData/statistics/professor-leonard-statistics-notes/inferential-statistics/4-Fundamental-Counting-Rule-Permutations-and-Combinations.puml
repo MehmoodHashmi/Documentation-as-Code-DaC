@@ -34,6 +34,42 @@ title =__//Fundamental Counting Rule, Permutations and Combinations//__\n<img:im
 <size:22>**n!**</size> is total # of arrangements
 <size:22>**(n-r)!**</size> is arrangements you don't care about;
 ** <img:images/img_38.png>
+*** <img:images/img_40.png>
+**** <img:images/img_39.png>
+***:==Permutation==
+Let's consider a simple example of an **ordered permutation**.
+
+    Suppose you have the set **{A, B, C}**, and you want to find an **ordered permutation** of this set.
+    An **ordered permutation** means that the order in which the elements are arranged matters.
+
+    There are **six possible ordered permutations** of this set:
+
+    **1. ABC**
+    **2. ACB**
+    **3. BAC**
+    **4. BCA**
+    **5. CAB**
+    **6. CBA**
+
+    Each of these permutations represents a unique arrangement of the elements in the set.
+    The order of the elements is crucial, so "ABC" is different from "CBA" because the order of the elements is reversed.
+    These **ordered permutations** are often used in various mathematical and combinatorial problems.
+
+==Combinatorics==
+    In combinatorics, the order of elements often matters. The distinction between ordered and unordered arrangements is a
+    fundamental concept in combinatorics.
+
+    1. **Ordered Arrangements**: In ordered arrangements, the order in which the elements are arranged is crucial. For example,
+    permutations are ordered arrangements where the order matters.
+    In a permutation, rearranging the elements in a different sequence results in a distinct arrangement.
+
+    2. **Unordered Arrangements**: In unordered arrangements, the order of the elements doesn't matter. These are often referred
+    to as combinations. In a combination, different sequences of the same elements are considered equivalent, and only the selection
+    of elements matters.
+
+    So, whether order matters or not in combinatorial problems depends on the specific context and the type of arrangement
+    you are dealing with.;
+
 
 
 * =//__Addition Rule for Probability__//\n<img:images/img_8.png> \n=<color #crimson>**//__In a single trial__//**
@@ -108,7 +144,7 @@ outcome of the first coin flip and so on. These are independent events
 *** if you have <size:22>0.5 to 1.0 </size> value then this event is usual chance occurring
 
 * =Conditional probability
-**:The conditional probabilities if I flip them around are not necessarily the same they can be
+**:The conditional probabilities if I flip them around are not necessarily the same. They can be
 different you are talking about two different scenarios if one thing happens before another
 thing it can change that probability
 <img:images/img_32.png>;
