@@ -107,7 +107,8 @@ The below figure depicts the Venn diagram representation
 
 ** =Example\n<img:images/img_23.png>
 
-*[#red] =Lecture-6 Part-2: **Probability of Complementary Events with "At Least One"**
+*[#red] =[[https://www.youtube.com/watch?v=a86Vj_7R2aQ&list=PL5102DFDC6790F3D0&index=11&ab_channel=ProfessorLeonard Lecture-6 Part-2: Probability of Complementary Events with "At Least One"]]
+
 
 * Sometimes it's easier to deal with the **complement of a set** than the **set** itself.
 
@@ -148,6 +149,12 @@ outcome of the first coin flip and so on. These are independent events
 different you are talking about two different scenarios if one thing happens before another
 thing it can change that probability
 <img:images/img_32.png>;
+
+*[#red] =[[https://www.youtube.com/watch?v=a86Vj_7R2aQ&list=PL5102DFDC6790F3D0&index=11&ab_channel=ProfessorLeonard Lecture-6 Part-2: Probability of Complementary Events with "At Least One"]]
+**[#yellow] =<size:34> Ends
+
+*[#red] =Lecture-4.7 Part-1: **Fundamental Counting Rule, Permutations and Combinations**
+**[#yellow] =<size:34> Resume
 
 *:* If I switched the position of the apples, does it give me a different scene? **No,it doesn't.**
 * If I would take a picture of this new arrangement will this be a different picture? Will this be in a different order? **No,it doesn't.**
