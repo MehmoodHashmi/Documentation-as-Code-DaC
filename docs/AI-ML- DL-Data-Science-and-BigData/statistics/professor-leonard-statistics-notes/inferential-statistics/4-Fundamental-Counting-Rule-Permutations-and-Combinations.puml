@@ -54,7 +54,7 @@ Let's consider a simple example of an **ordered permutation**.
     Each of these permutations represents a unique arrangement of the elements in the set.
     The order of the elements is crucial, so "ABC" is different from "CBA" because the order of the elements is reversed.
     These **ordered permutations** are often used in various mathematical and combinatorial problems.
-
+*   **__So changing the order of the elements gives you a different picture.__**
 ==Combinatorics==
     In combinatorics, the order of elements often matters. The distinction between ordered and unordered arrangements is a
     fundamental concept in combinatorics.
