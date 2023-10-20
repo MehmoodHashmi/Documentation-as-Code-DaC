@@ -149,4 +149,26 @@ different you are talking about two different scenarios if one thing happens bef
 thing it can change that probability
 <img:images/img_32.png>;
 
+*:* If I switched the position of the apples, does it give me a different scene? **No,it doesn't.**
+* If I would take a picture of this new arrangement will this be a different picture? Will this be in a different order? **No,it doesn't.**
+* We need to eliminate those arrangements somehow which doesn't matter
+<img:images/img_41.png>
+* We need to eliminate those arrangements somehow which doesn't matter
+<img:images/img_42.png> <size:24> 3! is the number of arrangements that actually do not change my big picture. If I change
+= these apples around, there are 6-ways I can do that and not change the big picture (image-1).
+* We need to eliminate those arrangements somehow which doesn't matter. So given below image shows how`
+<img:images/img_43.png>
+* Dividing these arrangements/choices which doesn't matter will result in elimination of these arrangements/choices
+* Everytime we 've non-unique items such as apples, oranges and bananas,  we will divide out that number of items
+= For non-unique items
+<img:images/img_44.png> <img:images/img_45.png>
+= __Sometimes Order doesn't matter__
+;
+
+* =__Combination__\n<img:images/img_46.png>
+** ==Definition:\n<img:images/img_47.png>
+*** ==N distinct items
+*** ==Select r items
+*** ==Arrangement doesn't matter, e.g. "ABC" is same as "CBA"
+
 @endmindmap
