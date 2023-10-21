@@ -60,14 +60,37 @@ __But if you take a **sample** from the **population** and then talk those **cha
 **[#gold] ==**2. Quantitative Data** \n<img:images/img_39.png>
 *** =**Definition:** its //**__numerical__**// data
 **** <img:images/img_32.png>
-*****:=__Number System:__
+***** <img:images/img_51.png>
+*****:=__Number Theory:__
 * <size:22>**Real Numbers**
 ** <size:16>**__Rational numbers__**
-*** Integers **{...,-3, -2, -1, 0, 1, 2, 3,...}**
-**** Whole numbers e.g. {**0,**1,2,3,...}
-***** Natural numbers e.g. {1,2,3, ...}
+*** Integers **{...,-3, -2, -1, <color:crimson>0,</color> 1, 2, 3,...}**
+**** Whole numbers e.g. {**<color:crimson>0,</color>** 1, 2, 3,...}
+***** Natural numbers e.g. {1, 2, 3, ...}
 ** <size:16>**__Irrational numbers__**;
+****** <img:images/img_50.png>
+******* <img:images/img_52.png>
+********:These different types of numbers fall under the broader category of mathematics and specifically number theory and mathematical analysis. Here's how these number types are categorized:
 
+         1. **Natural Numbers (N)**: These are the positive whole numbers starting from 1 (1, 2, 3, ...). They are a fundamental concept in elementary mathematics.
+
+         2. **Integers (Z)**: Integers include all positive whole numbers (natural numbers), all negative whole numbers, and zero (..., -3, -2, -1, 0, 1, 2, 3, ...).
+         Integers are used in various mathematical contexts, including algebra and number theory.
+
+         3. **Rational Numbers (Q)**: Rational numbers are numbers that can be expressed as a fraction of two integers where the denominator is not zero. They include integers and fractions
+         (e.g., -3, 1/2, 3.75). Rational numbers are a fundamental concept in elementary mathematics.
+
+         4. **Irrational Numbers**: Irrational numbers cannot be expressed as fractions of two integers. Examples include the square root of 2 (√2), pi (π), and the mathematical constant e.
+          They are studied in both number theory and mathematical analysis.
+
+         5. **Real Numbers (R)**: Real numbers include both rational and irrational numbers. They represent all possible points on the number line. Real numbers are a central concept in **real**
+         **analysis, calculus,** and other branches of mathematics.
+
+         6. **Complex Numbers (C)**: Complex numbers consist of a real part and an imaginary part (a + bi), where "a" and "b" are real numbers, and "i" is the imaginary unit (√(-1)). Complex
+          numbers are studied in complex analysis and are used extensively in various mathematical and scientific fields, including engineering and physics.
+
+         So, while these numbers are fundamental to mathematics as a whole, they have their own subtopics and areas of study within mathematics, ranging from elementary arithmetic (natural
+         numbers) to advanced topics like complex analysis (complex numbers).;
 *** **Examples:** Height, weight, wages, MPH (miles per hour), Temperature, Time
 *** **Math operations** are **meaningful on Quantitative data**, you can add, subtract, multiply, divide **quantitative data**
 ****[#red] =**Examples**
