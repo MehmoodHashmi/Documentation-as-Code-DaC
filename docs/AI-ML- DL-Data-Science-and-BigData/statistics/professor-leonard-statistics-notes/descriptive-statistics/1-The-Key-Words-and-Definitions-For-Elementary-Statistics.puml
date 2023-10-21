@@ -168,17 +168,68 @@ something on the scale). So, <color #lime>**Temperature**</color>  does not have
 *** Meaningful zero point
 *** **Examples:** Height, Weight, Income, Time
 
-* =Categories of Data and Learning
+
+* =Categories of \n=Data & Learning
+** Labeled Data
+***[#pink] **Supervised Learning**
+****[#gold] **Classification**
+***** **Output** is always **category (non-numeric value)**
+****** **Target variable** are always **interval or ratio data/variable** \n* __**Target variable** is always **dependent variable**__ \n* __**Independent variables** are called **"variables or features"**__ \n* __**Dependent variable** often called **"target or outcome"**__\n* Model **"accuracy"** can be determined \n<img:images/img_46.png>
+****[#gold] **Regression**
+***** **Output** is always **Numeric value**
+****** **Target variable** are always **interval or ratio data/variable** \n* __**Target variable** is always **dependent variable**__ \n* __**Independent variables** are called **"variables or features"**__ \n* __**Dependent variable** often called **"target or outcome"**__\n* Model **"accuracy"** can't be determined \n<img:images/img_46.png>
+** Unlabeled Data
+***[#pink] **Unsupervised Learning**
+****[#yellow] ===Clustering
+****[#yellow] ===Dimensionality Reduction
+****[#yellow] ===Anomaly Detection
+
+
+
+
+
+
+
+
+
+
+
+
+* =Categories of \n=Data & Learning
 **:Unlabeled data typically falls under the category of "Unsupervised Learning" in the context of machine learning.
 Unsupervised learning is a type of learning where the data does not have predefined labels or categories. The goal
 is to explore the patterns, relationships, or structures within the data without any specific guidance.;
 ** Labeled Data
 ***[#pink] **Supervised Learning**
-**** **problem conversion from regression to classification or vice versa**
 **** **Classification**
 ***** **Output** is always **category (non-numeric value)**
 ****** **Target variable** are always **interval or ratio data/variable** \n* __**Target variable** is always **dependent variable**__ \n* __**Independent variables** are called **"variables or features"**__ \n* __**Dependent variable** often called **"target or outcome"**__\n* Model **"accuracy"** can be determined \n<img:images/img_46.png>
 ******* **As shown below**\n <img:images/img_43.png>
+
+***** __Problem conversion__ from __regression__ \nto __classification__ or vice versa
+****** What should be the thought process?
+*******:* What is the problem that I'm trying to solve? Identification of problem
+* Which thing am I trying to determine?
+** Do I've the necessary data for the thing I'm trying to determine?
+*** If yes, then go ahead and solve the problem.
+*** Otherwise, determine the reason for why don't you 've the necessary data
+**** Based on the reason you 've identified you will change your data-set **OR**
+        you will change your problem from __regression to classification__ or from
+        classification to regression as per demand.;
+****** =Example
+*******:Let say you 've to predict the temperature. And predicting the temperature I think
+is regression problem, because the temperature is interval data and it can be 20, 30, or
+50 celsius. But I think my regression model will not work nicely on this model, So I will
+divide the temperature data into 3-classes (low, medium & high) temperature.
+* low temperature = 1-15 celsius
+* medium temperature = 16-30 celsius
+* high temperature = 36-50 celsius
+
+Notice carefully earlier my problem was a regression problem and now it had become a
+classification problem. So for my convenience I had molded the data in a different
+manner and resultantly made it a classification problem.;
+
+
 **** **Regression**
 ***** **Output** is always **Numeric value**
 ****** **Target variable** are always **interval or ratio data/variable** \n* __**Target variable** is always **dependent variable**__ \n* __**Independent variables** are called **"variables or features"**__ \n* __**Dependent variable** often called **"target or outcome"**__\n* Model **"accuracy"** can't be determined \n<img:images/img_46.png>
@@ -188,6 +239,7 @@ is to explore the patterns, relationships, or structures within the data without
 ******* **As shown below**\n <img:images/img_42.png>
 ******** **Dependent vs Independent variable**\n <img:images/img_44.png>
 ******** **Regression vs correlation**\n <img:images/img_45.png>
+
 ** Unlabeled Data
 ***[#pink] **Unsupervised Learning**
 ****[#yellow] ===Clustering
