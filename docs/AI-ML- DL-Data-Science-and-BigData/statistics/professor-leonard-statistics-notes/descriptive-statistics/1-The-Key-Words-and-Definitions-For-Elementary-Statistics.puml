@@ -284,14 +284,14 @@ applicable in various fields that involve data analysis, modeling, and pattern r
 ** **Definition:** **each group** of a **size 'm'** has an equal chance of being selected in a **sample**
 
 * ==**4-Common Sampling Techniques**
-**[#pink] **Convenience Sample:** use the results that are easy to get (Not Random), so therefore its never used in conducting real observations or experiments
-**[#lime] **Systematic Sample:** put a population in order and select every "K" member
-**[#orange] **__Strata__fied Sample:** "Strata means layers", breaks the population into subgroups based on a characteristic, then sample **__each__** group
-**[#crimson] **__Cluster__ Sample:** divide population into **"groups or clusters"** (regardless of the characteristic), randomly select a certain number "groups or clusters", and then collect data from the **__entire__** cluster
+**[#pink] <size:16>**Convenience Sample:**</size> use the results that are easy to get (Not Random), so therefore its never used in conducting real observations or experiments
+**[#lime] <size:16>**Systematic Sample:** </size> put a population in order and select every "K" member
+**[#orange]  <size:16>**__Strata__fied Sample:**</size> "Strata means layers", breaks the population into subgroups based on a characteristic, then sample **__each__** group
+**[#crimson] <size:16> **__Cluster__ Sample:**  </size>divide population into **"groups or clusters"** (regardless of the characteristic), randomly select a certain number "groups or clusters", & then \ncollect data from the **__entire__** cluster
 
-* **2-Types of Sampling errors that can occur while you are sampling**
-** **Non Sampling Error:** when you write down wrong information or make a math error something like this, it's called non-sampling error.
-** **Sampling Error:** is the difference in characteristics between your sample and your population, because usually a sample does not **represents 100%** a population \nperfectly there will always a margin of error, and this difference (of margin error) is called sampling error
+* 2-Types of Sampling errors that \ncan occur while you are sampling
+** __**Non Sampling Error:**__ when you write down wrong information or make a math error something like this, it's called non-sampling error.
+** __**Sampling Error:**__ is the difference in characteristics between your sample and your population, because usually a sample does not **represents 100%** a population \nperfectly there will always a margin of error, and this difference (of margin error) is called sampling error
 
 * <img:images/img_40.png>
 
