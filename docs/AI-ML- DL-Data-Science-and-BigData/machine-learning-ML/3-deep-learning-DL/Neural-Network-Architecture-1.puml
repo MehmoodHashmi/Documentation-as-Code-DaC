@@ -1,0 +1,110 @@
+@startmindmap
+title =Neural Network Architecture
+
+skinparam node {
+    BackgroundColor LightCyan
+    BorderColor DarkBlue
+}
+
+* Neural Network Architecture
+** Basics of Neural Networks
+*** Neurons and Activation Functions - Neurons simulate the functioning of biological neurons, and activation functions determine the output of a neuron.
+*** Weights and Biases - Weights control the strength of connections, and biases introduce a shift in neuron behavior.
+*** Layers **(Input, Hidden, Output)** - Neural networks are organized into **layers (input, hidden, and output).**
+*** Feedforward and Backpropagation - Feedforward processes data through the network, while backpropagation adjusts weights during training.
+
+** Types of Neural Networks
+***[#yellow] Feedforward Neural Networks **(FNN)** - Standard neural networks where information flows in one direction.
+***[#yellow] Convolutional Neural Networks **(CNN)** - Specialized for image processing, using convolutional layers.
+***[#yellow] Recurrent Neural Networks **(RNN)** - Suitable for sequential data, with recurrent connections.
+***[#yellow] Long Short-Term Memory **(LSTM)** - A type of RNN with improved memory capabilities.
+***[#yellow] Gated Recurrent Units **(GRU)** - A simpler RNN variant with gating mechanisms.
+
+** Layer Types
+*** Input Layer - Receives input data and passes it to the hidden layers.
+*** Hidden Layers - Process information via various types, such as fully connected, convolutional, or recurrent.
+*** Output Layer - Produces the final network output.
+
+** Activation Functions
+*** Sigmoid - S-shaped curve used in earlier neural networks.
+*** Hyperbolic Tangent (tanh) - Similar to the sigmoid but with output in the range [-1, 1].
+*** Rectified Linear Unit (ReLU) - Widely used activation function with a linear segment.
+*** Leaky ReLU (LReLU) - Variation of ReLU with a small slope for negative values.
+*** Exponential Linear Unit (ELU) - An activation function that avoids the vanishing gradient problem.
+
+** Loss Functions
+*** Mean Squared Error (MSE) - Commonly used for regression tasks.
+*** Cross-Entropy Loss - Ideal for classification problems.
+*** Hinge Loss - Used in support vector machines and deep learning.
+*** Huber Loss - Combines aspects of mean squared error and absolute error.
+*** Custom Loss Functions - Tailored to specific problems.
+
+** Optimizers
+*** Gradient Descent - Iterative algorithm for minimizing the loss function.
+*** Stochastic Gradient Descent (SGD) - A variation of gradient descent that processes small data batches.
+*** Adam Optimizer - Popular adaptive learning rate optimizer.
+*** RMSprop - Another adaptive learning rate algorithm.
+*** Adagrad - Optimizer that adapts learning rates for each parameter.
+
+** Regularization
+*** L1 Regularization (Lasso) - Encourages sparsity in weight parameters.
+*** L2 Regularization (Ridge) - Encourages small weights and prevents overfitting.
+*** Dropout - Technique to prevent overfitting by randomly deactivating neurons.
+*** Batch Normalization - Normalizes input to hidden layers, improving training stability.
+*** Weight Decay - Reduces the size of weights during training.
+
+** Training and Validation
+*** Training Data and Batches - The data used for training, divided into batches.
+*** Learning Rate - Controls the step size during optimization.
+*** Early Stopping - Prevents overfitting by monitoring validation loss.
+*** Overfitting and Underfitting - Challenges in model fitting.
+*** Validation and Testing - Ensures model generalization and evaluation.
+
+** Applications
+*** Image Classification - Identifying objects or patterns in images.
+*** Natural Language Processing (NLP) - Processing and understanding text data.
+*** Speech Recognition - Converting spoken language into text.
+*** Computer Vision - Processing and understanding visual data.
+*** Autonomous Vehicles - Enabling self-driving cars and robotics.
+
+** Frameworks and Libraries
+*** TensorFlow - An open-source machine learning framework by Google.
+*** PyTorch - An open-source deep learning platform by Facebook.
+*** Keras - A high-level neural networks API.
+*** scikit-learn - A machine learning library for Python.
+*** Caffe - A deep learning framework developed by the Berkeley Vision and Learning Center.
+
+** Challenges and Advanced Concepts
+*** Vanishing and Exploding Gradients - Issues with gradients during training.
+*** Gradient Clipping - Technique to mitigate gradient issues.
+*** Transfer Learning - Leveraging pre-trained models for new tasks.
+*** Generative Adversarial Networks (GANs) - Models for generating data.
+*** Reinforcement Learning with Neural Networks - Integrating neural networks into reinforcement learning.
+
+** Interdisciplinary Fields
+*** Artificial Intelligence (AI) - Neural networks are a key component of AI.
+*** Machine Learning (ML) - A subset of AI that heavily relies on neural networks.
+*** Deep Learning - A subfield of ML focused on neural networks.
+*** Cognitive Computing - Emulating human-like thinking and reasoning.
+*** Neural Network Hardware - Specialized hardware for efficient neural network execution.
+
+** Ethical and Legal Considerations
+*** Bias and Fairness - Addressing biases in training data and models.
+*** Privacy Concerns - Protecting sensitive data in AI applications.
+*** Regulatory Compliance - Adhering to legal and ethical standards.
+*** Responsible AI - Ensuring AI systems make ethical decisions.
+
+** Future Developments
+*** Architectural Innovations - Ongoing advancements in neural network design.
+*** Explainable AI (XAI) - Making AI decision-making more transparent.
+*** Human-Machine Collaboration - Synergy between AI and human intelligence.
+*** Integration with IoT - Neural networks in the Internet of Things.
+*** Quantum Computing and Neural Networks - Potential synergy between quantum computing and deep learning.
+
+** Research Areas and Unsolved Problems
+*** Explainability in Deep Learning - Making neural network decisions understandable.
+*** Compositional and Symbolic Reasoning - Enhancing AI's reasoning capabilities.
+*** AI Safety and Robustness - Ensuring AI systems are safe and reliable.
+*** Generalization in Neural Networks - Understanding and improving generalization.
+*** Conscious AI and Cognitive Science - Exploring AI with human-like cognitive abilities.
+@endmindmap
