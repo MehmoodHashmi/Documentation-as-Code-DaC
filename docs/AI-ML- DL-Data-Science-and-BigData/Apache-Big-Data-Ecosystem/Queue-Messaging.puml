@@ -32,7 +32,7 @@ title =__ Queue Messaging__
 **** Message is broadcasted to all subscribers
 ****[#pink] Examples: Apache Kafka, MQTT
 ** Message
-*** Payload
+***[#yellow] ===Payload
 **** Data being transmitted in the message
 **** Can be any format: text, JSON, binary, etc.
 *** Metadata
