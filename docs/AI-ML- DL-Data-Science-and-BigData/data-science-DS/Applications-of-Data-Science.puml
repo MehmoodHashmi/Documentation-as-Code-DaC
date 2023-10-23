@@ -1,0 +1,64 @@
+@startmindmap
+title =Applications of Data Science
+!theme hacker
+
+* Data Science
+** Classification
+*** Sentiment Analysis
+*** Image Classification
+*** Spam Detection
+*** Medical Diagnosis
+** Regression
+*** Sales Forecasting
+*** Price Prediction
+*** Demand Forecasting
+** Clustering
+*** Customer Segmentation
+*** Anomaly Detection
+*** Recommendation Systems
+** Natural Language Processing
+*** Chatbots
+*** Language Translation
+*** Text Summarization
+** Time Series Analysis
+*** Stock Market Predictions
+*** Weather Forecasting
+*** Demand Forecasting
+** Big Data Analysis
+*** Social Media Analytics
+*** Fraud Detection
+*** Network Traffic Analysis
+** Machine Learning
+*** Predictive Maintenance
+*** Credit Scoring
+*** Autonomous Vehicles
+** Data Visualization
+*** Interactive Dashboards
+*** Infographics
+*** Exploratory Data Analysis
+** Data Mining
+*** Market Basket Analysis
+*** Association Rule Mining
+** Deep Learning
+*** Speech Recognition
+***[#yellow] ===Object Detection
+** Geospatial Analysis
+*** GIS Applications
+*** Location-Based Services
+** Healthcare Analytics
+*** Disease Detection
+*** Drug Discovery
+** Environmental Data Science
+*** Climate Modeling
+*** Natural Disaster Prediction
+** Financial Data Science
+*** Portfolio Management
+*** Credit Risk Assessment
+** Sports Analytics
+*** Performance Analysis
+*** Player Evaluation
+** Education Analytics
+*** Personalized Learning
+*** Student Performance Analysis
+** Conclusion - The applications of data science are vast and diverse, providing insights and solutions across various domains.
+@endmindmap
