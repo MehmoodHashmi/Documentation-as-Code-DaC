@@ -1,5 +1,5 @@
 @startmindmap
-title = MLOps Mind Map
+title = MLOps (Machine Learning Operations)
 
 * MLOps
 ** Definition
@@ -29,17 +29,17 @@ title = MLOps Mind Map
 **** Drift Detection
 **** Retraining
 ** Benefits
-*** Faster Time-to-Market
+***[#lime] Faster Time-to-Market
 *** Improved Model Accuracy
 *** Scalability and Efficiency
 *** Greater Collaboration and Transparency
-** Tools and Technologies
-*** Version Control Systems (e.g., Git)
-*** Containerization Platforms (e.g., Docker)
-*** Orchestration Tools (e.g., Kubernetes)
-*** Continuous Integration Tools (e.g., Jenkins)
-*** Monitoring and Logging Tools (e.g., Prometheus, ELK Stack)
-*** Model Tracking Tools (e.g., MLflow, Neptune)
+**[#gold] =Tools and Technologies
+*** Version Control Systems **(e.g., Git)**
+*** Containerization Platforms **(e.g., Docker)**
+*** Orchestration Tools **(e.g., Kubernetes)**
+*** Continuous Integration Tools **(e.g., Jenkins)**
+*** Monitoring and Logging Tools **(e.g., Prometheus, ELK Stack)**
+*** Model Tracking Tools **(e.g., MLflow, Neptune)**
 ** Challenges
 *** Data Management and Quality
 *** Reproducibility and Versioning
