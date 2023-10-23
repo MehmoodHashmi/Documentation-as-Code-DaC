@@ -1,11 +1,11 @@
 @startmindmap
-title =__ MapReduce__\n<img:img_9.png>
+title =__ MapReduce__\n<img:images/img_9.png>
 
 * **[[https://www.youtube.com/watch?v=pcTFiU7wKkQ&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=4&ab_channel=GateSmashers]]**
 * **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
 * **[[https://www.analyticsvidhya.com/blog/2022/07/learn-everything-about-mapreduce-architecture-and-its-components/]]**
 
-* MapReduce
+* =MapReduce
 ** Overview
 *** Programming Model for Processing Big Data
 *** Designed for Parallel and Distributed Computing
@@ -19,7 +19,7 @@ title =__ MapReduce__\n<img:img_9.png>
 **** Aggregates Intermediate Data by Key
 **** Produces Final Output
 
-** **Workflow**\n<img:img_8.png>
+** =**Workflow**\n<img:images/img_8.png>
 *** Input Data
 **** Split into Input Splits
 **** Assigned to Map Tasks

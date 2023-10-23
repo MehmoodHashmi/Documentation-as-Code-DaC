@@ -20,17 +20,17 @@ title =__ Advanced Data Pipeline__
 **** AWS IoT Core
 **** Azure IoT Hub
 **[#pink] =//Data Processing//
-*** ==**Stream Processing** \n<img:images/img_12.png>
+*** ==**Stream Processing** \n<img:images/stream-processing.png>
 **** Apache Flink
 **** Apache Storm
 **** Spark Streaming
 **** AWS Kinesis Data Analytics
-*** ==**Batch Processing** \n<img:images/img_11.png>
+*** ==**Batch Processing** \n<img:images/batch-processing.png>
 **** Apache Spark
 **** Apache Hadoop MapReduce
 **** AWS Glue
 **** Google Cloud Dataflow
-*** **Lambda Architecture** is hybrid (combination of stream and batch processing) \n<img:images/img_13.png>
+*** **Lambda Architecture** is hybrid (combination of stream and batch processing) \n<img:images/lambda-architecture.png>
 ** =Data Storage
 ***[#pink] Data Warehouses
 **** Snowflake

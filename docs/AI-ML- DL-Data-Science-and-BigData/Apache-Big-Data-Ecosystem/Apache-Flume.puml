@@ -4,13 +4,14 @@ title =__Apache Flume__\n<img:images/img_1.png>
 * **[[https://www.tutorialspoint.com/apache_flume/apache_flume_quick_guide.htm]]**
 * **[[https://flume.apache.org/]]**
 * **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
+
 * Apache Flume
 ** Overview
 *** Distributed, Reliable, and Scalable **Data Ingestion Tool**
 *** Designed for Streaming Log Data and **Event Processing**
 *** Part of the Apache Hadoop Ecosystem
 
-**[#pink] **Architecture** \n<img:images/img_2.png>
+**[#pink] ==**Architecture** \n<img:images/img_2.png>
 *** Sources
 **** Data Producers or Providers
 **** e.g., Logs, Files, Sensors, Network Streams

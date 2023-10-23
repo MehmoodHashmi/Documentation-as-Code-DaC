@@ -1,9 +1,10 @@
 @startmindmap
-title =**//__ Hadoop__//** \n<img:images/img_6.png>
+title =**//__ Hadoop__//** \n<img:images/hadoop-ecosystem.png>
+
 * **[[https://teachingbee.in/the-ecosystem-of-hadoop-the-future-of-big-data/]]**
 * **[[https://www.altexsoft.com/blog/hadoop-vs-spark/]]**
 
-*[#a] =**Hadoop** \n<img:images/img_5.png>
+*[#a] =**Hadoop** \n<img:images/hadoop.png>
 ** Overview
 *** Distributed processing framework
 *** Designed for handling large-scale data processing
@@ -18,7 +19,7 @@ title =**//__ Hadoop__//** \n<img:images/img_6.png>
 ***[#yellow] ===YARN (Yet Another Resource Negotiator)
 **** Resource management framework for scheduling and managing tasks
 **** Enables efficient resource allocation and job coordination
-**[#pink] =**Ecosystem** \n<img:images/img_7.png>
+**[#pink] =**Ecosystem** \n<img:images/hadoop-architecture.png>
 *** Hadoop Common
 **** Common utilities and libraries used by other Hadoop components
 **** Provides support for security, logging, and other shared functionalities

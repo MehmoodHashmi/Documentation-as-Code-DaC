@@ -1,12 +1,14 @@
 @startmindmap
 title =__ RabbitMQ__
+
 * **[[https://www.cloudamqp.com/blog/part1-rabbitmq-for-beginners-what-is-rabbitmq.html ]]**
-* **RabbitMQ** \n<img:images/img_3.png>
+
+* **RabbitMQ** \n<img:images/rabbit-mq.png>
 ** Overview
 *** Open-source message broker
 *** Implements Advanced Message Queuing Protocol (AMQP)
 *** Provides reliable messaging between applications
-** **Core Concepts** \n<img:images/img_4.png>
+** **Core Concepts** \n<img:images/rabbit-mq-architecture.png>
 *** Publishers
 **** Send messages to exchanges
 **** Responsible for message production
