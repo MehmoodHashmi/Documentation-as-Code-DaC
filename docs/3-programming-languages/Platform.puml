@@ -38,25 +38,25 @@ title =__ Platform__
 
 *** Services
 **** Offers prebuilt services and functionalities that can be leveraged by applications
-**** Examples: Database services, messaging services, authentication services
+**** **Examples:** Database services, messaging services, authentication services
 
 ** Types of Platforms
 
 *** Operating System Platforms
 **** Provides the foundation for running applications and managing hardware resources
-**** Examples: Windows, Linux, macOS
+**** **Examples:** Windows, Linux, macOS
 
 *** Cloud Computing Platforms
 **** Offers infrastructure and services for building, deploying, and managing applications in the cloud
-**** Examples: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP)
+**** **Examples:** Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP)
 
 *** Mobile Platforms
 **** Supports application development for mobile devices and provides associated services
-**** Examples: Android, iOS
+**** **Examples:** Android, iOS
 
 *** Web Platforms
 **** Facilitates web application development and deployment
-**** Examples: Apache, Nginx
+**** **Examples:** Apache, Nginx
 
 ** Popular Platforms
 
