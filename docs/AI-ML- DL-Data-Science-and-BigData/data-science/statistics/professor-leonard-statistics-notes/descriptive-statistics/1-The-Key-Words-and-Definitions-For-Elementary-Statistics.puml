@@ -52,6 +52,12 @@ __But if you take a **sample** from the **population** and then talk those **cha
 *[#pink] =**Types of data**
 **[#gold] ==**1. Qualitative Data (is <color #crimson>__categorical__</color>)** \n<img:images/img_38.png> \nUse your <size:22>**senses** (internal & external)</size> \nto observe results
 *** **Definition:** Data that is **Non-Numeric**
+
+***[#pink] =Imbalance Data
+****[#pink] **The term __Imbalance Data__ is used when you are working** \n**with __categorical data__ or (non-numeric data)**
+*****[#yellow] ===Accuracy
+*****[#yellow] ===Precision
+*****[#yellow] ===Recall
 *** **Examples:** Gender, Color, Race, Religion, Ethnicity, Army Rank, Zip Code (some **data** like **zip code** might have numbers in them but still they are **Quantitative**)
 *** **Math operations** are **meaningless on Qualitative data** (or categorical data), \nyou can't add, subtract, multiply, divide qualitative data
 ****[#red] =**Examples**
@@ -61,6 +67,7 @@ __But if you take a **sample** from the **population** and then talk those **cha
 *** =**Definition:** its //**__numerical__**// data
 **** <img:images/img_32.png>
 ***** <img:images/img_51.png>
+
 *****:=__Number Theory:__
 * <size:22>**Real Numbers**
 ** <size:16>**__Rational numbers__**
@@ -92,6 +99,12 @@ __But if you take a **sample** from the **population** and then talk those **cha
          So, while these numbers are fundamental to mathematics as a whole, they have their own subtopics and areas of study within mathematics, ranging from elementary arithmetic (natural
          numbers) to advanced topics like complex analysis (complex numbers).;
 ********* <img:images/img_53.png>
+***[#pink] =Skewness
+****[#pink] **The term __Skewness__ is used when** \n**you are working with __numeric data__**
+*****[#yellow] **Left skewed**
+*****[#yellow] **Right skewed**
+*****[#yellow] **Normally distributed**
+*****[#yellow] **IQR**
 *** **Examples:** Height, weight, wages, MPH (miles per hour), Temperature, Time
 *** **Math operations** are **meaningful on Quantitative data**, you can add, subtract, multiply, divide **quantitative data**
 ****[#red] =**Examples**
