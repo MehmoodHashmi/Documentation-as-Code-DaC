@@ -38,7 +38,7 @@ informative way. The actual **method** used depends **__on what information we w
 ******* **odd** number of data values:
 ******** **Median** is the middle number after the data values are in order\ne.g. 1,2, <size:22>**3**,</size> 4,5 Here 3 is median
 **** =**3- Mode:** Most commonly occurring data value. e.g. 1, 2 ,2, **3,3,3,** 4,5,6. In this example **mode is 3.**
-**** __Making up frequency distributions__ and __calculating the mean of those frequency distributions__ and calculating the mean of weighted distributions
+**** ===__Making up frequency distributions__ and __calculating the mean of those frequency distributions__ and calculating the mean of weighted distributions
 ****[#gold] <size: 22>**skewed:**</size>
 ***** **skewed right:** meaning most** outliers** exists on right side of graph\n<img:images/img_13.png>
 ****** **skewed left:** meaning most **outliers** exists on left side of graph\n<img:images/img_14.png>
@@ -196,7 +196,7 @@ breaks your data every **quarter**, same basic idea as the median but there are 
 ****[#pink] =3- Median
 **** =4- Q3
 **** =5- maximum (max)
-**** =Box Plot
+****[#yellow] =Box Plot
 *** = 5-Number Summary:\n<img:images/img_27.png>\n<img:images/img_28.png>
 
 * =//**__Box plot__**//
