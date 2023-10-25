@@ -1,7 +1,7 @@
 @startmindmap
 title =__ Domain Knowledge__
 * Domain Knowledge
-** Business Domain
+** =Business Domain
 *** Subdomain 1
 **** Concept 1
 **** Concept 2
@@ -12,7 +12,7 @@ title =__ Domain Knowledge__
 *** Subdomain 3
 **** Concept 6
 **** Concept 7
-** Technical Domain
+** =Technical Domain
 *** Subdomain 1
 **** Concept 1
 **** Concept 2
@@ -23,7 +23,7 @@ title =__ Domain Knowledge__
 *** Subdomain 3
 **** Concept 6
 **** Concept 7
-** Functional Domain
+** =Functional Domain
 *** Subdomain 1
 **** Concept 1
 **** Concept 2
@@ -34,7 +34,7 @@ title =__ Domain Knowledge__
 *** Subdomain 3
 **** Concept 6
 **** Concept 7
-** Regulatory Domain
+** =Regulatory Domain
 *** Subdomain 1
 **** Concept 1
 **** Concept 2
