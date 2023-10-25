@@ -1,0 +1,31 @@
+@startmindmap
+title =Confusion Matrix
+
+* **Confusion Matrix**
+** **Components**
+*** **True Positives (TP)** - Correctly predicted positive instances.
+*** **True Negatives (TN)** - Correctly predicted negative instances.
+*** **False Positives (FP)** - Incorrectly predicted positive instances.
+*** **False Negatives (FN)** - Incorrectly predicted negative instances.
+
+** **Metrics**
+*** **Accuracy** - (TP + TN) / (TP + TN + FP + FN)
+*** **Precision** - TP / (TP + FP)
+*** **Recall (Sensitivity or True Positive Rate)** - TP / (TP + FN)
+*** **Specificity (True Negative Rate)** - TN / (TN + FP)
+*** **F1-Score** - 2 * (Precision * Recall) / (Precision + Recall)
+
+** **Applications**
+*** Model Evaluation
+*** Identifying Error Types
+*** Threshold Optimization
+*** Imbalanced Data Handling
+
+** **Interpretation**
+*** High Accuracy vs. High Precision vs. High Recall
+*** ROC Curve and AUC
+*** Adjusting Decision Threshold
+
+** **Conclusion**
+*** The confusion matrix is a valuable tool for assessing classification model performance and making data-driven decisions.
+@endmindmap

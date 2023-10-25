@@ -1,0 +1,56 @@
+@startmindmap
+title =Deep Learning Frameworks and Libraries
+
+* Deep Learning
+** **Deep learning** is a subset of machine learning that deals with neural networks and complex data representations.
+
+** =Frameworks
+*** **Deep learning frameworks** provide the foundation for building and training neural networks.
+
+***[#lime] ===TensorFlow
+**** Developed by Google Brain.
+**** Widely used for research and production.
+**** Supports deep learning and machine learning.
+
+*** PyTorch
+**** Developed by Facebook's AI Research lab (FAIR).
+**** Known for its dynamic computation graph.
+**** Popular among researchers and academics.
+
+***[#yellow] ===Keras
+**** High-level neural networks API.
+**** Can run on top of TensorFlow, Theano, or CNTK.
+**** User-friendly for rapid prototyping.
+
+*** Caffe
+**** Developed by Berkeley Vision and Learning Center (BVLC).
+**** Efficient for image classification and convolutional networks.
+
+*** MXNet
+**** Apache project for deep learning.
+**** Known for its scalability and efficiency.
+
+** =Libraries
+*** Deep learning libraries offer pre-built tools and utilities for various deep learning tasks.
+
+*** Scikit-Learn
+**** General-purpose machine learning library.
+**** Includes deep learning tools via Keras integration.
+
+*** Theano
+**** Open-source numerical computation library.
+**** Was used for deep learning but has been largely replaced by newer frameworks.
+
+*** CNTK **(Microsoft Cognitive Toolkit)**
+**** Developed by Microsoft for deep learning.
+**** Efficient for image and speech recognition.
+
+*** DL4J **(Deeplearning4j)**
+**** Java-based deep learning library.
+**** Suitable for enterprise applications.
+
+** Common Themes
+*** Both frameworks and libraries play crucial roles in deep learning development.
+*** Frameworks provide a comprehensive platform for building custom neural networks.
+*** Libraries offer pre-built solutions for specific tasks and integration with frameworks.
+@endmindmap
