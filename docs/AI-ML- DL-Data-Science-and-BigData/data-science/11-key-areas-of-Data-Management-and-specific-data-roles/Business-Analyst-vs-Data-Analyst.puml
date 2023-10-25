@@ -4,7 +4,8 @@ title =__ Business Analyst vs. Data Analyst__
 ** Business Analyst
 *** Definition: Analyzes business processes and systems, identifies business needs and requirements, and proposes solutions to improve efficiency and achieve business objectives.
 *** Skills
-****[#pink] **Domain knowledge:** Understands the business domain, industry, and related processes.
+****[#pink] ===**[[https://heartbeat.comet.ml/significance-of-domain-knowledge-in-a-data-science-project-9fc450b35213 Domain knowledge: Understands the business domain, industry, and related processes.]]**
+*****[#yellow] **[[https://heartbeat.comet.ml/significance-of-domain-knowledge-in-a-data-science-project-9fc450b35213 Significance of Domain Knowledge in a Data Science Project]]**
 **** **Requirement elicitation:** Interviews stakeholders, conducts workshops, and gathers requirements.
 **** Business process modeling: Maps and documents current and future business processes.
 **** Data analysis: Analyzes data to identify patterns, trends, and insights.
