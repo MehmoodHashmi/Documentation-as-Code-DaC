@@ -1,0 +1,50 @@
+As a famous *mathematician*, Karl Pearson said:
+
+.“*Statistics* is the *grammar* of *science*.”
+
+Statistics lies at the heart of practically all technological advancements and enjoys application in wide range of fields from bio-statistics, finance, economics to machine learning and even more.
+
+Having said that, we will find not any book on Statistics which does not talk about the concepts of probability. In fact, they are closely associated branches of mathematics that are intertwined with each other.
+
+In this article, we will understand what is the difference between the two. Then we will conclude with the ubiquitous question that all of us might have faced at some point — from where to start?
+
+.Probability:
+Probability is a forward-looking process. It helps in predicting the next output given our knowledge of the distribution of the data generating model which is a random process
+
+We want to calculate P(Y|θ); where Y is the outcome and θ is the parameter that defines the random process (could be flipping a coin, rolling a die etc).
+
+.There are two schools of thoughts to interpret probability:
+
+. *Frequentist:* It concerns around calculating the relative frequency of occurrence of a certain outcome upon repeating the experiment multiple times.
+
+ Let’s take an example of a fair coin toss. Tossing a coin 10 times might show 7 ‘Heads’ which converts into a probability of 0.7, however, if we repeat this experiment long enough, then the frequency count of ‘Heads’ becomes equal to that of tails indicating probability of 0.5.
+
+. *Bayesian:* It primarily talks about
+
+.. the degree of belief before seeing the new data, captured in the term ‘prior’
+
+.. updated information from the observed data, incorporated in ‘likelihood’ denoted by L(θ|Y).
+
+The posterior probability is then updated by taking the product of prior with the likelihood:
+
+.further article is unavailable
+
+Starting new explanation based on the #*"Statistics is the grammar of science"*# taken from chatgpt-3.5
+
+The phrase #*"Statistics is the grammar of science"*# highlights the essential role that statistics plays in the scientific process, much like grammar plays a crucial role in language. Here's an explanation of this concept:
+
+1. **Foundation for Understanding**: In science, researchers collect data through experiments, observations, or surveys to understand and make sense of the natural world. Just as grammar provides the rules and structure for effective communication in language, statistics provides the framework for understanding and interpreting data in a scientific context.
+
+2. **Data Organization**: Like grammar rules help organize words into meaningful sentences, statistics helps organize raw data into meaningful insights. It allows scientists to structure data, identify patterns, and draw conclusions. Without statistics, data would remain unorganized and difficult to interpret.
+
+3. **Inference and Generalization**: Grammar allows us to convey complex ideas and concepts through sentences and paragraphs. Similarly, statistics enables scientists to make inferences about a larger population or system based on a sample of data. It provides the means to generalize findings from a limited dataset to a broader context.
+
+4. **Precision and Accuracy**: Just as grammar ensures the precision and accuracy of language, statistics provides the tools for measuring, testing, and quantifying the reliability of scientific results. It helps scientists determine the significance of their findings and assess the probability that their conclusions are accurate.
+
+5. **Clarity and Communication**: Good grammar is essential for clear and effective communication. In science, proper statistical analysis ensures that research findings are communicated clearly, allowing other scientists to understand, replicate, and build upon the work.
+
+6. **Quality Control**: Grammar rules help maintain the quality and consistency of language. In science, statistics serves as a quality control mechanism. It identifies outliers, errors, and inconsistencies in data, ensuring that results are valid and trustworthy.
+
+7. **Critical Thinking**: Both grammar and statistics require critical thinking. Grammar involves the careful selection of words and sentence structures for effective expression. In statistics, critical thinking is applied to data analysis, hypothesis testing, and model development, ensuring that scientific research is conducted rigorously.
+
+In summary, just as grammar is fundamental to language, statistics is fundamental to the scientific method. It provides the structure, tools, and principles necessary for researchers to collect, analyze, and interpret data accurately and effectively. Without statistics, the scientific process would lack the essential framework needed to advance our understanding of the world.
