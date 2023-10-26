@@ -1,6 +1,8 @@
 @startmindmap
 title =Criteria to Select a Neural Network
 !theme hacker
+*[#lime] =Activation Functions (or neurons) both words can be used interchangeably
+
 
 * Purpose and Problem
 ** Nature of the Problem

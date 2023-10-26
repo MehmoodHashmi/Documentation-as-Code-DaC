@@ -5,6 +5,8 @@ skinparam node {
     BorderColor DarkBlue
 }
 
+*[#lime] =Activation Functions (or neurons) both words can be used interchangeably
+
 * Neural Network Architecture
 ** Basics of Neural Networks
 *** Neurons and Activation Functions - Neurons process input data and activation functions introduce non-linearity.

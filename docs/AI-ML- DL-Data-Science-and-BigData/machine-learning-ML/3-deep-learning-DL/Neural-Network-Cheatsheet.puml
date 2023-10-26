@@ -1,6 +1,7 @@
 @startmindmap
 title =Neural Networks Cheatsheet
 !theme hacker
+*[#lime] =Activation Functions (or neurons) both words can be used interchangeably
 
 * Neural Networks
 ** Basics
@@ -23,7 +24,7 @@ title =Neural Networks Cheatsheet
 ****[#yellow] Recurrent Layers
 *** Output Layer
 
-** Activation Functions
+** Activation Functions (or neurons)
 *** Sigmoid
 *** Hyperbolic Tangent **(tanh)**
 *** Rectified Linear Unit **(ReLU)**

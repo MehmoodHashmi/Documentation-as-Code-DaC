@@ -6,6 +6,8 @@ skinparam node {
     BorderColor DarkBlue
 }
 
+*[#lime] =Activation Functions (or neurons) both words can be used interchangeably
+
 * Neural Network Architecture
 ** Basics of Neural Networks
 *** Neurons and Activation Functions - Neurons simulate the functioning of biological neurons, and activation functions determine the output of a neuron.
