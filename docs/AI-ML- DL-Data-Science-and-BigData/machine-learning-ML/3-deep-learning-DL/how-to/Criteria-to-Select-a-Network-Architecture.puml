@@ -1,0 +1,128 @@
+@startmindmap
+title =Criteria to Select a Neural Network
+!theme hacker
+
+* Purpose and Problem
+** Nature of the Problem
+*** Classification
+*** Regression
+*** Image Processing
+*** Natural Language Processing
+*** Sequence Data
+** Problem Complexity
+*** Simple vs. Complex
+*** Linearity vs. Non-Linearity
+*** Data Dimensionality
+*** Temporal Dependencies
+
+* Data Characteristics
+** Data Type
+*** Structured **(Tabular)**
+*** Unstructured **(Text, Images)**
+*** Time Series
+** Data Size
+*** Small
+*** Medium
+*** Large
+*** Big Data
+** Data Quality
+*** Clean vs. Noisy
+*** Imbalanced Classes
+*** Missing Data
+
+* Neural Network Types
+** Feedforward Neural Networks **(FNN)**
+** Convolutional Neural Networks **(CNN)**
+** Recurrent Neural Networks **(RNN)**
+** Long Short-Term Memory **(LSTM)**
+** Gated Recurrent Units **(GRU)**
+** Autoencoders
+** Generative Adversarial Networks **(GANs)**
+
+* Network Architecture
+** Depth
+*** Shallow vs. Deep
+*** Number of Hidden Layers
+** Width
+*** Number of Neurons in Each Layer
+*** Overfitting vs. Underfitting
+** Connectivity
+*** Fully Connected vs. Sparse Connections
+*** Convolutional Filters
+*** Recurrent Connections
+
+* Training Considerations
+** Data Availability
+*** Labeled vs. Unlabeled Data
+*** Amount of Data
+*** Data Augmentation
+** Computational Resources
+*** CPU vs. GPU vs. TPU
+*** Parallelization
+*** Memory Requirements
+** Training Time
+*** Real-Time vs. Offline
+*** Quick Prototyping
+*** Fine-Tuning vs. Training from Scratch
+
+* Interpretability and Explainability
+** Model Explainability
+*** Importance of Interpretation
+*** Trade-off with Complexity
+*** Post hoc Explainability Tools
+** Model Visualization
+*** Activation Maps
+*** Feature Visualization
+*** Decision Boundaries
+*** Attention Mechanisms
+
+* Performance Metrics
+** Accuracy
+** Precision, Recall, F1-Score
+** Mean Squared Error **(MSE)**
+** ROC-AUC
+** Custom Metrics
+** Specific Domain Metrics
+
+* Regularization Techniques
+** L1 and L2 Regularization
+** Dropout
+** Batch Normalization
+** Weight Constraints
+** Data Augmentation
+** Early Stopping
+
+* Framework and Libraries
+** TensorFlow
+** PyTorch
+** Keras
+** scikit-learn
+** Theano
+** Caffe
+
+* Community and Support
+** Active Development
+** Tutorials and Documentation
+** Community Forums
+** Pre-trained Models
+** Open-Source vs. Proprietary
+
+* Ethical Considerations
+** Bias and Fairness
+** Privacy
+** Regulatory Compliance
+** Responsible AI
+
+* Future Scalability
+** Adaptability to Growing Data
+** Integration with Other Technologies
+** Compatibility with Future Hardware
+** Maintainability
+
+* Cost and Resources
+** Software Costs
+** Hardware Costs
+** Development and Maintenance Effort
+** Availability of Expertise
+
+@endmindmap
