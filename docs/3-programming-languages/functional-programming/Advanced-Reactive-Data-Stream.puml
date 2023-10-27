@@ -13,7 +13,7 @@ skinparam connector {
 title =__ Advanced Reactive Data Stream__
 * Advanced Reactive Data Stream
 
-** Reactive Extensions (Rx)
+** Reactive Extensions **(Rx)**
 
 *** Definition
 **** Library for composing asynchronous and event-based programs using observable sequences
@@ -79,8 +79,8 @@ title =__ Advanced Reactive Data Stream__
 **** Combines multiple data streams based on shared attributes or keys
 **** Performs aggregation operations on the combined data
 
-*** Complex Event Processing (CEP)
-**** Identifies complex patterns and correlations in the data stream
+*** Complex Event Processing **(CEP)**
+**** ===Identifies complex patterns and correlations in the data stream
 **** Enables real-time analysis and detection of complex events
 
 @endmindmap

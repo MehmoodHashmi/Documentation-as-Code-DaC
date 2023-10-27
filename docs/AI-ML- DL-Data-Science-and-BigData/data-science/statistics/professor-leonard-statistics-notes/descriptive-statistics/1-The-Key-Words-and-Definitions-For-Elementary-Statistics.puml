@@ -210,11 +210,11 @@ something on the scale). So, <color #lime>**Temperature**</color>  does not have
 ** Labeled Data
 ***[#pink] **Supervised Learning**
 ****[#gold] **Classification**
-***** **Output** is always **category (non-numeric value)**
-****** **Target variable** are always **interval or ratio data/variable** \n* __**Target variable** is always **dependent variable**__ \n* __**Independent variables** are called **"variables or features"**__ \n* __**Dependent variable** often called **"target or outcome"**__\n* Model **"accuracy"** can be determined \n<img:images/img_46.png>
+***** **Output** is always **__category__<color #crimson>__ or label__</color> (is non-numeric value)**\n<img:images/img_54.png>
+****** **Target variable** are always **Nominal or Ordinal data/variable** \n* __**Target variable** is always **dependent**__\n** Pick target variable after you 've applied the **__correlation step__** & 've removed the irrelevant variables\n*** Picking target variable without performing the correlation step produces errors or bad results \n**** Previous two steps are related to Data-Engineering or data cleaning, Use **Heatmap graph for correlation**\n* __**Independent variables** are called **"variables or features"**__ \n* __**Dependent variable** often called **"target or outcome"**__\n* Model **"accuracy"** can be determined \n<img:images/img_46.png>
 ****[#gold] **Regression**
 ***** **Output** is always **Numeric value**
-****** **Target variable** are always **interval or ratio data/variable** \n* __**Target variable** is always **dependent variable**__ \n* __**Independent variables** are called **"variables or features"**__ \n* __**Dependent variable** often called **"target or outcome"**__\n* Model **"accuracy"** can't be determined \n<img:images/img_46.png>
+****** **Target variable** are always **interval or ratio data/variable** \n* __**Target variable** is always **dependent**__\n** Pick target variable after you 've applied the **__correlation step__** & 've removed the irrelevant variables\n*** Picking target variable without performing the correlation step produces errors or bad results \n**** Previous two steps are related to Data-Engineering or data cleaning, Use **Heatmap graph for correlation**\n* __**Independent variables** are called **"variables or features"**__ \n* __**Dependent variable** often called **"target or outcome"**__\n* Model **"accuracy"** can't be determined \n<img:images/img_46.png>
 ** Unlabeled Data
 ***[#pink] **Unsupervised Learning**
 ****[#yellow] ===Clustering
@@ -239,8 +239,8 @@ is to explore the patterns, relationships, or structures within the data without
 ** Labeled Data
 ***[#pink] **Supervised Learning**
 **** **Classification**
-***** **Output** is always **category (non-numeric value)**
-****** **Target variable** are always **interval or ratio data/variable** \n* __**Target variable** is always **dependent variable**__ \n* __**Independent variables** are called **"variables or features"**__ \n* __**Dependent variable** often called **"target or outcome"**__\n* Model **"accuracy"** can be determined \n<img:images/img_46.png>
+***** **Output** is always **__category__<color #crimson>__ or label__</color> (is non-numeric value)**\n<img:images/img_54.png>
+****** **Target variable** are always **Nominal or Ordinal data/variable** \n* __**Target variable** is always **dependent**__\n** Pick target variable after you 've applied the **__correlation step__** & 've removed the irrelevant variables\n*** Picking target variable without performing the correlation step produces errors or bad results \n**** Previous two steps are related to Data-Engineering or data cleaning, Use **Heatmap graph for correlation**\n* __**Independent variables** are called **"variables or features"**__ \n* __**Dependent variable** often called **"target or outcome"**__\n* Model **"accuracy"** can be determined \n<img:images/img_46.png>
 ******* **As shown below**\n <img:images/img_43.png>
 
 ***** __Problem conversion__ from __regression__ \nto __classification__ or vice versa
@@ -269,7 +269,7 @@ manner and resultantly made it a classification problem.;
 
 **** **Regression**
 ***** **Output** is always **Numeric value**
-****** **Target variable** are always **interval or ratio data/variable** \n* __**Target variable** is always **dependent variable**__ \n* __**Independent variables** are called **"variables or features"**__ \n* __**Dependent variable** often called **"target or outcome"**__\n* Model **"accuracy"** can't be determined \n<img:images/img_46.png>
+****** **Target variable** are always **interval or ratio data/variable** \n* __**Target variable** is always **dependent**__\n** Pick target variable after you 've applied the **__correlation step__** & 've removed the irrelevant variables\n*** Picking target variable without performing the correlation step produces errors or bad results \n**** Previous two steps are related to Data-Engineering or data cleaning, Use **Heatmap graph for correlation**\n* __**Independent variables** are called **"variables or features"**__ \n* __**Dependent variable** often called **"target or outcome"**__\n* Model **"accuracy"** can't be determined \n<img:images/img_46.png>
 ******* **As shown below**\n <img:images/img_47.png>
 ******** **follow up **\n <img:images/img_48.png>
 ********* **follow up **\n <img:images/img_49.png>
