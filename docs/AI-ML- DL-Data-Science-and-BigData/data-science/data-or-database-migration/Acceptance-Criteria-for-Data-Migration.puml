@@ -1,0 +1,99 @@
+@startmindmap
+title =__Acceptance Criteria for Data Migration__ \n<img:images/img.png>
+!theme hacker
+
+* Data Migration
+** Data Extraction
+*** Successful extraction from On-Premise Oracle Database
+*** Verify accurate extraction of tables, columns, and records
+
+** Data Transformation
+*** Data transformed for Azure MySQL compatibility
+*** Data types, structures, and constraints appropriately mapped
+
+** Data Loading
+*** Successful loading into Azure MySQL
+***[#gold] ===No __errors__ or __data loss__
+*** Data integrity maintained during loading
+
+** Data Validation
+*** Validate Azure MySQL data against Oracle source
+*** Confirm data accuracy by comparing a sample
+
+** Error Handling
+*** Robust error-handling mechanism in place
+*** Error logs generated and notifications sent
+
+** Performance Testing
+*** Performance testing conducted
+*** Migration process optimized for speed and efficiency
+
+** Security and Compliance
+*** Compliance with security and compliance standards
+*** Data encryption, access control, and data masking as required
+
+** Rollback Plan
+*** Functional and well-documented rollback plan
+
+** Documentation
+*** Comprehensive documentation of migration process and configurations
+
+** User Acceptance Testing (UAT)
+*** Collaborate with stakeholders for UAT on migrated data
+*** Stakeholder satisfaction with results
+
+** Data Validation at Destination
+*** Validate data integrity at Azure MySQL destination
+
+** Completion Report
+*** Generate a completion report summarizing migration process and results
+
+*:When discussing the acceptance criteria for a data migration project with your client, it's important to ask and address relevant questions to ensure both
+parties have a clear understanding of the project requirements and expectations. Here are some questions you can ask, and some that the client may ask:
+
+  **Questions to Ask the Client:**
+
+  1. Can you specify the scope of the data migration project? Are there specific tables or data that should be prioritized?
+
+  2. What are the key objectives or goals of this data migration?
+
+  3. Are there any specific compliance standards or regulations that need to be followed during the migration process?
+
+  4. Can you provide details about the volume and complexity of the data to be migrated?
+
+  5. Do you have any preferences or requirements for the tools or technologies to be used in the migration?
+
+  6. Are there any unique data types or structures that should be considered during data transformation?
+
+  7. What are the critical success factors for this data migration project?
+
+  8. What is the timeline for the entire project, including milestones and deadlines?
+
+  9. Are there any potential risks or challenges that you foresee in this migration?
+
+  **Questions the Client May Ask:**
+
+  1. Can you explain the process of data extraction and transformation in more detail?
+
+  2. How will data integrity be ensured during the loading phase?
+
+  3. What specific performance metrics will be used to assess the success of the migration?
+
+  4. Can you provide examples of security and compliance measures that will be implemented?
+
+  5. What is the plan for addressing errors and issues during the migration?
+
+  6. How will user acceptance testing be conducted, and what are the criteria for stakeholder satisfaction?
+
+  7. Can you elaborate on the rollback plan in case of major issues during migration?
+
+  8. What level of detail should be included in the documentation of the migration process?
+
+  9. How will data validation at the destination be carried out?
+
+  10. What will be included in the completion report, and who will receive it?
+
+  By addressing these questions and having a clear, open discussion, you can ensure that both you and the client are on the same page regarding the acceptance criteria
+  for the data migration project. This will help prevent misunderstandings and align expectations for a successful project.;
+
+@endmindmap

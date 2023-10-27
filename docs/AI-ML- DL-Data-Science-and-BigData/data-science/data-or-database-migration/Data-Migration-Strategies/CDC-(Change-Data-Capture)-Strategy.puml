@@ -1,0 +1,71 @@
+@startmindmap
+title =CDC (Change Data Capture) Strategy
+!theme hacker
+
+* CDC Strategy
+** Description
+*** The CDC strategy involves tracking and capturing changes made to the source database.
+*** These changes are then selectively replicated to the target database, reducing migration time and effort.
+
+** Benefits
+*** **Reduced Downtime: **Minimizes downtime by replicating only changes rather than the entire dataset.
+*** **Real-Time Updates:** Supports near real-time data synchronization.
+*** **Efficient Data Transfer:** Only modified data is transferred, saving bandwidth and time.
+
+** Challenges
+*** **Complexity:** Requires robust change tracking and replication mechanisms.
+*** **Data Integrity:** Ensuring data consistency and preventing data conflicts.
+*** **Source System Overhead:** CDC processes can impact the performance of the source system.
+
+* Phases of CDC Migration
+** Change Data Capture
+***[#pink] Capture changes made to the source database, such as inserts, updates, and deletes.
+***[#gold] Employ CDC technologies or database triggers to identify changes.
+
+**[#orange] Data Replication
+*** Replicate the captured changes to the target database.
+*** Apply data transformations if needed to match the target schema.
+
+** Continuous Data Synchronization
+*** Maintain ongoing data synchronization between the source and target databases.
+*** Real-time or batch processing methods may be employed.
+
+** Data Verification
+*** Verify the data in the target database to ensure it aligns with the source data and maintains data integrity.
+*** Confirm data consistency and accuracy.
+
+* Considerations for CDC
+**[#orange] Data Mapping
+*** Develop detailed data mapping and transformation rules to guide data replication.
+*** Account for differences in data structures and formats.
+
+** Conflict Resolution
+*** Implement mechanisms for conflict resolution in case of conflicting changes in source and target databases.
+*** Decide how to handle data conflicts.
+
+** Rollback Plan
+*** Develop a rollback plan to revert to the original database state in case of CDC process failures.
+*** Safeguard against data corruption or loss.
+
+** Performance Optimization
+*** Optimize the performance of CDC processes, including data replication and synchronization.
+*** Monitor and fine-tune CDC jobs.
+
+* Best Practices
+** Testing and Validation
+*** Rigorously test CDC processes in a non-production environment to ensure data accuracy.
+*** Validate application functionality with the new database.
+
+** Documentation
+*** Maintain detailed documentation of the CDC processes, including data mapping, change tracking mechanisms, and transformation rules.
+*** Document any issues and their resolutions.
+
+** Communication
+*** Communicate with stakeholders about the progress of CDC processes and any potential impacts.
+*** Coordinate with application owners and users.
+
+** Monitoring and Alerting
+*** Implement monitoring and alerting to promptly address issues during CDC processes.
+*** Detect and respond to data synchronization problems.
+
+@endmindmap

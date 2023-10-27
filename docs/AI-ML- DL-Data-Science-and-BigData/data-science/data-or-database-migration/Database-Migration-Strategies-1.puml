@@ -1,0 +1,63 @@
+@startmindmap
+title =__Database Migration Strategies__
+!theme hacker
+
+*[#yellow] Data Migration Strategies
+** Full Data Dump
+*** This strategy involves taking a complete copy of the data from the source database and transferring it to the target database in one operation.
+** ETL (Extract, Transform, Load)
+*** ETL involves extracting data from the source, transforming it to match the target schema, and then loading it into the new database.
+** Change Data Capture (CDC)
+*** CDC tracks changes made to the source database and selectively replicates these changes to the target, reducing migration time and effort.
+
+*[#orange] Database Migration Types
+** Homogeneous Migration
+***[#gold] Involves migrating from one database system to another of the same type, like **Oracle to Oracle.**
+** Heterogeneous Migration
+***[#gold] This strategy is used when migrating data between different database systems, for example, from **MySQL to PostgreSQL.**
+
+*[#pink] Downtime Strategies
+** Offline Migration
+*** The entire database is taken offline during the migration, making it inaccessible to users until the process is complete.
+** Online Migration
+*** Online migration allows for continuous database availability during the migration process.
+** Rolling Upgrade
+*** Involves migrating the database in small, incremental steps to minimize downtime.
+
+* Data Consistency
+** Consistency Checks
+*** Validating data integrity before and after migration to ensure data consistency.
+** Data Validation
+*** Ensuring that data in the new database is accurate and corresponds to the source data.
+
+* Rollback & Recovery
+** Backup & Restore
+*** Creating a backup of the target database to facilitate recovery in case of migration issues.
+** Snapshot
+*** Taking a snapshot of the source database for reference or rollback purposes.
+
+* Testing Strategies
+** Test Environment Setup
+*** Creating a separate test environment to validate the migration process.
+** Integration Testing
+*** Testing the integrated system to ensure all components work together after migration.
+** Performance Testing
+*** Checking the new database's performance and optimizing as needed.
+
+* Migration Tasks
+** Index Rebuilding
+*** Rebuilding database indexes for optimal query performance.
+** Statistics Update
+*** Updating query statistics to ensure efficient query execution.
+** Application Validation
+*** Testing applications to ensure they work correctly with the new database.
+
+* Tools & Resources
+** Migration Tools
+*** Software and utilities designed to aid in the migration process.
+** Documentation
+*** Detailed documentation to guide migration and troubleshoot issues.
+** Expert Support
+*** Access to experienced professionals to assist with complex migrations.
+
+@endmindmap
