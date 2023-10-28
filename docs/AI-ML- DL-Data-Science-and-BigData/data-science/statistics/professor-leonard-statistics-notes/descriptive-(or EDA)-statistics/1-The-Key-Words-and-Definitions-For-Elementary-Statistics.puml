@@ -64,6 +64,14 @@ __But if you take a **sample** from the **population** and then talk those **cha
 ****[#red] =**Examples**
 ***** **Nominal data**
 ***** **Ordinal data**
+***[#orange] **Color Palettes**
+****[#white] **Categorical**
+*****[#yellow] ===**Qualitative or categorical palettes are the best suitable to plot the categorical data as follows:**\n<img:images/img_55.png>
+*****[#pink] ===When to use:
+******[#yellow] Discrete or qualitative data with no natural ordering
+
+
+
 **[#gold] ==**2. Quantitative Data** \n<img:images/img_39.png>
 *** =**Definition:** its //**__numerical__**// data
 **** <img:images/img_32.png>
@@ -116,6 +124,12 @@ __But if you take a **sample** from the **population** and then talk those **cha
 ***** **Definition:** **Countable OR finite** (meaning there are only certain number of elements/values you can pick from)
 ***** **Example:** does a chicken lays half eggs, would you like to buy half washing machines, rolling a dice, etc.
 ***** Usually a <size:18>**count**
+*****[#orange] **Color Palettes**
+******[#white] **Categorical**
+*******[#yellow] ===**Qualitative or categorical palettes are the best suitable to plot the categorical data as follows:**\n<img:images/img_55.png>
+*******[#pink] ===When to use:
+********[#yellow] Discrete or qualitative data with no natural ordering
+
 
 ****[#yellow] ==2. Continuous Data
 ***** **Definition:** **Infinite number of values or elements** (not countable)
@@ -123,6 +137,20 @@ __But if you take a **sample** from the **population** and then talk those **cha
 ***** Usually a <size:16>**__Measurement__**\n<img:images/img_33.png>
 ****** Measurements are not easy, depends on tool the used and how specific you want to be
 ****** **Measurements** are made with instruments such as rulers, balances, graduated cylinders,\n breakers, and thermometers, these results are **measurable. numbers**
+*****[#orange] ===**Color Palettes**
+******[#gold] ===**Continous or** \n===**Sequential**
+*******[#yellow] **Sequential plots are suitable to express the distribution of data** \n**ranging from relative lower values to higher values within a range.** \n<img:images/img_56.png>
+*******[#pink] ===When to use:
+********[#yellow] Continuous data with a natural ordering, with a clear progression
+
+******[#gold] ===**Diverging**
+*******[#yellow] **Diverging palettes use two different colors. Each color represents variation in the value ranging from a common point in either direction.** \n* **We assume plotting the data ranging from -1 to 1. The values from -1 to 0 takes one color and 0 to +1 takes another color.** \n<img:images/img_57.png> \nDiverging color palettes are good for continuous data with a meaningful middle point. This is because diverging palettes are designed to show deviations from a central value, which is typically \nrepresented by a neutral color in the middle of the palette. The two ends of the palette are then used to represent values that are above or below the central value, with darker colors typically \nrepresenting larger deviations.
+
+
+*******[#pink] ===When to use:
+********[#yellow] Continuous data with a meaningful middle point
+
+
 
 *[#lime]:=[[https://www.youtube.com/watch?v=ZA4JkHKZM50&ab_channel=3Blue1Brown Why “probability of 0” does not mean “impossible” | Probabilities of probabilities]] YouTube Video explanation
 <img:images/img_34.png>
