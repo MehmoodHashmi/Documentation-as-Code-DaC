@@ -99,12 +99,14 @@ the data is inconsistent;
 ** =Employee Table: \n<img:images/img_41.png>
 ***[#pink] **Employee Table** \n**any row is called**
 **** =Observation
+***** ===(in statistics world)
 **** =<color #black>Data-point</color> OR <color #crimson>Data value
-**** =Distance
-**** =Tuple
-**** =Record
-****[#yellow] =Dimension
-**** ==All these six words 've same meaning but used in different contexts
+***** ===(in Math world)
+****[#gold] =Object or instance
+***** ===In OOP world
+**** =Tuple or Record
+***** ===In DB world
+**** ==All these words 've same meaning but used in different contexts
 ** =//__Data model__// for physicians and patients: \n<img:images/img_36.png>
 *** =//__Object model__// in OOP:
 
