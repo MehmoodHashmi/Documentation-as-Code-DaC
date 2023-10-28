@@ -1,5 +1,6 @@
 @startmindmap
 skinparam shadowing false
+!theme hacker
 
 title =__//**Data**//__
 * =__//**Data**//__
@@ -8,8 +9,8 @@ title =__//**Data**//__
 ****[#pink] **Continuous Data**
 ****[#pink] **Discrete Data**
 *** Categorical Data
-****[#c] Nominal Data
-****[#c] Ordinal Data
+****[#yellow] **Nominal Data**
+****[#yellow] **Ordinal Data**
 *** Textual Data
 *** Spatial Data
 
@@ -23,10 +24,10 @@ title =__//**Data**//__
 
 ** Data Storage and Management
 *** Databases
-**** Relational Databases
-**** NoSQL Databases
-**** Data Warehousing
-**** Data Lakes
+****[#yellow] ===Relational Databases
+****[#yellow] ===NoSQL Databases
+****[#yellow] ===Data Warehousing
+****[#yellow] ===Data Lakes
 *** Data Governance
 *** Data Quality
 *** Data Security
@@ -35,41 +36,41 @@ title =__//**Data**//__
 
 ** Data Analysis and Visualization
 ***[#lightgreen] =Exploratory Data Analysis
-**** Descriptive Statistics
-**** Data Visualization
-**** Data Profiling
+****[#yellow] ===Descriptive Statistics
+****[#yellow] ===Data Visualization
+****[#yellow] ===Data Profiling
 ***[#lightgreen] =Statistical Analysis
-**** Inferential Statistics
-**** Hypothesis Testing
-**** Regression Analysis
+****[#yellow] ===Inferential Statistics
+****[#yellow] ===Hypothesis Testing
+****[#yellow] ===Regression Analysis
 ***[#lightgreen] =Machine Learning
-**** Supervised Learning
-**** Unsupervised Learning
-**** Deep Learning
+****[#yellow] ===Supervised Learning
+****[#yellow] ===Unsupervised Learning
+****[#orange] ===Deep Learning
 *** =Data Mining
 *** Data Visualization Tools
-**** Charts and Graphs
-**** Dashboards
-**** Geospatial Visualization
+****[#yellow] ===Charts and Graphs
+****[#yellow] ===Dashboards
+****[#yellow] ===Geospatial Visualization
 
 **[#pink] **Big Data and Data Science**
 ***[#c] =**Big Data Concepts**
-****[#pink] Volume, Velocity, Variety, Veracity
-****[#pink] Hadoop and MapReduce
-****[#pink] Distributed File Systems
-****[#pink] Stream Processing
+****[#pink] ===Volume, Velocity, Variety, Veracity
+****[#pink] ===Hadoop and MapReduce
+****[#pink] ===Distributed File Systems
+****[#pink] ===Stream Processing
 *** **Data Science Lifecycle**
-**** Problem Formulation
-**** Data Acquisition
-**** Data Preprocessing
-**** Model Development
-**** Model Evaluation
-**** Model Deployment
+****[#yellow] ===Problem Formulation
+****[#yellow] ===Data Acquisition
+****[#yellow] ===Data Preprocessing
+****[#yellow] ===Model Development
+****[#yellow] ===Model Evaluation
+****[#yellow] ===Model Deployment
 *** **Predictive Analytics**
-**** Classification
-**** Clustering
-**** Time Series Analysis
-**** Recommendation Systems
+****[#yellow] ===Classification
+****[#yellow] ===Clustering
+****[#yellow] ===Time Series Analysis
+****[#yellow] ===Recommendation Systems
 
 ** Data Ethics and Privacy
 *** Data Anonymization

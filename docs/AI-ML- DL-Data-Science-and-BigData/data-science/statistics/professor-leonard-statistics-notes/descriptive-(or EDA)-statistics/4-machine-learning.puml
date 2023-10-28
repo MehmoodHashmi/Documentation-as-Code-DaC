@@ -1,7 +1,9 @@
 @startmindmap
-title = Machine Learning (Supervised Learning)
+title = Machine Learning
+
 !theme hacker
 
+* <img:images/img_59.png>
 * =Categories of \n=Data & Learning
 **:Unlabeled data typically falls under the category of "Unsupervised Learning" in the context of machine learning.
 Unsupervised learning is a type of learning where the data does not have predefined labels or categories. The goal
@@ -45,7 +47,14 @@ manner and resultantly made it a classification problem.;
 ********* **follow up **\n <img:images/img_49.png>
 ******* **As shown below**\n <img:images/img_42.png>
 ******** **Dependent vs Independent variable**\n <img:images/img_44.png>
-******** **Regression vs correlation**\n <img:images/img_45.png>\n <img:images/linear-equation.png>\n <img:images/dependent-and-independent-variable.png>\n= __Linear regression__ in __3-dimension__ will be a __<color #crimson>"plane"</color> not a <color #brown>"line"__ \n<img:images/planeBiVector.png>
+********:=**Regression vs correlation**
+<img:images/img_45.png>
+<img:images/img_58.png>
+==<size:24>**Regression**==
+<img:images/linear-equation.png>
+<img:images/dependent-and-independent-variable.png>
+= __Linear regression__ in __3-dimension__ will be a __<color #crimson>"plane"</color> not a <color #brown>"line"__
+<img:images/planeBiVector.png>;
 ********* <img:images/mean-squared-error-(MSE).png>
 ********** There are few more types of (MSE), use based on the need
 

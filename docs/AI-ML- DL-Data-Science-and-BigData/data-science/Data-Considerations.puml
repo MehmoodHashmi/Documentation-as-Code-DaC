@@ -1,5 +1,6 @@
 @startmindmap
 title =__ Data Considerations__
+!theme hacker
 
 * Data Considerations
 ** Data Security
@@ -19,13 +20,13 @@ title =__ Data Considerations__
 
 ** Data Integration
 *** Data Sources
-**** External Systems
-**** Third-Party APIs
-**** Legacy Systems
+****[#yellow] ===External Systems
+****[#yellow] ===Third-Party APIs
+****[#yellow] ===Legacy Systems
 *** Data Transformation
-**** ETL Processes
-**** Data Mapping
-**** Data Consolidation
+****[#yellow] ===ETL Processes
+****[#yellow] ===Data Mapping
+****[#yellow] ===Data Consolidation
 
 ** Data Governance
 *** Data Ownership
@@ -34,10 +35,10 @@ title =__ Data Considerations__
 
 ** Data Storage
 *** Storage Options
-**** Relational Databases
-**** NoSQL Databases
-**** Data Warehouses
-**** Cloud Storage
+****[#yellow] ===Relational Databases
+****[#yellow] ===NoSQL Databases
+****[#yellow] ===Data Warehouses
+****[#yellow] ===Cloud Storage
 
 ** Data Backup and Recovery
 *** Backup Strategies

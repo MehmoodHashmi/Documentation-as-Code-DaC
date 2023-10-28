@@ -1,5 +1,6 @@
 @startmindmap
 title =__Data Wrangling__
+!theme hacker
 
 * Data Wrangling
 
@@ -9,89 +10,89 @@ title =__Data Wrangling__
 ** Steps
 
 *** Data Acquisition
-**** Collecting data from various sources such as databases, APIs, files, or web scraping.
+****[#yellow] ====Collecting data from various sources such as databases, APIs, files, or web scraping.
 
 *** Data Cleaning
-**** Handling missing values, outliers, duplicates, and inconsistent data.
+****[#yellow] ====Handling missing values, outliers, duplicates, and inconsistent data.
 
 *** Data Transformation
-**** Converting data into a more structured or usable form.
-**** Examples: Reshaping data, converting data types, merging or joining datasets.
+****[#yellow] ====Converting data into a more structured or usable form.
+****[#yellow] ====**Examples:** Reshaping data, converting data types, merging or joining datasets.
 
 *** Data Integration
-**** Combining data from multiple sources into a single dataset.
+****[#yellow] ====Combining data from multiple sources into a single dataset.
 
 *** Data Aggregation
-**** Summarizing or aggregating data based on certain criteria.
-**** Examples: Grouping data, calculating averages, counts, or other statistics.
+****[#yellow] ====Summarizing or aggregating data based on certain criteria.
+****[#yellow] ====**Examples:** Grouping data, calculating averages, counts, or other statistics.
 
 *** Feature Engineering
-**** Creating new features or variables from existing data.
-**** Examples: Creating dummy variables, extracting information from text or timestamps.
+****[#yellow] ====Creating new features or variables from existing data.
+****[#yellow] ====**Examples:** Creating dummy variables, extracting information from text or timestamps.
 
 *** Data Validation and Quality Checks
-**** Ensuring data accuracy, consistency, and validity.
-**** Examples: Cross-validation, data profiling, checking data integrity.
+****[#yellow] ====Ensuring data accuracy, consistency, and validity.
+****[#yellow] ====**Examples:** Cross-validation, data profiling, checking data integrity.
 
 ** Tools
 
 *** Python Libraries
-**** pandas: Powerful data manipulation and analysis library.
-**** NumPy: Fundamental package for scientific computing with multi-dimensional arrays.
-**** scikit-learn: Machine learning library with tools for data preprocessing.
-**** Dask: Parallel computing library for big data processing.
-**** SQLAlchemy: SQL toolkit and Object-Relational Mapping (ORM) library.
-**** BeautifulSoup: Web scraping library for extracting data from HTML and XML.
+****[#yellow] ====pandas: Powerful data manipulation and analysis library.
+****[#yellow] ====NumPy: Fundamental package for scientific computing with multi-dimensional arrays.
+****[#yellow] ====scikit-learn: Machine learning library with tools for data preprocessing.
+****[#yellow] ====Dask: Parallel computing library for big data processing.
+****[#yellow] ====SQLAlchemy: SQL toolkit and Object-Relational Mapping (ORM) library.
+****[#yellow] ====BeautifulSoup: Web scraping library for extracting data from HTML and XML.
 
 *** R Libraries
-**** dplyr: Data manipulation library with a grammar of data manipulation.
-**** tidyr: Tools for reshaping and tidying data.
-**** plyr: Tools for splitting, applying, and combining data.
-**** data.table: Fast data manipulation library optimized for performance.
-**** stringr: String manipulation library for text data.
-**** XML: Parsing and generating XML and HTML data.
+****[#yellow] ====dplyr: Data manipulation library with a grammar of data manipulation.
+****[#yellow] ====tidyr: Tools for reshaping and tidying data.
+****[#yellow] ====plyr: Tools for splitting, applying, and combining data.
+****[#yellow] ====data.table: Fast data manipulation library optimized for performance.
+****[#yellow] ====stringr: String manipulation library for text data.
+****[#yellow] ====XML: Parsing and generating XML and HTML data.
 
 *** SQL
-**** Structured Query Language for managing and manipulating relational databases.
+****[#yellow] ====Structured Query Language for managing and manipulating relational databases.
 
 *** Command Line Tools
-**** grep, sed, awk: Command-line tools for searching, editing, and transforming text.
+****[#yellow] ====grep, sed, awk: Command-line tools for searching, editing, and transforming text.
 
 ** Challenges
 
 *** Missing Data
-**** Handling missing values, determining appropriate strategies for imputation.
+****[#yellow] ====Handling missing values, determining appropriate strategies for imputation.
 
 *** Data Inconsistencies
-**** Dealing with inconsistent formats, units, or naming conventions.
+****[#yellow] ====Dealing with inconsistent formats, units, or naming conventions.
 
 *** Data Volume and Scalability
-**** Processing and manipulating large datasets efficiently.
+****[#yellow] ====Processing and manipulating large datasets efficiently.
 
 *** Data Quality Issues
-**** Detecting and resolving errors, outliers, or inconsistent data.
+****[#yellow] ====Detecting and resolving errors, outliers, or inconsistent data.
 
 *** Data Security and Privacy
-**** Ensuring compliance with data protection regulations.
+****[#yellow] ====Ensuring compliance with data protection regulations.
 
 ** Best Practices
 
 *** Data Understanding
-**** Gaining a deep understanding of the data and its characteristics.
+****[#yellow] ====Gaining a deep understanding of the data and its characteristics.
 
 *** Documentation
-**** Documenting data sources, assumptions, and transformations for reproducibility.
+****[#yellow] ====Documenting data sources, assumptions, and transformations for reproducibility.
 
 *** Iterative Approach
-**** Iteratively refining and validating data wrangling steps.
+****[#yellow] ====Iteratively refining and validating data wrangling steps.
 
 *** Automation
-**** Automating data wrangling processes to improve efficiency and consistency.
+****[#yellow] ====Automating data wrangling processes to improve efficiency and consistency.
 
 *** Version Control
-**** Using version control systems to track changes in data and code.
+****[#yellow] ====Using version control systems to track changes in data and code.
 
 *** Collaboration
-**** Collaborating with domain experts and data stakeholders for better data quality.
+****[#yellow] ====Collaborating with domain experts and data stakeholders for better data quality.
 
 @endmindmap
