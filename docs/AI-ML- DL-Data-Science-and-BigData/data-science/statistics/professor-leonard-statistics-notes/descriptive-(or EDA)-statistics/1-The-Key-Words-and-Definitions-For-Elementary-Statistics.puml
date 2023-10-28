@@ -3,11 +3,12 @@ skinparam node {
     FontStyle italic
 }
 
-title =__//The-Key-Words-and-Definitions-For-Elementary-Statistics//__ \n=[[https://www.youtube.com/watch?v=txNvZ3Zndak&t=91s&ab_channel=GlobalHealthwithGregMartin Descriptive statistics and data visualisation. An introduction to statistics and working with data]] YouTube video 14-minutes
+title =__//The-Key-Words-and-Definitions-For-Elementary-Statistics//__
 !theme hacker
 
+* =[[https://www.youtube.com/watch?v=txNvZ3Zndak&t=91s&ab_channel=GlobalHealthwithGregMartin Descriptive statistics and data visualisation. An introduction to statistics and working with data]] YouTube video 14-minutes
 
-*[#red] =Lecture-1 Part-1: **The-Key-Words-and-Definitions-For-Elementary-Statistics**
+*[#orange] =Lecture-1 Part-1: **The-Key-Words-and-Definitions-For-Elementary-Statistics**
 * =**Data**
 ** =When we are talking about the __**data**__ in this class (statistics lectures) that means <color #green>**observations**</color>
 ** **Definition:** Any <size:22><color #green>**observations**</color> </size> that have been __collected__
@@ -304,7 +305,9 @@ manner and resultantly made it a classification problem.;
 ********* **follow up **\n <img:images/img_49.png>
 ******* **As shown below**\n <img:images/img_42.png>
 ******** **Dependent vs Independent variable**\n <img:images/img_44.png>
-******** **Regression vs correlation**\n <img:images/img_45.png>
+******** **Regression vs correlation**\n <img:images/img_45.png>\n <img:images/linear-equation.png>\n <img:images/dependent-and-independent-variable.png>
+********* <img:images/mean-squared-error-(MSE).png>
+********** There are few more types of (MSE), use based on the need
 
 ** Unlabeled Data
 ***[#pink] **Unsupervised Learning**
