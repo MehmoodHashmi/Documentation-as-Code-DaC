@@ -1,0 +1,81 @@
+@startmindmap
+title = Machine Learning (Supervised Learning)
+!theme hacker
+
+* =Categories of \n=Data & Learning
+**:Unlabeled data typically falls under the category of "Unsupervised Learning" in the context of machine learning.
+Unsupervised learning is a type of learning where the data does not have predefined labels or categories. The goal
+is to explore the patterns, relationships, or structures within the data without any specific guidance.;
+** Labeled Data
+***[#pink] **Supervised Learning**
+**** **Classification**
+***** **Output** is always **__category__<color #crimson>__ or label__</color> (is non-numeric value)**\n<img:images/img_54.png>
+****** **Target variable** are always **Nominal or Ordinal data/variable** \n* __**Target variable** is always **dependent**__\n** Pick target variable after you 've applied the **__correlation step__** & 've removed the irrelevant variables\n*** Picking target variable without performing the correlation step produces errors or bad results \n**** Previous two steps are related to Data-Engineering or data cleaning, Use **Heatmap graph for correlation**\n* __**Independent variables** are called **"variables or features"**__ \n* __**Dependent variable** often called **"target or outcome"**__\n* Model **"accuracy"** can be determined \n<img:images/img_46.png>
+******* **As shown below**\n <img:images/img_43.png>
+
+***** __Problem conversion__ from __regression__ \nto __classification__ or vice versa
+****** What should be the thought process?
+*******:* What is the problem that I'm trying to solve? Identification of problem
+* Which thing am I trying to determine?
+** Do I've the necessary data for the thing I'm trying to determine?
+*** If yes, then go ahead and solve the problem.
+*** Otherwise, determine the reason for why don't you 've the necessary data
+**** Based on the reason you 've identified you will change your data-set **OR**
+        you will change your problem from __regression to classification__ or from
+        classification to regression as per demand.;
+****** =Example
+*******:Let say you 've to predict the temperature. And predicting the temperature I think
+is regression problem, because the temperature is interval data and it can be 20, 30, or
+50 celsius. But I think my regression model will not work nicely on this model, So I will
+divide the temperature data into 3-classes (low, medium & high) temperature.
+* low temperature = 1-15 celsius
+* medium temperature = 16-30 celsius
+* high temperature = 36-50 celsius
+
+Notice carefully earlier my problem was a regression problem and now it had become a
+classification problem. So for my convenience I had molded the data in a different
+manner and resultantly made it a classification problem.;
+
+
+**** **Regression**
+***** **Output** is always **Numeric value**
+****** **Target variable** are always **interval or ratio data/variable** \n* __**Target variable** is always **dependent**__\n** Pick target variable after you 've applied the **__correlation step__** & 've removed the irrelevant variables\n*** Picking target variable without performing the correlation step produces errors or bad results \n**** Previous two steps are related to Data-Engineering or data cleaning, Use **Heatmap graph for correlation**\n* __**Independent variables** are called **"variables or features"**__ \n* __**Dependent variable** often called **"target or outcome"**__\n* Model **"accuracy"** can't be determined \n<img:images/img_46.png>
+******* **As shown below**\n <img:images/img_47.png>
+******** **follow up **\n <img:images/img_48.png>
+********* **follow up **\n <img:images/img_49.png>
+******* **As shown below**\n <img:images/img_42.png>
+******** **Dependent vs Independent variable**\n <img:images/img_44.png>
+******** **Regression vs correlation**\n <img:images/img_45.png>\n <img:images/linear-equation.png>\n <img:images/dependent-and-independent-variable.png>
+********* <img:images/mean-squared-error-(MSE).png>
+********** There are few more types of (MSE), use based on the need
+
+** Unlabeled Data
+***[#pink] **Unsupervised Learning**
+****[#yellow] ===Clustering
+****[#yellow] ===Dimensionality Reduction
+****[#yellow] ===Anomaly Detection
+**:This updated mindmap script reflects the distinction between labeled data used in supervised learning tasks and unlabeled data used
+in unsupervised learning tasks. Unsupervised learning algorithms aim to discover patterns, groupings, or anomalies in the data without
+relying on predefined labels.;
+
+*:The distinction between labeled and unlabeled data is primarily used in the field of machine learning, where it plays a crucial role
+in the training and development of models. However, the concept of labeled and unlabeled data can also be relevant in other disciplines
+that involve data analysis and pattern recognition. Here are a few examples:
+
+* **Data Mining:** Data mining is a field that focuses on discovering patterns, relationships, and insights from large datasets.
+In data mining, labeled data is often used for supervised learning tasks, while unlabeled data can be utilized for
+unsupervised learning tasks such as clustering or anomaly detection.
+
+* **Statistics:** In statistics, labeled data is commonly used for statistical modeling, hypothesis testing, and regression analysis.
+**__Unlabeled data__,** on the other hand, can be explored using techniques like **exploratory data analysis or clustering** to gain insights
+into the underlying structure of the data.
+
+* **Natural Language Processing (NLP):** In NLP, labeled data is often required for tasks like sentiment analysis, named entity recognition,
+or text classification. Unlabeled data can be utilized for tasks such as topic modeling or word embeddings, where the goal is to uncover
+latent patterns or representations in text.
+
+While the terminology may vary across disciplines, the fundamental idea of distinguishing between labeled and unlabeled data remains
+applicable in various fields that involve data analysis, modeling, and pattern recognition.;
+
+
+@endmindmap
