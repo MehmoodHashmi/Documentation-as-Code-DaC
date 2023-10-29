@@ -48,7 +48,7 @@ title =Data Engineering\n<img:images/img.png> <img:images/img_1.png>\n <color #g
 ****[#red] ====<size:14>**[[../../Apache-Big-Data-Ecosystem/apache-kafka.puml Apache Kafka,]]** **Apache Flink, Apache Storm.**
 
 ***[#crimson] ====<size:14>**[[data-storage-and-management/modeling-methodology/Data-Modeling.puml Data Modeling]]**
-****[#yellow] ====<size:14>Tools like **ERD diagrams** and **schema design.**
+****[#black] ====<size:14>**Tools like [[../../../books/1-books-backlog/DBMS/erd-normalization.puml ERD diagrams]] and** **[[Schema-Design.puml schema design]].**
 
 **[#lime] Considerations
 *** ====<size:14>Scalability

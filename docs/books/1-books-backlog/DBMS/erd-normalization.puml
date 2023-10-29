@@ -1,6 +1,8 @@
 @startmindmap
 
 title = __Key Takeaways from Discussion on ERD and Normalization__
+!theme hacker
+
 
 * ERD (Entity-Relationship Diagram)
 ** Graphical representation of entities, attributes, and relationships
@@ -12,16 +14,16 @@ title = __Key Takeaways from Discussion on ERD and Normalization__
 * **Normalization**
 ** Organizing data to reduce redundancy and improve data integrity
 ** Normal forms are a set of rules governing the process
-***[#yellow] **First normal form (1NF)**
-**** Each attribute in a table is atomic and no repeating groups or arrays
-***[#yellow] **Second normal form (2NF)**
-**** Each non-key attribute is functionally dependent on the primary key
-***[#yellow] **Third normal form (3NF)**
-**** Each non-key attribute is not transitively dependent on the primary key
-***[#yellow] **Fourth normal form (4NF)**
-**** No multi-valued dependencies
-***[#yellow] **Fifth normal form (5NF)**
-**** No join dependencies
+***[#yellow] ====**First normal form (1NF)**
+****[#white] ====<size:14>Each attribute in a table is atomic and no repeating groups or arrays
+***[#yellow] ====**Second normal form (2NF)**
+****[#white] ====<size:14>Each non-key attribute is functionally dependent on the primary key
+***[#yellow] ====**Third normal form (3NF)**
+****[#white] ====<size:14>Each non-key attribute is not transitively dependent on the primary key
+***[#yellow] ====**Fourth normal form (4NF)**
+****[#white] ====<size:14>No multi-valued dependencies
+***[#yellow] ====**Fifth normal form (5NF)**
+****[#white] ====<size:14>No join dependencies
 
 * **Benefits of Normalization**
 ** Eliminates data redundancy
@@ -33,7 +35,7 @@ title = __Key Takeaways from Discussion on ERD and Normalization__
 * **Challenges of Normalization**
 ** Can be time-consuming and complex
 ** May result in multiple tables and joins, affecting query performance
-**[#yellow] <color #118888>**__Requires a deep understanding of the data and the business requirements__**</color>
+**[#yellow] ====<color #118888>**__Requires a deep understanding of the data and the business requirements__**</color>
 ** <color #118888>**__May not always be necessary, depending on the size and complexity of the data set and the intended use of the database.__**</color>
 
 @endmindmap

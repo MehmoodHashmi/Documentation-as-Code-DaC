@@ -1,0 +1,73 @@
+@startmindmap
+title =Schema Design
+
+*:=//Schemaless data storage in NoSQL databases can indeed contribute to the need for data cleaning. Here's why://
+
+* **Lack of predefined structure:** **NoSQL** databases, particularly document-based ones, often allow for flexible and dynamic schemas. This means that data can be stored without strict constraints on its structure or data types. While this flexibility offers
+advantages in terms of agility and adaptability, it can also lead to inconsistent data formats or unexpected variations in the stored data.
+
+* **Data heterogeneity:** Without a predefined schema, different documents or records within a **NoSQL** database can have varying structures, fields, or data representations. This heterogeneity can make it challenging to apply standardized data cleaning
+processes across the entire dataset. Each document may require individual handling or transformations to conform to the  desired data quality standards.
+
+* **Data integration challenges:** In scenarios where data is sourced from multiple systems or applications, the absence of a fixed schema can complicate data integration efforts. Datasets with different structures and semantics need to be reconciled
+and aligned, requiring  additional data cleaning steps to ensure consistency and compatibility across the integrated data.
+
+* **Data validation and quality control:** Without predefined constraints or validations enforced by a schema, there is a higher likelihood of data quality issues such as missing values, incorrect data types, or inconsistent formatting. Data cleaning
+becomes necessary to identify  and rectify these anomalies, ensuring that the data is accurate, complete, and conforms to the expected quality standards.
+
+While schemaless storage offers flexibility, it also places a greater burden on data cleaning processes. Establishing data cleaning routines and implementing validation mechanisms specific to the data stored in a **NoSQL** database becomes crucial
+to maintain data integrity  and quality.;
+
+!theme hacker
+* Schema Design
+** Definition
+*** <size:14>**Schema design** is the process of creating a structured blueprint that defines the organization, relationships, and constraints of data in a database or data storage system.
+
+** Objectives
+*** Data Structure
+****[#yellow] ====<size:14>Define the structure and format of data for efficient storage and retrieval.
+*** Data Relationships
+****[#yellow] ====<size:14>Specify how different data entities relate to each other.
+*** Data Integrity
+****[#yellow] ====<size:14>Ensure data integrity through constraints and validation rules.
+*** Performance Optimization
+****[#yellow] ====<size:14>Optimize data access and query performance.
+
+**[#a] Schema Design Techniques
+***[#pink] ====**Relational Schema**
+****[#yellow] ====<size:14>Organize data into tables with well-defined relationships.
+***[#gold] **NoSQL Schema**
+****[#white] ====<size:14>**Flexible schema design** for document-based, key-value, or column-family databases.
+***[#orange] ====**Star and Snowflake Schemas**
+****[#yellow] ====<size:14>Design data warehouses for business intelligence and analytics.
+
+** Schema Design Tools
+*** Relational Database Management Systems **(RDBMS)**
+****[#yellow] ====<size:14>Tools like MySQL, PostgreSQL, and Microsoft SQL Server.
+*** **NoSQL** Databases
+****[#yellow] ====<size:14>Databases like MongoDB, Cassandra, and Redis.
+*** Data Modeling Tools
+****[#yellow] ====<size:14>Tools for designing and visualizing data schemas **(e.g., ERD tools)**.
+
+**[#lime] Considerations
+***[#pink] ===Data Requirements
+****[#yellow] ====<size:14>Understand data requirements, access patterns, and use cases.
+*** Scalability
+****[#yellow] ====<size:14>Design for scalability to accommodate data growth.
+*** Data Versioning
+****[#yellow] ====<size:14>Plan for schema evolution and versioning.
+
+*** Data Security
+****[#yellow] ====<size:14>Implement access controls and encryption to protect schema data.
+
+** Best Practices
+*** Normalization
+****[#yellow] ====<size:14>Apply normalization techniques to eliminate data redundancy.
+*** Denormalization
+****[#yellow] ====<size:14>Use denormalization to optimize query performance.
+*** Documentation
+****[#yellow] ====<size:14>Maintain comprehensive documentation of the schema design.
+*** Collaboration
+****[#yellow] ====<size:14>Collaborate with stakeholders and developers for effective schema design.
+
+@endmindmap
