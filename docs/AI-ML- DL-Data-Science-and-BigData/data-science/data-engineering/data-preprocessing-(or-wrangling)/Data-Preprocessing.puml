@@ -2,7 +2,7 @@
 title =Data Preprocessing
 !theme hacker
 
-* Data Preprocessing\n=**(Wrangling)**
+* Data Preprocessing \n=**(Wrangling)** \n**[[Data-Wrangling-(or-preprocessing).puml Click for detailed \nmindmap]]**
 ** Definition
 *** Data preprocessing is the process of cleaning, transforming, and organizing raw data into a format suitable for analysis and modeling.
 
@@ -12,21 +12,21 @@ title =Data Preprocessing
 *** **Facilitates Data Understanding:** Preprocessing aids in exploring and understanding the data.
 
 ** Steps in Data Preprocessing
-***[#orange] ===Data Cleaning
+***[#orange] ===Data Cleaning \n **[[1-Data-Cleaning.puml Click for detailed \nmindmap]]**
 ****[#yellow] ====<size:12>**Handle Missing Values:** Remove, impute, or interpolate missing data.
 ****[#yellow] ====<size:12>**Outlier Detection:** Identify and handle outliers that can distort analysis.
 ****[#yellow] ====<size:12>**Noise Reduction:** Smooth noisy data by applying filters or techniques.
 
-***[#gold] ===Data Transformation
+***[#gold] ===Data Transformation \n **[[2-Data-Transformation.puml Click for detailed \nmindmap]]**
 ****[#yellow] ====<size:12>**Encoding Categorical Data:** Convert categorical variables into numerical formats **(e.g., one-hot encoding)**.
 ****[#yellow] ====<size:12>**Feature Scaling:** Normalize or standardize numeric features to bring them to a common scale.
 ****[#yellow] ====<size:12>**Dimensionality Reduction:** Reduce the number of features using techniques like **PCA.**
 
-***[#pink] ===Data Reduction
+***[#pink] ===Data Reduction \n **[[3-Data-Reduction.puml Click for detailed \nmindmap]]**
 ****[#yellow] ====<size:12>**Sampling:** Reduce data volume by sampling subsets **(e.g., random or stratified sampling)**.
 ****[#yellow] ====<size:12>**Aggregation:** Combine and summarize data to reduce dimensionality **(e.g., aggregating by time intervals)**.
 
-***[#lime] ===Data Integration
+***[#lime] ===Data Integration \n **[[4-Data-Integration.puml Click for detailed \nmindmap]]**
 ****[#yellow] ====<size:12>**Merge Data Sources:** Combine data from multiple sources into a single **dataset**.
 ****[#yellow] ====<size:12>**Handle Redundancy:** Identify and eliminate redundant information.
 

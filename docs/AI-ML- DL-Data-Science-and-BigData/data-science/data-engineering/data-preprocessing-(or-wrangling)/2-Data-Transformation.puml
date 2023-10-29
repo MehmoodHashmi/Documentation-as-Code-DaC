@@ -12,11 +12,11 @@ title =Data Transformation
 ****[#yellow] ====<size:13>Ensure data quality and consistency.
 
 *** Restructure Data
-****[#yellow] ====<size:13>Reshape data to fit the required format, structure, or schema.
+****[#yellow] ====<size:13>Reshape data to fit the required format, **structure, or schema.**
 ****[#yellow] ====<size:13>May involve pivoting, melting, or transposing data.
 
 *** Normalize Data
-****[#yellow] ====<size:13>Scale numeric data to a common range.
+****[#yellow] ====<size:13>**Scale** numeric data to a common range.
 ****[#yellow] ====<size:13>Minimize data bias due to varying units and scales.
 
 *** Aggregate Data
@@ -40,6 +40,8 @@ title =Data Transformation
 
 *** Data Enrichment
 ****[#yellow] ====<size:13>Augmenting data with external sources **(e.g., adding geospatial data or social media sentiment scores)**.
+***[#gold] Z-Score scaling or Standard scaling
+***[#gold] Min-Max scaling
 
 ** Tools and Technologies
 *** Data Preparation Tools
