@@ -1,15 +1,18 @@
 @startmindmap
 title = __Big Data__\n<img:images/img_22.png>
+!theme hacker
+
+
 * =Big Data
 ** Data Collection
 *** Data Sources
-**** Structured Data
+****[#yellow] ====<size:13>Structured Data
 ***** Relational Databases
 ****** MySQL
 ****** Oracle
 ****** SQL Server
 ****** PostgreSQL
-**** Unstructured Data
+****[#yellow] ====<size:13>Unstructured Data
 ***** Text Files
 ***** Audio Files
 ***** Video Files
@@ -17,35 +20,35 @@ title = __Big Data__\n<img:images/img_22.png>
 ***** Social Media Data
 ** Data Storage
 *** Data Warehouses
-**** On-Premise Data Warehouses
+****[#yellow] ====<size:13>On-Premise Data Warehouses
 ***** Cloud Data Warehouses
 ****** Amazon Redshift
 ****** Microsoft Azure SQL Data Warehouse
 ****** Google Cloud BigQuery
-**** Hybrid Data Warehouses
+****[#yellow] ====<size:13>Hybrid Data Warehouses
 ***** Amazon Redshift Spectrum
 ***** Google Cloud BigQuery BI Engine
 ** Data Processing
 *** Data Warehousing
-**** Extract, Transform, and Load (ETL)
+****[#yellow] ====<size:13>Extract, Transform, and Load (ETL)
 ***** Extract data from source systems
 ***** Transform data into a consistent format
 ***** Load data into a data warehouse
-**** Data Mining
+****[#yellow] ====<size:13>Data Mining
 ***** Discover patterns and trends in data
 ***** Build predictive models
 ***** Improve decision-making
 *** Data Analytics
-**** Business Intelligence (BI)
+****[#yellow] ====<size:13>Business Intelligence (BI)
 ***** Provide insights into business performance
 ***** Identify opportunities for improvement
 ***** Make better decisions
-**** Data Science
+****[#yellow] ====<size:13>Data Science
 ***** Develop new algorithms and models
 ***** Build data-driven applications
 ***** Solve complex problems
 ** Data Visualization
 *** Create charts, graphs, and other visualizations
-**** Communicate insights from data
-**** Improve decision-making
+****[#yellow] ====<size:13>Communicate insights from data
+****[#yellow] ====<size:13>Improve decision-making
 @endmindmap

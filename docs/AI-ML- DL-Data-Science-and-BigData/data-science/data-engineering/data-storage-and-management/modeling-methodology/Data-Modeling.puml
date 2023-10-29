@@ -14,14 +14,14 @@ title =__ Data Modeling__
 *** Physical Data Model
 ****[#yellow] <size:13>**Definition:** Specifies the implementation details of data structures, including storage formats, indexing, and optimization considerations.
 ****[#white] <size:13>**Examples:** Relational schema,[#yellow] <size:13>Data Definition Language **(DDL)** scripts.
-** Data Modeling Approaches
-*** Entity-Relationship **(ER)** Modeling
+**[#a] Data Modeling Approaches
+***[#gold] ===Entity-Relationship **(ER)** Modeling
 ****[#yellow] <size:13>**Definition:** Represents entities, attributes, and relationships between entities using entity-relationship diagrams.
 ****[#white] <size:13>**Examples:** Crow's Foot notation, Chen notation.
 ***[#pink] ===Dimensional Modeling
 ****[#yellow] <size:13>**Definition:** Focuses on modeling data for data warehousing and business intelligence applications, emphasizing the relationships between dimensions and facts.
-****[#white] <size:13>****Examples:** Star schema, Snowflake schema.**
-*** Object-Relational Modeling
+****[#white] <size:13>**Examples:** Star schema, Snowflake schema.
+***[#orange] ===Object-Relational Modeling
 ****[#yellow] <size:13>**Definition:** Combines object-oriented concepts with relational database principles, allowing for the storage of complex data types and behavior.
 ****[#white] <size:13>**Examples:** Object-Relational Database Management Systems **(ORDBMS)**, Unified Modeling Language **(UML)** extensions.
 ** Key Concepts in Data Modeling

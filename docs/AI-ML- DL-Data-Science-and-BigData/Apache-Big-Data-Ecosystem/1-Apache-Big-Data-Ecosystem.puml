@@ -1,98 +1,98 @@
 @startmindmap
 title =__Apache Big Data Ecosystem__\n<img:images/img_5.png>
-
 * **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
+!theme hacker
 
 * Apache Big Data Ecosystem
 ** Overview
-*** Collection of Open-Source Projects and Tools for Big Data Processing
-*** Supports Scalable, Distributed, and Fault-Tolerant Data Processing
-*** Provides Solutions for Storage, Processing, Analytics, and Integration
+***[#yellow] ====<size:13>Collection of Open-Source Projects and Tools for Big Data Processing
+***[#yellow] ====<size:13>Supports Scalable, Distributed, and Fault-Tolerant Data Processing
+***[#yellow] ====<size:13>Provides Solutions for Storage, Processing, Analytics, and Integration
 
 ** Storage
-*** Hadoop Distributed File System (HDFS)
-*** Apache HBase
-*** Apache Cassandra
-*** Apache Kudu
-*** Apache Parquet
-*** Apache ORC
-*** Amazon S3
-*** Google Cloud Storage
+***[#yellow] ====<size:13>Hadoop Distributed File System **(HDFS)**
+***[#yellow] ====<size:13>Apache HBase
+***[#yellow] ====<size:13>Apache Cassandra
+***[#yellow] ====<size:13>Apache Kudu
+***[#yellow] ====<size:13>Apache Parquet
+***[#yellow] ====<size:13>Apache ORC
+***[#yellow] ====<size:13>Amazon S3
+***[#yellow] ====<size:13>Google Cloud Storage
 
 ** Processing and Analytics
-*** Apache Spark
-*** Apache Flink
-*** Apache Beam
-*** Apache Hive
-*** Apache Pig
-*** Apache Storm
-*** Apache Samza
-*** Apache Apex
-*** Apache Tez
+***[#yellow] ====<size:13>Apache Spark
+***[#yellow] ====<size:13>Apache Flink
+***[#yellow] ====<size:13>Apache Beam
+***[#yellow] ====<size:13>Apache Hive
+***[#yellow] ====<size:13>Apache Pig
+***[#yellow] ====<size:13>Apache Storm
+***[#yellow] ====<size:13>Apache Samza
+***[#yellow] ====<size:13>Apache Apex
+***[#yellow] ====<size:13>Apache Tez
 
 ** Data Integration and Messaging
-*** Apache Kafka
-*** Apache NiFi
-*** Apache Flume
-*** Apache Sqoop
-*** Apache Airflow
+***[#yellow] ====<size:13>Apache Kafka
+***[#yellow] ====<size:13>Apache NiFi
+***[#yellow] ====<size:13>Apache Flume
+***[#yellow] ====<size:13>Apache Sqoop
+***[#yellow] ====<size:13>Apache Airflow
 
 ** SQL and Data Warehousing
-*** Apache Hive
-*** Apache HAWQ
-*** Apache Drill
-*** Apache Impala
-*** Presto
-*** Apache Kylin
-*** Apache Calcite
+***[#yellow] ====<size:13>Apache Hive
+***[#yellow] ====<size:13>Apache HAWQ
+***[#yellow] ====<size:13>Apache Drill
+***[#yellow] ====<size:13>Apache Impala
+***[#yellow] ====<size:13>Presto
+***[#yellow] ====<size:13>Apache Kylin
+***[#yellow] ====<size:13>Apache Calcite
 
 ** Machine Learning and AI
-*** Apache Mahout
-*** Apache MXNet
-*** Apache SystemML
-*** Apache PredictionIO
-*** TensorFlow
-*** PyTorch
+***[#yellow] ====<size:13>Apache Mahout
+***[#yellow] ====<size:13>Apache MXNet
+***[#yellow] ====<size:13>Apache SystemML
+***[#yellow] ====<size:13>Apache PredictionIO
+***[#yellow] ====<size:13>TensorFlow
+***[#yellow] ====<size:13>PyTorch
 
 ** Stream Processing
-*** Apache Kafka
-*** Apache Flink
-*** Apache Storm
-*** Apache Samza
-*** Apache Spark Streaming
-*** Apache NiFi
-*** Apache Beam
+***[#yellow] ====<size:13>Apache Kafka
+***[#yellow] ====<size:13>Apache Flink
+***[#yellow] ====<size:13>Apache Storm
+***[#yellow] ====<size:13>Apache Samza
+***[#yellow] ====<size:13>Apache Spark Streaming
+***[#yellow] ====<size:13>Apache NiFi
+***[#yellow] ====<size:13>Apache Beam
 
 ** Data Governance and Security
-*** Apache Atlas
-*** Apache Ranger
-*** Apache Sentry
-*** Apache Knox
-*** Apache Metron
-*** Apache Argus
+***[#yellow] ====<size:13>Apache Atlas
+***[#yellow] ====<size:13>Apache Ranger
+***[#yellow] ====<size:13>Apache Sentry
+***[#yellow] ====<size:13>Apache Knox
+***[#yellow] ====<size:13>Apache Metron
+***[#yellow] ====<size:13>Apache Argus
 
 ** Data Visualization and Business Intelligence
-*** Apache Superset
-*** Apache Zeppelin
-*** Apache Kylin
-*** Apache Druid
-*** Apache Nifi
+***[#yellow] ====<size:13>Apache Superset
+***[#yellow] ====<size:13>Apache Zeppelin
+***[#yellow] ====<size:13>Apache Kylin
+***[#yellow] ====<size:13>Apache Druid
+***[#yellow] ====<size:13>Apache Nifi
 
 ** Cloud Integration
-*** Amazon Web Services (AWS)
-*** Google Cloud Platform (GCP)
-*** Microsoft Azure
-*** Alibaba Cloud
-*** IBM Cloud
+***[#yellow] ====<size:13>Amazon Web Services **(AWS)**
+***[#yellow] ====<size:13>Google Cloud Platform **(GCP)**
+***[#yellow] ====<size:13>Microsoft Azure
+***[#yellow] ====<size:13>Alibaba Cloud
+***[#yellow] ====<size:13>IBM Cloud
 
 ** DevOps and Management
-*** Apache Ambari
-*** Apache ZooKeeper
-*** Apache Oozie
-*** Apache Mesos
-*** Apache Helix
-*** Apache Ranger
-*** Apache Sentry
-*** Apache Knox
+***[#yellow] ====<size:13>Apache Ambari
+***[#yellow] ====<size:13>Apache ZooKeeper
+***[#yellow] ====<size:13>Apache Oozie
+***[#yellow] ====<size:13>Apache Mesos
+***[#yellow] ====<size:13>Apache Helix
+***[#yellow] ====<size:13>Apache Ranger
+***[#yellow] ====<size:13>Apache Sentry
+***[#yellow] ====<size:13>Apache Knox
 
 @endmindmap

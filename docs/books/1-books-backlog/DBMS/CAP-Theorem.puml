@@ -1,5 +1,6 @@
 @startmindmap
 title = Key Takeaways from the CAP Theorem
+!theme hacker
 
 * **Key Takeaways from the CAP Theorem** \n<img:img_4.png>
 ** Consistency
@@ -22,9 +23,9 @@ title = Key Takeaways from the CAP Theorem
 * **CAP Theorem** \n<img:img_4.png>
 ** Consistency
 *** Strong Consistency
-**** **Example:** Traditional RDBMS
+****[#yellow] ====<size:13>**Example:** Traditional RDBMS
 *** Weak Consistency
-**** **Example:** NoSQL systems
+****[#yellow] ====<size:13>**Example:** NoSQL systems
 ** Availability
 *** **Example:** Distributed Cache
 ** Partition Tolerance

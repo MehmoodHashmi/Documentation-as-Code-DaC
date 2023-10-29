@@ -1,0 +1,54 @@
+@startmindmap
+title =Data Ingestion
+!theme hacker
+
+* Data Ingestion
+** Definition
+*** <size:14>**Data ingestion** is the process of **collecting, importing, and transferring data** from **various sources into a data storage or processing system** for analysis or storage.
+
+** Objectives
+*** Collect Data
+****[#yellow] ====<size:13>Gather data from diverse sources, such as **databases, logs, files, and external APIs.**
+*** Ensure Data Availability
+****[#yellow] ====<size:13>Make data accessible for analysis and decision-making.
+*** Maintain Data Freshness
+****[#yellow] ====<size:13>Keep data up to date to support real-time or near-real-time analysis.
+
+**[#a] Data Ingestion Techniques
+***[#brown] **[[Batch-Ingestion.puml Batch Ingestion]]**
+****[#yellow] ====<size:13>Collect and transfer **data** periodically in predefined batches.
+***[#red] **[[Stream-Ingestion.puml Stream Ingestion]]**
+****[#yellow] ====<size:13>Process and move **data** in real-time or near-real-time streams.
+***[#blue] **[[Change-Data-Capture-(CDC).puml Change Data Capture (CDC)]]**
+****[#yellow] ====<size:13>Capture and replicate changes made to **data** sources in real-time.
+
+** Data Ingestion Tools
+*** Apache Nifi
+****[#yellow] ====<size:13>An open-source **data** integration tool for routing and transforming data.
+*** Kafka
+****[#yellow] ====<size:13>A distributed streaming platform for building real-time data pipelines.
+*** AWS Glue
+****[#yellow] ====<size:13>A managed ETL service for ingesting and preparing data.
+
+**[#pink] Considerations
+*** Data Sources
+****[#yellow] ====<size:13>Identify and connect to various data sources, including databases, files, and APIs.
+*** Data Transformation
+****[#yellow] ====<size:13>Determine whether data should be transformed during ingestion or after.
+*** Scalability
+****[#yellow] ====<size:13>Ensure the ingestion process can handle growing data volumes.
+
+*** Data Security
+****[#yellow] ====<size:13>Protect data during ingestion with encryption and access controls.
+
+** Best Practices
+*** Data Profiling
+****[#yellow] ====<size:13>Understand source data to prepare for ingestion.
+*** Data Validation
+****[#yellow] ====<size:13>Implement validation checks to verify data integrity.
+*** Error Handling
+****[#yellow] ====<size:13>Plan for handling errors and exceptions during ingestion.
+*** Monitoring
+****[#yellow] ====<size:13>Implement monitoring and alerting to detect and address issues.
+
+@endmindmap

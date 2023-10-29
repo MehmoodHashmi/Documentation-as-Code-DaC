@@ -33,9 +33,9 @@ title =__ Stream Processing vs. Batch Processing__
 ****[#yellow] ====<size:12>Scheduled Processing
 ****[#yellow] ====<size:12>High Throughput
 ****[#yellow] ====<size:12>Stateful and Sequential Processing
-*** Use Cases
+***[#orange] ==Use Cases
 ****[#yellow] ====<size:12>Data Warehousing
-****[#yellow] ====<size:12>ETL (Extract, Transform, Load) Processes
+****[#yellow] ====<size:12>ETL **(Extract, Transform, Load)** Processes
 ****[#yellow] ====<size:12>Business Intelligence Reporting
 ****[#yellow] ====<size:12>Data Aggregation
 ****[#yellow] ====<size:12>Data Archiving and Backup

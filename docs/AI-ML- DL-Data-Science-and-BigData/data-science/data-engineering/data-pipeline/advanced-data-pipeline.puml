@@ -1,5 +1,5 @@
 @startmindmap
-title =__ Advanced Data Pipeline__
+title =__ Advanced Data Pipeline__\n<img:images/img.png>
 !theme hacker
 
 * **[[https://youtu.be/VtzvF17ysbc  ]]**
@@ -8,93 +8,93 @@ title =__ Advanced Data Pipeline__
 * Advanced Data Pipeline
 ** Data Ingestion
 *** Real-time Data Streaming
-****[#yellow] ====<size:12>Apache Kafka
-****[#yellow] ====<size:12>Amazon Kinesis
-****[#yellow] ====<size:12>Azure Event Hubs
-****[#yellow] ====<size:12>Google Cloud Pub/Sub
+****[#yellow] ====<size:13>Apache Kafka
+****[#yellow] ====<size:13>Amazon Kinesis
+****[#yellow] ====<size:13>Azure Event Hubs
+****[#yellow] ====<size:13>Google Cloud Pub/Sub
 *** Change Data Capture (CDC)
-****[#yellow] ====<size:12>Debezium
-****[#yellow] ====<size:12>Oracle GoldenGate
-****[#yellow] ====<size:12>Attunity
+****[#yellow] ====<size:13>Debezium
+****[#yellow] ====<size:13>Oracle GoldenGate
+****[#yellow] ====<size:13>Attunity
 *** IoT Data Ingestion
-****[#yellow] ====<size:12>MQTT Protocol
-****[#yellow] ====<size:12>Apache NiFi
-****[#yellow] ====<size:12>AWS IoT Core
-****[#yellow] ====<size:12>Azure IoT Hub
+****[#yellow] ====<size:13>MQTT Protocol
+****[#yellow] ====<size:13>Apache NiFi
+****[#yellow] ====<size:13>AWS IoT Core
+****[#yellow] ====<size:13>Azure IoT Hub
 **[#pink] =//Data Processing//
 *** ==**Stream Processing** \n<img:images/stream-processing.png>
-****[#yellow] ====<size:12>Apache Flink
-****[#yellow] ====<size:12>Apache Storm
-****[#yellow] ====<size:12>Spark Streaming
-****[#yellow] ====<size:12>AWS Kinesis Data Analytics
+****[#yellow] ====<size:13>Apache Flink
+****[#yellow] ====<size:13>Apache Storm
+****[#yellow] ====<size:13>Spark Streaming
+****[#yellow] ====<size:13>AWS Kinesis Data Analytics
 *** ==**Batch Processing** \n<img:images/batch-processing.png>
-****[#yellow] ====<size:12>Apache Spark
-****[#yellow] ====<size:12>Apache Hadoop MapReduce
-****[#yellow] ====<size:12>AWS Glue
-****[#yellow] ====<size:12>Google Cloud Dataflow
+****[#yellow] ====<size:13>Apache Spark
+****[#yellow] ====<size:13>Apache Hadoop MapReduce
+****[#yellow] ====<size:13>AWS Glue
+****[#yellow] ====<size:13>Google Cloud Dataflow
 *** **Lambda Architecture** is hybrid (combination of stream and batch processing) \n<img:images/lambda-architecture.png>
 ** =Data Storage
 ***[#pink] Data Warehouses
-****[#yellow] ====<size:12>Snowflake
-****[#yellow] ====<size:12>Amazon Redshift
-****[#yellow] ====<size:12>Google BigQuery
-****[#yellow] ====<size:12>Azure Synapse Analytics
+****[#yellow] ====<size:13>Snowflake
+****[#yellow] ====<size:13>Amazon Redshift
+****[#yellow] ====<size:13>Google BigQuery
+****[#yellow] ====<size:13>Azure Synapse Analytics
 ***[#pink] Data Lakes
-****[#yellow] ====<size:12>Apache Hadoop HDFS
-****[#yellow] ====<size:12>Amazon S3
-****[#yellow] ====<size:12>Google Cloud Storage
-****[#yellow] ====<size:12>Azure Data Lake Storage
+****[#yellow] ====<size:13>Apache Hadoop HDFS
+****[#yellow] ====<size:13>Amazon S3
+****[#yellow] ====<size:13>Google Cloud Storage
+****[#yellow] ====<size:13>Azure Data Lake Storage
 *** NoSQL Databases
-****[#yellow] ====<size:12>MongoDB
-****[#yellow] ====<size:12>Cassandra
-****[#yellow] ====<size:12>Apache CouchDB
-****[#yellow] ====<size:12>Amazon DynamoDB
+****[#yellow] ====<size:13>MongoDB
+****[#yellow] ====<size:13>Cassandra
+****[#yellow] ====<size:13>Apache CouchDB
+****[#yellow] ====<size:13>Amazon DynamoDB
 ** =Data Governance
 *** Data Catalog
-****[#yellow] ====<size:12>Apache Atlas
-****[#yellow] ====<size:12>AWS Glue Data Catalog
-****[#yellow] ====<size:12>Google Cloud Data Catalog
-****[#yellow] ====<size:12>Collibra Catalog
+****[#yellow] ====<size:13>Apache Atlas
+****[#yellow] ====<size:13>AWS Glue Data Catalog
+****[#yellow] ====<size:13>Google Cloud Data Catalog
+****[#yellow] ====<size:13>Collibra Catalog
 *** Data Quality
-****[#yellow] ====<size:12>Apache Griffin
-****[#yellow] ====<size:12>Talend Data Quality
-****[#yellow] ====<size:12>Informatica Data Quality
-****[#yellow] ====<size:12>Trifacta Wrangler
+****[#yellow] ====<size:13>Apache Griffin
+****[#yellow] ====<size:13>Talend Data Quality
+****[#yellow] ====<size:13>Informatica Data Quality
+****[#yellow] ====<size:13>Trifacta Wrangler
 *** Data Lineage
-****[#yellow] ====<size:12>Apache Atlas
-****[#yellow] ====<size:12>Alation Data Catalog
-****[#yellow] ====<size:12>Informatica Axon
-****[#yellow] ====<size:12>Collibra Data Lineage
+****[#yellow] ====<size:13>Apache Atlas
+****[#yellow] ====<size:13>Alation Data Catalog
+****[#yellow] ====<size:13>Informatica Axon
+****[#yellow] ====<size:13>Collibra Data Lineage
 ** =Data Integration
 *** ETL (Extract, Transform, Load)
-****[#yellow] ====<size:12>Apache Nifi
-****[#yellow] ====<size:12>Talend
-****[#yellow] ====<size:12>Informatica PowerCenter
-****[#yellow] ====<size:12>IBM InfoSphere DataStage
+****[#yellow] ====<size:13>Apache Nifi
+****[#yellow] ====<size:13>Talend
+****[#yellow] ====<size:13>Informatica PowerCenter
+****[#yellow] ====<size:13>IBM InfoSphere DataStage
 *** Data Orchestration
-****[#yellow] ====<size:12>Apache Airflow
-****[#yellow] ====<size:12>AWS Step Functions
-****[#yellow] ====<size:12>Google Cloud Composer
-****[#yellow] ====<size:12>Azure Data Factory
+****[#yellow] ====<size:13>Apache Airflow
+****[#yellow] ====<size:13>AWS Step Functions
+****[#yellow] ====<size:13>Google Cloud Composer
+****[#yellow] ====<size:13>Azure Data Factory
 *** Data Virtualization
-****[#yellow] ====<size:12>Denodo
-****[#yellow] ====<size:12>IBM Data Virtualization
-****[#yellow] ====<size:12>Red Hat JBoss Data Virtualization
-****[#yellow] ====<size:12>Oracle Data Virtualization
+****[#yellow] ====<size:13>Denodo
+****[#yellow] ====<size:13>IBM Data Virtualization
+****[#yellow] ====<size:13>Red Hat JBoss Data Virtualization
+****[#yellow] ====<size:13>Oracle Data Virtualization
 ** =Data Security
 *** Data Encryption
-****[#yellow] ====<size:12>Transparent Data Encryption (TDE)
-****[#yellow] ====<size:12>Amazon Key Management Service (KMS)
-****[#yellow] ====<size:12>Azure Key Vault
-****[#yellow] ====<size:12>Google Cloud Key Management Service (KMS)
+****[#yellow] ====<size:13>Transparent Data Encryption (TDE)
+****[#yellow] ====<size:13>Amazon Key Management Service (KMS)
+****[#yellow] ====<size:13>Azure Key Vault
+****[#yellow] ====<size:13>Google Cloud Key Management Service (KMS)
 *** Access Control
-****[#yellow] ====<size:12>Role-Based Access Control (RBAC)
-****[#yellow] ====<size:12>Attribute-Based Access Control (ABAC)
-****[#yellow] ====<size:12>Fine-Grained Access Control
-****[#yellow] ====<size:12>Data Masking
+****[#yellow] ====<size:13>Role-Based Access Control (RBAC)
+****[#yellow] ====<size:13>Attribute-Based Access Control (ABAC)
+****[#yellow] ====<size:13>Fine-Grained Access Control
+****[#yellow] ====<size:13>Data Masking
 ***[#pink] ===Data Privacy
-****[#yellow] ====<size:12>General Data Protection Regulation (GDPR)
-****[#yellow] ====<size:12>California Consumer Privacy Act (CCPA)
-****[#yellow] ====<size:12>Personal Data Protection Act (PDPA)
-****[#yellow] ====<size:12>Health Insurance Portability and Accountability Act (HIPAA)
+****[#yellow] ====<size:13>General Data Protection Regulation (GDPR)
+****[#yellow] ====<size:13>California Consumer Privacy Act (CCPA)
+****[#yellow] ====<size:13>Personal Data Protection Act (PDPA)
+****[#yellow] ====<size:13>Health Insurance Portability and Accountability Act (HIPAA)
 @endmindmap

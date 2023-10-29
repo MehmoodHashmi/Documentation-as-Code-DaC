@@ -1,5 +1,7 @@
 @startmindmap
 title =__ Big Data__
+!theme hacker
+
 * =Big Data
 ** =Characteristics
 *** Volume
@@ -16,25 +18,25 @@ title =__ Big Data__
 *** Public Datasets
 ** Storage and Processing
 *** Distributed File Systems
-**** Hadoop Distributed File System (HDFS)
-**** Amazon S3
-**** Google Cloud Storage
+****[#yellow] ====<size:13>Hadoop Distributed File System **(HDFS)**
+****[#yellow] ====<size:13>Amazon S3
+****[#yellow] ====<size:13>Google Cloud Storage
 *** NoSQL Databases
-**** MongoDB
-**** Cassandra
-**** Redis
+****[#yellow] ====<size:13>MongoDB
+****[#yellow] ====<size:13>Cassandra
+****[#yellow] ====<size:13>Redis
 *** Data Warehouses
-**** Amazon Redshift
-**** Google BigQuery
-**** Snowflake
+****[#yellow] ====<size:13>Amazon Redshift
+****[#yellow] ====<size:13>Google BigQuery
+****[#yellow] ====<size:13>Snowflake
 *** In-Memory Databases
-**** Apache Ignite
-**** Redis
-**** Apache Geode
+****[#yellow] ====<size:13>Apache Ignite
+****[#yellow] ====<size:13>Redis
+****[#yellow] ====<size:13>Apache Geode
 *** Stream Processing
-**** Apache Kafka
-**** Apache Flink
-**** Apache Storm
+****[#yellow] ====<size:13>Apache Kafka
+****[#yellow] ====<size:13>Apache Flink
+****[#yellow] ====<size:13>Apache Storm
 ** =Data Analytics
 *** Descriptive Analytics
 *** Diagnostic Analytics
@@ -60,5 +62,5 @@ title =__ Big Data__
 *** Fraud Detection
 *** Recommendation Systems
 *** Predictive Maintenance
-*** Internet of Things (IoT)
+*** Internet of Things **(IoT)**
 @endmindmap

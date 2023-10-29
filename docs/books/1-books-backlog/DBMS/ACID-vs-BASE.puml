@@ -1,34 +1,35 @@
 @startmindmap
 title =__ ACID vs BASE__
+!theme hacker
 
 * **ACID vs BASE**
 ** **ACID**
 *** Definition
-**** Atomicity, Consistency, Isolation, Durability
-**** A set of properties that guarantee reliable processing of transactions.
+****[#yellow] ====<size:13>Atomicity, Consistency, Isolation, Durability
+****[#yellow] ====<size:13>A set of properties that guarantee reliable processing of transactions.
 *** Key Characteristics
-**** Transactions are atomic and indivisible.
-**** Transactions maintain consistency of the database.
-**** Transactions are isolated from each other.
-**** Transactions are durable and will persist even if the system fails.
+****[#yellow] ====<size:13>Transactions are atomic and indivisible.
+****[#yellow] ====<size:13>Transactions maintain consistency of the database.
+****[#yellow] ====<size:13>Transactions are isolated from each other.
+****[#yellow] ====<size:13>Transactions are durable and will persist even if the system fails.
 *** Examples
-**** Bank transactions
-**** Flight reservation systems
+****[#yellow] ====<size:13>Bank transactions
+****[#yellow] ====<size:13>Flight reservation systems
 ** **BASE**
 *** Definition
-**** Basically Available, Soft state, Eventually consistent
-**** A set of properties that allow for greater scalability and availability of distributed systems.
+****[#yellow] ====<size:13>Basically Available, Soft state, Eventually consistent
+****[#yellow] ====<size:13>A set of properties that allow for greater scalability and availability of distributed systems.
 *** Key Characteristics
-**** Systems prioritize availability over consistency.
-**** The system may experience temporary inconsistency but will eventually become consistent.
-**** The system is designed to be adaptable to changes in workload and usage.
+****[#yellow] ====<size:13>Systems prioritize availability over consistency.
+****[#yellow] ====<size:13>The system may experience temporary inconsistency but will eventually become consistent.
+****[#yellow] ====<size:13>The system is designed to be adaptable to changes in workload and usage.
 *** Examples
-**** Social media newsfeeds
-**** Recommendation systems
+****[#yellow] ====<size:13>Social media newsfeeds
+****[#yellow] ====<size:13>Recommendation systems
 ** Comparison
-*** ACID focuses on data consistency and reliability, while BASE prioritizes availability and scalability.
-*** ACID transactions are immediate and guarantee consistency, while BASE systems may experience temporary inconsistency but eventually become consistent.
-*** ACID is best for systems that require high reliability and data consistency, while BASE is best for systems that require high availability and scalability.
-*** ACID is commonly used for transactional systems, while BASE is commonly used for non-transactional systems.
-*** ACID systems can be slower and less scalable than BASE systems.
+*** **ACID** focuses on data consistency and reliability, while **BASE** prioritizes availability and scalability.
+*** **ACID** transactions are immediate and guarantee consistency, while **BASE** systems may experience temporary inconsistency but eventually become consistent.
+*** **ACID** is best for systems that require high reliability and data consistency, while **BASE** is best for systems that require high availability and scalability.
+*** **ACID** is commonly used for transactional systems, while **BASE** is commonly used for non-transactional systems.
+*** **ACID** systems can be slower and less scalable than **BASE** systems.
 @endmindmap

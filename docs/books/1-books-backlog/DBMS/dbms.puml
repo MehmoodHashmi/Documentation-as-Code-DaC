@@ -1,5 +1,7 @@
 @startmindmap
-title DBMS
+title =DBMS
+!theme hacker
+
 * Concepts
 ** Data Abstraction
 ** Data Independence

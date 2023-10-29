@@ -4,7 +4,7 @@ title =Data Transformation
 
 * Data Transformation
 ** Definition
-*** Data transformation is the process of converting and reshaping data from its source format into a desired format for analysis, reporting, or other purposes.
+*** <size:14>**Data transformation** is the process of **converting and reshaping data** from its **source format into a desired format** for analysis, reporting, or other purposes.
 
 ** Objectives
 *** Clean Data
@@ -45,7 +45,7 @@ title =Data Transformation
 
 ** Tools and Technologies
 *** Data Preparation Tools
-****[#yellow] ====<size:13>OpenRefine, Trifacta, Excel, pandas **(Python library)**.
+****[#yellow] ====<size:13>OpenRefine, Trifacta, MS Excel, **pandas (Python library)**.
 
 *** Data Integration Tools
 ****[#yellow] ====<size:13>Talend, Apache Nifi, Informatica PowerCenter.

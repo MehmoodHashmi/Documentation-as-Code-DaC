@@ -2,9 +2,9 @@
 title =Data Preprocessing\n<img:images/img_59.png> \nStep 1 and Step 2 are performed by the __data analyst or the data engineer__
 !theme hacker
 
-* Data Preprocessing \n=**(Wrangling)** \n**[[Data-Wrangling-(or-preprocessing).puml Click for detailed \nmindmap]]**
+*  Data Preprocessing \n=**(Wrangling)** \n**[[Data-Wrangling-(or-preprocessing).puml Click for detailed \nmindmap]]**
 ** Definition
-*** Data preprocessing is the process of cleaning, transforming, and organizing raw data into a format suitable for analysis and modeling.
+*** <size:14>**Data preprocessing** is the process of **cleaning, transforming, and organizing raw data** into a format suitable for analysis and modeling.
 
 ** Importance
 *** **Enhances Data Quality:** Eliminates errors, inconsistencies, and missing values.

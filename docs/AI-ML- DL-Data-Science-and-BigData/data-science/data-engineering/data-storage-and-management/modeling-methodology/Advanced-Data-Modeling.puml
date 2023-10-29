@@ -4,7 +4,7 @@ title =__ Advanced Data Modeling__
 
 * **Advanced Data Modeling**
 ** **Definition:** Advanced techniques and concepts used to model complex data scenarios and address specific requirements in data management and analysis.
-**[#pink] Hierarchical Data Model
+**[#gold] Hierarchical Data Model
 ***[#yellow] ====<size:13>**Definition:** Represents` data in a hierarchical structure with parent-child relationships, similar to a tree-like structure.
 ***[#yellow] ====<size:13>**Examples:** XML, LDAP.
 ** Network Data Model
@@ -16,13 +16,13 @@ title =__ Advanced Data Modeling__
 ** Semantic Data Model
 ***[#yellow] ====<size:13>**Definition:** Focuses on the meaning and interpretation of data, representing the semantics and relationships between data elements.
 ***[#yellow] ====<size:13>**Examples:** Resource Description Framework **(RDF)**, Ontology.
-**[#pink] NoSQL Data Model
+**[#orange] NoSQL Data Model
 ***[#yellow] ====<size:13>**Definition:** Provides flexible and scalable data models that depart from traditional relational databases, enabling storage and retrieval of unstructured and semi-structured data.
 ***[#yellow] ====<size:13>**Examples:** Key-Value, Document, Columnar, Graph databases.
-**[#pink] Data Vault Modeling
+**[#lightgreen] Data Vault Modeling
 ***[#yellow] ====<size:13>**Definition:** A modeling technique for building data warehouses that emphasizes scalability, flexibility, and auditability, with a focus on historical tracking and data integration.
 ***[#yellow] ====<size:13>**Examples:** Data Vault 2.0.
-**[#pink] Multi-Dimensional Modeling
+**[#a] Multi-Dimensional Modeling
 ***[#yellow] ====<size:13>**Definition:** Models data for online analytical processing **(OLAP)** applications, focusing on dimensions **(descriptive attributes)** and facts **(measurable data)**.
 ***[#yellow] ====<size:13>**Examples:** Multi-Dimensional Expressions **(MDX)**, Online Analytical Processing **(OLAP)** cubes.
 ** Data Modeling Tools

@@ -1,59 +1,60 @@
 @startmindmap
 title =__Big Data and Personal Data__
+!theme hacker
 
 * Big Data and Personal Data
 ** Introduction
 *** Definition of Big Data
-**** Big data refers to large and complex datasets that are analyzed to extract insights, patterns, and trends.
+****[#yellow] ====<size:13>Big data refers to large and complex datasets that are analyzed to extract insights, patterns, and trends.
 
 ** The Role of Personal Data
 *** Personal Data as Fuel
-**** Personal data provides the necessary input for big data analytics, enabling the generation of valuable insights.
+****[#yellow] ====<size:13>Personal data provides the necessary input for big data analytics, enabling the generation of valuable insights.
 
 *** Data Generation and Collection
-**** Personal data is generated through various sources, including online activities, social media, Internet of Things (IoT) devices, and more.
+****[#yellow] ====<size:13>Personal data is generated through various sources, including online activities, social media, Internet of Things **(IoT)** devices, and more.
 
 *** Data Flow and Acquisition
-**** Constant flow of personal data is required to feed big data systems, enabling continuous analysis and problem-solving.
+****[#yellow] ====<size:13>Constant flow of personal data is required to feed big data systems, enabling continuous analysis and problem-solving.
 
 ** Problem-Solving Capabilities
 *** Predictive Analytics
-**** Big data analytics can predict trends, behaviors, and outcomes by analyzing personal data patterns and historical records.
+****[#yellow] ====<size:13>Big data analytics can predict trends, behaviors, and outcomes by analyzing personal data patterns and historical records.
 
 *** Pattern Recognition
-**** Personal data enables the identification of patterns, correlations, and anomalies that lead to new discoveries and insights.
+****[#yellow] ====<size:13>Personal data enables the identification of patterns, correlations, and anomalies that lead to new discoveries and insights.
 
 *** Decision Support Systems
-**** Personal data analysis helps in decision-making processes, providing valuable information for informed choices and actions.
+****[#yellow] ====<size:13>Personal data analysis helps in decision-making processes, providing valuable information for informed choices and actions.
 
 ** Privacy and Security Challenges
 *** Data Privacy Concerns
-**** The collection and use of personal data raise privacy concerns regarding consent, transparency, and the protection of sensitive information.
+****[#yellow] ====<size:13>The collection and use of personal data raise privacy concerns regarding consent, transparency, and the protection of sensitive information.
 
 *** Data Security Risks
-**** Storing and managing personal data within big data systems may pose security risks, such as data breaches and unauthorized access.
+****[#yellow] ====<size:13>Storing and managing personal data within big data systems may pose security risks, such as data breaches and unauthorized access.
 
 *** Ethical Considerations
-**** Balancing the benefits of using personal data with ethical considerations, such as fairness, non-discrimination, and respect for individuals.
+****[#yellow] ====<size:13>Balancing the benefits of using personal data with ethical considerations, such as fairness, non-discrimination, and respect for individuals.
 
 ** Regulatory Frameworks
 *** Data Protection Laws
-**** Governments implement data protection regulations (e.g., GDPR, CCPA) to safeguard personal data and ensure individuals' rights.
+****[#yellow] ====<size:13>Governments implement data protection regulations **(e.g., GDPR, CCPA)** to safeguard personal data and ensure individuals' rights.
 
 *** Compliance and Accountability
-**** Organizations are required to comply with data protection laws, establish accountability, and protect personal data throughout its lifecycle.
+****[#yellow] ====<size:13>Organizations are required to comply with data protection laws, establish accountability, and protect personal data throughout its lifecycle.
 
 *** Data Subject Rights
-**** Individuals have rights over their personal data, including access, rectification, erasure, and the right to object to data processing.
+****[#yellow] ====<size:13>Individuals have rights over their personal data, including access, rectification, erasure, and the right to object to data processing.
 
 ** Data Governance and Transparency
 *** Responsible Data Practices
-**** Organizations should adopt robust data governance frameworks, ensuring transparency, accountability, and responsible data handling.
+****[#yellow] ====<size:13>Organizations should adopt robust data governance frameworks, ensuring transparency, accountability, and responsible data handling.
 
 *** Data Transparency
-**** Providing individuals with clear information about data collection, processing purposes, and data sharing practices.
+****[#yellow] ====<size:13>Providing individuals with clear information about data collection, processing purposes, and data sharing practices.
 
 *** Consent and Control
-**** Giving individuals control over their personal data through informed consent, preferences management, and easy data deletion options.
+****[#yellow] ====<size:13>Giving individuals control over their personal data through informed consent, preferences management, and easy data deletion options.
 
 @endmindmap

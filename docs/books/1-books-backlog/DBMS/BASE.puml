@@ -1,5 +1,7 @@
 @startmindmap
 title = BASE
+!theme hacker
+
 
 * BASE
 ** Definition
@@ -11,17 +13,17 @@ title = BASE
 *** Is a complement to ACID, rather than a replacement
 ** Components
 *** B - Basically Available
-**** Ensures availability, even when some nodes fail
-**** Serves incomplete data to users, instead of denying access
+****[#yellow] ====<size:13>Ensures availability, even when some nodes fail
+****[#yellow] ====<size:13>Serves incomplete data to users, instead of denying access
 *** S - Soft State
-**** State of the system may change over time, even without input
-**** Implies there may not be a consistent view of the data at all times
+****[#yellow] ====<size:13>State of the system may change over time, even without input
+****[#yellow] ====<size:13>Implies there may not be a consistent view of the data at all times
 *** E - Eventually Consistent
-**** Achieves consistency over time, rather than immediately
-**** Data may not be consistent during the process of updates
+****[#yellow] ====<size:13>Achieves consistency over time, rather than immediately
+****[#yellow] ====<size:13>Data may not be consistent during the process of updates
 ** Example
 *** A shopping cart
-**** A user adds items to their cart on one node
-**** Before payment, the user goes to another node
-**** The user's cart is eventually consistent across both nodes
+****[#yellow] ====<size:13>A user adds items to their cart on one node
+****[#yellow] ====<size:13>Before payment, the user goes to another node
+****[#yellow] ====<size:13>The user's cart is eventually consistent across both nodes
 @endmindmap

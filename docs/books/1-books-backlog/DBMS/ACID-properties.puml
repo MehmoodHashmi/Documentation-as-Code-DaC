@@ -1,17 +1,18 @@
 @startmindmap
 title = ACID Properties
+!theme hacker
 
 * ACID
 ** Atomicity
 *** All operations in a transaction must succeed or fail together
-*** Example: Transfer of funds from one bank account to another bank account
+*** **Example:** Transfer of funds from one bank account to another bank account
 ** Consistency
 *** Database must transition from one valid state to another
-*** Example: Withdrawal from a bank account will result in the account balance being reduced
+*** **Example:** Withdrawal from a bank account will result in the account balance being reduced
 ** Isolation
 *** Concurrent execution of transactions must not result in any data inconsistencies
-*** Example: Multiple users withdrawing money from the same bank account at the same time
+*** **Example:** Multiple users withdrawing money from the same bank account at the same time
 ** Durability
 *** Once a transaction is committed, its effects should persist even in the event of a system failure
-*** Example: A database crash should not result in a loss of committed transactions
+*** **Example:** A database crash should not result in a loss of committed transactions
 @endmindmap

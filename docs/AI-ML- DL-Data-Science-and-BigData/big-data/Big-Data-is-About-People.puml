@@ -1,62 +1,63 @@
 @startmindmap
 title =__Big Data is About People__
+!theme hacker
 
 * Big Data is About People
 ** Introduction
-*** Definition of Big Data
-**** Big data refers to large and complex datasets that are generated, collected, and analyzed to extract valuable insights and patterns.
+*** Definition of **Big Data**
+****[#yellow] ====<size:13>**Big data** refers to large and complex datasets that are generated, collected, and analyzed to extract valuable insights and patterns.
 
 ** People as Data Producers
 *** Online Activities and Interactions
-**** People generate data through their online activities, such as browsing, social media posts, online purchases, and interactions.
+****[#yellow] ====<size:13>People generate data through their online activities, such as browsing, social media posts, online purchases, and interactions.
 
-*** Internet of Things (IoT) Devices
-**** Connected devices, wearables, and sensors collect data about people's behaviors, habits, health, and environments.
+*** Internet of Things **(IoT)** Devices
+****[#yellow] ====<size:13>Connected devices, wearables, and sensors collect data about people's behaviors, habits, health, and environments.
 
 *** Mobile and Location Data
-**** Mobile devices generate location-based data, providing insights into people's movements, preferences, and habits.
+****[#yellow] ====<size:13>Mobile devices generate location-based data, providing insights into people's movements, preferences, and habits.
 
 ** Data Analysis and Insights
 *** Personalization and Customer Experience
-**** Big data analysis enables businesses to personalize products, services, and marketing campaigns based on individuals' preferences and behavior.
+****[#yellow] ====<size:13>**Big data** analysis enables businesses to personalize products, services, and marketing campaigns based on individuals' preferences and behavior.
 
 *** Behavioral Analytics
-**** Analyzing data about people's actions and interactions helps organizations understand and predict customer behavior and optimize strategies.
+****[#yellow] ====<size:13>Analyzing data about people's actions and interactions helps organizations understand and predict customer behavior and optimize strategies.
 
 *** Social Network Analysis
-**** Analyzing social connections and relationships provides insights into communities, influence, and patterns of communication.
+****[#yellow] ====<size:13>Analyzing social connections and relationships provides insights into communities, influence, and patterns of communication.
 
 ** Ethical Considerations
 *** Data Privacy and Security
-**** Protecting individuals' personal information and ensuring secure data storage and transmission are crucial.
+****[#yellow] ====<size:13>Protecting individuals' personal information and ensuring secure data storage and transmission are crucial.
 
 *** Informed Consent and Transparency
-**** People should have clear information and understanding of how their data is collected, used, and shared.
+****[#yellow] ====<size:13>People should have clear information and understanding of how their data is collected, used, and shared.
 
 *** Data Ownership and Control
-**** Individuals should have control over their data and the ability to decide how it is used and shared.
+****[#yellow] ====<size:13>Individuals should have control over their data and the ability to decide how it is used and shared.
 
 *** Bias and Discrimination
-**** Ensuring algorithms and data analysis techniques do not perpetuate biases or discriminate against certain individuals or groups.
+****[#yellow] ====<size:13>Ensuring algorithms and data analysis techniques do not perpetuate biases or discriminate against certain individuals or groups.
 
 ** Human-Centered Data Science
 *** Contextual Understanding
-**** Big data analysis should consider the context in which data is generated and the unique characteristics of individuals.
+****[#yellow] ====<size:13>**Big data** analysis should consider the context in which data is generated and the unique characteristics of individuals.
 
 *** User-Centric Design
-**** Designing data-driven products and services that prioritize the needs, preferences, and values of individuals.
+****[#yellow] ====<size:13>Designing data-driven products and services that prioritize the needs, preferences, and values of individuals.
 
 *** Responsible Data Practices
-**** Organizations should adopt responsible data practices, including data anonymization, data minimization, and secure data handling.
+****[#yellow] ====<size:13>Organizations should adopt responsible data practices, including data anonymization, data minimization, and secure data handling.
 
 ** Empowering Individuals
 *** Data Literacy and Education
-**** Promoting data literacy skills empowers individuals to understand and navigate the data-driven world and make informed decisions.
+****[#yellow] ====<size:13>Promoting data literacy skills empowers individuals to understand and navigate the data-driven world and make informed decisions.
 
 *** Data Rights and Protection
-**** Advocating for policies and regulations that protect individuals' data rights, privacy, and ensure fair and transparent data practices.
+****[#yellow] ====<size:13>Advocating for policies and regulations that protect individuals' data rights, privacy, and ensure fair and transparent data practices.
 
 *** Data Sharing and Collaboration
-**** Encouraging individuals to have control over their data and enabling secure data sharing for research, innovation, and public good.
+****[#yellow] ====<size:13>Encouraging individuals to have control over their data and enabling secure data sharing for research, innovation, and public good.
 
 @endmindmap

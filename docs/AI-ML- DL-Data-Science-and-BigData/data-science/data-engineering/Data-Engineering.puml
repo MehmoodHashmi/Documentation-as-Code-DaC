@@ -1,85 +1,85 @@
 @startmindmap
-title =Data Engineering
+title =Data Engineering\n<img:images/img.png>
 !theme hacker
 
 * Data Engineering
 ** Definition
-*** ====<size:12>Data engineering is the process of designing, building, and maintaining data infrastructure, pipelines, and architectures to support data-driven decision-making.
+***[#a] ====<size:14>**Data engineering** is the process of designing, building, and maintaining data infrastructure, **[[data-pipeline/advanced-data-pipeline.puml pipelines]]**, and architectures to support **data-driven decision-making.**
 
-** Core Activities
-*** ====<size:12>Data Ingestion
-****[#yellow] ====<size:12>Collect and bring data into a storage environment.
-****[#yellow] ====<size:12>**Sources:** Databases, APIs, logs, files, and more.
+**[#lime] Core Activities
+***[#red] ====<size:13>**[[data-pipeline/Data-Ingestion.puml Data Ingestion]]**
+****[#yellow] ====<size:13>Collect and bring data into a storage environment.
+****[#yellow] ====<size:13>**Sources:** Databases, APIs, logs, files, and more.
 
-*** ====<size:12>**Data Transformation**
-****[#yellow] ====<size:12>Clean, process, and structure data for analysis.
-****[#yellow] ====<size:12>Includes data normalization, enrichment, and aggregation.
+***[#blue] ====<size:13>**[[data-preprocessing-(or-wrangling)/Data-Preprocessing.puml Data Transformation]]**
+****[#yellow] ====<size:13>Clean, process, and structure data for analysis.
+****[#yellow] ====<size:13>Includes data normalization, enrichment, and aggregation.
 
-*** ====<size:12>Data Storage
-****[#yellow] ====<size:12>Design and manage data storage solutions.
-****[#yellow] ====<size:12>**Examples:** Databases, data warehouses, data lakes.
+***[#crimson] ====<size:13>**[[data-storage-and-management/Data-Lake-vs-Data-Warehouse.puml Data Storage]]**
+****[#yellow] ====<size:13>Design and manage data storage solutions.
+****[#yellow] ====<size:13>**Examples:** Databases, data warehouses, data lakes.
 
-*** ====<size:12>Data Integration
-****[#yellow] ====<size:12>Combine and unify data from various sources.
-****[#yellow] ====<size:12>Ensure data consistency and accuracy.
+***[#brown] ====<size:13>**[[data-preprocessing-(or-wrangling)/4-Data-Integration Data Integration]]**
+****[#yellow] ====<size:13>Combine and unify data from various sources.
+****[#yellow] ====<size:13>Ensure data consistency and accuracy.
 
-*** ====<size:12>Data Processing
-****[#yellow] ====<size:12>Perform data computation and analysis.
-****[#yellow] ====<size:12>May involve batch and stream processing.
+*** ====<size:13>Data Processing
+****[#yellow] ====<size:13>Perform data computation and analysis.
+****[#yellow] ====<size:13>**May involve batch and stream processing.**
 
-*** ====<size:12>Data Governance
-****[#yellow] ====<size:12>Establish policies and procedures for data quality and compliance.
-****[#yellow] ====<size:12>Ensure data security and privacy.
+***[#lightgreen] ====<size:13>**[[Data-Governance.puml Data Governance]]**
+****[#yellow] ====<size:13>Establish policies and procedures for data quality and compliance.
+****[#yellow] ====<size:13>Ensure data security and privacy.
 
 ** Tools and Technologies
-*** ====<size:12>Databases
-****[#yellow] ====<size:12>Relational databases (e.g., SQL), NoSQL databases (e.g., MongoDB), columnar stores (e.g., Cassandra).
+***[#green] ====<size:13>**[[../../../books/1-books-backlog/DBMS/Designing-Data-Intensive-Applications.puml Databases]]**
+****[#yellow] ====<size:13>Relational databases **(e.g., SQL)**, NoSQL databases **(e.g., MongoDB)**, columnar stores **(e.g., Cassandra)**.
 
-*** ====<size:12>Data Warehouses
-****[#yellow] ====<size:12>Platforms like Amazon Redshift, Google BigQuery, and Snowflake.
+***[#grey] ====<size:13>**[[data-storage-and-management/Data-Warehouse.puml Data Warehouses]]**
+****[#yellow] ====<size:13>Platforms like Amazon Redshift, Google BigQuery, and Snowflake.
 
-*** ====<size:12>Big Data Technologies
-****[#yellow] ====<size:12>Apache Hadoop, Spark, and distributed storage systems like HDFS.
+***[#orange] ====<size:13>**[[../../Apache-Big-Data-Ecosystem/1-Apache-Big-Data-Ecosystem.puml Big Data Technologies]]**
+****[#yellow] ====<size:13>Apache Hadoop, Spark, and distributed storage systems like HDFS.
 
-*** ====<size:12>ETL (Extract, Transform, Load) Tools
-****[#yellow] ====<size:12>Apache Nifi, Talend, Apache Beam.
+***[#black] ====<size:13>**[[../data-or-database-migration/Data-Migration-Strategies/ETL-(Extract-Transform-Load)-Strategy.puml ETL (Extract, Transform, Load) Tools]]**
+****[#yellow] ====<size:13>Apache Nifi, Talend, Apache Beam.
 
-*** ====<size:12>Stream Processing
-****[#yellow] ====<size:12>Apache Kafka, Apache Flink, Apache Storm.
+***[#aaaaaa] ====<size:13>**[[data-pipeline/Stream-Processing-vs-Batch-Processing.puml Stream Processing]]**
+****[#yellow] ====<size:13>Apache Kafka, Apache Flink, Apache Storm.
 
-*** ====<size:12>Data Modeling
-****[#yellow] ====<size:12>Tools like ERD diagrams and schema design.
+***[#crimson] ====<size:13>**[[data-storage-and-management/modeling-methodology/Data-Modeling.puml Data Modeling]]**
+****[#yellow] ====<size:13>Tools like **ERD diagrams** and **schema design.**
 
-** Considerations
-*** ====<size:12>Scalability
-****[#yellow] ====<size:12>Design for scalability to accommodate growing data volumes.
+**[#lime] Considerations
+*** ====<size:13>Scalability
+****[#yellow] ====<size:13>Design for scalability to accommodate growing data volumes.
 
-*** ====<size:12>Data Quality
-****[#yellow] ====<size:12>Implement data validation and quality checks.
+*** ====<size:13>Data Quality
+****[#yellow] ====<size:13>Implement data validation and quality checks.
 
-*** ====<size:12>Data Lineage
-****[#yellow] ====<size:12>Track the origin and transformation history of data.
+***[#a] ====<size:13>**Data Lineage**
+****[#yellow] ====<size:13>Track the origin and transformation history of data.
 
-*** ====<size:12>Compliance
-****[#yellow] ====<size:12>Ensure data complies with legal and industry regulations (e.g., GDPR, HIPAA).
+*** ====<size:13>Compliance
+****[#yellow] ====<size:13>Ensure data complies with legal and industry regulations **(e.g., GDPR, HIPAA)**.
 
-*** ====<size:12>Data Security
-****[#yellow] ====<size:12>Implement encryption, access controls, and data masking.
+*** ====<size:13>Data Security
+****[#yellow] ====<size:13>Implement encryption, access controls, and data masking.
 
 ** Best Practices
-*** ====<size:12>Data Versioning
-****[#yellow] ====<size:12>Maintain version control of data and pipelines.
+***[#black] ====<size:13>**[[Data-Versioning.puml Data Versioning]]**
+****[#orange] ====<size:13>**Maintain version control of data** and **[[data-pipeline/advanced-data-pipeline.puml pipelines]]**.
 
-*** ====<size:12>Documentation
-****[#yellow] ====<size:12>Document data schemas, transformations, and pipeline configurations.
+*** ====<size:13>Documentation
+****[#pink] ====<size:13>Document data schemas, transformations, and **[[data-pipeline/advanced-data-pipeline.puml pipelines]]** configurations.
 
-*** ====<size:12>Monitoring and Logging
-****[#yellow] ====<size:12>Implement robust monitoring and logging to detect issues and performance bottlenecks.
+*** ====<size:13>Monitoring and Logging
+****[#yellow] ====<size:13>Implement robust monitoring and logging to detect issues and performance bottlenecks.
 
-*** ====<size:12>Collaboration
-****[#yellow] ====<size:12>Foster collaboration between data engineers, data scientists, and analysts.
+*** ====<size:13>Collaboration
+****[#yellow] ====<size:13>Foster collaboration between data engineers, data scientists, and analysts.
 
-*** ====<size:12>Automation
-****[#yellow] ====<size:12>Automate data pipeline deployment, testing, and maintenance.
+*** ====<size:13>Automation
+****[#lightgreen] ====<size:13>Automate data **[[data-pipeline/advanced-data-pipeline.puml pipelines]]** deployment, testing, and maintenance.
 
 @endmindmap
