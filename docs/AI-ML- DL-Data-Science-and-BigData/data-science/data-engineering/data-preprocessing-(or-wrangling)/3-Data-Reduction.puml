@@ -20,12 +20,12 @@ title =Data Reduction
 ****[#white] ====<size:12>**Methods:** Random sampling, stratified sampling, cluster sampling.
 
 *** Aggregation
-****[#yellow] ====<size:12>Summarize data by grouping and applying functions (e.g., average, sum).
+****[#yellow] ====<size:12>Summarize data by grouping and applying functions **(e.g., average, sum)**.
 ****[#yellow] ====<size:12>Reduce granularity while retaining key information.
 
 *** Dimensionality Reduction
 ****[#yellow] ====<size:12>Reduce the number of features or dimensions in data.
-****[#white] ====<size:12>**Techniques:** Principal Component Analysis (PCA), t-SNE, feature selection.
+****[#white] ====<size:12>**Techniques:** Principal Component Analysis **(PCA)**, t-SNE, feature selection.
 
 *** Binning
 ****[#yellow] ====<size:12>Categorize continuous data into bins or intervals.
@@ -35,7 +35,7 @@ title =Data Reduction
 ***[#gold] **Data Warehousing**
 ****[#yellow] ====<size:12>Data warehousing solutions often include data reduction capabilities.
 
-*** Database Management Systems (DBMS)
+*** Database Management Systems **(DBMS)**
 ****[#yellow] ====<size:12>DBMS provides functions for aggregating and sampling data.
 
 *** Big Data Processing Frameworks

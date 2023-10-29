@@ -41,7 +41,7 @@ title =__Data Wrangling__
 ****[#yellow] ====<size:12>**NumPy:** Fundamental package for scientific computing with multi-dimensional arrays.
 ****[#yellow] ====<size:12>**scikit-**learn: Machine learning library with tools for data preprocessing.
 ****[#yellow] ====<size:12>**Dask:** Parallel computing library for big data processing.
-****[#yellow] ====<size:12>**SQLAlchemy:** SQL toolkit and Object-Relational Mapping (ORM) library.
+****[#yellow] ====<size:12>**SQLAlchemy:** SQL toolkit and Object-Relational Mapping **(ORM)** library.
 ****[#yellow] ====<size:12>**BeautifulSoup:** Web scraping library for extracting data from HTML and XML.
 
 *** R Libraries

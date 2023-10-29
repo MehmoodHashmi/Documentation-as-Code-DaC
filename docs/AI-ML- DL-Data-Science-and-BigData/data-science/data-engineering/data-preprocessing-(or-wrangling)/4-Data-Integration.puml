@@ -24,8 +24,8 @@ title =Data Integration
 ***[#pink] ===Data Virtualization
 ****[#yellow] ====<size:12>Present data from multiple sources in real-time without physically moving it.
 
-***[#c] ===Master Data Management (MDM)
-****[#yellow] ====<size:12>Create a single, master record for critical data elements (e.g., customer or product data).
+***[#c] ===Master Data Management **(MDM)**
+****[#yellow] ====<size:12>Create a single, master record for critical data elements **(e.g., customer or product data)**.
 
 **[#orange] Data Integration Tools
 *** ETL Tools
@@ -37,7 +37,7 @@ title =Data Integration
 *** Data Virtualization Tools
 ****[#yellow] ====<size:12>Denodo, Cisco Data Virtualization, Informatica.
 
-*** Master Data Management (MDM) Solutions
+*** Master Data Management **(MDM)** Solutions
 ****[#yellow] ====<size:12>Informatica MDM, IBM InfoSphere MDM.
 
 ** Considerations
