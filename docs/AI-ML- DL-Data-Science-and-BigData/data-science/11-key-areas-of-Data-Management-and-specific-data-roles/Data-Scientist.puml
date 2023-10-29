@@ -1,5 +1,6 @@
 @startmindmap
 title =__ Data Scientist__ \n<img:images/img_5.png>
+!theme hacker
 
 * **[[https://www.youtube.com/watch?v=P8qJ7kqbkIk&ab_channel=ITkFunde]]**
 
@@ -40,15 +41,15 @@ title =__ Data Scientist__ \n<img:images/img_5.png>
 ** Tableau
 ** Git
 
-* Knowledge Areas \n<img:images/img_7.png>
+* =Knowledge Areas \n<img:images/img_7.png>
 ** Data Science and Analytics
 ** Statistical Analysis
 ** Machine Learning
 ** Data Visualization
 ** Database Systems
 ** Big Data Technologies
-**[#pink] =**[[https://heartbeat.comet.ml/significance-of-domain-knowledge-in-a-data-science-project-9fc450b35213 Business Domain Knowledge]]**
-***[#pink] **[[https://heartbeat.comet.ml/significance-of-domain-knowledge-in-a-data-science-project-9fc450b35213 Significance of Domain Knowledge in a Data Science Project]]**
+**[#red] =**[[https://heartbeat.comet.ml/significance-of-domain-knowledge-in-a-data-science-project-9fc450b35213 Business Domain Knowledge click me]]**
+***[#red] **[[https://heartbeat.comet.ml/significance-of-domain-knowledge-in-a-data-science-project-9fc450b35213 Significance of Domain Knowledge in a Data Science Project]]**
 ** Programming and Scripting
 
 @endmindmap

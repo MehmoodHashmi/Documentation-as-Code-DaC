@@ -1,47 +1,48 @@
 @startmindmap
 title =__ Data Architect__\n<img:images/img_1.png>
+!theme hacker
 
 * **[[https://www.youtube.com/watch?v=P8qJ7kqbkIk&ab_channel=ITkFunde]]**
 
 * Data Architect
 **[#pink] **Roles and Responsibilities**
-*** Data Strategy Development
-*** Data Governance
-*** Data Modeling
-*** Data Integration
-*** Data Storage and Infrastructure
-*** Data Security and Privacy
+***[#yellow] ====<size:13>Data Strategy Development
+***[#yellow] ====<size:13>Data Governance
+***[#yellow] ====<size:13>Data Modeling
+***[#yellow] ====<size:13>Data Integration
+***[#yellow] ====<size:13>Data Storage and Infrastructure
+***[#yellow] ====<size:13>Data Security and Privacy
 ** Skills and Qualifications
-*** Data Analysis
-*** Database Design
-*** Data Modeling Techniques
-*** ETL (Extract, Transform, Load)
-*** Data Warehousing
-*** Data Governance Frameworks
-*** Data Security Practices
+***[#yellow] ====<size:13>Data Analysis
+***[#yellow] ====<size:13>Database Design
+***[#yellow] ====<size:13>Data Modeling Techniques
+***[#yellow] ====<size:13>ETL (Extract, Transform, Load)
+***[#yellow] ====<size:13>Data Warehousing
+***[#yellow] ====<size:13>Data Governance Frameworks
+***[#yellow] ====<size:13>Data Security Practices
 ** Tools and Technologies
-*** Relational Databases
-*** NoSQL Databases
-*** Data Integration Tools
-*** Data Modeling Tools
-*** Data Visualization Tools
-*** Data Governance Tools
-*** Cloud Platforms
+***[#yellow] ====<size:13>Relational Databases
+***[#yellow] ====<size:13>NoSQL Databases
+***[#yellow] ====<size:13>Data Integration Tools
+***[#yellow] ====<size:13>Data Modeling Tools
+***[#yellow] ====<size:13>Data Visualization Tools
+***[#yellow] ====<size:13>Data Governance Tools
+***[#yellow] ====<size:13>Cloud Platforms
 **[#orange] ===Domain Knowledge
-*** Business Processes
-*** Industry Standards and Regulations
-*** Data Management Best Practices
-*** Data Analytics and Reporting
+***[#yellow] ====<size:13>Business Processes
+***[#yellow] ====<size:13>Industry Standards and Regulations
+***[#yellow] ====<size:13>Data Management Best Practices
+***[#yellow] ====<size:13>Data Analytics and Reporting
 ** Collaboration and Communication
-*** Stakeholder Engagement
-*** Requirement Gathering
-*** Documentation and Presentation Skills
-*** Cross-functional Collaboration
+***[#yellow] ====<size:13>Stakeholder Engagement
+***[#yellow] ====<size:13>Requirement Gathering
+***[#yellow] ====<size:13>Documentation and Presentation Skills
+***[#yellow] ====<size:13>Cross-functional Collaboration
 ** Emerging Trends and Technologies
-*** Big Data and Analytics
-*** Artificial Intelligence and Machine Learning
-*** Internet of Things (IoT)
-*** Cloud Computing
-*** Data Virtualization
-*** Blockchain
+***[#yellow] ====<size:13>Big Data and Analytics
+***[#yellow] ====<size:13>Artificial Intelligence and Machine Learning
+***[#yellow] ====<size:13>Internet of Things (IoT)
+***[#yellow] ====<size:13>Cloud Computing
+***[#yellow] ====<size:13>Data Virtualization
+***[#yellow] ====<size:13>Blockchain
 @endmindmap

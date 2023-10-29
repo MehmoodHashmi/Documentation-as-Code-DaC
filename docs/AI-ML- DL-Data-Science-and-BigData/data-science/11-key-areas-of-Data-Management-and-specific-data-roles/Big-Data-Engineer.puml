@@ -1,46 +1,46 @@
 @startmindmap
 title =__ Big Data Engineer__
 
-
+!theme hacker
 
 * Big Data Engineer
 ** Responsibilities
 *** Data Ingestion
-**** Collecting and Ingesting Data from Various Sources
-**** Data Extraction, Transformation, and Loading (ETL)
-**** Real-time and Batch Data Processing
+****[#yellow] ====<size:13>Collecting and Ingesting Data from Various Sources
+****[#yellow] ====<size:13>Data Extraction, Transformation, and Loading **(ETL)**
+****[#yellow] ====<size:13>Real-time and Batch Data Processing
 *** Data Storage and Management
-**** Designing and Implementing Data Warehouses
-**** Setting up Distributed File Systems (HDFS)
-**** Data Partitioning, Replication, and Backup Strategies
+****[#yellow] ====<size:13>Designing and Implementing Data Warehouses
+****[#yellow] ====<size:13>Setting up Distributed File Systems **(HDFS)**
+****[#yellow] ====<size:13>Data Partitioning, Replication, and Backup Strategies
 *** Data Processing and Analysis
-**** Implementing Data Pipelines and Workflows
-**** Developing and Optimizing Data Processing Algorithms
-**** Running Data Analytics and Machine Learning Jobs
+****[#yellow] ====<size:13>Implementing Data Pipelines and Workflows
+****[#yellow] ====<size:13>Developing and Optimizing Data Processing Algorithms
+****[#yellow] ====<size:13>Running Data Analytics and Machine Learning Jobs
 *** Data Infrastructure Management
-**** Deploying and Managing Big Data Clusters (e.g., Hadoop, Spark)
-**** Performance Monitoring and Optimization
-**** Scalability and High Availability Planning
+****[#yellow] ====<size:13>Deploying and Managing Big Data Clusters **(e.g., Hadoop, Spark)**
+****[#yellow] ====<size:13>Performance Monitoring and Optimization
+****[#yellow] ====<size:13>Scalability and High Availability Planning
 *** Data Security and Governance
-**** Ensuring Data Privacy and Compliance
-**** Implementing Access Controls and Encryption Mechanisms
-**** Data Quality Assurance and Validation
+****[#yellow] ====<size:13>Ensuring Data Privacy and Compliance
+****[#yellow] ====<size:13>Implementing Access Controls and Encryption Mechanisms
+****[#yellow] ====<size:13>Data Quality Assurance and Validation
 ** Skills and Technologies
 *** Big Data Technologies
-**** Hadoop, Spark, Hive, Pig, HBase, Kafka, etc.
+****[#yellow] ====<size:13>Hadoop, Spark, Hive, Pig, HBase, Kafka, **etc.**
 *** Programming Languages
-**** Java, Scala, Python, SQL, etc.
+****[#yellow] ====<size:13>Java, Scala, Python, SQL, **etc.**
 *** Data Processing and Querying
-**** SQL, HiveQL, Pig Latin, Spark SQL, etc.
+****[#yellow] ====<size:13>SQL, HiveQL, Pig Latin, Spark SQL, **etc.**
 *** Distributed Systems
-**** Understanding of Cluster Computing and Distributed Computing Concepts
-**** Familiarity with Distributed File Systems, Resource Managers, and Schedulers
+****[#yellow] ====<size:13>Understanding of Cluster Computing and Distributed Computing Concepts
+****[#yellow] ====<size:13>Familiarity with Distributed File Systems, Resource Managers, and Schedulers
 *** Data Integration and ETL Tools
-**** Apache NiFi, Talend, Informatica, etc.
+****[#yellow] ====<size:13>Apache NiFi, Talend, Informatica, **etc.**
 *** Cloud Platforms
-**** AWS, Azure, Google Cloud, etc.
+****[#yellow] ====<size:13>AWS, Azure, Google Cloud, **etc.**
 *** Data Visualization Tools
-**** Tableau, Power BI, etc.
+****[#yellow] ====<size:13>Tableau, Power BI, **etc.**
 ** Skills and Knowledge
 *** Strong Understanding of Big Data Concepts and Technologies
 *** Proficiency in Data Processing, ETL, and Data Analysis
@@ -51,7 +51,7 @@ title =__ Big Data Engineer__
 *** Analytical and Problem-Solving Skills
 *** Strong Communication and Collaboration Abilities
 ** Certifications and Education
-*** Big Data Certifications (e.g., Cloudera, Hortonworks, AWS, etc.)
+*** Big Data Certifications **(e.g., Cloudera, Hortonworks, AWS, etc.)**
 *** Bachelor's or Master's Degree in Computer Science or a Related Field
 *** Additional Courses in Big Data Technologies and Data Engineering
 *:The roles of a Big Data Engineer and a Data Engineer have some overlapping responsibilities, but they also have distinct focuses and requirements. Here are the key differences between the two roles:
@@ -61,7 +61,7 @@ title =__ Big Data Engineer__
   **Focus:** Big Data Engineers primarily work with large-scale and complex datasets, often referred to as "big data."
   They specialize in designing, implementing, and maintaining systems that handle massive volumes of data.
   **Data Infrastructure:** Big Data Engineers build and manage the infrastructure required to store, process, and analyze big data.
-  This includes data storage systems, distributed computing frameworks (e.g., Hadoop, Spark), and data processing pipelines.
+  This includes data storage systems, distributed computing frameworks **(e.g., Hadoop, Spark)**, and data processing pipelines.
   **Scalability and Performance:** Big Data Engineers deal with the challenges of scalability, ensuring that the infrastructure can
   handle high-volume data processing efficiently. They optimize data workflows and implement strategies to improve performance.
   **Distributed Computing:** Big Data Engineers work with distributed computing frameworks to process and analyze data in parallel
@@ -73,16 +73,16 @@ title =__ Big Data Engineer__
 
   **Focus:** Data Engineers have a broader focus on managing and transforming data across various stages of the data lifecycle.
   They work with different types of data, including structured, semi-structured, and unstructured data.
-  **Data Pipeline Development:** Data Engineers design and develop data pipelines to extract, transform, and load (ETL) data
+  **Data Pipeline Development:** Data Engineers design and develop data pipelines to extract, transform, and load **(ETL)** data
   from multiple sources into data storage systems. They ensure data quality and reliability throughout the pipeline.
   Data Modeling and Integration: Data Engineers work on data modeling, schema design, and data integration tasks.
   They build and optimize databases, data warehouses, and data lakes.
  **Data Transformation and Manipulation:** Data Engineers are skilled in transforming and manipulating data using tools
-  and technologies like SQL, scripting languages (e.g., Python, Scala), and ETL frameworks.
+  and technologies like SQL, scripting languages **(e.g., Python, Scala)**, and ETL frameworks.
   **Data Governance and Security:** Data Engineers address data governance and security concerns, ensuring data privacy,
   compliance, and access controls.
   **Tools and Technologies:** Data Engineers work with a wide range of data processing tools and technologies, such as
-   SQL databases, ETL tools (e.g., Informatica, Talend), scripting languages, and data integration frameworks.
+   SQL databases, ETL tools **(e.g., Informatica, Talend)**, scripting languages, and data integration frameworks.
 
   In summary, Big Data Engineers specialize in handling large-scale, distributed, and complex data systems, while
   Data Engineers have a broader focus on managing data across different stages of the data lifecycle. The skills

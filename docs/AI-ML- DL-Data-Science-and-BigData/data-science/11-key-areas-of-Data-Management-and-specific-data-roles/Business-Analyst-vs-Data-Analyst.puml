@@ -1,40 +1,42 @@
 @startmindmap
 title =__ Business Analyst vs. Data Analyst__
+!theme hacker
+
 * Business Analyst vs. Data Analyst
 ** Business Analyst
 *** Definition: Analyzes business processes and systems, identifies business needs and requirements, and proposes solutions to improve efficiency and achieve business objectives.
 *** Skills
-****[#pink] ===**[[https://heartbeat.comet.ml/significance-of-domain-knowledge-in-a-data-science-project-9fc450b35213 Domain knowledge: Understands the business domain, industry, and related processes.]]**
-*****[#yellow] **[[https://heartbeat.comet.ml/significance-of-domain-knowledge-in-a-data-science-project-9fc450b35213 Significance of Domain Knowledge in a Data Science Project]]**
-**** **Requirement elicitation:** Interviews stakeholders, conducts workshops, and gathers requirements.
-**** Business process modeling: Maps and documents current and future business processes.
-**** Data analysis: Analyzes data to identify patterns, trends, and insights.
-**** **Documentation:** Creates functional specifications, use cases, and other relevant documentation.
-**** Communication: Effectively communicates with stakeholders and facilitates collaboration.
+****[#red] ====<size:13>**[[https://heartbeat.comet.ml/significance-of-domain-knowledge-in-a-data-science-project-9fc450b35213 Domain knowledge: Understands the business domain, industry, and related processes.]]**
+*****[#red] ====<size:13>**[[https://heartbeat.comet.ml/significance-of-domain-knowledge-in-a-data-science-project-9fc450b35213 Significance of Domain Knowledge in a Data Science Project]]**
+****[#yellow] ====<size:13>**Requirement elicitation:** Interviews stakeholders, conducts workshops, and gathers requirements.
+****[#yellow] ====<size:13>**Business process modeling:** Maps and documents current and future business processes.
+****[#yellow] ====<size:13>**Data analysis:** Analyzes data to identify patterns, trends, and insights.
+****[#yellow] ====<size:13>**Documentation:** Creates functional specifications, use cases, and other relevant documentation.
+****[#yellow] ====<size:13>**Communication:** Effectively communicates with stakeholders and facilitates collaboration.
 *** Tools
-**** **Requirement management:** JIRA, Confluence, Trello
-**** Business process modeling: BPMN, Visio
-****[#pink] Data analysis: Excel, SQL, Tableau
-**** Collaboration: Slack, Microsoft Teams
+****[#yellow] ====<size:13>**Requirement management:** JIRA, Confluence, Trello
+****[#yellow] ====<size:13>**Business process modeling:** BPMN, Visio
+****[#gold] ====<size:13>Data analysis: Excel, SQL, Tableau
+****[#yellow] ====<size:13>**Collaboration:** Slack, Microsoft Teams
 ** **Data Analyst**\n <img:images/img_2.png>
 *** Definition: Analyzes data to uncover insights, identify trends, and support data-driven decision-making within an organization.
 *** Skills
-**** **Data manipulation:** Cleans, transforms, and aggregates data for analysis.
-**** **Statistical analysis:** Applies statistical techniques to identify patterns and relationships in data.
-**** **Data visualization:** Presents data visually to communicate findings and insights.
-**** **Data querying:** Retrieves and analyzes data using SQL or other query languages.
-**** **Data mining:** Extracts useful information and patterns from large datasets.
-****[#pink] Domain knowledge: Understands the context and requirements of the data analysis.
+****[#yellow] ====<size:13>**Data manipulation:** Cleans, transforms, and aggregates data for analysis.
+****[#yellow] ====<size:13>**Statistical analysis:** Applies statistical techniques to identify patterns and relationships in data.
+****[#yellow] ====<size:13>**Data visualization:** Presents data visually to communicate findings and insights.
+****[#yellow] ====<size:13>**Data querying:** Retrieves and analyzes data using SQL or other query languages.
+****[#yellow] ====<size:13>**Data mining:** Extracts useful information and patterns from large datasets.
+****[#gold] ====<size:13>Domain knowledge: Understands the context and requirements of the data analysis.
 ***[#pink] Tools
-**** **Data manipulation:** Python (Pandas), R
-**** **Statistical analysis:** Python (NumPy, SciPy), R
-**** **Data visualization:** Tableau, Power BI, Python (Matplotlib, Seaborn)
-**** **Data querying:** SQL, NoSQL query languages
-**** **Data mining:** Python (Scikit-learn), R
+****[#yellow] ====<size:13>**Data manipulation:** Python (Pandas), R
+****[#yellow] ====<size:13>**Statistical analysis:** Python (NumPy, SciPy), R
+****[#yellow] ====<size:13>**Data visualization:** Tableau, Power BI, Python (Matplotlib, Seaborn)
+****[#yellow] ====<size:13>**Data querying:** SQL, NoSQL query languages
+****[#yellow] ====<size:13>**Data mining:** Python (Scikit-learn), R
 ***[#pink] Common Skills
-**** **Problem-solving**: Ability to identify and analyze problems and propose solutions.
-**** **Critical thinking:** Evaluates information, identifies patterns, and draws meaningful conclusions.
-**** **Data literacy:** Understands data concepts, terminology, and best practices.
-**** **Communication:** Presents findings and insights effectively to non-technical stakeholders.
-**** **Continuous learning:** Keeps up with industry trends, tools, and techniques.
+****[#yellow] ====<size:13>**Problem-solving**: Ability to identify and analyze problems and propose solutions.
+****[#yellow] ====<size:13>**Critical thinking:** Evaluates information, identifies patterns, and draws meaningful conclusions.
+****[#yellow] ====<size:13>**Data literacy:** Understands data concepts, terminology, and best practices.
+****[#yellow] ====<size:13>**Communication:** Presents findings and insights effectively to non-technical stakeholders.
+****[#yellow] ====<size:13>**Continuous learning:** Keeps up with industry trends, tools, and techniques.
 @endmindmap

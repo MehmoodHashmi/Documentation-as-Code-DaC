@@ -2,50 +2,51 @@
 title =__ Data Steward__\n<img:images/img_1.png>
 
 * **[[https://www.youtube.com/watch?v=P8qJ7kqbkIk&ab_channel=ITkFunde]]**
+!theme hacker
 
 * Data Steward
 **[#pink] **Roles and Responsibilities**
-*** Data Governance and Compliance
-*** Data Quality Management
-*** Data Classification and Categorization
-*** Data Standards and Policies
-*** Data Access and Security
-*** Data Privacy and Confidentiality
-*** Metadata Management
-*** Data Documentation and Lineage
+***[#yellow] ====<size:13>Data Governance and Compliance
+***[#yellow] ====<size:13>Data Quality Management
+***[#yellow] ====<size:13>Data Classification and Categorization
+***[#yellow] ====<size:13>Data Standards and Policies
+***[#yellow] ====<size:13>Data Access and Security
+***[#yellow] ====<size:13>Data Privacy and Confidentiality
+***[#yellow] ====<size:13>Metadata Management
+***[#yellow] ====<size:13>Data Documentation and Lineage
 ** Skills and Qualifications
-*** Knowledge of Data Governance Frameworks
-*** Understanding of Data Management Principles
-*** Proficiency in Data Analysis and Validation
-*** Familiarity with Data Privacy Regulations (e.g., GDPR)
-*** Strong Communication and Collaboration Skills
-*** Attention to Detail and Organizational Skills
-*** Problem-solving and Troubleshooting Abilities
+***[#yellow] ====<size:13>Knowledge of Data Governance Frameworks
+***[#yellow] ====<size:13>Understanding of Data Management Principles
+***[#yellow] ====<size:13>Proficiency in Data Analysis and Validation
+***[#yellow] ====<size:13>Familiarity with Data Privacy Regulations **(e.g., GDPR)**
+***[#yellow] ====<size:13>Strong Communication and Collaboration Skills
+***[#yellow] ====<size:13>Attention to Detail and Organizational Skills
+***[#yellow] ====<size:13>Problem-solving and Troubleshooting Abilities
 ** Data Governance Framework
-*** Data Governance Roles and Responsibilities
-*** Data Governance Policies and Procedures
-*** Data Governance Framework Implementation
-*** Data Stewardship Processes and Workflows
-*** Data Quality Metrics and KPIs
-*** Data Issue and Exception Management
+***[#yellow] ====<size:13>Data Governance Roles and Responsibilities
+***[#yellow] ====<size:13>Data Governance Policies and Procedures
+***[#yellow] ====<size:13>Data Governance Framework Implementation
+***[#yellow] ====<size:13>Data Stewardship Processes and Workflows
+***[#yellow] ====<size:13>Data Quality Metrics and KPIs
+***[#yellow] ====<size:13>Data Issue and Exception Management
 ** Data Quality Management
-*** Data Profiling and Analysis
-*** Data Cleansing and Standardization
-*** Data Validation and Verification
-*** Data Monitoring and Reporting
-*** Root Cause Analysis and Issue Resolution
-*** Continuous Improvement of Data Quality
+***[#yellow] ====<size:13>Data Profiling and Analysis
+***[#yellow] ====<size:13>Data Cleansing and Standardization
+***[#yellow] ====<size:13>Data Validation and Verification
+***[#yellow] ====<size:13>Data Monitoring and Reporting
+***[#yellow] ====<size:13>Root Cause Analysis and Issue Resolution
+***[#yellow] ====<size:13>Continuous Improvement of Data Quality
 ** Metadata Management
-*** Metadata Capture and Documentation
-*** Metadata Repository and Catalogs
-*** Data Lineage and Impact Analysis
-*** Metadata Governance and Maintenance
-*** Metadata Integration and Interoperability
+***[#yellow] ====<size:13>Metadata Capture and Documentation
+***[#yellow] ====<size:13>Metadata Repository and Catalogs
+***[#yellow] ====<size:13>Data Lineage and Impact Analysis
+***[#yellow] ====<size:13>Metadata Governance and Maintenance
+***[#yellow] ====<size:13>Metadata Integration and Interoperability
 ** Data Privacy and Security
-*** Data Classification and Sensitivity
-*** Access Controls and Permissions
-*** Data Masking and Anonymization
-*** Data Retention and Deletion Policies
-*** Data Breach Management
-*** Data Privacy Compliance (e.g., GDPR, CCPA)
+***[#yellow] ====<size:13>Data Classification and Sensitivity
+***[#yellow] ====<size:13>Access Controls and Permissions
+***[#yellow] ====<size:13>Data Masking and Anonymization
+***[#yellow] ====<size:13>Data Retention and Deletion Policies
+***[#yellow] ====<size:13>Data Breach Management
+***[#yellow] ====<size:13>Data Privacy Compliance **(e.g., GDPR, CCPA)**
 @endmindmap

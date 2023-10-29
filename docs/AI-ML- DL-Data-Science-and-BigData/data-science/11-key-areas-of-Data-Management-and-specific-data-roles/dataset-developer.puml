@@ -1,55 +1,56 @@
 @startmindmap
 title =__ Dataset Developer__\n<img:images/img_1.png>
+!theme hacker
 
 * Dataset Developer
 ** Data Analysis
-***[#pink] **Exploratory Data Analysis (EDA)** e.g. using python **pandas library**
-*** Data Visualization
-*** Statistical Analysis
+***[#gold] ====<size:13>**Exploratory Data Analysis (EDA)** e.g. using python **pandas library**
+***[#yellow] ====<size:13>Data Visualization
+***[#yellow] ====<size:13>Statistical Analysis
 ** Data Collection
-*** Data Sources
-*** Data Extraction
-*** Data Transformation
-*** Data Integration
+***[#yellow] ====<size:13>Data Sources
+***[#yellow] ====<size:13>Data Extraction
+***[#yellow] ====<size:13>Data Transformation
+***[#yellow] ====<size:13>Data Integration
 ** Data Quality
-*** Data Cleansing
-*** Data Validation
-*** Data Standardization
-*** Data Profiling
+***[#yellow] ====<size:13>Data Cleansing
+***[#yellow] ====<size:13>Data Validation
+***[#yellow] ====<size:13>Data Standardization
+***[#yellow] ====<size:13>Data Profiling
 ** Data Modeling
-*** Conceptual Data Model
-*** Logical Data Model
-*** Physical Data Model
+***[#yellow] ====<size:13>Conceptual Data Model
+***[#yellow] ====<size:13>Logical Data Model
+***[#yellow] ====<size:13>Physical Data Model
 ** Database Management
-*** Relational Databases
-*** NoSQL Databases
-*** Data Warehousing
-*** Data Lake
+***[#yellow] ====<size:13>Relational Databases
+***[#yellow] ====<size:13>NoSQL Databases
+***[#yellow] ====<size:13>Data Warehousing
+***[#yellow] ====<size:13>Data Lake
 ** ETL (Extract, Transform, Load) Processes
-*** Data Extraction
-*** Data Transformation
-*** Data Loading
+***[#yellow] ====<size:13>Data Extraction
+***[#yellow] ====<size:13>Data Transformation
+***[#yellow] ====<size:13>Data Loading
 ** Data Governance
-*** Data Policies
-*** Data Privacy
-*** Data Security
-*** Data Compliance
+***[#yellow] ====<size:13>Data Policies
+***[#yellow] ====<size:13>Data Privacy
+***[#yellow] ====<size:13>Data Security
+***[#yellow] ====<size:13>Data Compliance
 ** Data Documentation
-*** Data Dictionary
-*** Data Lineage
-*** Metadata Management
-*** Data Catalog
+***[#yellow] ====<size:13>Data Dictionary
+***[#yellow] ====<size:13>Data Lineage
+***[#yellow] ====<size:13>Metadata Management
+***[#yellow] ====<size:13>Data Catalog
 ** Data Pipelines
-*** Batch Processing
-*** Stream Processing
-*** Data Orchestration
+***[#yellow] ====<size:13>Batch Processing
+***[#yellow] ====<size:13>Stream Processing
+***[#yellow] ====<size:13>Data Orchestration
 ** Data Collaboration
-*** Cross-functional Collaboration
-*** Data Sharing
-*** Data Integration
+***[#yellow] ====<size:13>Cross-functional Collaboration
+***[#yellow] ====<size:13>Data Sharing
+***[#yellow] ====<size:13>Data Integration
 ** Programming Languages
-*** SQL
-*** Python
-*** R
-*** Java
+***[#yellow] ====<size:13>SQL
+***[#yellow] ====<size:13>Python
+***[#yellow] ====<size:13>R
+***[#yellow] ====<size:13>Java
 @endmindmap
