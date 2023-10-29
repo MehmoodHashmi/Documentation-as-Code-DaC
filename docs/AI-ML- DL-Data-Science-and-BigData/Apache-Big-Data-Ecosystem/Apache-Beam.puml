@@ -10,60 +10,62 @@ skinparam connector {
 }
 
 title =__ Apache Beam__
+!theme hacker
+
 * Apache Beam
 
 ** Definition
-*** Unified programming model for building batch and streaming data processing pipelines
-*** Provides a high-level API for data parallelism and distributed processing
+*** <size:14>**Unified programming model** for building **batch and streaming data processing pipelines**
+*** <size:14>Provides a high-level API for data parallelism and distributed processing
 
-** Key Concepts
+**[#lime] Key Concepts
 
-*** Pipelines
-**** Represents a data processing workflow or computation
-**** Consists of a series of transformations and operations on input data
+***[#gold] ==Pipelines
+****[#yellow] ====<size:14>Represents a data processing workflow or computation
+****[#yellow] ====<size:14>Consists of a series of transformations and operations on input data
 
-*** PCollection (Parallel Collection)
-**** Represents a distributed collection of elements in a pipeline
-**** Acts as input or output for transformations within the pipeline
+***[#pink] PCollection **(Parallel Collection)**
+****[#yellow] ====<size:14>Represents a distributed collection of elements in a pipeline
+****[#yellow] ====<size:14>Acts as input or output for transformations within the pipeline
 
 *** Transformations
-**** Operations that modify or process data in a PCollection
-**** **Examples:** Map, Filter, GroupByKey, Combine, Window
+****[#yellow] ====<size:14>Operations that modify or process data in a PCollection
+****[#yellow] ====<size:14>**Examples:** Map, Filter, GroupByKey, Combine, Window
 
 *** Sources and Sinks
-**** Sources: Represents input data sources for a pipeline
-**** Sinks: Represents output destinations or sinks for pipeline results
+****[#yellow] ====<size:14>Sources: Represents input data sources for a pipeline
+****[#yellow] ====<size:14>Sinks: Represents output destinations or sinks for pipeline results
 
-*** PTransforms (Parallel Transforms)
-**** High-level operations that encapsulate one or more transformations
-**** Enables composability and reuse of data processing logic
+***[#orange] PTransforms **(Parallel Transforms)**
+****[#yellow] ====<size:14>High-level operations that encapsulate one or more transformations
+****[#yellow] ====<size:14>Enables composability and reuse of data processing logic
 
 ** Execution Engines
 
 *** Apache Flink
-**** Distributed stream processing engine with support for batch processing
-**** Provides fault-tolerance, scalability, and high-throughput processing
+****[#yellow] ====<size:14>Distributed stream processing engine with support for batch processing
+****[#yellow] ====<size:14>Provides fault-tolerance, scalability, and high-throughput processing
 
 *** Apache Spark
-**** General-purpose distributed computing engine with support for batch and stream processing
-**** Offers in-memory processing, fault tolerance, and a rich set of built-in libraries
+****[#yellow] ====<size:14>General-purpose distributed computing engine with support for batch and stream processing
+****[#yellow] ====<size:14>Offers in-memory processing, fault tolerance, and a rich set of built-in libraries
 
 *** Google Cloud Dataflow
-**** Fully managed service for executing Apache Beam pipelines on the Google Cloud Platform
-**** Provides automatic scaling, monitoring, and job management capabilities
+****[#yellow] ====<size:14>Fully managed service for executing Apache Beam pipelines on the Google Cloud Platform
+****[#yellow] ====<size:14>Provides automatic scaling, monitoring, and job management capabilities
 
 ** Ecosystem and Integration
 
 *** Integration with Data Processing Frameworks
-**** Apache Kafka, Apache Hadoop, Apache Cassandra, etc.
-**** Allows reading from and writing to various data storage and messaging systems
+****[#yellow] ====<size:14>Apache Kafka, Apache Hadoop, Apache Cassandra, etc.
+****[#yellow] ====<size:14>Allows reading from and writing to various data storage and messaging systems
 
 *** Language SDKs
-**** Provides language-specific APIs and SDKs for writing Apache Beam pipelines
-**** Includes Java, Python, Go, and other community-supported languages
+****[#yellow] ====<size:14>Provides language-specific APIs and SDKs for writing Apache Beam pipelines
+****[#yellow] ====<size:14>Includes Java, Python, Go, and other community-supported languages
 
 *** Community and Tooling
-**** Active and growing open-source community around Apache Beam
-**** Provides documentation, tutorials, and a range of tools for development and monitoring
+****[#yellow] ====<size:14>Active and growing open-source community around Apache Beam
+****[#yellow] ====<size:14>Provides documentation, tutorials, and a range of tools for development and monitoring
 
 @endmindmap
