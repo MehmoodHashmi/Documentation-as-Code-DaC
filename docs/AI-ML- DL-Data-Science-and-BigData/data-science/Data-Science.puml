@@ -1,32 +1,34 @@
 @startmindmap
 title =__ Data Science__ \n<img:images/img_17.png>
+!theme hacker
+
 *[#gold] =Data Science
 **[#a] =**Foundations of Data Science**
-*** Statistics
-*** Linear Algebra
-*** Probability Theory
-*** Programming
+***[#yellow] ====<size:13>Statistics
+***[#yellow] ====<size:13>Linear Algebra
+***[#yellow] ====<size:13>Probability Theory
+***[#yellow] ====<size:13>Programming
 ** Data Manipulation
-*** Data Cleaning
-*** Data Integration
-*** Data Transformation
+***[#yellow] ====<size:13>Data Cleaning
+***[#yellow] ====<size:13>Data Integration
+***[#yellow] ====<size:13>Data Transformation
 ** Data Visualization and Communication
-*** Graphical Perception
-*** Visual Encoding and Interaction
-*** Visualization Design
+***[#yellow] ====<size:13>Graphical Perception
+***[#yellow] ====<size:13>Visual Encoding and Interaction
+***[#yellow] ====<size:13>Visualization Design
 **[#lightgreen] ==Machine Learning
-*** Supervised Learning
-*** Unsupervised Learning
-*** Semi-Supervised Learning
-*** Deep Learning
+***[#yellow] ====<size:13>Supervised Learning
+***[#yellow] ====<size:13>Unsupervised Learning
+***[#yellow] ====<size:13>Semi-Supervised Learning
+***[#yellow] ====<size:13>Deep Learning
 ** =Big Data
-*** Distributed Computing
-*** Scalability
-*** Storage Systems
-*** Data Streaming
+***[#yellow] ====<size:13>Distributed Computing
+***[#yellow] ====<size:13>Scalability
+***[#yellow] ====<size:13>Storage Systems
+***[#yellow] ====<size:13>Data Streaming
 ** Applications of Data Science
-*** Natural Language Processing
-*** Computer Vision
-*** Social Network Analysis
-*** Business Analytics
+***[#yellow] ====<size:13>Natural Language Processing
+***[#yellow] ====<size:13>Computer Vision
+***[#yellow] ====<size:13>Social Network Analysis
+***[#yellow] ====<size:13>Business Analytics
 @endmindmap

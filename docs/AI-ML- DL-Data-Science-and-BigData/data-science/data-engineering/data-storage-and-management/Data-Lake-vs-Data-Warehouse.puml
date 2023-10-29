@@ -1,0 +1,56 @@
+@startmindmap
+title =__ Data Lake vs Data Warehouse__\n The latest innovation in data world is that we are moving from "data warehouse" to "data-lake"
+!theme hacker
+
+*[#a] =//Data Lake vs Data Warehouse//
+** Data Storage
+***[#lightgreen] ===Data Lake:
+****[#yellow] ====<size:12>Stores raw and unprocessed data in its native format.
+****[#yellow] ====<size:12>Supports structured, semi-structured, and unstructured data.
+****[#pink] ====<size:12>No predefined **schema** or data transformation.
+***[#gold] ===Data Warehouse:
+****[#yellow] ====<size:12>Stores structured and transformed data.
+****[#pink] ====<size:12>Organized into predefined **schemas**.
+****[#yellow] ====<size:12>Optimized for querying and analysis.
+** Data Integration
+***[#lightgreen] ===Data Lake:
+****[#yellow] ====<size:12>Ingests data from various sources without strict integration requirements.
+****[#yellow] ====<size:12>**Schema-on-read** approach allows flexibility in incorporating new data sources.
+***[#gold] ===Data Warehouse:
+****[#yellow] ====<size:12>Requires structured and integrated data from specific sources.
+****[#yellow] ====<size:12>Data integration processes transform and load data into predefined **schemas**.
+** Data Processing
+***[#lightgreen] ===Data Lake:
+****[#yellow] ====<size:12>Enables data exploration, ad-hoc analysis, and data discovery.
+****[#yellow] ====<size:12>Supports diverse processing tools and frameworks like Hadoop, Spark, or Presto.
+****[#yellow] ====<size:12>Provides flexibility for data scientists and analysts to perform complex operations.
+***[#gold] ===Data Warehouse:
+****[#yellow] ====<size:12>Focuses on optimized data processing and query performance.
+****[#yellow] ====<size:12>Provides structured and predefined data models for business reporting and analytics.
+****[#yellow] ====<size:12>Uses SQL-based processing engines like SQL Server, Oracle, or Snowflake.
+** Data Governance
+***[#lightgreen] ===Data Lake:
+****[#yellow] ====<size:12>Limited data governance controls due to the lack of predefined schema.
+****[#yellow] ====<size:12>Requires careful metadata management and data cataloging.
+****[#yellow] ====<size:12>Data access and security controls are typically managed at a higher level.
+***[#gold] ===Data Warehouse:
+****[#yellow] ====<size:12>Enforces strong data governance controls.
+****[#yellow] ====<size:12>Follows predefined **schemas** and data quality standards.
+****[#yellow] ====<size:12>Implements access controls, data lineage, and auditing mechanisms.
+** Data Usage
+***[#lightgreen] ===Data Lake:
+****[#yellow] ====<size:12>Suitable for exploratory analysis, data science, and big data processing.
+****[#yellow] ====<size:12>Supports machine learning, AI, and advanced analytics use cases.
+****[#yellow] ====<size:12>Provides agility and flexibility for new data insights.
+***[#gold] ===Data Warehouse:
+****[#yellow] ====<size:12>Primarily used for business intelligence, reporting, and decision-making.
+****[#yellow] ====<size:12>Provides a single source of truth for consistent and reliable data analysis.
+****[#yellow] ====<size:12>Optimized for structured queries and predefined reporting models.
+** Example Tools
+***[#lightgreen] ===Data Lake:
+****[#yellow] ====<size:12>Hadoop, Apache Spark, Apache Hive, Amazon S3, Google Cloud Storage.
+****[#yellow] ====<size:12>Data Lake Platforms: AWS Glue, Azure Data Lake, Google Cloud Data Lake.
+***[#gold] ===Data Warehouse:
+****[#yellow] ====<size:12>SQL Server, Oracle Database, Snowflake, Redshift, BigQuery, Teradata.
+****[#yellow] ====<size:12>Data Warehouse Platforms: AWS Redshift, Azure Synapse, Google BigQuery.
+@endmindmap

@@ -1,0 +1,70 @@
+@startmindmap
+skinparam shadowing false
+
+title =__ Knowledge__
+!theme hacker
+
+* Knowledge
+** Types of Knowledge
+***[#gold] ====<size:13>Explicit Knowledge
+***[#gold] ====<size:13>Tacit Knowledge
+***[#gold] ====<size:13>Procedural Knowledge
+***[#gold] ====<size:13>Declarative Knowledge
+
+** Acquisition of Knowledge
+***[#gold] ====<size:13>Learning
+***[#gold] ====<size:13>Education
+***[#gold] ====<size:13>Training
+***[#gold] ====<size:13>Experience
+***[#gold] ====<size:13>Observation
+***[#gold] ====<size:13>Reflection
+
+** Knowledge Representation
+***[#gold] ====<size:13>Concepts and Categories
+***[#gold] ====<size:13>Schemas and Mental Models
+***[#gold] ====<size:13>Ontologies
+***[#gold] ====<size:13>Semantic Networks
+***[#gold] ====<size:13>Knowledge Graphs
+***[#gold] ====<size:13>Decision Trees
+
+** Knowledge Organization and Storage
+***[#gold] ====<size:13>Libraries and Archives
+***[#gold] ====<size:13>Knowledge Management Systems
+***[#gold] ====<size:13>Taxonomies and Classification
+***[#gold] ====<size:13>Information Retrieval Systems
+***[#gold] ====<size:13>Content Management Systems
+***[#gold] ====<size:13>Search Engines
+
+** Knowledge Sharing and Transfer
+***[#gold] ====<size:13>Collaboration Tools
+***[#gold] ====<size:13>Social Networks
+***[#gold] ====<size:13>Communities of Practice
+***[#gold] ====<size:13>Knowledge Repositories
+***[#gold] ====<size:13>Documentation and Manuals
+***[#gold] ====<size:13>Expert Systems
+
+** Knowledge Application
+***[#gold] ====<size:13>Problem Solving
+***[#gold] ====<size:13>Decision Making
+***[#gold] ====<size:13>Innovation and Creativity
+***[#gold] ====<size:13>Continuous Improvement
+***[#gold] ====<size:13>Critical Thinking
+***[#gold] ====<size:13>Expertise Development
+
+** Knowledge Validation and Verification
+***[#gold] ====<size:13>Peer Review
+***[#gold] ====<size:13>Empirical Research
+***[#gold] ====<size:13>Experimentation
+***[#gold] ====<size:13>Testing and Validation
+***[#gold] ====<size:13>Quality Assurance
+***[#gold] ====<size:13>Feedback and Evaluation
+
+** Knowledge Evolution and Update
+***[#gold] ====<size:13>Research and Development
+***[#gold] ====<size:13>Information Updates
+***[#gold] ====<size:13>Continuous Learning
+***[#gold] ====<size:13>Adaptation to Change
+***[#gold] ====<size:13>Knowledge Dissemination
+***[#gold] ====<size:13>Knowledge Transfer
+
+@endmindmap

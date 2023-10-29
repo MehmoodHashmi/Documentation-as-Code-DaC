@@ -1,0 +1,81 @@
+@startmindmap
+title =Data Preprocessing
+!theme hacker
+
+* Data Preprocessing\n=(Wrangling)
+** Definition
+*** Data preprocessing is the process of cleaning, transforming, and organizing raw data into a format suitable for analysis and modeling.
+
+** Importance
+*** **Enhances Data Quality:** Eliminates errors, inconsistencies, and missing values.
+*** **Improves Model Performance:** Quality data leads to more accurate and robust models.
+*** **Facilitates Data Understanding:** Preprocessing aids in exploring and understanding the data.
+
+** Steps in Data Preprocessing
+***[#orange] ===Data Cleaning
+****[#yellow] ====<size:12>**Handle Missing Values:** Remove, impute, or interpolate missing data.
+****[#yellow] ====<size:12>**Outlier Detection:** Identify and handle outliers that can distort analysis.
+****[#yellow] ====<size:12>**Noise Reduction:** Smooth noisy data by applying filters or techniques.
+
+***[#gold] ===Data Transformation
+****[#yellow] ====<size:12>**Encoding Categorical Data:** Convert categorical variables into numerical formats (e.g., one-hot encoding).
+****[#yellow] ====<size:12>**Feature Scaling:** Normalize or standardize numeric features to bring them to a common scale.
+****[#yellow] ====<size:12>**Dimensionality Reduction:** Reduce the number of features using techniques like **PCA.**
+
+***[#pink] ===Data Reduction
+****[#yellow] ====<size:12>**Sampling:** Reduce data volume by sampling subsets (e.g., random or stratified sampling).
+****[#yellow] ====<size:12>**Aggregation:** Combine and summarize data to reduce dimensionality (e.g., aggregating by time intervals).
+
+***[#lime] ===Data Integration
+****[#yellow] ====<size:12>**Merge Data Sources:** Combine data from multiple sources into a single **dataset**.
+****[#yellow] ====<size:12>**Handle Redundancy:** Identify and eliminate redundant information.
+
+** Tools and Techniques
+*** Data Analysis Tools
+****[#yellow] ====<size:12>**Python Libraries:** pandas, NumPy
+****[#yellow] ====<size:12>R Data Analysis Tools
+****[#yellow] ====<size:12>SQL for database preprocessing
+
+*** Visualization Tools
+****[#yellow] ====<size:12>Matplotlib, Seaborn
+****[#yellow] ====<size:12>Data visualization aids in understanding data patterns and anomalies.
+
+*** Machine Learning Libraries
+****[#yellow] ====<size:12>Scikit-learn, TensorFlow
+****[#yellow] ====<size:12>Utilize machine learning models for imputing missing data and handling outliers.
+
+*** Data Preprocessing Libraries
+****[#yellow] ====<size:12>scikit-learn preprocessing functions
+****[#yellow] ====<size:12>Feature engineering tools like Feature-Engine
+
+** Considerations
+***[#orange] ===Domain Knowledge
+****[#yellow] ===Understanding the domain is crucial for effective preprocessing.
+****[#yellow] ===Domain knowledge helps in handling specific data challenges.
+
+*** Data Documentation
+****[#yellow] ====<size:12>Maintain clear documentation of preprocessing steps to ensure reproducibility.
+
+*** Data Splitting
+****[#yellow] ====<size:12>Split data into training, validation, and test sets for model evaluation.
+
+***[#gold] ===Iterative Process
+****[#yellow] ===__Data preprocessing__ is often an iterative process, as new insights may require adjustments.
+
+* Best Practices
+** Start with Data Exploration
+*** Explore data visually and statistically to identify issues.
+
+** Handle Missing Values Appropriately
+*** Choose suitable imputation techniques based on the nature of the data.
+
+** Visualize Data Distribution
+*** Understand data distribution to make informed decisions on feature scaling.
+
+** Keep Original Data Intact
+*** Save a copy of the original data before preprocessing for reference.
+
+** Evaluate Model Performance
+*** Assess how preprocessing impacts model performance.
+
+@endmindmap

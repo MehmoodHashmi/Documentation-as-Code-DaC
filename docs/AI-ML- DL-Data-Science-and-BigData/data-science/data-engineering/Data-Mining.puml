@@ -1,0 +1,57 @@
+@startmindmap
+title =__Data Mining__
+!theme hacker
+
+* Data Mining
+** Definition
+***[#gold] ====<size:13>Process of Discovering Patterns, Trends, and Insights from Large Datasets
+***[#gold] ====<size:13>Extracting Meaningful Information for Decision Making
+** Process Steps
+***[#gold] ====<size:13>Data Collection
+***[#gold] ====<size:13>Data Cleaning and Preprocessing
+***[#gold] ====<size:13>Data Transformation
+***[#gold] ====<size:13>Data Mining Algorithms and Techniques
+***[#gold] ====<size:13>Pattern Evaluation
+***[#gold] ====<size:13>Knowledge Presentation and Visualization
+** Techniques
+***[#gold] ====<size:13>Association Rule Mining
+***[#gold] ====<size:13>Classification
+***[#gold] ====<size:13>Clustering
+***[#gold] ====<size:13>Regression Analysis
+***[#gold] ====<size:13>Anomaly Detection
+***[#gold] ====<size:13>Text Mining
+***[#gold] ====<size:13>Time Series Analysis
+***[#gold] ====<size:13>Social Network Analysis
+** Algorithms
+***[#gold] ====<size:13>Apriori
+***[#gold] ====<size:13>Decision Trees (C4.5, CART)
+***[#gold] ====<size:13>k-means
+***[#gold] ====<size:13>Naive Bayes
+***[#gold] ====<size:13>Support Vector Machines (SVM)
+***[#gold] ====<size:13>Random Forests
+***[#gold] ====<size:13>Neural Networks
+** Applications
+***[#gold] ====<size:13>Market Basket Analysis
+***[#gold] ====<size:13>Customer Segmentation
+***[#gold] ====<size:13>Fraud Detection
+***[#gold] ====<size:13>Churn Prediction
+***[#gold] ====<size:13>Recommender Systems
+***[#gold] ====<size:13>Sentiment Analysis
+***[#gold] ====<size:13>Predictive Maintenance
+***[#gold] ====<size:13>Healthcare Analytics
+** Tools and Software
+***[#gold] ====<size:13>R (RapidMiner
+***[#gold] ====<size:13>Python (scikit-learn, TensorFlow)
+***[#gold] ====<size:13>Weka
+***[#gold] ====<size:13>KNIME
+***[#gold] ====<size:13>Orange
+***[#gold] ====<size:13>IBM SPSS Modeler
+***[#gold] ====<size:13>SAS Enterprise Miner
+** Challenges
+***[#gold] ====<size:13>Data Quality and Integration
+***[#gold] ====<size:13>Scalability and Performance
+***[#gold] ====<size:13>Privacy and Security
+***[#gold] ====<size:13>Interpretability and Explainability
+***[#gold] ====<size:13>Ethical and Legal Considerations
+
+@endmindmap

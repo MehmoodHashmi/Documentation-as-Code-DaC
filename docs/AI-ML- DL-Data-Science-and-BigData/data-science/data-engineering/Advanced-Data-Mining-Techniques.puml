@@ -1,0 +1,72 @@
+@startmindmap
+title =__Advanced Data Mining Techniques__
+!theme hacker
+
+* Advanced Data Mining Techniques
+** Supervised Learning
+*** Decision Trees **(C4.5, CART)**
+*** Random Forests
+*** Support Vector Machines **(SVM)**
+*** Gradient Boosting **(XGBoost, LightGBM)**
+*** Neural Networks **(Deep Learning)**
+** Unsupervised Learning
+*** Clustering
+****[#yellow] ====<size:13>k-means
+****[#yellow] ====<size:13>DBSCAN
+****[#yellow] ====<size:13>Hierarchical Clustering
+*** Association Rule Mining
+****[#yellow] ====<size:13>Apriori Algorithm
+****[#yellow] ====<size:13>FP-Growth
+*** Dimensionality Reduction
+****[#yellow] ====<size:13>Principal Component Analysis **(PCA)**
+****[#yellow] ====<size:13>t-SNE
+****[#yellow] ====<size:13>Autoencoders
+** Ensemble Methods
+*** Bagging
+*** Boosting
+*** Stacking
+** Deep Learning
+*** Convolutional Neural Networks **(CNN)**
+*** Recurrent Neural Networks **(RNN)**
+*** Long Short-Term Memory **(LSTM)**
+*** Generative Adversarial Networks **(GANs)**
+** Time Series Analysis
+*** ARIMA
+*** Seasonal Decomposition of Time Series **(STL)**
+*** Recurrent Neural Networks **(RNN)**
+*** Prophet
+** Text Mining
+*** Text Classification
+*** Sentiment Analysis
+*** Named Entity Recognition **(NER)**
+*** Topic Modeling **(Latent Dirichlet Allocation, LDA)**
+** Anomaly Detection
+*** Statistical Methods
+*** Clustering-based Approaches
+*** Support Vector Machines **(SVM)**
+*** Isolation Forest
+** Web Mining
+*** Web Content Mining
+*** Web Structure Mining
+*** Web Usage Mining
+** Spatial Data Mining
+*** Geographical Information Systems **(GIS)**
+*** Spatial Clustering
+*** Spatial Association Rules
+** Graph Mining
+*** Social Network Analysis
+*** Network Community Detection
+*** Link Prediction
+*** PageRank Algorithm
+** Big Data Mining
+*** Distributed Computing Frameworks **(Hadoop, Spark)**
+*** Scalable Algorithms for Large-Scale Data
+*** Stream Mining
+*** Real-Time Analytics
+** Reinforcement Learning
+*** Markov Decision Processes **(MDPs)**
+*** Q-Learning
+*** Deep Q-Networks **(DQN)**
+*** Policy Gradient Methods
+
+@endmindmap

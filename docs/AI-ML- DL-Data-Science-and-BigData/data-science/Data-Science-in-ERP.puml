@@ -1,65 +1,65 @@
 @startmindmap
 title =Data Science in ERP
+!theme hacker
 
-
-* [Data Science in ERP]\n[Key Aspects]
-** [Data Collection]
+* Data Science in ERP\nKey Aspects
+** Data Collection
 *** Internal Databases
 *** External Data Feeds
 *** IoT Devices
 *** User Inputs
 
-** [Data Preprocessing]
+** Data Preprocessing
 *** Missing Data Handling
 *** Outlier Detection
 *** Data Transformation
 
-** [Data Analysis]
-*** [Descriptive Analytics]
-**** Data Exploration
-**** Data Visualization
-*** [Predictive Analytics]
-**** Forecasting
-**** Demand Planning
-**** Machine Learning Models
-*** [Prescriptive Analytics]
-**** Optimization
-**** Decision Support Systems
+** Data Analysis
+*** Descriptive Analytics
+****[#yellow] ====<size:13>Data Exploration
+****[#yellow] ====<size:13>Data Visualization
+*** Predictive Analytics
+****[#yellow] ====<size:13>Forecasting
+****[#yellow] ====<size:13>Demand Planning
+****[#yellow] ====<size:13>Machine Learning Models
+*** Prescriptive Analytics
+****[#yellow] ====<size:13>Optimization
+****[#yellow] ====<size:13>Decision Support Systems
 
-** [Data Integration]
+** Data Integration
 *** ERP Data Integration
-**** Data Synchronization
-**** Data Mapping
-**** ETL Processes
+****[#yellow] ====<size:13>Data Synchronization
+****[#yellow] ====<size:13>Data Mapping
+****[#yellow] ====<size:13>ETL Processes
 
-** [Data Governance]
-*** [Data Security]
-**** Access Control
-**** Encryption
-**** Compliance
-*** [Data Quality]
-**** Data Validation
-**** Master Data Management
-**** Data Governance Policies
+** Data Governance
+*** Data Security
+****[#yellow] ====<size:13>Access Control
+****[#yellow] ====<size:13>Encryption
+****[#yellow] ====<size:13>Compliance
+*** Data Quality
+****[#yellow] ====<size:13>Data Validation
+****[#yellow] ====<size:13>Master Data Management
+****[#yellow] ====<size:13>Data Governance Policies
 
-** [Reporting and Insights]
+** Reporting and Insights
 *** Custom Reports
-**** Dashboards
-**** Real-time Reporting
+****[#yellow] ====<size:13>Dashboards
+****[#yellow] ====<size:13>Real-time Reporting
 *** KPI Tracking
-**** Key Performance Indicators
-**** Business Intelligence
+****[#yellow] ====<size:13>Key Performance Indicators
+****[#yellow] ====<size:13>Business Intelligence
 
-** [Anomaly Detection]
-*** [Fraud Detection]
-**** Transaction Monitoring
-**** Anomaly Models
-**** Pattern Recognition
-*** [Process Optimization]
-**** Identifying Inefficiencies
-**** Workflow Improvement
-**** Cost Reduction
+** Anomaly Detection
+*** Fraud Detection
+****[#yellow] ====<size:13>Transaction Monitoring
+****[#yellow] ====<size:13>Anomaly Models
+****[#yellow] ====<size:13>Pattern Recognition
+*** Process Optimization
+****[#yellow] ====<size:13>Identifying Inefficiencies
+****[#yellow] ====<size:13>Workflow Improvement
+****[#yellow] ====<size:13>Cost Reduction
 
-* [Conclusion]
+* Conclusion
 ** Data science plays a crucial role in ERP systems, enabling data-driven decision-making, automation, and optimization.
 @endmindmap

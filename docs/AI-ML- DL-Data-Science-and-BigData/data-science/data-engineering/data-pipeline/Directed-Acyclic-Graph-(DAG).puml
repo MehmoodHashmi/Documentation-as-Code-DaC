@@ -1,0 +1,38 @@
+@startmindmap
+title =__ Directed Acyclic Graph (DAG)__
+!theme hacker
+
+* Directed Acyclic Graph (DAG)
+** Definition
+***[#yellow] ====<size:13>A directed graph with no directed cycles
+** Characteristics
+***[#yellow] ====<size:13>Consists of nodes and directed edges
+***[#yellow] ====<size:13>Nodes represent tasks or operations
+***[#yellow] ====<size:13>Edges represent dependencies between tasks
+***[#yellow] ====<size:13>No circular dependencies are allowed
+** Applications
+***[#yellow] ====<size:13>Data pipeline design and orchestration
+***[#yellow] ====<size:13>Task scheduling and dependency management
+***[#yellow] ====<size:13>Workflow management systems
+** Benefits
+***[#yellow] ====<size:13>Enables parallel execution of independent tasks
+***[#yellow] ====<size:13>Provides clear visualization of task dependencies
+***[#yellow] ====<size:13>Facilitates efficient task scheduling and optimization
+***[#yellow] ====<size:13>Supports fault-tolerance and error handling
+** Use Cases
+***[#yellow] ====<size:13>ETL (Extract, Transform, Load) pipelines
+***[#yellow] ====<size:13>Batch processing workflows
+***[#yellow] ====<size:13>Machine learning pipelines
+***[#yellow] ====<size:13>Event-driven architectures
+** Examples
+***[#yellow] ====<size:13>Apache Airflow
+***[#yellow] ====<size:13>Luigi
+***[#yellow] ====<size:13>Apache NiFi
+***[#yellow] ====<size:13>Apache Beam
+** Best Practices
+***[#yellow] ====<size:13>Identify task dependencies and define the DAG structure
+***[#yellow] ====<size:13>Ensure there are no circular dependencies
+***[#yellow] ====<size:13>Optimize task execution order for efficiency
+***[#yellow] ====<size:13>Handle error and failure scenarios gracefully
+***[#yellow] ====<size:13>Monitor and track task progress and dependencies
+@endmindmap

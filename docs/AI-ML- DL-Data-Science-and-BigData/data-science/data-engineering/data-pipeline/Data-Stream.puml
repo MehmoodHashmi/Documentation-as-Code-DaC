@@ -1,0 +1,67 @@
+@startmindmap
+
+skinparam node {
+    BorderColor DarkGray
+    BackgroundColor White
+}
+
+skinparam connector {
+    LineColor DarkGray
+}
+
+title =__ Data Stream__
+!theme hacker
+
+*[#gold] =Data Stream
+
+** Definition
+*** Continuous flow of data records or events
+*** Represents the movement of data from a source to a destination
+
+**[#pink] =Characteristics
+*** Continuity
+****[#yellow] ====<size:12>Data stream is continuous and can be infinite in length
+****[#yellow] ====<size:12>New data records are continuously added to the stream over time
+
+*** Ordering
+****[#yellow] ====<size:12>Data records in a stream may have a specific order or timestamp
+****[#yellow] ====<size:12>Processing often depends on preserving the order of records
+
+*** Volume
+****[#yellow] ====<size:12>Data streams can contain a large volume of data
+****[#yellow] ====<size:12>Handling large volumes may require scalable processing systems
+
+*** Velocity
+****[#yellow] ====<size:12>Data streams are processed in real-time or near real-time
+****[#yellow] ====<size:12>Processing speed and low latency are important for stream processing
+
+**[#pink] **Use Cases**
+*** Real-Time Analytics
+****[#yellow] ====<size:12>Stream processing enables immediate analysis and insights from data
+****[#yellow] ====<size:12>**Examples:** Fraud detection, stock market analysis, IoT data analysis
+
+*** Event Sourcing and CQRS
+****[#yellow] ====<size:12>Data streams can be used to capture and replay events for system state management
+****[#yellow] ====<size:12>**Examples:** Event-driven architectures, event sourcing patterns
+
+*** Data Integration and ETL
+****[#yellow] ====<size:12>Streaming data allows continuous ingestion and transformation of data
+****[#yellow] ====<size:12>**Examples:** Data pipelines, data lakes, real-time data synchronization
+
+**[#pink] **Technologies**
+***[#pink] **Apache Kafka**
+****[#yellow] ====<size:12>Distributed streaming platform for handling high-volume, fault-tolerant data streams
+
+*** Apache Flink
+****[#yellow] ====<size:12>Stream processing framework for distributed, fault-tolerant, and event-driven applications
+
+*** Amazon Kinesis
+****[#yellow] ====<size:12>Managed streaming service for ingesting, processing, and analyzing data streams
+
+*** Apache NiFi
+****[#yellow] ====<size:12>Data integration platform that supports real-time data streaming and processing
+
+***[#pink] **Google Cloud Pub/Sub**
+****[#yellow] ====<size:12>Messaging and event ingestion service for real-time data streaming
+
+@endmindmap

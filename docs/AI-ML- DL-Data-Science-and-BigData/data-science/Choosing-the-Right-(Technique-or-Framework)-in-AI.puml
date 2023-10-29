@@ -6,66 +6,66 @@
 
 
 title = __choosing the right technique or framework based on the specific problem and context:__
-
+!theme hacker
 * Choosing the Right \nTechnique/Framework
 
 ** Define the Problem
 *** Understand the Problem Space
-**** Identify the Business Need
-**** Analyze the Requirements
+****[#yellow] ====<size:13> Identify the Business Need
+****[#yellow] ====<size:13> Analyze the Requirements
 *** Determine the Data
-**** Size of the Data
-**** Complexity of the Data
-****[#pink] =**Structure of the Data**
-***** Structured-data or labeled data **(15%-20%)** on internet
-***** un-Structured-data or un-labeled data **(80%-85%)** on internet
+****[#yellow] ====<size:13>Size of the Data
+****[#yellow] ====<size:13>Complexity of the Data
+****[#yellow] ====<size:13>**Structure of the Data**
+****[#yellow] ====<size:13>Structured-data or labeled data **(15%-20%)** on internet
+****[#yellow] ====<size:13>un-Structured-data or un-labeled data **(80%-85%)** on internet
 
 ** Evaluate Techniques/Frameworks
 *** Machine Learning
-**** <color #green>**Supervised Learning**</color> (works on **labeled data**), \nlabeled data is also called as **structured data**
-***** Regression
+****[#yellow] ====<size:13> <color #green>**Supervised Learning**</color> (works on **labeled data**), \nlabeled data is also called as **structured data**
+*****[#yellow] ====<size:13>Regression
 ***** Classification
-**** <color #green>**Unsupervised Learning**</color> (works on **un-labeled data**), \nunlabeled data is also called as **un-structured data**
+****[#yellow] ====<size:13><color #green>**Unsupervised Learning**</color> (works on **un-labeled data**), \nunlabeled data is also called as **un-structured data**
 ***** Clustering
 ***** Dimensionality Reduction
 ***** Anomaly detection
-**** Reinforcement Learning
+****[#yellow] ====<size:13>Reinforcement Learning
 ***** agent, reward & punishment, state, environment and action
-**** Deep Learning
+****[#yellow] ====<size:13> Deep Learning
 ***** Convolutional Neural Networks (CNN)
 ***** Recurrent Neural Networks (RNN)
 *** Statistical Models
-**** Linear Regression
-**** Logistic Regression
-**** Time Series Analysis
-**** Bayesian Inference
+****[#yellow] ====<size:13>Linear Regression
+****[#yellow] ====<size:13>Logistic Regression
+****[#yellow] ====<size:13>Time Series Analysis
+****[#yellow] ====<size:13>Bayesian Inference
 *** Optimization Methods
-**** Gradient Descent
-**** Evolutionary Algorithms
-**** Simulated Annealing
-**** Genetic Algorithms
+****[#yellow] ====<size:13>Gradient Descent
+****[#yellow] ====<size:13>Evolutionary Algorithms
+****[#yellow] ====<size:13>Simulated Annealing
+****[#yellow] ====<size:13>Genetic Algorithms
 *** Rule-Based Systems
-**** Decision Trees
-**** Random Forest
-**** Association Rules
-**** Fuzzy Logic
+****[#yellow] ====<size:13>Decision Trees
+****[#yellow] ====<size:13>Random Forest
+****[#yellow] ====<size:13>Association Rules
+****[#yellow] ====<size:13>Fuzzy Logic
 *** Other Techniques/Frameworks
-**** Natural Language Processing
-**** Computer Vision
-**** Graph Theory
+****[#yellow] ====<size:13>Natural Language Processing
+****[#yellow] ====<size:13>Computer Vision
+****[#yellow] ====<size:13>Graph Theory
 
 ** Consider the Context
 *** Resource Constraints
-**** Compute Resources
-**** Memory Resources
-**** Storage Resources
+****[#yellow] ====<size:13>Compute Resources
+****[#yellow] ====<size:13>Memory Resources
+****[#yellow] ====<size:13>Storage Resources
 *** Time Constraints
-**** Real-Time Applications
-**** Batch Processing
-**** Offline Processing
+****[#yellow] ====<size:13>Real-Time Applications
+****[#yellow] ====<size:13>Batch Processing
+****[#yellow] ====<size:13>Offline Processing
 *** Organizational Constraints
-**** Skillset of Team
-**** Existing Infrastructure
-**** Budget Constraints
+****[#yellow] ====<size:13>Skillset of Team
+****[#yellow] ====<size:13>Existing Infrastructure
+****[#yellow] ====<size:13>Budget Constraints
 
 @endmindmap

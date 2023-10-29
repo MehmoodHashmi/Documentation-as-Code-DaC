@@ -4,61 +4,61 @@ title =Applications of Data Science
 
 * Data Science
 ** Classification
-*** Sentiment Analysis
-*** Image Classification
-*** Spam Detection
-*** Medical Diagnosis
+***[#yellow] ====<size:13>Sentiment Analysis
+***[#yellow] ====<size:13>Image Classification
+***[#yellow] ====<size:13>Spam Detection
+***[#yellow] ====<size:13>Medical Diagnosis
 ** Regression
-*** Sales Forecasting
-*** Price Prediction
-*** Demand Forecasting
+***[#yellow] ====<size:13>Sales Forecasting
+***[#yellow] ====<size:13>Price Prediction
+***[#yellow] ====<size:13>Demand Forecasting
 ** Clustering
-*** Customer Segmentation
-*** Anomaly Detection
-*** Recommendation Systems
+***[#yellow] ====<size:13>Customer Segmentation
+***[#yellow] ====<size:13>Anomaly Detection
+***[#yellow] ====<size:13>Recommendation Systems
 ** Natural Language Processing
-*** Chatbots
-*** Language Translation
-*** Text Summarization
+***[#yellow] ====<size:13>Chatbots
+***[#yellow] ====<size:13>Language Translation
+***[#yellow] ====<size:13>Text Summarization
 ** Time Series Analysis
-*** Stock Market Predictions
-*** Weather Forecasting
-*** Demand Forecasting
+***[#yellow] ====<size:13>Stock Market Predictions
+***[#yellow] ====<size:13>Weather Forecasting
+***[#yellow] ====<size:13>Demand Forecasting
 ** Big Data Analysis
-*** Social Media Analytics
-*** Fraud Detection
-*** Network Traffic Analysis
+***[#yellow] ====<size:13>Social Media Analytics
+***[#yellow] ====<size:13>Fraud Detection
+***[#yellow] ====<size:13>Network Traffic Analysis
 ** Machine Learning
-*** Predictive Maintenance
-*** Credit Scoring
-*** Autonomous Vehicles
+***[#yellow] ====<size:13>Predictive Maintenance
+***[#yellow] ====<size:13>Credit Scoring
+***[#yellow] ====<size:13>Autonomous Vehicles
 ** Data Visualization
-*** Interactive Dashboards
-*** Infographics
-*** Exploratory Data Analysis
+***[#yellow] ====<size:13>Interactive Dashboards
+***[#yellow] ====<size:13>Infographics
+***[#yellow] ====<size:13>Exploratory Data Analysis
 ** Data Mining
-*** Market Basket Analysis
-*** Association Rule Mining
+***[#yellow] ====<size:13>Market Basket Analysis
+***[#yellow] ====<size:13>Association Rule Mining
 ** Deep Learning
-*** Speech Recognition
-***[#yellow] ===Object Detection
+***[#yellow] ====<size:13>Speech Recognition
+***[#gold] ====<size:13>**Object Detection**
 ** Geospatial Analysis
-*** GIS Applications
-*** Location-Based Services
+***[#yellow] ====<size:13>GIS Applications
+***[#yellow] ====<size:13>Location-Based Services
 ** Healthcare Analytics
-*** Disease Detection
-*** Drug Discovery
+***[#yellow] ====<size:13>Disease Detection
+***[#yellow] ====<size:13>Drug Discovery
 ** Environmental Data Science
-*** Climate Modeling
-*** Natural Disaster Prediction
+***[#yellow] ====<size:13>Climate Modeling
+***[#yellow] ====<size:13>Natural Disaster Prediction
 ** Financial Data Science
-*** Portfolio Management
-*** Credit Risk Assessment
+***[#yellow] ====<size:13>Portfolio Management
+***[#yellow] ====<size:13>Credit Risk Assessment
 ** Sports Analytics
-*** Performance Analysis
-*** Player Evaluation
+***[#yellow] ====<size:13>Performance Analysis
+***[#yellow] ====<size:13>Player Evaluation
 ** Education Analytics
-*** Personalized Learning
-*** Student Performance Analysis
+***[#yellow] ====<size:13>Personalized Learning
+***[#yellow] ====<size:13>Student Performance Analysis
 ** Conclusion - The applications of data science are vast and diverse, providing insights and solutions across various domains.
 @endmindmap

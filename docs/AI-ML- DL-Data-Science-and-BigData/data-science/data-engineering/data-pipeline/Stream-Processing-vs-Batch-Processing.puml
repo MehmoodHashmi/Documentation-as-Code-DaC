@@ -1,0 +1,70 @@
+@startmindmap
+title =__ Stream Processing vs. Batch Processing__
+!theme hacker
+
+* Stream Processing vs. Batch Processing
+** Stream Processing
+*** Definition
+****[#yellow] ====<size:12>Stream processing refers to the real-time processing of continuous data streams, analyzing and acting on data as it is generated.
+*** Key Characteristics
+****[#yellow] ====<size:12>Continuous and Real-time
+****[#yellow] ====<size:12>Infinite Data Streams
+****[#yellow] ====<size:12>Event-driven Processing
+****[#yellow] ====<size:12>Low Latency
+****[#yellow] ====<size:12>Stateless and Parallel Processing
+***[#gold] ==Use Cases
+****[#yellow] ====<size:12>Real-time Analytics
+****[#yellow] ====<size:12>Fraud Detection
+****[#yellow] ====<size:12>IoT Data Processing
+****[#yellow] ====<size:12>Clickstream Analysis
+****[#yellow] ====<size:12>Monitoring and Alerting
+*** Technologies
+****[#yellow] ====<size:12>Apache Kafka
+****[#yellow] ====<size:12>Apache Flink
+****[#yellow] ====<size:12>Apache Storm
+****[#yellow] ====<size:12>Spark Streaming
+****[#yellow] ====<size:12>Amazon Kinesis
+** Batch Processing
+*** Definition
+****[#yellow] ====<size:12>Batch processing refers to processing large volumes of data in discrete batches, analyzing and acting on data in fixed intervals or predefined time windows.
+*** Key Characteristics
+****[#yellow] ====<size:12>Bulk Processing
+****[#yellow] ====<size:12>Finite Data Sets
+****[#yellow] ====<size:12>Scheduled Processing
+****[#yellow] ====<size:12>High Throughput
+****[#yellow] ====<size:12>Stateful and Sequential Processing
+*** Use Cases
+****[#yellow] ====<size:12>Data Warehousing
+****[#yellow] ====<size:12>ETL (Extract, Transform, Load) Processes
+****[#yellow] ====<size:12>Business Intelligence Reporting
+****[#yellow] ====<size:12>Data Aggregation
+****[#yellow] ====<size:12>Data Archiving and Backup
+*** Technologies
+****[#yellow] ====<size:12>Apache Hadoop
+****[#yellow] ====<size:12>Apache Spark
+****[#yellow] ====<size:12>Apache Hive
+****[#yellow] ====<size:12>Apache Pig
+****[#yellow] ====<size:12>Amazon EMR
+** Considerations for Choosing Between Stream and Batch Processing
+*** Data Freshness Requirements
+*** Processing Latency
+*** Data Volume and Velocity
+*** Processing Complexity
+*** Use Case and Application Requirements
+*** Scalability and Resource Utilization
+** **Hybrid Solutions:** Lambda Architecture
+*** Definition
+****[#yellow] ====<size:12>Lambda architecture combines both stream and batch processing approaches to handle real-time and historical data processing.
+*** Advantages
+****[#yellow] ====<size:12>Real-time and Historical Insights
+****[#yellow] ====<size:12>Fault Tolerance and Resilience
+****[#yellow] ====<size:12>Flexible and Extensible Architecture
+****[#yellow] ====<size:12>Polyglot Persistence
+****[#yellow] ====<size:12>Separation of Concerns
+*** Challenges
+****[#yellow] ====<size:12>Complexity and Maintenance
+****[#yellow] ====<size:12>Data Consistency and Synchronization
+****[#yellow] ====<size:12>Development and Deployment Overhead
+****[#yellow] ====<size:12>Data Duplication and Storage Costs
+****[#yellow] ====<size:12>Skill and Expertise Requirements
+@endmindmap

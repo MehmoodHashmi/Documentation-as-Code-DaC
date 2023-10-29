@@ -53,10 +53,21 @@ manner and resultantly made it a classification problem.;
 ==<size:24>**Regression**==
 <img:images/linear-equation.png>
 <img:images/dependent-and-independent-variable.png>
+
+==<size:22>**"Distance" of a "Point" form the "Line"**==
+* The **Mean Squared Error (MSE)** is a common evaluation metric used in regression tasks.
+* It measures the **average squared difference* between the actual and predicted values.
+* There are few more types of (MSE), which are used based on the need
+<img:images/img_63.png>
+
+<img:images/img_62.png>
+* **Answer#1** Reasons for high (MSE) can be like **"Not performing the __data preprocessing__ step"**
+* **Answer#2** To lower the (MSE) perform **data preprocessing** step carefully
+
 = __Linear regression__ in __3-dimension__ will be a __<color #crimson>"plane"</color> not a <color #brown>"line"__
 <img:images/planeBiVector.png>;
-********* <img:images/mean-squared-error-(MSE).png>
-********** There are few more types of (MSE), use based on the need
+
+
 
 ** Unlabeled Data
 ***[#pink] **Unsupervised Learning**

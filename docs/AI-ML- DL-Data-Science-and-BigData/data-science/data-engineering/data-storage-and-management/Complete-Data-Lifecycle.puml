@@ -1,0 +1,55 @@
+@startmindmap
+title =__ Complete Data Lifecycle__
+!theme hacker
+
+* Complete Data Lifecycle
+** Data Acquisition
+*** Data Collection
+*** Data Extraction
+*** Data Ingestion
+** Data Storage
+*** Relational Databases
+*** NoSQL Databases
+*** Data Warehouses
+*** Data Lakes
+** Data Processing
+*** Data Transformation
+****[#yellow] ====<size:12>Data Cleaning
+****[#yellow] ====<size:12>Data Integration
+****[#yellow] ====<size:12>Data Aggregation
+****[#yellow] ====<size:12>Data Enrichment
+****[#yellow] ====<size:12>Data Validation
+****[#yellow] ====<size:12>Data Sampling
+*** Data Analysis
+****[#yellow] ====<size:12>Descriptive Analytics
+****[#yellow] ====<size:12>Diagnostic Analytics
+****[#yellow] ====<size:12>Predictive Analytics
+****[#yellow] ====<size:12>Prescriptive Analytics
+*** Data Visualization
+****[#yellow] ====<size:12>Charts and Graphs
+****[#yellow] ====<size:12>Dashboards
+****[#yellow] ====<size:12>Interactive Reports
+** Data Governance
+*** Data Quality Management
+*** Data Security and Privacy
+*** Data Compliance
+*** Data Cataloging
+*** Data Stewardship
+** Data Usage
+*** Business Intelligence
+*** Reporting and Dashboards
+*** Machine Learning
+*** Artificial Intelligence
+*** Decision Support Systems
+*** Operational Analytics
+** Data Archiving and Retention
+*** Long-Term Storage
+*** Data Backup
+*** Data Restoration
+*** Data Purging
+** Data Disposal
+*** Secure Data Destruction
+*** Compliance with Regulations
+*** Data Anonymization
+*** Data Masking
+@endmindmap

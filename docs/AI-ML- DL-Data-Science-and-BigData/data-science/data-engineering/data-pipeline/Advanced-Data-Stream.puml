@@ -1,0 +1,70 @@
+@startmindmap
+
+skinparam node {
+    BorderColor DarkGray
+    BackgroundColor White
+}
+
+skinparam connector {
+    LineColor DarkGray
+}
+!theme hacker
+
+title =__ Advanced Data Stream__
+* Advanced Data Stream
+
+** Stream Processing
+*** Definition
+****[#yellow] ====<size:12>Continuous processing of data records as they arrive
+****[#yellow] ====<size:12>Enables real-time analytics and immediate response to data
+
+*** Techniques
+****[#yellow] ===<size:12>Windowing
+***** Divides the data stream into finite, overlapping or non-overlapping time intervals for analysis
+***** **Examples:** Tumbling windows, sliding windows
+
+****[#yellow] ===<size:12>Joining and Aggregation
+***** Combines multiple data streams based on shared attributes or keys
+***** Performs aggregation operations on the combined data
+***** **Examples:** Joining customer data with sales data, computing sum or average
+
+****[#yellow] ===<size:12>Complex Event Processing (CEP)
+***** Identifies patterns and correlations in the data stream
+***** Allows detection of complex events or situations
+***** **Examples:** Fraud detection, anomaly detection, predictive maintenance
+
+**[#pink] =//**Stream Storage**//
+*** Definition
+****[#yellow] ===<size:12>Storage mechanisms for persistent storage of streaming data
+
+***[#pink] **Technologies**
+****[#yellow] ====<size:12>**Apache Kafka**
+***** Distributed streaming platform with built-in persistence and fault tolerance
+
+****[#yellow] ===<size:12>Apache Pulsar
+***** Highly scalable and durable pub-sub messaging system with streaming capabilities
+
+****[#yellow] ===<size:12>Amazon Kinesis Data Streams
+***** Managed service for storing and processing large-scale streaming data
+
+****[#yellow] ===<size:12>Google Cloud Dataflow
+***** Fully managed service for data processing and stream storage
+
+** Stream Integration
+*** Definition
+****[#yellow] ===<size:12>Integration of streaming data with other systems and platforms
+
+*** Technologies
+****[#yellow] ===<size:12>Apache Nifi
+***** Data integration platform for seamless flow of data across various systems
+
+****[#yellow] ===<size:12>Apache Beam
+***** Unified programming model and API for stream and batch processing
+
+****[#yellow] ===<size:12>Apache Flink
+***** Stream processing framework for building event-driven applications
+
+****[#yellow] ===<size:12>Confluent Platform
+***** Provides tools and capabilities for building real-time streaming applications with Apache Kafka
+
+@endmindmap

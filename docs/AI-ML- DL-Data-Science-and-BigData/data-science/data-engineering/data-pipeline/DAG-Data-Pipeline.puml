@@ -1,0 +1,38 @@
+@startmindmap
+title =__ DAG Data Pipeline__
+!theme hacker
+* =DAG Data Pipeline
+** Definition
+***[#yellow] ====<size:12>A data processing pipeline that uses a **Directed Acyclic Graph (DAG)** as its underlying structure
+**[#gold] =Components
+***[#orange] ====<size:12>**Source:** Provides the initial data to be processed
+***[#orange] ====<size:12>**Transformation:** Applies operations and transformations on the data
+***[#orange] ====<size:12>**Sink:** Stores or outputs the processed data
+** Characteristics
+***[#yellow] ====<size:12>**Task-based:** Each node in the DAG represents a specific task or operation
+***[#yellow] ====<size:12>**Dependency-driven:** Edges define the data flow and dependencies between tasks
+***[#yellow] ====<size:12>**Parallel execution: **Independent tasks can be executed concurrently
+***[#yellow] ====<size:12>**Fault-tolerant:** Supports error handling and retries for task failures
+** Advantages
+***[#yellow] ====<size:12>**Scalability:** Can handle large volumes of data and scale horizontally
+***[#yellow] ====<size:12>**Flexibility:** Supports different types of data sources, transformations, and sinks
+***[#yellow] ====<size:12>**Modularity:** Tasks can be added, removed, or modified without affecting the entire pipeline
+***[#yellow] ====<size:12>**Reusability:** Common tasks or transformations can be shared across multiple pipelines
+** Use Cases
+***[#yellow] ====<size:12>Data ingestion and extraction
+***[#yellow] ====<size:12>Data transformation and cleansing
+***[#yellow] ====<size:12>Data aggregation and analytics
+***[#yellow] ====<size:12>Real-time streaming processing
+** Tools and Frameworks
+***[#yellow] ====<size:12>Apache Airflow
+***[#yellow] ====<size:12>Apache NiFi
+***[#yellow] ====<size:12>Apache Beam
+***[#yellow] ====<size:12>Luigi
+***[#yellow] ====<size:12>AWS Data Pipeline
+** Best Practices
+***[#yellow] ====<size:12>Design a clear and well-defined DAG structure
+***[#yellow] ====<size:12>Identify and handle data dependencies between tasks
+***[#yellow] ====<size:12>Optimize task execution order for performance
+***[#yellow] ====<size:12>Monitor and log task progress and data flow
+***[#yellow] ====<size:12>Implement error handling and retries for fault tolerance
+@endmindmap

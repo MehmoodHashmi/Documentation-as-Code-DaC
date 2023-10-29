@@ -1,18 +1,19 @@
 @startmindmap
 title =__ NLP__
+!theme hacker
 
 * NLP
 ** Core Concepts
 *** Syntax
-**** Part of speech tagging
-**** Parsing
+****[#yellow] ====<size:13>Part of speech tagging
+****[#yellow] ====<size:13>Parsing
 *** Semantics
-**** Named entity recognition
-**** Sentiment analysis
-**** Topic modeling
+****[#yellow] ====<size:13>Named entity recognition
+****[#yellow] ====<size:13>Sentiment analysis
+****[#yellow] ====<size:13>Topic modeling
 *** Discourse
-**** Co-reference resolution
-**** Coreference chains
+****[#yellow] ====<size:13>Co-reference resolution
+****[#yellow] ====<size:13>Coreference chains
 ** Applications
 *** Machine Translation
 *** Sentiment Analysis
@@ -22,14 +23,14 @@ title =__ NLP__
 ** Techniques
 *** Rule-based
 *** Machine Learning-based
-**** Supervised learning
-**** Unsupervised learning
-**** Semi-supervised learning
-**** Reinforcement learning
+****[#yellow] ====<size:13>Supervised learning
+****[#yellow] ====<size:13>Unsupervised learning
+****[#yellow] ====<size:13>Semi-supervised learning
+****[#yellow] ====<size:13>Reinforcement learning
 *** Deep Learning
-**** Convolutional Neural Networks
-**** Recurrent Neural Networks
-**** Transformer
+****[#yellow] ====<size:13>Convolutional Neural Networks
+****[#yellow] ====<size:13>Recurrent Neural Networks
+****[#yellow] ====<size:13>Transformer
 ** Challenges
 *** Ambiguity
 *** Polysemy

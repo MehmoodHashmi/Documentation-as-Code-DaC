@@ -1,0 +1,79 @@
+@startmindmap
+title =__ Data Vault vs 3NF vs Dimensional Modeling__
+!theme hacker
+
+* **[[https://www.youtube.com/watch?v=l5UcUEt1IzM&ab_channel=ITkFunde]]**
+
+* Data Vault vs 3NF vs Dimensional Modeling
+**[#gold] Data Vault
+*** Overview
+****[#yellow] ====<size:12>Data Vault is a data modeling methodology designed for data warehousing and analytics.
+****[#yellow] ====<size:12>It focuses on scalability, flexibility, auditability, and historical tracking of data.
+***[#a] =Key Concepts
+****[#yellow] ====<size:12>Hub
+***** Represents a business key or a unique identifier for an entity.
+****[#yellow] ====<size:12>Link
+***** Represents a many-to-many relationship between Hubs.
+****[#yellow] ====<size:12>Satellite
+***** Contains descriptive or contextual information about Hubs and Links.
+****[#yellow] ====<size:12>Vault
+***** Collection of interconnected Hubs, Links, and Satellites.
+*** Benefits
+****[#yellow] ====<size:12>Scalability
+***** Supports incremental data loading and parallel processing.
+****[#yellow] ====<size:12>Flexibility
+***** Adaptable to changes in business requirements.
+****[#yellow] ====<size:12>Auditability
+***** Tracks historical changes and provides traceability of data.
+*** Challenges
+****[#yellow] ====<size:12>Complexity
+***** Requires additional effort in data modeling and development.
+****[#yellow] ====<size:12>Performance
+***** May impact query performance due to schema complexity.
+**[#pink] 3NF (Third Normal Form)
+*** Overview
+****[#yellow] ====<size:12>3NF is a data normalization technique that reduces data redundancy and ensures data integrity.
+****[#yellow] ====<size:12>It focuses on eliminating data anomalies and maintaining data consistency.
+*** Key Concepts
+****[#yellow] ====<size:12>Entity
+***** Represents a distinct real-world object or concept.
+****[#yellow] ====<size:12>Attributes
+***** Descriptive properties of an entity.
+****[#yellow] ====<size:12>Relationships
+***** Associations between entities.
+*** Benefits
+****[#yellow] ====<size:12>Data Integrity
+***** Reduces data redundancy and ensures consistent data.
+****[#yellow] ====<size:12>Relational Integrity
+***** Supports complex relationships between entities.
+****[#yellow] ====<size:12>Data Consistency
+***** Helps maintain data quality and accuracy.
+*** Challenges
+****[#yellow] ====<size:12>Performance
+***** May require complex joins and queries for data retrieval.
+****[#yellow] ====<size:12>Data Redundancy
+***** Can result in larger data storage requirements.
+**[#lightgreen] Dimensional Modeling
+*** Overview
+****[#yellow] ====<size:12>Dimensional Modeling is a data modeling technique for data warehousing and business intelligence.
+****[#yellow] ====<size:12>It focuses on simplicity, ease of use, and query performance.
+***[#a] =Key Concepts
+****[#yellow] ====<size:12>Fact Table
+***** Contains the numerical and measurable data (facts) related to a business process.
+****[#yellow] ====<size:12>Dimension Table
+***** Contains descriptive attributes that provide context to the facts in the Fact Table.
+****[#yellow] ====<size:12>Star Schema
+***** Consists of a central Fact Table connected to multiple Dimension Tables.
+*** Benefits
+****[#yellow] ====<size:12>Query Performance
+***** Optimized for analytical queries and aggregations.
+****[#yellow] ====<size:12>Simplicity
+***** Easy to understand and navigate for business users.
+****[#yellow] ====<size:12>Performance
+***** Efficient for reporting and ad-hoc analysis.
+*** Challenges
+****[#yellow] ====<size:12>Data Redundancy
+***** Can result in duplicated data in Dimension Tables.
+****[#yellow] ====<size:12>Limited Flexibility
+***** Less adaptable to changes in business requirements.
+@endmindmap

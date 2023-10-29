@@ -1,0 +1,47 @@
+@startmindmap
+title =__ Data Management__
+!theme hacker
+
+* Data Management
+** Data Governance
+***[#yellow] ====Data Policies
+***[#yellow] ====Data Standards
+***[#yellow] ====Data Quality Management
+***[#yellow] ====Data Privacy
+** Data Architecture
+***[#yellow] ====Data Models
+***[#yellow] ====Data Integration
+***[#yellow] ====Data Storage
+***[#yellow] ====Data Warehousing
+** Data Operations
+***[#yellow] ====Data Acquisition
+***[#yellow] ====Data Transformation
+***[#yellow] ====Data Loading
+***[#yellow] ====Data Extraction
+***[#yellow] ====Data Migration
+** Data Security
+***[#yellow] ====Data Access Control
+***[#yellow] ====Data Encryption
+***[#yellow] ====Data Masking
+***[#yellow] ====Data Auditing
+** Master Data Management
+***[#yellow] ====Master Data Definition
+***[#yellow] ====Master Data Governance
+***[#yellow] ====Master Data Quality
+***[#yellow] ====Master Data Integration
+** Metadata Management
+***[#yellow] ====Metadata Definition
+***[#yellow] ====Metadata Repositories
+***[#yellow] ====Metadata Standards
+***[#yellow] ====Metadata Governance
+** Data Lifecycle Management
+***[#yellow] ====Data Creation
+***[#yellow] ====Data Storage
+***[#yellow] ====Data Usage
+***[#yellow] ====Data Archiving
+** Data Analytics
+***[#yellow] ====Data Exploration
+***[#yellow] ====Data Visualization
+***[#yellow] ====Data Reporting
+***[#yellow] ====Data Mining
+@endmindmap

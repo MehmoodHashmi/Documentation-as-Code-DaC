@@ -1,0 +1,98 @@
+@startmindmap
+title =__Data Wrangling__
+!theme hacker
+
+* Data Wrangling
+
+** Definition
+*** The process of transforming and cleaning raw data into a suitable format for analysis.
+
+** Steps
+
+*** Data Acquisition
+****[#yellow] ====<size:12>Collecting data from various sources such as databases, APIs, files, or web scraping.
+
+*** Data Cleaning
+****[#yellow] ====<size:12>Handling missing values, outliers, duplicates, and inconsistent data.
+
+*** Data Transformation
+****[#yellow] ====<size:12>Converting data into a more structured or usable form.
+****[#yellow] ====<size:12>**Examples:** Reshaping data, converting data types, merging or joining datasets.
+
+*** Data Integration
+****[#yellow] ====<size:12>Combining data from multiple sources into a single dataset.
+
+*** Data Aggregation
+****[#yellow] ====<size:12>Summarizing or aggregating data based on certain criteria.
+****[#yellow] ====<size:12>**Examples:** Grouping data, calculating averages, counts, or other statistics.
+
+*** Feature Engineering
+****[#yellow] ====<size:12>Creating new features or variables from existing data.
+****[#yellow] ====<size:12>**Examples:** Creating dummy variables, extracting information from text or timestamps.
+
+*** Data Validation and Quality Checks
+****[#yellow] ====<size:12>Ensuring data accuracy, consistency, and validity.
+****[#yellow] ====<size:12>**Examples:** Cross-validation, data profiling, checking data integrity.
+
+** Tools
+
+*** Python Libraries
+****[#yellow] ====<size:12>**pandas:** Powerful data manipulation and analysis library.
+****[#yellow] ====<size:12>**NumPy:** Fundamental package for scientific computing with multi-dimensional arrays.
+****[#yellow] ====<size:12>**scikit-**learn: Machine learning library with tools for data preprocessing.
+****[#yellow] ====<size:12>**Dask:** Parallel computing library for big data processing.
+****[#yellow] ====<size:12>**SQLAlchemy:** SQL toolkit and Object-Relational Mapping (ORM) library.
+****[#yellow] ====<size:12>**BeautifulSoup:** Web scraping library for extracting data from HTML and XML.
+
+*** R Libraries
+****[#yellow] ====<size:12>**dplyr:** Data manipulation library with a grammar of data manipulation.
+****[#yellow] ====<size:12>**tidyr:** Tools for reshaping and tidying data.
+****[#yellow] ====<size:12>**plyr:** Tools for splitting, applying, and combining data.
+****[#yellow] ====<size:12>**data.table:** Fast data manipulation library optimized for performance.
+****[#yellow] ====<size:12>**stringr:** String manipulation library for text data.
+****[#yellow] ====<size:12>**XML:** Parsing and generating XML and HTML data.
+
+*** SQL
+****[#yellow] ====<size:12>Structured Query Language for managing and manipulating relational databases.
+
+*** Command Line Tools
+****[#yellow] ====<size:12>**grep, sed, awk:** Command-line tools for searching, editing, and transforming text.
+
+** Challenges
+
+*** Missing Data
+****[#yellow] ====<size:12>Handling missing values, determining appropriate strategies for imputation.
+
+*** Data Inconsistencies
+****[#yellow] ====<size:12>Dealing with inconsistent formats, units, or naming conventions.
+
+*** Data Volume and Scalability
+****[#yellow] ====<size:12>Processing and manipulating large datasets efficiently.
+
+*** Data Quality Issues
+****[#yellow] ====<size:12>Detecting and resolving errors, outliers, or inconsistent data.
+
+*** Data Security and Privacy
+****[#yellow] ====<size:12>Ensuring compliance with data protection regulations.
+
+** Best Practices
+
+*** Data Understanding
+****[#yellow] ====<size:12>Gaining a deep understanding of the data and its characteristics.
+
+*** Documentation
+****[#yellow] ====<size:12>Documenting data sources, assumptions, and transformations for reproducibility.
+
+*** Iterative Approach
+****[#yellow] ====<size:12>Iteratively refining and validating data wrangling steps.
+
+*** Automation
+****[#yellow] ====<size:12>Automating data wrangling processes to improve efficiency and consistency.
+
+*** Version Control
+****[#yellow] ====<size:12>Using version control systems to track changes in data and code.
+
+*** Collaboration
+****[#yellow] ====<size:12>Collaborating with domain experts and data stakeholders for better data quality.
+
+@endmindmap

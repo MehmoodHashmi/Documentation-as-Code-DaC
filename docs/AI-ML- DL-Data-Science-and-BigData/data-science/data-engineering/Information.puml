@@ -1,0 +1,71 @@
+@startmindmap
+skinparam shadowing false
+!theme hacker
+
+title =__ Information__
+* Information
+** Types of Information
+***[#yellow] ====<size:13>Textual Information
+***[#yellow] ====<size:13>Visual Information
+***[#yellow] ====<size:13>Audio Information
+***[#yellow] ====<size:13>Numeric Information
+
+** Sources of Information
+***[#yellow] ====<size:13>Printed Materials
+***[#yellow] ====<size:13>Online Sources
+***[#yellow] ====<size:13>Databases
+***[#yellow] ====<size:13>Interviews
+***[#yellow] ====<size:13>Surveys
+***[#yellow] ====<size:13>Experts and Professionals
+
+** Information Organization and Storage
+***[#yellow] ====<size:13>File Systems
+***[#yellow] ====<size:13>Databases
+****[#white] ====<size:13>Relational Databases
+****[#white] ====<size:13>NoSQL Databases
+****[#white] ====<size:13>Data Warehouses
+***[#yellow] ====<size:13>Knowledge Management Systems
+***[#yellow] ====<size:13>Content Management Systems
+***[#yellow] ====<size:13>Information Retrieval Systems
+
+** Information Processing
+***[#yellow] ====<size:13>Data Entry and Validation
+***[#yellow] ====<size:13>Data Transformation
+***[#yellow] ====<size:13>Data Aggregation
+***[#yellow] ====<size:13>Data Analysis
+***[#yellow] ====<size:13>Data Visualization
+***[#yellow] ====<size:13>Information Interpretation
+
+** Information Security and Privacy
+***[#yellow] ====<size:13>Encryption
+***[#yellow] ====<size:13>Access Control
+***[#yellow] ====<size:13>Authentication
+***[#yellow] ====<size:13>Data Backup and Recovery
+***[#yellow] ====<size:13>Privacy Policies
+***[#yellow] ====<size:13>Compliance with Regulations
+
+** Information Communication
+***[#yellow] ====<size:13>Written Communication
+***[#yellow] ====<size:13>Oral Communication
+***[#yellow] ====<size:13>Visual Communication
+***[#yellow] ====<size:13>Electronic Communication
+***[#yellow] ====<size:13>Presentation Skills
+***[#yellow] ====<size:13>Information Sharing Platforms
+
+** Information Evaluation and Quality
+***[#yellow] ====<size:13>Information Reliability
+***[#yellow] ====<size:13>Information Accuracy
+***[#yellow] ====<size:13>Information Currency
+***[#yellow] ====<size:13>Information Relevance
+***[#yellow] ====<size:13>Information Bias
+***[#yellow] ====<size:13>Peer Review and Validation
+
+** Information Management
+***[#yellow] ====<size:13>Information Needs Assessment
+***[#yellow] ====<size:13>Information Search and Retrieval
+***[#yellow] ====<size:13>Information Organization
+***[#yellow] ====<size:13>Information Sharing and Dissemination
+***[#yellow] ====<size:13>Information Preservation
+***[#yellow] ====<size:13>Information Governance
+
+@endmindmap

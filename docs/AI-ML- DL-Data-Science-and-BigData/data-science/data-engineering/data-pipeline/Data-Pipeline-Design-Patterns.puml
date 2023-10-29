@@ -1,0 +1,46 @@
+@startmindmap
+title =__ Data Pipeline Design Patterns__
+!theme hacker
+
+* Data Pipeline Design Patterns
+** =Batch Processing
+*** ===Extract, Transform, Load (ETL)
+****[#yellow] ====<size:12>Data Extraction
+****[#yellow] ====<size:12>Data Transformation
+****[#yellow] ====<size:12>Data Loading
+***[#a] ===MapReduce
+****[#yellow] ====<size:12>Map Phase
+****[#yellow] ====<size:12>Reduce Phase
+****[#yellow] ====<size:12>Shuffling
+****[#yellow] ====<size:12>Sorting
+*** Batch Data Synchronization
+****[#yellow] ====<size:12>Batch Data Ingestion
+****[#yellow] ====<size:12>Batch Data Transformation
+****[#yellow] ====<size:12>Batch Data Output
+** =Real-Time Processing
+***[#gold] ===Stream Processing
+****[#yellow] ====<size:12>Event Stream Processing
+****[#yellow] ====<size:12>Stream Analytics
+****[#yellow] ====<size:12>Windowing and Time-based Processing
+***[#lightgreen] =Event-Driven Architecture
+****[#yellow] ====<size:12>Event Sources
+****[#yellow] ====<size:12>Event Processing and Routing
+****[#yellow] ====<size:12>Event Storage and Persistence
+*** Complex Event Processing (CEP)
+****[#yellow] ====<size:12>Event Detection and Pattern Matching
+****[#yellow] ====<size:12>Event Correlation
+****[#yellow] ====<size:12>Event Aggregation and Filtering
+** Data Integration
+*** Data Replication
+****[#yellow] ====<size:12>Full Replication
+****[#yellow] ====<size:12>Incremental Replication
+****[#yellow] ====<size:12>Change Data Capture (CDC)
+*** Data Federation
+****[#yellow] ====<size:12>Data Virtualization
+****[#yellow] ====<size:12>Data Warehousing
+****[#yellow] ====<size:12>Data Consolidation
+*** Data Migration
+****[#yellow] ====<size:12>Legacy System Migration
+****[#yellow] ====<size:12>Cloud Data Migration
+****[#yellow] ====<size:12>Database Migration
+@endmindmap

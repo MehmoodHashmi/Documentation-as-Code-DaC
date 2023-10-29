@@ -1,0 +1,68 @@
+@startmindmap
+skinparam node {
+    BorderColor DarkSlateGray
+    BackgroundColor LightCyan
+    FontStyle italic
+}
+skinparam connector {
+    Color DarkSlateGray
+    FontStyle Bold
+}
+
+!theme hacker
+title =__ Handling Data Discrepancies__
+
+* Handling Data Discrepancies
+
+** Define Data Discrepancies
+***[#gold] <size:12>Identify Discrepancy Types
+***[#gold] <size:12>Determine Acceptable Tolerance
+
+** Explore Discrepancy Detection Methods
+***[#gold] <size:12>Data Profiling
+***[#gold] <size:12>Statistical Analysis
+***[#gold] <size:12>Cross-Validation
+***[#gold] <size:12>Comparison with Benchmarks
+***[#gold] <size:12>Business Rules Validation
+
+** Identify Discrepancies
+***[#gold] <size:12>Analyze Data Differences
+***[#gold] <size:12>Compare Data Sources
+***[#gold] <size:12>Conduct Data Audits
+
+** Resolve Data Discrepancies
+***[#gold] <size:12>Identify Root Causes
+***[#gold] <size:12>Correct Data Inconsistencies
+***[#gold] <size:12>Update Data Sources
+
+** Validate Resolved Data
+***[#gold] <size:12>Perform Data Quality Checks
+***[#gold] <size:12>Verify Data Consistency
+***[#gold] <size:12>Reconcile Data Discrepancies
+
+** Communicate Data Discrepancies
+***[#gold] <size:12>Document Discrepancies
+***[#gold] <size:12>Notify Stakeholders
+***[#gold] <size:12>Provide Data Quality Reports
+
+** Implement Preventive Measures
+***[#gold] <size:12>Review Data Collection Processes
+***[#gold] <size:12>Improve Data Entry Procedures
+***[#gold] <size:12>Enhance Data Validation Rules
+***[#gold] <size:12>Establish Data Governance
+
+** Monitor Data Consistency
+***[#gold] <size:12>Set up Data Monitoring System
+***[#gold] <size:12>Perform Regular Data Checks
+***[#gold] <size:12>Implement Data Quality Metrics
+
+** Document Data Discrepancy Resolution
+***[#gold] <size:12>Capture Resolution Details
+***[#gold] <size:12>Update Data Documentation
+***[#gold] <size:12>Maintain Data Discrepancy Log
+
+** Review and Improve
+***[#gold] <size:12>Analyze Data Discrepancy Patterns
+***[#gold] <size:12>Identify Process Improvements
+***[#gold] <size:12>Enhance Data Quality Assurance
+@endmindmap

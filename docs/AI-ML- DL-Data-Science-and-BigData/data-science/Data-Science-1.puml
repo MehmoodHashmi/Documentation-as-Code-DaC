@@ -32,18 +32,18 @@ title = "Data Science" \n<img:images/img_18.png>
 
 *[#a] =Tools and Technologies
 ** Programming Languages
-*** Python
-*** R
-*** Java
-*** SQL
+***[#gold] ====<size:13>Python
+***[#gold] ====<size:13>R
+***[#gold] ====<size:13>Java
+***[#gold] ====<size:13>SQL
 ** Big Data Technologies
-*** Hadoop
-*** Spark
-*** Hive
+***[#gold] ====<size:13>Hadoop
+***[#gold] ====<size:13>Spark
+***[#gold] ====<size:13>Hive
 ** Data Science Platforms
-*** Azure Machine Learning
-*** Amazon SageMaker
-*** Google Cloud AI Platform
+***[#gold] ====<size:13>Azure Machine Learning
+***[#gold] ====<size:13>Amazon SageMaker
+***[#gold] ====<size:13>Google Cloud AI Platform
 
 * Applications of Data Science
 ** Business Analytics

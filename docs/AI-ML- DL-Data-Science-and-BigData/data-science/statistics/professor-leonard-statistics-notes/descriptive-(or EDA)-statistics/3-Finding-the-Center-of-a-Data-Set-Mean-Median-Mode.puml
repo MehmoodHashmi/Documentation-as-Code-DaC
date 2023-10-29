@@ -64,24 +64,25 @@ will be considered as <size:22>**"unusual"**</size>;
 <img:images/img_23.png>
 =//In Cases where data is left-skewed or right-skewed, then __Median__ is better metric for the __data centrality__ instead of the __Mean__.//;
 
-* <img:images/img_61.png>
-** <img:images/img_60.png>
+* =Machine Learning \n=(Data Engineering)
+** <img:images/img_61.png>
+*** <img:images/img_60.png>
 
-*:=//If//
+**:=//If//
 =//__1- Data Spread,__//
 =2- IQR or
 =3- normally distributed
 all 3 are same & interchangeable;
-**[#red] =is more
-***:Then:
+***[#red] =is more
+****:Then:
 # You have <size:22>lots of data</size> for the machine or for the model (algorithm) to learn, hence <size:22>model is very good</size> but
 # the model (algorithm) or machine consumes <size:22>more computation time</size>;
-**[#lime] =is less
-***:Then:
+***[#lime] =is less
+****:Then:
 # You have <size:22>less data</size> for the machine or for the model (algorithm) to learn, hence <size:22>model is not very good</size> but
 # the model (algorithm) or machine consumes <size:22>less computation time</size>;
 
-*:=Employee Table:
+**:=Employee Table:
 <img:images/img_35.png>
 ==//__**Data-Set:**__// is all the rows or records of the Employee table/entity.
 *An **entity/table** such as Employee can 've different __levels/types of data__
@@ -92,27 +93,27 @@ column does not exist then its is incomplete data-set
 is 1-billion dollar and remaining 5 employee has 5 thousand salary then
 the data is inconsistent;
 
-** =="e_salary" <color:brown>column</color> is
-*** **attribute** (in statistics world)
-****[#yellow]  **& also in computer science specifically __database people__ use this word**
-*** **feature** (in statistics world)
-****[#yellow]  **& also in AI specifically __Machine Learning (ML) people__ use this word**
-***[#pink] **Dimension** (in Math world)
-****[#yellow]  **in Math specifically __Machine Learning (ML) & linear algebra people__ use this word**
-*** **variable** (in statistics world)
-** =Employee Table: \n<img:images/img_41.png>
-***[#pink] **Employee Table** \n**any row is called**
-**** =Observation
-***** ===(in statistics world)
-**** =<color #black>Data-point</color> OR <color #crimson>Data value
-***** ===(in Math world)
-****[#gold] =Object or instance
-***** ===In OOP world
-**** =Tuple or Record
-***** ===In DB world
-**** ==All these words 've same meaning but used in different contexts
-** =//__Data model__// for physicians and patients: \n<img:images/img_36.png>
-*** =//__Object model__// in OOP:
+*** =="e_salary" <color:brown>column</color> is
+**** **attribute** (in statistics world)
+*****[#yellow]  **& also in computer science specifically __database people__ use this word**
+**** **feature** (in statistics world)
+*****[#yellow]  **& also in AI specifically __Machine Learning (ML) people__ use this word**
+****[#pink] **Dimension** (in Math world)
+*****[#yellow]  **in Math specifically __Machine Learning (ML) & linear algebra people__ use this word**
+**** **variable** (in statistics world)
+*** =Employee Table: \n<img:images/img_41.png>
+****[#pink] **Employee Table** \n**any row is called**
+***** =Observation
+****** ===(in statistics world)
+***** =<color #black>Data-point</color> OR <color #crimson>Data value
+****** ===(in Math world)
+*****[#gold] =Object or instance
+****** ===In OOP world
+***** =Tuple or Record
+****** ===In DB world
+***** ==All these words 've same meaning but used in different contexts
+*** =//__Data model__// for physicians and patients: \n<img:images/img_36.png>
+**** =//__Object model__// in OOP:
 
 *[#red] Lecture-3 Part-2: **Finding the Center of a Data Set. Mean, Median, Mode**
 **[#red] Lecture-3 Part-3: **Finding the Standard Deviation of a Data Set**
