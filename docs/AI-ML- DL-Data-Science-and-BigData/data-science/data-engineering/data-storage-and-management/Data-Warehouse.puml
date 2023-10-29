@@ -1,5 +1,4 @@
 @startmindmap
-!theme hacker
 skinparam node {
     BorderColor DarkSlateGray
     BackgroundColor LightCyan
@@ -10,78 +9,74 @@ skinparam connector {
     FontStyle Bold
 }
 
+!theme hacker
+
 title =__ Data Warehouse__
 * Data Warehouse
 
 ** Definition and Purpose
-*** Centralized Repository for Structured Data
-*** Supports Business Intelligence and Analytics
-*** Provides Historical and Current Data
+***[#yellow] ====<size:14>Centralized Repository for Structured Data
+***[#yellow] ====<size:14>Supports Business Intelligence and Analytics
+***[#yellow] ====<size:14>Provides Historical and Current Data
 
 ** **Key Components**
-*** Data Sources
-*** ETL **(Extract, Transform, Load)** Process
-*** Data Storage
-*** Data Modeling
-*** Data Access and Analytics
+***[#yellow] ====<size:14>Data Sources
+****[#white] ====<size:14>Transactional Databases
+****[#white] ====<size:14>Operational Systems
+****[#white] ====<size:14>External Data Sources **(e.g., APIs)**
+****[#white] ====<size:14>Flat Files and Spreadsheets
 
-** Data Sources
-*** Transactional Databases
-*** Operational Systems
-*** External Data Sources **(e.g., APIs)**
-*** Flat Files and Spreadsheets
+***[#yellow] ====<size:14>ETL **(Extract, Transform, Load)** Process
+****[#white] ====<size:14>Extract Data from Source Systems
+****[#white] ====<size:14>Transform and Cleanse Data
+****[#white] ====<size:14>Load Data into Data Warehouse
+****[#white] ====<size:14>Schedule and Automate ETL Jobs
 
-** ETL **(Extract, Transform, Load)** Process
-*** Extract Data from Source Systems
-*** Transform and Cleanse Data
-*** Load Data into Data Warehouse
-*** Schedule and Automate ETL Jobs
+***[#yellow] ====<size:14>Data Storage
+***[#yellow] ====<size:14>Relational Database Management System **(RDBMS)**
+***[#yellow] ====<size:14>Star Schema or Snowflake Schema
+***[#yellow] ====<size:14>Fact and Dimension Tables
+***[#yellow] ====<size:14>Partitioning and Indexing
 
-** Data Storage
-*** Relational Database Management System **(RDBMS)**
-*** Star Schema or Snowflake Schema
-*** Fact and Dimension Tables
-*** Partitioning and Indexing
+***[#yellow] ====<size:14>Data Modeling
+***[#yellow] ====<size:14>Dimensional Modeling
+***[#yellow] ====<size:14>Star Schema and Snowflake Schema
+***[#yellow] ====<size:14>Logical and Physical Data Models
+***[#yellow] ====<size:14>Entity-Relationship Diagrams **(ERDs)**
 
-** Data Modeling
-*** Dimensional Modeling
-*** Star Schema and Snowflake Schema
-*** Logical and Physical Data Models
-*** Entity-Relationship Diagrams **(ERDs)**
-
-** Data Access and Analytics
-*** SQL-based Queries and Reporting
-*** OLAP **(Online Analytical Processing)**
-*** Data Mining and Predictive Analytics
-*** Data Visualization Tools
-*** Self-Service BI Platforms
+***[#yellow] ====<size:14>Data Access and Analytics
+****[#white] ====<size:14>SQL-based Queries and Reporting
+****[#white] ====<size:14>OLAP **(Online Analytical Processing)**
+****[#white] ====<size:14>Data Mining and Predictive Analytics
+****[#white] ====<size:14>Data Visualization Tools
+****[#white] ====<size:14>Self-Service BI Platforms
 
 ** Benefits of Data Warehouse
-*** Centralized and Consistent Data
-*** Improved Data Quality and Integrity
-*** Historical and Current Data Analysis
-*** Business Intelligence and Decision-Making
-*** Scalability and Performance Optimization
+***[#yellow] ====<size:14>Centralized and Consistent Data
+***[#yellow] ====<size:14>Improved Data Quality and Integrity
+***[#yellow] ====<size:14>Historical and Current Data Analysis
+***[#yellow] ====<size:14>Business Intelligence and Decision-Making
+***[#yellow] ====<size:14>Scalability and Performance Optimization
 
 ** Challenges and Considerations
-*** Data Integration and Cleansing
-*** ETL Performance and Complexity
-*** Data Security and Privacy
-*** Data Warehouse Design and Scalability
-*** Data Warehouse Maintenance and Upgrades
+***[#yellow] ====<size:14>Data Integration and Cleansing
+***[#yellow] ====<size:14>ETL Performance and Complexity
+***[#yellow] ====<size:14>Data Security and Privacy
+***[#yellow] ====<size:14>Data Warehouse Design and Scalability
+***[#yellow] ====<size:14>Data Warehouse Maintenance and Upgrades
 
 ** ===Best Practices
-*** Define Data Warehouse Strategy and Goals
-*** Conduct Requirements Analysis
-*** Design and Implement Scalable Architecture
-*** Optimize ETL Processes and Performance
-*** Regularly Monitor and Tune Data Warehouse
+***[#yellow] ====<size:14>Define Data Warehouse Strategy and Goals
+***[#yellow] ====<size:14>Conduct Requirements Analysis
+***[#yellow] ====<size:14>Design and Implement Scalable Architecture
+***[#yellow] ====<size:14>Optimize ETL Processes and Performance
+***[#yellow] ====<size:14>Regularly Monitor and Tune Data Warehouse
 
 ** ===Use Cases
-*** Business Intelligence and Reporting
-*** Sales and Marketing Analysis
-*** Financial Analysis and Planning
-*** Customer Relationship Management **(CRM)**
-*** Supply Chain Management **(SCM)**
+***[#yellow] ====<size:14>Business Intelligence and Reporting
+***[#yellow] ====<size:14>Sales and Marketing Analysis
+***[#yellow] ====<size:14>Financial Analysis and Planning
+***[#yellow] ====<size:14>Customer Relationship Management **(CRM)**
+***[#yellow] ====<size:14>Supply Chain Management **(SCM)**
 
 @endmindmap

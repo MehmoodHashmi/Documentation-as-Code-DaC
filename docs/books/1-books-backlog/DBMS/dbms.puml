@@ -6,65 +6,65 @@ title =DBMS
 ** Data Abstraction
 ** Data Independence
 **[#yellow] **Data Models**
-*** Relational Model
-*** Hierarchical Model
-*** Network Model
-*** Object-Oriented Model
-*** Entity-Relationship Model
-*** Semantic Data Model
+***[#gold] ====<size:14>Relational Model
+***[#gold] ====<size:14>Hierarchical Model
+***[#gold] ====<size:14>Network Model
+***[#gold] ====<size:14>Object-Oriented Model
+***[#gold] ====<size:14>Entity-Relationship Model
+***[#gold] ====<size:14>Semantic Data Model
 ** Data Dictionary
 ** Data Warehousing
 ** Database Design
-*** Normalization
-*** Functional Dependencies
-*** ER Modeling
-*** Relational Algebra
-*** Tuple Relational Calculus
-*** Domain Relational Calculus
-*** Database Constraints
+***[#gold] ====<size:14>Normalization
+***[#gold] ====<size:14>Functional Dependencies
+***[#gold] ====<size:14>ER Modeling
+***[#gold] ====<size:14>Relational Algebra
+***[#gold] ====<size:14>Tuple Relational Calculus
+***[#gold] ====<size:14>Domain Relational Calculus
+***[#gold] ====<size:14>Database Constraints
 *[#yellow] **Relational Database Management System**
 ** SQL
-*** DDL
-*** DML
-*** DCL
-*** TCL
+***[#gold] ====<size:14>DDL
+***[#gold] ====<size:14>DML
+***[#gold] ====<size:14>DCL
+***[#gold] ====<size:14>TCL
 ** Relational Operators
-*** Selection
-*** Projection
-*** Join
-*** Union
-*** Difference
-*** Intersection
+***[#gold] ====<size:14>Selection
+***[#gold] ====<size:14>Projection
+***[#gold] ====<size:14>Join
+***[#gold] ====<size:14>Union
+***[#gold] ====<size:14>Difference
+***[#gold] ====<size:14>Intersection
 ** Relational Algebra
 ** Relational Calculus
 ** Transaction Management
-*** ACID Properties
-*** Transaction States
-*** Transaction Isolation Levels
+***[#gold] ====<size:14>ACID Properties
+***[#gold] ====<size:14>Transaction States
+***[#gold] ====<size:14>Transaction Isolation Levels
 ** Concurrency Control
-*** Locking
-*** Timestamping
-*** Multiversion Concurrency Control (MVCC)
+***[#gold] ====<size:14>Locking
+***[#gold] ====<size:14>Timestamping
+***[#gold] ====<size:14>Multiversion Concurrency Control (MVCC)
 ** Recovery Management
-*** Transaction Log
-*** Rollback and Recovery
+***[#gold] ====<size:14>Transaction Log
+***[#gold] ====<size:14>Rollback and Recovery
 ** Indexing
-*** B-Tree Indexing
-*** Hash Indexing
+***[#gold] ====<size:14>B-Tree Indexing
+***[#gold] ====<size:14>Hash Indexing
 ** Query Optimization
-*** Cost-Based Optimization
-*** Rule-Based Optimization
-*** Heuristic Optimization
+***[#gold] ====<size:14>Cost-Based Optimization
+***[#gold] ====<size:14>Rule-Based Optimization
+***[#gold] ====<size:14>Heuristic Optimization
 ** Performance Tuning
-*** Caching
-*** Buffer Management
-*** Partitioning
+***[#gold] ====<size:14>Caching
+***[#gold] ====<size:14>Buffer Management
+***[#gold] ====<size:14>Partitioning
 *[#yellow] **Non-Relational Databases**
 ** **NoSQL**
-*** Document-Oriented
-*** Key-Value
-*** Column-Family
-*** Graph
+***[#gold] ====<size:14>Document-Oriented
+***[#gold] ====<size:14>Key-Value
+***[#gold] ====<size:14>Column-Family
+***[#gold] ====<size:14>Graph
 ** Object-Oriented Databases
 ** XML Databases
 ** NewSQL

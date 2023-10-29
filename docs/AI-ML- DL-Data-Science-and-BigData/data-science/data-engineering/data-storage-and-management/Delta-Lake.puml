@@ -1,5 +1,4 @@
 @startmindmap
-!theme hacker
 
 skinparam node {
     BorderColor DarkSlateGray
@@ -10,81 +9,76 @@ skinparam connector {
     Color DarkSlateGray
     FontStyle Bold
 }
+!theme hacker
 
 title =__ Delta Lake__
 * Delta Lake
 
 ** Definition and Purpose
-*** ACID-compliant Data Lake Solution
-*** Provides Reliability and Consistency
-*** Enables Schema Evolution and Versioning
+***[#yellow] ====<size:14>ACID-compliant Data Lake Solution
+***[#yellow] ====<size:14>Provides Reliability and Consistency
+***[#yellow] ====<size:14>Enables Schema Evolution and Versioning
 
 ** Key Features
-*** ACID Transactions
-*** Schema Enforcement
-*** ===Time Travel
-*** Optimized Data Processing
-*** Streaming and Batch Processing
+***[#yellow] ====<size:14>ACID Transactions
+****[#white] ====<size:14>Atomicity, Consistency, Isolation, Durability
+****[#white] ====<size:14>Ensures Data Integrity
+****[#white] ====<size:14>Supports Rollbacks and Conflicts Resolution
 
-** ACID Transactions
-*** Atomicity, Consistency, Isolation, Durability
-*** Ensures Data Integrity
-*** Supports Rollbacks and Conflicts Resolution
+***[#yellow] ====<size:14>Schema Enforcement
+****[#white] ====<size:14>Enforces Schema Evolution
+****[#white] ====<size:14>Schema Validation and Evolution Management
+****[#white] ====<size:14>Ensures Data Consistency and Quality
 
-** Schema Enforcement
-*** Enforces Schema Evolution
-*** Schema Validation and Evolution Management
-*** Ensures Data Consistency and Quality
+***[#yellow] ====<size:14>Time Travel
+****[#white] ====<size:14>Query Data at Different Points in Time
+****[#white] ====<size:14>Versioned Data History
+****[#white] ====<size:14>Data Recovery and Auditing
 
-** ===Time Travel
-*** Query Data at Different Points in Time
-*** Versioned Data History
-*** Data Recovery and Auditing
+***[#yellow] ====<size:14>Optimized Data Processing
+****[#white] ====<size:14>Compaction and Data Pruning
+****[#white] ====<size:14>Indexing and Predicate Pushdown
+****[#white] ====<size:14>File and Data Skipping
+****[#white] ====<size:14>Incremental File Optimization
 
-** Optimized Data Processing
-*** Compaction and Data Pruning
-*** Indexing and Predicate Pushdown
-*** File and Data Skipping
-*** Incremental File Optimization
-
-** Streaming and Batch Processing
-*** Ingest Real-time and Batch Data
-*** Process Data Continuously
-*** Enables Streaming Analytics and ML Workflows
-*** Integrates with Apache Spark
+***[#yellow] ====<size:14>Streaming and Batch Processing
+****[#white] ====<size:14>Ingest Real-time and Batch Data
+****[#white] ====<size:14>Process Data Continuously
+****[#white] ====<size:14>Enables Streaming Analytics and ML Workflows
+****[#white] ====<size:14>Integrates with Apache Spark
 
 ** Data Lake Integration
-*** Built on Top of Existing Data Lakes
-*** Supports Parquet and Delta Lake Formats
-*** Compatible with Apache Hadoop and Apache Spark
-*** Works with Cloud Storage Providers
+***[#yellow] ====<size:14>Built on Top of Existing Data Lakes
+***[#yellow] ====<size:14>Supports Parquet and Delta Lake Formats
+***[#yellow] ====<size:14>Compatible with Apache Hadoop and Apache Spark
+***[#yellow] ====<size:14>Works with Cloud Storage Providers
 
-** ===Use Cases
-*** Data Lake Modernization
-*** Real-time Analytics
-*** Data Warehousing
-*** Machine Learning Pipelines
-*** Data Exploration and Discovery
+**[#gold] ===Use Cases
+***[#pink] ====<size:14>Data Lake Modernization
+***[#yellow] ====<size:14>Real-time Analytics
+***[#yellow] ====<size:14>Data Warehousing
+***[#yellow] ====<size:14>Machine Learning Pipelines
+***[#yellow] ====<size:14>Data Exploration and Discovery
 
 ** Benefits of Delta Lake
-*** Data Consistency and Reliability
-*** Simplified Data Management
-*** Efficient Data Processing
-*** Versioned and Auditable Data
-*** Easier Data Lake Adoption
+***[#yellow] ====<size:14>Data Consistency and Reliability
+***[#yellow] ====<size:14>Simplified Data Management
+***[#yellow] ====<size:14>Efficient Data Processing
+***[#yellow] ====<size:14>Versioned and Auditable Data
+***[#yellow] ====<size:14>Easier Data Lake Adoption
 
 ** Challenges and Considerations
-*** Data Lake Migration and Compatibility
-*** Performance Optimization
-*** Data Governance and Security
-*** Data Consistency and Integrity
-*** Adoption and Learning Curve
+***[#yellow] ====<size:14>Data Lake Migration and Compatibility
+***[#yellow] ====<size:14>Performance Optimization
+***[#yellow] ====<size:14>Data Governance and Security
+***[#yellow] ====<size:14>Data Consistency and Integrity
+***[#yellow] ====<size:14>Adoption and Learning Curve
 
 ** Best Practices
-*** Define Data Lake Modernization Strategy
-*** Plan Incremental Adoption of Delta Lake
-*** Establish Data Governance Framework
-*** Monitor and Optimize Performance
-*** Train and Educate Data Engineering Teams
+***[#yellow] ====<size:14>Define Data Lake Modernization Strategy
+***[#yellow] ====<size:14>Plan Incremental Adoption of Delta Lake
+***[#yellow] ====<size:14>Establish Data Governance Framework
+***[#yellow] ====<size:14>Monitor and Optimize Performance
+***[#yellow] ====<size:14>Train and Educate Data Engineering Teams
 
 @endmindmap
