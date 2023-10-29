@@ -1,5 +1,5 @@
 @startmindmap
-title =Data Engineering\n<img:images/img.png>
+title =Data Engineering\n<img:images/img.png>\n <color #gold>All the underlined text with "white color" is clickable!
 !theme hacker
 
 * Data Engineering
@@ -76,8 +76,8 @@ title =Data Engineering\n<img:images/img.png>
 *** ====<size:13>Monitoring and Logging
 ****[#yellow] ====<size:13>Implement robust monitoring and logging to detect issues and performance bottlenecks.
 
-*** ====<size:13>Collaboration
-****[#yellow] ====<size:13>Foster collaboration between data engineers, data scientists, and analysts.
+*** ====<size:13>**Collaboration**
+****[#yellow] ====<size:13>Foster **collaboration** between **data engineers, data scientists, and analysts**.
 
 *** ====<size:13>Automation
 ****[#lightgreen] ====<size:13>Automate data **[[data-pipeline/advanced-data-pipeline.puml pipelines]]** deployment, testing, and maintenance.
