@@ -5,96 +5,96 @@ title =__Data Thinking__
 * Data Thinking
 
 ** **Definition**
-***[#pink] **An approach that emphasizes the critical thinking and mindset required to effectively analyze and make decisions based on data.**
+***[#pink] <size:14>**An approach that emphasizes the critical thinking and mindset required to effectively analyze and make decisions based on data.**
 
 **[#gold] =Components
 
 *** Data Acquisition
-****[#yellow] ====<size:12>Identifying and collecting relevant data from various sources.
+****[#yellow] ====<size:14>Identifying and collecting relevant **data** from various sources.
 
 *** Data Exploration
-****[#yellow] ====<size:12>Investigating the data to understand its characteristics, patterns, and relationships.
+****[#yellow] ====<size:14>Investigating the **data** to understand its characteristics, patterns, and relationships.
 
 *** Data Analysis
-****[#yellow] ====<size:12>Applying statistical methods and analytical techniques to extract insights from the data.
+****[#yellow] ====<size:14>Applying statistical methods and analytical techniques to extract insights from the **data**.
 
 *** Data Visualization
-****[#yellow] ====<size:12>Presenting data in visual formats to aid understanding and communication.
+****[#yellow] ====<size:14>Presenting **data** in visual formats to aid understanding and communication.
 
 *** Data Interpretation
-****[#yellow] ====<size:12>Drawing meaningful conclusions and insights from the data analysis.
+****[#yellow] ====<size:14>Drawing meaningful conclusions and insights from the **data** analysis.
 
 ***[#pink] =**Data-Driven Decision Making**
-****[#yellow] ====<size:12>Using data insights to guide and inform decision-making processes.
+****[#yellow] ====<size:14>Using **data** insights to guide and inform **decision-making processes.**
 
 ** Skills and Tools
 
 *** Data Literacy
-****[#yellow] ====<size:12>Understanding data concepts, terminology, and the ability to interpret data.
+****[#yellow] ====<size:14>Understanding **data** concepts, terminology, and the ability to interpret **data**.
 
 *** Critical Thinking
-****[#yellow] ====<size:12>Applying logic and reasoning to analyze data and draw conclusions.
+****[#yellow] ====<size:14>Applying logic and reasoning to analyze **data** and draw conclusions.
 
 *** Data Analysis Tools
-****[#yellow] ====<size:12>Software and tools used for data manipulation, analysis, and visualization.
-****[#yellow] ====<size:12>**Examples:** Python **(pandas, NumPy)**, R, SQL, Tableau, Power BI.
+****[#yellow] ====<size:14>Software and tools used for **data** manipulation, analysis, and visualization.
+****[#yellow] ====<size:14>**Examples:** Python **(pandas, NumPy)**, R, SQL, Tableau, Power BI.
 
 *** Statistical Analysis
-****[#yellow] ====<size:12>Knowledge of statistical techniques and methods for data analysis.
+****[#yellow] ====<size:14>Knowledge of statistical techniques and methods for **data** analysis.
 
 *** Data Visualization Tools
-****[#yellow] ====<size:12>Software and tools used to create visual representations of data.
-****[#yellow] ====<size:12>**Examples:** Matplotlib, seaborn, ggplot, D3.js.
+****[#yellow] ====<size:14>Software and tools used to create visual representations of **data**.
+****[#yellow] ====<size:14>**Examples:** Matplotlib, seaborn, ggplot, D3.js.
 
 ***[#pink] =Domain Knowledge
-****[#yellow] ====<size:12>Understanding of the specific domain or industry context in which the data is analyzed.
+****[#yellow] ====<size:14>**Understanding** of the **specific domain or industry context** in which the **data** is **analyzed.**
 
 ** Benefits
 
 *** Informed Decision Making
-****[#yellow] ====<size:12>Making data-driven decisions based on evidence and insights.
+****[#yellow] ====<size:14>Making **data-driven decisions** based on **evidence and insights.**
 
 *** Improved Efficiency
-****[#yellow] ====<size:12>Identifying opportunities for process optimization and resource allocation.
+****[#yellow] ====<size:14>Identifying opportunities for process optimization and resource allocation.
 
 *** Competitive Advantage
-****[#yellow] ====<size:12>Leveraging data insights to gain an edge over competitors.
+****[#yellow] ====<size:14>Leveraging **data** insights to gain an edge over competitors.
 
 *** Innovation
-****[#yellow] ====<size:12>Uncovering new patterns, trends, and opportunities through data analysis.
+****[#yellow] ====<size:14>Uncovering new patterns, trends, and opportunities through **data** analysis.
 
 *** Risk Mitigation
-****[#yellow] ====<size:12>Identifying and mitigating potential risks through data analysis and prediction.
+****[#yellow] ====<size:14>Identifying and mitigating potential risks through **data** analysis and prediction.
 
 ** Challenges
 
 *** Data Quality
-****[#yellow] ====<size:12>Ensuring data accuracy, completeness, and reliability.
+****[#yellow] ====<size:14>Ensuring **data** accuracy, completeness, and reliability.
 
 *** Data Integration
-****[#yellow] ====<size:12>Combining data from multiple sources for analysis.
+****[#yellow] ====<size:14>Combining **data** from multiple sources for analysis.
 
 *** Data Privacy and Ethics
-****[#yellow] ====<size:12>Ensuring compliance with data protection regulations and ethical considerations.
+****[#yellow] ====<size:14>Ensuring compliance with **data** protection regulations and ethical considerations.
 
 *** Technical Complexity
-****[#yellow] ====<size:12>Handling large and complex datasets, choosing appropriate tools and techniques.
+****[#yellow] ====<size:14>Handling large and complex **datasets**, choosing appropriate tools and techniques.
 
 *** Bias and Interpretation
-****[#yellow] ====<size:12>Recognizing and addressing biases in data analysis and interpretation.
+****[#yellow] ====<size:14>Recognizing and addressing biases in **data** analysis and interpretation.
 
 ** Mindset and Culture
 
 *** Curiosity and Inquisitiveness
-****[#yellow] ====<size:12>A desire to explore and question the data to uncover insights.
+****[#yellow] ====<size:14>A desire to explore and question the **data** to uncover insights.
 
 *** Openness to Data-Driven Insights
-****[#yellow] ====<size:12>Willingness to embrace data insights and act upon them.
+****[#yellow] ====<size:14>Willingness to embrace **data** insights and act upon them.
 
 *** Continuous Learning
-****[#yellow] ====<size:12>Staying updated with new tools, techniques, and best practices in data analysis.
+****[#yellow] ====<size:14>Staying updated with new tools, techniques, and best practices in **data** analysis.
 
 *** Collaboration and Communication
-****[#yellow] ====<size:12>Working together to analyze, interpret, and communicate data insights effectively.
+****[#yellow] ====<size:14>Working together to analyze, interpret, and communicate **data** insights effectively.
 
 @endmindmap
