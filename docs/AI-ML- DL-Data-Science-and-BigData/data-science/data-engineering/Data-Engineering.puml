@@ -17,7 +17,7 @@ title =Data Engineering\n<img:images/img.png> <img:images/img_1.png>\n <color #g
 
 ***[#crimson] ====<size:13>**[[data-storage-and-management/Data-Lake-vs-Data-Warehouse.puml Data Storage]]**
 ****[#yellow] ====<size:13>Design and manage data storage solutions.
-****[#yellow] ====<size:13>**Examples:** Databases, data warehouses, data lakes.
+****[#yellow] ====<size:13>**Examples:** Databases, data warehouses, data lakes, data mart, data cube.
 
 ***[#brown] ====<size:13>**[[data-preprocessing-(or-wrangling)/4-Data-Integration Data Integration]]**
 ****[#yellow] ====<size:13>Combine and unify data from various sources.

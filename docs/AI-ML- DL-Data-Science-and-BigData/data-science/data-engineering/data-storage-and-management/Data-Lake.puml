@@ -14,75 +14,69 @@ title =__ Data Lake__
 * =Data Lake
 
 ** Definition and Purpose
-*** Centralized Repository for Raw and Processed Data
-*** Stores Structured, Semi-structured, and Unstructured Data
-*** Supports Data Exploration, Analysis, and Machine Learning
+***[#yellow] ====<size:14>Centralized Repository for Raw and Processed Data
+***[#yellow] ====<size:14>Stores Structured, Semi-structured, and Unstructured Data
+***[#yellow] ====<size:14>Supports Data Exploration, Analysis, and Machine Learning
 
 ** Key Components
-*** Data Ingestion
-*** Data Storage
-*** Data Catalog
-*** Data Processing
-*** Data Access and Analytics
+***[#yellow] ====<size:14>Data Ingestion
+****[#white] ====<size:14>Batch Data Ingestion
+****[#white] ====<size:14>Real-time Data Ingestion
+****[#white] ====<size:14>Data Integration and Transformation
+****[#white] ====<size:14>Data Quality Checks
 
-** Data Ingestion
-*** Batch Data Ingestion
-*** Real-time Data Ingestion
-*** Data Integration and Transformation
-*** Data Quality Checks
+***[#yellow] ====<size:14>Data Storage
+****[#white] ====<size:14>Distributed File Systems **(e.g., Hadoop HDFS)**
+****[#white] ====<size:14>Object Storage **(e.g., Amazon S3)**
+****[#white] ====<size:14>Columnar Storage **(e.g., Apache Parquet)**
+****[#white] ====<size:14>Data Partitioning and Compression
 
-** Data Storage
-*** Distributed File Systems **(e.g., Hadoop HDFS)**
-*** Object Storage **(e.g., Amazon S3)**
-*** Columnar Storage **(e.g., Apache Parquet)**
-*** Data Partitioning and Compression
+***[#yellow] ====<size:14>Data Catalog
+****[#white] ====<size:14>Metadata Management
+****[#white] ====<size:14>Data Lineage Tracking
+****[#white] ====<size:14>Schema Management
+****[#white] ====<size:14>Data Governance
 
-** Data Catalog
-*** Metadata Management
-*** Data Lineage Tracking
-*** Schema Management
-*** Data Governance
+***[#yellow] ====<size:14>Data Processing
+****[#white] ====<size:14>Data Transformation and Preparation
+****[#white] ====<size:14>Data Wrangling
+****[#white] ====<size:14>Batch Processing **(e.g., Apache Spark)**
+****[#white] ====<size:14>Stream Processing **(e.g., Apache Kafka)**
+****[#white] ====<size:14>Extract, Transform, Load **(ETL)** Pipelines
 
-** Data Processing
-*** Data Transformation and Preparation
-*** Data Wrangling
-*** Batch Processing **(e.g., Apache Spark)**
-*** Stream Processing **(e.g., Apache Kafka)**
-*** Extract, Transform, Load **(ETL)** Pipelines
-
-** Data Access and Analytics
-*** Query and Analysis Tools **(e.g., SQL, Apache Hive)**
-*** Big Data Processing Frameworks **(e.g., Apache Hadoop, Apache Flink)**
-*** Data Visualization Tools
-*** Machine Learning and AI Integration
-*** Data Sharing and Collaboration
+***[#yellow] ====<size:14>Data Access and Analytics
+****[#white] ====<size:14>Query and Analysis Tools **(e.g., SQL, Apache Hive)**
+****[#white] ====<size:14>Big Data Processing Frameworks **(e.g., Apache Hadoop, Apache Flink)**
+****[#white] ====<size:14>Data Visualization Tools
+****[#white] ====<size:14>Machine Learning and AI Integration
+****[#white] ====<size:14>Data Sharing and Collaboration
 
 ** Benefits of Data Lake
-*** Scalability and Flexibility
-*** Cost-effectiveness
-*** Centralized Data Repository
-*** Support for Diverse Data Types
-*** Agility in Data Exploration and Analysis
+***[#yellow] ====<size:14>Scalability and Flexibility
+***[#yellow] ====<size:14>Cost-effectiveness
+***[#yellow] ====<size:14>Centralized Data Repository
+***[#yellow] ====<size:14>Support for Diverse Data Types
+***[#yellow] ====<size:14>Agility in Data Exploration and Analysis
 
 ** Challenges and Considerations
-*** Data Governance and Security
-*** Data Quality and Consistency
-*** Data Lake Architecture and Design
-*** Data Lake Maintenance and Performance
-*** Data Lake Adoption and User Training
+***[#yellow] ====<size:14>Data Governance and Security
+***[#yellow] ====<size:14>Data Quality and Consistency
+***[#yellow] ====<size:14>Data Lake Architecture and Design
+***[#yellow] ====<size:14>Data Lake Maintenance and Performance
+***[#yellow] ====<size:14>Data Lake Adoption and User Training
 
 ** Best Practices
-*** Define Data Lake Strategy and Goals
-*** Implement Data Governance Framework
-*** Establish Data Lake Architecture
-*** Ensure Data Security and Privacy
-*** Monitor and Optimize Data Lake Performance
+***[#yellow] ====<size:14>Define Data Lake Strategy and Goals
+***[#yellow] ====<size:14>Implement Data Governance Framework
+***[#yellow] ====<size:14>Establish Data Lake Architecture
+***[#yellow] ====<size:14>Ensure Data Security and Privacy
+***[#yellow] ====<size:14>Monitor and Optimize Data Lake Performance
 
 ** Use Cases
-*** Advanced Analytics and Data Science
-*** Business Intelligence and Reporting
-*** IoT Data Storage and Analysis
-*** Log and Event Data Management
-*** Data Discovery and Exploration
+***[#yellow] ====<size:14>Advanced Analytics and Data Science
+***[#yellow] ====<size:14>Business Intelligence and Reporting
+***[#yellow] ====<size:14>IoT Data Storage and Analysis
+***[#yellow] ====<size:14>Log and Event Data Management
+***[#yellow] ====<size:14>Data Discovery and Exploration
 
 @endmindmap

@@ -13,70 +13,65 @@ title =__ Data Mesh__
 * Data Mesh
 
 ** Definition and Purpose
-***[#yellow] ====<size:13>Decentralized Approach to Data Architecture
-***[#yellow] ====<size:13>Treats Data as a Product
-***[#yellow] ====<size:13>Enables Scalable and Agile Data Management
+***[#yellow] ====<size:14>Decentralized Approach to Data Architecture
+***[#yellow] ====<size:14>Treats Data as a Product
+***[#yellow] ====<size:14>Enables Scalable and Agile Data Management
 
 ** Key Principles
-***[#yellow] ====<size:13>Domain-oriented Ownership
-***[#yellow] ====<size:13>Federated Data Governance
-***[#yellow] ====<size:13>Self-serve Data Infrastructure
-***[#yellow] ====<size:13>Product Thinking
+***[#yellow] ====<size:14>Domain-oriented Ownership
+****[#white] ====<size:14>Data Ownership within Domain Teams
+****[#white] ====<size:14>Domain-aligned Data Products
+****[#white] ====<size:14>Empowers Domain Experts to Manage Data
 
-** Domain-oriented Ownership
-***[#yellow] ====<size:13>Data Ownership within Domain Teams
-***[#yellow] ====<size:13>Domain-aligned Data Products
-***[#yellow] ====<size:13>Empowers Domain Experts to Manage Data
+***[#yellow] ====<size:14>Federated Data Governance
+****[#white] ====<size:14>Distributed and Collaborative Governance
+****[#white] ====<size:14>Data Stewardship within Domain Teams
+****[#white] ====<size:14>Shared Standards and Best Practices
 
-** Federated Data Governance
-***[#yellow] ====<size:13>Distributed and Collaborative Governance
-***[#yellow] ====<size:13>Data Stewardship within Domain Teams
-***[#yellow] ====<size:13>Shared Standards and Best Practices
+***[#yellow] ====<size:14>Self-serve Data Infrastructure
+****[#white] ====<size:14>Infrastructure as a Service **(IaaS)**
+****[#white] ====<size:14>Data Infrastructure Ownership by Domain Teams
+****[#white] ====<size:14>Empowers Teams to Manage Their Data
+****[#white] ====<size:14>Data as a Service **(DaaS)** Concept
 
-** Self-serve Data Infrastructure
-***[#yellow] ====<size:13>Infrastructure as a Service (IaaS)
-***[#yellow] ====<size:13>Data Infrastructure Ownership by Domain Teams
-***[#yellow] ====<size:13>Empowers Teams to Manage Their Data
-***[#yellow] ====<size:13>Data as a Service (DaaS) Concept
-
-** Product Thinking
-***[#yellow] ====<size:13>Data as a Product Mindset
-***[#yellow] ====<size:13>Data Product Lifecycle Management
-***[#yellow] ====<size:13>Data Product Managers
-***[#yellow] ====<size:13>Product-oriented Metrics and KPIs
+***[#yellow] ====<size:14>Product Thinking
+****[#white] ====<size:14>Data as a Product Mindset
+****[#white] ====<size:14>Data Product Lifecycle Management
+****[#white] ====<size:14>Data Product Managers
+****[#white] ====<size:14>Product-oriented Metrics and KPIs
 
 ** Data Mesh Components
-***[#yellow] ====<size:13>Domain Data Teams
-***[#yellow] ====<size:13>Federated Data Architecture
-***[#yellow] ====<size:13>Data Products and APIs
-***[#yellow] ====<size:13>Data Platform and Infrastructure
+***[#yellow] ====<size:14>Domain Data Teams
+***[#yellow] ====<size:14>Federated Data Architecture
+***[#yellow] ====<size:14>Data Products and APIs
+***[#yellow] ====<size:14>Data Platform and Infrastructure
 
 ** Benefits of Data Mesh
-***[#yellow] ====<size:13>Scalability and Agility
-***[#yellow] ====<size:13>Improved Data Quality and Reliability
-***[#yellow] ====<size:13>Empowered Domain Experts
-***[#yellow] ====<size:13>Faster Time to Market
-***[#yellow] ====<size:13>Data-driven Decision Making
+***[#yellow] ====<size:14>Scalability and Agility
+***[#yellow] ====<size:14>Improved Data Quality and Reliability
+***[#yellow] ====<size:14>Empowered Domain Experts
+***[#yellow] ====<size:14>Faster Time to Market
+***[#yellow] ====<size:14>Data-driven Decision Making
 
 ** Challenges and Considerations
-***[#yellow] ====<size:13>Organizational Change and Adoption
-***[#yellow] ====<size:13>Communication and Collaboration
-***[#yellow] ====<size:13>Data Governance across Domains
-***[#yellow] ====<size:13>Technology Integration and Complexity
-***[#yellow] ====<size:13>Skillset and Talent Requirements
+***[#yellow] ====<size:14>Organizational Change and Adoption
+***[#yellow] ====<size:14>Communication and Collaboration
+***[#yellow] ====<size:14>Data Governance across Domains
+***[#yellow] ====<size:14>Technology Integration and Complexity
+***[#yellow] ====<size:14>Skillset and Talent Requirements
 
 ** Best Practices
-***[#yellow] ====<size:13>Foster Cross-functional Collaboration
-***[#yellow] ====<size:13>Define Clear Ownership and Accountability
-***[#yellow] ====<size:13>Establish Data Governance Framework
-***[#yellow] ====<size:13>Implement Self-serve Data Infrastructure
-***[#yellow] ====<size:13>Continuously Monitor and Iterate
+***[#yellow] ====<size:14>Foster Cross-functional Collaboration
+***[#yellow] ====<size:14>Define Clear Ownership and Accountability
+***[#yellow] ====<size:14>Establish Data Governance Framework
+***[#yellow] ====<size:14>Implement Self-serve Data Infrastructure
+***[#yellow] ====<size:14>Continuously Monitor and Iterate
 
 ** Use Cases
-***[#yellow] ====<size:13>Large-scale Organizations with Multiple Domains
-***[#yellow] ====<size:13>Data-intensive Industries (e.g., Finance, Healthcare)
-***[#yellow] ====<size:13>Complex Data Ecosystems
-***[#yellow] ====<size:13>Agile Data-driven Organizations
-***[#yellow] ====<size:13>Organizations Emphasizing Innovation
+***[#yellow] ====<size:14>Large-scale Organizations with Multiple Domains
+***[#yellow] ====<size:14>Data-intensive Industries **(e.g., Finance, Healthcare)**
+***[#yellow] ====<size:14>Complex Data Ecosystems
+***[#yellow] ====<size:14>Agile Data-driven Organizations
+***[#yellow] ====<size:14>Organizations Emphasizing Innovation
 
 @endmindmap
