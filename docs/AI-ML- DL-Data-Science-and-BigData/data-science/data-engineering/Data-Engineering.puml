@@ -33,10 +33,10 @@ title =Data Engineering\n<img:images/img.png> <img:images/img_1.png>\n <color #g
 
 ** Tools and Technologies
 ***[#green] ====<size:14>**[[../../../books/1-books-backlog/DBMS/Designing-Data-Intensive-Applications.puml Databases]]**
-****[#yellow] ====<size:14>Relational databases **(e.g., SQL)**, NoSQL databases **(e.g., MongoDB)**, columnar stores **(e.g., Cassandra)**.
+****[#yellow] ====<size:14>Relational databases **(e.g., MySQL)**, NoSQL databases **(e.g., MongoDB)**, columnar stores **(e.g., Cassandra)**.
 
 ***[#grey] ====<size:14>**[[data-storage-and-management/Data-Warehouse.puml Data Warehouses]]**
-****[#black] ====<size:14>**Platforms like** **[[../../../cloud-computing/AWS-Cloud/Amazon-Redshift.puml Amazon Redshift,]]** **[[../../Apache-Big-Data-Ecosystem/Google-BigQuery.puml Google BigQuery,]]** and **[[../../Apache-Big-Data-Ecosystem/Snowflake.puml Snowflake.]]**
+****[#black] ====<size:14>**Platforms like** **[[../../../cloud-computing/AWS-Cloud/Amazon-Redshift.puml Amazon Redshift,]]** **[[../../Apache-Big-Data-Ecosystem/Google-BigQuery.puml Google BigQuery,]] and** **[[../../Apache-Big-Data-Ecosystem/Snowflake.puml Snowflake.]]**
 
 ***[#orange] ====<size:14>**[[../../Apache-Big-Data-Ecosystem/1-Apache-Big-Data-Ecosystem.puml Big Data Technologies]]**
 ****[#lightgreen] ====<size:14>**[[../../Apache-Big-Data-Ecosystem/Hadoop.puml Apache Hadoop,]]** **[[../../Apache-Big-Data-Ecosystem/Apache-Spark.puml Spark,]] and** **[[../../Apache-Big-Data-Ecosystem/Hadoop-Distributed-File-System-(HDFS).puml distributed storage systems like HDFS.]]**

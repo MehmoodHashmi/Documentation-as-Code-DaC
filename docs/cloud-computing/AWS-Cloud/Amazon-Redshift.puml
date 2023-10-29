@@ -5,14 +5,14 @@ title =__ Amazon Redshift__
 
 * Amazon Redshift
 ** Cloud-based Data Warehousing
-*** Scalable and fully managed solution
-***[#pink] **Designed for analyzing large datasets**
-*** Optimized for high-performance queries
+*** <size:14>Scalable and fully managed solution
+***[#pink] <size:14>**Designed for analyzing large datasets**
+*** <size:14>Optimized for high-performance queries
 ** Architecture
 *** Columnar Storage
 ****[#yellow] ====<size:14>Efficient compression and query performance
-****[#yellow] ====<size:14>Reduces I/O and improves speed
-*** Massively Parallel Processing (MPP)
+****[#yellow] ====<size:14>Reduces **I/O** and improves speed
+*** Massively Parallel Processing **(MPP)**
 ****[#yellow] ====<size:14>Distributes and parallelizes queries
 ****[#yellow] ====<size:14>Handles large volumes of data
 ** Features
@@ -22,16 +22,16 @@ title =__ Amazon Redshift__
 *** Scalability
 ****[#yellow] ====<size:14>Easily scale up or down based on workload
 ****[#yellow] ====<size:14>Add or remove nodes as needed
-*** Integration with AWS Services
-****[#yellow] ====<size:14>S3 for data storage
-****[#yellow] ====<size:14>AWS Glue for data preparation
-****[#yellow] ====<size:14>EMR for data processing
-*** SQL Compatibility
-****[#yellow] ====<size:14>Standard SQL support
+***[#gold] ====**Integration with AWS Services**
+****[#white] ====<size:14>**S3** for data storage
+****[#white] ====<size:14>**AWS Glue** for data preparation
+****[#white] ====<size:14>**EMR** for data processing
+*** **SQL** Compatibility
+****[#yellow] ====<size:14>Standard **SQL** support
 ****[#yellow] ====<size:14>Extensions for advanced analytics
 ** Security and Encryption
 *** Encryption at rest and in transit
-*** Integration with AWS IAM for access control
+*** Integration with **AWS IAM** for access control
 **[#pink] Use Cases
 *** Business Intelligence
 *** Data Warehousing
@@ -41,7 +41,7 @@ title =__ Amazon Redshift__
 *** Cost-Effective Scaling
 *** Integration with AWS Ecosystem
 *** Security and Data Encryption
-*** Standard SQL Support
+*** Standard **SQL** Support
 ** Pricing Model
 *** Based on nodes, storage, and compute usage
 *** Separate pricing for storage and compute
