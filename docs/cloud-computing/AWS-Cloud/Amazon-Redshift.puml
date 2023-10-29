@@ -1,6 +1,7 @@
 @startmindmap
 
 title =__ Amazon Redshift__
+!theme hacker
 
 * Amazon Redshift
 ** Cloud-based Data Warehousing
@@ -9,25 +10,25 @@ title =__ Amazon Redshift__
 *** Optimized for high-performance queries
 ** Architecture
 *** Columnar Storage
-**** Efficient compression and query performance
-**** Reduces I/O and improves speed
+****[#yellow] ====<size:14>Efficient compression and query performance
+****[#yellow] ====<size:14>Reduces I/O and improves speed
 *** Massively Parallel Processing (MPP)
-**** Distributes and parallelizes queries
-**** Handles large volumes of data
+****[#yellow] ====<size:14>Distributes and parallelizes queries
+****[#yellow] ====<size:14>Handles large volumes of data
 ** Features
 *** Data Compression
-**** Advanced algorithms for storage efficiency
-**** Cost savings and improved performance
+****[#yellow] ====<size:14>Advanced algorithms for storage efficiency
+****[#yellow] ====<size:14>Cost savings and improved performance
 *** Scalability
-**** Easily scale up or down based on workload
-**** Add or remove nodes as needed
+****[#yellow] ====<size:14>Easily scale up or down based on workload
+****[#yellow] ====<size:14>Add or remove nodes as needed
 *** Integration with AWS Services
-**** S3 for data storage
-**** AWS Glue for data preparation
-**** EMR for data processing
+****[#yellow] ====<size:14>S3 for data storage
+****[#yellow] ====<size:14>AWS Glue for data preparation
+****[#yellow] ====<size:14>EMR for data processing
 *** SQL Compatibility
-**** Standard SQL support
-**** Extensions for advanced analytics
+****[#yellow] ====<size:14>Standard SQL support
+****[#yellow] ====<size:14>Extensions for advanced analytics
 ** Security and Encryption
 *** Encryption at rest and in transit
 *** Integration with AWS IAM for access control

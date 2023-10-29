@@ -8,62 +8,62 @@ title =Data Integration
 
 ** Objectives
 *** Unified Data View
-****[#yellow] ====<size:12>Provide a single, consistent view of data from diverse sources.
+****[#yellow] ====<size:14>Provide a single, consistent view of data from diverse sources.
 *** Improve Data Quality
-****[#yellow] ====<size:12>Ensure data accuracy, consistency, and reliability.
+****[#yellow] ====<size:14>Ensure data accuracy, consistency, and reliability.
 *** Support Decision-Making
-****[#yellow] ====<size:12>Enable data-driven decision-making by providing a holistic view of information.
+****[#yellow] ====<size:14>Enable data-driven decision-making by providing a holistic view of information.
 
 **[#lime] Data Integration Techniques
 ***[#gold] ===Data Warehousing
-****[#yellow] ====<size:12>Centralized storage of integrated data for reporting and analysis.
+****[#yellow] ====<size:14>Centralized storage of integrated data for reporting and analysis.
 
 ***[#orange] ====**ETL (Extract, Transform, Load)**
-****[#yellow] ====<size:12>Extract data from source systems, transform it to the target schema, and load it into a data warehouse.
+****[#yellow] ====<size:14>Extract data from source systems, transform it to the target schema, and load it into a data warehouse.
 
 ***[#pink] ===Data Virtualization
-****[#yellow] ====<size:12>Present data from multiple sources in real-time without physically moving it.
+****[#yellow] ====<size:14>Present data from multiple sources in real-time without physically moving it.
 
 ***[#c] ===Master Data Management **(MDM)**
-****[#yellow] ====<size:12>Create a single, master record for critical data elements **(e.g., customer or product data)**.
+****[#yellow] ====<size:14>Create a single, master record for critical data elements **(e.g., customer or product data)**.
 
 **[#orange] Data Integration Tools
 *** ETL Tools
-****[#yellow] ====<size:12>Talend, Informatica PowerCenter, Apache Nifi.
+****[#yellow] ====<size:14>Talend, Informatica PowerCenter, Apache Nifi.
 
 *** Data Warehousing Platforms
-****[#yellow] ====<size:12>Amazon Redshift, Google BigQuery, Snowflake.
+****[#yellow] ====<size:14>Amazon Redshift, Google BigQuery, Snowflake.
 
 *** Data Virtualization Tools
-****[#yellow] ====<size:12>Denodo, Cisco Data Virtualization, Informatica.
+****[#yellow] ====<size:14>Denodo, Cisco Data Virtualization, Informatica.
 
 *** Master Data Management **(MDM)** Solutions
-****[#yellow] ====<size:12>Informatica MDM, IBM InfoSphere MDM.
+****[#yellow] ====<size:14>Informatica MDM, IBM InfoSphere MDM.
 
 ** Considerations
 *** Data Quality
-****[#yellow] ====<size:12>Ensure integrated data maintains high quality and consistency.
+****[#yellow] ====<size:14>Ensure integrated data maintains high quality and consistency.
 
 *** Data Security
-****[#yellow] ====<size:12>Protect data during integration with encryption and access controls.
+****[#yellow] ====<size:14>Protect data during integration with encryption and access controls.
 
 *** Data Governance
-****[#yellow] ====<size:12>Establish governance policies and standards for data integration.
+****[#yellow] ====<size:14>Establish governance policies and standards for data integration.
 
 *** Data Lineage
-****[#yellow] ====<size:12>Track the origin and history of data elements for traceability.
+****[#yellow] ====<size:14>Track the origin and history of data elements for traceability.
 
 ** Best Practices
 *** Data Profiling
-****[#yellow] ====<size:12>Understand source data to identify issues and transformation needs.
+****[#yellow] ====<size:14>Understand source data to identify issues and transformation needs.
 
 *** Incremental Updates
-****[#yellow] ====<size:12>Implement mechanisms for incremental data integration to reduce load times.
+****[#yellow] ====<size:14>Implement mechanisms for incremental data integration to reduce load times.
 
 *** Data Auditing
-****[#yellow] ====<size:12>Audit and monitor data integration processes for data quality.
+****[#yellow] ====<size:14>Audit and monitor data integration processes for data quality.
 
 *** Collaboration
-****[#yellow] ====<size:12>Collaborate with data stakeholders to align data integration with business objectives.
+****[#yellow] ====<size:14>Collaborate with data stakeholders to align data integration with business objectives.
 
 @endmindmap

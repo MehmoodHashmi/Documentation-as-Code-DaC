@@ -3,55 +3,56 @@ title =__ //**Google BigQuery**//__ \n<img:images/Google-BigQuery.png>
 
 * **[[https://www.whizlabs.com/blog/what-is-bigquery/]]**
 * **[[https://www.youtube.com/watch?v=Wx-aEcTf2h4&ab_channel=ITkFunde]]**
+!theme hacker
 
 * =Google BigQuery
 ** Overview
-***[#pink] Google BigQuery is a fully managed, **serverless data warehouse** and **analytics platform** provided by **Google Cloud.**
-***[#pink] It is designed for processing and analyzing large-scale datasets with high performance and scalability.
+***[#pink] <size:14>Google BigQuery is a fully managed, **serverless data warehouse** and **analytics platform** provided by **Google Cloud.**
+***[#pink] <size:14>It is designed for processing and analyzing large-scale **datasets** with high performance and scalability.
 ** Key Features
 ***[#pink] **Serverless Architecture**
-**** No need for infrastructure provisioning or management. Google handles all aspects of scaling, reliability, and performance optimization.
+****[#yellow] ====<size:14>No need for infrastructure provisioning or management. Google handles all aspects of scaling, reliability, and performance optimization.
 *** Data Warehousing Capabilities
-**** Supports loading, querying, and analyzing structured and semi-structured data from various sources.
+****[#yellow] ====<size:14>Supports loading, querying, and analyzing structured and semi-structured data from various sources.
 *** Fast Query Execution
-**** Utilizes a distributed architecture and columnar storage for efficient query processing and high-speed data retrieval.
+****[#yellow] ====<size:14>Utilizes a distributed architecture and columnar storage for efficient query processing and high-speed data retrieval.
 *** Scalability
-**** Scales automatically to handle massive datasets, allowing for seamless growth without manual intervention.
+****[#yellow] ====<size:14>Scales automatically to handle massive datasets, allowing for seamless growth without manual intervention.
 *** Integration with Google Cloud Ecosystem
-**** Integrates with other Google Cloud services like Dataflow, Pub/Sub, and Cloud Storage for data ingestion and processing pipelines.
+****[#yellow] ====<size:14>Integrates with other Google Cloud services like Dataflow, **Pub/Sub**, and Cloud Storage for data ingestion and processing pipelines.
 *** Advanced Analytics
-**** Provides advanced analytics features like machine learning, geospatial analysis, and real-time analytics.
+****[#yellow] ====<size:14>Provides advanced analytics features like machine learning, geospatial analysis, and real-time analytics.
 **[#lightgreen] =Querying Data
 *** SQL-like Language
-**** BigQuery uses a variant of SQL for querying and manipulating data.
+****[#yellow] ====<size:14>BigQuery uses a variant of SQL for querying and manipulating data.
 *** Standard SQL and Legacy SQL
-**** Supports both Standard SQL and Legacy SQL dialects, with Standard SQL being the recommended option.
+****[#yellow] ====<size:14>Supports both Standard SQL and Legacy SQL dialects, with Standard SQL being the recommended option.
 *** SQL Functions and Operators
-**** Provides a rich set of functions and operators for data transformation, aggregation, and analysis.
+****[#yellow] ====<size:14>Provides a rich set of functions and operators for data transformation, aggregation, and analysis.
 ** Data Loading and Exporting
 *** Batch Data Loading
-**** Supports batch loading of data from various sources such as Cloud Storage, Datastore, and Google Sheets.
+****[#yellow] ====<size:14>Supports batch loading of data from various sources such as Cloud Storage, Datastore, and Google Sheets.
 *** Streaming Data Insertion
-**** Allows real-time ingestion of data through streaming inserts.
+****[#yellow] ====<size:14>Allows real-time ingestion of data through streaming inserts.
 *** Exporting Data
-**** Enables exporting query results or table data to other storage systems or file formats.
+****[#yellow] ====<size:14>Enables exporting query results or table data to other storage systems or file formats.
 ** Data Security and Governance
 *** Encryption
-**** Encrypts data at rest and in transit to ensure data security.
-*** Identity and Access Management (IAM)
-**** Provides fine-grained access control using IAM roles and permissions.
+****[#yellow] ====<size:14>Encrypts data at rest and in transit to ensure data security.
+*** Identity and Access Management **(IAM)**
+****[#yellow] ====<size:14>Provides fine-grained access control using IAM roles and permissions.
 *** Audit Logs and Monitoring
-**** Logs and monitors activities within BigQuery for compliance and security purposes.
+****[#yellow] ====<size:14>Logs and monitors activities within BigQuery for compliance and security purposes.
 ** Integration with Data Analysis Tools
 *** Integration with BI Tools
-**** Integrates with popular business intelligence (BI) tools like Tableau, Looker, and Data Studio for data visualization and reporting.
+****[#yellow] ====<size:14>Integrates with popular business intelligence **(BI)** tools like Tableau, Looker, and Data Studio for data visualization and reporting.
 *** APIs and SDKs
-**** Offers APIs and client libraries for programmatic access and integration with custom applications.
+****[#yellow] ====<size:14>Offers APIs and client libraries for programmatic access and integration with custom applications.
 ** Cost Optimization
 *** On-Demand Pricing
-**** Pay only for the queries and storage you use, with no upfront costs.
+****[#yellow] ====<size:14>Pay only for the queries and storage you use, with no upfront costs.
 *** Flat-Rate Pricing
-**** Provides flat-rate pricing options for predictable and consistent monthly costs.
+****[#yellow] ====<size:14>Provides flat-rate pricing options for predictable and consistent monthly costs.
 *** Data Storage Options
-**** Offers different storage classes based on data access frequency and cost considerations.
+****[#yellow] ====<size:14>Offers different storage classes based on data access frequency and cost considerations.
 @endmindmap

@@ -114,14 +114,14 @@ still today it is *_ec2 auto-scaling_* where we took a *_VM_* image:images/vmwar
 
 * *Pods image:images/pod1.svg[width=40] represent the processes image:images/process.svg[width=40] running on a <<cluster,cluster>>*. By limiting *pods* image:images/pod1.svg[width=40] to a single *process* image:images/process.svg[width=40], Kubernetes can report on the health of each *process* image:images/process.svg[width=40] running in the <<cluster,*cluster*>>. *Pods* image:images/pod1.svg[width=40] have: a *unique IP address* (which allows them to *_communicate_* with each other) persistent storage volumes (as required).
 
-image::../cloud-computing/AWS Cloud/containerasprocess.png[width=400]
+image::../cloud-computing/AWS-Cloud/containerasprocess.png[width=400]
 
 
 * *K8* image:images/kubernetes.svg[width=40] schedules, runs, and <<manages,*manages*>> isolated *containers* image:images/docker.svg[width=40] which are running on *virtual machine* image:images/vmware.png[width=80] #or# *phyical machine* image:images/phyicalserver.png[width=80] #or# *cloud* image:images/cloudmachine.svg[width=40] *machine (ec2)*.
 
 .Now we have this smaller *container image* that we can then, *deploy & scale out* into many more *instances*. https://www.youtube.com/watch?v=qasUBr5D9bo[Video on DevOps Process]
 
-image::../cloud-computing/AWS Cloud/containerandvm.png[]
+image::../cloud-computing/AWS-Cloud/containerandvm.png[]
 
 === ► What #*problems*# does Kubernetes image:images/kubernetes.svg[width=40] solve?
 

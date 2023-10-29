@@ -4,6 +4,8 @@ title =**//__ Hadoop__//** \n<img:images/hadoop-ecosystem.png>
 * **[[https://teachingbee.in/the-ecosystem-of-hadoop-the-future-of-big-data/]]**
 * **[[https://www.altexsoft.com/blog/hadoop-vs-spark/]]**
 
+!theme hacker
+
 *[#a] =**Hadoop** \n<img:images/hadoop.png>
 ** Overview
 *** Distributed processing framework
@@ -11,40 +13,40 @@ title =**//__ Hadoop__//** \n<img:images/hadoop-ecosystem.png>
 *** Provides scalability, fault tolerance, and reliability
 **[#gold] =Core Components
 ***[#feeAAAAA] =Hadoop Distributed File System (HDFS)
-**** Distributed file system for storing data across multiple machines
-**** Provides high throughput data access and fault tolerance
+****[#yellow] ====<size:14>Distributed file system for storing data across multiple machines
+****[#yellow] ====<size:14>Provides high throughput data access and fault tolerance
 ***[#feeEEEEE] ==MapReduce
-**** Programming model for processing large datasets in parallel
-**** Splits data into smaller chunks and processes them in parallel
+****[#yellow] ====<size:14>Programming model for processing large datasets in parallel
+****[#yellow] ====<size:14>Splits data into smaller chunks and processes them in parallel
 ***[#yellow] ===YARN (Yet Another Resource Negotiator)
-**** Resource management framework for scheduling and managing tasks
-**** Enables efficient resource allocation and job coordination
+****[#yellow] ====<size:14>Resource management framework for scheduling and managing tasks
+****[#yellow] ====<size:14>Enables efficient resource allocation and job coordination
 **[#pink] =**Ecosystem** \n<img:images/hadoop-architecture.png>
 *** Hadoop Common
-**** Common utilities and libraries used by other Hadoop components
-**** Provides support for security, logging, and other shared functionalities
+****[#yellow] ====<size:14>Common utilities and libraries used by other Hadoop components
+****[#yellow] ====<size:14>Provides support for security, logging, and other shared functionalities
 *** Hadoop MapReduce
-**** Framework for writing and executing MapReduce jobs
-**** Enables processing and analyzing large datasets in parallel
+****[#yellow] ====<size:14>Framework for writing and executing MapReduce jobs
+****[#yellow] ====<size:14>Enables processing and analyzing large datasets in parallel
 *** Hadoop Distributed File System (HDFS)
-**** Scalable and fault-tolerant distributed file system
-**** Stores and manages data across a cluster of machines
+****[#yellow] ====<size:14>Scalable and fault-tolerant distributed file system
+****[#yellow] ====<size:14>Stores and manages data across a cluster of machines
 *** Hadoop YARN
-**** Resource management and job scheduling framework
-**** Supports running various data processing frameworks like MapReduce, Spark, and Flink
+****[#yellow] ====<size:14>Resource management and job scheduling framework
+****[#yellow] ====<size:14>Supports running various data processing frameworks like MapReduce, Spark, and Flink
 *** Hadoop Streaming
-**** Enables writing MapReduce programs using non-Java programming languages
-**** Processes data using standard input/output streams
+****[#yellow] ====<size:14>Enables writing MapReduce programs using non-Java programming languages
+****[#yellow] ====<size:14>Processes data using standard input/output streams
 ** Use Cases
 *** Big Data Analytics
-**** Analyzing large volumes of data for insights and decision-making
-**** Running complex data processing algorithms on distributed clusters
+****[#yellow] ====<size:14>Analyzing large volumes of data for insights and decision-making
+****[#yellow] ====<size:14>Running complex data processing algorithms on distributed clusters
 *** Data Warehousing
-**** Storing and managing structured and unstructured data for analysis
-**** Enabling ad-hoc querying and business intelligence reporting
+****[#yellow] ====<size:14>Storing and managing structured and unstructured data for analysis
+****[#yellow] ====<size:14>Enabling ad-hoc querying and business intelligence reporting
 *** Log Processing
-**** Collecting and analyzing log data from various sources
-**** Detecting patterns, anomalies, and performance issues
+****[#yellow] ====<size:14>Collecting and analyzing log data from various sources
+****[#yellow] ====<size:14>Detecting patterns, anomalies, and performance issues
 **[#pink] Integration with Other Technologies
 ***[#pink] Apache **Spark**
 *** Apache Hive

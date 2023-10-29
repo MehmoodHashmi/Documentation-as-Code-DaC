@@ -1,52 +1,54 @@
 @startmindmap
 title =__Apache Spark__\n<img:images/img.png>
 
+
 * **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
+!theme hacker
 
 * Apache Spark
 ** Overview
-*** Fast and General-Purpose Distributed Computing Engine
-***[#pink] **In-Memory Computing and Processing Framework**
-***[#pink] Part of the Apache Big Data Ecosystem
+*** <size:14>Fast and General-Purpose Distributed Computing Engine
+***[#pink] <size:14>**In-Memory Computing and Processing Framework**
+***[#pink] <size:14>Part of the Apache Big Data Ecosystem
 
 ** Architecture
 *** Cluster Manager
-**** Manages and Allocates Cluster Resources
-**** Supports Standalone, Apache Mesos, Hadoop YARN, Kubernetes
+****[#yellow] ====<size:14>Manages and Allocates Cluster Resources
+****[#yellow] ====<size:14>Supports Standalone, Apache Mesos, Hadoop YARN, Kubernetes
 *** Spark Core
-**** Foundation of Spark
-**** Distributed Task Scheduling and Execution
-**** Memory Management and Fault Recovery
+****[#yellow] ====<size:14>Foundation of Spark
+****[#yellow] ====<size:14>Distributed Task Scheduling and Execution
+****[#yellow] ====<size:14>Memory Management and Fault Recovery
 *** Libraries and APIs
-**** High-Level APIs for Various Data Processing Tasks
-**** Spark SQL, Spark Streaming, MLlib, GraphX
+****[#yellow] ====<size:14>High-Level APIs for Various Data Processing Tasks
+****[#yellow] ====<size:14>Spark SQL, Spark Streaming, MLlib, GraphX
 ***[#pink] Data Sources
-**** Integrates with Various Data Sources
-****[#pink] Hadoop Distributed File System (HDFS), Apache HBase, JDBC, S3, Kafka
+****[#yellow] ====<size:14>Integrates with Various Data Sources
+****[#yellow] ====<size:14>**Hadoop Distributed File System (HDFS), Apache HBase, JDBC, S3, Kafka**
 *** Spark Applications
-**** User Programs or Jobs
-**** Composed of Multiple Stages and Tasks
-**** Submitted to Spark Cluster for Execution
+****[#yellow] ====<size:14>User Programs or Jobs
+****[#yellow] ====<size:14>Composed of Multiple Stages and Tasks
+****[#yellow] ====<size:14>Submitted to Spark Cluster for Execution
 
 ** Features
 ***[#pink] In-Memory Computing
-**** Caches Data in Memory for Faster Processing
-**** Improves Performance and Speeds up Iterative Algorithms
+****[#yellow] ====<size:14>Caches Data in Memory for Faster Processing
+****[#yellow] ====<size:14>Improves Performance and Speeds up Iterative Algorithms
 *** Distributed Processing
-**** Scales Processing Across Cluster of Machines
-**** Parallel Execution of Tasks
-**** Fault Tolerance and Data Locality
+****[#yellow] ====<size:14>Scales Processing Across Cluster of Machines
+****[#yellow] ====<size:14>Parallel Execution of Tasks
+****[#yellow] ====<size:14>Fault Tolerance and Data Locality
 *** High-Level APIs and Libraries
-**** Spark SQL for Structured Data Processing
-**** Spark Streaming for Real-Time Stream Processing
-**** MLlib for Machine Learning
-**** GraphX for Graph Processing
+****[#yellow] ====<size:14>Spark SQL for Structured Data Processing
+****[#yellow] ====<size:14>Spark Streaming for Real-Time Stream Processing
+****[#yellow] ====<size:14>MLlib for Machine Learning
+****[#yellow] ====<size:14>GraphX for Graph Processing
 *** Advanced Analytics
-**** Support for SQL Queries, Machine Learning Algorithms, Graph Algorithms
-**** Enables Complex Analytics and Data Processing Workloads
+****[#yellow] ====<size:14>Support for SQL Queries, Machine Learning Algorithms, Graph Algorithms
+****[#yellow] ====<size:14>Enables Complex Analytics and Data Processing Workloads
 *** Integration with Big Data Ecosystem
-**** Integrates with Various Data Sources and Systems
-**** Compatible with Hadoop, Hive, HBase, Kafka, etc.
+****[#yellow] ====<size:14>Integrates with Various Data Sources and Systems
+****[#yellow] ====<size:14>Compatible with Hadoop, Hive, HBase, Kafka, etc.
 
 **[#pink] **Use Cases**
 *** Big Data Processing and Analytics

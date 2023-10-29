@@ -2,44 +2,45 @@
 title =__ Snowflake__ \n<img:images/snowflake.png>
 
 * **[[https://www.youtube.com/watch?v=C8_os0-ti48&ab_channel=ITkFunde]]**
+!theme hacker
 
 * =Snowflake
 **[#pink] =**Overview**
-***[#white] **Cloud-based data warehousing platform**
-***[#lightgreen] ==<color #crimson>**Built for the cloud with a unique architecture**</color>
-***[#lightgreen] ==<color #crimson>**Designed for scalability, flexibility, and performance**</color>
+***[#white] ====<size:14>**Cloud-based data warehousing platform**
+***[#lightgreen] ====<size:14><color #crimson>**Built for the cloud with a unique architecture**</color>
+***[#lightgreen] ====<size:14><color #crimson>**Designed for scalability, flexibility, and performance**</color>
 ** Key Features
 *** Elasticity
-**** Automatic scaling of compute resources based on workload demands
-**** Ability to scale storage independently from compute
+****[#yellow] ====<size:14>Automatic scaling of compute resources based on workload demands
+****[#yellow] ====<size:14>Ability to scale storage independently from compute
 *** Multi-cluster architecture
-**** Separation of compute and storage for flexible resource allocation
-**** Ability to run multiple compute clusters simultaneously
+****[#yellow] ====<size:14>Separation of compute and storage for flexible resource allocation
+****[#yellow] ====<size:14>Ability to run multiple compute clusters simultaneously
 *** Instant elasticity
-**** On-demand resource allocation and automatic suspension
-**** Pay only for the resources used
+****[#yellow] ====<size:14>On-demand resource allocation and automatic suspension
+****[#yellow] ====<size:14>Pay only for the resources used
 *** Data sharing
-**** Secure data sharing across organizations
-**** Controlled access to shared data without data movement
+****[#yellow] ====<size:14>Secure data sharing across organizations
+****[#yellow] ====<size:14>Controlled access to shared data without data movement
 *** Built-in security
-**** Advanced security features, including encryption and authentication
-**** Granular access control and auditing capabilities
+****[#yellow] ====<size:14>Advanced security features, including encryption and authentication
+****[#yellow] ====<size:14>Granular access control and auditing capabilities
 *** Performance optimization
-**** Query optimization and execution enhancements
-**** Caching and data materialization for faster query results
+****[#yellow] ====<size:14>Query optimization and execution enhancements
+****[#yellow] ====<size:14>Caching and data materialization for faster query results
 **[#pink] =Use Cases
 *** Data Warehousing
-**** Analyzing and reporting on large volumes of structured and semi-structured data
-**** Support for complex queries and aggregations
+****[#yellow] ====<size:14>Analyzing and reporting on large volumes of structured and semi-structured data
+****[#yellow] ====<size:14>Support for complex queries and aggregations
 *** Data Lakes
-**** Ingesting and processing large volumes of raw, unstructured data
-**** Integrating structured and semi-structured data for analysis
+****[#yellow] ====<size:14>Ingesting and processing large volumes of raw, unstructured data
+****[#yellow] ====<size:14>Integrating structured and semi-structured data for analysis
 *** Data Sharing and Collaboration
-**** Sharing data securely with external partners and stakeholders
-**** Collaborating on shared datasets without data movement
+****[#yellow] ====<size:14>Sharing data securely with external partners and stakeholders
+****[#yellow] ====<size:14>Collaborating on shared datasets without data movement
 *** Real-Time Analytics
-**** Streaming data processing and analysis
-**** Near real-time insights on live data
+****[#yellow] ====<size:14>Streaming data processing and analysis
+****[#yellow] ====<size:14>Near real-time insights on live data
 ** Integration and Ecosystem
 *** Integration with various data integration and ETL tools
 *** Support for popular programming languages and frameworks

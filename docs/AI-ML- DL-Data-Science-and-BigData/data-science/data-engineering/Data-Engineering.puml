@@ -36,16 +36,16 @@ title =Data Engineering\n<img:images/img.png> <img:images/img_1.png>\n <color #g
 ****[#yellow] ====<size:14>Relational databases **(e.g., SQL)**, NoSQL databases **(e.g., MongoDB)**, columnar stores **(e.g., Cassandra)**.
 
 ***[#grey] ====<size:14>**[[data-storage-and-management/Data-Warehouse.puml Data Warehouses]]**
-****[#yellow] ====<size:14>Platforms like Amazon Redshift, Google BigQuery, and Snowflake.
+****[#black] ====<size:14>**Platforms like** **[[../../../cloud-computing/AWS-Cloud/Amazon-Redshift.puml Amazon Redshift,]]** **[[../../Apache-Big-Data-Ecosystem/Google-BigQuery.puml Google BigQuery,]]** and **[[../../Apache-Big-Data-Ecosystem/Snowflake.puml Snowflake.]]**
 
 ***[#orange] ====<size:14>**[[../../Apache-Big-Data-Ecosystem/1-Apache-Big-Data-Ecosystem.puml Big Data Technologies]]**
-****[#yellow] ====<size:14>Apache Hadoop, Spark, and distributed storage systems like HDFS.
+****[#lightgreen] ====<size:14>**[[../../Apache-Big-Data-Ecosystem/Hadoop.puml Apache Hadoop,]]** **[[../../Apache-Big-Data-Ecosystem/Apache-Spark.puml Spark,]] and** **[[../../Apache-Big-Data-Ecosystem/Hadoop-Distributed-File-System-(HDFS).puml distributed storage systems like HDFS.]]**
 
 ***[#black] ====<size:14>**[[../data-or-database-migration/Data-Migration-Strategies/ETL-(Extract-Transform-Load)-Strategy.puml ETL (Extract, Transform, Load) Tools]]**
 ****[#yellow] ====<size:14>Apache Nifi, Talend, Apache Beam.
 
 ***[#aaaaaa] ====<size:14>**[[data-pipeline/Stream-Processing-vs-Batch-Processing.puml Stream Processing]]**
-****[#yellow] ====<size:14>Apache Kafka, Apache Flink, Apache Storm.
+****[#red] ====<size:14>**[[../../Apache-Big-Data-Ecosystem/apache-kafka.puml Apache Kafka,]]** **Apache Flink, Apache Storm.**
 
 ***[#crimson] ====<size:14>**[[data-storage-and-management/modeling-methodology/Data-Modeling.puml Data Modeling]]**
 ****[#yellow] ====<size:14>Tools like **ERD diagrams** and **schema design.**
@@ -77,7 +77,7 @@ title =Data Engineering\n<img:images/img.png> <img:images/img_1.png>\n <color #g
 ****[#yellow] ====<size:14>Implement robust monitoring and logging to detect issues and performance bottlenecks.
 
 *** ====<size:14>**Collaboration**
-****[#yellow] ====<size:14>Foster **collaboration** between **data engineers, data scientists, and analysts**.
+****[#orange] ====<size:14>Foster **collaboration** between **[[../11-key-areas-of-Data-Management-and-specific-data-roles/Data-Engineer.puml data engineers,]]** **[[../11-key-areas-of-Data-Management-and-specific-data-roles/Data-Scientist.puml data scientists,]] and** **[[../11-key-areas-of-Data-Management-and-specific-data-roles/Business-Analyst-vs-Data-Analyst.puml analysts.]]**
 
 *** ====<size:14>Automation
 ****[#lightgreen] ====<size:14>Automate data **[[data-pipeline/advanced-data-pipeline.puml pipelines]]** deployment, testing, and maintenance.

@@ -8,78 +8,78 @@ title =Data Transformation
 
 ** Objectives
 *** Clean Data
-****[#yellow] ====<size:13>Remove or handle missing values, duplicates, and outliers.
-****[#yellow] ====<size:13>Ensure data quality and consistency.
+****[#yellow] ====<size:14>Remove or handle missing values, duplicates, and outliers.
+****[#yellow] ====<size:14>Ensure data quality and consistency.
 
 *** Restructure Data
-****[#yellow] ====<size:13>Reshape data to fit the required format, **structure, or schema.**
-****[#yellow] ====<size:13>May involve pivoting, melting, or transposing data.
+****[#yellow] ====<size:14>Reshape data to fit the required format, **structure, or schema.**
+****[#yellow] ====<size:14>May involve pivoting, melting, or transposing data.
 
 *** Normalize Data
-****[#yellow] ====<size:13>**Scale** numeric data to a common range.
-****[#yellow] ====<size:13>Minimize data bias due to varying units and scales.
+****[#yellow] ====<size:14>**Scale** numeric data to a common range.
+****[#yellow] ====<size:14>Minimize data bias due to varying units and scales.
 
 *** Aggregate Data
-****[#yellow] ====<size:13>Combine and summarize data to provide insights.
-****[#yellow] ====<size:13>Grouping, filtering, and aggregation operations.
+****[#yellow] ====<size:14>Combine and summarize data to provide insights.
+****[#yellow] ====<size:14>Grouping, filtering, and aggregation operations.
 
 ** Techniques
 *** Data Cleaning
-****[#yellow] ====<size:13>Handling missing values **(e.g., imputation or removal)**.
-****[#yellow] ====<size:13>Outlier detection and treatment.
-****[#yellow] ====<size:13>Data deduplication.
+****[#yellow] ====<size:14>Handling missing values **(e.g., imputation or removal)**.
+****[#yellow] ====<size:14>Outlier detection and treatment.
+****[#yellow] ====<size:14>Data deduplication.
 
 *** Data Restructuring
-****[#yellow] ====<size:13>Pivoting and unpivoting **(reshaping data)**.
-****[#yellow] ====<size:13>Data normalization and **standardization.**
-****[#yellow] ====<size:13>String manipulation and regular expressions.
+****[#yellow] ====<size:14>Pivoting and unpivoting **(reshaping data)**.
+****[#yellow] ====<size:14>Data normalization and **standardization.**
+****[#yellow] ====<size:14>String manipulation and regular expressions.
 
 *** Data Aggregation
-****[#yellow] ====<size:13>Grouping data by categories or time intervals.
-****[#yellow] ====<size:13>Applying aggregation functions **(e.g., sum, average, count)**.
+****[#yellow] ====<size:14>Grouping data by categories or time intervals.
+****[#yellow] ====<size:14>Applying aggregation functions **(e.g., sum, average, count)**.
 
 *** Data Enrichment
-****[#yellow] ====<size:13>Augmenting data with external sources **(e.g., adding geospatial data or social media sentiment scores)**.
+****[#yellow] ====<size:14>Augmenting data with external sources **(e.g., adding geospatial data or social media sentiment scores)**.
 ***[#gold] Z-Score scaling or Standard scaling
 ***[#gold] Min-Max scaling
 
 ** Tools and Technologies
 *** Data Preparation Tools
-****[#yellow] ====<size:13>OpenRefine, Trifacta, MS Excel, **pandas (Python library)**.
+****[#yellow] ====<size:14>OpenRefine, Trifacta, MS Excel, **pandas (Python library)**.
 
 *** Data Integration Tools
-****[#yellow] ====<size:13>Talend, Apache Nifi, Informatica PowerCenter.
+****[#yellow] ====<size:14>Talend, Apache Nifi, Informatica PowerCenter.
 
 *** Data Processing Frameworks
-****[#yellow] ====<size:13>Apache Spark, Hadoop MapReduce.
+****[#yellow] ====<size:14>Apache Spark, Hadoop MapReduce.
 
 *** ETL **(Extract, Transform, Load)** Tools
-****[#yellow] ====<size:13>Apache NiFi, Apache Beam, Talend.
+****[#yellow] ====<size:14>Apache NiFi, Apache Beam, Talend.
 
 ** Considerations
 *** Data Understanding
-****[#yellow] ====<size:13>Gain a deep understanding of data to perform meaningful transformations.
+****[#yellow] ====<size:14>Gain a deep understanding of data to perform meaningful transformations.
 
 *** Data Quality
-****[#yellow] ====<size:13>Ensure transformed data meets quality and consistency standards.
+****[#yellow] ====<size:14>Ensure transformed data meets quality and consistency standards.
 
 *** Compatibility
-****[#yellow] ====<size:13>Ensure compatibility with downstream systems or analysis tools.
+****[#yellow] ====<size:14>Ensure compatibility with downstream systems or analysis tools.
 
 *** Data Loss Prevention
-****[#yellow] ====<size:13>Minimize data loss and ensure traceability in transformations.
+****[#yellow] ====<size:14>Minimize data loss and ensure traceability in transformations.
 
 ** Best Practices
 *** Documentation
-****[#yellow] ====<size:13>Maintain clear documentation of transformation processes.
+****[#yellow] ====<size:14>Maintain clear documentation of transformation processes.
 
 *** Version Control
-****[#yellow] ====<size:13>Apply version control to transformation scripts and workflows.
+****[#yellow] ====<size:14>Apply version control to transformation scripts and workflows.
 
 *** Data Auditing
-****[#yellow] ====<size:13>Implement data auditing and validation checks.
+****[#yellow] ====<size:14>Implement data auditing and validation checks.
 
 *** Data Validation
-****[#yellow] ====<size:13>Perform data validation to catch errors early.
+****[#yellow] ====<size:14>Perform data validation to catch errors early.
 
 @endmindmap

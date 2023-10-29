@@ -4,62 +4,64 @@ title = //**__Apache Kafka__**// \n<img:images/apache-kafka.png>
 * **[[https://www.youtube.com/watch?v=0V9SK6jmDPk&ab_channel=ITkFunde]]**
 * **[[https://www.youtube.com/watch?v=84HRqqWpqL4&list=PLBb5HFCJVQts9MRueDBfi-K8DB_p_dGLJ&index=2&ab_channel=JavaShastra]]**
 
+!theme hacker
+
 *[#crimson] =//**Apache Kafka**// \n<img:images/kafka.png>
 ** Overview
-*** Distributed streaming platform
-*** Handles high-volume, real-time data feeds
-*** Provides fault-tolerant and scalable data processing
+*** <size:14>Distributed streaming platform
+*** <size:14>Handles high-volume, real-time data feeds
+*** <size:14>Provides fault-tolerant and scalable data processing
 ** **Core Concepts** \n<img:images/producer-consumer.png>\n\n<img:images/queue.png>
 ***[#pink] Topics
-**** Categories or feeds of messages in Kafka
-**** Partitioned and distributed across **brokers** (are nothing but **kafka server instances**)
-**** Can have multiple producers and consumers
+****[#yellow] ====<size:14>Categories or feeds of messages in Kafka
+****[#yellow] ====<size:14>Partitioned and distributed across **brokers** (are nothing but **kafka server instances**)
+****[#yellow] ====<size:14>Can have multiple producers and consumers
 *** Producers
-**** Send messages to Kafka topics
-**** Responsible for data ingestion
+****[#yellow] ====<size:14>Send messages to Kafka topics
+****[#yellow] ====<size:14>Responsible for data ingestion
 *** Consumers
-**** Receive messages from Kafka topics
-**** Process and analyze data
+****[#yellow] ====<size:14>Receive messages from Kafka topics
+****[#yellow] ====<size:14>Process and analyze data
 ***[#pink] **Brokers**
-****[#pink] **are Kafka server instances**
-**** Responsible for storing and managing topics and partitions
+****[#gold] ====<size:14>**are Kafka server instances**
+****[#yellow] ====<size:14>Responsible for storing and managing topics and partitions
 ***[#pink] Partitions
-**** Subdivisions of topics for better scalability
-**** Each partition is ordered and has a unique offset
-**** Enables parallel processing and load balancing
+****[#yellow] ====<size:14>Subdivisions of topics for better scalability
+****[#yellow] ====<size:14>Each partition is ordered and has a unique offset
+****[#yellow] ====<size:14>Enables parallel processing and load balancing
 ** Key Features
 *** Fault Tolerance
-**** Replicates data across multiple brokers
-**** Provides automatic failover and data recovery
+****[#yellow] ====<size:14>Replicates data across multiple brokers
+****[#yellow] ====<size:14>Provides automatic failover and data recovery
 *** Scalability
-**** Horizontal scalability by adding more brokers
-**** Supports large-scale data processing
+****[#yellow] ====<size:14>Horizontal scalability by adding more brokers
+****[#yellow] ====<size:14>Supports large-scale data processing
 *** High Throughput
-**** Optimized for handling high volume and velocity of data
-**** Enables real-time data streaming
+****[#yellow] ====<size:14>Optimized for handling high volume and velocity of data
+****[#yellow] ====<size:14>Enables real-time data streaming
 *** Durability
-**** Persists messages on disk
-**** Allows for data retention based on configurable policies
+****[#yellow] ====<size:14>Persists messages on disk
+****[#yellow] ====<size:14>Allows for data retention based on configurable policies
 ** Use Cases
 *** Real-time Stream Processing
-**** Analyzing and reacting to real-time data streams
-**** Enabling near-instantaneous data processing
+****[#yellow] ====<size:14>Analyzing and reacting to real-time data streams
+****[#yellow] ====<size:14>Enabling near-instantaneous data processing
 *** Event Sourcing
-**** Capturing and storing all changes as a sequence of events
-**** Facilitating auditing, compliance, and historical analysis
+****[#yellow] ====<size:14>Capturing and storing all changes as a sequence of events
+****[#yellow] ====<size:14>Facilitating auditing, compliance, and historical analysis
 *** Log Aggregation
-**** Consolidating logs from multiple sources into a central system
-**** Simplifying log management and analysis
+****[#yellow] ====<size:14>Consolidating logs from multiple sources into a central system
+****[#yellow] ====<size:14>Simplifying log management and analysis
 ** Ecosystem
 *** Kafka Connect
-**** Enables integration with external systems
-**** Facilitates data import/export to and from Kafka
+****[#yellow] ====<size:14>Enables integration with external systems
+****[#yellow] ====<size:14>Facilitates data import/export to and from Kafka
 *** Kafka Streams
-**** Stream processing library for building applications and microservices
-**** Enables real-time data processing and transformations
+****[#yellow] ====<size:14>Stream processing library for building applications and microservices
+****[#yellow] ====<size:14>Enables real-time data processing and transformations
 *** Kafka MirrorMaker
-**** Replicates Kafka topics across data centers or clusters
-**** Facilitates data replication and disaster recovery
+****[#yellow] ====<size:14>Replicates Kafka topics across data centers or clusters
+****[#yellow] ====<size:14>Facilitates data replication and disaster recovery
 **[#pink] Integration with Other Technologies
 ***[#pink] Apache **Spark**
 *** Apache Flink

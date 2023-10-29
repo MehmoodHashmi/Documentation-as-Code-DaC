@@ -1,48 +1,49 @@
 @startmindmap
 title =__Hadoop Distributed File System (HDFS)__\n<img:images/img_11.png>
-
 * **[[https://www.youtube.com/watch?v=VavRifvVwIo&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=3&ab_channel=GateSmashers]]**
 * **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
 
+!theme hacker
+
 * Hadoop Distributed File System (HDFS)
 ** Overview
-*** Distributed File System for Big Data
-*** Designed for High Throughput and Fault Tolerance
-*** Part of the Apache Hadoop Ecosystem
+*** <size:14>Distributed File System for Big Data
+*** <size:14>Designed for High Throughput and Fault Tolerance
+*** <size:14>Part of the Apache Hadoop Ecosystem
 
 ** **Architecture**\n<img:images/img_10.png>
 *** NameNode
-**** Manages Metadata
-**** Stores Filesystem Namespace
-**** Executes File System Operations
+****[#yellow] ====<size:14>Manages Metadata
+****[#yellow] ====<size:14>Stores Filesystem Namespace
+****[#yellow] ====<size:14>Executes File System Operations
 *** DataNode
-**** Stores Actual Data Blocks
-**** Replicates Data for Fault Tolerance
-**** Communicates with NameNode
+****[#yellow] ====<size:14>Stores Actual Data Blocks
+****[#yellow] ====<size:14>Replicates Data for Fault Tolerance
+****[#yellow] ====<size:14>Communicates with NameNode
 
 ** Features
 *** Fault Tolerance
-**** Data Replication Across DataNodes
-**** Automatic Data Recovery
+****[#yellow] ====<size:14>Data Replication Across DataNodes
+****[#yellow] ====<size:14>Automatic Data Recovery
 *** Scalability
-**** Horizontally Scales Across Commodity Hardware
-**** Handles Large Data Sets
+****[#yellow] ====<size:14>Horizontally Scales Across Commodity Hardware
+****[#yellow] ====<size:14>Handles Large Data Sets
 *** High Throughput
-**** Optimized for Sequential Data Access
-**** Supports Streaming Data Processing
+****[#yellow] ====<size:14>Optimized for Sequential Data Access
+****[#yellow] ====<size:14>Supports Streaming Data Processing
 *** Data Locality\n<img:images/img_12.png>
-**** Moves Computation Close to Data
-**** Improves Performance
+****[#yellow] ====<size:14>Moves Computation Close to Data
+****[#yellow] ====<size:14>Improves Performance
 
 **[#pink] Data Organization
 ***[#white] **Blocks**
-**** Fixed-Sized Units of Data Storage
-****[#pink] Typically 64MB or 128MB in Size
-****[#pink] **Files Split into Multiple Blocks**
+****[#yellow] ====<size:14>Fixed-Sized Units of Data Storage
+****[#gold] ====<size:14>**Typically 64-MB or 128-MB in Size**
+****[#yellow] ====<size:14>**Files Split into Multiple Blocks**
 ***[#white] **Data Replication**
-**** Replicates Blocks Across DataNodes
-**** Default Replication Factor is 3
-**** Provides Data Durability and Availability
+****[#yellow] ====<size:14>Replicates Blocks Across DataNodes
+****[#white] ====<size:14>**Default Replication Factor is 3**
+****[#yellow] ====<size:14>Provides Data Durability and Availability
 
 ** Use Cases
 *** Big Data Processing
