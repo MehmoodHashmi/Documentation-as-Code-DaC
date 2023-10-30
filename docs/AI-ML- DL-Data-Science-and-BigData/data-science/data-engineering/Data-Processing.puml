@@ -8,50 +8,50 @@ title Data Processing
 
 **[#a] Objectives
 *** Data Transformation
-****[#yellow] ====<size:13>Convert data into a format suitable for analysis and reporting.
+****[#yellow] ====<size:14>Convert data into a format suitable for analysis and reporting.
 *** Data Analysis
-****[#yellow] ====<size:13>Extract meaningful insights and patterns from data.
+****[#yellow] ====<size:14>Extract meaningful insights and patterns from data.
 *** Real-Time Processing
-****[#yellow] ====<size:13>Process and analyze data as it arrives for real-time decision-making.
+****[#yellow] ====<size:14>Process and analyze data as it arrives for real-time decision-making.
 *** Reporting
-****[#yellow] ====<size:13>Generate reports and visualizations for communication.
+****[#yellow] ====<size:14>Generate reports and visualizations for communication.
 
 **[#gold] Data Processing Techniques
-***[#gold] **Batch Processing**
-****[#yellow] ====<size:13>Process data in predefined batches, suitable for large volumes of historical data.
-***[#orange] **Stream Processing**
-****[#yellow] ====<size:13>Analyze data in real-time or near-real-time streams.
-***[#pink] **Big Data Processing**
-****[#yellow] ====<size:13>Utilize big data technologies for handling large and complex datasets.
+***[#gold] ====<size:13>**Batch Processing**
+****[#yellow] ====<size:14>Process data in predefined batches, suitable for large volumes of historical data.
+***[#orange] ====<size:13>**Stream Processing**
+****[#yellow] ====<size:14>Analyze data in real-time or near-real-time streams.
+***[#red] ====<size:13>**[[data-pipeline/Big-Data-Processing.puml Big Data Processing]]**
+****[#yellow] ====<size:14>Utilize big data technologies for handling large and complex datasets.
 
 **[#lime] Data Processing Tools
 *** Apache Spark
-****[#yellow] ====<size:13>A powerful **open-source framework** for **batch and stream processing.**
+****[#yellow] ====<size:14>A powerful **open-source framework** for **batch and stream processing.**
 *** Apache Flink
-****[#yellow] ====<size:13>A **stream processing framework** for **real-time data analytics.**
+****[#yellow] ====<size:14>A **stream processing framework** for **real-time data analytics.**
 ***[#gold] ===Hadoop
-****[#yellow] ====<size:13>A **distributed processing framework** for **big data.**
+****[#yellow] ====<size:14>A **distributed processing framework** for **big data.**
 
 **[#lightgreen] Considerations
 *** Data Complexity
-****[#yellow] ====<size:13>Understand the complexity of data and the required processing techniques.
+****[#yellow] ====<size:14>Understand the complexity of data and the required processing techniques.
 *** Data Volume
-****[#yellow] ====<size:13>Ensure that data processing is scalable to handle large volumes of data.
+****[#yellow] ====<size:14>Ensure that data processing is scalable to handle large volumes of data.
 
 *** Data Security
-****[#yellow] ====<size:13>Protect data during processing with encryption and access controls.
+****[#yellow] ====<size:14>Protect data during processing with encryption and access controls.
 
 *** Data Quality
-****[#yellow] ====<size:13>Implement data validation and quality checks during processing.
+****[#yellow] ====<size:14>Implement data validation and quality checks during processing.
 
 ** Best Practices
 *** Data Processing Workflows
-****[#yellow] ====<size:13>Develop well-defined workflows for data processing tasks.
+****[#yellow] ====<size:14>Develop well-defined workflows for data processing tasks.
 *** Data Validation
-****[#yellow] ====<size:13>Implement data validation checks to ensure data integrity.
+****[#yellow] ====<size:14>Implement data validation checks to ensure data integrity.
 *** Error Handling
-****[#yellow] ====<size:13>Plan for error detection, logging, and recovery during data processing.
+****[#yellow] ====<size:14>Plan for error detection, logging, and recovery during data processing.
 *** Monitoring and Alerting
-****[#yellow] ====<size:13>Set up continuous monitoring and alerting for data processing pipelines.
+****[#yellow] ====<size:14>Set up continuous monitoring and alerting for data processing pipelines.
 
 @endmindmap
