@@ -4,7 +4,7 @@ title =Data Engineering\n<img:images/img.png> <img:images/img_1.png>\n <color #g
 
 * Data Engineering
 ** Definition
-***[#a] ====<size:14>**Data engineering** is the process of designing, building, and maintaining data infrastructure, **[[data-pipeline/advanced-data-pipeline.puml pipelines]]**, and architectures to support **data-driven decision-making.**
+***[#a] ====<size:16>**Data engineering** is the process of **designing, building, and maintaining** <color #green>**data infrastructure,**</color> **[[data-pipeline/advanced-data-pipeline.puml pipelines]]**, <color #gold>**and architectures**</color> to support **data-driven decision-making.**
 
 **[#lime] Core Activities
 ***[#red] ====<size:14>**[[data-pipeline/Data-Ingestion.puml Data Ingestion]]**
