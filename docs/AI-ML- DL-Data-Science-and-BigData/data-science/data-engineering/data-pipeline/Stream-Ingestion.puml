@@ -8,45 +8,45 @@ title =Stream Ingestion
 
 **[#gold] Objectives
 *** Real-Time Data Collection
-****[#yellow] ====<size:13>Collect data immediately as it becomes available.
+****[#yellow] ====<size:14>Collect data immediately as it becomes available.
 *** Continuous Processing
-****[#yellow] ====<size:13>Process data on the fly as it streams in.
+****[#yellow] ====<size:14>Process data on the fly as it streams in.
 *** Low Latency
-****[#yellow] ====<size:13>Minimize the time between data generation and its availability for analysis.
+****[#yellow] ====<size:14>Minimize the time between data generation and its availability for analysis.
 
 **[#lime] Stream Ingestion Techniques
 ***[#orange] ===Data Streaming Platforms
-****[#yellow] ====<size:13>Use streaming platforms like **Apache Kafka** to ingest and process data in **real-time.**
+****[#yellow] ====<size:14>Use streaming platforms like **Apache Kafka** to ingest and process data in **real-time.**
 ***[#pink] ===Event-Driven Architecture
-****[#yellow] ====<size:13>**Implement an event-driven architecture** for processing **data** as it **arrives.**
+****[#yellow] ====<size:14>**Implement an event-driven architecture** for processing **data** as it **arrives.**
 ***[#red] ===[[Change-Data-Capture-(CDC).puml Change Data Capture (CDC)]]
-****[#yellow] ====<size:13>Capture and replicate changes from source systems in real-time.
+****[#yellow] ====<size:14>Capture and replicate changes from source systems in real-time.
 
 ** Stream Ingestion Tools
 *** Apache Kafka
-****[#yellow] ====<size:13>A distributed streaming platform for building real-time data pipelines.
+****[#yellow] ====<size:14>A distributed streaming platform for building real-time data pipelines.
 *** Apache Flink
-****[#yellow] ====<size:13>A stream processing framework for real-time data analytics.
+****[#yellow] ====<size:14>A stream processing framework for real-time data analytics.
 *** AWS Kinesis
-****[#yellow] ====<size:13>A managed data streaming service for ingesting real-time data.
+****[#yellow] ====<size:14>A managed data streaming service for ingesting real-time data.
 
 **[#a] Considerations
 *** Data Sources
-****[#yellow] ====<size:13>Identify and connect to various data sources producing real-time data.
+****[#yellow] ====<size:14>Identify and connect to various data sources producing real-time data.
 *** Scalability
-****[#yellow] ====<size:13>Ensure that the stream ingestion process can handle growing data volumes.
+****[#yellow] ====<size:14>Ensure that the stream ingestion process can handle growing data volumes.
 
 *** Data Security
-****[#yellow] ====<size:13>Implement data encryption and access controls for real-time data.
+****[#yellow] ====<size:14>Implement data encryption and access controls for real-time data.
 
 ** Best Practices
 *** Data Schema
-****[#yellow] ====<size:13>Define and enforce a data schema for incoming streams.
+****[#yellow] ====<size:14>Define and enforce a data schema for incoming streams.
 *** Error Handling
-****[#yellow] ====<size:13>Establish robust error handling mechanisms for real-time data.
+****[#yellow] ====<size:14>Establish robust error handling mechanisms for real-time data.
 *** Monitoring and Alerting
-****[#yellow] ====<size:13>Set up continuous monitoring and alerting to detect issues in stream ingestion.
+****[#yellow] ====<size:14>Set up continuous monitoring and alerting to detect issues in stream ingestion.
 *** Stream Data Validation
-****[#yellow] ====<size:13>Implement real-time data validation to ensure data quality.
+****[#yellow] ====<size:14>Implement real-time data validation to ensure data quality.
 
 @endmindmap

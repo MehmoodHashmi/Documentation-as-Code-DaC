@@ -8,47 +8,47 @@ title Batch Ingestion
 
 **[#a] Objectives
 *** Data Collection
-****[#yellow] ====<size:13>Gather data from diverse sources, such as databases, logs, files, and external systems.
+****[#yellow] ====<size:14>Gather data from diverse sources, such as databases, logs, files, and external systems.
 *** Data Processing
-****[#yellow] ====<size:13>Process and transform data during batch ingestion.
+****[#yellow] ====<size:14>Process and transform data during batch ingestion.
 *** Scheduling
-****[#yellow] ====<size:13>Execute ingestion tasks at scheduled intervals **(e.g., daily, hourly)**.
+****[#yellow] ====<size:14>Execute ingestion tasks at scheduled intervals **(e.g., daily, hourly)**.
 
 **[#lime] Batch Ingestion Techniques
 ***[#red] ===**[[../../data-or-database-migration/Data-Migration-Strategies/ETL-(Extract-Transform-Load)-Strategy.puml ETL (Extract, Transform, Load) Tools]]**
-****[#yellow] ====<size:13>Extract data from source systems, apply transformations, and load it into a data storage or processing system.
+****[#yellow] ====<size:14>Extract data from source systems, apply transformations, and load it into a data storage or processing system.
 ***[#blue] ===**[[data-pipeline.puml Data Pipelines]]**
-****[#yellow] ====<size:13>Define **data pipelines** to move and process data through a series of predefined steps.
+****[#yellow] ====<size:14>Define **data pipelines** to move and process data through a series of predefined steps.
 ***[#white] ===Data Loading
-****[#yellow] ====<size:13>Load batch data into a **data warehouse or data lake** for analysis.
+****[#yellow] ====<size:14>Load batch data into a **data warehouse or data lake** for analysis.
 
 ** Batch Ingestion Tools
 *** Apache Nifi
-****[#yellow] ====<size:13>An open-source data integration tool for building data flows and **ETL processes.**
+****[#yellow] ====<size:14>An open-source data integration tool for building data flows and **ETL processes.**
 *** Apache Spark
-****[#yellow] ====<size:13>A distributed data processing framework for batch processing and analytics.
+****[#yellow] ====<size:14>A distributed data processing framework for batch processing and analytics.
 *** AWS Glue
-****[#yellow] ====<size:13>A managed **ETL service **for ingesting, transforming, and loading data.
+****[#yellow] ====<size:14>A managed **ETL service **for ingesting, transforming, and loading data.
 
 **[#a] Considerations
 *** Data Sources
-****[#yellow] ====<size:13>Identify source systems and understand data formats.
+****[#yellow] ====<size:14>Identify source systems and understand data formats.
 *** Data Transformation
-****[#yellow] ====<size:13>Define and implement data transformations during batch processing.
+****[#yellow] ====<size:14>Define and implement data transformations during batch processing.
 *** Scheduling
-****[#yellow] ====<size:13>Set up ingestion schedules that align with business needs.
+****[#yellow] ====<size:14>Set up ingestion schedules that align with business needs.
 
 *** Error Handling
-****[#yellow] ====<size:13>Plan for error detection, logging, and recovery during batch ingestion.
+****[#yellow] ====<size:14>Plan for error detection, logging, and recovery during batch ingestion.
 
 ** Best Practices
 *** Data Profiling
-****[#yellow] ====<size:13>Profile source data to understand data characteristics.
+****[#yellow] ====<size:14>Profile source data to understand data characteristics.
 *** Data Validation
-****[#yellow] ====<size:13>Implement data validation checks to ensure data quality.
+****[#yellow] ====<size:14>Implement data validation checks to ensure data quality.
 *** Data Backups
-****[#yellow] ====<size:13>Maintain backups of batch data in case of issues or data loss.
+****[#yellow] ====<size:14>Maintain backups of batch data in case of issues or data loss.
 *** Monitoring
-****[#yellow] ====<size:13>Set up monitoring and alerting to detect and address batch processing problems.
+****[#yellow] ====<size:14>Set up monitoring and alerting to detect and address batch processing problems.
 
 @endmindmap

@@ -4,71 +4,71 @@ title =ETL (Extract, Transform, Load) Strategy
 
 * ETL Strategy
 ** Description
-***[#yellow] ====<size:13>The ETL strategy involves Extracting data from the source database, Transforming it to match the target schema, and Loading it into the new database.
+***[#yellow] ====<size:14>The ETL strategy involves Extracting data from the source database, Transforming it to match the target schema, and Loading it into the new database.
 
 **[#gold] Benefits
-***[#orange] ====<size:13>**Data Transformation:** Allows data to be adapted and cleaned before migrating to the target database.
-***[#yellow] ====<size:13>**Data Enrichment:** Can involve enriching data with additional information during the transformation.
-***[#gold] ====<size:13>**Incremental Updates:** Supports incremental data updates over time.
+***[#orange] ====<size:14>**Data Transformation:** Allows data to be adapted and cleaned before migrating to the target database.
+***[#yellow] ====<size:14>**Data Enrichment:** Can involve enriching data with additional information during the transformation.
+***[#gold] ====<size:14>**Incremental Updates:** Supports incremental data updates over time.
 
 **[#pink] Challenges
-***[#yellow] ====<size:13>**Complexity: ** ETL processes can be complex and require careful design.
-***[#yellow] ====<size:13>**Development Time:**  ETL processes may take longer to develop than other strategies.
-***[#yellow] ====<size:13>**Maintenance: ** Ongoing maintenance of ETL pipelines is necessary.
+***[#yellow] ====<size:14>**Complexity: ** ETL processes can be complex and require careful design.
+***[#yellow] ====<size:14>**Development Time:**  ETL processes may take longer to develop than other strategies.
+***[#yellow] ====<size:14>**Maintenance: ** Ongoing maintenance of ETL pipelines is necessary.
 
 * Phases of ETL Migration
 ** Data Extraction
-***[#yellow] ====<size:13>Extract data from the source database, possibly using SQL queries or other data export methods.
-***[#yellow] ====<size:13>Ensure data consistency and completeness during extraction.
+***[#yellow] ====<size:14>Extract data from the source database, possibly using SQL queries or other data export methods.
+***[#yellow] ====<size:14>Ensure data consistency and completeness during extraction.
 
 ** Data Transformation
-***[#yellow] ====<size:13>Transform data to match the target schema, format, and data types.
-***[#yellow] ====<size:13>May involve data cleansing, validation, and business rule implementation.
+***[#yellow] ====<size:14>Transform data to match the target schema, format, and data types.
+***[#yellow] ====<size:14>May involve data cleansing, validation, and business rule implementation.
 
 ** Data Loading
-***[#yellow] ====<size:13>Load the transformed data into the target database.
-***[#yellow] ====<size:13>Perform data validation to ensure data integrity and consistency.
+***[#yellow] ====<size:14>Load the transformed data into the target database.
+***[#yellow] ====<size:14>Perform data validation to ensure data integrity and consistency.
 
 ** Continuous Data Integration
-***[#yellow] ====<size:13>Implement mechanisms for ongoing data synchronization between source and target databases.
-***[#yellow] ====<size:13>Enable real-time or scheduled updates.
+***[#yellow] ====<size:14>Implement mechanisms for ongoing data synchronization between source and target databases.
+***[#yellow] ====<size:14>Enable real-time or scheduled updates.
 
 ** Data Verification
-***[#yellow] ====<size:13>Verify the data in the target database to ensure it aligns with the source data.
-***[#yellow] ====<size:13>Confirm data consistency and accuracy.
+***[#yellow] ====<size:14>Verify the data in the target database to ensure it aligns with the source data.
+***[#yellow] ====<size:14>Confirm data consistency and accuracy.
 
 * Considerations for ETL
 **[#pink] Data Mapping
-***[#yellow] ====<size:13>Develop detailed data mapping and transformation rules to guide the ETL process.
-***[#yellow] ====<size:13>Account for differences in data structures and formats.
+***[#yellow] ====<size:14>Develop detailed data mapping and transformation rules to guide the ETL process.
+***[#yellow] ====<size:14>Account for differences in data structures and formats.
 
 ** Data Validation
-***[#yellow] ====<size:13>Implement data validation checks to ensure data integrity throughout the ETL pipeline.
-***[#yellow] ====<size:13>Detect and address data inconsistencies.
+***[#yellow] ====<size:14>Implement data validation checks to ensure data integrity throughout the ETL pipeline.
+***[#yellow] ====<size:14>Detect and address data inconsistencies.
 
 ** Rollback Plan
-***[#yellow] ====<size:13>Develop a rollback plan to revert to the original database state in case of ETL process failures.
-***[#yellow] ====<size:13>Safeguard against data corruption or loss.
+***[#yellow] ====<size:14>Develop a rollback plan to revert to the original database state in case of ETL process failures.
+***[#yellow] ====<size:14>Safeguard against data corruption or loss.
 
 ** Performance Optimization
-***[#yellow] ====<size:13>Optimize the performance of the ETL processes, including data transformation and loading.
-***[#yellow] ====<size:13>Monitor and fine-tune ETL jobs.
+***[#yellow] ====<size:14>Optimize the performance of the ETL processes, including data transformation and loading.
+***[#yellow] ====<size:14>Monitor and fine-tune ETL jobs.
 
 * Best Practices
 ** Testing and Validation
-***[#yellow] ====<size:13>Rigorously test ETL processes in a non-production environment to ensure data accuracy.
-***[#yellow] ====<size:13>Validate application functionality with the new database.
+***[#yellow] ====<size:14>Rigorously test ETL processes in a non-production environment to ensure data accuracy.
+***[#yellow] ====<size:14>Validate application functionality with the new database.
 
 ** Documentation
-***[#yellow] ====<size:13>Maintain detailed documentation of the ETL processes, including data mapping and transformation rules.
-***[#yellow] ====<size:13>Document any issues and their resolutions.
+***[#yellow] ====<size:14>Maintain detailed documentation of the ETL processes, including data mapping and transformation rules.
+***[#yellow] ====<size:14>Document any issues and their resolutions.
 
 ** Communication
-***[#yellow] ====<size:13>Communicate with stakeholders about the progress of ETL processes and any potential impacts.
-***[#yellow] ====<size:13>Coordinate with application owners and users.
+***[#yellow] ====<size:14>Communicate with stakeholders about the progress of ETL processes and any potential impacts.
+***[#yellow] ====<size:14>Coordinate with application owners and users.
 
 ** Monitoring and Alerting
-***[#yellow] ====<size:13>Implement monitoring and alerting to promptly address issues during ETL processes.
-***[#yellow] ====<size:13>Detect and respond to data synchronization problems.
+***[#yellow] ====<size:14>Implement monitoring and alerting to promptly address issues during ETL processes.
+***[#yellow] ====<size:14>Detect and respond to data synchronization problems.
 
 @endmindmap

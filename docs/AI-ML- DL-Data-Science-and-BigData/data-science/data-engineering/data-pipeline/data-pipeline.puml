@@ -1,83 +1,83 @@
 @startmindmap
 title =__ Data Pipeline__\n<img:images/img.png>
-!theme hacker
 
 * **[[https://youtu.be/VtzvF17ysbc  ]]**
 * **[[https://hazelcast.com/glossary/data-pipeline/]]**
 
+!theme hacker
 * Data Pipeline
 ** Data Source
 *** File Systems
-****[#yellow] ====<size:12>Local File System
-****[#yellow] ====<size:12>Distributed File System
+****[#yellow] ====<size:14>Local File System
+****[#yellow] ====<size:14>Distributed File System
 *** Relational Databases
-****[#yellow] ====<size:12>MySQL
-****[#yellow] ====<size:12>Oracle
-****[#yellow] ====<size:12>SQL Server
-****[#yellow] ====<size:12>PostgreSQL
+****[#yellow] ====<size:14>MySQL
+****[#yellow] ====<size:14>Oracle
+****[#yellow] ====<size:14>SQL Server
+****[#yellow] ====<size:14>PostgreSQL
 *** NoSQL Databases
-****[#yellow] ====<size:12>MongoDB
-****[#yellow] ====<size:12>Cassandra
-****[#yellow] ====<size:12>Redis
-****[#yellow] ====<size:12>Elasticsearch
+****[#yellow] ====<size:14>MongoDB
+****[#yellow] ====<size:14>Cassandra
+****[#yellow] ====<size:14>Redis
+****[#yellow] ====<size:14>Elasticsearch
 ** Data Ingestion (ETL)
 *** Data **Extraction**
-****[#yellow] ====<size:12>File Parsing
-****[#yellow] ====<size:12>API Integration
-****[#yellow] ====<size:12>Database Queries
+****[#yellow] ====<size:14>File Parsing
+****[#yellow] ====<size:14>API Integration
+****[#yellow] ====<size:14>Database Queries
 *** Data **Transformation**
-****[#yellow] ====<size:12>Data Cleaning
-****[#yellow] ====<size:12>Data Validation
-****[#yellow] ====<size:12>Data Enrichment
-****[#yellow] ====<size:12>Data Formatting
+****[#yellow] ====<size:14>Data Cleaning
+****[#yellow] ====<size:14>Data Validation
+****[#yellow] ====<size:14>Data Enrichment
+****[#yellow] ====<size:14>Data Formatting
 *** Data **Loading**
-****[#yellow] ====<size:12>Batch Loading
-****[#yellow] ====<size:12>Real-time Streaming
-****[#yellow] ====<size:12>Database Insertion
-****[#yellow] ====<size:12>File Writing
+****[#yellow] ====<size:14>Batch Loading
+****[#yellow] ====<size:14>Real-time Streaming
+****[#yellow] ====<size:14>Database Insertion
+****[#yellow] ====<size:14>File Writing
 ** Data Processing
 *** Data Manipulation
-****[#yellow] ====<size:12>Filtering
-****[#yellow] ====<size:12>Aggregation
-****[#yellow] ====<size:12>Joining
-****[#yellow] ====<size:12>Sorting
+****[#yellow] ====<size:14>Filtering
+****[#yellow] ====<size:14>Aggregation
+****[#yellow] ====<size:14>Joining
+****[#yellow] ====<size:14>Sorting
 *** Data Analysis
-****[#yellow] ====<size:12>Descriptive Statistics
-****[#yellow] ====<size:12>Data Mining
-****[#yellow] ====<size:12>Machine Learning
-****[#yellow] ====<size:12>Predictive Modeling
+****[#yellow] ====<size:14>Descriptive Statistics
+****[#yellow] ====<size:14>Data Mining
+****[#yellow] ====<size:14>Machine Learning
+****[#yellow] ====<size:14>Predictive Modeling
 *** Data Visualization
-****[#yellow] ====<size:12>Charts
-****[#yellow] ====<size:12>Graphs
-****[#yellow] ====<size:12>Dashboards
-****[#yellow] ====<size:12>Reports
+****[#yellow] ====<size:14>Charts
+****[#yellow] ====<size:14>Graphs
+****[#yellow] ====<size:14>Dashboards
+****[#yellow] ====<size:14>Reports
 ** Data Storage
 *** Data Warehouses
-****[#yellow] ====<size:12>On-Premise Data Warehouses
-****[#yellow] ====<size:12>Cloud Data Warehouses
+****[#yellow] ====<size:14>On-Premise Data Warehouses
+****[#yellow] ====<size:14>Cloud Data Warehouses
 *** Data Lakes
-****[#yellow] ====<size:12>Hadoop Distributed File System (HDFS)
-****[#yellow] ====<size:12>Amazon S3
-****[#yellow] ====<size:12>Google Cloud Storage
-****[#yellow] ====<size:12>Azure Blob Storage
+****[#yellow] ====<size:14>Hadoop Distributed File System (HDFS)
+****[#yellow] ====<size:14>Amazon S3
+****[#yellow] ====<size:14>Google Cloud Storage
+****[#yellow] ====<size:14>Azure Blob Storage
 *** NoSQL Databases
-****[#yellow] ====<size:12>MongoDB
-****[#yellow] ====<size:12>Cassandra
-****[#yellow] ====<size:12>Redis
-****[#yellow] ====<size:12>Elasticsearch
+****[#yellow] ====<size:14>MongoDB
+****[#yellow] ====<size:14>Cassandra
+****[#yellow] ====<size:14>Redis
+****[#yellow] ====<size:14>Elasticsearch
 **[#lightgreen] =Data Delivery
 ***[#gold] Data APIs
-****[#yellow] ====<size:12>RESTful APIs
-****[#yellow] ====<size:12>GraphQL APIs
-****[#yellow] ====<size:12>SOAP APIs
+****[#yellow] ====<size:14>RESTful APIs
+****[#yellow] ====<size:14>GraphQL APIs
+****[#yellow] ====<size:14>SOAP APIs
 ***[#pink] Data Streaming
-****[#yellow] ====<size:12>Apache Kafka
-****[#yellow] ====<size:12>Amazon Kinesis
-****[#yellow] ====<size:12>Apache Flink
-****[#yellow] ====<size:12>Apache Spark Streaming
+****[#yellow] ====<size:14>Apache Kafka
+****[#yellow] ====<size:14>Amazon Kinesis
+****[#yellow] ====<size:14>Apache Flink
+****[#yellow] ====<size:14>Apache Spark Streaming
 ***[#yellow] Data Export
-****[#yellow] ====<size:12>File Formats (CSV, JSON, XML)
-****[#yellow] ====<size:12>Database Replication
-****[#yellow] ====<size:12>API Integration
-****[#yellow] ====<size:12>Data Publishing
+****[#yellow] ====<size:14>File Formats (CSV, JSON, XML)
+****[#yellow] ====<size:14>Database Replication
+****[#yellow] ====<size:14>API Integration
+****[#yellow] ====<size:14>Data Publishing
 @endmindmap

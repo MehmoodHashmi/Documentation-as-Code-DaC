@@ -4,51 +4,51 @@ title =Change Data Capture (CDC)
 
 * Change Data Capture (CDC)
 ** Definition
-*** **Change Data Capture** is the process of identifying and capturing changes made to **data** in **source systems,** allowing **real-time or near-real-time replication and synchronization** with **target systems.**
+*** <size:14>**Change Data Capture** is the process of identifying and capturing changes made to **data** in **source systems,** allowing **real-time or near-real-time replication and synchronization** with **target systems.**
 
 ** Objectives
 *** Real-Time Data Updates
-****[#yellow] ====<size:13>Capture and apply changes to **data** immediately as they occur.
+****[#yellow] ====<size:14>Capture and apply changes to **data** immediately as they occur.
 *** Data Synchronization
-****[#yellow] ====<size:13>Keep target systems up-to-date with source system changes.
+****[#yellow] ====<size:14>Keep target systems up-to-date with source system changes.
 *** Minimize Latency
-****[#yellow] ====<size:13>Reduce the time between **data** changes and their replication.
+****[#yellow] ====<size:14>Reduce the time between **data** changes and their replication.
 
 **[#lime] CDC Techniques
 ***[#gold] ===Log-Based CDC
-****[#yellow] ====<size:13>Capture changes from **database** transaction logs.
+****[#yellow] ====<size:14>Capture changes from **database** transaction logs.
 ***[#orange] ===Trigger-Based CDC
-****[#yellow] ====<size:13>Use **database** triggers to capture changes.
+****[#yellow] ====<size:14>Use **database** triggers to capture changes.
 ***[#pink] ===Polling-Based CDC
-****[#yellow] ====<size:13>Periodically poll source systems to identify changes.
+****[#yellow] ====<size:14>Periodically poll source systems to identify changes.
 
 ** CDC Tools
 *** Debezium
-****[#yellow] ====<size:13>An open-source **CDC** platform supporting multiple **databases**.
+****[#yellow] ====<size:14>An open-source **CDC** platform supporting multiple **databases**.
 *** Apache Kafka Connect
-****[#yellow] ====<size:13>Connectors for **CDC** with integration into Apache Kafka.
+****[#yellow] ====<size:14>Connectors for **CDC** with integration into Apache Kafka.
 *** AWS Database Migration Services (DMS)
-****[#yellow] ====<size:13>A managed service for **CDC** and **database** migrations.
+****[#yellow] ====<size:14>A managed service for **CDC** and **database** migrations.
 
 **[#a] Considerations
 *** Data Source Compatibility
-****[#yellow] ====<size:13>Ensure that source systems support the chosen **CDC** technique.
+****[#yellow] ====<size:14>Ensure that source systems support the chosen **CDC** technique.
 ***[#orange] ===Data Volume
-****[#yellow] ====<size:13>Plan for scalability to handle high **data** volumes in real-time.
+****[#yellow] ====<size:14>Plan for scalability to handle high **data** volumes in real-time.
 *** Data Schema Changes
-****[#yellow] ====<size:13>Address challenges related to schema changes in source systems.
+****[#yellow] ====<size:14>Address challenges related to schema changes in source systems.
 
 *** Data Security
-****[#yellow] ====<size:13>Implement encryption and access controls to secure captured changes.
+****[#yellow] ====<size:14>Implement encryption and access controls to secure captured changes.
 
 ** Best Practices
 *** Data Schema Evolution
-****[#yellow] ====<size:13>Plan for schema changes and evolution in the target systems.
+****[#yellow] ====<size:14>Plan for schema changes and evolution in the target systems.
 *** Data Validation
-****[#yellow] ====<size:13>Implement validation checks to ensure the integrity of replicated **data**.
+****[#yellow] ====<size:14>Implement validation checks to ensure the integrity of replicated **data**.
 *** Error Handling
-****[#yellow] ====<size:13>Develop robust error handling and conflict resolution mechanisms.
+****[#yellow] ====<size:14>Develop robust error handling and conflict resolution mechanisms.
 *** Monitoring and Alerting
-****[#yellow] ====<size:13>Set up continuous monitoring and alerting for **CDC** processes.
+****[#yellow] ====<size:14>Set up continuous monitoring and alerting for **CDC** processes.
 
 @endmindmap
