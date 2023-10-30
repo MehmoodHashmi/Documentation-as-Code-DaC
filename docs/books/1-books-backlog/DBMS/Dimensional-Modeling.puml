@@ -13,7 +13,7 @@ title =__ Dimensional Modeling__
 *** Dimension Table
 ****[#yellow] ====<size:14>Contains descriptive attributes that provide context to the facts in the Fact Table.
 ***[#gold] ====**Star Schema**
-****[#yellow] ====<size:14>Centralized Fact Table connected to multiple Dimension Tables in a star-like structure.
+****[#yellow] ====<size:14>Centralized Fact Table connected to multiple Dimension Tables in a **star-like structure.**
 ***[#orange] ====**Snowflake Schema**
 ****[#yellow] ====<size:14>Fact Table connected to Dimension Tables, which are further normalized into additional tables.
 ** Benefits
