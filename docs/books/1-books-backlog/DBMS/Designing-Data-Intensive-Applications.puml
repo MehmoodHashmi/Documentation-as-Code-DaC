@@ -45,7 +45,7 @@ title  = //__**Designing Data-Intensive Applications**__//\n <size:24>**Key Take
 **[#yellow] **Data processing**
 *** Covers **batch processing and stream processing**
 *** **__Techniques__** include **MapReduce and Apache Kafka**
-****[#yellow] **Apache beam** can do **stream and batch processing** & is open source plus latest **technology**. \n It is a **polyglot** tool (meaning works flawlessly with different programing languages)
+****[#yellow] ====<size:14>**Apache beam** can do **stream and batch processing** & is open source plus latest **technology**. \n It is a **polyglot** tool (meaning works flawlessly with different programing languages)
 *** Emphasizes importance of **fault tolerance**
 **[#yellow] **Distributed systems**
 *** Includes **distributed databases, messaging, and consensus algorithms**
@@ -59,8 +59,8 @@ title  = //__**Designing Data-Intensive Applications**__//\n <size:24>**Key Take
 **[#yellow] **Performance**
 *** Guidance on **optimizing latency, throughput, and resource utilization**
 **[#yellow] **Trade-offs**
-***[#orange] **__Every design decision involves trade-offs__**
-***[#orange] **Encourages making informed choices**
+***[#orange] ====<size:14>**__Every design decision involves trade-offs__**
+***[#orange] ====<size:14>**Encourages making informed choices**
 
 @endmindmap
 

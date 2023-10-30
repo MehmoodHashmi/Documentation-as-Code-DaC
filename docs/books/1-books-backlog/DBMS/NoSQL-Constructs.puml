@@ -1,84 +1,84 @@
 @startmindmap
-title This mindmap outlines the different types of NoSQL databases, including document-based, key-value, column family, and graph-based databases. For each type, it includes\n examples of popular NoSQL databases and the constructs that they use, such as querying, indexing, and clustering.
+title =__NoSQL Constructs__\nThis mindmap outlines the different types of NoSQL databases, including \ndocument-based, key-value, column family, and graph-based databases. For each type, it includes\n examples of popular NoSQL databases and the constructs that they use, such as querying, indexing, and clustering.
 
-
+!theme hacker
 
 
 
 * NoSQL Constructs
 
-**[#yellow] Document-Based
+**[#yellow] ====Document-Based
 
-*** MongoDB
+*** **MongoDB**
 
-**** Querying
+****[#gold] ====<size:14>Querying
 
-**** Aggregation Pipeline
+****[#gold] ====<size:14>Aggregation Pipeline
 
-**** Indexes
+****[#gold] ====<size:14>Indexes
 
 *** Couchbase
 
-**** Querying
+****[#gold] ====<size:14>Querying
 
-**** Indexes
+****[#gold] ====<size:14>Indexes
 
 *** Amazon DynamoDB
 
-**** Querying
+****[#gold] ====<size:14>Querying
 
-**** Indexes
+****[#gold] ====<size:14>Indexes
 
-**[#yellow] Key-Value
+**[#yellow] ====Key-Value
 
 *** Redis
 
-**** Data Types
+****[#gold] ====<size:14>Data Types
 
-**** Commands
+****[#gold] ====<size:14>Commands
 
 *** Riak
 
-**** Querying
+****[#gold] ====<size:14>Querying
 
-**** Indexes
+****[#gold] ====<size:14>Indexes
 
 *** Amazon SimpleDB
 
-**** Querying
+****[#gold] ====<size:14>Querying
 
-**** Indexes
+****[#gold] ====<size:14>Indexes
 
-**[#yellow] Column Family
+**[#yellow] ====Column Family
 
-*** Cassandra
+*** **Cassandra**
 
-**** Querying
+****[#gold] ====<size:14>Querying
 
-**** Indexes
+****[#gold] ====<size:14>Indexes
 
-**** Clustering
+****[#gold] ====<size:14>Clustering
 
 *** HBase
 
-**** Querying
+****[#gold] ====<size:14>Querying
 
-**** Indexes
+****[#gold] ====<size:14>Indexes
 
-**** Coprocessors
+****[#gold] ====<size:14>Coprocessors
 
-**[#yellow]  Graph-Based
+**[#yellow]  ====Graph-Based
 
 *** Neo4j
 
-**** Querying
+****[#gold] ====<size:14>Querying
 
-**** Indexes
+****[#gold] ====<size:14>Indexes
 
 *** OrientDB
 
-**** Querying
+****[#gold] ====<size:14>Querying
 
-**** Indexes
+****[#gold] ====<size:14>Indexes
 
 @endmindmap
