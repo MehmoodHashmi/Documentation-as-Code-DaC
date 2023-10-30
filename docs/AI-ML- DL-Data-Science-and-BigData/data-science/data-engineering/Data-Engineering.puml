@@ -17,7 +17,7 @@ title =Data Engineering\n<img:images/img.png> <img:images/img_1.png>\n <color #g
 
 ***[#crimson] ====<size:14>**[[data-storage-and-management/Data-Lake-vs-Data-Warehouse.puml Data Storage]]**
 ****[#yellow] ====<size:14>Design and manage data storage solutions.
-****[#red] ====<size:16>**Examples:** **[[../../../books/1-books-backlog/DBMS/dbms.puml Databases,]]** **[[data-storage-and-management/Data-Warehouse.puml Data Warehouses,]]** **[[data-storage-and-management/Data-Lake.puml data lakes,]]** **[[data-storage-and-management/Data-mart.puml data mart,]]** **[[data-storage-and-management/Data-Cube.puml data cube,]]** **[[data-storage-and-management/Delta-Lake.puml delta lake,]]** **[[data-storage-and-management/Data-Mesh.puml data mesh,]]** **[[data-storage-and-management/DataOps.puml dataOps]]**.
+****[#red] ====<size:16>**Examples:** **[[../../../books/1-books-backlog/DBMS/dbms.puml Databases,]] [[data-storage-and-management/Data-Warehouse.puml Data Warehouses,]] [[data-storage-and-management/Data-Lake.puml data lakes,]] [[data-storage-and-management/Data-mart.puml data mart,]] [[data-storage-and-management/Data-Cube.puml data cube,]] [[data-storage-and-management/Delta-Lake.puml delta lake,]] [[data-storage-and-management/Data-Mesh.puml data mesh,]] [[data-storage-and-management/modeling-methodology/Data-Vault-vs-3NF-vs-Dimensional-Modeling.puml data vault,]] [[data-storage-and-management/DataOps.puml dataOps]]**.
 
 ***[#brown] ====<size:14>**[[data-preprocessing-(or-wrangling)/4-Data-Integration Data Integration]]**
 ****[#yellow] ====<size:14>Combine and unify data from various sources.
