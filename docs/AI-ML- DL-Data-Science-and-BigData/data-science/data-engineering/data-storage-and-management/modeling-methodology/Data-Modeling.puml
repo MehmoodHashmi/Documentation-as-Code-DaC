@@ -3,44 +3,44 @@ title =__ Data Modeling__
 !theme hacker
 
 * Data Modeling
-**[#yellow] <size:14>**Definition:** The process of creating a conceptual, logical, and physical representation of data structures and relationships within an organization's database system.
+**[#yellow] ====<size:14>**Definition:** The process of creating a conceptual, logical, and physical representation of data structures and relationships within an organization's database system.
 ** Types of Data Models
 *** Conceptual Data Model
-****[#yellow] <size:14>**Definition:** Represents high-level business concepts and relationships without specific implementation details.
-****[#white] <size:14>**Examples:** Entity-Relationship **(ER)** model, Object-Oriented model.
+****[#yellow] ====<size:14>**Definition:** Represents high-level business concepts and relationships without specific implementation details.
+****[#white] ====<size:14>**Examples:** Entity-Relationship **(ER)** model, Object-Oriented model.
 *** Logical Data Model
-****[#yellow] <size:14>**Definition:** Defines the structure, relationships, and constraints of data at a more detailed level, independent of any specific database management system.
-****[#white] <size:14>**Examples:** Relational model **(tables, entities, attributes)**, Unified Modeling Language **(UML)** class diagram.
+****[#yellow] ====<size:14>**Definition:** Defines the structure, relationships, and constraints of data at a more detailed level, independent of any specific database management system.
+****[#white] ====<size:14>**Examples:** Relational model **(tables, entities, attributes)**, Unified Modeling Language **(UML)** class diagram.
 *** Physical Data Model
-****[#yellow] <size:14>**Definition:** Specifies the implementation details of data structures, including storage formats, indexing, and optimization considerations.
-****[#white] <size:14>**Examples:** Relational schema, Data Definition Language **(DDL)** scripts.
+****[#yellow] ====<size:14>**Definition:** Specifies the implementation details of data structures, including storage formats, indexing, and optimization considerations.
+****[#white] ====<size:14>**Examples:** Relational schema, Data Definition Language **(DDL)** scripts.
 **[#a] Data Modeling Approaches
 ***[#gold] ===Entity-Relationship **(ER)** Modeling
-****[#yellow] <size:14>**Definition:** Represents entities, attributes, and relationships between entities using entity-relationship diagrams.
-****[#white] <size:14>**Examples:** Crow's Foot notation, Chen notation.
+****[#yellow] ====<size:14>**Definition:** Represents entities, attributes, and relationships between entities using entity-relationship diagrams.
+****[#white] ====<size:14>**Examples:** Crow's Foot notation, Chen notation.
 ***[#black] ====<size:16>**[[../../../../../books/1-books-backlog/DBMS/Dimensional-Modeling.puml Dimensional Modeling]]**
-****[#yellow] <size:14>**Definition:** Focuses on modeling data for data warehousing and business intelligence applications, emphasizing the relationships between dimensions and facts.
-****[#white] <size:14>**Examples:** Star schema, Snowflake schema.
+****[#yellow] ====<size:14>**Definition:** Focuses on modeling data for data warehousing and business intelligence applications, emphasizing the relationships between dimensions and facts.
+****[#white] ====<size:14>**Examples:** Star schema, Snowflake schema.
 ***[#orange] ===Object-Relational Modeling
-****[#yellow] <size:14>**Definition:** Combines object-oriented concepts with relational database principles, allowing for the storage of complex data types and behavior.
-****[#white] <size:14>**Examples:** Object-Relational Database Management Systems **(ORDBMS)**, Unified Modeling Language **(UML)** extensions.
+****[#yellow] ====<size:14>**Definition:** Combines object-oriented concepts with relational database principles, allowing for the storage of complex data types and behavior.
+****[#white] ====<size:14>**Examples:** Object-Relational Database Management Systems **(ORDBMS)**, Unified Modeling Language **(UML)** extensions.
 ** Key Concepts in Data Modeling
 *** Entities
-****[#yellow] <size:14>**Definition:** Represent real-world objects, such as customers, products, or orders, with attributes that describe their properties.
-****[#white] <size:14>**Examples:** Customer entity **(name, address, email)**, Product entity **(name, price, description)**.
+****[#yellow] ====<size:14>**Definition:** Represent real-world objects, such as customers, products, or orders, with attributes that describe their properties.
+****[#white] ====<size:14>**Examples:** Customer entity **(name, address, email)**, Product entity **(name, price, description)**.
 *** Relationships
-****[#yellow] <size:14>**Definition:** Capture associations and interactions between entities, defining how they are related to each other.
-****[#white] <size:14>**Examples:** One-to-One, One-to-Many, Many-to-Many.
+****[#yellow] ====<size:14>**Definition:** Capture associations and interactions between entities, defining how they are related to each other.
+****[#white] ====<size:14>**Examples:** One-to-One, One-to-Many, Many-to-Many.
 *** Attributes
-****[#yellow] <size:14>**Definition:** Describe the characteristics or properties of entities.
-****[#white] <size:14>**Examples:** Name, Age, Address.
+****[#yellow] ====<size:14>**Definition:** Describe the characteristics or properties of entities.
+****[#white] ====<size:14>**Examples:** Name, Age, Address.
 *** Primary Key
-****[#yellow] <size:14>**Definition:** Uniquely identifies each record in an entity, ensuring its uniqueness and integrity.
-****[#white] <size:14>**Examples:** CustomerID, ProductCode.
+****[#yellow] ====<size:14>**Definition:** Uniquely identifies each record in an entity, ensuring its uniqueness and integrity.
+****[#white] ====<size:14>**Examples:** CustomerID, ProductCode.
 *** Foreign Key
-****[#yellow] <size:14>**Definition:** Links an attribute in one entity to the primary key of another entity, establishing relationships between entities.
-****[#white] <size:14>**Examples:** CustomerID in Order entity referencing Customer entity.
+****[#yellow] ====<size:14>**Definition:** Links an attribute in one entity to the primary key of another entity, establishing relationships between entities.
+****[#white] ====<size:14>**Examples:** CustomerID in Order entity referencing Customer entity.
 *** Normalization
-****[#yellow] <size:14>**Definition:** The process of organizing data into logical and efficient structures to minimize redundancy and improve data integrity.
-****[#white] <size:14>**Examples:** First Normal Form **(1NF)**, Second Normal Form **(2NF)**, Third Normal Form **(3NF)**.
+****[#yellow] ====<size:14>**Definition:** The process of organizing data into logical and efficient structures to minimize redundancy and improve data integrity.
+****[#white] ====<size:14>**Examples:** First Normal Form **(1NF)**, Second Normal Form **(2NF)**, Third Normal Form **(3NF)**.
 @endmindmap
