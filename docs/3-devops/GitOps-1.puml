@@ -1,26 +1,27 @@
 @startmindmap
 title =__ GitOps__\n Taken from chatgpt-4
+!theme hacker
 
 * GitOps
-** Principles
-*** Infrastructure as Code (IaC)
-*** Version Control
-*** Continuous Deployment
-*** Automated Reconciliation
-** Components
+**[#lime] Principles
+***[#red] ====**[[devops-plantuml-mindmap/infrastructure-as-code.puml Infrastructure as Code (IaC)]]**
+*** ====Version Control
+*** ====Continuous Deployment
+*** ====Automated Reconciliation
+**[#gold] Components
 *** Version Control System
-**** Git <&git>
-**** GitHub <&github>
-**** GitLab <&gitlab>
-*** Containerization
-**** Docker <&docker>
-*** Orchestration
-**** Kubernetes <&kubernetes>
+****[#black] ====<size:14>**[[Git.puml Git]]**
+****[#white] ====<size:14>GitHub
+****[#white] ====<size:14>GitLab
+*** ====**Containerization**
+****[#black] ====<size:14>**[[devops-plantuml-mindmap/Docker.puml Docker]]**
+*** ====**Orchestration**
+****[#black] ====<size:14>**[[devops-plantuml-mindmap/kubernetes.puml Kubernetes]]**
 ** Workflow
-*** Step 1: Code Commit
-*** Step 2: CI/CD Pipeline
-*** Step 3: Deployment
-*** Step 4: Monitoring & Reconciliation
+***[#yellow] **Step 1:** Code Commit
+***[#yellow] **Step 2:** CI/CD **Pipeline**
+***[#yellow] **Step 3:** **Deployment**
+***[#yellow] **Step 4:** Monitoring & Reconciliation
 ** Benefits
 *** Consistency
 *** Traceability
@@ -31,8 +32,8 @@ title =__ GitOps__\n Taken from chatgpt-4
 *** Learning Curve
 *** Security Concerns
 ** Tools
-*** Flux
-*** Argo CD
-*** Jenkins X
-*** Gitkube
+***[#pink] ====**Flux**
+***[#pink] ====**Argo CD**
+***[#pink] ====**Jenkins X**
+***[#pink] ====**Gitkube**
 @endmindmap

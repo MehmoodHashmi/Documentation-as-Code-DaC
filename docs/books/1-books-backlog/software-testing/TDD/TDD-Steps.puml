@@ -1,17 +1,18 @@
 @startmindmap
 title = TDD Steps
+!theme hacker
 
 * TDD Steps
 ** **1.** Write a Failing Test
-*** Identify the **__behavior__** to be tested
-*** Write a test that will fail
+***[#gold] ====<size:14>Identify the **__behavior__** to be tested
+***[#gold] ====<size:14>Write a test that will fail
 ** **2.** Write Minimal Code to Pass the Test
-*** Write just enough code to pass the test
-*** Don't worry about design or efficiency
+***[#gold] ====<size:14>Write just enough code to pass the test
+***[#gold] ====<size:14>Don't worry about design or efficiency
 ** **3.** Refactor Code
-*** Improve design without changing behavior
-*** Remove duplication
+***[#gold] ====<size:14>Improve design without changing behavior
+***[#gold] ====<size:14>Remove duplication
 ** **4.** Repeat
-*** Write the next test and follow steps 2-3
-*** Keep repeating until all requirements are met
+***[#gold] ====<size:14>**Write the next test and follow steps 2-3**
+***[#gold] ====<size:14>Keep repeating until all requirements are met
 @endmindmap

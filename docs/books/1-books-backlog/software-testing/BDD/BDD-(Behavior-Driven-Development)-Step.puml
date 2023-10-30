@@ -1,25 +1,26 @@
 @startmindmap
-
 title =__ BDD (Behavior-Driven Development) Steps__
+!theme hacker
+
 
 * BDD (Behavior-Driven Development) Steps
 ** **1. Define** the Feature
-*** Identify the business goal or value
-*** Define the feature from the user's perspective
-*** Write a feature file in Gherkin syntax
+***[#gold] ====<size:14>Identify the business goal or value
+***[#gold] ====<size:14>Define the feature from the user's perspective
+***[#gold] ====<size:14>Write a feature file in Gherkin syntax
 ** **2. Define** the Scenarios
-*** Identify the different ways the feature can be used
-*** Define the scenarios in Gherkin syntax
-*** Each scenario should have a clear goal or outcome
-*** Use examples to illustrate the scenarios
+***[#gold] ====<size:14>Identify the different ways the feature can be used
+***[#gold] ====<size:14>Define the scenarios in Gherkin syntax
+***[#gold] ====<size:14>Each scenario should have a clear goal or outcome
+***[#gold] ====<size:14>Use examples to illustrate the scenarios
 ** **3. Implement** the Scenarios
-*** Write step definitions for each scenario
-*** Implement the necessary code to make the scenario pass
-*** Use mocks and stubs as necessary to isolate the code being tested
+***[#gold] ====<size:14>Write step definitions for each scenario
+***[#gold] ====<size:14>Implement the necessary code to make the scenario pass
+***[#gold] ====<size:14>Use mocks and stubs as necessary to isolate the code being tested
 ** **4. Run** the Scenarios
-*** Run the scenarios to ensure they pass
-*** If a scenario fails, identify the cause and fix the issue
+***[#gold] ====<size:14>Run the scenarios to ensure they pass
+***[#gold] ====<size:14>If a scenario fails, identify the cause and fix the issue
 ** **5. Refactor**
-*** Refactor the code to improve its design and maintainability
-*** Ensure that the scenarios still pass after refactoring
+***[#gold] ====<size:14>Refactor the code to improve its design and maintainability
+***[#gold] ====<size:14>Ensure that the scenarios still pass after refactoring
 @endmindmap

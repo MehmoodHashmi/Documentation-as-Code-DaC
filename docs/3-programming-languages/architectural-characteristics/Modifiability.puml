@@ -1,41 +1,43 @@
 @startmindmap
 title = Modifiability
+!theme hacker
+
 
 * Modifiability
 ** Definition
-*** The ease with which changes can be made to a system
+*** ====<size:14>The ease with which changes can be made to a system
 ** Importance
-*** Changes are inevitable
-*** Systems must evolve to remain useful
+***[#yellow] ====<size:14>Changes are inevitable
+***[#yellow] ====<size:14>Systems must evolve to remain useful
 ** Factors affecting modifiability
-*** Architecture
-*** Design
-*** Code quality
-*** Documentation
-*** Testing
-*** Tooling
+***[#yellow] ====<size:14>Architecture
+***[#yellow] ====<size:14>Design
+***[#yellow] ====<size:14>Code quality
+***[#yellow] ====<size:14>Documentation
+***[#yellow] ====<size:14>Testing
+***[#yellow] ====<size:14>Tooling
 ** Techniques for improving modifiability
-*** Modular design
-*** Separation of concerns
-*** Encapsulation
-*** Abstraction
-*** Design patterns
-*** Refactoring
-*** Test-driven development
-*** Continuous integration and delivery
-*** Code reviews
-*** Automated testing
-*** Documentation
-*** Version control
-*** Dependency management
+***[#yellow] ====<size:14>Modular design
+***[#yellow] ====<size:14>Separation of concerns
+***[#yellow] ====<size:14>Encapsulation
+***[#yellow] ====<size:14>Abstraction
+***[#yellow] ====<size:14>Design patterns
+***[#yellow] ====<size:14>Refactoring
+***[#yellow] ====<size:14>Test-driven development
+***[#yellow] ====<size:14>Continuous integration and delivery
+***[#yellow] ====<size:14>Code reviews
+***[#yellow] ====<size:14>Automated testing
+***[#yellow] ====<size:14>Documentation
+***[#yellow] ====<size:14>Version control
+***[#yellow] ====<size:14>Dependency management
 ** Benefits of modifiability
-*** Reduced cost and effort for maintenance and evolution
-*** Improved quality and reliability
-*** Increased developer productivity
-*** Enhanced user satisfaction
+***[#yellow] ====<size:14>Reduced cost and effort for maintenance and evolution
+***[#yellow] ====<size:14>Improved quality and reliability
+***[#yellow] ====<size:14>Increased developer productivity
+***[#yellow] ====<size:14>Enhanced user satisfaction
 ** Challenges in achieving modifiability
-*** Balancing modifiability with other quality attributes
-*** Identifying the right level of abstraction
-*** Managing technical debt
-*** Dealing with legacy code
+***[#yellow] ====<size:14>Balancing modifiability with other quality attributes
+***[#yellow] ====<size:14>Identifying the right level of abstraction
+***[#yellow] ====<size:14>Managing technical debt
+***[#yellow] ====<size:14>Dealing with legacy code
 @endmindmap

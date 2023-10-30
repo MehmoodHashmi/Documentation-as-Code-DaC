@@ -1,5 +1,8 @@
 @startmindmap
-title Infrastructure as Code
+title =Infrastructure as Code
+
+* **[[advance-infrastructure-as-code.puml advance Infrastructure as Code]]**
+!theme hacker
 
 * Definition
 ** Automated management of infrastructure

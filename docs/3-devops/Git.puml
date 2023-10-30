@@ -1,46 +1,47 @@
 @startmindmap
 title =__ Git__
+!theme hacker
 
 * **Git**
 ** **Definition**
-*** Git is a distributed version control system used for tracking changes in source code and other files during software development.
+*** ====<size:14>**Git** is a **distributed version control system** used for tracking changes in source code and other files during software development.
 **[#pink] **Concepts**
 *** Repository
-**** A central location where a Git project is stored, containing all the files and folders as well as the commit history.
+****[#yellow] ====<size:14>A central location where a Git project is stored, containing all the files and folders as well as the commit history.
 *** Commit
-**** A record of changes made to a repository. Commits are used to save and track changes made to files over time.
+****[#yellow] ====<size:14>A record of changes made to a repository. Commits are used to save and track changes made to files over time.
 *** Branch
-**** A separate line of development in a repository. Branches allow developers to work on features or bug fixes in isolation from the main codebase.
+****[#yellow] ====<size:14>A separate line of development in a repository. Branches allow developers to work on features or bug fixes in isolation from the main codebase.
 *** Merge
-**** The process of combining changes made in one branch with another. Merging allows developers to integrate changes made in separate branches back into the main codebase.
+****[#yellow] ====<size:14>The process of combining changes made in one branch with another. Merging allows developers to integrate changes made in separate branches back into the main codebase.
 *** Pull Request
-**** A request to merge changes from one branch into another. Pull requests provide a way for developers to review and discuss changes before they are merged into the main codebase.
+****[#yellow] ====<size:14>A request to merge changes from one branch into another. Pull requests provide a way for developers to review and discuss changes before they are merged into the main codebase.
 *** Fork
-**** A copy of a repository that allows developers to work on their own version of the project without affecting the original codebase.
+****[#yellow] ====<size:14>A copy of a repository that allows developers to work on their own version of the project without affecting the original codebase.
 *** Tag
-**** A named pointer to a specific commit in a repository. Tags are used to mark significant points in a project's history, such as a release.
+****[#yellow] ====<size:14>A named pointer to a specific commit in a repository. Tags are used to mark significant points in a project's history, such as a release.
 **[#pink] **Commands**
 *** Clone
-**** The process of creating a local copy of a remote repository.
+****[#yellow] ====<size:14>The process of creating a local copy of a remote repository.
 *** Add
-**** The process of staging changes made to files in a repository for inclusion in a commit.
+****[#yellow] ====<size:14>The process of staging changes made to files in a repository for inclusion in a commit.
 *** Commit
-**** The process of saving changes made to files in a repository.
+****[#yellow] ====<size:14>The process of saving changes made to files in a repository.
 *** Push
-**** The process of uploading local changes to a remote repository.
+****[#yellow] ====<size:14>The process of uploading local changes to a remote repository.
 *** Pull
-**** The process of downloading changes from a remote repository and merging them into a local repository.
+****[#yellow] ====<size:14>The process of downloading changes from a remote repository and merging them into a local repository.
 *** Merge
-**** The process of combining changes made in one branch with another.
+****[#yellow] ====<size:14>The process of combining changes made in one branch with another.
 *** Rebase
-**** The process of applying changes made in one branch to another, rewriting the commit history to create a linear history.
+****[#yellow] ====<size:14>The process of applying changes made in one branch to another, rewriting the commit history to create a linear history.
 ** **Hosting Services**
 *** GitHub
-**** A web-based hosting service for Git repositories. GitHub provides features such as issue tracking, pull requests, and collaboration tools.
+****[#yellow] ====<size:14>A web-based hosting service for Git repositories. GitHub provides features such as issue tracking, pull requests, and collaboration tools.
 *** GitLab
-**** A web-based hosting service for Git repositories. GitLab provides features such as continuous integration, issue tracking, and collaboration tools.
+****[#yellow] ====<size:14>A web-based hosting service for Git repositories. GitLab provides features such as continuous integration, issue tracking, and collaboration tools.
 *** Bitbucket
-**** A web-based hosting service for Git repositories. Bitbucket provides features such as pull requests, code reviews, and collaboration tools.
+****[#yellow] ====<size:14>A web-based hosting service for Git repositories. Bitbucket provides features such as pull requests, code reviews, and collaboration tools.
 ** Advantages
 *** Distributed Version Control
 *** Branching and Merging

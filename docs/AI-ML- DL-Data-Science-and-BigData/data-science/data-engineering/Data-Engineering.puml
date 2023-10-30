@@ -23,9 +23,9 @@ title =Data Engineering\n<img:images/img.png> <img:images/img_1.png>\n <color #g
 ****[#yellow] ====<size:14>Combine and unify data from various sources.
 ****[#yellow] ====<size:14>Ensure data consistency and accuracy.
 
-*** ====<size:15>**[[Data-Processing.puml Data Processing]]**
+*** ====<size:16>**[[Data-Processing.puml Data Processing]]**
 ****[#yellow] ====<size:14>Perform data computation and analysis.
-****[#yellow] ====<size:14>**May involve batch and stream processing.**
+****[#blue] ====<size:14>**May involve [[data-pipeline/Batch-Processing.puml batch]] and [[data-pipeline/Stream-Processing.puml stream processing.]]**
 
 ***[#lightgreen] ====<size:14>**[[Data-Governance.puml Data Governance]]**
 ****[#yellow] ====<size:14>Establish policies and procedures for data quality and compliance.
@@ -42,7 +42,7 @@ title =Data Engineering\n<img:images/img.png> <img:images/img_1.png>\n <color #g
 ****[#lightgreen] ====<size:14>**[[../../Apache-Big-Data-Ecosystem/Hadoop.puml Apache Hadoop,]]** **[[../../Apache-Big-Data-Ecosystem/Apache-Spark.puml Spark,]] and** **[[../../Apache-Big-Data-Ecosystem/Hadoop-Distributed-File-System-(HDFS).puml distributed storage systems like HDFS.]]**
 
 ***[#black] ====<size:14>**[[../data-or-database-migration/Data-Migration-Strategies/ETL-(Extract-Transform-Load)-Strategy.puml ETL (Extract, Transform, Load) Tools]]**
-****[#purple] ====<size:14>**Apache Nifi, Talend,** **[[../../Apache-Big-Data-Ecosystem/Apache-Beam.puml Apache Beam.]]**
+****[#purple] ====<size:15>**Apache Nifi, Talend,** **[[../../Apache-Big-Data-Ecosystem/Apache-Beam.puml Apache Beam.]]**
 
 ***[#aaaaaa] ====<size:14>**[[data-pipeline/Stream-Processing-vs-Batch-Processing.puml Stream Processing]]**
 ****[#red] ====<size:14>**[[../../Apache-Big-Data-Ecosystem/apache-kafka.puml Apache Kafka,]]** **Apache Flink, Apache Storm.**
@@ -61,7 +61,7 @@ title =Data Engineering\n<img:images/img.png> <img:images/img_1.png>\n <color #g
 ****[#yellow] ====<size:14>Track the origin and transformation history of data.
 
 *** ====<size:14>Compliance
-****[#yellow] ====<size:14>Ensure data complies with legal and industry regulations **(e.g., GDPR, HIPAA)**.
+****[#orange] ====<size:16>Ensure data complies with legal and industry regulations **(e.g., [[GDPR.puml GDPR]], [[HIPAA.puml HIPAA]])**.
 
 *** ====<size:14>Data Security
 ****[#yellow] ====<size:14>Implement encryption, access controls, and data masking.
@@ -77,9 +77,9 @@ title =Data Engineering\n<img:images/img.png> <img:images/img_1.png>\n <color #g
 ****[#yellow] ====<size:14>Implement robust monitoring and logging to detect issues and performance bottlenecks.
 
 *** ====<size:14>**Collaboration**
-****[#orange] ====<size:14>Foster **collaboration** between **[[../11-key-areas-of-Data-Management-and-specific-data-roles/Data-Engineer.puml data engineers,]]** **[[../11-key-areas-of-Data-Management-and-specific-data-roles/Data-Scientist.puml data scientists,]] and** **[[../11-key-areas-of-Data-Management-and-specific-data-roles/Business-Analyst-vs-Data-Analyst.puml analysts.]]**
+****[#orange] ====<size:16>Foster **collaboration** between **[[../11-key-areas-of-Data-Management-and-specific-data-roles/Data-Engineer.puml data engineers,]]** **[[../11-key-areas-of-Data-Management-and-specific-data-roles/Data-Scientist.puml data scientists,]] and** **[[../11-key-areas-of-Data-Management-and-specific-data-roles/Business-Analyst-vs-Data-Analyst.puml analysts.]]**
 
-*** ====<size:14>Automation
-****[#lightgreen] ====<size:14>Automate data **[[data-pipeline/advanced-data-pipeline.puml pipelines]]** deployment, testing, and maintenance.
+*** ====<size:14>**Automation**
+****[#lightgreen] ====<size:14>**Automate data [[data-pipeline/advanced-data-pipeline.puml pipelines]] [[../../../3-programming-languages/architectural-characteristics/Deployability.puml (deployment)]], [[../../../books/1-books-backlog/software-testing/Levels-of-Testing.puml testing,]] [[../../../3-programming-languages/architectural-characteristics/Maintainability.puml and maintenance]].**
 
 @endmindmap

@@ -1,5 +1,6 @@
 @startmindmap
 title = __Kubernetes__
+!theme hacker
 
 * Core Components
 ** API Server
@@ -25,27 +26,27 @@ title = __Kubernetes__
 ** Storage Class Provisioner
 * Cluster Architecture
 ** Nodes
-*** Pods
-*** Labels and Selectors
-*** Namespaces
-*** Services
-*** Endpoints
-*** Replication Controllers
-*** Deployments
-*** StatefulSets
-*** DaemonSets
+***[#yellow] ====<size:14>Pods
+***[#yellow] ====<size:14>Labels and Selectors
+***[#yellow] ====<size:14>Namespaces
+***[#yellow] ====<size:14>Services
+***[#yellow] ====<size:14>Endpoints
+***[#yellow] ====<size:14>Replication Controllers
+***[#yellow] ====<size:14>Deployments
+***[#yellow] ====<size:14>StatefulSets
+***[#yellow] ====<size:14>DaemonSets
 ** Volumes
-*** EmptyDir
-*** HostPath
-*** ConfigMap
-*** Secrets
-*** PersistentVolume
-*** PersistentVolumeClaim
+***[#yellow] ====<size:14>EmptyDir
+***[#yellow] ====<size:14>HostPath
+***[#yellow] ====<size:14>ConfigMap
+***[#yellow] ====<size:14>Secrets
+***[#yellow] ====<size:14>PersistentVolume
+***[#yellow] ====<size:14>PersistentVolumeClaim
 ** Configurations
-*** ConfigMaps
-*** Secrets
+***[#yellow] ====<size:14>ConfigMaps
+***[#yellow] ====<size:14>Secrets
 ** Security
-*** Role-Based Access Control
-*** Service Account
-*** Network Policies
+***[#yellow] ====<size:14>Role-Based Access Control
+***[#yellow] ====<size:14>Service Account
+***[#yellow] ====<size:14>Network Policies
 @endmindmap

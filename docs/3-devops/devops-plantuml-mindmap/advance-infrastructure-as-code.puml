@@ -1,5 +1,6 @@
 @startmindmap
-title Advanced Infrastructure as Code
+title =Advanced Infrastructure as Code
+!theme hacker
 
 * Design Patterns
 ** Immutable Infrastructure
@@ -12,52 +13,52 @@ title Advanced Infrastructure as Code
 ** Infrastructure Pipelines
 * Security and Compliance
 ** Infrastructure Security
-*** Encryption
-*** Access Control
-*** Network Segmentation
-*** Auditing
-*** Penetration Testing
+***[#yellow] ====<size:14>Encryption
+***[#yellow] ====<size:14>Access Control
+***[#yellow] ====<size:14>Network Segmentation
+***[#yellow] ====<size:14>Auditing
+***[#yellow] ====<size:14>Penetration Testing
 ** Compliance and Governance
-*** PCI DSS
-*** HIPAA
-*** SOC 2
-*** GDPR
-*** ISO 27001
+***[#yellow] ====<size:14>PCI DSS
+***[#yellow] ====<size:14>HIPAA
+***[#yellow] ====<size:14>SOC 2
+***[#yellow] ====<size:14>GDPR
+***[#yellow] ====<size:14>ISO 27001
 * Testing and Quality Assurance
 ** Unit Testing
 ** Integration Testing
 ** Load Testing
 ** Security Testing
 ** Code Quality
-*** Code Smells
-*** Code Coverage
-*** Code Duplication
-*** Code Complexity
+***[#yellow] ====<size:14>Code Smells
+***[#yellow] ====<size:14>Code Coverage
+***[#yellow] ====<size:14>Code Duplication
+***[#yellow] ====<size:14>Code Complexity
 * Collaboration and Workflow
 ** Version Control
-*** Git
-*** Subversion
-*** Mercurial
+***[#yellow] ====<size:14>Git
+***[#yellow] ====<size:14>Subversion
+***[#yellow] ====<size:14>Mercurial
 ** Branching Strategies
-*** Trunk-based Development
-*** Feature Branching
-*** Gitflow
+***[#yellow] ====<size:14>Trunk-based Development
+***[#yellow] ====<size:14>Feature Branching
+***[#yellow] ====<size:14>Gitflow
 ** Code Review
-*** Manual Review
-*** Automated Review
+***[#yellow] ====<size:14>Manual Review
+***[#yellow] ====<size:14>Automated Review
 ** Continuous Integration
-*** Jenkins
-*** Travis CI
-*** CircleCI
+***[#yellow] ====<size:14>Jenkins
+***[#yellow] ====<size:14>Travis CI
+***[#yellow] ====<size:14>CircleCI
 ** Continuous Delivery
-*** GitLab CI/CD
-*** AWS CodePipeline
-*** Azure DevOps
+***[#yellow] ====<size:14>GitLab CI/CD
+***[#yellow] ====<size:14>AWS CodePipeline
+***[#yellow] ====<size:14>Azure DevOps
 ** ChatOps
-*** Slack
-*** Microsoft Teams
-*** Google Chat
-*** Webex Teams
-*** Mattermost
-*** Rocket.Chat
+***[#yellow] ====<size:14>Slack
+***[#yellow] ====<size:14>Microsoft Teams
+***[#yellow] ====<size:14>Google Chat
+***[#yellow] ====<size:14>Webex Teams
+***[#yellow] ====<size:14>Mattermost
+***[#yellow] ====<size:14>Rocket.Chat
 @endmindmap

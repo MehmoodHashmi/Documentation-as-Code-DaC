@@ -1,20 +1,21 @@
 @startmindmap
 title = __ Scalability__
+!theme hacker
 
 * Scalability
 ** Horizontal
-*** Load balancing
-*** Stateless architecture
-*** Microservices
+***[#gold] ====<size:14>Load balancing
+***[#gold] ====<size:14>Stateless architecture
+***[#gold] ====<size:14>Microservices
 ** Vertical
-*** Scaling up hardware
-*** Optimizing code and algorithms
+***[#gold] ====<size:14>Scaling up hardware
+***[#gold] ====<size:14>Optimizing code and algorithms
 ** Diagonal
-*** Combination of horizontal and vertical scaling
-*** Auto-scaling
-*** Elasticity
+***[#gold] ====<size:14>Combination of horizontal and vertical scaling
+***[#gold] ====<size:14>Auto-scaling
+***[#gold] ====<size:14>Elasticity
 ** Challenges
-*** Bottlenecks
-*** Database scalability
-*** Network latency
+***[#gold] ====<size:14>Bottlenecks
+***[#gold] ====<size:14>Database scalability
+***[#gold] ====<size:14>Network latency
 @endmindmap
