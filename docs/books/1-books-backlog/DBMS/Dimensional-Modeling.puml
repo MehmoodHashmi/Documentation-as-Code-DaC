@@ -1,67 +1,68 @@
 @startmindmap
 title =__ Dimensional Modeling__
 * **[[https://www.youtube.com/watch?v=l5UcUEt1IzM&ab_channel=ITkFunde]]**
+!theme hacker
 
 * Dimensional Modeling
 ** Overview
-*** Dimensional Modeling is a data modeling technique used in data warehousing and business intelligence.
-*** It focuses on organizing data in a way that optimizes query performance and supports analytical reporting.
+*** <size:14>Dimensional Modeling is a data modeling technique used in data warehousing and business intelligence.
+*** <size:14>It focuses on organizing data in a way that optimizes query performance and supports analytical reporting.
 **[#pink] **Key Concepts**
 *** Fact Table
-**** Contains the quantitative, measurable data (facts) related to a specific business process.
+****[#yellow] ====<size:14>Contains the quantitative, measurable data **(facts)** related to a specific business process.
 *** Dimension Table
-**** Contains descriptive attributes that provide context to the facts in the Fact Table.
-*** Star Schema
-**** Centralized Fact Table connected to multiple Dimension Tables in a star-like structure.
-*** Snowflake Schema
-**** Fact Table connected to Dimension Tables, which are further normalized into additional tables.
+****[#yellow] ====<size:14>Contains descriptive attributes that provide context to the facts in the Fact Table.
+***[#gold] ====**Star Schema**
+****[#yellow] ====<size:14>Centralized Fact Table connected to multiple Dimension Tables in a star-like structure.
+***[#orange] ====**Snowflake Schema**
+****[#yellow] ====<size:14>Fact Table connected to Dimension Tables, which are further normalized into additional tables.
 ** Benefits
 *** Query Performance
-**** Optimized for analytical queries and aggregations.
+****[#yellow] ====<size:14>Optimized for analytical queries and aggregations.
 *** Simplicity
-**** Easy to understand and navigate for business users.
+****[#yellow] ====<size:14>Easy to understand and navigate for business users.
 *** Business Context
-**** Provides a clear representation of business processes and entities.
+****[#yellow] ====<size:14>Provides a clear representation of business processes and entities.
 *** Flexibility
-**** Adaptable to changing business requirements and new dimensions.
+****[#yellow] ====<size:14>Adaptable to changing business requirements and new dimensions.
 ** Key Components
 *** Fact Table
-**** Primary source of data for analysis.
-**** Contains foreign keys to related Dimension Tables.
+****[#yellow] ====<size:14>Primary source of data for analysis.
+****[#yellow] ====<size:14>Contains foreign keys to related Dimension Tables.
 *** Dimension Table
-**** Contains descriptive attributes about a specific dimension.
-**** Can have hierarchies and relationships to other Dimension Tables.
+****[#yellow] ====<size:14>Contains descriptive attributes about a specific dimension.
+****[#yellow] ====<size:14>Can have hierarchies and relationships to other Dimension Tables.
 *** Attributes
-**** Descriptive properties of a dimension.
-**** Can be categorical, numerical, or time-based.
+****[#yellow] ====<size:14>Descriptive properties of a dimension.
+****[#yellow] ====<size:14>Can be categorical, numerical, or time-based.
 *** Measures
-**** Quantitative values in the Fact Table that are subject to analysis.
-** Techniques
-*** Star Schema
-**** Simple, denormalized structure.
-**** Fast query performance due to fewer joins.
-*** Snowflake Schema
-**** Normalized structure with additional tables.
-**** Reduces data redundancy and storage requirements.
-**** More complex query performance due to additional joins.
-** Considerations
+****[#yellow] ====<size:14>Quantitative values in the Fact Table that are subject to analysis.
+**[#a] ====Techniques
+*** ====**Star Schema**
+****[#yellow] ====<size:14>Simple, denormalized structure.
+****[#yellow] ====<size:14>Fast query performance due to fewer joins.
+*** ====**Snowflake Schema**
+****[#yellow] ====<size:14>Normalized structure with additional tables.
+****[#yellow] ====<size:14>Reduces data redundancy and storage requirements.
+****[#yellow] ====<size:14>More complex query performance due to additional joins.
+**[#pink] ====Considerations
 *** Grain of the Fact Table
-**** Level of detail at which facts are recorded.
-**** Determines the level of analysis and reporting.
+****[#yellow] ====<size:14>Level of detail at which facts are recorded.
+****[#yellow] ====<size:14>Determines the level of analysis and reporting.
 *** Dimensional Hierarchies
-**** Representing hierarchical relationships within dimensions.
-**** Provides drill-down and roll-up capabilities.
-*** Slowly Changing Dimensions (SCD)
-**** Handling changes to dimension attributes over time.
-**** Types include Type 1, Type 2, and Type 3.
+****[#yellow] ====<size:14>Representing hierarchical relationships within dimensions.
+****[#yellow] ====<size:14>Provides drill-down and roll-up capabilities.
+*** Slowly Changing Dimensions **(SCD)**
+****[#yellow] ====<size:14>Handling changes to dimension attributes over time.
+****[#white] ====<size:14>**Types include Type 1, Type 2, and Type 3.**
 *** Degenerate Dimensions
-**** Single-column dimension that exists only in the Fact Table.
-**** Typically used for transactional identifiers or keys.
+****[#yellow] ====<size:14>Single-column dimension that exists only in the Fact Table.
+****[#yellow] ====<size:14>Typically used for transactional identifiers or keys.
 ** Common Tools
-*** OLAP (Online Analytical Processing)
-**** Multidimensional analysis and querying.
-**** Supports slicing, dicing, and drill-down capabilities.
+*** OLAP **(Online Analytical Processing)**
+****[#yellow] ====<size:14>Multidimensional analysis and querying.
+****[#yellow] ====<size:14>Supports slicing, dicing, and drill-down capabilities.
 *** Data Visualization Tools
-**** Presenting and exploring data in a graphical format.
-**** Enables interactive dashboards and reports.
+****[#yellow] ====<size:14>Presenting and exploring data in a graphical format.
+****[#yellow] ====<size:14>Enables interactive dashboards and reports.
 @endmindmap

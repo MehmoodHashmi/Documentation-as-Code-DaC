@@ -34,13 +34,13 @@ title =__ Data Warehouse__
 
 ***[#yellow] ====<size:14>Data Storage
 ***[#yellow] ====<size:14>Relational Database Management System **(RDBMS)**
-***[#yellow] ====<size:14>Star Schema or Snowflake Schema
-***[#yellow] ====<size:14>Fact and Dimension Tables
+***[#gold] ====<size:14>**Star Schema or Snowflake Schema**
+***[#yellow] ====<size:14>**Fact and Dimension Tables**
 ***[#yellow] ====<size:14>Partitioning and Indexing
 
-***[#yellow] ====<size:14>Data Modeling
-***[#yellow] ====<size:14>Dimensional Modeling
-***[#yellow] ====<size:14>Star Schema and Snowflake Schema
+***[#yellow] ====<size:14>**Data Modeling**
+***[#white] ====<size:14>**Dimensional Modeling**
+***[#pink] ====<size:14>**Star Schema and Snowflake Schema**
 ***[#yellow] ====<size:14>Logical and Physical Data Models
 ***[#yellow] ====<size:14>Entity-Relationship Diagrams **(ERDs)**
 
