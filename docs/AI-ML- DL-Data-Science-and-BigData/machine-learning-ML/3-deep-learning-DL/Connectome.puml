@@ -1,5 +1,6 @@
 @startmindmap
-title =Connectome
+title =__Connectome__
+
 *:A connectome is a comprehensive map of neural connections or pathways within the nervous system, typically within the brain.
 It aims to depict the complex network of synapses and connections between individual neurons or brain regions. The term "connectome" is often used in the context of neuroscience
 and brain research to understand how different parts of the brain are connected and how these connections relate to brain function.
@@ -15,33 +16,34 @@ and brain research to understand how different parts of the brain are connected 
 
   Connectome research is essential for advancing our understanding of brain function, cognition, and neurological disorders. It can help answer questions about how information
    is processed and transmitted within the brain and how disruptions in these connections can lead to various neurological conditions.;
+!theme hacker
 
 * **Connectome**
 ** **Types of Connectomes**
-*** **Microscale Connectome** - Mapping of individual neurons and synapses.
-*** **Mesoscale Connectome** - Connections between brain regions.
-*** **Macroscale Connectome** - Major brain region connections.
+***[#yellow] ====<size:14>**Microscale Connectome** - Mapping of individual neurons and synapses.
+***[#yellow] ====<size:14>**Mesoscale Connectome** - Connections between brain regions.
+***[#yellow] ====<size:14>**Macroscale Connectome** - Major brain region connections.
 
 ** **Importance**
-*** **Brain Function** - Understanding brain processing.
-*** **Cognition** - Basis of cognitive functions.
-*** **Neurological Disorders** - Role in disorders.
+***[#yellow] ====<size:14>**Brain Function** - Understanding brain processing.
+***[#yellow] ====<size:14>**Cognition** - Basis of cognitive functions.
+***[#yellow] ====<size:14>**Neurological Disorders** - Role in disorders.
 
 ** **Mapping Techniques**
-*** **MRI-based Connectomics** - Large-scale MRI mapping.
-*** **Electron Microscopy** - Microscale electron microscopy.
-*** **Functional Connectivity** - Functional relationships.
+***[#yellow] ====<size:14>**MRI-based Connectomics** - Large-scale MRI mapping.
+***[#yellow] ====<size:14>**Electron Microscopy** - Microscale electron microscopy.
+***[#yellow] ====<size:14>**Functional Connectivity** - Functional relationships.
 
 ** **Applications**
-*** **Cognitive Science** - Memory, learning, decision-making.
-*** **Neurology** - Diagnosis and treatment of disorders.
-***[#yellow] **Artificial Intelligence** - Inspiring AI neural networks.
+***[#yellow] ====<size:14>**Cognitive Science** - Memory, learning, decision-making.
+***[#yellow] ====<size:14>**Neurology** - Diagnosis and treatment of disorders.
+***[#yellow] ====<size:14>**Artificial Intelligence** - Inspiring AI neural networks.
 
 ** **Challenges**
-*** **Data Complexity** - Handling vast, complex neural data.
-*** **Interpreting Findings** - Understanding functional significance.
-*** **Ethical Concerns** - Privacy and ethical considerations.
+***[#yellow] ====<size:14>**Data Complexity** - Handling vast, complex neural data.
+***[#yellow] ====<size:14>**Interpreting Findings** - Understanding functional significance.
+***[#yellow] ====<size:14>**Ethical Concerns** - Privacy and ethical considerations.
 
 ** Conclusion
-*** Connectomes are essential for unraveling the brain's complex network of connections.
+***[#yellow] ====<size:14>Connectomes are essential for unraveling the brain's complex network of connections.
 @endmindmap

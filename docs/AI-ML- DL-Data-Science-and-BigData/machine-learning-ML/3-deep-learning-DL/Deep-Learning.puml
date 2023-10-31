@@ -4,7 +4,7 @@ title =__Deep Learning__
 
 * Deep Learning
 ** Definition
-***[#a] ====<size:14>**Deep Learning** is a __subset of machine learning__ that __focuses on **[[a neural networks]]** with multiple layers **(deep neural networks)**__ to __model and solve complex tasks by learning **representations** from **data.**__
+***[#a] ====<size:14>**Deep Learning** is a __subset of machine learning__ that __focuses on **[[Neural-Network-Architecture.puml neural networks]]** with multiple layers **(deep neural networks)**__ to __model and solve complex tasks by learning **representations** from **data.**__
 
 ** Key Concepts
 *** Artificial Neural Networks **(ANN)**
