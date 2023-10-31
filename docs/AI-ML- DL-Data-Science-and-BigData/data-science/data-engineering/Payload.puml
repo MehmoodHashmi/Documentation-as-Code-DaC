@@ -1,15 +1,33 @@
 @startmindmap
 title =__[[https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:the-internet/xcae6f4a7ff015e7d:routing-with-redundancy/a/ip-packets Payload]]__ click me
-*:Each IP packet contains both a header **(20 or 24 bytes long)** and data **(variable length)**. The header includes the IP addresses of the source and destination, plus other fields that help to route the packet. The data is the actual content, such as
-a string of letters or part of a webpage.
+*:Each IP packet contains both a header **(20 or 24 bytes long)** and data **(variable length)**. The header includes the IP
+addresses of the source and destination, plus other fields that help to route the packet. The data is the actual content,
+such as a string of letters or part of a webpage.
 <img:images/img_2.png>
-**You can think of IP packets like postal letters:** the header is the envelope with all the routing information that's needed by the post office, and the payload is the letter that's read only by the recipient.
+**You can think of IP packets like postal letters:** the header is the envelope with all the routing information that's
+needed by the post office, and the payload is the letter that's read only by the recipient.
 <img:images/img_3.png>
 Just like the postal system routes postal letters around the world, the Internet Protocol routes IP packets around the Internet.;
 
 !theme hacker
 
-* Payload
+*:==<size:26>__Payload__==
+<size:14>Each IP packet contains both a header **(20 or 24 bytes long)** and
+<size:14>data **(variable length)**. The header includes the IP addresses
+<size:14>of the source and destination, plus other fields that help to route
+<size:14>the packet. The data is the actual content, such as a string of
+<size:14>letters or part of a webpage.
+
+<img:images/img_2.png>
+
+<size:14>**You can think of IP packets like postal letters:** the header is the
+<size:14>envelope with all the routing information that's needed by the post
+<size:14>office, and the payload is the letter that's read only by the recipient.
+
+<img:images/img_3.png>
+<size:14>Just like the postal system routes postal letters around the world, the
+<size:14>Internet Protocol routes IP packets around the Internet.;
+
 ** ====Definition
 ***[#white] ====<size:14>Data Transmitted as part of a Message or Packet
 ***[#white] ====<size:14>Carries Information or Instructions
