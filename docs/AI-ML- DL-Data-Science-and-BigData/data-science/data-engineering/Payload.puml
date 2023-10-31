@@ -28,14 +28,14 @@ Just like the postal system routes postal letters around the world, the Internet
 ****[#yellow] ====<size:14>Serialized Objects
 ***[#gold] ====<size:14>Encrypted Data
 ****[#yellow] ====<size:14>Securely Transmit Confidential Information
-****[#yellow] ====<size:14>Encryption Algorithms (AES, RSA, etc.)
+****[#yellow] ====<size:14>Encryption Algorithms **(AES, RSA, etc.)**
 ****[#yellow] ====<size:14>Encryption Key Management
 ***[#gold] ====<size:14>Compressed Data
 ****[#yellow] ====<size:14>Reduce Data Size for Transmission or Storage
-****[#yellow] ====<size:14>Compression Algorithms (ZIP, GZIP, etc.)
+****[#yellow] ====<size:14>Compression Algorithms **(ZIP, GZIP, etc.)**
 ****[#yellow] ====<size:14>Decompression and Extraction
 ***[#gold] ====<size:14>Structured Data
-****[#yellow] ====<size:14>Defined Schema or Format (e.g., Protobuf, Avro)
+****[#yellow] ====<size:14>Defined Schema or Format **(e.g., Protobuf, Avro)**
 ****[#yellow] ====<size:14>Typed Fields and Hierarchical Structures
 ****[#yellow] ====<size:14>Support for Schema Evolution
 ** Payload Considerations
@@ -54,10 +54,10 @@ Just like the postal system routes postal letters around the world, the Internet
 ***[#gold] ====<size:14>Payload Storage
 ***[#gold] ====<size:14>Payload Analytics
 ** Payload Protocols and Formats
-***[#gold] ====<size:14>HTTP (RESTful APIs)
-***[#gold] ====<size:14>MQTT (Internet of Things)
-***[#gold] ====<size:14>AMQP (Message Queuing)
-***[#gold] ====<size:14>Protobuf (Protocol Buffers)
+***[#gold] ====<size:14>HTTP **(RESTful APIs)**
+***[#gold] ====<size:14>MQTT **(Internet of Things)**
+***[#gold] ====<size:14>AMQP **(Message Queuing)**
+***[#gold] ====<size:14>Protobuf **(Protocol Buffers)**
 ***[#gold] ====<size:14>Avro
 ***[#gold] ====<size:14>JSON
 ***[#gold] ====<size:14>XML
@@ -75,7 +75,7 @@ Just like the postal system routes postal letters around the world, the Internet
 ***[#gold] ====<size:14>Data Transformation Tools
 ***[#gold] ====<size:14>Data Integration Platforms
 ***[#gold] ====<size:14>Message Brokers
-***[#gold] ====<size:14>ETL (Extract, Transform, Load) Tools
+***[#gold] ====<size:14>ETL **(Extract, Transform, Load)** Tools
 ***[#gold] ====<size:14>API Gateways
 ***[#gold] ====<size:14>Data Serialization Libraries
 ***[#gold] ====<size:14>Compression/Decompression Libraries
