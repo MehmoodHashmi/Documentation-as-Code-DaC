@@ -1,36 +1,36 @@
 @startmindmap
 title =Criteria to Select a Neural Network
+* =Activation Functions (or neurons) both words can be used interchangeably
 !theme hacker
-*[#lime] =Activation Functions (or neurons) both words can be used interchangeably
 
 
 * Purpose and Problem
-** Nature of the Problem
-*** Classification
-*** Regression
-*** Image Processing
-*** Natural Language Processing
-*** Sequence Data
-** Problem Complexity
-*** Simple vs. Complex
-*** Linearity vs. Non-Linearity
-*** Data Dimensionality
-*** Temporal Dependencies
+**[#white] ====Nature of the Problem
+***[#yellow] ====<size:14>Classification
+***[#yellow] ====<size:14>Regression
+***[#yellow] ====<size:14>Image Processing
+***[#yellow] ====<size:14>Natural Language Processing
+***[#yellow] ====<size:14>Sequence Data
+**[#a] ====Problem Complexity
+***[#yellow] ====<size:14>Simple vs. Complex
+***[#yellow] ====<size:14>Linearity vs. Non-Linearity
+***[#yellow] ====<size:14>Data Dimensionality
+***[#yellow] ====<size:14>Temporal Dependencies
 
 * Data Characteristics
-** Data Type
-*** Structured **(Tabular)**
-*** Unstructured **(Text, Images)**
-*** Time Series
-** Data Size
-*** Small
-*** Medium
-*** Large
-*** Big Data
-** Data Quality
-*** Clean vs. Noisy
-*** Imbalanced Classes
-*** Missing Data
+**[#pink] ====Data Type
+***[#yellow] ====<size:14>Structured **(Tabular)**
+***[#yellow] ====<size:14>Unstructured **(Text, Images)**
+***[#yellow] ====<size:14>Time Series
+**[#gold] ====Data Size
+***[#yellow] ====<size:14>Small
+***[#yellow] ====<size:14>Medium
+***[#yellow] ====<size:14>Large
+***[#yellow] ====<size:14>Big Data
+**[#orange] ====Data Quality
+***[#yellow] ====<size:14>Clean vs. Noisy
+***[#yellow] ====<size:14>Imbalanced Classes
+***[#yellow] ====<size:14>Missing Data
 
 * Neural Network Types
 ** Feedforward Neural Networks **(FNN)**
@@ -42,41 +42,41 @@ title =Criteria to Select a Neural Network
 ** Generative Adversarial Networks **(GANs)**
 
 * Network Architecture
-** Depth
-*** Shallow vs. Deep
-*** Number of Hidden Layers
-** Width
-*** Number of Neurons in Each Layer
-*** Overfitting vs. Underfitting
-** Connectivity
-*** Fully Connected vs. Sparse Connections
-*** Convolutional Filters
-*** Recurrent Connections
+**[#pink] ====Depth
+***[#yellow] ====<size:14>Shallow vs. Deep
+***[#yellow] ====<size:14>Number of Hidden Layers
+**[#orange] ====Width
+***[#yellow] ====<size:14>Number of Neurons in Each Layer
+***[#yellow] ====<size:14>Overfitting vs. Underfitting
+**[#gold] ==== Connectivity
+***[#yellow] ====<size:14>Fully Connected vs. Sparse Connections
+***[#yellow] ====<size:14>Convolutional Filters
+***[#yellow] ====<size:14>Recurrent Connections
 
 * Training Considerations
-** Data Availability
-*** Labeled vs. Unlabeled Data
-*** Amount of Data
-*** Data Augmentation
-** Computational Resources
-*** CPU vs. GPU vs. TPU
-*** Parallelization
-*** Memory Requirements
-** Training Time
-*** Real-Time vs. Offline
-*** Quick Prototyping
-*** Fine-Tuning vs. Training from Scratch
+**[#pink] ====Data Availability
+***[#yellow] ====<size:14>Labeled vs. Unlabeled Data
+***[#yellow] ====<size:14>Amount of Data
+***[#yellow] ====<size:14>Data Augmentation
+**[#gold] ====Computational Resources
+***[#white] ====<size:14>**CPU vs. GPU vs. TPU**
+***[#white] ====<size:14>**Parallelization**
+***[#white] ====<size:14>**Memory Requirements**
+**[#orange] ====Training Time
+***[#yellow] ====<size:14>Real-Time vs. Offline
+***[#yellow] ====<size:14>Quick Prototyping
+***[#yellow] ====<size:14>Fine-Tuning vs. Training from Scratch
 
 * Interpretability and Explainability
-** Model Explainability
-*** Importance of Interpretation
-*** Trade-off with Complexity
-*** Post hoc Explainability Tools
-** Model Visualization
-*** Activation Maps
-*** Feature Visualization
-*** Decision Boundaries
-*** Attention Mechanisms
+**[#pink] ====Model Explainability
+***[#yellow] ====<size:14>Importance of Interpretation
+***[#yellow] ====<size:14>Trade-off with Complexity
+***[#yellow] ====<size:14>Post hoc Explainability Tools
+**[#gold] ====Model Visualization
+***[#yellow] ====<size:14>Activation Maps
+***[#yellow] ====<size:14>Feature Visualization
+***[#yellow] ====<size:14>Decision Boundaries
+***[#yellow] ====<size:14>Attention Mechanisms
 
 * Performance Metrics
 ** Accuracy

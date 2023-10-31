@@ -1,53 +1,56 @@
 @startmindmap
-title =Deep Learning Frameworks and Libraries
+title =__Deep Learning Frameworks and Libraries__
+!theme hacker
+
 
 * Deep Learning
-** **Deep learning** is a subset of machine learning that deals with neural networks and complex data representations.
+** ====<size:16>Deep learning
+*** ====<size:16>is a "subset" of "machine learning" that deals with "neural networks" and "complex data representations".
 
-** =Frameworks
-*** **Deep learning frameworks** provide the foundation for building and training neural networks.
+**[#orange] =Frameworks
+*** ====<size:16>**Deep learning frameworks** provide the foundation for "building and training neural networks."
 
 ***[#lime] ===TensorFlow
-**** Developed by Google Brain.
-**** Widely used for research and production.
-**** Supports deep learning and machine learning.
+****[#yellow] ====<size:14>Developed by **"Google"** Brain.
+****[#yellow] ====<size:14>Widely used for research and production.
+****[#yellow] ====<size:14>Supports deep learning and machine learning.
 
-*** PyTorch
-**** Developed by Facebook's AI Research lab (FAIR).
-**** Known for its dynamic computation graph.
-**** Popular among researchers and academics.
+***[#gold] ====**PyTorch**
+****[#yellow] ====<size:14>Developed by **"Facebook's"** AI Research lab **(FAIR).**
+****[#yellow] ====<size:14>Known for its dynamic computation graph.
+****[#yellow] ====<size:14>Popular among researchers and academics.
 
-***[#yellow] ===Keras
-**** High-level neural networks API.
-**** Can run on top of TensorFlow, Theano, or CNTK.
-**** User-friendly for rapid prototyping.
+***[#pink] ===Keras
+****[#yellow] ====<size:14>High-level neural networks API.
+****[#yellow] ====<size:14>Can run on top of TensorFlow, Theano, or CNTK.
+****[#yellow] ====<size:14>User-friendly for rapid prototyping.
 
 *** Caffe
-**** Developed by Berkeley Vision and Learning Center (BVLC).
-**** Efficient for image classification and convolutional networks.
+****[#yellow] ====<size:14>Developed by Berkeley Vision and Learning Center **(BVLC).**
+****[#yellow] ====<size:14>Efficient for image classification and convolutional networks.
 
 *** MXNet
-**** Apache project for deep learning.
-**** Known for its scalability and efficiency.
+****[#yellow] ====<size:14>Apache project for deep learning.
+****[#yellow] ====<size:14>Known for its scalability and efficiency.
 
-** =Libraries
-*** Deep learning libraries offer pre-built tools and utilities for various deep learning tasks.
+**[#white] =Libraries
+*** ====<size:16>**Deep learning libraries** offer pre-built tools and utilities for various deep learning tasks.
 
 *** Scikit-Learn
-**** General-purpose machine learning library.
-**** Includes deep learning tools via Keras integration.
+****[#yellow] ====<size:14>General-purpose machine learning library.
+****[#yellow] ====<size:14>Includes deep learning tools via Keras integration.
 
 *** Theano
-**** Open-source numerical computation library.
-**** Was used for deep learning but has been largely replaced by newer frameworks.
+****[#yellow] ====<size:14>Open-source numerical computation library.
+****[#yellow] ====<size:14>Was used for deep learning but has been largely replaced by newer frameworks.
 
 *** CNTK **(Microsoft Cognitive Toolkit)**
-**** Developed by Microsoft for deep learning.
-**** Efficient for image and speech recognition.
+****[#yellow] ====<size:14>Developed by **Microsoft** for deep learning.
+****[#yellow] ====<size:14>Efficient for image and speech recognition.
 
 *** DL4J **(Deeplearning4j)**
-**** Java-based deep learning library.
-**** Suitable for enterprise applications.
+****[#yellow] ====<size:14>Java-based deep learning library.
+****[#yellow] ====<size:14>Suitable for enterprise applications.
 
 ** Common Themes
 *** Both frameworks and libraries play crucial roles in deep learning development.

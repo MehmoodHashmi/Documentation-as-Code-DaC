@@ -16,15 +16,15 @@ title =Choose Network Architecture
 ** Unstructured Data **(Text, Images)**
 ** Time Series Data
 ** Data Size
-*** Small
-*** Medium
-*** Large
-*** Big Data
+***[#gold] ====<size:14>Small
+***[#gold] ====<size:14>Medium
+***[#gold] ====<size:14>Large
+***[#gold] ====<size:14>Big Data
 ** Data Quality
-*** Clean Data
-*** Noisy Data
-*** Imbalanced Classes
-*** Missing Data
+***[#gold] ====<size:14>Clean Data
+***[#gold] ====<size:14>Noisy Data
+***[#gold] ====<size:14>Imbalanced Classes
+***[#gold] ====<size:14>Missing Data
 
 * Neural Network Types
 ** Feedforward Neural Networks **(FNN)**
@@ -37,75 +37,75 @@ title =Choose Network Architecture
 
 * Network Architecture
 ** Depth
-*** Shallow vs. Deep Networks
-*** Number of Hidden Layers
-*** Layer Width
+***[#gold] ====<size:14>Shallow vs. Deep Networks
+***[#gold] ====<size:14>Number of Hidden Layers
+***[#gold] ====<size:14>Layer Width
 ** Connectivity
-*** Fully Connected Layers
-*** Convolutional Layers
-*** Recurrent Layers
-*** Skip Connections
+***[#gold] ====<size:14>Fully Connected Layers
+***[#gold] ====<size:14>Convolutional Layers
+***[#gold] ====<size:14>Recurrent Layers
+***[#gold] ====<size:14>Skip Connections
 ** Pre-trained Models
-*** Transfer Learning
-*** Fine-Tuning
+***[#gold] ====<size:14>Transfer Learning
+***[#gold] ====<size:14>Fine-Tuning
 
 * =Specific Requirements
 ** Image Processing
-*** Convolutional Layers
-*** Pooling Layers
+***[#gold] ====<size:14>Convolutional Layers
+***[#gold] ====<size:14>Pooling Layers
 ** Sequence Data
-*** Recurrent Layers
-*** Time-Distributed Layers
+***[#gold] ====<size:14>Recurrent Layers
+***[#gold] ====<size:14>Time-Distributed Layers
 ** Natural Language Processing
-*** Embeddings **(Word Vectors)**
-*** Sequence Models
+***[#gold] ====<size:14>Embeddings **(Word Vectors)**
+***[#gold] ====<size:14>Sequence Models
 ** Audio Data
-*** Convolutional Neural Networks
-*** Spectrogram Data
+***[#gold] ====<size:14>Convolutional Neural Networks
+***[#gold] ====<size:14>Spectrogram Data
 ** Object Detection
-*** Region Proposal Networks **(RPN)**
-*** Faster R-CNN, YOLO
+***[#gold] ====<size:14>Region Proposal Networks **(RPN)**
+***[#gold] ====<size:14>Faster R-CNN, YOLO
 ** Speech Recognition
-*** Recurrent Layers
-*** CTC Loss
+***[#gold] ====<size:14>Recurrent Layers
+***[#gold] ====<size:14>CTC Loss
 ** Generative Tasks
-*** GANs
-*** Variational Autoencoders **(VAEs)**
+***[#gold] ====<size:14>GANs
+***[#gold] ====<size:14>Variational Autoencoders **(VAEs)**
 
 * Training Considerations
 ** Availability of Labeled Data
-*** Supervised vs. Unsupervised
-*** Semi-Supervised Learning
+***[#gold] ====<size:14>Supervised vs. Unsupervised
+***[#gold] ====<size:14>Semi-Supervised Learning
 ** Computational Resources
-*** CPU vs. GPU vs. TPU
-*** Distributed Training
-*** Cloud Services
+***[#gold] ====<size:14>CPU vs. GPU vs. TPU
+***[#gold] ====<size:14>Distributed Training
+***[#gold] ====<size:14>Cloud Services
 ** Training Time
-*** Real-Time Inference
-*** Batch Processing
-*** Model Deployment
+***[#gold] ====<size:14>Real-Time Inference
+***[#gold] ====<size:14>Batch Processing
+***[#gold] ====<size:14>Model Deployment
 
 * Interpretability and Explainability
 ** Model Interpretation
-*** Explainability vs. Complexity
-*** Post hoc Explainability Tools
-*** Model Visualization
-**** **Activation Maps**
-**** **Feature Visualization**
-**** **Attention Mechanisms**
+***[#gold] ====<size:14>Explainability vs. Complexity
+***[#gold] ====<size:14>Post hoc Explainability Tools
+***[#gold] ====<size:14>Model Visualization
+****[#yellow] ====<size:14>**Activation Maps**
+****[#yellow] ====<size:14>**Feature Visualization**
+****[#yellow] ====<size:14>**Attention Mechanisms**
 
 * Performance Metrics
 ** Classification
-*** Accuracy
-*** Precision, Recall, F1-Score
-*** ROC-AUC
+***[#gold] ====<size:14>Accuracy
+***[#gold] ====<size:14>Precision, Recall, F1-Score
+***[#gold] ====<size:14>ROC-AUC
 ** Regression
-*** Mean Squared Error **(MSE)**
-*** R-squared
+***[#gold] ====<size:14>Mean Squared Error **(MSE)**
+***[#gold] ====<size:14>R-squared
 ** Task-Specific Metrics
-*** BLEU Score **(NLP)**
-*** Intersection over Union **(IoU, Object Detection)**
-*** Word Error Rate **(WER, Speech Recognition)**
+***[#gold] ====<size:14>BLEU Score **(NLP)**
+***[#gold] ====<size:14>Intersection over Union **(IoU, Object Detection)**
+***[#gold] ====<size:14>Word Error Rate **(WER, Speech Recognition)**
 
 * Regularization Techniques
 ** L1 and L2 Regularization

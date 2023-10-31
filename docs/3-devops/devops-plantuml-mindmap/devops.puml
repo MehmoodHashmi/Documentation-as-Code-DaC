@@ -1,6 +1,7 @@
 @startmindmap
 
-title DevOps
+title =__DevOps__
+!theme hacker
 
 * Principles
 ** Agile
@@ -13,7 +14,7 @@ title DevOps
 ** Continuous Improvement
 ** Infrastructure as Code
 ** Microservices
-** Containers
+**[#pink] ====Containers
 * Culture
 ** Collaboration
 ** Shared Responsibility
@@ -30,36 +31,7 @@ title DevOps
 ** Site Reliability Engineering (SRE)
 ** Value Stream Mapping
 ** DevSecOps
-* Tools
-** Version Control Systems
-*** Git
-*** Subversion
-*** Mercurial
-** Build Tools
-*** Jenkins
-*** Travis CI
-*** CircleCI
-*** GitLab CI/CD
-** Configuration Management Tools
-*** Chef
-*** Puppet
-*** Ansible
-*** SaltStack
-** Containerization Tools
-*** Docker
-*** Kubernetes
-** Cloud Platforms
-*** Amazon Web Services (AWS)
-*** Microsoft Azure
-*** Google Cloud Platform (GCP)
-** Monitoring Tools
-*** Prometheus
-*** Grafana
-*** ELK Stack
-** Collaboration Tools
-*** Slack
-*** Microsoft Teams
-*** Jira
+
 
 
 ' Advanced DevOps
@@ -73,8 +45,8 @@ title DevOps
 ** Ownership
 * Processes
 ** Agile Frameworks
-*** Scrum
-*** Kanban
+***[#yellow] ====<size:14>Scrum
+***[#yellow] ====<size:14>Kanban
 ** Continuous Integration
 ** Continuous Delivery
 ** Continuous Deployment
@@ -83,58 +55,67 @@ title DevOps
 ** DevOps Metrics
 * Tools
 ** Source Control
-*** Git
-*** GitHub
-*** GitLab
+***[#yellow] ====<size:14>Git
+***[#yellow] ====<size:14>GitHub
+***[#yellow] ====<size:14>GitLab
+***[#yellow] ====<size:14>Subversion
+***[#yellow] ====<size:14>Mercurial
+** Build Tools
+***[#yellow] ====<size:14>Jenkins
+***[#yellow] ====<size:14>Travis CI
+***[#yellow] ====<size:14>CircleCI
+***[#yellow] ====<size:14>GitLab CI/CD
 ** Configuration Management
-*** Chef
-*** Puppet
-*** Ansible
-*** SaltStack
-** Containers
-*** Docker
-*** Kubernetes
-** Cloud Computing
-*** AWS
-*** Azure
-*** Google Cloud Platform
-*** IBM Cloud
-*** Oracle Cloud
+***[#yellow] ====<size:14>Chef
+***[#yellow] ====<size:14>Puppet
+***[#yellow] ====<size:14>Ansible
+***[#yellow] ====<size:14>SaltStack
+**[#pink] ====Containers
+***[#yellow] ====<size:14>Docker
+***[#yellow] ====<size:14>Kubernetes
+**[#gold] ====Cloud Computing
+***[#yellow] ====<size:14>AWS
+***[#yellow] ====<size:14>Azure
+***[#yellow] ====<size:14>Google Cloud Platform
+***[#yellow] ====<size:14>IBM Cloud
+***[#yellow] ====<size:14>Oracle Cloud
 ** Monitoring and Logging
-*** Prometheus
-*** Grafana
-*** Elasticsearch
-*** Logstash
-*** Kibana
+***[#yellow] ====<size:14>Prometheus
+***[#yellow] ====<size:14>Grafana
+***[#yellow] ====<size:14>Elasticsearch
+***[#yellow] ====<size:14>Logstash
+***[#yellow] ====<size:14>Kibana
+***[#yellow] ====<size:14>ELK Stack
+
 ** Collaboration
-*** Slack
-*** Microsoft Teams
-*** Jira
-*** Confluence
+***[#yellow] ====<size:14>Slack
+***[#yellow] ====<size:14>Microsoft Teams
+***[#yellow] ====<size:14>Jira
+***[#yellow] ====<size:14>Confluence
 * Skills
 ** Scripting Languages
-*** Bash
-*** Python
-*** Ruby
-*** PowerShell
+***[#yellow] ====<size:14>Bash
+***[#pink] ====<size:14>**Python**
+***[#yellow] ====<size:14>Ruby
+***[#yellow] ====<size:14>PowerShell
 ** Infrastructure as Code
-*** Terraform
-*** Pulumi
-*** CloudFormation
+***[#yellow] ====<size:14>Terraform
+***[#yellow] ====<size:14>Pulumi
+***[#yellow] ====<size:14>CloudFormation
 ** Continuous Integration/Delivery/Deployment
-*** Jenkins
-*** CircleCI
-*** Travis CI
-*** GitLab CI/CD
-** Container Orchestration
-*** Kubernetes
-*** Amazon ECS
-*** Google Kubernetes Engine
-*** Azure Kubernetes Service
-** Cloud Platforms
-*** AWS
-*** Azure
-*** Google Cloud Platform
-*** IBM Cloud
-*** Oracle Cloud
+***[#yellow] ====<size:14>Jenkins
+***[#yellow] ====<size:14>CircleCI
+***[#yellow] ====<size:14>Travis CI
+***[#yellow] ====<size:14>GitLab CI/CD
+**[#lime] ====Container Orchestration
+***[#yellow] ====<size:14>Kubernetes
+***[#yellow] ====<size:14>Amazon ECS
+***[#yellow] ====<size:14>Google Kubernetes Engine
+***[#yellow] ====<size:14>Azure Kubernetes Service
+**[#gold] ====Cloud Platforms
+***[#yellow] ====<size:14>AWS
+***[#yellow] ====<size:14>Azure
+***[#yellow] ====<size:14>Google Cloud Platform
+***[#yellow] ====<size:14>IBM Cloud
+***[#yellow] ====<size:14>Oracle Cloud
 @endmindmap

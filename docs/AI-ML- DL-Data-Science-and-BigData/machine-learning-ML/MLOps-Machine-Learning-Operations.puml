@@ -1,0 +1,87 @@
+@startmindmap
+title =__MLOps - Machine Learning Operations__
+!theme hacker
+
+
+* MLOps
+** Definition
+***[#a] ====<size:14>**MLOps **(Machine Learning Operations)** is a set of **practices and tools** that combine **[[Modern-Machine-Learning.puml machine learning]] **(ML) system development and machine learning model deployment** to enable the \n<size:14>//**continuous delivery** of high-quality **ML applications.**//
+
+**[#pink] ====Key Concepts
+***[#red] ====<size:14>**[[../../3-devops/devops-plantuml-mindmap/DevOps.puml DevOps]]**
+****[#yellow] ====<size:14>Extends **DevOps** principles to ML, emphasizing collaboration and automation.
+*** CI/CD
+****[#yellow] ====<size:14>Continuous Integration and Continuous Delivery pipelines for ML models.
+*** ====**Model Versioning**
+****[#yellow] ====<size:14>Managing and tracking model versions over time.
+*** Monitoring and Feedback
+****[#yellow] ====<size:14>Continuous monitoring of deployed models and user feedback.
+*** Reproducibility
+****[#yellow] ====<size:14>Ensuring the ability to reproduce ML experiments and results.
+
+** MLOps Components
+*** Data Management
+****[#yellow] ====<size:14>Data collection, storage, and preprocessing.
+*** Model Development
+****[#yellow] ====<size:14>Building and training ML models.
+***[#orange] ====**Model Deployment**
+****[#yellow] ====<size:14>Deploying models in **production environments.**
+*** Continuous Integration **(CI)**
+****[#yellow] ====<size:14>Automating model testing and integration.
+*** Continuous Delivery **(CD)**
+****[#yellow] ====<size:14>Automated model deployment to production.
+*** Monitoring and Logging
+****[#yellow] ====<size:14>Real-time monitoring of model performance.
+*** Feedback Loop
+****[#yellow] ====<size:14>User feedback incorporated into model improvement.
+
+**[#gold] ====MLOps Lifecycle
+*** Define
+****[#yellow] ====<size:14>Define ML project goals and requirements.
+*** Develop
+****[#yellow] ====<size:14>Develop and experiment with ML models.
+*** Test
+****[#yellow] ====<size:14>Test and validate models for accuracy and reliability.
+*** Deploy
+****[#lightgreen] ====<size:14>Deploy **models** to production.
+*** Monitor
+****[#yellow] ====<size:14>Monitor model performance and user interactions.
+*** Feedback
+****[#yellow] ====<size:14>Gather user feedback and improve models.
+
+** MLOps Tools
+*** Version Control
+****[#yellow] ====<size:14>Git for tracking code and model versions.
+***[#white] ====**Containerization**
+****[#yellow] ====<size:14>**Docker** for packaging ML models.
+***[#white] ====**Orchestration**
+****[#yellow] ====<size:14>**Kubernetes** for managing containers.
+*** CI/CD Tools
+****[#yellow] ====<size:14>**Jenkins,** Travis CI, GitLab CI for automation.
+*** ====<size:12>**Model Serving**
+****[#yellow] ====<size:14>TensorFlow Serving, FastAPI, Flask for serving models.
+*** Monitoring Tools
+****[#yellow] ====<size:14>Prometheus, Grafana, ELK Stack for tracking performance.
+
+** MLOps Challenges
+*** Data Management
+****[#yellow] ====<size:14>Ensuring data quality, privacy, and security.
+***[#orange] ====**Model Deployment**
+****[#pink] ====<size:16>**Managing model versions and dependencies.**
+*** Scalability
+****[#yellow] ====<size:14>Scaling ML systems for increased workloads.
+*** Regulatory Compliance
+****[#yellow] ====<size:14>Meeting legal and industry-specific regulations.
+
+** Best Practices
+***[#a] ====**Automation**
+****[#yellow] ====<size:18>**Automate repetitive tasks in the ML workflow.**
+*** Collaboration
+****[#orange] ====<size:16>Foster **collaboration** between **[[../11-key-areas-of-Data-Management-and-specific-data-roles/Data-Engineer.puml data engineers,]]** **[[../11-key-areas-of-Data-Management-and-specific-data-roles/Data-Scientist.puml data scientists,]] and** **[[../11-key-areas-of-Data-Management-and-specific-data-roles/Business-Analyst-vs-Data-Analyst.puml analysts.]]**
+
+*** Version Control
+****[#yellow] ====<size:14>Apply version control to data, code, and models.
+*** Continuous Integration
+****[#yellow] ====<size:14>Automate testing and integration of ML models.
+
+@endmindmap
