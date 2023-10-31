@@ -2,6 +2,9 @@
 title =__ Data Vault vs 3NF vs Dimensional Modeling__
 * **[[https://www.youtube.com/watch?v=l5UcUEt1IzM&ab_channel=ITkFunde]]**
 
+* <img:images/img_1.png>
+** =How we get from the raw data vault to the business vault. (Enterprise Data Warehouse)\n <img:images/img_3.png>
+
 !theme hacker
 
 * Data Vault vs 3NF vs Dimensional Modeling
@@ -28,7 +31,7 @@ title =__ Data Vault vs 3NF vs Dimensional Modeling__
 *** Challenges
 ****[#yellow] ====<size:14>Complexity
 ***** Requires additional effort in data modeling and development.
-****[#yellow] ====<size:14>Performance
+****[#yellow] ====<size:14>**Performance**
 ***** May impact query performance due to schema complexity.
 **[#crimson] ====**[[Third-Normal-Form-(3NF).puml 3NF (Third Normal Form)]]**
 *** Overview
@@ -49,8 +52,8 @@ title =__ Data Vault vs 3NF vs Dimensional Modeling__
 ****[#yellow] ====<size:14>Data Consistency
 ***** Helps maintain data quality and accuracy.
 *** Challenges
-****[#yellow] ====<size:14>Performance
-***** May require complex joins and queries for data retrieval.
+****[#yellow] ====<size:14>**Performance**
+*****[#yellow] May require complex joins and queries for **data retrieval.**
 ****[#yellow] ====<size:14>Data Redundancy
 ***** Can result in larger data storage requirements.
 **[#green] ====**[[../../../../../books/1-books-backlog/DBMS/Dimensional-Modeling.puml Dimensional Modeling]]**
@@ -65,12 +68,12 @@ title =__ Data Vault vs 3NF vs Dimensional Modeling__
 ****[#yellow] ====<size:14>Star Schema
 ***** Consists of a central Fact Table connected to multiple Dimension Tables.
 *** Benefits
-****[#yellow] ====<size:14>Query Performance
+****[#yellow] ====<size:14>**Query Performance**
 ***** Optimized for analytical queries and aggregations.
 ****[#yellow] ====<size:14>Simplicity
 ***** Easy to understand and navigate for business users.
-****[#yellow] ====<size:14>Performance
-***** Efficient for reporting and ad-hoc analysis.
+****[#yellow] ====<size:14>**Performance**
+*****[#yellow] Efficient for reporting and ad-hoc analysis.
 *** Challenges
 ****[#yellow] ====<size:14>Data Redundancy
 ***** Can result in duplicated data in Dimension Tables.

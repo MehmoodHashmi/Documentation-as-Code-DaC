@@ -1,10 +1,10 @@
 @startmindmap
-title =ETL (Extract, Transform, Load) Strategy
+title =ETL (Extract, Transform, Load) Strategy\n<img:images/img.png>
 !theme hacker
 
 * ETL Strategy
 ** Description
-***[#yellow] ====<size:14>The ETL strategy involves Extracting data from the source database, Transforming it to match the target schema, and Loading it into the new database.
+***[#yellow] ====<size:14>The **ETL strategy** involves Extracting data from the source database, Transforming it to match the target schema, and Loading it into the new database.
 
 **[#gold] Benefits
 ***[#orange] ====<size:14>**Data Transformation:** Allows data to be adapted and cleaned before migrating to the target database.
@@ -12,16 +12,16 @@ title =ETL (Extract, Transform, Load) Strategy
 ***[#gold] ====<size:14>**Incremental Updates:** Supports incremental data updates over time.
 
 **[#pink] Challenges
-***[#yellow] ====<size:14>**Complexity: ** ETL processes can be complex and require careful design.
-***[#yellow] ====<size:14>**Development Time:**  ETL processes may take longer to develop than other strategies.
-***[#yellow] ====<size:14>**Maintenance: ** Ongoing maintenance of ETL pipelines is necessary.
+***[#yellow] ====<size:14>**Complexity: ** **ETL processes** can be complex and require careful design.
+***[#yellow] ====<size:14>**Development Time:**  **ETL processes** may take longer to develop than other strategies.
+***[#yellow] ====<size:14>**Maintenance: ** Ongoing maintenance of **ETL pipelines** is necessary.
 
-* Phases of ETL Migration
+*[#white] ===="Phases" of **ETL Migration**
 ** Data Extraction
-***[#yellow] ====<size:14>Extract data from the source database, possibly using SQL queries or other data export methods.
+***[#yellow] ====<size:14>Extract data from the source database, possibly using **SQL queries** or other data export methods.
 ***[#yellow] ====<size:14>Ensure data consistency and completeness during extraction.
 
-** Data Transformation
+**[#red] ====[[../../data-engineering/data-preprocessing-(or-wrangling)/Data-Preprocessing.puml Data Transformation]]
 ***[#yellow] ====<size:14>Transform data to match the target schema, format, and data types.
 ***[#yellow] ====<size:14>May involve data cleansing, validation, and business rule implementation.
 
@@ -37,38 +37,40 @@ title =ETL (Extract, Transform, Load) Strategy
 ***[#yellow] ====<size:14>Verify the data in the target database to ensure it aligns with the source data.
 ***[#yellow] ====<size:14>Confirm data consistency and accuracy.
 
-* Considerations for ETL
+* Considerations for **ETL**
 **[#pink] Data Mapping
-***[#yellow] ====<size:14>Develop detailed data mapping and transformation rules to guide the ETL process.
+***[#yellow] ====<size:14>Develop detailed data mapping and transformation rules to guide the **ETL process**.
 ***[#yellow] ====<size:14>Account for differences in data structures and formats.
 
 ** Data Validation
-***[#yellow] ====<size:14>Implement data validation checks to ensure data integrity throughout the ETL pipeline.
+***[#yellow] ====<size:14>Implement data validation checks to ensure data integrity throughout the **ETL pipeline**.
 ***[#yellow] ====<size:14>Detect and address data inconsistencies.
 
 ** Rollback Plan
-***[#yellow] ====<size:14>Develop a rollback plan to revert to the original database state in case of ETL process failures.
+***[#yellow] ====<size:14>Develop a rollback plan to revert to the original database state in case of **ETL process** failures.
 ***[#yellow] ====<size:14>Safeguard against data corruption or loss.
 
 ** Performance Optimization
-***[#yellow] ====<size:14>Optimize the performance of the ETL processes, including data transformation and loading.
-***[#yellow] ====<size:14>Monitor and fine-tune ETL jobs.
+***[#yellow] ====<size:14>Optimize the performance of the **ETL processes**, including data transformation and loading.
+***[#yellow] ====<size:14>Monitor and fine-tune **ETL jobs**.
 
 * Best Practices
 ** Testing and Validation
-***[#yellow] ====<size:14>Rigorously test ETL processes in a non-production environment to ensure data accuracy.
+***[#yellow] ====<size:14>Rigorously test **ETL processes** in a non-production environment to ensure data accuracy.
 ***[#yellow] ====<size:14>Validate application functionality with the new database.
 
 ** Documentation
-***[#yellow] ====<size:14>Maintain detailed documentation of the ETL processes, including data mapping and transformation rules.
+***[#yellow] ====<size:14>Maintain detailed documentation of the **ETL processes**, including data mapping and transformation rules.
 ***[#yellow] ====<size:14>Document any issues and their resolutions.
 
 ** Communication
-***[#yellow] ====<size:14>Communicate with stakeholders about the progress of ETL processes and any potential impacts.
+***[#yellow] ====<size:14>Communicate with stakeholders about the progress of **ETL processes** and any potential impacts.
 ***[#yellow] ====<size:14>Coordinate with application owners and users.
 
 ** Monitoring and Alerting
-***[#yellow] ====<size:14>Implement monitoring and alerting to promptly address issues during ETL processes.
+***[#yellow] ====<size:14>Implement monitoring and alerting to promptly address issues during **ETL processes**.
 ***[#yellow] ====<size:14>Detect and respond to data synchronization problems.
 
+*  Real-time __ETL and ELT__ from a wide range of sources including on-prem and cloud databases, IoT, messaging systems, \nnetwork protocols, files and more.\n<img:images/img_1.png>
+** The modern data pipeline: __ETL/ELT__ brings data into the data warehouse, and reverse ETL pushes enriched customer data back out into \nSaaS applications for use by sales, marketing and customer support teams.\n<img:images/img_2.png>
 @endmindmap

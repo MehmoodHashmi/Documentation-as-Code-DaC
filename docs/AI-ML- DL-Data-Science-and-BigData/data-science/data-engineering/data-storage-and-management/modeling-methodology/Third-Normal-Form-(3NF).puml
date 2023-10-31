@@ -7,19 +7,19 @@ title =__ Third Normal Form (3NF)__
 * Third Normal Form (3NF)
 ** Overview
 *** ====<size:14>**Third Normal Form** is a database normalization technique used to minimize data redundancy and ensure data integrity.
-*** ====<size:14>It eliminates transitive dependencies by decomposing tables into smaller, more focused entities.
-**[#pink] Key Concepts
+*** ====<size:14>It eliminates transitive dependencies by decomposing tables into smaller, more focused entities. **"Optimized"** for **"transactional queries" (writing into database)**.
+**[#pink] ====Key Concepts
 *** Functional Dependency
 ****[#yellow] ====<size:14>Relationship between attributes where one attribute determines another.
 *** Transitive Dependency
 ****[#yellow] ====<size:14>Dependency between non-key attributes through another non-key attribute.
 ** Normalization Rules
-*** First Normal Form (1NF)
-****[#yellow] ====<size:14>Eliminates repeating groups by organizing data into tables with unique rows and atomic values.
-*** Second Normal Form (2NF)
-****[#yellow] ====<size:14>Eliminates partial dependencies by removing attributes that depend on only part of the primary key.
-*** Third Normal Form (3NF)
-****[#yellow] ====<size:14>Eliminates transitive dependencies by decomposing tables into separate entities.
+*** First Normal Form **(1NF)**
+****[#yellow] ====<size:14>**Eliminates** "repeating groups" by "organizing data" into "tables" with "unique rows and atomic values".
+*** Second Normal Form **(2NF)**
+****[#yellow] ====<size:14>**Eliminates** "partial dependencies" by "removing attributes" that "depend" on only "part of the primary key".
+*** Third Normal Form **(3NF)**
+****[#yellow] ====<size:14>**Eliminates** "transitive dependencies" by "decomposing tables" into "separate entities".
 ** Benefits
 *** Data Integrity
 ****[#yellow] ====<size:14>Ensures data consistency and accuracy by minimizing redundancy and anomalies.
@@ -27,7 +27,7 @@ title =__ Third Normal Form (3NF)__
 ****[#yellow] ====<size:14>Supports data modifications and updates without introducing inconsistencies.
 *** Query Performance
 ****[#yellow] ====<size:14>Simplifies table structures, leading to improved query efficiency.
-** Guidelines for Achieving 3NF
+**[#gold] ====Guidelines for Achieving 3NF
 *** Identify Functional Dependencies
 ****[#yellow] ====<size:14>Determine the dependencies between attributes within a table.
 *** Decompose Tables
@@ -38,7 +38,7 @@ title =__ Third Normal Form (3NF)__
 ****[#yellow] ====<size:14>Ensure each attribute represents a single piece of information.
 *** Maintain Referential Integrity
 ****[#yellow] ====<size:14>Enforce the integrity of relationships between tables.
-**[#pink] Considerations
+**[#pink] ====Considerations
 *** Denormalization
 ****[#yellow] ====<size:14>Balancing normalization with performance needs in certain scenarios.
 ****[#yellow] ====<size:14>Denormalization may be applied for specific reporting or performance optimization purposes.
@@ -47,10 +47,10 @@ title =__ Third Normal Form (3NF)__
 ****[#yellow] ====<size:14>Denormalization can improve query performance but may introduce some data redundancy.
 *** Data Modeling Tools
 ****[#yellow] ====<size:14>Utilize data modeling tools to design and implement 3NF schemas effectively.
-****[#yellow] ====<size:14>Tools such as ER (Entity-Relationship) diagrams can assist in visualizing relationships and dependencies.
+****[#yellow] ====<size:14>Tools such as **ER (Entity-Relationship) diagrams** can assist in visualizing relationships and dependencies.
 ** Example
-*** Original Table: Customers (customer_id, customer_name, customer_city, customer_country)
-*** Decomposed Tables:
-****[#yellow] ====<size:14>Customers (customer_id, customer_name)
-****[#yellow] ====<size:14>Addresses (address_id, customer_id, customer_city, customer_country)
+*** <size:16>**Original Table: Customers** (customer_id, customer_name, customer_city, customer_country)
+*** **Decomposed Tables:**
+****[#yellow] ====<size:14>**Customers** (customer_id, customer_name)
+****[#yellow] ====<size:14>**Addresses** (address_id, customer_id, customer_city, customer_country)
 @endmindmap

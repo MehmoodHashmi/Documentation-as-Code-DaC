@@ -1,12 +1,12 @@
 @startmindmap
-title =__ Dimensional Modeling__
+title =__ Dimensional Modeling__ \n<img:images/img_2.png>
 * **[[https://www.youtube.com/watch?v=l5UcUEt1IzM&ab_channel=ITkFunde]]**
 !theme hacker
 
 * Dimensional Modeling
 ** Overview
-*** <size:14>Dimensional Modeling is a data modeling technique used in data warehousing and business intelligence.
-*** <size:14>It focuses on organizing data in a way that optimizes query performance and supports analytical reporting.
+*** ====<size:14>**Dimensional Modeling** is a "data modeling technique" used in "data warehousing and business intelligence".
+*** ====<size:14>It focuses on "organizing data" in a way that **"optimizes __query__ performance" (reading from database)** and supports "analytical reporting".
 **[#pink] **Key Concepts**
 *** Fact Table
 ****[#yellow] ====<size:14>Contains the quantitative, measurable data **(facts)** related to a specific business process.
@@ -18,7 +18,7 @@ title =__ Dimensional Modeling__
 ****[#yellow] ====<size:14>Fact Table connected to Dimension Tables, which are further normalized into additional tables.
 ** Benefits
 *** Query Performance
-****[#yellow] ====<size:14>Optimized for analytical queries and aggregations.
+****[#yellow] ====<size:14>**"Optimized*"** for **"analytical queries" (reading from database)** and aggregations.
 *** Simplicity
 ****[#yellow] ====<size:14>Easy to understand and navigate for business users.
 *** Business Context

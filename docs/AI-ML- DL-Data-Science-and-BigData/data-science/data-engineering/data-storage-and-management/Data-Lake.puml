@@ -9,7 +9,7 @@ skinparam connector {
     FontStyle Bold
 }
 
-title =__ Data Lake__
+title =__ Data Lake__\n<img:images/img_1.png>
 !theme hacker
 * =Data Lake
 

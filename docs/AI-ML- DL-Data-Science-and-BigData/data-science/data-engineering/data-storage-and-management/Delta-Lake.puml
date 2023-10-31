@@ -1,17 +1,8 @@
 @startmindmap
 
-skinparam node {
-    BorderColor DarkSlateGray
-    BackgroundColor LightCyan
-    FontStyle italic
-}
-skinparam connector {
-    Color DarkSlateGray
-    FontStyle Bold
-}
+title =__ Delta Lake__\n<img:images/img_2.png>\n[[https://streamsets.com/blog/delta-lake-architecture-bridge-between-data-lakes-data-warehouses/ Delta Lake Architecture: A Bridge Between Data Lakes & Data Warehouses]]
+* **[[https://streamsets.com/blog/delta-lake-architecture-bridge-between-data-lakes-data-warehouses/ Delta Lake Architecture: A Bridge Between Data Lakes & Data Warehouses]]**
 !theme hacker
-
-title =__ Delta Lake__
 * Delta Lake
 
 ** Definition and Purpose
@@ -50,11 +41,11 @@ title =__ Delta Lake__
 ** Data Lake Integration
 ***[#yellow] ====<size:14>Built on Top of Existing Data Lakes
 ***[#yellow] ====<size:14>Supports Parquet and Delta Lake Formats
-***[#yellow] ====<size:14>Compatible with Apache Hadoop and Apache Spark
+***[#white] ====<size:14>**Compatible with "Apache Hadoop and Apache Spark"**
 ***[#yellow] ====<size:14>Works with Cloud Storage Providers
 
 **[#gold] ===Use Cases
-***[#pink] ====<size:14>Data Lake Modernization
+***[#pink] ====<size:14>**Data Lake Modernization**
 ***[#yellow] ====<size:14>Real-time Analytics
 ***[#yellow] ====<size:14>Data Warehousing
 ***[#yellow] ====<size:14>Machine Learning Pipelines

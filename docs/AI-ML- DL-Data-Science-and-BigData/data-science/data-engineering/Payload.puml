@@ -1,76 +1,83 @@
 @startmindmap
-title =__Payload__
+title =__[[https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:the-internet/xcae6f4a7ff015e7d:routing-with-redundancy/a/ip-packets Payload]]__ click me
+*:Each IP packet contains both a header **(20 or 24 bytes long)** and data **(variable length)**. The header includes the IP addresses of the source and destination, plus other fields that help to route the packet. The data is the actual content, such as
+a string of letters or part of a webpage.
+<img:images/img_2.png>
+**You can think of IP packets like postal letters:** the header is the envelope with all the routing information that's needed by the post office, and the payload is the letter that's read only by the recipient.
+<img:images/img_3.png>
+Just like the postal system routes postal letters around the world, the Internet Protocol routes IP packets around the Internet.;
+
 !theme hacker
 
 * Payload
-** Definition
-*** Data Transmitted as part of a Message or Packet
-*** Carries Information or Instructions
-*** Can be Encrypted, Compressed, or Structured
-**[#gold] =Payload Types
-*** Textual Data
-****[#yellow] ====<size:13>JSON
-****[#yellow] ====<size:13>XML
-****[#yellow] ====<size:13>CSV
-****[#yellow] ====<size:13>Plain Text
-*** Binary Data
-****[#yellow] ====<size:13>Images
-****[#yellow] ====<size:13>Audio
-****[#yellow] ====<size:13>Video
-****[#yellow] ====<size:13>Files
-****[#yellow] ====<size:13>Serialized Objects
-*** Encrypted Data
-****[#yellow] ====<size:13>Securely Transmit Confidential Information
-****[#yellow] ====<size:13>Encryption Algorithms (AES, RSA, etc.)
-****[#yellow] ====<size:13>Encryption Key Management
-*** Compressed Data
-****[#yellow] ====<size:13>Reduce Data Size for Transmission or Storage
-****[#yellow] ====<size:13>Compression Algorithms (ZIP, GZIP, etc.)
-****[#yellow] ====<size:13>Decompression and Extraction
-*** Structured Data
-****[#yellow] ====<size:13>Defined Schema or Format (e.g., Protobuf, Avro)
-****[#yellow] ====<size:13>Typed Fields and Hierarchical Structures
-****[#yellow] ====<size:13>Support for Schema Evolution
+** ====Definition
+***[#white] ====<size:14>Data Transmitted as part of a Message or Packet
+***[#white] ====<size:14>Carries Information or Instructions
+***[#white] ====<size:14>Can be Encrypted, Compressed, or Structured
+**[#gold] =Payload (Data) Types
+***[#gold] ====<size:14>Textual Data
+****[#yellow] ====<size:14>JSON
+****[#yellow] ====<size:14>XML
+****[#yellow] ====<size:14>CSV
+****[#yellow] ====<size:14>Plain Text
+***[#gold] ====<size:14>Binary Data
+****[#yellow] ====<size:14>Images
+****[#yellow] ====<size:14>Audio
+****[#yellow] ====<size:14>Video
+****[#yellow] ====<size:14>Files
+****[#yellow] ====<size:14>Serialized Objects
+***[#gold] ====<size:14>Encrypted Data
+****[#yellow] ====<size:14>Securely Transmit Confidential Information
+****[#yellow] ====<size:14>Encryption Algorithms (AES, RSA, etc.)
+****[#yellow] ====<size:14>Encryption Key Management
+***[#gold] ====<size:14>Compressed Data
+****[#yellow] ====<size:14>Reduce Data Size for Transmission or Storage
+****[#yellow] ====<size:14>Compression Algorithms (ZIP, GZIP, etc.)
+****[#yellow] ====<size:14>Decompression and Extraction
+***[#gold] ====<size:14>Structured Data
+****[#yellow] ====<size:14>Defined Schema or Format (e.g., Protobuf, Avro)
+****[#yellow] ====<size:14>Typed Fields and Hierarchical Structures
+****[#yellow] ====<size:14>Support for Schema Evolution
 ** Payload Considerations
-*** Size and Bandwidth
-*** Efficiency and Performance
-*** Security and Privacy
-*** Compatibility and Interoperability
-*** Validation and Parsing
-*** Serialization and Deserialization
+***[#gold] ====<size:14>Size and Bandwidth
+***[#gold] ====<size:14>Efficiency and Performance
+***[#gold] ====<size:14>Security and Privacy
+***[#gold] ====<size:14>Compatibility and Interoperability
+***[#gold] ====<size:14>Validation and Parsing
+***[#gold] ====<size:14>Serialization and Deserialization
 ** Payload Processing
-*** Payload Extraction
-*** Payload Transformation
-*** Payload Validation
-*** Payload Enrichment
-*** Payload Routing
-*** Payload Storage
-*** Payload Analytics
+***[#gold] ====<size:14>Payload Extraction
+***[#gold] ====<size:14>Payload Transformation
+***[#gold] ====<size:14>Payload Validation
+***[#gold] ====<size:14>Payload Enrichment
+***[#gold] ====<size:14>Payload Routing
+***[#gold] ====<size:14>Payload Storage
+***[#gold] ====<size:14>Payload Analytics
 ** Payload Protocols and Formats
-*** HTTP (RESTful APIs)
-*** MQTT (Internet of Things)
-*** AMQP (Message Queuing)
-*** Protobuf (Protocol Buffers)
-*** Avro
-*** JSON
-*** XML
-*** SOAP
+***[#gold] ====<size:14>HTTP (RESTful APIs)
+***[#gold] ====<size:14>MQTT (Internet of Things)
+***[#gold] ====<size:14>AMQP (Message Queuing)
+***[#gold] ====<size:14>Protobuf (Protocol Buffers)
+***[#gold] ====<size:14>Avro
+***[#gold] ====<size:14>JSON
+***[#gold] ====<size:14>XML
+***[#gold] ====<size:14>SOAP
 ** Payload Examples
-*** Request/Response Bodies
-*** Event Messages
-*** Data Streams
-*** Message Queues
-*** Database Records
-*** Log Entries
-*** Sensor Readings
-*** File Attachments
+***[#gold] ====<size:14>Request/Response Bodies
+***[#gold] ====<size:14>Event Messages
+***[#gold] ====<size:14>Data Streams
+***[#gold] ====<size:14>Message Queues
+***[#gold] ====<size:14>Database Records
+***[#gold] ====<size:14>Log Entries
+***[#gold] ====<size:14>Sensor Readings
+***[#gold] ====<size:14>File Attachments
 ** Payload Management Tools
-*** Data Transformation Tools
-*** Data Integration Platforms
-***[#gold] ===Message Brokers
-***[#gold] ===ETL (Extract, Transform, Load) Tools
-***[#gold] ===API Gateways
-*** Data Serialization Libraries
-*** Compression/Decompression Libraries
+***[#gold] ====<size:14>Data Transformation Tools
+***[#gold] ====<size:14>Data Integration Platforms
+***[#gold] ====<size:14>Message Brokers
+***[#gold] ====<size:14>ETL (Extract, Transform, Load) Tools
+***[#gold] ====<size:14>API Gateways
+***[#gold] ====<size:14>Data Serialization Libraries
+***[#gold] ====<size:14>Compression/Decompression Libraries
 
 @endmindmap

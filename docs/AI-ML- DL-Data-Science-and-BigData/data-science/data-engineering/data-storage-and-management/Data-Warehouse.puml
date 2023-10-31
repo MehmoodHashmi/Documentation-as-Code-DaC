@@ -11,7 +11,7 @@ skinparam connector {
 
 !theme hacker
 
-title =__ Data Warehouse__
+title =__ Data Warehouse__\n<img:images/img_1.png>
 * Data Warehouse
 
 ** Definition and Purpose
