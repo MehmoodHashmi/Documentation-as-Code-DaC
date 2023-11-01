@@ -4,82 +4,82 @@ title =Data Engineering\n<img:images/img.png> <img:images/img_1.png>\n <color #g
 
 *[#darkblue] ====Data Engineering
 **[#lightblue] ====Definition
-***[#a] ====<size:16>**Data engineering** is the process of **designing, building, and maintaining** **"data infrastructure, [[data-pipeline/advanced-data-pipeline.puml pipelines]], and architectures"** to support **"data-driven decision-making."**
+***[#orange] ====<size:16><color #black>**Data engineering** is the process of **designing, building, and maintaining** **"data infrastructure, [[data-pipeline/advanced-data-pipeline.puml pipelines]], and architectures"** to support **"data-driven decision-making."**
 
 **[#lightblue] ====Core Activities
 ***[#green] ====<size:14>**[[data-pipeline/Data-Ingestion.puml Data Ingestion]]**
-****[#grey] ====<size:14><color #yellow>Collect and bring data into a storage environment.
-****[#grey] ====<size:14><color #yellow>**Sources:** Databases, APIs, logs, files, and more.
+****[#orange] ====<size:14><color #black>Collect and bring data into a storage environment.
+****[#orange] ====<size:14><color #black>**Sources:** Databases, APIs, logs, files, and more.
 
 ***[#green] ====<size:14>**[[data-preprocessing-(or-wrangling)/Data-Preprocessing.puml Data Transformation]]**
-****[#grey] ====<size:14><color #yellow>Clean, process, and structure data for analysis.
-****[#grey] ====<size:14><color #yellow>Includes data normalization, enrichment, and aggregation.
+****[#orange] ====<size:14><color #black>Clean, process, and structure data for analysis.
+****[#orange] ====<size:14><color #black>Includes data normalization, enrichment, and aggregation.
 
 ***[#green] ====<size:14>**[[data-storage-and-management/Data-Lake-vs-Data-Warehouse.puml Data Storage]]**
-****[#grey] ====<size:14><color #yellow>**__Design and manage__ data storage solutions.**
-****[#grey] ====<size:16><color #yellow>**Examples:** **[[../../../books/1-books-backlog/DBMS/dbms.puml Databases,]] [[data-storage-and-management/Data-Warehouse.puml Data Warehouses,]] [[data-storage-and-management/Data-Lake.puml data lakes,]] [[data-storage-and-management/Data-mart.puml data mart,]] [[data-storage-and-management/Data-Cube.puml data cube,]] [[data-storage-and-management/Delta-Lake.puml delta lake,]] [[data-storage-and-management/Data-Mesh.puml data mesh,]] [[data-storage-and-management/modeling-methodology/Data-Vault-vs-3NF-vs-Dimensional-Modeling.puml data vault (2.0),]] [[data-storage-and-management/DataOps.puml dataOps]]**.
+****[#orange] ====<size:14><color #black>**__Design and manage__ data storage solutions.**
+****[#orange] ====<size:16><color #black>**Examples:** **[[../../../books/1-books-backlog/DBMS/dbms.puml Databases,]] [[data-storage-and-management/Data-Warehouse.puml Data Warehouses,]] [[data-storage-and-management/Data-Lake.puml data lakes,]] [[data-storage-and-management/Data-mart.puml data mart,]] [[data-storage-and-management/Data-Cube.puml data cube,]] [[data-storage-and-management/Delta-Lake.puml delta lake,]] [[data-storage-and-management/Data-Mesh.puml data mesh,]] [[data-storage-and-management/modeling-methodology/Data-Vault-vs-3NF-vs-Dimensional-Modeling.puml data vault (2.0),]] [[data-storage-and-management/DataOps.puml dataOps]]**.
 
 ***[#green] ====<size:14>**[[data-preprocessing-(or-wrangling)/4-Data-Integration Data Integration]]**
-****[#grey] ====<size:14><color #yellow>Combine and unify data from various sources.
-****[#grey] ====<size:14><color #yellow>Ensure data consistency and accuracy.
+****[#orange] ====<size:14><color #black>Combine and unify data from various sources.
+****[#orange] ====<size:14><color #black>Ensure data consistency and accuracy.
 
 ***[#green] ====<size:16>**[[Data-Processing.puml Data Processing]]**
-****[#grey] ====<size:14><color #yellow>Perform data computation and analysis.
-****[#grey] ====<size:14><color #yellow>**May involve [[data-pipeline/Batch-Processing.puml batch]] and [[data-pipeline/Stream-Processing.puml stream processing.]]**
+****[#orange] ====<size:14><color #black>Perform data computation and analysis.
+****[#orange] ====<size:14><color #black>**May involve [[data-pipeline/Batch-Processing.puml batch]] and [[data-pipeline/Stream-Processing.puml stream processing.]]**
 
 ***[#green] ====<size:14>**[[Data-Governance.puml Data Governance]]**
-****[#grey] ====<size:14><color #yellow>Establish policies and procedures for data quality and compliance.
-****[#grey] ====<size:14><color #yellow>Ensure data security and privacy.
+****[#orange] ====<size:14><color #black>Establish policies and procedures for data quality and compliance.
+****[#orange] ====<size:14><color #black>Ensure data security and privacy.
 
 **[#lightblue] ====Tools and Technologies
 ***[#green] ====<size:14>**[[../../../books/1-books-backlog/DBMS/Designing-Data-Intensive-Applications.puml Databases]]**
-****[#grey] ====<size:16><color #yellow>**[[../../../books/1-books-backlog/DBMS/Five-Basic-SQL-Joins.puml Relational databases]] (e.g., MySQL), [[../../../books/1-books-backlog/DBMS/NoSQL-Constructs.puml NoSQL databases]] (e.g., MongoDB), columnar stores (e.g., Cassandra)**.
+****[#orange] ====<size:16><color #black>**[[../../../books/1-books-backlog/DBMS/Five-Basic-SQL-Joins.puml Relational databases]] (e.g., MySQL), [[../../../books/1-books-backlog/DBMS/NoSQL-Constructs.puml NoSQL databases]] (e.g., MongoDB), columnar stores (e.g., Cassandra)**.
 
 ***[#green] ====<size:14>**[[data-storage-and-management/Data-Warehouse.puml Data Warehouses]]**
-****[#grey] ====<size:14><color #yellow>**Platforms like** **[[../../../cloud-computing/AWS-Cloud/Amazon-Redshift.puml Amazon Redshift,]]** **[[../../Apache-Big-Data-Ecosystem/Google-BigQuery.puml Google BigQuery,]] and** **[[../../Apache-Big-Data-Ecosystem/Snowflake.puml Snowflake.]]**
+****[#orange] ====<size:14><color #black>**Platforms like** **[[../../../cloud-computing/AWS-Cloud/Amazon-Redshift.puml Amazon Redshift,]]** **[[../../Apache-Big-Data-Ecosystem/Google-BigQuery.puml Google BigQuery,]] and** **[[../../Apache-Big-Data-Ecosystem/Snowflake.puml Snowflake.]]**
 
 ***[#green] ====<size:14>**[[../../Apache-Big-Data-Ecosystem/1-Apache-Big-Data-Ecosystem.puml Big Data Technologies]]**
-****[#grey] ====<size:14><color #yellow>**[[../../Apache-Big-Data-Ecosystem/Hadoop.puml Apache Hadoop,]]** **[[../../Apache-Big-Data-Ecosystem/Apache-Spark.puml Spark,]] and** **[[../../Apache-Big-Data-Ecosystem/Hadoop-Distributed-File-System-(HDFS).puml distributed storage systems like HDFS.]]**
+****[#orange] ====<size:14><color #black>**[[../../Apache-Big-Data-Ecosystem/Hadoop.puml Apache Hadoop,]]** **[[../../Apache-Big-Data-Ecosystem/Apache-Spark.puml Spark,]] and** **[[../../Apache-Big-Data-Ecosystem/Hadoop-Distributed-File-System-(HDFS).puml distributed storage systems like HDFS.]]**
 
 ***[#green] ====<size:14>**[[../data-or-database-migration/Data-Migration-Strategies/ETL-(Extract-Transform-Load)-Strategy.puml ETL (Extract, Transform, Load) Tools]]**
-****[#grey] ====<size:15><color #yellow>**Apache Nifi, Talend,** **[[../../Apache-Big-Data-Ecosystem/Apache-Beam.puml Apache Beam.]]**
+****[#orange] ====<size:15><color #black>**Apache Nifi, Talend,** **[[../../Apache-Big-Data-Ecosystem/Apache-Beam.puml Apache Beam.]]**
 
 ***[#green] ====<size:14>**[[data-pipeline/Stream-Processing-vs-Batch-Processing.puml Stream Processing]]**
-****[#grey] ====<size:14><color #yellow>**[[../../Apache-Big-Data-Ecosystem/apache-kafka.puml Apache Kafka,]]** **Apache Flink, Apache Storm.**
+****[#orange] ====<size:14><color #black>**[[../../Apache-Big-Data-Ecosystem/apache-kafka.puml Apache Kafka,]]** **Apache Flink, Apache Storm.**
 
 ***[#green] ====<size:14>**[[data-storage-and-management/modeling-methodology/Data-Modeling.puml Data Modeling]]**
-****[#grey] ====<size:14><color #yellow>**Tools like [[../../../books/1-books-backlog/DBMS/erd-normalization.puml ERD diagrams]] and** **[[Schema-Design.puml schema design]].**
+****[#orange] ====<size:14><color #black>**Tools like [[../../../books/1-books-backlog/DBMS/erd-normalization.puml ERD diagrams]] and** **[[Schema-Design.puml schema design]].**
 
 **[#lightblue] ====Considerations
 ***[#green] ====<size:14>**[[Data-Scalability.puml Scalability]]**
-****[#grey] ====<size:14><color #yellow>Design for scalability to accommodate growing data volumes.
+****[#orange] ====<size:14><color #black>Design for scalability to accommodate growing data volumes.
 
 ***[#green] ====<size:14>**[[Data-Quality.puml Data Quality]]**
-****[#grey] ====<size:14><color #yellow>Implement data validation and quality checks.
+****[#orange] ====<size:14><color #black>Implement data validation and quality checks.
 
 ***[#green] ====<size:14>**[[Data-Lineage.puml Data Lineage]]**
-****[#grey] ====<size:14><color #yellow>Track the origin and transformation history of data.
+****[#orange] ====<size:14><color #black>Track the origin and transformation history of data.
 
 ***[#green] ====<size:14>**[[Compliance.puml Compliance]]**
-****[#grey] ====<size:16><color #yellow>Ensure data complies with legal and industry regulations **(e.g., [[GDPR.puml GDPR]], [[HIPAA.puml HIPAA]])**.
+****[#orange] ====<size:16><color #black>Ensure data complies with legal and industry regulations **(e.g., [[GDPR.puml GDPR]], [[HIPAA.puml HIPAA]])**.
 
 ***[#green] ====<size:14>**[[Data-Security.puml Data Security]]**
-****[#grey] ====<size:14><color #yellow>Implement encryption, access controls, and data masking.
+****[#orange] ====<size:14><color #black>Implement encryption, access controls, and data masking.
 
 **[#lightblue] ====Best Practices
 ***[#green] ====<size:14>**[[Data-Versioning.puml Data Versioning]]**
-****[#grey] ====<size:14><color #yellow>**Maintain version control of data** and **[[data-pipeline/advanced-data-pipeline.puml pipelines]]**.
+****[#orange] ====<size:14><color #black>**Maintain version control of data** and **[[data-pipeline/advanced-data-pipeline.puml pipelines]]**.
 
 ***[#green] ====<size:14>**[[Data-Documentation.puml Documentation]]**
-****[#grey] ====<size:14><color #yellow>Document data schemas, transformations, and **[[data-pipeline/advanced-data-pipeline.puml pipelines]]** configurations.
+****[#orange] ====<size:14><color #black>Document data schemas, transformations, and **[[data-pipeline/advanced-data-pipeline.puml pipelines]]** configurations.
 
 ***[#green] ====<size:14>**[[../../../3-devops/devops-plantuml-mindmap/Monitoring-and-Logging.puml Monitoring and Logging]]**
-****[#grey] ====<size:14><color #yellow>Implement robust monitoring and logging to detect issues and performance bottlenecks.
+****[#orange] ====<size:14><color #black>Implement robust monitoring and logging to detect issues and performance bottlenecks.
 
 ***[#green] ====<size:14>**[[../../../3-devops/devops-plantuml-mindmap/Collaboration.puml Collaboration]]**
-****[#grey] ====<size:16><color #yellow>Foster **collaboration** between **[[../11-key-areas-of-Data-Management-and-specific-data-roles/Data-Engineer.puml data engineers,]]** **[[../11-key-areas-of-Data-Management-and-specific-data-roles/Data-Scientist.puml data scientists,]] and** **[[../11-key-areas-of-Data-Management-and-specific-data-roles/Business-Analyst-vs-Data-Analyst.puml analysts.]]**
+****[#orange] ====<size:16><color #black>Foster **collaboration** between **[[../11-key-areas-of-Data-Management-and-specific-data-roles/Data-Engineer.puml data engineers,]]** **[[../11-key-areas-of-Data-Management-and-specific-data-roles/Data-Scientist.puml data scientists,]] and** **[[../11-key-areas-of-Data-Management-and-specific-data-roles/Business-Analyst-vs-Data-Analyst.puml analysts.]]**
 
 ***[#green] ====<size:14>**[[../../../3-devops/devops-plantuml-mindmap/Automation.puml Automation]]**
-****[#grey] ====<size:14><color #yellow>**Automate data [[data-pipeline/advanced-data-pipeline.puml pipelines]] [[../../../3-programming-languages/architectural-characteristics/Deployability.puml (deployment)]], [[../../../books/1-books-backlog/software-testing/Levels-of-Testing.puml testing,]] [[../../../3-programming-languages/architectural-characteristics/Maintainability.puml and maintenance]].**
+****[#orange] ====<size:14><color #black>**Automate data [[data-pipeline/advanced-data-pipeline.puml pipelines]] [[../../../3-programming-languages/architectural-characteristics/Deployability.puml (deployment)]], [[../../../books/1-books-backlog/software-testing/Levels-of-Testing.puml testing,]] [[../../../3-programming-languages/architectural-characteristics/Maintainability.puml and maintenance]].**
 
 @endmindmap
