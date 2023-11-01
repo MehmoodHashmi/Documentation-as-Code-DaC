@@ -1,24 +1,25 @@
 @startmindmap
-title Advanced Terraform
+title =__Advanced Terraform__
+!theme hacker
 
 * Modules
 ** Designing Modules
-*** Module Composition
-*** Module Versioning
-*** Sub-Modules
+***[#yellow] ====<size:14>Module Composition
+***[#yellow] ====<size:14>Module Versioning
+***[#yellow] ====<size:14>Sub-Modules
 ** Modules for Different Environments
-*** Managing Environments
-*** Workspaces
-*** Backend Configuration
-*** Remote State Management
+***[#yellow] ====<size:14>Managing Environments
+***[#yellow] ====<size:14>Workspaces
+***[#yellow] ====<size:14>Backend Configuration
+***[#yellow] ====<size:14>Remote State Management
 ** Testing Terraform Code
-*** Unit Testing
-*** Integration Testing
-*** Linting
+***[#yellow] ====<size:14>Unit Testing
+***[#yellow] ====<size:14>Integration Testing
+***[#yellow] ====<size:14>Linting
 ** Terraform Workflows
-*** Collaborative Workflows
-*** GitOps
-*** Code Review
+***[#yellow] ====<size:14>Collaborative Workflows
+***[#yellow] ====<size:14>GitOps
+***[#yellow] ====<size:14>Code Review
 * Providers
 ** Creating Custom Providers
 ** Provider Development Best Practices
@@ -31,16 +32,16 @@ title Advanced Terraform
 ** State Management with Terraform Cloud
 * Operations
 ** Managing Secrets
-*** HashiCorp Vault
-*** AWS Secrets Manager
-*** Azure Key Vault
+***[#yellow] ====<size:14>HashiCorp Vault
+***[#yellow] ====<size:14>AWS Secrets Manager
+***[#yellow] ====<size:14>Azure Key Vault
 ** Automated Provisioning
-*** Terraform Automation
-*** Continuous Integration/Continuous Deployment
-*** Infrastructure as Code Pipelines
+***[#yellow] ====<size:14>Terraform Automation
+***[#yellow] ====<size:14>Continuous Integration/Continuous Deployment
+***[#yellow] ====<size:14>Infrastructure as Code Pipelines
 ** Observability
-*** Metrics, Logs, and Traces
-*** Terraform State as a Data Source
-*** Terraform Plan Output as a Data Source
+***[#yellow] ====<size:14>Metrics, Logs, and Traces
+***[#yellow] ====<size:14>Terraform State as a Data Source
+***[#yellow] ====<size:14>Terraform Plan Output as a Data Source
 
 @endmindmap

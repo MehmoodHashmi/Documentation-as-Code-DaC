@@ -1,31 +1,32 @@
 @startmindmap
-title Terraform
+title =__Terraform__
+!theme hacker
 
 * Configuration
 ** Declarative Language
-*** HCL
-*** JSON
-*** YAML
+***[#yellow] ====<size:14>HCL
+***[#yellow] ====<size:14>JSON
+***[#yellow] ====<size:14>YAML
 ** Providers
-*** AWS
-*** Azure
-*** Google Cloud Platform
-*** OpenStack
-*** VMware vSphere
-*** Many more...
+***[#yellow] ====<size:14>AWS
+***[#yellow] ====<size:14>Azure
+***[#yellow] ====<size:14>Google Cloud Platform
+***[#yellow] ====<size:14>OpenStack
+***[#yellow] ====<size:14>VMware vSphere
+***[#yellow] ====<size:14>Many more...
 ** Modules
-*** Reusable Code
-*** Published by community
+***[#yellow] ====<size:14>Reusable Code
+***[#yellow] ====<size:14>Published by community
 ** State
-*** Current Infrastructure
-*** Changes required
+***[#yellow] ====<size:14>Current Infrastructure
+***[#yellow] ====<size:14>Changes required
 ** Backend
-*** Terraform Cloud
-*** Amazon S3
-*** Azure Blob Storage
-*** Consul
-*** Etcd
-*** Many more...
+***[#yellow] ====<size:14>Terraform Cloud
+***[#yellow] ====<size:14>Amazon S3
+***[#yellow] ====<size:14>Azure Blob Storage
+***[#yellow] ====<size:14>Consul
+***[#yellow] ====<size:14>Etcd
+***[#yellow] ====<size:14>Many more...
 * Commands
 ** init
 ** validate

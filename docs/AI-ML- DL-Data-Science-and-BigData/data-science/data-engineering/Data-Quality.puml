@@ -1,0 +1,99 @@
+@startmindmap
+title =__Data Quality__
+!theme hacker
+
+* Data Quality
+** Definition
+***[#white] ====<size:15>**Data Quality** refers to the "state of data" in terms of "accuracy, completeness, consistency, reliability", and other factors that determine its "usefulness" for "decision-making and analysis".
+
+** Key Concepts
+***[#white] ====<size:14>Accuracy
+****[#yellow] ====<size:14>Data correctness and precision.
+***[#white] ====<size:14>Completeness
+****[#yellow] ====<size:14>Data comprehensiveness without missing values.
+***[#white] ====<size:14>Consistency
+****[#yellow] ====<size:14>Uniformity and coherence of data across sources.
+***[#white] ====<size:14>Reliability
+****[#yellow] ====<size:14>Data trustworthiness and source credibility.
+***[#white] ====<size:14>Timeliness
+****[#yellow] ====<size:14>Data relevance within acceptable timeframes.
+***[#white] ====<size:14>Relevance
+****[#yellow] ====<size:14>Data applicability to the intended purpose.
+***[#white] ====<size:14>Validity
+****[#yellow] ====<size:14>Data conformity to predefined rules and constraints.
+***[#white] ====<size:14>Data Cleansing
+****[#yellow] ====<size:14>The process of correcting and removing errors from data.
+***[#white] ====<size:14>Data Profiling
+****[#yellow] ====<size:14>Analyzing data to understand its quality and characteristics.
+
+** Data Quality Dimensions
+***[#white] ====<size:14>Accuracy
+***[#white] ====<size:14>Completeness
+***[#white] ====<size:14>Consistency
+***[#white] ====<size:14>Reliability
+***[#white] ====<size:14>Timeliness
+***[#white] ====<size:14>Uniqueness
+***[#white] ====<size:14>Validity
+***[#white] ====<size:14>Integrity
+
+** Data Quality Challenges
+***[#white] ====<size:14>Data Entry Errors
+****[#yellow] ====<size:14>Mistakes made during data input.
+***[#white] ====<size:14>Data Duplication
+****[#yellow] ====<size:14>Repeated data entries that lead to inconsistency.
+***[#white] ====<size:14>Incomplete Data
+****[#yellow] ====<size:14>Missing values or records in datasets.
+***[#white] ====<size:14>Inconsistent Formats
+****[#yellow] ====<size:14>Data stored in various formats or units.
+***[#white] ====<size:14>Data Decay
+****[#yellow] ====<size:14>Data becoming outdated over time.
+***[#white] ====<size:14>Data Silos
+****[#yellow] ====<size:14>Data isolated in different parts of an organization.
+***[#white] ====<size:14>Lack of Data Governance
+****[#yellow] ====<size:14>Absence of data quality management policies.
+
+**[#gold] ====Data Quality Frameworks
+***[#white] ====<size:14>Six Sigma
+****[#yellow] ====<size:14>A data quality methodology that focuses on reducing defects.
+***[#white] ====<size:14>Total Data Quality Management **(TDQM)**
+****[#yellow] ====<size:14>An approach that emphasizes data quality at all stages.
+***[#white] ====<size:14>Data Quality Assessment Framework **(DQAF)**
+****[#yellow] ====<size:14>A framework to evaluate data quality.
+
+** Data Quality Tools
+***[#white] ====<size:14>Data Profiling Tools
+****[#yellow] ====<size:14>Tools like Talend, Trifacta for analyzing data quality.
+***[#white] ====<size:14>Data Cleansing Tools
+****[#yellow] ====<size:14>Tools like OpenRefine, Informatica for cleaning and standardizing data.
+***[#white] ====<size:14>Data Quality Monitoring
+****[#yellow] ====<size:14>Tools like Apache Nifi, DataRobot for real-time monitoring.
+***[#white] ====<size:14>Master Data Management **(MDM)**
+****[#yellow] ====<size:14>Tools like Informatica MDM, Talend MDM for managing master data.
+
+** Data Quality Improvement
+***[#white] ====<size:14>Data Profiling
+****[#yellow] ====<size:14>Understanding data quality issues.
+***[#white] ====<size:14>Data Cleansing
+****[#yellow] ====<size:14>Correcting errors and inconsistencies.
+***[#white] ====<size:14>Data Standardization
+****[#yellow] ====<size:14>Ensuring data follows defined standards.
+***[#white] ====<size:14>Data Validation
+****[#yellow] ====<size:14>Applying validation rules and checks.
+***[#white] ====<size:14>Data Governance
+****[#yellow] ====<size:14>Implementing policies and practices for data quality.
+***[#white] ====<size:14>Data Quality Metrics
+****[#yellow] ====<size:14>Measuring and monitoring data quality over time.
+
+** Benefits of Data Quality
+***[#white] ====<size:14>Informed Decision-Making
+****[#yellow] ====<size:14>Reliable data for informed and accurate decisions.
+***[#white] ====<size:14>Regulatory Compliance
+****[#yellow] ====<size:14>Meeting data quality requirements and standards.
+***[#white] ====<size:14>Increased Productivity
+****[#yellow] ====<size:14>Reduced time spent on data correction and validation.
+***[#white] ====<size:14>Improved Customer Satisfaction
+****[#yellow] ====<size:14>Better customer interactions with quality data.
+***[#white] ====<size:14>Cost Reduction
+****[#yellow] ====<size:14>Lower costs associated with data errors.
+
+@endmindmap

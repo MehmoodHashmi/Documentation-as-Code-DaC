@@ -1,60 +1,63 @@
 @startmindmap
 title =__Azure Cloud__
+!theme hacker
+
+
 * Core Services
 ** Compute
-*** Virtual Machines
-*** Kubernetes Service
-*** Functions
+***[#yellow] ====<size:14> Virtual Machines
+***[#yellow] ====<size:14> Kubernetes Service
+***[#yellow] ====<size:14> Functions
 ** Storage
-*** Blob Storage
-*** File Storage
-*** Queue Storage
-*** Table Storage
+***[#yellow] ====<size:14> Blob Storage
+***[#yellow] ====<size:14> File Storage
+***[#yellow] ====<size:14> Queue Storage
+***[#yellow] ====<size:14> Table Storage
 ** Database
-*** SQL Database
-*** Cosmos DB
-*** Azure Database for MySQL
-*** Azure Database for PostgreSQL
+***[#yellow] ====<size:14> SQL Database
+***[#yellow] ====<size:14> Cosmos DB
+***[#yellow] ====<size:14> Azure Database for MySQL
+***[#yellow] ====<size:14> Azure Database for PostgreSQL
 ** Networking
-*** Virtual Network
-*** Load Balancer
-*** Application Gateway
-*** Virtual WAN
+***[#yellow] ====<size:14> Virtual Network
+***[#yellow] ====<size:14> Load Balancer
+***[#yellow] ====<size:14> Application Gateway
+***[#yellow] ====<size:14> Virtual WAN
 ** Identity & Access Management
-*** Azure Active Directory
-*** Azure AD B2C
-*** Azure AD Domain Services
+***[#yellow] ====<size:14> Azure Active Directory
+***[#yellow] ====<size:14> Azure AD B2C
+***[#yellow] ====<size:14> Azure AD Domain Services
 ** Security
-*** Security Center
-*** Azure Sentinel
-*** Key Vault
-*** Azure Firewall
+***[#yellow] ====<size:14> Security Center
+***[#yellow] ====<size:14> Azure Sentinel
+***[#yellow] ====<size:14> Key Vault
+***[#yellow] ====<size:14> Azure Firewall
 ** Artificial Intelligence
-*** Cognitive Services
-*** Machine Learning
-*** Bot Service
+***[#yellow] ====<size:14> Cognitive Services
+***[#yellow] ====<size:14> Machine Learning
+***[#yellow] ====<size:14> Bot Service
 * Other Services
 ** Analytics
-*** HDInsight
-*** Azure Databricks
-*** Data Factory
-*** Stream Analytics
+***[#yellow] ====<size:14> HDInsight
+***[#yellow] ====<size:14> Azure Databricks
+***[#yellow] ====<size:14> Data Factory
+***[#yellow] ====<size:14> Stream Analytics
 ** Internet of Things (IoT)
-*** IoT Hub
-*** Event Hubs
-*** IoT Central
-*** IoT Edge
+***[#yellow] ====<size:14> IoT Hub
+***[#yellow] ====<size:14> Event Hubs
+***[#yellow] ====<size:14> IoT Central
+***[#yellow] ====<size:14> IoT Edge
 ** DevOps
-*** Azure DevOps
-*** Azure Artifacts
-*** Azure Repos
-*** Azure Test Plans
-*** Azure Pipelines
+***[#yellow] ====<size:14> Azure DevOps
+***[#yellow] ====<size:14> Azure Artifacts
+***[#yellow] ====<size:14> Azure Repos
+***[#yellow] ====<size:14> Azure Test Plans
+***[#yellow] ====<size:14> Azure Pipelines
 ** Integration
-*** Logic Apps
-*** Service Bus
-*** API Management
+***[#yellow] ====<size:14> Logic Apps
+***[#yellow] ====<size:14> Service Bus
+***[#yellow] ====<size:14> API Management
 ** Migration
-*** Azure Migrate
-*** Azure Site Recovery
+***[#yellow] ====<size:14> Azure Migrate
+***[#yellow] ====<size:14> Azure Site Recovery
 @endmindmap

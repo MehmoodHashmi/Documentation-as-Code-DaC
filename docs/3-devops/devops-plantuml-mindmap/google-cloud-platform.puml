@@ -1,55 +1,58 @@
 @startmindmap
-title =  Google Cloud Platform
+title =  __Google Cloud Platform__
+!theme hacker
+
+
 * Core Services
 ** Compute
-*** Compute Engine
-*** App Engine
-*** Kubernetes Engine
-*** Cloud Functions
+***[#yellow] ====<size:14>Compute Engine
+***[#yellow] ====<size:14>App Engine
+***[#yellow] ====<size:14>Kubernetes Engine
+***[#yellow] ====<size:14>Cloud Functions
 ** Storage
-*** Cloud Storage
-*** Cloud SQL
-*** Cloud Bigtable
-*** Cloud Spanner
+***[#yellow] ====<size:14>Cloud Storage
+***[#yellow] ====<size:14>Cloud SQL
+***[#yellow] ====<size:14>Cloud Bigtable
+***[#yellow] ====<size:14>Cloud Spanner
 ** Database
-*** Cloud SQL
-*** Cloud Datastore
-*** Cloud Spanner
+***[#yellow] ====<size:14>Cloud SQL
+***[#yellow] ====<size:14>Cloud Datastore
+***[#yellow] ====<size:14>Cloud Spanner
 ** Networking
-*** Virtual Private Cloud
-*** Cloud Load Balancing
-*** Cloud DNS
-*** Cloud CDN
+***[#yellow] ====<size:14>Virtual Private Cloud
+***[#yellow] ====<size:14>Cloud Load Balancing
+***[#yellow] ====<size:14>Cloud DNS
+***[#yellow] ====<size:14>Cloud CDN
 ** Security
-*** Identity-Aware Proxy
-*** Cloud Armor
-*** Cloud Security Scanner
-*** Key Management Service
+***[#yellow] ====<size:14>Identity-Aware Proxy
+***[#yellow] ====<size:14>Cloud Armor
+***[#yellow] ====<size:14>Cloud Security Scanner
+***[#yellow] ====<size:14>Key Management Service
 ** Big Data & Machine Learning
-*** BigQuery
-*** Cloud Dataflow
-*** Cloud Dataproc
-*** Cloud Machine Learning Engine
-*** Cloud AutoML
+***[#yellow] ====<size:14>BigQuery
+***[#yellow] ====<size:14>Cloud Dataflow
+***[#yellow] ====<size:14>Cloud Dataproc
+***[#yellow] ====<size:14>Cloud Machine Learning Engine
+***[#yellow] ====<size:14>Cloud AutoML
 * Other Services
 ** IoT
-*** Cloud IoT Core
-*** Cloud Pub/Sub
+***[#yellow] ====<size:14>Cloud IoT Core
+***[#yellow] ====<size:14>Cloud Pub/Sub
 ** DevOps
-*** Cloud Build
-*** Cloud Deployment Manager
-*** Cloud Source Repositories
-*** Cloud Monitoring
-*** Cloud Logging
-*** Cloud Trace
-*** Cloud Profiler
-*** Cloud Debugger
-*** Stackdriver
+***[#yellow] ====<size:14>Cloud Build
+***[#yellow] ====<size:14>Cloud Deployment Manager
+***[#yellow] ====<size:14>Cloud Source Repositories
+***[#yellow] ====<size:14>Cloud Monitoring
+***[#yellow] ====<size:14>Cloud Logging
+***[#yellow] ====<size:14>Cloud Trace
+***[#yellow] ====<size:14>Cloud Profiler
+***[#yellow] ====<size:14>Cloud Debugger
+***[#yellow] ====<size:14>Stackdriver
 ** APIs & Mobile Apps
-*** Cloud Endpoints
-*** Firebase
+***[#yellow] ====<size:14>Cloud Endpoints
+***[#yellow] ====<size:14>Firebase
 ** Business Applications
-*** G Suite
-*** Google Cloud Search
-*** Cloud Identity
+***[#yellow] ====<size:14>G Suite
+***[#yellow] ====<size:14>Google Cloud Search
+***[#yellow] ====<size:14>Cloud Identity
 @endmindmap

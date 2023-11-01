@@ -1,57 +1,60 @@
 @startmindmap
 title =__AWS Cloud__
+!theme hacker
+
+
 * Core Services
 ** Compute
-*** EC2
-*** ECS
-*** Lambda
+***[#yellow] ====<size:14>EC2
+***[#yellow] ====<size:14>ECS
+***[#yellow] ====<size:14>Lambda
 ** Storage
-*** S3
-*** EFS
-*** Glacier
+***[#yellow] ====<size:14>S3
+***[#yellow] ====<size:14>EFS
+***[#yellow] ====<size:14>Glacier
 ** Database
-*** RDS
-*** DynamoDB
-*** Redshift
+***[#yellow] ====<size:14>RDS
+***[#yellow] ====<size:14>DynamoDB
+***[#yellow] ====<size:14>Redshift
 ** Networking & Content Delivery
-*** VPC
-*** Route53
-*** CloudFront
-*** API Gateway
-*** Direct Connect
+***[#yellow] ====<size:14>VPC
+***[#yellow] ====<size:14>Route53
+***[#yellow] ====<size:14>CloudFront
+***[#yellow] ====<size:14>API Gateway
+***[#yellow] ====<size:14>Direct Connect
 * Other Services
 ** Analytics
-*** Kinesis
-*** EMR
-*** QuickSight
-*** Athena
+***[#yellow] ====<size:14>Kinesis
+***[#yellow] ====<size:14>EMR
+***[#yellow] ====<size:14>QuickSight
+***[#yellow] ====<size:14>Athena
 ** Security, Identity & Compliance
-*** IAM
-*** Cognito
-*** Inspector
-*** GuardDuty
-*** Macie
-*** Certificate Manager
-*** WAF & Shield
+***[#yellow] ====<size:14>IAM
+***[#yellow] ====<size:14>Cognito
+***[#yellow] ====<size:14>Inspector
+***[#yellow] ====<size:14>GuardDuty
+***[#yellow] ====<size:14>Macie
+***[#yellow] ====<size:14>Certificate Manager
+***[#yellow] ====<size:14>WAF & Shield
 ** Management & Governance
-*** CloudFormation
-*** CloudTrail
-*** CloudWatch
-*** Systems Manager
-*** OpsWorks
-*** Trusted Advisor
-*** Config
+***[#yellow] ====<size:14>CloudFormation
+***[#yellow] ====<size:14>CloudTrail
+***[#yellow] ====<size:14>CloudWatch
+***[#yellow] ====<size:14>Systems Manager
+***[#yellow] ====<size:14>OpsWorks
+***[#yellow] ====<size:14>Trusted Advisor
+***[#yellow] ====<size:14>Config
 ** Application Integration
-*** SQS
-*** SNS
-*** SWF
-*** Step Functions
+***[#yellow] ====<size:14>SQS
+***[#yellow] ====<size:14>SNS
+***[#yellow] ====<size:14>SWF
+***[#yellow] ====<size:14>Step Functions
 ** Artificial Intelligence
-*** Rekognition
-*** Lex
-*** Polly
-*** Comprehend
-*** Translate
-*** Transcribe
-*** SageMaker
+***[#yellow] ====<size:14>Rekognition
+***[#yellow] ====<size:14>Lex
+***[#yellow] ====<size:14>Polly
+***[#yellow] ====<size:14>Comprehend
+***[#yellow] ====<size:14>Translate
+***[#yellow] ====<size:14>Transcribe
+***[#yellow] ====<size:14>SageMaker
 @endmindmap

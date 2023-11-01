@@ -1,30 +1,32 @@
 @startmindmap
-title Advanced Pulumi
+title =__Advanced Pulumi__
+!theme hacker
+[#yellow] ====<size:14>
 
 * Infrastructure as Code
-** What is Infrastructure as Code?
-** Benefits of IaC
-** Pulumi vs Other IaC Tools
+**[#yellow] ====<size:14>What is Infrastructure as Code?
+**[#yellow] ====<size:14>Benefits of IaC
+**[#yellow] ====<size:14>Pulumi vs Other IaC Tools
 * Programming Models
-** Understanding Pulumi's Programming Model
-** Types of Programs in Pulumi
-** Using a General-Purpose Programming Language
-** Pulumi SDK vs Pulumi CLI
+**[#yellow] ====<size:14>Understanding Pulumi's Programming Model
+**[#yellow] ====<size:14>Types of Programs in Pulumi
+**[#yellow] ====<size:14>Using a General-Purpose Programming Language
+**[#yellow] ====<size:14>Pulumi SDK vs Pulumi CLI
 * Deployment
-** Deployment Targets
-** Deployment Strategies
-** Managing and Rolling Back Deployments
-** Deploying to Multiple Environments
+**[#yellow] ====<size:14>Deployment Targets
+**[#yellow] ====<size:14>Deployment Strategies
+**[#yellow] ====<size:14>Managing and Rolling Back Deployments
+**[#yellow] ====<size:14>Deploying to Multiple Environments
 * Organization
-** Managing Pulumi Projects
-** Using Pulumi Stacks
-** Managing Stacks for Different Environments
-** Pulumi Policy as Code
+**[#yellow] ====<size:14>Managing Pulumi Projects
+**[#yellow] ====<size:14>Using Pulumi Stacks
+**[#yellow] ====<size:14>Managing Stacks for Different Environments
+**[#yellow] ====<size:14>Pulumi Policy as Code
 * Advanced Features
-** Using Pulumi Crosswalk for AWS, Azure, and GCP
-** Working with Large Infrastructures
-** Customizing Pulumi with Plugins and Frameworks
-** Pulumi and Kubernetes
-** Testing Infrastructure Code with Pulumi
-** Debugging and Troubleshooting with Pulumi
+**[#yellow] ====<size:14>Using Pulumi Crosswalk for AWS, Azure, and GCP
+**[#yellow] ====<size:14>Working with Large Infrastructures
+**[#yellow] ====<size:14>Customizing Pulumi with Plugins and Frameworks
+**[#yellow] ====<size:14>Pulumi and Kubernetes
+**[#yellow] ====<size:14>Testing Infrastructure Code with Pulumi
+**[#yellow] ====<size:14>Debugging and Troubleshooting with Pulumi
 @endmindmap
