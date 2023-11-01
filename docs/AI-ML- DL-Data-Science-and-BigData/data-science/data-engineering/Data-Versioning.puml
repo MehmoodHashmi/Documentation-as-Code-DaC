@@ -4,60 +4,60 @@ title Data Versioning
 
 * Data Versioning
 ** Definition
-*** <size:14>**Data versioning** is the practice of **managing and tracking different versions of data,** __allowing users to access and refer to specific data states or changes over time.__
+***[#gold] ====<size:14><size:16>**Data versioning** is the practice of **managing and tracking different versions of data,** __allowing users to access and refer to specific data states or changes over time.__
 
 **[#gold] ====Objectives
-*** Data History
-****[#yellow] ====<size:13>Maintain historical records of **data** changes and states.
-*** Data Traceability
-****[#yellow] ====<size:13>Easily trace back to specific **data** versions for analysis or auditing.
-*** Collaboration
-****[#yellow] ====<size:13>Enable collaborative work on shared **data** while keeping a version history.
+***[#gold] ====<size:14>Data History
+****[#yellow] ====<size:14>Maintain historical records of **data** changes and states.
+***[#gold] ====<size:14>Data Traceability
+****[#yellow] ====<size:14>Easily trace back to specific **data** versions for analysis or auditing.
+***[#gold] ====<size:14>Collaboration
+****[#yellow] ====<size:14>Enable collaborative work on shared **data** while keeping a version history.
 
 **[#pink] ====Data Versioning Techniques
-***[#white] **Version Control Systems**
-****[#yellow] ====<size:13>Use version control tools like **Git** to manage **data** files and records.
+***[#white] ====<size:14> **Version Control Systems**
+****[#yellow] ====<size:14>Use version control tools like **Git** to manage **data** files and records.
 
-***[#white] **Database Versioning**
-****[#yellow] ====<size:13>Implement database schema versioning and migration scripts.
+***[#white] ====<size:14>**Database Versioning**
+****[#yellow] ====<size:14>Implement database schema versioning and migration scripts.
 
-***[#white] **Timestamping**
-****[#yellow] ====<size:13>Add timestamps to **data** records to track changes.
+***[#white] ====<size:14>**Timestamping**
+****[#yellow] ====<size:14>Add timestamps to **data** records to track changes.
 
 **[#orange] ====Data Versioning Tools
-*** **Git**
-****[#yellow] ====<size:13>A popular distributed version control system for managing code and **data** files.
+***[#gold] ====<size:14>**Git**
+****[#yellow] ====<size:14>A popular distributed version control system for managing code and **data** files.
 
-*** **Database Migration Tools**
-****[#yellow] ====<size:13>Tools like Flyway and Liquibase for database versioning.
+***[#gold] ====<size:14>**Database Migration Tools**
+****[#yellow] ====<size:14>Tools like Flyway and Liquibase for database versioning.
 
-*** Time Series Databases
-****[#yellow] ====<size:13>Databases designed for storing and querying time-stamped **data**.
+***[#gold] ====<size:14>Time Series Databases
+****[#yellow] ====<size:14>Databases designed for storing and querying time-stamped **data**.
 
 **[#yellow] ====Considerations
-*** Data Size
-****[#yellow] ====<size:13>Consider storage requirements for maintaining **data** history.
+***[#gold] ====<size:14>Data Size
+****[#yellow] ====<size:14>Consider storage requirements for maintaining **data** history.
 
-*** Data Granularity
-****[#yellow] ====<size:13>Decide how granular **data** versioning should be **(e.g., at the record or file level).**
+***[#gold] ====<size:14>Data Granularity
+****[#yellow] ====<size:14>Decide how granular **data** versioning should be **(e.g., at the record or file level).**
 
-*** Data Access
-****[#yellow] ====<size:13>Define access controls and permissions for different **data** versions.
+***[#gold] ====<size:14>Data Access
+****[#yellow] ====<size:14>Define access controls and permissions for different **data** versions.
 
-*** Data Cleanup
-****[#yellow] ====<size:13>Plan for **data** version cleanup and archiving.
+***[#gold] ====<size:14>Data Cleanup
+****[#yellow] ====<size:14>Plan for **data** version cleanup and archiving.
 
 ** Best Practices
-*** Versioning Policies
-****[#yellow] ====<size:13>Define clear versioning policies and naming conventions.
+***[#gold] ====<size:14>Versioning Policies
+****[#yellow] ====<size:14>Define clear versioning policies and naming conventions.
 
-*** Data Documentation
-****[#yellow] ====<size:13>Maintain documentation of **data** version history and changes.
+***[#gold] ====<size:14>Data Documentation
+****[#yellow] ====<size:14>Maintain documentation of **data** version history and changes.
 
-*** Rollback Plans
-****[#yellow] ====<size:13>Prepare rollback procedures for reverting to previous **data** versions.
+***[#gold] ====<size:14>Rollback Plans
+****[#yellow] ====<size:14>Prepare rollback procedures for reverting to previous **data** versions.
 
-*** Data Backup
-****[#yellow] ====<size:13>Regularly back up **data** versions to prevent **data** loss.
+***[#gold] ====<size:14>Data Backup
+****[#yellow] ====<size:14>Regularly back up **data** versions to prevent **data** loss.
 
 @endmindmap
