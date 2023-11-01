@@ -2,39 +2,40 @@
 !theme hacker
 title =__ Cloud Engineer__
 
+
 * Cloud Engineer
 ** Cloud Services
-*** Compute
-**** Virtual Machines
-**** Container Instances
-**** Functions
-*** Storage
-**** Blob Storage
-**** File Storage
-**** Archive Storage
-*** Networking
-**** Virtual Network
-**** Load Balancer
-**** Traffic Manager
-*** Databases
-**** Relational Databases
-**** NoSQL Databases
-*** Identity and Access Management
-*** Analytics and Monitoring
-*** Artificial Intelligence and Machine Learning
+***[#lightcyan] ====<size:14>Compute
+****[#white] ====<size:14>Virtual Machines
+****[#white] ====<size:14>Container Instances
+****[#white] ====<size:14>Functions
+***[#lightcyan] ====<size:14>Storage
+****[#white] ====<size:14>Blob Storage
+****[#white] ====<size:14>File Storage
+****[#white] ====<size:14>Archive Storage
+***[#lightcyan] ====<size:14>Networking
+****[#white] ====<size:14>Virtual Network
+****[#white] ====<size:14>Load Balancer
+****[#white] ====<size:14>Traffic Manager
+***[#lightcyan] ====<size:14>Databases
+****[#white] ====<size:14>Relational Databases
+****[#white] ====<size:14>NoSQL Databases
+***[#lightcyan] ====<size:14>Identity and Access Management
+***[#lightcyan] ====<size:14>Analytics and Monitoring
+***[#lightcyan] ====<size:14>Artificial Intelligence and Machine Learning
 ** Cloud Providers
-*** Amazon Web Services (AWS)
-*** Microsoft Azure
-*** Google Cloud Platform
-*** IBM Cloud
+***[#lightcyan] ====<size:14>Amazon Web Services **(AWS)**
+***[#lightcyan] ====<size:14>Microsoft Azure
+***[#lightcyan] ====<size:14>Google Cloud Platform
+***[#lightcyan] ====<size:14>IBM Cloud
 ** DevOps and Automation
-*** Infrastructure as Code (IaC)
-*** Configuration Management
-*** Continuous Integration/Continuous Deployment (CI/CD)
-*** Monitoring and Alerting
+***[#lightcyan] ====<size:14>Infrastructure as Code **(IaC)**
+***[#lightcyan] ====<size:14>Configuration Management
+***[#lightcyan] ====<size:14>Continuous Integration/Continuous Deployment **(CI/CD)**
+***[#lightcyan] ====<size:14>Monitoring and Alerting
 ** Security and Compliance
-*** Network Security
-*** Identity and Access Management
-*** Compliance
-*** Incident Response
+***[#lightcyan] ====<size:14>Network Security
+***[#lightcyan] ====<size:14>Identity and Access Management
+***[#lightcyan] ====<size:14>Compliance
+***[#lightcyan] ====<size:14>Incident Response
 @endmindmap

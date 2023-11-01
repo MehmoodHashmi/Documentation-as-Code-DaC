@@ -1,31 +1,32 @@
 @startmindmap
 title =__ Cloud Architect__
+!theme hacker
 
 * Cloud Architect
 ** Design and Planning
-*** Capacity Planning
-*** Availability and Scalability
-*** Disaster Recovery
-*** Security and Compliance
+***[#gold] ====<size:14>Capacity Planning
+***[#gold] ====<size:14>Availability and Scalability
+***[#gold] ====<size:14>Disaster Recovery
+***[#gold] ====<size:14>Security and Compliance
 ** Cloud Services
-*** IaaS
-**** Compute
-**** Storage
-**** Networking
-*** PaaS
-**** Application Platform
-**** Database Platform
-*** SaaS
-**** Productivity
-**** Collaboration
-**** Customer Relationship Management
+***[#gold] ====<size:14>IaaS
+****[#white] ====<size:14>Compute
+****[#white] ====<size:14>Storage
+****[#white] ====<size:14>Networking
+***[#gold] ====<size:14>PaaS
+****[#white] ====<size:14>Application Platform
+****[#white] ====<size:14>Database Platform
+***[#gold] ====<size:14>SaaS
+****[#white] ====<size:14>Productivity
+****[#white] ====<size:14>Collaboration
+****[#white] ====<size:14>Customer Relationship Management
 ** Cloud Providers
-*** Amazon Web Services (AWS)
-*** Microsoft Azure
-*** Google Cloud Platform
-*** IBM Cloud
+***[#gold] ====<size:14>Amazon Web Services **(AWS)**
+***[#gold] ====<size:14>Microsoft Azure
+***[#gold] ====<size:14>Google Cloud Platform
+***[#gold] ====<size:14>IBM Cloud
 ** DevOps and Automation
-*** Continuous Integration/Continuous Deployment (CI/CD)
-*** Infrastructure as Code (IaC)
-*** Configuration Management
+***[#gold] ====<size:14>Continuous Integration/Continuous Deployment **(CI/CD)**
+***[#gold] ====<size:14>Infrastructure as Code **(IaC)**
+***[#gold] ====<size:14>Configuration Management
 @endmindmap
