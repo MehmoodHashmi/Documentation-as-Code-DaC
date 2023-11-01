@@ -1,11 +1,6 @@
 @startmindmap
 title =Neural Network Architecture
 
-skinparam node {
-    BackgroundColor LightCyan
-    BorderColor DarkBlue
-}
-
 *[#lime] =Activation Functions (or neurons) both words can be used interchangeably
 !theme hacker
 

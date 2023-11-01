@@ -63,7 +63,7 @@ title =**__Modern Machine Learning__**
 ****[#yellow] ====<size:14>Cleaning, transforming, and augmenting data.
 ***[#blue] ====<size:16>**[[3-deep-learning-DL/how-to/Criteria-to-Select-a-Network-Architecture.puml Model Selection]]**
 ****[#yellow] ====<size:14>Choosing the right algorithms and architectures.
-***[#pink] ====<size:13>**Hyperparameter Tuning**
+***[#black] ====<size:16>**[[3-deep-learning-DL/Hyperparameter-Tuning.puml Hyperparameter Tuning]]**
 ****[#yellow] ====<size:14>Optimizing model parameters.
 *** Model Evaluation
 ****[#yellow] ====<size:14>Properly assessing model performance.

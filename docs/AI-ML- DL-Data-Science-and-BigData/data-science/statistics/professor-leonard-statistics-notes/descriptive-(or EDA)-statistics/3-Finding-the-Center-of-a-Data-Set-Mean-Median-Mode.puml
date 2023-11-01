@@ -94,13 +94,13 @@ is 1-billion dollar and remaining 5 employee has 5 thousand salary then
 the data is inconsistent;
 
 *** =="e_salary" <color:brown>column</color> is
-**** **attribute** (in statistics world)
+****[#yellow] **attribute** (in statistics world)
 *****[#yellow]  **& also in computer science specifically __database people__ use this word**
-**** **feature** (in statistics world)
+****[#yellow] **feature** (in statistics world)
 *****[#yellow]  **& also in AI specifically __Machine Learning (ML) people__ use this word**
-****[#pink] **Dimension** (in Math world)
+****[#white] **Dimension** (in Math world)
 *****[#yellow]  **in Math specifically __Machine Learning (ML) & linear algebra people__ use this word**
-**** **variable** (in statistics world)
+****[#yellow] **variable** (in statistics world)
 *** =Employee Table: \n<img:images/img_41.png>
 ****[#pink] **Employee Table** \n**any row is called**
 ***** =Observation
@@ -139,7 +139,7 @@ It does not says **height** varies **4.6%** more than **weight**, it is just  a 
 Observe, even though the number of **standard deviation** is smaller for the **height; s=3,**
 in-spite of this the **coefficient of variation = 4.6%** is larger;
 
-***:<size:18>**2- Z-score:**</size> The number of **standard deviations** a **data value (x-axis)** is away from the **mean**
+***[#a]:<size:18>**2- Z-score:**</size> The number of **standard deviations** a **data value (x-axis)** is away from the **mean**
 = [[https://medium.com/pythoneers/z-distribution-or-z-score-application-in-machine-learning-fbba081cd9fe]]
 <img:images/img_21.png>
 * allows comparison of the variation in two different samples or population
@@ -152,7 +152,7 @@ in-spite of this the **coefficient of variation = 4.6%** is larger;
 * etc.
 =Use Z-Score for populations
 ====
-<size:19>The process of converting **raw observations** into Z-score is also called as **standardization or normalization.**
+<size:19>The process of converting **raw observations** into **"Z-score"** is also called as **standardization or normalization.**
 <size:19>When the **mean and standard deviation** of a **data set** are known, it is easy to convert them into **Z-score** for
 <size:19>that particular sample or population. The figure below represents different values of Z-scores. Note that Z = +1
 <size:19>represents that the observation is 1 standard deviation away from mean in the positive direction. In the same
