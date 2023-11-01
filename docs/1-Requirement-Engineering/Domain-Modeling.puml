@@ -8,75 +8,76 @@ skinparam node {
 skinparam connector {
     LineColor DarkGray
 }
+!theme hacker
 
 title =__ Domain Modeling__
 * Domain Modeling
 
-** Definition
-*** Process of creating a conceptual representation of a specific problem domain
-*** Involves identifying and modeling the entities, relationships, and behavior within the domain
+**[#purple] ====<size:14><color #white>Definition
+***[#gold] ====<size:14>Process of creating a conceptual representation of a specific problem domain
+***[#gold] ====<size:14>Involves identifying and modeling the entities, relationships, and behavior within the domain
 
-** Importance of Domain Modeling
-*** Common Language
-**** Establishes a shared understanding and vocabulary among stakeholders
-**** Facilitates effective communication and collaboration during software development
+**[#purple] ====<size:14><color #white>Importance of Domain Modeling
+***[#gold] ====<size:14>Common Language
+****[#yellow] ====<size:14>Establishes a shared understanding and vocabulary among stakeholders
+****[#yellow] ====<size:14>Facilitates effective communication and collaboration during software development
 
-*** Requirements Analysis
-**** Helps in eliciting and analyzing the functional and non-functional requirements
-**** Provides insights into the problem domain and guides solution design
+***[#gold] ====<size:14>Requirements Analysis
+****[#yellow] ====<size:14>Helps in eliciting and analyzing the functional and non-functional requirements
+****[#yellow] ====<size:14>Provides insights into the problem domain and guides solution design
 
-*** System Design
-**** Serves as a foundation for designing the software system architecture
-**** Guides the organization and structure of software components and modules
+***[#gold] ====<size:14>System Design
+****[#yellow] ====<size:14>Serves as a foundation for designing the software system architecture
+****[#yellow] ====<size:14>Guides the organization and structure of software components and modules
 
-*** Maintainable and Evolvable Software
-**** Supports software that is easy to maintain and adapt to changing requirements
-**** Enables extensibility and scalability of the software system
+***[#gold] ====<size:14>Maintainable and Evolvable Software
+****[#yellow] ====<size:14>Supports software that is easy to maintain and adapt to changing requirements
+****[#yellow] ====<size:14>Enables extensibility and scalability of the software system
 
-** Domain Modeling Techniques
+**[#purple] ====<size:14><color #white>Domain Modeling Techniques
 
-*** Conceptual Modeling
-**** Captures the essential entities, attributes, and relationships in the domain
-**** Utilizes techniques such as entity-relationship diagrams (ERD) or class diagrams
+***[#gold] ====<size:14>Conceptual Modeling
+****[#yellow] ====<size:14>Captures the essential entities, attributes, and relationships in the domain
+****[#yellow] ====<size:14>Utilizes techniques such as entity-relationship diagrams (ERD) or class diagrams
 
-*** Behavior Modeling
-**** Describes the dynamic aspects and behavior of the domain entities
-**** Utilizes techniques such as use case diagrams, activity diagrams, or state diagrams
+***[#gold] ====<size:14>Behavior Modeling
+****[#yellow] ====<size:14>Describes the dynamic aspects and behavior of the domain entities
+****[#yellow] ====<size:14>Utilizes techniques such as use case diagrams, activity diagrams, or state diagrams
 
-*** Data Modeling
-**** Focuses on the structure, integrity, and organization of data in the domain
-**** Utilizes techniques such as entity-relationship diagrams (ERD) or data flow diagrams
+***[#gold] ====<size:14>Data Modeling
+****[#yellow] ====<size:14>Focuses on the structure, integrity, and organization of data in the domain
+****[#yellow] ====<size:14>Utilizes techniques such as entity-relationship diagrams (ERD) or data flow diagrams
 
-** Domain-Driven Design (DDD)
+**[#purple] ====<size:14><color #white>Domain-Driven Design (DDD)
 
-*** Definition
-**** Methodology for designing software systems closely aligned with the problem domain
-**** Emphasizes collaboration between domain experts and software developers
+***[#gold] ====<size:14>Definition
+****[#yellow] ====<size:14>Methodology for designing software systems closely aligned with the problem domain
+****[#yellow] ====<size:14>Emphasizes collaboration between domain experts and software developers
 
-*** Key Concepts
-**** Ubiquitous Language
-***** Shared language and terminology used by domain experts and developers
-***** Ensures clear and consistent communication and understanding
+***[#gold] ====<size:14>Key Concepts
+****[#yellow] ====<size:14>Ubiquitous Language
+*****[#white] ====<size:14>Shared language and terminology used by domain experts and developers
+*****[#white] ====<size:14>Ensures clear and consistent communication and understanding
 
-**** Bounded Contexts
-***** Divides the problem domain into cohesive, self-contained contexts
-***** Defines boundaries and enables independent modeling and development within each context
+****[#yellow] ====<size:14>Bounded Contexts
+*****[#white] ====<size:14>Divides the problem domain into cohesive, self-contained contexts
+*****[#white] ====<size:14>Defines boundaries and enables independent modeling and development within each context
 
-**** Aggregates
-***** Groups related entities and value objects into transactional consistency boundaries
-***** Maintains integrity and consistency within the aggregate boundary
+****[#yellow] ====<size:14>Aggregates
+*****[#white] ====<size:14>Groups related entities and value objects into transactional consistency boundaries
+*****[#white] ====<size:14>Maintains integrity and consistency within the aggregate boundary
 
-**** Domain Events
-***** Represents significant occurrences or changes in the domain
-***** Enables loose coupling and asynchronous communication between components
+****[#yellow] ====<size:14>Domain Events
+*****[#white] ====<size:14>Represents significant occurrences or changes in the domain
+*****[#white] ====<size:14>Enables loose coupling and asynchronous communication between components
 
-** Tools and Notations
-*** UML (Unified Modeling Language)
-**** Widely used graphical notation for modeling software systems and domains
-**** Provides a standardized set of symbols and diagrams for representing concepts
+**[#purple] ====<size:14><color #white>Tools and Notations
+***[#gold] ====<size:14>UML (Unified Modeling Language)
+****[#yellow] ====<size:14>Widely used graphical notation for modeling software systems and domains
+****[#yellow] ====<size:14>Provides a standardized set of symbols and diagrams for representing concepts
 
-*** Domain-Specific Languages (DSL)
-**** Specialized languages tailored to specific problem domains
-**** Enable concise and expressive representation of domain concepts and rules
+***[#gold] ====<size:14>Domain-Specific Languages (DSL)
+****[#yellow] ====<size:14>Specialized languages tailored to specific problem domains
+****[#yellow] ====<size:14>Enable concise and expressive representation of domain concepts and rules
 
 @endmindmap

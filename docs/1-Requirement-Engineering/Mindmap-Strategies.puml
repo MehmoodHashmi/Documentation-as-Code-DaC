@@ -1,50 +1,114 @@
 @startmindmap
-title = __Mindmap Strategies__ \nThis mindmap includes both general and specific strategies for mindmapping, such as starting with a clear purpose, using a structured approach, keeping it simple, using images and colors, and \ncollaborating and sharing. It also includes specific strategies for problem-solving, project planning, decision-making, and note-taking, which can be applied to various contexts.
+title = __Mindmap Strategies__ \nThis mindmap includes both general and specific strategies for mindmapping, such as starting with a clear purpose\n, using a structured approach, keeping it simple, using images and colors, and \ncollaborating and sharing. It also includes specific strategies for problem-solving,\n project planning, decision-making, and note-taking, which can be applied to various contexts.
 
 
-
+!theme hacker
 
 
 * General Strategies
-** Start with a clear purpose
-*** Identify your goals and objectives
-*** Determine the scope of your mindmap
-*** Focus on the main ideas
-** Use a structured approach
-*** Start with a central idea or concept
-*** Organize ideas into categories and subcategories
-*** Use a hierarchy or network structure
-** Keep it simple
-*** Use keywords and short phrases
-*** Avoid clutter and unnecessary details
-*** Use visual elements to enhance clarity
-** Use images and colors
-*** Use images to represent concepts
-*** Use colors to emphasize relationships
-*** Use icons to represent ideas
-** Collaborate and share
-*** Invite others to contribute
-*** Use online tools to collaborate
-*** Share your mindmap with others
+**[#gold] ====<size:14>Start with a clear purpose
+***[#yellow] ====<size:14>Identify your goals and objectives
+***[#yellow] ====<size:14>Determine the scope of your mindmap
+***[#yellow] ====<size:14>Focus on the main ideas
+**[#pink] ====<size:14>Use a structured approach
+***[#yellow] ====<size:14>Start with a central idea or concept
+***[#yellow] ====<size:14>Organize ideas into categories and subcategories
+***[#yellow] ====<size:14>Use a hierarchy or network structure
+**[#gold] ====<size:14>Keep it simple
+***[#yellow] ====<size:14>Use keywords and short phrases
+***[#yellow] ====<size:14>Avoid clutter and unnecessary details
+***[#yellow] ====<size:14>Use visual elements to enhance clarity
+**[#darkorange] ====<size:14>Use images and colors
+***[#yellow] ====<size:14>Use images to represent concepts
+***[#yellow] ====<size:14>Use colors to emphasize relationships
+***[#yellow] ====<size:14>Use icons to represent ideas
+**[#gold] ====<size:14>Collaborate and share
+***[#yellow] ====<size:14>Invite others to contribute
+***[#yellow] ====<size:14>Use online tools to collaborate
+***[#yellow] ====<size:14>Share your mindmap with others
+
+
+*[#darkblue] ====<size:14><color #white>Dark blue
+**[#lightblue] ====<size:14><color #black>Sub Topics
+**[#lightblue] ====<size:14><color #black>light blue
+***[#green] ====<size:14><color #white>Sub-subtopics
+***[#green] ====<size:14><color #white>green
+****[#orange] ====<size:14><color #black>**Sub-sub-subtopics**
+****[#orange] ====<size:14><color #black>**orange**
+*****[#purple] ====<size:14><color #white>**Sub-sub-sub-subtopics**
+*****[#purple] ====<size:14><color #white>**purple**
+******[#red] ====<size:14><color #white>**Sub-sub-sub-sub-subtopics**
+******[#red] ====<size:14><color #white>**red**
+*******[#yellow] ====<size:14><color #black>**Details or sub-details**
+*******[#yellow] ====<size:14><color #black>**yellow**
+
+
+
+* Colors meaning
+** Color Meanings for <color #red>"Mindmap depth level"
+***[#darkblue] ====<size:14><color #white>Main Topics
+***[#darkblue] ====<size:14><color #white>Dark blue
+****[#lightblue] ====<size:14><color #black>Sub Topics
+****[#lightblue] ====<size:14><color #black>light blue
+*****[#green] ====<size:14><color #white>Sub-subtopics
+*****[#green] ====<size:14><color #white>green
+******[#orange] ====<size:14><color #black>**Sub-sub-subtopics**
+******[#orange] ====<size:14><color #black>**orange**
+*******[#purple] ====<size:14><color #white>**Sub-sub-sub-subtopics**
+*******[#purple] ====<size:14><color #white>**purple**
+********[#red] ====<size:14><color #white>**Sub-sub-sub-sub-subtopics**
+********[#red] ====<size:14><color #white>**red**
+*********[#yellow] ====<size:14><color #black>**Details or sub-details**
+*********[#yellow] ====<size:14><color #black>**yellow**
+
+** Color Meanings for <color #red>"Note-Taking"
+***[#red] ====<size:14><color #white>Red
+****[#red] ====<size:14><color #white>**Important**
+****[#red] ====<size:14><color #white>**Warnings**
+****[#red] ====<size:14><color #white>**Critical**
+***[#green] ====<size:14><color #white>Green
+****[#green] ====<size:14><color #white>**Positive**
+****[#green] ====<size:14><color #white>**Progress**
+****[#green] ====<size:14><color #white>**Completed**
+***[#blue] ====<size:14><color #white>Blue
+****[#blue] ====<size:14><color #white>**General Information**
+****[#blue] ====<size:14><color #white>**Headings**
+***[#yellow] ====<size:14><color #black>Yellow
+****[#yellow] ====<size:14><color #black>**Key Takeaways**
+****[#yellow] ====<size:14><color #black>**Requires Attention**
+***[#orange] ====<size:14><color #white> Orange
+****[#orange] ====<size:14><color #white>**Creativity**
+****[#orange] ====<size:14><color #white>**Ideas**
+****[#orange] ====<size:14><color #white>**Exploration**
+***[#purple] ====<size:14><color #white>Purple
+****[#purple] ====<size:14><color #white>**Significance**
+****[#purple] ====<size:14><color #white>**Key Figures**
+****[#purple] ====<size:14><color #white>**Leadership**
+***[#pink] ====<size:14><color #black>Pink
+****[#pink] ====<size:14><color #black>**Personal Notes**
+****[#pink] ====<size:14><color #black>**Reminders**
+
 
 * Specific Strategies
-** Problem-Solving
-*** Identify the problem
-*** Brainstorm possible solutions
-*** Evaluate the pros and cons
-*** Select the best solution
-** Project Planning
-*** Define the project scope
-*** Break down the project into tasks
-*** Assign tasks and responsibilities
-*** Set deadlines and milestones
-** Decision-Making
-*** Identify the decision to be made
-*** Identify the options available
-*** Evaluate the pros and cons of each option
-*** Make a decision
-** Note-Taking
-*** Record important information
-*** Summarize key points
-*** Organize information for future reference
+**[#gold] ====<size:14>Problem-Solving
+***[#yellow] ====<size:14>Identify the problem
+***[#yellow] ====<size:14>Brainstorm possible solutions
+***[#yellow] ====<size:14>Evaluate the pros and cons
+***[#yellow] ====<size:14>Select the best solution
+**[#gold] ====<size:14>Project Planning
+***[#yellow] ====<size:14>Define the project scope
+***[#yellow] ====<size:14>Break down the project into tasks
+***[#yellow] ====<size:14>Assign tasks and responsibilities
+***[#yellow] ====<size:14>Set deadlines and milestones
+**[#gold] ====<size:14>Decision-Making
+***[#yellow] ====<size:14>Identify the decision to be made
+***[#yellow] ====<size:14>Identify the options available
+***[#yellow] ====<size:14>Evaluate the pros and cons of each option
+***[#yellow] ====<size:14>Make a decision
+**[#gold] ====<size:14>Note-Taking
+***[#yellow] ====<size:14>Record important information
+***[#yellow] ====<size:14>Summarize key points
+***[#yellow] ====<size:14>Organize information for future reference
+
+
 @endmindmap
