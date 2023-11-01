@@ -4,89 +4,89 @@ title =__GDPR - General Data Protection Regulation__
 
 * GDPR
 ** Definition
-*** <size:14>**GDPR** is a European Union regulation that governs the collection, processing, and protection of personal data to ensure individuals' privacy and data security.
+***[#gold] ====<size:18>**GDPR** is a European Union regulation that governs the collection, processing, and protection of personal data to ensure individuals' privacy and data security.
 
 **[#orange] ==== Key Concepts
-*** Personal Data
+***[#gold] ====<size:14>Personal Data
 ****[#yellow] ====<size:14>Information that can identify an individual, such as name, email, or IP address.
-*** Data Controller
+***[#gold] ====<size:14>Data Controller
 ****[#yellow] ====<size:14>Entities that determine the purpose and means of data processing.
-*** Data Processor
+***[#gold] ====<size:14>Data Processor
 ****[#yellow] ====<size:14>Entities that process data on behalf of data controllers.
-*** Consent
+***[#gold] ====<size:14>Consent
 ****[#yellow] ====<size:14>Voluntary and informed agreement for data processing.
-*** Data Subject
+***[#gold] ====<size:14>Data Subject
 ****[#yellow] ====<size:14>Individuals whose data is processed under GDPR.
-*** Data Protection Officer **(DPO)**
+***[#gold] ====<size:14>Data Protection Officer **(DPO)**
 ****[#yellow] ====<size:14>Appointed individual responsible for data protection compliance.
 
 **[#pink] ==== GDPR Principles
-*** Lawfulness, Fairness, and Transparency
+***[#gold] ====<size:14>Lawfulness, Fairness, and Transparency
 ****[#yellow] ====<size:14>Data processing must be legal, fair, and transparent.
-*** Purpose Limitation
+***[#gold] ====<size:14>Purpose Limitation
 ****[#yellow] ====<size:14>Data should be collected for specific, legitimate purposes.
-*** Data Minimization
+***[#gold] ====<size:14>Data Minimization
 ****[#yellow] ====<size:14>Only collect data necessary for the intended purpose.
-*** Accuracy
+***[#gold] ====<size:14>Accuracy
 ****[#yellow] ====<size:14>Data should be accurate and kept up to date.
-*** Storage Limitation
+***[#gold] ====<size:14>Storage Limitation
 ****[#yellow] ====<size:14>Data should be retained for the minimum necessary period.
-*** Integrity and Confidentiality
+***[#gold] ====<size:14>Integrity and Confidentiality
 ****[#yellow] ====<size:14>Data must be secure and protected from breaches.
-*** Accountability
+***[#gold] ====<size:14>Accountability
 ****[#yellow] ====<size:14>Data controllers are responsible for GDPR compliance.
 
 **[#gold] ====GDPR Rights of Data Subjects
-*** Right to Access
+***[#gold] ====<size:14>Right to Access
 ****[#yellow] ====<size:14>Data subjects can access their personal data.
-*** Right to Erasure **(Right to Be Forgotten)**
+***[#gold] ====<size:14>Right to Erasure **(Right to Be Forgotten)**
 ****[#yellow] ====<size:14>Data subjects can request the deletion of their data.
-*** Right to Portability
+***[#gold] ====<size:14>Right to Portability
 ****[#yellow] ====<size:14>Data subjects can request their data in a portable format.
-*** Right to Rectification
+***[#gold] ====<size:14>Right to Rectification
 ****[#yellow] ====<size:14>Data subjects can request corrections to their data.
-*** Right to Object
+***[#gold] ====<size:14>Right to Object
 ****[#yellow] ====<size:14>Data subjects can object to data processing.
 
 **[#white] ====GDPR Requirements
-*** Data Protection Impact Assessment **(DPIA)**
+***[#gold] ====<size:14>Data Protection Impact Assessment **(DPIA)**
 ****[#yellow] ====<size:14>Assess and mitigate risks of data processing activities.
-*** Data Breach Notification
+***[#gold] ====<size:14>Data Breach Notification
 ****[#yellow] ====<size:14>Notify authorities and affected individuals of data breaches.
-*** Privacy by Design and Default
+***[#gold] ====<size:14>Privacy by Design and Default
 ****[#yellow] ====<size:14>Integrate data protection into systems and processes.
-*** Data Transfer Outside EU
+***[#gold] ====<size:14>Data Transfer Outside EU
 ****[#yellow] ====<size:14>Transfer personal data outside the EU with safeguards.
-*** Consent Management
+***[#gold] ====<size:14>Consent Management
 ****[#yellow] ====<size:14>Obtain clear and unambiguous consent for data processing.
 
 ** GDPR Enforcement
-*** Fines and Penalties
+***[#gold] ====<size:14>Fines and Penalties
 ****[#yellow] ====<size:14>Regulatory authorities can impose fines for non-compliance.
-*** Cooperation and Consistency Mechanism
+***[#gold] ====<size:14>Cooperation and Consistency Mechanism
 ****[#yellow] ====<size:14>Coordination among EU member state data protection authorities.
 
 **[#lightgreen] ====Considerations
-*** Data Mapping
+***[#gold] ====<size:14>Data Mapping
 ****[#yellow] ====<size:14>Identify what data is collected and processed.
-*** Data Protection Impact Assessment
+***[#gold] ====<size:14>Data Protection Impact Assessment
 ****[#yellow] ====<size:14>Conduct DPIAs for high-risk processing activities.
-*** Privacy Policies and Notices
+***[#gold] ====<size:14>Privacy Policies and Notices
 ****[#yellow] ====<size:14>Provide transparent privacy information to data subjects.
-*** Security Measures
+***[#gold] ====<size:14>Security Measures
 ****[#yellow] ====<size:14>Implement appropriate security measures to protect data.
 
-*** Data Protection Officer **(DPO)**
+***[#gold] ====<size:14>Data Protection Officer **(DPO)**
 ****[#yellow] ====<size:14>Appoint a DPO if required, and ensure their expertise.
 
 ** Best Practices
-*** Data Minimization
+***[#gold] ====<size:14>Data Minimization
 ****[#yellow] ====<size:14>Collect only data necessary for the intended purpose.
-*** Regular Audits
+***[#gold] ====<size:14>Regular Audits
 ****[#yellow] ====<size:14>Conduct regular data protection audits and assessments.
-*** Employee Training
+***[#gold] ====<size:14>Employee Training
 ****[#yellow] ====<size:14>Train employees on GDPR compliance and data protection.
-*** Data Subject Requests
+***[#gold] ====<size:14>Data Subject Requests
 ****[#yellow] ====<size:14>Establish processes for handling data subject requests efficiently.
 
 @endmindmap
