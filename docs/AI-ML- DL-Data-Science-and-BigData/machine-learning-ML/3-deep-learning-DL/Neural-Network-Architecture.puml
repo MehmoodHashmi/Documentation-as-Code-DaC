@@ -4,109 +4,109 @@ title =Neural Network Architecture
 *[#lightblue] =Activation Functions (or neurons) both words can be used interchangeably
 !theme hacker
 
-*[#darkblue] ====Neural Network Architecture
-**[#lightblue] ====Basics of Neural Networks
-***[#yellow] ====<size:14>**Neurons and Activation Functions -** Neurons simulate the functioning of biological neurons, and activation functions determine the output of a neuron.\n*<size:14>//"Neurons process input data" and "activation functions introduce non-linearity."//
-***[#yellow] ====<size:14>**Weights and Biases -** Weights control the strength of connections, and biases introduce a shift in neuron behavior. \n*<size:14>//Neural networks "learn" by adjusting weights and biases in each layer.//
-***[#yellow] ====<size:14>**Layers **(Input, Hidden, Output)** -** Neural networks are organized into **layers (input, hidden, and output).** \n* <size:14>//"Information" flow through **layers (input, hidden, and output)** in a "network".//
-***[#yellow] ====<size:14>**Feedforward and Backpropagation -** Feedforward processes data through the network, while backpropagation adjusts weights during training. \n* <size:14>//Feedforward for "prediction" and backpropagation for "learning".//
+*[#darkblue] <i>Neural Network Architecture
+**[#lightblue] <i>Basics of Neural Networks
+***[#yellow] <i><size:14>**Neurons and Activation Functions -** Neurons simulate the functioning of biological neurons, and activation functions determine the output of a neuron.\n*<size:14><i>"Neurons process input data" and "activation functions introduce non-linearity."
+***[#yellow] <i><size:14>**Weights and Biases -** Weights control the strength of connections, and biases introduce a shift in neuron behavior. \n*<size:14><i>Neural networks "learn" by adjusting weights and biases in each layer.
+***[#yellow] <i><size:14>**Layers **(Input, Hidden, Output)** -** Neural networks are organized into **layers (input, hidden, and output).** \n* <size:14><i>"Information" flow through **layers (input, hidden, and output)** in a "network".
+***[#yellow] <i><size:14>**Feedforward and Backpropagation -** Feedforward processes data through the network, while backpropagation adjusts weights during training. \n* <size:14><i>Feedforward for "prediction" and backpropagation for "learning".
 
-**[#lightblue] ====<size:14>Types of Neural Networks
-***[#yellow] ====<size:14>**1- Feedforward Neural Networks **(FNN)** -** Standard neural networks where information flows in one direction. \n* <size:14>//Basic "forward flow" from "input to output".//
-***[#yellow] ====<size:14>**2- Convolutional Neural Networks **(CNN)** -** Specialized for "image processing", using convolutional layers. \n* <size:14>//Specialized for "image data" with convolutional layers.//
-***[#yellow] ====<size:14>**3- Recurrent Neural Networks **(RNN)** -** Suitable for sequential data, with "recurrent connections". \n* <size:14>//Process "sequential data" with "loops".//
-***[#yellow] ====<size:14>**4- Long Short-Term Memory **(LSTM)** -** A type of RNN with improved memory capabilities. \n* <size:14>//Handles "long-term dependencies" in "sequences".//
-***[#yellow] ====<size:14>**5- Gated Recurrent Units **(GRU)** -** A "simpler RNN" variant with "gating mechanisms".
-***[#yellow] ====<size:14>**6- And many more**
+**[#lightblue] <i><size:14>Types of Neural Networks
+***[#yellow] <i><size:14>**1- Feedforward Neural Networks **(FNN)** -** Standard neural networks where information flows in one direction. \n* <size:14><i>Basic "forward flow" from "input to output".
+***[#yellow] <i><size:14>**2- Convolutional Neural Networks **(CNN)** -** Specialized for "image processing", using convolutional layers. \n* <size:14><i>Specialized for "image data" with convolutional layers.
+***[#yellow] <i><size:14>**3- Recurrent Neural Networks **(RNN)** -** Suitable for sequential data, with "recurrent connections". \n* <size:14><i>Process "sequential data" with "loops".
+***[#yellow] <i><size:14>**4- Long Short-Term Memory **(LSTM)** -** A type of RNN with improved memory capabilities. \n* <size:14><i>Handles "long-term dependencies" in "sequences".
+***[#yellow] <i><size:14>**5- Gated Recurrent Units **(GRU)** -** A "simpler RNN" variant with "gating mechanisms".
+***[#yellow] <i><size:14>**6- And many more**
 
-**[#lightblue] ====Layer Types
-***[#yellow] ====<size:14>**Input Layer -** Receives and preprocesses input data and then, passes it to the hidden layers.
-***[#yellow] ====<size:14><color #red>**Hidden Layers -** Process information via various types, such as **fully connected, convolutional, or recurrent.**
-****[#white] ====<size:14>Fully Connected **(Dense)** Layers **- Each neuron connected to all neurons in the previous layer.**
-****[#white] ====<size:14>Convolutional Layers **- Detect patterns in input data using filters.**
-****[#white] ====<size:14>Recurrent Layers **- Process sequences and maintain hidden states.**
-***[#yellow] ====<size:14>**Output Layer -** Produces the final network output.
+**[#lightblue] <i>Layer Types
+***[#yellow] <i><size:14>**Input Layer -** Receives and preprocesses input data and then, passes it to the hidden layers.
+***[#yellow] <i><size:14><color #red>**Hidden Layers -** Process information via various types, such as **fully connected, convolutional, or recurrent.**
+****[#white] <i><size:14>Fully Connected **(Dense)** Layers **- Each neuron connected to all neurons in the previous layer.**
+****[#white] <i><size:14>Convolutional Layers **- Detect patterns in input data using filters.**
+****[#white] <i><size:14>Recurrent Layers **- Process sequences and maintain hidden states.**
+***[#yellow] <i><size:14>**Output Layer -** Produces the final network output.
 
-**[#lightblue] ====<size:22>Activation Functions
-***[#yellow] ====<size:14>**Sigmoid -** <color #red>S-shaped curve used in earlier neural networks. \n* <size:14>//Smoothly maps input to the range **(0, 1).**//
-***[#yellow] ====<size:14>**Hyperbolic Tangent (tanh) -** <color #red>Similar to the **sigmoid** but with output in the range **[-1, 1].**
-***[#yellow] ====<size:14>**Rectified Linear Unit (ReLU) -** <color #red>Widely used activation function with a "linear segment", "output" is **max(0, input).**
-***[#yellow] ====<size:14>**Leaky ReLU (LReLU) -** <color #red>Variation of ReLU with a small slope for negative values. Avoids dead neurons by having a small slope for negative input.
-***[#yellow] ====<size:14>**Exponential Linear Unit (ELU) -** <color #red>An activation function that avoids the vanishing gradient problem. Smoothly handles both positive and negative values.
+**[#lightblue] <i><size:22>Activation Functions
+***[#yellow] <i><size:14>**Sigmoid -** <color #red>S-shaped curve used in earlier neural networks. \n* <size:14><i>Smoothly maps input to the range **(0, 1).**
+***[#yellow] <i><size:14>**Hyperbolic Tangent (tanh) -** <color #red>Similar to the **sigmoid** but with output in the range **[-1, 1].**
+***[#yellow] <i><size:14>**Rectified Linear Unit (ReLU) -** <color #red>Widely used activation function with a "linear segment", "output" is **max(0, input).**
+***[#yellow] <i><size:14>**Leaky ReLU (LReLU) -** <color #red>Variation of ReLU with a small slope for negative values. Avoids dead neurons by having a small slope for negative input.
+***[#yellow] <i><size:14>**Exponential Linear Unit (ELU) -** <color #red>An activation function that avoids the vanishing gradient problem. Smoothly handles both positive and negative values.
 
-**[#lightblue] ====Loss Functions
-***[#yellow] ====<size:14>**Mean Squared Error (MSE) -** Commonly used for **"regression"** tasks. Measures the "average squared difference" between "predicted" and "actual" values.
-***[#yellow] ====<size:14>**Cross-Entropy Loss -** Ideal for **"classification"** problems. Measures the "dissimilarity" between "predicted and actual" "distributions".
-***[#yellow] ====<size:14>**Hinge Loss -** Used in **"support vector machines"** and **"deep learning"**.
-***[#yellow] ====<size:14>**Huber Loss -** A combination of **"MSE"** and **"absolute error loss"**.
-***[#yellow] ====<size:14>**Custom Loss Functions -** Tailored for specific **tasks or objectives or problems.**
+**[#lightblue] <i>Loss Functions
+***[#yellow] <i><size:14>**Mean Squared Error (MSE) -** Commonly used for **"regression"** tasks. Measures the "average squared difference" between "predicted" and "actual" values.
+***[#yellow] <i><size:14>**Cross-Entropy Loss -** Ideal for **"classification"** problems. Measures the "dissimilarity" between "predicted and actual" "distributions".
+***[#yellow] <i><size:14>**Hinge Loss -** Used in **"support vector machines"** and **"deep learning"**.
+***[#yellow] <i><size:14>**Huber Loss -** A combination of **"MSE"** and **"absolute error loss"**.
+***[#yellow] <i><size:14>**Custom Loss Functions -** Tailored for specific **tasks or objectives or problems.**
 
-**[#lightblue] ====Optimizers
-***[#yellow] ====<size:14>**Gradient Descent -** Iterative algorithm for minimizing the loss function. Updates weights based on the gradient of the loss.
-***[#yellow] ====<size:14>**Stochastic Gradient Descent (SGD) -** A "variation of gradient descent" that processes small "data batches". Uses "random samples" for faster "convergence".
-***[#yellow] ====<size:14>**Adam Optimizer -** Popular adaptive "learning rate" optimizer. Adaptive optimization with "momentum".
-***[#yellow] ====<size:14>**RMSprop -** Another adaptive "learning rate" **"algorithm"**. "Root Mean Square Propagation" for adjusting "learning rates".
-***[#yellow] ====<size:14>**Adagrad -** Optimizer that adapts "learning rates" for each "parameter". Adaptive "learning rates" for "sparse data".
+**[#lightblue] <i>Optimizers
+***[#yellow] <i><size:14>**Gradient Descent -** Iterative algorithm for minimizing the loss function. Updates weights based on the gradient of the loss.
+***[#yellow] <i><size:14>**Stochastic Gradient Descent (SGD) -** A "variation of gradient descent" that processes small "data batches". Uses "random samples" for faster "convergence".
+***[#yellow] <i><size:14>**Adam Optimizer -** Popular adaptive "learning rate" optimizer. Adaptive optimization with "momentum".
+***[#yellow] <i><size:14>**RMSprop -** Another adaptive "learning rate" **"algorithm"**. "Root Mean Square Propagation" for adjusting "learning rates".
+***[#yellow] <i><size:14>**Adagrad -** Optimizer that adapts "learning rates" for each "parameter". Adaptive "learning rates" for "sparse data".
 
-**[#lightblue] ====Regularization
-***[#yellow] ====<size:14>**L1 Regularization (Lasso) -** Encourages "sparsity" in "weight parameters".
-***[#yellow] ====<size:14>**L2 Regularization (Ridge) -** Encourages "small weights" and prevents "overfitting". Prevents "large weight" values.
-***[#yellow] ====<size:14>**Dropout -** Technique to prevent "overfitting" by randomly deactivating "neurons". Randomly deactivates "neurons" during "training".
-***[#yellow] ====<size:14>**Batch Normalization -** Normalizes input to hidden layers, improving "training stability". Normalizes "activations" in "mini-batches".
-***[#yellow] ====<size:14>**Weight Decay -** Reduces the size of "weights" during "training". "Penalizes" "large weight" values.
+**[#lightblue] <i>Regularization
+***[#yellow] <i><size:14>**L1 Regularization (Lasso) -** Encourages "sparsity" in "weight parameters".
+***[#yellow] <i><size:14>**L2 Regularization (Ridge) -** Encourages "small weights" and prevents "overfitting". Prevents "large weight" values.
+***[#yellow] <i><size:14>**Dropout -** Technique to prevent "overfitting" by randomly deactivating "neurons". Randomly deactivates "neurons" during "training".
+***[#yellow] <i><size:14>**Batch Normalization -** Normalizes input to hidden layers, improving "training stability". Normalizes "activations" in "mini-batches".
+***[#yellow] <i><size:14>**Weight Decay -** Reduces the size of "weights" during "training". "Penalizes" "large weight" values.
 
-**[#lightblue] ====Training and Validation
-***[#yellow] ====<size:14>**Training Data and Batches -** The data used for training, divided into batches. Data used for "training" and "splitting it into batches".
-***[#yellow] ====<size:14>**Learning Rate -** Controls the **"step size"** during "optimization". Controls the "step size" in "weight updates".
-***[#yellow] ====<size:14>**Early Stopping -** Prevents "overfitting" by monitoring "validation loss". Prevents "overfitting" by "stopping training" when "validation error increases".
-***[#yellow] ====<size:14>**Overfitting and Underfitting -** Challenges in "model" "fitting". Challenges in "finding" the "right model complexity".
-***[#yellow] ====<size:14>**Validation and Testing -** Ensures model generalization and evaluation. Crucial for "assessing" "model performance".
+**[#lightblue] <i>Training and Validation
+***[#yellow] <i><size:14>**Training Data and Batches -** The data used for training, divided into batches. Data used for "training" and "splitting it into batches".
+***[#yellow] <i><size:14>**Learning Rate -** Controls the **"step size"** during "optimization". Controls the "step size" in "weight updates".
+***[#yellow] <i><size:14>**Early Stopping -** Prevents "overfitting" by monitoring "validation loss". Prevents "overfitting" by "stopping training" when "validation error increases".
+***[#yellow] <i><size:14>**Overfitting and Underfitting -** Challenges in "model" "fitting". Challenges in "finding" the "right model complexity".
+***[#yellow] <i><size:14>**Validation and Testing -** Ensures model generalization and evaluation. Crucial for "assessing" "model performance".
 
-**[#lightblue] ====Applications
-***[#yellow] ====<size:14>**Image Classification -** Identifying objects or patterns in images.
-***[#yellow] ====<size:14>**Natural Language Processing (NLP) -** Processing and understanding text data.
-***[#yellow] ====<size:14>**Speech Recognition -** Converting spoken language into text.
-***[#yellow] ====<size:14>**Computer Vision -** Processing and understanding visual data. Analyzing visual data from images and videos.
-***[#yellow] ====<size:14>**Autonomous Vehicles -** Enabling self-driving cars and robotics.
+**[#lightblue] <i>Applications
+***[#yellow] <i><size:14>**Image Classification -** Identifying objects or patterns in images.
+***[#yellow] <i><size:14>**Natural Language Processing (NLP) -** Processing and understanding text data.
+***[#yellow] <i><size:14>**Speech Recognition -** Converting spoken language into text.
+***[#yellow] <i><size:14>**Computer Vision -** Processing and understanding visual data. Analyzing visual data from images and videos.
+***[#yellow] <i><size:14>**Autonomous Vehicles -** Enabling self-driving cars and robotics.
 
-**[#lightblue] ====Frameworks and Libraries
-***[#yellow] ====<size:14>**TensorFlow -** An **open-source** and versatile **"machine learning framework"** by **Google**.
-***[#yellow] ====<size:14>**PyTorch -** An open-source **"deep learning platform"** by **Facebook**. Platform for research and development.
-***[#yellow] ====<size:14>**Keras -** A high-level neural networks API for rapid prototyping.
-***[#yellow] ====<size:14>**scikit-learn -** A machine learning library for Python.
-***[#yellow] ====<size:14>**Caffe -** A "deep learning framework" **for vision tasks** developed by the "Berkeley Vision and Learning Center".
+**[#lightblue] <i>Frameworks and Libraries
+***[#yellow] <i><size:14>**TensorFlow -** An **open-source** and versatile **"machine learning framework"** by **Google**.
+***[#yellow] <i><size:14>**PyTorch -** An open-source **"deep learning platform"** by **Facebook**. Platform for research and development.
+***[#yellow] <i><size:14>**Keras -** A high-level neural networks API for rapid prototyping.
+***[#yellow] <i><size:14>**scikit-learn -** A machine learning library for Python.
+***[#yellow] <i><size:14>**Caffe -** A "deep learning framework" **for vision tasks** developed by the "Berkeley Vision and Learning Center".
 
-**[#lightblue] ====Challenges and Advanced Concepts
-***[#yellow] ====<size:14>**Vanishing and Exploding Gradients -** Issues with gradients during training.
-***[#yellow] ====<size:14>**Gradient Clipping -** Technique to mitigate gradient issues.
-***[#yellow] ====<size:14>**Transfer Learning -** Leveraging pre-trained models for new tasks.
-***[#yellow] ====<size:14>**Generative Adversarial Networks (GANs) -** Models for generating data.
-***[#yellow] ====<size:14>**Reinforcement Learning with Neural Networks -** Integrating neural networks into reinforcement learning.
+**[#lightblue] <i>Challenges and Advanced Concepts
+***[#yellow] <i><size:14>**Vanishing and Exploding Gradients -** Issues with gradients during training.
+***[#yellow] <i><size:14>**Gradient Clipping -** Technique to mitigate gradient issues.
+***[#yellow] <i><size:14>**Transfer Learning -** Leveraging pre-trained models for new tasks.
+***[#yellow] <i><size:14>**Generative Adversarial Networks (GANs) -** Models for generating data.
+***[#yellow] <i><size:14>**Reinforcement Learning with Neural Networks -** Integrating neural networks into reinforcement learning.
 
-**[#lightblue] ====Interdisciplinary Fields
-***[#yellow] ====<size:14>**Artificial Intelligence (AI) -** "Neural networks" are a "key component" of AI. "Neural networks" play a "central role" in AI.
-***[#yellow] ====<size:14>**Machine Learning (ML) -** A subset of AI that heavily relies on neural networks.
-***[#yellow] ====<size:14>**Deep Learning -** A subfield of ML focused on neural networks.
-***[#yellow] ====<size:14>**Cognitive Computing -** Emulating human-like thinking and reasoning.
-***[#yellow] ====<size:18><color #red>**Neural Network Hardware -** Specialized hardware for efficient neural network execution.
+**[#lightblue] <i>Interdisciplinary Fields
+***[#yellow] <i><size:14>**Artificial Intelligence (AI) -** "Neural networks" are a "key component" of AI. "Neural networks" play a "central role" in AI.
+***[#yellow] <i><size:14>**Machine Learning (ML) -** A subset of AI that heavily relies on neural networks.
+***[#yellow] <i><size:14>**Deep Learning -** A subfield of ML focused on neural networks.
+***[#yellow] <i><size:14>**Cognitive Computing -** Emulating human-like thinking and reasoning.
+***[#yellow] <i><size:18><color #red>**Neural Network Hardware -** Specialized hardware for efficient neural network execution.
 
-**[#lightblue] ====Ethical and Legal Considerations
-***[#yellow] ====<size:14>**Bias and Fairness -** Addressing biases in training data and models.
-***[#yellow] ====<size:14>**Privacy Concerns -** Protecting sensitive data in AI applications.
-***[#yellow] ====<size:14>**Regulatory Compliance -** Adhering to legal and ethical standards.
-***[#yellow] ====<size:14>**Responsible AI -** Ensuring AI systems make ethical decisions.
+**[#lightblue] <i>Ethical and Legal Considerations
+***[#yellow] <i><size:14>**Bias and Fairness -** Addressing biases in training data and models.
+***[#yellow] <i><size:14>**Privacy Concerns -** Protecting sensitive data in AI applications.
+***[#yellow] <i><size:14>**Regulatory Compliance -** Adhering to legal and ethical standards.
+***[#yellow] <i><size:14>**Responsible AI -** Ensuring AI systems make ethical decisions.
 
-**[#lightblue] ====Future Developments
-***[#yellow] ====<size:14>**Architectural Innovations -** Ongoing advancements in "neural network design".
-***[#yellow] ====<size:18><color #red>**Explainable AI (XAI) -** Making "AI decision-making" more "transparent".
-***[#yellow] ====<size:14>**Human-Machine Collaboration -** Synergy between AI and human intelligence.
-***[#yellow] ====<size:14>**Integration with IoT -** Neural networks in the Internet of Things **(IoT)**.
-***[#yellow] ====<size:14>**Quantum Computing and Neural Networks -** Potential synergy between "quantum computing" and "deep learning".
+**[#lightblue] <i>Future Developments
+***[#yellow] <i><size:14>**Architectural Innovations -** Ongoing advancements in "neural network design".
+***[#yellow] <i><size:18><color #red>**Explainable AI (XAI) -** Making "AI decision-making" more "transparent".
+***[#yellow] <i><size:14>**Human-Machine Collaboration -** Synergy between AI and human intelligence.
+***[#yellow] <i><size:14>**Integration with IoT -** Neural networks in the Internet of Things **(IoT)**.
+***[#yellow] <i><size:14>**Quantum Computing and Neural Networks -** Potential synergy between "quantum computing" and "deep learning".
 
-**[#lightblue] ====Research Areas and Unsolved Problems
-***[#yellow] ====<size:14>**Explainability in Deep Learning -** Making neural network decisions "understandable".
-***[#yellow] ====<size:14>**Compositional and Symbolic Reasoning -** Enhancing AI's "reasoning capabilities".
-***[#yellow] ====<size:14>**AI Safety and Robustness -** Ensuring AI systems are safe and reliable.
-***[#yellow] ====<size:14>**Generalization in Neural Networks -** Understanding and improving **"generalization".**
-***[#yellow] ====<size:14>**Conscious AI and Cognitive Science -** Exploring AI with "human-like cognitive abilities".
+**[#lightblue] <i>Research Areas and Unsolved Problems
+***[#yellow] <i><size:14>**Explainability in Deep Learning -** Making neural network decisions "understandable".
+***[#yellow] <i><size:14>**Compositional and Symbolic Reasoning -** Enhancing AI's "reasoning capabilities".
+***[#yellow] <i><size:14>**AI Safety and Robustness -** Ensuring AI systems are safe and reliable.
+***[#yellow] <i><size:14>**Generalization in Neural Networks -** Understanding and improving **"generalization".**
+***[#yellow] <i><size:14>**Conscious AI and Cognitive Science -** Exploring AI with "human-like cognitive abilities".
 @endmindmap
