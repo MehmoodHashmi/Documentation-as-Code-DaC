@@ -6,7 +6,7 @@ skinparam node {
 title =__//The-Key-Words-and-Definitions-For-Elementary-Statistics//__
 !theme hacker
 
-* =[[https://www.youtube.com/watch?v=txNvZ3Zndak&t=91s&ab_channel=GlobalHealthwithGregMartin Descriptive statistics and data visualisation. An introduction to statistics and working with data]] YouTube video 14-minutes
+*[#green] =[[https://www.youtube.com/watch?v=txNvZ3Zndak&t=91s&ab_channel=GlobalHealthwithGregMartin Descriptive statistics and data visualisation. An introduction to statistics and working with data]] YouTube video 14-minutes
 
 *[#orange] =Lecture-1 Part-1: **The-Key-Words-and-Definitions-For-Elementary-Statistics**
 * =**Data**
@@ -48,7 +48,7 @@ __But if you take a **sample** from the **population** and then talk those **cha
 
 
 *[#red] Lecture-1 Part-2: **Exploring Categories of Data, and levels of Measurement**
-*[#gold] <size:27>**0.  [[https://www.youtube.com/watch?v=I10q6fjPxJ0&t=222s&ab_channel=GlobalHealthwithGregMartin Statistics made easy !!! Learn about the t-test, the chi square test, the p value and more]] YouTube Video 14-minute**
+*[#green] <size:27>**0.  [[https://www.youtube.com/watch?v=I10q6fjPxJ0&t=222s&ab_channel=GlobalHealthwithGregMartin Statistics made easy !!! Learn about the t-test, the chi square test, the p value and more]] YouTube Video 14-minute**
 
 *[#pink] =**Types of data**
 **[#gold] ==**1. Qualitative Data (is <color #crimson>__categorical__</color>)** \n<img:images/img_38.png> \nUse your <size:22>**senses** (internal & external)</size> \nto observe results
@@ -152,14 +152,15 @@ __But if you take a **sample** from the **population** and then talk those **cha
 ********[#yellow] Continuous data with a meaningful middle point
 
 
+*[#green] ====<size:17><color #white>[[https://web.natur.cuni.cz/~langhamr/lectures/vtfg1/mapinfo_2/barvy/colors.html Color Scheme Types and Combinations:]] Click me \n<size:17><i>[[../../../color-theory/Color-Theory.puml Color theory]] <color #white>Click me \n<img:images/img_65.png>
+**[#green] ====<size:17>**[[images/img_67.png "Qualitative data chart chooser" \t\tone more image, click me]]** \n<img:images/img_68.png>
+*** <img:images/img_66.png>
 
 *[#lime]:=[[https://www.youtube.com/watch?v=ZA4JkHKZM50&ab_channel=3Blue1Brown Why “probability of 0” does not mean “impossible” | Probabilities of probabilities]] YouTube Video explanation
 <img:images/img_34.png>
 =It is common rule of thumb if you find yourself using <size:22>sum (symbol)</size> in a discrete context, then using
 =<size:22>integral (symbol)</size> in Continuous context.;
-**[#green] ====<size:17>[[https://web.natur.cuni.cz/~langhamr/lectures/vtfg1/mapinfo_2/barvy/colors.html Color Scheme Types and Combinations:]] Click me\n<img:images/img_65.png>
-** <img:images/img_66.png>
-**[#green] ====<size:17>**[[images/img_67.png "Qualitative data" chart chooser one more image, click me]]** \n<img:images/img_68.png>
+
 
 
 * ===**4-Levels of Measurement**
