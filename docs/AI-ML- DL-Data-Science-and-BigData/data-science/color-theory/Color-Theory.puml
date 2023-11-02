@@ -112,13 +112,15 @@ as keeping in mind the culture and subjective meaning from the audiences viewing
 
 **[#lightblue] ====<size:18>Color Models
 ***[#green] ====<color #white>**RGB (Red, Green, Blue)**
-****[#yellow] ====<size:14>The RGB model uses additive color mixing, combining red, green, and blue light to create various colors.
+****[#yellow] ====<size:14>The RGB model uses additive color mixing, combining red, green, and blue light to create various colors.\n* <size:14>//RGB, or red, green and blue color wheel, is designed for online use, as it refers to mixing light – like on a computer or TV screen.//
+***[#green] ====<color #white>**RYB (Red, Yellow,Blue)**
+****[#yellow] ====<size:14>The RYB or red, yellow, blue color wheel is typically used by **artists,** as it helps with combining paint colors.
 ***[#green] ====<color #white>**CMYK (Cyan, Magenta, Yellow, Key/Black)**
 ****[#yellow] ====<size:14>CMYK is a subtractive color model used in printing, which involves mixing cyan, magenta, yellow, and black inks.
 ***[#green] ====<color #white>**HSL (Hue, Saturation, Lightness)**
 ****[#yellow] ====<size:14>HSL represents colors based on hue, saturation, and lightness values.
 ***[#green] ====<color #white>**HEX Codes**
-****[#yellow] ====<size:14>HEX codes are alphanumeric representations of colors for digital design and web development.
+****[#yellow] ====<size:14><color #red>**HEX codes are alphanumeric representations of colors for "digital design and web development".**
 ***[#green] ====<color #white>**Pantone Matching System (PMS)**
 ****[#yellow] ====<size:14>PMS is a standardized color matching system used in the **printing industry for precise color reproduction.**
 
