@@ -1,63 +1,63 @@
 @startmindmap
 title =__//** IoT, Blockchain, AI, and Cyber-security**//__
+!theme hacker
 
-* IoT, Blockchain, AI, and Cyber-security
+*[#darkblue] ====IoT, Blockchain, AI, and Cyber-security
+**[#lightblue] ====<size:14>Internet of Things (IoT)
+***[#green] ====<size:14><color #white>Definition and Examples
+****[#yellow] ====<size:14><color #black>Smart Home Devices
+****[#yellow] ====<size:14><color #black>Wearable Technology
+****[#yellow] ====<size:14><color #black>Industrial IoT
+***[#green] ====<size:14><color #white>IoT Architecture
+****[#yellow] ====<size:14><color #black>Devices and Sensors
+****[#yellow] ====<size:14><color #black>Connectivity and Communication
+****[#yellow] ====<size:14><color #black>Cloud and Data Storage
+****[#yellow] ====<size:14><color #black>Analytics and Applications
+***[#green] ====<size:14><color #white>IoT Security
+****[#yellow] ====<size:14><color #black>Authentication and Authorization
+****[#yellow] ====<size:14><color #black>Confidentiality and Integrity
+****[#yellow] ====<size:14><color #black>Availability and Resilience
 
-** Internet of Things (IoT)
-*** Definition and Examples
-**** Smart Home Devices
-**** Wearable Technology
-**** Industrial IoT
-*** IoT Architecture
-**** Devices and Sensors
-**** Connectivity and Communication
-**** Cloud and Data Storage
-**** Analytics and Applications
-*** IoT Security
-**** Authentication and Authorization
-**** Confidentiality and Integrity
-**** Availability and Resilience
+**[#lightblue] ====<size:14>Blockchain
+***[#green] ====<size:14><color #white>Definition and Examples
+****[#yellow] ====<size:14><color #black>Cryptocurrencies
+****[#yellow] ====<size:14><color #black>Smart Contracts
+****[#yellow] ====<size:14><color #black>Supply Chain Management
+***[#green] ====<size:14><color #white>Blockchain Architecture
+****[#yellow] ====<size:14><color #black>Distributed Ledger Technology
+****[#yellow] ====<size:14><color #black>Consensus Mechanisms
+****[#yellow] ====<size:14><color #black>Mining and Validation
+****[#yellow] ====<size:14><color #black>Smart Contract Platforms
+***[#green] ====<size:14><color #white>Blockchain Security
+****[#yellow] ====<size:14><color #black>Cryptography and Encryption
+****[#yellow] ====<size:14><color #black>Immutable and Tamper-proof Data
+****[#yellow] ====<size:14><color #black>Decentralization and Transparency
 
-** Blockchain
-*** Definition and Examples
-**** Cryptocurrencies
-**** Smart Contracts
-**** Supply Chain Management
-*** Blockchain Architecture
-**** Distributed Ledger Technology
-**** Consensus Mechanisms
-**** Mining and Validation
-**** Smart Contract Platforms
-*** Blockchain Security
-**** Cryptography and Encryption
-**** Immutable and Tamper-proof Data
-**** Decentralization and Transparency
+**[#lightblue] ====<size:14>Artificial Intelligence (AI)
+***[#green] ====<size:14><color #white>Definition and Examples
+****[#yellow] ====<size:14><color #black>Machine Learning
+****[#yellow] ====<size:14><color #black>Natural Language Processing
+****[#yellow] ====<size:14><color #black>Computer Vision
+***[#green] ====<size:14><color #white>AI Architecture
+****[#yellow] ====<size:14><color #black>Data Collection and Preparation
+****[#yellow] ====<size:14><color #black>Training and Model Development
+****[#yellow] ====<size:14><color #black>Deployment and Integration
+***[#green] ====<size:14><color #white>AI Security
+****[#yellow] ====<size:14><color #black>Data Privacy and Protection
+****[#yellow] ====<size:14><color #black>Bias and Fairness
+****[#yellow] ====<size:14><color #black>Accountability and Responsibility
 
-** Artificial Intelligence (AI)
-*** Definition and Examples
-**** Machine Learning
-**** Natural Language Processing
-**** Computer Vision
-*** AI Architecture
-**** Data Collection and Preparation
-**** Training and Model Development
-**** Deployment and Integration
-*** AI Security
-**** Data Privacy and Protection
-**** Bias and Fairness
-**** Accountability and Responsibility
-
-** Cybersecurity
-*** Definition and Examples
-**** Threats and Attacks
-**** Malware and Viruses
-**** Phishing and Social Engineering
-*** Cybersecurity Architecture
-**** Prevention and Detection
-**** Incident Response and Recovery
-**** Risk Management and Compliance
-*** Cybersecurity Technologies
-**** Firewall and IDS/IPS
-**** Encryption and Authentication
-**** SIEM and Forensics
+**[#lightblue] ====<size:14>Cybersecurity
+***[#green] ====<size:14><color #white>Definition and Examples
+****[#yellow] ====<size:14><color #black>Threats and Attacks
+****[#yellow] ====<size:14><color #black>Malware and Viruses
+****[#yellow] ====<size:14><color #black>Phishing and Social Engineering
+***[#green] ====<size:14><color #white>Cybersecurity Architecture
+****[#yellow] ====<size:14><color #black>Prevention and Detection
+****[#yellow] ====<size:14><color #black>Incident Response and Recovery
+****[#yellow] ====<size:14><color #black>Risk Management and Compliance
+***[#green] ====<size:14><color #white>Cybersecurity Technologies
+****[#yellow] ====<size:14><color #black>Firewall and IDS/IPS
+****[#yellow] ====<size:14><color #black>Encryption and Authentication
+****[#yellow] ====<size:14><color #black>SIEM and Forensics
 @endmindmap
