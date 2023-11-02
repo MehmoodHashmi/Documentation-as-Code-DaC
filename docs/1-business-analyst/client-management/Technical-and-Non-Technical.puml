@@ -1,41 +1,41 @@
 @startmindmap
-title = __ Technical and Non-Technical Client Mind Map__ \n This is a mind map with two main branches: "Technical Concepts" and "Non-Technical Concepts." Under "Technical Concepts," there are sub-branches for \n"Programming," "Cloud Computing," and "Security," with further sub-branches for specific topics under each. Under "Non-Technical Concepts," there \nare sub-branches for "Business," "Design," and "Finance," with further sub-branches for specific topics under each. \n\nThis mind map can be used to explain various technical and non-technical concepts to clients in a clear and organized manner.
+title = __ Technical and Non-Technical Client Mind Map__
+!theme hacker
+*[#darkblue] ====Technical Concepts
+**[#lightblue] ====<size:14>Programming
+***[#green] ====<size:14><color #white>Languages
+****[#yellow] ====<size:14>Java
+****[#yellow] ====<size:14>Python
+****[#yellow] ====<size:14>JavaScript
+***[#green] ====<size:14><color #white>Data Structures
+****[#yellow] ====<size:14>Arrays
+****[#yellow] ====<size:14>Linked Lists
+****[#yellow] ====<size:14>Stacks and Queues
+***[#green] ====<size:14><color #white>Algorithms
+****[#yellow] ====<size:14>Sorting
+****[#yellow] ====<size:14>Searching
+****[#yellow] ====<size:14>Graph Traversal
+**[#lightblue] ====<size:14>Cloud Computing
+***[#green] ====<size:14><color #white>Infrastructure as a Service **(IaaS)**
+***[#green] ====<size:14><color #white>Platform as a Service **(PaaS)**
+***[#green] ====<size:14><color #white>Software as a Service **(SaaS)**
+**[#lightblue] ====<size:14>Security
+***[#green] ====<size:14><color #white>Encryption
+***[#green] ====<size:14><color #white>Authentication
+***[#green] ====<size:14><color #white>Authorization
 
-* Technical Concepts
-** Programming
-*** Languages
-**** Java
-**** Python
-**** JavaScript
-*** Data Structures
-**** Arrays
-**** Linked Lists
-**** Stacks and Queues
-*** Algorithms
-**** Sorting
-**** Searching
-**** Graph Traversal
-** Cloud Computing
-*** Infrastructure as a Service (IaaS)
-*** Platform as a Service (PaaS)
-*** Software as a Service (SaaS)
-** Security
-*** Encryption
-*** Authentication
-*** Authorization
-
-* **Non-Technical Concepts**
-**[#yellow] **Business**
-***[#pink] **Marketing**
-***[#pink] **Sales**
-***[#pink] **Customer Service**
-** Design
-*** User Interface (UI)
-*** User Experience (UX)
-*** Graphic Design
-** **Finance**
-***[#pink] **Accounting**
-***[#pink] **Investment**
-***[#pink] **Taxes**
+*[#darkblue] ====**Non-Technical Concepts**
+**[#lightblue] ====<size:18>**Business**
+***[#green] ====<size:14><color #white>**Marketing**
+***[#green] ====<size:14><color #white>**Sales**
+***[#green] ====<size:14><color #white>**Customer Service**
+**[#lightblue] ====<size:14>Design
+***[#green] ====<size:14><color #white>User Interface **(UI)**
+***[#green] ====<size:14><color #white>User Experience **(UX)**
+***[#green] ====<size:14><color #white>Graphic Design
+**[#lightblue] ====<size:18>**Finance**
+***[#green] ====<size:14><color #white>**Accounting**
+***[#green] ====<size:14><color #white>**Investment**
+***[#green] ====<size:14><color #white>**Taxes**
 
 @endmindmap
