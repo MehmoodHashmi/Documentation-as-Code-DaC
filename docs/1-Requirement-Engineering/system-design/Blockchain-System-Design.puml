@@ -15,14 +15,14 @@ title =__**Blockchain System Design**__
 +[#darkblue] ====**Blockchain System Design**
 ++[#lightblue] ====<size:18>**Consensus Algorithms**\n<img:img_2.png>
 +++[#green] ====<size:14><color #white>**Proof of Work (PoW)**
-++++[#orange] ====<size:14><color #black>is done by **miners,** who compete to create new blocks filled with processed transactions. \n====<size:14><color #black>There is a race of who will solve the fastest a **mathematical puzzle.**This **puzzle** is the **work** \n====<size:14><color #black>in **proof of work consensus mechanism** and produces the cryptographic link between the \n====<size:14><color #black>current block and the previous block.
+****[#orange] ====<size:14><color #black>is done by **miners,** who compete to create new blocks filled with processed transactions. \n====<size:14><color #black>There is a race of who will solve the fastest a **mathematical puzzle.**This **puzzle** is the **work** \n====<size:14><color #black>in **proof of work consensus mechanism** and produces the cryptographic link between the \n====<size:14><color #black>current block and the previous block.
 +++[#green] ====<size:14><color #white>**Proof of Stake (PoS)**
-++++[#orange] ====<size:14><color #black>done by **validators** who have staked cryptocurrency to participate in the system. For a new \n====<size:14><color #black>block to be created, a random validator node is chosen. When a new block is created, it is \n====<size:14><color #black>shared among the network and the selected validator node earns rewards.
+****[#orange] ====<size:14><color #black>done by **validators** who have staked cryptocurrency to participate in the system. For a new \n====<size:14><color #black>block to be created, a random validator node is chosen. When a new block is created, it is \n====<size:14><color #black>shared among the network and the selected validator node earns rewards.
 +++[#green] ====<size:14><color #white>**Delegated Proof of Stake (DPoS)**
 +++[#green] ====<size:14><color #white>**Practical Byzantine Fault Tolerance (PBFT)**
 +++[#green] ====<size:14><color #white>**Federated Byzantine Agreement (FBA)**
 +++[#green] ====<size:14><color #white>**Proof of Authority (PoA)**
-++++[#orange] ====<size:14><color #black>In a permissioned blockchain network all nodes are pre-authenticated which allows to use \n====<size:14><color #black>consensus mechanisms which provide high transaction rate and other benefits. **Proof of **\n====<size:14><color #black>**Authority** is one of them and it is an algorithm that provides high performance and fault \n====<size:14><color #black>tolerance through a consensus mechanism based on identity as a stake. So, in PoA only \n====<size:14><color #black>nodes that have proven their identity are awarded to create new blocks and the only way \n====<size:14><color #black>to gain this right is to pass preliminary authentication.
+****[#orange] ====<size:14><color #black>In a permissioned blockchain network all nodes are pre-authenticated which allows to use \n====<size:14><color #black>consensus mechanisms which provide high transaction rate and other benefits. **Proof of **\n====<size:14><color #black>**Authority** is one of them and it is an algorithm that provides high performance and fault \n====<size:14><color #black>tolerance through a consensus mechanism based on identity as a stake. So, in PoA only \n====<size:14><color #black>nodes that have proven their identity are awarded to create new blocks and the only way \n====<size:14><color #black>to gain this right is to pass preliminary authentication.
 +++[#green] ====<size:14><color #white>**Proof of Elapsed Time (PoET)**
 
 ++[#lightblue] ====<size:14>Cryptography
@@ -30,89 +30,90 @@ title =__**Blockchain System Design**__
 +++[#green] ====<size:14><color #white>**Private Key Cryptography**
 +++[#green] ====<size:14><color #white>**Digital Signatures**
 +++[#green] ====<size:14><color #white>**Hash Functions**
-++++[#orange] ====<size:14><color #black>**SHA-256**
-++++[#orange] ====<size:14><color #black>Scrypt
-++++[#orange] ====<size:14><color #black>Ethash
+****[#orange] ====<size:14><color #black>**SHA-256**
+****[#orange] ====<size:14><color #black>Scrypt
+****[#orange] ====<size:14><color #black>Ethash
 
 ++[#lightblue] ====<size:14>Blockchain Components
 +++[#green] ====<size:18> <color #white>**Blocks** \n<img:img.png>**
-++++[#orange] ====<size:14><color #black>Block Header
-+++++[#yellow] ====<size:14>Previous Block Hash
-+++++[#yellow] ====<size:14>Merkle Tree Root Hash
-+++++[#yellow] ====<size:14>Timestamp
-+++++[#yellow] ====<size:14>Nonce
+****[#orange] ====<size:14><color #black>Block Header
+*****[#yellow] ====<size:14>Previous Block Hash
+*****[#yellow] ====<size:14>Merkle Tree Root Hash
+*****[#yellow] ====<size:14>Timestamp
+*****[#yellow] ====<size:14>Nonce
 ++++++[#yellow] ====<size:14>is a **32-bit** number. It is randomly generated when a new block\n====<size:14><color #black>is created, which then generated a block header hash.\n====<size:14><color #black>The **hash**, a **256-bit** number wedded (married) to the **"nonce"**
-+++++[#yellow] ====<size:14>Difficulty Target
-++++[#orange] ====<size:14><color #black>Transactions
+*****[#yellow] ====<size:14>Difficulty Target
+****[#orange] ====<size:14><color #black>Transactions
 +++[#green] ====<size:14><color #white>**Transactions**
-++++[#orange] ====<size:14><color #black>Inputs
-++++[#orange] ====<size:14><color #black>Outputs
-++++[#orange] ====<size:14><color #black>Transaction Fees
-++++[#orange] ====<size:14><color #black>Digital Signatures
+****[#orange] ====<size:14><color #black>Inputs
+****[#orange] ====<size:14><color #black>Outputs
+****[#orange] ====<size:14><color #black>Transaction Fees
+****[#orange] ====<size:14><color #black>Digital Signatures
 +++[#green] ====<size:14><color #white>**Distributed **Ledger:** (means **register or notebook**)**
 +++[#green] ====<size:14><color #white>**Smart Contracts**
-++++[#orange] ====<size:14><color #black>**Definition:** A **smart contract** is an agreement between two parties in the form of computer code. Smart contracts are stored in the blockchain, \n====<size:14><color #black>so they are part of the public ledger and cannot be changed. Smart contracts run on the blockchain and the transactions that happen are \n====<size:14><color #black>processed by it, which means they can be sent automatically without a third party. The transactions only occur when specific conditions are met.
-++++[#orange] ====<size:14><color #black>Ethereum
-+++++[#yellow] ====<size:14>Solidity
-+++++[#yellow] ====<size:14>Vyper
-++++[#orange] ====<size:14><color #black>EOS
-+++++[#yellow] ====<size:14>C++
-+++++[#yellow] ====<size:14>WebAssembly
-++++[#orange] ====<size:14><color #black>Cardano
-+++++[#yellow] ====<size:14>Plutus
-+++++[#yellow] ====<size:14>Marlowe
+****[#orange] ====<size:14><color #black>**Definition:** A **smart contract** is an agreement between two parties in the form of computer code. Smart contracts are stored in the blockchain, \n====<size:14><color #black>so they are part of the public ledger and cannot be changed. Smart contracts run on the blockchain and the transactions that happen are \n====<size:14><color #black>processed by it, which means they can be sent automatically without a third party. The transactions only occur when specific conditions are met.
+****[#orange] ====<size:14><color #black>Ethereum
+*****[#yellow] ====<size:14>Solidity
+*****[#yellow] ====<size:14>Vyper
+****[#orange] ====<size:14><color #black>EOS
+*****[#yellow] ====<size:14>C++
+*****[#yellow] ====<size:14>WebAssembly
+****[#orange] ====<size:14><color #black>Cardano
+*****[#yellow] ====<size:14>Plutus
+*****[#yellow] ====<size:14>Marlowe
 
-++[#lightblue] ====<size:14>__**Blockchain Networks Type:**__\n<img:img_1.png>\n* **Permissionless network:** allows access to any user to pseudo-anonymously join the \nnetwork and become a node, without any restrictions. This particular kind of network is \nprimarily used to exchange and mine cryptocurrencies.\n* **Permissioned network:**  restricts access to the network to certain nodes. In this type of \nnetwork there can be rights restrictions. These private blockchain networks are controlled by a \nsingle organization that determines who can be a node. Pri- vate BC networks are partially \ndecentralized because public access to them is restricted. __Due to the drawbacks of the above__ \nnetworks, consortium and hybrid blockchains were developed.
+++[#lightblue] ====<size:18>__**Blockchain Networks Type:**__\n<img:img_1.png>\n* **Permissionless network:** allows access to any user to pseudo-anonymously join the \nnetwork and become a node, without any restrictions. This particular kind of network is \nprimarily used to exchange and mine cryptocurrencies.\n* **Permissioned network:**  restricts access to the network to certain nodes. In this type of \nnetwork there can be rights restrictions. These private blockchain networks are controlled by a \nsingle organization that determines who can be a node. Pri- vate BC networks are partially \ndecentralized because public access to them is restricted. __Due to the drawbacks of the above__ \nnetworks, consortium and hybrid blockchains were developed.
+
 +++[#green] ====<size:14><color #white>**Public Blockchains**
-++++[#orange] ====<size:14><color #black>Bitcoin
-++++[#orange] ====<size:14><color #black>Ethereum
-++++[#orange] ====<size:14><color #black>Litecoin
-++++[#orange] ====<size:14><color #black>Cardano
-++++[#orange] ====<size:14><color #black>Polkadot
+****[#orange] ====<size:14><color #black>Bitcoin
+****[#orange] ====<size:14><color #black>Ethereum
+****[#orange] ====<size:14><color #black>Litecoin
+****[#orange] ====<size:14><color #black>Cardano
+****[#orange] ====<size:14><color #black>Polkadot
 +++[#green] ====<size:14><color #white>**Private Blockchains**
-++++[#orange] ====<size:14><color #black>Hyperledger Fabric
-++++[#orange] ====<size:14><color #black>R3 Corda
-++++[#orange] ====<size:14><color #black>Quorum
+****[#orange] ====<size:14><color #black>Hyperledger Fabric
+****[#orange] ====<size:14><color #black>R3 Corda
+****[#orange] ====<size:14><color #black>Quorum
 +++[#green] ====<size:14><color #white>**Consortium Blockchains**
-++++[#orange] ====<size:14><color #black>Ripple
-++++[#orange] ====<size:14><color #black>Stellar
+****[#orange] ====<size:14><color #black>Ripple
+****[#orange] ====<size:14><color #black>Stellar
 
 ++[#lightblue] ====<size:14>Scalability Solutions
 +++[#green] ====<size:14><color #white>**Layer 1 Solutions**
-++++[#orange] ====<size:14><color #black>Sharding
-+++++[#yellow] ====<size:14>Ethereum 2.0
-+++++[#yellow] ====<size:14>Zilliqa
-+++++[#yellow] ====<size:14>Polkadot
+****[#orange] ====<size:14><color #black>Sharding
+*****[#yellow] ====<size:14>Ethereum 2.0
+*****[#yellow] ====<size:14>Zilliqa
+*****[#yellow] ====<size:14>Polkadot
 +++[#green] ====<size:14><color #white>**Layer 2 Solutions**
-++++[#orange] ====<size:14><color #black>State Channels
-+++++[#yellow] ====<size:14>Lightning Network (Bitcoin)
-+++++[#yellow] ====<size:14>Raiden Network (Ethereum)
-++++[#orange] ====<size:14><color #black>Plasma
-+++++[#yellow] ====<size:14>OmiseGO
-++++[#orange] ====<size:14><color #black>Rollups
-+++++[#yellow] ====<size:14>Optimistic Rollups
-+++++[#yellow] ====<size:14>ZK-Rollups
+****[#orange] ====<size:14><color #black>State Channels
+*****[#yellow] ====<size:14>Lightning Network (Bitcoin)
+*****[#yellow] ====<size:14>Raiden Network (Ethereum)
+****[#orange] ====<size:14><color #black>Plasma
+*****[#yellow] ====<size:14>OmiseGO
+****[#orange] ====<size:14><color #black>Rollups
+*****[#yellow] ====<size:14>Optimistic Rollups
+*****[#yellow] ====<size:14>ZK-Rollups
 
 ++[#lightblue] ====<size:14>Interoperability
 +++[#green] ====<size:14><color #white>**Cross-Chain Communication**
-++++[#orange] ====<size:14><color #black>Polkadot
-++++[#orange] ====<size:14><color #black>Cosmos
-++++[#orange] ====<size:14><color #black>Wanchain
+****[#orange] ====<size:14><color #black>Polkadot
+****[#orange] ====<size:14><color #black>Cosmos
+****[#orange] ====<size:14><color #black>Wanchain
 +++[#green] ====<size:14><color #white>**Atomic Swaps**
-++++[#orange] ====<size:14><color #black>Hashed Timelock Contracts (HTLC)
-+++++[#yellow] ====<size:14>Lightning Network (Bitcoin)
-+++++[#yellow] ====<size:14>Raiden Network (Ethereum)
+****[#orange] ====<size:14><color #black>Hashed Timelock Contracts (HTLC)
+*****[#yellow] ====<size:14>Lightning Network (Bitcoin)
+*****[#yellow] ====<size:14>Raiden Network (Ethereum)
 
 ++[#lightblue] ====<size:14>Security
 +++[#green] ====<size:14><color #white>**51% Attack**
-++++[#orange] ====<size:14><color #black>In theory, a malicious user (attacker) can compromise consensus by controlling the\n====<size:14><color #black>**51%** of the network, but consensus mechanisms are designed in a way that this attack\n====<size:14><color #black>is practically impossible. There are different kinds of **consensus mechanisms** that are\n====<size:14><color #black>invented to be used in cryptoeconomic systems.
+****[#orange] ====<size:14><color #black>In theory, a malicious user (attacker) can compromise consensus by controlling the\n====<size:14><color #black>**51%** of the network, but consensus mechanisms are designed in a way that this attack\n====<size:14><color #black>is practically impossible. There are different kinds of **consensus mechanisms** that are\n====<size:14><color #black>invented to be used in cryptoeconomic systems.
 +++[#green] ====<size:14><color #white>**Double Spending**
 +++[#green] ====<size:14><color #white>**Replay Attacks**
 +++[#green] ====<size:14><color #white>**Sybil Attacks**
 +++[#green] ====<size:14><color #white>**Eclipse Attacks**
 +++[#green] ====<size:14><color #white>**Smart Contract Vulnerabilities**
-++++[#orange] ====<size:14><color #black>Reentrancy Attacks
-++++[#orange] ====<size:14><color #black>Race Conditions
-++++[#orange] ====<size:14><color #black>Overflow and Underflow
+****[#orange] ====<size:14><color #black>Reentrancy Attacks
+****[#orange] ====<size:14><color #black>Race Conditions
+****[#orange] ====<size:14><color #black>Overflow and Underflow
 @endmindmap
 
