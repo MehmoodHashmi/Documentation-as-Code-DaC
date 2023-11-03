@@ -1,0 +1,67 @@
+@startmindmap
+!theme hacker
+ title =<i><b><u>E-commerce Platform
+*[#darkblue] <i>E-commerce Platform
+**[#lightblue] <i><size:14>User Management
+***[#green] <color #white><i><size:14><b>Registration
+***[#green] <color #white><i><size:14><b>Login
+***[#green] <color #white><i><size:14><b>Profile Management
+****[#yellow] <color #black><i><size:14>Update Personal Information
+****[#yellow] <color #black><i><size:14>Change Password
+****[#yellow] <color #black><i><size:14>Manage Addresses
+**[#lightblue] <i><size:14>Product Catalog
+***[#green] <color #white><i><size:14><b>Categories
+****[#yellow] <color #black><i><size:14>Electronics
+****[#yellow] <color #black><i><size:14>Fashion
+****[#yellow] <color #black><i><size:14>Home & Kitchen
+****[#yellow] <color #black><i><size:14>Books
+***[#green] <color #white><i><size:14><b>Products
+****[#yellow] <color #black><i><size:14>Product Details
+*****[#white] <i><size:14>Title
+*****[#white] <i><size:14>Description
+*****[#white] <i><size:14>Price
+*****[#white] <i><size:14>Images
+*****[#white] <i><size:14>Ratings & Reviews
+***[#green] <color #white><i><size:14><b>Search
+****[#yellow] <color #black><i><size:14>Keyword Search
+****[#yellow] <color #black><i><size:14>Filter & Sort
+**[#lightblue] <i><size:14>Shopping Cart
+***[#green] <color #white><i><size:14><b>Add to Cart
+***[#green] <color #white><i><size:14><b>Update Cart
+****[#yellow] <color #black><i><size:14>Change Quantity
+****[#yellow] <color #black><i><size:14>Remove Item
+***[#green] <color #white><i><size:14><b>Checkout
+**[#lightblue] <i><size:14>Order Management
+***[#green] <color #white><i><size:14><b>Place Order
+***[#green] <color #white><i><size:14><b>Order History
+****[#yellow] <color #black><i><size:14>View Order Details
+****[#yellow] <color #black><i><size:14>Cancel Order
+****[#yellow] <color #black><i><size:14>Return/Refund
+**[#lightblue] <i><size:14>Payment
+***[#green] <color #white><i><size:14><b>Payment Methods
+****[#yellow] <color #black><i><size:14>Credit Card
+****[#yellow] <color #black><i><size:14>Debit Card
+****[#yellow] <color #black><i><size:14>PayPal
+****[#yellow] <color #black><i><size:14>Cash on Delivery
+***[#green] <color #white><i><size:14><b>Payment Processing
+****[#yellow] <color #black><i><size:14>Secure Transactions
+****[#yellow] <color #black><i><size:14>Fraud Detection
+**[#lightblue] <i><size:14>Shipping
+***[#green] <color #white><i><size:14><b>Shipping Options
+****[#yellow] <color #black><i><size:14>Standard Shipping
+****[#yellow] <color #black><i><size:14>Express Shipping
+****[#yellow] <color #black><i><size:14>In-Store Pickup
+***[#green] <color #white><i><size:14><b>Shipping Status
+****[#yellow] <color #black><i><size:14>Tracking
+****[#yellow] <color #black><i><size:14>Delivery Confirmation
+**[#lightblue] <i><size:14>Customer Support
+***[#green] <color #white><i><size:14><b>Help Center
+***[#green] <color #white><i><size:14><b>Contact Us
+****[#yellow] <color #black><i><size:14>Email
+****[#yellow] <color #black><i><size:14>Phone
+****[#yellow] <color #black><i><size:14>Live Chat
+**[#lightblue] <i><size:14>Analytics & Reporting
+***[#green] <color #white><i><size:14><b>Sales Reports
+***[#green] <color #white><i><size:14><b>Customer Behavior
+***[#green] <color #white><i><size:14><b>Inventory Management
+@endmindmap

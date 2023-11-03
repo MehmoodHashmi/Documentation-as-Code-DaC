@@ -1,0 +1,77 @@
+@startmindmap
+!theme hacker
+
+
+title =<i><b><u> Healthcare
+*[#darkblue] <i>Healthcare
+**[#lightblue] <i><size:14>Healthcare Systems
+***[#yellow] <i><size:14>Hospitals and Clinics
+***[#yellow] <i><size:14>Primary Care Centers
+***[#yellow] <i><size:14>Long-Term Care Facilities
+***[#yellow] <i><size:14>Specialized Medical Centers
+***[#yellow] <i><size:14>Home Healthcare Services
+**[#lightblue] <i><size:14>Healthcare Professionals
+***[#yellow] <i><size:14>Physicians and Surgeons
+***[#yellow] <i><size:14>Nurses and Nurse Practitioners
+***[#yellow] <i><size:14>Pharmacists
+***[#yellow] <i><size:14>Allied Health Professionals <b>(Physiotherapists, Occupational Therapists, etc.)
+***[#yellow] <i><size:14>Medical Technologists and Laboratory Scientists
+**[#lightblue] <i><size:14>Healthcare Technologies
+***[#yellow] <i><size:14>Electronic Health Records <b>(EHR)
+***[#yellow] <i><size:14>Medical Imaging Systems
+***[#yellow] <i><size:14>Telehealth and Telemedicine
+***[#yellow] <i><size:14>Wearable Devices and Remote Monitoring
+***[#yellow] <i><size:14>Health Information Exchanges <b>(HIE)
+**[#lightblue] <i><size:14>Healthcare Services
+***[#yellow] <i><size:14>Preventive Care and Wellness Programs
+***[#yellow] <i><size:14>Diagnosis and Treatment
+***[#yellow] <i><size:14>Rehabilitation and Therapy Services
+***[#yellow] <i><size:14>Palliative and Hospice Care
+***[#yellow] <i><size:14>Mental Health Services
+**[#lightblue] <i><size:14>Medical Specialties
+***[#yellow] <i><size:14>**Cardiology:** <color #red>(related to heart disease, diagnosis and treatments)
+***[#yellow] <i><size:14>**Oncology:** <color #red>(related to cancer diagnosis, disease and treatments)
+***[#yellow] <i><size:14>**Neurology:** <color #red>(related to nervous-system diagnosis, disease and treatments)
+***[#yellow] <i><size:14>**Orthopedics:** <color #red>(related to bones, joints, ligaments, tendons, muscles, and nerves )
+***[#yellow] <i><size:14>**Pediatrics:** <color #red>(related to health and medical care of infants, children, and adolescents from birth up to the age of 18.)
+***[#yellow] <i><size:14>**Dermatology:** <color #red>(related to conditions that affect the skin, hair, and nails. Whether it's rashes, wrinkles, psoriasis, or melanoma, )
+***[#yellow] <i><size:14>**Gynecology:** <color #red>(related to  involves treating women who are not pregnant. Gynecology comprises of both medicine as well as surgical fields.)
+***[#yellow] <i><size:14>**Geriatrics:** <color #red>(exclusively related to providing high-quality, patient-centered care for older adults.)
+**[#lightblue] <i><size:14>Healthcare Regulations and Standards
+***[#yellow] <i><size:14>Health Insurance Portability and Accountability Act <b>(HIPAA)
+***[#yellow] <i><size:14>Food and Drug Administration <b>(FDA) Regulations
+***[#yellow] <i><size:14>Quality Standards <b>(e.g., ISO 9001, ISO 13485)
+***[#yellow] <i><size:14>Medical Coding and Billing Compliance <b>(ICD-10, CPT)
+***[#yellow] <i><size:14>Regulatory Bodies <b>(e.g., Centers for Medicare & Medicaid Services)
+**[#lightblue] <i><size:14>Healthcare Information Systems
+***[#yellow] <i><size:14>Hospital Information Systems <b>(HIS)
+***[#yellow] <i><size:14>Laboratory Information Systems <b>(LIS)
+***[#yellow] <i><size:14>Picture Archiving and Communication Systems <b>(PACS)
+***[#yellow] <i><size:14>Pharmacy Information Systems <b>(PIS)
+***[#yellow] <i><size:14>Radiology Information Systems <b>(RIS)
+**[#lightblue] <i><size:14>Healthcare Data Management
+***[#yellow] <i><size:14>Data Privacy and Security
+***[#yellow] <i><size:14>Data Integration and Interoperability
+***[#yellow] <i><size:14>Data Analytics and Business Intelligence
+***[#yellow] <i><size:14>Health Information Exchange <b>(HIE)
+***[#yellow] <i><size:14>Clinical Decision Support Systems <b>(CDSS)
+**[#lightblue] <i><size:14>Healthcare Infrastructure
+***[#yellow] <i><size:14>Medical Equipment and Devices
+***[#yellow] <i><size:14>Hospital Facilities and Infrastructure
+***[#yellow] <i><size:14>Healthcare Networks and Connectivity
+***[#yellow] <i><size:14>Health IT Infrastructure
+***[#yellow] <i><size:14>Emergency Management Systems
+**[#lightblue] <i><size:14>Healthcare Financing and Insurance
+***[#yellow] <i><size:14>Health Insurance Plans
+***[#yellow] <i><size:14>Reimbursement Systems
+***[#yellow] <i><size:14>Medicare and Medicaid
+***[#yellow] <i><size:14>Private Health Insurance
+***[#yellow] <i><size:14>Healthcare Economics and Policy
+**[#lightblue] <i><size:14>Healthcare Research and Development
+***[#yellow] <i><size:14>Clinical Trials and Studies
+***[#yellow] <i><size:14>Pharmaceutical Research and Drug Development
+***[#yellow] <i><size:14>Medical Device Innovation
+***[#yellow] <i><size:14>Biomedical Engineering
+***[#yellow] <i><size:14>Genomics and Precision Medicine
+
+@endmindmap

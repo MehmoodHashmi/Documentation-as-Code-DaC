@@ -1,0 +1,89 @@
+@startmindmap
+title = <i><u><b>Healthcare
+!theme hacker
+
+*[#darkblue] <i>Healthcare
+**[#lightblue] <i><size:14>Overview
+***[#green] <color #white><i><size:16>**Healthcare** encompasses the maintenance and improvement of physical and mental well-being through the prevention, diagnosis, and treatment of illnesses and injuries.
+
+**[#lightblue] <i><size:14>Healthcare Services
+***[#green] <color #white><i><size:14><b>Primary Care
+****[#yellow] <i><size:14><color #black>General medical care provided by family doctors, pediatricians, and internists.
+***[#green] <color #white><i><size:14><b>Specialized Care
+****[#yellow] <i><size:14><color #black>Medical services from specialists in areas like cardiology, oncology, and neurology.
+***[#green] <color #white><i><size:14><b>Emergency Care
+****[#yellow] <i><size:14><color #black>Immediate medical attention for critical conditions and injuries.
+***[#green] <color #white><i><size:14><b>Preventive Care
+****[#yellow] <i><size:14><color #black>Services to prevent illnesses, including vaccinations and screenings.
+
+**[#lightblue] <i><size:14>Healthcare Providers
+***[#green] <color #white><i><size:14><b>Hospitals
+****[#yellow] <i><size:14><color #black>Medical facilities for inpatient and outpatient care.
+***[#green] <color #white><i><size:14><b>Clinics
+****[#yellow] <i><size:14><color #black>Smaller medical facilities for routine check-ups and minor treatments.
+***[#green] <color #white><i><size:14><b>Physicians
+****[#yellow] <i><size:14><color #black>Licensed doctors providing medical care in various specialties.
+***[#green] <color #white><i><size:14><b>Nurses
+****[#yellow] <i><size:14><color #black>Healthcare professionals assisting doctors and patients.
+
+**[#lightblue] <i><size:14>Healthcare Technologies
+***[#green] <color #white><i><size:14><b>Electronic Health Records <b>(EHR)
+****[#yellow] <i><size:14><color #black>Digital records of patient medical history and treatments.
+***[#green] <color #white><i><size:14><b>Telemedicine
+****[#yellow] <i><size:14><color #black>Remote medical consultations and care using technology.
+***[#green] <color #white><i><size:14><b>Medical Imaging
+****[#yellow] <i><size:14><color #black>Technologies like X-rays, MRIs, and CT scans for diagnosis.
+***[#green] <color #white><i><size:14><b>Wearable Health Devices
+****[#yellow] <i><size:14><color #black>Devices for monitoring health metrics like heart rate and activity.
+
+**[#lightblue] <i><size:14>Healthcare Challenges
+***[#green] <color #white><i><size:14><b>Healthcare Costs
+****[#yellow] <i><size:14><color #black>Rising expenses in healthcare services and insurance.
+***[#green] <color #white><i><size:14><b>Access to Healthcare
+****[#yellow] <i><size:14><color #black>Disparities in healthcare access based on location and income.
+***[#green] <color #white><i><size:14><b>Data Security
+****[#yellow] <i><size:14><color #black>Protecting patient data in an era of digital health records.
+***[#green] <color #white><i><size:14><b>Aging Population
+****[#yellow] <i><size:14><color #black>Challenges of healthcare for an aging demographic.
+
+**[#lightblue] <i><size:22>Healthcare Innovations
+***[#green] <color #white><i><size:14><b>Precision Medicine
+****[#yellow] <i><size:14><color #black>Tailoring medical treatments to individual genetics.
+***[#green] <color #white><i><size:14><b>Artificial Intelligence
+****[#yellow] <i><size:14><color #black>AI applications in diagnosis, drug discovery, and healthcare management.
+***[#green] <color #white><i><size:14><b>Genomic Medicine
+****[#yellow] <i><size:14><color #black>Studying genes to understand and treat diseases.
+***[#green] <color #white><i><size:14><b>Telehealth
+****[#yellow] <i><size:14><color #black>Expanding access to healthcare through digital platforms.
+
+**[#lightblue] <i><size:14>Healthcare Regulations
+***[#green] <color #white><i><size:14><b>HIPAA
+****[#yellow] <i><size:14><color #black>Health Insurance Portability and Accountability Act for patient data protection.
+***[#green] <color #white><i><size:14><b>FDA
+****[#yellow] <i><size:14><color #black>U.S. Food and Drug Administration for regulating medical devices and drugs.
+***[#green] <color #white><i><size:14><b>Medicare and Medicaid
+****[#yellow] <i><size:14><color #black>Government healthcare programs for seniors and low-income individuals.
+***[#green] <color #white><i><size:14><b>Telehealth Regulations
+****[#yellow] <i><size:14><color #black>Rules governing telemedicine and remote healthcare services.
+
+**[#lightblue] <i><size:22>Healthcare Trends
+***[#green] <color #white><i><size:14><b>Value-Based Care
+****[#yellow] <i><size:14><color #black>Focusing on patient outcomes and cost efficiency.
+***[#green] <color #white><i><size:14><b>Healthcare AI
+****[#yellow] <i><size:14><color #black>Increasing integration of artificial intelligence in healthcare.
+***[#green] <color #white><i><size:14><b>Patient-Centered Care
+****[#yellow] <i><size:14><color #black>Shifting focus to individual patient needs and preferences.
+***[#green] <color #white><i><size:14><b>Healthcare Sustainability
+****[#yellow] <i><size:14><color #black>Addressing environmental and resource challenges in healthcare.
+
+**[#lightblue] <i><size:14>Healthcare Stakeholders
+***[#green] <color #white><i><size:14><b>Patients
+****[#yellow] <i><size:14><color #black>Individuals receiving medical care and treatment.
+***[#green] <color #white><i><size:14><b>Healthcare Providers
+****[#yellow] <i><size:14><color #black>Doctors, nurses, and medical professionals.
+***[#green] <color #white><i><size:14><b>Payers
+****[#yellow] <i><size:14><color #black>Organizations or individuals paying for healthcare services.
+***[#green] <color #white><i><size:14><b>Regulators
+****[#yellow] <i><size:14><color #black>Government agencies and bodies overseeing healthcare compliance.
+
+@endmindmap

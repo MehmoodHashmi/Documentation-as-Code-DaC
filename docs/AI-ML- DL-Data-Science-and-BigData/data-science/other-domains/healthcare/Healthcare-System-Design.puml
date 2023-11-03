@@ -1,0 +1,90 @@
+@startmindmap
+
+title = <i><u><b>Healthcare System Design
+!theme hacker
+
+
+*[#darkblue] <i>Healthcare System Design
+**[#lightblue] <i><size:14>Patient Management
+***[#yellow] <i><size:14>Electronic Health Records <b>(EHR)
+***[#yellow] <i><size:14>Patient Registration
+***[#yellow] <i><size:14>Appointment Scheduling
+***[#yellow] <i><size:14>Patient Portal
+***[#yellow] <i><size:14>Health Information Exchange <b>(HIE)
+**[#lightblue] <i><size:14>Clinical Workflow
+***[#yellow] <i><size:14>Care Coordination
+***[#yellow] <i><size:14>Clinical Decision Support
+***[#yellow] <i><size:14>Order Entry and Management
+***[#yellow] <i><size:14>Medication Management
+***[#yellow] <i><size:14>Laboratory Information System <b>(LIS)
+***[#yellow] <i><size:14>Radiology Information System <b>(RIS)
+**[#lightblue] <i><size:14>Telemedicine and Remote Monitoring
+***[#yellow] <i><size:14>Telehealth Platforms
+***[#yellow] <i><size:14>Virtual Consultations
+***[#yellow] <i><size:14>Remote Patient Monitoring
+***[#yellow] <i><size:14>Telemedicine Devices
+***[#yellow] <i><size:14>Health Apps and Wearables
+**[#lightblue] <i><size:14>Medical Imaging
+***[#yellow] <i><size:14>Picture Archiving and Communication System <b>(PACS)
+***[#yellow] <i><size:14>Radiology Workflow
+***[#yellow] <i><size:14>Image Viewing and Interpretation
+***[#yellow] <i><size:14>Image Storage and Retrieval
+***[#yellow] <i><size:14>Diagnostic Reporting
+**[#lightblue] <i><size:14>Hospital Information System <b>(HIS)
+***[#yellow] <i><size:14>Inpatient Management
+***[#yellow] <i><size:14>Bed Management
+***[#yellow] <i><size:14>Operating Room Management
+***[#yellow] <i><size:14>Inventory and Supply Chain
+***[#yellow] <i><size:14>Billing and Claims Management
+**[#lightblue] <i><size:14>Electronic Prescribing
+***[#yellow] <i><size:14>Prescription Management
+***[#yellow] <i><size:14>Drug Database Integration
+***[#yellow] <i><size:14>Medication History
+***[#yellow] <i><size:14>Prescription Renewal Requests
+***[#yellow] <i><size:14>E-Prescribing Standards
+**[#lightblue] <i><size:14>Health Analytics and Insights
+***[#yellow] <i><size:14>Data Warehousing
+***[#yellow] <i><size:14>Data Integration and ETL
+***[#yellow] <i><size:14>Data Visualization
+***[#yellow] <i><size:14>Predictive Analytics
+***[#yellow] <i><size:14>Population Health Management
+**[#lightblue] <i><size:14>Health Information Security
+***[#yellow] <i><size:14>Privacy and Data Protection
+***[#yellow] <i><size:14>Secure Authentication
+***[#yellow] <i><size:14>Access Control and Audit Trails
+***[#yellow] <i><size:14>Compliance with HIPAA and GDPR
+***[#yellow] <i><size:14>Cybersecurity and Threat Detection
+**[#lightblue] <i><size:14>Interoperability and Standards
+***[#yellow] <i><size:14>Health Level 7 <b>(HL7)
+***[#yellow] <i><size:14>Fast Healthcare Interoperability Resources <b>(FHIR)
+***[#yellow] <i><size:14>Integrating the Healthcare Enterprise <b>(IHE)
+***[#yellow] <i><size:14>Standards for Medical Imaging <b>(DICOM)
+***[#yellow] <i><size:14>Clinical Document Architecture <b>(CDA)
+**[#lightblue] <i><size:14>Regulatory Compliance
+***[#yellow] <i><size:14>HIPAA Compliance
+***[#yellow] <i><size:14>Meaningful Use <b>(CMS EHR Incentive Program)
+***[#yellow] <i><size:14>Quality Reporting Programs <b>(e.g., MIPS)
+***[#yellow] <i><size:14>ICD-10 and CPT Coding
+***[#yellow] <i><size:14>Health Insurance Verification
+**[#lightblue] <i><size:14>Healthcare IoT
+***[#yellow] <i><size:14>Medical Devices Integration
+***[#yellow] <i><size:14>Wearable Devices and Sensors
+***[#yellow] <i><size:14>Remote Monitoring Devices
+***[#yellow] <i><size:14>IoT Data Analytics
+***[#yellow] <i><size:14>IoT Security and Privacy
+**[#lightblue] <i><size:14>Telecommunications Infrastructure
+***[#yellow] <i><size:14>Network Architecture
+***[#yellow] <i><size:14>Data Centers and Cloud Services
+***[#yellow] <i><size:14>Network Security and VPN
+***[#yellow] <i><size:14>High-Speed Internet Connectivity
+***[#yellow] <i><size:14>Voice and Video Conferencing
+**[#lightblue] <i><size:14>Future Trends
+***[#yellow] <i><size:14>Artificial Intelligence <b>(AI) in Healthcare
+***[#yellow] <i><size:14>Blockchain for Health Records and Supply Chain
+***[#yellow] <i><size:14>Precision Medicine and Genomics
+***[#yellow] <i><size:14>Internet of Medical Things <b>(IoMT)
+***[#yellow] <i><size:14>Virtual and Augmented Reality in Healthcare
+***[#yellow] <i><size:14>5G Technology for Remote Healthcare
+***[#yellow] <i><size:14>Data-driven Personalized Medicine
+
+@endmindmap
