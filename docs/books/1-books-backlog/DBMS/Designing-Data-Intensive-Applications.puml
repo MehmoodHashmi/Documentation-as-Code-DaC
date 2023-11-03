@@ -3,64 +3,64 @@
 title  = //__**Designing Data-Intensive Applications**__//\n <size:24>**Key Takeaways**
 !theme hacker
 
-*  **Designing Data-Intensive Applications**\n **Key Takeaways**
-**[#yellow] **Choose** the right **__data model__** for your **application**
-***[#white] =**Data Model**
-****[#white] **1- Hierarchical**
-****[#white] **2- Network**
-****[#red] =**3- Relational (SQL) + ACID**
-*****[#pink]  ==**schema-based database**
-*****[#white]  =**Types**
+*[#darkblue] <i>Designing Data-Intensive Applications\n \t Key Takeaways
+**[#lightblue] <size:14><i>**Choose** the right **__data model__** for your **application**
+***[#green] <size:20><i><color #white><b>Data Model
+****[#orange] <color #black><size:14><i>**1- Hierarchical**
+****[#orange] <color #black><size:14><i>**2- Network**
+****[#orange] <color #black><size:18><i>**3- Relational (SQL) + ACID**
+*****[#yellow] <size:18><i>**schema-based database**
+*****[#yellow] <size:18><i>**Types**
 ******[#yellow]  **Relational**
-*******[#white]  **SQL Server**
-*******[#white]  **My SQL**
-*******[#white]  **Oracle**
-*******[#white]  **Postgres**
-*******[#white]  **SQL Compact**
+*******  **SQL Server**
+*******  **My SQL**
+*******  **Oracle**
+*******  **Postgres**
+*******  **SQL Compact**
 ******[#yellow]  **Analiticals (OLAP)**
-****[#gold] =**4- Non-Relational (No-SQL) + BASE**
-*****[#pink] ==**schema-less database**
-*****[#white] =**Types**
+****[#orange] <color #black><size:18><i>**4- Non-Relational (No-SQL) + BASE**
+*****[#yellow] <size:18><i>**schema-less database**
+*****[#yellow] <size:18><i>**Types**
 ******[#yellow] **Document**
-*******[#white] **Mongo DB**
-*******[#white] **Couch DB**
-*******[#white] **Arango DB**
-*******[#white] **RAVEN DB**
+******* **Mongo DB**
+******* **Couch DB**
+******* **Arango DB**
+******* **RAVEN DB**
 ******[#yellow] **Graph**
-*******[#white] **neo4j**
-*******[#white] **AllergoGraph**
+******* **neo4j**
+******* **AllergoGraph**
 ******[#yellow] **Key-Value**
-*******[#white] **redis**
-*******[#white] **memcached**
-*******[#white] **ignite**
-*******[#white] **riak**
+******* **redis**
+******* **memcached**
+******* **ignite**
+******* **riak**
 ******[#yellow] **Wide-column**
-*******[#white] **cassandra**
-*******[#white] **Apache HBase**
-*** Each **__data model__** has its own **strengths and weaknesses**
-***[#pink] ==**__The choice of //data model// can significantly impact //performance and scalability//__**
-**[#yellow] **Data __storage__ and __retrieval__**
-*** **__Techniques__** include **indexing, caching, and compression**
-***[#pink] __**Choice of storage technique can impact performance and scalability**__
-**[#yellow] **Data processing**
-*** Covers **batch processing and stream processing**
-*** **__Techniques__** include **MapReduce and Apache Kafka**
-****[#yellow] ====<size:14>**Apache beam** can do **stream and batch processing** & is open source plus latest **technology**. \n It is a **polyglot** tool (meaning works flawlessly with different programing languages)
-*** Emphasizes importance of **fault tolerance**
-**[#yellow] **Distributed systems**
-*** Includes **distributed databases, messaging, and consensus algorithms**
-*** Emphasizes importance of **fault tolerance and replication**
-**[#yellow] **Scalability**
-*** **__Techniques__** include **sharding, partitioning, and replication**
-*** Emphasizes importance of **horizontal scalability**
-**[#yellow] **Reliability**
-*** **__Techniques__** include **replication, consensus algorithms, and failure detection**
-*** Emphasizes importance of **designing for failure**
-**[#yellow] **Performance**
-*** Guidance on **optimizing latency, throughput, and resource utilization**
-**[#yellow] **Trade-offs**
-***[#orange] ====<size:14>**__Every design decision involves trade-offs__**
-***[#orange] ====<size:14>**Encourages making informed choices**
+******* **cassandra**
+******* **Apache HBase**
+***[#green] <size:14><i><color #white>Each **__data model__** has its own **strengths and weaknesses**
+***[#green] <size:20><i><color #white>**__The choice of //data model// can significantly impact //performance and scalability//__**
+**[#lightblue] <size:14><i>Data __storage__ and __retrieval__
+***[#green] <size:14><i><color #white>**__Techniques__** include **indexing, caching, and compression**
+***[#green] <size:14><i><color #white>__**Choice of storage technique can impact performance and scalability**__
+**[#lightblue] <size:14><i>Data processing
+***[#green] <size:14><i><color #white>Covers **batch processing and stream processing**
+***[#green] <size:14><i><color #white>**__Techniques__** include **MapReduce and Apache Kafka**
+****[#orange] <color #black><size:14><i> **Apache beam** can do **stream and batch processing** & is open source plus latest **technology**. \n<size:14><i><color #black>It is a **polyglot** tool (meaning works flawlessly with different programing languages)
+***[#green] <size:14><i><color #white>Emphasizes importance of **fault tolerance**
+**[#lightblue] <size:14><i>Distributed systems
+***[#green] <size:14><i><color #white>Includes **distributed databases, messaging, and consensus algorithms**
+***[#green] <size:14><i><color #white>Emphasizes importance of **fault tolerance and replication**
+**[#lightblue] <size:14><i>Scalability
+***[#green] <size:14><i><color #white>**__Techniques__** include **sharding, partitioning, and replication**
+***[#green] <size:14><i><color #white>Emphasizes importance of **horizontal scalability**
+**[#lightblue] <size:14><i> Reliability
+***[#green] <size:14><i><color #white>**__Techniques__** include **replication, consensus algorithms, and failure detection**
+***[#green] <size:14><i><color #white>Emphasizes importance of **designing for failure**
+**[#lightblue] <size:14><i>Performance
+***[#green] <size:14><i><color #white>Guidance on **optimizing latency, throughput, and resource utilization**
+**[#lightblue] <size:14><i>Trade-offs
+***[#green] <size:14><i><color #white>**__Every design decision involves trade-offs__**
+***[#green] <size:14><i><color #white>**Encourages making informed choices**
 
 @endmindmap
 

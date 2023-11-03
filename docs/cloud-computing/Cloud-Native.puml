@@ -5,99 +5,99 @@ title =__Cloud Native__\n<img:images/img.png>
 !theme hacker
 
 
-* Definition
-**[#business] ====<size:14>A software development approach that emphasizes building applications specifically for cloud environments
-**[#business] ====<size:14>Cloud-native applications are designed to be scalable, resilient, and easily managed in dynamic and distributed environments
+*[#darkblue] <i>Definition
+**[#lightblue] <i><size:14>A software development approach that emphasizes building applications specifically for cloud environments
+**[#lightblue] <i><size:14>Cloud-native applications are designed to be scalable, resilient, and easily managed in dynamic and distributed environments
 
-* Key Principles
-**[#business] ====<size:14>Microservices Architecture
-***[#lightcyan] ====<size:14>Application is composed of small, independent services that can be developed, deployed, and scaled independently
-***[#lightcyan] ====<size:14>Each service runs in its own process and communicates with other services using lightweight mechanisms
-**[#business] ====<size:14>Containerization
-***[#lightcyan] ====<size:14>Applications are packaged as containers, which provide a lightweight and portable runtime environment
-***[#lightcyan] ====<size:14>Containers can be easily deployed, scaled, and managed across different environments
-**[#business] ====<size:14>Infrastructure as Code
-***[#lightcyan] ====<size:14>Infrastructure is defined and managed using code, which makes it easier to automate and manage at scale
-***[#lightcyan] ====<size:14>Changes to infrastructure can be version-controlled and deployed using automated pipelines
-**[#business] ====<size:14>DevOps
-***[#lightcyan] ====<size:14>Culture and practices that emphasize collaboration and automation between development and operations teams
-***[#lightcyan] ====<size:14>DevOps enables teams to deliver software faster, with higher quality, and more reliably
+*[#darkblue] <i>Key Principles
+**[#lightblue] <i><size:14>Microservices Architecture
+***[#yellow] <i><size:14>Application is composed of small, independent services that can be developed, deployed, and scaled independently
+***[#yellow] <i><size:14>Each service runs in its own process and communicates with other services using lightweight mechanisms
+**[#lightblue] <i><size:14>Containerization
+***[#yellow] <i><size:14>Applications are packaged as containers, which provide a lightweight and portable runtime environment
+***[#yellow] <i><size:14>Containers can be easily deployed, scaled, and managed across different environments
+**[#lightblue] <i><size:14>Infrastructure as Code
+***[#yellow] <i><size:14>Infrastructure is defined and managed using code, which makes it easier to automate and manage at scale
+***[#yellow] <i><size:14>Changes to infrastructure can be version-controlled and deployed using automated pipelines
+**[#lightblue] <i><size:14>DevOps
+***[#yellow] <i><size:14>Culture and practices that emphasize collaboration and automation between development and operations teams
+***[#yellow] <i><size:14>DevOps enables teams to deliver software faster, with higher quality, and more reliably
 
-* Benefits
-**[#business] ====<size:14>Scalability and Resilience
-***[#lightcyan] ====<size:14>Cloud-native applications can handle large and unpredictable workloads by scaling up or down as needed
-***[#lightcyan] ====<size:14>Applications are designed to be resilient to failures and can automatically recover from them
-**[#business] ====<size:14>Agility and Time-to-Market
-***[#lightcyan] ====<size:14>Cloud-native development enables faster release cycles and allows teams to respond quickly to changing business requirements
-***[#lightcyan] ====<size:14>Teams can experiment and innovate more easily using cloud-native technologies and services
-**[#business] ====<size:14>Cost Efficiency
-***[#lightcyan] ====<size:14>Cloud-native applications can be more cost-effective by leveraging cloud resources more efficiently
-***[#lightcyan] ====<size:14>Containerization enables better resource utilization and reduces infrastructure overhead
+*[#darkblue] <i>Benefits
+**[#lightblue] <i><size:14>Scalability and Resilience
+***[#yellow] <i><size:14>Cloud-native applications can handle large and unpredictable workloads by scaling up or down as needed
+***[#yellow] <i><size:14>Applications are designed to be resilient to failures and can automatically recover from them
+**[#lightblue] <i><size:14>Agility and Time-to-Market
+***[#yellow] <i><size:14>Cloud-native development enables faster release cycles and allows teams to respond quickly to changing lightblue requirements
+***[#yellow] <i><size:14>Teams can experiment and innovate more easily using cloud-native technologies and services
+**[#lightblue] <i><size:14>Cost Efficiency
+***[#yellow] <i><size:14>Cloud-native applications can be more cost-effective by leveraging cloud resources more efficiently
+***[#yellow] <i><size:14>Containerization enables better resource utilization and reduces infrastructure overhead
 
-* Cloud-Native Technologies
-**[#business] ====<size:14>Container Orchestration
-***[#lightcyan] ====<size:14>Kubernetes
-***[#lightcyan] ====<size:14>Docker Swarm
-**[#business] ====<size:14>Service Mesh
-***[#lightcyan] ====<size:14>Istio
-***[#lightcyan] ====<size:14>Linkerd
-**[#business] ====<size:14>Cloud-Native Databases
-***[#lightcyan] ====<size:14>Amazon DynamoDB
-***[#lightcyan] ====<size:14>Google Cloud Spanner
-***[#lightcyan] ====<size:14>MongoDB Atlas
-**[#business] ====<size:14>Cloud-Native Storage
-***[#lightcyan] ====<size:14>Amazon S3
-***[#lightcyan] ====<size:14>Google Cloud Storage
-***[#lightcyan] ====<size:14>Azure Blob Storage
-**[#business] ====<size:14>Serverless Computing
-***[#lightcyan] ====<size:14>AWS Lambda
-***[#lightcyan] ====<size:14>Google Cloud Functions
-***[#lightcyan] ====<size:14>Azure Functions
+*[#darkblue] <i>Cloud-Native Technologies
+**[#lightblue] <i><size:14>Container Orchestration
+***[#yellow] <i><size:14>Kubernetes
+***[#yellow] <i><size:14>Docker Swarm
+**[#lightblue] <i><size:14>Service Mesh
+***[#yellow] <i><size:14>Istio
+***[#yellow] <i><size:14>Linkerd
+**[#lightblue] <i><size:14>Cloud-Native Databases
+***[#yellow] <i><size:14>Amazon DynamoDB
+***[#yellow] <i><size:14>Google Cloud Spanner
+***[#yellow] <i><size:14>MongoDB Atlas
+**[#lightblue] <i><size:14>Cloud-Native Storage
+***[#yellow] <i><size:14>Amazon S3
+***[#yellow] <i><size:14>Google Cloud Storage
+***[#yellow] <i><size:14>Azure Blob Storage
+**[#lightblue] <i><size:14>Serverless Computing
+***[#yellow] <i><size:14>AWS Lambda
+***[#yellow] <i><size:14>Google Cloud Functions
+***[#yellow] <i><size:14>Azure Functions
 
-* Challenges
-**[#business] ====<size:14>Complexity and Learning Curve
-***[#lightcyan] ====<size:14>Cloud-native development requires new skills, tools, and practices that may take time to learn and adopt
-***[#lightcyan] ====<size:14>Managing complex distributed systems can be challenging and requires a new mindset
-**[#business] ====<size:14>Operational Overhead
-***[#lightcyan] ====<size:14>Cloud-native applications require more operational management and monitoring to ensure reliability and performance
-***[#lightcyan] ====<size:14>Teams need to invest in automation and tooling to manage cloud-native environments at scale
-**[#business] ====<size:14>Vendor Lock-In
-***[#lightcyan] ====<size:14>Cloud-native technologies and services may create a dependency on a particular cloud provider
-***[#lightcyan] ====<size:14>Teams need to carefully consider the tradeoffs of using cloud-native services and be prepared for potential migration challenges
+*[#darkblue] <i>Challenges
+**[#lightblue] <i><size:14>Complexity and Learning Curve
+***[#yellow] <i><size:14>Cloud-native development requires new skills, tools, and practices that may take time to learn and adopt
+***[#yellow] <i><size:14>Managing complex distributed systems can be challenging and requires a new mindset
+**[#lightblue] <i><size:14>Operational Overhead
+***[#yellow] <i><size:14>Cloud-native applications require more operational management and monitoring to ensure reliability and performance
+***[#yellow] <i><size:14>Teams need to invest in automation and tooling to manage cloud-native environments at scale
+**[#lightblue] <i><size:14>Vendor Lock-In
+***[#yellow] <i><size:14>Cloud-native technologies and services may create a dependency on a particular cloud provider
+***[#yellow] <i><size:14>Teams need to carefully consider the tradeoffs of using cloud-native services and be prepared for potential migration challenges
 
-* Best Practices
-**[#business] ====<size:14>Use a Container Orchestration Platform
-***[#lightcyan] ====<size:14>Kubernetes is the most popular container orchestration platform and provides a rich set of features for managing cloud-native applications
-***[#lightcyan] ====<size:14>Other options include Docker Swarm, Amazon ECS, and Google Kubernetes Engine
-**[#business] ====<size:14>Adopt Infrastructure as Code
-***[#lightcyan] ====<size:14>Define infrastructure using code and use version control to manage changes
-***[#lightcyan] ====<size:14>Use automated pipelines to deploy infrastructure changes
-**[#business] ====<size:14>Leverage Cloud-Native Services
-***[#lightcyan] ====<size:14>Cloud-native services like databases, storage, and messaging can accelerate development and reduce operational overhead
-***[#lightcyan] ====<size:14>Choose services that are compatible with your container orchestration platform and can be easily integrated into your application
-**[#business] ====<size:14>Use Monitoring and Observability Tools
-***[#lightcyan] ====<size:14>Implement monitoring and observability early in the development process to ensure reliability and performance
-***[#lightcyan] ====<size:14>Use tools like Prometheus, Grafana, and Jaeger to monitor metrics, logs, and traces
-**[#business] ====<size:14>Embrace DevOps Practices
-***[#lightcyan] ====<size:14>Build a culture of collaboration and shared responsibility between development and operations teams
-***[#lightcyan] ====<size:14>Use automation and continuous delivery to streamline development
+*[#darkblue] <i>Best Practices
+**[#lightblue] <i><size:14>Use a Container Orchestration Platform
+***[#yellow] <i><size:14>Kubernetes is the most popular container orchestration platform and provides a rich set of features for managing cloud-native applications
+***[#yellow] <i><size:14>Other options include Docker Swarm, Amazon ECS, and Google Kubernetes Engine
+**[#lightblue] <i><size:14>Adopt Infrastructure as Code
+***[#yellow] <i><size:14>Define infrastructure using code and use version control to manage changes
+***[#yellow] <i><size:14>Use automated pipelines to deploy infrastructure changes
+**[#lightblue] <i><size:14>Leverage Cloud-Native Services
+***[#yellow] <i><size:14>Cloud-native services like databases, storage, and messaging can accelerate development and reduce operational overhead
+***[#yellow] <i><size:14>Choose services that are compatible with your container orchestration platform and can be easily integrated into your application
+**[#lightblue] <i><size:14>Use Monitoring and Observability Tools
+***[#yellow] <i><size:14>Implement monitoring and observability early in the development process to ensure reliability and performance
+***[#yellow] <i><size:14>Use tools like Prometheus, Grafana, and Jaeger to monitor metrics, logs, and traces
+**[#lightblue] <i><size:14>Embrace DevOps Practices
+***[#yellow] <i><size:14>Build a culture of collaboration and shared responsibility between development and operations teams
+***[#yellow] <i><size:14>Use automation and continuous delivery to streamline development
 
-**[#business] ====<size:14>Design for Resilience and Fault Tolerance
-***[#lightcyan] ====<size:14>Cloud-native applications are designed to be resilient to failures and can automatically recover from them
-***[#lightcyan] ====<size:14>Use fault-tolerant design patterns and consider implementing circuit breakers and retry mechanisms
-**[#business] ====<size:14>Secure Your Application and Infrastructure
-***[#lightcyan] ====<size:14>Implement strong authentication and authorization mechanisms
-***[#lightcyan] ====<size:14>Use encryption to protect data in transit and at rest
-***[#lightcyan] ====<size:14>Regularly test your application and infrastructure for vulnerabilities and implement security best practices
-**[#business] ====<size:14>Optimize Resource Usage
-***[#lightcyan] ====<size:14>Use container resource limits to ensure optimal resource utilization
-***[#lightcyan] ====<size:14>Implement autoscaling to scale up or down based on demand
-***[#lightcyan] ====<size:14>Optimize your application code and infrastructure to reduce resource usage and costs
-**[#business] ====<size:14>Plan for Disaster Recovery and Business Continuity
-***[#lightcyan] ====<size:14>Implement backup and restore procedures to ensure data is recoverable in case of disaster
-***[#lightcyan] ====<size:14>Have a plan in place for how to respond to unexpected events and ensure business continuity
-**[#business] ====<size:14>Document and Share Knowledge
-***[#lightcyan] ====<size:14>Document your architecture, infrastructure, and processes to ensure knowledge is shared and easily accessible
-***[#lightcyan] ====<size:14>Use collaboration tools to facilitate communication and knowledge sharing between team members
+**[#lightblue] <i><size:14>Design for Resilience and Fault Tolerance
+***[#yellow] <i><size:14>Cloud-native applications are designed to be resilient to failures and can automatically recover from them
+***[#yellow] <i><size:14>Use fault-tolerant design patterns and consider implementing circuit breakers and retry mechanisms
+**[#lightblue] <i><size:14>Secure Your Application and Infrastructure
+***[#yellow] <i><size:14>Implement strong authentication and authorization mechanisms
+***[#yellow] <i><size:14>Use encryption to protect data in transit and at rest
+***[#yellow] <i><size:14>Regularly test your application and infrastructure for vulnerabilities and implement security best practices
+**[#lightblue] <i><size:14>Optimize Resource Usage
+***[#yellow] <i><size:14>Use container resource limits to ensure optimal resource utilization
+***[#yellow] <i><size:14>Implement autoscaling to scale up or down based on demand
+***[#yellow] <i><size:14>Optimize your application code and infrastructure to reduce resource usage and costs
+**[#lightblue] <i><size:14>Plan for Disaster Recovery and Business Continuity
+***[#yellow] <i><size:14>Implement backup and restore procedures to ensure data is recoverable in case of disaster
+***[#yellow] <i><size:14>Have a plan in place for how to respond to unexpected events and ensure lightblue continuity
+**[#lightblue] <i><size:14>Document and Share Knowledge
+***[#yellow] <i><size:14>Document your architecture, infrastructure, and processes to ensure knowledge is shared and easily accessible
+***[#yellow] <i><size:14>Use collaboration tools to facilitate communication and knowledge sharing between team members
 
 @endmindmap

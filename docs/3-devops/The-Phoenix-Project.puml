@@ -1,118 +1,119 @@
 @startmindmap
 
-title The Phoenix Project & The Unicorn Project
+title =__The Phoenix Project & The Unicorn Project__
+!theme hacker
 
-* "**The Phoenix Project:** A Novel About IT, DevOps, and Helping Your Business Win" \nis a novel written by Gene Kim, Kevin Behr, and George Spafford. The book tells \nthe story of an IT manager named Bill Palmer, who is tasked with saving a failing\n project at a fictional company called **Parts Unlimited**. \n\t \t **Key Takeaways**\n <img:images/devops.png>
-**[#yellow] DevOps principles
-*** Three Ways
-****[#pink] **Flow**
-***** Eliminate bottlenecks
-***** Reduce work in progress
-***** Improve collaboration
-****[#pink] **Feedback**
-***** Measure and monitor performance
-***** Identify areas for improvement
-***** Make changes quickly
-****[#pink] **Continuous learning and experimentation**
-***** Foster a culture of experimentation
-***** Encourage learning
-***** Reward innovation and risk-taking
-**[#yellow] Continuous delivery pipeline
-*** Automate software delivery process
-*** Release software frequently
-*** Improve software quality and confidence
-**[#yellow] Breaking down silos
-*** Create cross-functional teams
-*** Improve communication
-*** Reduce handoffs
-*** Speed up delivery
-**[#yellow] Customer value
-*** Focus on customer needs and preferences
-*** Create products and services that meet customer expectations
-**[#yellow] Learning culture
-*** Encourage continuous learning and improvement
-*** Stay ahead of the curve
-*** Adapt to changing market conditions
+*[#darkblue] "**The Phoenix Project:** A Novel About IT, DevOps, and Helping Your Business Win" \nis a novel written by Gene Kim, Kevin Behr, and George Spafford. The book tells \nthe story of an IT manager named Bill Palmer, who is tasked with saving a failing\n project at a fictional company called **Parts Unlimited**. \n\t \t **Key Takeaways**\n <img:images/devops.png>
+**[#lightblue] <size:14><i>DevOps principles
+***[#green] <size:14><i><color #white>Three Ways
+****[#orange] <size:14><i><color #black>**Flow**
+*****[#yellow] <size:14><i>Eliminate bottlenecks
+*****[#yellow] <size:14><i>Reduce work in progress
+*****[#yellow] <size:14><i>Improve collaboration
+****[#orange] <size:14><i><color #black>**Feedback**
+*****[#yellow] <size:14><i>Measure and monitor performance
+*****[#yellow] <size:14><i>Identify areas for improvement
+*****[#yellow] <size:14><i>Make changes quickly
+****[#orange] <size:14><i><color #black>**Continuous learning and experimentation**
+*****[#yellow] <size:14><i>Foster a culture of experimentation
+*****[#yellow] <size:14><i>Encourage learning
+*****[#yellow] <size:14><i>Reward innovation and risk-taking
+**[#lightblue] <size:14><i>Continuous delivery pipeline
+***[#green] <size:14><i><color #white>Automate software delivery process
+***[#green] <size:14><i><color #white>Release software frequently
+***[#green] <size:14><i><color #white>Improve software quality and confidence
+**[#lightblue] <size:14><i>Breaking down silos
+***[#green] <size:14><i><color #white>Create cross-functional teams
+***[#green] <size:14><i><color #white>Improve communication
+***[#green] <size:14><i><color #white>Reduce handoffs
+***[#green] <size:14><i><color #white>Speed up delivery
+**[#lightblue] <size:14><i>Customer value
+***[#green] <size:14><i><color #white>Focus on customer needs and preferences
+***[#green] <size:14><i><color #white>Create products and services that meet customer expectations
+**[#lightblue] <size:14><i>Learning culture
+***[#green] <size:14><i><color #white>Encourage continuous learning and improvement
+***[#green] <size:14><i><color #white>Stay ahead of the curve
+***[#green] <size:14><i><color #white>Adapt to changing market conditions
 
 
 
 left side
 
-*[#lightblue] **"The Phoenix Project" vs "The Unicorn Project"**
+*[#darkblue]  <i>**"The Phoenix Project" vs "The Unicorn Project"**
 
-** Protagonist **(مرکزی کردار)**
-*** "The Phoenix Project": Bill
-*** "The Unicorn Project": Maxine
+**[#lightblue] <size:14><i>Protagonist **(مرکزی کردار)**
+***[#green] <size:14><i>"<color #white>The Phoenix Project": Bill
+***[#green] <size:14><i>"<color #white>The Unicorn Project": Maxine
 
-**[#pink] **Focus**
-*** "The Phoenix Project": **DevOps principles, technical aspects, modernizing legacy systems**
-*** "The Unicorn Project": **Organizational culture, fostering innovation and collaboration**
+**[#lightblue] <size:14><i>**Focus**
+***[#green] <size:14><i>"<color #white>The Phoenix Project": **DevOps principles, technical aspects, modernizing legacy systems**
+***[#green] <size:14><i>"<color #white>The Unicorn Project": **Organizational culture, fostering innovation and collaboration**
 
-** Similarities
-*** Both valuable resources for IT professionals
-*** Well-written and engaging
-*** **Provide practical insights into __modern IT management__**
+**[#lightblue] <size:14><i>Similarities
+***[#green] <size:14><i><color #white>Both valuable resources for IT professionals
+***[#green] <size:14><i><color #white>Well-written and engaging
+***[#green] <size:14><i>**<color #white>Provide practical insights into __modern IT management__**
 
 
 
 
 right side
 
-* **"The Unicorn Project"** is a novel by Gene Kim, which focuses on the \nchallenges faced by **IT organizations in large enterprises.** The book \nfollows the journey of a software developer named Maxine, who is \ntasked with improving the company's struggling IT department. \nThroughout the story, Maxine faces a variety of obstacles, from \nentrenched bureaucracy to outdated technology to a lack of trust \nbetween different teams. As she works to transform the IT department, \nMaxine learns a number of valuable lessons about how to build and run \na successful organization. Some of the key themes and concepts explored \nin the book include:\n \t\t **Key Takeaways**
-**[#yellow] Customer needs
-*** Prioritize customer needs and preferences
-*** Create products and services that add value
-**[#yellow] Cross-functional collaboration
-*** Break down silos and functional boundaries
-*** Create cross-functional teams
-*** Foster collaboration and trust
-**[#yellow] Automation and DevOps practices
-*** Automate routine tasks
-*** Embrace DevOps practices, such as continuous delivery
-*** Improve software quality and speed up delivery
-**[#yellow] Continuous learning and improvement
-*** Foster a culture of continuous learning and improvement
-*** Adapt to changing market conditions
-*** Stay ahead of the curve
-**[#yellow] Simplicity and flow
-*** Simplify processes
-*** Minimize bottlenecks
-*** Improve flow and speed up delivery
-**[#yellow] Experimentation and innovation
-*** Encourage experimentation and risk-taking
-*** Foster innovation and new ideas
+*[#darkblue] <i>**"The Unicorn Project"** is a novel by Gene Kim, which focuses on the \nchallenges faced by **IT organizations in large enterprises.** The book \nfollows the journey of a software developer named Maxine, who is \ntasked with improving the company's struggling IT department. \nThroughout the story, Maxine faces a variety of obstacles, from \nentrenched bureaucracy to outdated technology to a lack of trust \nbetween different teams. As she works to transform the IT department, \nMaxine learns a number of valuable lessons about how to build and run \na successful organization. Some of the key themes and concepts explored \nin the book include:\n \t\t **Key Takeaways**
+**[#lightblue] <size:14><i>Customer needs
+***[#green] <size:14><i><color #white>Prioritize customer needs and preferences
+***[#green] <size:14><i><color #white>Create products and services that add value
+**[#lightblue] <size:14><i>Cross-functional collaboration
+***[#green] <size:14><i><color #white>Break down silos and functional boundaries
+***[#green] <size:14><i><color #white>Create cross-functional teams
+***[#green] <size:14><i><color #white>Foster collaboration and trust
+**[#lightblue] <size:14><i>Automation and DevOps practices
+***[#green] <size:14><i><color #white>Automate routine tasks
+***[#green] <size:14><i><color #white>Embrace DevOps practices, such as continuous delivery
+***[#green] <size:14><i><color #white>Improve software quality and speed up delivery
+**[#lightblue] <size:14><i>Continuous learning and improvement
+***[#green] <size:14><i><color #white>Foster a culture of continuous learning and improvement
+***[#green] <size:14><i><color #white>Adapt to changing market conditions
+***[#green] <size:14><i><color #white>Stay ahead of the curve
+**[#lightblue] <size:14><i>Simplicity and flow
+***[#green] <size:14><i><color #white>Simplify processes
+***[#green] <size:14><i><color #white>Minimize bottlenecks
+***[#green] <size:14><i><color #white>Improve flow and speed up delivery
+**[#lightblue] <size:14><i>Experimentation and innovation
+***[#green] <size:14><i><color #white>Encourage experimentation and risk-taking
+***[#green] <size:14><i><color #white>Foster innovation and new ideas
 
 
 
 
 
-* **The DevOps Handbook Key Takeaways**
-**[#yellow] Collaboration and communication
-*** **DevOps** emphasizes breaking down silos and encouraging collaboration and communication between teams and stakeholders.
-**[#yellow] **Automation**
-*** **Automation** can help reduce errors and improve efficiency, allowing organizations to deliver software faster and more reliably.
-**[#yellow] Continuous improvement
-*** DevOps emphasizes continually evaluating and improving software development and delivery processes to stay ahead of the competition.
-**[#yellow] Feedback
-*** DevOps provides numerous practices and tools for providing realtime feedback on software performance and reliability, allowing organizations to quickly identify and address issues.
-**[#yellow] **Infrastructure as code**
-*** **Infrastructure as code** allows organizations to automate the management and **provisioning of infrastructure**, making it easier to scale and manage complex systems.
-**[#yellow] **Security**
-*** DevOps emphasizes integrating security into every stage of the software delivery process, rather than treating it as an **afterthought.**
-**[#yellow] Culture change
-*** Successfully implementing DevOps practices often requires a culture change within organizations, with a focus on collaboration, experimentation, and continuous improvement.
+*[#darkblue] <i>The DevOps Handbook Key Takeaways
+**[#lightblue] <size:14><i>Collaboration and communication
+***[#green] <size:14><i><color #white>**DevOps** emphasizes breaking down silos and encouraging collaboration and communication between teams and stakeholders.
+**[#lightblue] <size:14><i>**Automation**
+***[#green] <size:14><i><color #white>**Automation** can help reduce errors and improve efficiency, allowing organizations to deliver software faster and more reliably.
+**[#lightblue] <size:14><i>Continuous improvement
+***[#green] <size:14><i><color #white>DevOps emphasizes continually evaluating and improving software development and delivery processes to stay ahead of the competition.
+**[#lightblue] <size:14><i>Feedback
+***[#green] <size:14><i><color #white>DevOps provides numerous practices and tools for providing realtime feedback on software performance and reliability, allowing organizations to quickly identify and address issues.
+**[#lightblue] <size:14><i>**Infrastructure as code**
+***[#green] <size:14><i><color #white>**Infrastructure as code** allows organizations to automate the management and **provisioning of infrastructure**, making it easier to scale and manage complex systems.
+**[#lightblue] <size:14><i>**Security**
+***[#green] <size:14><i><color #white>DevOps emphasizes integrating security into every stage of the software delivery process, rather than treating it as an **afterthought.**
+**[#lightblue] <size:14><i>Culture change
+***[#green] <size:14><i><color #white>Successfully implementing DevOps practices often requires a culture change within organizations, with a focus on collaboration, experimentation, and continuous improvement.
 
 
 left side
 
-* **Effective DevOps Key Takeaways**
-** **Collaboration and communication** are crucial to success
-** **Automation** is essential for streamlining the process
-** **Continuous learning and improvement** are key components
-** **Infrastructure as code** can make it easier to manage **complex systems**
-** **Security** should be integrated into every **stage of the process**
-** DevOps requires a **cultural shift within organizations**
-** Real-world case studies provide valuable insights
+*[#darkblue] <i>Effective DevOps Key Takeaways
+**[#lightblue] <size:14><i>**Collaboration and communication** are crucial to success
+**[#lightblue] <size:14><i>**Automation** is essential for streamlining the process
+**[#lightblue] <size:14><i>**Continuous learning and improvement** are key components
+**[#lightblue] <size:14><i>**Infrastructure as code** can make it easier to manage **complex systems**
+**[#lightblue] <size:14><i>**Security** should be integrated into every **stage of the process**
+**[#lightblue] <size:14><i>DevOps requires a **cultural shift within organizations**
+**[#lightblue] <size:14><i>Real-world case studies provide valuable insights
 
 
 
@@ -120,190 +121,131 @@ left side
 
 right side
 
-* **Key Takeaways from "Site Reliability Engineering"**
+*[#darkblue] <i>Key Takeaways from "Site Reliability Engineering"
 
 
-** SRE treats **operations** as a software problem
-*** Apply **engineering principles** to build and operate reliable, scalable systems
-** **Service level objectives (SLOs) are key**
-*** Provide a **quantitative target for reliability and availability**
-** Error budgets balance reliability and innovation
-*** Allow a certain amount of downtime or errors without affecting the SLO
-** Incident management is critical
-*** Detect, respond to, and resolve incidents in a timely manner
-** **Automation is a key tool**
-*** Reduce toil, improve reliability, and increase efficiency
-** SRE teams use a range of tools and techniques
-*** Canary testing, disaster recovery testing, blameless postmortems, etc.
-** SRE involves a culture of learning and continuous improvement
-*** Failures are opportunities to learn and improve
-**[#yellow] **Technical debt is a trade-off**
-*** Must be managed carefully
-** Collaboration and communication are critical for success
-*** Teams must work closely together to manage incidents, resolve issues, and make improvements
-
-
-
-
-* **Key Takeaways from "Cloud Native Infrastructure"**
-** Cloud native infrastructure is a new approach to building and managing modern, scalable infrastructure in the cloud.
-**[#yellow] **Automation, containers, microservices, and serverless computing are key characteristics of cloud native infrastructure.**
-**[#yellow] **Tools like Kubernetes, Docker, Terraform, and Ansible are essential for building and managing cloud native infrastructure.**
-**[#yellow] **Monitoring, logging, and security are critical aspects of cloud native infrastructure.**
-** Cloud native infrastructure requires a cultural shift in organizations, with a focus on collaboration, agility, and experimentation.
-** By adopting cloud native infrastructure, organizations can achieve greater agility, scalability, and cost efficiency, while delivering better performance and reliability to their customers.
-** **Adopting cloud native infrastructure is a journey, and organizations should start by identifying the key areas where they can gain the most benefits and focus their efforts there.**
-** Cloud native infrastructure requires a different approach to team organization and skill sets, with a focus on cross-functional teams and a culture of learning and continuous improvement.
-**[#yellow] **Cloud native infrastructure is not a one-size-fits-all solution, and organizations should carefully evaluate their needs and choose the right tools and technologies for their specific use case.**
+**[#lightblue] <size:14><i>SRE treats **operations** as a software problem
+***[#green] <size:14><i><color #white>Apply **engineering principles** to build and operate reliable, scalable systems
+**[#lightblue] <size:14><i>**Service level objectives (SLOs) are key**
+***[#green] <size:14><i><color #white>Provide a **quantitative target for reliability and availability**
+**[#lightblue] <size:14><i>Error budgets balance reliability and innovation
+***[#green] <size:14><i><color #white>Allow a certain amount of downtime or errors without affecting the SLO
+**[#lightblue] <size:14><i>Incident management is critical
+***[#green] <size:14><i><color #white>Detect, respond to, and resolve incidents in a timely manner
+**[#lightblue] <size:14><i>**Automation is a key tool**
+***[#green] <size:14><i><color #white>Reduce toil, improve reliability, and increase efficiency
+**[#lightblue] <size:14><i>SRE teams use a range of tools and techniques
+***[#green] <size:14><i><color #white>Canary testing, disaster recovery testing, blameless postmortems, etc.
+**[#lightblue] <size:14><i>SRE involves a culture of learning and continuous improvement
+***[#green] <size:14><i><color #white>Failures are opportunities to learn and improve
+**[#lightblue] <size:14><i>**Technical debt is a trade-off**
+***[#green] <size:14><i><color #white>Must be managed carefully
+**[#lightblue] <size:14><i>Collaboration and communication are critical for success
+***[#green] <size:14><i><color #white>Teams must work closely together to manage incidents, resolve issues, and make improvements
 
 
 
 
+*[#darkblue] <i>**Key Takeaways from "Cloud Native Infrastructure"**
+**[#lightblue] <size:14><i>Cloud native infrastructure is a new approach to building and managing modern, scalable infrastructure in the cloud.
+**[#lightblue] <size:14><i>**Automation, containers, microservices, and serverless computing are key characteristics of cloud native infrastructure.**
+**[#lightblue] <size:14><i>**Tools like Kubernetes, Docker, Terraform, and Ansible are essential for building and managing cloud native infrastructure.**
+**[#lightblue] <size:14><i>**Monitoring, logging, and security are critical aspects of cloud native infrastructure.**
+**[#lightblue] <size:14><i>Cloud native infrastructure requires a cultural shift in organizations, with a focus on collaboration, agility, and experimentation.
+**[#lightblue] <size:14><i>By adopting cloud native infrastructure, organizations can achieve greater agility, scalability, and cost efficiency, while delivering better performance and reliability to their customers.
+**[#lightblue] <size:14><i>**Adopting cloud native infrastructure is a journey, and organizations should start by identifying the key areas where they can gain the most benefits and focus their efforts there.**
+**[#lightblue] <size:14><i>Cloud native infrastructure requires a different approach to team organization and skill sets, with a focus on cross-functional teams and a culture of learning and continuous improvement.
+**[#lightblue] <size:14><i>**Cloud native infrastructure is not a one-size-fits-all solution, and organizations should carefully evaluate their needs and choose the right tools and technologies for their specific use case.**
 
-* **Key Takeaways from "Cloud Computing"**
-** Cloud computing has revolutionized business operations
-**[#yellow] **Key technologies: virtualization, multi-tenancy, and elasticity**
-*** Enables optimization of resource utilization and improves efficiency
-**[#pink] **Cloud infrastructure: data centers, networking, storage, and virtualization**
-*** **Understanding component interaction is essential for management**
-** __**Three main cloud service models: SaaS, PaaS, and IaaS**__
-***[#yellow] Choosing the right service model is critical for meeting specific business requirements
-**[#yellow] **Cloud security: data privacy, compliance, identity and access management, and network security**
-*** Requires careful planning and implementation of best practices
-** Cultural shift required for cloud adoption
-*** Collaboration, agility, and experimentation are key focuses
-*** Cross-functional teams with the right skill sets are necessary for effective management
-** Cloud computing is not a one-size-fits-all solution
-*** Requires a deep understanding of key principles and best practices
+
+
+
+
+*[#darkblue] <i>Key Takeaways from "Cloud Computing"
+**[#lightblue] <size:14><i>Cloud computing has revolutionized business operations
+**[#lightblue] <size:14><i>**Key technologies: virtualization, multi-tenancy, and elasticity**
+***[#green] <size:14><i><color #white>Enables optimization of resource utilization and improves efficiency
+**[#lightblue] <size:14><i>**Cloud infrastructure: data centers, networking, storage, and virtualization**
+***[#green] <size:14><i>**<color #white>Understanding component interaction is essential for management**
+**[#lightblue] <size:14><i>__**Three main cloud service models: SaaS, PaaS, and IaaS**__
+***[#green] <size:14><i><color #white>Choosing the right service model is critical for meeting specific business requirements
+**[#lightblue] <size:14><i>**Cloud security: data privacy, compliance, identity and access management, and network security**
+***[#green] <size:14><i><color #white>Requires careful planning and implementation of best practices
+**[#lightblue] <size:14><i>Cultural shift required for cloud adoption
+***[#green] <size:14><i><color #white>Collaboration, agility, and experimentation are key focuses
+***[#green] <size:14><i><color #white>Cross-functional teams with the right skill sets are necessary for effective management
+**[#lightblue] <size:14><i>Cloud computing is not a one-size-fits-all solution
+***[#green] <size:14><i><color #white>Requires a deep understanding of key principles and best practices
 
 
 
 
 * **Kubernetes: Up and Running**
-** Kubernetes is a powerful and flexible container orchestration system
-*** Can **manage and scale containerized applications** in a variety of **environments**
-****[#yellow] **GCP, AWS, MS Azure, On-premises**
-**[#yellow] **Building a Kubernetes cluster requires careful planning and configuration**
-*** **Control plane, worker nodes, networking, and storage**
-** Kubernetes provides a declarative approach to managing applications
-*** Define desired state of applications and let Kubernetes handle deployment and management
-**[#yellow] **Kubernetes provides powerful tools for scaling and managing applications**
-*** **Automatic scaling based on demand, rolling updates and rollbacks, configuration management**
-** **Monitoring and troubleshooting Kubernetes clusters is essential for ensuring high availability and performance**
-*** Built-in monitoring and logging tools, third-party tools available
-** **Kubernetes is highly extensible and can be customized using extensions and plugins**
-*** Develop and deploy custom controllers to automate common tasks
-** Kubernetes is an active and rapidly evolving open-source project
-*** Large and growing community of contributors
+**[#lightblue] <size:14><i>Kubernetes is a powerful and flexible container orchestration system
+***[#green] <size:14><i><color #white>Can **manage and scale containerized applications** in a variety of **environments**
+****[#orange] <size:14><i>**GCP, AWS, MS Azure, On-premises**
+**[#lightblue] <size:14><i>**Building a Kubernetes cluster requires careful planning and configuration**
+***[#green] <color #white><size:14><i>**Control plane, worker nodes, networking, and storage**
+**[#lightblue] <size:14><i>Kubernetes provides a declarative approach to managing applications
+***[#green] <color #white><size:14><i>Define desired state of applications and let Kubernetes handle deployment and management
+**[#lightblue] <size:14><i>**Kubernetes provides powerful tools for scaling and managing applications**
+***[#green] <color #white><size:14><i>**Automatic scaling based on demand, rolling updates and rollbacks, configuration management**
+**[#lightblue] <size:14><i>**Monitoring and troubleshooting Kubernetes clusters is essential for ensuring high availability and performance**
+***[#green] <color #white><size:14><i>Built-in monitoring and logging tools, third-party tools available
+**[#lightblue] <size:14><i>**Kubernetes is highly extensible and can be customized using extensions and plugins**
+***[#green] <color #white><size:14><i>Develop and deploy custom controllers to automate common tasks
+**[#lightblue] <size:14><i>Kubernetes is an active and rapidly evolving open-source project
+***[#green] <color #white><size:14><i>Large and growing community of contributors
 
-*[#pink] **Cloud Architecture Patterns**
-** Cloud computing provides many benefits, but also presents unique challenges
-***[#yellow] __**Scalability, reliability, security, and performance are key concerns**__
-** **Cloud architecture patterns** provide proven solutions to common cloud challenges
-***[#yellow] __**Patterns can be used to design scalable and reliable systems, improve performance, and enhance security**__
-** **Cloud architecture patterns** can be grouped into several __**categories**__
-***[#yellow] __** Scalability patterns, resiliency patterns, security patterns, performance patterns, and cost optimization patterns**__
-** **Scalability patterns** are essential for designing systems that can __**handle variable workloads**__
-***[#pink] Horizontal scaling, vertical scaling, and auto-scaling are common scalability patterns
-** **Resiliency patterns** help ensure that systems can **recover from failures and continue to operate**
-***[#pink] Redundancy, failover, and graceful degradation are common resiliency patterns
-** **Security patterns** help **protect data and systems from unauthorized access and attacks**
-***[#pink] Encryption, access control, and monitoring are common security patterns
-** **Performance patterns** help **optimize system performance and reduce latency**
-***[#pink] Caching, sharding, and load balancing are common performance patterns
-** **Cost optimization patterns** help **__minimize cloud costs and improve cost efficiency__**
-***[#pink] Resource sharing, auto-scaling, and data lifecycle management are common cost optimization patterns
-** Choosing the right architecture pattern is critical for building scalable, reliable, and cost-effective cloud systems
-***[#yellow] __**Patterns should be selected based on specific business requirements and system characteristics**__
-
-
+* **Cloud Architecture Patterns**
+**[#lightblue] <size:14><i>Cloud computing provides many benefits, but also presents unique challenges
+***[#green] <color #white><size:14><i>__**Scalability, reliability, security, and performance are key concerns**__
+**[#lightblue] <size:14><i>**Cloud architecture patterns** provide proven solutions to common cloud challenges
+***[#green] <color #white><size:14><i>__**Patterns can be used to design scalable and reliable systems, improve performance, and enhance security**__
+**[#lightblue] <size:14><i>**Cloud architecture patterns** can be grouped into several __**categories**__
+***[#green] <color #white><size:14><i>__** Scalability patterns, resiliency patterns, security patterns, performance patterns, and cost optimization patterns**__
+**[#lightblue] <size:14><i>**Scalability patterns** are essential for designing systems that can __**handle variable workloads**__
+***[#green] <color #white><size:14><i>Horizontal scaling, vertical scaling, and auto-scaling are common scalability patterns
+**[#lightblue] <size:14><i>**Resiliency patterns** help ensure that systems can **recover from failures and continue to operate**
+***[#green] <color #white><size:14><i>Redundancy, failover, and graceful degradation are common resiliency patterns
+**[#lightblue] <size:14><i>**Security patterns** help **protect data and systems from unauthorized access and attacks**
+***[#green] <color #white><size:14><i>Encryption, access control, and monitoring are common security patterns
+**[#lightblue] <size:14><i>**Performance patterns** help **optimize system performance and reduce latency**
+***[#green] <color #white><size:14><i>Caching, sharding, and load balancing are common performance patterns
+**[#lightblue] <size:14><i>**Cost optimization patterns** help **__minimize cloud costs and improve cost efficiency__**
+***[#green] <color #white><size:14><i>Resource sharing, auto-scaling, and data lifecycle management are common cost optimization patterns
+**[#lightblue] <size:14><i>Choosing the right architecture pattern is critical for building scalable, reliable, and cost-effective cloud systems
+***[#green] <color #white><size:14><i>__**Patterns should be selected based on specific business requirements and system characteristics**__
 
 
 
 
-* **Key Takeaways from "Cloud Native Java"**
-** **Apps** are designed to be deployed on cloud infrastructure and are developed using modern software development techniques.
-***[#yellow] **Such applications are designed to be __resilient, scalable, and adaptable to changing environments.__**
-***[#yellow] **[[https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/definition The 12-factor app methodology]]** provides a **framework** for building cloud-native applications that can be deployed and run in any **environment.**
-*** **Microservices** are a key component of **cloud native applications,** and they are designed to be **small, loosely coupled, and independently deployable.**
-*** **Microservices** can be developed using different programming languages, and **each service** can have its own **datastore (not necessarily)**
-** **Containerization** provides a lightweight and portable way to package and deploy applications.
-***[#yellow] **Docker** is the de facto standard for **containerization** and **__provides a way to build, ship, and run applications across different environments.__**
-** **Microservices architecture** & **Spring Framework** is a popular approach for building cloud-native Java applications, where each microservice is designed to perform a single, specific task.
-***[#pink] **Spring Boot** provides a streamlined way to build and deploy Spring-based applications.
-***[#pink] **Spring Cloud** provides a set of tools and frameworks for building resilient and scalable microservices.
-** **APIs** are a **critical component of cloud native applications** and can be used to expose functionality to external consumers.
-*** **API design** should follow best practices such as RESTful design principles.
-*** **API gateways** can be used to manage and secure APIs.
-** **Continuous Integration and Continuous Delivery (CI/CD)** is a key practice for **cloud native development** and allows for fast and frequent releases.
-*** **Automated testing, deployment, and monitoring are key components of a successful CI/CD pipeline.**
-** **Containers** and container orchestration platforms like **Kubernetes** provide an efficient and scalable way to deploy and manage cloud-native Java applications.
-*** **Kubernetes** is a popular container orchestration platform.
-** **Serverless computing** is a newer trend in **cloud-native computing,** where **applications** are deployed as **functions** that are run on-demand in response to **events.**
-** **DevOps and continuous delivery** practices are essential for building, testing, and deploying cloud-native Java applications with speed and confidence.
-** **Security** should be a top priority when building cloud-native Java applications, and measures such as secure communication, access control, and identity management should be implemented.
-** **Observability and monitoring** are critical for ensuring the performance, availability, and reliability of cloud-native Java applications.
-*** Tools like **Prometheus and Grafana** can be used for monitoring and visualizing application metrics.
 
 
-*  **Designing Data-Intensive Applications**\n **Key Takeaways**
-**[#yellow] **Choose** the right **__data model__** for your **application**
-***[#white] **Data Model**
-****[#white] **Hierarchical**
-****[#white] **Network**
-****[#red] =**Relational (SQL) + ACID**
-*****[#pink]  =**schema-based database**
-*****[#white]  **Types**
-******[#yellow]  **Relational**
-*******[#white]  **SQL Server**
-*******[#white]  **My SQL**
-*******[#white]  **Oracle**
-*******[#white]  **Postgres**
-*******[#white]  **SQL Compact**
-******[#yellow]  **Analiticals (OLAP)**
-****[#gold] =**Non-Relational (No-SQL) + BASE**
-*****[#pink] =**schema-less database**
-*****[#white] **Types**
-******[#yellow] **Document**
-*******[#white] **Mongo DB**
-*******[#white] **Couch DB**
-*******[#white] **Arango DB**
-*******[#white] **RAVEN DB**
-******[#yellow] **Graph**
-*******[#white] **neo4j**
-*******[#white] **AllergoGraph**
-******[#yellow] **Key-Value**
-*******[#white] **redis**
-*******[#white] **memcached**
-*******[#white] **ignite**
-*******[#white] **riak**
-******[#yellow] **Wide-column**
-*******[#white] **cassandra**
-*******[#white] **Apache HBase**
-*** Each **__data model__** has its own **strengths and weaknesses**
-***[#pink] **__The choice of data model can significantly impact performance and scalability__**
-**[#yellow] **Data __storage__ and __retrieval__**
-*** **__Techniques__** include **indexing, caching, and compression**
-***[#pink] __**Choice of storage technique can impact performance and scalability**__
-**[#yellow] **Data processing**
-*** Covers **batch processing and stream processing**
-*** **__Techniques__** include **MapReduce and Apache Kafka**
-****[#pink] **Apache beam** can do **stream and batch processing** & is open source plus latest **technology**. \n It is a **polyglot** tool (meaning works flawlessly with different programing languages)
-*** Emphasizes importance of **fault tolerance**
-**[#yellow] **Distributed systems**
-*** Includes **distributed databases, messaging, and consensus algorithms**
-*** Emphasizes importance of **fault tolerance and replication**
-**[#yellow] **Scalability**
-*** **__Techniques__** include **sharding, partitioning, and replication**
-*** Emphasizes importance of **horizontal scalability**
-**[#yellow] **Reliability**
-*** **__Techniques__** include **replication, consensus algorithms, and failure detection**
-*** Emphasizes importance of **designing for failure**
-**[#yellow] **Performance**
-*** Guidance on **optimizing latency, throughput, and resource utilization**
-**[#yellow] **Trade-offs**
-***[#orange] **__Every design decision involves trade-offs__**
-***[#orange] **Encourages making informed choices**
+*[#darkblue] <i>**Key Takeaways from "Cloud Native Java"**
+**[#lightblue] <size:14><i>**Apps** are designed to be deployed on cloud infrastructure and are developed using modern software development techniques.
+***[#green] <color #white><size:14><i>**Such applications are designed to be __resilient, scalable, and adaptable to changing environments.__**
+***[#green] <color #white><size:14><i>**[[https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/definition The 12-factor app methodology]]** provides a **framework** for building cloud-native applications that can be deployed and run in any **environment.**
+***[#green] <color #white><size:14><i>**Microservices** are a key component of **cloud native applications,** and they are designed to be **small, loosely coupled, and independently deployable.**
+***[#green] <color #white><size:14><i>**Microservices** can be developed using different programming languages, and **each service** can have its own **datastore (not necessarily)**
+**[#lightblue] <size:14><i> **Containerization** provides a lightweight and portable way to package and deploy applications.
+***[#green] <color #white><size:14><i>**Docker** is the de facto standard for **containerization** and **__provides a way to build, ship, and run applications across different environments.__**
+**[#lightblue] <size:14><i>**Microservices architecture** & **Spring Framework** is a popular approach for building cloud-native Java applications, where each microservice is designed to perform a single, specific task.
+***[#green] <color #white><size:14><i>**Spring Boot** provides a streamlined way to build and deploy Spring-based applications.
+***[#green] <color #white><size:14><i>**Spring Cloud** provides a set of tools and frameworks for building resilient and scalable microservices.
+**[#lightblue] <size:14><i>**APIs** are a **critical component of cloud native applications** and can be used to expose functionality to external consumers.
+***[#green] <color #white><size:14><i>**API design** should follow best practices such as RESTful design principles.
+***[#green] <color #white><size:14><i>**API gateways** can be used to manage and secure APIs.
+**[#lightblue] <size:14><i>**Continuous Integration and Continuous Delivery (CI/CD)** is a key practice for **cloud native development** and allows for fast and frequent releases.
+***[#green] <color #white><size:14><i>**Automated testing, deployment, and monitoring are key components of a successful CI/CD pipeline.**
+**[#lightblue] <size:14><i>**Containers** and container orchestration platforms like **Kubernetes** provide an efficient and scalable way to deploy and manage cloud-native Java applications.
+***[#green] <color #white><size:14><i>**Kubernetes** is a popular container orchestration platform.
+**[#lightblue] <size:14><i>**Serverless computing** is a newer trend in **cloud-native computing,** where **applications** are deployed as **functions** that are run on-demand in response to **events.**
+**[#lightblue] <size:14><i>**DevOps and continuous delivery** practices are essential for building, testing, and deploying cloud-native Java applications with speed and confidence.
+**[#lightblue] <size:14><i>**Security** should be a top priority when building cloud-native Java applications, and measures such as secure communication, access control, and identity management should be implemented.
+**[#lightblue] <size:14><i>**Observability and monitoring** are critical for ensuring the performance, availability, and reliability of cloud-native Java applications.
+***[#green] <color #white><size:14><i>Tools like **Prometheus and Grafana** can be used for monitoring and visualizing application metrics.
+
 
 @endmindmap
 
