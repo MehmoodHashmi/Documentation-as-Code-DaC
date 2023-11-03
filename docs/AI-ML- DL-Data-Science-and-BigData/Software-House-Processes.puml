@@ -51,9 +51,9 @@ title =__Software House Processes__
 ***[#green] ====<size:14><color #white>**Research & Development**
 ****[#orange] ====<size:14><color #black>**Technology Exploration**
 *****[#yellow] ====<size:14>Continuously explore emerging technologies and trends relevant to your software offerings.
-****[#orange] ====<size:14><color #black>**Prototyping**
+****[#orange] ====<size:18><color #black>**[[../1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]**
 *****[#yellow] ====<size:14>Create prototypes to validate new ideas and concepts before full-scale development.
-****[#orange] ====<size:14><color #black>**Proof of Concepts**
+****[#orange] ====<size:18><color #black><b>[[../1-Requirement-Engineering/MVP-PoC-and-case-study/Proof-of-Concept-1.puml Proof of Concepts]]
 *****[#yellow] ====<size:14>Develop proof of concepts to demonstrate the feasibility of innovative solutions.
 
 ***[#green] ====<size:14><color #white>**Emerging Technologies**
