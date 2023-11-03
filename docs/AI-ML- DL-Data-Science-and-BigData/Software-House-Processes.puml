@@ -53,7 +53,7 @@ title =__Software House Processes__
 *****[#yellow] ====<size:14>Continuously explore emerging technologies and trends relevant to your software offerings.
 ****[#orange] ====<size:18><color #black>**[[../1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]**
 *****[#yellow] ====<size:14>Create prototypes to validate new ideas and concepts before full-scale development.
-****[#orange] ====<size:18><color #black><b>[[../1-Requirement-Engineering/MVP-PoC-and-case-study/Proof-of-Concept-1.puml Proof of Concepts]]
+****[#orange] ====<size:18><color #black><b>[[../1-Requirement-Engineering/MVP-PoC-and-case-study/Proof-of-Concept.puml Proof-of-Concept]]
 *****[#yellow] ====<size:14>Develop proof of concepts to demonstrate the feasibility of innovative solutions.
 
 ***[#green] ====<size:14><color #white>**Emerging Technologies**
@@ -94,7 +94,7 @@ title =__Software House Processes__
 *****[#yellow] ====<size:14>Provide ongoing maintenance and updates for software products.
 
 **[#lightblue] ====<size:14><color #black>Marketing and Sales
-***[#green] ====<size:18><color #white>**Branding**
+***[#green] ====<size:22><color #white>**Branding**
 ****[#orange] ====<size:14><color #black>**Logo Design**
 *****[#yellow] ====<size:14><color #red>Create a unique and memorable logo to represent your software house.
 ****[#orange] ====<size:14><color #black>**Brand Identity**

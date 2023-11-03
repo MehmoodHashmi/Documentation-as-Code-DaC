@@ -1,0 +1,48 @@
+@startmindmap
+title =__Use Case Event Table__
+!theme hacker
+
+
+* Definition
+**[#lightblue] <i><size:14>A tool used in software development to define the behavior of a system from the point of view of its stakeholders
+**[#lightblue] <i><size:14>Describes the interaction between the system and its external actors, and the events that occur during the interaction
+
+* Components of Use Case Event Table
+**[#lightblue] <i><size:14>Use Case Name
+***[#yellow] <i><size:14>A short, descriptive name for the use case
+**[#lightblue] <i><size:14>Actor
+***[#yellow] <i><size:14>The person, system or organization that interacts with the system to achieve a goal
+**[#lightblue] <i><size:14>Trigger
+***[#yellow] <i><size:14>The **event** that initiates the use case
+**[#lightblue] <i><size:14>Preconditions
+***[#yellow] <i><size:14>Conditions that must be true for the use case to begin
+**[#lightblue] <i><size:14>Postconditions
+***[#yellow] <i><size:14>Conditions that must be true after the use case has been completed
+**[#lightblue] <i><size:14>--Main-- --Flow--
+***[#yellow] <i><size:14>A sequence of steps that describe the normal course of events for the use case
+**[#lightblue] <i><size:14>--Alternative-- --Flows--
+***[#yellow] <i><size:14>Sequences of steps that describe exceptional courses of events for the use case
+**[#lightblue] <i><size:14>**Exception Flows**
+***[#yellow] <i><size:14>Sequences of steps that describe how the system handles unexpected events
+
+* Benefits of Use Case Event Table
+**[#lightblue] <i><size:14>Clear and concise documentation of the system's behavior
+**[#lightblue] <i><size:14>Can be used to identify and manage system requirements
+**[#lightblue] <i><size:14>Provides a basis for system testing and validation
+**[#lightblue] <i><size:14>Can be used to communicate with stakeholders and project team members
+
+* Use Case Event Table Development Process
+**[#lightblue] <i><size:14>Identify the stakeholders and their goals
+**[#lightblue] <i><size:14>Identify the external actors and their interactions with the system
+**[#lightblue] <i><size:14>Identify the events that occur during the interactions
+**[#lightblue] <i><size:14>Develop the main flow of events
+**[#lightblue] <i><size:14>Identify and develop alternative and exception flows
+**[#lightblue] <i><size:14>Validate the use case event table with stakeholders and project team members
+
+* Tips for Creating Effective Use Case Event Tables
+**[#lightblue] <i><size:14>Keep the use case name short and descriptive
+**[#lightblue] <i><size:14>Use clear and concise language
+**[#lightblue] <i><size:14>Focus on the goals and needs of the stakeholders
+**[#lightblue] <i><size:14>Validate the use case event table with stakeholders and project team members
+**[#lightblue] <i><size:14>Use the event table as a living document that can be updated and revised throughout the development process
+@endmindmap
