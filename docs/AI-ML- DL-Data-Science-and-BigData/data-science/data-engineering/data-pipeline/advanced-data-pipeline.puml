@@ -1,100 +1,100 @@
 @startmindmap
-title =__ Advanced Data Pipeline__\n<img:images/img.png>
+title =<i><b><u>Advanced [[data-pipeline.puml Data Pipeline]]\n<img:images/img.png>
 * **[[https://youtu.be/VtzvF17ysbc  ]]**
 * **[[https://hazelcast.com/glossary/data-pipeline/]]**
 
 !theme hacker
 
-* Advanced Data Pipeline
-** Data Ingestion
-***[#gold] ====<size:14>Real-time Data Streaming
-****[#yellow] ====<size:14>Apache Kafka
-****[#yellow] ====<size:14>Amazon Kinesis
-****[#yellow] ====<size:14>Azure Event Hubs
-****[#yellow] ====<size:14>Google Cloud Pub/Sub
-***[#gold] ====<size:14>Change Data Capture **(CDC)**
-****[#yellow] ====<size:14>Debezium
-****[#yellow] ====<size:14>Oracle GoldenGate
-****[#yellow] ====<size:14>Attunity
-***[#gold] ====<size:14>IoT Data Ingestion
-****[#yellow] ====<size:14>MQTT Protocol
-****[#yellow] ====<size:14>Apache NiFi
-****[#yellow] ====<size:14>AWS IoT Core
-****[#yellow] ====<size:14>Azure IoT Hub
-**[#pink] =//Data Processing//
-***[#gold] ====<size:14>**Stream Processing** \n<img:images/stream-processing.png>
-****[#yellow] ====<size:14>Apache Flink
-****[#yellow] ====<size:14>Apache Storm
-****[#yellow] ====<size:14>Spark Streaming
-****[#yellow] ====<size:14>AWS Kinesis Data Analytics
-***[#gold] ====<size:14>**Batch Processing** \n<img:images/batch-processing.png>
-****[#yellow] ====<size:14>Apache Spark
-****[#yellow] ====<size:14>Apache Hadoop MapReduce
-****[#yellow] ====<size:14>AWS Glue
-****[#yellow] ====<size:14>Google Cloud Dataflow
-***[#gold] ====<size:14>**Lambda Architecture** is hybrid **(combination of stream and batch processing)** \n<img:images/lambda-architecture.png>
-** =Data Storage
-***[#pink] ====<size:14>Data  Warehouses
-****[#yellow] ====<size:14>Snowflake
-****[#yellow] ====<size:14>Amazon Redshift
-****[#yellow] ====<size:14>Google BigQuery
-****[#yellow] ====<size:14>Azure Synapse Analytics
-***[#pink] ====<size:14>Data Lakes
-****[#yellow] ====<size:14>Apache Hadoop HDFS
-****[#yellow] ====<size:14>Amazon S4
-****[#yellow] ====<size:14>Google Cloud Storage
-****[#yellow] ====<size:14>Azure Data Lake Storage
-***[#gold] ====<size:14>NoSQL Databases
-****[#yellow] ====<size:14>MongoDB
-****[#yellow] ====<size:14>Cassandra
-****[#yellow] ====<size:14>Apache CouchDB
-****[#yellow] ====<size:14>Amazon DynamoDB
-** =Data Governance
-***[#gold] ====<size:14>Data Catalog
-****[#yellow] ====<size:14>Apache Atlas
-****[#yellow] ====<size:14>AWS Glue Data Catalog
-****[#yellow] ====<size:14>Google Cloud Data Catalog
-****[#yellow] ====<size:14>Collibra Catalog
-***[#gold] ====<size:14>Data Quality
-****[#yellow] ====<size:14>Apache Griffin
-****[#yellow] ====<size:14>Talend Data Quality
-****[#yellow] ====<size:14>Informatica Data Quality
-****[#yellow] ====<size:14>Trifacta Wrangler
-***[#gold] ====<size:14>Data Lineage
-****[#yellow] ====<size:14>Apache Atlas
-****[#yellow] ====<size:14>Alation Data Catalog
-****[#yellow] ====<size:14>Informatica Axon
-****[#yellow] ====<size:14>Collibra Data Lineage
-** =Data Integration
-***[#gold] ====<size:14>ETL **(Extract, Transform, Load)**
-****[#yellow] ====<size:14>Apache Nifi
-****[#yellow] ====<size:14>Talend
-****[#yellow] ====<size:14>Informatica PowerCenter
-****[#yellow] ====<size:14>IBM InfoSphere DataStage
-***[#gold] ====<size:14>Data Orchestration
-****[#yellow] ====<size:14>Apache Airflow
-****[#yellow] ====<size:14>AWS Step Functions
-****[#yellow] ====<size:14>Google Cloud Composer
-****[#yellow] ====<size:14>Azure Data Factory
-***[#gold] ====<size:14>Data Virtualization
-****[#yellow] ====<size:14>Denodo
-****[#yellow] ====<size:14>IBM Data Virtualization
-****[#yellow] ====<size:14>Red Hat JBoss Data Virtualization
-****[#yellow] ====<size:14>Oracle Data Virtualization
-** =Data Security
-***[#gold] ====<size:14>Data Encryption
-****[#yellow] ====<size:14>Transparent Data Encryption **(TDE)**
-****[#yellow] ====<size:14>Amazon Key Management Service **(KMS)**
-****[#yellow] ====<size:14>Azure Key Vault
-****[#yellow] ====<size:14>Google Cloud Key Management Service **(KMS)**
-***[#gold] ====<size:14>Access Control
-****[#yellow] ====<size:14>Role-Based Access Control **(RBAC)**
-****[#yellow] ====<size:14>Attribute-Based Access Control **(ABAC)**
-****[#yellow] ====<size:14>Fine-Grained Access Control
-****[#yellow] ====<size:14>Data Masking
-***[#pink] ====<size:14>Data Privacy
-****[#yellow] ====<size:14>General Data Protection Regulation **(GDPR)**
-****[#yellow] ====<size:14>California Consumer Privacy Act **(CCPA)**
-****[#yellow] ====<size:14>Personal Data Protection Act **(PDPA)**
-****[#yellow] ====<size:14>Health Insurance Portability and Accountability Act **(HIPAA)**
+*[#darkblue] <i>Advanced Data Pipeline
+**[#lightblue] <i>Data Ingestion
+***[#green] <color #white><i><size:14>Real-time Data Streaming
+****[#yellow] <color #black><i><size:14>Apache Kafka
+****[#yellow] <color #black><i><size:14>Amazon Kinesis
+****[#yellow] <color #black><i><size:14>Azure Event Hubs
+****[#yellow] <color #black><i><size:14>Google Cloud Pub/Sub
+***[#green] <color #white><i><size:14>Change Data Capture **(CDC)**
+****[#yellow] <color #black><i><size:14>Debezium
+****[#yellow] <color #black><i><size:14>Oracle GoldenGate
+****[#yellow] <color #black><i><size:14>Attunity
+***[#green] <color #white><i><size:14>IoT Data Ingestion
+****[#yellow] <color #black><i><size:14>MQTT Protocol
+****[#yellow] <color #black><i><size:14>Apache NiFi
+****[#yellow] <color #black><i><size:14>AWS IoT Core
+****[#yellow] <color #black><i><size:14>Azure IoT Hub
+**[#lightblue] <size:22><i>Data Processing
+***[#green] <color #white><i><size:14>**Stream Processing**\n<img:images/stream-processing.png>
+****[#yellow] <color #black><i><size:14>Apache Flink
+****[#yellow] <color #black><i><size:14>Apache Storm
+****[#yellow] <color #black><i><size:14>Spark Streaming
+****[#yellow] <color #black><i><size:14>AWS Kinesis Data Analytics
+***[#green] <color #white><i><size:14>**Batch Processing**\n<img:images/batch-processing.png>
+****[#yellow] <color #black><i><size:14>Apache Spark
+****[#yellow] <color #black><i><size:14>Apache Hadoop MapReduce
+****[#yellow] <color #black><i><size:14>AWS Glue
+****[#yellow] <color #black><i><size:14>Google Cloud Dataflow
+***[#green] <color #white><i><size:14>**Lambda Architecture** hybrid **(combination of stream and batch processing)**\n<img:images/lambda-architecture.png>
+**[#lightblue] <size:22><i>Data Storage
+***[#green] <color #white><i><size:14>Data  Warehouses
+****[#yellow] <color #black><i><size:14>Snowflake
+****[#yellow] <color #black><i><size:14>Amazon Redshift
+****[#yellow] <color #black><i><size:14>Google BigQuery
+****[#yellow] <color #black><i><size:14>Azure Synapse Analytics
+***[#green] <color #white><i><size:14>Data Lakes
+****[#yellow] <color #black><i><size:14>Apache Hadoop HDFS
+****[#yellow] <color #black><i><size:14>Amazon S4
+****[#yellow] <color #black><i><size:14>Google Cloud Storage
+****[#yellow] <color #black><i><size:14>Azure Data Lake Storage
+***[#green] <color #white><i><size:14>NoSQL Databases
+****[#yellow] <color #black><i><size:14>MongoDB
+****[#yellow] <color #black><i><size:14>Cassandra
+****[#yellow] <color #black><i><size:14>Apache CouchDB
+****[#yellow] <color #black><i><size:14>Amazon DynamoDB
+**[#lightblue] <i>Data Governance
+***[#green] <color #white><i><size:14>Data Catalog
+****[#yellow] <color #black><i><size:14>Apache Atlas
+****[#yellow] <color #black><i><size:14>AWS Glue Data Catalog
+****[#yellow] <color #black><i><size:14>Google Cloud Data Catalog
+****[#yellow] <color #black><i><size:14>Collibra Catalog
+***[#green] <color #white><i><size:14>Data Quality
+****[#yellow] <color #black><i><size:14>Apache Griffin
+****[#yellow] <color #black><i><size:14>Talend Data Quality
+****[#yellow] <color #black><i><size:14>Informatica Data Quality
+****[#yellow] <color #black><i><size:14>Trifacta Wrangler
+***[#green] <color #white><i><size:14>Data Lineage
+****[#yellow] <color #black><i><size:14>Apache Atlas
+****[#yellow] <color #black><i><size:14>Alation Data Catalog
+****[#yellow] <color #black><i><size:14>Informatica Axon
+****[#yellow] <color #black><i><size:14>Collibra Data Lineage
+**[#lightblue] <i>Data Integration
+***[#green] <color #white><i><size:14>ETL **(Extract, Transform, Load)**
+****[#yellow] <color #black><i><size:14>Apache Nifi
+****[#yellow] <color #black><i><size:14>Talend
+****[#yellow] <color #black><i><size:14>Informatica PowerCenter
+****[#yellow] <color #black><i><size:14>IBM InfoSphere DataStage
+***[#green] <color #white><i><size:14>Data Orchestration
+****[#yellow] <color #black><i><size:14>Apache Airflow
+****[#yellow] <color #black><i><size:14>AWS Step Functions
+****[#yellow] <color #black><i><size:14>Google Cloud Composer
+****[#yellow] <color #black><i><size:14>Azure Data Factory
+***[#green] <color #white><i><size:14>Data Virtualization
+****[#yellow] <color #black><i><size:14>Denodo
+****[#yellow] <color #black><i><size:14>IBM Data Virtualization
+****[#yellow] <color #black><i><size:14>Red Hat JBoss Data Virtualization
+****[#yellow] <color #black><i><size:14>Oracle Data Virtualization
+**[#lightblue] <i>Data Security
+***[#green] <color #white><i><size:14>Data Encryption
+****[#yellow] <color #black><i><size:14>Transparent Data Encryption **(TDE)**
+****[#yellow] <color #black><i><size:14>Amazon Key Management Service **(KMS)**
+****[#yellow] <color #black><i><size:14>Azure Key Vault
+****[#yellow] <color #black><i><size:14>Google Cloud Key Management Service **(KMS)**
+***[#green] <color #white><i><size:14>Access Control
+****[#yellow] <color #black><i><size:14>Role-Based Access Control **(RBAC)**
+****[#yellow] <color #black><i><size:14>Attribute-Based Access Control **(ABAC)**
+****[#yellow] <color #black><i><size:14>Fine-Grained Access Control
+****[#yellow] <color #black><i><size:14>Data Masking
+***[#green] <color #white><i><size:14>Data Privacy
+****[#yellow] <color #black><i><size:14>General Data Protection Regulation **(GDPR)**
+****[#yellow] <color #black><i><size:14>California Consumer Privacy Act **(CCPA)**
+****[#yellow] <color #black><i><size:14>Personal Data Protection Act **(PDPA)**
+****[#yellow] <color #black><i><size:14>Health Insurance Portability and Accountability Act **(HIPAA)**
 @endmindmap

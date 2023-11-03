@@ -1,5 +1,5 @@
 @startmindmap
-title =Data Engineering\n<img:images/img.png> <img:images/img_1.png>\n <color #gold>All the underlined text with "white color" is clickable!
+title =<b><i><u>Data Engineering\n<img:images/img.png> <img:images/img_1.png>\n <color #gold>All the underlined text with "white color" is clickable!
 !theme hacker
 
 *[#darkblue] <i>Data Engineering
@@ -81,5 +81,4 @@ title =Data Engineering\n<img:images/img.png> <img:images/img_1.png>\n <color #g
 
 ***[#green] <i><size:14>**[[../../../3-devops/devops-plantuml-mindmap/Automation.puml Automation]]**
 ****[#orange] <i><size:14><color #black>**Automate data [[data-pipeline/advanced-data-pipeline.puml pipelines]] [[../../../3-programming-languages/architectural-characteristics/Deployability.puml (deployment)]], [[../../../books/1-books-backlog/software-testing/Levels-of-Testing.puml testing,]] [[../../../3-programming-languages/architectural-characteristics/Maintainability.puml and maintenance]].**
-
 @endmindmap
