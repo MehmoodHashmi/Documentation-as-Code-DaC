@@ -1,16 +1,5 @@
 @startmindmap
 <style>
-node {
-    Padding 12
-    Margin 3
-    HorizontalAlignment center
-    LineColor blue
-    LineThickness 3.0
-    BackgroundColor gold
-    RoundCorner 40
-    MaximumWidth 1000
-}
-
 rootNode {
     LineStyle 8.0;3.0
     LineColor red
@@ -19,127 +8,121 @@ rootNode {
     RoundCorner 0
     Shadowing 1.0
 }
-
-leafNode {
-    LineColor gold
-    RoundCorner 0
-    Padding 3
-}
-
 arrow {
     LineStyle 4
     LineThickness 1.0
     LineColor green
 }
 </style>
+!theme hacker
 
 title =__Advanced Operating Systems__
 
-*[#yellow] **Kernel Architecture**
-** Monolithic Kernel
-*** Advantages
-**** Fast Performance
-**** Tight Integration with Hardware
-**** Shared Memory
-**** Efficient System Calls
-*** Disadvantages
-**** Lack of Modularity
-**** Single Point of Failure
-**** Complex Debugging and Maintenance
-** Microkernel
-*** Advantages
-**** High Modularity
-**** Fault Isolation
-**** Ease of Development and Maintenance
-**** Dynamic Reconfiguration
-*** Disadvantages
-**** Performance Overhead
-**** IPC Communication Overhead
-**** Lack of Standardization
-** Hybrid Kernel
-*** Advantages
-**** Modularity
-**** Flexibility
-**** Performance
-**** Security
-*** Disadvantages
-**** Complexity
-**** Overhead
-**** Security Risks
-*[#yellow] **Virtualization**
-** Full Virtualization
-*** Emulation
-*** Hypervisor
-** Paravirtualization
-*** Lightweight Virtualization
-*** Hardware Assisted Virtualization
-** Containerization
-*** Container Engines
-*** Container Orchestration
-* Concurrency
-** Process Synchronization
-*** Semaphores
-*** Monitors
-*** Mutexes
-*** Spin Locks
-** Deadlock Prevention
-*** Resource Allocation Graphs
-*** Banker's Algorithm
-** Multithreading
-*** User-Level Threads
-*** Kernel-Level Threads
-** Concurrency Control
-*** Lock-Based Protocols
-*** Timestamp-Based Protocols
-*** Validation-Based Protocols
-* File Systems
-** Disk Layout
-*** Partitioning
-*** Formatting
-** File Allocation
-*** Contiguous Allocation
-*** Linked Allocation
-*** Indexed Allocation
-** File Access
-*** Directories
-*** File Sharing
-*** File Locking
-** Journaling File Systems
-*** Write-Back Journaling
-*** Write-Through Journaling
-*** Log-Structured File Systems
-* Memory Management
-** Memory Allocation
-*** Static Allocation
-*** Dynamic Allocation
-** Virtual Memory
-*** Paging
-*** Segmentation
-** Memory Protection
-*** Address Translation
-*** Access Control
-** Garbage Collection
-*** Reference Counting
-*** Mark-and-Sweep
-*** Copying
-* Security
-** Authentication
-*** Password-Based Authentication
-*** Token-Based Authentication
-*** Biometric Authentication
-** Access Control
-*** Mandatory Access Control
-*** Discretionary Access Control
-*** Role-Based Access Control
-** Cryptography
-*** Symmetric Key Encryption
-*** Asymmetric Key Encryption
-*** Hash Functions
-** Malware
-*** Viruses
-*** Worms
-*** Trojans
-** Intrusion Detection
-*** Host-Based IDS
-*** Network-Based IDS
+*[#darkblue] <i>Kernel Architecture
+**[#lightblue] <color #black><i><size:14>Monolithic Kernel
+***[#green] <color #white><i><size:14>Advantages
+****[#yellow] <color #black><i><size:14>Fast Performance
+****[#yellow] <color #black><i><size:14>Tight Integration with Hardware
+****[#yellow] <color #black><i><size:14>Shared Memory
+****[#yellow] <color #black><i><size:14>Efficient System Calls
+***[#green] <color #white><i><size:14>Disadvantages
+****[#yellow] <color #black><i><size:14>Lack of Modularity
+****[#yellow] <color #black><i><size:14>Single Point of Failure
+****[#yellow] <color #black><i><size:14>Complex Debugging and Maintenance
+**[#lightblue] <color #black><i><size:14>Microkernel
+***[#green] <color #white><i><size:14>Advantages
+****[#yellow] <color #black><i><size:14>High Modularity
+****[#yellow] <color #black><i><size:14>Fault Isolation
+****[#yellow] <color #black><i><size:14>Ease of Development and Maintenance
+****[#yellow] <color #black><i><size:14>Dynamic Reconfiguration
+***[#green] <color #white><i><size:14>Disadvantages
+****[#yellow] <color #black><i><size:14>Performance Overhead
+****[#yellow] <color #black><i><size:14>IPC Communication Overhead
+****[#yellow] <color #black><i><size:14>Lack of Standardization
+**[#lightblue] <color #black><i><size:14>Hybrid Kernel
+***[#green] <color #white><i><size:14>Advantages
+****[#yellow] <color #black><i><size:14>Modularity
+****[#yellow] <color #black><i><size:14>Flexibility
+****[#yellow] <color #black><i><size:14>Performance
+****[#yellow] <color #black><i><size:14>Security
+***[#green] <color #white><i><size:14>Disadvantages
+****[#yellow] <color #black><i><size:14>Complexity
+****[#yellow] <color #black><i><size:14>Overhead
+****[#yellow] <color #black><i><size:14>Security Risks
+*[#darkblue] <i>Virtualization
+**[#lightblue] <color #black><i><size:14>Full Virtualization
+***[#green] <color #white><i><size:14>Emulation
+***[#green] <color #white><i><size:14>Hypervisor
+**[#lightblue] <color #black><i><size:14>Paravirtualization
+***[#green] <color #white><i><size:14>Lightweight Virtualization
+***[#green] <color #white><i><size:14>Hardware Assisted Virtualization
+**[#lightblue] <color #black><i><size:14>Containerization
+***[#green] <color #white><i><size:14>Container Engines
+***[#green] <color #white><i><size:14>Container Orchestration
+*[#darkblue] <i>Concurrency
+**[#lightblue] <color #black><i><size:14>Process Synchronization
+***[#green] <color #white><i><size:14>Semaphores
+***[#green] <color #white><i><size:14>Monitors
+***[#green] <color #white><i><size:14>Mutexes
+***[#green] <color #white><i><size:14>Spin Locks
+**[#lightblue] <color #black><i><size:14>Deadlock Prevention
+***[#green] <color #white><i><size:14>Resource Allocation Graphs
+***[#green] <color #white><i><size:14>Banker's Algorithm
+**[#lightblue] <color #black><i><size:14>Multithreading
+***[#green] <color #white><i><size:14>User-Level Threads
+***[#green] <color #white><i><size:14>Kernel-Level Threads
+**[#lightblue] <color #black><i><size:14>Concurrency Control
+***[#green] <color #white><i><size:14>Lock-Based Protocols
+***[#green] <color #white><i><size:14>Timestamp-Based Protocols
+***[#green] <color #white><i><size:14>Validation-Based Protocols
+*[#darkblue] <i>File Systems
+**[#lightblue] <color #black><i><size:14>Disk Layout
+***[#green] <color #white><i><size:14>Partitioning
+***[#green] <color #white><i><size:14>Formatting
+**[#lightblue] <color #black><i><size:14>File Allocation
+***[#green] <color #white><i><size:14>Contiguous Allocation
+***[#green] <color #white><i><size:14>Linked Allocation
+***[#green] <color #white><i><size:14>Indexed Allocation
+**[#lightblue] <color #black><i><size:14>File Access
+***[#green] <color #white><i><size:14>Directories
+***[#green] <color #white><i><size:14>File Sharing
+***[#green] <color #white><i><size:14>File Locking
+**[#lightblue] <color #black><i><size:14>Journaling File Systems
+***[#green] <color #white><i><size:14>Write-Back Journaling
+***[#green] <color #white><i><size:14>Write-Through Journaling
+***[#green] <color #white><i><size:14>Log-Structured File Systems
+*[#darkblue] <i>Memory Management
+**[#lightblue] <color #black><i><size:14>Memory Allocation
+***[#green] <color #white><i><size:14>Static Allocation
+***[#green] <color #white><i><size:14>Dynamic Allocation
+**[#lightblue] <color #black><i><size:14>Virtual Memory
+***[#green] <color #white><i><size:14>Paging
+***[#green] <color #white><i><size:14>Segmentation
+**[#lightblue] <color #black><i><size:14>Memory Protection
+***[#green] <color #white><i><size:14>Address Translation
+***[#green] <color #white><i><size:14>Access Control
+**[#lightblue] <color #black><i><size:14>Garbage Collection
+***[#green] <color #white><i><size:14>Reference Counting
+***[#green] <color #white><i><size:14>Mark-and-Sweep
+***[#green] <color #white><i><size:14>Copying
+*[#darkblue] <i>Security
+**[#lightblue] <color #black><i><size:14>Authentication
+***[#green] <color #white><i><size:14>Password-Based Authentication
+***[#green] <color #white><i><size:14>Token-Based Authentication
+***[#green] <color #white><i><size:14>Biometric Authentication
+**[#lightblue] <color #black><i><size:14>Access Control
+***[#green] <color #white><i><size:14>Mandatory Access Control
+***[#green] <color #white><i><size:14>Discretionary Access Control
+***[#green] <color #white><i><size:14>Role-Based Access Control
+**[#lightblue] <color #black><i><size:14>Cryptography
+***[#green] <color #white><i><size:14>Symmetric Key Encryption
+***[#green] <color #white><i><size:14>Asymmetric Key Encryption
+***[#green] <color #white><i><size:14>Hash Functions
+**[#lightblue] <color #black><i><size:14>Malware
+***[#green] <color #white><i><size:14>Viruses
+***[#green] <color #white><i><size:14>Worms
+***[#green] <color #white><i><size:14>Trojans
+**[#lightblue] <color #black><i><size:14>Intrusion Detection
+***[#green] <color #white><i><size:14>Host-Based IDS
+***[#green] <color #white><i><size:14>Network-Based IDS
 @endmindmap

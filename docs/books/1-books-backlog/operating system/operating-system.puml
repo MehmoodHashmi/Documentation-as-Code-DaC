@@ -1,100 +1,102 @@
 @startmindmap
 title =//__Operating Systems__//
-* Introduction
-** Definition of an Operating System
-** Evolution of Operating Systems
-** Functions of an Operating System
-* =Processes and Threads
-** Process Management
-*** Process Scheduling
-*** Interprocess Communication
-*** Process Synchronization
-** Thread Management
-*** Thread Scheduling
-*** Thread Synchronization
-** Deadlock and Starvation
-* =Memory Management
-** Memory Hierarchy
-** Address Binding
-** Memory Allocation
-*** Static Allocation
-*** Dynamic Allocation
-**** First-Fit Algorithm
-**** Best-Fit Algorithm
-**** Worst-Fit Algorithm
-**** Buddy Algorithm
-** Memory Paging
-*** Page Replacement Algorithms
-**** FIFO Algorithm
-**** Optimal Algorithm
-**** LRU Algorithm
-**** Clock Algorithm
-*** Segmentation
-*** Virtual Memory
-**** Demand Paging
-**** Page Fault
-**** Page Replacement
-**** Page Replacement Algorithms
-***** LRU Algorithm
-***** Clock Algorithm
-***** Second Chance Algorithm
-***** NFU Algorithm
-***** Aging Algorithm
-** Fragmentation
-*** External Fragmentation
-*** Internal Fragmentation
-* =File Systems
-** File Concepts
-** File Access Methods
-** File Allocation Methods
-*** Contiguous Allocation
-*** Linked Allocation
-*** Indexed Allocation
-**** Single-Level Indexing
-**** Two-Level Indexing
-**** Multi-Level Indexing
-** Directory Structure
-*** Single-Level Directory
-*** Two-Level Directory
-*** Tree-Structured Directory
-*** Acyclic-Graph Directory
-** File System Implementation
-*** Disk Management
-**** Disk Formatting
-**** Disk Partitioning
-**** Boot Block
-**** Master Boot Record
-*** File System Interface
-*** File System Mounting
-*** File System Performance
-* =Input/Output Systems
-** Device Management
-*** Device Driver
-*** Interrupt Handling
-*** Direct Memory Access (DMA)
-** I/O Scheduling
-*** FCFS Algorithm
-*** Priority Algorithm
-*** Shortest Seek Time First Algorithm
-*** SCAN Algorithm
-*** C-SCAN Algorithm
-* =Security and Protection
-** Threats and Attacks
-** Authentication
-** Authorization
-** Access Control
-** Encryption and Decryption
-** Firewalls
-** Intrusion Detection and Prevention
-** Security Management
-*[#yellow] =**Virtualization**
-** =Virtual Machines
-**[#pink] =Hypervisors
-** Emulation
-**[#pink] =Containerization
-* =Types of Operating Systems
-** Batch Operating System
-** Time-Sharing Operating System
-** Real-Time Operating System
-** Distributed Operating System
+!theme hacker
+
+*[#darkblue] <color #white><i><size:14> Introductio
+**[#lightblue] <b><color #black><i><size:14>Definition of an Operating System
+**[#lightblue] <b><color #black><i><size:14>Evolution of Operating Systems
+**[#lightblue] <b><color #black><i><size:14>Functions of an Operating System
+*[#darkblue] <color #white><i><size:14> Processes and Threads
+**[#lightblue] <b><color #black><i><size:14>Process Management
+***[#green] <b><color #white><i><size:14>Process Scheduling
+***[#green] <b><color #white><i><size:14>Interprocess Communication
+***[#green] <b><color #white><i><size:14>Process Synchronization
+**[#lightblue] <b><color #black><i><size:14>Thread Management
+***[#green] <b><color #white><i><size:14>Thread Scheduling
+***[#green] <b><color #white><i><size:14>Thread Synchronization
+**[#lightblue] <b><color #black><i><size:14>Deadlock and Starvation
+*[#darkblue] <color #white><i><size:14> Memory Management
+**[#lightblue] <b><color #black><i><size:14>Memory Hierarchy
+**[#lightblue] <b><color #black><i><size:14>Address Binding
+**[#lightblue] <b><color #black><i><size:14>Memory Allocation
+***[#green] <b><color #white><i><size:14>Static Allocation
+***[#green] <b><color #white><i><size:14>Dynamic Allocation
+****[#yellow] <color #black><i><size:14>First-Fit Algorithm
+****[#yellow] <color #black><i><size:14>Best-Fit Algorithm
+****[#yellow] <color #black><i><size:14>Worst-Fit Algorithm
+****[#yellow] <color #black><i><size:14>Buddy Algorithm
+**[#lightblue] <b><color #black><i><size:14>Memory Paging
+***[#green] <b><color #white><i><size:14>Page Replacement Algorithms
+****[#yellow] <color #black><i><size:14>FIFO Algorithm
+****[#yellow] <color #black><i><size:14>Optimal Algorithm
+****[#yellow] <color #black><i><size:14>LRU Algorithm
+****[#yellow] <color #black><i><size:14>Clock Algorithm
+***[#green] <b><color #white><i><size:14>Segmentation
+***[#green] <b><color #white><i><size:14>Virtual Memory
+****[#yellow] <color #black><i><size:14>Demand Paging
+****[#yellow] <color #black><i><size:14>Page Fault
+****[#yellow] <color #black><i><size:14>Page Replacement
+****[#yellow] <color #black><i><size:14>Page Replacement Algorithms
+*****[#yellow] <color #black><i><size:14>LRU Algorithm
+*****[#yellow] <color #black><i><size:14>Clock Algorithm
+*****[#yellow] <color #black><i><size:14>Second Chance Algorithm
+*****[#yellow] <color #black><i><size:14>NFU Algorithm
+*****[#yellow] <color #black><i><size:14>Aging Algorithm
+**[#lightblue] <b><color #black><i><size:14>Fragmentation
+***[#green] <b><color #white><i><size:14>External Fragmentation
+***[#green] <b><color #white><i><size:14>Internal Fragmentation
+*[#darkblue] <color #white><i><size:14> File Systems
+**[#lightblue] <b><color #black><i><size:14>File Concepts
+**[#lightblue] <b><color #black><i><size:14>File Access Methods
+**[#lightblue] <b><color #black><i><size:14>File Allocation Methods
+***[#green] <b><color #white><i><size:14>Contiguous Allocation
+***[#green] <b><color #white><i><size:14>Linked Allocation
+***[#green] <b><color #white><i><size:14>Indexed Allocation
+****[#yellow] <color #black><i><size:14>Single-Level Indexing
+****[#yellow] <color #black><i><size:14>Two-Level Indexing
+****[#yellow] <color #black><i><size:14>Multi-Level Indexing
+**[#lightblue] <b><color #black><i><size:14>Directory Structure
+***[#green] <b><color #white><i><size:14>Single-Level Directory
+***[#green] <b><color #white><i><size:14>Two-Level Directory
+***[#green] <b><color #white><i><size:14>Tree-Structured Directory
+***[#green] <b><color #white><i><size:14>Acyclic-Graph Directory
+**[#lightblue] <b><color #black><i><size:14>File System Implementation
+***[#green] <b><color #white><i><size:14>Disk Management
+****[#yellow] <color #black><i><size:14>Disk Formatting
+****[#yellow] <color #black><i><size:14>Disk Partitioning
+****[#yellow] <color #black><i><size:14>Boot Block
+****[#yellow] <color #black><i><size:14>Master Boot Record
+***[#green] <b><color #white><i><size:14>File System Interface
+***[#green] <b><color #white><i><size:14>File System Mounting
+***[#green] <b><color #white><i><size:14>File System Performance
+*[#darkblue] <color #white><i><size:14> Inpu/Output Systems
+**[#lightblue] <b><color #black><i><size:14>Device Management
+***[#green] <b><color #white><i><size:14>Device Driver
+***[#green] <b><color #white><i><size:14>Interrupt Handling
+***[#green] <b><color #white><i><size:14>Direct Memory Access (DMA)
+**[#lightblue] <b><color #black><i><size:14>I/O Scheduling
+***[#green] <b><color #white><i><size:14>FCFS Algorithm
+***[#green] <b><color #white><i><size:14>Priority Algorithm
+***[#green] <b><color #white><i><size:14>Shortest Seek Time First Algorithm
+***[#green] <b><color #white><i><size:14>SCAN Algorithm
+***[#green] <b><color #white><i><size:14>C-SCAN Algorithm
+*[#darkblue] <color #white><i><size:14> Security and Protection
+**[#lightblue] <b><color #black><i><size:14>Threats and Attacks
+**[#lightblue] <b><color #black><i><size:14>Authentication
+**[#lightblue] <b><color #black><i><size:14>Authorization
+**[#lightblue] <b><color #black><i><size:14>Access Control
+**[#lightblue] <b><color #black><i><size:14>Encryption and Decryption
+**[#lightblue] <b><color #black><i><size:14>Firewalls
+**[#lightblue] <b><color #black><i><size:14>Intrusion Detection and Prevention
+**[#lightblue] <b><color #black><i><size:14>Security Management
+*[#darkblue] <color #white><i><size:22> Virtualization
+**[#lightblue] <b><color #black><i><size:18>Virtual Machines
+**[#lightblue] <b><color #black><i><size:18>Hypervisors
+**[#lightblue] <b><color #black><i><size:14>Emulation
+**[#lightblue] <b><color #black><i><size:18>Containerization
+*[#darkblue] <color #white><i><size:14> Types of Operating Systems
+**[#lightblue] <b><color #black><i><size:14>Batch Operating System
+**[#lightblue] <b><color #black><i><size:14>Time-Sharing Operating System
+**[#lightblue] <b><color #black><i><size:14>Real-Time Operating System
+**[#lightblue] <b><color #black><i><size:14>Distributed Operating System
 @endmindmap
