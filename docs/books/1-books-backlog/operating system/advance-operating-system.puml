@@ -1,22 +1,33 @@
 @startmindmap
+
+
 <style>
 rootNode {
-    LineStyle 8.0;3.0
+    LineStyle 8.0;
     LineColor red
     BackgroundColor white
     LineThickness 1.0
     RoundCorner 0
     Shadowing 1.0
 }
+Node {
+    LineStyle 88.0;
+    LineColor red
+    BackgroundColor white
+    LineThickness 1.0
+    RoundCorner 1
+    Shadowing 1.0
+}
 arrow {
     LineStyle 4
     LineThickness 1.0
-    LineColor green
+    LineColor red
 }
 </style>
-!theme hacker
 
-title =__Advanced Operating Systems__
+
+title =<i><u><b>Advanced Operating Systems
+!theme hacker
 
 *[#darkblue] <i>Kernel Architecture
 **[#lightblue] <color #black><i><size:14>Monolithic Kernel
