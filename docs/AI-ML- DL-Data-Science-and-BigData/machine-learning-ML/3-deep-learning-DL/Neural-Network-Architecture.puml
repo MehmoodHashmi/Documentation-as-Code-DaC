@@ -1,9 +1,16 @@
 @startmindmap
-title =Neural Network Architecture
+title =<i><b><u>Neural Network Architecture \n<color #red><i>Activation Functions (or neurons) both words can be used interchangeably
+* <b>[[https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&ab_channel=3Blue1Brown But what is a neural network? | Chapter 1, Deep learning]]
+** <b>[[https://www.youtube.com/watch?v=IHZwWFHWa-w&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=2&ab_channel=3Blue1Brown Gradient descent, how neural networks learn | Chapter 2, Deep learning]]
+*** <b>[[https://www.youtube.com/watch?v=Ilg3gGewQ5U&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=3&ab_channel=3Blue1Brown What is backpropagation really doing? | Chapter 3, Deep learning]]
+**** <b>[[https://www.youtube.com/watch?v=tIeHLnjs5U8&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=4&ab_channel=3Blue1Brown Backpropagation calculus | Chapter 4, Deep learning]]
+**** <b>[[https://www.youtube.com/watch?v=YG15m2VwSjA&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&index=5&ab_channel=3Blue1Brown Visualizing the chain rule and product rule | Chapter 4, Essence of calculus]]
 
-*[#lightblue] =Activation Functions (or neurons) both words can be used interchangeably
+* <b>[[https://www.youtube.com/watch?v=dPWYUELwIdM&ab_channel=freeCodeCamp.org How Deep Neural Networks Work - Full Course for Beginners]]
+** <b>[[https://www.youtube.com/watch?v=ILsA4nyG7I0&list=PLVZqlMpoM6kaJX_2lLKjEhWI0NlqHfqzp&ab_channel=BrandonRohrer How Deep Neural Networks Work]]
+*** <b>[[https://www.youtube.com/playlist?list=PL_UEf8P1IjTjsbPasIQf3jWfQnM0xt0ZN Neural network learns the mandelbrot set]]
+
 !theme hacker
-
 *[#darkblue] <i>Neural Network Architecture
 **[#lightblue] <i>Basics of Neural Networks
 ***[#yellow] <i><size:14>**Neurons and Activation Functions -** Neurons simulate the functioning of biological neurons, and activation functions determine the output of a neuron.\n*<size:14><i>"Neurons process input data" and "activation functions introduce non-linearity."
@@ -28,10 +35,10 @@ title =Neural Network Architecture
 ***[#yellow] <i><size:14>**Output Layer -** Produces the final network output.
 
 **[#lightblue] <i><size:22>Activation Functions
-***[#yellow] <i><size:14>**Sigmoid -** <color #red>S-shaped curve used in earlier neural networks. \n* <size:14><i>Smoothly maps input to the range **(0, 1).**
+***[#yellow] <i><size:14>**Sigmoid -** <color #red>S-shaped curve used in <b>earlier (1980's) neural networks. \n* <size:14><i>Smoothly maps input to the range **(0, 1).**
 ***[#yellow] <i><size:14>**Hyperbolic Tangent (tanh) -** <color #red>Similar to the **sigmoid** but with output in the range **[-1, 1].**
-***[#yellow] <i><size:14>**Rectified Linear Unit (ReLU) -** <color #red>Widely used activation function with a "linear segment", "output" is **max(0, input).**
-***[#yellow] <i><size:14>**Leaky ReLU (LReLU) -** <color #red>Variation of ReLU with a small slope for negative values. Avoids dead neurons by having a small slope for negative input.
+***[#yellow] <i><size:18>**Rectified Linear Unit (ReLU) -** <color #red>Widely used activation function with a "linear segment", "output" is **max(0, input).**
+***[#yellow] <i><size:18>**Leaky ReLU (LReLU) -** <color #red>Variation of ReLU with a small slope for negative values. Avoids dead neurons by having a small slope for negative input.
 ***[#yellow] <i><size:14>**Exponential Linear Unit (ELU) -** <color #red>An activation function that avoids the vanishing gradient problem. Smoothly handles both positive and negative values.
 
 **[#lightblue] <i>Loss Functions
