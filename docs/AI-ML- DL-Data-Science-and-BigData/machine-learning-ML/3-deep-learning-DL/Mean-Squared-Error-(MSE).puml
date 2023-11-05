@@ -1,0 +1,49 @@
+@startmindmap
+title =<i><b><u>Mean Squared Error (MSE) \n<img:../gif/linear-equation.png> <img:../gif/dependent-and-independent-variable.png> <img:../gif/mean-squared-error-(MSE).png>
+
+!theme hacker
+
+
+*[#darkblue] <i>Mean Squared Error (MSE)
+**[#lightblue] <color #black><i><size:14><b>Definition
+***[#green] <color #white><i><size:14>**Mean Squared Error (MSE)** is a commonly used loss function in regression tasks, representing the average squared difference between predicted values and actual target values.
+
+**[#lightblue] <color #black><i><size:14><b>Purpose
+***[#green] <color #white><i><size:14>MSE measures the quality of a regression model's predictions by quantifying the average squared error.
+
+**[#lightblue] <color #black><i><size:14><b>Formula
+***[#green] <color #white><i><size:22>MSE = (1/n) * Σ(y_i - ŷ_i)^2
+***[#green] <color #white><i><size:27>where **n** is the number of data points, **y_i** is the true target value, and **ŷ_i** is the predicted value.
+
+**[#lightblue] <color #black><i><size:14><b>Training
+***[#green] <color #white><i><size:14><b>Minimization
+****[#yellow] <color #black><i><size:14>During model training, the goal is to minimize the MSE by adjusting the model's parameters (weights and biases).
+
+***[#green] <color #white><i><size:14><b>Gradient Descent
+****[#yellow] <color #black><i><size:14>Optimization algorithms like Gradient Descent are commonly used to minimize MSE.
+
+**[#lightblue] <color #black><i><size:14><b>Interpretation
+***[#green] <color #white><i><size:14><b>Scale
+****[#yellow] <color #black><i><size:14>The MSE value is in the squared unit of the target variable, making it sensitive to the scale of the data.
+****[#yellow] <color #black><i><size:14>Comparing MSE across different datasets may not be meaningful without standardization.
+
+***[#green] <color #white><i><size:14><b>Smaller MSE
+****[#yellow] <color #black><i><size:14>A smaller MSE indicates a better fit of the regression model to the data.
+
+**[#lightblue] <color #black><i><size:14><b>Benefits
+***[#green] <color #white><i><size:14><b>Sensitivity to Errors
+****[#yellow] <color #black><i><size:14>MSE heavily penalizes large errors, making it suitable for applications where large errors are critical.
+
+**[#lightblue] <color #black><i><size:14><b>Challenges
+***[#green] <color #white><i><size:14><b>Outliers
+****[#yellow] <color #black><i><size:14>MSE is sensitive to outliers, and a single outlier can significantly affect the result.
+***[#green] <color #white><i><size:22><b>Scale Dependence
+****[#yellow] <color #black> <i><size:14>MSE is scale-dependent, which means it can lead to different results for data in different units.
+
+**[#lightblue] <color #black><i><size:14><b>Applications
+***[#green] <color #white><i><size:14>MSE is widely used in regression tasks, including linear regression, polynomial regression, and neural network regression.
+
+**[#lightblue] <color #black><i><size:14><b>Variations
+***[#green] <color #white><i><size:14>Different variations of MSE include Weighted MSE, where different weights are assigned to individual data points.
+
+@endmindmap

@@ -77,14 +77,15 @@ title =<i><b><u>Neural Network Architecture \n<color #red><i>Activation Function
 **[#lightblue] <i><size:18>[[Activation-Functions.puml Activation Functions]]
 ***[#yellow] <i><size:14>**Sigmoid -** <color #red>S-shaped curve used in <b>earlier (1980's) neural networks. \n* <size:14><i>Smoothly maps input to the range **(0, 1).**
 ***[#yellow] <i><size:14>**Hyperbolic Tangent (tanh) -** <color #red>Similar to the **sigmoid** but with output in the range **[-1, 1].**
-***[#yellow] <i><size:18>**Rectified Linear Unit (ReLU) -** <color #red>Widely used activation function with a "linear segment", "output" is **max(0, input).**
-***[#yellow] <i><size:18>**Leaky ReLU (LReLU) -** <color #red>Variation of ReLU with a small slope for negative values. Avoids dead neurons by having a small slope for negative input.
+***[#yellow] <i><size:14>**Rectified Linear Unit (ReLU) -** <color #red>Widely used activation function with a "linear segment", "output" is **max(0, input).**
+***[#yellow] <i><size:14>**Leaky ReLU (LReLU) -** <color #red>Variation of ReLU with a small slope for negative values. Avoids dead neurons by having a small slope for negative input.
 ***[#yellow] <i><size:14>**Exponential Linear Unit (ELU) -** <color #red>An activation function that avoids the vanishing gradient problem. Smoothly handles both positive and negative values.
 
 **[#lightblue] <size:18><i>[[Loss-Functions.puml Loss Functions]]
-***[#yellow] <i><size:14>**Mean Squared Error (MSE) -** Commonly used for **"regression"** tasks. Measures the "average squared difference" between "predicted" and "actual" values.
-***[#yellow] <i><size:14>**Cross-Entropy Loss -** Ideal for **"classification"** problems. Measures the "dissimilarity" between "predicted and actual" "distributions".
-***[#yellow] <i><size:14>**Hinge Loss -** Used in **"support vector machines"** and **"deep learning"**.
+***[#darkorange] <i><size:14>**[[Mean-Squared-Error-(MSE).puml Mean Squared Error (MSE) -]]** Commonly used for **"regression"** tasks. Measures the "average squared difference" between "predicted" and "actual" values.
+***[#darkorange] <i><size:14>**[[Entropy.puml Entropy-]]** is a concept from **"information theory"** that measures the amount of **"uncertainty or randomness"** in a <b>"system or set of data".
+***[#darkorange] <i><size:14>**[[Cross-Entropy-Loss.puml Cross-Entropy Loss -]]** Ideal for **"classification"** problems. Measures the "dissimilarity" between "predicted and actual" "distributions".
+***[#darkorange] <i><size:14>**[[Hinge-Loss.puml Hinge Loss -]]** Used in **"support vector machines"** and **"deep learning"**.
 ***[#yellow] <i><size:14>**Huber Loss -** A combination of **"MSE"** and **"absolute error loss"**.
 ***[#yellow] <i><size:14>**Custom Loss Functions -** Tailored for specific **tasks or objectives or problems.**
 

@@ -5,7 +5,7 @@ title =<i><b><u>Loss Function
 
 *[#darkblue] <i>Loss Function
 **[#lightblue] <i><color #black><b><size:14>Overview
-***[#green] <i><color #white><size:16>A **loss function**, also known as a "cost function or objective function", quantifies the "error or discrepancy" between predicted and actual values in machine learning models.
+***[#green] <i><color #white><size:16>A **loss function**, also known as a "cost function or objective function", quantifies the "error or discrepancy" between **predicted and actual values** in machine learning models.
 
 **[#lightblue] <i><color #black><b><size:14>Types of Loss Functions
 ***[#green] <i><color #white><b><size:14>Mean Squared Error (MSE)
@@ -15,7 +15,7 @@ title =<i><b><u>Loss Function
 ***[#green] <i><color #white><b><size:14>Cross-Entropy Loss
 ****[#yellow] <i><color #black><size:14>Commonly used in classification problems to measure the dissimilarity between predicted and true class distributions.
 ***[#green] <i><color #white><b><size:14>Hinge Loss
-****[#yellow] <i><color #black><size:14>Used in support vector machines (SVM) and is especially suited for classification tasks.
+****[#yellow] <i><color #black><size:14>Used in **support vector machines (SVM)** and is especially suited for classification tasks.
 ***[#green] <i><color #white><b><size:14>Huber Loss
 ****[#yellow] <i><color #black><size:14>A hybrid loss function that combines the characteristics of MSE and MAE.
 

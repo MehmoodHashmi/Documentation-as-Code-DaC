@@ -1,0 +1,62 @@
+@startmindmap
+title =<i><b><u>Cross-Entropy Loss
+
+!theme hacker
+
+
+
+*[#darkblue] <i>Cross-Entropy Loss
+**[#lightblue] <i><size:14>Definition
+***[#green] <color #white><i><size:16>**Cross-Entropy loss**, often referred to as log loss, is a loss function used to measure the dissimilarity between predicted probabilities and true class labels.
+
+**[#lightblue] <i><size:14>Purpose
+***[#green] <color #white><i><size:16>**Cross-Entropy loss** is commonly used in classification tasks to train models to produce probability distributions that are close to the actual class distribution.
+***[#green] <color #white><i><size:14>It encourages the model to be more confident and accurate in its predictions.
+
+**[#lightblue] <i><size:14>Binary Cross-Entropy
+***[#green] <b><color #white><i><size:14>Definition
+****[#yellow] <color #black><i><size:14>Binary Cross-Entropy (also known as Log Loss) is used in binary classification tasks.
+****[#yellow] <color #black><i><size:14>It measures the error when dealing with two class labels (0 and 1).
+
+***[#green] <b><color #white><i><size:14>Formula
+****[#yellow] <color #black><i><size:14>BCE Loss = - [y * log(p) + (1 - y) * log(1 - p)]
+****[#yellow] <color #black><i><size:14>where y is the true label (0 or 1) and p is the predicted probability.
+
+**[#lightblue] <i><size:14>Categorical Cross-Entropy
+***[#green] <b><color #white><i><size:14>Definition
+****[#yellow] <color #black><i><size:14>Categorical Cross-Entropy is used in multi-class classification tasks.
+****[#yellow] <color #black><i><size:14>It calculates the error when there are more than two possible class labels.
+
+***[#green] <b><color #white><i><size:14>Formula
+****[#yellow] <color #black><i><size:14>CCE Loss = - ∑ [y_i * log(p_i)]
+****[#yellow] <color #black><i><size:14>where y_i is the true label distribution and p_i is the predicted probability distribution.
+
+**[#lightblue] <i><size:14>Softmax Activation
+***[#green] <color #white><i><size:14>Cross-Entropy loss is often paired with the softmax activation function to convert model outputs into probability distributions.
+
+**[#lightblue] <i><size:14>Training
+***[#green] <b><color #white><i><size:14>Minimization
+****[#yellow] <color #black><i><size:14>During training, the goal is to minimize the Cross-Entropy loss by adjusting model parameters (weights and biases).
+
+***[#green] <b><color #white><i><size:14>Gradient Descent
+****[#yellow] <color #black><i><size:14>Optimization algorithms like Gradient Descent are used to update model parameters based on the computed gradients.
+
+**[#lightblue] <i><size:14>Benefits
+***[#green] <b><color #white><i><size:14>Probability Estimation
+****[#yellow] <color #black><i><size:14>Cross-Entropy loss encourages models to provide more accurate probability estimates.
+***[#green] <b><color #white><i><size:14>Suitable for Classification
+****[#yellow] <color #black><i><size:14>It is well-suited for classification tasks and is a common choice for training classifiers.
+
+**[#lightblue] <i><size:14>Challenges
+***[#green] <b><color #white><i><size:14>Vanishing Gradient
+****[#yellow] <color #black><i><size:14>The gradient can vanish when the predicted probability is close to the true label, making training difficult.
+***[#green] <b><color #white><i><size:14>Hyperparameter Tuning
+****[#yellow] <color #black><i><size:14>Proper selection of hyperparameters, such as learning rate, is essential for effective training.
+
+**[#lightblue] <i><size:14>Applications
+***[#green] <color #white><i><size:14>Cross-Entropy loss is widely used in tasks like image classification, text classification, and sentiment analysis.
+
+**[#lightblue] <i><size:14>Variations
+***[#green] <color #white><i><size:14>Different variations of Cross-Entropy loss exist, such as Weighted Cross-Entropy, Focal Loss, and Kullback-Leibler Divergence.
+
+@endmindmap

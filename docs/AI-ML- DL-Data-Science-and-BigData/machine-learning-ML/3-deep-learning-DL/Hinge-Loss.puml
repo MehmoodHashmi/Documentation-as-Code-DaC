@@ -1,0 +1,52 @@
+@startmindmap
+title =<i><b><u>Hinge Loss
+
+!theme hacker
+
+
+
+*[#darkblue] <i>Hinge Loss
+**[#lightblue] <color #black><i><size:14>Definition
+***[#green] <color #white><i><size:14>Hinge loss, also known as max-margin loss, is a loss function used in machine learning and support vector machines **(SVM)** to maximize the margin between data points and the decision boundary.
+
+**[#lightblue] <color #black><i><size:14>Purpose
+***[#green] <color #white><i><size:14>Hinge loss aims to encourage correct classification by penalizing misclassified data points.
+***[#green] <color #white><i><size:14>It is particularly useful for binary classification problems.
+
+**[#lightblue] <color #black><i><size:14>Binary Classification
+***[#green] <color #white><i><size:14><b>Linear SVM
+****[#yellow] <color #black><i><size:14>Hinge loss is commonly used in linear support vector machines for binary classification.
+****[#yellow] <color #black><i><size:14>It seeks to maximize the margin between two classes.
+
+***[#green] <color #white><i><size:14><b>Formula
+****[#yellow] <color #black><i><size:14>Hinge Loss = max**(0, 1 - y * f**(x)**)**
+****[#yellow] <color #black><i><size:14>where y is the true label **(1 or -1)**, f**(x)** is the model's prediction, and the max function ensures positive loss for misclassifications.
+
+**[#lightblue] <color #black><i><size:14>Multi-Class Classification
+***[#green] <color #white><i><size:14><b>Extension
+****[#yellow] <color #black><i><size:14>Hinge loss can be extended to multi-class classification using methods like one-vs-all **(OvA)** or one-vs-one **(OvO)**.
+
+**[#lightblue] <color #black><i><size:14>Margin
+***[#green] <i><size:14><color #white>Hinge loss focuses on maximizing the margin, which is the minimum distance between data points and the decision boundary.
+****[#yellow] <color #black><i><size:14>Margin is larger when the loss is smaller.
+
+**[#lightblue] <color #black><i><size:14>Training
+***[#green] <color #white><i><size:14><b>Minimization
+****[#yellow] <color #black><i><size:14>During training, the objective is to minimize the hinge loss by adjusting the model's parameters **(weights and biases)**.
+****[#yellow] <color #black><i><size:14>Optimization algorithms like Gradient Descent are used for this purpose.
+
+**[#lightblue] <color #black><i><size:14>Benefits
+***[#green] <color #white><i><size:14><b>Margin Maximization
+****[#yellow] <color #black><i><size:14>Hinge loss promotes larger margins, which can lead to better generalization and robustness.
+
+**[#lightblue] <color #black><i><size:14>Challenges
+***[#green] <color #white><i><size:14><b>Noisy Data
+****[#yellow] <color #black><i><size:14>Hinge loss is sensitive to noisy data and misclassifications, as it assigns a loss of zero to correctly classified examples.
+
+**[#lightblue] <color #black><i><size:14>Applications
+***[#green] <color #white><i><size:14>Hinge loss is commonly used in binary and multi-class classification tasks, especially when maximizing the margin is essential.
+
+**[#lightblue] <color #black><i><size:14>Variations
+***[#green] <color #white><i><size:14>Different variations of hinge loss exist, including squared hinge loss and smooth hinge loss, which are designed to address specific challenges.
+
+@endmindmap

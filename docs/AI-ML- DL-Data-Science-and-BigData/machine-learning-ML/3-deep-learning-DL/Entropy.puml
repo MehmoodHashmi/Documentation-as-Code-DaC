@@ -1,0 +1,59 @@
+@startmindmap
+title =<i><b><u>Entropy
+
+!theme hacker
+
+*[#darkblue] <i>Entropy
+**[#lightblue] <i><size:14>Definition
+***[#green] <i><size:22><color #white>**Entropy** is a concept from **"information theory"** that measures the amount of uncertainty or randomness in a system or set of data.
+
+**[#lightblue] <i><size:14>Information Theory
+***[#green] <i><size:14><color #white><b>Origin
+****[#yellow] <color #black><i><size:14>Introduced by Claude Shannon in the context of communication and data compression.
+
+***[#green] <i><size:14><color #white><b>Formula
+****[#yellow] <color #black><i><size:14>Entropy(H) = -Σ (p(x) * log2(p(x)))
+****[#yellow] <color #black><i><size:14>where p(x) is the probability of each possible outcome.
+
+**[#lightblue] <i><size:14>Machine Learning
+***[#green] <i><size:14><color #white><b>Decision Trees
+****[#yellow] <color #black><i><size:14>Entropy is used as a metric to determine the impurity or disorder in data when making decisions in decision trees.
+
+***[#green] <i><size:14><color #white><b>Information Gain
+****[#yellow] <color #black><i><size:14>Information gain is the reduction in entropy when a dataset is split into subsets, used for feature selection.
+
+**[#lightblue] <i><size:14>Interpretation
+***[#green] <i><size:14><color #white><b>High Entropy
+****[#yellow] <color #black><i><size:14>High entropy indicates high randomness or uncertainty.
+****[#yellow] <color #black><i><size:14>For example, a fair coin toss has high entropy because both outcomes are equally likely.
+
+***[#green] <i><size:14><color #white><b>Low Entropy
+****[#yellow] <color #black><i><size:14>Low entropy indicates low randomness or high certainty.
+****[#yellow] <color #black><i><size:14>For example, a biased coin toss with a high chance of one outcome has low entropy.
+
+**[#lightblue] <i><size:14>Applications
+***[#green] <i><size:14><color #white>Entropy is used in various fields, including machine learning, thermodynamics, and information theory.
+
+**[#lightblue] <i><size:14>Cross-Entropy
+***[#green] <i><size:14><color #white><b>Definition
+****[#yellow] <color #black><i><size:14>Cross-Entropy measures the difference between two probability distributions, often used for evaluating model predictions.
+
+***[#green] <i><size:14><color #white><b>Formula
+****[#yellow] <color #black><i><size:14>Cross-Entropy(H) = -Σ (p(x) * log2(q(x)))
+****[#yellow] <color #black><i><size:14>where p(x) is the true distribution and q(x) is the predicted distribution.
+
+**[#lightblue] <i><size:14>Kullback-Leibler Divergence (KL Divergence)
+***[#green] <i><size:14><color #white><b>Definition
+****[#yellow] <color #black><i><size:14>KL Divergence quantifies the difference between two probability distributions and is closely related to cross-entropy.
+
+***[#green] <i><size:14><color #white><b>Formula
+****[#yellow] <color #black><i><size:14>KL Divergence(KL) = Σ (p(x) * log2(p(x) / q(x)))
+****[#yellow] <color #black><i><size:14>where p(x) and q(x) are the two distributions being compared.
+
+**[#lightblue] <i><size:14>Benefits
+***[#green] <i><size:14><color #white>Entropy, cross-entropy, and KL divergence provide valuable metrics for understanding information and model performance.
+
+**[#lightblue] <i><size:14>Challenges
+***[#green] <i><size:14><color #white>Interpreting entropy and related concepts can be challenging for those not familiar with information theory.
+
+@endmindmap
