@@ -55,7 +55,7 @@ __But if you take a **sample** from the **population** and then talk those **cha
 *** **Definition:** Data that is **Non-Numeric**
 
 ***[#pink] =Imbalance Data
-****[#pink] **The term __Imbalance Data__ is used when you are working** \n**with __categorical data__ or (non-numeric data)**
+****[#pink] <color #black>**The term __Imbalance Data__ is used when you are working** \n<color #black>**with __categorical data__ or (non-numeric data)**
 *****[#yellow] ===Accuracy
 ******[#yellow] ===If model has given you near to \n100% accuracy on training data then \nit is called **over-fit** & this is bad
 *****[#yellow] ===Precision

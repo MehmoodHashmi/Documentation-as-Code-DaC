@@ -9,7 +9,7 @@ title =**__Modern Machine Learning__**
 **[#lightblue] <size:14><i>Key Concepts
 ***[#green] <size:22><color #white><i>**[[3-deep-learning-DL/Deep-Learning.puml Deep Learning]]**
 ****[#yellow] <color #black><i><size:14>Neural networks with multiple layers for complex tasks.
-***[#green] <i><size:14><color #white>Transfer Learning
+***[#green] <i><size:22><b><color #white>Transfer Learning
 ****[#white] <i><size:14>**Leveraging pre-trained models for new tasks.**
 ***[#green] <b><color #white><i><size:14>Reinforcement Learning
 ****[#yellow] <color #black><i><size:14>Learning through interaction and rewards.

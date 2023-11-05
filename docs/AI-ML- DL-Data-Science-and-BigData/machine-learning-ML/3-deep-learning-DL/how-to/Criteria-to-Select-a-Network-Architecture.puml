@@ -4,127 +4,127 @@ title =Criteria to Select a Neural Network
 !theme hacker
 
 
-* Purpose and Problem
-**[#white] ====Nature of the Problem
-***[#yellow] ====<size:14>Classification
-***[#yellow] ====<size:14>Regression
-***[#yellow] ====<size:14>Image Processing
-***[#yellow] ====<size:14>Natural Language Processing
-***[#yellow] ====<size:14>Sequence Data
-**[#a] ====Problem Complexity
-***[#yellow] ====<size:14>Simple vs. Complex
-***[#yellow] ====<size:14>Linearity vs. Non-Linearity
-***[#yellow] ====<size:14>Data Dimensionality
-***[#yellow] ====<size:14>Temporal Dependencies
+*[#darkblue] <i>Purpose and Problem
+**[#white] <i>Nature of the Problem
+***[#yellow] <i><size:14>Classification
+***[#yellow] <i><size:14>Regression
+***[#yellow] <i><size:14>Image Processing
+***[#yellow] <i><size:14>Natural Language Processing
+***[#yellow] <i><size:14>Sequence Data
+**[#a] <i>Problem Complexity
+***[#yellow] <i><size:14>Simple vs. Complex
+***[#yellow] <i><size:14>Linearity vs. Non-Linearity
+***[#yellow] <i><size:14>Data Dimensionality
+***[#yellow] <i><size:14>Temporal Dependencies
 
-* Data Characteristics
-**[#pink] ====Data Type
-***[#yellow] ====<size:14>Structured **(Tabular)**
-***[#yellow] ====<size:14>Unstructured **(Text, Images)**
-***[#yellow] ====<size:14>Time Series
-**[#gold] ====Data Size
-***[#yellow] ====<size:14>Small
-***[#yellow] ====<size:14>Medium
-***[#yellow] ====<size:14>Large
-***[#yellow] ====<size:14>Big Data
-**[#orange] ====Data Quality
-***[#yellow] ====<size:14>Clean vs. Noisy
-***[#yellow] ====<size:14>Imbalanced Classes
-***[#yellow] ====<size:14>Missing Data
+*[#darkblue] <i>Data Characteristics
+**[#pink] <i>Data Type
+***[#yellow] <i><size:14>Structured **(Tabular)**
+***[#yellow] <i><size:14>Unstructured **(Text, Images, audio, video)**
+***[#yellow] <i><size:14>Time Series
+**[#gold] <i>Data Size
+***[#yellow] <i><size:14>Small
+***[#yellow] <i><size:14>Medium
+***[#yellow] <i><size:14>Large
+***[#yellow] <i><size:14>Big Data
+**[#orange] <i>Data Quality
+***[#yellow] <i><size:14>Clean vs. Noisy
+***[#yellow] <i><size:14>Imbalanced Classes
+***[#yellow] <i><size:14>Missing Data
 
-* Neural Network Types
-** Feedforward Neural Networks **(FNN)**
-** Convolutional Neural Networks **(CNN)**
-** Recurrent Neural Networks **(RNN)**
-** Long Short-Term Memory **(LSTM)**
-** Gated Recurrent Units **(GRU)**
-** Autoencoders
-** Generative Adversarial Networks **(GANs)**
+*[#darkblue] <i>Neural Network Types
+**[#lightblue] <i>Feedforward Neural Networks **(FNN)**
+**[#lightblue] <i>Convolutional Neural Networks **(CNN)**
+**[#lightblue] <i>Recurrent Neural Networks **(RNN)**
+**[#lightblue] <i>Long Short-Term Memory **(LSTM)**
+**[#lightblue] <i>Gated Recurrent Units **(GRU)**
+**[#lightblue] <i>Autoencoders
+**[#lightblue] <i>Generative Adversarial Networks **(GANs)**
 
-* Network Architecture
-**[#pink] ====Depth
-***[#yellow] ====<size:14>Shallow vs. Deep
-***[#yellow] ====<size:14>Number of Hidden Layers
-**[#orange] ====Width
-***[#yellow] ====<size:14>Number of Neurons in Each Layer
-***[#yellow] ====<size:14>Overfitting vs. Underfitting
-**[#gold] ==== Connectivity
-***[#yellow] ====<size:14>Fully Connected vs. Sparse Connections
-***[#yellow] ====<size:14>Convolutional Filters
-***[#yellow] ====<size:14>Recurrent Connections
+*[#darkblue] <i>Network Architecture
+**[#pink] <i>Depth
+***[#yellow] <i><size:14>Shallow vs. Deep
+***[#yellow] <i><size:14>Number of Hidden Layers
+**[#orange] <i>Width
+***[#yellow] <i><size:14>Number of Neurons in Each Layer
+***[#yellow] <i><size:14>Overfitting vs. Underfitting
+**[#gold] <i> Connectivity
+***[#yellow] <i><size:14>Fully Connected vs. Sparse Connections
+***[#yellow] <i><size:14>Convolutional Filters
+***[#yellow] <i><size:14>Recurrent Connections
 
-* Training Considerations
-**[#pink] ====Data Availability
-***[#yellow] ====<size:14>Labeled vs. Unlabeled Data
-***[#yellow] ====<size:14>Amount of Data
-***[#yellow] ====<size:14>Data Augmentation
-**[#gold] ====Computational Resources
-***[#white] ====<size:14>**CPU vs. GPU vs. TPU**
-***[#white] ====<size:14>**Parallelization**
-***[#white] ====<size:14>**Memory Requirements**
-**[#orange] ====Training Time
-***[#yellow] ====<size:14>Real-Time vs. Offline
-***[#yellow] ====<size:14>Quick Prototyping
-***[#yellow] ====<size:14>Fine-Tuning vs. Training from Scratch
+*[#darkblue] <i>Training Considerations
+**[#pink] <i>Data Availability
+***[#yellow] <i><size:14>Labeled vs. Unlabeled Data
+***[#yellow] <i><size:14>Amount of Data
+***[#yellow] <i><size:14>Data Augmentation
+**[#gold] <i>Computational Resources
+***[#white] <i><size:14>**CPU vs. GPU vs. TPU**
+***[#white] <i><size:14>**Parallelization**
+***[#white] <i><size:14>**Memory Requirements**
+**[#orange] <i>Training Time
+***[#yellow] <i><size:14>Real-Time vs. Offline
+***[#yellow] <i><size:14>Quick Prototyping
+***[#yellow] <i><size:14>Fine-Tuning vs. Training from Scratch
 
-* Interpretability and Explainability
-**[#pink] ====Model Explainability
-***[#yellow] ====<size:14>Importance of Interpretation
-***[#yellow] ====<size:14>Trade-off with Complexity
-***[#yellow] ====<size:14>Post hoc Explainability Tools
-**[#gold] ====Model Visualization
-***[#yellow] ====<size:14>Activation Maps
-***[#yellow] ====<size:14>Feature Visualization
-***[#yellow] ====<size:14>Decision Boundaries
-***[#yellow] ====<size:14>Attention Mechanisms
+*[#darkblue] <i>Interpretability and Explainability
+**[#lightblue] <i><size:22>[[Model-Explainability.puml Model Explainability]]
+***[#yellow] <i><size:14>Importance of Interpretation
+***[#yellow] <i><size:14>Trade-off with Complexity
+***[#yellow] <i><size:14>Post hoc Explainability Tools
+**[#gold] <i>Model Visualization
+***[#yellow] <i><size:14>Activation Maps
+***[#yellow] <i><size:14>Feature Visualization
+***[#yellow] <i><size:14>Decision Boundaries
+***[#yellow] <i><size:14>Attention Mechanisms
 
 * Performance Metrics
-** Accuracy
-** Precision, Recall, F1-Score
-** Mean Squared Error **(MSE)**
-** ROC-AUC
-** Custom Metrics
-** Specific Domain Metrics
+**[#lightblue] <i>Accuracy
+**[#lightblue] <i>Precision, Recall, F1-Score
+**[#lightblue] <i>Mean Squared Error **(MSE)**
+**[#lightblue] <i>ROC-AUC
+**[#lightblue] <i>Custom Metrics
+**[#lightblue] <i>Specific Domain Metrics
 
 * Regularization Techniques
-** L1 and L2 Regularization
-** Dropout
-** Batch Normalization
-** Weight Constraints
-** Data Augmentation
-** Early Stopping
+**[#lightblue] <i>L1 and L2 Regularization
+**[#lightblue] <i>Dropout
+**[#lightblue] <i>Batch Normalization
+**[#lightblue] <i>Weight Constraints
+**[#lightblue] <i>Data Augmentation
+**[#lightblue] <i>Early Stopping
 
 * Framework and Libraries
-** TensorFlow
-** PyTorch
-** Keras
-** scikit-learn
-** Theano
-** Caffe
+**[#lightblue] <i>TensorFlow
+**[#lightblue] <i>PyTorch
+**[#lightblue] <i>Keras
+**[#lightblue] <i>scikit-learn
+**[#lightblue] <i>Theano
+**[#lightblue] <i>Caffe
 
 * Community and Support
-** Active Development
-** Tutorials and Documentation
-** Community Forums
-** Pre-trained Models
-** Open-Source vs. Proprietary
+**[#lightblue] <i>Active Development
+**[#lightblue] <i>Tutorials and Documentation
+**[#lightblue] <i>Community Forums
+**[#lightblue] <i>Pre-trained Models
+**[#lightblue] <i>Open-Source vs. Proprietary
 
 * Ethical Considerations
-** Bias and Fairness
-** Privacy
-** Regulatory Compliance
-** Responsible AI
+**[#lightblue] <i>Bias and Fairness
+**[#lightblue] <i>Privacy
+**[#lightblue] <i>Regulatory Compliance
+**[#lightblue] <i>Responsible AI
 
 * Future Scalability
-** Adaptability to Growing Data
-** Integration with Other Technologies
-** Compatibility with Future Hardware
-** Maintainability
+**[#lightblue] <i>Adaptability to Growing Data
+**[#lightblue] <i>Integration with Other Technologies
+**[#lightblue] <i>Compatibility with Future Hardware
+**[#lightblue] <i>Maintainability
 
 * Cost and Resources
-** Software Costs
-** Hardware Costs
-** Development and Maintenance Effort
-** Availability of Expertise
+**[#lightblue] <i>Software Costs
+**[#lightblue] <i>Hardware Costs
+**[#lightblue] <i>Development and Maintenance Effort
+**[#lightblue] <i>Availability of Expertise
 
 @endmindmap

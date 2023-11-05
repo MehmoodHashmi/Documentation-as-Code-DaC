@@ -1,0 +1,50 @@
+@startmindmap
+title =<i><b><u>Model Explainability
+
+!theme hacker
+
+
+*[#darkblue] <i>Model Explainability
+**[#lightblue] <i><size:14>Importance
+***[#green] <color #white><b><i><size:14>Understanding why and how a model makes predictions is crucial for:
+****[#yellow] <color #black><i><size:14>Building trust with stakeholders.
+****[#yellow] <color #black><i><size:14>Compliance with regulations <b>(e.g., GDPR).
+****[#yellow] <color #black><i><size:14>Debugging and improving models.
+**[#lightblue] <i><size:14>Techniques
+***[#green] <color #white><b><i><size:14>Feature Importance
+****[#yellow] <color #black><i><size:14>Identifying which features have the most impact on predictions.
+****[#yellow] <color #black><i><size:14>**Methods:** Tree-based feature importance, permutation importance.
+***[#green] <color #white><b><i><size:14>LIME <b>(Local Interpretable Model-agnostic Explanations)
+****[#yellow] <color #black><i><size:14>Generating local model approximations for explainability.
+****[#yellow] <color #black><i><size:14>Useful for <b>black-box models.
+***[#green] <color #white><b><i><size:14>SHAP <b>(SHapley Additive exPlanations)
+****[#yellow] <color #black><i><size:14>Assigning contributions of each feature to a prediction.
+****[#yellow] <color #black><i><size:14>Visualizing feature importance.
+***[#green] <color #white><b><i><size:14>Partial Dependence Plots <b>(PDP)
+****[#yellow] <color #black><i><size:14>Analyzing the relationship between a feature and predictions while keeping other features constant.
+****[#yellow] <color #black><i><size:14>Useful for understanding individual feature effects.
+***[#green] <color #white><b><i><size:14>ICE <b>(Individual Conditional Expectation) Plots
+****[#yellow] <color #black><i><size:14>Visualizing the impact of a single feature on predictions for each data point.
+****[#yellow] <color #black><i><size:14>Useful for observing heterogeneity in model behavior.
+***[#green] <color #white><b><i><size:14>Surrogate Models
+****[#yellow] <color #black><i><size:14>Building interpretable models <b>(e.g., decision trees) to approximate complex models.
+****[#yellow] <color #black><i><size:14>Provides insights into the inner workings of black-box models.
+***[#green] <color #white><b><i><size:14>SHAP Values
+****[#yellow] <color #black><i><size:14>Explaining the contribution of each feature to a specific prediction.
+****[#yellow] <color #black><i><size:14>Offers global and local interpretability.
+**[#lightblue] <i><size:22>Challenges
+***[#green] <color #white><b><i><size:14>Black-Box Models
+****[#yellow] <color #black><i><size:14>Explaining complex deep learning models like neural networks can be challenging.
+****[#yellow] <color #black><i><size:14>Techniques like **LIME and SHAP** help address this.
+***[#green] <color #white><b><i><size:14>High-Dimensional Data
+****[#yellow] <color #black><i><size:14>Dealing with many features can make interpretation more complex.
+****[#yellow] <color #black><i><size:14>Feature selection and dimensionality reduction can help.
+***[#green] <color #white><b><i><size:14>Trade-Offs
+****[#yellow] <color #black><i><size:14>Simplifying models for interpretability may lead to loss of predictive power.
+****[#yellow] <color #black><i><size:14>Balancing accuracy and interpretability is crucial.
+**[#lightblue] <i><size:14>Real-World Applications
+***[#yellow] <i><size:14>Model explainability is crucial in fields like healthcare <b>(diagnosis and treatment recommendations), finance <b>(credit scoring), and autonomous vehicles.
+**[#lightblue] <i><size:14>Model Selection
+***[#green] <color #white><i><size:14>Explain-ability can guide the choice of machine learning models based on the interpretability requirements of a specific application.
+
+@endmindmap
