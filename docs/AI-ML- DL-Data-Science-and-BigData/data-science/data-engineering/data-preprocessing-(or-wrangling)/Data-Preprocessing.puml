@@ -1,81 +1,81 @@
 @startmindmap
-title =Data Preprocessing\n<img:images/img_59.png> \nStep 1 and Step 2 are performed by the //__Data Analyst or the Data Engineer__//
+title =<b><i><u>Data Preprocessing\n<img:images/img_59.png> \nStep 1 and Step 2 are performed by the //__Data Analyst or the Data Engineer__//
 !theme hacker
 
-*  Data Preprocessing \n=**(Wrangling)** \n**[[Data-Wrangling-(or-preprocessing).puml Click for detailed \nmindmap]]**
-** Definition
-*** <size:14>**Data preprocessing** is the process of **cleaning, transforming, and organizing raw data** into a format suitable for analysis and modeling.
+*[#darkblue] <i>Data Preprocessing \n=**(Wrangling)** \n**[[Data-Wrangling-(or-preprocessing).puml Click for detailed \nmindmap]]**
+**[#lightblue] <size:14><color #black><i>Definition
+***[#green] <size:18><color #white><i>**Data preprocessing** is the process of **cleaning, transforming, and organizing raw data** into a format suitable for analysis and modeling.
 
-** Importance
-*** **Enhances Data Quality:** Eliminates errors, inconsistencies, and missing values.
-*** **Improves Model Performance:** Quality data leads to more accurate and robust models.
-*** **Facilitates Data Understanding:** Preprocessing aids in exploring and understanding the data.
+**[#lightblue] <size:14><color #black><i>Importance
+***[#green] <size:14><color #white><i>**Enhances Data Quality:** Eliminates errors, inconsistencies, and missing values.
+***[#green] <size:14><color #white><i>**Improves Model Performance:** Quality data leads to more accurate and robust models.
+***[#green] <size:14><color #white><i>**Facilitates Data Understanding:** Preprocessing aids in exploring and understanding the data.
 
-**[#a] Steps in Data Preprocessing
-***[#orange] ===Data Cleaning \n **[[1-Data-Cleaning.puml Click for detailed \nmindmap]]**
+**[#lightblue] <size:16><color #black><i>Steps in Data Preprocessing
+***[#darkorange] <i><size:14><b>Data Cleaning \n **[[1-Data-Cleaning.puml Click for detailed \nmindmap]]**
 ****[#yellow] <i><color #black><size:14>**Handle Missing Values:** Remove, impute, or interpolate missing data.
 ****[#yellow] <i><color #black><size:14>**Outlier Detection:** Identify and handle outliers that can distort analysis.
 ****[#yellow] <i><color #black><size:14>**Noise Reduction:** Smooth noisy data by applying filters or techniques.
 
-***[#gold] ===Data Transformation \n **[[2-Data-Transformation.puml Click for detailed \nmindmap]]**
+***[#red] <i><size:14><b>Data Transformation \n **[[2-Data-Transformation.puml Click for detailed \nmindmap]]**
 ****[#yellow] <i><color #black><size:14>**Encoding Categorical Data:** Convert categorical variables into numerical formats **(e.g., one-hot encoding)**.
 ****[#darkorange] <i><color #black><size:21>**[[Feature-Scaling.puml Feature Scaling:]]** Normalize or standardize numeric features to bring them to a common scale.
 ****[#yellow] <i><color #black><size:14>**Dimensionality Reduction:** Reduce the number of features using techniques like **PCA.**
 
-***[#pink] ===Data Reduction \n **[[3-Data-Reduction.puml Click for detailed \nmindmap]]**
+***[#pink] <i><size:14><b>Data Reduction \n **[[3-Data-Reduction.puml Click for detailed \nmindmap]]**
 ****[#yellow] <i><color #black><size:14>**Sampling:** Reduce data volume by sampling subsets **(e.g., random or stratified sampling)**.
 ****[#yellow] <i><color #black><size:14>**Aggregation:** Combine and summarize data to reduce dimensionality **(e.g., aggregating by time intervals)**.
 
-***[#lime] ===Data Integration \n **[[4-Data-Integration.puml Click for detailed \nmindmap]]**
+***[#lime] <i><size:14><b>Data Integration \n **[[4-Data-Integration.puml Click for detailed \nmindmap]]**
 ****[#yellow] <i><color #black><size:14>**Merge Data Sources:** Combine data from multiple sources into a single **dataset**.
 ****[#yellow] <i><color #black><size:14>**Handle Redundancy:** Identify and eliminate redundant information.
 
-** Tools and Techniques
-*** Data Analysis Tools
+**[#lightblue] <size:14><color #black><i>Tools and Techniques
+***[#green] <size:14><b><color #white><i>Data Analysis Tools
 ****[#yellow] <i><color #black><size:14>**Python Libraries:** pandas, NumPy
 ****[#yellow] <i><color #black><size:14>R Data Analysis Tools
 ****[#yellow] <i><color #black><size:14>SQL for database preprocessing
 
-*** Visualization Tools
+***[#green] <size:14><b><color #white><i>Visualization Tools
 ****[#yellow] <i><color #black><size:14>Matplotlib, Seaborn
 ****[#yellow] <i><color #black><size:14>Data visualization aids in understanding data patterns and anomalies.
 
-*** Machine Learning Libraries
+***[#green] <size:14><b><color #white><i>Machine Learning Libraries
 ****[#yellow] <i><color #black><size:14>Scikit-learn, TensorFlow
 ****[#yellow] <i><color #black><size:14>Utilize machine learning models for imputing missing data and handling outliers.
 
-*** Data Preprocessing Libraries
+***[#green] <size:14><b><color #white><i>Data Preprocessing Libraries
 ****[#yellow] <i><color #black><size:14>scikit-learn preprocessing functions
 ****[#yellow] <i><color #black><size:14>Feature engineering tools like Feature-Engine
 
 ** Considerations
-***[#orange] ===Domain Knowledge
-****[#yellow] ===Understanding the domain is crucial for effective preprocessing.
-****[#yellow] ===Domain knowledge helps in handling specific data challenges.
+***[#orange] <i><size:14><b>Domain Knowledge
+****[#yellow] <i><size:14><b>Understanding the domain is crucial for effective preprocessing.
+****[#yellow] <i><size:14><b>Domain knowledge helps in handling specific data challenges.
 
-*** Data Documentation
+***[#green] <size:14><b><color #white><i>Data Documentation
 ****[#yellow] <i><color #black><size:14>Maintain clear documentation of preprocessing steps to ensure reproducibility.
 
-*** Data Splitting
+***[#green] <size:14><b><color #white><i>Data Splitting
 ****[#yellow] <i><color #black><size:14>Split data into training, validation, and test sets for model evaluation.
 
-***[#gold] ===Iterative Process
-****[#yellow] ===__Data preprocessing__ is often an iterative process, as new insights may require adjustments.
+***[#gold] <i><size:14><b>Iterative Process
+****[#yellow] <i><size:14><b>__Data preprocessing__ is often an iterative process, as new insights may require adjustments.
 
 * Best Practices
-** Start with Data Exploration
-*** Explore data visually and statistically to identify issues.
+**[#lightblue] <size:14><color #black><i>Start with Data Exploration
+***[#green] <size:14><b><color #white><i>Explore data visually and statistically to identify issues.
 
-** Handle Missing Values Appropriately
-*** Choose suitable imputation techniques based on the nature of the data.
+**[#lightblue] <size:14><color #black><i>Handle Missing Values Appropriately
+***[#green] <size:14><b><color #white><i>Choose suitable imputation techniques based on the nature of the data.
 
-** Visualize Data Distribution
-*** Understand data distribution to make informed decisions on feature scaling.
+**[#lightblue] <size:14><color #black><i>Visualize Data Distribution
+***[#green] <size:14><b><color #white><i>Understand data distribution to make informed decisions on feature scaling.
 
-** Keep Original Data Intact
-*** Save a copy of the original data before preprocessing for reference.
+**[#lightblue] <size:14><color #black><i>Keep Original Data Intact
+***[#green] <size:14><b><color #white><i>Save a copy of the original data before preprocessing for reference.
 
-** Evaluate Model Performance
-*** Assess how preprocessing impacts model performance.
+**[#lightblue] <size:14><color #black><i>Evaluate Model Performance
+***[#green] <size:14><b><color #white><i>Assess how preprocessing impacts model performance.
 
 @endmindmap
