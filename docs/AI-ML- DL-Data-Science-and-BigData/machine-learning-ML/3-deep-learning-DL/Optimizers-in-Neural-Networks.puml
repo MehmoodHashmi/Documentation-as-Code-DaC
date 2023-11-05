@@ -1,0 +1,69 @@
+@startmindmap
+title =<i><b><u>Optimizers in Neural Networks
+!theme hacker
+
+*[#darkblue] <i>Optimizers
+**[#lightblue] <i><size:14><color #black>Definition
+***[#green] <i><size:18><color #white>**Optimizers** are algorithms used in training neural networks to minimize the loss function and update network weights.
+
+**[#lightblue] <i><size:14><color #black>Purpose
+***[#green] <i><size:18><color #white>**Optimizers** are essential for adjusting neural network parameters to improve model performance during training.
+***[#green] <i><size:16><color #white>They find the optimal set of weights that minimize prediction errors.
+
+**[#lightblue] <i><size:14><color #black>Key Concepts
+***[#green] <i><size:14><color #white><b>Loss Function
+****[#yellow] <i><size:14><color #black>A function that quantifies the difference between predicted and actual values.
+***[#green] <i><size:14><color #white><b>Gradient Descent
+****[#yellow] <i><size:14><color #black>The fundamental optimization technique that uses the gradient of the loss function to update weights.
+
+**[#lightblue] <i><size:14><color #black>Optimization Algorithms
+***[#green] <i><size:14><color #white><b>Stochastic Gradient Descent (SGD)
+****[#yellow] <i><size:14><color #black>The basic form of gradient descent, which updates weights after processing a single training example.
+***[#green] <i><size:14><color #white><b>Mini-Batch Gradient Descent
+****[#yellow] <i><size:14><color #black>A compromise between SGD and full-batch gradient descent, updating weights with a small batch of training examples.
+***[#green] <i><size:14><color #white><b>Adam (Adaptive Moment Estimation)
+****[#yellow] <i><size:14><color #black>An adaptive learning rate optimization algorithm that combines momentum and RMSprop.
+***[#green] <i><size:14><color #white><b>RMSprop (Root Mean Square Propagation)
+****[#yellow] <i><size:14><color #black>An optimization algorithm that adjusts the learning rate for each parameter separately.
+***[#green] <i><size:14><color #white><b>Adagrad (Adaptive Gradient Algorithm)
+****[#yellow] <i><size:14><color #black>An optimization algorithm that adapts the learning rate based on the historical gradient information.
+***[#green] <i><size:14><color #white><b>Adadelta
+****[#yellow] <i><size:14><color #black>An extension of Adagrad that eliminates the need for manually setting the learning rate.
+***[#green] <i><size:14><color #white><b>Adamax
+****[#yellow] <i><size:14><color #black>An extension of Adam that uses infinity-norm for computing the adaptive learning rate.
+***[#green] <i><size:14><color #white><b>Nadam (Nesterov Adam)
+****[#yellow] <i><size:14><color #black>A combination of Nesterov accelerated gradient and Adam optimization techniques.
+***[#green] <i><size:14><color #white><b>L-BFGS (Limited-Memory Broyden–Fletcher–Goldfarb–Shanno)
+****[#yellow] <i><size:14><color #black>A quasi-Newton method that approximates the Hessian matrix.
+***[#green] <i><size:14><color #white><b>Conjugate Gradient
+****[#yellow] <i><size:14><color #black>An optimization algorithm that solves linear systems with the conjugate gradient method.
+***[#green] <i><size:14><color #white><b>Others
+****[#yellow] <i><size:14><color #black>Many other optimization algorithms exist, each with its own strengths and weaknesses.
+
+**[#lightblue] <i><size:14><color #black>Hyperparameters
+***[#green] <i><size:14><color #white><b>Learning Rate
+****[#yellow] <i><size:14><color #black>A crucial hyperparameter that determines the step size for weight updates.
+***[#green] <i><size:14><color #white><b>Momentum
+****[#yellow] <i><size:14><color #black>A hyperparameter that controls the contribution of previous weight updates.
+***[#green] <i><size:14><color #white><b>Batch Size
+****[#yellow] <i><size:14><color #black>The number of training examples processed in each iteration.
+***[#green] <i><size:14><color #white><b>Decay Rate
+****[#yellow] <i><size:14><color #black>A parameter that controls the learning rate decay over time.
+
+**[#lightblue] <i><size:14><color #black>Challenges
+***[#green] <i><size:14><color #white><b>Convergence Speed
+****[#yellow] <i><size:14><color #black>The choice of optimizer and hyperparameters can affect training speed.
+***[#green] <i><size:14><color #white><b>Local Minima
+****[#yellow] <i><size:14><color #black>Optimization algorithms can get stuck in local minima.
+
+**[#lightblue] <i><size:14><color #black>Customization
+***[#green] <i><size:14><color #white><b>Adaptive Techniques
+****[#yellow] <i><size:14><color #black>Some optimizers adapt learning rates or other hyperparameters during training.
+***[#green] <i><size:14><color #white><b>Tuning Hyperparameters
+****[#yellow] <i><size:14><color #black>Proper hyperparameter tuning can significantly impact optimizer performance.
+
+**[#lightblue] <i><size:14><color #black>Application
+***[#green] <i><size:14><color #white><b>Deep Learning
+****[#yellow] <i><size:14><color #black>Optimizers are crucial for training deep neural networks in various domains.
+
+@endmindmap

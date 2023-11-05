@@ -1,0 +1,56 @@
+@startmindmap
+title =<b><i><u>Activation Functions
+
+!theme hacker
+
+*[#darkblue] <i>Activation Functions
+**[#lightblue] <color #black><i><size:14>Overview
+***[#green] <b><color #white><i><size:14>Activation functions introduce non-linearity into artificial neural networks, allowing them to model complex relationships and make predictions.
+
+**[#lightblue] <color #black><i><size:14>Types of Activation Functions
+***[#green] <b><color #white><i><size:14>Sigmoid
+****[#yellow] <color #black><i><size:14>A logistic function that outputs values in the range **(0, 1)**. It's commonly used in the output layer for binary classification.
+***[#green] <b><color #white><i><size:14>Hyperbolic Tangent **(tanh)**
+****[#yellow] <color #black><i><size:14>Similar to the sigmoid, but it outputs values in the range **(-1, 1)**. It's often used in hidden layers of neural networks.
+***[#green] <b><color #white><i><size:14>Rectified Linear Unit **(ReLU)**
+****[#yellow] <color #black><i><size:14>A piecewise linear function that outputs the input for positive values and 0 for negative values. It's the most popular activation function for deep neural networks.
+***[#green] <b><color #white><i><size:14>Leaky ReLU
+****[#yellow] <color #black><i><size:14>An extension of ReLU that allows a small gradient for negative values, addressing the "dying ReLU" problem.
+***[#green] <b><color #white><i><size:14>Parametric ReLU **(PReLU)**
+****[#yellow] <color #black><i><size:14>A variant of Leaky ReLU where the gradient is learned during training.
+***[#green] <b><color #white><i><size:14>Exponential Linear Unit **(ELU)**
+****[#yellow] <color #black><i><size:14>A smooth function that is similar to ReLU for positive values but allows a small negative slope for negative values.
+***[#green] <b><color #white><i><size:14>Swish
+****[#yellow] <color #black><i><size:14>A self-gated activation function that aims to combine desirable properties of ReLU and sigmoid/tanh functions.
+***[#green] <b><color #white><i><size:14>Gated Recurrent Unit **(GRU)**
+****[#yellow] <color #black><i><size:14>An activation function used in recurrent neural networks for processing sequences.
+
+**[#lightblue] <color #black><i><size:14>Use Cases
+***[#green] <b><color #white><i><size:14>Sigmoid and tanh
+****[#yellow] <color #black><i><size:14>Suitable for tasks involving binary classification and image preprocessing.
+***[#green] <b><color #white><i><size:14>ReLU and its variants
+****[#yellow] <color #black><i><size:14>Ideal for deep neural networks and most applications.
+***[#green] <b><color #white><i><size:14>ELU and Swish
+****[#yellow] <color #black><i><size:14>Potential alternatives to ReLU with improved training performance.
+***[#green] <b><color #white><i><size:14>GRU
+****[#yellow] <color #black><i><size:14>Used in recurrent neural networks for sequence modeling tasks.
+
+**[#lightblue] <color #black><i><size:14>Role in Training
+***[#green] <b><color #white><i><size:14>Activation
+****[#yellow] <color #black><i><size:14>Activation functions determine the output of a neuron, which is used in forward and backward passes during training.
+***[#green] <b><color #white><i><size:14>Gradient Descent
+****[#yellow] <color #black><i><size:14>Activation functions affect the gradients used in weight updates during training.
+
+**[#lightblue] <color #black><i><size:14>Challenges
+***[#green] <b><color #white><i><size:14>Vanishing and Exploding Gradients
+****[#yellow] <color #black><i><size:14>Some activation functions can lead to vanishing or exploding gradients, impacting training stability.
+
+**[#lightblue] <color #black><i><size:14>Custom Activation Functions
+***[#green] <b><color #white><i><size:14>Tailoring Activation Functions
+****[#yellow] <color #black><i><size:14>Researchers and practitioners sometimes create custom activation functions to address specific modeling requirements.
+
+**[#lightblue] <color #black><i><size:14>Deep Learning
+***[#green] <b><color #white><i><size:14>Neural Network Training
+****[#yellow] <color #black><i><size:14>Activation functions are integral to training deep neural networks for tasks like image classification, natural language processing, and more.
+
+@endmindmap

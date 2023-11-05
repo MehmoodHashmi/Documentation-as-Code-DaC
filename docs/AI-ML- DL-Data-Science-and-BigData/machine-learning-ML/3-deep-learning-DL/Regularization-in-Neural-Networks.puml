@@ -1,0 +1,61 @@
+@startmindmap
+title =<i><b><u>Regularization in Neural Networks
+!theme hacker
+
+
+*[#darkblue] <i>Regularization
+**[#lightblue] <i><size:16><color #black>Definition
+***[#green] <i><size:16><color #white>**Regularization** techniques are methods used in neural networks to prevent overfitting and improve generalization by adding penalties or constraints on model complexity.
+
+**[#lightblue] <i><size:14><color #black>Purpose
+***[#green] <i><size:14><color #white>**Regularization** helps neural networks generalize better by reducing their reliance on specific features and mitigating overfitting.
+
+**[#lightblue] <i><size:14><color #black>Types of Regularization
+***[#green] <i><size:14><color #white><b>L1 Regularization (Lasso)
+****[#yellow] <i><size:14><color #black>Adds an L1 penalty to the loss function, encouraging sparsity in feature selection.
+***[#green] <i><size:14><color #white><b>L2 Regularization (Ridge)
+****[#yellow] <i><size:14><color #black>Adds an L2 penalty to the loss function, which encourages small weights and reduces their magnitude.
+***[#green] <i><size:14><color #white><b>Dropout
+****[#yellow] <i><size:14><color #black>Randomly deactivates neurons during training, introducing variability to prevent overfitting.
+***[#green] <i><size:14><color #white><b>Early Stopping
+****[#yellow] <i><size:14><color #black>Halts training when validation loss stops improving to prevent overfitting.
+***[#green] <i><size:14><color #white><b>Weight Constraints
+****[#yellow] <i><size:14><color #black>Bounds the weight values to a specified range, preventing extreme weights.
+***[#green] <i><size:14><color #white><b>Data Augmentation
+****[#yellow] <i><size:14><color #black>Introduces variations into the training data to enhance the network's robustness.
+***[#green] <i><size:14><color #white><b>Batch Normalization
+****[#yellow] <i><size:14><color #black>Normalizes layer inputs to reduce internal covariate shift and improve training stability.
+***[#green] <i><size:14><color #white><b>Gradient Clipping
+****[#yellow] <i><size:14><color #black>Clips gradients during backpropagation to avoid exploding gradients.
+***[#green] <i><size:14><color #white><b>Noise Injection
+****[#yellow] <i><size:14><color #black>Adds noise to inputs or intermediate layers to prevent overfitting.
+***[#green] <i><size:14><color #white><b>Pruning
+****[#yellow] <i><size:14><color #black>Removes certain connections or neurons with low weights to simplify the network.
+***[#green] <i><size:14><color #white><b>Cross-Validation
+****[#yellow] <i><size:14><color #black>Evaluates model performance on multiple subsets of the data for robustness assessment.
+
+**[#lightblue] <i><size:14><color #black>Strengths
+***[#green] <i><size:14><color #white><b>Prevent Overfitting
+****[#yellow] <i><size:14><color #black>Regularization techniques reduce the risk of overfitting, allowing the model to generalize better.
+***[#green] <i><size:14><color #white><b>Improve Robustness
+****[#yellow] <i><size:14><color #black>By adding constraints and penalties, regularization makes models more robust to variations in data.
+
+**[#lightblue] <i><size:14><color #black>Challenges
+***[#green] <i><size:14><color #white><b>Hyperparameter Tuning
+****[#yellow] <i><size:14><color #black>Proper selection of regularization hyperparameters is crucial for effectiveness.
+***[#green] <i><size:14><color #white><b>Impact on Training Time
+****[#yellow] <i><size:14><color #black>Some regularization techniques may increase training time.
+
+**[#lightblue] <i><size:14><color #black>Customization
+***[#green] <i><size:14><color #white><b>Hyperparameter Tuning
+****[#yellow] <i><size:14><color #black>Fine-tuning regularization parameters is essential for optimal model performance.
+***[#green] <i><size:14><color #white><b>Combination
+****[#yellow] <i><size:14><color #black>Models may use multiple regularization techniques in combination for improved results.
+
+**[#lightblue] <i><size:14><color #black>Application
+***[#green] <i><size:14><color #white><b>Deep Learning
+****[#yellow] <i><size:14><color #black>Regularization is particularly useful in deep learning scenarios with complex models.
+***[#green] <i><size:14><color #white><b>Various Domains
+****[#yellow] <i><size:14><color #black>Regularization is applied in various domains, including image classification, natural language processing, and more.
+
+@endmindmap

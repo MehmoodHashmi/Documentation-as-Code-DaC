@@ -1,0 +1,73 @@
+@startmindmap
+title =<i><b><u>Backpropagation
+!theme hacker
+
+
+
+*[#darkblue] <i> Backpropagation
+**[#lightblue] <size:14><i>Overview
+***[#green] <i><color #white><size:14>**"Backpropagation"** is a supervised learning algorithm used to train artificial neural networks. It involves the adjustment of neural network parameters to minimize prediction errors.
+
+**[#lightblue] <size:14><i>Components
+***[#green] <i><color #white><b><size:14>Neural Network
+****[#yellow] <size:14><color #black><i>A network of interconnected artificial neurons or nodes.
+***[#green] <i><color #white><b><size:14>Loss Function
+****[#yellow] <size:14><color #black><i>A function that quantifies the error between predicted and actual output.
+***[#green] <i><color #white><b><size:14>Activation Functions
+****[#yellow] <size:14><color #black><i>Functions applied to neurons to introduce non-linearity.
+***[#green] <i><color #white><b><size:14>Weight and Bias
+****[#yellow] <size:14><color #black><i>Parameters adjusted during training to minimize errors.
+***[#green] <i><color #white><b><size:14>Training Data
+****[#yellow] <size:14><color #black><i>Input-output pairs used for learning.
+
+**[#lightblue] <size:14><i>Steps
+***[#green] <i><color #white><b><size:14>Forward Pass
+****[#yellow] <size:14><color #black><i>Input data is passed through the network to make predictions.
+***[#green] <i><color #white><b><size:14>Error Calculation
+****[#yellow] <size:14><color #black><i>Calculate the error using the loss function.
+***[#green] <i><color #white><b><size:14>Backward Pass
+****[#yellow] <size:14><color #black><i>Propagate the error backward through the network.
+***[#green] <i><color #white><b><size:14>Weight and Bias Update
+****[#yellow] <size:14><color #black><i>Adjust weights and biases to minimize the error.
+***[#green] <i><color #white><b><size:14>Iteration
+****[#yellow] <size:14><color #black><i>Repeat the process for multiple epochs until convergence.
+
+**[#lightblue] <size:14><i>Optimization
+***[#green] <i><color #white><b><size:14>Gradient Descent
+****[#yellow] <size:14><color #black><i>Common optimization algorithm used for weight updates.
+***[#green] <i><color #white><b><size:14>Learning Rate
+****[#yellow] <size:14><color #black><i>Hyperparameter that controls the size of weight adjustments.
+***[#green] <i><color #white><b><size:14>Mini-Batch Training
+****[#yellow] <size:14><color #black><i>Training on smaller subsets of data for efficiency.
+
+**[#lightblue] <size:14><i>Challenges
+***[#green] <i><color #white><b><size:14>Vanishing Gradient
+****[#yellow] <size:14><color #black><i>Issues when gradients become too small during training.
+***[#green] <i><color #white><b><size:14>Overfitting
+****[#yellow] <size:14><color #black><i>The network fitting training data too closely, leading to poor generalization.
+***[#green] <i><color #white><b><size:14>Hyperparameter Tuning
+****[#yellow] <size:14><color #black><i>Selecting appropriate hyperparameters for optimal training.
+
+**[#lightblue] <size:14><i>Variants
+***[#green] <i><color #white><b><size:14>Stochastic Gradient Descent (SGD)
+****[#yellow] <size:14><color #black><i>A variant of gradient descent with updates after each data point.
+***[#green] <i><color #white><b><size:14>Momentum
+****[#yellow] <size:14><color #black><i>Accelerates learning by considering previous weight updates.
+***[#green] <i><color #white><b><size:14>Adam
+****[#yellow] <size:14><color #black><i>Adaptive optimization algorithm with dynamic learning rates.
+
+**[#lightblue] <size:14><i>Applications
+***[#green] <i><color #white><b><size:14>Image Recognition
+****[#yellow] <size:14><color #black><i>Backpropagation is widely used in image classification.
+***[#green] <i><color #white><b><size:14>Natural Language Processing
+****[#yellow] <size:14><color #black><i>Applications in text analysis and language modeling.
+***[#green] <i><color #white><b><size:14>Speech Recognition
+****[#yellow] <size:14><color #black><i>Backpropagation helps in speech-to-text systems.
+
+**[#lightblue] <size:14><i>Future Trends
+***[#green] <i><color #white><b><size:14>Deep Learning
+****[#yellow] <size:14><color #black><i>Integration with deep neural networks for complex tasks.
+***[#green] <i><color #white><b><size:14>Automated Hyperparameter Tuning
+****[#yellow] <size:14><color #black><i>Advancements in optimizing hyperparameters.
+
+@endmindmap

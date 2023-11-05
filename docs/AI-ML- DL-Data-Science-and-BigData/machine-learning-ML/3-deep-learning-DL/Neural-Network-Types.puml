@@ -1,0 +1,94 @@
+@startmindmap
+title =<b><i><u>Neural Network Types
+!theme hacker
+
+
+*[#darkblue]  <i>Neural Network Types
+**[#lightblue]  <i><size:14>Feedforward Neural Network (FNN)
+***[#gold]  <i><size:14>A basic type of neural network where information flows in one direction from input to output layers without cycles.
+
+**[#lightblue]  <i><size:14>Convolutional Neural Network (CNN)
+***[#gold]  <i><size:14>Designed for processing grid-like data, such as images and videos, using convolutional layers for feature extraction.
+
+**[#lightblue]  <i><size:14>Recurrent Neural Network (RNN)
+***[#gold]  <i><size:14>Suited for sequence data, it includes loops to capture temporal dependencies. Variants like LSTM and GRU improve training.
+
+**[#lightblue]  <i><size:14>Long Short-Term Memory (LSTM)
+***[#gold]  <i><size:14>A specialized RNN architecture that can capture long-term dependencies and is widely used in natural language processing.
+
+**[#lightblue]  <i><size:14>Gated Recurrent Unit (GRU)
+***[#gold]  <i><size:14>Another RNN variant with simpler architecture that is effective for various sequential tasks.
+
+**[#lightblue]  <i><size:14>Radial Basis Function Network (RBFN)
+***[#gold]  <i><size:14>Uses radial basis functions to model relationships between input and output data.
+
+**[#lightblue]  <i><size:14>Autoencoder
+***[#gold]  <i><size:14>Comprised of an encoder and decoder, it's used for unsupervised learning and feature learning.
+
+**[#lightblue]  <i><size:14>Generative Adversarial Network (GAN)
+***[#gold]  <i><size:14>Consists of a generator and discriminator, used for generating new data instances, often used in image and text generation.
+
+**[#lightblue]  <i><size:14>Self-Organizing Map (SOM)
+***[#gold]  <i><size:14>A type of unsupervised neural network that clusters input data into a lower-dimensional space.
+
+**[#lightblue]  <i><size:14>Hopfield Network
+***[#gold]  <i><size:14>Used for associative memory and pattern recognition, it's a type of recurrent network with binary units.
+
+**[#lightblue]  <i><size:14>Boltzmann Machine
+***[#gold]  <i><size:14>A type of stochastic neural network, often used in unsupervised learning.
+
+**[#lightblue]  <i><size:14>Spiking Neural Network (SNN)
+***[#gold]  <i><size:14>Models neural activity with spikes and is used to emulate biological neural networks.
+
+**[#lightblue]  <i><size:14>Modular Neural Network
+***[#gold]  <i><size:14>Comprises multiple interconnected subnetworks, offering modularity in neural network design.
+
+**[#lightblue]  <i><size:14>Radial Basis Function Network (RBFN)
+***[#gold]  <i><size:14>Utilizes radial basis functions to approximate complex functions.
+
+**[#lightblue]  <i><size:14>Neural Turing Machine (NTM)
+***[#gold]  <i><size:14>A neural network with external memory that can be read from and written to, enabling algorithmic tasks.
+
+**[#lightblue]  <i><size:14>Capsule Network (CapsNet)
+***[#gold]  <i><size:14>Designed to address issues in traditional CNNs by encapsulating hierarchical features.
+
+**[#lightblue]  <i><size:14>Deep Belief Network (DBN)
+***[#gold]  <i><size:14>Combines multiple layers of restricted Boltzmann machines and is used for deep learning tasks.
+
+**[#lightblue]  <i><size:14>Residual Neural Network (ResNet)
+***[#gold]  <i><size:14>Addresses the vanishing gradient problem by using shortcut connections, enabling very deep networks.
+
+**[#lightblue]  <i><size:14>Attention Mechanisms
+***[#gold]  <i><size:14>Used to focus on specific parts of input data, particularly beneficial in natural language processing tasks.
+
+**[#lightblue]  <i><size:14>Transformers
+***[#gold]  <i><size:14>Utilizes attention mechanisms and self-attention layers for a wide range of natural language processing tasks.
+
+**[#lightblue]  <i><size:14>Quantum Neural Network
+***[#gold]  <i><size:14>A type of neural network designed for quantum computing, used in quantum machine learning.
+
+**[#lightblue]  <i><size:14>Capsule Networks (CapsNets)
+***[#gold]  <i><size:14>A newer neural network architecture that aims to address issues with traditional convolutional neural networks.
+
+**[#lightblue]  <i><size:14>Neuromorphic Networks
+***[#gold]  <i><size:14>Inspired by the human brain, these networks aim to emulate biological neurons and synapses for specialized tasks.
+
+**[#lightblue]  <i><size:14>Memristor-Based Neural Networks
+***[#gold]  <i><size:14>Leveraging memristor devices to mimic neural activity for energy-efficient and brain-inspired computing.
+
+**[#lightblue]  <i><size:14>Probabilistic Neural Network (PNN)
+***[#gold]  <i><size:14>Utilizes probabilistic techniques to make predictions and is used in classification problems.
+
+**[#lightblue]  <i><size:14>Shallow Neural Networks
+***[#gold]  <i><size:14>Simple neural network architectures with only a few layers, suitable for various tasks.
+
+**[#lightblue]  <i><size:14>Neural Networks with Custom Architectures
+***[#gold]  <i><size:14>Researchers and practitioners develop custom neural network architectures tailored to specific tasks.
+
+**[#lightblue]  <i><size:14>Quantum Neural Networks (QNN)
+***[#gold]  <i><size:14>Leveraging quantum computing principles for machine learning and optimization tasks.
+
+**[#lightblue]  <i><size:14>Neural Networks for Specialized Tasks
+***[#gold]  <i><size:14>Tailored neural network architectures are designed for specific applications like medical image analysis, autonomous driving, and more.
+
+@endmindmap
