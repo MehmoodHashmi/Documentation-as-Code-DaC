@@ -1,0 +1,48 @@
+@startmindmap
+title =<i><b><u>Model Evaluation
+!theme hacker
+
+*[#darkblue] <i> Model Evaluation
+**[#lightblue] <i><size:14>Definition
+***[#green] <color #white><i><size:22>Model evaluation is the process of assessing the **"performance and effectiveness"** of machine learning and statistical models.
+
+**[#lightblue] <i><size:14>Purpose
+***[#green] <color #white><i><size:22>To determine how well a "model" generalizes to "unseen data" and "makes predictions".
+
+**[#lightblue] <i><size:14>Evaluation Metrics
+***[#green] <color #white><i><size:14><b>Classification Metrics
+****[#yellow] <color #black><i><size:14>For <b>binary and multiclass classification models:
+****[#yellow] <color #black><i><size:18>Accuracy, Precision, Recall, F1-Score, ROC AUC, <b>Confusion Matrix.
+
+***[#green] <color #white><i><size:14><b>Regression Metrics
+****[#yellow] <color #black><i><size:14>For <b>regression models:
+****[#yellow] <color #black><i><size:18>Mean Absolute Error **(MAE)**, Mean Squared Error **(MSE)**, Root Mean Squared Error **(RMSE)**, R-squared **(R2)**.
+
+**[#lightblue] <i><size:14>Cross-Validation
+***[#green] <color #white><i><size:14>Technique for estimating a model's performance by partitioning data into training and testing sets multiple times.
+
+**[#lightblue] <i><size:14>Overfitting and Underfitting
+***[#green] <color #white><i><size:14>Understanding and diagnosing model behavior with respect to training data.
+
+**[#lightblue] <i><size:14>Bias-Variance Trade-Off
+***[#green] <color #white><i><size:14>Balancing model complexity and generalization.
+
+**[#lightblue] <i><size:14>Hyperparameter Tuning
+***[#green] <color #white><i><size:14>Optimization of model parameters to improve performance.
+
+**[#lightblue] <i><size:14>Validation and Test Sets
+***[#green] <color #white><i><size:14>Proper data splitting to avoid data leakage and over-optimistic evaluation.
+
+**[#lightblue] <i><size:14>Real-World Applications
+***[#green] <color #white><i><size:14>Evaluating models for predicting customer churn, image recognition, disease diagnosis, and financial forecasting.
+
+**[#lightblue] <i><size:14>Considerations
+***[#green] <color #white><i><size:14>Choice of evaluation metrics and techniques depends on the type of problem and specific goals.
+
+**[#lightblue] <i><size:14>Model Comparison
+***[#green] <color #white><i><size:14>Comparing multiple models to select the most suitable one for a given task.
+
+**[#lightblue] <i><size:14>Challenges
+***[#green] <color #white><i><size:14>Dealing with imbalanced datasets, handling missing data, and choosing appropriate evaluation techniques.
+
+@endmindmap

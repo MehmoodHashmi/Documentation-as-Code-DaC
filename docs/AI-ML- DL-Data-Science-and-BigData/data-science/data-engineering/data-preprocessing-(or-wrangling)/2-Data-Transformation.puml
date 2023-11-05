@@ -2,84 +2,83 @@
 title =Data Transformation
 !theme hacker
 
-* Data Transformation
-** Definition
-*** <size:14>**Data transformation** is the process of **converting and reshaping data** from its **source format into a desired format** for analysis, reporting, or other purposes.
+*[#darkblue] <i>Data Transformation
+**[#lightblue] <color #black><i><size:14>Definition
+***[#green] <color #white><i><size:16>**Data transformation** is the process of **converting and reshaping data** from its **source format into a desired format** for analysis, reporting, or other purposes.
 
-** Objectives
-*** Clean Data
-****[#yellow] ====<size:14>Remove or handle missing values, duplicates, and outliers.
-****[#yellow] ====<size:14>Ensure data quality and consistency.
+**[#lightblue] <color #black><i><size:14>Objectives
+***[#green] <color #white><i><size:14><b>Clean Data
+****[#yellow] <color #black><i><size:14>Remove or handle missing values, duplicates, and outliers.
+****[#yellow] <color #black><i><size:14>Ensure data quality and consistency.
 
-*** Restructure Data
-****[#yellow] ====<size:14>Reshape data to fit the required format, **structure, or schema.**
-****[#yellow] ====<size:14>May involve pivoting, melting, or transposing data.
+***[#green] <color #white><i><size:14><b>Restructure Data
+****[#yellow] <color #black><i><size:14>Reshape data to fit the required format, **structure, or schema.**
+****[#yellow] <color #black><i><size:14>May involve pivoting, melting, or transposing data.
 
-*** Normalize Data
-****[#yellow] ====<size:14>**Scale** numeric data to a common range.
-****[#yellow] ====<size:14>Minimize data bias due to varying units and scales.
+***[#green] <color #white><i><size:14><b>Normalize Data
+****[#yellow] <color #black><i><size:14>**Scale** numeric data to a common range.
+****[#yellow] <color #black><i><size:14>Minimize data bias due to varying units and scales.
 
-*** Aggregate Data
-****[#yellow] ====<size:14>Combine and summarize data to provide insights.
-****[#yellow] ====<size:14>Grouping, filtering, and aggregation operations.
+***[#green] <color #white><i><size:14><b>Aggregate Data
+****[#yellow] <color #black><i><size:14>Combine and summarize data to provide insights.
+****[#yellow] <color #black><i><size:14>Grouping, filtering, and aggregation operations.
 
-** Techniques
-*** Data Cleaning
-****[#yellow] ====<size:14>Handling missing values **(e.g., imputation or removal)**.
-****[#yellow] ====<size:14>Outlier detection and treatment.
-****[#yellow] ====<size:14>Data deduplication.
+**[#lightblue] <color #black><i><size:14>Techniques
+***[#green] <color #white><i><size:14><b>Data Cleaning
+****[#yellow] <color #black><i><size:14>Handling missing values **(e.g., imputation or removal)**.
+****[#yellow] <color #black><i><size:14>Outlier detection and treatment.
+****[#yellow] <color #black><i><size:14>Data deduplication.
 
-*** Data Restructuring
-****[#yellow] ====<size:14>Pivoting and unpivoting **(reshaping data)**.
-****[#yellow] ====<size:14>Data normalization and **standardization.**
-****[#yellow] ====<size:14>String manipulation and regular expressions.
+***[#green] <color #white><i><size:14><b>Data Restructuring
+****[#yellow] <color #black><i><size:14>Pivoting and unpivoting **(reshaping data)**.
+****[#yellow] <color #black><i><size:14>Data normalization and **standardization.**
+****[#yellow] <color #black><i><size:14>String manipulation and regular expressions.
 
-*** Data Aggregation
-****[#yellow] ====<size:14>Grouping data by categories or time intervals.
-****[#yellow] ====<size:14>Applying aggregation functions **(e.g., sum, average, count)**.
+***[#green] <color #white><i><size:14><b>Data Aggregation
+****[#yellow] <color #black><i><size:14>Grouping data by categories or time intervals.
+****[#yellow] <color #black><i><size:14>Applying aggregation functions **(e.g., sum, average, count)**.
 
-*** Data Enrichment
-****[#yellow] ====<size:14>Augmenting data with external sources **(e.g., adding geospatial data or social media sentiment scores)**.
-***[#gold] Z-Score scaling or Standard scaling
-***[#gold] Min-Max scaling
+***[#green] <color #white><i><size:14><b>Data Enrichment
+****[#yellow] <color #black><i><size:14>Augmenting data with external sources **(e.g., adding geospatial data or social media sentiment scores)**.
 
-** Tools and Technologies
-*** Data Preparation Tools
-****[#yellow] ====<size:14>OpenRefine, Trifacta, MS Excel, **pandas (Python library)**.
 
-*** Data Integration Tools
-****[#yellow] ====<size:14>Talend, Apache Nifi, Informatica PowerCenter.
+**[#lightblue] <color #black><i><size:14>Tools and Technologies
+***[#green] <color #white><i><size:14><b>Data Preparation Tools
+****[#yellow] <color #black><i><size:14>OpenRefine, Trifacta, MS Excel, **pandas (Python library)**.
 
-*** Data Processing Frameworks
-****[#yellow] ====<size:14>Apache Spark, Hadoop MapReduce.
+***[#green] <color #white><i><size:14><b>Data Integration Tools
+****[#yellow] <color #black><i><size:14>Talend, Apache Nifi, Informatica PowerCenter.
 
-*** ETL **(Extract, Transform, Load)** Tools
-****[#yellow] ====<size:14>Apache NiFi, Apache Beam, Talend.
+***[#green] <color #white><i><size:14><b>Data Processing Frameworks
+****[#yellow] <color #black><i><size:14>Apache Spark, Hadoop MapReduce.
 
-** Considerations
-*** Data Understanding
-****[#yellow] ====<size:14>Gain a deep understanding of data to perform meaningful transformations.
+***[#green] <color #white><i><size:14><b>ETL **(Extract, Transform, Load)** Tools
+****[#yellow] <color #black><i><size:14>Apache NiFi, Apache Beam, Talend.
 
-*** Data Quality
-****[#yellow] ====<size:14>Ensure transformed data meets quality and consistency standards.
+**[#lightblue] <color #black><i><size:14>Considerations
+***[#green] <color #white><i><size:14><b>Data Understanding
+****[#yellow] <color #black><i><size:14>Gain a deep understanding of data to perform meaningful transformations.
 
-*** Compatibility
-****[#yellow] ====<size:14>Ensure compatibility with downstream systems or analysis tools.
+***[#green] <color #white><i><size:14><b>Data Quality
+****[#yellow] <color #black><i><size:14>Ensure transformed data meets quality and consistency standards.
 
-*** Data Loss Prevention
-****[#yellow] ====<size:14>Minimize data loss and ensure traceability in transformations.
+***[#green] <color #white><i><size:14><b>Compatibility
+****[#yellow] <color #black><i><size:14>Ensure compatibility with downstream systems or analysis tools.
 
-** Best Practices
-*** Documentation
-****[#yellow] ====<size:14>Maintain clear documentation of transformation processes.
+***[#green] <color #white><i><size:14><b>Data Loss Prevention
+****[#yellow] <color #black><i><size:14>Minimize data loss and ensure traceability in transformations.
 
-*** Version Control
-****[#yellow] ====<size:14>Apply version control to transformation scripts and workflows.
+**[#lightblue] <color #black><i><size:14>Best Practices
+***[#green] <color #white><i><size:14><b>Documentation
+****[#yellow] <color #black><i><size:14>Maintain clear documentation of transformation processes.
 
-*** Data Auditing
-****[#yellow] ====<size:14>Implement data auditing and validation checks.
+***[#green] <color #white><i><size:14><b>Version Control
+****[#yellow] <color #black><i><size:14>Apply version control to transformation scripts and workflows.
 
-*** Data Validation
-****[#yellow] ====<size:14>Perform data validation to catch errors early.
+***[#green] <color #white><i><size:14><b>Data Auditing
+****[#yellow] <color #black><i><size:14>Implement data auditing and validation checks.
+
+***[#green] <color #white><i><size:14><b>Data Validation
+****[#yellow] <color #black><i><size:14>Perform data validation to catch errors early.
 
 @endmindmap

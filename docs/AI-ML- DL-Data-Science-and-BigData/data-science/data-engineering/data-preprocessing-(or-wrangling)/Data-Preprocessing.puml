@@ -13,40 +13,40 @@ title =Data Preprocessing\n<img:images/img_59.png> \nStep 1 and Step 2 are perfo
 
 **[#a] Steps in Data Preprocessing
 ***[#orange] ===Data Cleaning \n **[[1-Data-Cleaning.puml Click for detailed \nmindmap]]**
-****[#yellow] ====<size:13>**Handle Missing Values:** Remove, impute, or interpolate missing data.
-****[#yellow] ====<size:13>**Outlier Detection:** Identify and handle outliers that can distort analysis.
-****[#yellow] ====<size:13>**Noise Reduction:** Smooth noisy data by applying filters or techniques.
+****[#yellow] <i><color #black><size:14>**Handle Missing Values:** Remove, impute, or interpolate missing data.
+****[#yellow] <i><color #black><size:14>**Outlier Detection:** Identify and handle outliers that can distort analysis.
+****[#yellow] <i><color #black><size:14>**Noise Reduction:** Smooth noisy data by applying filters or techniques.
 
 ***[#gold] ===Data Transformation \n **[[2-Data-Transformation.puml Click for detailed \nmindmap]]**
-****[#yellow] ====<size:13>**Encoding Categorical Data:** Convert categorical variables into numerical formats **(e.g., one-hot encoding)**.
-****[#yellow] ====<size:13>**Feature Scaling:** Normalize or standardize numeric features to bring them to a common scale.
-****[#yellow] ====<size:13>**Dimensionality Reduction:** Reduce the number of features using techniques like **PCA.**
+****[#yellow] <i><color #black><size:14>**Encoding Categorical Data:** Convert categorical variables into numerical formats **(e.g., one-hot encoding)**.
+****[#darkorange] <i><color #black><size:21>**[[Feature-Scaling.puml Feature Scaling:]]** Normalize or standardize numeric features to bring them to a common scale.
+****[#yellow] <i><color #black><size:14>**Dimensionality Reduction:** Reduce the number of features using techniques like **PCA.**
 
 ***[#pink] ===Data Reduction \n **[[3-Data-Reduction.puml Click for detailed \nmindmap]]**
-****[#yellow] ====<size:13>**Sampling:** Reduce data volume by sampling subsets **(e.g., random or stratified sampling)**.
-****[#yellow] ====<size:13>**Aggregation:** Combine and summarize data to reduce dimensionality **(e.g., aggregating by time intervals)**.
+****[#yellow] <i><color #black><size:14>**Sampling:** Reduce data volume by sampling subsets **(e.g., random or stratified sampling)**.
+****[#yellow] <i><color #black><size:14>**Aggregation:** Combine and summarize data to reduce dimensionality **(e.g., aggregating by time intervals)**.
 
 ***[#lime] ===Data Integration \n **[[4-Data-Integration.puml Click for detailed \nmindmap]]**
-****[#yellow] ====<size:13>**Merge Data Sources:** Combine data from multiple sources into a single **dataset**.
-****[#yellow] ====<size:13>**Handle Redundancy:** Identify and eliminate redundant information.
+****[#yellow] <i><color #black><size:14>**Merge Data Sources:** Combine data from multiple sources into a single **dataset**.
+****[#yellow] <i><color #black><size:14>**Handle Redundancy:** Identify and eliminate redundant information.
 
 ** Tools and Techniques
 *** Data Analysis Tools
-****[#yellow] ====<size:13>**Python Libraries:** pandas, NumPy
-****[#yellow] ====<size:13>R Data Analysis Tools
-****[#yellow] ====<size:13>SQL for database preprocessing
+****[#yellow] <i><color #black><size:14>**Python Libraries:** pandas, NumPy
+****[#yellow] <i><color #black><size:14>R Data Analysis Tools
+****[#yellow] <i><color #black><size:14>SQL for database preprocessing
 
 *** Visualization Tools
-****[#yellow] ====<size:13>Matplotlib, Seaborn
-****[#yellow] ====<size:13>Data visualization aids in understanding data patterns and anomalies.
+****[#yellow] <i><color #black><size:14>Matplotlib, Seaborn
+****[#yellow] <i><color #black><size:14>Data visualization aids in understanding data patterns and anomalies.
 
 *** Machine Learning Libraries
-****[#yellow] ====<size:13>Scikit-learn, TensorFlow
-****[#yellow] ====<size:13>Utilize machine learning models for imputing missing data and handling outliers.
+****[#yellow] <i><color #black><size:14>Scikit-learn, TensorFlow
+****[#yellow] <i><color #black><size:14>Utilize machine learning models for imputing missing data and handling outliers.
 
 *** Data Preprocessing Libraries
-****[#yellow] ====<size:13>scikit-learn preprocessing functions
-****[#yellow] ====<size:13>Feature engineering tools like Feature-Engine
+****[#yellow] <i><color #black><size:14>scikit-learn preprocessing functions
+****[#yellow] <i><color #black><size:14>Feature engineering tools like Feature-Engine
 
 ** Considerations
 ***[#orange] ===Domain Knowledge
@@ -54,10 +54,10 @@ title =Data Preprocessing\n<img:images/img_59.png> \nStep 1 and Step 2 are perfo
 ****[#yellow] ===Domain knowledge helps in handling specific data challenges.
 
 *** Data Documentation
-****[#yellow] ====<size:13>Maintain clear documentation of preprocessing steps to ensure reproducibility.
+****[#yellow] <i><color #black><size:14>Maintain clear documentation of preprocessing steps to ensure reproducibility.
 
 *** Data Splitting
-****[#yellow] ====<size:13>Split data into training, validation, and test sets for model evaluation.
+****[#yellow] <i><color #black><size:14>Split data into training, validation, and test sets for model evaluation.
 
 ***[#gold] ===Iterative Process
 ****[#yellow] ===__Data preprocessing__ is often an iterative process, as new insights may require adjustments.

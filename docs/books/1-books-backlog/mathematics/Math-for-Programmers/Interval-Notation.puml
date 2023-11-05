@@ -1,39 +1,91 @@
 @startmindmap
-title =__ Interval Notation__
-* Interval Notation
-** Introduction
-*** Interval notation is a way to represent a range of values on the real number line.
-** Open Interval
-*** (a, b)
-**** Represents the interval that includes all real numbers greater than a and less than b.
-**** Example: (2, 5) represents the interval from 2 to 5, excluding the endpoints.
-** Closed Interval
-*** [a, b]
-**** Represents the interval that includes all real numbers greater than or equal to a and less than or equal to b.
-**** Example: [2, 5] represents the interval from 2 to 5, including the endpoints.
-** Half-Open Interval
-*** (a, b]
-**** Represents the interval that includes all real numbers greater than a and less than or equal to b.
-**** Example: (2, 5] represents the interval from 2 to 5, excluding the left endpoint but including the right endpoint.
-** Half-Closed Interval
-*** [a, b)
-**** Represents the interval that includes all real numbers greater than or equal to a and less than b.
-**** Example: [2, 5) represents the interval from 2 to 5, including the left endpoint but excluding the right endpoint.
-** Infinite Interval
-*** (-∞, b)
-**** Represents the interval that includes all real numbers less than b.
-**** Example: (-∞, 5) represents the interval from negative infinity to 5, excluding the endpoint.
-*** (a, ∞)
-**** Represents the interval that includes all real numbers greater than a.
-**** Example: (2, ∞) represents the interval from 2 to positive infinity, excluding the endpoint.
+title =<b><i><u>Interval Notation \n<img:images/img.png>
+!theme hacker
+
+*[#darkblue] <i>Interval Notation
+**[#lightblue] <size:14><i>Introduction
+***[#green] <i><size:18><color #white>**Interval notation** is a way to represent a range of values on the real number line.
+**[#lightblue] <size:14><i>Open Interval
+***[#green] <i><size:18><color #white><b>(a, b)
+****[#yellow] <color #black><i><size:18>Represents the interval that includes all real numbers greater than a and less than b.
+****[#yellow] <color #black><i><size:18>**Example: (2, 5)** represents the interval from 2 to 5, excluding the endpoints.
+**[#lightblue] <size:14><i>Closed Interval
+***[#green] <i><size:18><color #white><b>[a, b]
+****[#yellow] <color #black><i><size:18>Represents the interval that includes all real numbers greater than or equal to a and less than or equal to b.
+****[#yellow] <color #black><i><size:18>**Example: [2, 5]** represents the interval from 2 to 5, including the endpoints.
+**[#lightblue] <size:14><i>Half-Open Interval
+***[#green] <i><size:18><color #white><b>(a, b]
+****[#yellow] <color #black><i><size:18>Represents the interval that includes all real numbers greater than a and less than or equal to b.
+****[#yellow] <color #black><i><size:18>**Example: (2, 5]** represents the interval from 2 to 5, excluding the left endpoint but including the right endpoint.
+**[#lightblue] <size:14><i>Half-Closed Interval
+***[#green] <i><size:18><color #white><b>[a, b)
+****[#yellow] <color #black><i><size:18>Represents the interval that includes all real numbers greater than or equal to a and less than b.
+****[#yellow] <color #black><i><size:18>**Example: [2, 5)** represents the interval from 2 to 5, including the left endpoint but excluding the right endpoint.
+**[#lightblue] <size:14><i>Infinite Interval
+***[#green] <i><size:18><color #white><b>(-∞, b)
+****[#yellow] <color #black><i><size:18>Represents the interval that includes all real numbers less than b.
+****[#yellow] <color #black><i><size:18>**Example: (-∞, 5)** represents the interval from negative infinity to 5, excluding the endpoint.
+***[#green] <i><size:18><color #white><b>(a, ∞)
+****[#yellow] <color #black><i><size:18>Represents the interval that includes all real numbers greater than a.
+****[#yellow] <color #black><i><size:18>**Example: (2, ∞)** represents the interval from 2 to positive infinity, excluding the endpoint.
+**[#lightblue] <size:14><i>Interval Operations
+***[#green] <i><size:18><color #white><b>Union (U)
+****[#yellow] <color #black><i><size:18>Combines two or more intervals into a single interval that includes all values from each individual interval.
+****[#yellow] <color #black><i><size:18>**Example: (2, 5) U (7, 9)** represents the interval that includes values from both (2, 5) and (7, 9).
+***[#green] <i><size:18><color #white><b>Intersection (∩)
+****[#yellow] <color #black><i><size:18>Finds the overlap between two intervals, resulting in a new interval that includes only the shared values.
+****[#yellow] <color #black><i><size:18>**Example: [2, 5] ∩ (4, 7)** represents the interval that includes values common to both [2, 5] and (4, 7).
+***[#green] <i><size:18><color #white><b>Difference (-)
+****[#yellow] <color #black><i><size:18>Subtracts one interval from another, resulting in a new interval that includes values from the first interval but not from the second.
+****[#yellow] <color #black><i><size:18>**Example: [2, 5] - (3, 4)** represents the interval that includes values in [2, 5] except those in (3, 4).
+
+* Intervals
+** Definition
+***[#green] <color #white><i><size:18>An interval is a mathematical concept that represents a range of values along a continuous line or axis.
+***[#green] <color #white><i><size:18>It is commonly used in various fields, including mathematics, physics, and data analysis.
+
+** Types of Intervals
+***[#green] <color #white><b><i><size:18>Closed Interval
+****[#yellow] <color #black><i><size:18>Includes both endpoints and all values in between.
+****[#yellow] <color #black><i><size:18>Denoted as [a, b], where a and b are endpoints.
+***[#green] <color #white><b><i><size:18>Open Interval
+****[#yellow] <color #black><i><size:18>Excludes both endpoints but includes all values in between.
+****[#yellow] <color #black><i><size:18>Denoted as (a, b).
+***[#green] <color #white><b><i><size:18>Half-Open or Half-Closed Interval
+****[#yellow] <color #black><i><size:18>Includes one endpoint but excludes the other.
+****[#yellow] <color #black><i><size:18>Denoted as [a, b) or (a, b].
+***[#green] <color #white><b><i><size:18>Infinite Interval
+****[#yellow] <color #black><i><size:18>Extends indefinitely in one or both directions.
+****[#yellow] <color #black><i><size:18>Denoted as (-∞, b), [a, ∞), or (-∞, ∞).
+
+** Notation
+***[#yellow] <color #black><i><size:18>Mathematical notation is used to represent intervals, specifying the lower and upper bounds.
+****[#yellow] <color #black><i><size:18>**Examples:** [0, 1], (2, 5], (-∞, 3), [4, ∞).
+
 ** Interval Operations
-*** Union (U)
-**** Combines two or more intervals into a single interval that includes all values from each individual interval.
-**** Example: (2, 5) U (7, 9) represents the interval that includes values from both (2, 5) and (7, 9).
-*** Intersection (∩)
-**** Finds the overlap between two intervals, resulting in a new interval that includes only the shared values.
-**** Example: [2, 5] ∩ (4, 7) represents the interval that includes values common to both [2, 5] and (4, 7).
-*** Difference (-)
-**** Subtracts one interval from another, resulting in a new interval that includes values from the first interval but not from the second.
-**** Example: [2, 5] - (3, 4) represents the interval that includes values in [2, 5] except those in (3, 4).
+***[#green] <color #white><b><i><size:18>Union
+****[#yellow] <color #black><i><size:18>Combining two intervals to create a larger interval.
+****[#yellow] <color #black><i><size:18>**Example:** [1, 3] ∪ [5, 7] = [1, 3] and [5, 7].
+***[#green] <color #white><b><i><size:18>Intersection
+****[#yellow] <color #black><i><size:18>Finding the overlap between two intervals.
+****[#yellow] <color #black><i><size:18>**Example:** [2, 4] ∩ [3, 5] = [3, 4].
+***[#green] <color #white><b><i><size:18>Complement
+****[#yellow] <color #black><i><size:18>Identifying the values not included in an interval.
+****[#yellow] <color #black><i><size:18>**Example:** Complement of [2, 6] = (-∞, 2) and (6, ∞).
+
+** Properties
+***[#green] <color #white><b><i><size:18>Length
+****[#yellow] <color #black><i><size:18> The length of an interval is the difference between its upper and lower bounds.
+****[#yellow] <color #black><i><size:18> **Example:** Length of [a, b] = b - a.
+***[#green] <color #white><b><i><size:18>Boundedness
+****[#yellow] <color #black><i><size:18> An interval is bounded if it has finite upper and lower bounds.
+***[#green] <color #white><b><i><size:18>Convexity
+****[#yellow] <color #black><i><size:18> An interval is convex if, for any two points within the interval, the entire line segment connecting them is also in the interval.
+
+** Applications
+***[#orange] <color #black><i><size:18>Intervals are used in calculus, statistics, optimization, and data analysis for modeling, calculations, and data range representation.
+
+** Real-World Examples
+***[#yellow] <color #black><i><size:18>Temperature intervals (e.g., 20°C - 30°C), time intervals (e.g., 9:00 AM - 5:00 PM), confidence intervals in statistics, and more.
+* <img:images/img_1.png>
 @endmindmap

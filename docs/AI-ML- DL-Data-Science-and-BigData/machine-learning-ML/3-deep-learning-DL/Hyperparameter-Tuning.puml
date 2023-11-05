@@ -6,72 +6,72 @@ title =__Hyperparameter Tuning__
 
 * Hyperparameter Tuning
 ** Definition
-***[#orange] ========<size:16>**Hyperparameter Tuning** is the "process" of "finding the optimal hyperparameters" for a "machine learning model" to achieve the best "performance" on a "given task".
+***[#orange] <i><size:16>**Hyperparameter Tuning** is the "process" of "finding the optimal hyperparameters" for a "machine learning model" to achieve the best "performance" on a "given task".
 
 ** Key Concepts
-***[#gold] ====**Hyperparameters**
-****[#white] ====<size:14>**"Parameters" not "learned" by the "model" but "set before the training".**
-***[#gold] ====Search Space
-****[#yellow] ====<size:14>The range or values from which hyperparameters are selected.
-***[#gold] ====Objective Function
-****[#yellow] ====<size:14>A metric used to evaluate the performance of different hyperparameters.
-***[#gold] ====Optimization Algorithm
-****[#yellow] ====<size:14>The method used to search for optimal hyperparameters.
-***[#gold] ====Cross-Validation
-****[#yellow] ====<size:14>Splitting data into multiple subsets for robust evaluation.
+***[#gold] <size:14><i>**Hyperparameters**
+****[#white] <i><size:14>**"Parameters" not "learned" by the "model" but "set before the training".**
+***[#gold] <size:14><i>Search Space
+****[#yellow] <color #black><i><size:14>The range or values from which hyperparameters are selected.
+***[#gold] <size:14><i>Objective Function
+****[#yellow] <color #black><i><size:14>A metric used to evaluate the performance of different hyperparameters.
+***[#gold] <size:14><i>Optimization Algorithm
+****[#yellow] <color #black><i><size:14>The method used to search for optimal hyperparameters.
+***[#gold] <size:14><i>Cross-Validation
+****[#yellow] <color #black><i><size:14>Splitting data into multiple subsets for robust evaluation.
 
 ** Hyperparameter Tuning Methods
-***[#gold] ====Grid Search
-****[#yellow] ====<size:14>Systematically exploring a predefined set of hyperparameters.
-***[#gold] ====Random Search
-****[#yellow] ====<size:14>Randomly sampling hyperparameters from a specified distribution.
-***[#gold] ====Bayesian Optimization
-****[#yellow] ====<size:14>Using probabilistic models to guide the search.
-***[#gold] ====Genetic Algorithms
-****[#yellow] ====<size:14>Evolving a population of hyperparameters over generations.
-***[#gold] ====Automated Hyperparameter Tuning Tools
-****[#yellow] ====<size:14>Platforms like Optuna, Hyperopt, and AutoML tools.
+***[#gold] <size:14><i>Grid Search
+****[#yellow] <color #black><i><size:14>Systematically exploring a predefined set of hyperparameters.
+***[#gold] <size:14><i>Random Search
+****[#yellow] <color #black><i><size:14>Randomly sampling hyperparameters from a specified distribution.
+***[#gold] <size:14><i>Bayesian Optimization
+****[#yellow] <color #black><i><size:14>Using probabilistic models to guide the search.
+***[#gold] <size:14><i>Genetic Algorithms
+****[#yellow] <color #black><i><size:14>Evolving a population of hyperparameters over generations.
+***[#gold] <size:14><i>Automated Hyperparameter Tuning Tools
+****[#yellow] <color #black><i><size:14>Platforms like Optuna, Hyperopt, and AutoML tools.
 
 ** Hyperparameter Types
-***[#gold] ====Learning Rate
-****[#yellow] ====<size:14>Affects the **"step size"** during optimization.
-***[#gold] ====Number of Hidden Layers
-****[#yellow] ====<size:14>Determines the depth of neural networks.
-***[#gold] ====Number of Neurons
-****[#yellow] ====<size:14>The number of units in each layer of neural networks.
-***[#gold] ====Regularization Strength
-****[#yellow] ====<size:14>Controls overfitting with L1 or L2 regularization.
-***[#gold] ====Batch Size
-****[#yellow] ====<size:14>Number of samples used in each training iteration.
+***[#gold] <size:14><i>Learning Rate
+****[#yellow] <color #black><i><size:14>Affects the **"step size"** during optimization.
+***[#gold] <size:14><i>Number of Hidden Layers
+****[#yellow] <color #black><i><size:14>Determines the depth of neural networks.
+***[#gold] <size:14><i>Number of Neurons
+****[#yellow] <color #black><i><size:14>The number of units in each layer of neural networks.
+***[#gold] <size:14><i>Regularization Strength
+****[#yellow] <color #black><i><size:14>Controls overfitting with L1 or L2 regularization.
+***[#gold] <size:14><i>Batch Size
+****[#yellow] <color #black><i><size:14>Number of samples used in each training iteration.
 
 ** Metrics
-***[#gold] ====Accuracy
-****[#yellow] ====<size:14>Proportion of correctly predicted instances.
-***[#gold] ====F1-Score
-****[#yellow] ====<size:14>Combines precision and recall for imbalanced datasets.
-***[#gold] ====Area Under the ROC Curve **(AUC-ROC)**
-****[#yellow] ====<size:14>Measures the classifier's ability to distinguish between classes.
-***[#gold] ====Mean Squared Error **(MSE)**
-****[#yellow] ====<size:14>Measures the average squared difference between predictions and actual values.
+***[#gold] <size:14><i>Accuracy
+****[#yellow] <color #black><i><size:14>Proportion of correctly predicted instances.
+***[#gold] <size:14><i>F1-Score
+****[#yellow] <color #black><i><size:14>Combines precision and recall for imbalanced datasets.
+***[#gold] <size:14><i>Area Under the ROC Curve **(AUC-ROC)**
+****[#yellow] <color #black><i><size:14>Measures the classifier's ability to distinguish between classes.
+***[#gold] <size:14><i>Mean Squared Error **(MSE)**
+****[#yellow] <color #black><i><size:14>Measures the average squared difference between predictions and actual values.
 
 ** Challenges
-***[#gold] ====Combinatorial Search
-****[#yellow] ====<size:14>Exploring a large search space is computationally expensive.
-***[#gold] ====Overfitting
-****[#yellow] ====<size:14>Tuning too aggressively can lead to overfit models.
-***[#gold] ====Resource Constraints
-****[#yellow] ====<size:14>Limited hardware and time for hyperparameter tuning.
+***[#gold] <size:14><i>Combinatorial Search
+****[#yellow] <color #black><i><size:14>Exploring a large search space is computationally expensive.
+***[#gold] <size:14><i>Overfitting
+****[#yellow] <color #black><i><size:14>Tuning too aggressively can lead to overfit models.
+***[#gold] <size:14><i>Resource Constraints
+****[#yellow] <color #black><i><size:14>Limited hardware and time for hyperparameter tuning.
 
 ** Best Practices
-***[#gold] ====Start with Defaults
-****[#yellow] ====<size:14>Begin with reasonable default hyperparameters.
-***[#gold] ====Prioritize Hyperparameters
-****[#yellow] ====<size:14>Focus on hyperparameters that have the most impact.
-***[#gold] ====Cross-Validation
-****[#yellow] ====<size:14>Use cross-validation for robust evaluation.
-***[#gold] ====Keep Records
-****[#yellow] ====<size:14>Maintain records of hyperparameter configurations and results.
-***[#gold] ====Automated Tuning
-****[#yellow] ====<size:14>Consider automated hyperparameter tuning tools.
+***[#gold] <size:14><i>Start with Defaults
+****[#yellow] <color #black><i><size:14>Begin with reasonable default hyperparameters.
+***[#gold] <size:14><i>Prioritize Hyperparameters
+****[#yellow] <color #black><i><size:14>Focus on hyperparameters that have the most impact.
+***[#gold] <size:14><i>Cross-Validation
+****[#yellow] <color #black><i><size:14>Use cross-validation for robust evaluation.
+***[#gold] <size:14><i>Keep Records
+****[#yellow] <color #black><i><size:14>Maintain records of hyperparameter configurations and results.
+***[#gold] <size:14><i>Automated Tuning
+****[#yellow] <color #black><i><size:14>Consider automated hyperparameter tuning tools.
 
 @endmindmap

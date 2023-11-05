@@ -1,0 +1,52 @@
+@startmindmap
+title =<i><b><u>Normalization and Standardization
+
+!theme hacker
+
+
+*[#darkblue] <i>Normalization and Standardization
+**[#lightblue] <i><size:14>Purpose
+***[#green] <color #white><i><size:22>**Data preprocessing techniques** to "transform and scale data" for "modeling and analysis".
+
+**[#lightblue] <i><size:14>Normalization **(min-max scaling)**
+***[#green] <color #white><b><i><size:14>Range
+****[#yellow] <color #black><i><size:14>Scales data to a specific range, typically <b>[0, 1].
+***[#green] <color #white><b><i><size:14>Formula
+****[#yellow] <color #black><i><size:22>X_normalized = **(X - X_min)** / **(X_max - X_min)**
+***[#green] <color #white><b><i><size:18>Use Cases
+****[#yellow] <color #black><i><size:14>Suitable when the magnitude of features doesn't matter, or when algorithms rely on feature scaling.
+
+**[#lightblue] <i><size:14>Standardization **(Z-score scaling)**
+***[#green] <color #white><b><i><size:14>Distribution
+****[#yellow] <color #black><i><size:14>Transforms data into a distribution with mean **(average)** 0 and standard deviation 1.
+***[#green] <color #white><b><i><size:14>Formula
+****[#yellow] <color #black><i><size:22>Z = **(X - μ)** / σ
+****[#yellow] <color #black><i><size:14>where μ is the mean, and σ is the standard deviation.
+***[#green] <color #white><b><i><size:18>Use Cases
+****[#yellow] <color #black><i><size:14>Effective when features have different units and magnitudes, suitable for many machine learning algorithms.
+
+**[#lightblue] <i><size:24>Affected by Outliers
+***[#green] <color #white><b><i><size:14>Normalization
+****[#yellow] <color #black><i><size:14>Less affected by outliers since it uses the range of data values.
+***[#green] <color #white><b><i><size:14>Standardization
+****[#yellow] <color #black><i><size:14>More affected by outliers because it relies on the mean and standard deviation.
+
+**[#lightblue] <i><size:14>Interpretation
+***[#green] <color #white><b><i><size:14>Normalization
+****[#yellow] <color #black><i><size:14>Data is transformed to fit within a specific range, making it easier to compare.
+***[#green] <color #white><b><i><size:14>Standardization
+****[#yellow] <color #black><i><size:14>Data is transformed to have a mean of 0 and a standard deviation of 1, facilitating comparisons and modeling.
+
+**[#lightblue] <i><size:22>Algorithms
+***[#green] <color #white><b><i><size:14>Normalization
+****[#yellow] <color #black><i><size:14>K-Nearest Neighbors **(KNN)**, Neural Networks.
+***[#green] <color #white><b><i><size:14>Standardization
+****[#yellow] <color #black><i><size:14>Principal Component Analysis **(PCA)**, Support Vector Machines **(SVM)**.
+
+**[#lightblue] <i><size:14>Real-World Examples
+***[#green] <color #white><i><size:14>In healthcare, normalizing medical test scores. In finance, standardizing features for risk analysis.
+
+**[#lightblue] <i><size:32>Considerations
+***[#green] <color #white><i><size:14>Choice depends on "data characteristics" and the "requirements" of the "modeling algorithm".
+
+@endmindmap

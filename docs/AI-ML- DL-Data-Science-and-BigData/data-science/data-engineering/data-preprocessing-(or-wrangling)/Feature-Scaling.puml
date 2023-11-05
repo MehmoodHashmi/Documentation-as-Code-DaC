@@ -1,0 +1,44 @@
+@startmindmap
+title =<i><b><u>Feature Scaling
+
+!theme hacker
+
+
+*[#darkblue] <i>Feature Scaling
+**[#lightblue] <color #black><i><size:14>Definition
+***[#green] <color #white><i><size:14>**Feature scaling** is a "data preprocessing technique" that transforms the values of features or variables to a common scale or range, making them more suitable for machine learning algorithms.
+
+**[#lightblue] <color #black><i><size:14>Purpose
+***[#green] <color #white><i><size:14>To ensure that features with different units or magnitudes do not dominate the learning process or affect model performance.
+
+**[#lightblue] <color #black><i><size:14>Common Techniques
+***[#green] <color #white><i><size:22><b>[[Normalization-and-Standardization.puml Min-Max Scaling (Normalization)]]
+****[#yellow] <color #black><i><size:14>Scales features to a specific range, typically <b>[0, 1].
+****[#yellow] <color #black><i><size:22>**Formula:** X_normalized = **(X - X_min)** / **(X_max - X_min)**.
+***[#green] <color #white><i><size:22><b>[[Normalization-and-Standardization.puml Z-Score Scaling (Standardization)]]
+****[#yellow] <color #black><i><size:14>Transforms features into a standard distribution with <b>mean 0 and standard deviation 1.
+****[#yellow] <color #black><i><size:22>**Formula:** Z = **(X - μ)** / σ, where μ is the mean, and σ is the standard deviation.
+***[#green] <color #white><i><size:14><b>Robust Scaling
+****[#yellow] <color #black><i><size:14>Scales features based on the interquartile range **(IQR)** to handle outliers.
+****[#yellow] <color #black><i><size:22>**Formula:** X_robust = **(X - Q1)** / **(Q3 - Q1)**, where Q1 and Q3 are the first and third quartiles.
+***[#green] <color #white><i><size:14><b>Log Transformation
+****[#yellow] <color #black><i><size:14>Applies a logarithmic function to features to reduce skewness.
+****[#yellow] <color #black><i><size:14>Useful for data with exponential distributions.
+
+**[#lightblue] <color #black><i><size:14>Use Cases
+***[#green] <color #white><i><size:14>Feature scaling is essential for algorithms like K-Nearest Neighbors **(KNN)**, Principal Component Analysis **(PCA)**, and Support Vector Machines **(SVM)**.
+
+**[#lightblue] <color #black><i><size:14>Sensitivity to Outliers
+***[#green] <color #white><i><size:14>Some scaling techniques are more sensitive to outliers, like Min-Max Scaling, while others, like Robust Scaling, are designed to handle outliers effectively.
+
+**[#lightblue] <color #black><i><size:14>Benefits
+***[#green] <color #white><i><size:14>Improves the convergence of gradient-based optimization algorithms.
+***[#green] <color #white><i><size:14>Enhances the performance of machine learning models, particularly in cases of features with varying magnitudes.
+
+**[#lightblue] <color #black><i><size:14>Considerations
+***[#green] <color #white><i><size:14>The choice of scaling technique depends on the specific characteristics of the data and the requirements of the machine learning algorithm.
+
+**[#lightblue] <color #black><i><size:14>Real-World Examples
+***[#green] <color #white><i><size:14>Scaling features in data for predicting housing prices, customer churn, and image classification.
+
+@endmindmap
