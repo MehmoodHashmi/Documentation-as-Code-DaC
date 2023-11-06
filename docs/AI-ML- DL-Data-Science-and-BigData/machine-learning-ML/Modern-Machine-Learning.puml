@@ -24,8 +24,8 @@ title =<b><i><u>Modern Machine Learning \n<img:images/img_2.png>
 ***[#green] <size:18><color #white><i>**Edge Computing**
 ****[#yellow] <color #black><i><size:14>Running machine learning models on __**edge devices**__ **(e.g. mobile, laptop, ipad, IoT).**
 
-**[#lightblue] <size:14><i>Machine Learning Libraries and Frameworks
-***[#green] <b><color #white><i><size:14>TensorFlow
+**[#lightblue] <size:22><i>Machine Learning Libraries and Frameworks
+***[#green] <b><color #white><i><size:22>[[tensorflow-by-google/tensorflow.puml TensorFlow]]
 ****[#yellow] <color #black><i><size:14>An open-source deep learning framework developed by **Google.**
 ***[#green] <b><color #white><i><size:14>PyTorch
 ****[#yellow] <color #black><i><size:14>An open-source deep learning framework developed by **Facebook.**

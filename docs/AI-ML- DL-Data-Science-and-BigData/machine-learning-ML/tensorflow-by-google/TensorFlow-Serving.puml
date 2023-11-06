@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><b><u>TensorFlow Serving
+title =<i><b><u>TensorFlow Serving\n<img:images/img_11.png>
 
 !theme hacker
 
@@ -10,7 +10,7 @@ title =<i><b><u>TensorFlow Serving
 ***[#green] <color #white><i><size:14>Serving models over a network with a gRPC API.
 ***[#green] <color #white><i><size:14>Versioning and serving multiple model versions.
 ***[#green] <color #white><i><size:14>Load balancing and scaling for high availability.
-**[#lightblue] <i><size:14>Components
+**[#lightblue] <i><size:14>Components\n<img:images/img_10.png>
 ***[#green] <b><color #white><i><size:14>Servables
 ****[#yellow] <color #black><i><size:14>A servable is the versioned unit of a model that can be served.
 ****[#yellow] <color #black><i><size:14>Each servable is a TensorFlow SavedModel.
@@ -40,7 +40,7 @@ title =<i><b><u>TensorFlow Serving
 ****[#yellow] <color #black><i><size:14>Load balancing and scaling for reliability.
 ***[#green] <b><color #white><i><size:22>[[Model-Management.puml Model Management]]
 ****[#yellow] <color #black><i><size:14>Serve different versions and manage the lifecycle.
-**[#lightblue] <i><size:14>Deployment
-***[#green] <color #white><i><size:14>Deploy TensorFlow Serving on various cloud providers or on-premises.
-***[#green] <color #white><i><size:14>Integrated with Kubernetes for container orchestration.
+**[#lightblue] <i><size:22>Deployment\n<img:images/img_12.png>
+***[#green] <color #white><i><size:14>**Deploy** "TensorFlow Serving" on various "cloud providers or on-premises".
+***[#green] <color #white><i><size:14>Integrated with **"Kubernetes"** for "container orchestration".
 @endmindmap
