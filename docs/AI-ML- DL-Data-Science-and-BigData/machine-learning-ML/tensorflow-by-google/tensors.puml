@@ -1,15 +1,20 @@
 @startmindmap
-title =<i><b><u>Tensors
+title =<i><b><u>Tensors  (data-structure)\n<img:images/img_3.png> <img:images/img_2.png>
 
+* <size:15><b>[[https://towardsdatascience.com/what-is-a-tensor-in-deep-learning-6dedd95d6507 What is a Tensor in Machine Learning?]] aritcle
+** <b>[[https://www.youtube.com/watch?app=desktop&v=tIqoI4jGE-w&ab_channel=MinsukHeo%ED%97%88%EB%AF%BC%EC%84%9D What is Tensor in Machine Learning?]] 5-minute video
+***:=<i>TensorFlow, PyTorch:
+* Every deep learning framework relies on the same basic <size:18><u><i><b>object: tensors.
+* They’re used to store almost everything in <size:14><u><i><b>deep learning: input data, weights, biases, predictions, etc.;
 !theme hacker
 
-*[#darkblue] <i>Tensors
+*[#darkblue] <size:28><i>Tensors\n<img:images/img_5.png>\n\n<img:images/img_1.png>
 **[#lightblue] <i><size:14>Definition
-***[#green] <color #white><i><size:14>Multidimensional arrays with a fixed type.
-**[#lightblue] <i><size:14>Characteristics
-***[#green] <color #white><i><size:14>Rank: Number of dimensions.
-***[#green] <color #white><i><size:14>Shape: Size of each dimension.
-***[#green] <color #white><i><size:14>Data Type: Type of elements.
+***[#green] <color #white><i><size:18>Multidimensional arrays with a fixed type.
+**[#lightblue] <i><size:22>Characteristics\n<img:images/img_4.png>
+***[#green] <color #white><i><size:18>**Rank:** "Number" of "dimensions".
+***[#green] <color #white><i><size:18>**Shape:** "Size" of "each dimension".
+***[#green] <color #white><i><size:18>**Data Type:** Type of elements.
 **[#lightblue] <i><size:14>Operations
 ***[#green] <color #white><b><i><size:14>Creation
 ****[#yellow] <color #black><i><size:14>tf.constant()
