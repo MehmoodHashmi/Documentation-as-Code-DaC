@@ -1,0 +1,48 @@
+@startmindmap
+title =<i><b><u>TensorFlow
+
+!theme hacker
+
+
+*[#darkblue] <i>TensorFlow
+**[#lightblue] <color #black><i><size:14>Overview
+***[#green] <color #white><i><size:14>An open-source machine learning framework developed by Google.
+**[#lightblue] <color #black><i><size:14>Key Features
+***[#green] <color #white><i><size:14>Flexibility
+***[#green] <color #white><i><size:14>Support for deep learning
+***[#green] <color #white><i><size:14>Scalability
+***[#green] <color #white><i><size:14>Ecosystem of tools and libraries
+**[#lightblue] <color #black><i><size:14>Core Components
+***[#green] <b><color #white><i><size:18>[[tensorflow-core.puml TensorFlow Core]]
+****[#yellow] <color #black><i><size:14>The foundation of TensorFlow, with APIs for building and training models.
+***[#green] <b><color #white><i><size:18>[[Keras.puml Keras]]
+****[#yellow] <color #black><i><size:14>High-level API for building and training neural networks.
+***[#green] <b><color #white><i><size:18>[[TensorBoard.puml TensorBoard]]
+****[#yellow] <color #black><i><size:14>Visualization tool for monitoring and debugging TensorFlow models.
+***[#green] <b><color #white><i><size:18>[[TensorFlow-Serving.puml TensorFlow Serving]]
+****[#yellow] <color #black><i><size:14>A system for serving machine learning models in production.
+**[#lightblue] <color #black><i><size:14>Supported Languages
+***[#green] <color #white><i><size:14>Python, C++, Java, and more.
+**[#lightblue] <color #black><i><size:14>Use Cases
+***[#green] <color #white><i><size:14>Image classification, natural language processing, reinforcement learning, and more.
+**[#lightblue] <color #black><i><size:14>Popular Models
+***[#green] <color #white><i><size:14>Inception, ResNet, BERT, and more.
+**[#lightblue] <color #black><i><size:14>TensorFlow Hub
+***[#green] <color #white><i><size:14>Repository for reusable machine learning modules.
+**[#lightblue] <color #black><i><size:14>TensorFlow Lite
+***[#green] <color #white><i><size:14>Framework for deploying machine learning models on mobile and embedded devices.
+**[#lightblue] <color #black><i><size:14>TensorFlow.js
+***[#green] <color #white><i><size:14>JavaScript library for training and deploying models in the browser.
+**[#lightblue] <color #black><i><size:14>TensorFlow Extended (TFX)
+***[#green] <color #white><i><size:14>An end-to-end machine learning platform for production use.
+**[#lightblue] <color #black><i><size:14>Community and Support
+***[#green] <color #white><i><size:14>A large and active community of developers and researchers.
+**[#lightblue] <color #black><i><size:22>[[tensorflow-2-x.puml TensorFlow 2.x]]
+***[#green] <color #white><i><size:14>The latest major version, known for its ease of use and eager execution.
+**[#lightblue] <color #black><i><size:14>TensorFlow 1.x
+***[#green] <color #white><i><size:14>The earlier version with a different API and execution model.
+**[#lightblue] <color #black><i><size:14>TensorFlow Research Cloud
+***[#green] <color #white><i><size:14>Cloud-based resources for machine learning research.
+**[#lightblue] <color #black><i><size:14>TensorFlow Quantum
+***[#green] <color #white><i><size:14>A library for quantum machine learning.
+@endmindmap

@@ -1,0 +1,46 @@
+@startmindmap
+title =<i><b><u>TensorFlow Serving
+
+!theme hacker
+
+*[#darkblue] <i>TensorFlow Serving
+**[#lightblue] <i><size:14>Overview
+***[#green] <color #white><i><size:14>A library for serving TensorFlow models in production.
+**[#lightblue] <i><size:14>Key Features
+***[#green] <color #white><i><size:14>Serving models over a network with a gRPC API.
+***[#green] <color #white><i><size:14>Versioning and serving multiple model versions.
+***[#green] <color #white><i><size:14>Load balancing and scaling for high availability.
+**[#lightblue] <i><size:14>Components
+***[#green] <b><color #white><i><size:14>Servables
+****[#yellow] <color #black><i><size:14>A servable is the versioned unit of a model that can be served.
+****[#yellow] <color #black><i><size:14>Each servable is a TensorFlow SavedModel.
+***[#green] <b><color #white><i><size:14>Loader
+****[#yellow] <color #black><i><size:14>Manages loading and unloading of servables.
+***[#green] <b><color #white><i><size:14>Sources
+****[#yellow] <color #black><i><size:14>How servables are loaded and where they come from.
+****[#yellow] <color #black><i><size:14>Supports file systems, cloud storage, and more.
+***[#green] <b><color #white><i><size:14>Basic Operations
+****[#yellow] <color #black><i><size:14>Model loading, version management, and servable handling.
+**[#lightblue] <i><size:14>Serving with Docker
+***[#green] <color #white><i><size:14>TensorFlow Serving can be containerized for easy deployment.
+***[#green] <color #white><i><size:14>Docker images available with CPU and GPU support.
+**[#lightblue] <i><size:14>gRPC API
+***[#green] <color #white><i><size:14>Defines a service with predict and other methods.
+***[#green] <color #white><i><size:14>gRPC-based communication between clients and server.
+**[#lightblue] <i><size:14>Serving Models
+***[#green] <color #white><i><size:14>Deploy TensorFlow models for inference in production.
+***[#green] <color #white><i><size:14>Models can be used for image classification, NLP, and more.
+**[#lightblue] <i><size:14>TensorFlow 2.x
+***[#green] <color #white><i><size:14>TensorFlow Serving integrated with TensorFlow ecosystem.
+***[#green] <color #white><i><size:14>Compatible with TensorFlow 2.x models.
+**[#lightblue] <i><size:14>Use Cases
+***[#green] <b><color #white><i><size:14>Model Deployment
+****[#yellow] <color #black><i><size:14>Serve machine learning models for real-time inference.
+***[#green] <b><color #white><i><size:14>High Availability
+****[#yellow] <color #black><i><size:14>Load balancing and scaling for reliability.
+***[#green] <b><color #white><i><size:22>[[Model-Management.puml Model Management]]
+****[#yellow] <color #black><i><size:14>Serve different versions and manage the lifecycle.
+**[#lightblue] <i><size:14>Deployment
+***[#green] <color #white><i><size:14>Deploy TensorFlow Serving on various cloud providers or on-premises.
+***[#green] <color #white><i><size:14>Integrated with Kubernetes for container orchestration.
+@endmindmap

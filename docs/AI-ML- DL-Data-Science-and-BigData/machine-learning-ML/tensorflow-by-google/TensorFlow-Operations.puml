@@ -1,0 +1,49 @@
+@startmindmap
+title =<i><b><u>TensorFlow Operations
+
+!theme hacker
+
+*[#darkblue] <i>TensorFlow Operations
+**[#lightblue] <i><size:14>Overview
+***[#green] <color #white><i><size:18>Fundamental building blocks for computation.
+**[#lightblue] <i><size:14>Categories
+***[#green] <b><color #white><i><size:14>Mathematical Operations
+****[#yellow] <color #black><i><size:14>tf.add(), tf.subtract(), tf.multiply(), tf.divide()
+****[#yellow] <color #black><i><size:14>tf.square(), tf.sqrt(), tf.exp()
+***[#green] <b><color #white><i><size:18>Linear Algebra
+****[#yellow] <color #black><i><size:14>tf.matmul(), tf.vectorized_map()
+****[#yellow] <color #black><i><size:14>**Matrix Operations:** tf.matmul(), tf.linalg.inv()
+****[#yellow] <color #black><i><size:14>**Element-wise Operations:** tf.math.multiply(), tf.math.divide()
+***[#green] <b><color #white><i><size:14>Control Flow
+****[#yellow] <color #black><i><size:14>tf.cond(), tf.while_loop(), tf.function()
+****[#yellow] <color #black><i><size:14>tf.print(), tf.debugging.Assert()
+***[#green] <b><color #white><i><size:14>Indexing and Slicing
+****[#yellow] <color #black><i><size:14>tf.slice(), tf.gather(), tf.boolean_mask()
+****[#yellow] <color #black><i><size:14>tf.strided_slice(), tf.where()
+***[#green] <b><color #white><i><size:14>Reduction
+****[#yellow] <color #black><i><size:14>tf.reduce_sum(), tf.reduce_mean(), tf.reduce_max()
+****[#yellow] <color #black><i><size:14>tf.reduce_prod(), tf.reduce_min()
+***[#green] <b><color #white><i><size:14>Gradient Computation
+****[#yellow] <color #black><i><size:14>**Automatic Differentiation:** tf.GradientTape()
+****[#yellow] <color #black><i><size:14>**Gradients:** tf.gradients()
+****[#yellow] <color #black><i><size:14>tf.hessians(), tf.jacobian()
+***[#green] <b><color #white><i><size:18>Neural Networks
+****[#yellow] <color #black><i><size:14>**Activation Functions:** tf.nn.relu(), tf.nn.sigmoid()
+****[#yellow] <color #black><i><size:14>**Layers:** tf.keras.layers.Dense(), tf.keras.layers.Conv2D()
+****[#yellow] <color #black><i><size:14>**Loss Functions:** tf.keras.losses.MeanSquaredError()
+****[#yellow] <color #black><i><size:14>**Optimizers:** tf.keras.optimizers.Adam(), tf.train.GradientDescentOptimizer()
+***[#green] <b><color #white><i><size:14>Data Manipulation
+****[#yellow] <color #black><i><size:14>**Concatenation:** tf.concat(), tf.stack()
+****[#yellow] <color #black><i><size:14>**Reshaping:** tf.reshape(), tf.transpose()
+****[#yellow] <color #black><i><size:14>**Padding:** tf.pad(), tf.signal.frame()
+**[#lightblue] <i><size:14>Custom Operations
+***[#green] <color #white><i><size:14>Define Custom Operations with TensorFlow API
+***[#green] <color #white><i><size:14>Implement Custom Kernels
+***[#green] <color #white><i><size:14>TensorFlow Lite Custom Operations
+**[#lightblue] <i><size:14>Eager Execution
+***[#green] <color #white><i><size:14>Immediate evaluation and debugging of operations.
+**[#lightblue] <i><size:14>Graph Execution
+***[#green] <color #white><i><size:14>Build a computational graph for optimization.
+**[#lightblue] <i><size:14>TensorFlow Extended (TFX)
+***[#green] <color #white><i><size:14>End-to-end ML platform with orchestration.
+@endmindmap

@@ -1,0 +1,44 @@
+@startmindmap
+title =<i><b><u>SavedModel Format
+
+!theme hacker
+
+*[#darkblue] <i>SavedModel Format
+**[#lightblue] <i><size:14>Overview
+***[#green] <color #white><i><size:14>A serialization format used in TensorFlow for saving and serving machine learning models.
+**[#lightblue] <i><size:14>Key Features
+***[#green] <color #white><i><size:14>Portability and language-agnostic.
+***[#green] <color #white><i><size:14>Supports TensorFlow 1.x and TensorFlow 2.x.
+***[#green] <color #white><i><size:14>Enables model versioning and serving in various deployment environments.
+**[#lightblue] <i><size:14>Components
+***[#green] <b><color #white><i><size:14>MetaGraph
+****[#yellow] <color #black><i><size:14>Defines the computation graph structure and metadata.
+***[#green] <b><color #white><i><size:14>Variables
+****[#yellow] <color #black><i><size:14>Saved model weights and parameters.
+***[#green] <b><color #white><i><size:14>SignatureDefs
+****[#yellow] <color #black><i><size:14>Defines input and output signatures for serving.
+***[#green] <b><color #white><i><size:14>Assets
+****[#yellow] <color #black><i><size:14>Additional data files or resources.
+**[#lightblue] <i><size:14>Saving Models
+***[#green] <color #white><i><size:14>Exporting TensorFlow models in the SavedModel format.
+***[#green] <color #white><i><size:14>TensorFlow 2.x uses `model.save()` for easy saving.
+**[#lightblue] <i><size:14>Serving Models
+***[#green] <color #white><i><size:14>Deploying models using TensorFlow Serving.
+***[#green] <color #white><i><size:14>Serving environments include CPU, GPU, and cloud services.
+**[#lightblue] <i><size:14>TensorFlow 2.x Compatibility
+***[#green] <color #white><i><size:14>SavedModel is the default format for model saving in TensorFlow 2.x.
+***[#green] <color #white><i><size:14>Enables seamless sharing and serving of models.
+**[#lightblue] <i><size:14>Use Cases
+***[#green] <b><color #white><i><size:14>Model Versioning
+****[#yellow] <color #black><i><size:14>Storing and serving different model versions.
+***[#green] <b><color #white><i><size:14>Model Deployment
+****[#yellow] <color #black><i><size:14>Serving models in production and cloud environments.
+***[#green] <b><color #white><i><size:14>Model Portability
+****[#yellow] <color #black><i><size:14>Sharing models across languages and platforms.
+**[#lightblue] <i><size:14>Deployment
+***[#green] <color #white><i><size:14>Deploying SavedModel files to various platforms.
+***[#green] <color #white><i><size:14>TensorFlow Serving as a dedicated model serving solution.
+**[#lightblue] <i><size:14>Conversion
+***[#green] <color #white><i><size:14>Converting models from other formats to SavedModel.
+***[#green] <color #white><i><size:14>Enables interoperability with other deep learning frameworks.
+@endmindmap

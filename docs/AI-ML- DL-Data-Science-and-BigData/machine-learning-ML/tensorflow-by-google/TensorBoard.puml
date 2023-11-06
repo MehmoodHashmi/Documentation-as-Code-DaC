@@ -1,0 +1,51 @@
+@startmindmap
+title =<i><b><u>TensorBoard
+
+!theme hacker
+
+*[#darkblue] <i>TensorBoard
+**[#lightblue] <i><size:14>Overview
+***[#green] <color #white><i><size:18>A web-based tool for visualizing TensorFlow runs.
+**[#lightblue] <i><size:14>Key Features
+***[#green] <color #white><i><size:14>Tracking and visualizing metrics, model graphs, histograms, and more.
+***[#green] <color #white><i><size:14>Helps in understanding and optimizing machine learning models.
+***[#green] <color #white><i><size:14>Facilitates debugging and identifying issues in training.
+**[#lightblue] <i><size:14>Components
+***[#green] <b><color #white><i><size:14>Scalars
+****[#yellow] <color #black><i><size:14>Visualize scalar metrics like loss and accuracy.
+***[#green] <b><color #white><i><size:14>Graphs
+****[#yellow] <color #black><i><size:14>Explore the model architecture graphically.
+***[#green] <b><color #white><i><size:14>Distributions
+****[#yellow] <color #black><i><size:14>Examine the distribution of tensors.
+***[#green] <b><color #white><i><size:14>Histograms
+****[#yellow] <color #black><i><size:14>View histograms of tensor values.
+***[#green] <b><color #white><i><size:14>Images
+****[#yellow] <color #black><i><size:14>Display images and embeddings.
+***[#green] <b><color #white><i><size:14>Projector
+****[#yellow] <color #black><i><size:14>Visualize high-dimensional data using embeddings.
+***[#green] <b><color #white><i><size:14>Text
+****[#yellow] <color #black><i><size:14>Analyze textual data.
+***[#green] <b><color #white><i><size:14>Audio
+****[#yellow] <color #black><i><size:14>Play audio data.
+***[#green] <b><color #white><i><size:14>Profile
+****[#yellow] <color #black><i><size:14>Profile the training run's performance.
+**[#lightblue] <i><size:14>Logging Data
+***[#green] <color #white><i><size:14>Use TensorFlow Summary API for logging data.
+***[#green] <color #white><i><size:14>Log data during model training.
+**[#lightblue] <i><size:14>Integration
+***[#green] <color #white><i><size:14>Integrated with TensorFlow, making it easy to use.
+***[#green] <color #white><i><size:14>Accessible via web browser.
+**[#lightblue] <i><size:14>TensorFlow 2.x
+***[#green] <color #white><i><size:14>Seamlessly integrated into the TensorFlow environment.
+***[#green] <color #white><i><size:14>Compatibility with `tf.summary` for logging.
+**[#lightblue] <i><size:14>Use Cases
+***[#green] <b><color #white><i><size:14>Model Debugging
+****[#yellow] <color #black><i><size:14>Identify issues in the model training process.
+***[#green] <b><color #white><i><size:14>Model Optimization
+****[#yellow] <color #black><i><size:14>Understand model behavior and improve it.
+***[#green] <b><color #white><i><size:14>Collaboration
+****[#yellow] <color #black><i><size:14>Share training progress and insights with collaborators.
+**[#lightblue] <i><size:14>Deployment
+***[#green] <color #white><i><size:14>TensorBoard can be run locally or on a server.
+***[#green] <color #white><i><size:14>Share TensorBoard logs for collaboration and reporting.
+@endmindmap

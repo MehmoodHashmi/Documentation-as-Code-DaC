@@ -1,0 +1,39 @@
+@startmindmap
+title =<i><b><u>TensorFlow Graph
+
+!theme hacker
+
+*[#darkblue] <i>TensorFlow Graph
+**[#lightblue] <i><size:14>Definition
+***[#green] <color #white><i><size:18>A computational graph that represents operations and dependencies.
+**[#lightblue] <i><size:14>Components
+***[#green] <b><color #white><i><size:14>Nodes
+****[#yellow] <color #black><i><size:14>Represent operations and calculations.
+****[#yellow] <color #black><i><size:14>Have input and output tensors.
+***[#green] <b><color #white><i><size:14>Edges
+****[#yellow] <color #black><i><size:14>Represent data flow and dependencies between nodes.
+**[#lightblue] <i><size:14>Benefits
+***[#green] <b><color #white><i><size:14>Optimization
+****[#yellow] <color #black><i><size:14>Allows TensorFlow to optimize the execution of operations.
+***[#green] <b><color #white><i><size:14>Distributed Computing
+****[#yellow] <color #black><i><size:14>Enables distributed execution across devices and machines.
+**[#lightblue] <i><size:18>Static Graph
+***[#green] <color #white><i><size:14>Defined in advance and remains fixed.
+***[#green] <color #white><i><size:14>Commonly used in TensorFlow 1.x.
+**[#lightblue] <i><size:22>Dynamic Graph
+***[#green] <color #white><i><size:14>Built as operations are executed.
+***[#green] <color #white><i><size:14>Supported in eager execution mode <b>(TensorFlow 2.x).
+**[#lightblue] <i><size:14>TensorFlow 2.x
+***[#green] <b><color #white><i><size:14>Eager Execution
+****[#yellow] <color #black><i><size:14>Default mode for defining and executing operations.
+****[#yellow] <color #black><i><size:14>No need to explicitly create a graph.
+***[#green] <b><color #white><i><size:14>tf.function()
+****[#yellow] <color #black><i><size:14>Option to compile Python functions into graphs for optimization.
+**[#lightblue] <i><size:14>Use Cases
+***[#green] <b><color #white><i><size:14>Machine Learning Models
+****[#yellow] <color #black><i><size:14>Define and optimize complex models.
+***[#green] <b><color #white><i><size:14>Data Flow
+****[#yellow] <color #black><i><size:14>Represent complex data processing pipelines.
+***[#green] <b><color #white><i><size:14>Distributed Computing
+****[#yellow] <color #black><i><size:14>Efficiently distribute computations.
+@endmindmap

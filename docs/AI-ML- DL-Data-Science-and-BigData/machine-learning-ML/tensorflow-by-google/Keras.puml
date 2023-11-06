@@ -1,0 +1,57 @@
+@startmindmap
+title =<i><b><u>Keras
+
+!theme hacker
+
+*[#darkblue] <i>Keras
+**[#lightblue] <i><size:14>Overview
+***[#green] <color #white><i><size:18>High-level neural networks API, running on top of TensorFlow.
+**[#lightblue] <i><size:14>Key Features
+***[#green] <color #white><i><size:14>User-friendly and efficient for rapid prototyping.
+***[#green] <color #white><i><size:14>Modular and extensible.
+***[#green] <color #white><i><size:14>Supports both convolutional and recurrent networks.
+***[#green] <color #white><i><size:14>Supports CPU and GPU execution.
+***[#green] <color #white><i><size:14>Developed with a focus on user experience.
+**[#lightblue] <i><size:14>Models
+***[#green] <b><color #white><i><size:14>Sequential Model
+****[#yellow] <color #black><i><size:14>Linear stack of layers for simple architectures.
+***[#green] <b><color #white><i><size:14>Functional API
+****[#yellow] <color #black><i><size:14>Enables more complex model architectures.
+**[#lightblue] <i><size:14>Layers
+***[#green] <b><color #white><i><size:14>Dense (Fully Connected)
+****[#yellow] <color #black><i><size:14>Standard densely-connected neural network layer.
+***[#green] <b><color #white><i><size:14>Convolutional
+****[#yellow] <color #black><i><size:14>Convolutional neural network layers for image processing.
+***[#green] <b><color #white><i><size:14>Recurrent
+****[#yellow] <color #black><i><size:14>Recurrent neural network layers for sequences.
+***[#green] <b><color #white><i><size:14>Pooling
+****[#yellow] <color #black><i><size:14>Max and average pooling for down-sampling.
+***[#green] <b><color #white><i><size:14>Dropout
+****[#yellow] <color #black><i><size:14>Regularization layer for reducing overfitting.
+**[#lightblue] <i><size:14>Compilation
+***[#green] <color #white><i><size:14>Configuring the learning process.
+***[#green] <color #white><i><size:14>Loss functions, optimizers, and metrics.
+**[#lightblue] <i><size:14>Training
+***[#green] <color #white><i><size:14>Fit models to training data.
+***[#green] <color #white><i><size:14>Supports callbacks for real-time feedback.
+**[#lightblue] <i><size:14>Evaluation
+***[#green] <color #white><i><size:14>Evaluate the model on test data.
+***[#green] <color #white><i><size:14>Calculate accuracy and other metrics.
+**[#lightblue] <i><size:14>Saving and Loading Models
+***[#green] <color #white><i><size:14>Save and load model architectures and weights.
+**[#lightblue] <i><size:14>Customization
+***[#green] <color #white><i><size:14>Define custom layers, losses, and metrics.
+**[#lightblue] <i><size:14>Applications
+***[#green] <color #white><i><size:14>Pre-trained models for common tasks.
+***[#green] <color #white><i><size:14>Fine-tuning and transfer learning.
+**[#lightblue] <i><size:14>Keras in TensorFlow 2.x
+***[#green] <color #white><i><size:14>Part of TensorFlow as `tf.keras`.
+***[#green] <color #white><i><size:14>Default high-level API for TensorFlow.
+**[#lightblue] <i><size:14>Use Cases
+***[#green] <b><color #white><i><size:14>Rapid Prototyping
+****[#yellow] <color #black><i><size:14>Quickly build and test neural networks.
+***[#green] <b><color #white><i><size:14>Research and Development
+****[#yellow] <color #black><i><size:14>Experiment with complex model architectures.
+***[#green] <b><color #white><i><size:14>Production
+****[#yellow] <color #black><i><size:14>Deploy models for various applications.
+@endmindmap

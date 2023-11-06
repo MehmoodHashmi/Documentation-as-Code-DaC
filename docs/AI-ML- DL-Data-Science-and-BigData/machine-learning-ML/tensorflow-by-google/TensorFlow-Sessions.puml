@@ -1,0 +1,43 @@
+@startmindmap
+title =<i><b><u>TensorFlow Sessions
+
+!theme hacker
+
+*[#darkblue] <i>TensorFlow Sessions
+**[#lightblue] <i><size:14>Definition
+***[#green] <color #white><i><size:18>Execution environments for computational graphs.
+**[#lightblue] <i><size:14>Components
+***[#green] <b><color #white><i><size:14>Graph
+****[#yellow] <color #black><i><size:14>A collection of nodes representing operations.
+***[#green] <b><color #white><i><size:14>Session
+****[#yellow] <color #black><i><size:14>An environment to execute the operations in a graph.
+***[#green] <b><color #white><i><size:14>Tensor
+****[#yellow] <color #black><i><size:14>Data that flows through the operations.
+**[#lightblue] <i><size:14>Usage
+***[#green] <b><color #white><i><size:14>Define Graph
+****[#yellow] <color #black><i><size:14>Build a computational graph with operations.
+***[#green] <b><color #white><i><size:14>Create Session
+****[#yellow] <color #black><i><size:14>Instantiate a session for graph execution.
+***[#green] <b><color #white><i><size:14>Run Session
+****[#yellow] <color #black><i><size:14>Execute the operations and fetch results.
+***[#green] <b><color #white><i><size:14>Close Session
+****[#yellow] <color #black><i><size:14>Properly close the session to release resources.
+**[#lightblue] <i><size:14>Benefits
+***[#green] <b><color #white><i><size:14>Optimization
+****[#yellow] <color #black><i><size:14>TensorFlow optimizes the graph execution.
+***[#green] <b><color #white><i><size:14>Control
+****[#yellow] <color #black><i><size:14>Fine-grained control over execution.
+***[#green] <b><color #white><i><size:14>Distributed Computing
+****[#yellow] <color #black><i><size:14>Execute graphs on multiple devices and machines.
+**[#lightblue] <i><size:14>TensorFlow 2.x
+***[#green] <b><color #white><i><size:14>Eager Execution
+****[#yellow] <color #black><i><size:14>No need to explicitly create sessions.
+****[#yellow] <color #black><i><size:14>Operations are executed immediately.
+**[#lightblue] <i><size:14>Use Cases
+***[#green] <b><color #white><i><size:14>Machine Learning Models
+****[#yellow] <color #black><i><size:14>Training and inference with complex models.
+***[#green] <b><color #white><i><size:14>Distributed Training
+****[#yellow] <color #black><i><size:14>Efficient execution across multiple devices.
+***[#green] <b><color #white><i><size:14>Graph Optimization
+****[#yellow] <color #black><i><size:14>Compile and optimize graphs for performance.
+@endmindmap

@@ -1,0 +1,46 @@
+@startmindmap
+title =<i><b><u>TensorFlow 2.x
+
+!theme hacker
+
+
+
+*[#darkblue] <i><size:14>TensorFlow 2.x
+**[#lightblue] <i><size:14>Overview
+***[#green] <color #white><i><size:18>An open-source machine learning framework developed by Google.
+**[#lightblue] <i><size:22>Key Features
+***[#green] <color #white><b><i><size:14>Eager execution
+***[#green] <color #white><b><i><size:14>Keras integration
+***[#green] <color #white><b><i><size:14>Improved API design
+***[#green] <color #white><b><i><size:14>TensorFlow Hub
+***[#green] <color #white><b><i><size:14>TensorFlow Serving
+**[#lightblue] <i><size:22>Core Components
+***[#green] <color #white><b><i><size:18>[[tensorflow-core.puml TensorFlow Core]]
+****[#yellow] <color #black><i><size:14>The foundation of TensorFlow, with APIs for building and training models.
+***[#green] <color #white><b><i><size:18>[[Keras.puml Keras]]
+****[#yellow] <color #black><i><size:14>Integrated as the high-level API for building and training neural networks.
+***[#green] <color #white><b><i><size:18>[[TensorBoard.puml TensorBoard]]
+****[#yellow] <color #black><i><size:14>Visualization tool for monitoring and debugging TensorFlow models.
+***[#green] <color #white><b><i><size:18>[[TensorFlow-Serving.puml TensorFlow Serving]]
+****[#yellow] <color #black><i><size:14>A system for serving machine learning models in production.
+**[#lightblue] <i><size:14>Eager Execution
+***[#green] <color #white><i><size:14>Dynamic and immediate execution of operations, simplifying debugging and development.
+**[#lightblue] <i><size:14>Keras Integration
+***[#green] <color #white><i><size:14>Provides a user-friendly and consistent interface for building and training neural networks.
+**[#lightblue] <i><size:22>[[TensorFlow-Hub.puml TensorFlow Hub]]
+***[#green] <color #white><i><size:14>Repository for reusable machine learning modules.
+**[#lightblue] <i><size:22>SavedModel Format
+***[#green] <color #white><i><size:14>Standard format for saving and serving models.
+**[#lightblue] <i><size:14>Supported Platforms
+***[#green] <color #white><i><size:14>Windows, macOS, Linux, and cloud environments.
+**[#lightblue] <i><size:14>Use Cases
+***[#green] <color #white><i><size:14>Image classification, natural language processing, reinforcement learning, and more.
+**[#lightblue] <i><size:14>TensorFlow 2.x vs. TensorFlow 1.x
+***[#green] <color #white><i><size:14>Improved usability, enhanced performance, and a focus on ease of use.
+**[#lightblue] <i><size:14>Community and Support
+***[#green] <color #white><i><size:14>A large and active community of developers and researchers.
+**[#lightblue] <i><size:14>TensorFlow Extended (TFX)
+***[#green] <color #white><i><size:14>An end-to-end machine learning platform for production use.
+**[#lightblue] <i><size:14>TensorFlow 2.x Add-ons
+***[#green] <color #white><i><size:14>Additional libraries and extensions for specific tasks.
+@endmindmap

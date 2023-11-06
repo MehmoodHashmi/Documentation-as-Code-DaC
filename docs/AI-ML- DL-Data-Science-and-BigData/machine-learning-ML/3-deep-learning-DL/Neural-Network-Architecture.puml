@@ -91,7 +91,7 @@ title =<i><b><u>Neural Network Architecture \n<color #red><i>Activation Function
 
 **[#lightblue] <size:18><i>[[Optimizers-in-Neural-Networks.puml Optimizers]]
 ***[#yellow] <i><size:14>**Gradient Descent -** Iterative algorithm for minimizing the loss function. Updates weights based on the gradient of the loss.
-***[#yellow] <i><size:14>**Stochastic Gradient Descent (SGD) -** A "variation of gradient descent" that processes small "data batches". Uses "random samples" for faster "convergence".
+***[#darkorange] <i><size:15>**Stochastic Gradient Descent (SGD) -** A "variation of gradient descent" that processes small "data batches". Uses "random samples" for faster <b>[[convergence.puml "convergence".]]
 ***[#yellow] <i><size:14>**Adam Optimizer -** Popular adaptive "learning rate" optimizer. Adaptive optimization with "momentum".
 ***[#yellow] <i><size:14>**RMSprop -** Another adaptive "learning rate" **"algorithm"**. "Root Mean Square Propagation" for adjusting "learning rates".
 ***[#yellow] <i><size:14>**Adagrad -** Optimizer that adapts "learning rates" for each "parameter". Adaptive "learning rates" for "sparse data".

@@ -1,0 +1,53 @@
+@startmindmap
+title =<i><b><u>TensorFlow Core
+
+!theme hacker
+
+
+*[#darkblue] <i>TensorFlow Core
+**[#lightblue] <i><size:14>Overview
+***[#green] <color #white><i><size:14>The foundational library for building machine learning and deep learning models.
+
+**[#lightblue] <i><size:14>Key Features
+***[#green] <color #white><i><size:14>Core operations and data structures for computation.
+
+**[#lightblue] <i><size:22>Core Components
+***[#green] <color #white><b><i><size:18>[[tensors.puml Tensors]]
+****[#yellow] <color #black><i><size:14>Fundamental data structure for representing multi-dimensional arrays.
+***[#green] <color #white><b><i><size:18>[[TensorFlow-Operations.puml Operations]]
+****[#yellow] <color #black><i><size:14>A wide range of mathematical operations and transformations.
+***[#green] <color #white><b><i><size:18>[[TensorFlow-Graph.puml Graph]]
+****[#yellow] <color #black><i><size:14>Computational graph representation of operations and dependencies.
+***[#green] <color #white><b><i><size:18>[[TensorFlow-Sessions.puml Sessions]]
+****[#yellow] <color #black><i><size:14>Execution of graphs and computation of tensors.
+
+**[#lightblue] <i><size:14>Eager Execution
+***[#green] <color #white><i><size:14>A mode that allows immediate evaluation and easier debugging.
+
+**[#lightblue] <i><size:14>Device Placement
+***[#green] <color #white><i><size:14>Control over CPU and GPU utilization for computations.
+
+**[#lightblue] <i><size:14>Distributed Computing
+***[#green] <color #white><i><size:14>Support for distributed training and execution.
+
+**[#lightblue] <i><size:14>Model Building
+***[#green] <color #white><i><size:14>APIs for constructing complex neural network architectures.
+
+**[#lightblue] <i><size:14>SavedModel Format
+***[#green] <color #white><i><size:14>Standardized format for model serialization and serving.
+
+**[#lightblue] <i><size:14>Supported Platforms
+***[#green] <color #white><i><size:14>Windows, macOS, Linux, and cloud environments.
+
+**[#lightblue] <i><size:14>Community and Support
+***[#green] <color #white><i><size:14>A vast and active community of developers, researchers, and resources.
+
+**[#lightblue] <i><size:14>TensorFlow Extended (TFX)
+***[#green] <color #white><i><size:14>An end-to-end machine learning platform for production use.
+
+**[#lightblue] <i><size:14>TensorFlow Core vs. TensorFlow 2.x
+***[#green] <color #white><i><size:14>TensorFlow Core represents the lower-level foundation used in TensorFlow 2.x.
+
+**[#lightblue] <i><size:14>Use Cases
+***[#green] <color #white><i><size:14>Image recognition, natural language processing, reinforcement learning, and more.
+@endmindmap

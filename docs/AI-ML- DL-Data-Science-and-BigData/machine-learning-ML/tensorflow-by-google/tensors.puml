@@ -1,0 +1,45 @@
+@startmindmap
+title =<i><b><u>Tensors
+
+!theme hacker
+
+*[#darkblue] <i>Tensors
+**[#lightblue] <i><size:14>Definition
+***[#green] <color #white><i><size:14>Multidimensional arrays with a fixed type.
+**[#lightblue] <i><size:14>Characteristics
+***[#green] <color #white><i><size:14>Rank: Number of dimensions.
+***[#green] <color #white><i><size:14>Shape: Size of each dimension.
+***[#green] <color #white><i><size:14>Data Type: Type of elements.
+**[#lightblue] <i><size:14>Operations
+***[#green] <color #white><b><i><size:14>Creation
+****[#yellow] <color #black><i><size:14>tf.constant()
+****[#yellow] <color #black><i><size:14>tf.Variable()
+****[#yellow] <color #black><i><size:14>tf.zeros(), tf.ones()
+***[#green] <color #white><b><i><size:14>Math Operations
+****[#yellow] <color #black><i><size:14>tf.add(), tf.subtract(), tf.multiply(), tf.divide()
+****[#yellow] <color #black><i><size:14>tf.matmul(), tf.tensordot()
+***[#green] <color #white><b><i><size:14>Indexing and Slicing
+****[#yellow] <color #black><i><size:14>tf.slice(), tf.gather(), tf.boolean_mask()
+***[#green] <color #white><b><i><size:14>Reshaping
+****[#yellow] <color #black><i><size:14>tf.reshape(), tf.transpose(), tf.expand_dims()
+***[#green] <color #white><b><i><size:14>Reduction
+****[#yellow] <color #black><i><size:14>tf.reduce_sum(), tf.reduce_mean(), tf.reduce_max()
+***[#green] <color #white><b><i><size:14>Element-Wise
+****[#yellow] <color #black><i><size:14>tf.square(), tf.sqrt(), tf.exp()
+***[#green] <color #white><b><i><size:14>Concatenation
+****[#yellow] <color #black><i><size:14>tf.concat(), tf.stack()
+**[#lightblue] <i><size:14>Use Cases
+***[#green] <color #white><b><i><size:14>Machine Learning
+****[#yellow] <color #black><i><size:14>Model Parameters
+****[#yellow] <color #black><i><size:14>Input Data
+****[#yellow] <color #black><i><size:14>Output Predictions
+***[#green] <color #white><b><i><size:14>Image Processing
+****[#yellow] <color #black><i><size:14>Pixel Data
+****[#yellow] <color #black><i><size:14>Color Channels
+***[#green] <color #white><b><i><size:14>Natural Language Processing
+****[#yellow] <color #black><i><size:14>Word Embeddings
+****[#yellow] <color #black><i><size:14>Language Models
+***[#green] <color #white><b><i><size:14>Physics and Engineering
+****[#yellow] <color #black><i><size:14>Vectors, Matrices
+****[#yellow] <color #black><i><size:14>Physical Quantities
+@endmindmap

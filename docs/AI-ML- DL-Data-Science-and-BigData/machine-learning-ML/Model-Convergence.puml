@@ -1,0 +1,45 @@
+@startmindmap
+title =<i><b><u>[[gif/convergence-divergence.adoc Model Convergence\nenter link of gif here]]
+
+
+!theme hacker
+
+
+*[#darkblue] <i>Model Convergence
+**[#lightblue] <color #black><i><size:14>Definition
+***[#green] <color #white><i><size:18>The point during training when a machine learning model's performance stabilizes and further training has minimal impact on improving accuracy.
+**[#lightblue] <color #black><i><size:22>Key Factors
+***[#green] <color #white><b><i><size:14>Loss Function
+****[#yellow] <color #black><i><size:14>Monitor the decrease in the loss function as the model trains.
+***[#green] <color #white><b><i><size:14>Epochs
+****[#yellow] <color #black><i><size:14>The number of times the entire training dataset is passed through the model.
+***[#green] <color #white><b><i><size:14>Learning Rate
+****[#yellow] <color #black><i><size:14>Adjust the learning rate to control the convergence speed.
+***[#green] <color #white><b><i><size:14>Early Stopping
+****[#yellow] <color #black><i><size:14>A technique to prevent overfitting by stopping training when performance plateaus.
+**[#lightblue] <color #black><i><size:14>Indicators of Convergence
+***[#green] <color #white><b><i><size:14>Plateau in Loss
+****[#yellow] <color #black><i><size:14>The loss function reaches a minimum and remains stable.
+***[#green] <color #white><b><i><size:14>Consistency in Metrics
+****[#yellow] <color #black><i><size:14>Evaluation metrics **(e.g., accuracy)** stabilize and no longer improve.
+***[#green] <color #white><b><i><size:14>Model Weights
+****[#yellow] <color #black><i><size:14>Weights of the model parameters become relatively constant.
+**[#lightblue] <color #black><i><size:14>Challenges
+***[#green] <color #white><b><i><size:14>Overfitting
+****[#yellow] <color #black><i><size:14>Convergence may occur too early, leading to underfitting.
+***[#green] <color #white><b><i><size:14>Training Data Quality
+****[#yellow] <color #black><i><size:14>Low-quality data can hinder convergence.
+***[#green] <color #white><b><i><size:14>Hyperparameter Tuning
+****[#yellow] <color #black><i><size:14>Optimizing hyperparameters can impact convergence.
+**[#lightblue] <color #black><i><size:14>Strategies
+***[#green] <color #white><b><i><size:14>Learning Rate Scheduling
+****[#yellow] <color #black><i><size:14>Gradually reduce the learning rate during training to fine-tune convergence.
+***[#green] <color #white><b><i><size:14>Regularization
+****[#yellow] <color #black><i><size:14>Apply techniques like L1 or L2 regularization to control overfitting.
+***[#green] <color #white><b><i><size:14>Monitoring
+****[#yellow] <color #black><i><size:14>Continuously monitor training progress and evaluation metrics.
+***[#green] <color #white><b><i><size:14>Model Architectures
+****[#yellow] <color #black><i><size:14>Experiment with different model architectures for better convergence.
+**[#lightblue] <color #black><i><size:14>Use Cases
+***[#green] <color #white><i><size:14>Convergence is crucial in tasks like image classification, natural language processing, and more.
+@endmindmap
