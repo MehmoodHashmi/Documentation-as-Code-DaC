@@ -1,0 +1,75 @@
+@startmindmap
+title =<i><b><u>Parameters and Hyperparameters
+*:<i><u>In the context of neural networks and machine learning, parameters are typically associated with individual neurons or nodes within the network, and hyperparameters are set externally to control the training process and the architecture of neural network.
+
+* **Parameters (also known as weights and biases)** are "internal to each neuron" and are "learned during the training process". They are adjusted by the optimization algorithm (e.g., gradient descent) to make the network's predictions more accurate.
+* **Hyperparameters**, on the other hand, are <b><i><u>"not learned from the data"</u></i></b> but are <b><i><u>"set by the machine learning engineer or data scientist".</u></i></b> They include things like the <b><i><u>"learning rate, the number of layers and neurons in the network,
+  <b><i><u>the batch size," and more.</u></i></b> Tuning hyperparameters is an important part of training a neural network to achieve better performance.;
+* =<i><b>[[Hyperparameter-Tuning-Art-vs-Science.puml Hyperparameter Tuning: Art vs. Science]]
+
+!theme hacker
+*[#darkblue] <i> Parameters and Hyperparameters
+**[#lightblue] <i><size:14>Overview
+***[#green] <color #white><i><size:18>Crucial components in machine learning models.
+**[#lightblue] <i><size:14>Parameters
+***[#green] <b><color #white><i><size:14>Weights
+****[#yellow] <color #black><i><size:14>Learned values within each neuron.
+***[#green] <b><color #white><i><size:14>Biases
+****[#yellow] <color #black><i><size:14>Additional learned values to fine-tune predictions.
+***[#green] <b><color #white><i><size:22>Internal to the model (or neuron).
+**[#lightblue] <i><size:14>Hyperparameters
+***[#green] <b><color #white><i><size:14>Learning Rate
+****[#yellow] <color #black><i><size:14>Controls the step size during optimization.
+***[#green] <b><color #white><i><size:14>Number of Layers
+****[#yellow] <color #black><i><size:14>Determines the network's depth and complexity.
+***[#green] <b><color #white><i><size:14>Batch Size
+****[#yellow] <color #black><i><size:14>Specifies the number of examples in each training batch.
+***[#green] <b><color #white><i><size:14>Activation Functions
+****[#yellow] <color #black><i><size:14>Defines the neuron activation functions <b>(e.g., ReLU, Sigmoid).
+***[#green] <b><color #white><i><size:14>Epochs
+****[#yellow] <color #black><i><size:14>Number of times the entire **dataset** is used in training.
+***[#green] <b><color #white><i><size:22>External to the model (or neuron).
+**[#lightblue] <i><size:14>Role
+***[#green] <b><color #white><i><size:22>Parameters
+****[#yellow] <color #black><i><size:14>Internal model configuration based on data.
+***[#green] <b><color #white><i><size:14>Adjusted during model training.
+***[#green] <b><color #white><i><size:14>Fine-tune the model to improve performance.
+**[#lightblue] <i><size:14>Role
+***[#green] <b><color #white><i><size:22>Hyperparameters
+****[#yellow] <color #black><i><size:14>Set before training.
+***[#green] <b><color #white><i><size:14>Affect training and model architecture.
+***[#green] <b><color #white><i><size:14>Determine the learning process.
+**[#lightblue] <i><size:14>Tuning
+***[#green] <b><color #white><i><size:22>Parameters
+****[#yellow] <color #black><i><size:14>Tuned through optimization algorithms <b>(e.g., gradient descent).
+***[#green] <b><color #white><i><size:14>Adapt to data patterns.
+***[#green] <b><color #white><i><size:14>Specific to each neuron.
+**[#lightblue] <i><size:14>Tuning
+***[#green] <b><color #white><i><size:22>Hyperparameters
+****[#yellow] <color #black><i><size:14>Manually set or tuned through experimentation.
+****[#yellow] <color #black><i><size:14>Influence overall model behavior.
+****[#yellow] <color #black><i><size:14>Affect convergence and generalization.
+**[#lightblue] <i><size:14>Optimization
+***[#green] <b><color #white><i><size:22>Parameters
+****[#yellow] <color #black><i><size:14>Gradient-based methods adjust weights and biases.
+***[#green] <b><color #white><i><size:14>Minimize loss to fit data.
+***[#green] <b><color #white><i><size:14>Internal to the training process.
+**[#lightblue] <i><size:14>Optimization
+***[#green] <b><color #white><i><size:22>Hyperparameters
+****[#yellow] <color #black><i><size:14>Influencing optimization algorithms.
+****[#yellow] <color #black><i><size:14>Affecting learning efficiency.
+***[#green] <b><color #white><i><size:14>May require fine-tuning for optimal results.
+**[#lightblue] <i><size:14>Challenges
+***[#green] <b><color #white><i><size:14>Finding the right balance.
+****[#yellow] <color #black><i><size:14>Too many parameters can lead to overfitting.
+****[#yellow] <color #black><i><size:14>Poorly chosen hyperparameters can hinder training.
+**[#lightblue] <i><size:14>Best Practices
+***[#green] <b><color #white><i><size:14>Careful Selection
+****[#yellow] <color #black><i><size:14>Thoughtful choice of hyperparameters.
+****[#yellow] <color #black><i><size:14>Regularization to prevent overfitting.
+***[#green] <b><color #white><i><size:14>Cross-Validation
+****[#yellow] <color #black><i><size:14>Assessing model performance with different hyperparameter settings.
+***[#green] <b><color #white><i><size:14>Monitoring
+****[#yellow] <color #black><i><size:14>Keeping track of model convergence.
+****[#yellow] <color #black><i><size:14>Adjusting hyperparameters as needed.
+@endmindmap

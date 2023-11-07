@@ -1,0 +1,52 @@
+@startmindmap
+title =<i><b><u>Sigmoid Activation Function
+!theme hacker
+
+
+*[#darkblue] <i>Sigmoid Activation Function
+**[#lightblue] <i><size:14>Overview
+***[#green] <color #white><i><size:14>A type of activation function used in neural networks to introduce non-linearity.
+***[#green] <color #white><i><size:14>Often employed in hidden layers for **"binary classification and gating"** in recurrent networks.
+**[#lightblue] <i><size:14>Mathematical Expression
+***[#green] <b><color #white><i><size:18>S(x) = 1 / (1 + e^(-x))
+****[#yellow] <color #black><i><size:14>S**(x)** represents the sigmoid output for input x.
+****[#yellow] <color #black><i><size:14>**e** is the base of the natural logarithm <b>(approximately 2.71828).
+**[#lightblue] <i><size:14>Characteristics
+***[#green] <b><color #white><i><size:14>Range
+****[#yellow] <color #black><i><size:14>The sigmoid function outputs values between 0 and 1.
+****[#yellow] <color #black><i><size:14>Suitable for problems where the output represents probabilities.
+***[#green] <b><color #white><i><size:14>S-Shaped Curve
+****[#yellow] <color #black><i><size:14>The sigmoid function has an S-shaped curve.
+****[#yellow] <color #black><i><size:14>The output changes gradually with small changes in the input.
+***[#green] <b><color #white><i><size:14>Activation Strength
+****[#yellow] <color #black><i><size:14>Strong activation for large positive values and weak activation for large negative values.
+***[#green] <b><color #white><i><size:14>Non-linearity
+****[#yellow] <color #black><i><size:14>Introduces non-linearity into the network, allowing it to capture complex patterns.
+**[#lightblue] <i><size:14>Applications
+***[#green] <b><color #white><i><size:14>Binary Classification
+****[#yellow] <color #black><i><size:14>Commonly used in output layers for binary classification tasks.
+****[#yellow] <color #black><i><size:14>The output represents the probability of the positive class.
+***[#green] <b><color #white><i><size:14>Gating
+****[#yellow] <color #black><i><size:14>Utilized in recurrent neural networks, such as LSTMs and GRUs, for gating mechanisms.
+****[#yellow] <color #black><i><size:14>Controls the flow of information in sequential data processing.
+**[#lightblue] <i><size:14>Challenges
+***[#green] <b><color #white><i><size:14>Vanishing Gradient
+****[#yellow] <color #black><i><size:14>In deep networks, gradients can vanish for very large or very small inputs.
+****[#yellow] <color #black><i><size:14>Affects the training of deep networks using sigmoid activations.
+***[#green] <b><color #white><i><size:14>Output Range
+****[#yellow] <color #black><i><size:14>The output range between 0 and 1 can limit the network's representation power.
+****[#yellow] <color #black><i><size:14>In some cases, alternative activations like ReLU may be preferred.
+**[#lightblue] <i><size:14>Advantages
+***[#green] <b><color #white><i><size:14>Smoothness
+****[#yellow] <color #black><i><size:14>The smooth gradient allows for stable training with gradient descent.
+****[#yellow] <color #black><i><size:14>Suitable for problems where smooth transitions are desired.
+***[#green] <b><color #white><i><size:14>Interpretability
+****[#yellow] <color #black><i><size:14>Outputs can be interpreted as probabilities, making it useful in certain applications.
+**[#lightblue] <i><size:14>Disadvantages
+***[#green] <b><color #white><i><size:14>Vanishing Gradient
+****[#yellow] <color #black><i><size:14>The vanishing gradient problem can slow down or hinder training in deep networks.
+***[#green] <b><color #white><i><size:14>Limited Range
+****[#yellow] <color #black><i><size:14>The limited output range may not be ideal for some tasks.
+***[#green] <b><color #white><i><size:14>Not Suitable for All Problems
+****[#yellow] <color #black><i><size:14>Not recommended for all tasks, especially when the output range should cover a wider range of values.
+@endmindmap

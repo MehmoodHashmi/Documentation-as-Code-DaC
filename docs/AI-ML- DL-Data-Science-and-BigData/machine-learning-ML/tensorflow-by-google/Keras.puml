@@ -41,9 +41,9 @@ title =<i><b><u>Keras
 ***[#green] <color #white><i><size:14>Save and load model architectures and weights.
 **[#lightblue] <i><size:14>Customization
 ***[#green] <color #white><i><size:14>Define custom layers, losses, and metrics.
-**[#lightblue] <i><size:14>Applications
+**[#lightblue] <i><size:22>Applications
 ***[#green] <color #white><i><size:14>Pre-trained models for common tasks.
-***[#green] <color #white><i><size:14>Fine-tuning and transfer learning.
+***[#green] <color #white><i><size:18><b>[[../3-deep-learning-DL/Model-Fine-Tuning.puml Fine-tuning and transfer learning.]]
 **[#lightblue] <i><size:14>Keras in TensorFlow 2.x
 ***[#green] <color #white><i><size:14>Part of TensorFlow as `tf.keras`.
 ***[#green] <color #white><i><size:14>Default high-level API for TensorFlow.

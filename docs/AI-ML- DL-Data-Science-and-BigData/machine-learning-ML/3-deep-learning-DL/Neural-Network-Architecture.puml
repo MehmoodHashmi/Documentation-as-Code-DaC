@@ -66,19 +66,19 @@ title =<i><b><u>Neural Network Architecture \n<color #red><i>Activation Function
 ***[#yellow] <i><size:14>**5- Gated Recurrent Units **(GRU)** -** A "simpler RNN" variant with "gating mechanisms".
 ***[#yellow] <i><size:14>**6- And many more**
 
-**[#lightblue] <i>Layer Types
-***[#yellow] <i><size:14>**Input Layer -** Receives and preprocesses input data and then, passes it to the hidden layers.
-***[#yellow] <i><size:14><color #red>**Hidden Layers -** Process information via various types, such as **fully connected, convolutional, or recurrent.**
+**[#lightblue] <i>[[Neural-Network-Layers.puml Layer Types]]
+***[#darkorange] <i><size:14>**[[Input-Layers.puml Input Layer]] -** Receives and preprocesses input data and then, passes it to the hidden layers.
+***[#darkorange] <i><size:14><color #black>**[[Hidden-Layers.puml Hidden Layers -]]** Process information via various types, such as **fully connected, convolutional, or recurrent.**
 ****[#white] <i><size:14>Fully Connected **(Dense)** Layers **- Each neuron connected to all neurons in the previous layer.**
 ****[#white] <i><size:14>Convolutional Layers **- Detect patterns in input data using filters.**
 ****[#white] <i><size:14>Recurrent Layers **- Process sequences and maintain hidden states.**
-***[#yellow] <i><size:14>**Output Layer -** Produces the final network output.
+***[#darkorange] <i><size:14>**[[Output-Layer.puml Output Layer -]]** Produces the final network output.
 
 **[#lightblue] <i><size:18>[[Activation-Functions.puml Activation Functions]]
-***[#yellow] <i><size:14>**Sigmoid -** <color #red>S-shaped curve used in <b>earlier (1980's) neural networks. \n* <size:14><i>Smoothly maps input to the range **(0, 1).**
+***[#black] <i><size:14>**[[Sigmoid-Activation-Function.puml Sigmoid -]]** <color #red>S-shaped curve used in <b>earlier (1980's) neural networks. Smoothly maps input to the range **(0, 1).**
 ***[#yellow] <i><size:14>**Hyperbolic Tangent (tanh) -** <color #red>Similar to the **sigmoid** but with output in the range **[-1, 1].**
-***[#yellow] <i><size:14>**Rectified Linear Unit (ReLU) -** <color #red>Widely used activation function with a "linear segment", "output" is **max(0, input).**
-***[#yellow] <i><size:14>**Leaky ReLU (LReLU) -** <color #red>Variation of ReLU with a small slope for negative values. Avoids dead neurons by having a small slope for negative input.
+***[#black] <i><size:14>**[[ReLU-Activation-Function.puml Rectified Linear Unit (ReLU) -]]** <color #red>Widely used activation function with a "linear segment", "output" is **max(0, input).**
+***[#black] <i><size:14>**[[ReLU-Activation-Function.puml Leaky ReLU (LReLU) -]]** <color #red>Variation of ReLU with a small slope for negative values. Avoids dead neurons by having a small slope for negative input.
 ***[#yellow] <i><size:14>**Exponential Linear Unit (ELU) -** <color #red>An activation function that avoids the vanishing gradient problem. Smoothly handles both positive and negative values.
 
 **[#lightblue] <size:18><i>[[Loss-Functions.puml Loss Functions]]
@@ -91,7 +91,7 @@ title =<i><b><u>Neural Network Architecture \n<color #red><i>Activation Function
 
 **[#lightblue] <size:18><i>[[Optimizers-in-Neural-Networks.puml Optimizers]]
 ***[#yellow] <i><size:14>**Gradient Descent -** Iterative algorithm for minimizing the loss function. Updates weights based on the gradient of the loss.
-***[#darkorange] <i><size:15>**Stochastic Gradient Descent (SGD) -** A "variation of gradient descent" that processes small "data batches". Uses "random samples" for faster <b>[[convergence.puml "convergence".]]
+***[#darkorange] <i><size:15>**Stochastic Gradient Descent (SGD) -** A "variation of gradient descent" that processes small "data batches". Uses "random samples" for faster <b>[[../Model-Convergence.puml "convergence".]]
 ***[#yellow] <i><size:14>**Adam Optimizer -** Popular adaptive "learning rate" optimizer. Adaptive optimization with "momentum".
 ***[#yellow] <i><size:14>**RMSprop -** Another adaptive "learning rate" **"algorithm"**. "Root Mean Square Propagation" for adjusting "learning rates".
 ***[#yellow] <i><size:14>**Adagrad -** Optimizer that adapts "learning rates" for each "parameter". Adaptive "learning rates" for "sparse data".

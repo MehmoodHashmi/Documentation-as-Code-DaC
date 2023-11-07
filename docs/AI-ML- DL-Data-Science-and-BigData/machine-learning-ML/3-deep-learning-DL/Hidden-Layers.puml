@@ -1,0 +1,57 @@
+@startmindmap
+title =<i><b><u>Hidden Layers
+
+!theme hacker
+
+*[#darkblue] <i>Hidden Layers
+**[#lightblue] <i><size:14>Overview
+***[#green] <color #white><i><size:14>Intermediate layers in a neural network that perform feature extraction and data transformation.
+***[#green] <color #white><i><size:14>Consist of multiple neurons or nodes connected to adjacent layers.
+**[#lightblue] <i><size:14>Role
+***[#green] <b><color #white><i><size:14>Feature Extraction
+****[#yellow] <color #black><i><size:14>Process and extract relevant features from the input data.
+****[#yellow] <color #black><i><size:14>Hierarchical representations are learned in deep networks.
+***[#green] <b><color #white><i><size:14>Data Transformation
+****[#yellow] <color #black><i><size:14>Non-linear transformations applied to the input data.
+****[#yellow] <color #black><i><size:14>Multiple hidden layers enable the network to capture complex patterns.
+**[#lightblue] <i><size:14>Layer Types
+***[#green] <b><color #white><i><size:14>Fully Connected Layers
+****[#yellow] <color #black><i><size:14>All neurons are connected to every neuron in adjacent layers.
+****[#yellow] <color #black><i><size:14>Common in feedforward neural networks.
+***[#green] <b><color #white><i><size:14>Convolutional Layers
+****[#yellow] <color #black><i><size:14>Specialized for grid-like data (e.g., images).
+****[#yellow] <color #black><i><size:14>Use convolution and pooling operations for feature extraction.
+***[#green] <b><color #white><i><size:14>Recurrent Layers
+****[#yellow] <color #black><i><size:14>Designed for sequential data (e.g., time series, text).
+****[#yellow] <color #black><i><size:14>Capture temporal dependencies in data.
+**[#lightblue] <i><size:14>Activation Functions
+***[#green] <b><color #white><i><size:14>Apply non-linear transformations to layer outputs.
+***[#green] <b><color #white><i><size:14>Ensure that gradients can flow through the network.
+***[#green] <b><color #white><i><size:14>Common activation functions include ReLU, Sigmoid, and Tanh.
+**[#lightblue] <i><size:14>Depth and Width
+***[#green] <b><color #white><i><size:14>Depth
+****[#yellow] <color #black><i><size:14>Refers to the number of hidden layers in the network.
+****[#yellow] <color #black><i><size:14>Deep networks can capture complex representations.
+***[#green] <b><color #white><i><size:14>Width
+****[#yellow] <color #black><i><size:14>Refers to the number of neurons in a hidden layer.
+****[#yellow] <color #black><i><size:14>Wider layers can model more intricate patterns.
+**[#lightblue] <i><size:14>Challenges
+***[#green] <b><color #white><i><size:14>Overfitting
+****[#yellow] <color #black><i><size:14>Complex models may capture noise in data.
+****[#yellow] <color #black><i><size:14>Regularization techniques like dropout and weight decay are needed.
+***[#green] <b><color #white><i><size:14>Vanishing and Exploding Gradients
+****[#yellow] <color #black><i><size:14>Issues in deep networks when gradients vanish or explode.
+****[#yellow] <color #black><i><size:14>Addressed by specialized layers and activations (e.g., LSTM, GRU).
+**[#lightblue] <i><size:14>Best Practices
+***[#green] <b><color #white><i><size:14>Layer Selection
+****[#yellow] <color #black><i><size:14>Choose layer types based on the nature of the data and task.
+****[#yellow] <color #black><i><size:14>Adjust layer depth and width to optimize model performance.
+***[#green] <b><color #white><i><size:14>Regularization
+****[#yellow] <color #black><i><size:14>Apply techniques to prevent overfitting.
+****[#yellow] <color #black><i><size:14>Include dropout, weight decay, or batch normalization.
+***[#green] <b><color #white><i><size:14>Activation Functions
+****[#yellow] <color #black><i><size:14>Select appropriate activations for hidden layers.
+****[#yellow] <color #black><i><size:14>Ensure that gradients can flow through the network.
+***[#green] <b><color #white><i><size:14>Model Evaluation
+****[#yellow] <color #black><i><size:14>Continuously assess model performance and fine-tune network architecture if needed.
+@endmindmap

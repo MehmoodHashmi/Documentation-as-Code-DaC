@@ -1,0 +1,59 @@
+@startmindmap
+title =<i><b><u>ReLU Activation Function
+ !theme hacker
+
+*[#darkblue] <i>ReLU Activation Function
+**[#lightblue] <i>Overview
+***[#green] <b><color #white><i><size:14>A popular activation function in neural networks that introduces non-linearity.
+***[#green] <b><color #white><i><size:14>Simple and computationally efficient.
+***[#green] <b><color #white><i><size:14>Widely used in hidden layers.
+**[#lightblue] <i>Mathematical Expression
+***[#green] <b><color #white><i><size:18>R(x) = max(0, x)
+****[#yellow] <color #black><i><size:14>R**(x**) represents the ReLU output for input x.
+****[#yellow] <color #black><i><size:14>Outputs x for x > 0 and 0 for x <= 0.
+**[#lightblue] <i>Characteristics
+***[#green] <b><color #white><i><size:14>Range
+****[#yellow] <color #black><i><size:14>The ReLU function outputs values greater than or equal to 0.
+****[#yellow] <color #black><i><size:14>It is unbounded for positive inputs.
+***[#green] <b><color #white><i><size:14>Piecewise Linear
+****[#yellow] <color #black><i><size:18>**Comprises two linear segments:** R(x) = x for x > 0 and R(x) = 0 for x <= 0.
+***[#green] <b><color #white><i><size:14>Non-Linearity
+****[#yellow] <color #black><i><size:14>Introduces non-linearity into the network, enabling the capture of complex patterns.
+**[#lightblue] <i>Applications
+***[#green] <b><color #white><i><size:14>Hidden Layers
+****[#yellow] <color #black><i><size:14>Commonly used in hidden layers of deep neural networks.
+****[#yellow] <color #black><i><size:14>Facilitates the training of deep networks.
+***[#green] <b><color #white><i><size:14>Convolutional Neural Networks (CNNs)
+****[#yellow] <color #black><i><size:14>Particularly effective in convolutional layers for image recognition tasks.
+****[#yellow] <color #black><i><size:14>Helps in feature learning and extraction.
+**[#lightblue] <i>Advantages
+***[#green] <b><color #white><i><size:14>Sparsity
+****[#yellow] <color #black><i><size:14>Encourages sparsity in network activations.
+****[#yellow] <color #black><i><size:14>Neurons are either fully active **(for positive inputs)** or completely inactive <b>(for negative inputs).
+***[#green] <b><color #white><i><size:14>Reduced Vanishing Gradient
+****[#yellow] <color #black><i><size:14>Addresses the vanishing gradient problem in deep networks.
+****[#yellow] <color #black><i><size:14>Allows for more efficient training of deep architectures.
+**[#lightblue] <i>Challenges
+***[#green] <b><color #white><i><size:14>Dead Neurons
+****[#yellow] <color #black><i><size:14>Neurons with negative inputs always output 0, leading to **"dead"** neurons.
+****[#yellow] <color #black><i><size:14>Can slow down or halt learning in some neurons.
+***[#green] <b><color #white><i><size:14>Exploding Gradients
+****[#yellow] <color #black><i><size:14>Can cause gradients to explode during training.
+****[#yellow] <color #black><i><size:14>Requires careful initialization and regularization.
+**[#lightblue] <i><size:22>Variants
+***[#green] <b><color #white><i><size:14>Leaky ReLU
+****[#yellow] <color #black><i><size:14>Overcomes the **"dead neuron"** issue by allowing a small gradient for negative inputs.
+***[#green] <b><color #white><i><size:14>Parametric ReLU (PReLU)
+****[#yellow] <color #black><i><size:14>Introduces learnable parameters to Leaky ReLU.
+****[#yellow] <color #black><i><size:14>Allows the network to learn the slope for negative inputs.
+***[#green] <b><color #white><i><size:14>Exponential Linear Unit (ELU)
+****[#yellow] <color #black><i><size:14>Smooths the transition for negative inputs and maintains non-zero gradients.
+****[#yellow] <color #black><i><size:14>Provides robustness to dying ReLU problem.
+**[#lightblue] <i>Best Practices
+***[#green] <b><color #white><i><size:14>Default Choice
+****[#yellow] <color #black><i><size:14>ReLU is often the default choice for hidden layers due to its effectiveness and efficiency.
+***[#green] <b><color #white><i><size:14>Initialization
+****[#yellow] <color #black><i><size:14>Use appropriate weight initialization techniques to mitigate dead neurons.
+***[#green] <b><color #white><i><size:14>Variants
+****[#yellow] <color #black><i><size:14>Experiment with variants like Leaky ReLU and ELU for improved performance.
+@endmindmap

@@ -1,14 +1,12 @@
 @startmindmap
-title =__Hyperparameter Tuning__
-
+title =__Hyperparameter Tuning__\n[[Parameters-and-Hyperparameters.puml Hyperparameter vs "Parameters"]] click me
+* =<i><b>[[Hyperparameter-Tuning-Art-vs-Science.puml Hyperparameter Tuning: Art vs. Science]]
 !theme hacker
-
-
-* Hyperparameter Tuning
-** Definition
+*[#darkblue] <i>Hyperparameter Tuning
+**[#lightblue] <i><size:14>Definition
 ***[#orange] <i><size:16>**Hyperparameter Tuning** is the "process" of "finding the optimal hyperparameters" for a "machine learning model" to achieve the best "performance" on a "given task".
 
-** Key Concepts
+**[#lightblue] <i><size:14>Key Concepts
 ***[#gold] <size:14><i>**Hyperparameters**
 ****[#white] <i><size:14>**"Parameters" not "learned" by the "model" but "set before the training".**
 ***[#gold] <size:14><i>Search Space
@@ -20,7 +18,7 @@ title =__Hyperparameter Tuning__
 ***[#gold] <size:14><i>Cross-Validation
 ****[#yellow] <color #black><i><size:14>Splitting data into multiple subsets for robust evaluation.
 
-** Hyperparameter Tuning Methods
+**[#lightblue] <i><size:14>Hyperparameter Tuning Methods
 ***[#gold] <size:14><i>Grid Search
 ****[#yellow] <color #black><i><size:14>Systematically exploring a predefined set of hyperparameters.
 ***[#gold] <size:14><i>Random Search
@@ -32,7 +30,7 @@ title =__Hyperparameter Tuning__
 ***[#gold] <size:14><i>Automated Hyperparameter Tuning Tools
 ****[#yellow] <color #black><i><size:14>Platforms like Optuna, Hyperopt, and AutoML tools.
 
-** Hyperparameter Types
+**[#lightblue] <i><size:14>Hyperparameter Types
 ***[#gold] <size:14><i>Learning Rate
 ****[#yellow] <color #black><i><size:14>Affects the **"step size"** during optimization.
 ***[#gold] <size:14><i>Number of Hidden Layers
@@ -44,7 +42,7 @@ title =__Hyperparameter Tuning__
 ***[#gold] <size:14><i>Batch Size
 ****[#yellow] <color #black><i><size:14>Number of samples used in each training iteration.
 
-** Metrics
+**[#lightblue] <i><size:14>Metrics
 ***[#gold] <size:14><i>Accuracy
 ****[#yellow] <color #black><i><size:14>Proportion of correctly predicted instances.
 ***[#gold] <size:14><i>F1-Score
@@ -54,7 +52,7 @@ title =__Hyperparameter Tuning__
 ***[#gold] <size:14><i>Mean Squared Error **(MSE)**
 ****[#yellow] <color #black><i><size:14>Measures the average squared difference between predictions and actual values.
 
-** Challenges
+**[#lightblue] <i><size:14>Challenges
 ***[#gold] <size:14><i>Combinatorial Search
 ****[#yellow] <color #black><i><size:14>Exploring a large search space is computationally expensive.
 ***[#gold] <size:14><i>Overfitting
@@ -62,7 +60,7 @@ title =__Hyperparameter Tuning__
 ***[#gold] <size:14><i>Resource Constraints
 ****[#yellow] <color #black><i><size:14>Limited hardware and time for hyperparameter tuning.
 
-** Best Practices
+**[#lightblue] <i><size:14>Best Practices
 ***[#gold] <size:14><i>Start with Defaults
 ****[#yellow] <color #black><i><size:14>Begin with reasonable default hyperparameters.
 ***[#gold] <size:14><i>Prioritize Hyperparameters

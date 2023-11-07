@@ -5,7 +5,7 @@ title =<b><i><u>Activation Functions
 
 *[#darkblue] <i>Activation Functions
 **[#lightblue] <color #black><i><size:14>Overview
-***[#green] <b><color #white><i><size:14>Activation functions introduce non-linearity into artificial neural networks, allowing them to model complex relationships and make predictions.
+***[#green] <color #white><i><size:18>**Activation functions** introduce **non-linearity** into **artificial neural networks,** allowing them to **model** complex relationships and make predictions.
 
 **[#lightblue] <color #black><i><size:14>Types of Activation Functions
 ***[#green] <b><color #white><i><size:14>Sigmoid

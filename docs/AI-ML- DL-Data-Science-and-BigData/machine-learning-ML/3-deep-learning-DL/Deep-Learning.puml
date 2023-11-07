@@ -23,7 +23,7 @@ title =__Deep Learning__
 ****[#yellow] <i><color #black><size:14>A type of RNN designed for capturing long-range dependencies.
 ***[#green] <color #white><b><size:14><i>Gated Recurrent Unit **(GRU)**
 ****[#yellow] <i><color #black><size:14>A simpler variant of LSTM for sequence modeling.
-***[#green] <i><color #white><size:18>**Transfer Learning**
+***[#green] <i><color #white><size:18><b>[[Model-Fine-Tuning.puml Transfer Learning]]
 ****[#white] <i><color #black><size:14>**Reusing pre-trained models for new tasks.**
 ***[#green] <color #white><b><size:14><i>Generative Adversarial Networks **(GANs)**
 ****[#yellow] <i><color #black><size:14>Models for generating data and images.
@@ -71,13 +71,13 @@ title =__Deep Learning__
 ****[#yellow] <i><color #black><size:14>Creating more training data through transformations.
 ***[#pink] <i><color #black><size:14>**Regularization**
 ****[#yellow] <i><color #black><size:14>**Techniques like "dropout" to prevent "overfitting".**
-***[#gold] <i><color #black><size:14>**Hyperparameter Tuning**
+***[#darkorange] <i><color #black><size:16><b>[[Hyperparameter-Tuning.puml Hyperparameter Tuning]]
 ****[#yellow] <i><color #black><size:14>Fine-tuning model parameters for optimal performance.
-***[#green] <i><color #white><size:18>**Transfer Learning**
+***[#green] <i><color #white><size:18><b>[[Model-Fine-Tuning.puml Transfer Learning]]
 ****[#yellow] <i><color #black><size:14>**Leveraging pre-trained models for new tasks.**
 ***[#green] <color #white><b><size:14><i>Deep Learning Research
 ****[#yellow] <i><color #black><size:14>Staying up-to-date with the latest research and developments.
-***[#green] <color #white><b><size:14><i>Model Interpretability
+***[#green] <color #white><b><size:14><i>[[how-to/Model-Explainability.puml Model Interpretability]]
 ****[#yellow] <i><color #black><size:14>Making complex models interpretable and explainable.
 
 @endmindmap

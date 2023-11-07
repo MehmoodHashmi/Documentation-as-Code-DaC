@@ -1,0 +1,55 @@
+@startmindmap
+title =<i><b><u>Softmax Activation Function
+!theme hacker
+
+*[#darkblue] <i>Softmax Activation Function
+**[#lightblue] <i><size:14>Overview
+***[#green] <color #white><i><size:18>An activation function used in neural networks for <b>"multi-class classification tasks".
+***[#green] <color #white><i><size:18>Converts a "vector" of "real numbers" into a "probability distribution".
+**[#lightblue] <i><size:14>Mathematical Expression
+***[#green] <b><color #white><i><size:14>S(x)_i = e^(x_i) / Σ(e^(x_j))
+****[#yellow] <color #black><i><size:18>S(x)_i represents the Softmax output for input x at position i.
+****[#yellow] <color #black><i><size:18>e^(x_i) is the exponent of the input value at position i.
+****[#yellow] <color #black><i><size:18>Σ(e^(x_j)) is the sum of exponents for all positions in the input vector.
+**[#lightblue] <i><size:14>Characteristics
+***[#green] <b><color #white><i><size:14>Probability Distribution
+****[#yellow] <color #black><i><size:14>The Softmax function maps input values to a probability distribution.
+****[#yellow] <color #black><i><size:14>Each output represents the probability of the corresponding class.
+****[#yellow] <color #black><i><size:14>The sum of all output values is equal to 1.
+***[#green] <b><color #white><i><size:14>Monotonicity
+****[#yellow] <color #black><i><size:14>Preserves the order of input values, ensuring higher values result in higher probabilities.
+****[#yellow] <color #black><i><size:14>Useful for selecting the most probable class.
+***[#green] <b><color #white><i><size:14>Non-Linearity
+****[#yellow] <color #black><i><size:14>Introduces non-linearity into the network, enabling complex pattern modeling.
+**[#lightblue] <i><size:14>Applications
+***[#green] <b><color #white><i><size:14>Multi-Class Classification
+****[#yellow] <color #black><i><size:14>Primarily used in the output layer of neural networks for multi-class classification tasks.
+****[#yellow] <color #black><i><size:14>Assigns probabilities to each class and selects the class with the highest probability.
+***[#green] <b><color #white><i><size:14>Language Models
+****[#yellow] <color #black><i><size:14>Applied in natural language processing tasks, such as language generation.
+****[#yellow] <color #black><i><size:14>Generates word probabilities in text generation models.
+**[#lightblue] <i><size:14>Advantages
+***[#green] <b><color #white><i><size:14>Probabilistic Output
+****[#yellow] <color #black><i><size:14>Provides a probability distribution over multiple classes, aiding in decision-making.
+***[#green] <b><color #white><i><size:14>Effective for Classification
+****[#yellow] <color #black><i><size:14>Effective in multi-class classification tasks where the choice of a single class is required.
+***[#green] <b><color #white><i><size:14>Differentiable
+****[#yellow] <color #black><i><size:14>The Softmax function is differentiable, making it suitable for gradient-based optimization.
+**[#lightblue] <i><size:14>Challenges
+***[#green] <b><color #white><i><size:14>Vanishing Gradient
+****[#yellow] <color #black><i><size:14>Can exhibit vanishing gradient problems in deep networks.
+****[#yellow] <color #black><i><size:14>Requires careful initialization and regularization.
+**[#lightblue] <i><size:14>Normalization
+***[#green] <b><color #white><i><size:14>The denominator Σ(e^(x_j)) normalizes the output values to ensure they sum up to 1.
+***[#green] <b><color #white><i><size:14>Prevents very large values from causing numerical instability.
+**[#lightblue] <i><size:14>Best Practices
+***[#green] <b><color #white><i><size:14>Output Layer
+****[#yellow] <color #black><i><size:14>Typically used in the output layer for multi-class classification tasks.
+****[#yellow] <color #black><i><size:14>Select the class with the highest Softmax probability as the predicted class.
+***[#green] <b><color #white><i><size:14>Loss Function
+****[#yellow] <color #black><i><size:14>Often used in combination with cross-entropy loss for training.
+****[#yellow] <color #black><i><size:14>Ensures the predicted distribution aligns with the target distribution.
+***[#green] <b><color #white><i><size:14>Output Scaling
+****[#yellow] <color #black><i><size:14>Scaling input values can affect the Softmax output.
+****[#yellow] <color #black><i><size:14>Experiment with different scaling approaches to improve training stability.
+@endmindmap
