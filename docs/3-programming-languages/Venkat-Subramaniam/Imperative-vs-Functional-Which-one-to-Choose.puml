@@ -1,56 +1,52 @@
 @startmindmap
+
+title = <b><i><u>Imperative vs Functional: Which one to Choose?
+
+*:<i><size:16>The imperative style of programming is the most popular, familiar, and widely used, and yet is packed with accidental complexity. Functional programming is gaining popularity,
+<i><size:16>less accidental complexity, and makes it easier to understand code once we're familiar with the paradigm. However, it has its own set of limitations. Should we choose to
+<i><size:16>program in imperative or should we use functional? Which one is better or should we be choosing one over the other on different occasions? We'll explore the answers to these
+<i><size:16>questions in this presentation;
+
 !theme hacker
+*[#darkblue] <i>Imperative vs Functional:\nWhich one to Choose?
+**[#lightblue] <i>Imperative Style
+***[#green] <size:14><color #white><i> You tell **what** to do **and** how to do it
+****[#yellow] <size:14><color #black><i>Imperative style has higher accidental complexity
+****[#yellow] <size:14><color #black><i>Problem with imperative style
+*****[#yellow]:*<size:14><color #black><i>Garbage variables
+* <size:14><i>Has mutability
+* <size:14><i>Verbose
+* <size:14><i>Prone to "Errors"
+* <size:14><i>Hard to parallelize;
+***[#green]: <size:18><color #white><i>It is easier to write **(due to familiarity)** but **hard to read**. Don't confuse familiar with simple, things that are simple
+<size:18><color #white><i>should remain "simple", and things that are complex should be "manageable".
 
-title = Imperative vs Functional: Which one to Choose?
+<b><size:18><color #white><i>Example:
+<img:images/img_3.png>;
 
-*:The imperative style of programming is the most popular, familiar, and widely used, and yet is packed with accidental complexity. Functional programming is gaining popularity,
-less accidental complexity, and makes it easier to understand code once we're familiar with the paradigm. However, it has its own set of limitations. Should we choose to
-program in imperative or should we use functional? Which one is better or should we be choosing one over the other on different occasions? We'll explore the answers to these
-questions in this presentation;
+**[#lightblue] <i>Declarative Style
+***[#green] <size:14><color #white><i> You tell **what** to do **but not** how to do it
+***[#green] <b><size:14><color #white><i> example \n<img:images/img_2.png>
 
-* Imperative vs Functional:\nWhich one to Choose?
-** Imperative Style
-***:It is easier to write (due to familiarity) but hard to read.
-Don't confuse familiar with simple, things that are simple
-should remain simple, and things that are complex should be
-manageable.;
-
-*** You tell **what** to do **and** how to do it
-**** =Imperative style has higher accidental complexity
-**** =Problem with imperative style
-***** ====Garbage variables
-***** ====has mutability
-***** ====verbose
-***** ====error-prone
-***** ====very hard to parallelize
-*** =example \n<img:images/img_3.png>
-** Declarative Style
-*** You tell **what** to do **but not** how to do it
-*** =example \n<img:images/img_2.png>
-
-** Functional Style
-*** **Declarative Style +** <color :crimson> **Higher Order Functions**
+**[#lightblue] <i>Functional Style
+***[#green] <b><size:18><color #white><i> Declarative Style + <color :darkorange>Higher Order Functions
 
 
-*** ====<color :crimson> **Higher Order Functions**
+***[#green] <b><size:14><color #white><i> <i><color :darkorange>Higher Order Functions
 
-****:===Much like how we pass data, we can pass the code or functions around. These functions
-===that can either receive or return function are called <color :crimson>  **Higher Order Functions**;
-*** <color :crimson> **Flows like problem statement, has less complexity**
-*** =example\n<img:images/img.png>
-**** =Parallel code execution\n<img:images/img_1.png>
-***** =__Sharing variables__ is not bad (if encapsulated)
-***** =__Mutating variables__ is not bad either (if encapsulated)
-***** =But __Sharing + Mutating variables__ = bad approach (Devils work)
-**** =Issues with Functional Programming
-***** ===Make sure the lambda expressions (->) and functional pipeline are pure.
-***** ===What is Pure? Pure functions do not have side-effects. They are idempotent.
-***** ===Idempotent: For the same input function always produces same output
-**** =Rules for purity:
-***** =The function does not mutate or change anything that is visible from the outside
-***** =The function does not depend on anything from outside that may/possibly change
-****:=<color:crimson>Exception Handling:</color> is an imperative style programming idea.
-=FP & Exception handling are __mutually exclusive.__ Do not throw exceptions
-=in FP. Treat __"Errors"__ as a form of __"Data"__ and deal with them __"downstream"__;
+****[#yellow]:<b><i><size:14>Much like how we pass data, we can pass the code or functions around. These functions
+<b><i><size:14>that can either receive or return function are called <color :black> "Higher Order Functions";
+***[#green] <size:18><color #white><i> <color :white>"Flows" like "problem statement", has "less complexity" \n\n<b><size:18><color #white><i> example\n<img:images/img.png>
+****[#yellow] <size:14><color #black><i><b>Parallel code execution\n<img:images/img_1.png>
+*****[#yellow] <size:14><color #black><i>__Sharing variables__ is not bad <b>(if encapsulated)
+*****[#yellow] <size:14><color #black><i>__Mutating variables__ is not bad either <b>(if encapsulated)
+*****[#yellow] <size:14><color #black><i>But __Sharing + Mutating variables__ = bad approach <b>(Devils work)
+****[#yellow] <size:14><color #black><i>Issues with Functional Programming
+*****[#yellow] *<size:14><color #black><i>Make sure the "lambda expressions (->)" and "functional pipeline" are "pure". \n*<size:14><color #black><i>**What is Pure?** Pure functions do not have side-effects. They are **idempotent.**\n*<size:14><color #black><i>**Idempotent:** For the same input function always produces same output
+****[#yellow] <size:14><color #black><i><b>Rules for purity:
+*****[#yellow] *<size:14><color #black><i>The function does not mutate or change anything that is visible from the outside \n* <size:14><color #black><i>The function does not depend on anything from outside that may/possibly change
+****[#yellow]:=<i><color:darkorange>Exception Handling:</color> is an imperative style programming idea.
+<size:18> <i>FP & Exception handling are __mutually exclusive.__ Do not throw exceptions
+<size:18> <i>in FP. Treat __"Errors"__ as a form of __"Data"__ and deal with them __"downstream"__;
 
 @endmindmap
