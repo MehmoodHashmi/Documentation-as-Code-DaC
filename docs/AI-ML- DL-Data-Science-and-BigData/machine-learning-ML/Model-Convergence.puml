@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><b><u>[[gif/convergence-divergence.adoc Model Convergence]] click me\n<img:images/img_1.png>
+title =<i><b><u>[[gif/convergence-divergence.adoc Model Convergence]] click me gif\n<img:images/img_1.png>
 
 
 !theme hacker
@@ -12,7 +12,7 @@ title =<i><b><u>[[gif/convergence-divergence.adoc Model Convergence]] click me\n
 ***[#green] <color #white><b><i><size:14>Loss Function
 ****[#yellow] <color #black><i><size:14>Monitor the decrease in the loss function as the model trains.
 ***[#green] <color #white><b><i><size:14>Epochs
-****[#yellow] <color #black><i><size:14>The number of times the entire training dataset is passed through the model.
+****[#yellow] <color #black><i><size:14>The number of times the entire training dataset is passed through the model.\n<img:3-deep-learning-DL/images/img_12.png>
 ***[#green] <color #white><b><i><size:14>Learning Rate
 ****[#yellow] <color #black><i><size:14>Adjust the learning rate to control the convergence speed.
 ***[#green] <color #white><b><i><size:14>Early Stopping

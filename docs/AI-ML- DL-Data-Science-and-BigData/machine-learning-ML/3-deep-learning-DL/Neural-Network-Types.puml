@@ -28,7 +28,7 @@ title =<b><i><u>Neural Network Types
 ***[#yellow]  <i><size:14>**Computational Complexity:** O(N * M)
 ***[#gold]  <i><size:14>Uses radial basis functions to model relationships between input and output data.
 
-**[#lightblue]  <i><size:14>Autoencoder
+**[#lightblue]  <i><size:14>[[Autoencoder.puml Autoencoder]]
 ***[#yellow]  <i><size:14>**Computational Complexity:** O(N)
 ***[#gold]  <i><size:14>Comprised of an encoder and decoder, it's used for unsupervised learning and feature learning.
 

@@ -12,7 +12,7 @@ title =<i><b><u>[[https://playground.tensorflow.org/#activation=tanh&batchSize=1
 ***[#green] <color #white><i><size:14>Support for deep learning
 ***[#green] <color #white><i><size:14>Scalability
 ***[#green] <color #white><i><size:14>Ecosystem of tools and libraries
-**[#lightblue] <color #black><i><size:14>Core Components\n<img:images/img_9.png>
+**[#lightblue] <color #black><i><size:32>Core Components\n<img:images/img_9.png>
 ***[#green] <b><color #white><i><size:18>[[tensorflow-core.puml TensorFlow Core]]
 ****[#yellow] <color #black><i><size:14>The foundation of TensorFlow, with APIs for building and training models.
 ***[#green] <b><color #white><i><size:18>[[Keras.puml Keras]]

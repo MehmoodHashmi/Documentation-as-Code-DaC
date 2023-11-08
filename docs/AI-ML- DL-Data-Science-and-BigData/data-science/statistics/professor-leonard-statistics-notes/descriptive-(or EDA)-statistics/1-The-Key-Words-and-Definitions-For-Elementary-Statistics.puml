@@ -55,11 +55,9 @@ __But if you take a **sample** from the **population** and then talk those **cha
 *** **Definition:** Data that is **Non-Numeric**
 
 ***[#pink] =Imbalance Data
-****[#pink] <color #black>**The term __Imbalance Data__ is used when you are working** \n<color #black>**with __categorical data__ or (non-numeric data)**
-*****[#yellow] ===Accuracy
-******[#yellow] ===If model has given you near to \n100% accuracy on training data then \nit is called **over-fit** & this is bad
-*****[#yellow] ===Precision
-*****[#yellow] ===Recall
+****[#pink] <color #black><b>The term __Imbalance Data__ (or Imbalanced Classes) is used when \n<b><color #black>you are working with __categorical data__ or (non-numeric data)
+*****[#yellow] **e.g.** When "Data" available related to "oranges" is more than "apples & grapes"
+*****[#yellow] Imbalance Data is never left or right skewed, its irrelevant to talk about skewness
 *** **Examples:** Gender, Color, Race, Religion, Ethnicity, Army Rank, Zip Code (some **data** like **zip code** might have numbers in them but still they are **Quantitative**)
 *** **Math operations** are **meaningless on Qualitative data** (or categorical data), \nyou can't add, subtract, multiply, divide qualitative data
 ****[#red] =**Examples**
@@ -110,7 +108,7 @@ __But if you take a **sample** from the **population** and then talk those **cha
          numbers) to advanced topics like complex analysis (complex numbers).;
 ********* <img:images/img_53.png>
 ***[#pink] =Skewness
-****[#pink] **The term __Skewness__ is used when** \n**you are working with __numeric data__**
+****[#pink] <size:14><i><color #black>**The term __Skewness__ is used when** **you are working with __numeric data__**
 *****[#yellow] **Left skewed**
 *****[#yellow] **Right skewed**
 *****[#yellow] **Normally distributed**

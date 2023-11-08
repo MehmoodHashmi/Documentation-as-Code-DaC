@@ -46,7 +46,7 @@ title =<i><b><u>Optimizers in Neural Networks
 ***[#green] <i><size:14><color #white><b>Momentum
 ****[#yellow] <i><size:14><color #black>A hyperparameter that controls the contribution of previous weight updates.
 ***[#green] <i><size:14><color #white><b>Batch Size
-****[#yellow] <i><size:14><color #black>The number of training examples processed in each iteration.
+****[#yellow] <i><size:14><color #black>The number of training examples processed in each iteration.\n<img:images/img_11.png>
 ***[#green] <i><size:14><color #white><b>Decay Rate
 ****[#yellow] <i><size:14><color #black>A parameter that controls the learning rate decay over time.
 

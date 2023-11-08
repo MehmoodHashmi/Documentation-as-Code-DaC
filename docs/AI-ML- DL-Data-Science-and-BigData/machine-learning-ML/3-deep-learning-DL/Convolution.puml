@@ -1,0 +1,63 @@
+@startmindmap
+title =<i><b><u>Convolution
+* =<i>[[Pooling.puml Pooling]] click me
+!theme hacker
+
+
+*[#darkblue] <i>Convolution
+**[#lightblue] <color #black><i><size:14>Definition
+***[#green] <color #white><i><size:14>A mathematical operation that combines two functions to create a third function. In the context of deep learning, convolution is used to extract features from data.
+
+**[#lightblue] <color #black><i><size:14>Key Components
+***[#green] <b><color #white><i><size:14>Input Signal
+****[#yellow] <color #black><i><size:14>The original data or image that undergoes the convolution operation.
+***[#green] <b><color #white><i><size:22>[[Filters-or-Kernels.puml Kernel (Filter)]]
+****[#yellow] <color #black><i><size:14>A smaller matrix or function used to extract features from the input signal.
+***[#green] <b><color #white><i><size:14>Output (Feature Map)
+****[#yellow] <color #black><i><size:14>The result of the convolution operation, representing extracted features.
+
+**[#lightblue] <color #black><i><size:14>Convolution Operation
+***[#green] <b><color #white><i><size:14>Sliding Window
+****[#yellow] <color #black><i><size:14>The kernel slides over the input signal, performing element-wise multiplication and summing the results.
+***[#green] <b><color #white><i><size:14>Stride
+****[#yellow] <color #black><i><size:14>The step size at which the kernel moves while sliding over the input.
+***[#green] <b><color #white><i><size:14>Padding
+****[#yellow] <color #black><i><size:14>Adding extra border pixels to the input to control the output's spatial dimensions.
+***[#green] <b><color #white><i><size:14>Convolution Formula
+****[#yellow] <color #black><i><size:14>Output Feature Map = (Input Signal * Kernel)
+
+**[#lightblue] <color #black><i><size:14>Applications
+***[#green] <b><color #white><i><size:22>[[Image-Processing.puml Image Processing]]
+****[#yellow] <color #black><i><size:14>Used for tasks like edge detection, blurring, and feature extraction in image processing.
+***[#green] <b><color #white><i><size:22>Deep Learning
+****[#yellow] <color #black><i><size:14>Fundamental operation in Convolutional Neural Networks (CNNs) for feature extraction in computer vision tasks.
+
+**[#lightblue] <color #black><i><size:14>Types of Convolution
+***[#green] <b><color #white><i><size:14>Valid Convolution
+****[#yellow] <color #black><i><size:14>No padding, resulting in reduced spatial dimensions.
+***[#green] <b><color #white><i><size:14>Same Convolution
+****[#yellow] <color #black><i><size:14>Padding added to maintain the same spatial dimensions as the input.
+***[#green] <b><color #white><i><size:14>Full Convolution
+****[#yellow] <color #black><i><size:14>Larger output dimensions with complete overlap of kernel and input.
+
+**[#lightblue] <color #black><i><size:14>Edge Detection Example
+***[#green] <b><color #white><i><size:14>Illustrates how convolution can be used to detect edges in images.
+
+**[#lightblue] <color #black><i><size:14>Feature Extraction
+***[#green] <b><color #white><i><size:14>Convolution is a powerful tool for identifying patterns and features in data.
+
+**[#lightblue] <color #black><i><size:14>Convolution vs. Cross-Correlation
+***[#green] <b><color #white><i><size:14>Cross-correlation is similar to convolution but without flipping the kernel.
+
+**[#lightblue] <color #black><i><size:14>Challenges
+***[#green] <b><color #white><i><size:14>Kernel Design
+****[#yellow] <color #black><i><size:14>Choosing the right kernel for specific feature extraction tasks.
+***[#green] <b><color #white><i><size:14>Computational Cost
+****[#yellow] <color #black><i><size:14>Convolution can be computationally intensive, especially in deep learning.
+
+**[#lightblue] <color #black><i><size:14>Benefits
+***[#green] <b><color #white><i><size:14>Feature Learning
+****[#yellow] <color #black><i><size:14>Allows neural networks to automatically learn and extract relevant features from data.
+***[#green] <b><color #white><i><size:14>Spatial Hierarchies
+****[#yellow] <color #black><i><size:14>Captures patterns at different spatial hierarchies in data.
+@endmindmap

@@ -1,0 +1,46 @@
+@startmindmap
+title =<i><b><u>User Requirements
+!theme hacker
+
+*[#darkblue] <i>User Needs
+**[#lightblue] <i><color #black><size:14>Functional Requirements
+***[#green] <i><color #white><size:18>Specify the functional features and capabilities the system must have.
+**[#lightblue] <i><color #black><size:14>Non-functional Requirements
+***[#green] <i><color #white><size:18>Detail the non-functional aspects such as performance, security, and usability.
+
+*[#darkblue] <i>Stakeholder Input
+**[#lightblue] <i><color #black><size:14>End-User Requirements
+***[#green] <i><color #white><size:18>Collect feedback and requirements directly from end-users.
+**[#lightblue] <i><color #black><size:14>Business Requirements
+***[#green] <i><color #white><size:18>Gather business objectives and constraints that affect the system.
+
+*[#darkblue] <i>Use Cases
+**[#lightblue] <i><color #black><size:14>Scenario Descriptions
+***[#green] <i><color #white><size:18>Define specific use cases and describe user interactions.
+**[#lightblue] <i><color #black><size:14>Flow Diagrams
+***[#green] <i><color #white><size:18>Create flowcharts to illustrate user workflows.
+
+*[#darkblue] <i>Constraints
+**[#lightblue] <i><color #black><size:14>Technical Limitations
+***[#green] <i><color #white><size:18>List technical restrictions that need to be considered.
+**[#lightblue] <i><color #black><size:14>Regulatory Compliance
+***[#green] <i><color #white><size:18>Ensure that the system adheres to relevant regulations.
+
+*[#darkblue] <i>Quality Assurance
+**[#lightblue] <i><color #black><size:14>Testing Requirements
+***[#green] <i><color #white><size:18>Specify testing criteria and procedures.
+**[#lightblue] <i><color #black><size:14>Validation Criteria
+***[#green] <i><color #white><size:18>Define criteria to validate that requirements have been met.
+
+*[#darkblue] <i>Documentation
+**[#lightblue] <i><color #black><size:14>User Manuals
+***[#green] <i><color #white><size:18>Create user-friendly documentation to assist users.
+**[#lightblue] <i><color #black><size:14>Technical Documentation
+***[#green] <i><color #white><size:18>Provide detailed technical documentation for developers.
+
+*[#darkblue] <i>Project Constraints
+**[#lightblue] <i><color #black><size:14>Timeframe
+***[#green] <i><color #white><size:18>Define project time constraints.
+**[#lightblue] <i><color #black><size:14>Budget
+***[#green] <i><color #white><size:18>Specify the available budget for the project.
+@endmindmap

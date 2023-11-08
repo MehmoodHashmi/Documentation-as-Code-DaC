@@ -40,7 +40,7 @@ title =__Hyperparameter Tuning__\n[[Parameters-and-Hyperparameters.puml Hyperpar
 ***[#gold] <size:14><i>Regularization Strength
 ****[#yellow] <color #black><i><size:14>Controls overfitting with L1 or L2 regularization.
 ***[#gold] <size:14><i>Batch Size
-****[#yellow] <color #black><i><size:14>Number of samples used in each training iteration.
+****[#yellow] <color #black><i><size:14>Number of samples used in each training iteration.\n<img:images/img_11.png>
 
 **[#lightblue] <i><size:14>Metrics
 ***[#gold] <size:14><i>Accuracy

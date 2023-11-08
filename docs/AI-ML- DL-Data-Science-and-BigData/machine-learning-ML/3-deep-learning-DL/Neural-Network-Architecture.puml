@@ -60,7 +60,7 @@ title =<i><b><u>Neural Network Architecture \n<color #red><i>Activation Function
 
 **[#lightblue] <i><size:18>[[Neural-Network-Types.puml Types of Neural Networks]]
 ***[#yellow] <i><size:14>**1- Feedforward Neural Networks **(FNN)** -** Standard neural networks where information flows in one direction. \n* <size:14><i>Basic "forward flow" from "input to output".
-***[#yellow] <i><size:14>**2- Convolutional Neural Networks **(CNN)** -** Specialized for "image processing", using convolutional layers. \n* <size:14><i>Specialized for "image data" with convolutional layers.
+***[#darkorange] <i><size:14>**[[Convolutional-Neural-Networks-(CNNs).puml 2- Convolutional Neural Networks (CNN) -]]** Specialized for **[[Image-Processing.puml "image processing"]],** using convolutional layers. Specialized for "image data" with convolutional layers.
 ***[#yellow] <i><size:14>**3- Recurrent Neural Networks **(RNN)** -** Suitable for sequential data, with "recurrent connections". \n* <size:14><i>Process "sequential data" with "loops".
 ***[#yellow] <i><size:14>**4- Long Short-Term Memory **(LSTM)** -** A type of RNN with improved memory capabilities. \n* <size:14><i>Handles "long-term dependencies" in "sequences".
 ***[#yellow] <i><size:14>**5- Gated Recurrent Units **(GRU)** -** A "simpler RNN" variant with "gating mechanisms".
@@ -90,7 +90,7 @@ title =<i><b><u>Neural Network Architecture \n<color #red><i>Activation Function
 ***[#yellow] <i><size:14>**Custom Loss Functions -** Tailored for specific **tasks or objectives or problems.**
 
 **[#lightblue] <size:18><i>[[Optimizers-in-Neural-Networks.puml Optimizers]]
-***[#yellow] <i><size:14>**Gradient Descent -** Iterative algorithm for minimizing the loss function. Updates weights based on the gradient of the loss.
+***[#darkorange] <i><size:14>**[[../gif/Gradient-descent.adoc Gradient Descent -]]** Iterative algorithm for minimizing the loss function. Updates weights based on the gradient of the loss.
 ***[#darkorange] <i><size:15>**Stochastic Gradient Descent (SGD) -** A "variation of gradient descent" that processes small "data batches". Uses "random samples" for faster <b>[[../Model-Convergence.puml "convergence".]]
 ***[#yellow] <i><size:14>**Adam Optimizer -** Popular adaptive "learning rate" optimizer. Adaptive optimization with "momentum".
 ***[#yellow] <i><size:14>**RMSprop -** Another adaptive "learning rate" **"algorithm"**. "Root Mean Square Propagation" for adjusting "learning rates".

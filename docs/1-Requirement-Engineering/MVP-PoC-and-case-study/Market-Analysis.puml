@@ -1,0 +1,42 @@
+@startmindmap
+title =<i><b><u>Market Analysis
+!theme hacker
+*[#darkblue] <i>Market Research
+**[#lightblue] <i><color #black><size:14>Market Size
+***[#green] <i><color #white><size:18>Assess the current and potential size of the market in terms of revenue, volume, or other relevant metrics.
+**[#lightblue] <i><color #black><size:14>Market Trends
+***[#green] <i><color #white><size:18>Identify and analyze the key trends and patterns in the market that can impact your business.
+**[#lightblue] <i><color #black><size:14>Competitor Analysis
+***[#green] <i><color #white><size:18>Evaluate your competitors, their strengths, weaknesses, and strategies in the market.
+
+*[#darkblue] <i>Target Audience
+**[#lightblue] <i><color #black><size:14>Demographics
+***[#green] <i><color #white><size:18>Understand the age, gender, location, and other demographic characteristics of your ideal customers.
+**[#lightblue] <i><color #black><size:14>Psychographics
+***[#green] <i><color #white><size:18>Dive into the lifestyle, interests, values, and behaviors of your target audience.
+**[#lightblue] <i><color #black><size:14>Buyer Persona
+***[#green] <i><color #white><size:18>Create detailed profiles of your ideal customers, including their pain points and preferences.
+
+*[#darkblue] <i>SWOT Analysis
+**[#lightblue] <i><color #black><size:14>Strengths
+***[#green] <i><color #white><size:18>List the internal strengths and advantages your business has in the market.
+**[#lightblue] <i><color #black><size:14>Weaknesses
+***[#green] <i><color #white><size:18>Identify the internal weaknesses or areas where improvement is needed.
+**[#lightblue] <i><color #black><size:14>Opportunities
+***[#green] <i><color #white><size:18>Explore external opportunities that your business can leverage in the market.
+**[#lightblue] <i><color #black><size:14>Threats
+***[#green] <i><color #white><size:18>Recognize external threats and challenges that could affect your business negatively.
+
+*[#darkblue] <i>Marketing Strategy
+**[#lightblue] <i><color #black><size:14>Product
+***[#green] <i><color #white><size:18>Describe your product or service and how it meets the needs of your target audience.
+**[#lightblue] <i><color #black><size:14>Price
+***[#green] <i><color #white><size:18>Outline your pricing strategy and how it compares to competitors.
+**[#lightblue] <i><color #black><size:14>Promotion
+***[#green] <i><color #white><size:18>Detail the marketing and advertising methods you'll use to reach your audience.
+**[#lightblue] <i><color #black><size:14>Place
+***[#green] <i><color #white><size:18>Explain how and where customers can access your product or service.
+
+*[#darkblue] <i>Conclusion
+**[#lightblue] <i><color #black><size:14>Summarize the key findings and insights from the market analysis.
+@endmindmap

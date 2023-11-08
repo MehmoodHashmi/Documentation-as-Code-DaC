@@ -1,0 +1,69 @@
+@startmindmap
+title =<i><b><u>Autoencoder
+
+!theme hacker
+
+*[#darkblue] <i>Autoencoder
+**[#lightblue] <color #blac><i><size:14>Definition
+***[#green] <color #white><i><size:18>An artificial neural network used for unsupervised learning and dimensionality reduction.
+***[#green] <color #white><i><size:18>Comprises an encoder and decoder to reconstruct the input data.
+**[#lightblue] <color #blac><i><size:14>Key Components
+***[#green] <b><color #white><i><size:14>Encoder
+****[#yellow] <color #black><i><size:14>Reduces the input data into a lower-dimensional representation <b>(encoding).
+****[#yellow] <color #black><i><size:14>May involve multiple hidden layers and non-linear activation functions.
+***[#green] <b><color #white><i><size:14>Decoder
+****[#yellow] <color #black><i><size:14>Reconstructs the data from the encoding, attempting to match the input.
+****[#yellow] <color #black><i><size:14>Typically has layers mirroring the encoder.
+***[#green] <b><color #white><i><size:14>Bottleneck
+****[#yellow] <color #black><i><size:14>The layer representing the lowest-dimensional encoding, often referred to as the bottleneck.
+**[#lightblue] <color #blac><i><size:14>Training
+***[#green] <b><color #white><i><size:14>Objective
+****[#yellow] <color #black><i><size:14>Minimizing the reconstruction error, ensuring the output closely matches the input.
+****[#yellow] <color #black><i><size:14>Common loss functions include mean squared error and binary cross-entropy.
+***[#green] <b><color #white><i><size:14>Backpropagation
+****[#yellow] <color #black><i><size:14>Training involves both forward and backward passes.
+****[#yellow] <color #black><i><size:14>Adjusting weights using gradient descent to improve reconstruction.
+**[#lightblue] <color #blac><i><size:14>Applications
+***[#green] <b><color #white><i><size:14>Dimensionality Reduction
+****[#yellow] <color #black><i><size:14>Reducing the number of features while preserving important information.
+***[#green] <b><color #white><i><size:14>Anomaly Detection
+****[#yellow] <color #black><i><size:14>Identifying outliers by measuring reconstruction error.
+***[#green] <b><color #white><i><size:14>Image Denoising
+****[#yellow] <color #black><i><size:14>Removing noise from images while preserving essential features.
+***[#green] <b><color #white><i><size:14>Recommendation Systems
+****[#yellow] <color #black><i><size:14>Learning user preferences and providing personalized recommendations.
+***[#green] <b><color #white><i><size:14>Data Compression
+****[#yellow] <color #black><i><size:14>Creating efficient representations of data.
+**[#lightblue] <color #blac><i><size:14>Variants
+***[#green] <b><color #white><i><size:14>Denoising Autoencoder
+****[#yellow] <color #black><i><size:14>Trained to remove noise from data during the reconstruction process.
+***[#green] <b><color #white><i><size:14>Sparse Autoencoder
+****[#yellow] <color #black><i><size:14>Encourages a sparse representation in the encoding layer.
+***[#green] <b><color #white><i><size:14>Variational Autoencoder (VAE)
+****[#yellow] <color #black><i><size:14>Combines autoencoders with probabilistic modeling, used for generative tasks.
+***[#green] <b><color #white><i><size:14>Contractive Autoencoder
+****[#yellow] <color #black><i><size:14>Adds a penalty for encoding changes to make it more stable.
+***[#green] <b><color #white><i><size:14>Stacked Autoencoder
+****[#yellow] <color #black><i><size:14>Multiple autoencoders are stacked together for more complex tasks.
+**[#lightblue] <color #blac><i><size:14>Challenges
+***[#green] <b><color #white><i><size:14>Overfitting
+****[#yellow] <color #black><i><size:14>Autoencoders can memorize the training data without capturing useful features.
+***[#green] <b><color #white><i><size:14>Architecture Design
+****[#yellow] <color #black><i><size:14>Determining the number of layers, units, and activation functions.
+***[#green] <b><color #white><i><size:14>Training Data
+****[#yellow] <color #black><i><size:14>Requiring a sufficient amount of data to learn meaningful representations.
+***[#green] <b><color #white><i><size:14>Hyperparameter Tuning
+****[#yellow] <color #black><i><size:14>Setting learning rates, batch sizes, and regularization parameters.
+**[#lightblue] <color #blac><i><size:14>Benefits
+***[#green] <b><color #white><i><size:14>Data Compression
+****[#yellow] <color #black><i><size:14>Creating efficient representations, reducing storage requirements.
+***[#green] <b><color #white><i><size:14>Feature Learning
+****[#yellow] <color #black><i><size:14>Automatically learning relevant features from the data.
+***[#green] <b><color #white><i><size:14>Anomaly Detection
+****[#yellow] <color #black><i><size:14>Identifying unexpected patterns and outliers.
+***[#green] <b><color #white><i><size:14>Unsupervised Learning
+****[#yellow] <color #black><i><size:14>Extracting patterns without labeled data.
+***[#green] <b><color #white><i><size:14>Pretraining
+****[#yellow] <color #black><i><size:14>Used as a pretraining step in deep neural networks.
+
+@endmindmap

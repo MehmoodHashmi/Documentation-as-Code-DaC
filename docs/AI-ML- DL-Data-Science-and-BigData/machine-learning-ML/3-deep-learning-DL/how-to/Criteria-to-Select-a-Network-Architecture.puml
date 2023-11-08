@@ -1,16 +1,29 @@
 @startmindmap
-title =Criteria to Select a Neural Network
-* =Activation Functions (or neurons) both words can be used interchangeably
-!theme hacker
+title = <i><b><u>Criteria to Select a Neural Network
 
+*:*<i>It's also worth noting that __new techniques and methodologies are being developed all the time,__ and what is considered best practice can change over time. So, it's important to keep up to date with the latest developments in the field.
+* <i>**It's also worth noting that depending on the specific needs and goals of the organization and the stakeholders involved, different techniques may be more or less appropriate.**
+   <i>It's important to evaluate the suitability of each technique for a particular situation before using it.;
+
+ !theme hacker
 
 *[#darkblue] <i>Purpose and Problem
+**[#lightblue] <i><size:22>[[../../../../1-Requirement-Engineering/MVP-PoC-and-case-study/Proof-of-Concept.puml Understand the Problem Space]]
+***[#yellow]  <i><size:14> Identify the Business Need
+***[#yellow]  <i><size:14> Analyze the Requirements
 **[#white] <i>Nature of the Problem
 ***[#yellow] <i><size:14>Classification
 ***[#yellow] <i><size:14>Regression
 ***[#yellow] <i><size:14>Image Processing
 ***[#yellow] <i><size:14>Natural Language Processing
 ***[#yellow] <i><size:14>Sequence Data
+***[#yellow] <i><size:14>Object Detection
+***[#yellow] <i><size:14>Speech Recognition
+***[#yellow] <i><size:14>Sequence Prediction
+***[#yellow] <i><size:14>Time Series Analysis
+
+
+
 **[#a] <i>Problem Complexity
 ***[#yellow] <i><size:14>Simple vs. Complex
 ***[#yellow] <i><size:14>Linearity vs. Non-Linearity
@@ -20,7 +33,9 @@ title =Criteria to Select a Neural Network
 *[#darkblue] <i>Data Characteristics
 **[#pink] <i>Data Type
 ***[#yellow] <i><size:14>Structured **(Tabular)**
+****[#yellow] <i><size:14>is only **(15%-20%)** on internet
 ***[#yellow] <i><size:14>Unstructured **(Text, Images, audio, video)**
+****[#yellow] <i><size:14>is almost **(80%-85%)** on internet
 ***[#yellow] <i><size:14>Time Series
 **[#gold] <i>Data Size
 ***[#yellow] <i><size:14>Small
@@ -43,7 +58,7 @@ title =Criteria to Select a Neural Network
 
 *[#darkblue] <i>Network Architecture
 **[#pink] <i>Depth
-***[#yellow] <i><size:14>Shallow vs. Deep
+***[#yellow] <i><size:14>Shallow vs. Deep Network
 ***[#yellow] <i><size:14>Number of Hidden Layers
 **[#orange] <i>Width
 ***[#yellow] <i><size:14>Number of Neurons in Each Layer
@@ -52,20 +67,55 @@ title =Criteria to Select a Neural Network
 ***[#yellow] <i><size:14>Fully Connected vs. Sparse Connections
 ***[#yellow] <i><size:14>Convolutional Filters
 ***[#yellow] <i><size:14>Recurrent Connections
+***[#yellow] <i><size:14>Skip Connections
+**[#lightgreen] <i><size:14>Pre-trained Models
+***[#yellow] <i><size:14>Transfer Learning
+***[#yellow] <i><size:14>Fine-Tuning
 
-*[#darkblue] <i>Training Considerations
+*[#darkblue] <i>Specific Requirements
+**[#lightblue] <i><size:14>Image Processing
+***[#yellow] <i><size:14>Convolutional Layers
+***[#yellow] <i><size:14>Pooling Layers
+**[#lightblue] <i><size:14>Sequence Data
+***[#yellow] <i><size:14>Recurrent Layers
+***[#yellow] <i><size:14>Time-Distributed Layers
+**[#lightblue] <i><size:14>Natural Language Processing
+***[#yellow] <i><size:14>Embeddings **(Word Vectors)**
+***[#yellow] <i><size:14>Sequence Models
+**[#lightblue] <i><size:14>Audio Data
+***[#yellow] <i><size:14>Convolutional Neural Networks
+***[#yellow] <i><size:14>Spectrogram Data
+**[#lightblue] <i><size:14>Object Detection
+***[#yellow] <i><size:14>Region Proposal Networks **(RPN)**
+***[#yellow] <i><size:14>Faster R-CNN, YOLO
+**[#lightblue] <i><size:14>Speech Recognition
+***[#yellow] <i><size:14>Recurrent Layers
+***[#yellow] <i><size:14>CTC Loss
+**[#lightblue] <i><size:14>Generative Tasks
+***[#yellow] <i><size:14>GANs
+***[#yellow] <i><size:14>Variational Autoencoders **(VAEs)**
+
+*[#darkblue] <i>Training Considerations \n<u><i>(Consider the Context)
 **[#pink] <i>Data Availability
-***[#yellow] <i><size:14>Labeled vs. Unlabeled Data
+***[#yellow] <i><size:14>Labeled (supervised) **vs.** Unlabeled Data (unsupervised), <b>Semi-Supervised-Learning
 ***[#yellow] <i><size:14>Amount of Data
 ***[#yellow] <i><size:14>Data Augmentation
 **[#gold] <i>Computational Resources
 ***[#white] <i><size:14>**CPU vs. GPU vs. TPU**
 ***[#white] <i><size:14>**Parallelization**
 ***[#white] <i><size:14>**Memory Requirements**
+***[#yellow] <i><size:14>**--Distributed Training--**
+***[#yellow] <i><size:14>**--Cloud Services--**
 **[#orange] <i>Training Time
 ***[#yellow] <i><size:14>Real-Time vs. Offline
 ***[#yellow] <i><size:14>Quick Prototyping
 ***[#yellow] <i><size:14>Fine-Tuning vs. Training from Scratch
+***[#yellow] <i><size:14>--Batch Processing--
+***[#yellow] <i><size:14>--Model Deployment--
+**[#lightgreen] <i>--Organizational Constraints--
+***[#yellow] <i><size:14> --Skillset of Team--
+***[#yellow] <i><size:14> --Existing Infrastructure--
+***[#yellow] <i><size:14> --Budget Constraints--
 
 *[#darkblue] <i>Interpretability and Explainability
 **[#lightblue] <i><size:22>[[Model-Explainability.puml Model Explainability]]
@@ -78,11 +128,18 @@ title =Criteria to Select a Neural Network
 ***[#yellow] <i><size:14>Decision Boundaries
 ***[#yellow] <i><size:14>Attention Mechanisms
 
-* Performance Metrics
-**[#lightblue] <i>Accuracy
-**[#lightblue] <i>Precision, Recall, F1-Score
-**[#lightblue] <i>Mean Squared Error **(MSE)**
-**[#lightblue] <i>ROC-AUC
+*[#darkblue] <i>Performance Metrics
+**[#lightblue] <i>Classification
+***[#gold] <i><size:14>Accuracy
+***[#gold] <i><size:14>Precision, Recall, F1-Score
+***[#gold] <i><size:14>ROC-AUC
+**[#lightblue] <i>Regression
+***[#gold] <i><size:14>Mean Squared Error **(MSE)**
+***[#gold] <i><size:14>R-squared
+**[#lightblue] <i>Task-Specific Metrics
+***[#gold] <i><size:14>BLEU Score **(NLP)**
+***[#gold] <i><size:14>Intersection over Union **(IoU, Object Detection)**
+***[#gold] <i><size:14>Word Error Rate **(WER, Speech Recognition)**
 **[#lightblue] <i>Custom Metrics
 **[#lightblue] <i>Specific Domain Metrics
 
@@ -101,6 +158,7 @@ title =Criteria to Select a Neural Network
 **[#lightblue] <i>scikit-learn
 **[#lightblue] <i>Theano
 **[#lightblue] <i>Caffe
+**[#lightblue] <i>MXNet
 
 * Community and Support
 **[#lightblue] <i>Active Development
@@ -119,7 +177,7 @@ title =Criteria to Select a Neural Network
 **[#lightblue] <i>Adaptability to Growing Data
 **[#lightblue] <i>Integration with Other Technologies
 **[#lightblue] <i>Compatibility with Future Hardware
-**[#lightblue] <i>Maintainability
+**[#lightblue] <i>Model Updates & Maintainability
 
 * Cost and Resources
 **[#lightblue] <i>Software Costs
@@ -127,4 +185,38 @@ title =Criteria to Select a Neural Network
 **[#lightblue] <i>Development and Maintenance Effort
 **[#lightblue] <i>Availability of Expertise
 
+* <i><size:26>Above analysis is for only the "neural networks" but most the analysis can be generalized in other projects
+*[#darkblue] <i>--Evaluate Techniques/Frameworks--
+** Machine Learning
+***[#gold] <i><size:14> <color #green>**Supervised Learning**</color> (works on **labeled data**)
+****[#yellow] <i><size:14>Regression
+****[#yellow] <i><size:14> Classification
+***[#gold] <i><size:14><color #green>**Unsupervised Learning**</color> (works on **un-labeled data**)
+****[#yellow] <i><size:14>Clustering
+****[#yellow] <i><size:14>Dimensionality Reduction
+****[#yellow] <i><size:14>Anomaly detection
+***[#gold] <i><size:14>Reinforcement Learning
+****[#yellow] <i><size:14>agent, reward & punishment, state, environment and action
+***[#gold] <i><size:14> Deep Learning
+****[#yellow] <i><size:14>Convolutional Neural Networks (CNN)
+****[#yellow] <i><size:14>Recurrent Neural Networks (RNN)
+** Statistical Models
+***[#yellow] <i><size:14>Linear Regression
+***[#yellow] <i><size:14>Logistic Regression
+***[#yellow] <i><size:14>Time Series Analysis
+***[#yellow] <i><size:14>Bayesian Inference
+** Optimization Methods
+***[#yellow] <i><size:14>Gradient Descent
+***[#yellow] <i><size:14>Evolutionary Algorithms
+***[#yellow] <i><size:14>Simulated Annealing
+***[#yellow] <i><size:14>Genetic Algorithms
+** Rule-Based Systems
+***[#yellow] <i><size:14>Decision Trees
+***[#yellow] <i><size:14>Random Forest
+***[#yellow] <i><size:14>Association Rules
+***[#yellow] <i><size:14>Fuzzy Logic
+** Other Techniques/Frameworks
+***[#yellow] <i><size:14>Natural Language Processing
+***[#yellow] <i><size:14>Computer Vision
+***[#yellow] <i><size:14>Graph Theory
 @endmindmap

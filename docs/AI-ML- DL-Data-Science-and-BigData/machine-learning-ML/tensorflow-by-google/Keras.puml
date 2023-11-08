@@ -24,7 +24,7 @@ title =<i><b><u>Keras
 ****[#yellow] <color #black><i><size:14>Convolutional neural network layers for image processing.
 ***[#green] <b><color #white><i><size:14>Recurrent
 ****[#yellow] <color #black><i><size:14>Recurrent neural network layers for sequences.
-***[#green] <b><color #white><i><size:14>Pooling
+***[#green] <b><color #white><i><size:14>[[../3-deep-learning-DL/Pooling.puml Pooling]]
 ****[#yellow] <color #black><i><size:14>Max and average pooling for down-sampling.
 ***[#green] <b><color #white><i><size:14>Dropout
 ****[#yellow] <color #black><i><size:14>Regularization layer for reducing overfitting.

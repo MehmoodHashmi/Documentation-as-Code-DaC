@@ -1,0 +1,82 @@
+@startmindmap
+title =<i><b><u>Filters/Kernels
+
+!theme hacker
+
+
+
+
+
+*[#darkblue] <i>Filters/Kernels
+**[#lightblue] <color #black><i><size:14> Definition
+***[#green] <color #white><i><size:14>Small matrices or functions used in convolution operations to extract specific features from an input signal.
+
+**[#lightblue] <color #black><i><size:14> Characteristics
+***[#green] <color #white><b><i><size:14>Size
+****[#yellow] <color #black><i><size:14>Determines the dimensions of the filter <b>(e.g., 3x3, 5x5).
+***[#green] <color #white><b><i><size:14>Weights
+****[#yellow] <color #black><i><size:14>Assigns weights to filter elements for feature extraction.
+***[#green] <color #white><b><i><size:14>Stride
+****[#yellow] <color #black><i><size:14>Defines the step size for sliding the filter over the input.
+***[#green] <color #white><b><i><size:14>Learnable
+****[#yellow] <color #black><i><size:14>In deep learning, filters' weights are learned during training.
+***[#green] <color #white><b><i><size:14>Purpose
+****[#yellow] <color #black><i><size:14>Filters capture different patterns, such as edges, textures, or shapes.
+
+**[#lightblue] <color #black><i><size:14> Types of Filters
+***[#green] <color #white><b><i><size:14>Edge Detection
+****[#yellow] <color #black><i><size:14>Detects edges in images by highlighting sudden intensity changes.
+***[#green] <color #white><b><i><size:14>Blur Filters
+****[#yellow] <color #black><i><size:14>Smoothes images by averaging pixel values.
+***[#green] <color #white><b><i><size:14>Sharpening Filters
+****[#yellow] <color #black><i><size:14>Enhances image details by emphasizing edges.
+***[#green] <color #white><b><i><size:14>Emboss Filters
+****[#yellow] <color #black><i><size:14>Creates a 3D effect by emphasizing directional changes in pixel values.
+***[#green] <color #white><b><i><size:14>Sobel Filters
+****[#yellow] <color #black><i><size:14>Detects edges based on gradient changes.
+***[#green] <color #white><b><i><size:14>Custom Filters
+****[#yellow] <color #black><i><size:14>Design filters for specific feature extraction tasks.
+
+**[#lightblue] <color #black><i><size:14> 3D Convolution
+***[#green] <color #white><i><size:14>Used in video processing and 3D data to extract spatiotemporal features.
+***[#green] <color #white><i><size:14>Applies filters in three dimensions <b>(width, height, and time).
+
+**[#lightblue] <color #black><i><size:14> Learnable Parameters
+***[#green] <color #white><i><size:14>During training, the weights of filters are adjusted to optimize feature extraction.
+***[#green] <color #white><i><size:14>Learning from data allows filters to become specialized.
+
+**[#lightblue] <color #black><i><size:14> Convolutional Neural Networks <b>(CNNs)
+***[#green] <color #white><i><size:14>Utilize filters to learn hierarchical features in images.
+***[#green] <color #white><i><size:14>Combine multiple filters in convolutional layers for feature extraction.
+***[#green] <color #white><i><size:14>Filters are an essential part of CNN architecture.
+
+**[#lightblue] <color #black><i><size:14> Image Processing
+***[#green] <color #white><i><size:14>Filters are widely used for enhancing or transforming images.
+***[#green] <color #white><i><size:14>Common in tasks like denoising, deblurring, and more.
+
+**[#lightblue] <color #black><i><size:14> Challenges
+***[#green] <color #white><b><i><size:22>[[Filter-Design.puml Filter Design]]
+****[#yellow] <color #black><i><size:14>Choosing the right filter type and size for specific tasks.
+***[#green] <color #white><b><i><size:14>Overfitting
+****[#yellow] <color #black><i><size:14>Ensuring filters generalize well to diverse data.
+
+**[#lightblue] <color #black><i><size:14> Applications
+***[#green] <color #white><b><i><size:14>Computer Vision
+****[#yellow] <color #black><i><size:14>Feature extraction in image and video analysis.
+***[#green] <color #white><b><i><size:14>Natural Language Processing
+****[#yellow] <color #black><i><size:14>Text and sequence data analysis using 1D filters.
+***[#green] <color #white><b><i><size:14>Signal Processing
+****[#yellow] <color #black><i><size:14>Analyzing audio and sensor data for patterns and features.
+
+**[#lightblue] <color #black><i><size:14> Custom Filter Design
+***[#green] <color #white><i><size:14>Researchers and practitioners create filters tailored to their applications.
+***[#green] <color #white><i><size:14>Custom filters are crucial for specialized tasks.
+
+**[#lightblue] <color #black><i><size:14> Depthwise Separable Convolution
+***[#green] <color #white><i><size:14>A CNN optimization technique that uses depthwise and pointwise convolutions to reduce model complexity.
+
+**[#lightblue] <color #black><i><size:14> Transfer Learning
+***[#green] <color #white><i><size:14>Pre-trained filters from established models can be used in new applications.
+***[#green] <color #white><i><size:14>Reduces training time and data requirements.
+
+@endmindmap

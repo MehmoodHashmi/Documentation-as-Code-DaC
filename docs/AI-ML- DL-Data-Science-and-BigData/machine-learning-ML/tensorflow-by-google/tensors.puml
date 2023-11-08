@@ -18,6 +18,7 @@ title =<i><b><u>Tensors  (data-structure)\n<img:images/img_3.png> <img:images/im
 **[#lightblue] <i><size:14>Operations
 ***[#green] <color #white><b><i><size:14>Creation
 ****[#yellow] <color #black><i><size:14>tf.constant()
+*****[#yellow] <color #black><i><size:22>e.g. constant_tensor = tf.constant**(**[1, 2, 3]**)**
 ****[#yellow] <color #black><i><size:14>tf.Variable()
 ****[#yellow] <color #black><i><size:14>tf.zeros(), tf.ones()
 ***[#green] <color #white><b><i><size:14>Math Operations

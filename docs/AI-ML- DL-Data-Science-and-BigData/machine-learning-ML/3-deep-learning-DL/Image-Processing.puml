@@ -1,0 +1,107 @@
+@startmindmap
+title =<i><b><u>Image Processing
+* =<i>[[Pooling.puml Pooling]] click me
+
+!theme hacker
+
+
+*[#darkblue] <i>Image Processing
+**[#lightblue] <color #black><i><size:14>Definition
+***[#green] <color #white><i><size:18>Image processing is the manipulation and analysis of images to enhance, transform, or extract information from them.
+***[#green] <color #white><i><size:18>It finds applications in various fields, including computer vision, medical imaging, and digital photography.
+
+**[#lightblue] <color #black><i><size:14>Image Types
+***[#green] <b><color #white><i><size:14>Digital Images
+****[#yellow] <color #black><i><size:14>Captured or created using digital devices, such as cameras or scanners.
+****[#yellow] <color #black><i><size:14>Comprise pixels with discrete values.
+***[#green] <b><color #white><i><size:14>Analog Images
+****[#yellow] <color #black><i><size:14>Original, continuous-tone photographs or prints.
+****[#yellow] <color #black><i><size:14>Need to be converted into digital form for processing.
+
+**[#lightblue] <color #black><i><size:14>Image Enhancement
+***[#green] <b><color #white><i><size:14>Histogram Equalization
+****[#yellow] <color #black><i><size:14>A technique to adjust image intensity to improve contrast.
+***[#green] <b><color #white><i><size:14>Noise Reduction
+****[#yellow] <color #black><i><size:14>Filtering methods to reduce unwanted variations in pixel values.
+***[#green] <b><color #white><i><size:14>Sharpening
+****[#yellow] <color #black><i><size:14>Techniques to highlight edges and fine details in the image.
+***[#green] <b><color #white><i><size:14>Color Correction
+****[#yellow] <color #black><i><size:14>Adjusting color balance and saturation.
+***[#green] <b><color #white><i><size:14>Image Denoising
+****[#yellow] <color #black><i><size:14>Reducing noise while preserving essential image features.
+
+**[#lightblue] <color #black><i><size:14>Image Transformation
+***[#green] <b><color #white><i><size:14>Scaling
+****[#yellow] <color #black><i><size:14>Resizing an image while maintaining its aspect ratio.
+***[#green] <b><color #white><i><size:14>Rotation
+****[#yellow] <color #black><i><size:14>Changing the orientation of an image.
+***[#green] <b><color #white><i><size:14>Cropping
+****[#yellow] <color #black><i><size:14>Selecting a region of interest from the image.
+***[#green] <b><color #white><i><size:14>Geometric Distortion
+****[#yellow] <color #black><i><size:14>Warping or transforming an image based on mathematical functions.
+
+**[#lightblue] <color #black><i><size:14>Feature Extraction
+***[#green] <b><color #white><i><size:14>Edge Detection
+****[#yellow] <color #black><i><size:14>Identifying boundaries and sharp transitions in the image.
+***[#green] <b><color #white><i><size:14>Corner Detection
+****[#yellow] <color #black><i><size:14>Locating specific points of interest.
+***[#green] <b><color #white><i><size:14>Blob Detection
+****[#yellow] <color #black><i><size:14>Identifying regions of interest based on specific characteristics.
+***[#green] <b><color #white><i><size:14>Template Matching
+****[#yellow] <color #black><i><size:14>Matching a template image with the larger image.
+
+**[#lightblue] <color #black><i><size:14>Filtering and Convolution
+***[#green] <b><color #white><i><size:14>Convolution
+****[#yellow] <color #black><i><size:14>A mathematical operation used to process images by applying a filter (kernel).
+****[#yellow] <color #black><i><size:14>Useful for operations like blurring, sharpening, and edge detection.
+***[#green] <b><color #white><i><size:14>Types of Filters
+****[#yellow] <color #black><i><size:14>Gaussian Filter, Sobel Filter, Laplacian Filter, etc.
+
+**[#lightblue] <color #black><i><size:14>Image Segmentation
+***[#green] <b><color #white><i><size:14>Dividing an image into meaningful regions or segments.
+***[#green] <b><color #white><i><size:14>Used in object recognition, medical image analysis, and more.
+***[#green] <b><color #white><i><size:14>Techniques include thresholding, clustering, and contour detection.
+
+**[#lightblue] <color #black><i><size:14>Color Spaces
+***[#green] <b><color #white><i><size:14>RGB Color Space
+****[#yellow] <color #black><i><size:14>Represents colors using red, green, and blue channels.
+***[#green] <b><color #white><i><size:14>Grayscale
+****[#yellow] <color #black><i><size:14>A single-channel color space representing intensity.
+***[#green] <b><color #white><i><size:14>HSV and HSL
+****[#yellow] <color #black><i><size:14>Color spaces separating hue, saturation, and value or lightness.
+
+**[#lightblue] <color #black><i><size:14>Applications
+***[#green] <b><color #white><i><size:14>Computer Vision
+****[#yellow] <color #black><i><size:14>Object recognition, scene understanding, and more.
+***[#green] <b><color #white><i><size:14>Medical Imaging
+****[#yellow] <color #black><i><size:14>Diagnosis, image-guided surgery, and treatment planning.
+***[#green] <b><color #white><i><size:14>Digital Photography
+****[#yellow] <color #black><i><size:14>Color correction, retouching, and special effects.
+***[#green] <b><color #white><i><size:14>Satellite Imaging
+****[#yellow] <color #black><i><size:14>Earth observation, environmental monitoring, and navigation.
+***[#green] <b><color #white><i><size:14>Autonomous Vehicles
+****[#yellow] <color #black><i><size:14>Image analysis for self-driving cars.
+
+**[#lightblue] <color #black><i><size:14>Challenges
+***[#green] <b><color #white><i><size:14>Noise
+****[#yellow] <color #black><i><size:14>Unwanted variations in pixel values.
+***[#green] <b><color #white><i><size:14>Illumination Variations
+****[#yellow] <color #black><i><size:14>Changes in lighting conditions.
+***[#green] <b><color #white><i><size:14>Real-Time Processing
+****[#yellow] <color #black><i><size:14>Efficient processing for real-time applications.
+***[#green] <b><color #white><i><size:14>Object Occlusion
+****[#yellow] <color #black><i><size:14>Dealing with objects partially hidden in images.
+
+**[#lightblue] <color #black><i><size:14>Future Trends
+***[#green] <b><color #white><i><size:14>Deep Learning
+****[#yellow] <color #black><i><size:14>Neural networks for image recognition and analysis.
+***[#green] <b><color #white><i><size:14>3D and Multispectral Imaging
+****[#yellow] <color #black><i><size:14>Expanding image dimensions beyond 2D.
+***[#green] <b><color #white><i><size:14>Computational Photography
+****[#yellow] <color #black><i><size:14>Innovative techniques in digital photography.
+***[#green] <b><color #white><i><size:14>Augmented Reality (AR)
+****[#yellow] <color #black><i><size:14>Overlaying digital content on the real world.
+***[#green] <b><color #white><i><size:14>Image-Based AI Assistants
+****[#yellow] <color #black><i><size:14>AI-driven image recognition for everyday tasks.
+
+@endmindmap

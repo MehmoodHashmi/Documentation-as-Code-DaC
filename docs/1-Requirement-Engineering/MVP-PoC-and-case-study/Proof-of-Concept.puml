@@ -1,5 +1,5 @@
 @startmindmap
-title =__Proof of Concept (PoC)__
+title =<b><u><i>Proof of Concept (PoC)
 
 !theme hacker
 
@@ -32,18 +32,18 @@ title =__Proof of Concept (PoC)__
 ****[#yellow] <i><size:14><color #black>Project Duration
 ****[#yellow] <i><size:14><color #black>Milestones
 
-**[#lightblue] <i><size:14><color #black><b>Research
-***[#green] <i><size:14><color #white><b>Market Analysis
+**[#lightblue] <i><size:32><color #black><b>Research
+***[#green] <i><size:14><color #white><b>[[Market-Analysis.puml Market Analysis]]
 ****[#yellow] <i><size:14><color #black>Understanding the Landscape
 ****[#yellow] <i><size:14><color #black>Competitor Research
-***[#green] <i><size:14><color #white><b>Technology Assessment
+***[#green] <i><size:14><color #white><b>[[Technology-Assessment.puml Technology Assessment]]
 ****[#yellow] <i><size:14><color #black>Evaluating Tools and Technologies
 ****[#yellow] <i><size:14><color #black>Compatibility
-***[#green] <i><size:14><color #white><b>User Requirements
+***[#green] <i><size:14><color #white><b>[[User-Requirements.puml User Requirements]]
 ****[#yellow] <i><size:14><color #black>End-User Needs
 ****[#yellow] <i><size:14><color #black>User Feedback
 
-**[#lightblue] <i><size:14><color #black><b>Prototyping
+**[#lightblue] <i><size:22><color #black><b>[[Prototyping.puml Prototyping]]
 ***[#green] <i><size:14><color #white><b>Design
 ****[#yellow] <i><size:14><color #black>Create a Prototype
 ****[#yellow] <i><size:14><color #black>Wireframes or Mockups

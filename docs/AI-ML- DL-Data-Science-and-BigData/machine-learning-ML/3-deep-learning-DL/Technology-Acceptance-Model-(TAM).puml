@@ -1,0 +1,107 @@
+@startmindmap
+title =<i><b><u>Technology Acceptance Model (TAM)
+!theme hacker
+
+*[#darkblue] <i>Technology Acceptance Model (TAM)
+**[#lightblue] <color #black><i><size:14>Definition
+***[#green] <b><color #white><i><size:14>A theoretical framework that explains how users come to accept and use new technology.
+**[#lightblue] <color #black><i><size:14>Key Components
+***[#green] <b><color #white><i><size:14>Perceived Usefulness
+****[#yellow] <color #black><i><size:14>The degree to which users believe that a particular technology will enhance their performance.
+***[#green] <b><color #white><i><size:14>Perceived Ease of Use
+****[#yellow] <color #black><i><size:14>The extent to which users think that using the technology will be free of effort.
+**[#lightblue] <color #black><i><size:14>Behavioral Intention
+***[#green] <color #white><i><size:14>Users' intentions to use or adopt the technology based on perceived usefulness and ease of use.
+**[#lightblue] <color #black><i><size:14>Actual System Use
+***[#green] <color #white><i><size:14>The real-world usage of the technology by individuals or organizations.
+**[#lightblue] <color #black><i><size:14>External Variables
+***[#green] <color #white><i><size:14>Factors that can influence perceived usefulness and ease of use, such as social influence or facilitating conditions.
+**[#lightblue] <color #black><i><size:14>Research and Application
+***[#green] <color #white><i><size:14>Developed by Fred Davis in 1989, TAM has been widely used in information systems research.
+**[#lightblue] <color #black><i><size:22>Extended Models
+***[#green] <color #white><i><size:20>**TAM2 and TAM3** introduced additional variables and concepts for better understanding user acceptance.
+**[#lightblue] <color #black><i><size:14>Applications
+***[#green] <b><color #white><i><size:14>Evaluating User Acceptance
+****[#yellow] <color #black><i><size:14>Assessing how likely users are to accept and adopt new technologies.
+***[#green] <b><color #white><i><size:14>Designing User-Friendly Systems
+****[#yellow] <color #black><i><size:14>Designing technology systems that are both useful and easy to use.
+***[#green] <b><color #white><i><size:14>Predicting Technology Adoption
+****[#yellow] <color #black><i><size:14>Predicting how a new technology will be adopted by users.
+**[#lightblue] <color #black><i><size:14>Criticisms
+***[#green] <b><color #white><i><size:14>Oversimplification
+****[#yellow] <color #black><i><size:14>Critics argue that TAM may oversimplify the complexity of technology adoption.
+***[#green] <b><color #white><i><size:14>Ignores External Factors
+****[#yellow] <color #black><i><size:14>TAM focuses on internal beliefs but may overlook external factors that influence adoption.
+***[#green] <b><color #white><i><size:14>Variability in User Behavior
+****[#yellow] <color #black><i><size:14>Users' behavior can be unpredictable and may not always align with TAM predictions.
+**[#lightblue] <color #black><i><size:14>Benefits
+***[#green] <b><color #white><i><size:14>Understanding User Behavior
+****[#yellow] <color #black><i><size:14>Helps researchers and designers predict and explain user technology adoption behavior.
+***[#green] <b><color #white><i><size:14>User-Centered Design
+****[#yellow] <color #black><i><size:14>Encourages the development of user-friendly technologies that align with user needs.
+***[#green] <b><color #white><i><size:14>Business and Innovation
+****[#yellow] <color #black><i><size:14>Assists businesses in planning technology adoption strategies and innovation.
+***[#green] <b><color #white><i><size:14>Policy Development
+****[#yellow] <color #black><i><size:14>Informs technology-related policy decisions by considering user acceptance.
+***[#green] <b><color #white><i><size:14>User Training
+****[#yellow] <color #black><i><size:14>Helps in designing effective user training programs for new technologies.
+
+
+
+*[#darkblue] <i>Technology Acceptance Model 3 (TAM3)
+**[#lightblue] <color #black><i><size:14>Definition
+***[#green] <b><color #white><i><size:14>An extended version of the Technology Acceptance Model (TAM) that incorporates additional factors for understanding technology acceptance.
+
+**[#lightblue] <color #black><i><size:14>Core Components
+***[#green] <b><color #white><i><size:14>Perceived Usefulness (PU)
+****[#yellow] <color #black><i><size:14>The degree to which users believe that a particular technology will enhance their performance.
+***[#green] <b><color #white><i><size:14>Perceived Ease of Use (PEOU)
+****[#yellow] <color #black><i><size:14>The extent to which users think that using the technology will be free of effort.
+***[#green] <b><color #white><i><size:14>External Variables (EV)
+****[#yellow] <color #black><i><size:14>Factors outside of PU and PEOU that influence user acceptance.
+****[#yellow] <color #black><i><size:14>Includes social influence, facilitating conditions, and cognitive instrumental processes.
+
+**[#lightblue] <color #black><i><size:14>Behavioral Intention (BI)
+***[#green] <color #white><i><size:14>Users' intentions to use or adopt the technology based on perceived usefulness, perceived ease of use, and external variables.
+
+**[#lightblue] <color #black><i><size:14>Actual System Use (ASU)
+***[#green] <color #white><i><size:14>The real-world usage of the technology by individuals or organizations.
+
+**[#lightblue] <color #black><i><size:14>External Variables (EV)
+***[#green] <b><color #white><i><size:14>Factors that can influence user acceptance and behavior.
+****[#yellow] <color #black><i><size:14>Social Influence
+****[#yellow] <color #black><i><size:14>Facilitating Conditions
+****[#yellow] <color #black><i><size:14>Cognitive Instrumental Processes
+
+**[#lightblue] <color #black><i><size:14>Social Influence
+***[#green] <color #white><i><size:14>Peer pressure, societal norms, and opinions from others that impact technology acceptance.
+
+**[#lightblue] <color #black><i><size:14>Facilitating Conditions
+***[#green] <color #white><i><size:14>The extent to which individuals perceive the availability of necessary resources and support for using the technology.
+
+**[#lightblue] <color #black><i><size:14>Cognitive Instrumental Processes
+***[#green] <color #white><i><size:14>Cognitive processes such as perceived voluntariness, perceived playfulness, and habit that affect technology acceptance.
+
+**[#lightblue] <color #black><i><size:14>Applications
+***[#green] <b><color #white><i><size:14>Research and Academics
+****[#yellow] <color #black><i><size:14>Used in information systems and behavioral research to study technology adoption behavior.
+***[#green] <b><color #white><i><size:14>User-Centered Design
+****[#yellow] <color #black><i><size:14>Informs the design of user-friendly systems that account for social and environmental factors.
+***[#green] <b><color #white><i><size:14>Predicting Technology Adoption
+****[#yellow] <color #black><i><size:14>Predicts user intentions and behaviors regarding the adoption of new technologies.
+
+**[#lightblue] <color #black><i><size:14>Advantages
+***[#green] <b><color #white><i><size:14>Enhanced Predictive Power
+****[#yellow] <color #black><i><size:14>TAM3's inclusion of external variables provides a more comprehensive view of technology adoption behavior.
+***[#green] <b><color #white><i><size:14>Real-World Relevance
+****[#yellow] <color #black><i><size:14>Reflects the complexities of user behavior in real-world technology adoption scenarios.
+
+**[#lightblue] <color #black><i><size:14>Criticisms
+***[#green] <b><color #white><i><size:14>Complexity
+****[#yellow] <color #black><i><size:14>Some argue that TAM3's complexity can make it challenging to apply and interpret.
+***[#green] <b><color #white><i><size:14>Lack of Universality
+****[#yellow] <color #black><i><size:14>The model may not apply uniformly to all contexts and technologies.
+***[#green] <b><color #white><i><size:14>Measurement Challenges
+****[#yellow] <color #black><i><size:14>Measuring some of the external variables can be difficult.
+
+@endmindmap

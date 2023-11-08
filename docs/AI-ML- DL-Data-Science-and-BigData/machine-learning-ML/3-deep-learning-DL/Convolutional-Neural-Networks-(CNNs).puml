@@ -1,0 +1,68 @@
+@startmindmap
+title =<i><b><u>Convolutional Neural Networks (CNNs)
+* =<i>[[Pooling.puml Pooling]] click me
+
+!theme hacker
+
+*[#darkblue] <i>Convolutional Neural Networks (CNNs)
+**[#lightblue] <i><size:14>Purpose
+***[#green] <color #white><i><size:18>Designed for processing "grid-like data", such as "images and videos", using convolutional layers for "feature extraction".
+**[#lightblue] <i><size:14>Key Components
+***[#green] <b><color #white><i><size:14>Convolutional Layers
+****[#yellow] <color #black><i><size:14>Apply convolution operations to detect features like edges, textures, and patterns.
+***[#green] <b><color #white><i><size:14>Pooling Layers
+****[#yellow] <color #black><i><size:14>Downsample feature maps to reduce spatial dimensions while retaining essential information.
+***[#green] <b><color #white><i><size:14>Fully Connected Layers
+****[#yellow] <color #black><i><size:14>Perform classification or regression tasks on the extracted features.
+**[#lightblue] <i><size:14>Core Concepts
+***[#green] <b><color #white><i><size:18>[[Convolution.puml Convolution]]
+****[#yellow] <color #black><i><size:14>Element-wise multiplication and sum of kernel and input, used for feature extraction.
+****[#darkorange] <b><color #black><i><size:16>[[Filters-or-Kernels.puml Filters/Kernels]]
+*****[#yellow] <color #black><i><size:14>Small matrices used for convolution to detect specific patterns.
+****[#yellow] <color #black><i><size:14>Stride
+*****[#yellow] <color #black><i><size:14>Step size for sliding the kernel over the input image.
+****[#yellow] <color #black><i><size:14>Padding
+*****[#yellow] <color #black><i><size:14>Adding extra border pixels to maintain spatial dimensions during convolution.
+****[#yellow] <color #black><i><size:14>Activation Functions
+*****[#yellow] <color #black><i><size:14>Apply non-linear transformations to introduce non-linearity.
+**[#lightblue] <i><size:14>Architectures
+***[#green] <b><color #white><i><size:14>LeNet-5
+****[#yellow] <color #black><i><size:14>One of the earliest CNN architectures designed for handwritten digit recognition.
+***[#green] <b><color #white><i><size:14>AlexNet
+****[#yellow] <color #black><i><size:14>Pioneering CNN architecture with deep layers, demonstrating image classification success.
+***[#green] <b><color #white><i><size:14>VGGNet
+****[#yellow] <color #black><i><size:14>Known for its simplicity with small-sized filters and deep architecture.
+***[#green] <b><color #white><i><size:14>GoogLeNet (Inception)
+****[#yellow] <color #black><i><size:14>Introduced the inception module for efficient feature extraction.
+***[#green] <b><color #white><i><size:14>ResNet
+****[#yellow] <color #black><i><size:14>Addresses vanishing gradient problem with skip connections and very deep architectures.
+**[#lightblue] <i><size:14>Use Cases
+***[#green] <b><color #white><i><size:14>Image Classification
+****[#yellow] <color #black><i><size:14>Recognizing objects, scenes, or patterns in images.
+***[#green] <b><color #white><i><size:14>Object Detection
+****[#yellow] <color #black><i><size:14>Locating and classifying objects within an image.
+***[#green] <b><color #white><i><size:14>Image Segmentation
+****[#yellow] <color #black><i><size:14>Identifying and segmenting objects or regions within an image.
+***[#green] <b><color #white><i><size:14>Facial Recognition
+****[#yellow] <color #black><i><size:14>Recognizing faces for security, authentication, and more.
+***[#green] <b><color #white><i><size:14>Medical Image Analysis
+****[#yellow] <color #black><i><size:14>Detecting diseases and abnormalities in medical images.
+**[#lightblue] <i><size:14>Applications
+***[#green] <b><color #white><i><size:14>Autonomous Vehicles
+****[#yellow] <color #black><i><size:14>Enabling self-driving cars to understand the road environment.
+***[#green] <b><color #white><i><size:14>Healthcare
+****[#yellow] <color #black><i><size:14>Assisting in diagnosing diseases from medical images.
+***[#green] <b><color #white><i><size:14>Robotics
+****[#yellow] <color #black><i><size:14>Enhancing robots' perception and decision-making capabilities.
+***[#green] <b><color #white><i><size:14>Computer Vision
+****[#yellow] <color #black><i><size:14>Advancing computer vision tasks like image captioning and more.
+**[#lightblue] <i><size:14>Challenges
+***[#green] <b><color #white><i><size:14>Overfitting
+****[#yellow] <color #black><i><size:14>Addressing the risk of training on limited data.
+***[#green] <b><color #white><i><size:14>Training Data
+****[#yellow] <color #black><i><size:14>Availability of diverse and labeled training data.
+***[#green] <b><color #white><i><size:14>Computational Resources
+****[#yellow] <color #black><i><size:14>Demanding in terms of GPUs and memory.
+***[#green] <b><color #white><i><size:14>Interpretability
+****[#yellow] <color #black><i><size:14>Understanding and explaining model decisions.
+@endmindmap
