@@ -4,11 +4,10 @@ title =<i><b><u>Optimizers in Neural Networks
 
 *[#darkblue] <i>Optimizers
 **[#lightblue] <i><size:14><color #black>Definition
-***[#green] <i><size:18><color #white>**Optimizers** are algorithms used in training neural networks to minimize the loss function and update network weights.
-
+***[#green] <i><size:18><color #white>**Optimizers** are **"algorithms"** used in **"training neural networks"** to minimize the "loss function" and "update network weights".
 **[#lightblue] <i><size:14><color #black>Purpose
-***[#green] <i><size:18><color #white>**Optimizers** are essential for adjusting neural network parameters to improve model performance during training.
-***[#green] <i><size:16><color #white>They find the optimal set of weights that minimize prediction errors.
+***[#green] <i><size:18><color #white>**Optimizers** are essential for adjusting "neural network parameters" to improve "model performance" during "training".
+***[#green] <i><size:16><color #white>They find the "optimal" set of "weights" that "minimize prediction errors".
 
 **[#lightblue] <i><size:14><color #black>Key Concepts
 ***[#green] <i><size:14><color #white><b>Loss Function
@@ -42,13 +41,15 @@ title =<i><b><u>Optimizers in Neural Networks
 
 **[#lightblue] <i><size:14><color #black>Hyperparameters
 ***[#green] <i><size:14><color #white><b>Learning Rate
-****[#yellow] <i><size:14><color #black>A crucial hyperparameter that determines the step size for weight updates.
+****[#yellow] <i><size:14><color #black>A crucial hyperparameter that determines the **step size** for "weight updates".
 ***[#green] <i><size:14><color #white><b>Momentum
-****[#yellow] <i><size:14><color #black>A hyperparameter that controls the contribution of previous weight updates.
+****[#yellow] <i><size:14><color #black>A hyperparameter that "controls the contribution" of <b>"previous weight updates".
 ***[#green] <i><size:14><color #white><b>Batch Size
-****[#yellow] <i><size:14><color #black>The number of training examples processed in each iteration.\n<img:images/img_11.png>
+****[#yellow] <i><size:14><color #black>The number of training examples processed in each iteration.
+****[#yellow] *<i><size:14><color #black>Batch is a **subset** of the **training dataset** used in **each iteration** of the training process.\n*<i><size:14><color #black>Instead of processing the **entire dataset** at once, we **divide** it into **smaller batches.**
+*****[#yellow] <i><size:14><color #black><img:images/img_11.png>
 ***[#green] <i><size:14><color #white><b>Decay Rate
-****[#yellow] <i><size:14><color #black>A parameter that controls the learning rate decay over time.
+****[#yellow] <i><size:14><color #black>A parameter that "controls" the **"learning rate decay"** over "time".
 
 **[#lightblue] <i><size:14><color #black>Challenges
 ***[#green] <i><size:14><color #white><b>Convergence Speed
