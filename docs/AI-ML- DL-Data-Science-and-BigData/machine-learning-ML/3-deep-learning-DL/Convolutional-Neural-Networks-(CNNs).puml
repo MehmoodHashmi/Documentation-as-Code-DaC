@@ -1,6 +1,10 @@
 @startmindmap
-title =<i><b><u>Convolutional Neural Networks (CNNs)
-* =<i>[[Pooling.puml Pooling]] click me
+title =<i><b><u>Convolutional Neural Networks (CNNs) [[../gif/CNN-architecture.adoc click gif]] \n<img:images/img_13.png>\t<img:images/img_17.png>
+
+* =<i>[[Pooling.puml Pooling]], [[../gif/pooling.adoc click gif]]
+**:<i><size:14>**Pooling** is like **summarizing information**, keeping what's <b>important.
+<i><size:14>It helps **reduce** the **dimensionality** while retaining <b>important information.
+<i><size:14><b><math>\t<b>Pooling = Downsizing + Information Summary</math>;
 
 !theme hacker
 
@@ -9,14 +13,17 @@ title =<i><b><u>Convolutional Neural Networks (CNNs)
 ***[#green] <color #white><i><size:18>Designed for processing "grid-like data", such as "images and videos", using convolutional layers for "feature extraction".
 **[#lightblue] <i><size:14>Key Components
 ***[#green] <b><color #white><i><size:14>Convolutional Layers
-****[#yellow] <color #black><i><size:14>Apply convolution operations to detect features like edges, textures, and patterns.
+****[#yellow]:*<u><color #black><i><size:18>Apply **convolution** operations to detect <b>features.
+==<color #black><i><size:14>**Images** are full of important parts called <b>features==
+*<color #black><i><size:14><b>Features</b> can be edges, textures, shapes, or even faces.
+<img:images/img_14.png>;
 ***[#green] <b><color #white><i><size:14>Pooling Layers
-****[#yellow] <color #black><i><size:14>Downsample feature maps to reduce spatial dimensions while retaining essential information.
+****[#yellow] <color #black><i><size:14>Downsample **feature maps** to reduce **spatial dimensions** while retaining <b>essential information.
 ***[#green] <b><color #white><i><size:14>Fully Connected Layers
 ****[#yellow] <color #black><i><size:14>Perform classification or regression tasks on the extracted features.
 **[#lightblue] <i><size:14>Core Concepts
-***[#green] <b><color #white><i><size:18>[[Convolution.puml Convolution]]
-****[#yellow] <color #black><i><size:14>Element-wise multiplication and sum of kernel and input, used for feature extraction.
+***[#green] <b><color #white><i><size:18>[[Convolution.puml Convolution]] [[../gif/convolution.adoc click gif]]\n<img:images/img_15.png>
+****[#yellow] <color #black><i><size:14>Element-wise multiplication and sum of kernel and input, used for <b>feature extraction.
 ****[#darkorange] <b><color #black><i><size:16>[[Filters-or-Kernels.puml Filters/Kernels]]
 *****[#yellow] <color #black><i><size:14>Small matrices used for convolution to detect specific patterns.
 ****[#yellow] <color #black><i><size:14>Stride
@@ -25,7 +32,7 @@ title =<i><b><u>Convolutional Neural Networks (CNNs)
 *****[#yellow] <color #black><i><size:14>Adding extra border pixels to maintain spatial dimensions during convolution.
 ****[#yellow] <color #black><i><size:14>Activation Functions
 *****[#yellow] <color #black><i><size:14>Apply non-linear transformations to introduce non-linearity.
-**[#lightblue] <i><size:14>Architectures
+**[#lightblue] <i><size:22>Architectures
 ***[#green] <b><color #white><i><size:14>LeNet-5
 ****[#yellow] <color #black><i><size:14>One of the earliest CNN architectures designed for handwritten digit recognition.
 ***[#green] <b><color #white><i><size:14>AlexNet

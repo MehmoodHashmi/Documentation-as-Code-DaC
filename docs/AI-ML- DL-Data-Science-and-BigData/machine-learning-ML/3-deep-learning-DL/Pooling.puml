@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><b><u>Pooling
+title =<i><b><u>Pooling [[../gif/pooling.adoc click gif]]
 
 !theme hacker
 
@@ -7,10 +7,10 @@ title =<i><b><u>Pooling
 
 *[#darkblue] <i>Pooling
 **[#lightblue] <color #black><i><size:14>Definition
-***[#green] <color #white><i><size:18>A technique in image processing, computer vision, and deep learning for reducing spatial dimensions while preserving essential information.
+***[#green] <color #white><i><size:18>A technique in image processing, computer vision, and deep learning for reducing **"spatial dimensions"** while preserving <b>essential information.
 ***[#green] <color #white><i><size:18>Pooling is often applied after convolution to downsample feature maps.
 
-**[#lightblue] <color #black><i><size:14>Pooling Types
+**[#lightblue] <color #black><i><size:22>Pooling Types [[../gif/pooling-types.adoc click gif]]
 ***[#green] <b><color #white><i><size:14>Max Pooling
 ****[#yellow] <color #black><i><size:14>Retains the maximum value within a defined region and is suitable for detecting dominant features.
 ***[#green] <b><color #white><i><size:14>Average Pooling
@@ -30,11 +30,11 @@ title =<i><b><u>Pooling
 ***[#green] <b><color #white><i><size:14>Padding
 ****[#yellow] <color #black><i><size:14>Adding extra border pixels to maintain spatial dimensions during pooling.
 
-**[#lightblue] <color #black><i><size:14>Pooling Purpose
+**[#lightblue] <color #black><i><size:14>Pooling Purpose (advantages)
 ***[#green] <b><color #white><i><size:14>Dimension Reduction
 ****[#yellow] <color #black><i><size:14>Reduces the spatial dimensions of feature maps to save computational resources.
 ***[#green] <b><color #white><i><size:14>Translation Invariance
-****[#yellow] <color #black><i><size:14>Increases the model's tolerance to small spatial translations in data.
+****[#yellow] *<color #black><i><size:14>Increases the model's tolerance to small spatial translations in data.\n* <color #black><i><size:14>**Recognizes features** regardless of **exact location.**\n<img:images/img_16.png>
 ***[#green] <b><color #white><i><size:14>Feature Highlighting
 ****[#yellow] <color #black><i><size:14>Focuses on essential features while discarding non-essential details.
 ***[#green] <b><color #white><i><size:14>Noise Robustness

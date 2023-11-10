@@ -1,0 +1,8 @@
+.kernel-or-filter (convolution)
+image::kernel-or-filter.gif[]
+
+.*#Filter#* as Magnifier
+image::filter-as-magnifier.png[]
+
+.2D_Convolution_Animation
+image::2D_Convolution_Animation.gif[]

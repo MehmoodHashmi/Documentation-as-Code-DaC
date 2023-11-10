@@ -105,7 +105,7 @@ title =<i><b><u>Neural Network Architecture \n<color #red><i>Activation Function
 
 **[#lightblue] <i>Training and Validation
 ***[#yellow] <i><size:14>**Training Data and Batches -** The data used for training, divided into batches. Data used for "training" and "splitting it into batches".
-***[#yellow] <i><size:14>**Learning Rate -** Controls the **"step size"** during "optimization". Controls the "step size" in "weight updates".
+***[#yellow] <i><size:14>**Learning Rate -** Controls the **"step size"** during "optimization". Or controls the **"step size"** in <b>"weight updates". \n*<i><size:14>A **higher learning rate** might lead to **faster convergence** but **risks overshooting**, while a **lower rate** might slow down convergence.\n<img:images/img_18.png>
 ***[#yellow] <i><size:14>**Early Stopping -** Prevents "overfitting" by monitoring "validation loss". Prevents "overfitting" by "stopping training" when "validation error increases".
 ***[#yellow] <i><size:14>**Overfitting and Underfitting -** Challenges in "model" "fitting". Challenges in "finding" the "right model complexity".
 ***[#yellow] <i><size:14>**Validation and Testing -** Ensures model generalization and evaluation. Crucial for "assessing" "model performance".

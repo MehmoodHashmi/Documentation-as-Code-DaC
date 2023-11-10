@@ -1,6 +1,9 @@
 @startmindmap
-title =<i><b><u>Convolution
-* =<i>[[Pooling.puml Pooling]] click me
+title =<i><b><u>Convolution [[../gif/convolution.adoc click gif]]
+* =<i>[[Pooling.puml Pooling]], [[../gif/pooling.adoc click gif]]
+**:<i><size:14>**Pooling** is like **summarizing information**, keeping what's <b>important.
+<i><size:14>It helps **reduce** the **dimensionality** while retaining <b>important information.
+<i><size:14><b><math>\t<b>Pooling = Downsizing + Information Summary</math>;
 !theme hacker
 
 

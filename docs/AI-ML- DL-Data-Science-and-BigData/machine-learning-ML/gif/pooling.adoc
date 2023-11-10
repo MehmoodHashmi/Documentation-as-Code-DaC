@@ -1,0 +1,10 @@
+.Pooling
+image::pooling.gif[]
+
+* *Pooling* is like *summarizing information*, keeping what's *important*.
+
+* It helps *reduce* the *dimensionality* while retaining *important information*.
+
+* #*Pooling = Downsizing + Information Summary*#
+
+
