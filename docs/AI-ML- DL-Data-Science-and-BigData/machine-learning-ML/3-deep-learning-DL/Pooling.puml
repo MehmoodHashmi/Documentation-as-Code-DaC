@@ -10,7 +10,7 @@ title =<i><b><u>Pooling [[../gif/pooling.adoc click gif]]
 ***[#green] <color #white><i><size:18>A technique in image processing, computer vision, and deep learning for reducing **"spatial dimensions"** while preserving <b>essential information.
 ***[#green] <color #white><i><size:18>Pooling is often applied after convolution to downsample feature maps.
 
-**[#lightblue] <color #black><i><size:22>Pooling Types [[../gif/pooling-types.adoc click gif]]
+**[#lightblue] <color #black><i><size:22>Pooling Types [[../gif/pooling-types.adoc click gif]]\n<img:images/img_19.png>
 ***[#green] <b><color #white><i><size:14>Max Pooling
 ****[#yellow] <color #black><i><size:14>Retains the maximum value within a defined region and is suitable for detecting dominant features.
 ***[#green] <b><color #white><i><size:14>Average Pooling
@@ -26,7 +26,7 @@ title =<i><b><u>Pooling [[../gif/pooling.adoc click gif]]
 ***[#green] <b><color #white><i><size:14>Pooling Window Size
 ****[#yellow] <color #black><i><size:14>Defines the dimensions of the region over which pooling is performed (e.g., 2x2, 3x3).
 ***[#green] <b><color #white><i><size:14>Stride
-****[#yellow] <color #black><i><size:14>Sets the step size at which the pooling window moves over the feature map.
+****[#yellow] <color #black><i><size:14>Sets the **step size** at which the **pooling window** moves over the <b>feature map.
 ***[#green] <b><color #white><i><size:14>Padding
 ****[#yellow] <color #black><i><size:14>Adding extra border pixels to maintain spatial dimensions during pooling.
 
