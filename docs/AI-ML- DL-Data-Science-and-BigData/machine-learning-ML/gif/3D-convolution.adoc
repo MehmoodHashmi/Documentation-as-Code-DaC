@@ -1,0 +1,12 @@
+
+.convolution-operation-on-a-mxnx3-image-matrix-with-a-3x3x3-kernel
+image::convolution-operation-on-a-mxnx3-image-matrix-with-a-3x3x3-kernel.gif[]
+
+.kernel-or-filter (convolution)
+image::kernel-or-filter.gif[]
+
+.*#Filter#* as Magnifier
+image::filter-as-magnifier.png[]
+
+.2D_Convolution_Animation
+image::2D_Convolution_Animation.gif[]

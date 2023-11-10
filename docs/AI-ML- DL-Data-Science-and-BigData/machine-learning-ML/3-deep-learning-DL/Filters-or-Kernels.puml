@@ -1,11 +1,6 @@
 @startmindmap
-title =<i><b><u>Filters/Kernels
-
+title =<i><b><u>Filters/Kernels [[../gif/convolution.adoc click gif]]
 !theme hacker
-
-
-
-
 
 *[#darkblue] <i>Filters/Kernels
 **[#lightblue] <color #black><i><size:14> Definition
@@ -37,7 +32,7 @@ title =<i><b><u>Filters/Kernels
 ***[#green] <color #white><b><i><size:14>Custom Filters
 ****[#yellow] <color #black><i><size:14>Design filters for specific feature extraction tasks.
 
-**[#lightblue] <color #black><i><size:14> 3D Convolution
+**[#lightblue] <color #black><i><size:22>3D Convolution [[../gif/3D-convolution.adoc click gif]]
 ***[#green] <color #white><i><size:14>Used in video processing and 3D data to extract spatiotemporal features.
 ***[#green] <color #white><i><size:14>Applies filters in three dimensions <b>(width, height, and time).
 
