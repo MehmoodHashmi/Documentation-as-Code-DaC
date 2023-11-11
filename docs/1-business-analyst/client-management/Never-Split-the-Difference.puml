@@ -1,0 +1,41 @@
+@startmindmap
+title =<i><b><u>"Never Split the Difference"
+!theme hacker
+
+*[#darkblue] <i>Negotiation Techniques
+**[#lightblue] <i>Tactical Empathy
+***[#green] <b><i><color #white><size:14>Understanding Emotions
+****[#yellow] <i><color #black><size:14>**Labeling:** Acknowledging and naming the other party's feelings to create a connection.
+****[#yellow] <i><color #black><size:14>**Mirroring:** Mimicking the other person's behavior or words to establish rapport.
+***[#green] <i><color #white><size:14>**Active Listening:** Engaging in focused and attentive listening to understand the underlying concerns.
+***[#green] <i><color #white><size:14>**Accusation Audit:** Proactively addressing potential objections or accusations.
+
+**[#lightblue] <i>Building Rapport
+***[#green] <i><color #white><size:14>**Establishing Connection:** Creating a personal connection to enhance communication.
+***[#green] <i><color #white><size:14>**Finding Common Ground:** Identifying shared interests to strengthen the negotiation position.
+***[#green] <i><color #white><size:14>**Mirroring and Matching:** Reflecting the other person's behavior to build trust and understanding.
+
+**[#lightblue] <i>Creating Leverage
+***[#green] <b><i><color #white><size:14>Calibrated Questions
+****[#yellow] <i><color #black><size:14>**"How" Questions:** Encouraging detailed responses to gather valuable information.
+****[#yellow] <i><color #black><size:14>**"What" Questions:** Seeking clarification and insights.
+****[#yellow] <i><color #black><size:14>**"Why" Questions:** Exploring motivations and uncovering underlying issues.
+***[#green] <b><i><color #white><size:14>FBI Negotiation Strategies
+****[#yellow] <i><color #black><size:14>**The "No" Response:** Leveraging the power of saying "no" strategically.
+****[#yellow] <i><color #black><size:14>**The "That's Right" Moment:** Acknowledging and validating the other person's perspective.
+
+**[#lightblue] <i>Anchoring
+***[#green] <i><color #white><size:14>**Setting the First Offer:** Establishing a reference point to influence the negotiation.
+***[#green] <i><color #white><size:14>**Ackerman Model:** A structured approach to making and countering offers.
+***[#green] <i><color #white><size:14>**Acknowledging and Redirecting:** Acknowledging the other party's position before guiding them towards a favorable outcome.
+
+**[#lightblue] <i>Black Swans
+***[#green] <i><color #white><size:14>**Unpredictable Elements:** Recognizing and preparing for unexpected factors in negotiation.
+***[#green] <i><color #white><size:14>**Preparing for the Unexpected:** Developing flexibility and adaptability in response to unforeseen challenges.
+***[#green] <i><color #white><size:14>**Flexibility in Negotiation:** Adjusting strategies and goals based on evolving circumstances.
+
+**[#lightblue] <i>Closing the Deal
+***[#green] <i><color #white><size:14>**Getting to "Yes":** Facilitating an agreement that satisfies both parties.
+***[#green] <i><color #white><size:14>**Confirming Agreement:** Ensuring clarity and consensus on key terms.
+***[#green] <i><color #white><size:14>**Handling Objections:** Addressing and overcoming objections to finalize the negotiation.
+@endmindmap
