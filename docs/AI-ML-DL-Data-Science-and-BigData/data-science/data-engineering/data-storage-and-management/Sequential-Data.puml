@@ -19,7 +19,7 @@ title =<i><b><u>"Sequential Data"
 ***[#green] <b><i><color #white><size:14>Continuity
 ****[#yellow] <i><color #black><size:14>Continuous flow of data without gaps.
 
-*[#darkblue] <i>Time-Series Data
+*[#darkblue] =<i>Time-Series Data\n<img:images/img_5.png>
 **[#lightblue] <i><color #black><size:14>Definition
 ***[#green] <b><i><color #white><size:14>Data collected or recorded over successive time intervals.
 ****[#yellow] <i><color #black><size:14>**Examples:** Stock prices, weather data.

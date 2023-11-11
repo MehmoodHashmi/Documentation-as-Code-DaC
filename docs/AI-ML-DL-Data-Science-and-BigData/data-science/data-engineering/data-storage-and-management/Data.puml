@@ -1,89 +1,139 @@
 @startmindmap
-skinparam shadowing false
+title =<i><b><u>"Data"
 !theme hacker
 
-title =__//**Data**//__
-* =__//**Data**//__
-**[#pink] =**Types of Data**
-*** **Numerical Data**
-****[#pink] **Continuous Data**
-****[#pink] **Discrete Data**
-*** Categorical Data
-****[#yellow] **Nominal Data**
-****[#yellow] **Ordinal Data**
-*** Textual Data
-*** Spatial Data
+*[#darkblue] <i>Data
+**[#lightblue] <i><color #blac><size:14>Types of Data
+***[#green] <b><i><color #white><size:14>Qualitative (Categorical Data or non-numeric)
+****[#yellow] <i><color #black><size:14>Nominal Data
+****[#yellow] <i><color #black><size:14>Ordinal Data
+***[#green] <b><i><color #white><size:14>Quantitative (Numerical Data)
+****[#yellow] <i><color #black><size:14>**Examples:**
+*****[#yellow] <i><color #black><size:14>Ratio
+*****[#yellow] <i><color #black><size:14>Interval
+****[#yellow] <i><color #black><size:14>2-Types of Quantitative data
+*****[#yellow] <i><color #black><size:14>Discrete Data
+*****[#yellow] <i><color #black><size:14>Continuous Data
 
-**[#lightgreen] =Data Collection Methods
-***[#c] Surveys
-***[#c] Interviews
-***[#c] Observations
-***[#c] Experiments
-***[#c] Sensor Data
-***[#c] Web Scraping
+*[#darkblue] <i>Types of Data
+**[#lightblue] <i><color #blac><size:14>Structured Data <b>(labeled)
+***[#green] <i><color #white><size:14>Organized in a tabular format with a clear <b>schema.
+****[#yellow] <i><size:18>is only **(15%-20%)** on internet
+***[#green] <i><color #white><size:14>**Examples:** Relational databases.
 
-** Data Storage and Management
-*** Databases
-****[#yellow] ===Relational Databases
-****[#yellow] ===NoSQL Databases
-****[#yellow] ===Data Warehousing
-****[#yellow] ===Data Lakes
-*** Data Governance
-*** Data Quality
-*** Data Security
-*** Data Integration
-*** Data Cleaning
+**[#lightblue] <i><color #blac><size:14>Unstructured Data (unlabeled)
+***[#green] <i><color #white><size:14>Lacks a predefined structure and is often text-heavy.
+****[#yellow] <i><size:18>is almost **(80%-85%)** on internet
+***[#green] <i><color #white><size:14>**Examples:** Text documents, images.
 
-** Data Analysis and Visualization
-***[#lightgreen] =Exploratory Data Analysis
-****[#yellow] ===Descriptive Statistics
-****[#yellow] ===Data Visualization
-****[#yellow] ===Data Profiling
-***[#lightgreen] =Statistical Analysis
-****[#yellow] ===Inferential Statistics
-****[#yellow] ===Hypothesis Testing
-****[#yellow] ===Regression Analysis
-***[#lightgreen] =Machine Learning
-****[#yellow] ===Supervised Learning
-****[#yellow] ===Unsupervised Learning
-****[#orange] ===Deep Learning
-*** =Data Mining
-*** Data Visualization Tools
-****[#yellow] ===Charts and Graphs
-****[#yellow] ===Dashboards
-****[#yellow] ===Geospatial Visualization
+**[#lightblue] <i><color #blac><size:14>Semi-Structured Data
+***[#green] <i><color #white><size:14>Has some organizational properties but doesn't fit neatly into a tabular structure.
+***[#green] <i><color #white><size:14>**Examples:** JSON, XML.
 
-**[#pink] **Big Data and Data Science**
-***[#c] =**Big Data Concepts**
-****[#pink] ===Volume, Velocity, Variety, Veracity
-****[#pink] ===Hadoop and MapReduce
-****[#pink] ===Distributed File Systems
-****[#pink] ===Stream Processing
-*** **Data Science Lifecycle**
-****[#yellow] ===Problem Formulation
-****[#yellow] ===Data Acquisition
-****[#yellow] ===Data Preprocessing
-****[#yellow] ===Model Development
-****[#yellow] ===Model Evaluation
-****[#yellow] ===Model Deployment
-*** **Predictive Analytics**
-****[#yellow] ===Classification
-****[#yellow] ===Clustering
-****[#yellow] ===Time Series Analysis
-****[#yellow] ===Recommendation Systems
+*[#darkblue] <i>Data Lifecycle
+**[#lightblue] <i><color #blac><size:14>Collection
+***[#green] <i><color #white><size:14>Gathering data from various sources.
+**[#lightblue] <i><color #blac><size:14>Storage
+***[#green] <i><color #white><size:14>Storing data in databases, data lakes, or other repositories.
+**[#lightblue] <i><color #blac><size:14>Processing
+***[#green] <i><color #white><size:14>Analyzing and transforming data for insights.
+**[#lightblue] <i><color #blac><size:14>Analysis
+***[#green] <b><i><color #white><size:14>Extracting meaningful patterns and insights.
+****[#yellow] <i><color #black><size:14>EDA (descriptive statistics)
+****[#yellow] <i><color #black><size:14>Statistical analysis
+*****[#yellow] <i><color #black><size:14>Inferential statistics, hypothesis testing, regression analysis
+****[#yellow] <i><color #black><size:14>Machine Learning
+*****[#yellow] <i><color #black><size:14>Supervised learning
+*****[#yellow] <i><color #black><size:14>Unsupervised learning
+*****[#yellow] <i><color #black><size:14>Deep learning
+****[#yellow] <i><color #black><size:14>Data Mining
+**[#lightblue] <i><color #blac><size:14>Presentation
+***[#green] <b><i><color #white><size:14>Communicating results through visualizations or reports.
+****[#yellow] <i><color #black><size:14>Charts and Graphs
+****[#yellow] <i><color #black><size:14>Dashboards
+****[#yellow] <i><color #black><size:14>Geospatial Visualization
 
-** Data Ethics and Privacy
-*** Data Anonymization
-*** Privacy Protection
-*** Ethical Considerations
-*** Data Regulations
-*** Responsible Data Use
+**[#lightblue] <i><color #blac><size:14>Archiving
+***[#green] <b><i><color #white><size:14>Long-term storage or backup of data.
 
-** Data-driven Decision Making
-*** Business Intelligence
-*** Data-driven Strategies
-*** Data-driven Innovation
-*** Data-driven Marketing
-*** Data-driven Governance
+*[#darkblue] <i>Data Collection Methods
+**[#lightblue] <i><color #blac><size:14>Surveys
+**[#lightblue] <i><color #blac><size:14>Interviews
+**[#lightblue] <i><color #blac><size:14>Observations
+**[#lightblue] <i><color #blac><size:14>Experiments
+**[#lightblue] <i><color #blac><size:14>Sensor Data
+**[#lightblue] <i><color #blac><size:14>Web Scraping
 
+*[#darkblue] <i>Data Quality
+**[#lightblue] <i><color #blac><size:14>Accuracy
+***[#green] <i><color #white><size:14>Precision and correctness of data.
+**[#lightblue] <i><color #blac><size:14>Completeness
+***[#green] <i><color #white><size:14>Presence of all required data.
+**[#lightblue] <i><color #blac><size:14>Consistency
+***[#green] <i><color #white><size:14>Uniformity of data across different systems.
+**[#lightblue] <i><color #blac><size:14>Timeliness
+***[#green] <i><color #white><size:14>Relevance and currency of data.
+
+*[#darkblue] <i>Data Governance
+**[#lightblue] <i><color #blac><size:14>Data Ownership
+***[#green] <i><color #white><size:14>Assigning responsibility for data accuracy and maintenance.
+**[#lightblue] <i><color #blac><size:14>Data Security
+***[#green] <i><color #white><size:14>Implementing measures to protect data from unauthorized access.
+**[#lightblue] <i><color #blac><size:14>Compliance
+***[#green] <i><color #white><size:14>Adhering to legal and regulatory requirements regarding data.
+
+*[#darkblue] <i>Data Management
+**[#lightblue] <i><color #blac><size:14>Master Data Management (MDM)
+***[#green] <i><color #white><size:14>Ensuring consistency and accuracy of core business data.
+**[#lightblue] <i><color #blac><size:14>Data Integration
+***[#green] <i><color #white><size:14>Combining data from different sources for unified analysis.
+**[#lightblue] <i><color #blac><size:14>Data Warehousing
+***[#green] <i><color #white><size:14>Centralized storage for large volumes of historical data.
+**[#lightblue] <i><color #blac><size:14>Data Cataloging
+***[#green] <i><color #white><size:14>Creating an inventory of available data assets.
+
+*[#darkblue] <i>Big Data
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <i><color #white><size:14>Handling large and complex datasets beyond traditional database capabilities.
+**[#lightblue] <i><color #blac><size:22>Characteristics
+***[#green] <i><color #white><size:22><b>Volume, Velocity, Variety, Veracity, Value.
+**[#lightblue] <i><color #blac><size:14>Predictive Analytics
+***[#green] <i><color #white><size:14>Classification
+***[#green] <i><color #white><size:14>Clustering
+***[#green] <i><color #white><size:14>Time Series Analysis
+***[#green] <i><color #white><size:14>Recommendation Systems
+**[#lightblue] <i><color #blac><size:14>Technologies
+***[#green] <i><color #white><size:14>Hadoop, Apache Spark, NoSQL databases, Distributed File Systems, Stream Processing.
+
+*[#darkblue] <i>Machine Learning and Data
+**[#lightblue] <i><color #blac><size:14>Training Data
+***[#green] <i><color #white><size:14>Dataset used to train machine learning models.
+**[#lightblue] <i><color #blac><size:14>Feature Engineering
+***[#green] <i><color #white><size:14>Selecting and transforming input variables for model training.
+**[#lightblue] <i><color #blac><size:14>Model Evaluation
+***[#green] <i><color #white><size:14>Assessing the performance of machine learning models.
+**[#lightblue] <i><color #blac><size:14>Bias and Fairness
+***[#green] <i><color #white><size:14>Addressing biases in training data and models.
+
+*[#darkblue] <i>Emerging Trends
+**[#lightblue] <i><color #blac><size:14>DataOps
+***[#green] <i><color #white><size:14>Collaboration and communication between data scientists, analysts, and IT.
+**[#lightblue] <i><color #blac><size:14>Data Mesh
+***[#green] <i><color #white><size:14>Decentralized architecture for managing distributed data.
+**[#lightblue] <i><color #blac><size:14>Explainable AI
+***[#green] <i><color #white><size:14>Ensuring transparency and interpretability in AI models.
+
+*[#darkblue] <i>Data Ethics and Privacy
+**[#lightblue] <i><color #blac><size:14>Data Anonymization
+**[#lightblue] <i><color #blac><size:14>Privacy Protection
+**[#lightblue] <i><color #blac><size:14>Ethical Considerations
+**[#lightblue] <i><color #blac><size:14>Data Regulations
+**[#lightblue] <i><color #blac><size:14>Responsible Data Use
+
+*[#darkblue] <i>Data-driven Decision Making
+**[#lightblue] <i><color #blac><size:14>Business Intelligence
+**[#lightblue] <i><color #blac><size:14>Data-driven Strategies
+**[#lightblue] <i><color #blac><size:14>Data-driven Innovation
+**[#lightblue] <i><color #blac><size:14>Data-driven Marketing
+**[#lightblue] <i><color #blac><size:14>Data-driven Governance
 @endmindmap
