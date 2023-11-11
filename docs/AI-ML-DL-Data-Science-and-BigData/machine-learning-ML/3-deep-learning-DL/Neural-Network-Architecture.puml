@@ -61,7 +61,7 @@ title =<i><b><u>Neural Network Architecture \n<color #red><i>Activation Function
 **[#lightblue] <i><size:18>[[Neural-Network-Types.puml Types of Neural Networks]]
 ***[#yellow] <i><size:14>**1- Feedforward Neural Networks **(FNN)** -** Standard neural networks where information flows in one direction. \n* <size:14><i>Basic "forward flow" from "input to output".
 ***[#darkorange] <i><size:14>**[[Convolutional-Neural-Networks-(CNNs).puml 2- Convolutional Neural Networks (CNN) -]]** Specialized for **[[Image-Processing.puml "image processing"]],** using convolutional layers. Specialized for "image data" with convolutional layers.
-***[#yellow] <i><size:14>**3- Recurrent Neural Networks **(RNN)** -** Suitable for sequential data, with "recurrent connections". \n* <size:14><i>Process "sequential data" with "loops".
+***[#darkorange] <i><size:14>**3- Recurrent Neural Networks **(RNN)** -** Suitable for **[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering/data-storage-and-management/Sequential-Data.puml sequential data]],** with "recurrent connections". \n* <size:14><i>Process **[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering/data-storage-and-management/Sequential-Data.puml "sequential data"]]** with "loops".
 ***[#yellow] <i><size:14>**4- Long Short-Term Memory **(LSTM)** -** A type of RNN with improved memory capabilities. \n* <size:14><i>Handles "long-term dependencies" in "sequences".
 ***[#yellow] <i><size:14>**5- Gated Recurrent Units **(GRU)** -** A "simpler RNN" variant with "gating mechanisms".
 ***[#yellow] <i><size:14>**6- And many more**

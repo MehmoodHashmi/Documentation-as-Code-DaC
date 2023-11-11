@@ -1,0 +1,82 @@
+@startmindmap
+title =<i><b><u>"Sequential Data"
+
+* =[[https://medium.com/analytics-vidhya/sequential-data-and-the-neural-network-conundrum-b2c005f8f865#:~:text=What%20is%20sequential%20data%3F,a%20certain%20point%20in%20time. Sequential data]] 1-minute article
+!theme hacker
+
+*[#darkblue] <i>Basics of Sequential Data
+**[#lightblue] <i><color #black><size:14>Definition
+***[#green] <i><color #white><size:14>Ordered sets of data elements arranged in a specific sequence.
+***[#green] <i><color #white><size:14><b>OR
+****[#yellow]:<i><color #black><size:16>Whenever the **points** in the **dataset** are dependent on the **other points** in the **dataset** the **data** is said to be <b>Sequential data.
+<i><color #black><size:16>A common example of this is a Timeseries such as a stock price or a sensor data where each point represents an observation at a certain point in time.;
+
+***[#green] <i><color #white><size:22>**Examples:** Time-series data, event logs, sequences, gene sequences, and weather data.
+
+**[#lightblue] <i><color #black><size:22>Characteristics
+***[#green] <b><i><color #white><size:14>Temporal Order
+****[#yellow] <i><color #black><size:14>Data elements follow a chronological or sequential order.
+***[#green] <b><i><color #white><size:14>Continuity
+****[#yellow] <i><color #black><size:14>Continuous flow of data without gaps.
+
+*[#darkblue] <i>Time-Series Data
+**[#lightblue] <i><color #black><size:14>Definition
+***[#green] <b><i><color #white><size:14>Data collected or recorded over successive time intervals.
+****[#yellow] <i><color #black><size:14>**Examples:** Stock prices, weather data.
+
+**[#lightblue] <i><color #black><size:14>Applications
+***[#green] <b><i><color #white><size:14>Forecasting
+****[#yellow] <i><color #black><size:14>Predicting future trends based on historical data patterns.
+***[#green] <b><i><color #white><size:14>Monitoring
+****[#yellow] <i><color #black><size:14>Real-time tracking of changes over time.
+
+**[#lightblue] <i><color #black><size:22>Challenges
+***[#green] <b><i><color #white><size:14>Temporal Dependencies
+****[#yellow] <i><color #black><size:14>Understanding and handling dependencies between data points.
+***[#green] <b><i><color #white><size:14>Seasonality
+****[#yellow] <i><color #black><size:14>Recognizing recurring patterns within specific time intervals.
+
+*[#darkblue] <i>Event Sequences
+**[#lightblue] <i><color #black><size:14>Definition
+***[#green] <b><i><color #white><size:14>Sequence of events occurring in a particular order.
+****[#yellow] <i><color #black><size:14>**Examples:** User interactions on a website, transaction logs.
+
+**[#lightblue] <i><color #black><size:14>Applications
+***[#green] <b><i><color #white><size:14>Process Analysis
+****[#yellow] <i><color #black><size:14>Understanding the flow of events in a system or process.
+***[#green] <b><i><color #white><size:14>Anomaly Detection
+****[#yellow] <i><color #black><size:14>Identifying unusual patterns or sequences of events.
+
+**[#lightblue] <i><color #black><size:22>Challenges
+***[#green] <b><i><color #white><size:14>Causality
+****[#yellow] <i><color #black><size:14>Determining cause-and-effect relationships between events.
+***[#green] <b><i><color #white><size:14>Complex Patterns
+****[#yellow] <i><color #black><size:14>Recognition of intricate event patterns.
+
+*[#darkblue] <i>Data Processing
+**[#lightblue] <i><color #black><size:14>Filtering and Aggregation
+***[#green] <b><i><color #white><size:14>Extracting relevant information and summarizing data.
+****[#yellow] <i><color #black><size:14>**Examples:** Moving averages, aggregating events over time.
+
+**[#lightblue] <i><color #black><size:14>Transformation
+***[#green] <b><i><color #white><size:14>Converting data into different representations or formats.
+****[#yellow] <i><color #black><size:14>**Examples:** Normalization, feature engineering.
+
+**[#lightblue] <i><color #black><size:14>Analysis
+***[#green] <b><i><color #white><size:14>Exploring relationships, patterns, and trends in sequential data.
+****[#yellow] <i><color #black><size:14>**Examples:** Trend analysis, pattern recognition.
+
+*[#darkblue] <i>Tools and Technologies
+**[#lightblue] <i><color #black><size:14>Time-Series Databases
+***[#green] <b><i><color #white><size:14>Specialized databases for storing and querying time-series data.
+****[#yellow] <i><color #black><size:14>**Examples:** InfluxDB, Prometheus.
+
+**[#lightblue] <i><color #black><size:14>Stream Processing Frameworks
+***[#green] <b><i><color #white><size:14>Systems for real-time processing of streaming data.
+****[#yellow] <i><color #black><size:14>**Examples:** Apache Flink, Apache Kafka Streams.
+
+**[#lightblue] <i><color #black><size:14>Machine Learning Libraries
+***[#green] <b><i><color #white><size:14>Libraries with algorithms for sequential data analysis.
+****[#yellow] <i><color #black><size:14>**Examples:** TensorFlow, scikit-multiflow.
+
+@endmindmap

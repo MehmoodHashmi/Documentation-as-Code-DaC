@@ -24,7 +24,7 @@ title =<i><b><u>Pooling [[../gif/pooling.adoc click gif]]
 
 **[#lightblue] <color #black><i><size:14>Pooling Parameters
 ***[#green] <b><color #white><i><size:14>Pooling Window Size
-****[#yellow] <color #black><i><size:14>Defines the dimensions of the region over which pooling is performed (e.g., 2x2, 3x3).
+****[#yellow] <color #black><i><size:14>Defines the dimensions of the region over which pooling is performed <b>(e.g., 2x2, 3x3).
 ***[#green] <b><color #white><i><size:14>Stride
 ****[#yellow] <color #black><i><size:14>Sets the **step size** at which the **pooling window** moves over the <b>feature map.
 ***[#green] <b><color #white><i><size:14>Padding
