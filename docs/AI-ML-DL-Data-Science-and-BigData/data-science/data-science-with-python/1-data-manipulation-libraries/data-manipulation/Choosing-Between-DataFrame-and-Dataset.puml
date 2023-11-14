@@ -1,6 +1,5 @@
 @startmindmap
-
-title =__ Choosing Between <color #green>DataFrame</color> and <color #brown>Dataset</color> __\n\n<img:images/img_2.png>\n\n<img:images/img_1.png>
+title =<b><u><i>Choosing Between <color #green>DataFrame</color> and <color #brown>Dataset</color>\n\n<img:images/img_2.png>\n\n<img:images/img_1.png>
 
 * **[[https://www.youtube.com/watch?v=mtlZhyxWR9Q&list=LL&index=2&ab_channel=DataSavvy]]**
 * **[[https://www.youtube.com/watch?v=W9k9lHGLSnc&ab_channel=Xebia]]**
@@ -8,66 +7,66 @@ title =__ Choosing Between <color #green>DataFrame</color> and <color #brown>Dat
 * **[[https://www.youtube.com/watch?v=GqHPMMoN4R4&ab_channel=BigDataElearning]]**
 * **[[https://www.linkedin.com/pulse/apache-spark-rdd-vs-dataframe-dataset-chandan-prakash/]]**
 * **[[https://data-flair.training/blogs/apache-spark-rdd-vs-dataframe-vs-dataset/]]**
+!theme hacker
 
+*[#darkblue] <i>**Considerations**
+**[#lightblue] <i><color #blac><size:14>+ Data Complexity
+***[#yellow] <i><color #black><size:14>- Simple or complex data structures
+**[#lightblue] <i><color #blac><size:14>+ Performance Requirements
+***[#yellow] <i><color #black><size:14>- Speed, memory usage, scalability
+**[#lightblue] <i><color #blac><size:14>+ Data Manipulation
+***[#yellow] <i><color #black><size:14>- Basic or advanced operations
+**[#lightblue] <i><color #blac><size:22> + Type Safety
+***[#yellow] <i><color #black><size:14>- Strongly typed or loosely typed data
+**[#lightblue] <i><color #blac><size:14>+ Ecosystem and Tooling
+***[#yellow] <i><color #black><size:14>- Available libraries, frameworks, and support
+**[#lightblue] <i><color #blac><size:14>+ Developer Familiarity
+***[#yellow] <i><color #black><size:14>- Experience with specific libraries or languages
 
-* **Considerations**
-** + Data Complexity
-*** - Simple or complex data structures
-** + Performance Requirements
-*** - Speed, memory usage, scalability
-** + Data Manipulation
-*** - Basic or advanced operations
-**[#pink] **+ Type Safety**
-*** - Strongly typed or loosely typed data
-** + Ecosystem and Tooling
-*** - Available libraries, frameworks, and support
-** + Developer Familiarity
-*** - Experience with specific libraries or languages
+*[#darkblue] <i>DataFrame\n<img:images/img_3.png>
+**[#lightblue] <i><color #blac><size:14>+ Use Cases
+***[#yellow] <i><color #black><size:14>- Data manipulation, exploration, analysis
+***[#yellow] <i><color #black><size:14>- Quick prototyping and ad hoc analysis
+**[#lightblue] <i><color #blac><size:14>+ Benefits
+***[#yellow] <i><color #black><size:14>- Easy to use, intuitive syntax
+***[#yellow] <i><color #black><size:14>- Rich ecosystem and extensive libraries
+***[#yellow] <i><color #black><size:14>- Well-suited for interactive workloads
+**[#lightblue] <i><color #blac><size:14>+ Considerations
+***[#yellow] <i><color #black><size:14>- Loosely typed data
+***[#yellow] <i><color #black><size:14>- Limited compile-time type safety
+***[#yellow] <i><color #black><size:14>- Less optimization for complex computations
 
-* **DataFrame**\n<img:images/img_3.png>
-** + Use Cases
-*** - Data manipulation, exploration, analysis
-*** - Quick prototyping and ad hoc analysis
-** + Benefits
-*** - Easy to use, intuitive syntax
-*** - Rich ecosystem and extensive libraries
-*** - Well-suited for interactive workloads
-** + Considerations
-*** - Loosely typed data
-*** - Limited compile-time type safety
-*** - Less optimization for complex computations
+*[#darkblue] <i>**Dataset**
+**[#lightblue] <i><color #blac><size:14>+ Use Cases
+***[#yellow] <i><color #black><size:14>- Big data processing, machine learning
+***[#yellow] <i><color #black><size:14>- Performance-critical or complex computations
+**[#lightblue] <i><color #blac><size:14>+ Benefits
+***[#yellow] <i><color #black><size:14>- Strongly typed data with compile-time type safety
+***[#yellow] <i><color #black><size:14>- Optimized for complex transformations and computations
+***[#yellow] <i><color #black><size:14>- Suitable for large-scale distributed processing
+**[#lightblue] <i><color #blac><size:14>+ Considerations
+***[#yellow] <i><color #black><size:14>- More verbose syntax compared to DataFrame
+***[#yellow] <i><color #black><size:14>- Limited support for interactive workloads
+***[#yellow] <i><color #black><size:14>- Limited ecosystem and libraries compared to DataFrame
 
-* **Dataset**
-** + Use Cases
-*** - Big data processing, machine learning
-*** - Performance-critical or complex computations
-** + Benefits
-*** - Strongly typed data with compile-time type safety
-*** - Optimized for complex transformations and computations
-*** - Suitable for large-scale distributed processing
-** + Considerations
-*** - More verbose syntax compared to DataFrame
-*** - Limited support for interactive workloads
-*** - Limited ecosystem and libraries compared to DataFrame
-
-* **Choosing Factors**
-** + Simple Data Manipulation
-*** - DataFrame: Quick and easy operations
-*** - Dataset: Overhead may outweigh benefits
-** + Advanced Data Manipulation
-*** - DataFrame: Sufficient for most cases
-*** - Dataset: Type safety and performance advantages
-** + Performance and Scalability
-*** - DataFrame: Good for interactive workloads
-*** - Dataset: Optimized for complex computations and large-scale processing
-**[#pink] + **Type Safety**
-*** - **DataFrame:** <color #green>**Loosely typed, limited compile-time checks**</color>
-*** - **Dataset:** <color #brown>**Strongly typed, compile-time type safety**</color>
-** + Ecosystem and Tooling
-*** - DataFrame: Extensive libraries and tooling support
-*** - Dataset: Limited ecosystem compared to DataFrame
-** + Developer Familiarity
-*** - DataFrame: Familiarity with Pandas, Spark, etc.
-*** - Dataset: Familiarity with Spark, distributed processing
+*[#darkblue] <i>**Choosing Factors**
+**[#lightblue] <i><color #blac><size:14>+ Simple Data Manipulation
+***[#yellow] <i><color #black><size:14>- **DataFrame:** Quick and easy operations
+***[#yellow] <i><color #black><size:14>- **Dataset:** Overhead may outweigh benefits
+**[#lightblue] <i><color #blac><size:14>+ Advanced Data Manipulation
+***[#yellow] <i><color #black><size:14>- **DataFrame:** Sufficient for most cases
+***[#yellow] <i><color #black><size:14>- **Dataset:** Type safety and performance advantages
+**[#lightblue] <i><color #blac><size:14>+ Performance and Scalability
+***[#yellow] <i><color #black><size:14>- **DataFrame:** Good for interactive workloads
+***[#yellow] <i><color #black><size:14>- **Dataset:** Optimized for complex computations and large-scale processing
+**[#lightblue] <i><color #blac><size:22>+ Type Safety
+***[#yellow] <i><color #black><size:14>- **DataFrame:** <color #green>**Loosely typed, limited compile-time checks**</color>
+***[#yellow] <i><color #black><size:14>- **Dataset:** <color #brown>**Strongly typed, compile-time type safety**</color>
+**[#lightblue] <i><color #blac><size:14>+ Ecosystem and Tooling
+***[#yellow] <i><color #black><size:14>- **DataFrame:** Extensive libraries and tooling support
+***[#yellow] <i><color #black><size:14>- **Dataset:** Limited ecosystem compared to DataFrame
+**[#lightblue] <i><color #blac><size:14>+ Developer Familiarity
+***[#yellow] <i><color #black><size:14>- **DataFrame:** Familiarity with Pandas, Spark, etc.
+***[#yellow] <i><color #black><size:14>- **Dataset:** Familiarity with Spark, distributed processing
 
 @endmindmap

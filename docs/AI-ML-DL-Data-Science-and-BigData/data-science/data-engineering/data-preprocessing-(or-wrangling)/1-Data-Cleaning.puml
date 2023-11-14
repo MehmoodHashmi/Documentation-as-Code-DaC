@@ -13,56 +13,56 @@ title =Data Cleaning
 
 ** Data Cleaning Techniques
 *** Handling Missing Values
-****[#yellow] ====<size:14>**Imputation:** Replacing missing values with estimated values (mean, median, mode).
-****[#yellow] ====<size:14>**Removal:** Eliminating rows or columns with excessive missing data.
-****[#yellow] ====<size:14>**Interpolation:** Estimating missing values based on surrounding data points.
+****[#yellow] <i><size:14>**Imputation:** Replacing missing values with estimated values (mean, median, mode).
+****[#yellow] <i><size:14>**Removal:** Eliminating rows or columns with excessive missing data.
+****[#yellow] <i><size:14>**Interpolation:** Estimating missing values based on surrounding data points.
 
 *** Outlier Detection and Treatment
-****[#yellow] ====<size:14>Identifying outliers that significantly deviate from the norm.
-****[#yellow] ====<size:14>Treatment methods may include removal, transformation, or imputation.
+****[#yellow] <i><size:14>Identifying outliers that significantly deviate from the norm.
+****[#yellow] <i><size:14>Treatment methods may include removal, transformation, or imputation.
 
 *** Data Deduplication
-****[#yellow] ====<size:14>Detecting and removing duplicate records or observations.
-****[#yellow] ====<size:14>Ensures data integrity and prevents double-counting.
+****[#yellow] <i><size:14>Detecting and removing duplicate records or observations.
+****[#yellow] <i><size:14>Ensures data integrity and prevents double-counting.
 
 *** Standardizing Data
-****[#yellow] ====<size:14>Consistent formatting of data (e.g., date formats, capitalization).
-****[#yellow] ====<size:14>Normalizing units and scales for uniformity.
+****[#yellow] <i><size:14>Consistent formatting of data (e.g., date formats, capitalization).
+****[#yellow] <i><size:14>Normalizing units and scales for uniformity.
 
 ** Data Cleaning Tools
 *** OpenRefine
-****[#yellow] ====<size:14>A powerful tool for data cleaning and transformation.
+****[#yellow] <i><size:14>A powerful tool for data cleaning and transformation.
 
 *** pandas (Python library)
-****[#yellow] ====<size:14>Popular for data cleaning and manipulation in Python.
+****[#yellow] <i><size:14>Popular for data cleaning and manipulation in Python.
 
 *** Excel
-****[#yellow] ====<size:14>Basic data cleaning operations can be performed using Excel.
+****[#yellow] <i><size:14>Basic data cleaning operations can be performed using Excel.
 
 ** Considerations
-*** Data Profiling
-****[#yellow] ====<size:14>Understanding the characteristics and distribution of data.
+***[#black] <b><i><size:14>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering/Data-Profiling.puml Data Profiling]]
+****[#yellow] <i><size:14>Understanding the characteristics and distribution of data.
 
 *** Data Validation
-****[#yellow] ====<size:14>Implementing data validation checks to catch errors early.
+****[#yellow] <i><size:14>Implementing data validation checks to catch errors early.
 
 *** Automation
-****[#yellow] ====<size:14>Developing automated data cleaning processes for efficiency.
+****[#yellow] <i><size:14>Developing automated data cleaning processes for efficiency.
 
 *** Documentation
-****[#yellow] ====<size:14>Maintaining documentation of data cleaning steps for reproducibility.
+****[#yellow] <i><size:14>Maintaining documentation of data cleaning steps for reproducibility.
 
 ** Best Practices
 *** Data Auditing
-****[#yellow] ====<size:14>Regularly audit and monitor data quality.
+****[#yellow] <i><size:14>Regularly audit and monitor data quality.
 
 *** Version Control
-****[#yellow] ====<size:14>Apply version control to data cleaning scripts and processes.
+****[#yellow] <i><size:14>Apply version control to data cleaning scripts and processes.
 
 *** Data Backups
-****[#yellow] ====<size:14>Make backups before performing extensive data cleaning.
+****[#yellow] <i><size:14>Make backups before performing extensive data cleaning.
 
 *** Collaboration
-****[#yellow] ====<size:14>Collaborate with domain experts and stakeholders to validate data changes.
+****[#yellow] <i><size:14>Collaborate with domain experts and stakeholders to validate data changes.
 
 @endmindmap

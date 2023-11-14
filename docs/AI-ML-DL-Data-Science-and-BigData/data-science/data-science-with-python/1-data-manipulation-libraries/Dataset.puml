@@ -1,89 +1,89 @@
 @startmindmap
+title =<b><u><i>Dataset\n\n<img:images/img_2.png>\n\n<img:images/img_1.png>
+!theme hacker
 
-title =__ Dataset __
+*[#darkblue] <i>**Definition**
+**[#lightblue] <i><color #blac><size:14>+ Collection of Data
+***[#yellow] <i><color #black><size:14>- A structured or unstructured collection of data points
+***[#yellow] <i><color #black><size:14>- Can be in various formats <b>(CSV, JSON, database, etc.)
 
-* **Definition**
-** =+ Collection of Data
-*** - A structured or unstructured collection of data points
-*** - Can be in various formats (CSV, JSON, database, etc.)
+*[#darkblue] <i>**Characteristics**
+**[#lightblue] <i><color #blac><size:14>+ Data Types
+***[#yellow] <i><color #black><size:14>- Numerical, categorical, text, etc.
+***[#yellow] <i><color #black><size:14>- Continuous or discrete values
+**[#lightblue] <i><color #blac><size:14>+ Variables
+***[#yellow] <i><color #black><size:14>- Features or attributes that describe the data
+***[#yellow] <i><color #black><size:14>- Independent and dependent variables
+**[#lightblue] <i><color #blac><size:32>+ Observations
+***[#yellow] <i><color #black><size:14>- Individual data points or instances
+***[#yellow] <i><color #black><size:14>- Rows or records in a dataset
+**[#lightblue] <i><color #blac><size:14>+ Data Quality
+***[#yellow] <i><color #black><size:14>- Completeness, accuracy, consistency
+***[#yellow] <i><color #black><size:14>- Handling missing or erroneous data
 
-* **Characteristics**
-** =+ Data Types
-*** - Numerical, categorical, text, etc.
-*** - Continuous or discrete values
-** =+ Variables
-*** - Features or attributes that describe the data
-*** - Independent and dependent variables
-**[#pink] =//+ Observations//
-*** - Individual data points or instances
-*** - Rows or records in a dataset
-** =+ Data Quality
-*** - Completeness, accuracy, consistency
-*** - Handling missing or erroneous data
+*[#darkblue] <i>**Types of Datasets**
+**[#lightblue] <i><color #blac><size:14>+ Tabular Datasets
+***[#yellow] <i><color #black><size:14>- Structured data organized in rows and columns
+***[#yellow] <i><color #black><size:14>- Represented by DataFrames or database tables
+**[#lightblue] <i><color #blac><size:14>+ Time Series Datasets
+***[#yellow] <i><color #black><size:14>- Sequential data with timestamps
+***[#yellow] <i><color #black><size:14>- Trend analysis, forecasting
+**[#lightblue] <i><color #blac><size:14>+ Text Datasets
+***[#yellow] <i><color #black><size:14>- Unstructured text data
+***[#yellow] <i><color #black><size:14>- Natural language processing, sentiment analysis
+**[#lightblue] <i><color #blac><size:14>+ Image Datasets
+***[#yellow] <i><color #black><size:14>- Pixel-based images
+***[#yellow] <i><color #black><size:14>- Image classification, object detection
+**[#lightblue] <i><color #blac><size:14>+ Audio Datasets
+***[#yellow] <i><color #black><size:14>- Audio waveforms
+***[#yellow] <i><color #black><size:14>- Speech recognition, audio classification
+**[#lightblue] <i><color #blac><size:14>+ Video Datasets
+***[#yellow] <i><color #black><size:14>- Sequence of frames
+***[#yellow] <i><color #black><size:14>- Video classification, activity recognition
 
-* **Types of Datasets**
-** =+ Tabular Datasets
-*** - Structured data organized in rows and columns
-*** - Represented by DataFrames or database tables
-** =+ Time Series Datasets
-*** - Sequential data with timestamps
-*** - Trend analysis, forecasting
-** =+ Text Datasets
-*** - Unstructured text data
-*** - Natural language processing, sentiment analysis
-** =+ Image Datasets
-*** - Pixel-based images
-*** - Image classification, object detection
-** =+ Audio Datasets
-*** - Audio waveforms
-*** - Speech recognition, audio classification
-** =+ Video Datasets
-*** - Sequence of frames
-*** - Video classification, activity recognition
+*[#darkblue] <i>**Data Preparation**
+**[#lightblue] <i><color #blac><size:14>+ Data Cleaning
+***[#yellow] <i><color #black><size:14>- Handling missing values, duplicates, outliers
+***[#yellow] <i><color #black><size:14>- Data normalization, scaling
+**[#lightblue] <i><color #blac><size:14>+ Feature Engineering
+***[#yellow] <i><color #black><size:14>- Creating new features from existing ones
+***[#yellow] <i><color #black><size:14>- Feature selection, dimensionality reduction
+**[#lightblue] <i><color #blac><size:14>+ Data Integration
+***[#yellow] <i><color #black><size:14>- Combining multiple datasets
+***[#yellow] <i><color #black><size:14>- Data merging, concatenation
+**[#lightblue] <i><color #blac><size:14>+ Data Transformation
+***[#yellow] <i><color #black><size:14>- Encoding categorical variables
+***[#yellow] <i><color #black><size:14>- Data discretization, binning
+**[#lightblue] <i><color #blac><size:14>+ Data Splitting
+***[#yellow] <i><color #black><size:14>- Dividing the dataset into training and testing sets
+***[#yellow] <i><color #black><size:14>- Cross-validation
 
-* **Data Preparation**
-** =+ Data Cleaning
-*** - Handling missing values, duplicates, outliers
-*** - Data normalization, scaling
-** =+ Feature Engineering
-*** - Creating new features from existing ones
-*** - Feature selection, dimensionality reduction
-** =+ Data Integration
-*** - Combining multiple datasets
-*** - Data merging, concatenation
-** =+ Data Transformation
-*** - Encoding categorical variables
-*** - Data discretization, binning
-** =+ Data Splitting
-*** - Dividing the dataset into training and testing sets
-*** - Cross-validation
+*[#darkblue] <i>Exploratory Data Analysis <b>(EDA) e.g. using python **pandas library**
+**[#lightblue] <i><color #blac><size:14>+ Descriptive Statistics
+***[#yellow] <i><color #black><size:14>- Summary statistics <b>(mean, median, etc.)
+***[#yellow] <i><color #black><size:14>- Data distribution, measures of variability
+**[#lightblue] <i><color #blac><size:14>+ Data Visualization
+***[#yellow] <i><color #black><size:14>- Plots, charts, graphs
+***[#yellow] <i><color #black><size:14>- Histograms, scatter plots, box plots
+**[#lightblue] <i><color #blac><size:14>+ Correlation Analysis
+***[#yellow] <i><color #black><size:14>- Relationships between variables
+***[#yellow] <i><color #black><size:14>- Correlation matrices, heatmaps
+**[#black] <color #white><b><i><size:22>+ [[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering/Data-Profiling.puml Data Profiling]]
+***[#yellow] <i><color #black><size:14>- Understanding the structure and characteristics of data
+***[#yellow] <i><color #black><size:14>- Data quality assessment
 
-*[#pink] **Exploratory Data Analysis (EDA)** e.g. using python **pandas library**
-** =+ Descriptive Statistics
-*** - Summary statistics (mean, median, etc.)
-*** - Data distribution, measures of variability
-** =+ Data Visualization
-*** - Plots, charts, graphs
-*** - Histograms, scatter plots, box plots
-** =+ Correlation Analysis
-*** - Relationships between variables
-*** - Correlation matrices, heatmaps
-** =+ Data Profiling
-*** - Understanding the structure and characteristics of data
-*** - Data quality assessment
-
-* **Data Modeling and Analysis**
-** =+ Machine Learning
-*** - Building predictive models
-*** - Supervised and unsupervised learning
-** =+ Statistical Analysis
-*** - Hypothesis testing, significance analysis
-*** - Regression, ANOVA, chi-square tests
-** =+ Deep Learning
-*** - Neural networks and deep learning models
-*** - Image recognition, natural language processing
-** =+ Predictive Analytics
-*** - Forecasting future trends
-*** - Time series analysis, regression models
+*[#darkblue] <i>**Data Modeling and Analysis**
+**[#lightblue] <i><color #blac><size:14>+ Machine Learning
+***[#yellow] <i><color #black><size:14>- Building predictive models
+***[#yellow] <i><color #black><size:14>- Supervised and unsupervised learning
+**[#lightblue] <i><color #blac><size:14>+ Statistical Analysis
+***[#yellow] <i><color #black><size:14>- Hypothesis testing, significance analysis
+***[#yellow] <i><color #black><size:14>- Regression, ANOVA, chi-square tests
+**[#lightblue] <i><color #blac><size:14>+ Deep Learning
+***[#yellow] <i><color #black><size:14>- Neural networks and deep learning models
+***[#yellow] <i><color #black><size:14>- Image recognition, natural language processing
+**[#lightblue] <i><color #blac><size:14>+ Predictive Analytics
+***[#yellow] <i><color #black><size:14>- Forecasting future trends
+***[#yellow] <i><color #black><size:14>- Time series analysis, regression models
 
 @endmindmap

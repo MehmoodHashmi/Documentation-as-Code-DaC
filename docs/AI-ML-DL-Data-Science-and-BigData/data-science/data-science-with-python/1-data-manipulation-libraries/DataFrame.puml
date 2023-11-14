@@ -1,84 +1,87 @@
 @startmindmap
+title ==<i><b><u><b><i><u> DataFrame\n\n<img:images/img_2.png>\n\n<img:images/img_1.png>
+!theme hacker
 
-title =//__ DataFrame __//
 
-* **Definition**
-** =+ Tabular Data Structure
-*** - Two-dimensional labeled data
-*** - Rows and columns
 
-*[#pink] =//**Features**//
-** =+ Indexing
-*** - Accessing and manipulating rows and columns
-*** - **Label-based** and **position-based** __indexing__
-** =+ Column Operations
-*** - Adding, modifying, and deleting columns
-*** - Element-wise operations on columns
-** =+ Row Operations
-*** - Adding, modifying, and deleting rows
-*** - Filtering rows based on conditions
-** =+ Aggregation and Grouping
-*** - Aggregating data using functions (sum, mean, count, etc.)
-*** - Grouping data based on one or more columns
-** =+ Joins and Merging
-*** - Combining multiple DataFrames based on common columns
-*** - Inner join, outer join, left join, right join
-** =+ Sorting and Ordering
-*** - Sorting DataFrame based on column values
-*** - Ascending and descending order
-** =+ Missing Data Handling
-*** - Handling and filling missing values
-*** - Dropping rows or columns with missing values
-** =+ Reshaping and Pivoting
-*** - Changing the structure and orientation of the DataFrame
-*** - Pivoting based on column values
-** =+ Statistical Analysis
-*** - Calculating descriptive statistics
-*** - Correlation, covariance, percentiles
 
-*[#red] =**Data Manipulation**
-** =+ Filtering and Subsetting
-*** - Selecting rows and columns based on conditions
-*** - Subsetting DataFrame based on criteria
-** =+ Transformation
-*** - Applying functions to columns or rows
-*** - Creating new columns based on existing ones
-** =+ Merging and Concatenating
-*** - Combining multiple DataFrames horizontally or vertically
-*** - Appending and concatenating DataFrames
-** =+ Pivoting and Melting
-*** - Reshaping data between wide and long formats
-*** - Pivoting and melting DataFrames
+*[#darkblue] <i>**Definition**
+**[#lightblue] <i><color #blac><size:14>+ Tabular Data Structure
+***[#yellow] <i><color #black><size:14>- Two-dimensional labeled data
+***[#yellow] <i><color #black><size:14>- Rows and columns
 
-*[#red] =**Data Cleaning**
-** =+ Handling Missing Data
-*** - Identifying and dealing with missing values
-*** - Filling or removing missing data
-** =+ Data Formatting
-*** - Changing data types of columns
-*** - Formatting values (e.g., date, time)
-** =+ Handling Duplicates
-*** - Identifying and removing duplicate rows
-*** - Handling duplicate values in columns
-** =+ Renaming and Reordering
-*** - Renaming columns and rows
-*** - Reordering columns
-** =+ Data Conversion
-*** - Converting data between different formats
-*** - Converting categorical data to numeric
+*[#darkblue] <i>Features
+**[#lightblue] <i><color #blac><size:14>+ Indexing
+***[#yellow] <i><color #black><size:14>- Accessing and manipulating rows and columns
+***[#yellow] <i><color #black><size:14>- **Label-based** and **position-based** <u>indexing
+**[#lightblue] <i><color #blac><size:14>+ Column Operations
+***[#yellow] <i><color #black><size:14>- Adding, modifying, and deleting columns
+***[#yellow] <i><color #black><size:14>- Element-wise operations on columns
+**[#lightblue] <i><color #blac><size:14>+ Row Operations
+***[#yellow] <i><color #black><size:14>- Adding, modifying, and deleting rows
+***[#yellow] <i><color #black><size:14>- Filtering rows based on conditions
+**[#lightblue] <i><color #blac><size:14>+ Aggregation and Grouping
+***[#yellow] <i><color #black><size:14>- Aggregating data using functions <b>(sum, mean, count, etc.)
+***[#yellow] <i><color #black><size:14>- Grouping data based on one or more columns
+**[#lightblue] <i><color #blac><size:14>+ Joins and Merging
+***[#yellow] <i><color #black><size:14>- Combining multiple DataFrames based on common columns
+***[#yellow] <i><color #black><size:14>- Inner join, outer join, left join, right join
+**[#lightblue] <i><color #blac><size:14>+ Sorting and Ordering
+***[#yellow] <i><color #black><size:14>- Sorting DataFrame based on column values
+***[#yellow] <i><color #black><size:14>- Ascending and descending order
+**[#lightblue] <i><color #blac><size:14>+ Missing Data Handling
+***[#yellow] <i><color #black><size:14>- Handling and filling missing values
+***[#yellow] <i><color #black><size:14>- Dropping rows or columns with missing values
+**[#lightblue] <i><color #blac><size:14>+ Reshaping and Pivoting
+***[#yellow] <i><color #black><size:14>- Changing the structure and orientation of the DataFrame
+***[#yellow] <i><color #black><size:14>- Pivoting based on column values
+**[#lightblue] <i><color #blac><size:14>+ Statistical Analysis
+***[#yellow] <i><color #black><size:14>- Calculating descriptive statistics
+***[#yellow] <i><color #black><size:14>- Correlation, covariance, percentiles
 
-*[#red] =**Data Analysis**
-** =+ Descriptive Statistics
-*** - Calculating basic statistics (mean, median, etc.)
-*** - Summarizing data distribution
-** =+ Data Visualization
-*** - Creating plots and visualizations
-*** - Histograms, bar charts, line charts, etc.
-** =+ Aggregation and Grouping
-*** - Aggregating data based on one or more columns
-*** - Grouping data for analysis
-** =+ Statistical Testing
-*** - Hypothesis testing and significance analysis
-*** - T-tests, ANOVA, chi-square tests
+*[#darkblue] <i>Data Manipulation
+**[#lightblue] <i><color #blac><size:14>+ Filtering and Subsetting
+***[#yellow] <i><color #black><size:14>- Selecting rows and columns based on conditions
+***[#yellow] <i><color #black><size:14>- Subsetting DataFrame based on criteria
+**[#lightblue] <i><color #blac><size:14>+ Transformation
+***[#yellow] <i><color #black><size:14>- Applying functions to columns or rows
+***[#yellow] <i><color #black><size:14>- Creating new columns based on existing ones
+**[#lightblue] <i><color #blac><size:14>+ Merging and Concatenating
+***[#yellow] <i><color #black><size:14>- Combining multiple DataFrames horizontally or vertically
+***[#yellow] <i><color #black><size:14>- Appending and concatenating DataFrames
+**[#lightblue] <i><color #blac><size:14>+ Pivoting and Melting
+***[#yellow] <i><color #black><size:14>- Reshaping data between wide and long formats
+***[#yellow] <i><color #black><size:14>- Pivoting and melting DataFrames
+
+*[#darkblue] <i>Data Cleaning
+**[#lightblue] <i><color #blac><size:14>+ Handling Missing Data
+***[#yellow] <i><color #black><size:14>- Identifying and dealing with missing values
+***[#yellow] <i><color #black><size:14>- Filling or removing missing data
+**[#lightblue] <i><color #blac><size:14>+ Data Formatting
+***[#yellow] <i><color #black><size:14>- Changing data types of columns
+***[#yellow] <i><color #black><size:14>- Formatting values <b>(e.g., date, time)
+**[#lightblue] <i><color #blac><size:14>+ Handling Duplicates
+***[#yellow] <i><color #black><size:14>- Identifying and removing duplicate rows
+***[#yellow] <i><color #black><size:14>- Handling duplicate values in columns
+**[#lightblue] <i><color #blac><size:14>+ Renaming and Reordering
+***[#yellow] <i><color #black><size:14>- Renaming columns and rows
+***[#yellow] <i><color #black><size:14>- Reordering columns
+**[#lightblue] <i><color #blac><size:14>+ Data Conversion
+***[#yellow] <i><color #black><size:14>- Converting data between different formats
+***[#yellow] <i><color #black><size:14>- Converting categorical data to numeric
+
+*[#darkblue] <i>Data Analysis
+**[#lightblue] <i><color #blac><size:14>+ Descriptive Statistics
+***[#yellow] <i><color #black><size:14>- Calculating basic statistics <b>(mean, median, etc.)
+***[#yellow] <i><color #black><size:14>- Summarizing data distribution
+**[#lightblue] <i><color #blac><size:14>+ Data Visualization
+***[#yellow] <i><color #black><size:14>- Creating plots and visualizations
+***[#yellow] <i><color #black><size:14>- Histograms, bar charts, line charts, etc.
+**[#lightblue] <i><color #blac><size:14>+ Aggregation and Grouping
+***[#yellow] <i><color #black><size:14>- Aggregating data based on one or more columns
+***[#yellow] <i><color #black><size:14>- Grouping data for analysis
+**[#lightblue] <i><color #blac><size:14>+ Statistical Testing
+***[#yellow] <i><color #black><size:14>- Hypothesis testing and significance analysis
+***[#yellow] <i><color #black><size:14>- T-tests, ANOVA, chi-square tests
 
 @endmindmap

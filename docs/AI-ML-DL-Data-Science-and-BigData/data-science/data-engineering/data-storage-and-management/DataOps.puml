@@ -4,45 +4,45 @@ title =__ DataOps__ \n(Difference between DevOps vs DataOps) \n<img:images/img_4
 
 * =DataOps
 ** Definition
-*** ====<size:20>**DataOps** combines **principles, practices, and technologies** to improve the **efficiency, reliability, and quality** of **data operations.**
+*** <i><size:20>**DataOps** combines **principles, practices, and technologies** to improve the **efficiency, reliability, and quality** of **data operations.**
 **[#gold] =Key Components
-***[#pink] ====**Collaboration**
-****[#yellow] ====<size:14>Cross-functional collaboration between data engineers, data scientists, analysts, and other stakeholders.
-****[#yellow] ====<size:14>Collaboration tools like version control, issue tracking, and documentation platforms.
-***[#orange] ====**Automation**
-****[#white] ====<size:14>**Automated workflows for __data ingestion, transformation, quality assurance, and deployment__.**
-****[#yellow] ====<size:14>Integration of CI/CD **(Continuous Integration/Continuous Deployment)** practices.
+***[#pink] <i>**Collaboration**
+****[#yellow] <i><size:14>Cross-functional collaboration between data engineers, data scientists, analysts, and other stakeholders.
+****[#yellow] <i><size:14>Collaboration tools like version control, issue tracking, and documentation platforms.
+***[#orange] <i>**Automation**
+****[#white] <i><size:14>**Automated workflows for __data ingestion, transformation, quality assurance, and deployment__.**
+****[#yellow] <i><size:14>Integration of CI/CD **(Continuous Integration/Continuous Deployment)** practices.
 *** Monitoring and Observability
-****[#yellow] ====<size:14>Real-time monitoring of data pipelines, data quality, and system health.
-****[#yellow] ====<size:14>Centralized logging, alerts, and dashboards for visibility into data operations.
-***[#pink] ====**Quality Assurance**
-****[#yellow] ====<size:14>Data validation and testing to ensure accuracy, consistency, and completeness.
-****[#yellow] ====<size:14>Use of data profiling, data lineage, and data quality frameworks.
+****[#yellow] <i><size:14>Real-time monitoring of data pipelines, data quality, and system health.
+****[#yellow] <i><size:14>Centralized logging, alerts, and dashboards for visibility into data operations.
+***[#pink] <i>**Quality Assurance**
+****[#yellow] <i><size:14>Data validation and testing to ensure accuracy, consistency, and completeness.
+****[#darkorange] <i><size:14>Use of **[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering/Data-Profiling.puml data profiling]],** data lineage, and data quality frameworks.
 *** Infrastructure and Scalability
-****[#yellow] ====<size:14>Utilization of scalable and flexible infrastructure, such as cloud platforms or containerization.
-****[#yellow] ====<size:14>Automated provisioning, orchestration, and resource management.
+****[#yellow] <i><size:14>Utilization of scalable and flexible infrastructure, such as cloud platforms or containerization.
+****[#yellow] <i><size:14>Automated provisioning, orchestration, and resource management.
 ** Benefits
-***[#white] ====<size:14>**Faster and More Reliable Data Delivery**
-****[#yellow] ====<size:14>Streamlined processes and automation result in faster and more reliable data pipelines.
-****[#yellow] ====<size:14>Reduces bottlenecks, errors, and manual intervention.
-***[#yellow] ====<size:14>**Improved Data Quality**
-****[#yellow] ====<size:14>Robust data quality controls and testing ensure clean and reliable data.
-****[#yellow] ====<size:14>Early detection and resolution of data issues.
+***[#white] <i><size:14>**Faster and More Reliable Data Delivery**
+****[#yellow] <i><size:14>Streamlined processes and automation result in faster and more reliable data pipelines.
+****[#yellow] <i><size:14>Reduces bottlenecks, errors, and manual intervention.
+***[#yellow] <i><size:14>**Improved Data Quality**
+****[#yellow] <i><size:14>Robust data quality controls and testing ensure clean and reliable data.
+****[#yellow] <i><size:14>Early detection and resolution of data issues.
 *** Agile and Collaborative Environment
-****[#yellow] ====<size:14>Promotes collaboration, communication, and knowledge sharing among teams.
-****[#yellow] ====<size:14>Enables iterative development and rapid experimentation.
+****[#yellow] <i><size:14>Promotes collaboration, communication, and knowledge sharing among teams.
+****[#yellow] <i><size:14>Enables iterative development and rapid experimentation.
 *** Scalability and Flexibility
-****[#yellow] ====<size:14>Ability to scale data operations to handle larger volumes of data.
-****[#yellow] ====<size:14>Flexibility to accommodate changing business needs and new data sources.
+****[#yellow] <i><size:14>Ability to scale data operations to handle larger volumes of data.
+****[#yellow] <i><size:14>Flexibility to accommodate changing business needs and new data sources.
 ** Tools and Technologies
-***[#pink] ====**Data Integration Tools**
-****[#yellow] ====<size:14>Apache Airflow, Apache NiFi, Talend, Informatica, Matillion.
+***[#pink] <i>**Data Integration Tools**
+****[#yellow] <i><size:14>Apache Airflow, Apache NiFi, Talend, Informatica, Matillion.
 *** Version Control and Collaboration Tools
-****[#yellow] ====<size:14>Git, GitHub, GitLab, Jira, Confluence, Slack.
-***[#pink] ====**Data Quality Tools**
-****[#yellow] ====<size:14>Great Expectations, Apache Griffin, Trifacta, DataRobot.
+****[#yellow] <i><size:14>Git, GitHub, GitLab, Jira, Confluence, Slack.
+***[#pink] <i>**Data Quality Tools**
+****[#yellow] <i><size:14>Great Expectations, Apache Griffin, Trifacta, DataRobot.
 *** Monitoring and Observability Tools
-****[#yellow] ====<size:14>Prometheus, Grafana, ELK Stack **(Elasticsearch, Logstash, Kibana)**, Datadog.
+****[#yellow] <i><size:14>Prometheus, Grafana, ELK Stack **(Elasticsearch, Logstash, Kibana)**, Datadog.
 *** Infrastructure and Deployment Tools
-****[#yellow] ====<size:14>Kubernetes, Docker, Terraform, AWS CloudFormation, Azure DevOps.
+****[#yellow] <i><size:14>Kubernetes, Docker, Terraform, AWS CloudFormation, Azure DevOps.
 @endmindmap

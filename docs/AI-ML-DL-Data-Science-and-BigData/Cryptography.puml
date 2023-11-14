@@ -1,44 +1,46 @@
 @startmindmap
-title =__ Cryptography__
-* Cryptography
-** Symmetric Key Cryptography
-*** Block Ciphers
-**** DES
-**** AES
-**** 3DES
-*** Stream Ciphers
-**** RC4
-**** ChaCha20
-** Asymmetric Key Cryptography
-*** RSA
-*** Diffie-Hellman
-*** Elliptic Curve Cryptography (ECC)
-** Hash Functions
-*** MD5
-*** SHA-1
-*** SHA-256
-** Digital Signatures
-*** Digital Signature Algorithm (DSA)
-*** Elliptic Curve Digital Signature Algorithm (ECDSA)
-*** RSA Digital Signature
-** Key Exchange
-*** Secure Socket Layer (SSL)
-*** Transport Layer Security (TLS)
-*** Public Key Infrastructure (PKI)
-** Cryptographic Protocols
-*** Secure Hash Algorithm (SHA)
-*** Pretty Good Privacy (PGP)
-*** OpenPGP
-** Cryptanalysis
-*** Brute Force Attacks
-*** Frequency Analysis
-*** Differential Cryptanalysis
-*** Side-Channel Attacks
-** Cryptographic Standards
-*** National Institute of Standards and Technology (NIST)
-*** Advanced Encryption Standard (AES)
-*** FIPS 140-2
-** Quantum Cryptography
-*** Quantum Key Distribution (QKD)
-*** Post-Quantum Cryptography (PQC)
+title =<i><b><u>Cryptography
+!theme hacker
+
+*[#darkblue] <i>Cryptography
+**[#lightblue] <i><color #blac><size:14>Symmetric Key Cryptography
+***[#green] <i><color #white><size:14><b>Block Ciphers
+****[#yellow] <i><color #black><size:14>DES
+****[#yellow] <i><color #black><size:14>AES
+****[#yellow] <i><color #black><size:14>3DES
+***[#green] <i><color #white><size:14><b>Stream Ciphers
+****[#yellow] <i><color #black><size:14>RC4
+****[#yellow] <i><color #black><size:14>ChaCha20
+**[#lightblue] <i><color #blac><size:14>Asymmetric Key Cryptography
+***[#green] <i><color #white><size:14>RSA
+***[#green] <i><color #white><size:14>Diffie-Hellman
+***[#green] <i><color #white><size:14>Elliptic Curve Cryptography <b>(ECC)
+**[#lightblue] <i><color #blac><size:14>Hash Functions
+***[#green] <i><color #white><size:14>MD5
+***[#green] <i><color #white><size:14>SHA-1
+***[#green] <i><color #white><size:14>SHA-256
+**[#lightblue] <i><color #blac><size:14>Digital Signatures
+***[#green] <i><color #white><size:14>Digital Signature Algorithm <b>(DSA)
+***[#green] <i><color #white><size:14>Elliptic Curve Digital Signature Algorithm <b>(ECDSA)
+***[#green] <i><color #white><size:14>RSA Digital Signature
+**[#lightblue] <i><color #blac><size:14>Key Exchange
+***[#green] <i><color #white><size:14>Secure Socket Layer <b>(SSL)
+***[#green] <i><color #white><size:14>Transport Layer Security <b>(TLS)
+***[#green] <i><color #white><size:14>Public Key Infrastructure <b>(PKI)
+**[#lightblue] <i><color #blac><size:14>Cryptographic Protocols
+***[#green] <i><color #white><size:14>Secure Hash Algorithm <b>(SHA)
+***[#green] <i><color #white><size:14>Pretty Good Privacy <b>(PGP)
+***[#green] <i><color #white><size:14>OpenPGP
+**[#lightblue] <i><color #blac><size:14>Cryptanalysis
+***[#green] <i><color #white><size:14>Brute Force Attacks
+***[#green] <i><color #white><size:14>Frequency Analysis
+***[#green] <i><color #white><size:14>Differential Cryptanalysis
+***[#green] <i><color #white><size:14>Side-Channel Attacks
+**[#lightblue] <i><color #blac><size:14>Cryptographic Standards
+***[#green] <i><color #white><size:14>National Institute of Standards and Technology <b>(NIST)
+***[#green] <i><color #white><size:14>Advanced Encryption Standard <b>(AES)
+***[#green] <i><color #white><size:14>FIPS 140-2
+**[#lightblue] <i><color #blac><size:14>Quantum Cryptography
+***[#green] <i><color #white><size:14>Quantum Key Distribution <b>(QKD)
+***[#green] <i><color #white><size:14>Post-Quantum Cryptography <b>(PQC)
 @endmindmap
