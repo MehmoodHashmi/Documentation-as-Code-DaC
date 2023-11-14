@@ -1,0 +1,107 @@
+@startmindmap
+title =<i><b><u>"Types of Optimization Techniques"
+!theme hacker
+
+*[#darkblue] <i>Basics of Optimization Techniques
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#gold] <i><color #black><size:14>Methods to improve the learning process in neural networks.
+
+*[#darkblue] <i>Gradient-Based Methods
+**[#lightblue] <i><color #blac><size:14>Gradient Descent
+***[#gold] <i><color #black><size:14>Classic optimization approach using derivatives.
+***[#yellow] <i><color #black><size:14>**Complexity:** O(n)
+
+**[#lightblue] <i><color #blac><size:14>Stochastic Gradient Descent (SGD)
+***[#gold] <i><color #black><size:14>Updates parameters using random mini-batches.
+***[#yellow] <i><color #black><size:14>**Complexity:** O(n)
+
+
+**[#lightblue] <i><color #blac><size:14>Mini-Batch Gradient Descent
+***[#gold] <i><color #black><size:14>A compromise between batch and stochastic gradient descent.
+***[#yellow] <i><color #black><size:14>**Complexity:** O(n)
+
+**[#lightblue] <i><color #blac><size:14>Momentum-based Methods
+***[#gold] <i><color #black><size:14>Adds momentum to accelerate convergence.
+***[#yellow] <i><color #black><size:14>**Complexity:** O(n)
+
+**[#lightblue] <i><color #blac><size:14>Nesterov Accelerated Gradient (NAG)
+***[#gold] <i><color #black><size:14>Improvement over momentum by considering future gradients.
+***[#yellow] <i><color #black><size:14>**Complexity:** O(n)
+
+*[#darkblue] <i>Adaptive Learning Rate Methods
+**[#lightblue] <i><color #blac><size:14>RMSprop
+***[#gold] <i><color #black><size:14>Adaptive learning rates based on squared gradients.
+***[#yellow] <i><color #black><size:14>**Complexity:** O(n)
+
+**[#lightblue] <i><color #blac><size:14>Adagrad
+***[#gold] <i><color #black><size:14>Adjusts learning rates based on historical gradients.
+***[#yellow] <i><color #black><size:14>**Complexity:** O(n)
+
+**[#lightblue] <i><color #blac><size:14>Adadelta
+***[#gold] <i><color #black><size:14>Variant of Adagrad that improves stability.
+***[#yellow] <i><color #black><size:14>**Complexity:** O(n)
+
+**[#lightblue] <i><color #blac><size:14>Adam Optimization
+***[#gold] <i><color #black><size:14>Adaptive learning rates and momentum.
+***[#yellow] <i><color #black><size:14>**Complexity:** O(n)
+
+**[#lightblue] <i><color #blac><size:14>Adamax
+***[#gold] <i><color #black><size:14>Utilizes the infinity norm for adaptive learning rates.
+***[#yellow] <i><color #black><size:14>**Complexity:** O(n)
+
+**[#lightblue] <i><color #blac><size:14>Nadam
+***[#gold] <i><color #black><size:14>Nesterov-accelerated Adam.
+***[#yellow] <i><color #black><size:14>**Complexity:** O(n)
+
+*[#darkblue] <i>Evolutionary and Population-Based Methods
+**[#lightblue] <i><color #blac><size:14>Genetic Algorithms
+***[#gold] <i><color #black><size:14>Imitates natural selection processes.
+***[#yellow] <i><color #black><size:14>**Complexity:** Depends on problem size and encoding
+
+**[#lightblue] <i><color #blac><size:14>Natural Evolution Strategies (NES)
+***[#gold] <i><color #black><size:14>Mimics natural evolution for optimization.
+***[#yellow] <i><color #black><size:14>**Complexity:** Depends on problem size and strategy
+
+**[#lightblue] <i><color #blac><size:14>Particle Swarm Optimization (PSO)
+***[#gold] <i><color #black><size:14>Population-based method inspired by social behavior.
+***[#yellow] <i><color #black><size:14>**Complexity:** Depends on problem size and swarm size
+
+*[#darkblue] <i>Second-Order Optimization Methods
+**[#lightblue] <i><color #blac><size:14>Newton's Method
+***[#gold] <i><color #black><size:14>Uses second derivatives for optimization.
+***[#yellow] <i><color #black><size:14>**Complexity:** O(n^2)
+
+**[#lightblue] <i><color #blac><size:14>Limited-Memory BFGS (L-BFGS)
+***[#gold] <i><color #black><size:14>Variant of the Broyden-Fletcher-Goldfarb-Shanno (BFGS) algorithm for large-scale optimization.
+***[#yellow] <i><color #black><size:14>**Complexity:** O(n^2)
+
+*[#darkblue] <i>Random Search
+**[#lightblue] <i><color #blac><size:14>Uniformly random search in the parameter space.
+** Complexity: Depends on search space
+
+*[#darkblue] <i>Hybrid Methods
+**[#lightblue] <i><color #blac><size:14>Hybrid Genetic Algorithms
+***[#gold] <i><color #black><size:14>Combining genetic algorithms with other optimization methods.
+***[#yellow] <i><color #black><size:14>**Complexity:** Varies based on the combination used
+
+**[#lightblue] <i><color #blac><size:14>Evolutionary Strategies with Gradient Descent (ESGD)
+***[#gold] <i><color #black><size:14>Merging evolutionary strategies with gradient-based methods.
+
+*[#darkblue] <i>Considerations for Selection
+**[#lightblue] <i><color #blac><size:14>Network Architecture
+**[#lightblue] <i><color #blac><size:14>Dataset Characteristics
+**[#lightblue] <i><color #blac><size:14>Convergence Behavior
+**[#lightblue] <i><color #blac><size:14>Computational Efficiency
+
+*[#darkblue] <i>Evaluation Metrics
+**[#lightblue] <i><color #blac><size:14>Convergence Rate
+**[#lightblue] <i><color #blac><size:14>Loss Function
+**[#lightblue] <i><color #blac><size:14>Performance on Validation Data
+**[#lightblue] <i><color #blac><size:14>Scalability
+
+*[#darkblue] <i>Best Practices
+**[#lightblue] <i><color #blac><size:14>Continuous Learning
+**[#lightblue] <i><color #blac><size:14>Experiment Documentation
+**[#lightblue] <i><color #blac><size:14>Collaboration and Knowledge Sharing
+
+@endmindmap

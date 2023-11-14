@@ -1,0 +1,51 @@
+@startmindmap
+title =<i><b><u>Optimizers (learning algorithms) in Neural Networks
+
+* =[[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Choosing-the-Right-Optimization-Technique.puml Choosing the Right Optimization (learning) Technique]] .puml
+
+*:<u><size:38><b><i><color :red>What else the "neural networks" use to "learn" instead of "gradient descent"?
+<u><size:14><b><i> Neural networks can learn without gradient descent using a variety of methods, including:
+
+* <size:14><i><color :black>**Evolutionary algorithms:** These algorithms mimic the process of natural selection to evolve a population of neural networks. Each network is evaluated on its performance on a given task, and the best performing networks are
+<size:14><i><color :black>  used to create the next generation.
+* <size:14><i><color :black>**Bayesian optimization:** This method uses a probabilistic model of the neural network to efficiently explore the space of possible solutions. It works by repeatedly evaluating the neural network at different parameter settings and
+<size:14><i><color :black>  using the results to update the model.
+* <size:14><i><color :black>**Reinforcement learning:** This method allows neural networks to learn from their own experience. In reinforcement learning, the neural network is placed in an environment and rewarded for taking actions that lead to desired
+<size:14><i><color :black>  outcomes. Over time, the neural network learns to take actions that maximize its rewards.
+
+<size:14><i><color :black>In addition to these methods, there are a number of other ways to train neural networks without gradient descent. These methods are still under development, but they have the potential to make neural networks more efficient and easier to train.
+
+<size:14><i><color :black>Here are some examples of how these methods are being used to train neural networks without gradient descent:
+
+* **Evolutionary algorithms:** Evolutionary algorithms have been used to train neural networks for a variety of tasks, including image classification, natural language processing, and game playing.
+* **Bayesian optimization:** Bayesian optimization has been used to train neural networks for tasks such as hyperparameter tuning and model selection.
+* **Reinforcement learning:** Reinforcement learning has been used to train neural networks to play games, control robots, and make investment decisions.
+
+It is important to note that these methods are not always as efficient or effective as gradient descent. However, they can be useful in cases where gradient descent is not feasible, such as when the neural network is too large or complex,
+or when the data is noisy or incomplete.
+
+<u><size:14><i><color :black>Overall, the field of neural network training without gradient descent is still in its early stages of development. However, the progress that has been made so far is promising, and there is a lot of potential for future innovation.;
+
+*:Neural networks use various learning algorithms and optimization techniques besides gradient descent to improve their learning process. Some alternatives include:
+
+  1. **Stochastic Gradient Descent (SGD):** An extension of gradient descent that uses random samples (minibatches) from the training set to approximate the gradient. It helps in faster convergence and scalability.
+
+  2. **Adam Optimization:** Combines concepts from adaptive learning rates and momentum methods to efficiently optimize neural networks. It adapts the learning rate for each parameter.
+
+  3. **RMSprop (Root Mean Square Propagation):** Adjusts the learning rate based on the average of the squared gradients. It helps control the aggressive learning rates in certain directions.
+
+  4. **Adagrad (Adaptive Gradient Algorithm):** Modifies the learning rate for each parameter based on the historical gradients. It tends to decrease the learning rate for frequently occurring features.
+
+  5. **Adaptive Moment Estimation (Adamax):** A variant of Adam that uses the infinity norm to compute adaptive learning rates for each parameter.
+
+  6. **Natural Evolution Strategies (NES):** A population-based optimization method inspired by natural evolution processes like mutation and selection.
+
+  7. **Genetic Algorithms:** Another evolutionary computation technique that mimics the process of natural selection to optimize neural network parameters.
+
+  These methods offer various advantages and trade-offs in terms of convergence speed, robustness to different data distributions, and adaptability to different network architectures. Choosing the right optimization technique often depends
+  on the specifics of the problem, the dataset, and the neural network architecture being used.;
+
+!theme hacker
+
+
+@endmindmap

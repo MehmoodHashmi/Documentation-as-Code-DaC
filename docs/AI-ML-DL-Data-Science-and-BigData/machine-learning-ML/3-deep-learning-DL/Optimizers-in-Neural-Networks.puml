@@ -15,7 +15,7 @@ title =<i><b><u>Optimizers in Neural Networks
 ***[#green] <i><size:14><color #white><b>Gradient Descent
 ****[#yellow] <i><size:14><color #black>The fundamental optimization technique that uses the gradient of the loss function to update weights.
 
-**[#lightblue] <i><size:14><color #black>Optimization Algorithms
+**[#lightblue] <i><size:22><color #black>[[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Optimization-(learning)-Alogrithms.puml Optimization Algorithms]]
 ***[#green] <i><size:14><color #white><b>Stochastic Gradient Descent (SGD)
 ****[#yellow] <i><size:14><color #black>The basic form of gradient descent, which updates weights after processing a single training example.
 ***[#green] <i><size:14><color #white><b>Mini-Batch Gradient Descent

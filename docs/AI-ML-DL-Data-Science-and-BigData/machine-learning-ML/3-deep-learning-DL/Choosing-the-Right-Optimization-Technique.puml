@@ -1,0 +1,93 @@
+@startmindmap
+title =<i><b><u>"Choosing the Right Optimization Technique"
+!theme hacker
+
+*[#darkblue] <i>Basics of Optimization Techniques
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <i><color #white><size:14>"Methods" to improve the "learning" process in "neural networks".
+
+*[#darkblue] <i>Optimization Objectives
+**[#lightblue] <i><color #blac><size:14>Convergence Speed
+***[#green] <b><i><color #white><size:14>Rate at which the algorithm reaches an optimal solution.
+
+**[#lightblue] <i><color #blac><size:14>Robustness
+***[#green] <b><i><color #white><size:14>Stability in diverse data distributions and architectures.
+
+**[#lightblue] <i><color #blac><size:14>Adaptability
+***[#green] <b><i><color #white><size:14>Ability to adjust to varying network complexities.
+
+*[#darkblue] <size:22><i>[[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Types-of-Optimization-Techniques.puml Types of Optimization Techniques]]
+**[#lightblue] <i><color #blac><size:14>Gradient-Based Methods
+***[#green] <b><i><color #white><size:14>Gradient Descent
+****[#yellow] <i><color #black><size:14>Classic optimization approach using derivatives.
+
+***[#green] <b><i><color #white><size:14>Stochastic Gradient Descent (SGD)
+****[#yellow] <i><color #black><size:14>Updates parameters using random mini-batches.
+
+***[#green] <b><i><color #white><size:14>Adam Optimization
+****[#yellow] <i><color #black><size:14>Adaptive learning rates and momentum.
+
+**[#lightblue] <i><color #blac><size:14>Adaptive Learning Rate Methods
+***[#green] <b><i><color #white><size:14>RMSprop
+****[#yellow] <i><color #black><size:14>Adaptive learning rates based on squared gradients.
+
+***[#green] <b><i><color #white><size:14>Adagrad
+****[#yellow] <i><color #black><size:14>Adjusts learning rates based on historical gradients.
+
+**[#lightblue] <i><color #blac><size:14>Evolutionary and Population-Based Methods
+***[#green] <b><i><color #white><size:14>Natural Evolution Strategies (NES)
+****[#yellow] <i><color #black><size:14>Mimics natural evolution for optimization.
+
+***[#green] <b><i><color #white><size:14>Genetic Algorithms
+****[#yellow] <i><color #black><size:14>Imitates natural selection processes.
+
+*[#darkblue] <i>Considerations for Selection
+**[#lightblue] <i><color #blac><size:14>Network Architecture
+***[#green] <i><color #white><size:14>Impact of optimization on different architectures.
+
+**[#lightblue] <i><color #blac><size:14>Dataset Characteristics
+***[#green] <i><color #white><size:14>Influence of data distribution and scale on techniques.
+
+**[#lightblue] <i><color #blac><size:14>Convergence Behavior
+***[#green] <i><color #white><size:14>Speed and stability of convergence across methods.
+
+**[#lightblue] <i><color #blac><size:14>Computational Efficiency
+***[#green] <i><color #white><size:14>Resource requirements for computation.
+
+*[#darkblue] <i>Evaluation Metrics
+**[#lightblue] <i><color #blac><size:14>Convergence Rate
+***[#green] <i><color #white><size:14>Measure of how quickly the algorithm reaches the optimum.
+
+**[#lightblue] <i><color #blac><size:14>Loss Function
+***[#green] <i><color #white><size:14>Evaluation of model performance based on the loss.
+
+**[#lightblue] <i><color #blac><size:14>Performance on Validation Data
+***[#green] <i><color #white><size:14>Assessing generalization capabilities.
+
+**[#lightblue] <i><color #blac><size:14>Scalability
+***[#green] <i><color #white><size:14>Ability to handle large datasets and complex networks.
+
+*[#darkblue] <i>Selection Process
+**[#lightblue] <i><color #blac><size:14>Problem Analysis
+***[#green] <i><color #white><size:14>Understanding the problem domain and constraints.
+
+**[#lightblue] <i><color #blac><size:14>Experimentation
+***[#green] <i><color #white><size:14>Testing multiple techniques on a smaller scale.
+
+**[#lightblue] <i><color #blac><size:14>Performance Evaluation
+***[#green] <i><color #white><size:14>Comparing results based on defined metrics.
+
+**[#lightblue] <i><color #blac><size:14>Iterative Refinement
+***[#green] <i><color #white><size:14>Fine-tuning based on observed behavior.
+
+*[#darkblue] <i>Best Practices
+**[#lightblue] <i><color #blac><size:14>Continuous Learning
+***[#green] <i><color #white><size:14>Keeping up with advancements in optimization.
+
+**[#lightblue] <i><color #blac><size:14>Experiment Documentation
+***[#green] <i><color #white><size:14>Recording results for future reference.
+
+**[#lightblue] <i><color #blac><size:14>Collaboration and Knowledge Sharing
+***[#green] <i><color #white><size:14>Sharing experiences among practitioners.
+
+@endmindmap
