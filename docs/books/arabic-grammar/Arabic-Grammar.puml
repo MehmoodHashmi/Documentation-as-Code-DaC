@@ -1,0 +1,91 @@
+@startmindmap
+title ="Arabic Grammar"
+* =[[Surf-and-Nahw-in-Arabic-Grammar.puml Surf and Nahw in Arabic Grammar]]
+
+* Parts of Speech
+** Nouns
+*** Defined by gender, number, and case.
+
+** Verbs
+*** Conjugated according to tense, person, number, and mood.
+
+** Pronouns
+*** Divided into personal, demonstrative, and relative pronouns.
+
+** Adjectives
+*** Agree with nouns in gender, number, and case.
+
+** Adverbs
+*** Modify verbs, adjectives, or other adverbs.
+
+** Prepositions
+*** Used to indicate relationships between words.
+
+** Conjunctions
+*** Connect words or phrases.
+
+** Interjections
+*** Express emotions or exclamations.
+
+* Verb Conjugation
+** =[[Root-System-in-Arabic-Grammar.puml Root System]]
+*** Three-letter root system forms the basis of Arabic verbs.
+
+** Verb Forms
+*** Derived from the root with different patterns indicating tense, mood, and voice.
+
+** Tenses
+*** Past, Present, and Future.
+
+** Moods
+*** Indicative, Subjunctive, Jussive.
+
+** Voices
+*** Active and Passive.
+
+* Sentence Structure
+** Word Order
+*** Verb-subject-object (VSO) structure.
+
+** Agreement
+*** Gender and number agreement between nouns, verbs, and adjectives.
+
+** Definite and Indefinite Articles
+*** "Al-" for definite articles, absence for indefinite.
+
+** Subject-Object-Verb (SOV)
+*** In certain constructs or poetic forms.
+
+* Cases
+** Nominative (Raf‘)
+*** Marks the subject of a sentence.
+
+** Accusative (Nasb)
+*** Marks the direct object of a verb.
+
+** Genitive (Jarr)
+*** Indicates possession, attribution, or relationship.
+
+* Diacritics (Harakat)
+** Short vowel markings indicating pronunciation.
+
+* Punctuation
+** Arabic-specific punctuation marks.
+
+* Phonetics and Phonology
+** Pronunciation and phonetic rules.
+
+* Arabic Calligraphy
+** The art of writing Arabic script.
+
+* Usage and Variations
+** Dialectal Variations
+*** Different dialects across regions.
+
+** Classical vs. Modern Arabic
+*** Differences in usage and vocabulary.
+
+** Literary Forms
+*** Poetry, prose, and religious texts.
+
+@endmindmap
