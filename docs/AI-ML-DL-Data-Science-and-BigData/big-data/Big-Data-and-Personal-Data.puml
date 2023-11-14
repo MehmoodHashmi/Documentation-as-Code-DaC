@@ -4,57 +4,57 @@ title =__Big Data and Personal Data__
 
 * Big Data and Personal Data
 ** Introduction
-*** Definition of Big Data
-****[#yellow] ====<size:13>Big data refers to large and complex datasets that are analyzed to extract insights, patterns, and trends.
+***[#green] <b><i><color #white><size:14>Definition of Big Data
+****[#yellow] <i><size:14>Big data refers to large and complex **datasets** that are analyzed to extract insights, patterns, and trends.
 
 ** The Role of Personal Data
-*** Personal Data as Fuel
-****[#yellow] ====<size:13>Personal data provides the necessary input for big data analytics, enabling the generation of valuable insights.
+***[#green] <b><i><color #white><size:14>Personal Data as Fuel
+****[#yellow] <i><size:14>Personal data provides the necessary input for big data analytics, enabling the generation of valuable insights.
 
-*** Data Generation and Collection
-****[#yellow] ====<size:13>Personal data is generated through various sources, including online activities, social media, Internet of Things **(IoT)** devices, and more.
+***[#green] <b><i><color #white><size:14>Data Generation and Collection
+****[#yellow] <i><size:14>Personal data is generated through various sources, including online activities, social media, Internet of Things **(IoT)** devices, and more.
 
-*** Data Flow and Acquisition
-****[#yellow] ====<size:13>Constant flow of personal data is required to feed big data systems, enabling continuous analysis and problem-solving.
+***[#green] <b><i><color #white><size:14>Data Flow and Acquisition
+****[#yellow] <i><size:14>Constant flow of personal data is required to feed big data systems, enabling continuous analysis and problem-solving.
 
 ** Problem-Solving Capabilities
-*** Predictive Analytics
-****[#yellow] ====<size:13>Big data analytics can predict trends, behaviors, and outcomes by analyzing personal data patterns and historical records.
+***[#green] <b><i><color #white><size:14>Predictive Analytics
+****[#yellow] <i><size:14>Big data analytics can predict trends, behaviors, and outcomes by analyzing personal data patterns and historical records.
 
-*** Pattern Recognition
-****[#yellow] ====<size:13>Personal data enables the identification of patterns, correlations, and anomalies that lead to new discoveries and insights.
+***[#green] <b><i><color #white><size:14>Pattern Recognition
+****[#yellow] <i><size:14>Personal data enables the identification of patterns, correlations, and anomalies that lead to new discoveries and insights.
 
-*** Decision Support Systems
-****[#yellow] ====<size:13>Personal data analysis helps in decision-making processes, providing valuable information for informed choices and actions.
+***[#green] <b><i><color #white><size:14>Decision Support Systems
+****[#yellow] <i><size:14>Personal data analysis helps in decision-making processes, providing valuable information for informed choices and actions.
 
 ** Privacy and Security Challenges
-*** Data Privacy Concerns
-****[#yellow] ====<size:13>The collection and use of personal data raise privacy concerns regarding consent, transparency, and the protection of sensitive information.
+***[#green] <b><i><color #white><size:14>Data Privacy Concerns
+****[#yellow] <i><size:14>The collection and use of personal data raise privacy concerns regarding consent, transparency, and the protection of sensitive information.
 
-*** Data Security Risks
-****[#yellow] ====<size:13>Storing and managing personal data within big data systems may pose security risks, such as data breaches and unauthorized access.
+***[#green] <b><i><color #white><size:14>Data Security Risks
+****[#yellow] <i><size:14>Storing and managing personal data within big data systems may pose security risks, such as data breaches and unauthorized access.
 
-*** Ethical Considerations
-****[#yellow] ====<size:13>Balancing the benefits of using personal data with ethical considerations, such as fairness, non-discrimination, and respect for individuals.
+***[#green] <b><i><color #white><size:14>Ethical Considerations
+****[#yellow] <i><size:14>Balancing the benefits of using personal data with ethical considerations, such as fairness, non-discrimination, and respect for individuals.
 
 ** Regulatory Frameworks
-*** Data Protection Laws
-****[#yellow] ====<size:13>Governments implement data protection regulations **(e.g., GDPR, CCPA)** to safeguard personal data and ensure individuals' rights.
+***[#green] <b><i><color #white><size:14>Data Protection Laws
+****[#yellow] <i><size:14>Governments implement data protection regulations **(e.g., GDPR, CCPA)** to safeguard personal data and ensure individuals' rights.
 
-*** Compliance and Accountability
-****[#yellow] ====<size:13>Organizations are required to comply with data protection laws, establish accountability, and protect personal data throughout its lifecycle.
+***[#green] <b><i><color #white><size:14>Compliance and Accountability
+****[#yellow] <i><size:14>Organizations are required to comply with data protection laws, establish accountability, and protect personal data throughout its lifecycle.
 
-*** Data Subject Rights
-****[#yellow] ====<size:13>Individuals have rights over their personal data, including access, rectification, erasure, and the right to object to data processing.
+***[#green] <b><i><color #white><size:14>Data Subject Rights
+****[#yellow] <i><size:14>Individuals have rights over their personal data, including access, rectification, erasure, and the right to object to data processing.
 
 ** Data Governance and Transparency
-*** Responsible Data Practices
-****[#yellow] ====<size:13>Organizations should adopt robust data governance frameworks, ensuring transparency, accountability, and responsible data handling.
+***[#green] <b><i><color #white><size:14>Responsible Data Practices
+****[#yellow] <i><size:14>Organizations should adopt robust data governance frameworks, ensuring transparency, accountability, and responsible data handling.
 
-*** Data Transparency
-****[#yellow] ====<size:13>Providing individuals with clear information about data collection, processing purposes, and data sharing practices.
+***[#green] <b><i><color #white><size:14>Data Transparency
+****[#yellow] <i><size:14>Providing individuals with clear information about data collection, processing purposes, and data sharing practices.
 
-*** Consent and Control
-****[#yellow] ====<size:13>Giving individuals control over their personal data through informed consent, preferences management, and easy data deletion options.
+***[#green] <b><i><color #white><size:14>Consent and Control
+****[#yellow] <i><size:14>Giving individuals control over their personal data through informed consent, preferences management, and easy data deletion options.
 
 @endmindmap
