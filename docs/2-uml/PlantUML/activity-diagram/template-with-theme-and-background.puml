@@ -1,0 +1,101 @@
+@startuml
+title = <i><u><b>Financial Transaction
+!theme hacker
+' Place the background color line after the theme
+skinparam BackgroundColor #black
+skinparam wrapwidth 360
+
+|<b><size:18>Accounting|
+start
+#yellow:**Setup Chart of Accounts**;
+note left: Different types of masters you need \nto 've before you do anything else
+
+group **Configuration** #darkgreen
+
+    :Configure Company and Bank Accounts;
+    :Configure Accounting Periods;
+    :Establish Contacts;
+
+end group
+
+group **Record Financial Transactions**
+
+    #lime:Record Financial Transactions;
+    note left: Will take a form of **journal entry**
+    #orange:Create Journal Entry;
+    note left: An entry made in the general ledger \n& it indicates the affected accounts
+
+    if (**Advanced Payment by Customer?**) then (yes)
+    #lime:Set to Yes;
+    note left: **Special case Advanced** \n**Payment by Customer**
+    else (no)
+    :Set to No;
+    endif
+
+    #orange:Fill out Journal Entry Details;
+
+    note right
+    * Fill it out, according to the documentation
+    *Identify Affected Accounts:
+    ** **Debit** & **Credit** Accounts
+    end note
+
+    #orange:Submit Journal Entry;
+    note left: Posted financial transaction to general ledger. \nAlso has a special case **"Advance payment"**
+    note right: **__Optional:__ **\nRecord Transaction Details;\nAssociate with Reference Documents;\nSales Invoice, Sales order, Purchase Invoice, etc.;
+    -[#red]->
+
+end group
+
+|<b><size:18>Swimlane-1|
+
+group **Sub-process: Correct financial Transaction** #darkgreen
+    if (**Need to Correct a Transaction?**) then (yes)
+       :Open Submitted Journal Entry;
+       :Select Reverse Journal Entry;
+    note left
+    A new journal entry with opposite
+    credits & debits is created that
+    reverses debits & credits amount
+    against the respective accounts.
+    end note
+    if (**Debits do not equal Credits?**) then (yes)
+    -[#red]->
+
+group **Difference Entry** #black
+    :Create new journal entry;
+    :Add entries;
+    :Click Make Difference Entry button;
+    note left: Difference entry created in table
+
+
+end group
+
+    else (no)
+
+  endif
+    else (no)
+
+endif
+
+    :Submit journal entry;
+    note left
+    **Note:** When a document is created & it is in the draft format it will not be
+    posted to the ledger & no transaction will be recorded for those  documents
+    **until you press submit.** Otherwise a document is drafted for posting in the
+    general ledger.
+    end note
+
+end group
+
+group **Reconciliation**
+    if (**Actual accounts match ERPNext accounting Info**?) is (yes) then
+      :Do Nothing;
+    else (no)
+      :\tRefer to Bank \nReconciliation Document;
+    endif
+end group
+
+stop
+
+@enduml

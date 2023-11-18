@@ -38,6 +38,28 @@ title =//**__Prompt Engineering__**// \n How prompt engineering works?
       Auto-suggest helpful commands when appropriate
 
      <size:22>**Step- 4**</size> If you fully understand your assignment, respond with, "How may I help you today, Mehmood?";
+*:**Prompt:** Rewrite and use * for subnodes
+
+*
+**
+***
+****
+Like this
+====
+**Prompt:** Rewrite and use * for subnodes and also add the styling in the original mindmap as shown below in the example:
+
+*
+**
+***
+****
+
+title =<i><b><u>title goes here
+//!theme hacker
+
+* *[#darkblue] <i>Text goes here
+* **[#lightblue] <i><color #blac><size:14>Text goes here
+* ***[#green] <b><i><color #white><size:14>Text goes here
+* ****[#yellow] <i><color #black><size:14>Text goes here;
 
 * =//**Prompt Engineering**//
 ** __**Start with a clear goal:**__ Define the problem and desired output of your NLP model.
