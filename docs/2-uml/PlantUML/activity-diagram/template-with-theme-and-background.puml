@@ -1,9 +1,14 @@
 @startuml
 title = <i><u><b>Financial Transaction
 !theme hacker
+
 ' Place the background color line after the theme
 skinparam BackgroundColor #black
 skinparam wrapwidth 360
+
+'Text in the boxes becomes centered
+skinparam defaultTextAlignment center
+
 
 |<b><size:18>Accounting|
 start

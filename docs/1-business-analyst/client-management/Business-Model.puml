@@ -1,0 +1,29 @@
+@startmindmap
+title =<i><b><u>Business Model
+!theme hacker
+
+*[#darkblue] <i>Business Model
+**[#lightblue] <i><color #blac><size:14>Core Elements
+***[#green] <b><i><color #white><size:14>Value Proposition
+****[#yellow] <i><color #black><size:14>Products/Services offered to address customer needs.
+***[#green] <b><i><color #white><size:14>Customer Segments
+****[#yellow] <i><color #black><size:14>Target audience or specific groups the business serves.
+***[#green] <b><i><color #white><size:14>Channels
+****[#yellow] <i><color #black><size:14>Distribution and communication channels to reach customers.
+**[#lightblue] <i><color #blac><size:14>Revenue Streams
+***[#green] <b><i><color #white><size:14>How the business earns money from the value provided.
+****[#yellow] <i><color #black><size:14>Sales, subscriptions, licensing, etc.
+**[#lightblue] <i><color #blac><size:14>Key Activities
+***[#green] <b><i><color #white><size:14>Primary actions necessary to deliver the value proposition.
+****[#yellow] <i><color #black><size:14>Production, marketing, customer support, etc.
+**[#lightblue] <i><color #blac><size:14>Key Resources
+***[#green] <b><i><color #white><size:14>Essential assets required to operate and deliver value.
+****[#yellow] <i><color #black><size:14>Human resources, technology, physical infrastructure.
+**[#lightblue] <i><color #blac><size:14>Key Partnerships
+***[#green] <b><i><color #white><size:14>External relationships crucial to the business model's success.
+****[#yellow] <i><color #black><size:14>Suppliers, strategic alliances, co-branding.
+**[#lightblue] <i><color #blac><size:14>Cost Structure
+***[#green] <b><i><color #white><size:14>The expenses involved in operating the business model.
+****[#yellow] <i><color #black><size:14>Fixed costs, variable costs, economies of scale.
+
+@endmindmap
