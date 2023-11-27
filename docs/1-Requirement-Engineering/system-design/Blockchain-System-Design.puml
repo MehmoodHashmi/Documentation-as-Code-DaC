@@ -62,7 +62,16 @@ title =__**Blockchain System Design**__
 *****[#yellow] <i><size:14>Plutus
 *****[#yellow] <i><size:14>Marlowe
 
-++[#lightblue] <i><size:18>__**Blockchain Networks Type:**__\n<img:img_1.png>\n* **Permissionless network:** allows access to any user to pseudo-anonymously join the \nnetwork and become a node, without any restrictions. This particular kind of network is \nprimarily used to exchange and mine cryptocurrencies.\n* **Permissioned network:**  restricts access to the network to certain nodes. In this type of \nnetwork there can be rights restrictions. These private blockchain networks are controlled by a \nsingle organization that determines who can be a node. Pri- vate BC networks are partially \ndecentralized because public access to them is restricted. __Due to the drawbacks of the above__ \nnetworks, consortium and hybrid blockchains were developed.
+**[#lightblue] <i><size:18>__**Blockchain Networks Type:**__\n<img:img_1.png>
+***[#green]:<i><size:14><color #white>**Permissionless network:** allows access to any user to pseudo-anonymously join the
+<i><size:14><color #white>network and become a node, without any restrictions. This particular kind of network is
+<i><size:14><color #white>primarily used to exchange and mine cryptocurrencies.;
+
+***[#green]:<i><size:14><color #white>**Permissioned network:**  restricts access to the network to certain nodes. In this type of
+<i><size:14><color #white>network there can be rights restrictions. These private blockchain networks are controlled by a
+<i><size:14><color #white>single organization that determines who can be a node. Pri- vate BC networks are partially
+<i><size:14><color #white>decentralized because public access to them is restricted. __Due to the drawbacks of the above__
+<i><size:14><color #white>networks, consortium and hybrid blockchains were developed.;
 
 +++[#green] <i><size:14><color #white>**Public Blockchains**
 ****[#orange] <i><size:14><color #black>Bitcoin
