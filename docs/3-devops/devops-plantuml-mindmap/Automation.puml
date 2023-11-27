@@ -4,108 +4,108 @@ title Automation
 
 * Automation
 ** Definition
-***[#white] ====<size:18>**Automation** refers to the use of "technology and systems" to perform "tasks, processes, or operations" with "minimal human intervention".
+***[#white] <i><size:18>**Automation** refers to the use of "technology and systems" to perform "tasks, processes, or operations" with "minimal human intervention".
 
 ** Key Concepts
-***[#gold] ====<size:14>Task Automation
-****[#yellow] ====<size:14>Automating repetitive and manual tasks.
-***[#gold] ====<size:14>Workflow Automation
-****[#yellow] ====<size:14>Streamlining and automating complex business processes.
-***[#gold] ====<size:14>Robotic Process Automation **(RPA)**
-****[#yellow] ====<size:14>Software robots performing rule-based tasks.
-***[#gold] ====<size:14>Machine Learning and AI
-****[#yellow] ====<size:14>Automating tasks through intelligent algorithms.
-***[#gold] ====<size:14>Scripting and Coding
-****[#yellow] ====<size:14>Writing scripts to automate tasks.
-***[#gold] ====<size:14>Industrial Automation
-****[#yellow] ====<size:14>Automation of manufacturing and industrial processes.
-***[#gold] ====<size:14>Home Automation
-****[#yellow] ====<size:14>Automating household tasks and systems.
-***[#gold] ====<size:14>Continuous Integration/Continuous Deployment **(CI/CD)**
-****[#yellow] ====<size:14>Automated software development and deployment pipelines.
+***[#gold] <i><size:14>Task Automation
+****[#yellow] <i><size:14>Automating repetitive and manual tasks.
+***[#gold] <i><size:14>Workflow Automation
+****[#yellow] <i><size:14>Streamlining and automating complex business processes.
+***[#gold] <i><size:14>Robotic Process Automation **(RPA)**
+****[#yellow] <i><size:14>Software robots performing rule-based tasks.
+***[#gold] <i><size:14>Machine Learning and AI
+****[#yellow] <i><size:14>Automating tasks through intelligent algorithms.
+***[#gold] <i><size:14>Scripting and Coding
+****[#yellow] <i><size:14>Writing scripts to automate tasks.
+***[#gold] <i><size:14>Industrial Automation
+****[#yellow] <i><size:14>Automation of manufacturing and industrial processes.
+***[#gold] <i><size:14>Home Automation
+****[#yellow] <i><size:14>Automating household tasks and systems.
+***[#gold] <i><size:14>Continuous Integration/Continuous Deployment **(CI/CD)**
+****[#yellow] <i><size:14>Automated software development and deployment pipelines.
 
 ** Benefits of Automation
-***[#gold] ====<size:14>Efficiency
-****[#yellow] ====<size:14>Faster task completion and reduced errors.
-***[#gold] ====<size:14>Productivity
-****[#yellow] ====<size:14>Enabling employees to focus on more valuable work.
-***[#gold] ====<size:14>Consistency
-****[#yellow] ====<size:14>Uniform and error-free task execution.
-***[#gold] ====<size:14>Cost Reduction
-****[#yellow] ====<size:14>Lower labor and operational costs.
-***[#gold] ====<size:14>Scalability
-****[#yellow] ====<size:14>Handling larger workloads without proportional effort.
-***[#gold] ====<size:14>Quality Improvement
-****[#yellow] ====<size:14>Enhanced quality through automation.
-***[#gold] ====<size:14>Safety
-****[#yellow] ====<size:14>Reducing risk in hazardous environments.
+***[#gold] <i><size:14>Efficiency
+****[#yellow] <i><size:14>Faster task completion and reduced errors.
+***[#gold] <i><size:14>Productivity
+****[#yellow] <i><size:14>Enabling employees to focus on more valuable work.
+***[#gold] <i><size:14>Consistency
+****[#yellow] <i><size:14>Uniform and error-free task execution.
+***[#gold] <i><size:14>Cost Reduction
+****[#yellow] <i><size:14>Lower labor and operational costs.
+***[#gold] <i><size:14>Scalability
+****[#yellow] <i><size:14>Handling larger workloads without proportional effort.
+***[#gold] <i><size:14>Quality Improvement
+****[#yellow] <i><size:14>Enhanced quality through automation.
+***[#gold] <i><size:14>Safety
+****[#yellow] <i><size:14>Reducing risk in hazardous environments.
 
 ** Automation Technologies
-***[#gold] ====<size:14>Robotic Process Automation **(RPA)**
-****[#yellow] ====<size:14>Using software robots to mimic human actions.
-***[#gold] ====<size:14>Machine Learning
-****[#yellow] ====<size:14>Algorithms learning from data to make predictions and decisions.
-***[#gold] ====<size:14>Artificial Intelligence **(AI)**
-****[#yellow] ====<size:14>Machines simulating human intelligence.
-***[#gold] ====<size:14>Workflow Automation Tools
-****[#yellow] ====<size:14>Platforms like Zapier, Microsoft Power Automate.
-***[#gold] ====<size:14>Industrial Robots
-****[#yellow] ====<size:14>Automated machines in manufacturing and industry.
-***[#gold] ====<size:14>Smart Home Devices
-****[#yellow] ====<size:14>Home automation through IoT devices.
+***[#gold] <i><size:14>Robotic Process Automation **(RPA)**
+****[#yellow] <i><size:14>Using software robots to mimic human actions.
+***[#gold] <i><size:14>Machine Learning
+****[#yellow] <i><size:14>Algorithms learning from data to make predictions and decisions.
+***[#gold] <i><size:14>Artificial Intelligence **(AI)**
+****[#yellow] <i><size:14>Machines simulating human intelligence.
+***[#gold] <i><size:14>Workflow Automation Tools
+****[#yellow] <i><size:14>Platforms like Zapier, Microsoft Power Automate.
+***[#gold] <i><size:14>Industrial Robots
+****[#yellow] <i><size:14>Automated machines in manufacturing and industry.
+***[#gold] <i><size:14>Smart Home Devices
+****[#yellow] <i><size:14>Home automation through IoT devices.
 
 ** Automation in Business
-***[#gold] ====<size:14>Business Process Automation
-****[#yellow] ====<size:14>Streamlining and automating business workflows.
-***[#gold] ====<size:14>Data Entry and Processing
-****[#yellow] ====<size:14>Automating data-related tasks.
-***[#gold] ====<size:14>Customer Service
-****[#yellow] ====<size:14>Chatbots and automated customer support.
-***[#gold] ====<size:14>Financial and Accounting Automation
-****[#yellow] ====<size:14>Automated financial processes and calculations.
-***[#gold] ====<size:14>Sales and Marketing Automation
-****[#yellow] ====<size:14>Automated marketing campaigns and sales processes.
-***[#gold] ====<size:14>Inventory Management
-****[#yellow] ====<size:14>Automated inventory tracking and restocking.
-***[#gold] ====<size:14>HR and Payroll Automation
-****[#yellow] ====<size:14>Streamlining HR and payroll processes.
+***[#gold] <i><size:14>Business Process Automation
+****[#yellow] <i><size:14>Streamlining and automating business workflows.
+***[#gold] <i><size:14>Data Entry and Processing
+****[#yellow] <i><size:14>Automating data-related tasks.
+***[#gold] <i><size:14>Customer Service
+****[#yellow] <i><size:14>Chatbots and automated customer support.
+***[#gold] <i><size:14>Financial and Accounting Automation
+****[#yellow] <i><size:14>Automated financial processes and calculations.
+***[#gold] <i><size:14>Sales and Marketing Automation
+****[#yellow] <i><size:14>Automated marketing campaigns and sales processes.
+***[#gold] <i><size:14>Inventory Management
+****[#yellow] <i><size:14>Automated inventory tracking and restocking.
+***[#gold] <i><size:14>HR and Payroll Automation
+****[#yellow] <i><size:14>Streamlining HR and payroll processes.
 
-**[#orange] ====Challenges in Automation
-***[#gold] ====<size:14>Implementation Costs
-****[#yellow] ====<size:14>Costs of acquiring and implementing automation solutions.
-***[#gold] ====<size:14>Change Management
-****[#yellow] ====<size:14>Adapting to automated processes and workflows.
-***[#gold] ====<size:14>Security Concerns
-****[#yellow] ====<size:14>Ensuring data and system security in automated environments.
-***[#gold] ====<size:14>Technical Skills
-****[#yellow] ====<size:14>Skills required to design and maintain automation.
-***[#gold] ====<size:14>Job Displacement
-****[#yellow] ====<size:14>Impact on employment due to automation.
-***[#gold] ====<size:14>Integration Complexity
-****[#yellow] ====<size:14>Integrating automation with existing systems.
+**[#orange] <i>Challenges in Automation
+***[#gold] <i><size:14>Implementation Costs
+****[#yellow] <i><size:14>Costs of acquiring and implementing automation solutions.
+***[#gold] <i><size:14>Change Management
+****[#yellow] <i><size:14>Adapting to automated processes and workflows.
+***[#gold] <i><size:14>Security Concerns
+****[#yellow] <i><size:14>Ensuring data and system security in automated environments.
+***[#gold] <i><size:14>Technical Skills
+****[#yellow] <i><size:14>Skills required to design and maintain automation.
+***[#gold] <i><size:14>Job Displacement
+****[#yellow] <i><size:14>Impact on employment due to automation.
+***[#gold] <i><size:14>Integration Complexity
+****[#yellow] <i><size:14>Integrating automation with existing systems.
 
-**[#pink] ====Automation in Technology
-***[#gold] ====<size:14>**DevOps**
-****[#yellow] ====<size:14>**Automation in software development and IT operations.**
-***[#gold] ====<size:14>Cloud Automation
-****[#yellow] ====<size:14>Automating cloud infrastructure and services.
-***[#gold] ====<size:14>Network Automation
-****[#yellow] ====<size:14>Automated network configuration and management.
-***[#gold] ====<size:14>Test Automation
-****[#yellow] ====<size:14>Automated testing of software applications.
-***[#gold] ====<size:14>Configuration Management
-****[#yellow] ====<size:14>Automated system configuration and updates.
+**[#pink] <i>Automation in Technology
+***[#gold] <i><size:14>**DevOps**
+****[#yellow] <i><size:14>**Automation in software development and IT operations.**
+***[#gold] <i><size:14>Cloud Automation
+****[#yellow] <i><size:14>Automating cloud infrastructure and services.
+***[#gold] <i><size:14>Network Automation
+****[#yellow] <i><size:14>Automated network configuration and management.
+***[#gold] <i><size:14>Test Automation
+****[#yellow] <i><size:14>Automated testing of software applications.
+***[#gold] <i><size:14>Configuration Management
+****[#yellow] <i><size:14>Automated system configuration and updates.
 
 ** Automation in Daily Life
-***[#gold] ====<size:14>Smart Homes
-****[#yellow] ====<size:14>Home automation for convenience and energy savings.
-***[#gold] ====<size:14>Personal Assistants
-****[#yellow] ====<size:14>Voice-activated virtual assistants like Siri and Alexa.
-***[#gold] ====<size:14>Wearables
-****[#yellow] ====<size:14>Automated monitoring of health and fitness.
-***[#gold] ====<size:14>Autonomous Vehicles
-****[#yellow] ====<size:14>Self-driving cars and drones.
-***[#gold] ====<size:14>E-Commerce Automation
-****[#yellow] ====<size:14>Automated online shopping and delivery.
+***[#gold] <i><size:14>Smart Homes
+****[#yellow] <i><size:14>Home automation for convenience and energy savings.
+***[#gold] <i><size:14>Personal Assistants
+****[#yellow] <i><size:14>Voice-activated virtual assistants like Siri and Alexa.
+***[#gold] <i><size:14>Wearables
+****[#yellow] <i><size:14>Automated monitoring of health and fitness.
+***[#gold] <i><size:14>Autonomous Vehicles
+****[#yellow] <i><size:14>Self-driving cars and drones.
+***[#gold] <i><size:14>E-Commerce Automation
+****[#yellow] <i><size:14>Automated online shopping and delivery.
 
 @endmindmap
