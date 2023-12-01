@@ -1,0 +1,37 @@
+@startmindmap
+title =<i><b><u>Greek Mathematics
+!theme hacker
+
+*[#darkblue] <i>Greek Mathematics
+**[#lightblue] <i><color #blac><size:14>Period
+***[#green] <b><i><color #white><size:14>Flourished from approximately 600 BC to 300 AD.
+**[#lightblue] <i><color #blac><size:14>Mathematicians
+***[#green] <b><i><color #white><size:14>Thales of Miletus
+****[#yellow] <i><color #black><size:14>Known for geometric principles and predicting solar eclipses.
+***[#green] <b><i><color #white><size:14>Pythagoras
+****[#yellow] <i><color #black><size:14>Associated with the Pythagorean theorem and numerical relationships.
+***[#green] <b><i><color #white><size:14>Euclid
+****[#yellow] <i><color #black><size:14>Authored "Elements," a comprehensive work on geometry and number theory.
+***[#green] <b><i><color #white><size:14>Archimedes
+****[#yellow] <i><color #black><size:14>Renowned for his contributions to calculus, geometry, and mechanics.
+**[#lightblue] <i><color #blac><size:14>Contributions
+***[#green] <b><i><color #white><size:14>Geometry
+****[#yellow] <i><color #black><size:14>Development of axiomatic system in Euclidean geometry by Euclid.
+****[#yellow] <i><color #black><size:14>Measurement of circles, spheres, and geometric figures.
+***[#green] <b><i><color #white><size:14>Number Theory
+****[#yellow] <i><color #black><size:14>Pythagorean theorem and work on perfect numbers and primes.
+****[#yellow] <i><color #black><size:14>Euclidean division lemma and fundamental concepts in arithmetic.
+***[#green] <b><i><color #white><size:14>Mechanics
+****[#yellow] <i><color #black><size:14>Archimedes' principle and lever laws.
+****[#yellow] <i><color #black><size:14>Calculations of areas, volumes, and centers of mass.
+**[#lightblue] <i><color #blac><size:14>Notable Works
+***[#green] <b><i><color #white><size:14>Euclid's "Elements"
+****[#yellow] <i><color #black><size:14>Comprehensive compilation of mathematical knowledge at the time.
+***[#green] <b><i><color #white><size:14>Archimedes' Treatises
+****[#yellow] <i><color #black><size:14>"On the Sphere and Cylinder" and "The Method of Mechanical Theorems."
+**[#lightblue] <i><color #blac><size:14>Legacy
+***[#green] <b><i><color #white><size:14>Influence on Modern Mathematics
+****[#yellow] <i><color #black><size:14>Foundation of axiomatic systems and geometric principles.
+***[#green] <b><i><color #white><size:14>Impact on Science and Engineering
+****[#yellow] <i><color #black><size:14>Contributions to physics, astronomy, and engineering principles.
+@endmindmap

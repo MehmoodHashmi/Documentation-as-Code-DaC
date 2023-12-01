@@ -1,0 +1,58 @@
+@startmindmap
+
+title =<i><b><u>Event Sourcing at Scale vs Stream Processing at Scale
+!theme hacker
+
+
+*[#darkblue] <i>Event Sourcing at Scale vs Stream Processing at Scale
+**[#lightblue] <i><color #blac><size:14>Event Sourcing at Scale
+***[#green] <b><i><color #white><size:14>Characteristics
+****[#yellow] <i><color #black><size:14>Immutable Events
+*****[#yellow] <i><color #black><size:14>Recorded events are never changed or deleted, allowing for historical reconstruction.
+****[#yellow] <i><color #black><size:14>State Reconstruction
+*****[#yellow] <i><color #black><size:14>System state is derived from stored events, enabling system rollback or state analysis.
+****[#yellow] <i><color #black><size:14>Scalability Challenges
+*****[#yellow] <i><color #black><size:14>Handling large volumes of immutable events efficiently while maintaining integrity.
+****[#yellow] <i><color #black><size:14>Storage Considerations
+*****[#yellow] <i><color #black><size:14>Event store design and optimization for high throughput and reliability.
+***[#green] <b><i><color #white><size:14>Advantages
+****[#yellow] <i><color #black><size:14>Historical Analysis
+*****[#yellow] <i><color #black><size:14>Enables analyzing system states at any point in time.
+****[#yellow] <i><color #black><size:14>Auditability and Compliance
+*****[#yellow] <i><color #black><size:14>Provides a complete audit trail for compliance needs.
+****[#yellow] <i><color #black><size:14>Event-Driven Architecture
+*****[#yellow] <i><color #black><size:14>Facilitates event-driven systems and microservices.
+**[#lightblue] <i><color #blac><size:14>Stream Processing at Scale
+***[#green] <b><i><color #white><size:14>Characteristics
+****[#yellow] <i><color #black><size:14>Real-time Processing
+*****[#yellow] <i><color #black><size:14>Immediate processing of continuous event data streams in high volumes.
+****[#yellow] <i><color #black><size:14>Scalability Challenges
+*****[#yellow] <i><color #black><size:14>Efficiently handling high-throughput, real-time data processing across distributed systems.
+****[#yellow] <i><color #black><size:14>Fault Tolerance
+*****[#yellow] <i><color #black><size:14>Managing errors or failures in real-time processing without data loss.
+****[#yellow] <i><color #black><size:14>Time-Sensitive Analytics
+*****[#yellow] <i><color #black><size:14>Analyzing streaming data for immediate insights or actions.
+***[#green] <b><i><color #white><size:14>Advantages
+****[#yellow] <i><color #black><size:14>Real-time Decision Making
+*****[#yellow] <i><color #black><size:14>Enables real-time decisions based on streaming data.
+****[#yellow] <i><color #black><size:14>Dynamic Data Processing
+*****[#yellow] <i><color #black><size:14>Handles data transformations or actions on the fly.
+****[#yellow] <i><color #black><size:14>Low Latency Analytics
+*****[#yellow] <i><color #black><size:14>Provides insights with minimal delay for rapid decision-making.
+**[#lightblue] <i><color #blac><size:14>Use Cases
+***[#green] <b><i><color #white><size:14>Event Sourcing at Scale
+****[#yellow] <i><color #black><size:14>Commonly used in systems requiring audit trails, historical analysis, and accurate state reconstruction.
+***[#green] <b><i><color #white><size:14>Stream Processing at Scale
+****[#yellow] <i><color #black><size:14>Applied in systems demanding real-time analytics, dynamic processing, and low-latency decision-making.
+**[#lightblue] <i><color #blac><size:14>Implementation
+***[#green] <b><i><color #white><size:14>Event Sourcing at Scale
+****[#yellow] <i><color #black><size:14>Utilizes specialized event stores and systems for handling large volumes of immutable events.
+***[#green] <b><i><color #white><size:14>Stream Processing at Scale
+****[#yellow] <i><color #black><size:14>Employs distributed stream processing frameworks or platforms for real-time event processing.
+**[#lightblue] <i><color #blac><size:14>Challenges
+***[#green] <b><i><color #white><size:14>Event Sourcing at Scale
+****[#yellow] <i><color #black><size:14>Scalability and performance in handling large event volumes while ensuring consistency and reliability.
+***[#green] <b><i><color #white><size:14>Stream Processing at Scale
+****[#yellow] <i><color #black><size:14>Managing high-throughput, fault tolerance, and maintaining low latency across distributed systems.
+
+@endmindmap

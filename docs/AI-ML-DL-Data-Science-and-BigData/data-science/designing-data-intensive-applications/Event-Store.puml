@@ -1,0 +1,46 @@
+@startmindmap
+title =<i><b><u> Event Store
+!theme hacker
+
+
+*[#darkblue] <i>Event Store
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <b><i><color #white><size:14>Database or storage system to persist immutable events.
+**[#lightblue] <i><color #blac><size:14>Characteristics
+***[#green] <b><i><color #white><size:14>Immutable Persistence
+****[#yellow] <i><color #black><size:14>Events once stored are never changed or deleted.
+***[#green] <b><i><color #white><size:14>Append-only Operations
+****[#yellow] <i><color #black><size:14>New events are appended to the store.
+***[#green] <b><i><color #white><size:14>Sequential Storage
+****[#yellow] <i><color #black><size:14>Events are stored in sequential order based on occurrence time.
+***[#green] <b><i><color #white><size:14>Scalability
+****[#yellow] <i><color #black><size:14>Ability to handle large volumes of events efficiently.
+**[#lightblue] <i><color #blac><size:14>Advantages
+***[#green] <b><i><color #white><size:14>Auditability
+****[#yellow] <i><color #black><size:14>Complete history for audit trails and compliance needs.
+***[#green] <b><i><color #white><size:14>System Reconstruction
+****[#yellow] <i><color #black><size:14>Enables rebuilding system state by replaying events.
+***[#green] <b><i><color #white><size:14>Decoupling
+****[#yellow] <i><color #black><size:14>Separation of event storage from business logic.
+***[#green] <b><i><color #white><size:14>Multiple Views
+****[#yellow] <i><color #black><size:14>Events can generate various projections or views.
+**[#lightblue] <i><color #blac><size:14>Implementation
+***[#green] <b><i><color #white><size:14>Storage Types
+****[#yellow] <i><color #black><size:14>Options include databases, distributed storage, etc.
+***[#green] <b><i><color #white><size:14>Event Serialization
+****[#yellow] <i><color #black><size:14>Converting events into a storable format <b>(JSON, Protobuf, etc.).
+***[#green] <b><i><color #white><size:14>Indexing Strategies
+****[#yellow] <i><color #black><size:14>Optimizing event retrieval and querying.
+***[#green] <b><i><color #white><size:14>Event Stream Processing
+****[#yellow] <i><color #black><size:14>Real-time or batch processing of event streams.
+**[#lightblue] <i><color #blac><size:14>Challenges
+***[#green] <b><i><color #white><size:14>Scalability Bottlenecks
+****[#yellow] <i><color #black><size:14>Managing high throughput or large event volumes.
+***[#green] <b><i><color #white><size:14>Consistency and Durability
+****[#yellow] <i><color #black><size:14>Ensuring durability and consistency across distributed systems.
+***[#green] <b><i><color #white><size:14>Retention Policies
+****[#yellow] <i><color #black><size:14>Determining how long to retain events in the store.
+***[#green] <b><i><color #white><size:14>Data Partitioning
+****[#yellow] <i><color #black><size:14>Strategies for distributing events across nodes or partitions.
+
+@endmindmap

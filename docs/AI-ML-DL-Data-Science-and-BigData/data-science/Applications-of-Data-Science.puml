@@ -4,61 +4,61 @@ title =Applications of Data Science
 
 * Data Science
 ** Classification
-***[#yellow] ====<size:13>Sentiment Analysis
-***[#yellow] ====<size:13>Image Classification
-***[#yellow] ====<size:13>Spam Detection
-***[#yellow] ====<size:13>Medical Diagnosis
+***[#yellow] <i><size:14>Sentiment Analysis
+***[#yellow] <i><size:14>Image Classification
+***[#yellow] <i><size:14>Spam Detection
+***[#yellow] <i><size:14>Medical Diagnosis
 ** Regression
-***[#yellow] ====<size:13>Sales Forecasting
-***[#yellow] ====<size:13>Price Prediction
-***[#yellow] ====<size:13>Demand Forecasting
+***[#yellow] <i><size:14>Sales Forecasting
+***[#yellow] <i><size:14>Price Prediction
+***[#yellow] <i><size:14>Demand Forecasting
 ** Clustering
-***[#yellow] ====<size:13>Customer Segmentation
-***[#yellow] ====<size:13>Anomaly Detection
-***[#yellow] ====<size:13>Recommendation Systems
+***[#yellow] <i><size:14>Customer Segmentation
+***[#yellow] <i><size:14>Anomaly Detection
+***[#yellow] <i><size:14>Recommendation Systems
 ** Natural Language Processing
-***[#yellow] ====<size:13>Chatbots
-***[#yellow] ====<size:13>Language Translation
-***[#yellow] ====<size:13>Text Summarization
+***[#yellow] <i><size:14>Chatbots
+***[#yellow] <i><size:14>Language Translation
+***[#yellow] <i><size:14>Text Summarization
 ** Time Series Analysis
-***[#yellow] ====<size:13>Stock Market Predictions
-***[#yellow] ====<size:13>Weather Forecasting
-***[#yellow] ====<size:13>Demand Forecasting
+***[#yellow] <i><size:14>Stock Market Predictions
+***[#yellow] <i><size:14>Weather Forecasting
+***[#yellow] <i><size:14>Demand Forecasting
 ** Big Data Analysis
-***[#yellow] ====<size:13>Social Media Analytics
-***[#yellow] ====<size:13>Fraud Detection
-***[#yellow] ====<size:13>Network Traffic Analysis
+***[#yellow] <i><size:14>Social Media Analytics
+***[#yellow] <i><size:14>Fraud Detection
+***[#yellow] <i><size:14>Network Traffic Analysis
 ** Machine Learning
-***[#yellow] ====<size:13>Predictive Maintenance
-***[#yellow] ====<size:13>Credit Scoring
-***[#yellow] ====<size:13>Autonomous Vehicles
+***[#yellow] <i><size:14>Predictive Maintenance
+***[#yellow] <i><size:14>Credit Scoring
+***[#yellow] <i><size:14>Autonomous Vehicles
 ** Data Visualization
-***[#yellow] ====<size:13>Interactive Dashboards
-***[#yellow] ====<size:13>Infographics
-***[#yellow] ====<size:13>Exploratory Data Analysis
+***[#yellow] <i><size:14>Interactive Dashboards
+***[#yellow] <i><size:14>Infographics
+***[#yellow] <i><size:14>Exploratory Data Analysis
 ** Data Mining
-***[#yellow] ====<size:13>Market Basket Analysis
-***[#yellow] ====<size:13>Association Rule Mining
+***[#yellow] <i><size:14>Market Basket Analysis
+***[#yellow] <i><size:14>Association Rule Mining
 ** Deep Learning
-***[#yellow] ====<size:13>Speech Recognition
-***[#gold] ====<size:13>**Object Detection**
+***[#yellow] <i><size:14>Speech Recognition
+***[#gold] <i><size:14>**Object Detection**
 ** Geospatial Analysis
-***[#yellow] ====<size:13>GIS Applications
-***[#yellow] ====<size:13>Location-Based Services
+***[#yellow] <i><size:14>GIS Applications
+***[#yellow] <i><size:14>Location-Based Services
 ** Healthcare Analytics
-***[#yellow] ====<size:13>Disease Detection
-***[#yellow] ====<size:13>Drug Discovery
+***[#yellow] <i><size:14>Disease Detection
+***[#yellow] <i><size:14>Drug Discovery
 ** Environmental Data Science
-***[#yellow] ====<size:13>Climate Modeling
-***[#yellow] ====<size:13>Natural Disaster Prediction
+***[#yellow] <i><size:14>Climate Modeling
+***[#yellow] <i><size:14>Natural Disaster Prediction
 ** Financial Data Science
-***[#yellow] ====<size:13>Portfolio Management
-***[#yellow] ====<size:13>Credit Risk Assessment
+***[#yellow] <i><size:14>Portfolio Management
+***[#yellow] <i><size:14>Credit Risk Assessment
 ** Sports Analytics
-***[#yellow] ====<size:13>Performance Analysis
-***[#yellow] ====<size:13>Player Evaluation
+***[#yellow] <i><size:14>Performance Analysis
+***[#yellow] <i><size:14>Player Evaluation
 ** Education Analytics
-***[#yellow] ====<size:13>Personalized Learning
-***[#yellow] ====<size:13>Student Performance Analysis
+***[#yellow] <i><size:14>Personalized Learning
+***[#yellow] <i><size:14>Student Performance Analysis
 ** Conclusion - The applications of data science are vast and diverse, providing insights and solutions across various domains.
 @endmindmap

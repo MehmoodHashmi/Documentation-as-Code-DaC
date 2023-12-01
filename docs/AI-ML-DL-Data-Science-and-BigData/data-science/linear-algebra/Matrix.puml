@@ -1,0 +1,77 @@
+@startmindmap
+title =<i><b><u>Matrix
+* <b>[[Scalar.puml Scalar]]
+** <b>[[Scalar.puml Is zero dimension and scalar are same?]]
+!theme hacker
+*[#darkblue] <i> Matrix
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <i><color #white><size:14>Rectangular array of numbers, symbols, or expressions arranged in rows and columns.
+**[#lightblue] <i><color #blac><size:14>Types
+***[#green] <b><i><color #white><size:14>Square Matrix
+****[#yellow] <i><color #black><size:14>Same number of rows and columns (n x n).
+***[#green] <b><i><color #white><size:14>Row Matrix
+****[#yellow] <i><color #black><size:14>Single row with multiple columns (1 x m).
+*****[#yellow] <i><color #black><size:14><img:images/img_1.png>
+***[#green] <b><i><color #white><size:14>Column Matrix
+****[#yellow] <i><color #black><size:14>Single column with multiple rows (n x 1).
+*****[#yellow] <i><color #black><size:14><img:images/img.png>
+******[#yellow]:<i><color #black><size:14>Their distinction lies in their shape and orientation—column matrices are vertical, while row matrices are horizontal.
+<i><color #black><size:14>These differences in orientation affect how matrix operations and calculations are performed,
+<i><color #black><size:14>as the dimensions and arrangements of elements dictate how matrix algebra is carried out;
+
+***[#green] <b><i><color #white><size:14>Zero Matrix
+****[#yellow] <i><color #black><size:14>All elements are zero.
+***[#green] <b><i><color #white><size:14>Identity Matrix
+****[#yellow] <i><color #black><size:14>Diagonal elements are 1, and others are 0.
+**[#lightblue] <i><color #blac><size:14>Operations
+***[#green] <b><i><color #white><size:14>Addition
+****[#yellow] <i><color #black><size:14>Adding corresponding elements of matrices.
+***[#green] <b><i><color #white><size:14>Subtraction
+****[#yellow] <i><color #black><size:14>Subtracting corresponding elements of matrices.
+***[#green] <b><i><color #white><size:14>Scalar Multiplication
+****[#yellow] <i><color #black><size:14>Multiplying a matrix by a constant.
+***[#green] <b><i><color #white><size:14>Matrix Multiplication
+****[#yellow] <i><color #black><size:14>Multiplying rows of the first matrix by columns of the second.
+**[#lightblue] <i><color #blac><size:14>Properties
+***[#green] <b><i><color #white><size:14>Commutative Property
+****[#yellow] <i><color #black><size:14>A + B = B + A (for addition).
+***[#green] <b><i><color #white><size:14>Associative Property
+****[#yellow] <i><color #black><size:14>(A + B) + C = A + (B + C) (for addition).
+***[#green] <b><i><color #white><size:14>Distributive Property
+****[#yellow] <i><color #black><size:14>A * (B + C) = A * B + A * C (for multiplication).
+***[#green] <b><i><color #white><size:14>Identity Property
+****[#yellow] <i><color #black><size:14>A * I = A (for identity matrix I and matrix A).
+**[#lightblue] <i><color #blac><size:14>Applications
+***[#green] <b><i><color #white><size:14>Mathematics
+****[#yellow] <i><color #black><size:14>Solving systems of linear equations.
+***[#green] <b><i><color #white><size:14>Computer Graphics
+****[#yellow] <i><color #black><size:14>Transformations, rotations, scaling operations.
+***[#green] <b><i><color #white><size:14>Economics
+****[#yellow] <i><color #black><size:14>Input-output models, Markov chains.
+***[#green] <b><i><color #white><size:14>Physics
+****[#yellow] <i><color #black><size:14>Representation of physical quantities and transformations.
+**[#lightblue] <i><color #blac><size:22>Matrix Representation
+***[#green] <b><i><color #white><size:14>Rows and Columns
+****[#yellow] <i><color #black><size:14>Rows represent horizontal arrays, columns represent vertical arrays.
+***[#green] <b><i><color #white><size:14>Elements
+****[#yellow] <i><color #black><size:14>Individual numbers or symbols within the matrix.
+***[#green] <b><i><color #white><size:22>[[Dimensions.puml Dimensions]]
+****[#yellow] <i><color #black><size:14>The number of rows and columns defining the size of the matrix.
+**[#lightblue] <i><color #blac><size:14>Matrix Notation
+***[#green] <b><i><color #white><size:14>General Notation
+****[#yellow] <i><color #black><size:14>A = [a_ij] where i represents row number and j represents column number.
+***[#green] <b><i><color #white><size:14>Transpose
+****[#yellow] <i><color #black><size:14>Flipping rows into columns and vice versa (A^T).
+***[#green] <b><i><color #white><size:14>Inverse
+****[#yellow] <i><color #black><size:14>When multiplied by its inverse, a matrix gives the identity matrix.
+**[#lightblue] <i><color #blac><size:14>Special Matrices
+***[#green] <b><i><color #white><size:14>Symmetric Matrix
+****[#yellow] <i><color #black><size:14>A = A^T, where A is equal to its transpose.
+***[#green] <b><i><color #white><size:14>Orthogonal Matrix
+****[#yellow] <i><color #black><size:14>A * A^T = I, where A * A^T equals the identity matrix.
+***[#green] <b><i><color #white><size:14>Diagonal Matrix
+****[#yellow] <i><color #black><size:14>Non-zero elements only along the diagonal, rest are zero.
+***[#green] <b><i><color #white><size:14>Triangular Matrix
+****[#yellow] <i><color #black><size:14>Elements below or above the main diagonal are zero.
+
+@endmindmap

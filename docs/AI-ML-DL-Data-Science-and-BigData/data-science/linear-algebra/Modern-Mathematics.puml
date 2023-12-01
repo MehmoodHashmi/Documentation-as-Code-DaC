@@ -1,0 +1,46 @@
+@startmindmap
+title =<i><b><u>Modern Mathematics
+!theme hacker
+
+*[#darkblue] <i>Modern Mathematics
+**[#lightblue] <i><color #blac><size:14>Period
+***[#green] <b><i><color #white><size:14>Began around the 17th century and continues to evolve.
+**[#lightblue] <i><color #blac><size:14>Branches
+***[#green] <b><i><color #white><size:14>Algebra
+****[#yellow] <i><color #black><size:14>Abstract algebra, linear algebra, and algebraic geometry.
+***[#green] <b><i><color #white><size:14>Analysis
+****[#yellow] <i><color #black><size:14>Real analysis, complex analysis, functional analysis.
+***[#green] <b><i><color #white><size:14>Geometry
+****[#yellow] <i><color #black><size:14>Non-Euclidean geometry, differential geometry, topology.
+***[#green] <b><i><color #white><size:14>Number Theory
+****[#yellow] <i><color #black><size:14>Study of integers, prime numbers, and number systems.
+***[#green] <b><i><color #white><size:14>Probability and Statistics
+****[#yellow] <i><color #black><size:14>Theory of probability, statistical analysis, and data science.
+***[#green] <b><i><color #white><size:14>Discrete Mathematics
+****[#yellow] <i><color #black><size:14>Graph theory, combinatorics, cryptography.
+**[#lightblue] <i><color #blac><size:14>Foundational Theories
+***[#green] <b><i><color #white><size:14>Set Theory
+****[#yellow] <i><color #black><size:14>Development by Cantor, defining mathematical structures.
+***[#green] <b><i><color #white><size:14>Logic
+****[#yellow] <i><color #black><size:14>Symbolic logic, predicate calculus, mathematical logic.
+***[#green] <b><i><color #white><size:14>Mathematical Logic
+****[#yellow] <i><color #black><size:14>Gödel's incompleteness theorems, model theory.
+**[#lightblue] <i><color #blac><size:14>Significant Figures
+***[#green] <b><i><color #white><size:14>Isaac Newton
+****[#yellow] <i><color #black><size:14>Contributions to calculus and laws of motion.
+***[#green] <b><i><color #white><size:14>Leonhard Euler
+****[#yellow] <i><color #black><size:14>Pioneering work in analysis, number theory, and graph theory.
+***[#green] <b><i><color #white><size:14>Georg Cantor
+****[#yellow] <i><color #black><size:14>Founder of set theory and study of infinite sets.
+***[#green] <b><i><color #white><size:14>David Hilbert
+****[#yellow] <i><color #black><size:14>Influential in various areas, including number theory and geometry.
+**[#lightblue] <i><color #blac><size:14>Applications
+***[#green] <b><i><color #white><size:14>Physics
+****[#yellow] <i><color #black><size:14>Utilization of mathematical theories in explaining natural phenomena.
+***[#green] <b><i><color #white><size:14>Computer Science
+****[#yellow] <i><color #black><size:14>Algorithms, cryptography, computational complexity.
+***[#green] <b><i><color #white><size:14>Cryptography
+****[#yellow] <i><color #black><size:14>Encryption methods based on number theory and algorithms.
+***[#green] <b><i><color #white><size:14>Finance and Economics
+****[#yellow] <i><color #black><size:14>Use of statistics and probability in modeling and predictions.
+@endmindmap

@@ -1,0 +1,70 @@
+@startmindmap
+title =<i><b><u>Event Sourcing vs Stream Processing
+!theme hacker
+
+
+*[#darkblue] <i>Event Sourcing vs Stream Processing
+**[#lightblue] <i><color #blac><size:14>Event Sourcing
+***[#green] <b><i><color #white><size:14>Definition
+****[#yellow] <i><color #black><size:14>Persistence of state changes as a sequence of events.
+***[#green] <b><i><color #white><size:14>Characteristics
+****[#yellow] <i><color #black><size:14>Immutable Events
+*****[#yellow] <i><color #black><size:14>Recorded events are never changed or deleted.
+****[#yellow] <i><color #black><size:14>State Reconstruction
+*****[#yellow] <i><color #black><size:14>System state is derived from stored events.
+****[#yellow] <i><color #black><size:14>Full Audit Trail
+*****[#yellow] <i><color #black><size:14>Complete history of state changes available.
+***[#green] <b><i><color #white><size:14>Advantages
+****[#yellow] <i><color #black><size:14>Reconstructing State
+*****[#yellow] <i><color #black><size:14>System state can be rebuilt at any point in time.
+****[#yellow] <i><color #black><size:14>Decoupling State and Behavior
+*****[#yellow] <i><color #black><size:14>Separation of state storage from business logic.
+****[#yellow] <i><color #black><size:14>Auditability and Compliance
+*****[#yellow] <i><color #black><size:14>Full traceability and audit trails for compliance.
+***[#green] <b><i><color #white><size:14>Challenges
+****[#yellow] <i><color #black><size:14>Complexity
+*****[#yellow] <i><color #black><size:14>Understanding and managing event flows.
+****[#yellow] <i><color #black><size:14>Scalability
+*****[#yellow] <i><color #black><size:14>Handling large event volumes efficiently.
+****[#yellow] <i><color #black><size:14>Versioning and Evolution
+*****[#yellow] <i><color #black><size:14>Handling changes in event structure over time.
+***[#green] <b><i><color #white><size:14>Implementation Components
+****[#yellow] <i><color #black><size:14>Event Store
+*****[#yellow] <i><color #black><size:14>Database storing immutable events.
+****[#yellow] <i><color #black><size:14>Projections
+*****[#yellow] <i><color #black><size:14>Derived views based on replaying events.
+****[#yellow] <i><color #black><size:14>Command and Event Handlers
+*****[#yellow] <i><color #black><size:14>Processes commands to generate events and react to events to update state.
+**[#lightblue] <i><color #blac><size:14>Stream Processing
+***[#green] <b><i><color #white><size:14>Definition
+****[#yellow] <i><color #black><size:14>Real-time processing of continuous event data streams.
+***[#green] <b><i><color #white><size:14>Characteristics
+****[#yellow] <i><color #black><size:14>Real-time Processing
+*****[#yellow] <i><color #black><size:14>Immediate processing of incoming event data.
+****[#yellow] <i><color #black><size:14>Continuous Stream
+*****[#yellow] <i><color #black><size:14>Continuous flow of events from various sources.
+****[#yellow] <i><color #black><size:14>Parallel Processing
+*****[#yellow] <i><color #black><size:14>Simultaneous handling of multiple event streams.
+***[#green] <b><i><color #white><size:14>Advantages
+****[#yellow] <i><color #black><size:14>Real-time Analytics
+*****[#yellow] <i><color #black><size:14>Immediate insights from streaming data.
+****[#yellow] <i><color #black><size:14>Complex Event Processing <b>(CEP)
+*****[#yellow] <i><color #black><size:14>Identification of patterns or correlations in data.
+****[#yellow] <i><color #black><size:14>Low Latency
+*****[#yellow] <i><color #black><size:14>Minimized delay in processing events.
+***[#green] <b><i><color #white><size:14>Challenges
+****[#yellow] <i><color #black><size:14>Data Ordering
+*****[#yellow] <i><color #black><size:14>Ensuring correct sequencing of events in streams.
+****[#yellow] <i><color #black><size:14>Fault Tolerance
+*****[#yellow] <i><color #black><size:14>Handling errors or failures in real-time processing.
+****[#yellow] <i><color #black><size:14>Processing Complexity
+*****[#yellow] <i><color #black><size:14>Managing complex event processing logic efficiently.
+***[#green] <b><i><color #white><size:14>Implementation Components
+****[#yellow] <i><color #black><size:14>Event Sources
+*****[#yellow] <i><color #black><size:14>Sensors, applications, devices producing event data.
+****[#yellow] <i><color #black><size:14>Stream Processing Engines
+*****[#yellow] <i><color #black><size:14>Tools or frameworks for handling event streams.
+****[#yellow] <i><color #black><size:14>Stream Processing Topologies
+*****[#yellow] <i><color #black><size:14>Configurations for processing pipelines <b>(e.g., DAGs).
+
+@endmindmap

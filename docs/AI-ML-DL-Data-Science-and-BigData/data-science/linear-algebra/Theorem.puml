@@ -1,0 +1,57 @@
+@startmindmap
+title =<i><b><u>Theorem
+* =[[Axiom.puml axiom]]
+!theme hacker
+
+*[#darkblue] <i>Theorem
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <b><i><color #white><size:14>A statement proven true based on rigorous proofs and logical deductions.
+**[#lightblue] <i><color #blac><size:14>Types
+***[#green] <b><i><color #white><size:14>Mathematical Theorems
+****[#yellow] <i><color #black><size:14>Pythagorean Theorem
+*****[#yellow] <i><color #black><size:14> States that in a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides.
+****[#yellow] <i><color #black><size:14>Fundamental Theorem of Calculus
+*****[#yellow] <i><color #black><size:14> Establishes a link between the concept of the derivative and the concept of the integral.
+***[#green] <b><i><color #white><size:14>Theorems in Geometry
+****[#yellow] <i><color #black><size:14>Euclidean Geometry Theorems
+*****[#yellow] <i><color #black><size:14> Consist of principles and relationships within plane and solid figures formulated by Euclid.
+****[#yellow] <i><color #black><size:14>Circle Theorems
+*****[#yellow] <i><color #black><size:14> Include properties and relationships concerning circles, angles, and tangents.
+***[#green] <b><i><color #white><size:14>Theorems in Algebra
+****[#yellow] <i><color #black><size:14>Quadratic Formula
+*****[#yellow] <i><color #black><size:14> Provides the solutions to quadratic equations of the form ax^2 + bx + c = 0.
+****[#yellow] <i><color #black><size:14>Binomial Theorem
+*****[#yellow] <i><color #black><size:14> Describes the expansion of powers of a binomial.
+***[#green] <b><i><color #white><size:14>Theorems in Logic
+****[#yellow] <i><color #black><size:14>Law of Excluded Middle
+*****[#yellow] <i><color #black><size:14> Asserts that for any proposition, either that proposition is true or its negation is true.
+****[#yellow] <i><color #black><size:14>De Morgan's Laws
+*****[#yellow] <i><color #black><size:14> Describe the relationships between logical operators "and," "or," and "not."
+**[#lightblue] <i><color #blac><size:14>Proof Techniques
+***[#green] <b><i><color #white><size:14>Direct Proof
+****[#yellow] <i><color #black><size:14>Involves a straightforward presentation of logical steps to validate a statement.
+***[#green] <b><i><color #white><size:14>Indirect Proof (Proof by Contradiction)
+****[#yellow] <i><color #black><size:14>Assumes the negation of the statement to prove its contradiction.
+***[#green] <b><i><color #white><size:14>Proof by Contrapositive
+****[#yellow] <i><color #black><size:14>Proves the contrapositive of the statement to establish the original proposition.
+***[#green] <b><i><color #white><size:14>Proof by Induction
+****[#yellow] <i><color #black><size:14>Utilizes the principle that if a statement holds for a base case and any given case, it holds for the subsequent case.
+**[#lightblue] <i><color #blac><size:14>Famous Mathematicians
+***[#green] <b><i><color #white><size:14>Euclid
+****[#yellow] <i><color #black><size:14>Known for his work "Elements," a foundational treatise in geometry.
+***[#green] <b><i><color #white><size:14>Pythagoras
+****[#yellow] <i><color #black><size:14>Associated with the Pythagorean Theorem and contributions to mathematics and philosophy.
+***[#green] <b><i><color #white><size:14>Isaac Newton
+****[#yellow] <i><color #black><size:14>Made significant contributions to calculus, physics, and the laws of motion.
+***[#green] <b><i><color #white><size:14>Carl Friedrich Gauss
+****[#yellow] <i><color #black><size:14>Renowned for his work in number theory, statistics, and differential geometry.
+**[#lightblue] <i><color #blac><size:14>Applications
+***[#green] <b><i><color #white><size:14>Physics
+****[#yellow] <i><color #black><size:14>Theorems underpin physical laws and principles governing the natural world.
+***[#green] <b><i><color #white><size:14>Engineering
+****[#yellow] <i><color #black><size:14>Used in designing structures, circuits, and systems.
+***[#green] <b><i><color #white><size:14>Computer Science
+****[#yellow] <i><color #black><size:14>Employed in algorithms, data structures, and computational logic.
+***[#green] <b><i><color #white><size:14>Cryptography
+****[#yellow] <i><color #black><size:14>Forms the basis of secure communication protocols and encryption techniques.
+@endmindmap

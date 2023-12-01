@@ -1,0 +1,43 @@
+@startmindmap
+title =<i><b><u>Axiom
+* <b>[[Theorem.puml Theorem]]
+!theme hacker
+
+*[#darkblue] <i>Axiom
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <b><i><color #white><size:14>Self-Evident Truth
+***[#green] <b><i><color #white><size:14>Accepted without Proof
+**[#lightblue] <i><color #blac><size:14>Types
+***[#green] <b><i><color #white><size:14>Mathematical Axioms
+****[#yellow] <i><color #black><size:14>Axioms of Arithmetic
+*****[#yellow] <i><color #black><size:14>Addition, Subtraction, Multiplication, Division axioms, etc.
+****[#yellow] <i><color #black><size:14>Axioms of Geometry
+*****[#yellow] <i><color #black><size:14>Euclid's Five Postulates
+****[#yellow] <i><color #black><size:14>Axioms of Set Theory
+*****[#yellow] <i><color #black><size:14>Axiom of Extensionality, Axiom of Pairing, Axiom of Union, etc.
+***[#green] <b><i><color #white><size:14>Logical Axioms
+****[#yellow] <i><color #black><size:14>Law of Identity
+*****[#yellow] <i><color #black><size:14>States that every thing is identical with itself.
+****[#yellow] <i><color #black><size:14>Law of Non-Contradiction
+*****[#yellow] <i><color #black><size:14>Asserts that a statement cannot be both true and false simultaneously.
+***[#green] <b><i><color #white><size:14>Scientific Axioms
+****[#yellow] <i><color #black><size:14>Laws of Motion
+*****[#yellow] <i><color #black><size:14>Newton's Three Laws describing the behavior of objects in motion.
+****[#yellow] <i><color #black><size:14>Laws of Thermodynamics
+*****[#yellow] <i><color #black><size:14>Principles governing energy conservation and entropy.
+**[#lightblue] <i><color #blac><size:14>Role in Reasoning
+***[#green] <b><i><color #white><size:14>Foundations of Mathematics
+****[#yellow] <i><color #black><size:14>Form the basis for mathematical reasoning and proofs.
+***[#green] <b><i><color #white><size:14>Logical Reasoning
+****[#yellow] <i><color #black><size:14>Used as starting points in logical arguments and deductions.
+**[#lightblue] <i><color #blac><size:14>Consistency and Independence
+***[#green] <b><i><color #white><size:14>Ensuring Logical Consistency
+****[#yellow] <i><color #black><size:14>Axioms must not lead to contradictions within a system.
+***[#green] <b><i><color #white><size:14>Independence from Other Axioms
+****[#yellow] <i><color #black><size:14>Some axioms cannot be proven or derived from others within a system.
+**[#lightblue] <i><color #blac><size:22>Evolution of Axiomatic Systems
+***[#green] <b><i><color #white><size:14>Development from <size:18>[[Greek-Mathematics.puml Greek Mathematics]] to [[Modern-Mathematics.puml Modern Mathematics]]
+****[#yellow] <i><color #black><size:14>Euclidean Geometry to Non-Euclidean Geometries.
+***[#green] <b><i><color #white><size:14>Influence on Mathematical Structures
+****[#yellow] <i><color #black><size:14>Axiomatic set theory and its impact on modern mathematics.
+@endmindmap
