@@ -1,10 +1,10 @@
 @startmindmap
-title =__Deep Learning__
+title =<b><i>__Deep Learning__
 !theme hacker
 
 *[#darkblue] <size:14><i>Deep Learning
 **[#lightblue] <size:14><i>Definition
-***[#green] <i><color #white><size:22>**Deep Learning** is a __subset of machine learning__ that __focuses on **[[Neural-Network-Architecture.puml neural networks]]** with multiple layers **[[Neural-Network-Architecture.puml (deep neural networks)]]**__ \n<i><size:22><color #white>to __model and solve complex tasks by learning **representations** from **data.**__
+***[#green] <i><color #white><size:21>**Deep Learning** is a __subset of machine learning__ that __focuses on **[[Neural-Network-Architecture.puml neural networks]]** with multiple layers **[[Neural-Network-Architecture.puml (deep neural networks)]]**__ \n<i><size:21><color #white>to __model and solve complex tasks by learning **representations** from **data.**__
 
 **[#lightblue] <size:14><i>Key Concepts
 ***[#green] <color #white><b><size:14><i>Artificial Neural Networks **(ANN)**
