@@ -40,15 +40,15 @@ title =<i><b><u>Neural Network Architecture \n<color #red><i>Activation Function
 ****[#orange] <color #black><b><i><size:14>Neurons\n<img:images/img_6.png>
 *****[#yellow] <i><size:14>Many Inputs, One Output
 ****[#orange] <color #black><b><i><size:14>Weighted Sum and Bias
-*****[#yellow] <i><size:14>Each "input" is multiplied by its own "weight" and "added" up \n<i><size:14>along with "one" extra "weight" (w4) called a "bias" \n<img:images/img_7.png>
-******[#yellow] <i><size:14>Rewrite this "weighted sum" with "linear algebra", we can put \n<i><size:14>our "inputs" into a "vector" with an "extra one" for the "bias" \n<i><size:14>& our "weights" into another "vector" &then take "dot product"\n<img:images/img_8.png> <img:images/img_9.png>
+*****[#yellow] <i><size:14>Each "input" is multiplied by its own "weight" & "added" \n<i><size:14>up along with "one" extra "weight" (w4) called a "bias" \n<img:images/img_7.png>
+******[#yellow] <i><size:14>Rewrite this "weighted sum" with "linear algebra", we can put \n<i><size:14>our "inputs" into a "vector" with an "extra one" for the "bias" \n<i><size:14>& our "weights" into another "vector" & then take "dot product"\n<img:images/img_8.png> <img:images/img_9.png>
 ****[#orange] <color #black><b><i><size:14>Activation Function
 *****[#yellow] <i><size:14>ReLU
 ******[#yellow] <i><size:14>The "result" of "dot product" is passed to (ReLU)\n<img:images/img_10.png>
 *******[#yellow] <i><size:14>returns \t<b><size:32>0
 ***[#green] <b><i><size:14><color #white>Learning Process
 ****[#orange] <color #black><b><i><size:14>Minimize Error or Loss
-****[#orange] <color #black><b><i><size:14>Back Propagation
+****[#orange] <color #black><b><i><size:14>Backpropagation
 
 
 *[#darkblue] <i>Neural Network Architecture
