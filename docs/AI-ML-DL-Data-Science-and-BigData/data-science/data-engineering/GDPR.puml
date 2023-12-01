@@ -2,91 +2,91 @@
 title =__GDPR - General Data Protection Regulation__
 !theme hacker
 
-* GDPR
-** Definition
-***[#gold] ====<size:18>**GDPR** is a European Union regulation that governs the collection, processing, and protection of personal data to ensure individuals' privacy and data security.
+*[#darkblue] <i>GDPR
+**[#lightblue] <i>Definition
+***[#gold] <i><size:18>**GDPR** is a European Union regulation that governs the collection, processing, and protection of personal data to ensure individuals' privacy and data security.
 
-**[#orange] ==== Key Concepts
-***[#gold] ====<size:14>Personal Data
-****[#yellow] ====<size:14>Information that can identify an individual, such as name, email, or IP address.
-***[#gold] ====<size:14>Data Controller
-****[#yellow] ====<size:14>Entities that determine the purpose and means of data processing.
-***[#gold] ====<size:14>Data Processor
-****[#yellow] ====<size:14>Entities that process data on behalf of data controllers.
-***[#gold] ====<size:14>Consent
-****[#yellow] ====<size:14>Voluntary and informed agreement for data processing.
-***[#gold] ====<size:14>Data Subject
-****[#yellow] ====<size:14>Individuals whose data is processed under GDPR.
-***[#gold] ====<size:14>Data Protection Officer **(DPO)**
-****[#yellow] ====<size:14>Appointed individual responsible for data protection compliance.
+**[#orange] <i> Key Concepts
+***[#gold] <i><size:14>Personal Data
+****[#yellow] <color #black><i><size:14>Information that can identify an individual, such as name, email, or IP address.
+***[#gold] <i><size:14>Data Controller
+****[#yellow] <color #black><i><size:14>Entities that determine the purpose and means of data processing.
+***[#gold] <i><size:14>Data Processor
+****[#yellow] <color #black><i><size:14>Entities that process data on behalf of data controllers.
+***[#gold] <i><size:14>Consent
+****[#yellow] <color #black><i><size:14>Voluntary and informed agreement for data processing.
+***[#gold] <i><size:14>Data Subject
+****[#yellow] <color #black><i><size:14>Individuals whose data is processed under GDPR.
+***[#gold] <i><size:14>Data Protection Officer **(DPO)**
+****[#yellow] <color #black><i><size:14>Appointed individual responsible for data protection compliance.
 
-**[#pink] ==== GDPR Principles
-***[#gold] ====<size:14>Lawfulness, Fairness, and Transparency
-****[#yellow] ====<size:14>Data processing must be legal, fair, and transparent.
-***[#gold] ====<size:14>Purpose Limitation
-****[#yellow] ====<size:14>Data should be collected for specific, legitimate purposes.
-***[#gold] ====<size:14>Data Minimization
-****[#yellow] ====<size:14>Only collect data necessary for the intended purpose.
-***[#gold] ====<size:14>Accuracy
-****[#yellow] ====<size:14>Data should be accurate and kept up to date.
-***[#gold] ====<size:14>Storage Limitation
-****[#yellow] ====<size:14>Data should be retained for the minimum necessary period.
-***[#gold] ====<size:14>Integrity and Confidentiality
-****[#yellow] ====<size:14>Data must be secure and protected from breaches.
-***[#gold] ====<size:14>Accountability
-****[#yellow] ====<size:14>Data controllers are responsible for GDPR compliance.
+**[#pink] <i> GDPR Principles
+***[#gold] <i><size:14>Lawfulness, Fairness, and Transparency
+****[#yellow] <color #black><i><size:14>Data processing must be legal, fair, and transparent.
+***[#gold] <i><size:14>Purpose Limitation
+****[#yellow] <color #black><i><size:14>Data should be collected for specific, legitimate purposes.
+***[#gold] <i><size:14>Data Minimization
+****[#yellow] <color #black><i><size:14>Only collect data necessary for the intended purpose.
+***[#gold] <i><size:14>Accuracy
+****[#yellow] <color #black><i><size:14>Data should be accurate and kept up to date.
+***[#gold] <i><size:14>Storage Limitation
+****[#yellow] <color #black><i><size:14>Data should be retained for the minimum necessary period.
+***[#gold] <i><size:14>Integrity and Confidentiality
+****[#yellow] <color #black><i><size:14>Data must be secure and protected from breaches.
+***[#gold] <i><size:14>Accountability
+****[#yellow] <color #black><i><size:14>Data controllers are responsible for GDPR compliance.
 
-**[#gold] ====GDPR Rights of Data Subjects
-***[#gold] ====<size:14>Right to Access
-****[#yellow] ====<size:14>Data subjects can access their personal data.
-***[#gold] ====<size:14>Right to Erasure **(Right to Be Forgotten)**
-****[#yellow] ====<size:14>Data subjects can request the deletion of their data.
-***[#gold] ====<size:14>Right to Portability
-****[#yellow] ====<size:14>Data subjects can request their data in a portable format.
-***[#gold] ====<size:14>Right to Rectification
-****[#yellow] ====<size:14>Data subjects can request corrections to their data.
-***[#gold] ====<size:14>Right to Object
-****[#yellow] ====<size:14>Data subjects can object to data processing.
+**[#gold] <i>GDPR Rights of Data Subjects
+***[#gold] <i><size:14>Right to Access
+****[#yellow] <color #black><i><size:14>Data subjects can access their personal data.
+***[#gold] <i><size:14>Right to Erasure **(Right to Be Forgotten)**
+****[#yellow] <color #black><i><size:14>Data subjects can request the deletion of their data.
+***[#gold] <i><size:14>Right to Portability
+****[#yellow] <color #black><i><size:14>Data subjects can request their data in a portable format.
+***[#gold] <i><size:14>Right to Rectification
+****[#yellow] <color #black><i><size:14>Data subjects can request corrections to their data.
+***[#gold] <i><size:14>Right to Object
+****[#yellow] <color #black><i><size:14>Data subjects can object to data processing.
 
-**[#white] ====GDPR Requirements
-***[#gold] ====<size:14>Data Protection Impact Assessment **(DPIA)**
-****[#yellow] ====<size:14>Assess and mitigate risks of data processing activities.
-***[#gold] ====<size:14>Data Breach Notification
-****[#yellow] ====<size:14>Notify authorities and affected individuals of data breaches.
-***[#gold] ====<size:14>Privacy by Design and Default
-****[#yellow] ====<size:14>Integrate data protection into systems and processes.
-***[#gold] ====<size:14>Data Transfer Outside EU
-****[#yellow] ====<size:14>Transfer personal data outside the EU with safeguards.
-***[#gold] ====<size:14>Consent Management
-****[#yellow] ====<size:14>Obtain clear and unambiguous consent for data processing.
+**[#white] <i>GDPR Requirements
+***[#gold] <i><size:14>Data Protection Impact Assessment **(DPIA)**
+****[#yellow] <color #black><i><size:14>Assess and mitigate risks of data processing activities.
+***[#gold] <i><size:14>Data Breach Notification
+****[#yellow] <color #black><i><size:14>Notify authorities and affected individuals of data breaches.
+***[#gold] <i><size:14>Privacy by Design and Default
+****[#yellow] <color #black><i><size:14>Integrate data protection into systems and processes.
+***[#gold] <i><size:14>Data Transfer Outside EU
+****[#yellow] <color #black><i><size:14>Transfer personal data outside the EU with safeguards.
+***[#gold] <i><size:14>Consent Management
+****[#yellow] <color #black><i><size:14>Obtain clear and unambiguous consent for data processing.
 
 ** GDPR Enforcement
-***[#gold] ====<size:14>Fines and Penalties
-****[#yellow] ====<size:14>Regulatory authorities can impose fines for non-compliance.
-***[#gold] ====<size:14>Cooperation and Consistency Mechanism
-****[#yellow] ====<size:14>Coordination among EU member state data protection authorities.
+***[#gold] <i><size:14>Fines and Penalties
+****[#yellow] <color #black><i><size:14>Regulatory authorities can impose fines for non-compliance.
+***[#gold] <i><size:14>Cooperation and Consistency Mechanism
+****[#yellow] <color #black><i><size:14>Coordination among EU member state data protection authorities.
 
-**[#lightgreen] ====Considerations
-***[#gold] ====<size:14>Data Mapping
-****[#yellow] ====<size:14>Identify what data is collected and processed.
-***[#gold] ====<size:14>Data Protection Impact Assessment
-****[#yellow] ====<size:14>Conduct DPIAs for high-risk processing activities.
-***[#gold] ====<size:14>Privacy Policies and Notices
-****[#yellow] ====<size:14>Provide transparent privacy information to data subjects.
-***[#gold] ====<size:14>Security Measures
-****[#yellow] ====<size:14>Implement appropriate security measures to protect data.
+**[#lightgreen] <i>Considerations
+***[#gold] <i><size:14>Data Mapping
+****[#yellow] <color #black><i><size:14>Identify what data is collected and processed.
+***[#gold] <i><size:14>Data Protection Impact Assessment
+****[#yellow] <color #black><i><size:14>Conduct DPIAs for high-risk processing activities.
+***[#gold] <i><size:14>Privacy Policies and Notices
+****[#yellow] <color #black><i><size:14>Provide transparent privacy information to data subjects.
+***[#gold] <i><size:14>Security Measures
+****[#yellow] <color #black><i><size:14>Implement appropriate security measures to protect data.
 
-***[#gold] ====<size:14>Data Protection Officer **(DPO)**
-****[#yellow] ====<size:14>Appoint a DPO if required, and ensure their expertise.
+***[#gold] <i><size:14>Data Protection Officer **(DPO)**
+****[#yellow] <color #black><i><size:14>Appoint a DPO if required, and ensure their expertise.
 
 ** Best Practices
-***[#gold] ====<size:14>Data Minimization
-****[#yellow] ====<size:14>Collect only data necessary for the intended purpose.
-***[#gold] ====<size:14>Regular Audits
-****[#yellow] ====<size:14>Conduct regular data protection audits and assessments.
-***[#gold] ====<size:14>Employee Training
-****[#yellow] ====<size:14>Train employees on GDPR compliance and data protection.
-***[#gold] ====<size:14>Data Subject Requests
-****[#yellow] ====<size:14>Establish processes for handling data subject requests efficiently.
+***[#gold] <i><size:14>Data Minimization
+****[#yellow] <color #black><i><size:14>Collect only data necessary for the intended purpose.
+***[#gold] <i><size:14>Regular Audits
+****[#yellow] <color #black><i><size:14>Conduct regular data protection audits and assessments.
+***[#gold] <i><size:14>Employee Training
+****[#yellow] <color #black><i><size:14>Train employees on GDPR compliance and data protection.
+***[#gold] <i><size:14>Data Subject Requests
+****[#yellow] <color #black><i><size:14>Establish processes for handling data subject requests efficiently.
 
 @endmindmap

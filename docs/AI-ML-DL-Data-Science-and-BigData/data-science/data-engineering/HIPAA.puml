@@ -2,92 +2,92 @@
 title =__HIPAA - Health Insurance Portability and Accountability Act__
 !theme hacker
 
-* HIPAA
-** Definition
+*[#darkblue] <i>HIPAA
+**[#lightblue] <i>Definition
 *** <size:14>**HIPAA** is a United States federal law that establishes standards for the privacy and security of protected health information **(PHI)** and regulates the healthcare industry.
 
-** Key Components
+**[#lightblue] <i>Key Components
 *** Protected Health Information **(PHI)**
-****[#yellow] ====<size:14>Individually identifiable health information.
+****[#yellow] <color #black><i><size:14>Individually identifiable health information.
 *** Covered Entities
-****[#yellow] ====<size:14>Healthcare providers, health plans, and healthcare clearinghouses.
+****[#yellow] <color #black><i><size:14>Healthcare providers, health plans, and healthcare clearinghouses.
 *** Business Associates
-****[#yellow] ====<size:14>Entities that handle PHI on behalf of covered entities.
+****[#yellow] <color #black><i><size:14>Entities that handle PHI on behalf of covered entities.
 *** Privacy Rule
-****[#yellow] ====<size:14>Standards for the use and disclosure of PHI.
+****[#yellow] <color #black><i><size:14>Standards for the use and disclosure of PHI.
 *** Security Rule
-****[#yellow] ====<size:14>Requirements for securing electronic PHI **(ePHI)**.
+****[#yellow] <color #black><i><size:14>Requirements for securing electronic PHI **(ePHI)**.
 *** Breach Notification Rule
-****[#yellow] ====<size:14>Rules for reporting and responding to data breaches.
+****[#yellow] <color #black><i><size:14>Rules for reporting and responding to data breaches.
 *** Enforcement Rule
-****[#yellow] ====<size:14>Procedures for compliance and enforcement.
+****[#yellow] <color #black><i><size:14>Procedures for compliance and enforcement.
 
 **[#gold] HIPAA Titles
-***[#pink] ====**Title I:** Health Care Access, Portability, and Renewability
-****[#yellow] ====<size:14>Ensures health insurance portability and nondiscrimination.
-***[#pink] ====**Title II:** Preventing Health Care Fraud and Abuse
-****[#yellow] ====<size:14>Establishes standards for electronic health transactions.
-***[#pink] ====**Title III:** Tax-Related Health Provisions
-****[#yellow] ====<size:14>Outlines tax-related provisions.
-***[#pink] ====**Title IV:** Application and Enforcement of Group Health Plan Requirements
-****[#yellow] ====<size:14>Expands coverage and protections for group health plans.
-***[#pink] ====**Title V:** Revenue Offset Provisions
-****[#yellow] ====<size:14>Addresses revenue offsets to cover the cost of other titles.
+***[#pink] <color #black><i>**Title I:** Health Care Access, Portability, and Renewability
+****[#yellow] <color #black><i><size:14>Ensures health insurance portability and nondiscrimination.
+***[#pink] <color #black><i>**Title II:** Preventing Health Care Fraud and Abuse
+****[#yellow] <color #black><i><size:14>Establishes standards for electronic health transactions.
+***[#pink] <color #black><i>**Title III:** Tax-Related Health Provisions
+****[#yellow] <color #black><i><size:14>Outlines tax-related provisions.
+***[#pink] <color #black><i>**Title IV:** Application and Enforcement of Group Health Plan Requirements
+****[#yellow] <color #black><i><size:14>Expands coverage and protections for group health plans.
+***[#pink] <color #black><i>**Title V:** Revenue Offset Provisions
+****[#yellow] <color #black><i><size:14>Addresses revenue offsets to cover the cost of other titles.
 
 ** HIPAA Privacy Rule
 *** Individual Rights
-****[#yellow] ====<size:14>Data subjects' rights to access and control their PHI.
+****[#yellow] <color #black><i><size:14>Data subjects' rights to access and control their PHI.
 *** Uses and Disclosures
-****[#yellow] ====<size:14>Rules for how PHI can be used and disclosed.
+****[#yellow] <color #black><i><size:14>Rules for how PHI can be used and disclosed.
 *** Minimum Necessary
-****[#yellow] ====<size:14>Limiting the use or disclosure of PHI to the minimum necessary.
+****[#yellow] <color #black><i><size:14>Limiting the use or disclosure of PHI to the minimum necessary.
 *** Authorizations
-****[#yellow] ====<size:14>Obtaining patient consent for certain uses and disclosures.
+****[#yellow] <color #black><i><size:14>Obtaining patient consent for certain uses and disclosures.
 *** Notice of Privacy Practices
-****[#yellow] ====<size:14>Informing patients about their privacy rights and how their data will be used.
+****[#yellow] <color #black><i><size:14>Informing patients about their privacy rights and how their data will be used.
 
 ** HIPAA Security Rule
 *** Administrative Safeguards
-****[#yellow] ====<size:14>Measures to manage and monitor the security program.
+****[#yellow] <color #black><i><size:14>Measures to manage and monitor the security program.
 *** Physical Safeguards
-****[#yellow] ====<size:14>Physical security of data centers and equipment.
+****[#yellow] <color #black><i><size:14>Physical security of data centers and equipment.
 *** Technical Safeguards
-****[#yellow] ====<size:14>Security measures for electronic PHI.
+****[#yellow] <color #black><i><size:14>Security measures for electronic PHI.
 *** Organizational Requirements
-****[#yellow] ====<size:14>Agreements with business associates and security responsibility.
+****[#yellow] <color #black><i><size:14>Agreements with business associates and security responsibility.
 
 ** Breach Notification Rule
 *** Definition of Breach
-****[#yellow] ====<size:14>When unsecured PHI is accessed, used, or disclosed without authorization.
+****[#yellow] <color #black><i><size:14>When unsecured PHI is accessed, used, or disclosed without authorization.
 *** Notification Requirements
-****[#yellow] ====<size:14>Reporting breaches to affected individuals and relevant authorities.
+****[#yellow] <color #black><i><size:14>Reporting breaches to affected individuals and relevant authorities.
 
 ** HIPAA Enforcement
 *** Office for Civil Rights **(OCR)**
-****[#yellow] ====<size:14>Responsible for enforcing HIPAA rules.
+****[#yellow] <color #black><i><size:14>Responsible for enforcing HIPAA rules.
 *** Penalties
-****[#yellow] ====<size:14>Fines for HIPAA violations, with varying levels of severity.
+****[#yellow] <color #black><i><size:14>Fines for HIPAA violations, with varying levels of severity.
 *** Audits and Investigations
-****[#yellow] ====<size:14>OCR conducts audits to ensure compliance.
+****[#yellow] <color #black><i><size:14>OCR conducts audits to ensure compliance.
 
 **[#lime] Considerations
 *** Risk Assessments
-****[#yellow] ====<size:14>Regular risk assessments to identify and address vulnerabilities.
+****[#yellow] <color #black><i><size:14>Regular risk assessments to identify and address vulnerabilities.
 *** Employee Training
-****[#yellow] ====<size:14>Training employees on HIPAA requirements and compliance.
+****[#yellow] <color #black><i><size:14>Training employees on HIPAA requirements and compliance.
 *** Business Associate Agreements
-****[#yellow] ====<size:14>Establish agreements with business associates for PHI handling.
+****[#yellow] <color #black><i><size:14>Establish agreements with business associates for PHI handling.
 *** Security Policies
-****[#yellow] ====<size:14>Develop and maintain security policies and procedures.
+****[#yellow] <color #black><i><size:14>Develop and maintain security policies and procedures.
 
 ** Best Practices
 *** Data Encryption
-****[#yellow] ====<size:14>Encrypt ePHI to protect data in transit and at rest.
+****[#yellow] <color #black><i><size:14>Encrypt ePHI to protect data in transit and at rest.
 *** Access Controls
-****[#yellow] ====<size:14>Implement role-based access controls for data.
+****[#yellow] <color #black><i><size:14>Implement role-based access controls for data.
 *** Audit Trails
-****[#yellow] ====<size:14>Maintain audit trails to track access to ePHI.
+****[#yellow] <color #black><i><size:14>Maintain audit trails to track access to ePHI.
 *** Incident Response
-****[#yellow] ====<size:14>Establish an incident response plan for data breaches.
+****[#yellow] <color #black><i><size:14>Establish an incident response plan for data breaches.
 
 @endmindmap
