@@ -1,0 +1,49 @@
+@startmindmap
+title =<i><b><u>Company Registration Process
+!theme hacker
+
+*[#darkblue] <i>Company Registration Process
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <i><color #white><size:14>Formal Process of Establishing a Company Legally
+**[#lightblue] <i><color #blac><size:14>Steps
+***[#green] <b><i><color #white><size:14>Business Planning
+****[#yellow] <i><color #black><size:14>Define Business Model, Goals, and Structure.
+***[#green] <b><i><color #white><size:14>Name Reservation
+****[#yellow] <i><color #black><size:14>Choose and Reserve a Unique Business Name.
+***[#green] <b><i><color #white><size:22>[[Entity-Selection.puml Entity Selection]]
+****[#yellow] <i><color #black><size:14>Decide on Business Structure (Sole Proprietorship, LLC, Corporation, etc.).
+***[#green] <b><i><color #white><size:14>Legal Requirements
+****[#yellow] <i><color #black><size:14>Obtain Necessary Licenses, Permits, and Registrations.
+***[#green] <b><i><color #white><size:14>Tax Registration
+****[#yellow] <i><color #black><size:14>Obtain Tax Identification Numbers and Register for Taxes.
+***[#green] <b><i><color #white><size:14>Company Formation
+****[#yellow] <i><color #black><size:14>Draft Articles of Incorporation or Association.
+****[#yellow] <i><color #black><size:14>File Necessary Documents with Relevant Government Authorities.
+****[#yellow] <i><color #black><size:14>Pay Required Fees and Filing Costs.
+***[#green] <b><i><color #white><size:14>Compliance
+****[#yellow] <i><color #black><size:14>Ensure Compliance with Company Laws and Regulations.
+***[#green] <b><i><color #white><size:14>Post-Registration
+****[#yellow] <i><color #black><size:14>Obtain Certificates of Incorporation or Registration.
+****[#yellow] <i><color #black><size:14>Set Up Bank Accounts and Business Operations.
+**[#lightblue] <i><color #blac><size:14>Documents and Forms
+***[#green] <b><i><color #white><size:14>Articles of Incorporation/Association
+****[#yellow] <i><color #black><size:14>Outlines Company Structure, Purpose, and Ownership.
+***[#green] <b><i><color #white><size:14>Business Plan
+****[#yellow] <i><color #black><size:14>Details Business Objectives, Market Analysis, and Financial Projections.
+***[#green] <b><i><color #white><size:14>Tax Forms
+****[#yellow] <i><color #black><size:14>Application for Tax Identification Numbers and Permits.
+***[#green] <b><i><color #white><size:14>Licenses and Permits
+****[#yellow] <i><color #black><size:14>Documents for Specific Business Activities or Industries.
+**[#lightblue] <i><color #blac><size:14>Legal Assistance
+***[#green] <b><i><color #white><size:14>Lawyers and Consultants
+****[#yellow] <i><color #black><size:14>Seek Legal Counsel for Guidance through the Process.
+***[#green] <b><i><color #white><size:14>Online Resources
+****[#yellow] <i><color #black><size:14>Utilize Online Platforms for Filing and Information.
+**[#lightblue] <i><color #blac><size:14>Considerations
+***[#green] <b><i><color #white><size:14>Business Location
+****[#yellow] <i><color #black><size:14>Legal Requirements Vary Based on Geographical Location.
+***[#green] <b><i><color #white><size:14>Industry Regulations
+****[#yellow] <i><color #black><size:14>Specific Industries May Have Unique Registration Demands.
+***[#green] <b><i><color #white><size:14>Intellectual Property
+****[#yellow] <i><color #black><size:14>Protect Trademarks, Patents, and Copyrights.
+@endmindmap

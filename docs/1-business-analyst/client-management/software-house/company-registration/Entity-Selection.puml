@@ -1,0 +1,53 @@
+@startmindmap
+title =<i><b><u>Entity Selection
+!theme hacker
+
+*[#darkblue] <i>Entity Selection
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <b><i><color #white><size:14>Choosing the Legal Structure for a Business Entity
+**[#lightblue] <i><color #blac><size:14>Types of Entities
+***[#green] <b><i><color #white><size:22>[[Sole-Proprietorship.puml Sole Proprietorship]]
+****[#yellow] <i><color #black><size:14>Single-owner business, easy setup, direct control, unlimited liability.
+***[#green] <b><i><color #white><size:22>[[Partnership.puml Partnership]]
+****[#yellow] <i><color #black><size:14>Business owned by two or more individuals, shared profits, liability varies.
+****[#yellow] <i><color #black><size:14>General Partnership, Limited Partnership.
+***[#green] <b><i><color #white><size:22>[[Corporation.puml Corporation]]
+****[#yellow] <i><color #black><size:14>Legal entity separate from owners, limited liability, complex structure.
+****[#yellow] <i><color #black><size:14>C Corporation, S Corporation.
+***[#green] <b><i><color #white><size:22>[[Limited-Liability-Company-(LLC).puml Limited Liability Company (LLC)]]
+****[#yellow] <i><color #black><size:14>Blends elements of partnership and corporation, limited liability, flexible taxation.
+***[#green] <b><i><color #white><size:22>[[Cooperative.puml Cooperative]]
+****[#yellow] <i><color #black><size:14>Owned and operated by members, shared profits, democratic structure.
+***[#green] <b><i><color #white><size:22>[[Nonprofit-Organization.puml Nonprofit Organization]]
+****[#yellow] <i><color #black><size:14>Mission-driven entity, tax-exempt status, operates for charitable purposes.
+**[#lightblue] <i><color #blac><size:14>Factors Influencing Selection
+***[#green] <b><i><color #white><size:14>Liability
+****[#yellow] <i><color #black><size:14>Exposure to personal risk in business debts and obligations.
+***[#green] <b><i><color #white><size:14>Taxation
+****[#yellow] <i><color #black><size:14>How income is taxed at entity and owner levels.
+***[#green] <b><i><color #white><size:14>Control and Management
+****[#yellow] <i><color #black><size:14>Degree of control and decision-making authority.
+***[#green] <b><i><color #white><size:14>Complexity and Formalities
+****[#yellow] <i><color #black><size:14>Administrative requirements and legal formalities.
+**[#lightblue] <i><color #blac><size:14>Considerations for Selection
+***[#green] <b><i><color #white><size:14>Nature of Business
+****[#yellow] <i><color #black><size:14>Industry, scalability, growth projections.
+***[#green] <b><i><color #white><size:14>Long-Term Goals
+****[#yellow] <i><color #black><size:14>Expansion plans, exit strategies, succession planning.
+***[#green] <b><i><color #white><size:14>Regulatory Environment
+****[#yellow] <i><color #black><size:14>Legal requirements and industry-specific regulations.
+***[#green] <b><i><color #white><size:14>Investment and Funding
+****[#yellow] <i><color #black><size:14>Accessibility to capital and investment opportunities.
+**[#lightblue] <i><color #blac><size:14>Decision-Making Process
+***[#green] <b><i><color #white><size:14>Research and Analysis
+****[#yellow] <i><color #black><size:14>Assess pros and cons of each entity type.
+***[#green] <b><i><color #white><size:14>Consultation
+****[#yellow] <i><color #black><size:14>Seek advice from legal, financial, and business experts.
+***[#green] <b><i><color #white><size:14>Business Plan Alignment
+****[#yellow] <i><color #black><size:14>Select entity aligned with business goals and operations.
+**[#lightblue] <i><color #blac><size:14>Conversion and Flexibility
+***[#green] <b><i><color #white><size:14>Ability to Convert Entities
+****[#yellow] <i><color #black><size:14>Flexibility to change entity type as business evolves.
+***[#green] <b><i><color #white><size:14>State-Specific Laws
+****[#yellow] <i><color #black><size:14>Adherence to state laws for entity conversion or changes.
+@endmindmap

@@ -1,38 +1,37 @@
 @startmindmap
-title = __Scope of Work__ \n This mindmap starts with the definition of work, including the project description, goals and objectives, and deliverables. It then covers the timeline, budget, roles and responsibilities, \ncommunication plan, and risk management. Each branch of the mindmap includes further details, such as milestones and deadlines in the timeline branch, estimated costs and payment schedules \nin the budget branch, and communication channels and frequencies in the communication plan branch. The risk management branch covers the identification, analysis, and mitigation of risks, as well as contingency planning.
+title =<b><u><i> Scope of Work
+*:<i><color #blac><size:14>This mindmap starts with the definition of work, including the project description, goals and objectives, and deliverables. It then covers the timeline, budget, roles and responsibilities, communication plan,
+<i><color #blac><size:14>and risk management. Each branch of the mindmap includes further details, such as milestones and deadlines in the timeline branch, estimated costs and payment schedules in the budget branch, and
+<i><color #blac><size:14>communication channels and frequencies in the communication plan branch. The risk management branch covers the identification, analysis, and mitigation of risks, as well as contingency planning.;
+!theme hacker
 
-
-
-
-
-
-* Scope of Work
-** Definition of Work
-*** Project Description
-**** Goals and Objectives
-**** Deliverables
-*** Assumptions
-*** Constraints
-** Timeline
-*** Milestones
-*** Deadline
-*** Schedule
-** Budget
-*** Estimated Cost
-*** Payment Schedule
-*** Terms and Conditions
-** Roles and Responsibilities
-*** Client
-*** Freelancer
-*** Other Stakeholders
-** Communication Plan
-*** Meetings
-*** Reporting
-*** Communication Channels
-*** Frequency
-** Risk Management
-*** Risk Identification
-*** Risk Analysis
-*** Risk Mitigation
-*** Contingency Plan
+*[#darkblue] <i>Scope of Work
+**[#lightblue] <i><color #blac><size:14>Definition of Work
+***[#green] <b><i><color #white><size:14>Project Description
+****[#yellow] <i><color #black><size:14>Goals and Objectives
+****[#yellow] <i><color #black><size:14>Deliverables
+***[#green] <b><i><color #white><size:14>Assumptions
+***[#green] <b><i><color #white><size:14>Constraints
+**[#lightblue] <i><color #blac><size:14>Timeline
+***[#green] <b><i><color #white><size:14>Milestones
+***[#green] <b><i><color #white><size:14>Deadline
+***[#green] <b><i><color #white><size:14>Schedule
+**[#lightblue] <i><color #blac><size:14>Budget
+***[#green] <b><i><color #white><size:14>Estimated Cost
+***[#green] <b><i><color #white><size:14>Payment Schedule
+***[#green] <b><i><color #white><size:14>Terms and Conditions
+**[#lightblue] <i><color #blac><size:14>Roles and Responsibilities
+***[#green] <b><i><color #white><size:14>Client
+***[#green] <b><i><color #white><size:14>Freelancer
+***[#green] <b><i><color #white><size:14>Other Stakeholders
+**[#lightblue] <i><color #blac><size:14>Communication Plan
+***[#green] <b><i><color #white><size:14>Meetings
+***[#green] <b><i><color #white><size:14>Reporting
+***[#green] <b><i><color #white><size:14>Communication Channels
+***[#green] <b><i><color #white><size:14>Frequency
+**[#lightblue] <i><color #blac><size:14>Risk Management
+***[#green] <b><i><color #white><size:14>Risk Identification
+***[#green] <b><i><color #white><size:14>Risk Analysis
+***[#green] <b><i><color #white><size:14>Risk Mitigation
+***[#green] <b><i><color #white><size:14>Contingency Plan
 @endmindmap

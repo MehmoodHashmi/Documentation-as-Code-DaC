@@ -1,0 +1,62 @@
+@startmindmap
+title =<i><b><u>Corporation
+!theme hacker
+
+*[#darkblue] <i>Corporation
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <b><i><color #white><size:14>Legal Entity Separate from its Owners
+**[#lightblue] <i><color #blac><size:14>Types of Corporations
+***[#green] <b><i><color #white><size:14>C Corporation (C Corp)
+****[#yellow] <i><color #black><size:14>Independent tax entity, shareholders have limited liability.
+***[#green] <b><i><color #white><size:14>S Corporation (S Corp)
+****[#yellow] <i><color #black><size:14>Pass-through taxation, limited number of shareholders.
+***[#green] <b><i><color #white><size:14>Nonprofit Corporation
+****[#yellow] <i><color #black><size:14>Operates for charitable, educational, or social purposes.
+***[#green] <b><i><color #white><size:14>Benefit Corporation (B Corp)
+****[#yellow] <i><color #black><size:14>For-profit entity with social or environmental objectives.
+**[#lightblue] <i><color #blac><size:14>Characteristics
+***[#green] <b><i><color #white><size:14>Ownership and Structure
+****[#yellow] <i><color #black><size:14>Owned by shareholders, managed by directors and officers.
+***[#green] <b><i><color #white><size:14>Limited Liability
+****[#yellow] <i><color #black><size:14>Shareholders' liability limited to their investment.
+***[#green] <b><i><color #white><size:14>Taxation
+****[#yellow] <i><color #black><size:14>C Corps taxed separately, S Corps pass-through taxation.
+***[#green] <b><i><color #white><size:14>Continuity
+****[#yellow] <i><color #black><size:14>Business continuity beyond owner changes.
+**[#lightblue] <i><color #blac><size:14>Advantages
+***[#green] <b><i><color #white><size:14>Limited Liability
+****[#yellow] <i><color #black><size:14>Protection of personal assets from business liabilities.
+***[#green] <b><i><color #white><size:14>Capital Accumulation
+****[#yellow] <i><color #black><size:14>Ability to raise funds through stock issuance.
+***[#green] <b><i><color #white><size:14>Business Continuity
+****[#yellow] <i><color #black><size:14>Continuation despite changes in ownership or management.
+***[#green] <b><i><color #white><size:14>Tax Benefits
+****[#yellow] <i><color #black><size:14>Deductions for employee benefits, expenses, and losses.
+**[#lightblue] <i><color #blac><size:14>Disadvantages
+***[#green] <b><i><color #white><size:14>Complexity
+****[#yellow] <i><color #black><size:14>Formalities, paperwork, and regulatory compliance.
+***[#green] <b><i><color #white><size:14>Double Taxation
+****[#yellow] <i><color #black><size:14>C Corps subject to corporate and individual shareholder taxes.
+***[#green] <b><i><color #white><size:14>Cost
+****[#yellow] <i><color #black><size:14>Higher setup and operational costs compared to other structures.
+***[#green] <b><i><color #white><size:14>Control and Decision-Making
+****[#yellow] <i><color #black><size:14>Shareholder influence on decision-making.
+**[#lightblue] <i><color #blac><size:14>Legal Considerations
+***[#green] <b><i><color #white><size:14>Articles of Incorporation
+****[#yellow] <i><color #black><size:14>Outlines corporate structure, purpose, and governance.
+***[#green] <b><i><color #white><size:14>Bylaws
+****[#yellow] <i><color #black><size:14>Internal rules and regulations for corporation operation.
+***[#green] <b><i><color #white><size:14>Shareholder Agreements
+****[#yellow] <i><color #black><size:14>Agreements detailing shareholder rights and obligations.
+***[#green] <b><i><color #white><size:14>Compliance
+****[#yellow] <i><color #black><size:14>Adherence to state and federal regulations.
+**[#lightblue] <i><color #blac><size:14>Exit Strategies
+***[#green] <b><i><color #white><size:14>Selling the Company
+****[#yellow] <i><color #black><size:14>Transferring ownership through sale or acquisition.
+***[#green] <b><i><color #white><size:14>Merger or Acquisition
+****[#yellow] <i><color #black><size:14>Consolidating with or being acquired by another entity.
+***[#green] <b><i><color #white><size:14>Dissolution
+****[#yellow] <i><color #black><size:14>Ceasing operations and liquidating assets.
+***[#green] <b><i><color #white><size:22>Going Public (IPO)
+****[#yellow] <i><color #black><size:14>Offering shares to the public through an initial public offering.
+@endmindmap

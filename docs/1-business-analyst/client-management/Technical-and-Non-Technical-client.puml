@@ -1,0 +1,48 @@
+@startmindmap
+title =<i> __ Technical and Non-Technical Client __
+!theme hacker
+
+*[#darkblue] <i>Technical Concepts
+**[#lightblue] <i><size:14>Background in technology
+***[#green] <i><size:14><color #white>Engineers, Developers, IT professionals
+****[#yellow] <i><size:14>Familiar with technical concepts
+**[#lightblue] <i><size:14>Programming
+***[#green] <i><size:14><color #white>Languages
+****[#yellow] <i><size:14>Java
+****[#yellow] <i><size:14>Python
+****[#yellow] <i><size:14>JavaScript
+***[#green] <i><size:14><color #white>Data Structures
+****[#yellow] <i><size:14>Arrays
+****[#yellow] <i><size:14>Linked Lists
+****[#yellow] <i><size:14>Stacks and Queues
+***[#green] <i><size:14><color #white>Algorithms
+****[#yellow] <i><size:14>Sorting
+****[#yellow] <i><size:14>Searching
+****[#yellow] <i><size:14>Graph Traversal
+**[#lightblue] <i><size:14>Cloud Computing
+***[#green] <i><size:14><color #white>Infrastructure as a Service **(IaaS)**
+***[#green] <i><size:14><color #white>Platform as a Service **(PaaS)**
+***[#green] <i><size:14><color #white>Software as a Service **(SaaS)**
+**[#lightblue] <i><size:14>Security
+***[#green] <i><size:14><color #white>Encryption
+***[#green] <i><size:14><color #white>Authentication
+***[#green] <i><size:14><color #white>Authorization
+
+*[#darkblue] <i>**Non-Technical Concepts**
+**[#lightblue] <i><size:14>No technical background
+***[#green] <i><size:14><color #white>Business owners, Managers, Stakeholders
+****[#yellow] <i><size:14>Limited understanding of technology
+**[#lightblue] <i><size:18>**Business**
+***[#green] <i><size:14><color #white>**Marketing**
+***[#green] <i><size:14><color #white>**Sales**
+***[#green] <i><size:14><color #white>**Customer Service**
+**[#lightblue] <i><size:14>Design
+***[#green] <i><size:14><color #white>User Interface **(UI)**
+***[#green] <i><size:14><color #white>User Experience **(UX)**
+***[#green] <i><size:14><color #white>Graphic Design
+**[#lightblue] <i><size:18>**Finance**
+***[#green] <i><size:14><color #white>**Accounting**
+***[#green] <i><size:14><color #white>**Investment**
+***[#green] <i><size:14><color #white>**Taxes**
+
+@endmindmap
