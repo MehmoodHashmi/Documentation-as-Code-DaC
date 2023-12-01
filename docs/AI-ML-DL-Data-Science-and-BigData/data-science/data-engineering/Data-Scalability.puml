@@ -6,144 +6,144 @@ title =__Data Scalability__ \nThere are two mindmaps, second mindmap is generic.
 
 * Data Scalability
 ** Definition
-***[#white] ====<size:14>**Data Scalability** is the capability of a system or database to handle an increasing volume of data efficiently without compromising **performance, availability, or data quality.**
+***[#white] <i><size:14>**Data Scalability** is the capability of a system or database to handle an increasing volume of data efficiently without compromising **performance, availability, or data quality.**
 
 ** Key Concepts
-***[#pink] ====<size:14>Vertical Scaling
-****[#yellow] ====<size:14>Increasing the capacity of a single server by adding more resources **(CPU, RAM, storage).**
-***[#pink] ====<size:14>Horizontal Scaling
-****[#yellow] ====<size:14>Expanding system capabilities by adding more machines to the network.
-***[#pink] ====<size:14>Data Partitioning
-****[#yellow] ====<size:14>Splitting a dataset into smaller subsets for efficient management and access.
-***[#pink] ====<size:14>Data Sharding
-****[#yellow] ====<size:14>Distributing data across multiple servers or databases, each responsible for a portion.
-***[#pink] ====<size:14>Replication
-****[#yellow] ====<size:14>Creating redundant copies of data to ensure high availability and load balancing.
-***[#pink] ====<size:14>Distributed Databases
-****[#yellow] ====<size:14>Storing data across multiple geographic locations or data centers.
-***[#pink] ====<size:14>Cloud Scalability
-****[#yellow] ====<size:14>Leveraging cloud services to dynamically allocate and manage resources.
+***[#pink] <i><size:14>Vertical Scaling
+****[#yellow] <color #black><i><size:14>Increasing the capacity of a single server by adding more resources **(CPU, RAM, storage).**
+***[#pink] <i><size:14>Horizontal Scaling
+****[#yellow] <color #black><i><size:14>Expanding system capabilities by adding more machines to the network.
+***[#pink] <i><size:14>Data Partitioning
+****[#yellow] <color #black><i><size:14>Splitting a dataset into smaller subsets for efficient management and access.
+***[#pink] <i><size:14>Data Sharding
+****[#yellow] <color #black><i><size:14>Distributing data across multiple servers or databases, each responsible for a portion.
+***[#pink] <i><size:14>Replication
+****[#yellow] <color #black><i><size:14>Creating redundant copies of data to ensure high availability and load balancing.
+***[#pink] <i><size:14>Distributed Databases
+****[#yellow] <color #black><i><size:14>Storing data across multiple geographic locations or data centers.
+***[#pink] <i><size:14>Cloud Scalability
+****[#yellow] <color #black><i><size:14>Leveraging cloud services to dynamically allocate and manage resources.
 
 ** Data Scalability Challenges
-***[#pink] ====<size:14>Data Growth
-****[#yellow] ====<size:14>Managing ever-increasing volumes of data.
-***[#pink] ====<size:14>Data Access Patterns
-****[#yellow] ====<size:14>Handling varying query patterns and access requirements.
-***[#pink] ====<size:14>Data Consistency
-****[#yellow] ====<size:14>Ensuring data consistency in a distributed environment.
-***[#pink] ====<size:14>Performance Bottlenecks
-****[#yellow] ====<size:14>Identifying and resolving performance limitations.
-***[#pink] ====<size:14>Resource Allocation
-****[#yellow] ====<size:14>Optimizing resource allocation for scalability.
-***[#pink] ====<size:14>Data Migration
-****[#yellow] ====<size:14>Transferring data seamlessly between systems.
+***[#pink] <i><size:14>Data Growth
+****[#yellow] <color #black><i><size:14>Managing ever-increasing volumes of data.
+***[#pink] <i><size:14>Data Access Patterns
+****[#yellow] <color #black><i><size:14>Handling varying query patterns and access requirements.
+***[#pink] <i><size:14>Data Consistency
+****[#yellow] <color #black><i><size:14>Ensuring data consistency in a distributed environment.
+***[#pink] <i><size:14>Performance Bottlenecks
+****[#yellow] <color #black><i><size:14>Identifying and resolving performance limitations.
+***[#pink] <i><size:14>Resource Allocation
+****[#yellow] <color #black><i><size:14>Optimizing resource allocation for scalability.
+***[#pink] <i><size:14>Data Migration
+****[#yellow] <color #black><i><size:14>Transferring data seamlessly between systems.
 
 ** Scalability Techniques
-***[#pink] ====<size:14>Data Partitioning
-****[#yellow] ====<size:14>Dividing data into smaller, manageable partitions.
-***[#pink] ====<size:14>Sharding
-****[#yellow] ====<size:14>Distributing data across multiple servers or databases.
-***[#pink] ====<size:14>Replication
-****[#yellow] ====<size:14>Creating copies of data for redundancy and load balancing.
-***[#pink] ====<size:14>Distributed Databases
-****[#yellow] ====<size:14>Storing data across multiple geographically distributed nodes.
-***[#pink] ====<size:14>Cloud Storage
-****[#yellow] ====<size:14>Leveraging cloud services for scalable storage solutions.
-***[#pink] ====<size:14>Caching
-****[#yellow] ====<size:14>Storing frequently accessed data in memory for faster retrieval.
-***[#pink] ====<size:14>Compression
-****[#yellow] ====<size:14>Reducing data size to optimize storage and transfer.
-***[#pink] ====<size:14>Database Partitioning
-****[#yellow] ====<size:14>Splitting databases into smaller, more manageable segments.
+***[#pink] <i><size:14>Data Partitioning
+****[#yellow] <color #black><i><size:14>Dividing data into smaller, manageable partitions.
+***[#pink] <i><size:14>Sharding
+****[#yellow] <color #black><i><size:14>Distributing data across multiple servers or databases.
+***[#pink] <i><size:14>Replication
+****[#yellow] <color #black><i><size:14>Creating copies of data for redundancy and load balancing.
+***[#pink] <i><size:14>Distributed Databases
+****[#yellow] <color #black><i><size:14>Storing data across multiple geographically distributed nodes.
+***[#pink] <i><size:14>Cloud Storage
+****[#yellow] <color #black><i><size:14>Leveraging cloud services for scalable storage solutions.
+***[#pink] <i><size:14>Caching
+****[#yellow] <color #black><i><size:14>Storing frequently accessed data in memory for faster retrieval.
+***[#pink] <i><size:14>Compression
+****[#yellow] <color #black><i><size:14>Reducing data size to optimize storage and transfer.
+***[#pink] <i><size:14>Database Partitioning
+****[#yellow] <color #black><i><size:14>Splitting databases into smaller, more manageable segments.
 
 ** Benefits of Data Scalability
-***[#pink] ====<size:14>Improved Performance
-****[#yellow] ====<size:14>Maintaining responsiveness as data volume grows.
-***[#pink] ====<size:14>High Availability
-****[#yellow] ====<size:14>Ensuring system availability and redundancy.
-***[#pink] ====<size:14>Cost Efficiency
-****[#yellow] ====<size:14>Optimizing resource utilization and reducing infrastructure costs.
-***[#pink] ====<size:14>Flexibility
-****[#yellow] ====<size:14>Adapting to changing data and user requirements.
-***[#pink] ====<size:14>Geographic Reach
-****[#yellow] ====<size:14>Expanding to serve users in different regions efficiently.
+***[#pink] <i><size:14>Improved Performance
+****[#yellow] <color #black><i><size:14>Maintaining responsiveness as data volume grows.
+***[#pink] <i><size:14>High Availability
+****[#yellow] <color #black><i><size:14>Ensuring system availability and redundancy.
+***[#pink] <i><size:14>Cost Efficiency
+****[#yellow] <color #black><i><size:14>Optimizing resource utilization and reducing infrastructure costs.
+***[#pink] <i><size:14>Flexibility
+****[#yellow] <color #black><i><size:14>Adapting to changing data and user requirements.
+***[#pink] <i><size:14>Geographic Reach
+****[#yellow] <color #black><i><size:14>Expanding to serve users in different regions efficiently.
 
 * Data Scalability
 ** Definition
-***[#white] ====<size:14>**Data Scalability** refers to the ability of a system to handle increased data volume, complexity, and user load without a significant decrease in **"performance or efficiency".**
+***[#white] <i><size:14>**Data Scalability** refers to the ability of a system to handle increased data volume, complexity, and user load without a significant decrease in **"performance or efficiency".**
 
 ** Key Concepts
-***[#gold] ====<size:14>Vertical Scaling
-****[#yellow] ====<size:14>Adding more resources **(CPU, RAM)** to a single machine.
-***[#gold] ====<size:14>Horizontal Scaling
-****[#yellow] ====<size:14>Adding more machines to distribute the workload.
-***[#gold] ====<size:14>Data Sharding
-****[#yellow] ====<size:14>Splitting data into smaller partitions across nodes.
-***[#gold] ====<size:14>Load Balancing
-****[#yellow] ====<size:14>Distributing incoming requests evenly across servers.
-***[#gold] ====<size:14>Replication
-****[#yellow] ====<size:14>Creating copies of data for redundancy and high availability.
-***[#gold] ====<size:14>Data Partitioning
-****[#yellow] ====<size:14>Organizing data into smaller, manageable segments.
-***[#gold] ====<size:14>Distributed Databases
-****[#yellow] ====<size:14>Storing data across multiple geographically distributed nodes.
-***[#gold] ====<size:14>Cloud Scalability
-****[#yellow] ====<size:14>Leveraging cloud infrastructure for flexible resource allocation.
+***[#gold] <i><size:14>Vertical Scaling
+****[#yellow] <color #black><i><size:14>Adding more resources **(CPU, RAM)** to a single machine.
+***[#gold] <i><size:14>Horizontal Scaling
+****[#yellow] <color #black><i><size:14>Adding more machines to distribute the workload.
+***[#gold] <i><size:14>Data Sharding
+****[#yellow] <color #black><i><size:14>Splitting data into smaller partitions across nodes.
+***[#gold] <i><size:14>Load Balancing
+****[#yellow] <color #black><i><size:14>Distributing incoming requests evenly across servers.
+***[#gold] <i><size:14>Replication
+****[#yellow] <color #black><i><size:14>Creating copies of data for redundancy and high availability.
+***[#gold] <i><size:14>Data Partitioning
+****[#yellow] <color #black><i><size:14>Organizing data into smaller, manageable segments.
+***[#gold] <i><size:14>Distributed Databases
+****[#yellow] <color #black><i><size:14>Storing data across multiple geographically distributed nodes.
+***[#gold] <i><size:14>Cloud Scalability
+****[#yellow] <color #black><i><size:14>Leveraging cloud infrastructure for flexible resource allocation.
 
 ** Types of Scalability
-***[#gold] ====<size:14>Data Scalability
-****[#yellow] ====<size:14>Handling larger **datasets** and data growth.
-***[#gold] ====<size:14>Compute Scalability
-****[#yellow] ====<size:14>Adding more **processing power** for complex tasks.
-***[#gold] ====<size:14>Storage Scalability
-****[#yellow] ====<size:14>Expanding **storage capacity** as data grows.
-***[#gold] ====<size:14>Application Scalability
-****[#yellow] ====<size:14>Scaling application components and services.
-***[#gold] ====<size:14>Network Scalability
-****[#yellow] ====<size:14>Ensuring efficient data transfer across the network.
+***[#gold] <i><size:14>Data Scalability
+****[#yellow] <color #black><i><size:14>Handling larger **datasets** and data growth.
+***[#gold] <i><size:14>Compute Scalability
+****[#yellow] <color #black><i><size:14>Adding more **processing power** for complex tasks.
+***[#gold] <i><size:14>Storage Scalability
+****[#yellow] <color #black><i><size:14>Expanding **storage capacity** as data grows.
+***[#gold] <i><size:14>Application Scalability
+****[#yellow] <color #black><i><size:14>Scaling application components and services.
+***[#gold] <i><size:14>Network Scalability
+****[#yellow] <color #black><i><size:14>Ensuring efficient data transfer across the network.
 
 ** Scalability Challenges
-***[#gold] ====<size:14>Performance Bottlenecks
-****[#yellow] ====<size:14>Identifying and addressing performance limitations.
-***[#gold] ====<size:14>Data Consistency
-****[#yellow] ====<size:14>Maintaining consistency in distributed systems.
-***[#gold] ====<size:14>Resource Allocation
-****[#yellow] ====<size:14>Optimizing resource allocation and utilization.
-***[#gold] ====<size:14>Data Access Patterns
-****[#yellow] ====<size:14>Handling varying access patterns and queries.
-***[#gold] ====<size:14>Data Migration
-****[#yellow] ====<size:14>Moving data across systems without disruption.
-***[#gold] ====<size:14>Monitoring and Maintenance
-****[#yellow] ====<size:14>Keeping track of system health and maintenance.
+***[#gold] <i><size:14>Performance Bottlenecks
+****[#yellow] <color #black><i><size:14>Identifying and addressing performance limitations.
+***[#gold] <i><size:14>Data Consistency
+****[#yellow] <color #black><i><size:14>Maintaining consistency in distributed systems.
+***[#gold] <i><size:14>Resource Allocation
+****[#yellow] <color #black><i><size:14>Optimizing resource allocation and utilization.
+***[#gold] <i><size:14>Data Access Patterns
+****[#yellow] <color #black><i><size:14>Handling varying access patterns and queries.
+***[#gold] <i><size:14>Data Migration
+****[#yellow] <color #black><i><size:14>Moving data across systems without disruption.
+***[#gold] <i><size:14>Monitoring and Maintenance
+****[#yellow] <color #black><i><size:14>Keeping track of system health and maintenance.
 
 ** Scalability Techniques
-***[#gold] ====<size:14>Caching
-****[#yellow] ====<size:14>Storing frequently accessed data in memory for faster retrieval.
-***[#gold] ====<size:14>Compression
-****[#yellow] ====<size:14>Reducing data size to optimize storage and transfer.
-***[#gold] ====<size:14>Distributed Databases
-****[#yellow] ====<size:14>Spreading data across multiple nodes for parallel processing.
-***[#gold] ====<size:14>Load Balancers
-****[#yellow] ====<size:14>Distributing requests across multiple servers.
-***[#gold] ====<size:14>Auto-Scaling
-****[#yellow] ====<size:14>Automatically adjusting resources based on demand.
-***[#gold] ====<size:14>Content Delivery Networks **(CDNs)**
-****[#yellow] ====<size:14>Caching content at edge locations for faster delivery.
-***[#gold] ====<size:14>Database Partitioning
-****[#yellow] ====<size:14>Splitting databases into smaller partitions.
-***[#gold] ====<size:14>Microservices
-****[#yellow] ====<size:14>Breaking down applications into smaller, independently scalable services.
+***[#gold] <i><size:14>Caching
+****[#yellow] <color #black><i><size:14>Storing frequently accessed data in memory for faster retrieval.
+***[#gold] <i><size:14>Compression
+****[#yellow] <color #black><i><size:14>Reducing data size to optimize storage and transfer.
+***[#gold] <i><size:14>Distributed Databases
+****[#yellow] <color #black><i><size:14>Spreading data across multiple nodes for parallel processing.
+***[#gold] <i><size:14>Load Balancers
+****[#yellow] <color #black><i><size:14>Distributing requests across multiple servers.
+***[#gold] <i><size:14>Auto-Scaling
+****[#yellow] <color #black><i><size:14>Automatically adjusting resources based on demand.
+***[#gold] <i><size:14>Content Delivery Networks **(CDNs)**
+****[#yellow] <color #black><i><size:14>Caching content at edge locations for faster delivery.
+***[#gold] <i><size:14>Database Partitioning
+****[#yellow] <color #black><i><size:14>Splitting databases into smaller partitions.
+***[#gold] <i><size:14>Microservices
+****[#yellow] <color #black><i><size:14>Breaking down applications into smaller, independently scalable services.
 
 ** Benefits of Scalability
-***[#gold] ====<size:14>Improved Performance
-****[#yellow] ====<size:14>Maintaining fast response times as data and users increase.
-***[#gold] ====<size:14>High Availability
-****[#yellow] ====<size:14>Ensuring system availability even in the face of failures.
-***[#gold] ====<size:14>Cost Efficiency
-****[#yellow] ====<size:14>Optimizing resource usage and reducing infrastructure costs.
-***[#gold] ====<size:14>Flexibility
-****[#yellow] ====<size:14>Adapting to changing data and user requirements.
-***[#gold] ====<size:14>Geographic Reach
-****[#yellow] ====<size:14>Expanding to serve users in different regions.
+***[#gold] <i><size:14>Improved Performance
+****[#yellow] <color #black><i><size:14>Maintaining fast response times as data and users increase.
+***[#gold] <i><size:14>High Availability
+****[#yellow] <color #black><i><size:14>Ensuring system availability even in the face of failures.
+***[#gold] <i><size:14>Cost Efficiency
+****[#yellow] <color #black><i><size:14>Optimizing resource usage and reducing infrastructure costs.
+***[#gold] <i><size:14>Flexibility
+****[#yellow] <color #black><i><size:14>Adapting to changing data and user requirements.
+***[#gold] <i><size:14>Geographic Reach
+****[#yellow] <color #black><i><size:14>Expanding to serve users in different regions.
 
 @endmindmap
