@@ -1,25 +1,24 @@
 @startmindmap
-title = __Freelancer asks clarifying questions__ \n This mindmap illustrates the different clarifying questions that a freelancer may ask a client in order to gain a better understanding of the project requirements, scope, budget, point of contact, and expectations.
+title = __Freelancer asks clarifying questions__
 
+*:This mindmap illustrates the different clarifying questions that a freelancer may ask a client in order to gain a better understanding of the
+project requirements, scope, budget, point of contact, and expectations.;
+!theme hacker
 
-
-
-
-
-* Freelancer asks clarifying questions
-** What are the project requirements?
-*** What specific tasks need to be completed?
-*** What is the expected timeline for the project?
-** What is the project scope?
-*** What deliverables are expected from me?
-*** What are the project goals?
-** What is the client's budget?
-*** Is the budget flexible?
-*** Are there any constraints on the budget?
-** Who will be the point of contact for the project?
-*** Who will I report to?
-*** Who will be responsible for providing feedback?
-** What are the client's expectations?
-*** What are the client's goals for the project?
-*** What is the desired outcome of the project?
+*[#darkblue] <i>Freelancer asks clarifying questions
+**[#lightblue] <i><color #blac><size:14>What are the project requirements?
+***[#yellow] <i><color #black><size:14>What specific tasks need to be completed?
+***[#yellow] <i><color #black><size:14>What is the expected timeline for the project?
+**[#lightblue] <i><color #blac><size:14>What is the project scope?
+***[#yellow] <i><color #black><size:14>What deliverables are expected from me?
+***[#yellow] <i><color #black><size:14>What are the project goals?
+**[#lightblue] <i><color #blac><size:14>What is the client's budget?
+***[#yellow] <i><color #black><size:14>Is the budget flexible?
+***[#yellow] <i><color #black><size:14>Are there any constraints on the budget?
+**[#lightblue] <i><color #blac><size:14>Who will be the point of contact for the project?
+***[#yellow] <i><color #black><size:14>Who will I report to?
+***[#yellow] <i><color #black><size:14>Who will be responsible for providing feedback?
+**[#lightblue] <i><color #blac><size:14>What are the client's expectations?
+***[#yellow] <i><color #black><size:14>What are the client's goals for the project?
+***[#yellow] <i><color #black><size:14>What is the desired outcome of the project?
 @endmindmap

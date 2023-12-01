@@ -1,34 +1,36 @@
 @startmindmap
-title =This is most significant mindmap
-* Client Management
-** **Client Acquisition**
-*** Referrals
-*** Networking
-*** Outreach
-*** Advertising
-** Client Onboarding
-*** Needs Assessment
-*** Goal Setting
-*** Establishing Expectations
-*** Communication Plan
-**[#yellow] =**Client Retention**
-*** Customer Service
-*** Account Management
-*** Problem Resolution
-*** Client Satisfaction
-** Client Growth
-*** Upselling and Cross-selling
-*** New Products and Services
-*** Increased Usage
-*** Customer Advocacy
-** Client Feedback
-*** Surveys
-*** Focus Groups
-*** Interviews
-*** Feedback Analysis
-** Client Data Management
-*** Database Maintenance
-*** Data Analysis
-*** Reporting
-*** Data Privacy and Security
+title =<i><b><u>Client Management (is significant importance)
+!theme hacker
+
+*[#darkblue] <i>Client Management
+**[#lightblue] <i><color #blac><size:14>**Client Acquisition**
+***[#yellow] <i><color #black><size:14>Referrals
+***[#yellow] <i><color #black><size:14>Networking
+***[#yellow] <i><color #black><size:14>Outreach
+***[#yellow] <i><color #black><size:14>Advertising
+**[#lightblue] <i><color #blac><size:14>Client Onboarding
+***[#yellow] <i><color #black><size:14>Needs Assessment
+***[#yellow] <i><color #black><size:14>Goal Setting
+***[#yellow] <i><color #black><size:14>Establishing Expectations
+***[#yellow] <i><color #black><size:14>Communication Plan
+**[#lightblue] <i><color #black><size:22>Client Retention
+***[#yellow] <i><color #black><size:14>Customer Service
+***[#yellow] <i><color #black><size:14>Account Management
+***[#yellow] <i><color #black><size:14>Problem Resolution
+***[#yellow] <i><color #black><size:14>Client Satisfaction
+**[#lightblue] <i><color #blac><size:14>Client Growth
+***[#yellow] <i><color #black><size:14>Upselling and Cross-selling
+***[#yellow] <i><color #black><size:14>New Products and Services
+***[#yellow] <i><color #black><size:14>Increased Usage
+***[#yellow] <i><color #black><size:14>Customer Advocacy
+**[#lightblue] <i><color #blac><size:14>Client Feedback
+***[#yellow] <i><color #black><size:14>Surveys
+***[#yellow] <i><color #black><size:14>Focus Groups
+***[#yellow] <i><color #black><size:14>Interviews
+***[#yellow] <i><color #black><size:14>Feedback Analysis
+**[#lightblue] <i><color #blac><size:14>Client Data Management
+***[#yellow] <i><color #black><size:14>Database Maintenance
+***[#yellow] <i><color #black><size:14>Data Analysis
+***[#yellow] <i><color #black><size:14>Reporting
+***[#yellow] <i><color #black><size:14>Data Privacy and Security
 @endmindmap
