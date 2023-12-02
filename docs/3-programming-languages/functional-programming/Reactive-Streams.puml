@@ -1,0 +1,51 @@
+@startmindmap
+title =<i><b><u>Reactive Streams
+!theme hacker
+
+*[#darkblue] <i>Reactive Streams
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <b><i><color #white><size:14>Asynchronous stream processing with non-blocking backpressure.
+**[#lightblue] <i><color #blac><size:14>Characteristics
+***[#green] <b><i><color #white><size:14>Asynchronous
+****[#yellow] <i><color #black><size:14>Handling events as they occur without blocking.
+***[#green] <b><i><color #white><size:14>Non-Blocking
+****[#yellow] <i><color #black><size:14>Continuously processing without waiting for completion.
+***[#green] <b><i><color #white><size:14>Backpressure
+****[#yellow] <i><color #black><size:14>Controlling data flow to avoid overwhelm.
+**[#lightblue] <i><color #blac><size:14>Key Interfaces
+***[#green] <b><i><color #white><size:14>Publisher
+****[#yellow] <i><color #black><size:14>**Emits** data sequences to Subscribers.
+***[#green] <b><i><color #white><size:14>Subscriber
+****[#yellow] <i><color #black><size:14>**Receives** data sequences from Publishers.
+***[#green] <b><i><color #white><size:14>Subscription
+****[#yellow] <i><color #black><size:14>Represents the relationship between Publisher and Subscriber.
+***[#green] <b><i><color #white><size:14>Processor
+****[#yellow] <i><color #black><size:14>Combines Publisher and Subscriber functionalities.
+**[#lightblue] <i><color #blac><size:14>Backpressure Strategies
+***[#green] <b><i><color #white><size:14>Buffering
+****[#yellow] <i><color #black><size:14>Storing elements in a buffer.
+***[#green] <b><i><color #white><size:14>Dropping
+****[#yellow] <i><color #black><size:14>Discarding excess elements.
+***[#green] <b><i><color #white><size:14>Error
+****[#yellow] <i><color #black><size:14>Failing or signaling errors on overflow.
+***[#green] <b><i><color #white><size:14>Latest
+****[#yellow] <i><color #black><size:14>Keeping only the latest elements.
+**[#lightblue] <i><color #blac><size:14>Implementations
+***[#green] <b><i><color #white><size:14>RxJava
+****[#yellow] <i><color #black><size:14>Library providing reactive extensions for Java.
+***[#green] <b><i><color #white><size:14>Reactor
+****[#yellow] <i><color #black><size:14>Library supporting reactive programming in Java.
+***[#green] <b><i><color #white><size:14>Akka Streams
+****[#yellow] <i><color #black><size:14>Toolkit for building stream processing systems.
+***[#green] <b><i><color #white><size:14>Java 9+ Flow API
+****[#yellow] <i><color #black><size:14>Built-in reactive streams API in Java 9+.
+**[#lightblue] <i><color #blac><size:22>Benefits
+***[#green] <b><i><color #white><size:14>Asynchronous & Non-Blocking
+****[#yellow] <i><color #black><size:14>Efficient handling of data streams.
+***[#green] <b><i><color #white><size:14>Scalability
+****[#yellow] <i><color #black><size:14>Handling high loads with backpressure.
+***[#green] <b><i><color #white><size:14>Responsiveness
+****[#yellow] <i><color #black><size:14>Immediate reaction to events.
+***[#green] <b><i><color #white><size:22>Composition
+****[#yellow] <i><color #black><size:14>Building complex data processing pipelines.
+@endmindmap

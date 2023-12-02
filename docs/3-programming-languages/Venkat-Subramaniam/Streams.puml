@@ -1,0 +1,61 @@
+@startmindmap
+title =<i><b><u>Java Streams
+* <b>[[docs/3-programming-languages/functional-programming/Reactive-Data-Stream.puml Reactive Streams]]
+** <b>[[docs/3-programming-languages/functional-programming/Reactive-Data-Stream.puml Reactive Data Streams]]
+!theme hacker
+
+*[#darkblue] <i>Java Streams
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <b><i><color #white><size:14>Sequences supporting aggregate operations on elements.
+**[#lightblue] <i><color #blac><size:14>Characteristics
+***[#green] <b><i><color #white><size:14>Sequence of Elements
+****[#yellow] <i><color #black><size:14>Collection, array, I/O channel, or generator source.
+***[#green] <b><i><color #white><size:14>Functional Operations
+****[#yellow] <i><color #black><size:14>map, filter, reduce, collect, forEach, etc.
+***[#green] <b><i><color #white><size:14>Pipelining
+****[#yellow] <i><color #black><size:14>Chaining multiple operations to form a pipeline.
+***[#green] <b><i><color #white><size:14>Lazy Evaluation
+****[#yellow] <i><color #black><size:14>Operations evaluated only when needed.
+***[#green] <b><i><color #white><size:14>Eager Evaluation
+****[#yellow] <i><color #black><size:14>Operations are always evaluated even when not needed.
+***[#green] <b><i><color #white><size:14>Terminal Operations
+****[#yellow] <i><color #black><size:14>Triggering the evaluation of intermediate operations.
+***[#green] <b><i><color #white><size:14>Parallel Processing
+****[#yellow] <i><color #black><size:14>Execution in parallel for improved performance.
+***[#green] <b><i><color #white><size:14>Immutability
+****[#yellow] <i><color #black><size:14>Streams themselves are immutable.
+**[#lightblue] <i><color #blac><size:14>Functional Operations
+***[#green] <b><i><color #white><size:14>map
+****[#yellow] <i><color #black><size:14>Transforms elements using a function.
+***[#green] <b><i><color #white><size:14>filter
+****[#yellow] <i><color #black><size:14>Selects elements based on a predicate.
+***[#green] <b><i><color #white><size:14>reduce
+****[#yellow] <i><color #black><size:14>Aggregates elements into a single value.
+***[#green] <b><i><color #white><size:14>collect
+****[#yellow] <i><color #black><size:14>Accumulates elements into a collection or a value.
+***[#green] <b><i><color #white><size:14>forEach
+****[#yellow] <i><color #black><size:14>Performs an action on each element.
+***[#green] <b><i><color #white><size:14>sorted
+****[#yellow] <i><color #black><size:14>Sorts elements based on a comparator.
+**[#lightblue] <i><color #blac><size:14>Stream Sources
+***[#green] <b><i><color #white><size:14>Collections
+****[#yellow] <i><color #black><size:14>Lists, Sets, Maps, etc.
+***[#green] <b><i><color #white><size:14>Arrays
+****[#yellow] <i><color #black><size:14>Arrays of elements.
+***[#green] <b><i><color #white><size:14>I/O Channels
+****[#yellow] <i><color #black><size:14>Reading and writing from I/O.
+***[#green] <b><i><color #white><size:14>Generators
+****[#yellow] <i><color #black><size:14>Creating streams from generators or suppliers.
+**[#lightblue] <i><color #blac><size:14>Intermediate vs Terminal Operations
+***[#green] <b><i><color #white><size:14>Intermediate
+****[#yellow] <i><color #black><size:14>Lazy evaluated operations (map, filter, etc.).
+***[#green] <b><i><color #white><size:14>Terminal
+****[#yellow] <i><color #black><size:14>Operations that trigger stream evaluation (collect, forEach, etc.).
+**[#lightblue] <i><color #blac><size:22>Use Cases
+***[#green] <b><i><color #white><size:14>Data Processing
+****[#yellow] <i><color #black><size:14>Manipulating and transforming <b>data sets.
+***[#green] <b><i><color #white><size:14>Parallel Processing
+****[#yellow] <i><color #black><size:14>Concurrent operations on large <b>data sets.
+***[#green] <b><i><color #white><size:14>Functional Programming
+****[#yellow] <i><color #black><size:14>Functional-style operations on collections.
+@endmindmap

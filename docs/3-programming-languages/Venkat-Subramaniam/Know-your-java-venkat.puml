@@ -29,7 +29,7 @@ title =<b><i><u>Know Your Java
 *****[#gold] <size:14><color #black><i>__Mutating variables__ is not bad either <b>(if encapsulated)
 *****[#gold] <size:14><color #black><i>But __Sharing + Mutating variables__ = bad approach <b>(Devils work)
 ****[#yellow] <size:14><color #black><i>External (you manage) <b>e.g. for(i =0; i < size; i++)
-***[#green] <size:14><color #white><i><b>Stream
+***[#green] <size:22><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Streams.puml Stream]]
 ****[#yellow] <size:14><color #black><i>map, filter, reduce
 ****[#yellow] <size:14><color #black><i><b>teeing():</b> lets you "split" the "stream" into "multiple streams" based on the condition
 *****[#gold] <size:14><color #black><i><img:images/img_4.png> <img:images/img_5.png>
@@ -40,7 +40,7 @@ title =<b><i><u>Know Your Java
 ****[#yellow] <size:14><color #black><i><b>Stream Execution:
 *****[#gold] <size:14><color #black><i><b>Sequential </b>(lazy or eager)
 *****[#gold] <size:14><color #black><i><b>Parallel </b>(lazy or eager)
-****[#yellow] <size:14><color #black><i><b>Function Programming
+****[#yellow] <size:14><color #black><i><b>Functional Programming
 *****[#gold]:*<size:14><color #black><i>**FP:** relies on "lazy evaluation" for <b>"efficiency"
 *<size:14><color #black><i>**"lazy evaluation"** relies on **"purity of functions"** for <b>"correctness"
 *<size:14><color #black><i>We need make sure **"lambda" (->)** are <b>"pure"

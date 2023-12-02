@@ -3,50 +3,50 @@ title = __Kubernetes__
 !theme hacker
 
 * Core Components
-** API Server
-** etcd
-** Controller Manager
-** Scheduler
-** Kubelet
-** Kube-proxy
+**[#lightblue] <i><size:14>API Server
+**[#lightblue] <i><size:14>etcd
+**[#lightblue] <i><size:14>Controller Manager
+**[#lightblue] <i><size:14>Scheduler
+**[#lightblue] <i><size:14>Kubelet
+**[#lightblue] <i><size:14>Kube-proxy
 * Master Components
-** kube-apiserver
-** kube-controller-manager
-** kube-scheduler
-** etcd
+**[#lightblue] <i><size:14>kube-apiserver
+**[#lightblue] <i><size:14>kube-controller-manager
+**[#lightblue] <i><size:14>kube-scheduler
+**[#lightblue] <i><size:14>etcd
 * Node Components
-** kubelet
-** kube-proxy
+**[#lightblue] <i><size:14>kubelet
+**[#lightblue] <i><size:14>kube-proxy
 * Addons
-** Dashboard
-** DNS
-** Ingress Controller
-** Metrics Server
-** Network Policy Controller
-** Storage Class Provisioner
+**[#lightblue] <i><size:14>Dashboard
+**[#lightblue] <i><size:14>DNS
+**[#lightblue] <i><size:14>Ingress Controller
+**[#lightblue] <i><size:14>Metrics Server
+**[#lightblue] <i><size:14>Network Policy Controller
+**[#lightblue] <i><size:14>Storage Class Provisioner
 * Cluster Architecture
-** Nodes
-***[#yellow] ====<size:14>Pods
-***[#yellow] ====<size:14>Labels and Selectors
-***[#yellow] ====<size:14>Namespaces
-***[#yellow] ====<size:14>Services
-***[#yellow] ====<size:14>Endpoints
-***[#yellow] ====<size:14>Replication Controllers
-***[#yellow] ====<size:14>Deployments
-***[#yellow] ====<size:14>StatefulSets
-***[#yellow] ====<size:14>DaemonSets
-** Volumes
-***[#yellow] ====<size:14>EmptyDir
-***[#yellow] ====<size:14>HostPath
-***[#yellow] ====<size:14>ConfigMap
-***[#yellow] ====<size:14>Secrets
-***[#yellow] ====<size:14>PersistentVolume
-***[#yellow] ====<size:14>PersistentVolumeClaim
-** Configurations
-***[#yellow] ====<size:14>ConfigMaps
-***[#yellow] ====<size:14>Secrets
-** Security
-***[#yellow] ====<size:14>Role-Based Access Control
-***[#yellow] ====<size:14>Service Account
-***[#yellow] ====<size:14>Network Policies
+**[#lightblue] <i><size:14>Nodes
+***[#yellow] <i><size:14>Pods
+***[#yellow] <i><size:14>Labels and Selectors
+***[#yellow] <i><size:14>Namespaces
+***[#yellow] <i><size:14>Services
+***[#yellow] <i><size:14>Endpoints
+***[#yellow] <i><size:14>Replication Controllers
+***[#yellow] <i><size:14>Deployments
+***[#yellow] <i><size:14>StatefulSets
+***[#yellow] <i><size:14>DaemonSets
+**[#lightblue] <i><size:14>Volumes
+***[#yellow] <i><size:14>EmptyDir
+***[#yellow] <i><size:14>HostPath
+***[#yellow] <i><size:14>ConfigMap
+***[#yellow] <i><size:14>Secrets
+***[#yellow] <i><size:14>PersistentVolume
+***[#yellow] <i><size:14>PersistentVolumeClaim
+**[#lightblue] <i><size:14>Configurations
+***[#yellow] <i><size:14>ConfigMaps
+***[#yellow] <i><size:14>Secrets
+**[#lightblue] <i><size:14>Security
+***[#yellow] <i><size:14>Role-Based Access Control
+***[#yellow] <i><size:14>Service Account
+***[#yellow] <i><size:14>Network Policies
 @endmindmap
