@@ -1,0 +1,69 @@
+@startmindmap
+title =<i><b><u>PowerShell Scripting
+!theme hacker
+
+*[#darkblue] <i>PowerShell Scripting
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <b><i><color #white><size:14>Scripting language and shell framework by Microsoft.
+**[#lightblue] <i><color #blac><size:14>Basics
+***[#green] <b><i><color #white><size:14>Execution Policy
+****[#yellow] <i><color #black><size:14>Configuring security policies for script execution.
+***[#green] <b><i><color #white><size:14>Cmdlets (Command-lets)
+****[#yellow] <i><color #black><size:14>Basic building blocks of PowerShell commands.
+***[#green] <b><i><color #white><size:14>Variables
+****[#yellow] <i><color #black><size:14>$variable_name for storing data.
+****[#yellow] <i><color #black><size:14>$null for null value.
+***[#green] <b><i><color #white><size:14>Quoting
+****[#yellow] <i><color #black><size:14>Single quotes ('...') for literal strings.
+****[#yellow] <i><color #black><size:14>Double quotes ("...") for variable expansion and some special characters.
+***[#green] <b><i><color #white><size:14>Command Syntax
+****[#yellow] <i><color #black><size:14>Verb-Noun pair for cmdlet names (e.g., Get-Process).
+**[#lightblue] <i><color #blac><size:14>Control Structures
+***[#green] <b><i><color #white><size:14>Conditional Statements
+****[#yellow] <i><color #black><size:14>if, else, elseif statements.
+****[#yellow] <i><color #black><size:14>Comparison operators (-eq, -ne, -gt, -lt, etc.).
+***[#green] <b><i><color #white><size:14>Loops
+****[#yellow] <i><color #black><size:14>for, foreach, while loops for iteration.
+***[#green] <b><i><color #white><size:14>Switch Statements
+****[#yellow] <i><color #black><size:14>Switch-case statements for multiple conditions.
+**[#lightblue] <i><color #blac><size:14>Input/Output
+***[#green] <b><i><color #white><size:14>Output Formatting
+****[#yellow] <i><color #black><size:14>Formatting output using Format cmdlets.
+****[#yellow] <i><color #black><size:14>Output redirection (> to file).
+***[#green] <b><i><color #white><size:14>Input from Users
+****[#yellow] <i><color #black><size:14>Read-Host cmdlet for capturing user input.
+***[#green] <b><i><color #white><size:14>Error Handling
+****[#yellow] <i><color #black><size:14>Try-catch blocks for error handling.
+***[#green] <b><i><color #white><size:14>Pipeline
+****[#yellow] <i><color #black><size:14>Chaining cmdlets together to pass objects down the pipeline.
+**[#lightblue] <i><color #blac><size:14>File Handling
+***[#green] <b><i><color #white><size:14>File Operations
+****[#yellow] <i><color #black><size:14>Reading, writing, appending, and deleting files.
+***[#green] <b><i><color #white><size:14>File System Navigation
+****[#yellow] <i><color #black><size:14>Navigating through the file system (cd, dir).
+****[#yellow] <i><color #black><size:14>Manipulating files and directories (copy, move, remove).
+***[#green] <b><i><color #white><size:14>File Permissions
+****[#yellow] <i><color #black><size:14>Changing file permissions using Set-ACL.
+**[#lightblue] <i><color #blac><size:14>Advanced Topics
+***[#green] <b><i><color #white><size:14>Functions
+****[#yellow] <i><color #black><size:14>Creating reusable code blocks with parameters.
+***[#green] <b><i><color #white><size:14>Modules
+****[#yellow] <i><color #black><size:14>Grouping functions and scripts for reusability.
+***[#green] <b><i><color #white><size:14>Remote Execution
+****[#yellow] <i><color #black><size:14>Running scripts on remote machines (Invoke-Command).
+***[#green] <b><i><color #white><size:14>Error Handling
+****[#yellow] <i><color #black><size:14>Catching and handling errors using Try-Catch blocks.
+***[#green] <b><i><color #white><size:14>Regular Expressions
+****[#yellow] <i><color #black><size:14>Pattern matching using -match operator.
+**[#lightblue] <i><color #blac><size:14>Best Practices
+***[#green] <b><i><color #white><size:14>Code Readability
+****[#yellow] <i><color #black><size:14>Consistent naming and indentation for clarity.
+***[#green] <b><i><color #white><size:14>Error Handling
+****[#yellow] <i><color #black><size:14>Proper error handling and reporting.
+***[#green] <b><i><color #white><size:14>Documentation
+****[#yellow] <i><color #black><size:14>Clear comments and help documentation for scripts.
+***[#green] <b><i><color #white><size:14>Testing and Validation
+****[#yellow] <i><color #black><size:14>Testing scripts in different environments.
+***[#green] <b><i><color #white><size:14>Security
+****[#yellow] <i><color #black><size:14>Following security best practices for script execution.
+@endmindmap

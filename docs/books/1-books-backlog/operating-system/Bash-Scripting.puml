@@ -1,0 +1,65 @@
+@startmindmap
+title =<i><b><u>Bash Scripting
+!theme hacker
+
+*[#darkblue] <i>Bash Scripting
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <b><i><color #white><size:14>Writing scripts using Bash (Bourne Again SHell).
+**[#lightblue] <i><color #blac><size:14>Basics
+***[#green] <b><i><color #white><size:14>Shebang (#!)
+****[#yellow] <i><color #black><size:14>Indicates the interpreter (#!/bin/bash).
+***[#green] <b><i><color #white><size:14>Comments
+****[#yellow] <i><color #black><size:14># for single-line comments.
+****[#yellow] <i><color #black><size:14>: '...' for multi-line comments.
+***[#green] <b><i><color #white><size:14>Variables
+****[#yellow] <i><color #black><size:14>Declaring and using variables ($variable_name).
+****[#yellow] <i><color #black><size:14>Naming convention: UPPERCASE by convention.
+***[#green] <b><i><color #white><size:14>Quoting
+****[#yellow] <i><color #black><size:14>Single quotes ('...') for literal strings.
+****[#yellow] <i><color #black><size:14>Double quotes ("...") for variable expansion and some special characters.
+***[#green] <b><i><color #white><size:14>Command Substitution
+****[#yellow] <i><color #black><size:14>Executing commands and using their output (`command` or $(command)).
+**[#lightblue] <i><color #blac><size:14>Control Structures
+***[#green] <b><i><color #white><size:14>Conditional Statements
+****[#yellow] <i><color #black><size:14>if, else, elif, case statements for decision-making.
+****[#yellow] <i><color #black><size:14>Comparison operators (<, >, ==, !=, -eq, -lt, -gt, etc.).
+***[#green] <b><i><color #white><size:14>Loops
+****[#yellow] <i><color #black><size:14>for, while, until loops for iteration.
+***[#green] <b><i><color #white><size:14>Functions
+****[#yellow] <i><color #black><size:14>Creating reusable code blocks.
+**[#lightblue] <i><color #blac><size:14>Input/Output
+***[#green] <b><i><color #white><size:14>Standard Streams
+****[#yellow] <i><color #black><size:14>stdin (0), stdout (1), stderr (2).
+****[#yellow] <i><color #black><size:14>Redirecting output (> to file, >> to append, 2> for stderr).
+***[#green] <b><i><color #white><size:14>Pipes
+****[#yellow] <i><color #black><size:14>Redirecting output of one command to another (|).
+***[#green] <b><i><color #white><size:14>Reading User Input
+****[#yellow] <i><color #black><size:14>Using read command to capture user input.
+**[#lightblue] <i><color #blac><size:14>File Handling
+***[#green] <b><i><color #white><size:14>File Operations
+****[#yellow] <i><color #black><size:14>Reading, writing, appending, and deleting files.
+***[#green] <b><i><color #white><size:14>File Permissions
+****[#yellow] <i><color #black><size:14>Changing and managing file permissions (chmod).
+***[#green] <b><i><color #white><size:14>File Testing
+****[#yellow] <i><color #black><size:14>Checking file attributes (existence, type, permissions).
+**[#lightblue] <i><color #blac><size:14>Advanced Topics
+***[#green] <b><i><color #white><size:14>Arrays
+****[#yellow] <i><color #black><size:14>Declaring and using arrays.
+***[#green] <b><i><color #white><size:14>Regular Expressions
+****[#yellow] <i><color #black><size:14>Pattern matching using grep, sed, and awk.
+***[#green] <b><i><color #white><size:14>Error Handling
+****[#yellow] <i><color #black><size:14>Trap command, exit codes, error messages.
+***[#green] <b><i><color #white><size:14>Debugging
+****[#yellow] <i><color #black><size:14>Set options for debugging (set -x, set -e).
+**[#lightblue] <i><color #blac><size:14>Best Practices
+***[#green] <b><i><color #white><size:14>Code Readability
+****[#yellow] <i><color #black><size:14>Consistent indentation and meaningful naming.
+***[#green] <b><i><color #white><size:14>Error Handling
+****[#yellow] <i><color #black><size:14>Proper handling of errors and exit codes.
+***[#green] <b><i><color #white><size:14>Documentation
+****[#yellow] <i><color #black><size:14>Clear and concise comments for easy understanding.
+***[#green] <b><i><color #white><size:14>Testing and Validation
+****[#yellow] <i><color #black><size:14>Thoroughly testing scripts in different scenarios.
+***[#green] <b><i><color #white><size:14>Security
+****[#yellow] <i><color #black><size:14>Sanitizing inputs to prevent security vulnerabilities.
+@endmindmap
