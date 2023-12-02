@@ -49,15 +49,15 @@ title =<i>__ Reactive Data Stream__
 *****[#yellow] <i><color #black><size:14>Offers support for backpressure and asynchronous processing
 
 **[#lightblue] <i><color #blac><size:22>Use Cases
-***[#green] <b><i><color #white><size:14>Real-Time Applications
+***[#green] <b><i><color #white><size:22>Real-Time Applications
 ****[#yellow] <i><color #black><size:14>Reactive data streams are suitable for building real-time systems
 ****[#yellow] <i><color #black><size:14>**Examples:** Real-time analytics, real-time dashboards, streaming data pipelines
 
-***[#green] <b><i><color #white><size:14>IoT (Internet of Things)
+***[#green] <b><i><color #white><size:22>IoT (Internet of Things)
 ****[#yellow] <i><color #black><size:14>Reactive streams handle high-velocity and high-volume data from IoT devices
 ****[#yellow] <i><color #black><size:14>**Examples:** Sensor data processing, telemetry data analysis
 
-***[#green] <b><i><color #white><size:14>Event-Driven Architectures
+***[#green] <b><i><color #white><size:22>Event-Driven Architectures
 ****[#yellow] <i><color #black><size:14>Reactive programming facilitates event-driven communication and handling of events
 ****[#yellow] <i><color #black><size:14>**Examples:** Microservices, event sourcing, event-driven messaging systems
 
