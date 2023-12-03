@@ -120,27 +120,11 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 #<size:14><color #black><i> The function does not mutate or change anything that is visible from the outside
 #<size:14><color #black><i>The function does not depend on anything from outside that may/possibly change;
 *****[#yellow] <i><color #black><size:14><b>Hybrid "languages"</b> can't enforce **(immutability),** so it is on us to take care of that
-***[#green] <b><i><color #white><size:14>sorted
-****[#yellow] <i><color #black><size:14>Sorts elements based on a comparator.
-**[#lightblue] <i><color #blac><size:14>Stream Sources
-***[#green] <b><i><color #white><size:14>Collections
-****[#yellow] <i><color #black><size:14>Lists, Sets, Maps, etc.
-***[#green] <b><i><color #white><size:14>Arrays
-****[#yellow] <i><color #black><size:14>Arrays of elements.
-***[#green] <b><i><color #white><size:14>I/O Channels
-****[#yellow] <i><color #black><size:14>Reading and writing from I/O.
-***[#green] <b><i><color #white><size:14>Generators
-****[#yellow] <i><color #black><size:14>Creating streams from generators or suppliers.
-**[#lightblue] <i><color #blac><size:14>Intermediate vs Terminal Operations
-***[#green] <b><i><color #white><size:14>Intermediate
-****[#yellow] <i><color #black><size:14>Lazy evaluated operations (map, filter, etc.).
-***[#green] <b><i><color #white><size:14>Terminal
-****[#yellow] <i><color #black><size:14>Operations that trigger stream evaluation (collect, forEach, etc.).
-**[#lightblue] <i><color #blac><size:22>Use Cases
-***[#green] <b><i><color #white><size:14>Data Processing
-****[#yellow] <i><color #black><size:14>Manipulating and transforming <b>data sets.
-***[#green] <b><i><color #white><size:14>Parallel Processing
-****[#yellow] <i><color #black><size:14>Concurrent operations on large <b>data sets.
-***[#green] <b><i><color #white><size:14>Functional Programming
-****[#yellow] <i><color #black><size:14>Functional-style operations on collections.
+****[#yellow] <i><color #black><size:13><b>Asynchronous (non-blocking) Programming
+**[#lightblue] <i><color #blac><size:14>What we should do?
+***[#green] <b><i><color #white><size:14>Studies suggest multilingual exposure boosts children's communication skills
+***[#green] <b><i><color #white><size:14>The amount of time we need to learn a new concept is inversely proportional to the diverse ideas we 've been exposed to.
+***[#green] <b><i><color #white><size:14>So learning different paradigms exposes to different ideas, learning different paradigms exposes to different line of thinking
+***[#green] <b><i><color #white><size:11>So the more we think differently the faster we learn to think differently. The less we are exposed to different things the harder it is for us to change when the language we are using changes already
+***[#green] <b><i><color #white><size:17>Learn different languages, not to use them all... But to able to adapt to change quickly & easily as the languages we use evolve
 @endmindmap
