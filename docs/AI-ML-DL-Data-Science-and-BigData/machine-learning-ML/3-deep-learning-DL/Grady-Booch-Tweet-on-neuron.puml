@@ -4,9 +4,9 @@ title =**//__Grady Booch's Tweet on neuron__//**
 
 * =Grady Booch's Tweet\n<img:images/grady-booch-tweet-on-neuron.png>
 ** =Tweet
-***[#yellow] ====<size:14>**Software Engineering:**  the **code** is the truth, but it's not the whole truth.
-***[#yellow] ====<size:14>**Neuroscience: ** the **connectome** is the truth, but it is not the whole truth.
-***[#yellow] ====<size:14>Explaination
+***[#yellow] <i><size:14>**Software Engineering:**  the **code** is the truth, but it's not the whole truth.
+***[#yellow] <i><size:14>**Neuroscience: ** the **connectome** is the truth, but it is not the whole truth.
+***[#yellow] <i><size:14>Explanation
 ****[#white]:Grady Booch's tweet draws a parallel between software engineering and neuroscience, highlighting the significance
 of fundamental elements.
 
@@ -24,17 +24,17 @@ of fundamental elements.
 
 
 ** =Software Engineering
-***[#yellow] ====<size:14>The code represents the fundamental truth.
-***[#yellow] ====<size:14>THIS LINE**Not the whole truth:** Incomplete without design, architecture, context, and more.
+***[#yellow] <i><size:14>The code represents the fundamental truth.
+***[#yellow] <i><size:14>THIS LINE**Not the whole truth:** Incomplete without design, architecture, context, and more.
 
 ** =Neuroscience
-***[#yellow] ====<size:14>The **connectome** is the complete **neural map.** this line
-****[#red] ====<size:18>**[[Connectome.puml Connectome]] click me**
-***[#yellow] ====<size:14>THIS LINE**Not the whole truth:** Brain function, chemistry, systems, and complexity.
+***[#yellow] <i><size:14>The **connectome** is the complete **neural map.** this line
+****[#red] <i><size:18>**[[Connectome.puml Connectome]] click me**
+***[#yellow] <i><size:14>THIS LINE**Not the whole truth:** Brain function, chemistry, systems, and complexity.
 
 ** Common Theme
-***[#yellow] ====<size:14>Foundational elements are crucial.
-***[#yellow] ====<size:14>A comprehensive understanding requires a broader perspective.
+***[#yellow] <i><size:14>Foundational elements are crucial.
+***[#yellow] <i><size:14>A comprehensive understanding requires a broader perspective.
 
 *:Grady Booch's tweet draws a fascinating parallel between software engineering and neuroscience, emphasizing that in both fields, the fundamental elements are crucial but not the sole determinants of the whole truth.
 
