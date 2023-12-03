@@ -15,7 +15,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ***[#green] <b><i><color #white><size:14>"Things change really fast in our field"
 ****[#yellow] <i><color #black><size:14>Sure, true to some extent
 ***[#green] <b><i><color #white><size:14>How are we Programming in new Century?
-****[#yellow] <i><color #black><size:14>still imperative programming e.g. <b> for (int i =0; i < prices.size() -1; i ++) {}
+****[#yellow] <i><color #black><size:14>Still imperative programming e.g. <b> for (int i =0; i < prices.size() -1; i ++) {}
 *****[#yellow] <i><color #black><size:14>Verbose code
 ***[#green] <b><i><color #white><size:14>Challenge
 ****[#yellow] <i><color #black><size:14>Learning new <b>"programming language"</b> is easy
@@ -44,7 +44,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 *****[#yellow] <i><color #black><size:14>Is an <b>abstraction</b> on top of functional programming
 ****[#darkorange] <i><color #black><size:22><b>7th paradigm shift:</b> <b>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/statistics/professor-leonard-statistics-notes/descriptive-(or-EDA)-statistics/4-machine-learning.puml Machine learning]] click\n<img:images/img_7.png>
 *****[#darkorange] <i><color #black><size:22><b>[[docs/books/selfanalysis/anatomy-of-knowledge.puml Anatomy of knowledge]] click me\n<img:images/img_8.png>
-******[#yellow] <i><color #black><size:22><b>Data-set\n<img:images/img_9.png>
+******[#yellow] <i><color #black><size:22><b>Data-set\n<img:images/img_6.png>
 
 ***[#green] <b><i><color #white><size:14>People ask me which programming language I should learn
 ****[#yellow] <i><color #black><size:14>I always tell don't pick a language to learn instead pick a programming paradigm to learn
@@ -86,12 +86,40 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ****[#yellow] <i><color #black><size:14><b>Most "languages" are "hybrid" today
 ***[#green] <b><i><color #white><size:14>When was "lambda calculus" created?
 ****[#yellow] <i><color #black><size:14>1930s it was created
+***[#green] <b><i><color #white><size:14>Why does it take so long for adoption?
+****[#yellow] <i><color #black><size:14>We take change in bit size
+****[#yellow] <i><color #black><size:14>Habits are hard to change, it takes a new generation
+****[#yellow] <i><color #black><size:14>We are poised (prepare) for a few big changes
+****[#yellow] <i><color #black><size:14>It started between 2003-2006
+*****[#yellow] <i><color #black><size:14>Hardware changed <b>(single core to multiple core machines)
+*****[#yellow] <i><color #black><size:14>Business world decided to change
+*****[#yellow] <i><color #black><size:14><b>Other factors:</b> Modern demands, Cloud, Big Data, IoT, ML, Microservices
+****[#yellow] <i><color #black><size:14><b>Some answers:</b>
+*****[#yellow] <i><color #black><size:18>NoSQL, MapReduce, Reactive
+***[#green] <b><i><color #white><size:14>How do we build web-apps?
+****[#yellow] <i><color #black><size:14>"Stateless" <b>(Request-Response)
+*****[#yellow] <i><color #black><size:14>Poor separation of concern
+***[#green] <b><i><color #white><size:14>How do we build moderen web-apps?
+****[#yellow] <i><color #black><size:14>"Continuations" <b>(Request-Response)
+*****[#yellow] <i><color #black><size:14>Save execution state & return to that point later in time
+****[#darkorange] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml "Languages" should make simple things simpler, hard things manageable]]
+****[#yellow] <i><color #black><size:15>Languages must promote <b>higher-level of abstraction, compos-ability, & declarative style
+****[#yellow] <i><color #black><size:15><b>Expressive Languages</b> (intuitive to use)
+*****[#yellow] <i><color #black><size:15><b>"Expressive code"</b> often leads to better design & extensibility
+*****[#yellow] <i><color #black><size:15>Efficiency
+******[#yellow] <i><color #black><size:15>It is cute. <b>Cuteness doesn't last very long!\n<img:images/img_9.png>
+******[#yellow] <i><color #black><size:15>It is cute. <b>Cuteness + Efficiency is highly critical!\n<img:images/img_10.png>
+******[#gold]:*<size:14><color #black><i>**Functional Programming:** relies on "lazy evaluation" for <b>"efficiency"
+*<size:14><color #black><i>**"lazy evaluation"** relies on **"purity of functions"** (immutability) for <b>"correctness"
+*<size:14><color #black><i>We need make sure **"lambda" (->)** are <b>"pure"
 
-***[#green] <b><i><color #white><size:14>reduce
-***[#green] <b><i><color #white><size:14>collect
-****[#yellow] <i><color #black><size:14>Accumulates elements into a collection or a value.
-***[#green] <b><i><color #white><size:14>forEach
-****[#yellow] <i><color #black><size:14>Performs an action on each element.
+**<size:14><color #black><i>Pure functions do not have side-effects. They are <b>idempotent.
+**<size:14><color #black><i>**Idempotent:** For the same input function always produces same output
+
+<size:14><color #black><i><u><b>Rules of Purity </b>(rule 1 is necessary but not sufficient)
+#<size:14><color #black><i> The function does not mutate or change anything that is visible from the outside
+#<size:14><color #black><i>The function does not depend on anything from outside that may/possibly change;
+*****[#yellow] <i><color #black><size:14><b>Hybrid "languages"</b> can't enforce **(immutability),** so it is on us to take care of that
 ***[#green] <b><i><color #white><size:14>sorted
 ****[#yellow] <i><color #black><size:14>Sorts elements based on a comparator.
 **[#lightblue] <i><color #blac><size:14>Stream Sources
