@@ -59,9 +59,9 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 
 <i><color #black><size:14>That to me is a pretty low bar in a lot of ways because Turing completeness often
 <i><color #black><size:14>doesn't talk about
-*<i><color #black><size:14>Efficiency of programming
-*<i><color #black><size:14>Speed at which the code can run
-*<i><color #black><size:14>Elegance of the code
+*<i><color #black><size:14><b>Efficiency of programming
+*<i><color #black><size:14><b>Speed at which the code can run
+*<i><color #black><size:14><b>Elegance of the code
 <i><color #black><size:14>none of it really addresses in that regard. So we want to think about <b>"turing complete"
 <i><color #black><size:14>but we have to go beyond that in a lot of ways when looking at <b>"languages";
 ****[#yellow] <i><color #black><size:14>E.g. Von Newman bottleneck
