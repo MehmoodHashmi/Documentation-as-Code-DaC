@@ -7,7 +7,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ***[#green]:<i><color #white><size:14>I program in about 15 different languages what I mean by that is I'm not good in any one of them but I love programming &  I started programming because
 <i><color #white><size:14>of the love I had for Math, physics and Science in general but <b>"35 years later I'm still a programmer"</b> because of the <b>art and programming that I see.;
 
-***[#green]:<i><color #white><size:14>I want to talk a little bit about what do I want to see in programming languages as we move forward over the years as I programmed in multiple languages.
+***[#green]:<i><color #white><size:14>I will talk what do I want to see in programming languages as we move forward over the years as I programmed in multiple languages.
 <i><color #white><size:14>I've kind of enjoyed some languages more than others;
 ***[#green] <i><color #white><size:14><b>Where things are today and where things are heading
 
@@ -25,7 +25,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ****[#yellow] <i><color #black><size:14><b>2nd paradigm shift:</b> Object Oriented Programming or object decomposition of code (modules)
 ****[#yellow] <i><color #black><size:14><b>3rd paradigm shift:</b> Distributed Object Computing or Common Object Request Broker Architecture <b>(CORBA)
 *****[#yellow] <i><color #black><size:14>Remote computing
-****[#yellow] <i><color #black><size:14><b>4rth paradigm shift:</b> Asynchronous Programming
+****[#yellow] <i><color #black><size:14><b>4rth paradigm shift:</b> Asynchronous Programming\n*<i><color #black><size:14>Asynchronous is <b>non-blocking
 *****[#yellow]:<i><color #black><size:14><b>It took me more time to understand it. Why? Because</b>
 * <color #black><size:14><i>I was not satisfied writing another <b>"callback"</b> in & go home
 * <color #black><size:14><i>I wanted to understand the following:
