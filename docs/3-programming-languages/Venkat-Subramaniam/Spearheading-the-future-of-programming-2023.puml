@@ -25,7 +25,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ****[#yellow] <i><color #black><size:14><b>2nd paradigm shift:</b> Object Oriented Programming or object decomposition of code (modules)
 ****[#yellow] <i><color #black><size:14><b>3rd paradigm shift:</b> Distributed Object Computing or Common Object Request Broker Architecture <b>(CORBA)
 *****[#yellow] <i><color #black><size:14>Remote computing
-****[#yellow] <i><color #black><size:14><b>4rth paradigm shift:</b> Asynchronous Programming\n*<i><color #black><size:14>Asynchronous is <b>non-blocking
+****[#darkorange] <i><color #black><size:14><b>4rth paradigm shift:</b> Asynchronous Programming\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Asynchronous is non-blocking]] click gif\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Multi-threading vs Multi-processing programming ]]
 *****[#yellow]:<i><color #black><size:14><b>It took me more time to understand it. Why? Because</b>
 * <color #black><size:14><i>I was not satisfied writing another <b>"callback"</b> in & go home
 * <color #black><size:14><i>I wanted to understand the following:
@@ -94,8 +94,9 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 *****[#yellow] <i><color #black><size:14>Hardware changed <b>(single core to multiple core machines)
 *****[#yellow] <i><color #black><size:14>Business world decided to change
 *****[#yellow] <i><color #black><size:14><b>Other factors:</b> Modern demands, Cloud, Big Data, IoT, ML, Microservices
-****[#yellow] <i><color #black><size:14><b>Some answers:</b>
+****[#yellow] <i><color #black><size:22><b>Some answers:</b>
 *****[#yellow] <i><color #black><size:18>NoSQL, MapReduce, Reactive
+**[#lightblue] <i>Web
 ***[#green] <b><i><color #white><size:14>How do we build web-apps?
 ****[#yellow] <i><color #black><size:14>"Stateless" <b>(Request-Response)
 *****[#yellow] <i><color #black><size:14>Poor separation of concern
@@ -120,7 +121,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 #<size:14><color #black><i> The function does not mutate or change anything that is visible from the outside
 #<size:14><color #black><i>The function does not depend on anything from outside that may/possibly change;
 *****[#yellow] <i><color #black><size:14><b>Hybrid "languages"</b> can't enforce **(immutability),** so it is on us to take care of that
-****[#yellow] <i><color #black><size:13><b>Asynchronous (non-blocking) Programming
+****[#darkorange] <i><color #black><size:18><b>Asynchronous Programming\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Asynchronous is non-blocking]] click gif\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Multi-threading vs Multi-processing programming ]]
 **[#lightblue] <i><color #blac><size:14>What we should do?
 ***[#green] <b><i><color #white><size:14>Studies suggest multilingual exposure boosts children's communication skills
 ***[#green] <b><i><color #white><size:14>The amount of time we need to learn a new concept is inversely proportional to the diverse ideas we 've been exposed to.
