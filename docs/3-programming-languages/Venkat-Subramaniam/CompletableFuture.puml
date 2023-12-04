@@ -1,0 +1,64 @@
+@startmindmap
+title =<i><b><u>CompletableFuture
+!theme hacker
+
+*[#darkblue] <i>CompletableFuture
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <b><i><color #white><size:14>Class introduced in Java 8 for asynchronous programming.
+**[#lightblue] <i><color #blac><size:14>Characteristics
+***[#green] <b><i><color #white><size:14>Asynchronous Execution
+****[#yellow] <i><color #black><size:14>Performing operations independently without blocking.
+***[#green] <b><i><color #white><size:14>Composition
+****[#yellow] <i><color #black><size:14>Chaining multiple CompletableFuture instances.
+***[#green] <b><i><color #white><size:14>Exception Handling
+****[#yellow] <i><color #black><size:14>Handling exceptions occurring in asynchronous tasks.
+***[#green] <b><i><color #white><size:14>Completion Stages
+****[#yellow] <i><color #black><size:14>Combining and orchestrating asynchronous tasks.
+**[#lightblue] <i><color #blac><size:22>Creation
+***[#green] <b><i><color #white><size:14>Supplying a Value
+****[#yellow] <i><color #black><size:14>CompletableFuture.supplyAsync<b>(() -> value).
+***[#green] <b><i><color #white><size:14>Running Async Tasks
+****[#yellow] <i><color #black><size:14>CompletableFuture.runAsync<b>(() -> task).
+***[#green] <b><i><color #white><size:14>Combining Futures
+****[#yellow] <i><color #black><size:14>thenCombine, thenCompose, thenApply, etc.
+**[#lightblue] <i><color #blac><size:14>Combining and Chaining
+***[#green] <b><i><color #white><size:14>thenApply
+****[#yellow] <i><color #black><size:14>Processing result of CompletableFuture.
+***[#green] <b><i><color #white><size:14>thenCompose
+****[#yellow] <i><color #black><size:14>Chaining CompletableFuture instances.
+***[#green] <b><i><color #white><size:14>thenCombine
+****[#yellow] <i><color #black><size:14>Combining results from multiple CompletableFutures.
+***[#green] <b><i><color #white><size:14>allOf, anyOf
+****[#yellow] <i><color #black><size:14>Waiting for multiple CompletableFutures.
+**[#lightblue] <i><color #blac><size:22>Exception Handling
+***[#green] <b><i><color #white><size:14>exceptionally
+****[#yellow] <i><color #black><size:14>Handling exceptions in CompletableFuture.
+***[#green] <b><i><color #white><size:14>handle
+****[#yellow] <i><color #black><size:14>Handling both result and exceptions.
+***[#green] <b><i><color #white><size:14>whenComplete
+****[#yellow] <i><color #black><size:14>Executing action after completion, with or without exceptions.
+**[#lightblue] <i><color #blac><size:14>Asynchronous Task Execution
+***[#green] <b><i><color #white><size:14>Completing a Task
+****[#yellow] <i><color #black><size:14>complete, completeExceptionally.
+***[#green] <b><i><color #white><size:14>Cancelling Execution
+****[#yellow] <i><color #black><size:14>cancel, isCancelled.
+***[#green] <b><i><color #white><size:14>Waiting for Completion
+****[#yellow] <i><color #black><size:14>join, get.
+**[#lightblue] <i><color #blac><size:14>Timeouts and Delays
+***[#green] <b><i><color #white><size:14>Timeout
+****[#yellow] <i><color #black><size:14>Applying timeout to CompletableFuture.
+***[#green] <b><i><color #white><size:14>Delay
+****[#yellow] <i><color #black><size:14>Adding delay to CompletableFuture.
+**[#lightblue] <i><color #blac><size:14>Asynchronous Computation in Collections
+***[#green] <b><i><color #white><size:14>forEachAsync
+****[#yellow] <i><color #black><size:14>Asynchronous iteration over elements.
+***[#green] <b><i><color #white><size:14>reduceAsync
+****[#yellow] <i><color #black><size:14>Asynchronous reduction operations.
+***[#green] <b><i><color #white><size:14>collectAsync
+****[#yellow] <i><color #black><size:14>Asynchronously collecting elements.
+**[#lightblue] <i><color #blac><size:14>Synchronization
+***[#green] <b><i><color #white><size:14>Synchronous Execution
+****[#yellow] <i><color #black><size:14>Using join or get for synchronization.
+***[#green] <b><i><color #white><size:14>Asynchronous Callbacks
+****[#yellow] <i><color #black><size:14>Using thenApply, thenAccept, thenRun for <b>callbacks.
+@endmindmap

@@ -13,7 +13,7 @@ title =<b><i><u>Know Your Java
 ****[#yellow] <size:14><color #black><i>Semantic errors <size:18><&bug>
 *****[#gold] <size:14><color #black><i>Different code behaviors
 *****[#gold] *<size:14><color #black><i>"But it works on my machine" is bad scenario <size:18><&circle-x>\n*<size:14><color #black><i>But bloats/crashes in production environments
-*****[#gold] <size:14><color #black><i>"It fails on my machine" is better scenario <&check>
+*****[#gold] <size:14><color #black><i>"It fails on my machine" is better scenario <&check>\n*<size:14><color #black><i><b> Do TDD
 ***[#green] <size:14><color #white><i><b>Polymorphism
 ****[#yellow] <size:14><color #black><i>Compile Time polymorphism <b>(function overloading) is "early binding"
 ****[#yellow] <size:14><color #black><i>Runtime Time polymorphism **(function overriding). "Overriding"** only tends to exist in case of <b>inheritance. Late binding

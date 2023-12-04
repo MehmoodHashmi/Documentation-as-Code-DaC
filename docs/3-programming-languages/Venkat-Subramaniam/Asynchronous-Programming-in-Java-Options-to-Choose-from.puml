@@ -1,0 +1,51 @@
+@startmindmap
+title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Venkat Subramaniam -  2023\n His PhD is in parallelisim
+!theme hacker
+
+*[#darkblue] <i>Asynchronous Programming in Java:\n<i>Options to Choose from
+**[#lightblue] <i><color #blac><size:14>Introduction
+***[#green]:<i><color #white><size:14>Java has had parallel and concurrent programming facilities from the start. In recent years the business has needed as much, if not more,asynchronous
+<i><color #white><size:14>capabilities, with <b>webservices and microservices.</b> We will discuss the various options available, such as completable futures, reactive steams, & the newer
+<i><color #white><size:14><b>virtual threads</b> and discuss which options are better suited and why.;
+
+**[#lightblue] <i><color #blac><size:14>Threading
+***[#green] <i><color #white><size:14><b>Parallel vs Concurrent
+****[#yellow] <i><color #black><size:14>Think about execution. In what sequence code gets executed?
+****[#yellow] <i><color #black><size:14><b>Parallel:</b> I can walk & talk in parallel\n<img:gif/img_2.png>
+****[#yellow] <i><color #black><size:14><b>Concurrent:</b> I can either drink or talk but not both simultaneously\n<img:gif/img_3.png>
+****[#yellow] <i><color #black><size:14><b>Resources (CPU/GPU/TPU cores) & RAM:</b> usually put restrictions/limitations on which one we can use
+****[#yellow] <i><color #black><size:14><b>Java-1.0:</b> had <b>Threads</b> (light weight), but sooner realized its drawback
+****[#yellow] <i><color #black><size:14><b>Java-5.0:</b> had <b>Executors.</b> Don't keep creating threads all over the place its bad idea. Instead create pools of threads & schedule tasks on the pool\n*<i><color #black><size:18>In both life & programming we solve a set of problems only to realize we have now created a new set of problems\n*<i><color #black><size:18>Executors ended up into pool induced deadlocks. It was annoying!
+****[#yellow] <i><color #black><size:14><b>Java-7.0:</b> had <b>ForkJoin API</b> was introduced pool introduced deadlocks.
+****[#yellow] <i><color #black><size:14><b>Java-8.0:</b> had <b>Parallel Streams & CompletableFuture</b>
+****[#yellow] <i><color #black><size:14><b>Java-18:</b> onwards <b>Virtual Threads</b> are under discussion\n*<i><color #black><size:14>Maybe after three years from now we learn from the problems with virtual threads & then try to solve it
+***[#green] <i><color #white><size:14><b>Parallel vs Asynchronous
+***[#green] <i><color #white><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/Spearheading-the-future-of-programming-2023.puml What does it mean to be "asynchronous"?]]
+****[#yellow]:<i><color #black><size:14><b>Asynchronous is "non-blocking" "request/call"
+* <i><color #black><size:14>**Non-blocking** means you don't want to block your "thread of execution" & "wait" for it to finish
+* <i><color #black><size:14>**Benefit of Non-blocking** is your thread becomes available to do other things
+* <i><color #black><size:14><b>"Tasks:"</b>  are always "blocking". It has to wait & finish the next job but your thread becomes "non-blocking";
+****[#yellow] <i><color #black><size:14><b>What does the thread do?
+****[#yellow] <i><color #black><size:14><b>"Paradigm Shift"; Learning a different paradigm
+***[#green] <i><color #white><size:14><b>Starting a thread & blocking on it?
+****[#yellow]:<i><color #black><size:14><b>How do we structure all of this to work on it?
+* <i><color #black><size:14><b>Performance</b> reasons (less critical)
+* <i><color #black><size:14><b>Interoperability</b> reasons (more critical)
+* <i><color #black><size:14><b>Responsiveness</b> reasons (more critical);
+****[#yellow] <i><color #black><size:14><b>Blocking is not a good option!
+***[#green] <i><color #white><size:14><b>Starting a thread & passing a function to a call?
+****[#yellow] <i><color #black><size:14><b>Threads are not working properly so lets create more threads. This is not a good logic!
+***[#green] <i><color #white><size:14><b>Why not callbacks?
+****[#yellow] <i><color #black><size:14><b>JavaScript, Callback hell!
+**[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/CompletableFuture.puml Completable Future]]
+***[#green] <b><i><color #white><size:14>"Promises" of JavaScript
+****[#yellow] <i><color #black><size:14>"Promises" in "JavaScript" are excatly same as "CompletableFuture in Java" but with different names
+****[#yellow]:<i><color #black><size:14>"Promises" think of it as a <b>Data-structure.</b> It can be in <b>three different states:
+* <i><color #black><size:14>"<b>Pending</b> (state) transient keeps changing
+* <i><color #black><size:14>"<b>Resolved</b> (terminal state) when entered in this state it does not changes anymore
+* <i><color #black><size:14>"<b>Rejected</b> (terminal state) when entered in this state it does not changes anymore;
+****[#yellow] <i><color #black><size:14><b>Railway track pattern\n<img:images/img_11.png>\n*<i><color #black><size:14><b>Upper track is "Data Stream"\n*<i><color #black><size:14><b>Lower track is "Error Stream"
+*****[#yellow] <i><color #black><size:14><b><img:images/img_12.png>
+****[#yellow] <i><color #black><size:14><img:images/img_13.png>
+
+@endmindmap
