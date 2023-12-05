@@ -1,0 +1,44 @@
+@startmindmap
+title =  <b><i><u>Use Case#1 or feature#1
+!theme hacker
+
+*[#darkblue] <i>Use Case#1 or feature#1
+**[#lightblue] <i><size:14>Use Case Name
+***[#yellow] <i><size:14>A short, descriptive name for the use case
+**[#lightblue] <i><size:14>Actor
+***[#yellow] <i><size:14>The person, system or organization that interacts with the system to achieve a goal
+**[#lightblue] <i><size:14>Trigger
+***[#yellow] <i><size:14>The **event** that initiates the use case
+**[#lightblue] <i><size:14>Preconditions
+***[#yellow]:<i><size:14>Conditions that must be true for the use case to begin
+#<i><size:14> First precondition
+#<i><size:14> Second precondition;
+**[#lightblue] <i><size:14>Post-conditions
+***[#yellow]:<i><size:14>Conditions that must be true after the use case has been completed
+#<i><size:14> First post-condition
+#<i><size:14> Second post-condition;
+**[#lightblue] <i><size:14>Use Case Dependncy
+***[#green] <b><color #white><i><size:14>'<<Includes>>'
+****[#a] <color #white><b><i><size:14>Use Case#2, Use Case#3, click me
+***[#green] <b><color #white><i><size:14>'<<Extends>>'
+****[#a] <color #white><b><i><size:14>Use Case#4, Use Case#5, click me
+**[#lightblue] <i><size:14>Use Case Notes:
+***[#yellow] <i><size:14>If any
+**[#lightblue] <i><size:14>[[docs/2-uml/requirements-and-design-with-plantuml/activity-diagrams/use-case-1-activity.puml Use case#1 Activity Diagram]] click me
+***[#green] <color #white><b><i><size:14>--Main-- --Flow--
+****[#yellow] <i><size:14>A sequence of steps that describe the normal course of events for the use case
+***[#green] <color #white><b><i><size:14>--Alternative-- --Flows--
+****[#yellow] <i><size:14>Sequences of steps that describe exceptional courses of events for the use case
+***[#green] <color #white><b><i><size:14>Exception Flows
+****[#yellow] <i><size:14>Sequences of steps that describe how the system handles unexpected events
+**[#lightblue] <i><size:14>[[docs/2-uml/requirements-and-design-with-plantuml/sequence-diagrams/use-case-1-sequence.puml Use case#1 Sequence Diagram]] click me
+***[#green] <color #white><b><i><size:14>During Analsis & Design
+****[#yellow] <color #black><i><size:14><b>System Level Sequence Diagram (SSD):</b> Depict the interactions between external actors and the system itself, outlining\n<i><size:14><color #black>the flow of events without delving into the internal workings of the system
+****[#yellow] <color #black><i><size:14><b>Design Level Sequence Diagram (DSD):</b>These provide an overview of interactions between major components or \n<i><size:14><color #black>systems, focusing on their relationships and interactions
+***[#green] <color #white><b><i><size:14>Just before Implementation
+****[#yellow] <color #black><i><size:14><b>Object-Level Sequence Diagrams (OSD):</b> Detail the interactions between specific **objects or instances,** \n<i><size:14><color #black>illustrating the messages exchanged and the order of these interactions
+**[#lightblue] <i><size:14>[[docs/2-uml/requirements-and-design-with-plantuml/state-transition-diagrams/use-case-1-state-transition.puml Use case#1 State Transition Diagram]] click me
+***[#green] <color #white><b><i><size:14>During Analysis & Design
+
+
+@endmindmap

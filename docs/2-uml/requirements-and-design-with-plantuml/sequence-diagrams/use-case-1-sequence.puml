@@ -1,0 +1,56 @@
+@startuml
+skinparam sequenceParticipant underline
+skinparam roundcorner 20
+ 'hidefootbox
+header "let do coding"
+footer "page %page% of %lastpage%"
+title  = **//__Use case#1 sequence diagram__//**
+autoactivate on
+autonumber
+
+actor "Web User" as webUser #lightblue
+participant "Front End" as Portal #pink
+participant Gateway
+participant "Identity \n Server" as IdentityServer #grey
+participant "Rest API" as RestAPI #orange
+database OrderDatabase #red
+entity "External \nShipping Service" as ExternalShippingService #yellow
+
+webUser -[#red]> Portal ++ : Orders Request
+group#gold  Step: Authentication
+    Portal  ->  Gateway   ++ : GET /api/v1/orders\n bearer Token
+'
+    Gateway -> IdentityServer #005500 : Authenticate token
+    IdentityServer -> IdentityServer #009599: validate\n token
+    IdentityServer -> Gateway -- : Success token validate
+else Authentication Failed
+    IdentityServer -> Gateway -- : Request failed
+    Gateway -> Portal : Authentication Failure
+    Portal -> webUser : Login Again
+    note right : Authentication has failed
+
+end
+
+group#yellow Step: Call Order API
+    Gateway -> RestAPI ++: GET api/v1/orders
+    RestAPI --[#blue]> RestAPI : Do something \n Procesing
+    group#pink Database Interaction
+    autonumber 8.1
+        RestAPI -> OrderDatabase ++ : Query Orders
+        OrderDatabase -> RestAPI -- : Orders
+    end
+
+    'loop
+    autonumber inc
+    loop#lightgreen Find shipping status
+        RestAPI -> ExternalShippingService  ** : Find shipping status
+        ExternalShippingService -> RestAPI -- : return shipping response
+    end
+
+    RestAPI --> Portal -- : Order
+
+end
+
+Portal  ->  webUser   -- : response
+
+@enduml

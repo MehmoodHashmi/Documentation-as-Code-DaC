@@ -9,17 +9,17 @@ title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Ve
 <i><color #white><size:14><b>virtual threads</b> and discuss which options are better suited and why.;
 
 **[#lightblue] <i><color #blac><size:14>Threading
-***[#green] <i><color #white><size:14><b>Parallel vs Concurrent
+***[#green] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Parallel vs Concurrent]]
 ****[#yellow] <i><color #black><size:14>Think about execution. In what sequence code gets executed?
 ****[#yellow] <i><color #black><size:14><b>Parallel:</b> I can walk & talk in parallel\n<img:gif/img_2.png>
 ****[#yellow] <i><color #black><size:14><b>Concurrent:</b> I can either drink or talk but not both simultaneously\n<img:gif/img_3.png>
 ****[#yellow] <i><color #black><size:14><b>Resources (CPU/GPU/TPU cores) & RAM:</b> usually put restrictions/limitations on which one we can use
-****[#yellow] <i><color #black><size:14><b>Java-1.0:</b> had <b>Threads</b> (light weight), but sooner realized its drawback
+****[#a] <i><color #black><size:14><b>Java-1.0:</b> had <b>[[docs/3-programming-languages/Venkat-Subramaniam/Threads.puml Threads]]</b> (light weight), but sooner realized its drawback
 ****[#yellow] <i><color #black><size:14><b>Java-5.0:</b> had <b>Executors.</b> Don't keep creating threads all over the place its bad idea. Instead create pools of threads & schedule tasks on the pool\n*<i><color #black><size:18>In both life & programming we solve a set of problems only to realize we have now created a new set of problems\n*<i><color #black><size:18>Executors ended up into pool induced deadlocks. It was annoying!
 ****[#yellow] <i><color #black><size:14><b>Java-7.0:</b> had <b>ForkJoin API</b> was introduced pool introduced deadlocks.
 ****[#yellow] <i><color #black><size:14><b>Java-8.0:</b> had <b>Parallel Streams & CompletableFuture</b>
-****[#yellow] <i><color #black><size:14><b>Java-18:</b> onwards <b>Virtual Threads</b> are under discussion\n*<i><color #black><size:14>Maybe after three years from now we learn from the problems with virtual threads & then try to solve it
-***[#green] <i><color #white><size:14><b>Parallel vs Asynchronous
+****[#a] <i><color #black><size:14><b>Java-18:</b> onwards <b>[[docs/3-programming-languages/Venkat-Subramaniam/Virtual-Threads.puml Virtual Threads]]</b> are under discussion\n*<i><color #black><size:14>Maybe after three years from now we learn from the problems with virtual threads & then try to solve it
+***[#green] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Parallel vs Asynchronous]]
 ***[#green] <i><color #white><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/Spearheading-the-future-of-programming-2023.puml What does it mean to be "asynchronous"?]]
 ****[#yellow]:<i><color #black><size:14><b>Asynchronous is "non-blocking" "request/call"
 * <i><color #black><size:14>**Non-blocking** means you don't want to block your "thread of execution" & "wait" for it to finish
@@ -47,5 +47,25 @@ title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Ve
 ****[#yellow] <i><color #black><size:14><b>Railway track pattern\n<img:images/img_11.png>\n*<i><color #black><size:14><b>Upper track is "Data Stream"\n*<i><color #black><size:14><b>Lower track is "Error Stream"
 *****[#yellow] <i><color #black><size:14><b><img:images/img_12.png>
 ****[#yellow] <i><color #black><size:14><img:images/img_13.png>
+**[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/CompletableFuture.puml Continuations & Coroutines]]
+***[#green] <b><i><color #white><size:14>Subroutines
+***[#green] <b><i><color #white><size:14>Coroutines
+***[#green] <b><i><color #white><size:14>Continuations
+**[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/CompletableFuture.puml Threads Vs Vritual Threads]]
+***[#green] <b><i><color #white><size:14>Super lightweight
+***[#green] <b><i><color #white><size:14>Managed by JVM
+***[#green] <b><i><color #white><size:14>Mounting & unmounting
+**[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/CompletableFuture.puml Shift In Programming Model]]
+***[#green] <b><i><color #white><size:14>From user Executor services
+***[#green] <b><i><color #white><size:14>to using virtual threads
+***[#green] <b><i><color #white><size:14>Executors, not pooled
+
+**[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/CompletableFuture.puml Usage patterns]]
+***[#green] <b><i><color #white><size:14>Where does it make sense to use virtual threads?
+***[#green] <b><i><color #white><size:14>Does & don'ts
+
+**[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/CompletableFuture.puml Programming Models]]
+***[#green] <b><i><color #white><size:14>Where does it make sense to use virtual threads?
+***[#green] <b><i><color #white><size:14>Does & don'ts
 
 @endmindmap

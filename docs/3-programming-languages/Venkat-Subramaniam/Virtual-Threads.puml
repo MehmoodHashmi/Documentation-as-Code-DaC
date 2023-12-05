@@ -1,0 +1,57 @@
+@startmindmap
+title =<i><b><u>Virtual Threads
+!theme hacker
+
+
+
+
+
+
+*[#darkblue] <i>Virtual Threads
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <b><i><color #white><size:14>Lightweight and scalable threads in Java.
+**[#lightblue] <i><color #blac><size:14>Characteristics
+***[#green] <b><i><color #white><size:14>Lightweight
+****[#yellow] <i><color #black><size:14>Consumes less memory compared to OS threads.
+***[#green] <b><i><color #white><size:14>Scalable
+****[#yellow] <i><color #black><size:14>Efficiently manages large numbers of threads.
+***[#green] <b><i><color #white><size:14>Scheduled in User Space
+****[#yellow] <i><color #black><size:14>Managed by the Java runtime, not OS scheduler.
+***[#green] <b><i><color #white><size:14>High Concurrency
+****[#yellow] <i><color #black><size:14>Handling large numbers of threads concurrently.
+**[#lightblue] <i><color #blac><size:14>Motivation
+***[#green] <b><i><color #white><size:14>Addressing Thread Overhead
+****[#yellow] <i><color #black><size:14>Reducing the cost of thread creation and context switching.
+***[#green] <b><i><color #white><size:14>Enhancing Concurrency
+****[#yellow] <i><color #black><size:14>Efficiently managing high numbers of threads.
+***[#green] <b><i><color #white><size:14>Improving Performance
+****[#yellow] <i><color #black><size:14>Optimizing resource utilization and scalability.
+**[#lightblue] <i><color #blac><size:14>Project Loom
+***[#green] <b><i><color #white><size:14>Project Aim
+****[#yellow] <i><color #black><size:14>Introducing Virtual Threads via Project Loom in Java.
+***[#green] <b><i><color #white><size:14>Use of Continuations
+****[#yellow] <i><color #black><size:14>Implementing Virtual Threads using Continuations API.
+***[#green] <b><i><color #white><size:14>Simplified Concurrency
+****[#yellow] <i><color #black><size:14>Easier and more scalable concurrency model.
+**[#lightblue] <i><color #blac><size:14>Advantages
+***[#green] <b><i><color #white><size:14>Reduced Overhead
+****[#yellow] <i><color #black><size:14>Lower cost of thread creation and switching.
+***[#green] <b><i><color #white><size:14>Simplified Code
+****[#yellow] <i><color #black><size:14>Easier programming with lightweight threads.
+***[#green] <b><i><color #white><size:14>Scalability
+****[#yellow] <i><color #black><size:14>Efficient handling of large numbers of threads.
+**[#lightblue] <i><color #blac><size:14>Use Cases
+***[#green] <b><i><color #white><size:14>Reactive Systems
+****[#yellow] <i><color #black><size:14>Handling high concurrency in reactive applications.
+***[#green] <b><i><color #white><size:14>IO-bound Tasks
+****[#yellow] <i><color #black><size:14>Improving performance for IO-bound operations.
+***[#green] <b><i><color #white><size:14>Legacy Applications
+****[#yellow] <i><color #black><size:14>Optimizing legacy applications with high thread counts.
+**[#lightblue] <i><color #blac><size:14>Integration with Existing APIs
+***[#green] <b><i><color #white><size:14>CompletableFuture
+****[#yellow] <i><color #black><size:14>Integration with CompletableFuture for asynchronous tasks.
+***[#green] <b><i><color #white><size:14>Executor Framework
+****[#yellow] <i><color #black><size:14>Enhancing existing Executor services with Virtual Threads.
+***[#green] <b><i><color #white><size:14>Blocking Operations
+****[#yellow] <i><color #black><size:14>Efficiently managing blocking operations.
+@endmindmap
