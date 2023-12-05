@@ -1,0 +1,11 @@
+@startmindmap
+!theme hacker
+*[#darkblue] <i>Glossary
+**[#lightblue] <size:14><i>Terms
+***[#green] <b><color #white><size:14><i>People
+****[#yellow] <color #black><size:14><i><b>Customer:</b> Who visits the website for order laptops
+****[#yellow] <color #black><size:14><i><b>Administrator:</b> Who maintains the website for ordered laptops
+***[#green] <b><color #white><size:14><i>Places
+***[#green] <b><color #white><size:14><i>Things
+
+@endmindmap

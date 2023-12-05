@@ -7,10 +7,10 @@ title =  <b><i><u>Use Case#1 or feature#1
 ***[#yellow] <i><size:14>A short, descriptive name for the use case
 **[#lightblue] <i><size:14>Actor
 ***[#yellow] <i><size:14>The person, system or organization that interacts with the system to achieve a goal
-**[#lightblue] <i><size:14>Trigger
-***[#yellow] <i><size:14>The **event** that initiates the use case
 **[#lightblue] <i><size:14>Data:
 ***[#yellow] <i><size:14>Name, Father name, City, zip code etc.
+**[#lightblue] <i><size:14>Trigger
+***[#yellow] <i><size:14>The **event** that initiates the use case
 **[#lightblue] <i><size:14>Preconditions
 ***[#yellow]:<i><size:14>Conditions that must be true for the use case to begin
 #<i><size:14> First precondition
