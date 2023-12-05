@@ -1,5 +1,5 @@
 @startmindmap
-title =  <b><i><u><img:img.png>
+title =  <b><i><u>Use Case 2.0\n<img:img.png>
 caption <img:img_1.png>
 !theme hacker
 
@@ -11,7 +11,7 @@ caption <img:img_1.png>
 **[#lightblue] <i><size:14>Data:
 ***[#yellow] <i><size:14>Name, Father name, City, zip code etc.
 **[#lightblue] <i><size:14>Purpose or goal
-***[#yellow] <i><size:14>The **purpose or goal** this use case wants to achieve
+***[#yellow] <i><size:14>The **purpose or goal** this use case will achieve
 **[#lightblue] <i><size:14>Trigger
 ***[#yellow] <i><size:14>The **event** that initiates the use case
 **[#lightblue] <i><size:14>Preconditions
