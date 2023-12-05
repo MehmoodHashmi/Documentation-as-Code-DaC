@@ -39,6 +39,7 @@ title =  <b><i><u>Use Case#1 or feature#1
 ****[#yellow] <color #black><i><size:14><b>Object-Level Sequence Diagrams (OSD):</b> Detail the interactions between specific **objects or instances,** \n<i><size:14><color #black>illustrating the messages exchanged and the order of these interactions
 **[#lightblue] <i><size:14>[[docs/2-uml/requirements-and-design-with-plantuml/state-transition-diagrams/use-case-1-state-transition.puml Use case#1 State Transition Diagram]] click me
 ***[#green] <color #white><b><i><size:14>During Analysis & Design
+**[#lightblue] <i><size:14>[[docs/2-uml/requirements-and-design-with-plantuml/0-use-case-diagrams/Tomplot-Use-Case-diagram.puml Use case Diagram]] click me
 
 
 @endmindmap
