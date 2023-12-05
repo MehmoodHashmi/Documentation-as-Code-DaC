@@ -42,5 +42,13 @@ title =  <b><i><u>Use Case#1 or feature#1
 **[#lightblue] <i><size:14>[[docs/2-uml/requirements-and-design-with-plantuml/state-transition-diagrams/use-case-1-state-transition.puml Use case#1 State Transition Diagram]] click me
 ***[#green] <color #white><b><i><size:14>During Analysis & Design
 **[#lightblue] <i><size:14>[[docs/2-uml/requirements-and-design-with-plantuml/0-use-case-diagrams/Tomplot-Use-Case-diagram.puml Use case Diagram]] click me
+**[#lightblue] <i><size:14>Schema Diagram
+***[#green] <color #white><b><i><size:14>Don't add schema detials inside the use case. Keep it simple. You are adding Databases (SQL, NoSQL) & Programming in use cases.
+***[#green] <color #white><b><i><size:14>Class diagram
+****[#yellow] <color #black><i><size:14><b>Domain model (DDD)
+****[#yellow] <color #black><i><size:14><b>Class diagram
+****[#yellow] <color #black><i><size:14><b>Object Model
+***[#green] <color #white><b><i><size:14>Data model
+****[#yellow] <color #black><i><size:14><b>SQL, NoSQL, ERD
 
 @endmindmap
