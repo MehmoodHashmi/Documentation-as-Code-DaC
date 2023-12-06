@@ -20,7 +20,7 @@ title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Ve
 ****[#yellow] <i><color #black><size:14><b>Java-7.0:</b> had <b>ForkJoin API</b> was introduced pool introduced deadlocks.
 ****[#yellow] <i><color #black><size:14><b>Java-8.0:</b> had <b>Parallel Streams & CompletableFuture</b>
 ****[#a] <i><color #black><size:14><b>Java-18:</b> onwards <b>[[docs/3-programming-languages/Venkat-Subramaniam/Virtual-Threads.puml Virtual Threads]]</b> are under discussion\n*<i><color #black><size:14>Maybe after three years from now we learn from the problems with virtual threads & then try to solve it
-***[#green] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Parallel vs Asynchronous]]
+***[#green] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Parallel vs Asynchronous]] gif
 ***[#green] <i><color #white><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/Spearheading-the-future-of-programming-2023.puml What does it mean to be "asynchronous"?]]
 ****[#yellow]:<i><color #black><size:14><b>Asynchronous is "non-blocking" "request/call"
 * <i><color #black><size:14>**Non-blocking** means you don't want to block your "thread of execution" & "wait" for it to finish
