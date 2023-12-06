@@ -1,0 +1,58 @@
+@startmindmap
+title =<i><b><u>Exception Handling in Functional and Reactive Programming\nDr.Venkat Subramaniam -  2023
+* <i><b>[[https://www.youtube.com/watch?v=1qdANLdLddk&list=LL&index=2&t=2166s&ab_channel=DevoxxUK Exception Handling in Functional and Reactive Programming by Venkat Subramaniam]]
+!theme hacker
+
+*[#darkblue] <i>Exception Handling in Functional\n<i>and Reactive Programming
+**[#lightblue] <i><color #blac><size:14>Introduction
+***[#green]:<i><color #white><size:14>Functional and reactive programming is gaining popularity and use. One hurdle developers face using these approaches is in exception handling. Dealing
+<i><color #white><size:14>with exceptions in these styles is confusing in the beginning and is often messy and error prone. We will take a closer look at exception handling, about their
+<i><color #white><size:14>role in functional and reactive programming, and discuss the dos and don'ts for exception handling.;
+
+**[#lightblue] <i><color #blac><size:14>Functional Programming
+***[#green] <i><color #white><size:14><b>Functional pipeline or functional composition
+****[#yellow] <i><color #black><size:14>Less accidental complexity
+***[#green] <i><color #white><size:14><b>Lazy evaluation
+****[#yellow] <i><color #black><size:14>Gives efficiency in the code, execution of code on demand only
+***[#green] <i><color #white><size:14><b>Eager evaluation
+***[#green] <i><color #white><size:14><b>Reactive Programming == Functional Programming++
+**[#lightblue] <i><color #blac><size:14>Exception Handling
+***[#green] <i><color #white><size:14><b>Fundamentally an imperative style of programming idea
+****[#yellow] <i><color #black><size:14>"Functional programming" and "exception handling" are "mutually exclusive"
+****[#yellow] <i><color #black><size:14>Don't throw "exceptions" in "Functional programming" <b>deal with it down stream
+***[#green] <i><color #white><size:14><b>An imperative style code in Java
+***[#green] <i><color #white><size:14><b>Dealing with exceptions in Java
+**[#lightblue] <i><color #blac><size:14>Converting that to functional style in java
+***[#green] <i><color #white><size:14><b>Get worse with parallel
+***[#green] <i><color #white><size:14><b>What gives?
+**[#lightblue] <i><color #blac><size:14>How to approach Exception handling then?
+***[#yellow]:<i><color #black><size:14>You don't have the luxury of "throwing" <b>exceptions in a functional pipeline.</b> "Think" <b>stream</b> as a <b>pipeline</b> which is what you have in the
+<i><color #black><size:14>image, here as a <b>pipeline</b> and you're <b>near in the middle of the pipeline.</b> If you have an <b>"exception"</b> you don't want to
+<i><color #black><size:14><b>"blow up your pipeline" </b>& then exit.
+<img:images/img_20.png>
+<i><color #black><size:15>Because in <b>functional programming</b> unlike an <b>imperative style of programming</b> you don't have the <b>stack</b> the same way
+<i><color #black><size:14>as you do in an <b>imperative style of programming.</b> In an <b>imperative style</b> you <b>call a function, which calls a function, which calls
+<i><color #black><size:14><b>a function</b> and you have the luxury of <b>throwing your exception back to a caller to handle it.</b> There is no sequence of caller waiting
+<i><color #black><size:14>to handle stuff in a <b>functional pipeline</b> which is facing forward. You don't care about where you came from, you are very keen on where
+<i><color #black><size:14>you're headed. So, when you have this <b>functional pipeline,</b> you can't blow up in the middle of a pipeline and say gosh I have an exception.
+<i><color #black><size:14>I'm going to blow up the <b>stack.</b>
+*<i><color #black><size:14>Well what happens to all the <b>data</b> you're processing?
+*<i><color #black><size:14>What happens to the <b>computation</b> you did so far?
+*<i><color #black><size:14>What happens to so many other things that simply doesn't make any sense?
+*<i><color #black><size:14>So what do we do?
+<i><color #black><size:20>So the answer to that question is that the <b>function</b> may do the following:
+*<i><color #black><size:14>It throws the <b>I/O exception.</b>
+*<i><color #black><size:14>It throws the URI syntax exception.
+*<i><color #black><size:14>It may even throw a <b>runtime exception.</b>
+<i><color #black><size:14>It doesn't really matter but the bottom line is if a function throws an exception don't call it directly from your <b>functional pipeline</b> whether the
+<i><color #black><size:14><b>compiler</b> you know tells you or not that's not the right thing to do so.;
+***[#yellow] <i><color #black><size:14>Treat <b>"Errors"</b> as form of <b>"Data",</b> deal with it <b>down stream
+****[#Gold] <i><color #black><size:14>But the <b>FP code</b> now is <b>less cohesive</b> than it was before\n<img:images/img_21.png>
+*****[#Gold] <i><color #black><size:14>Error
+*****[#Gold] <i><color #black><size:14>Data
+***[#yellow] <i><color #black><size:14><b>Callable API:</b> deals with <b>exceptions
+***[#yellow] <i><color #black><size:14><b>Supplier API:</b> deals with <b>no exceptions
+***[#yellow] <i><color #black><size:14><b>RxJava API:</b> here "pipeline" is <b>cohesive</b> but when "error is thrown"\n<i><color #black><size:14>then <b>stream will be closed.</b> So, no more <b>processing. It's bad!\n<img:images/img_22.png>
+****[#Gold] <i><color #black><size:14><b>RxJava API:</b> provides yet another way to do <b>exception handling
+
+@endmindmap
