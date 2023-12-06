@@ -10,7 +10,7 @@ title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Ve
 <i><color #white><size:14><b>virtual threads</b> and discuss which options are better suited and why.;
 
 **[#lightblue] <i><color #blac><size:14>Threading
-***[#green] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Parallel vs Concurrent]]
+***[#green] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Parallel vs Concurrent]] click gif
 ****[#yellow] <i><color #black><size:14>Think about execution. In what sequence code gets executed?
 ****[#yellow] <i><color #black><size:14><b>Parallel:</b> I can walk & talk in parallel\n<img:gif/img_2.png>
 ****[#yellow] <i><color #black><size:14><b>Concurrent:</b> I can either drink or talk but not both simultaneously\n<img:gif/img_3.png>
