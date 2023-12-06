@@ -1,0 +1,17 @@
+.coroutines & continuations with gifs in detail
+https://gist.github.com/chaxiu/d87870528bbfe3e9d7e481e1f6acace1[*Click me for the article one of the best resource on the internet*]
+
+.coroutines
+image::coroutine.gif[]
+
+ Process != Thread =! Coroutine (is functions or tasks)
+
+.coroutines-kotlin
+image::coroutine-kotlin-1.gif[]
+
+.coroutines-kotlin
+image::coroutine-kotlin.gif[]
+
+
+
+

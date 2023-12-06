@@ -1,66 +1,63 @@
 @startmindmap
-title =<i><b><u>CompletableFuture
+title =<i><b><u>Continuations and Coroutines
 !theme hacker
 
-*[#darkblue] <i>CompletableFuture
-**[#lightblue] <i><color #blac><size:14>Definition
-***[#green] <b><i><color #white><size:14>Class introduced in Java 8 for asynchronous programming.
-**[#lightblue] <i><color #blac><size:14>Characteristics
-***[#green] <b><i><color #white><size:14>Asynchronous Execution
-****[#yellow] <i><color #black><size:14>Performing operations independently without blocking.
-***[#green] <b><i><color #white><size:14>Composition
-****[#yellow] <i><color #black><size:14>Chaining multiple CompletableFuture instances.
-***[#green] <b><i><color #white><size:14>Exception Handling
-****[#yellow] <i><color #black><size:14>Handling exceptions occurring in asynchronous tasks.
-***[#green] <b><i><color #white><size:14>Completion Stages
-****[#yellow] <i><color #black><size:14>Combining and orchestrating asynchronous tasks.
-**[#lightblue] <i><color #blac><size:22>Creation
-***[#green] <b><i><color #white><size:14>Supplying a Value
-****[#yellow] <i><color #black><size:14>CompletableFuture.supplyAsync<b>(() -> value).
-***[#green] <b><i><color #white><size:14>Running Async Tasks
-****[#yellow] <i><color #black><size:14>CompletableFuture.runAsync<b>(() -> task).
-***[#green] <b><i><color #white><size:14>Combining Futures
-****[#yellow] <i><color #black><size:14>thenCombine, thenCompose, thenApply, etc.
-**[#lightblue] <i><color #blac><size:14>Combining and Chaining
-***[#green] <b><i><color #white><size:14>thenApply
-****[#yellow] <i><color #black><size:14>Processing result of CompletableFuture.
-****[#yellow] <b><i><color #black><size:14>If your "function" returns "data", use thenApply
-***[#green] <b><i><color #white><size:14>thenCompose
-****[#yellow] <i><color #black><size:14>Chaining CompletableFuture instances.
-****[#yellow] <b><i><color #black><size:14>If your "function" returns "CompleteablueFuture", use thenCompose
-***[#green] <b><i><color #white><size:14>thenCombine
-****[#yellow] <i><color #black><size:14>Combining results from multiple CompletableFutures.
-***[#green] <b><i><color #white><size:14>allOf, anyOf
-****[#yellow] <i><color #black><size:14>Waiting for multiple CompletableFutures.
-**[#lightblue] <i><color #blac><size:22>Exception Handling
-***[#green] <b><i><color #white><size:14>exceptionally
-****[#yellow] <i><color #black><size:14>Handling exceptions in CompletableFuture.
-***[#green] <b><i><color #white><size:14>handle
-****[#yellow] <i><color #black><size:14>Handling both result and exceptions.
-***[#green] <b><i><color #white><size:14>whenComplete
-****[#yellow] <i><color #black><size:14>Executing action after completion, with or without exceptions.
-**[#lightblue] <i><color #blac><size:14>Asynchronous Task Execution
-***[#green] <b><i><color #white><size:14>Completing a Task
-****[#yellow] <i><color #black><size:14>complete, completeExceptionally.
-***[#green] <b><i><color #white><size:14>Cancelling Execution
-****[#yellow] <i><color #black><size:14>cancel, isCancelled.
-***[#green] <b><i><color #white><size:14>Waiting for Completion
-****[#yellow] <i><color #black><size:14>join, get.
-**[#lightblue] <i><color #blac><size:14>Timeouts and Delays
-***[#green] <b><i><color #white><size:14>Timeout
-****[#yellow] <i><color #black><size:14>Applying timeout to CompletableFuture.
-***[#green] <b><i><color #white><size:14>Delay
-****[#yellow] <i><color #black><size:14>Adding delay to CompletableFuture.
-**[#lightblue] <i><color #blac><size:14>Asynchronous Computation in Collections
-***[#green] <b><i><color #white><size:14>forEachAsync
-****[#yellow] <i><color #black><size:14>Asynchronous iteration over elements.
-***[#green] <b><i><color #white><size:14>reduceAsync
-****[#yellow] <i><color #black><size:14>Asynchronous reduction operations.
-***[#green] <b><i><color #white><size:14>collectAsync
-****[#yellow] <i><color #black><size:14>Asynchronously collecting elements.
-**[#lightblue] <i><color #blac><size:14>Synchronization
-***[#green] <b><i><color #white><size:14>Synchronous Execution
-****[#yellow] <i><color #black><size:14>Using join or get for synchronization.
-***[#green] <b><i><color #white><size:14>Asynchronous Callbacks
-****[#yellow] <i><color #black><size:21>Using thenApply, thenAccept, thenRun for <b>callbacks.\n<img:images/img_15.png>
+*[#darkblue] <i>Continuations and Coroutines
+**[#lightblue] <i><color #blac><size:14>Continuations
+***[#green] <b><i><color #white><size:14>Definition
+****[#yellow] <i><color #black><size:14>Representations of the **"control state"** of a "program".
+***[#green] <b><i><color #white><size:14>Characteristics
+****[#yellow] <i><color #black><size:14>Capturing Execution State
+*****[#gold] <i><color #black><size:14> Saving the state of a computation to be resumed later.
+****[#yellow] <i><color #black><size:14>Non-Local Control Transfer
+*****[#gold] <i><color #black><size:14> Enabling transfer of control beyond a single <b>subroutine.
+****[#yellow] <i><color #black><size:14>Deferred Execution
+*****[#gold] <i><color #black><size:14> Delaying execution until a later time or condition.
+****[#yellow] <i><color #black><size:14>Implementations
+*****[#gold] <i><color #black><size:14> Used in various programming languages and frameworks.
+**[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/gif/coroutine.adoc Coroutines]]</size> click gif
+***[#green] <b><i><color #white><size:14>Definition
+****[#yellow] <i><color #black><size:14>**Cooperative multitasking** components.
+***[#green] <b><i><color #white><size:14>Characteristics
+****[#yellow] <i><color #black><size:14>Cooperative Concurrency
+*****[#gold] <i><color #black><size:14> Enabling tasks to voluntarily yield control.
+****[#yellow] <i><color #black><size:14>Lightweight
+*****[#gold] <i><color #black><size:14> Low-cost overhead for task switching.
+****[#yellow] <i><color #black><size:14>Sequential Execution
+*****[#gold] <i><color #black><size:14> Execution proceeds step-by-step.
+****[#yellow] <i><color #black><size:14><b>Asynchronous I/O
+*****[#gold] <i><color #black><size:14> Handling **asynchronous operations** efficiently.
+****[#yellow] <i><color #black><size:14>Implementations
+*****[#gold] <i><color #black><size:14> Available in languages like Kotlin, Python, C#, etc.
+**[#lightblue] <i><color #blac><size:14>Relationship
+***[#green] <b><i><color #white><size:14>Continuations and Coroutines
+****[#yellow] <i><color #black><size:14>Both enable **suspending and resuming** computations.
+****[#yellow] <i><color #black><size:14>**Coroutines** can be implemented using <b>continuations.
+****[#yellow] <i><color #black><size:14>**Continuations** provide a more <b>general control flow abstraction.
+**[#lightblue] <i><color #blac><size:14>Use Cases
+***[#green] <b><i><color #white><size:14>Continuations
+****[#yellow] <i><color #black><size:14>Web Servers
+*****[#gold] <i><color #black><size:14> Managing request-response cycles efficiently.
+****[#yellow] <i><color #black><size:14>State Machines
+*****[#gold] <i><color #black><size:14> Representing complex sequential workflows.
+***[#green] <b><i><color #white><size:14>Coroutines
+****[#yellow] <i><color #black><size:14>Asynchronous Programming
+*****[#gold] <i><color #black><size:14> Handling non-blocking I/O efficiently.
+****[#yellow] <i><color #black><size:14>Data Streaming
+*****[#gold] <i><color #black><size:14> Processing large streams of data.
+****[#yellow] <i><color #black><size:14>User Interfaces
+*****[#gold] <i><color #black><size:14> Managing UI events and responses.
+**[#lightblue] <i><color #blac><size:14>Benefits
+***[#green] <b><i><color #white><size:14>Continuations
+****[#yellow] <i><color #black><size:14>Representing Complex Control Flow
+*****[#gold] <i><color #black><size:14> Capturing and resuming execution at specific points.
+****[#yellow] <i><color #black><size:14><b>Control Flow Abstraction
+*****[#gold] <i><color #black><size:14> Providing a "way to manipulate" <b>control flow.
+***[#green] <b><i><color #white><size:14>Coroutines
+****[#yellow] <i><color #black><size:14>Concurrent and Asynchronous Operations
+*****[#gold] <i><color #black><size:14> Enabling "non-blocking" <b>multitasking.
+****[#yellow] <i><color #black><size:14><b>Simplified Code
+*****[#gold] <i><color #black><size:14><b>Writing "sequential code" for "asynchronous tasks".
+****[#yellow] <i><color #black><size:14>Efficiency
+*****[#gold] <i><color #black><size:14> Low-cost context switching for multitasking.
 @endmindmap

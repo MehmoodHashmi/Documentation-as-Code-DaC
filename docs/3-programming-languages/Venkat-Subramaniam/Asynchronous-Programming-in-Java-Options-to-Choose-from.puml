@@ -1,5 +1,6 @@
 @startmindmap
 title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Venkat Subramaniam -  2023\n His PhD is in parallelisim
+* <i><b>[[https://www.youtube.com/watch?v=1zSF1259s6w&t=4778s&ab_channel=Devoxx Asynchronous Programming in Java: Options to Choose from By Venkat Subramaniam]]
 !theme hacker
 
 *[#darkblue] <i>Asynchronous Programming in Java:\n<i>Options to Choose from
@@ -47,11 +48,16 @@ title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Ve
 ****[#yellow] <i><color #black><size:14><b>Railway track pattern\n<img:images/img_11.png>\n*<i><color #black><size:14><b>Upper track is "Data Stream"\n*<i><color #black><size:14><b>Lower track is "Error Stream"
 *****[#yellow] <i><color #black><size:14><b><img:images/img_12.png>
 ****[#yellow] <i><color #black><size:14><img:images/img_13.png>
-**[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/CompletableFuture.puml Continuations & Coroutines]]
+**[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/Continuation-and-Coroutines.puml Continuations & Coroutines]]
+***[#green] <b><i><color #white><size:14>In Kotlin
 ***[#green] <b><i><color #white><size:14>Subroutines
-***[#green] <b><i><color #white><size:14>Coroutines
+***[#green] <b><i><color #white><size:14>Coroutines (functions or tasks)
 ***[#green] <b><i><color #white><size:14>Continuations
-**[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/CompletableFuture.puml Threads Vs Vritual Threads]]
+****[#yellow] <i><color #black><size:14>is a data structure that helps to restore the context of a call between calls to a coroutine
+****[#yellow] <i><color #black><size:14>Continuations should be a data structure that you benefit from but should not have direct access to it
+***[#green] <b><i><color #white><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/Democratization-of-Technology.puml Democratization-of-Technology]]
+**[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/Virtual-Threads.puml Threads Vs Vritual Threads]]
+***[#green] <b><i><color #white><size:14>In Java
 ***[#green] <b><i><color #white><size:14>Super lightweight
 ***[#green] <b><i><color #white><size:14>Managed by JVM
 ***[#green] <b><i><color #white><size:14>Mounting & unmounting
@@ -59,13 +65,39 @@ title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Ve
 ***[#green] <b><i><color #white><size:14>From user Executor services
 ***[#green] <b><i><color #white><size:14>to using virtual threads
 ***[#green] <b><i><color #white><size:14>Executors, not pooled
+****[#yellow] <i><color #black><size:14>Don't confuse <b>ExecutorService</b> with <b>pooling</b> they are not same
+****[#yellow] <i><color #black><size:14>It makes no sense to <b>pool</b> <b>"virtual threads"</b>, please don't
+****[#yellow]:<i><color #black><size:14>Somebody says I need pool of virtual threads. Ask Why?
+*<i><color #black><size:14>**Virtual Threads** are like **qtips;** use them & throw around.;
+***[#green] <b><i><color #white><size:14>Lock unlock data structure
+****[#yellow] <i><color #black><size:14>Mounts & unmounts the <b>Thread
+***[#green] <b><i><color #white><size:14>Synchronized keyword
+****[#yellow] <i><color #black><size:14>Blocks the <b>Thread
 
 **[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/CompletableFuture.puml Usage patterns]]
 ***[#green] <b><i><color #white><size:14>Where does it make sense to use virtual threads?
+****[#yellow] <i><color #black><size:14>When you 've mounting & unmouting <b>"blocking" operations
+****[#yellow] <i><color #black><size:14><b>Benefit:</b> "Thread" is not <b>"blocked & waiting"</b> it unmounts & goes on
+****[#yellow] <i><color #black><size:14><b>Benefit:</b> with few no. of "Threads" you can get same <b>"Throughput"</b> & more <b>scalability
 ***[#green] <b><i><color #white><size:14>Does & don'ts
+****[#yellow] <i><color #black><size:14>Don't confuse <b>ExecutorService</b> with <b>pooling</b> they are not same
+****[#yellow] <i><color #black><size:14>It makes no sense to <b>pool</b> <b>"virtual threads"</b>, please don't
+****[#yellow]:<i><color #black><size:14>Somebody says I need pool of virtual threads. Ask Why?
+*<i><color #black><size:14>**Virtual Threads** are like **qtips;** use them & throw around.;
+****[#yellow] <i><color #black><size:14>Learn what <b>functions are mounting & unmounting</b> what are not. Otherwise you will not get the <b>"performance"</b> you are expecting
+****[#yellow] <i><color #black><size:14>If you 've computationaly intensive operations/tasks then there is no use of giving it <b>"virtual threads"</b> because once you assign it \n<i><color #black><size:14>mounts & holds on to it & also the <b>overhead of mounting and unmounting
 
 **[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/CompletableFuture.puml Programming Models]]
-***[#green] <b><i><color #white><size:14>Where does it make sense to use virtual threads?
-***[#green] <b><i><color #white><size:14>Does & don'ts
+***[#green] <b><i><color #white><size:14>Imperative ----to---> functional ----to----> imperative
+****[#yellow] <i><color #black><size:14>In the past, the <b>structure</b> of <b>imperative style parallel code</b> was very\n<i><color #black><size:14>different from the <b>structure</b> of <b>imperative style sequential code.</b>
+****[#yellow] <i><color #black><size:14>In Java 8, the <b>structure</b> of <b>functional style parallel code</b> is \n<i><color #black><size:14>same as the <b>structure</b> of <b>functional style sequential code.</b>
+*****[#gold] <i><color #black><size:14>Thanks to <b>Streams!
+****[#yellow] <i><color #black><size:14>In Java 8, the <b>structure</b> of <b>functional style asynchronous code</b> is \n<i><color #black><size:14>same as the <b>structure</b> of <b>functional style synchronous code.</b>
+*****[#gold] <i><color #black><size:14>Thanks to <b>CompletableFuture!
+****[#yellow] <i><color #black><size:14>Functional style is great, but working with <b>impurity & exceptions</b> is very difficult\n<i><color #black><size:14>& we loose the <b>elegance & the understanding</b> of it
+****[#yellow] <i><color #black><size:14>In Java 21, the <b>structure</b> of <b>imperative style asynchronous code</b> is \n<i><color #black><size:14>same as the <b>structure</b> of <b>imperative style synchronous code.</b>
+*****[#gold] <i><color #black><size:14>Thanks to <b>Virtual-Thread!
+*****[#gold] <i><color #black><size:14>CompletableFuture has no <b>future! \n*<i><color #black><size:14>Because "exception handling" in FP is difficult\n*<i><color #black><size:14>Exception handling is imperative style programming idea!
+*****[#gold] <i><color #black><size:14>CompletableFuture are great if you are using JDK 20 or less
 
 @endmindmap

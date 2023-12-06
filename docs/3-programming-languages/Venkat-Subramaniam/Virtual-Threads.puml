@@ -1,13 +1,9 @@
 @startmindmap
-title =<i><b><u>Virtual Threads
+title =<i><b><u>Virtual Threads\n<img:images/img_18.png>\n<img:images/img_19.png>
+* <b><i>[[docs/3-programming-languages/Venkat-Subramaniam/Threads.puml Threads]]
 !theme hacker
 
-
-
-
-
-
-*[#darkblue] <i>Virtual Threads
+*[#darkblue] <i>Virtual Threads\n<img:images/img_16.png>\n\n<img:images/img_17.png>
 **[#lightblue] <i><color #blac><size:14>Definition
 ***[#green] <b><i><color #white><size:14>Lightweight and scalable threads in Java.
 **[#lightblue] <i><color #blac><size:14>Characteristics
