@@ -39,6 +39,10 @@ title =<i><b><u>CompletableFuture\n<img:images/img_23.png>
 ****[#yellow] <i><color #black><size:14>Handling both result and exceptions.
 ***[#green] <b><i><color #white><size:14>whenComplete
 ****[#yellow] <i><color #black><size:14>Executing action after completion, with or without exceptions.
+***[#yellow]:<i><color #black><size:14>A bit better with a good "separation of concern" for each <b>function:
+*<i><color #black><size:14><b>then...</b> focuses on <b>data
+*<i><color #black><size:14><b>exceptionally...</b> focuses on <b>error
+*<i><color #black><size:14>But, we still 've to deal with a mixture of data handling & error handling in <b>different stages</b> of the <b>pipeline;
 **[#lightblue] <i><color #blac><size:14>Asynchronous Task Execution
 ***[#green] <b><i><color #white><size:14>Completing a Task
 ****[#yellow] <i><color #black><size:14>complete, completeExceptionally.

@@ -7,7 +7,7 @@ title =<i><b><u>Exception Handling in Functional Programming <color #red>(Haskel
 
 
 
-*[#darkblue] <i>Exception Handling in Functional Programming
+*[#darkblue] <i>Exception Handling in\n<i>Functional Programming
 **[#lightblue] <i><color #blac><size:14>Basics
 ***[#green] <b><i><color #white><size:14>Immutability
 ****[#yellow] <i><color #black><size:14>Focuses on immutable data to prevent unexpected changes and facilitate error handling.
@@ -26,6 +26,10 @@ title =<i><b><u>Exception Handling in Functional Programming <color #red>(Haskel
 ****[#yellow] <i><color #black><size:14>**Failure:** Carries information about an encountered error.
 ***[#green] <b><i><color #white><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/CompletableFuture.puml CompletableFuture API:]]
 ****[#yellow] <i><color #black><size:14> <b>exceptionally()</b> way of handling is better than <b>Try-Catch Equivalent (Try, Scucess, & Failure)\n<i><color #black><size:14>but not perfect
+****[#yellow]:<i><color #black><size:14>A bit better with a good separation of concern for each function:
+*<i><color #black><size:14><b>then...</b> focuses on <b>data
+*<i><color #black><size:14><b>exceptionally...</b> focuses on <b>error
+*<i><color #black><size:14>But, we still 've to deal with a mixture of data handling & error handling in <b>different stages</b> of the <b>pipeline;
 **[#lightblue] <i><color #blac><size:22>Error Handling Strategies
 ***[#green] <b><i><color #white><size:14>Pattern Matching
 ****[#yellow] <i><color #black><size:14>Matches data structures to handle different error types or outcomes.
