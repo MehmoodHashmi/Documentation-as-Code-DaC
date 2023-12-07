@@ -24,6 +24,8 @@ title =<i><b><u>Exception Handling in Functional Programming <color #red>(Haskel
 ****[#yellow] <i><color #black><size:14>**Try:** Functional construct to manage exceptions and errors within a controlled context.
 ****[#yellow] <i><color #black><size:14>**Success:** Indicates successful execution, holding the result.
 ****[#yellow] <i><color #black><size:14>**Failure:** Carries information about an encountered error.
+***[#green] <b><i><color #white><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/CompletableFuture.puml CompletableFuture API:]]
+****[#yellow] <i><color #black><size:14> <b>exceptionally()</b> way of handling is better than <b>Try-Catch Equivalent (Try, Scucess, & Failure)\n<i><color #black><size:14>but not perfect
 **[#lightblue] <i><color #blac><size:22>Error Handling Strategies
 ***[#green] <b><i><color #white><size:14>Pattern Matching
 ****[#yellow] <i><color #black><size:14>Matches data structures to handle different error types or outcomes.

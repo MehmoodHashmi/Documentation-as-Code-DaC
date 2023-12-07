@@ -57,6 +57,7 @@ title =<i><b><u>Exception Handling in Functional and Reactive Programming\nDr.Ve
 *<i><color #green><size:20>Now, code communicates two things <b>Error & Data;
 *****[#Gold] <i><color #black><size:14>Error
 *****[#Gold] <i><color #black><size:14>Data
+****[#Gold] <i><color #black><size:14>How do we deal with <b>multiple levels of exceptions?
 ***[#yellow] <i><color #black><size:14><b>Callable API:</b> deals with <b>exceptions
 ***[#yellow] <i><color #black><size:14><b>Supplier API:</b> deals with <b>no exceptions
 ***[#yellow] <i><color #black><size:14><b>RxJava API:</b> here "pipeline" is <b>cohesive</b> but when "error is thrown"\n<i><color #black><size:14>then <b>stream will be closed.</b> So, no more <b>processing. It's bad!\n<img:images/img_22.png>

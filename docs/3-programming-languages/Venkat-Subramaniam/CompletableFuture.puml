@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><b><u>CompletableFuture
+title =<i><b><u>CompletableFuture\n<img:images/img_23.png>
 !theme hacker
 
 *[#darkblue] <i>CompletableFuture
@@ -33,7 +33,7 @@ title =<i><b><u>CompletableFuture
 ***[#green] <b><i><color #white><size:14>allOf, anyOf
 ****[#yellow] <i><color #black><size:14>Waiting for multiple CompletableFutures.
 **[#lightblue] <i><color #blac><size:22>Exception Handling
-***[#green] <b><i><color #white><size:14>exceptionally
+***[#green] <b><i><color #white><size:22>exceptionally
 ****[#yellow] <i><color #black><size:14>Handling exceptions in CompletableFuture.
 ***[#green] <b><i><color #white><size:14>handle
 ****[#yellow] <i><color #black><size:14>Handling both result and exceptions.
