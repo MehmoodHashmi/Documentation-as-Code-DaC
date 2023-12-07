@@ -1,8 +1,37 @@
 @startmindmap
 title =<i><b><u>Java Streams
-* <b>[[docs/3-programming-languages/functional-programming/Reactive-Data-Stream.puml Reactive Streams]]
-** <b>[[docs/3-programming-languages/functional-programming/Reactive-Data-Stream.puml Reactive Data Streams]]
+** =<i><b>[[docs/3-programming-languages/functional-programming/Reactive-Data-Stream.puml Reactive Data Streams]]
 !theme hacker
+*[#darkblue] <i>Streams
+**[#lightblue] <i><color #blac><size:14>Stream
+***[#green] <b><i><color #white><size:14>Simple stream
+****[#yellow] <i><color #black><size:14>0, 1 ore more pieces of <b>data
+****[#yellow] <i><color #black><size:14>is <b>pipeline</b> of functions
+****[#yellow] <i><color #black><size:14>has <b>lazy</b> evaluation
+****[#yellow] *<i><color #black><size:14>How to deal with "Exception Handling"?\n*<i><color #black><size:14>"Exception Handling" is an imperative style programing idea \n*<i><color #black><size:14>"Functional programming" and "exception handling" are "mutually exclusive"
+****[#yellow] <i><color #black><size:14>One <b>Channel</b> of data
+**[#lightblue] <i><color #blac><size:14>Reactive Stream
+***[#green] <b><i><color #white><size:14>is an abstraction on top of "simple stream"
+****[#yellow] <i><color #black><size:14>0, 1 ore more pieces of <b>data
+****[#yellow] <i><color #black><size:14>is <b>pipeline</b> of functions
+****[#yellow] <i><color #black><size:14>has <b>lazy</b> evaluation
+****[#yellow] <i><color #black><size:14>How to deal with "Exception Handling"?\n*<i><color #black><size:14>Treat <b>error</b> as form of <b>data.\n*<i><color #black><size:14>Don't throw "exceptions" in "Functional programming" <b>deal with it down stream
+****[#yellow]:<i><color #black><size:14>Three <b>Channel</b> of data
+====
+<i><color #black><size:14>Data flows through the data channel. If no more data, a signal may
+<i><color #black><size:14>flow through the complete channel & the data channel is closed.
+====
+<i><color #black><size:14>If there is an error, an error flows through the error channel &
+<i><color #black><size:14>the data channel is closed.
+<img:images/img_24.png>;
+
+*****[#gold] <i><color #black><size:14> <b>Data</b> Channel
+*****[#gold] <i><color #black><size:14> <b>Error</b> Channel
+*****[#gold] <i><color #black><size:14> <b>Complete</b> Channel
+**[#lightblue] <i><color #blac><size:14>CompletableFuture Stream
+***[#green] <b><i><color #white><size:14>is an abstraction on top of "simple stream"
+****[#yellow] <i><color #black><size:14>0 or 1 piece of <b>data
+****[#yellow] <i><color #black><size:14>Has better **"exception handling" API** than **Stream & Reactive stream** but not perfect
 
 *[#darkblue] <i>Java Streams
 **[#lightblue] <i><color #blac><size:14>Definition
