@@ -50,4 +50,6 @@ title = <b><i><u>Imperative vs Functional: Which one to Choose?
 <size:18> <i>FP & Exception handling are __mutually exclusive.__ Do not throw exceptions
 <size:18> <i>in FP. Treat __"Errors"__ as a form of __"Data"__ and deal with them __"downstream"__;
 
+***[#green] <size:16><color #white><i> <color :white>Functional Programming = Functional Composition + Leazy evaluation
+***[#green] <size:16><color #white><i> <color :white><b>[[docs/3-programming-languages/Venkat-Subramaniam/Asynchronous-Programming-in-Java-Options-to-Choose-from.puml Functional Reactive Programming]]</b> = Functional Programming++
 @endmindmap

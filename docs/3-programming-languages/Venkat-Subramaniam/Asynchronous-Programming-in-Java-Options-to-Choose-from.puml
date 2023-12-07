@@ -43,10 +43,16 @@ title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Ve
 ****[#yellow] <i><color #black><size:14>"Promises" in "JavaScript" are excatly same as "CompletableFuture in Java" but with different names
 ****[#yellow]:<i><color #black><size:14>"Promises" think of it as a <b>Data-structure.</b> It can be in <b>three different states:
 * <i><color #black><size:14>"<b>Pending</b> (state) transient keeps changing
-* <i><color #black><size:14>"<b>Resolved</b> (terminal state) when entered in this state it does not changes anymore
-* <i><color #black><size:14>"<b>Rejected</b> (terminal state) when entered in this state it does not changes anymore;
-****[#yellow] <i><color #black><size:14><b>Railway track pattern\n<img:images/img_11.png>\n*<i><color #black><size:14><b>Upper track is "Data Stream"\n*<i><color #black><size:14><b>Lower track is "Error Stream"
-*****[#yellow] <i><color #black><size:14><b><img:images/img_12.png>
+* <i><color #black><size:14>"<b>Resolved</b> (terminal state) when green in this state it does not changes anymore
+* <i><color #black><size:14>"<b>Rejected</b> (terminal state) when green in this state it does not changes anymore;
+****[#yellow]:<i><color #black><size:14><b>Railway track pattern
+<img:images/img_11.png>
+*<i><color #black><size:14><b>Upper track is "Data Stream"
+*<i><color #black><size:14><b>Lower track is "Error Stream";
+*****[#yellow]:*<i><color #black><size:14><b>If all is well, you keep moving on the top upper track.
+*<i><color #black><size:14><b>If there is a failure, you go down to the lower track.
+*<i><color #black><size:14><b>If you recover from the failure, you are back on the upper track
+<img:images/img_12.png>;
 ****[#yellow] <i><color #black><size:14><img:images/img_13.png>
 **[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/Continuation-and-Coroutines.puml Continuations & Coroutines]]
 ***[#green] <b><i><color #white><size:14>In Kotlin
@@ -62,17 +68,19 @@ title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Ve
 ***[#green] <b><i><color #white><size:14>Managed by JVM
 ***[#green] <b><i><color #white><size:14>Mounting & unmounting
 **[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/CompletableFuture.puml Shift In Programming Model]]
-***[#green] <b><i><color #white><size:14>From user Executor services
-***[#green] <b><i><color #white><size:14>to using virtual threads
+***[#green] <b><i><color #white><size:14>From user "Executor services"
+****[#yellow] <i><color #black><size:14>to using <b>virtual threads
 ***[#green] <b><i><color #white><size:14>Executors, not pooled
 ****[#yellow] <i><color #black><size:14>Don't confuse <b>ExecutorService</b> with <b>pooling</b> they are not same
 ****[#yellow] <i><color #black><size:14>It makes no sense to <b>pool</b> <b>"virtual threads"</b>, please don't
 ****[#yellow]:<i><color #black><size:14>Somebody says I need pool of virtual threads. Ask Why?
 *<i><color #black><size:14>**Virtual Threads** are like **qtips;** use them & throw around.;
-***[#green] <b><i><color #white><size:14>Lock unlock data structure
+***[#green] <b><i><color #white><size:14>E.g. Mutex (Lock/unlock) data structure
 ****[#yellow] <i><color #black><size:14>Mounts & unmounts the <b>Thread
-***[#green] <b><i><color #white><size:14>Synchronized keyword
+*****[#gold] <i><color #black><size:14>to achieves asynchronous behaviour
+***[#green] <b><i><color #white><size:14>E.g. Synchronized keyword
 ****[#yellow] <i><color #black><size:14>Blocks the <b>Thread
+*****[#gold] <i><color #black><size:14>to achieves asynchronous behaviour
 
 **[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/CompletableFuture.puml Usage patterns]]
 ***[#green] <b><i><color #white><size:14>Where does it make sense to use virtual threads?
@@ -89,13 +97,13 @@ title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Ve
 
 **[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/CompletableFuture.puml Programming Models]]
 ***[#green] <b><i><color #white><size:14>Imperative ----to---> functional ----to----> imperative
-****[#yellow] <i><color #black><size:14>In the past, the <b>structure</b> of <b>imperative style parallel code</b> was very\n<i><color #black><size:14>different from the <b>structure</b> of <b>imperative style sequential code.</b>
-****[#yellow] <i><color #black><size:14>In Java 8, the <b>structure</b> of <b>functional style parallel code</b> is \n<i><color #black><size:14>same as the <b>structure</b> of <b>functional style sequential code.</b>
+****[#yellow] <i><color #black><size:14>In the past, the <b>structure</b> of <color #green><b>imperative style parallel code</b> was very\n<i><color #black><size:14>different from the <b>structure</b> of <b>imperative style sequential code.</b>
+****[#yellow] <i><color #black><size:14>In Java 8, the <b>structure</b> of <color #green><b>functional style parallel code</b> is \n<i><color #black><size:14>same as the <b>structure</b> of <b>functional style sequential code.</b>
 *****[#gold] <i><color #black><size:14>Thanks to <b>Streams!
-****[#yellow] <i><color #black><size:14>In Java 8, the <b>structure</b> of <b>functional style asynchronous code</b> is \n<i><color #black><size:14>same as the <b>structure</b> of <b>functional style synchronous code.</b>
+****[#yellow] <i><color #black><size:14>In Java 8, the <b>structure</b> of <color #green><b>functional style asynchronous code</b> is \n<i><color #black><size:14>same as the <b>structure</b> of <b>functional style synchronous code.</b>
 *****[#gold] <i><color #black><size:14>Thanks to <b>CompletableFuture!
 ****[#yellow] <i><color #black><size:14>Functional style is great, but working with <b>impurity & exceptions</b> is very difficult\n<i><color #black><size:14>& we loose the <b>elegance & the understanding</b> of it
-****[#yellow] <i><color #black><size:14>In Java 21, the <b>structure</b> of <b>imperative style asynchronous code</b> is \n<i><color #black><size:14>same as the <b>structure</b> of <b>imperative style synchronous code.</b>
+****[#yellow] <i><color #black><size:14>In Java 21, the <b>structure</b> of <color #green><b>imperative style asynchronous code</b> is \n<i><color #black><size:14>same as the <b>structure</b> of <b>imperative style synchronous code.</b>
 *****[#gold] <i><color #black><size:14>Thanks to <b>Virtual-Thread!
 *****[#gold] <i><color #black><size:14>CompletableFuture has no <b>future! \n*<i><color #black><size:14>Because "exception handling" in FP is difficult\n*<i><color #black><size:14>Exception handling is imperative style programming idea!
 *****[#gold] <i><color #black><size:14>CompletableFuture are great if you are using JDK 20 or less
