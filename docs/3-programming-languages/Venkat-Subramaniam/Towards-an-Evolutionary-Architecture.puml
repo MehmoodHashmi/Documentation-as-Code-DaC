@@ -4,9 +4,10 @@ title =<i><b><u>Towards an Evolutionary Architecture
 
 *[#darkblue] <i>Towards an \n<i>Evolutionary Architecture
 **[#lightblue] <i><color #blac><size:14>What's architecture?
-***[#yellow] <i><color #black><size:14>Shape of the major structure of a system or topology. architecture is a view of a system.
-***[#yellow] <i><color #black><size:14>Martin fowler article, who needs an architect.
-****[#gold] <i><color #black><size:14>Shared understainding between the senior team members of a system.
+***[#green] <i><color #white><b><size:14>Definition
+****[#yellow] <i><color #black><size:14>Shape of the major structure of a system or topology. architecture is a view of a system.
+****[#yellow] <i><color #black><size:14>Martin fowler article, who needs an architect.
+*****[#gold] <i><color #black><size:14>Shared understainding between the senior team members of a system.
 ***[#green] <b><i><color #white><size:14>Why evolutionary architecture?
 ****[#darkorange] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_27.png Clean Architecture]] click me
 *****[#yellow] <i><color #black><size:18>--BUFD-- is waterfall
