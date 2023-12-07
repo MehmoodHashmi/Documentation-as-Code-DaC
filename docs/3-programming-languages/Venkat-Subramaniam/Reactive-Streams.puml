@@ -10,8 +10,9 @@ title =<i><b><u>Reactive Streams
 ****[#yellow] <i><color #black><size:14>Handling events as they occur without blocking.
 ***[#green] <b><i><color #white><size:14>Non-Blocking
 ****[#yellow] <i><color #black><size:14>Continuously processing without waiting for completion.
-***[#green] <b><i><color #white><size:14>Backpressure
+***[#green] <b><i><color #white><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/gif/stream-aggregation.adoc Backpressure]]
 ****[#yellow] <i><color #black><size:14>Controlling data flow to avoid overwhelm.
+****[#darkorange] <i><color #black><size:22><b>[[https://zendesk.engineering/event-pipelines-part-1-backpressure-and-buffering-1bba0ed3451e Event Pipelines (Part 1): Backpressure and Buffering]] a must read
 **[#lightblue] <i><color #blac><size:14>Key Interfaces
 ***[#green] <b><i><color #white><size:14>Publisher
 ****[#yellow] <i><color #black><size:14>**Emits** data sequences to Subscribers.
@@ -21,7 +22,7 @@ title =<i><b><u>Reactive Streams
 ****[#yellow] <i><color #black><size:14>Represents the relationship between Publisher and Subscriber.
 ***[#green] <b><i><color #white><size:14>Processor
 ****[#yellow] <i><color #black><size:14>Combines Publisher and Subscriber functionalities.
-**[#lightblue] <i><color #blac><size:14>Backpressure Strategies
+**[#lightblue] <i><color #blac><size:22>Backpressure Strategies
 ***[#green] <b><i><color #white><size:14>Buffering
 ****[#yellow] <i><color #black><size:14>Storing elements in a buffer.
 ***[#green] <b><i><color #white><size:14>Dropping
@@ -30,6 +31,7 @@ title =<i><b><u>Reactive Streams
 ****[#yellow] <i><color #black><size:14>Failing or signaling errors on overflow.
 ***[#green] <b><i><color #white><size:14>Latest
 ****[#yellow] <i><color #black><size:14>Keeping only the latest elements.
+***[#darkorange] <i><color #black><size:22><b>[[https://zendesk.engineering/event-pipelines-part-1-backpressure-and-buffering-1bba0ed3451e Event Pipelines (Part 1): Backpressure and Buffering]] a must read
 **[#lightblue] <i><color #blac><size:14>Implementations
 ***[#green] <b><i><color #white><size:14>RxJava
 ****[#yellow] <i><color #black><size:14>Library providing reactive extensions for Java.

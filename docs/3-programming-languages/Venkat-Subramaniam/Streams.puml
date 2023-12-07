@@ -1,8 +1,11 @@
 @startmindmap
 title =<i><b><u>Java Streams
-** =<i><b>[[docs/3-programming-languages/functional-programming/Reactive-Data-Stream.puml Reactive Data Streams]]
+
+* ==<i><b>[[docs/3-programming-languages/functional-programming/Reactive-Data-Stream.puml Reactive Data Streams]]
+** ==<i><b>[[https://www.youtube.com/watch?v=S5tLVsvbHBg&t=5622s&ab_channel=Devoxx Exception Handling in Functional and Reactive Programming by Venkat Subramaniam]]
 !theme hacker
 *[#darkblue] <i>Streams
+**[#lightblue] <i><color #blac><size:14>All these "3 streams API" programing models are just tools. Use one that bests suits your use case.
 **[#lightblue] <i><color #blac><size:14>Stream
 ***[#green] <b><i><color #white><size:14>Simple stream
 ****[#yellow] <i><color #black><size:14>0, 1 ore more pieces of <b>data
@@ -10,6 +13,7 @@ title =<i><b><u>Java Streams
 ****[#yellow] <i><color #black><size:14>has <b>lazy</b> evaluation
 ****[#yellow] *<i><color #black><size:14>How to deal with "Exception Handling"?\n*<i><color #black><size:14>"Exception Handling" is an imperative style programing idea \n*<i><color #black><size:14>"Functional programming" and "exception handling" are "mutually exclusive"
 ****[#yellow] <i><color #black><size:14>One <b>Channel</b> of data
+****[#yellow] <i><color #black><size:14><b>map, filter, etc.</b> can't call lambdas that 've <b>"checked exceptions"
 **[#lightblue] <i><color #blac><size:14>Reactive Stream
 ***[#green] <b><i><color #white><size:14>is an abstraction on top of "simple stream"
 ****[#yellow] <i><color #black><size:14>0, 1 ore more pieces of <b>data
@@ -28,6 +32,7 @@ title =<i><b><u>Java Streams
 *****[#gold] <i><color #black><size:14> <b>Data</b> Channel
 *****[#gold] <i><color #black><size:14> <b>Error</b> Channel
 *****[#gold] <i><color #black><size:14> <b>Complete</b> Channel
+****[#yellow] <i><color #black><size:14><b>map, filter, etc.</b> can 've lambdas that may throw "checked exceptions"
 **[#lightblue] <i><color #blac><size:14>CompletableFuture Stream
 ***[#green] <b><i><color #white><size:14>is an abstraction on top of "simple stream"
 ****[#yellow] <i><color #black><size:14>0 or 1 piece of <b>data

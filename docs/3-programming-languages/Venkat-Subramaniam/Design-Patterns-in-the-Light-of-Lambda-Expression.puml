@@ -1,0 +1,40 @@
+@startmindmap
+title =<i><b><u>Design Patterns in the Light of Lambda Expression
+!theme hacker
+
+*[#darkblue] <i>Design Patterns in the \n<i>Light of Lambda Expression
+**[#lightblue] <i><color #blac><size:14>Introduction to Lambda Expressions
+***[#green] <b><i><color #white><size:14>Definition
+****[#yellow] <i><color #black><size:14>Anonymous functions used to enable functional programming concepts.
+***[#green] <b><i><color #white><size:14>Features
+****[#yellow] <i><color #black><size:14>**Conciseness: **Allows writing compact functions.
+****[#yellow] <i><color #black><size:14>**Behavior Passing:** Functions can be passed as arguments.
+****[#yellow] <i><color #black><size:14>**Closures: **Captures and uses variables from the surrounding context.
+**[#lightblue] <i><color #blac><size:14>Design Patterns
+***[#green] <b><i><color #white><size:14>Strategy Pattern
+****[#yellow] <i><color #black><size:14>**Lambda as Strategy:** Utilizes lambda expressions to define interchangeable algorithms.
+****[#yellow] <i><color #black><size:14>**Flexibility:** Enables dynamic swapping of algorithms at runtime.
+***[#green] <b><i><color #white><size:14>Observer Pattern
+****[#yellow] <i><color #black><size:14>**Lambda as Observer:** Uses lambda functions to represent observer actions.
+****[#yellow] <i><color #black><size:14>**Simplification:** Offers a concise way to define and manage observers' behavior.
+***[#green] <b><i><color #white><size:14>Command Pattern
+****[#yellow] <i><color #black><size:14>**Lambda as Command:** Implements commands as lambda expressions.
+****[#yellow] <i><color #black><size:14>**Encapsulation:** Encapsulates actions as objects for execution.
+**[#lightblue] <i><color #blac><size:14>Functional Interfaces
+***[#green] <b><i><color #white><size:14>Predicate
+****[#yellow] <i><color #black><size:14>Represents a boolean-valued function used as a test.
+****[#yellow] <i><color #black><size:14>**Lambda Usage:** Often used for conditions or filters in design patterns.
+***[#green] <b><i><color #white><size:14>Consumer
+****[#yellow] <i><color #black><size:14>Accepts a single argument and performs an operation.
+****[#yellow] <i><color #black><size:14>Lambda Usage: Represents actions or operations in various patterns.
+***[#green] <b><i><color #white><size:14>Function
+****[#yellow] <i><color #black><size:14>Accepts an argument and produces a result.
+****[#yellow] <i><color #black><size:14>**Lambda Usage:** Represents transformations or computations in patterns.
+**[#lightblue] <i><color #blac><size:14>Benefits of Lambda Expression in Design Patterns
+***[#green] <b><i><color #white><size:14>Readability
+****[#yellow] <i><color #black><size:14>Concise syntax enhances code readability and understanding.
+***[#green] <b><i><color #white><size:14>Flexibility
+****[#yellow] <i><color #black><size:14>Enables more flexible and adaptable pattern implementations.
+***[#green] <b><i><color #white><size:14>Expressiveness
+****[#yellow] <i><color #black><size:14>Allows expressing patterns more clearly and succinctly.
+@endmindmap

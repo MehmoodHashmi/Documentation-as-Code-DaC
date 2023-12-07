@@ -1,0 +1,86 @@
+@startmindmap
+title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
+
+* ===<i><b>[[https://www.youtube.com/watch?v=2k76zO2Q6vg&t=7003s&ab_channel=devnexus DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam]]
+!theme hacker
+
+*[#darkblue] <i>Designing Reactive\n<i>\tSystems
+**[#lightblue] <i><color #blac><size:14>Introduction
+***[#green]:<i><color #white><size:14>Organizations have moved from making their employees available to having their applications available directly to the users. This changes the magnitude of scale
+<i><color #white><size:14>of interactions the applications have to support. Furthermore, with devices and bots accessing the systems, we’re looking at a complete different rate of response
+<i><color #white><size:14>than we once had to aim for.;
+
+**[#lightblue] <i><color #blac><size:14>Reactive Programing
+***[#green] <i><color #white><size:14><b>What's reactive programming?
+****[#yellow] <i><color #black><size:14>E.g. **Google docs app,** two people can edit & change the documentation simultaneously
+***[#green] <i><color #white><size:14><b>Why yet another programming model?
+***[#green] <i><color #white><size:14><b>Reactive manifesto
+****[#yellow] <i><color #black><size:14>has nothing new at all except for the emphasis it places on a <b>"set of practices"</b> we should follow from the technical side of it.
+***[#green] <i><color #white><size:14><b>Characteristics of a Reactive application \n*<i><color #white><size:17><b>4-pillars of Reactive application
+****[#yellow] <b><i><color #black><size:14>Elastic
+*****[#gold] <i><color #black><size:14>scaling at any particular instant of time especially during peak hours <b>(this is dynamic scalability)
+****[#yellow] <b><i><color #black><size:14>Message-Driven
+*****[#gold]:<i><color #black><size:14>Architecture, we want to able to communicate across systems.
+*<i><color #black><size:14>One way is <b>multi-threading.
+*<i><color #black><size:14>Another way is callbacks;
+****[#yellow] <b><i><color #black><size:14>Responsive
+*****[#gold]:*<i><color #black><size:14>Organizations have moved from making their employees available to having their applications available directly to the users.
+*<i><color #black><size:14>This changes the magnitude of scale of interactions the applications have to support. Furthermore, with <b>devices and bots
+<i><color #black><size:14>accessing the systems, we’re looking at a complete different rate of response than we once had to aim for.;
+****[#yellow] <b><i><color #black><size:14>Resilient
+*****[#gold] <i><color #black><size:14>In case of failure system restores itself
+**[#lightblue] <i><color #blac><size:14>How does it work?
+***[#green] <i><color #white><size:14><b>Designing for elasticity
+***[#green] <i><color #white><size:14><b>Designing message-driven applications
+***[#green] <i><color #white><size:14><b>Providing responsiveness
+****[#yellow] <i><color #black><size:14><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:14>but by avoiding those tasks that <b>should not be done in the first place.
+***[#green] <i><color #white><size:14><b>Making it resilient
+****[#yellow] <i><color #black><size:14>"Functional programming" and "exception handling" are "mutually exclusive"
+****[#yellow] <i><color #black><size:14>Don't throw "exceptions" in "Functional programming" <b>deal with it down stream
+****[#yellow] <i><color #black><size:14>Treat <b>"Errors"</b> as form of <b>"Data",</b> deal with it <b>down stream
+**[#lightblue] <i><color #blac><size:22>[[Reactive-Data-Stream.puml Programing Libraries & APIs:]]
+***[#green] <i><color #white><size:14><b>Observable vs. Iterator
+****[#yellow]:<i><color #black><size:14><b>Observable:</b> is stream of <b>"Data"</b>, something that keeps flowing <b>e.g. water stream, stock price data, weather data
+*<i><color #black><size:14><b>Two rules of observable/stream:
+#<i><color #brown><size:14><b>You can't get data until it becomes available
+#<i><color #brown><size:14><b>Producer of data can't force you to run faster;
+****[#yellow] <i><color #black><size:14><b>Iterator:</b> is a pool request; you say <b>give me next, give me next, give me next
+***[#green] <i><color #white><size:14><b>Observable pattern vs.
+****[#yellow]:<i><color #black><size:14><b>It can send you 3-things:</b>
+#<i><color #black><size:14>**"Data"** any time when data becomes available
+#<i><color #black><size:14>**"onComplete"** call when there is no more data
+#<i><color #black><size:14>**"Error/EndSignal"** signal & closes the stream;
+
+***[#green] <i><color #white><size:14><b>Data vs. error
+***[#green] <i><color #white><size:14><b>Lazy evaluations
+****[#yellow] <i><color #black><size:14>Do <b>"data processing"</b> only when <b>data changes
+***[#green] <i><color #white><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/Asynchronous-Programming-in-Java-Options-to-Choose-from.puml Synchronous vs. asynchronous]]
+****[#yellow] <i><color #black><size:14>Doing <b>"pre-mature optimization"</b> is root cause of all <b>evils
+***[#green] <i><color #white><size:14><b>Error handling
+**[#lightblue] <i><color #blac><size:14>Design concerns:
+***[#green] <i><color #white><size:14><b>Partition based on user location/query
+****[#yellow] <i><color #black><size:14><b>paritition based on user location e.g. CDN</b>
+****[#yellow] <i><color #black><size:14><b>paritition based on user query e.g. </b>
+***[#green] <i><color #white><size:14><b>Sharding & replication
+****[#yellow] <i><color #black><size:14><b>Databases</b>
+***[#green] <i><color #white><size:14><b>Failure as first class citizen
+****[#yellow] <i><color #black><size:14>make or keep system <b>resilient:\n*<i><color #black><size:14>Design for failure\n*<i><color #black><size:14>Test for failure
+***[#green] <i><color #white><size:14><b>Not on all or nothing proposition
+****[#yellow] <i><color #black><size:14><b>Network failures</b>
+*****[#gold] <i><color #black><size:18>Can I provide a partial service on the client side when the network has failed?
+****[#yellow] <i><color #black><size:14><b>Database failures</b>
+*****[#gold] <i><color #black><size:18>Sharding & replication can help in this area
+****[#yellow] <i><color #black><size:14><b>Provide redundancies across geographical locations</b>
+*****[#gold] <i><color #black><size:18>You can deploy on <b>Cloud
+*****[#gold] <i><color #black><size:18>Distribution of <b>Services</b>
+****[#yellow] <i><color #black><size:14><b>Load related failures</b>
+*****[#gold] <i><color #black><size:14><b>Backpressure</b>
+*****[#darkorange] <i><color #black><size:22><b>[[https://zendesk.engineering/event-pipelines-part-1-backpressure-and-buffering-1bba0ed3451e Event Pipelines (Part 1): Backpressure and Buffering]] a must read
+***[#green] <i><color #white><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/Circuit-Breaker.puml Use Circuit Breakers]]
+****[#yellow] <i><color #black><size:14>If you want to build a <b>"scalable system"</b> then do not build it without <b>"Circuit Breakers"</b>
+***[#green] <i><color #white><size:14><b>Improved performance through parallelization
+****[#yellow] <i><color #black><size:14>Using <b>parallel collections & threads
+***[#green] <i><color #white><size:14><b>CAP Theorem
+****[#yellow] <i><color #black><size:14>Says you can only provide only <b>two of the following at any given instant of time:\n#<b><i><color #black><size:14>Consistency ("eventual consistency" is good option)\n#<b><i><color #black><size:14>Availability\n#<b><i><color #black><size:14>Partition tolerance
+
+@endmindmap
