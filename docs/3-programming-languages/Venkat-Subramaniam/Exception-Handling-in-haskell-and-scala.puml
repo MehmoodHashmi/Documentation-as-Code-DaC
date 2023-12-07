@@ -1,0 +1,41 @@
+@startmindmap
+title =<i><b><u>Exception Handling in Functional Programming <color #red>(Haskell & Scala)
+!theme hacker
+
+
+
+
+
+
+*[#darkblue] <i>Exception Handling in Functional Programming
+**[#lightblue] <i><color #blac><size:14>Basics
+***[#green] <b><i><color #white><size:14>Immutability
+****[#yellow] <i><color #black><size:14>Focuses on immutable data to prevent unexpected changes and facilitate error handling.
+***[#green] <b><i><color #white><size:14>Pure Functions
+****[#yellow] <i><color #black><size:14>Functions without side effects that produce consistent results, aiding in predictable error handling.
+**[#lightblue] <i><color #blac><size:14>Error Signaling
+***[#green] <b><i><color #white><size:14>Option Types
+****[#yellow] <i><color #black><size:14>**Some(Type):** Represents a value of the given Type.
+****[#yellow] <i><color #black><size:14>**None:** Indicates absence of a value.
+***[#green] <b><i><color #white><size:14>Either Types
+****[#yellow] <i><color #black><size:14>**Left(Type):** Represents failure or error.
+****[#yellow] <i><color #black><size:14>**Right(Type):** Represents success or valid result.
+***[#green] <b><i><color #white><size:14>Try-Catch Equivalent
+****[#yellow] <i><color #black><size:14>**Try:** Functional construct to manage exceptions and errors within a controlled context.
+****[#yellow] <i><color #black><size:14>**Success:** Indicates successful execution, holding the result.
+****[#yellow] <i><color #black><size:14>**Failure:** Carries information about an encountered error.
+**[#lightblue] <i><color #blac><size:22>Error Handling Strategies
+***[#green] <b><i><color #white><size:14>Pattern Matching
+****[#yellow] <i><color #black><size:14>Matches data structures to handle different error types or outcomes.
+***[#green] <b><i><color #white><size:22>Monads
+****[#yellow] <i><color #black><size:14>**Option Monad:** Handles absence of values without null.
+****[#yellow] <i><color #black><size:14>**Either Monad:** Manages success or failure computations.
+****[#yellow] <i><color #black><size:14>**Error Monad:** Handles errors in a controlled computational context.
+**[#lightblue] <i><color #blac><size:14>Advantages
+***[#green] <b><i><color #white><size:14>Predictability
+****[#yellow] <i><color #black><size:14>Encourages explicit error handling, making code more predictable.
+***[#green] <b><i><color #white><size:14>Composability
+****[#yellow] <i><color #black><size:14>Facilitates composing functions, enabling better error propagation and handling.
+***[#green] <b><i><color #white><size:14>Safety
+****[#yellow] <i><color #black><size:14>Emphasizes safe handling of errors without causing unexpected behavior.
+@endmindmap
