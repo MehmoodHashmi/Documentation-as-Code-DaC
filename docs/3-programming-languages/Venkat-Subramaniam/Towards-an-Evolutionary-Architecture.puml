@@ -82,7 +82,13 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#gold] *<i><color #black><size:18>True in microservices worlds
 ****[#yellow] *<i><color #black><size:18><b>Postel's law says:</b> be very  <b>generous</b> about what you <b>receive\n<i><color #black><size:18>& be very <b>conservative</b> about what you <b>send
 **[#lightblue] <i><color #blac><size:14>Reuse
-**[#lightblue] <i><color #blac><size:14>Minimizie libraries & frameworks
+***[#green] <i><color #white><b><size:14>Grady Booch Says:
+****[#gold] *<i><color #black><size:18><b>First make the system "usable" then make the system "reusable"
+****[#yellow] *<i><color #black><size:18><b>To make a piece of the system/software "reusable" it has to be very "generic"
+****[#yellow] *<i><color #black><size:18><b>To make a piece of the system/software "usable"" it has to be very "specific"
+****[#a] *<i><color #black><size:18><b>It's a tension between the two
+**[#lightblue] <i><color #blac><size:14>Minimize libraries & frameworks
+***[#yellow] <i><color #black><size:14>in the system, otherwise it is "infatuation" with the "technology"
 **[#lightblue] <i><color #blac><size:14>Summary
 
 @endmindmap
