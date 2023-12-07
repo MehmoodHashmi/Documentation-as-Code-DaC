@@ -22,7 +22,7 @@ In https://en.wikipedia.org/wiki/Software_engineering[software] and https://en.w
 
 |===
 
-image:images/use1.png[width=600,float=right]
+image:images/use-case-modeling.png[width=600,float=right]
 
 Use case diagrams are usually referred to as https://www.uml-diagrams.org/uml-25-diagrams.html#behavior-diagram[behavior diagrams] used to describe a set of actions (https://www.uml-diagrams.org/use-case.html[use cases]) that some system or systems (https://www.uml-diagrams.org/use-case-subject.html[subject]) should or can perform in collaboration with one or more external users of the system (https://www.uml-diagrams.org/use-case-actor.html[actors]). Each use case should provide some observable and valuable result to the actors or other stakeholders of the system.
 

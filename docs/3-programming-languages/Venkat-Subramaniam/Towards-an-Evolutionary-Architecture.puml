@@ -1,0 +1,70 @@
+@startmindmap
+title =<i><b><u>Towards an Evolutionary Architecture
+!theme hacker
+
+*[#darkblue] <i>Towards an \n<i>Evolutionary Architecture
+**[#lightblue] <i><color #blac><size:14>What's architecture?
+***[#yellow] <i><color #black><size:14>Shape of the major structure of a system or topology. architecture is a view of a system.
+***[#yellow] <i><color #black><size:14>Martin fowler article, who needs an architect.
+****[#gold] <i><color #black><size:14>Shared understainding between the senior team members of a system.
+***[#green] <b><i><color #white><size:14>Why evolutionary architecture?
+****[#darkorange] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_27.png Clean Architecture]] click me
+*****[#yellow] <i><color #black><size:18>--BUFD-- is waterfall
+*****[#yellow] <i><color #black><size:18>Agile (No Design) is disaster
+*****[#yellow] <i><color #black><size:18>EUFD <&check>
+****[#darkorange] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_26.png Onion Architecture]] click me
+****[#darkorange] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_26.png Hexagonal Architecture + DDD]] click me
+***[#green] <b><i><color #white><size:14>In Software Development we often say:
+****[#yellow] <i><color #black><size:18>Capture requirements
+****[#yellow] <i><color #black><size:18>Gather requirements
+****[#yellow] <i><color #black><size:18>Observer effect
+****[#gold] *<i><color #black><size:14>If you want to build what your customers wanted, you will <b>fail.\n*<i><color #black><size:14>You need to build what your customers still want.
+****[#yellow] <i><color #black><size:18>Build working software.
+*****[#gold] <i><color #black><size:14>Half of the total programmers in the world can do it
+*****[#gold] <i><color #black><size:14>But I want to build relevant working software\n*<i><color #black><size:14>Requires more effort
+****[#gold] *<i><color #black><size:14>PowerPoint Architect
+**[#lightblue] <i><color #blac><size:14>The risk of not evolving
+***[#green] <b><i><color #white><size:14>Relevance
+****[#gold]:*<i><color #black><size:14>If not evolved may become obsolete & irrelevant
+#<i><color #black><size:14>Team is held hosted by the architects, architect says you will develop it because we architected it.
+#<i><color #black><size:14>System does one thing & architecture diagrams on the walls does completely different things, they
+<i><color #black><size:14>deliver a working system which in no in sync with its architecture ;
+***[#green] <b><i><color #white><size:14>Governance
+****[#gold] *<i><color #black><size:14>Architecture committee, slows down the process & initial architecture draft becomes useless.
+**[#lightblue] <i><color #blac><size:14>The risk of  evolving
+***[#green] <b><i><color #white><size:14>What if we can't support a feature?
+****[#yellow] *<i><color #black><size:14>Planned Features
+*****[#yellow] *<i><color #black><size:14>Things you know, you will work on, in the beginning of the project you had project backlog. \n<i><color #black><size:14>A list of requirements given to you.
+*****[#yellow] *<i><color #black><size:14>Find the following for each <b>user story:\n#<i><color #black><size:14>Business value\n#<i><color #black><size:14>Architecture Impact
+*****[#yellow] *<i><color #black><size:14>Now prioritize & implement the high value features first!
+****[#yellow] *<i><color #black><size:14>Surprise Features
+*****[#yellow] *<i><color #black><size:14>Do minimal architecture like Clean Architecture so that you can modify & maintain the system
+***[#green] <i><color #white><b><size:14>How to deal with that?
+****[#yellow] <b><i><color #black><size:14>Prioritize on value & architecture impact
+**[#lightblue] <i><color #blac><size:14>Keep it simple
+***[#green] <i><color #white><b><size:14>How?
+****[#yellow] <i><color #black><size:14>Make it easy to understand
+****[#yellow] <i><color #black><size:14>Make it easier to change
+****[#yellow] <i><color #black><size:14>It has few moving parts in it
+****[#yellow] <i><color #black><size:14>It Fails less but when fails, it fails gracefully
+****[#yellow] <i><color #black><size:14><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:14>but by avoiding those tasks that <b>should not be done in the first place.
+**[#lightblue] <i><color #blac><size:14>Refactor
+***[#green] <b><i><color #white><size:14>50% to 60% of the time you want to
+****[#yellow] <i><color #black><size:14><b>"Refactor" software:</b> Refactor others people code
+***[#green] <b><i><color #white><size:14>Other times you need to 've the courage to
+****[#yellow] <i><color #black><size:14><b>"Rewrite" software:</b> Rewrite your own code
+**[#lightblue] <i><color #blac><size:14>Reversibility
+***[#green] <b><i><color #white><size:14>Last responsible moment
+****[#gold] <i><color #black><size:14>You either make the decision now or if you do not you begin to <b>procrastinate
+****[#gold] <i><color #black><size:14><b>Two main reason: \n#<i><color #black><size:14>You are smarter tomorrow than you are today\n#<i><color #black><size:14>If I don't make the decision now, I can go faster focusing on other decisions that 've to \n<i><color #black><size:14>be done now. And you want to postponed things that gives you <b>focus.
+****[#yellow] <i><color #black><size:14><b>E.g.</b> Databases (SQL or NoSQL) etc.
+***[#yellow] <i><color #black><size:14>Like "Rewrite" java app in go-lang or C# or python, this is difficult, time consuming & hard to reverse
+***[#yellow] <i><color #black><size:14>The more you are couple to a decision the harder it is to reverse, introduce indirection to increseae reverseability
+***[#yellow] <i><color #black><size:14>Things which are irreversible (expensive to change) postponed them till the end of the implementation
+***[#yellow] <i><color #black><size:14>Database decisions, libraries and frameworks decisions etc.
+***[#yellow] <i><color #black><size:14>Prototypes helpful
+**[#lightblue] <i><color #blac><size:14>YAGNI
+**[#lightblue] <i><color #blac><size:14>What about extensibility?
+**[#lightblue] <i><color #blac><size:14>Parisimony
+
+@endmindmap

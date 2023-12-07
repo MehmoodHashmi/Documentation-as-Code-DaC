@@ -1,6 +1,13 @@
 @startmindmap
 title =  <b><i><u>Use Case 2.0\n<img:img.png>
 caption <img:img_1.png>
+* ===<i>[[use-case.png Use Case types]]
+** ===<i>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-32-12-378.png Use Case Event Table]]
+*** ===<i>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-36-44-142.png Modeling Losely coupled use case]]
+**** ===<i>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-39-05-976.png Modeling Losely coupled use case]] continue
+***** ===<i>[[docs/3-programming-languages/clean-architecture/images/Screenshot_3x.png use case decomposition]]
+***** ===<i>[[docs/3-programming-languages/clean-architecture/images/use-case-modeling.png use case Modeling]]
+
 !theme hacker
 
 *[#darkblue] <i>Use Case#1 or feature#1
@@ -27,6 +34,7 @@ caption <img:img_1.png>
 ****[#a] <color #white><b><i><size:14>Use Case#2, Use Case#3, click me
 ***[#green] <b><color #white><i><size:14>'<<Extends>>'
 ****[#a] <color #white><b><i><size:14>Use Case#4, Use Case#5, click me
+***[#green] <b><color #white><i><size:14><img:img_2.png>
 **[#lightblue] <i><size:14>Use Case Notes:
 ***[#yellow] <i><size:14>If any
 **[#lightblue] <i><size:14>[[docs/2-uml/requirements-and-design-with-plantuml/activity-diagrams/use-case-1-activity.puml Use case#1 Activity Diagram]] click me
