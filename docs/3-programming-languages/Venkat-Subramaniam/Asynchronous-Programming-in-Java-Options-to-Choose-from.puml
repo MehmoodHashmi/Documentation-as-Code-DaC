@@ -67,7 +67,7 @@ title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Ve
 ***[#green] <b><i><color #white><size:14>Super lightweight
 ***[#green] <b><i><color #white><size:14>Managed by JVM
 ***[#green] <b><i><color #white><size:14>Mounting & unmounting
-**[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/CompletableFuture.puml Shift In Programming Model]]
+**[#lightblue] <i><color #blac><size:22>Shift In Programming Model
 ***[#green] <b><i><color #white><size:14>From user "Executor services"
 ****[#yellow] <i><color #black><size:14>to using <b>virtual threads
 ***[#green] <b><i><color #white><size:14>Executors, not pooled
@@ -82,7 +82,7 @@ title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Ve
 ****[#yellow] <i><color #black><size:14>Blocks the <b>Thread
 *****[#gold] <i><color #black><size:14>to achieves asynchronous behaviour
 
-**[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/CompletableFuture.puml Usage patterns]]
+**[#lightblue] <i><color #blac><size:22>Usage patterns
 ***[#green] <b><i><color #white><size:14>Where does it make sense to use virtual threads?
 ****[#yellow] <i><color #black><size:14>When you 've mounting & unmouting <b>"blocking" operations
 ****[#yellow] <i><color #black><size:14><b>Benefit:</b> "Thread" is not <b>"blocked & waiting"</b> it unmounts & goes on
@@ -95,7 +95,7 @@ title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Ve
 ****[#yellow] <i><color #black><size:14>Learn what <b>functions are mounting & unmounting</b> what are not. Otherwise you will not get the <b>"performance"</b> you are expecting
 ****[#yellow] <i><color #black><size:14>If you 've computationaly intensive operations/tasks then there is no use of giving it <b>"virtual threads"</b> because once you assign it \n<i><color #black><size:14>mounts & holds on to it & also the <b>overhead of mounting and unmounting
 
-**[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/CompletableFuture.puml Programming Models]]
+**[#lightblue] <i><color #blac><size:22>Programming Models
 ***[#green] <b><i><color #white><size:14>Imperative ----to---> functional ----to----> imperative
 ****[#yellow] <i><color #black><size:14>In the past, the <b>structure</b> of <color #green><b>imperative style parallel code</b> was very\n<i><color #black><size:14>different from the <b>structure</b> of <b>imperative style sequential code.</b>
 ****[#yellow] <i><color #black><size:14>In Java 8, the <b>structure</b> of <color #green><b>functional style parallel code</b> is \n<i><color #black><size:14>same as the <b>structure</b> of <b>functional style sequential code.</b>
