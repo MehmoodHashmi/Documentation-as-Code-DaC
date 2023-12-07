@@ -9,9 +9,10 @@ title =<i><b><u>Exception Handling in Functional and Reactive Programming\nDr.Ve
 <i><color #white><size:14>with exceptions in these styles is confusing in the beginning and is often messy and error prone. We will take a closer look at exception handling, about their
 <i><color #white><size:14>role in functional and reactive programming, and discuss the dos and don'ts for exception handling.;
 
-**[#lightblue] <i><color #blac><size:14>Functional Programming
+**[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml Functional Programming]]
 ***[#green] <i><color #white><size:14><b>Functional pipeline or functional composition
 ****[#yellow] <i><color #black><size:14>Less accidental complexity
+****[#yellow] <i><color #black><size:14><b>Functional Composition like</b> (object composition in OOP)
 ***[#green] <i><color #white><size:14><b>Lazy evaluation
 ****[#yellow] <i><color #black><size:14>Gives efficiency in the code, execution of code on demand only
 ***[#green] <i><color #white><size:14><b>Eager evaluation

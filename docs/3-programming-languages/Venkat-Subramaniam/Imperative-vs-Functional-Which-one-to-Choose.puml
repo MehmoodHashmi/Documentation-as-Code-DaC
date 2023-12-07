@@ -43,9 +43,10 @@ title = <b><i><u>Imperative vs Functional: Which one to Choose?
 *****[#yellow] <size:14><color #black><i>But __Sharing + Mutating variables__ = bad approach <b>(Devils work)
 ****[#yellow] <size:14><color #black><i>Issues with Functional Programming
 *****[#yellow] *<size:14><color #black><i>Make sure the "lambda expressions (->)" and "functional pipeline" are "pure". \n*<size:14><color #black><i>**What is Pure?** Pure functions do not have side-effects. They are **idempotent.**\n*<size:14><color #black><i>**Idempotent:** For the same input function always produces same output
+****[#yellow] <size:14><color #black><i><b>Functional composition (like object composition in OOP)
 ****[#yellow] <size:14><color #black><i><b>Rules for purity:
 *****[#yellow] *<size:14><color #black><i>The function does not mutate or change anything that is visible from the outside \n* <size:14><color #black><i>The function does not depend on anything from outside that may/possibly change
-****[#yellow]:=<i><color:darkorange>Exception Handling:</color> is an imperative style programming idea.
+****[#a]:=<i><color:darkorange>[[docs/3-programming-languages/Venkat-Subramaniam/Exception-Handling-in-Functional-and-Reactive-Programming.puml Exception Handling:]]</color> is an imperative style programming idea.
 <size:18> <i>FP & Exception handling are __mutually exclusive.__ Do not throw exceptions
 <size:18> <i>in FP. Treat __"Errors"__ as a form of __"Data"__ and deal with them __"downstream"__;
 
