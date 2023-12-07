@@ -62,9 +62,27 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ***[#yellow] <i><color #black><size:14>The more you are couple to a decision the harder it is to reverse, introduce indirection to increseae reverseability
 ***[#yellow] <i><color #black><size:14>Things which are irreversible (expensive to change) postponed them till the end of the implementation
 ***[#yellow] <i><color #black><size:14>Database decisions, libraries and frameworks decisions etc.
-***[#yellow] <i><color #black><size:14>Prototypes helpful
+***[#yellow] <i><color #black><size:14>Prototyping is helpful
 **[#lightblue] <i><color #blac><size:14>YAGNI
 **[#lightblue] <i><color #blac><size:14>What about extensibility?
-**[#lightblue] <i><color #blac><size:14>Parisimony
+***[#green] <i><color #white><b><size:14>Two things you need to make software extensible.
+****[#yellow] *<i><color #black><size:14><b>Domain Knowledge
+****[#yellow] *<i><color #black><size:14><b>Knowledge of software design & concerns
+***[#green] <i><color #white><b><size:14>Three Kinds of people in an organization
+****[#yellow] *<i><color #black><size:14><b>People with domain knowledge but no clue of Software design\n*<i><color #black><size:14>Too many in an organization
+****[#yellow] *<i><color #black><size:14><b>People with no clue of domain knowledge but with knowledge the Software design\n*<i><color #black><size:14>Too many in an organization
+****[#gold] *<i><color #black><size:18><b>People with domain knowledge & also knowledge of the Software design\n*<i><color #black><size:14>Very few in an organization
+**[#lightblue] <i><color #blac><size:14>Parsimony
+***[#green] <i><color #white><b><size:14>Absolute minimalism
+****[#yellow] *<i><color #black><size:14><b>Write very few lines of code; Think does this really you need while writing code
+**[#lightblue] <i><color #blac><size:14>Triangulate
+***[#green] <i><color #white><b><size:14>Develop the system in a light weight manner
+**[#lightblue] <i><color #blac><size:14>Postel's law
+***[#green] <i><color #white><b><size:14>Communicating across systems
+****[#gold] *<i><color #black><size:18>True in microservices worlds
+****[#yellow] *<i><color #black><size:18><b>Postel's law says:</b> be very  <b>generous</b> about what you <b>receive\n<i><color #black><size:18>& be very <b>conservative</b> about what you <b>send
+**[#lightblue] <i><color #blac><size:14>Reuse
+**[#lightblue] <i><color #blac><size:14>Minimizie libraries & frameworks
+**[#lightblue] <i><color #blac><size:14>Summary
 
 @endmindmap
