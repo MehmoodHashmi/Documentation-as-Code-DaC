@@ -36,7 +36,7 @@ title =<i><b><u>Virtual Threads\n<img:images/img_18.png>\n<img:images/img_19.png
 ****[#yellow] <i><color #black><size:14>Easier programming with lightweight threads.
 ***[#green] <b><i><color #white><size:14>Scalability
 ****[#yellow] <i><color #black><size:14>Efficient handling of large numbers of threads.
-**[#lightblue] <i><color #blac><size:14>Use Cases
+**[#lightblue] <i><color #blac><size:22>Use Cases
 ***[#green] <b><i><color #white><size:14>Reactive Systems
 ****[#yellow] <i><color #black><size:14>Handling high concurrency in reactive applications.
 ***[#green] <b><i><color #white><size:14>IO-bound Tasks

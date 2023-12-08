@@ -1,37 +1,37 @@
 @startmindmap
+title =<i><b><u>Concurrency Patterns
 !theme hacker
-title =__ Concurrency Patterns__
 
-* Concurrency Patterns
-** Execution
-*** Thread Pool
-**** Fixed Thread Pool
-**** Cached Thread Pool
-**** Work Stealing Thread Pool
-*** Fork/Join
-**** RecursiveTask
-**** RecursiveAction
-** Coordination
-*** Barrier
-**** Cyclic Barrier
-**** Phaser
-*** Latch
-**** Count Down Latch
-**** Concurrent Latch
-*** Semaphore
-**** Binary Semaphore
-**** Counting Semaphore
-** Synchronization
-*** Locks
-**** Reentrant Lock
-**** Read/Write Lock
-*** Atomic Variables
-**** Atomic Integer
-**** Atomic Long
-**** Atomic Reference
-*** Concurrent Collections
-**** Concurrent Hash Map
-**** Concurrent Skip List Map
-**** Copy On Write Array List
-**** Concurrent Linked Queue
+*[#darkblue] <i>Concurrency Patterns
+**[#lightblue] <i><color #blac><size:14>Execution
+***[#green] <b><i><color #white><size:14>Thread Pool
+****[#yellow] <i><color #black><size:14>Fixed Thread Pool
+****[#yellow] <i><color #black><size:14>Cached Thread Pool
+****[#yellow] <i><color #black><size:14>Work Stealing Thread Pool
+***[#green] <b><i><color #white><size:14>Fork/Join
+****[#yellow] <i><color #black><size:14>RecursiveTask
+****[#yellow] <i><color #black><size:14>RecursiveAction
+**[#lightblue] <i><color #blac><size:14>Coordination
+***[#green] <b><i><color #white><size:14>Barrier
+****[#yellow] <i><color #black><size:14>Cyclic Barrier
+****[#yellow] <i><color #black><size:14>Phaser
+***[#green] <b><i><color #white><size:14>Latch
+****[#yellow] <i><color #black><size:14>Count Down Latch
+****[#yellow] <i><color #black><size:14>Concurrent Latch
+***[#green] <b><i><color #white><size:14>Semaphore
+****[#yellow] <i><color #black><size:14>Binary Semaphore
+****[#yellow] <i><color #black><size:14>Counting Semaphore
+**[#lightblue] <i><color #blac><size:14>Synchronization
+***[#green] <b><i><color #white><size:14>Locks
+****[#yellow] <i><color #black><size:14>Reentrant Lock
+****[#yellow] <i><color #black><size:14>Read/Write Lock
+***[#green] <b><i><color #white><size:14>Atomic Variables
+****[#yellow] <i><color #black><size:14>Atomic Integer
+****[#yellow] <i><color #black><size:14>Atomic Long
+****[#yellow] <i><color #black><size:14>Atomic Reference
+***[#green] <b><i><color #white><size:14>Concurrent Collections
+****[#yellow] <i><color #black><size:14>Concurrent Hash Map
+****[#yellow] <i><color #black><size:14>Concurrent Skip List Map
+****[#yellow] <i><color #black><size:14>Copy On Write Array List
+****[#yellow] <i><color #black><size:14>Concurrent Linked Queue
 @endmindmap

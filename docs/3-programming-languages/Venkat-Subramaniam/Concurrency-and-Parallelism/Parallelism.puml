@@ -1,39 +1,44 @@
 @startmindmap
+title =<i><b><u>Parallelism
 !theme hacker
-title =__ Parallelism__
 
-* Parallelism
-** Types
-*** Bit-level parallelism
-*** Instruction-level parallelism
-*** **Task-level parallelism**
-*** **Data parallelism**
-*** Geometric parallelism
-*** Pipeline parallelism
-*** Hybrid parallelism
-** Techniques
-*** **Multithreading**
-*** SIMD
-*** MIMD
-***[#yellow] **Distributed computing**
-***[#yellow] **GPU computing**
-***[#yellow] **Cluster computing**
-***[#yellow] **Cloud computing**
-*** Quantum computing
-** Benefits
-*** Faster processing
-*** Improved performance
-*** Enhanced scalability
-*** Increased efficiency
-*** Reduced latency
-*** Cost savings
-**[#pink] **Challenges**
-*** Load balancing
-*** Synchronization
-*** Deadlocks
-*** Starvation
-*** Race conditions
-*** Scalability
-*** Debugging
-*** Interprocess communication
+
+
+
+
+
+*[#darkblue] <i>Parallelism
+**[#lightblue] <i><color #blac><size:14>Types
+***[#yellow] <i><color #black><size:14>Bit-level parallelism
+***[#yellow] <i><color #black><size:14>Instruction-level parallelism
+***[#yellow] <i><color #black><size:18>**Task-level parallelism**
+***[#yellow] <i><color #black><size:18>**Data parallelism**
+***[#yellow] <i><color #black><size:14>Geometric parallelism
+***[#yellow] <i><color #black><size:22><b>Pipeline parallelism
+***[#yellow] <i><color #black><size:14>Hybrid parallelism
+**[#lightblue] <i><color #blac><size:14>Techniques
+***[#yellow] <i><color #black><size:18>**Multithreading**
+***[#yellow] <i><color #black><size:14>SIMD
+***[#yellow] <i><color #black><size:14>MIMD
+***[#yellow] <i><color #black><size:18>**Distributed computing**
+***[#yellow] <i><color #black><size:18>**GPU computing**
+***[#yellow] <i><color #black><size:18>**Cluster computing**
+***[#yellow] <i><color #black><size:18>**Cloud computing**
+***[#yellow] <i><color #black><size:14>Quantum computing
+**[#lightblue] <i><color #blac><size:14>Benefits
+***[#yellow] <i><color #black><size:14>Faster processing
+***[#yellow] <i><color #black><size:14>Improved performance
+***[#yellow] <i><color #black><size:14>Enhanced scalability
+***[#yellow] <i><color #black><size:14>Increased efficiency
+***[#yellow] <i><color #black><size:14>Reduced latency
+***[#yellow] <i><color #black><size:14>Cost savings
+**[#lightblue] <i><color #blac><size:18>**Challenges**
+***[#yellow] <i><color #black><size:14>Load balancing
+***[#yellow] <i><color #black><size:14>Synchronization
+***[#yellow] <i><color #black><size:14>Deadlocks
+***[#yellow] <i><color #black><size:14>Starvation
+***[#yellow] <i><color #black><size:14>Race conditions
+***[#yellow] <i><color #black><size:14>Scalability
+***[#yellow] <i><color #black><size:14>Debugging
+***[#yellow] <i><color #black><size:14>Interprocess communication
 @endmindmap

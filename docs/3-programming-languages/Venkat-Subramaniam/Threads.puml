@@ -1,5 +1,7 @@
 @startmindmap
 title =<i><b><u>Threads in Java
+* =<i>[[docs/3-programming-languages/Venkat-Subramaniam/Virtual-Threads.puml Virtual Threads]]
+
 !theme hacker
 
 *[#darkblue] <i>Threads in Java

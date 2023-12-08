@@ -34,6 +34,7 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 <i><color #black><size:14>accessing the systems, we’re looking at a complete different rate of response than we once had to aim for.;
 ****[#yellow] <b><i><color #black><size:14>Resilient
 *****[#gold] <i><color #black><size:14>In case of failure system restores itself
+***[#yellow] <b><i><color #black><size:14>Dataflow & composition of events
 **[#lightblue] <i><color #blac><size:14>How does it work?
 ***[#green] <i><color #white><size:14><b>Designing for elasticity
 ***[#green] <i><color #white><size:14><b>Designing message-driven applications
@@ -92,5 +93,6 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 ***[#green] <i><color #white><size:14><b>CAP Theorem
 ****[#yellow] <i><color #black><size:14>has been **proven** & can't be <b>challenged!
 ****[#yellow] <i><color #black><size:14>Says you can only provide only <b>two of the following at any given instant of time:\n#<b><i><color #black><size:14>Consistency ("eventual consistency" is usually good option)\n#<b><i><color #black><size:14>Availability\n#<b><i><color #black><size:14>Partition tolerance
+****[#yellow] <i><color #black><size:14>You 've to figure out what is good for the <b>business
 **[#lightblue] <i><color #blac><size:32>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]] click me
 @endmindmap
