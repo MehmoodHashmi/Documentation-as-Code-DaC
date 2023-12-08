@@ -148,6 +148,14 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ***[#green] <i><color #white><size:14><b>Compose Method Pattern
 ****[#gold] <i><color #black><size:14><b>Self documenting code
 **[#lightblue] <i><color #black><size:14>Don't violate the Open-Closed Principle (OCP)
+***[#green] <i><color #white><size:14><b>"Software module" should be "open" for\n<i><color #white><size:14><b>"extension" but "closed" for "modification"
+****[#gold] <i><color #black><size:14><b>Abstraction
+****[#gold] <i><color #black><size:14><b>Polymorphism
+***[#green] <i><color #white><size:14><b>Two options: to make an "enhancement":
+****[#gold] <i><color #black><size:14><b>1- Change an existing code <size:20><&circle-x>
+****[#gold] <i><color #black><size:14><b>2- Add a small new "module" of code <&check>
+**[#lightblue] <i><color #black><size:14>Keep in mind Liskov's Substitution Principle
+**[#lightblue] <i><color #black><size:14>Decouple using the Dependency Inversion Principle
 
 
 @endmindmap
