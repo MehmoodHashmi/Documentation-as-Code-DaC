@@ -3,7 +3,7 @@ title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Ve
 * <i><b>[[https://www.youtube.com/watch?v=1zSF1259s6w&t=4778s&ab_channel=Devoxx Asynchronous Programming in Java: Options to Choose from By Venkat Subramaniam]]
 !theme hacker
 
-*[#darkblue] <i>Asynchronous Programming in Java:\n<i>Options to Choose from
+*[#darkblue] <i>Asynchronous Programming in \n<i>Java: Options to Choose from
 **[#lightblue] <i><color #blac><size:14>Introduction
 ***[#green]:<i><color #white><size:14>Java has had parallel and concurrent programming facilities from the start. In recent years the business has needed as much, if not more,asynchronous
 <i><color #white><size:14>capabilities, with <b>webservices and microservices.</b> We will discuss the various options available, such as completable futures, reactive steams, & the newer

@@ -25,7 +25,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ****[#yellow] <i><color #black><size:14><b>2nd paradigm shift:</b> Object Oriented Programming or object decomposition of code (modules)
 ****[#yellow] <i><color #black><size:14><b>3rd paradigm shift:</b> Distributed Object Computing or Common Object Request Broker Architecture <b>(CORBA)
 *****[#yellow] <i><color #black><size:14>Remote computing
-****[#darkorange] <i><color #black><size:14><b>4rth paradigm shift:</b> Asynchronous Programming\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Asynchronous is non-blocking]] click gif\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Multi-threading vs Multi-processing programming ]]
+****[#darkorange] <i><color #black><size:15><b>4rth paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Asynchronous-Programming-in-Java-Options-to-Choose-from.puml Asynchronous Programming]]\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Asynchronous is non-blocking]] click gif\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Multi-threading vs Multi-processing programming ]]
 *****[#yellow]:<i><color #black><size:14><b>It took me more time to understand it. Why? Because</b>
 * <color #black><size:14><i>I was not satisfied writing another <b>"callback"</b> in & go home
 * <color #black><size:14><i>I wanted to understand the following:
@@ -37,10 +37,10 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 *<i><color #black><size:14>Working/setup
 *<i><color #black><size:14>Reason its working;
 
-****[#yellow] <i><color #black><size:14><b>5th paradigm shift:</b> Functional Programming
+****[#darkorange] <i><color #black><size:14><b>5th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml Functional Programming]]
 *****[#yellow]:<i><color #black><size:14>People said it's very easy but it was not. Why? because it was really hard
 <i><color #black><size:14>to think a different way than what I'm used to thinking in <b>imperative style;
-****[#yellow] <i><color #black><size:14><b>6th paradigm shift:</b> Reactive Programming or <b>functional programming++
+****[#darkorange] <i><color #black><size:14><b>6th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Designing-Reactive-Systems.puml Reactive Programming or functional programming++]]
 *****[#yellow] <i><color #black><size:14>Is an <b>abstraction</b> on top of functional programming
 ****[#darkorange] <i><color #black><size:22><b>7th paradigm shift:</b> <b>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/statistics/professor-leonard-statistics-notes/descriptive-(or-EDA)-statistics/4-machine-learning.puml Machine learning]] click\n<img:images/img_7.png>
 *****[#darkorange] <i><color #black><size:22><b>[[docs/books/selfanalysis/anatomy-of-knowledge.puml Anatomy of knowledge]] click me\n<img:images/img_8.png>
