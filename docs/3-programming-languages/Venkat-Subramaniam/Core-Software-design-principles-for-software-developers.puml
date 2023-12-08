@@ -154,7 +154,29 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ***[#green] <i><color #white><size:14><b>Two options: to make an "enhancement":
 ****[#gold] <i><color #black><size:14><b>1- Change an existing code <size:20><&circle-x>
 ****[#gold] <i><color #black><size:14><b>2- Add a small new "module" of code <&check>
+***[#green] <i><color #white><size:14><b>A class/code can't be "infinitely extensible,"
+****[#gold] <i><color #black><size:14>It is only extensible for <b>"what you design for"!
+****[#gold] <i><color #black><size:14>Who can make extensible?\n*<i><color #black><size:14>We need to know <b>software & domain knowledge
+***[#green] <i><color #white><b><size:14>Three Kinds of people in we work with:
+****[#yellow] *<i><color #black><size:14><b>People with domain knowledge but no clue of Software design\n*<i><color #black><size:14>Too many in an organization
+****[#yellow] *<i><color #black><size:14><b>People with no clue of domain knowledge but with knowledge the Software design\n*<i><color #black><size:14>Too many in an organization
+****[#gold] *<i><color #black><size:18><b>People with domain knowledge & also knowledge of the Software design\n*<i><color #black><size:14>Very few in an organization
 **[#lightblue] <i><color #black><size:14>Keep in mind Liskov's Substitution Principle
+***[#green] <i><color #white><b><size:14>Inheritance overused
+****[#gold] *<i><color #black><size:14>Bad thing!
+***[#green] <i><color #white><b><size:14>Inheritance should be used \n<i><color #white><b><size:14>only for substitutability
+****[#gold] *<i><color #black><size:14>If **an object of B** should be "used" anywhere **an object of of A** is used then use <b>inheritance.
+****[#gold] *<i><color #black><size:14>If **an object of B** should "use" **an object of A**, then use <b>"composition or delegation".
+****[#yellow] *<i><color #black><size:14>**Inheritance** demands more from a "developer" than **composition or delegation** does.
+****[#yellow]:*<i><color #black><size:14>**Services** of the **derived class** should "require" no more & "promise" no less than the corresponding
+<i><color #black><size:14>**"services"** of the <b>base class.
+==<i><color #black><b><size:14>Why?==
+*<i><color #black><size:14>**Reason:** The "user" of a **base class** should be able to "use" an **instance** of a <b>derived class</b> without
+<i><color #black><size:14>knowing the difference.
+==<i><color #black><b><size:14>How?==
+*<i><color #black><size:14>You & I 've to make sure that we protect it at the <b>"code level."</b> Otherwise design begins to fall apart.
+<i><color #black><size:14>And we don't know why it's falling apart.
+*<i><color #black><size:14>Violation of the <b>"Liskov's substitution principle"</b> may result in violation of the <b>Open-Closed Principle (OCP);
 **[#lightblue] <i><color #black><size:14>Decouple using the Dependency Inversion Principle
 
 
