@@ -1,5 +1,6 @@
 @startmindmap
 title =<i><b><u>Towards an Evolutionary Architecture
+* ===<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers by Venkat Subramaniam]]
 !theme hacker
 
 *[#darkblue] <i>Towards an \n<i>Evolutionary Architecture
@@ -24,6 +25,8 @@ title =<i><b><u>Towards an Evolutionary Architecture
 *****[#gold] <i><color #black><size:14>Half of the total programmers in the world can do it
 *****[#gold] <i><color #black><size:14>But I want to build relevant working software\n*<i><color #black><size:14>Requires more effort
 ****[#gold] *<i><color #black><size:14>PowerPoint Architect
+****[#gold] *<i><color #black><size:14>No one cares if you write good code
+*****[#gold] <i><color #black><size:22><b>Does this code saves or makes money?
 **[#lightblue] <i><color #blac><size:14>The risk of not evolving
 ***[#green] <b><i><color #white><size:14>Relevance
 ****[#gold]:*<i><color #black><size:14>If not evolved may become obsolete & irrelevant
@@ -59,11 +62,12 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#gold] <i><color #black><size:14>You either make the decision now or if you do not you begin to <b>procrastinate
 ****[#gold] <i><color #black><size:14><b>Two main reason: \n#<i><color #black><size:14>You are smarter tomorrow than you are today\n#<i><color #black><size:14>If I don't make the decision now, I can go faster focusing on other decisions that 've to \n<i><color #black><size:14>be done now. And you want to postponed things that gives you <b>focus.
 ****[#yellow] <i><color #black><size:14><b>E.g.</b> Databases (SQL or NoSQL) etc.
-***[#yellow] <i><color #black><size:14>Like "Rewrite" java app in go-lang or C# or python, this is difficult, time consuming & hard to reverse
-***[#yellow] <i><color #black><size:14>The more you are couple to a decision the harder it is to reverse, introduce indirection to increseae reverseability
-***[#yellow] <i><color #black><size:14>Things which are irreversible (expensive to change) postponed them till the end of the implementation
+***[#yellow] <i><color #black><size:14>Like **"Rewrite"** java app in go-lang or C# or python, this is difficult, time consuming & hard to <b>reverse.
+***[#yellow] <i><color #black><size:14>The more you are couple to a decision the harder it is to reverse, introduce indirection to increases <b>reversibility.
+***[#yellow] <i><color #black><size:14>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.\n*<b><i><color #black><size:14>Why don't we postpone?\n**<b><i><color #green><size:14>Because we are afraid!\n*<b><i><color #black><size:14>If you want ot "postpone" we need to 've good "automated testing". (TDD)
 ***[#yellow] <i><color #black><size:14>Database decisions, libraries and frameworks decisions etc.
-***[#yellow] <i><color #black><size:14>Prototyping is helpful
+***[#yellow] <i><color #black><size:14>**Prototyping** is helpful
+***[#yellow] <i><color #black><size:14>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
 **[#lightblue] <i><color #blac><size:14>YAGNI
 **[#lightblue] <i><color #blac><size:14>What about extensibility?
 ***[#green] <i><color #white><b><size:14>Two things you need to make software extensible.
@@ -81,7 +85,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 **[#lightblue] <i><color #blac><size:14>Postel's law
 ***[#green] <i><color #white><b><size:14>Communicating across systems
 ****[#gold] *<i><color #black><size:18>True in microservices worlds
-****[#yellow] *<i><color #black><size:18><b>Postel's law says:</b> be very  <b>generous</b> about what you <b>receive\n<i><color #black><size:18>& be very <b>conservative</b> about what you <b>send\n<img:images/img_28.png>\n<i><color #black><size:14>So as long as I can iterate over your collection it does not what is the type of your collection.\n<i><color #black><size:14>In other words, don't make your <b>interface brittle.
+****[#yellow] *<i><color #black><size:18><b>Postel's law says:</b> be very  <b>generous</b> about what you <b>receive\n<i><color #black><size:18>& be very <b>conservative</b> about what you <b>send\n<img:images/img_28.png>\n<i><color #black><size:14>So as long as I can **iterate** over your **collection** it does not what is the **type** of your <b>collection.\n<i><color #black><size:14>In other words, don't make your <b>interface brittle.
 **[#lightblue] <i><color #blac><size:14>Reuse
 ***[#green] <i><color #white><b><size:14>Grady Booch Says:
 ****[#gold] *<i><color #black><size:18><b>First make the system "usable" then make the system <color #green>"reusable"

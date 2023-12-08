@@ -1,0 +1,153 @@
+@startmindmap
+title =<i><b><u>Core Software design principles for software developers\nDr.Venkat Subramaniam -  2015
+* =<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]]
+** <i><b>[[https://www.youtube.com/watch?v=llGgO74uXMI&ab_channel=Devoxx Core Software design principles for software developers by Venkat Subramaniam]]
+!theme hacker
+
+*[#darkblue] <i>Core Software design \n<i>principles for software developers
+**[#lightblue] <i><color #black><size:14>Introduction
+***[#green]:<i><color #white><size:14>Writing code is easy. Writing good quality code is an entirely different story. How can we measure quality of design? How do we know we're doing the
+<i><color #white><size:14>right set of things that will leads us to a better design?;
+
+**[#lightblue] <i><color #black><size:14>What is a good design?
+***[#green] <i><color #white><size:14><b>Usually my thinking is
+****[#yellow] <i><color #black><size:14>The Design is good because <b>"I created it!"
+****[#yellow] <i><color #black><size:14>We need better approach than that!
+***[#green] <i><color #white><size:14><b>Good design
+****[#yellow] <i><color #black><size:14>When **cost** of "changing the design" is <b>minimum
+****[#yellow] <i><color #black><size:14>Change the design along the way
+****[#yellow] <i><color #black><size:14>Almost impossible to get **design** right the first time (in one sitting)
+****[#yellow] <i><color #black><size:14>Software is never written, it is always <b>rewritten.
+*****[#gold] <i><color #black><size:14>Because any software that is relevant has to change
+**[#lightblue] <i><color #black><size:14>How to evaluate quality\n<i><color #black><size:14>of good design?
+***[#green] <i><color #white><size:14><b>First step is
+****[#yellow] <i><color #black><size:14>Let go of the <b>ego.
+*****[#gold] <i><color #black><size:14>The Design is good because <b>"I created it!"
+***[#green] <i><color #white><size:14><b>Second step is
+****[#yellow] <i><color #black><size:14>Be <b>unemotional
+*****[#gold] <i><color #black><size:14>Stop getting attached to the **solution,** and attach yourself to <b>solving the problem
+****[#yellow] <i><color #black><size:14>Two Kinds of people that are dangerous to <b>work:\n*<b><i><color #black><size:14>Who can't follow instructions \n*<b><i><color #black><size:14>Who can only follow instructions
+**[#lightblue] <i><color #black><size:14>How to create good design?
+***[#green] <i><color #white><size:14><b>Take time to "review" design & code
+****[#yellow] <i><color #black><size:14><b>Refactor:</b> others people code
+****[#yellow] <i><color #black><size:14><b>Rewrite:</b> your own code
+**[#lightblue] <i><color #black><size:14>Keep it simple
+***[#green] <i><color #white><size:14><b>KISS principle
+****[#yellow] <i><color #black><size:14><b>Keep it "simple" and stupid
+****[#yellow] <i><color #black><size:14><b>Most of us don't know what is <b>"simple"
+***[#green] <i><color #white><size:14><b>Simple
+****[#yellow] <i><color #black><size:14><b>Keeps you "focused"
+****[#yellow] <i><color #black><size:14><b>Solves only "real problems" we know about
+****[#yellow] <i><color #black><size:14><b>Fails less (is resilient & robust)
+****[#yellow] <i><color #black><size:14><b>Easier to "understand"
+****[#yellow] <i><color #black><size:14>Has few "moving parts" in it
+****[#yellow] <i><color #black><size:14><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:14>but by avoiding those tasks that <b>should not be done in the first place.
+**[#lightblue] <i><color #black><size:14>Complexity
+***[#green] <i><color #white><size:14><b>Inherent
+****[#yellow] <i><color #black><size:14>is from the **problem domain,** you can't minimize it. When dealing with the **problem;** there are **"complexities"** of the **problem** \n<i><color #black><size:14>that you 've to deal with. And this is the "nature of the application" and **nature** of the <b>domain.
+****[#yellow] <i><color #black><size:14>Fortunately, on daily basis we 've to deal more with the <b>accidental "complexities"</b> than <b>inherent "complexities"
+***[#green] <i><color #white><size:14><b>Accidental
+****[#yellow]:<i><color #black><size:14>Often, comes from the **solution** we use to solve a **particular problem.** The **solution** we are using brings certain **complexities** into the <b>table.
+*<i><color #black><size:14>Now, to solve this **introduced "complexities"** we bring <b>other solutions.
+*<i><color #black><size:14>**Other solutions,** bring more **"complexities"** & this goes on & on.;
+****[#gold] <i><color #black><size:14>The **problem** did not require a **specific solution,** its the **solution we choose** to solve the <b>problem!
+****[#yellow] <i><color #black><size:14><b>E.g. Concurrency
+****[#yellow] <i><color #black><size:14><b>E.g. Streams </b>(less accidental complexity)
+****[#yellow] <i><color #black><size:14>Simple is not necessarily Familiar
+*****[#gold] <i><color #black><size:14>e.g. <b>For loop
+***[#green] <i><color #white><size:14><b>Good Design
+****[#gold] <i><color #black><size:14>A **good design** is the one that **"hides"** the <b>inherent complexity\n<i><color #black><size:14>and <b>"eliminates" the <b>accidental complexity
+****[#gold] <i><color #black><size:14><b>Follow YAGNI Principle
+**[#lightblue] <i><color #black><size:14>Think YAGNI
+***[#green] <i><color #white><size:14><b>You are not goona need it yet!
+***[#green] <i><color #white><size:14><b>When should I implement something?
+****[#gold] <i><color #black><size:14><b>How much do you know?
+****[#gold] <i><color #black><size:14><b>Cost of implementing?
+****[#yellow] <i><color #black><size:14>Like **"Rewrite"** java app in go-lang or C# or python, this is difficult, time consuming & hard to <b>reverse.
+****[#yellow] <i><color #black><size:14>The more you are couple to a decision the harder it is to reverse, introduce indirection to increases <b>reversibility.
+****[#yellow] <i><color #black><size:14>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.\n*<b><i><color #black><size:14>Why don't we postpone?\n**<b><i><color #green><size:14>Because we are afraid!\n*<b><i><color #black><size:14>If you want ot "postpone" we need to 've good "automated testing". (TDD)
+****[#yellow] <i><color #black><size:14>Database decisions, libraries and frameworks decisions etc.
+****[#yellow] <i><color #black><size:14>**Prototyping** is helpful
+****[#yellow] <i><color #black><size:14>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
+**[#lightblue] <i><color #black><size:14>Cohesion
+***[#green] <i><color #white><size:14><b>Where a piece of code is narrow, "focused"\n<i><color #white><size:14><b>& does one thing & does one thing well!
+****[#yellow] <i><color #black><size:14>We want software to change, but not too <b>(expensive to change)
+****[#yellow] <i><color #black><size:14>If a "code" is **"cohesive",** it has to <b>change less "frequently"
+***[#green] <i><color #white><size:14><b>Like things stay together, and unlike things stay apart
+****[#yellow] <i><color #black><size:14>**"Code that deals"** with **database** is different than **"code that deals"** with <b>XML processing
+****[#yellow] <i><color #black><size:14>**"Code that deals"** with **database** is different than **"code that deals"** with <b>UI
+**[#lightblue] <i><color #black><size:14>Coupling
+***[#green] <i><color #white><size:14><b>is what you depend on
+****[#yellow] <i><color #black><size:14>Worst form of coupling is <b>inheritance
+****[#yellow] <i><color #black><size:14>Try to see if you can remove coupling
+****[#yellow] <i><color #black><size:14>"knock out before you mock out"
+****[#yellow] <i><color #black><size:14>Can't remove all the <b>dependencies
+*****[#gold] <i><color #black><size:14>**"System"** will become so **"stable"** that it won't even <b>run!
+
+***[#green] <b><i><color #white><size:14>Dealing with Coupling
+****[#yellow] <i><color #black><size:14> Get rid of it
+****[#yellow]:<i><color #black><size:14>Make it "loose" instead of <b>tight coupling
+==<b><i><color #black><size:14>Tight coupling?==
+*<i><color #black><size:14>Depending on a <b>class</b> is <b>tight coupling
+*<i><color #black><size:14>Depending on an<b> interface</b> is <b>"loose" coupling;
+***[#green] <i><color #white><b><size:14>High Cohesion & Coupling
+****[#yellow] <i><color #black><size:14><b>"Good design" has "high cohesion" & "low Coupling"
+**[#lightblue] <i><color #black><size:14>Keep it DRY!
+***[#green] <i><color #white><b><size:14>Don't Repeat yourself
+****[#yellow]:<i><color #black><size:14>Don't duplicate <b>code
+====
+*<i><color #black><size:14>Every "piece of knowledge" in a "System" should 've <b><u>single unambiguous authoritative representation
+*<i><color #black><size:14>It "reduces" the "cost" of "development"
+*<i><color #black><size:14>The future you will thank you!
+*<i><color #black><size:14><b>Do code refactor!
+**<i><color #black><size:14><b>Some tools:
+*** <i><color #black><size:14><b>CPD (Copy paste detector)
+*** <i><color #black><size:14><b>Simian (means monkey)</b> Detects code if you copy & pasted code at several places;
+
+****[#yellow] <i><color #black><size:14>Don't duplicate <b>effort
+*****[#gold] <i><color #black><size:14><b>A cascade change
+**[#lightblue] <i><color #black><size:14>Focus on "Single Responsibility Principle"
+***[#green] <i><color #white><size:14><b>Long Methods
+****[#yellow]:<i><color #black><size:14><b>//Comment...
+
+<i><color #black><size:14>Code...
+
+<i><color #black><size:14><b>//Comment...
+
+<i><color #black><size:14>Code...
+
+<i><color #black><size:14><b>//Comment...
+
+<i><color #black><size:14>Code...
+
+<i><color #black><size:14><b>//Comment...
+
+<i><color #black><size:14>Code...;
+*****[#gold]:<i><color #black><size:14><b>Long Methods are bad:</b>
+*<i><color #black><size:14>Hard to test <b>(TDD)
+*<i><color #black><size:14>Hard to read
+*<i><color #black><size:14>Hard to remember
+*<i><color #black><size:14>Obscured business rules
+*<i><color #black><size:14>Hard to <b>reuse
+*<i><color #black><size:14>Leads to duplication
+*<i><color #black><size:14>many reasons to change
+*<i><color #black><size:14>Can't be optimized by anything
+*<i><color #black><size:14>Lot of variables...
+*<i><color #black><size:14>Not developer friendly
+*<i><color #black><size:14><b>Mixed levels
+*<i><color #black><size:14>Obsolete comments
+*<i><color #black><size:14>Hard to debug <b>(victim);
+******[#yellow] <i><color #black><size:14><b>Opposite of:\n*<i><color #black><size:14><b>High Cohesion\n*<i><color #black><size:14><b>Low Coupling
+****[#yellow]:<i><color #black><size:14><b>How "long" is a "long method"?
+*<i><color #black><size:14><b>The answer is <b>"SLAP"</b> (Single Level of Abstraction)
+*<i><color #black><size:14>Don't comment "bad code" instead <b>refactor bad code
+*<i><color #black><size:14>Don't comment **"What",** instead <b>comment "Why"
+*<i><color #black><size:14>A good code is like a <b>joke
+**<i><color #black><size:14>refactor it if it doesnt work;
+***[#green] <i><color #white><size:14><b>SLAP
+***[#green] <i><color #white><size:14><b>Compose Method Pattern
+****[#gold] <i><color #black><size:14><b>Self documenting code
+**[#lightblue] <i><color #black><size:14>Don't violate the Open-Closed Principle (OCP)
+
+
+@endmindmap
