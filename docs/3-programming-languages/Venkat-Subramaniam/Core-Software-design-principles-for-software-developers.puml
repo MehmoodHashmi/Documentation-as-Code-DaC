@@ -177,7 +177,23 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 *<i><color #black><size:14>You & I 've to make sure that we protect it at the <b>"code level."</b> Otherwise design begins to fall apart.
 <i><color #black><size:14>And we don't know why it's falling apart.
 *<i><color #black><size:14>Violation of the <b>"Liskov's substitution principle"</b> may result in violation of the <b>Open-Closed Principle (OCP);
+***[#green] <i><color #white><b><size:14>Good
+****[#yellow] <i><color #black><size:14>Public vs. protected in base vs. derived class
+****[#yellow] <i><color #black><size:14>Derived functions can't throw any new checked exceptions no thrown by the base class (Unless the new exception extends the old one...)
+****[#yellow] <i><color #black><size:14>Collection of derived class does not extend from collection of base class.
+****[#yellow]:<i><color #black><size:14>Use **Composition or delegation** instead of **inheritance** unless:
+*<i><color #black><size:14>You want <b>substitutability;
+***[#green] <i><color #white><b><size:14>Bad
+****[#gold]:<b><i><color #black><size:14>Should I violate LSP or should I violate DRY & OCP?
+<i><color #black><size:14>If I violate LSP then the user of the class probably is gonna violate <b>OCP
+<i><color #black><size:14>I would rather violate it, then violate myself & force to violate as well
+<i><color #black><size:14>the sin is in me I don't want you the part of sin as a user of my class
+==<i><color #black><size:14><b><u>What if I don't had to violate it at all?==;
 **[#lightblue] <i><color #black><size:14>Decouple using the Dependency Inversion Principle
+**[#lightblue] <i><color #black><size:14>Keep "interfaces Cohesive" with "Interface Segregation Principle"
+**[#lightblue] <i><color #black><size:14>When to apply these principles?
+**[#lightblue] <i><color #black><size:14>How to apply these principles?
+**[#lightblue] <i><color #black><size:14>Summary
 
 
 @endmindmap
