@@ -1,5 +1,6 @@
 @startmindmap
 title =<i><b><u>Concurrency
+* =<i>[[Concurrency-Patterns.puml Concurrency Patterns]]
 !theme hacker
 
 *[#darkblue] <i>Concurrency

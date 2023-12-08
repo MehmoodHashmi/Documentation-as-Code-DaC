@@ -12,9 +12,9 @@ title =<i><b><u>Parallelism
 ***[#yellow] <i><color #black><size:14>Bit-level parallelism
 ***[#yellow] <i><color #black><size:14>Instruction-level parallelism
 ***[#yellow] <i><color #black><size:18>**Task-level parallelism**
-***[#yellow] <i><color #black><size:18>**Data parallelism**
+***[#darkorange] <i><color #black><size:18><b>[[Data-Parallelism.puml Data parallelism]]
 ***[#yellow] <i><color #black><size:14>Geometric parallelism
-***[#yellow] <i><color #black><size:22><b>Pipeline parallelism
+***[#darkorange] <i><color #black><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml Pipeline parallelism]]
 ***[#yellow] <i><color #black><size:14>Hybrid parallelism
 **[#lightblue] <i><color #blac><size:14>Techniques
 ***[#yellow] <i><color #black><size:18>**Multithreading**

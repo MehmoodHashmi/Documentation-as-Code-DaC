@@ -12,8 +12,8 @@ title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Ve
 **[#lightblue] <i><color #blac><size:14>Threading
 ***[#green] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Parallel vs Concurrent]] click gif
 ****[#yellow] <i><color #black><size:14>Think about execution. In what sequence code gets executed?
-****[#yellow] <i><color #black><size:14><b>Parallel:</b> I can walk & talk in parallel\n<img:gif/img_2.png>
-****[#yellow] <i><color #black><size:14><b>Concurrent:</b> I can either drink or talk but not both simultaneously\n<img:gif/img_3.png>
+****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Concurrency-and-Parallelism/Parallelism.puml Parallel:]]</b> I can walk & talk in parallel\n<img:gif/img_2.png>
+****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Concurrency-and-Parallelism/Concurrency.puml Concurrent:]]</b> I can either drink or talk but not both simultaneously\n<img:gif/img_3.png>
 ****[#yellow] <i><color #black><size:14><b>Resources (CPU/GPU/TPU cores) & RAM:</b> usually put restrictions/limitations on which one we can use
 ****[#a] <i><color #black><size:14><b>Java-1.0:</b> had <b>[[docs/3-programming-languages/Venkat-Subramaniam/Threads.puml Threads]]</b> (light weight), but sooner realized its drawback
 ****[#yellow] <i><color #black><size:14><b>Java-5.0:</b> had <b>Executors.</b> Don't keep creating threads all over the place its bad idea. Instead create pools of threads & schedule tasks on the pool\n*<i><color #black><size:18>In both life & programming we solve a set of problems only to realize we have now created a new set of problems\n*<i><color #black><size:18>Executors ended up into pool induced deadlocks. It was annoying!
