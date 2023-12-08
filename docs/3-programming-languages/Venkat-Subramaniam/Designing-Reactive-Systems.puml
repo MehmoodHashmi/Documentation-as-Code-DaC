@@ -27,7 +27,7 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 ****[#yellow] <b><i><color #black><size:14>Message-Driven
 *****[#gold]:<i><color #black><size:14>Architecture, we want to able to communicate across systems.
 *<i><color #black><size:14>One way is <b>multi-threading.
-*<i><color #black><size:14>Another way is callbacks;
+*<i><color #black><size:14>Another way is <b>callbacks etc.;
 ****[#yellow] <b><i><color #black><size:14>Responsive
 *****[#gold]:*<i><color #black><size:14>Organizations have moved from making their employees available to having their applications available directly to the users.
 *<i><color #black><size:14>This changes the magnitude of scale of interactions the applications have to support. Furthermore, with <b>devices and bots
@@ -63,29 +63,34 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 ****[#yellow] <i><color #black><size:14>Doing <b>"pre-mature optimization"</b> is root cause of all <b>evils
 ***[#green] <i><color #white><size:14><b>Error handling
 **[#lightblue] <i><color #blac><size:14>Design concerns:
-***[#green] <i><color #white><size:14><b>Partition based on user location/query
-****[#yellow] <i><color #black><size:14><b>paritition based on user location e.g. CDN</b>
-****[#yellow] <i><color #black><size:14><b>paritition based on user query e.g. </b>
-***[#green] <i><color #white><size:14><b>Sharding & replication
+***[#green] <i><color #white><size:18><b>1- Partition based on user location/query
+****[#yellow] <i><color #black><size:14><b>partition based on user location e.g. CDN</b>
+****[#yellow] <i><color #black><size:14><b>partition based on user query e.g. </b>
+****[#yellow] <i><color #black><size:14><b>Directly affects the scalability!
+***[#green] <i><color #white><size:18><b>2- Sharding & replication
+****[#yellow] <i><color #black><size:14>**Replication:** Avoid <b>Centralized Databases</b>. Why because it becomes a <b>bottleneck
+****[#yellow] <i><color #black><size:14>**Sharding:** Splitting the <b>Data</b> across **machines** so that you can support <b>multiple users
 ****[#yellow] <i><color #black><size:14><b>Databases</b>
-***[#green] <i><color #white><size:14><b>Failure as first class citizen
+****[#yellow] <i><color #black><size:14>Both **sharding & replication** directly affects the <b>scalability!
+***[#green] <i><color #white><size:18><b>3- Failure as first class citizen
 ****[#yellow] <i><color #black><size:14>make or keep system <b>resilient:\n*<i><color #black><size:14>Design for failure\n*<i><color #black><size:14>Test for failure
-***[#green] <i><color #white><size:14><b>Not on all or nothing proposition
+***[#green] <i><color #white><size:14><b>4- Not on all or nothing proposition
 ****[#yellow] <i><color #black><size:14><b>Network failures</b>
 *****[#gold] <i><color #black><size:18>Can I provide a partial service on the client side when the network has failed?
 ****[#yellow] <i><color #black><size:14><b>Database failures</b>
-*****[#gold] <i><color #black><size:18>Sharding & replication can help in this area
+*****[#gold] <i><color #black><size:18>**Sharding & replication** can help in this area
 ****[#yellow] <i><color #black><size:14><b>Provide redundancies across geographical locations</b>
 *****[#gold] <i><color #black><size:18>You can deploy on <b>Cloud
 *****[#gold] <i><color #black><size:18>Distribution of <b>Services</b>
 ****[#yellow] <i><color #black><size:14><b>Load related failures</b>
-*****[#gold] <i><color #black><size:14><b>Backpressure</b>
+*****[#gold] <i><color #black><size:14><b>Backpressures</b>
 *****[#darkorange] <i><color #black><size:22><b>[[https://zendesk.engineering/event-pipelines-part-1-backpressure-and-buffering-1bba0ed3451e Event Pipelines (Part 1): Backpressure and Buffering]] a must read
 ***[#green] <i><color #white><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/Circuit-Breaker.puml Use Circuit Breakers]]
 ****[#yellow] <i><color #black><size:14>If you want to build a <b>"scalable system"</b> then do not build it without <b>"Circuit Breakers"</b>
 ***[#green] <i><color #white><size:14><b>Improved performance through parallelization
-****[#yellow] <i><color #black><size:14>Using <b>parallel collections & threads
+****[#yellow] <i><color #black><size:14>Using <b>parallel collections & threads\n*<i><color #black><size:14>Always using **multiple-cores** is not the <b>right answer!
 ***[#green] <i><color #white><size:14><b>CAP Theorem
-****[#yellow] <i><color #black><size:14>Says you can only provide only <b>two of the following at any given instant of time:\n#<b><i><color #black><size:14>Consistency ("eventual consistency" is good option)\n#<b><i><color #black><size:14>Availability\n#<b><i><color #black><size:14>Partition tolerance
+****[#yellow] <i><color #black><size:14>has been **proven** & can't be <b>challenged!
+****[#yellow] <i><color #black><size:14>Says you can only provide only <b>two of the following at any given instant of time:\n#<b><i><color #black><size:14>Consistency ("eventual consistency" is usually good option)\n#<b><i><color #black><size:14>Availability\n#<b><i><color #black><size:14>Partition tolerance
 **[#lightblue] <i><color #blac><size:32>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]] click me
 @endmindmap
