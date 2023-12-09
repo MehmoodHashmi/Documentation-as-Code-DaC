@@ -32,9 +32,9 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#gold]:*<i><color #black><size:14>If not evolved may become obsolete & irrelevant
 #<i><color #black><size:14>Team is held hosted by the architects, architect says you will develop it because we architected it.
 #<i><color #black><size:14>System does one thing & architecture diagrams on the walls does completely different things, they
-<i><color #black><size:14>deliver a working system which in no in sync with its architecture ;
+<i><color #black><size:14>deliver a "working system" which is not in **sync** with its <b>architecture;
 ***[#green] <b><i><color #white><size:14>Governance
-****[#gold] *<i><color #black><size:14>Architecture committee, slows down the process & initial architecture draft becomes useless.
+****[#gold] *<i><color #black><size:14>**Architecture committee,** slows down the process & "initial architecture" draft becomes useless.
 **[#lightblue] <i><color #blac><size:14>The risk of  evolving
 ***[#green] <b><i><color #white><size:14>What if we can't support a feature?
 ****[#yellow] *<i><color #black><size:14>Planned Features
@@ -42,7 +42,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 *****[#yellow] *<i><color #black><size:14>Find the following for each <b>user story:\n#<i><color #black><size:14>Business value\n#<i><color #black><size:14>Architecture Impact
 *****[#yellow] *<i><color #black><size:14>Now prioritize & implement the high value features first!
 ****[#yellow] *<i><color #black><size:14>Surprise Features
-*****[#yellow] *<i><color #black><size:14>Do minimal architecture like Clean Architecture so that you can modify & maintain the system
+*****[#yellow] *<i><color #black><size:14>Do **minimal architecture** like **Clean Architecture** so that you can "modify & maintain" the system
 ***[#green] <i><color #white><b><size:14>How to deal with that?
 ****[#yellow] <b><i><color #black><size:14>Prioritize on value & architecture impact
 **[#lightblue] <i><color #blac><size:14>Keep it simple
@@ -63,8 +63,8 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#gold] <i><color #black><size:14><b>Two main reason: \n#<i><color #black><size:14>You are smarter tomorrow than you are today\n#<i><color #black><size:14>If I don't make the decision now, I can go faster focusing on other decisions that 've to \n<i><color #black><size:14>be done now. And you want to postponed things that gives you <b>focus.
 ****[#yellow] <i><color #black><size:14><b>E.g.</b> Databases (SQL or NoSQL) etc.
 ***[#yellow] <i><color #black><size:14>Like **"Rewrite"** java app in go-lang or C# or python, this is difficult, time consuming & hard to <b>reverse.
-***[#yellow] <i><color #black><size:14>The more you are couple to a decision the harder it is to reverse, introduce indirection to increases <b>reversibility.
-***[#yellow] <i><color #black><size:14>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.\n*<b><i><color #black><size:14>Why don't we postpone?\n**<b><i><color #green><size:14>Because we are afraid!\n*<b><i><color #black><size:14>If you want ot "postpone" we need to 've good "automated testing". (TDD)
+***[#yellow] <i><color #black><size:14>The more you are couple to a decision the harder it is to reverse, introduce **indirection** to increase <b>reversibility.
+***[#yellow] <i><color #black><size:14>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.\n*<b><i><color #black><size:14>Why don't we postpone?\n**<b><i><color #green><size:14>Because we are afraid!\n*<b><i><color #black><size:14>If you want to "postpone" we need to 've good "automated testing". (TDD)
 ****[#gold] <i><color #black><size:14><img:images/img_35.png>
 ***[#yellow] <i><color #black><size:14>Database decisions, libraries and frameworks decisions etc.
 ***[#yellow] <i><color #black><size:14>**Prototyping** is helpful
@@ -85,7 +85,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ***[#green] <i><color #white><b><size:14>Develop the system in a light weight manner
 **[#lightblue] <i><color #blac><size:22>Postel's law
 ***[#green] <i><color #white><b><size:14>Communicating across systems
-****[#gold] *<i><color #black><size:18>True in microservices worlds
+****[#gold] *<i><color #black><size:18>True in **microservices** world
 ****[#yellow] *<i><color #black><size:18><b>Postel's law says:</b> be very  <b>generous</b> about what you <b>receive\n<i><color #black><size:18>& be very <b>conservative</b> about what you <b>send\n<img:images/img_28.png>\n<i><color #black><size:14>So as long as I can **iterate** over your **collection** it does not what is the **type** of your <b>collection.\n<i><color #black><size:14>In other words, don't make your <b>interface brittle.
 **[#lightblue] <i><color #blac><size:22>Reuse
 ***[#green] <i><color #white><b><size:14>Grady Booch Says:
