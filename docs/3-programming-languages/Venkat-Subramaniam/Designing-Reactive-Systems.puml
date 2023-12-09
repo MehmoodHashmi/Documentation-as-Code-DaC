@@ -81,7 +81,7 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 ****[#yellow] <i><color #black><size:14><b>Database failures</b>
 *****[#gold] <i><color #black><size:18>**Sharding & replication** can help in this area
 ****[#yellow] <i><color #black><size:14><b>Provide redundancies across geographical locations</b>
-*****[#gold] <i><color #black><size:18>You can deploy on <b>Cloud
+*****[#darkorange] <i><color #black><size:18>You can **[[docs/3-programming-languages/architectural-characteristics/Deployability.puml deploy]]** on <b>Cloud
 *****[#gold] <i><color #black><size:18>Distribution of <b>Services</b>
 ****[#yellow] <i><color #black><size:14><b>Load related failures</b>
 *****[#gold] <i><color #black><size:14><b>Backpressures</b>

@@ -1,60 +1,60 @@
 @startmindmap
-title = Deployability
+title = <i><u>Deploy-ability
 !theme hacker
 
-* Deployability
+*[#darkblue] <color #white> <i>Deploy-ability
 ** Definition
-*** ====<size:14>The ability of the system to be easily deployed to a variety of environments
-** ====Importance
-***[#white] ====<size:14>Facilitates quick and easy deployment
-***[#white] ====<size:14>Increases agility and flexibility
-***[#white] ====<size:14>Improves time-to-market
-**[#lime] ====Factors Affecting Deployability
-*** Portability
-****[#yellow] ====<size:14> The ability of the system to run on different platforms and operating systems
-****[#yellow] ====<size:14> Achieved by using platform-independent technologies and standard protocols
-*** **Configuration Management**
-****[#yellow] ====<size:14> The ability of the system to be easily configured and customized for different environments
-****[#yellow] ====<size:14> Achieved by using configuration files and tools
-*** Packaging and Distribution
-****[#yellow] ====<size:14> The ability of the system to be packaged and distributed in a variety of formats
-****[#yellow] ====<size:14> Achieved by using containerization and automation tools
-*** Documentation
-****[#yellow] ====<size:14> The availability of comprehensive documentation to facilitate deployment and configuration
-****[#yellow] ====<size:14> Achieved by using automated documentation tools and knowledge management systems
-*** ====**Testing**
-****[#yellow] ====<size:14> The ability to test the system in different environments and configurations
-****[#yellow] ====<size:14> Achieved by using automated testing tools and continuous integration and delivery practices
-**[#pink] ====Best Practices for Achieving Deployability
-*** Design for Portability
-****[#yellow] ====<size:14> Use platform-independent technologies and standard protocols
-****[#yellow] ====<size:14> Avoid platform-specific dependencies and proprietary solutions
-*** Automate **Configuration Management**
-****[#yellow] ====<size:14> Use configuration files and tools to facilitate easy and consistent configuration
-****[#yellow] ====<size:14> Implement **version control and change management** practices to track configuration changes
-*** Adopt **Containerization**
-****[#yellow] ====<size:14> Use containers to package and distribute the system in a variety of formats
-****[#yellow] ====<size:14> Use container orchestration tools to manage deployment and scaling
-*** Prioritize Documentation
-****[#yellow] ====<size:14> Use automated documentation tools to generate and maintain comprehensive documentation
-****[#yellow] ====<size:14> Implement knowledge management systems to facilitate knowledge sharing and reuse
-*** Implement Continuous Testing
-****[#yellow] ====<size:14> Use automated testing tools to test the system in different environments and configurations
-****[#yellow] ====<size:14> Implement continuous integration and delivery practices to ensure consistent and reliable deployment
-**[#a] ====Tools for Achieving Deployability
-*** ====**Configuration Management**
-****[#yellow] ====<size:14>**Ansible**
-****[#yellow] ====<size:14>**Puppet**
-****[#yellow] ====<size:14>**Chef**
-****[#yellow] ====<size:14>**SaltStack**
-*** ====**Containerization**
-****[#yellow] ====<size:14>**Docker**
-****[#yellow] ====<size:14>**Kubernetes**
-****[#yellow] ====<size:14>**OpenShift**
-****[#yellow] ====<size:14>**Mesos**
-*** ====Continuous Integration and Delivery
-****[#yellow] ====<size:14>**Jenkins**
-****[#yellow] ====<size:14>**Travis CI**
-****[#yellow] ====<size:14>**CircleCI**
-****[#yellow] ====<size:14>**GitLab CI/CD**
+***[#green] <color #white><i><size:14><i><size:14>The ability of the system to be easily deployed to a variety of environments
+** <i>Importance
+***[#white] <i><size:14>Facilitates quick and easy deployment
+***[#white] <i><size:14>Increases agility and flexibility
+***[#white] <i><size:14>Improves time-to-market
+**[#lime] <i>Factors Affecting Deploy-ability
+***[#green] <color #white><i><size:14>Portability
+****[#yellow] <color #black><i><size:14> The ability of the system to run on different platforms and operating systems
+****[#yellow] <color #black><i><size:14> Achieved by using platform-independent technologies and standard protocols
+***[#green] <color #white><i><size:14>**Configuration Management**
+****[#yellow] <color #black><i><size:14> The ability of the system to be easily configured and customized for different environments
+****[#yellow] <color #black><i><size:14> Achieved by using configuration files and tools
+***[#green] <color #white><i><size:14>Packaging and Distribution
+****[#yellow] <color #black><i><size:14> The ability of the system to be packaged and distributed in a variety of formats
+****[#yellow] <color #black><i><size:14> Achieved by using containerization and automation tools
+***[#green] <color #white><i><size:14>Documentation
+****[#yellow] <color #black><i><size:14> The availability of comprehensive documentation to facilitate deployment and configuration
+****[#yellow] <color #black><i><size:14> Achieved by using automated documentation tools and knowledge management systems
+***[#green] <color #white><i><size:14><i>**Testing**
+****[#yellow] <color #black><i><size:14> The ability to test the system in different environments and configurations
+****[#yellow] <color #black><i><size:14> Achieved by using automated testing tools and continuous integration and delivery practices
+**[#pink] <i>Best Practices for Achieving Deploy-ability
+***[#green] <color #white><i><size:14>Design for Portability
+****[#yellow] <color #black><i><size:14> Use platform-independent technologies and standard protocols
+****[#yellow] <color #black><i><size:14> Avoid platform-specific dependencies and proprietary solutions
+***[#green] <color #white><i><size:14>Automate **Configuration Management**
+****[#yellow] <color #black><i><size:14> Use configuration files and tools to facilitate easy and consistent configuration
+****[#yellow] <color #black><i><size:14> Implement **version control and change management** practices to track configuration changes
+***[#green] <color #white><i><size:14>Adopt **Containerization**
+****[#yellow] <color #black><i><size:14> Use containers to package and distribute the system in a variety of formats
+****[#yellow] <color #black><i><size:14> Use container orchestration tools to manage deployment and scaling
+***[#green] <color #white><i><size:14>Prioritize Documentation
+****[#yellow] <color #black><i><size:14> Use automated documentation tools to generate and maintain comprehensive documentation
+****[#yellow] <color #black><i><size:14> Implement knowledge management systems to facilitate knowledge sharing and reuse
+***[#green] <color #white><i><size:14>Implement Continuous Testing
+****[#yellow] <color #black><i><size:14> Use automated testing tools to test the system in different environments and configurations
+****[#yellow] <color #black><i><size:14> Implement continuous integration and delivery practices to ensure consistent and reliable deployment
+**[#a] <i>Tools for Achieving Deploy-ability
+***[#green] <color #white><i><size:14><i>**Configuration Management**
+****[#yellow] <color #black><i><size:14>**Ansible**
+****[#yellow] <color #black><i><size:14>**Puppet**
+****[#yellow] <color #black><i><size:14>**Chef**
+****[#yellow] <color #black><i><size:14>**SaltStack**
+***[#green] <color #white><i><size:14><i>**Containerization**
+****[#yellow] <color #black><i><size:14>**Docker**
+****[#yellow] <color #black><i><size:14>**Kubernetes**
+****[#yellow] <color #black><i><size:14>**OpenShift**
+****[#yellow] <color #black><i><size:14>**Mesos**
+***[#green] <color #white><i><size:14><i>Continuous Integration and Delivery
+****[#yellow] <color #black><i><size:14>**Jenkins**
+****[#yellow] <color #black><i><size:14>**Travis CI**
+****[#yellow] <color #black><i><size:14>**CircleCI**
+****[#yellow] <color #black><i><size:14>**GitLab CI/CD**
 @endmindmap
