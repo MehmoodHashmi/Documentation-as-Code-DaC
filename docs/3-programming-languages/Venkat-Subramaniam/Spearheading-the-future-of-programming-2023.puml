@@ -49,7 +49,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 *<i><color #black><size:14>**Stream** is an **abstraction,** it is not a <b>data structure or collection
 *<i><color #black><size:14>It is <b>non-mutating
 *<i><color #black><size:14>A view of how **data** is <b>transformed
-*<i><color #black><size:14><b>Pipeline
+*<i><color #black><size:14><b>Pipeline schema <color #white>(ETL vs ELT)
 ====
 *<i><color #black><size:14><b>Stream employs function composition
 *<i><color #black><size:14><b>"Stateless" behavior
