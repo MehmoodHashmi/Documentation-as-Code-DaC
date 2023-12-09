@@ -5,22 +5,22 @@ title =<i><b><u>Streams\n<img:images/img_30.png>
 ** ==<i><b>[[https://www.youtube.com/watch?v=S5tLVsvbHBg&t=5622s&ab_channel=Devoxx Exception Handling in Functional and Reactive Programming by Venkat Subramaniam]]
 !theme hacker
 *[#darkblue] <i>Streams
-**[#lightblue] <i><color #blac><size:14>All these "3 streams API" programing models are just tools. Use one that bests suits your use case.
+**[#lightblue] <i><color #blac><size:14>All these "3 Stream APIs" programing "models" are just "tools". Use one that bests suits your "use case".
 **[#lightblue] <i><color #blac><size:14>Stream
 ***[#green] <b><i><color #white><size:14>Simple stream
 ****[#yellow] <i><color #black><size:14><img:images/img_29.png>
-****[#yellow] <i><color #black><size:14>0, 1 ore more pieces of <b>data
+****[#yellow] <i><color #black><size:14>0, 1 or more pieces of <b>data
 ****[#yellow] <i><color #black><size:14>is <b>pipeline</b> of functions
 ****[#yellow] <i><color #black><size:14>has <b>lazy</b> evaluation
-****[#yellow] *<i><color #black><size:14>How to deal with "Exception Handling"?\n*<i><color #black><size:14>"Exception Handling" is an imperative style programing idea \n*<i><color #black><size:14>"Functional programming" and "exception handling" are "mutually exclusive"
+****[#yellow] *<i><color #black><size:14><b>How to deal with "Exception Handling"?\n*<i><color #black><size:14>"Exception Handling" is an imperative style programing idea \n*<i><color #black><size:14>"Functional programming" and "exception handling" are "mutually exclusive"
 ****[#yellow] <i><color #black><size:14>One <b>Channel</b> of data
 ****[#yellow] <i><color #black><size:14><b>map, filter, etc.</b> can't call lambdas that 've <b>"checked exceptions"
 **[#lightblue] <i><color #blac><size:14>Reactive Stream
-***[#green] <b><i><color #white><size:14>is an abstraction on top of "simple stream"
+***[#green] <b><i><color #white><size:14>is an abstraction on top\n<b><i><color #white><size:14>of "simple stream"
 ****[#yellow] <i><color #black><size:14>0, 1 ore more pieces of <b>data
 ****[#yellow] <i><color #black><size:14>is <b>pipeline</b> of functions
 ****[#yellow] <i><color #black><size:14>has <b>lazy</b> evaluation
-****[#yellow] <i><color #black><size:14>How to deal with "Exception Handling"?\n*<i><color #black><size:14>Treat <b>error</b> as form of <b>data.\n*<i><color #black><size:14>Don't throw "exceptions" in "Functional programming" <b>deal with it down stream
+****[#yellow] <i><color #green><size:14><b>How to deal with "Exception Handling"?\n*<i><color #brown><size:14>Treat <b>error</b> as form of <b>data.\n*<i><color #black><size:14>Don't throw "exceptions" in "Functional programming" <b>deal with it down stream
 ****[#yellow]:<i><color #black><size:14>Three <b>Channel</b> of data
 ====
 <i><color #black><size:14>Data flows through the data channel. If no more data, a signal may
@@ -35,7 +35,7 @@ title =<i><b><u>Streams\n<img:images/img_30.png>
 *****[#gold] <i><color #black><size:14> <b>Complete</b> Channel
 ****[#yellow] <i><color #black><size:14><b>map, filter, etc.</b> can 've lambdas that may throw "checked exceptions"
 **[#lightblue] <i><color #blac><size:14>CompletableFuture Stream
-***[#green] <b><i><color #white><size:14>is an abstraction on top of "simple stream"
+***[#green] <b><i><color #white><size:14>is an abstraction on top\n<b><i><color #white><size:14>of "simple stream"
 ****[#yellow] <i><color #black><size:14>0 or 1 piece of <b>data
 ****[#yellow] <i><color #black><size:14>Has better **"exception handling" API** than **Stream & Reactive stream** but not perfect
 
