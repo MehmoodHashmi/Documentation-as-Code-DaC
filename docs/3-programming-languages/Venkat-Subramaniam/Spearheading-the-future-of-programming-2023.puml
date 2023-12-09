@@ -4,8 +4,8 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 
 *[#darkblue] <i>Spearheading the \n<i>future of programming
 **[#lightblue] <i><color #blac><size:14>Definition
-***[#green]:<i><color #white><size:14>I program in about 15 different languages what I mean by that is I'm not good in any one of them but I love programming &  I started programming because
-<i><color #white><size:14>of the love I had for Math, physics and Science in general but <b>"35 years later I'm still a programmer"</b> because of the <b>art and programming that I see.;
+***[#green]:<i><color #white><size:14>I program in about 15 different languages what I mean by that is I'm not good in any one of them but I love programming &  I started programming because of
+<i><color #white><size:14>the **love I had for Math, physics and Science** in general but <b>"35 years later I'm still a programmer"</b> because of the <b>art and programming that I see.;
 
 ***[#green]:<i><color #white><size:14>I will talk what do I want to see in programming languages as we move forward over the years as I programmed in multiple languages.
 <i><color #white><size:14>I've kind of enjoyed some languages more than others;
@@ -22,9 +22,10 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ****[#yellow] <i><color #black><size:14>Learning new <b>"programming Paradigm"</b> is hard (takes more effort)
 ***[#green] <b><i><color #white><size:14>Paradigm Shift
 ****[#yellow] <i><color #black><size:14><b>1st paradigm shift:</b> Procedural programming or algorithmic decomposition of code (modules)
-*****[#yellow] <i><color #black><size:14><b>Time & Space complexity analysis</b>
+*****[#gold] <i><color #black><size:14><b>Time & Space complexity analysis</b>
 ****[#yellow] <i><color #black><size:14><b>2nd paradigm shift:</b> Object Oriented Programming or object decomposition of code (modules)
 *****[#yellow] <i><color #black><size:14><b>OOA&D</b>
+******[#gold] <i><color #black><size:14><img:images/img_33.png>
 ****[#yellow] <i><color #black><size:14><b>3rd paradigm shift:</b> Distributed Object Computing or Common Object Request Broker Architecture <b>(CORBA)
 *****[#yellow] <i><color #black><size:14>Remote computing
 ****[#darkorange] <i><color #black><size:15><b>4rth paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Asynchronous-Programming-in-Java-Options-to-Choose-from.puml Asynchronous Programming]]\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Asynchronous is non-blocking]] click gif\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Multi-threading vs Multi-processing programming ]]
@@ -40,7 +41,8 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 *<i><color #black><size:14>Reason its working;
 
 ****[#darkorange] <i><color #black><size:15><b>5th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml Functional Programming]]
-*****[#yellow]:<i><color #black><size:14>People said it's very easy but it was not. **Why?** Because it was really hard
+*****[#yellow]:*<i><color #green><size:14><b>Lambda (->) is indirection
+<i><color #black><size:14>People said it's very easy but it was not. **Why?** Because it was really hard
 <i><color #black><size:14>to think a different way than what I'm used to thinking in <b>imperative style
 <img:images/img_29.png>;
 ******[#darkorange]:<i><color #black><size:32><b>[[docs/3-programming-languages/Venkat-Subramaniam/Streams.puml What is Stream?]] click me
@@ -53,8 +55,8 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 *<i><color #black><size:14><b>"Stateless" behavior
 *<i><color #black><size:14><b>"pure" functions
 *<i><color #black><size:14><b>"Specialized" functions</b> (filter, Map)  **rides** the <b>stream
-**<i><color #black><size:14><b>Reduce<b> function using reduce function helps
-<i><color #black><size:14>you land **concrete** from <b>abstract (stream);
+**<i><color #black><size:14><b>Reduce<b> function using reduce function helps</b> you land on the
+<i><color #black><size:14>**concrete** type from <b>abstract (stream);
 ****[#darkorange] <i><color #black><size:15><b>6th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Designing-Reactive-Systems.puml Reactive Programming or functional programming++]]
 *****[#yellow] <i><color #black><size:14>Is an <b>abstraction</b> on top of functional programming
 ****[#darkorange] <i><color #black><size:22><b>7th paradigm shift:</b> <b>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/statistics/professor-leonard-statistics-notes/descriptive-(or-EDA)-statistics/4-machine-learning.puml Machine learning]] click\n<img:images/img_7.png>

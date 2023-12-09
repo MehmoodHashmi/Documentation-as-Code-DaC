@@ -65,6 +65,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ***[#yellow] <i><color #black><size:14>Like **"Rewrite"** java app in go-lang or C# or python, this is difficult, time consuming & hard to <b>reverse.
 ***[#yellow] <i><color #black><size:14>The more you are couple to a decision the harder it is to reverse, introduce indirection to increases <b>reversibility.
 ***[#yellow] <i><color #black><size:14>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.\n*<b><i><color #black><size:14>Why don't we postpone?\n**<b><i><color #green><size:14>Because we are afraid!\n*<b><i><color #black><size:14>If you want ot "postpone" we need to 've good "automated testing". (TDD)
+****[#gold] <i><color #black><size:14><img:images/img_35.png>
 ***[#yellow] <i><color #black><size:14>Database decisions, libraries and frameworks decisions etc.
 ***[#yellow] <i><color #black><size:14>**Prototyping** is helpful
 ***[#yellow] <i><color #black><size:14>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
@@ -82,19 +83,20 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#yellow] *<i><color #black><size:14><b>Write very few lines of code; Think does this really you need while writing code
 **[#lightblue] <i><color #blac><size:14>Triangulate
 ***[#green] <i><color #white><b><size:14>Develop the system in a light weight manner
-**[#lightblue] <i><color #blac><size:14>Postel's law
+**[#lightblue] <i><color #blac><size:22>Postel's law
 ***[#green] <i><color #white><b><size:14>Communicating across systems
 ****[#gold] *<i><color #black><size:18>True in microservices worlds
 ****[#yellow] *<i><color #black><size:18><b>Postel's law says:</b> be very  <b>generous</b> about what you <b>receive\n<i><color #black><size:18>& be very <b>conservative</b> about what you <b>send\n<img:images/img_28.png>\n<i><color #black><size:14>So as long as I can **iterate** over your **collection** it does not what is the **type** of your <b>collection.\n<i><color #black><size:14>In other words, don't make your <b>interface brittle.
-**[#lightblue] <i><color #blac><size:14>Reuse
+**[#lightblue] <i><color #blac><size:22>Reuse
 ***[#green] <i><color #white><b><size:14>Grady Booch Says:
 ****[#gold] *<i><color #black><size:18><b>First make the system "usable" then make the system <color #green>"reusable"
 ****[#yellow] *<i><color #black><size:18><b>To make a piece of the system/software "reusable" it has to be very<color #red> "generic"
 ****[#yellow] *<i><color #black><size:18><b>To make a piece of the system/software "usable"" it has to be very <color #brown>"specific"
 ****[#a] *<i><color #black><size:18><b>It's a tension between the two
-**[#lightblue] <i><color #blac><size:14>Minimize libraries & frameworks
+**[#lightblue] <i><color #blac><size:18>Minimize libraries & frameworks\n<img:images/img_31.png><img:images/img_34.png>
 ***[#yellow] <i><color #black><size:14>in the system, otherwise it is "infatuation" with the "technology"
-***[#yellow] <i><color #black><size:14>Don't build what you can buy. Don't buy/download what you don't need!
+***[#yellow] <i><color #black><size:14>Don't **build** what you can **buy.** Don't **buy/download** what you don't <b>need!
+***[#yellow] <i><color #black><size:14>There is nothing wrong with **outside-in or inside-out approach** so long as you \n<i><color #black><size:14>**decouple** your **business rules*** from them.
 **[#lightblue] <i><color #blac><size:14>Summary
 
 @endmindmap
