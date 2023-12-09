@@ -1,0 +1,51 @@
+@startmindmap
+title =<i><b><u>Resilient System
+!theme hacker
+
+*[#darkblue] <i>Resilient System
+**[#lightblue] <i><color #blac><size:14>Characteristics
+***[#green] <b><i><color #white><size:14>Fault Tolerance
+****[#yellow] <i><color #black><size:14>Ability to continue operating despite component failures.
+***[#green] <b><i><color #white><size:14>Elasticity
+****[#yellow] <i><color #black><size:14>Capacity to scale resources dynamically to handle varying workloads.
+***[#green] <b><i><color #white><size:14>Responsiveness
+****[#yellow] <i><color #black><size:14>Swift response to failures or changes in the system.
+***[#green] <b><i><color #white><size:14>Recoverability
+****[#yellow] <i><color #black><size:14>Ability to restore normal operations after a failure or disruption.
+**[#lightblue] <i><color #blac><size:14>Design Principles
+***[#green] <b><i><color #white><size:14>Redundancy
+****[#yellow] <i><color #black><size:14>Duplication of critical components or systems for backup.
+***[#green] <b><i><color #white><size:14>Decentralization
+****[#yellow] <i><color #black><size:14>Distribution of responsibilities to prevent single points of failure.
+***[#green] <b><i><color #white><size:14>Monitoring & Healing
+****[#yellow] <i><color #black><size:14>Constant system monitoring and automated healing mechanisms.
+***[#green] <b><i><color #white><size:14>Graceful Degradation
+****[#yellow] <i><color #black><size:14>Maintaining partial functionality even when facing failures.
+**[#lightblue] <i><color #blac><size:14>Strategies
+***[#green] <b><i><color #white><size:14>Replication
+****[#yellow] <i><color #black><size:14>Duplication of components or services for resilience.
+***[#green] <b><i><color #white><size:14>Load Balancing
+****[#yellow] <i><color #black><size:14>Equally distributing workloads across multiple resources.
+***[#green] <b><i><color #white><size:14>Failover Mechanisms
+****[#yellow] <i><color #black><size:14>Automatic switching to redundant systems upon failure detection.
+***[#green] <b><i><color #white><size:14>Circuit Breakers
+****[#yellow] <i><color #black><size:14>Mechanisms to prevent system overload during failure scenarios.
+**[#lightblue] <i><color #blac><size:14>Technologies & Patterns
+***[#green] <b><i><color #white><size:14>Microservices Architecture
+****[#yellow] <i><color #black><size:14>Decentralized, independently deployable services for resilience.
+***[#green] <b><i><color #white><size:14>Containerization
+****[#yellow] <i><color #black><size:14>Encapsulating services for consistency and scalability.
+***[#green] <b><i><color #white><size:14>Chaos Engineering
+****[#yellow] <i><color #black><size:14>Testing system resilience through controlled experiments.
+***[#green] <b><i><color #white><size:14>Reactive Programming
+****[#yellow] <i><color #black><size:14>Asynchronous and message-driven approach for responsiveness.
+**[#lightblue] <i><color #blac><size:14>Benefits
+***[#green] <b><i><color #white><size:14>Continuity
+****[#yellow] <i><color #black><size:14>Continuous operation even under adverse conditions.
+***[#green] <b><i><color #white><size:14>Reduced Downtime
+****[#yellow] <i><color #black><size:14>Minimized disruptions and quick recovery from failures.
+***[#green] <b><i><color #white><size:14>Scalability
+****[#yellow] <i><color #black><size:14>Ability to handle increased load without performance degradation.
+***[#green] <b><i><color #white><size:14>Improved User Experience
+****[#yellow] <i><color #black><size:14>Consistent performance even during system fluctuations.
+@endmindmap

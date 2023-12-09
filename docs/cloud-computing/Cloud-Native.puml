@@ -1,7 +1,7 @@
 @startmindmap
-title =__Cloud Native__\n<img:images/img.png>
+title =<i><u>Cloud Native\n<img:images/img.png>
 
-* **[[https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/definition]]**
+* <i><size:14><b>[[https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/definition What is Cloud Native?]] Microsoft Article
 !theme hacker
 
 
@@ -82,9 +82,9 @@ title =__Cloud Native__\n<img:images/img.png>
 ***[#yellow] <i><size:14>Build a culture of collaboration and shared responsibility between development and operations teams
 ***[#yellow] <i><size:14>Use automation and continuous delivery to streamline development
 
-**[#lightblue] <i><size:14>Design for Resilience and Fault Tolerance
+**[#lightblue] <i><size:18>[[docs/cloud-computing/Cloud-Design-Patterns.puml Design for Resilience and Fault Tolerance]]
 ***[#yellow] <i><size:14>Cloud-native applications are designed to be resilient to failures and can automatically recover from them
-***[#yellow] <i><size:14>Use fault-tolerant design patterns and consider implementing circuit breakers and retry mechanisms
+***[#a] <i><size:14>Use **[[docs/cloud-computing/Cloud-Design-Patterns.puml fault-tolerant design patterns]]** and consider implementing <b>[[docs/cloud-computing/Cloud-Design-Patterns.puml circuit breakers and retry mechanisms]]
 **[#lightblue] <i><size:14>Secure Your Application and Infrastructure
 ***[#yellow] <i><size:14>Implement strong authentication and authorization mechanisms
 ***[#yellow] <i><size:14>Use encryption to protect data in transit and at rest

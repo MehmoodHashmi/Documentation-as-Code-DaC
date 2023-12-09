@@ -22,17 +22,17 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 ****[#yellow] <b><i><color #black><size:14>Inheritance
 ****[#yellow] <b><i><color #black><size:14>Polymorphism
 ***[#green] <i><color #white><size:14><b>Characteristics of a Reactive application \n*<i><color #white><size:17><b>4-pillars of Reactive application
-****[#yellow] <b><i><color #black><size:14>Elastic
+****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/architectural-characteristics/Elasticity.puml Elastic]]
 *****[#gold] <i><color #black><size:14>scaling at any particular instant of time especially during peak hours <b>(this is dynamic scalability)
-****[#yellow] <b><i><color #black><size:14>Message-Driven
+****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Message-Driven.puml Message-Driven]]
 *****[#gold]:<i><color #black><size:14>Architecture, we want to able to communicate across systems.
 *<i><color #black><size:14>One way is <b>multi-threading.
 *<i><color #black><size:14>Another way is <b>callbacks etc.;
-****[#yellow] <b><i><color #black><size:14>Responsive
+****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Responsiveness.puml Responsive]]
 *****[#gold]:*<i><color #black><size:14>Organizations have moved from making their employees available to having their applications available directly to the users.
 *<i><color #black><size:14>This changes the magnitude of scale of interactions the applications have to support. Furthermore, with <b>devices and bots
 <i><color #black><size:14>accessing the systems, we’re looking at a complete different rate of response than we once had to aim for.;
-****[#yellow] <b><i><color #black><size:14>Resilient
+****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Resilient.puml Resilient]]
 *****[#gold] <i><color #black><size:14>In case of failure system restores itself
 ***[#yellow] <b><i><color #black><size:14>Dataflow & composition of events
 **[#lightblue] <i><color #blac><size:14>How does it work?

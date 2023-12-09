@@ -1,58 +1,60 @@
 @startmindmap
-title =__ Cloud Design Patterns__
-* Cloud Design Patterns
-** Scalability Patterns
-*** Horizontal Scaling
-**** Load Balancing
-**** Auto Scaling
-*** Vertical Scaling
-**** Resource Reservation
-**** Resource Upgrade
-** Resiliency Patterns
-*** Retry
-*** Circuit Breaker
-*** Bulkhead
-*** Timeout
-*** Failover
-*** Replication
-** Security Patterns
-*** Access Management
-**** Identity and Access Management (IAM)
-**** Role-Based Access Control (RBAC)
-*** Data Encryption
-**** Encryption at Rest
-**** Encryption in Transit
-*** Network Security
-**** Virtual Private Cloud (VPC)
-**** Network Isolation
-*** Compliance
-**** Regulatory Compliance
-**** Audit Logging
-** Performance Optimization Patterns
-*** Caching
-*** Sharding
-*** Content Delivery Network (CDN)
-*** Database Partitioning
-*** Asynchronous Processing
-** Cost Optimization Patterns
-*** Resource Optimization
-*** Usage-Based Pricing
-*** Spot Instances
-*** Resource Consolidation
-** Data Management Patterns
-*** Data Replication
-*** Data Synchronization
-*** Event Sourcing
-*** Batch Processing
-*** Stream Processing
-** Integration Patterns
-*** Message Queueing
-*** Event-Driven Architecture
-*** API Management
-*** Service Orchestration
-** Monitoring and Logging Patterns
-*** Centralized Logging
-*** Real-Time Monitoring
-*** Health Checks
-*** Performance Metrics
+title = <i><u>Cloud Design Patterns
+!theme hacker
+
+*[#darkblue] <i>Cloud Design Patterns
+**[#lightblue] <i><color #blac><size:14>Scalability Patterns
+***[#green] <b><i><color #white><size:14>Horizontal Scaling
+****[#yellow] <i><color #black><size:14>Load Balancing
+****[#yellow] <i><color #black><size:14>Auto Scaling
+***[#green] <b><i><color #white><size:14>Vertical Scaling
+****[#yellow] <i><color #black><size:14>Resource Reservation
+****[#yellow] <i><color #black><size:14>Resource Upgrade
+**[#lightblue] <i><color #blac><size:14>Resiliency Patterns
+***[#green] <b><i><color #white><size:14>Retry
+***[#green] <b><i><color #white><size:22>Circuit Breaker
+***[#green] <b><i><color #white><size:14>Bulkhead
+***[#green] <b><i><color #white><size:14>Timeout
+***[#green] <b><i><color #white><size:14>Failover
+***[#green] <b><i><color #white><size:14>Replication
+**[#lightblue] <i><color #blac><size:14>Security Patterns
+***[#green] <b><i><color #white><size:14>Access Management
+****[#yellow] <i><color #black><size:14>Identity and Access Management <b>(IAM)
+****[#yellow] <i><color #black><size:14>Role-Based Access Control <b>(RBAC)
+***[#green] <b><i><color #white><size:14>Data Encryption
+****[#yellow] <i><color #black><size:14>Encryption at Rest
+****[#yellow] <i><color #black><size:14>Encryption in Transit
+***[#green] <b><i><color #white><size:14>Network Security
+****[#yellow] <i><color #black><size:14>Virtual Private Cloud <b>(VPC)
+****[#yellow] <i><color #black><size:14>Network Isolation
+***[#green] <b><i><color #white><size:14>Compliance
+****[#yellow] <i><color #black><size:14>Regulatory Compliance
+****[#yellow] <i><color #black><size:14>Audit Logging
+**[#lightblue] <i><color #blac><size:14>Performance Optimization Patterns
+***[#green] <b><i><color #white><size:14>Caching
+***[#green] <b><i><color #white><size:14>Sharding
+***[#green] <b><i><color #white><size:14>Content Delivery Network <b>(CDN)
+***[#green] <b><i><color #white><size:14>Database Partitioning
+***[#green] <b><i><color #white><size:14>Asynchronous Processing
+**[#lightblue] <i><color #blac><size:14>Cost Optimization Patterns
+***[#green] <b><i><color #white><size:14>Resource Optimization
+***[#green] <b><i><color #white><size:14>Usage-Based Pricing
+***[#green] <b><i><color #white><size:14>Spot Instances
+***[#green] <b><i><color #white><size:14>Resource Consolidation
+**[#lightblue] <i><color #blac><size:14>Data Management Patterns
+***[#green] <b><i><color #white><size:14>Data Replication
+***[#green] <b><i><color #white><size:14>Data Synchronization
+***[#green] <b><i><color #white><size:14>Event Sourcing
+***[#green] <b><i><color #white><size:14>Batch Processing
+***[#green] <b><i><color #white><size:14>Stream Processing
+**[#lightblue] <i><color #blac><size:14>Integration Patterns
+***[#green] <b><i><color #white><size:14>Message Queueing
+***[#green] <b><i><color #white><size:14>Event-Driven Architecture
+***[#green] <b><i><color #white><size:14>API Management
+***[#green] <b><i><color #white><size:14>Service Orchestration
+**[#lightblue] <i><color #blac><size:14>Monitoring and Logging Patterns
+***[#green] <b><i><color #white><size:14>Centralized Logging
+***[#green] <b><i><color #white><size:14>Real-Time Monitoring
+***[#green] <b><i><color #white><size:14>Health Checks
+***[#green] <b><i><color #white><size:14>Performance Metrics
 @endmindmap

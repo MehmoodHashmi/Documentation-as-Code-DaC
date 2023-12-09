@@ -1,9 +1,9 @@
 @startmindmap
 title = Machine Learning
-
+* <img:images/img_59.png>
+** <size:31><i><b>[[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Modern Machine Learning]]
 !theme hacker
 
-* <img:images/img_59.png>
 * =Categories of \n=Data & Learning
 **:Unlabeled data typically falls under the category of "Unsupervised Learning" in the context of machine learning.
 Unsupervised learning is a type of learning where the data does not have predefined labels or categories. The goal

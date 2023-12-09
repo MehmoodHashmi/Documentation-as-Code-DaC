@@ -1,67 +1,65 @@
 @startmindmap
-title =__Apache Spark__\n<img:images/img.png>
-
-
-* **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
+title =<b><i><u>Apache Spark\n<img:images/img.png>
+* <i><color #blac><size:14><size:14><i><b>[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers Hadoop Ecosystem | All Components Hdfs ,Mapreduce ,Hive ,Flume ,Sqoop ,Yarn ,Hbase ,Zookeeper, Pig]]
 !theme hacker
 
-* Apache Spark
-** Overview
-*** <size:14>Fast and General-Purpose Distributed Computing Engine
-***[#pink] <size:14>**In-Memory Computing and Processing Framework**
-***[#pink] <size:14>Part of the Apache Big Data Ecosystem
+*[#darkblue] <i>Apache Spark
+**[#lightblue] <i><color #blac><size:14>Overview
+***[#green] <b><i><color #white><size:14>Fast and General-Purpose Distributed Computing Engine
+***[#green] <b><i><color #white><size:22>In-Memory Computing and Processing Framework
+***[#green] <b><i><color #white><size:14>Part of the Apache Big Data Ecosystem
 
-** Architecture
-*** Cluster Manager
-****[#yellow] ====<size:14>Manages and Allocates Cluster Resources
-****[#yellow] ====<size:14>Supports Standalone, Apache Mesos, Hadoop YARN, Kubernetes
-*** Spark Core
-****[#yellow] ====<size:14>Foundation of Spark
-****[#yellow] ====<size:14>Distributed Task Scheduling and Execution
-****[#yellow] ====<size:14>Memory Management and Fault Recovery
-*** Libraries and APIs
-****[#yellow] ====<size:14>High-Level APIs for Various Data Processing Tasks
-****[#yellow] ====<size:14>Spark SQL, Spark Streaming, MLlib, GraphX
-***[#pink] Data Sources
-****[#yellow] ====<size:14>Integrates with Various Data Sources
-****[#yellow] ====<size:14>**Hadoop Distributed File System (HDFS), Apache HBase, JDBC, S3, Kafka**
-*** Spark Applications
-****[#yellow] ====<size:14>User Programs or Jobs
-****[#yellow] ====<size:14>Composed of Multiple Stages and Tasks
-****[#yellow] ====<size:14>Submitted to Spark Cluster for Execution
+**[#lightblue] <i><color #blac><size:14>Architecture
+***[#green] <b><i><color #white><size:14> Cluster Manager
+****[#yellow] <color #black><i><size:14>Manages and Allocates Cluster Resources
+****[#yellow] <color #black><i><size:14>Supports Standalone, Apache Mesos, Hadoop YARN, Kubernetes
+***[#green] <b><i><color #white><size:14> Spark Core
+****[#yellow] <color #black><i><size:14>Foundation of Spark
+****[#yellow] <color #black><i><size:14>Distributed Task Scheduling and Execution
+****[#yellow] <color #black><i><size:14>Memory Management and Fault Recovery
+***[#green] <b><i><color #white><size:14> Libraries and APIs
+****[#yellow] <color #black><i><size:14>High-Level APIs for Various Data Processing Tasks
+****[#yellow] <color #black><i><size:14>Spark SQL, Spark Streaming, MLlib, GraphX
+***[#green] <b><i><color #white><size:14> Data Sources
+****[#yellow] <color #black><i><size:14>Integrates with Various Data Sources
+****[#yellow] <color #black><i><size:14>**Hadoop Distributed File System (HDFS), Apache HBase, JDBC, S3, Kafka**
+***[#green] <b><i><color #white><size:14> Spark Applications
+****[#yellow] <color #black><i><size:14>User Programs or Jobs
+****[#yellow] <color #black><i><size:14>Composed of Multiple Stages and Tasks
+****[#yellow] <color #black><i><size:14>Submitted to Spark Cluster for Execution
 
-** Features
-***[#pink] In-Memory Computing
-****[#yellow] ====<size:14>Caches Data in Memory for Faster Processing
-****[#yellow] ====<size:14>Improves Performance and Speeds up Iterative Algorithms
-*** Distributed Processing
-****[#yellow] ====<size:14>Scales Processing Across Cluster of Machines
-****[#yellow] ====<size:14>Parallel Execution of Tasks
-****[#yellow] ====<size:14>Fault Tolerance and Data Locality
-*** High-Level APIs and Libraries
-****[#yellow] ====<size:14>Spark SQL for Structured Data Processing
-****[#yellow] ====<size:14>Spark Streaming for Real-Time Stream Processing
-****[#yellow] ====<size:14>MLlib for Machine Learning
-****[#yellow] ====<size:14>GraphX for Graph Processing
-*** Advanced Analytics
-****[#yellow] ====<size:14>Support for SQL Queries, Machine Learning Algorithms, Graph Algorithms
-****[#yellow] ====<size:14>Enables Complex Analytics and Data Processing Workloads
-*** Integration with Big Data Ecosystem
-****[#yellow] ====<size:14>Integrates with Various Data Sources and Systems
-****[#yellow] ====<size:14>Compatible with Hadoop, Hive, HBase, Kafka, etc.
+**[#lightblue] <i><color #blac><size:14>Features
+***[#green] <b><i><color #white><size:14> In-Memory Computing
+****[#yellow] <color #black><i><size:14>Caches Data in Memory for Faster Processing
+****[#yellow] <color #black><i><size:14>Improves Performance and Speeds up Iterative Algorithms
+***[#green] <b><i><color #white><size:14> Distributed Processing
+****[#yellow] <color #black><i><size:14>Scales Processing Across Cluster of Machines
+****[#yellow] <color #black><i><size:14>Parallel Execution of Tasks
+****[#yellow] <color #black><i><size:14>Fault Tolerance and Data Locality
+***[#green] <b><i><color #white><size:14> High-Level APIs and Libraries
+****[#yellow] <color #black><i><size:14>Spark SQL for Structured Data Processing
+****[#yellow] <color #black><i><size:14>Spark Streaming for Real-Time Stream Processing
+****[#yellow] <color #black><i><size:14>MLlib for Machine Learning
+****[#yellow] <color #black><i><size:14>GraphX for Graph Processing
+***[#green] <b><i><color #white><size:14> Advanced Analytics
+****[#yellow] <color #black><i><size:14>Support for SQL Queries, Machine Learning Algorithms, Graph Algorithms
+****[#yellow] <color #black><i><size:14>Enables Complex Analytics and Data Processing Workloads
+***[#green] <b><i><color #white><size:14> Integration with Big Data Ecosystem
+****[#yellow] <color #black><i><size:14>Integrates with Various Data Sources and Systems
+****[#yellow] <color #black><i><size:14>Compatible with Hadoop, Hive, HBase, Kafka, etc.
 
-**[#pink] **Use Cases**
-*** Big Data Processing and Analytics
-*** Real-Time Stream Processing
-*** Machine Learning and Data Science
-*** Interactive Data Analysis and Exploration
-*** ETL (Extract, Transform, Load) Workflows
+**[#lightblue] <i><color #blac><size:22>Use Cases
+***[#green] <b><i><color #white><size:14> Big Data Processing and Analytics
+***[#green] <b><i><color #white><size:14> Real-Time Stream Processing
+***[#green] <b><i><color #white><size:14> Machine Learning and Data Science
+***[#green] <b><i><color #white><size:14> Interactive Data Analysis and Exploration
+***[#green] <b><i><color #white><size:14> ETL (Extract, Transform, Load) Workflows
 
-** Benefits
-*** Speed and Performance
-*** In-Memory Computing Capability
-*** Scalability and Fault Tolerance
-*** Rich Set of Libraries and APIs
-*** Integration with Big Data Ecosystem
+**[#lightblue] <i><color #blac><size:14>Benefits
+***[#green] <b><i><color #white><size:14> Speed and Performance
+***[#green] <b><i><color #white><size:14> In-Memory Computing Capability
+***[#green] <b><i><color #white><size:14> Scalability and Fault Tolerance
+***[#green] <b><i><color #white><size:14> Rich Set of Libraries and APIs
+***[#green] <b><i><color #white><size:14> Integration with Big Data Ecosystem
 
 @endmindmap

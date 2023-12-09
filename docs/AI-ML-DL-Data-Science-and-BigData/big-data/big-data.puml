@@ -1,54 +1,61 @@
 @startmindmap
-title = __Big Data__\n<img:images/img_22.png>
+title =<i><u>Big Data\n<img:images/img_22.png>
 !theme hacker
 
 
-* =Big Data
-** Data Collection
-*** Data Sources
-****[#yellow] ====<size:13>Structured Data
-***** Relational Databases
-****** MySQL
-****** Oracle
-****** SQL Server
-****** PostgreSQL
-****[#yellow] ====<size:13>Unstructured Data
-***** Text Files
-***** Audio Files
-***** Video Files
-***** Images
-***** Social Media Data
-** Data Storage
-*** Data Warehouses
-****[#yellow] ====<size:13>On-Premise Data Warehouses
-***** Cloud Data Warehouses
-****** Amazon Redshift
-****** Microsoft Azure SQL Data Warehouse
-****** Google Cloud BigQuery
-****[#yellow] ====<size:13>Hybrid Data Warehouses
-***** Amazon Redshift Spectrum
-***** Google Cloud BigQuery BI Engine
-** Data Processing
-*** Data Warehousing
-****[#yellow] ====<size:13>Extract, Transform, and Load (ETL)
-***** Extract data from source systems
-***** Transform data into a consistent format
-***** Load data into a data warehouse
-****[#yellow] ====<size:13>Data Mining
-***** Discover patterns and trends in data
-***** Build predictive models
-***** Improve decision-making
-*** Data Analytics
-****[#yellow] ====<size:13>Business Intelligence (BI)
-***** Provide insights into business performance
-***** Identify opportunities for improvement
-***** Make better decisions
-****[#yellow] ====<size:13>Data Science
-***** Develop new algorithms and models
-***** Build data-driven applications
-***** Solve complex problems
-** Data Visualization
-*** Create charts, graphs, and other visualizations
-****[#yellow] ====<size:13>Communicate insights from data
-****[#yellow] ====<size:13>Improve decision-making
+*[#darkblue] <i><size:14><b><color #white>Big Data
+**[#lightblue] <i><size:14><b><color #black>Characteristics
+***[#green] <i><size:14><b><color #white>Volume
+***[#green] <i><size:14><b><color #white>Velocity
+***[#green] <i><size:14><b><color #white>Variety
+***[#green] <i><size:14><b><color #white>Veracity
+***[#green] <i><size:14><b><color #white>Value
+***[#green] <i><size:14><b><color #white>...
+**[#lightblue] <i><size:14><b><color #black>Data Collection
+***[#green] <i><size:14><b><color #white>Data Sources
+****[#yellow] <i><size:14><b><color #black>Structured Data
+*****[#orange] <i><size:14><b><color #black>Relational Databases
+******[#gold] <i><size:14><b><color #black>MySQL
+******[#gold] <i><size:14><b><color #black>Oracle
+******[#gold] <i><size:14><b><color #black>SQL Server
+******[#gold] <i><size:14><b><color #black>PostgreSQL
+****[#yellow] <i><size:14><b><color #black>Unstructured Data
+*****[#orange] <i><size:14><b><color #black>Text Files
+*****[#orange] <i><size:14><b><color #black>Audio Files
+*****[#orange] <i><size:14><b><color #black>Video Files
+*****[#orange] <i><size:14><b><color #black>Images
+*****[#orange] <i><size:14><b><color #black>Social Media Data
+**[#lightblue] <i><size:14><b><color #black>Data Storage
+***[#green] <i><size:14><b><color #white>Data Warehouses
+****[#yellow] <i><size:14><b><color #black>On-Premise Data Warehouses
+*****[#orange] <i><size:14><b><color #black>Cloud Data Warehouses
+******[#gold] <i><size:14><b><color #black>Amazon Redshift
+******[#gold] <i><size:14><b><color #black>Microsoft Azure SQL Data Warehouse
+******[#gold] <i><size:14><b><color #black>Google Cloud BigQuery
+****[#yellow] <i><size:14><b><color #black>Hybrid Data Warehouses
+*****[#orange] <i><size:14><b><color #black>Amazon Redshift Spectrum
+*****[#orange] <i><size:14><b><color #black>Google Cloud BigQuery BI Engine
+**[#lightblue] <i><size:14><b><color #black>Data Processing
+***[#green] <i><size:14><b><color #white>Data Warehousing
+****[#yellow] <i><size:14><b><color #black>Extract, Transform, and Load (ETL)
+*****[#orange] <i><size:14><b><color #black>Extract data from source systems
+*****[#orange] <i><size:14><b><color #black>Transform data into a consistent format
+*****[#orange] <i><size:14><b><color #black>Load data into a data warehouse
+****[#yellow] <i><size:14><b><color #black>Data Mining
+*****[#orange] <i><size:14><b><color #black>Discover patterns and trends in data
+*****[#orange] <i><size:14><b><color #black>Build predictive models
+*****[#orange] <i><size:14><b><color #black>Improve decision-making
+***[#green] <i><size:14><b><color #white>Data Analytics
+****[#yellow] <i><size:14><b><color #black>Business Intelligence (BI)
+*****[#orange] <i><size:14><b><color #black>Provide insights into business performance
+*****[#orange] <i><size:14><b><color #black>Identify opportunities for improvement
+*****[#orange] <i><size:14><b><color #black>Make better decisions
+****[#yellow] <i><size:14><b><color #black>Data Science
+*****[#orange] <i><size:14><b><color #black>Develop new algorithms and models
+*****[#orange] <i><size:14><b><color #black>Build data-driven applications
+*****[#orange] <i><size:14><b><color #black>Solve complex problems
+**[#lightblue] <i><size:14><b><color #black>Data Visualization
+***[#green] <i><size:14><b><color #white>Create charts, graphs, and other visualizations
+****[#yellow] <i><size:14><b><color #black>Communicate insights from data
+****[#yellow] <i><size:14><b><color #black>Improve decision-making
 @endmindmap

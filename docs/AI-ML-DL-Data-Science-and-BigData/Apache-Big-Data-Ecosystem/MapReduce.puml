@@ -1,69 +1,71 @@
 @startmindmap
-title =__ MapReduce__\n<img:images/img_9.png>
+title =<b><i><u>MapReduce\n<img:images/img_9.png>
+* <size:14><i><b>[[https://www.youtube.com/watch?v=pcTFiU7wKkQ&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=4&ab_channel=GateSmashers What is MapReduce in Apache Hadoop]]
+** <i><color #blac><size:14><size:14><i><b>[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers Hadoop Ecosystem | All Components Hdfs ,Mapreduce ,Hive ,Flume ,Sqoop ,Yarn ,Hbase ,Zookeeper, Pig]]
+** <i><color #blac><size:14><size:18><i><b>[[https://www.analyticsvidhya.com/blog/2022/07/learn-everything-about-mapreduce-architecture-and-its-components/ Learn Everything about MapReduce Architecture & its Components]] Article
 
-* **[[https://www.youtube.com/watch?v=pcTFiU7wKkQ&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=4&ab_channel=GateSmashers]]**
-* **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
-* **[[https://www.analyticsvidhya.com/blog/2022/07/learn-everything-about-mapreduce-architecture-and-its-components/]]**
+!theme hacker
 
-* =MapReduce
-** Overview
-*** Programming Model for Processing Big Data
-*** Designed for Parallel and Distributed Computing
-*** Part of the Apache Hadoop Ecosystem
+*[#darkblue] <i>MapReduce
+**[#lightblue] <i><color #blac><size:14>Overview
+***[#green] <b><i><color #white><size:14>Programming Model for Processing Big Data
+***[#green] <b><i><color #white><size:14>Designed for Parallel and Distributed Computing
+***[#green] <b><i><color #white><size:14>Part of the Apache Hadoop Ecosystem
 
-** Components
-*** Map Function
-**** Processes Input Data in Key-Value Pairs
-**** Generates Intermediate Key-Value Pairs
-*** Reduce Function
-**** Aggregates Intermediate Data by Key
-**** Produces Final Output
+**[#lightblue] <i><color #blac><size:14>Components
+***[#green] <b><i><color #white><size:14>Map Function
+****[#yellow] <i><color #black><size:14>Processes Input Data in Key-Value Pairs
+****[#yellow] <i><color #black><size:14>Generates Intermediate Key-Value Pairs
+***[#green] <b><i><color #white><size:14>Reduce Function
+****[#yellow] <i><color #black><size:14>Aggregates Intermediate Data by Key
+****[#yellow] <i><color #black><size:14>Produces Final Output
 
-** =**Workflow**\n<img:images/img_8.png>
-*** Input Data
-**** Split into Input Splits
-**** Assigned to Map Tasks
-*** Map Phase
-**** Map Tasks Process Input Splits
-**** Output Intermediate Key-Value Pairs
-*** Shuffle and Sort
-**** Intermediate Data Grouped by Key
-**** Transferred to Reduce Tasks
-*** Reduce Phase
-**** Reduce Tasks Process Intermediate Data
-**** Output Final Results
+**[#lightblue] <i><color #blac><size:18>Workflow \n<img:images/img_8.png>
+***[#green] <b><i><color #white><size:14>Input Data
+****[#yellow] <i><color #black><size:14>Split into Input Splits
+****[#yellow] <i><color #black><size:14>Assigned to Map Tasks
+***[#green] <b><i><color #white><size:14>Map Phase
+****[#yellow] <i><color #black><size:14>Map Tasks Process Input Splits
+****[#yellow] <i><color #black><size:14>Output Intermediate Key-Value Pairs
+***[#green] <b><i><color #white><size:14>Shuffle and Sort
+****[#yellow] <i><color #black><size:14>Intermediate Data Grouped by Key
+****[#yellow] <i><color #black><size:14>Transferred to Reduce Tasks
+***[#green] <b><i><color #white><size:14>Reduce Phase
+****[#yellow] <i><color #black><size:14>Reduce Tasks Process Intermediate Data
+****[#yellow] <i><color #black><size:14>Output Final Results
 
-** Features
-*** Scalability
-**** Scales Horizontally Across Cluster Nodes
-**** Handles Large Data Sets
-*** Fault Tolerance
-**** Automatic Task Recovery
-**** Data Replication
-*** Parallel Processing
-**** Distributes Computation Across Nodes
-**** Processes Data in Parallel
-*** Data Locality
-**** Moves Computation Close to Data
-**** Minimizes Data Transfer Overhead
+**[#lightblue] <i><color #blac><size:14>Features
+***[#green] <b><i><color #white><size:14>Scalability
+****[#yellow] <i><color #black><size:14>Scales Horizontally Across Cluster Nodes
+****[#yellow] <i><color #black><size:14>Handles Large Data Sets
+***[#green] <b><i><color #white><size:14>Fault Tolerance
+****[#yellow] <i><color #black><size:14>Automatic Task Recovery
+****[#yellow] <i><color #black><size:14>Data Replication
+***[#green] <b><i><color #white><size:14>Parallel Processing
+****[#yellow] <i><color #black><size:14>Distributes Computation Across Nodes
+****[#yellow] <i><color #black><size:14>Processes Data in Parallel
+***[#green] <b><i><color #white><size:14>Data Locality
+****[#yellow] <i><color #black><size:14>Moves Computation Close to Data
+****[#yellow] <i><color #black><size:14>Minimizes Data Transfer Overhead
 
-** Use Cases
-*** Batch Processing
-*** Data Transformation
-*** Log Analysis
-*** Distributed Computing
-*** Large-Scale Data Processing
+**[#lightblue] <i><color #blac><size:14>Use Cases
+***[#green] <b><i><color #white><size:14>Batch Processing
+***[#green] <b><i><color #white><size:14>Data Transformation
+***[#green] <b><i><color #white><size:14>Log Analysis
+***[#green] <b><i><color #white><size:14>Distributed Computing
+***[#green] <b><i><color #white><size:14>Large-Scale Data Processing
 
-** Integration with Apache Hadoop Ecosystem
-*** Hadoop Distributed File System (HDFS)
-*** Apache Hive
-*** Apache Pig
-*** Apache Spark
+**[#lightblue] <i><color #blac><size:14>Integration with Apache Hadoop Ecosystem
+***[#green] <b><i><color #white><size:14>Hadoop Distributed File System (HDFS)
+***[#green] <b><i><color #white><size:14>Apache Hive
+***[#green] <b><i><color #white><size:14>Apache Pig
+***[#darkorange] <b><i><color #white><size:32>[[docs/AI-ML-DL-Data-Science-and-BigData/Apache-Big-Data-Ecosystem/apache-kafka.puml Apache Kafka]]
+***[#green] <b><i><color #white><size:32>[[docs/AI-ML-DL-Data-Science-and-BigData/Apache-Big-Data-Ecosystem/Apache-Spark.puml Apache Spark]]
 
-** Programming Languages and APIs
-*** Java
-*** Python
-*** MapReduce Streaming API
-*** Hadoop MapReduce API
+**[#lightblue] <i><color #blac><size:14>Programming Languages and APIs
+***[#green] <b><i><color #white><size:14>Java
+***[#green] <b><i><color #white><size:14>Python
+***[#green] <b><i><color #white><size:14>MapReduce Streaming API
+***[#green] <b><i><color #white><size:14>Hadoop MapReduce API
 
 @endmindmap

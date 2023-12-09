@@ -1,63 +1,64 @@
 @startmindmap
-title =__ RabbitMQ__
+title =<b><i><u>RabbitMQ
+* <b><i>[[https://www.cloudamqp.com/blog/part1-rabbitmq-for-beginners-what-is-rabbitmq.html Part 1: RabbitMQ for beginners - What is RabbitMQ?]] Article
 
-* **[[https://www.cloudamqp.com/blog/part1-rabbitmq-for-beginners-what-is-rabbitmq.html ]]**
+!theme hacker
 
 * **RabbitMQ** \n<img:images/rabbit-mq.png>
-** Overview
-*** Open-source message broker
-*** Implements Advanced Message Queuing Protocol (AMQP)
-*** Provides reliable messaging between applications
-** **Core Concepts** \n<img:images/rabbit-mq-architecture.png>
-*** Publishers
-**** Send messages to exchanges
-**** Responsible for message production
-*** Exchanges
-**** Receives messages from publishers
-**** Routes messages to queues based on rules (bindings)
-*** Queues
-**** Store messages until consumed by consumers
-**** Follow the FIFO (First-In-First-Out) principle
-*** Consumers
-**** Receive messages from queues
-**** Process and act upon messages
-** Key Features
-*** Message Durability
-**** Messages can be persisted on disk to ensure no data loss
-**** Supports reliable message delivery
-*** Message Routing
-**** Multiple exchange types to route messages based on rules
-**** Enables flexible message routing patterns
-*** Message Acknowledgement
-**** Consumers can acknowledge the successful processing of messages
-**** Ensures reliable message processing and prevents message loss
-*** Scalability
-**** Supports the distributed deployment of brokers and queues
-**** Enables horizontal scaling to handle high message throughput
-** Use Cases
-*** Task Distribution
-**** Distributing tasks among workers in a scalable manner
-**** Load balancing and parallel processing of tasks
-*** Event-Driven Architecture
-**** Decoupling and asynchronous communication between microservices
-**** Handling real-time events and updates
-*** Message Queuing
-**** Storing and managing messages for reliable processing
-**** Enabling loose coupling between producers and consumers
-** Ecosystem
-*** Exchange Types
-**** Direct, Fanout, Topic, Headers
-**** Different routing and message distribution strategies
-*** Bindings
-**** Define rules for routing messages from exchanges to queues
-**** Enable message filtering and selective consumption
-*** Plugins and Integrations
-**** Plugins for integrating with other systems and protocols
-**** Enhances functionality and connectivity options
-**[#pink] Integration with Other Technologies
-***[#pink] Apache **Kafka**
-*** Apache Spark
-*** Elasticsearch
-*** MongoDB
-*** AWS services (Amazon SNS, Amazon SQS)
+**[#lightblue] <i><color #blac><size:14>Overview
+***[#green] <b><i><color #white><size:14>Open-source message broker
+***[#green] <b><i><color #white><size:14>Implements Advanced Message Queuing Protocol (AMQP)
+***[#green] <b><i><color #white><size:14>Provides reliable messaging between applications
+**[#lightblue] <i><color #blac><size:14>Core Concepts \n<img:images/rabbit-mq-architecture.png>
+***[#green] <b><i><color #white><size:14>Publishers
+****[#yellow] <i><color #black><size:14>Send messages to exchanges
+****[#yellow] <i><color #black><size:14>Responsible for message production
+***[#green] <b><i><color #white><size:14>Exchanges
+****[#yellow] <i><color #black><size:14>Receives messages from publishers
+****[#yellow] <i><color #black><size:14>Routes messages to queues based on rules (bindings)
+***[#green] <b><i><color #white><size:14>Queues
+****[#yellow] <i><color #black><size:14>Store messages until consumed by consumers
+****[#yellow] <i><color #black><size:14>Follow the FIFO (First-In-First-Out) principle
+***[#green] <b><i><color #white><size:14>Consumers
+****[#yellow] <i><color #black><size:14>Receive messages from queues
+****[#yellow] <i><color #black><size:14>Process and act upon messages
+**[#lightblue] <i><color #blac><size:14>Key Features
+***[#green] <b><i><color #white><size:14>Message Durability
+****[#yellow] <i><color #black><size:14>Messages can be persisted on disk to ensure no data loss
+****[#yellow] <i><color #black><size:14>Supports reliable message delivery
+***[#green] <b><i><color #white><size:14>Message Routing
+****[#yellow] <i><color #black><size:14>Multiple exchange types to route messages based on rules
+****[#yellow] <i><color #black><size:14>Enables flexible message routing patterns
+***[#green] <b><i><color #white><size:14>Message Acknowledgement
+****[#yellow] <i><color #black><size:14>Consumers can acknowledge the successful processing of messages
+****[#yellow] <i><color #black><size:14>Ensures reliable message processing and prevents message loss
+***[#green] <b><i><color #white><size:14>Scalability
+****[#yellow] <i><color #black><size:14>Supports the distributed deployment of brokers and queues
+****[#yellow] <i><color #black><size:14>Enables horizontal scaling to handle high message throughput
+**[#lightblue] <i><color #blac><size:14>Use Cases
+***[#green] <b><i><color #white><size:14>Task Distribution
+****[#yellow] <i><color #black><size:14>Distributing tasks among workers in a scalable manner
+****[#yellow] <i><color #black><size:14>Load balancing and parallel processing of tasks
+***[#green] <b><i><color #white><size:14>Event-Driven Architecture
+****[#yellow] <i><color #black><size:14>Decoupling and asynchronous communication between microservices
+****[#yellow] <i><color #black><size:14>Handling real-time events and updates
+***[#green] <b><i><color #white><size:14>Message Queuing
+****[#yellow] <i><color #black><size:14>Storing and managing messages for reliable processing
+****[#yellow] <i><color #black><size:14>Enabling loose coupling between producers and consumers
+**[#lightblue] <i><color #blac><size:14>Ecosystem
+***[#green] <b><i><color #white><size:14>Exchange Types
+****[#yellow] <i><color #black><size:14>Direct, Fanout, Topic, Headers
+****[#yellow] <i><color #black><size:14>Different routing and message distribution strategies
+***[#green] <b><i><color #white><size:14>Bindings
+****[#yellow] <i><color #black><size:14>Define rules for routing messages from exchanges to queues
+****[#yellow] <i><color #black><size:14>Enable message filtering and selective consumption
+***[#green] <b><i><color #white><size:14>Plugins and Integrations
+****[#yellow] <i><color #black><size:14>Plugins for integrating with other systems and protocols
+****[#yellow] <i><color #black><size:14>Enhances functionality and connectivity options
+**[#lightblue] <i><color #blac><size:14>Integration with Other Technologies
+***[#green] <b><i><color #white><size:14>Apache **Kafka**
+***[#green] <b><i><color #white><size:14>Apache Spark
+***[#green] <b><i><color #white><size:14>Elasticsearch
+***[#green] <b><i><color #white><size:14>MongoDB
+***[#green] <b><i><color #white><size:14>AWS services (Amazon SNS, Amazon SQS)
 @endmindmap

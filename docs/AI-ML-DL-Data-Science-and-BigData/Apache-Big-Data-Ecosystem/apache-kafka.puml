@@ -1,73 +1,73 @@
 @startmindmap
-title = //**__Apache Kafka__**// \n<img:images/apache-kafka.png>
+title =<b><u><i>Apache Kafka \n<img:images/apache-kafka.png>
 
-* **[[https://www.youtube.com/watch?v=0V9SK6jmDPk&ab_channel=ITkFunde]]**
-* **[[https://www.youtube.com/watch?v=84HRqqWpqL4&list=PLBb5HFCJVQts9MRueDBfi-K8DB_p_dGLJ&index=2&ab_channel=JavaShastra]]**
+* <b><size:14><i>[[https://www.youtube.com/watch?v=0V9SK6jmDPk&ab_channel=ITkFunde Apache Kafka Basics ]]
+** <b><size:14><i>[[https://www.youtube.com/watch?v=84HRqqWpqL4&list=PLBb5HFCJVQts9MRueDBfi-K8DB_p_dGLJ&index=2&ab_channel=JavaShastra Kafka Producer Consumer using spring boot | Kafka producer | Kafka Consumer]]
 
 !theme hacker
 
-*[#crimson] =//**Apache Kafka**// \n<img:images/kafka.png>
-** Overview
-*** <size:14>Distributed streaming platform
-*** <size:14>Handles high-volume, real-time data feeds
-*** <size:14>Provides fault-tolerant and scalable data processing
-** **Core Concepts** \n<img:images/producer-consumer.png>\n\n<img:images/queue.png>
-***[#pink] Topics
-****[#yellow] ====<size:14>Categories or feeds of messages in Kafka
-****[#yellow] ====<size:14>Partitioned and distributed across **brokers** (are nothing but **kafka server instances**)
-****[#yellow] ====<size:14>Can have multiple producers and consumers
-*** Producers
-****[#yellow] ====<size:14>Send messages to Kafka topics
-****[#yellow] ====<size:14>Responsible for data ingestion
-*** Consumers
-****[#yellow] ====<size:14>Receive messages from Kafka topics
-****[#yellow] ====<size:14>Process and analyze data
-***[#pink] **Brokers**
-****[#gold] ====<size:14>**are Kafka server instances**
-****[#yellow] ====<size:14>Responsible for storing and managing topics and partitions
-***[#pink] Partitions
-****[#yellow] ====<size:14>Subdivisions of topics for better scalability
-****[#yellow] ====<size:14>Each partition is ordered and has a unique offset
-****[#yellow] ====<size:14>Enables parallel processing and load balancing
-** Key Features
-*** Fault Tolerance
-****[#yellow] ====<size:14>Replicates data across multiple brokers
-****[#yellow] ====<size:14>Provides automatic failover and data recovery
-*** Scalability
-****[#yellow] ====<size:14>Horizontal scalability by adding more brokers
-****[#yellow] ====<size:14>Supports large-scale data processing
-*** High Throughput
-****[#yellow] ====<size:14>Optimized for handling high volume and velocity of data
-****[#yellow] ====<size:14>Enables real-time data streaming
-*** Durability
-****[#yellow] ====<size:14>Persists messages on disk
-****[#yellow] ====<size:14>Allows for data retention based on configurable policies
-** Use Cases
-*** Real-time Stream Processing
-****[#yellow] ====<size:14>Analyzing and reacting to real-time data streams
-****[#yellow] ====<size:14>Enabling near-instantaneous data processing
-*** Event Sourcing
-****[#yellow] ====<size:14>Capturing and storing all changes as a sequence of events
-****[#yellow] ====<size:14>Facilitating auditing, compliance, and historical analysis
-*** Log Aggregation
-****[#yellow] ====<size:14>Consolidating logs from multiple sources into a central system
-****[#yellow] ====<size:14>Simplifying log management and analysis
-** Ecosystem
-*** Kafka Connect
-****[#yellow] ====<size:14>Enables integration with external systems
-****[#yellow] ====<size:14>Facilitates data import/export to and from Kafka
-*** Kafka Streams
-****[#yellow] ====<size:14>Stream processing library for building applications and microservices
-****[#yellow] ====<size:14>Enables real-time data processing and transformations
-*** Kafka MirrorMaker
-****[#yellow] ====<size:14>Replicates Kafka topics across data centers or clusters
-****[#yellow] ====<size:14>Facilitates data replication and disaster recovery
-**[#pink] Integration with Other Technologies
-***[#pink] Apache **Spark**
-*** Apache Flink
-*** Apache Storm
-*** Elasticsearch
-*** MongoDB
+*[#darkblue] =<i>Apache Kafka\n<img:images/kafka.png>
+**[#lightblue] <i><size:14>Overview
+***[#green] <color #white><b><i><size:14><size:14>Distributed streaming platform
+***[#green] <color #white><b><i><size:14><size:14>Handles high-volume, real-time data feeds
+***[#green] <color #white><b><i><size:14><size:14>Provides fault-tolerant and scalable data processing
+**[#lightblue] <i><size:14>Core Concepts \n<img:images/producer-consumer.png>\n\n<img:images/queue.png>
+***[#green] <color #white><b><i><size:14>Topics
+****[#yellow] <color #black><i><size:14>Categories or feeds of messages in Kafka
+****[#yellow] <color #black><i><size:14>Partitioned and distributed across **brokers** (are nothing but **kafka server instances**)
+****[#yellow] <color #black><i><size:14>Can have multiple producers and consumers
+***[#green] <color #white><b><i><size:14>Producers
+****[#yellow] <color #black><i><size:14>Send messages to Kafka topics
+****[#yellow] <color #black><i><size:14>Responsible for data ingestion
+***[#green] <color #white><b><i><size:14>Consumers
+****[#yellow] <color #black><i><size:14>Receive messages from Kafka topics
+****[#yellow] <color #black><i><size:14>Process and analyze data
+***[#green] <color #white><b><i><size:14>Brokers
+****[#gold] <i><size:14>**are Kafka server instances**
+****[#yellow] <color #black><i><size:14>Responsible for storing and managing topics and partitions
+***[#green] <color #white><b><i><size:14>Partitions
+****[#yellow] <color #black><i><size:14>Subdivisions of topics for better scalability
+****[#yellow] <color #black><i><size:14>Each partition is ordered and has a unique offset
+****[#yellow] <color #black><i><size:14>Enables parallel processing and load balancing
+**[#lightblue] <i><size:14>Key Features
+***[#green] <color #white><b><i><size:14>Fault Tolerance
+****[#yellow] <color #black><i><size:14>Replicates data across multiple brokers
+****[#yellow] <color #black><i><size:14>Provides automatic failover and data recovery
+***[#green] <color #white><b><i><size:14>Scalability
+****[#yellow] <color #black><i><size:14>Horizontal scalability by adding more brokers
+****[#yellow] <color #black><i><size:14>Supports large-scale data processing
+***[#green] <color #white><b><i><size:14>High Throughput
+****[#yellow] <color #black><i><size:14>Optimized for handling high volume and velocity of data
+****[#yellow] <color #black><i><size:14>Enables real-time data streaming
+***[#green] <color #white><b><i><size:14>Durability
+****[#yellow] <color #black><i><size:14>Persists messages on disk
+****[#yellow] <color #black><i><size:14>Allows for data retention based on configurable policies
+**[#lightblue] <i><size:14>Use Cases
+***[#green] <color #white><b><i><size:14>Real-time Stream Processing
+****[#yellow] <color #black><i><size:14>Analyzing and reacting to real-time data streams
+****[#yellow] <color #black><i><size:14>Enabling near-instantaneous data processing
+***[#green] <color #white><b><i><size:14>Event Sourcing
+****[#yellow] <color #black><i><size:14>Capturing and storing all changes as a sequence of events
+****[#yellow] <color #black><i><size:14>Facilitating auditing, compliance, and historical analysis
+***[#green] <color #white><b><i><size:14>Log Aggregation
+****[#yellow] <color #black><i><size:14>Consolidating logs from multiple sources into a central system
+****[#yellow] <color #black><i><size:14>Simplifying log management and analysis
+**[#lightblue] <i><size:14>Ecosystem
+***[#green] <color #white><b><i><size:14>Kafka Connect
+****[#yellow] <color #black><i><size:14>Enables integration with external systems
+****[#yellow] <color #black><i><size:14>Facilitates data import/export to and from Kafka
+***[#green] <color #white><b><i><size:14>Kafka Streams
+****[#yellow] <color #black><i><size:14>Stream processing library for building applications and microservices
+****[#yellow] <color #black><i><size:14>Enables real-time data processing and transformations
+***[#green] <color #white><b><i><size:14>Kafka MirrorMaker
+****[#yellow] <color #black><i><size:14>Replicates Kafka topics across data centers or clusters
+****[#yellow] <color #black><i><size:14>Facilitates data replication and disaster recovery
+**[#lightblue] <i><size:14>Integration with Other Technologies
+***[#green] <color #white><b><i><size:14>Apache Spark
+***[#green] <color #white><b><i><size:14>Apache Flink
+***[#green] <color #white><b><i><size:14>Apache Storm
+***[#green] <color #white><b><i><size:14>Elasticsearch
+***[#green] <color #white><b><i><size:14>MongoDB
 
 * <img:images/kafka-cluster.png>
 

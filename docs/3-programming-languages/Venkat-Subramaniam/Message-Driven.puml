@@ -1,0 +1,53 @@
+@startmindmap
+title =<i><b><u>Message-Driven
+!theme hacker
+
+*[#darkblue] <i>Message-Driven
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <b><i><color #white><size:14>System architecture emphasizing communication through messages/events.
+**[#lightblue] <i><color #blac><size:14>Characteristics
+***[#green] <b><i><color #white><size:14>Asynchronous Communication
+****[#yellow] <i><color #black><size:14>Sending and receiving messages without direct dependencies or immediate responses.
+***[#green] <b><i><color #white><size:14>Loose Coupling
+****[#yellow] <i><color #black><size:14>Components interact via messages, reducing interdependencies.
+***[#green] <b><i><color #white><size:14>Scalability
+****[#yellow] <i><color #black><size:14>Easily scalable by handling message-based communication across distributed systems.
+***[#green] <b><i><color #white><size:14>Event-Based Processing
+****[#yellow] <i><color #black><size:14>Triggering actions or processes based on received messages or events.
+**[#lightblue] <i><color #blac><size:14>Components
+***[#green] <b><i><color #white><size:14>Message Brokers
+****[#yellow] <i><color #black><size:14>Systems managing message queues, facilitating message routing and delivery.
+***[#green] <b><i><color #white><size:14>Publishers
+****[#yellow] <i><color #black><size:14>Components generating and sending messages to a designated destination.
+***[#green] <b><i><color #white><size:14>Subscribers
+****[#yellow] <i><color #black><size:14>Systems or components receiving and processing messages they are interested in.
+***[#green] <b><i><color #white><size:14>Event Bus
+****[#yellow] <i><color #black><size:14>Centralized system for distributing events across multiple components or services.
+**[#lightblue] <i><color #blac><size:14>Benefits
+***[#green] <b><i><color #white><size:14>Decoupling
+****[#yellow] <i><color #black><size:14>Reducing tight connections between components for better maintainability.
+***[#green] <b><i><color #white><size:14>Asynchronous Processing
+****[#yellow] <i><color #black><size:14>Enhancing system responsiveness and allowing parallel processing.
+***[#green] <b><i><color #white><size:14>Scalability
+****[#yellow] <i><color #black><size:14>Enabling growth by distributing workloads via message passing.
+***[#green] <b><i><color #white><size:14>Fault Tolerance
+****[#yellow] <i><color #black><size:14>Handling failures by processing messages independently of the source.
+**[#lightblue] <i><color #blac><size:14>Patterns
+***[#green] <b><i><color #white><size:14>Pub/Sub (Publish/Subscribe)
+****[#yellow] <i><color #black><size:14>Sending messages to a topic for multiple subscribers to receive.
+***[#green] <b><i><color #white><size:14>Message Queue
+****[#yellow] <i><color #black><size:14>Storing and managing messages until they are consumed by subscribers.
+***[#green] <b><i><color #white><size:14>Event Sourcing
+****[#yellow] <i><color #black><size:14>Capturing and storing events as a log for system state reconstruction.
+***[#green] <b><i><color #white><size:14>CQRS (Command Query Responsibility Segregation)
+****[#yellow] <i><color #black><size:14>Separating read and write operations for improved performance.
+**[#lightblue] <i><color #blac><size:14>Technologies
+***[#green] <b><i><color #white><size:22>[[docs/AI-ML-DL-Data-Science-and-BigData/Apache-Big-Data-Ecosystem/apache-kafka.puml Apache Kafka]]
+****[#yellow] <i><color #black><size:14>Distributed event streaming platform for handling real-time data feeds.
+***[#green] <b><i><color #white><size:22>[[docs/AI-ML-DL-Data-Science-and-BigData/Apache-Big-Data-Ecosystem/RabbitMQ.puml RabbitMQ]]
+****[#yellow] <i><color #black><size:14>Open-source message broker implementing various messaging protocols.
+***[#green] <b><i><color #white><size:14>Amazon SNS/SQS
+****[#yellow] <i><color #black><size:14>AWS services for message delivery and queuing in a distributed environment.
+***[#green] <b><i><color #white><size:14>Redis
+****[#yellow] <i><color #black><size:14>In-memory data structure store used as a message broker or queue.
+@endmindmap

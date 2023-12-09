@@ -1,32 +1,32 @@
 @startmindmap
-title =__ Cloud Architect__
+title =<i><u>Cloud Architect
 !theme hacker
 
-* Cloud Architect
-** Design and Planning
-***[#gold] ====<size:14>Capacity Planning
-***[#gold] ====<size:14>Availability and Scalability
-***[#gold] ====<size:14>Disaster Recovery
-***[#gold] ====<size:14>Security and Compliance
-** Cloud Services
-***[#gold] ====<size:14>IaaS
-****[#white] ====<size:14>Compute
-****[#white] ====<size:14>Storage
-****[#white] ====<size:14>Networking
-***[#gold] ====<size:14>PaaS
-****[#white] ====<size:14>Application Platform
-****[#white] ====<size:14>Database Platform
-***[#gold] ====<size:14>SaaS
-****[#white] ====<size:14>Productivity
-****[#white] ====<size:14>Collaboration
-****[#white] ====<size:14>Customer Relationship Management
-** Cloud Providers
-***[#gold] ====<size:14>Amazon Web Services **(AWS)**
-***[#gold] ====<size:14>Microsoft Azure
-***[#gold] ====<size:14>Google Cloud Platform
-***[#gold] ====<size:14>IBM Cloud
-** DevOps and Automation
-***[#gold] ====<size:14>Continuous Integration/Continuous Deployment **(CI/CD)**
-***[#gold] ====<size:14>Infrastructure as Code **(IaC)**
-***[#gold] ====<size:14>Configuration Management
+*[#darkblue] <i><size:14>Cloud Architect
+**[#lightblue] <i><size:14>Design and Planning
+***[#gold] <i><size:14>Capacity Planning
+***[#gold] <i><size:14>Availability and Scalability
+***[#gold] <i><size:14>Disaster Recovery
+***[#gold] <i><size:14>Security and Compliance
+**[#lightblue] <i><size:14>Cloud Services
+***[#gold] <i><size:14><b>IaaS
+****[#white] <i><size:14>Compute
+****[#white] <i><size:14>Storage
+****[#white] <i><size:14>Networking
+***[#gold] <i><size:14><b>PaaS
+****[#white] <i><size:14>Application Platform
+****[#white] <i><size:14>Database Platform
+***[#gold] <i><size:14><b>SaaS
+****[#white] <i><size:14>Productivity
+****[#white] <i><size:14>Collaboration
+****[#white] <i><size:14>Customer Relationship Management
+**[#lightblue] <i><size:14>Cloud Providers
+***[#gold] <i><size:14>Amazon Web Services **(AWS)**
+***[#gold] <i><size:14>Microsoft Azure
+***[#gold] <i><size:14>Google Cloud Platform
+***[#gold] <i><size:14>IBM Cloud
+**[#lightblue] <i><size:14>DevOps and Automation
+***[#gold] <i><size:14>Continuous Integration/Continuous Deployment **(CI/CD)**
+***[#gold] <i><size:14>Infrastructure as Code **(IaC)**
+***[#gold] <i><size:14>Configuration Management
 @endmindmap

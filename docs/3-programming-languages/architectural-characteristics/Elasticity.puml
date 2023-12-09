@@ -1,43 +1,44 @@
 @startmindmap
-title = Elasticity
+title =<i><b><u>Elasticity
+!theme hacker
 
-* Elasticity
-** Definition
-*** Ability to dynamically allocate and deallocate resources
-*** Maintain required quality of service (QoS)
-** Key Aspects
-*** Scalability
-**** Horizontal
-**** Vertical
-*** Auto-scaling
-**** Reactive scaling
-**** Proactive scaling
-*** Resilience
-**** Fault tolerance
-**** High availability
-*** Performance optimization
-**** Load balancing
-**** Caching
-**** Compression
-**** Sharding
-** Benefits
-*** Cost-effectiveness
-*** Improved QoS
-*** Higher availability and resilience
-*** Increased performance and efficiency
-** Challenges
-*** Complexity
-*** Performance overhead
-*** Compatibility issues
-*** Security concerns
-** Tools and Technologies
-*** Elastic Load Balancing (ELB)
-*** Auto Scaling
-*** Amazon EC2 Auto Scaling
-*** Kubernetes
-*** Istio
-*** Envoy
-*** Netflix Hystrix
-*** Apache Stratos
-*** Cloud Foundry
+*[#darkblue] <i>Elasticity
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <b><i><color #white><size:14>Ability to dynamically allocate and deallocate "resources" such as (RAM, CPU, containers, EC2-instances)
+***[#green] <b><i><color #white><size:14>Maintain required quality of service (QoS)
+**[#lightblue] <i><color #blac><size:14>Key Aspects
+***[#green] <b><i><color #white><size:14>Scalability
+****[#yellow] <i><color #black><size:14>Horizontal
+****[#yellow] <i><color #black><size:14>Vertical
+***[#green] <b><i><color #white><size:14>Auto-scaling
+****[#yellow] <i><color #black><size:14>Reactive scaling
+****[#yellow] <i><color #black><size:14>Proactive scaling
+***[#green] <b><i><color #white><size:14>Resilience
+****[#yellow] <i><color #black><size:14>Fault tolerance
+****[#yellow] <i><color #black><size:14>High availability
+***[#green] <b><i><color #white><size:14>Performance optimization
+****[#yellow] <i><color #black><size:14>Load balancing
+****[#yellow] <i><color #black><size:14>Caching
+****[#yellow] <i><color #black><size:14>Compression
+****[#yellow] <i><color #black><size:14>Sharding
+**[#lightblue] <i><color #blac><size:14>Benefits
+***[#green] <b><i><color #white><size:14>Cost-effectiveness
+***[#green] <b><i><color #white><size:14>Improved QoS
+***[#green] <b><i><color #white><size:14>Higher availability and resilience
+***[#green] <b><i><color #white><size:14>Increased performance and efficiency
+**[#lightblue] <i><color #blac><size:14>Challenges
+***[#green] <b><i><color #white><size:14>Complexity
+***[#green] <b><i><color #white><size:14>Performance overhead
+***[#green] <b><i><color #white><size:14>Compatibility issues
+***[#green] <b><i><color #white><size:14>Security concerns
+**[#lightblue] <i><color #blac><size:14>Tools and Technologies
+***[#green] <b><i><color #white><size:14>Elastic Load Balancing (ELB)
+***[#green] <b><i><color #white><size:14>Auto Scaling
+***[#green] <b><i><color #white><size:14>Amazon EC2 Auto Scaling
+***[#green] <b><i><color #white><size:14>Kubernetes
+***[#green] <b><i><color #white><size:14>Istio
+***[#green] <b><i><color #white><size:14>Envoy
+***[#green] <b><i><color #white><size:14>Netflix Hystrix
+***[#green] <b><i><color #white><size:14>Apache Stratos
+***[#green] <b><i><color #white><size:14>Cloud Foundry
 @endmindmap
