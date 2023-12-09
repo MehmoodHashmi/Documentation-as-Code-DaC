@@ -28,7 +28,7 @@ title = <b><i><u>Imperative vs Functional: Which one to Choose?
 ***[#green] <size:14><color #white><i> You tell **what** to do **but not** how to do it
 ***[#green] <b><size:14><color #white><i> example \n<img:images/img_2.png>
 
-**[#lightblue] <size:22><i>[[docs/3-programming-languages/Venkat-Subramaniam/Streams.puml Functional Style]]
+**[#lightblue] <size:22><i>[[docs/3-programming-languages/Venkat-Subramaniam/Streams.puml Functional Style\n(Streams)]]
 ***[#green] <b><size:18><color #white><i> Declarative Style + <color :darkorange>Higher Order Functions
 
 
