@@ -147,7 +147,7 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ***[#green] <i><color #white><size:14><b>SLAP
 ***[#green] <i><color #white><size:14><b>Compose Method Pattern
 ****[#gold] <i><color #black><size:14><b>Self documenting code
-**[#lightblue] <i><color #black><size:14>Don't violate the Open-Closed Principle (OCP)
+**[#lightblue] <i><color #black><size:14>Don't violate the \n<i><color #black><size:14>Open-Closed Principle (OCP)
 ***[#green] <i><color #white><size:14><b>"Software module" should be "open" for\n<i><color #white><size:14><b>"extension" but "closed" for "modification"
 ****[#gold] <i><color #black><size:14><b>Abstraction
 ****[#gold] <i><color #black><size:14><b>Polymorphism
@@ -161,7 +161,7 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#yellow] *<i><color #black><size:14><b>People with domain knowledge but no clue of Software design\n*<i><color #black><size:14>Too many in an organization
 ****[#yellow] *<i><color #black><size:14><b>People with no clue of domain knowledge but with knowledge the Software design\n*<i><color #black><size:14>Too many in an organization
 ****[#gold] *<i><color #black><size:18><b>People with domain knowledge & also knowledge of the Software design\n*<i><color #black><size:14>Very few in an organization
-**[#lightblue] <i><color #black><size:14>Keep in mind Liskov's Substitution Principle
+**[#lightblue] <i><color #black><size:14>Keep in mind \n<i><color #black><size:14>Liskov's Substitution Principle
 ***[#green] <i><color #white><b><size:14>Inheritance overused
 ****[#gold] *<i><color #black><size:14>Bad thing!
 ***[#green] <i><color #white><b><size:14>Inheritance should be used \n<i><color #white><b><size:14>only for substitutability
@@ -189,11 +189,37 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 <i><color #black><size:14>I would rather violate it, then violate myself & force to violate as well
 <i><color #black><size:14>the sin is in me I don't want you the part of sin as a user of my class
 ==<i><color #black><size:14><b><u>What if I don't had to violate it at all?==;
-**[#lightblue] <i><color #black><size:14>Decouple using the Dependency Inversion Principle
-**[#lightblue] <i><color #black><size:14>Keep "interfaces Cohesive" with "Interface Segregation Principle"
+**[#lightblue] <i><color #black><size:14>Decouple using the \n<i><color #black><size:14>Dependency Inversion Principle
+***[#yellow] <i><color #black><size:14>"Every single line of **code"** that **"uses"** the "**new** keyword" violates <b>"DIP".
+***[#green] <i><color #white><b><size:14>A "class" should not "depend" on "another class", they both should\n<i><color #white><b><size:14>'ve to "depend" on an "abstraction" (interface<color:lime>/abstract) class.
+****[#yellow] <i><color #black><size:14>lowers the coupling
+****[#yellow] <i><color #black><b><size:14>Use with caution
+****[#yellow] <i><color #black><size:14>**Interface/Abstract class** has its own drawback
+****[#yellow] <i><color #black><size:14>Use more **lambda expressions** as "implementors" of \n<i><color #black><size:14>the **interface/abstract classes** rather than using the \n<i><color #black><size:14>"anonymous inner classes" or "regular classes".
+**[#lightblue] <i><color #black><size:14>Keep "interfaces Cohesive" with \n<i><color #black><size:14>"Interface Segregation Principle"
+***[#green] <i><color #white><b><size:14>
+****[#yellow] <i><color #black><size:14>Really is **"cohesion", "Single Responsibility Principle" (SRP)** \n<i><color #black><size:14>but at the <b>interface-level.
 **[#lightblue] <i><color #black><size:14>When to apply these principles?
-**[#lightblue] <i><color #black><size:14>How to apply these principles?
+***[#green] <i><color #white><b><size:18>2-Phases \n<i><color #white><b><size:18>of Design:
+****[#yellow]:<i><color #black><size:14>**Strategic Design:** very high-level design.
+*<i><color #black><size:14>Gives "direction & ideas" <b>to go to.
+*<i><color #black><size:14>**SOLID, YAGNI, DRY, & other principles** are used **little bit** during <b>strategic design.;
+****[#yellow]:<i><color #black><size:14>**Tactical Design:** often low-level design,
+*<i><color #black><size:14>Paves the way to refine those "directions & ideas" into realities of the project
+*<i><color #black><size:14>**SOLID, YAGNI, DRY, & other principles** are used **a lot** during <b>tactical design.;
+***[#green] <i><color #white><b><size:18>How to apply these principles?
+****[#yellow] <i><color #black><size:14>**1-** Use as a way to discuss **"among developers",** sit down with "developers" & say \n<i><color #black><size:14>hey if we do this we may **violate LSP or OCP or DIP.** So apply <b>YAGNI & postpone
+****[#yellow]:<i><color #black><size:14>**2-** Use during <b>(TDD)
+==<i><color #black><size:14><b>How?==
+*<i><color #black><size:14>When start writing **Test cases**, ask "yourself" the following <b>questions:
+**<i><color #black><size:14>What does this **"test"** do?
+**<i><color #black><size:14>How does this "feels" to "use" this <b>object?
+**<i><color #black><size:14>What are the <b>consequences?
+***<i><color #black><size:14>Am I increasing coupling when I'm using this particular object?
+***<i><color #black><size:14>What is <b>"cohesion"?
+****<i><color #black><size:14>What is the **"responsibility"** of the "class" I'm <b>designing?
+****<i><color #black><size:14>If I **"use"** this particular **"code"**, am I going to **violate (OCP)** here?
+****<i><color #black><size:14>Should I really "use" **DIP** to gain access & **test** this <b>code? ;
 **[#lightblue] <i><color #black><size:14>Summary
-
 
 @endmindmap
