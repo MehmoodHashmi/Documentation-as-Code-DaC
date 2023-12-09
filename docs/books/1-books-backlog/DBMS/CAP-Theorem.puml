@@ -1,42 +1,42 @@
 @startmindmap
-title = Key Takeaways from the CAP Theorem
+title =<i><b><u> Key Takeaways from the CAP Theorem
 !theme hacker
 
-* **Key Takeaways from the CAP Theorem** \n<img:img_4.png>
-** Consistency
-*** All nodes see the same data at the same time
-*** **Examples:** ATM machine transactions, stock trades
-** Availability
-*** Every request receives a response, without guarantee that it contains the most recent version of the information
-*** **Examples:** Social media platforms, online shopping
-** Partition tolerance
-*** System continues to function in spite of network partitioning
-*** **Examples:** Cloud-based systems, distributed systems
-** Trade-offs
-*** Cannot simultaneously provide all three guarantees (consistency, availability, partition tolerance)
-*** Different applications require different trade-offs based on their requirements
-** CAP theorem is not the only consideration
-*** Other factors to consider include performance, scalability, reliability, and security
-*** Need to consider trade-offs based on the specific use case and requirements
+*[#darkblue] <i><color #white>Key Takeaways from the\n<i><color #white>CAP Theorem\n<img:img_4.png>
+**[#lightblue] <i><color #blac><size:14>Consistency
+***[#yellow] <i><color #black><size:14>All nodes see the same data at the same time
+***[#yellow] <i><color #black><size:14>**Examples:** ATM machine transactions, stock trades
+**[#lightblue] <i><color #blac><size:14>Availability
+***[#yellow] <i><color #black><size:14>Every request receives a response, without guarantee that it contains the most recent version of the information
+***[#yellow] <i><color #black><size:14>**Examples:** Social media platforms, online shopping
+**[#lightblue] <i><color #blac><size:14>Partition tolerance
+***[#yellow] <i><color #black><size:14>System continues to function in spite of network partitioning
+***[#yellow] <i><color #black><size:14>**Examples:** Cloud-based systems, distributed systems
+**[#lightblue] <i><color #blac><size:22>Trade-offs
+***[#yellow] <i><color #black><size:14>Cannot simultaneously provide all three guarantees (consistency, availability, partition tolerance)
+***[#darkorange] <i><color #black><size:32>Different applications require different trade-offs based on their requirements
+**[#lightblue] <i><color #blac><size:14>CAP theorem is not the only consideration
+***[#yellow] <i><color #black><size:14>Other factors to consider include performance, scalability, reliability, and security
+***[#yellow] <i><color #black><size:14>Need to consider trade-offs based on the specific use case and requirements
 
 
-* **CAP Theorem** \n<img:img_4.png>
-** Consistency
-*** Strong Consistency
-****[#yellow] ====<size:13>**Example:** Traditional RDBMS
-*** Weak Consistency
-****[#yellow] ====<size:13>**Example:** NoSQL systems
-** Availability
-*** **Example:** Distributed Cache
-** Partition Tolerance
-*** **Example:** Hadoop
+*[#darkblue] <i><color #white>CAP Theorem\n<img:img_4.png>
+**[#lightblue] <i><color #blac><size:14>Consistency
+***[#yellow] <i><color #black><size:14>Strong Consistency
+****[#gold] <i><color #black><size:13>**Example:** Traditional RDBMS
+***[#yellow] <i><color #black><size:14>Weak Consistency
+****[#gold] <i><color #black><size:13>**Example:** NoSQL systems
+**[#lightblue] <i><color #blac><size:14>Availability
+***[#yellow] <i><color #black><size:14>**Example:** Distributed Cache
+**[#lightblue] <i><color #blac><size:14>Partition Tolerance
+***[#yellow] <i><color #black><size:14>**Example:** Hadoop
 
 
-* **CAP Theorem** \n<img:img_4.png>
-** Consistency
-*** **Example:** Bank account balance should be updated immediately
-** Availability
-*** **Example:** E-commerce site should be available 24/7
-** Partition tolerance
-*** **Example:** Network failure should not bring the system down
+*[#darkblue] <i><color #white>CAP Theorem\n<img:img_4.png>
+**[#lightblue] <i><color #blac><size:14>Consistency
+***[#yellow] <i><color #black><size:14>**Example:** Bank account balance should be updated immediately
+**[#lightblue] <i><color #blac><size:14>Availability
+***[#yellow] <i><color #black><size:14>**Example:** E-commerce site should be available 24/7
+**[#lightblue] <i><color #blac><size:14>Partition tolerance
+***[#yellow] <i><color #black><size:14>**Example:** Network failure should not bring the system down
 @endmindmap

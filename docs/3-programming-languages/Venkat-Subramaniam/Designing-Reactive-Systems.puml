@@ -90,7 +90,7 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 ****[#yellow] <i><color #black><size:14>If you want to build a <b>"scalable system"</b> then do not build it without <b>"Circuit Breakers"</b>
 ***[#green] <i><color #white><size:14><b>Improved performance through parallelization
 ****[#yellow] <i><color #black><size:14>Using <b>parallel collections & threads\n*<i><color #black><size:14>Always using **multiple-cores** is not the <b>right answer!
-***[#green] <i><color #white><size:14><b>CAP Theorem
+***[#green] <i><color #white><size:22><b>[[docs/books/1-books-backlog/DBMS/CAP-Theorem.puml CAP Theorem]]
 ****[#yellow] <i><color #black><size:14>has been **proven** & can't be <b>challenged!
 ****[#yellow] <i><color #black><size:14>Says you can only provide only <b>two of the following at any given instant of time:\n#<b><i><color #black><size:14>Consistency ("eventual consistency" is usually good option)\n#<b><i><color #black><size:14>Availability\n#<b><i><color #black><size:14>Partition tolerance
 ****[#yellow] <i><color #black><size:14>You 've to figure out what is good for the <b>business
