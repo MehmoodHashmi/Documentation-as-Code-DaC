@@ -6,8 +6,8 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 
 *[#darkblue] <i>Core Software design \n<i>principles for software developers
 **[#lightblue] <i><color #black><size:14>Introduction
-***[#green]:<i><color #white><size:14>Writing code is easy. Writing good quality code is an entirely different story. How can we measure quality of design? How do we know we're doing the
-<i><color #white><size:14>right set of things that will leads us to a better design?;
+***[#green]:<i><color #white><size:14>**Writing code is easy. Writing good quality code is an entirely different story.** How can we measure quality of design? How do we know we're doing the
+<i><color #white><size:14>right set of things that will leads us to a <b>better design?;
 
 **[#lightblue] <i><color #black><size:14>What is a good design?
 ***[#green] <i><color #white><size:14><b>Usually my thinking is
@@ -17,8 +17,8 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#yellow] <i><color #black><size:14>When **cost** of "changing the design" is <b>minimum
 ****[#yellow] <i><color #black><size:14>Change the design along the way
 ****[#yellow] <i><color #black><size:14>Almost impossible to get **design** right the first time (in one sitting)
-****[#yellow] <i><color #black><size:14>Software is never written, it is always <b>rewritten.
-*****[#gold] <i><color #black><size:14>Because any software that is relevant has to change
+****[#yellow] <i><color #black><size:14>Software is never **written,** it is always <b>rewritten.
+*****[#gold] <i><color #black><size:14>Because any "software" that is **"relevant"** has to <b>change\n*<i><color #black><size:14>Otherwise, it means your **"client or business"** has become <b>bankrupt
 **[#lightblue] <i><color #black><size:14>How to evaluate quality\n<i><color #black><size:14>of good design?
 ***[#green] <i><color #white><size:14><b>First step is
 ****[#yellow] <i><color #black><size:14>Let go of the <b>ego.
