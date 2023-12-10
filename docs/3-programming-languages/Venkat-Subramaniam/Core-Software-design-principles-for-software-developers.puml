@@ -94,8 +94,10 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#yellow] <i><color #black><size:14><b>"Good design" has "high cohesion" & "low Coupling"
 ***[#green] <i><color #white><b><size:14><img:images/img_42.png>
 ****[#yellow] <i><color #black><b><size:14>In general:
-*****[#darkorange] <i><color #black><size:14>**Logical design** (classes & packages) impacts <color #white><b>"extensibility"
-*****[#darkorange] <i><color #black><size:14>**Physical design** (.jar) impacts <color #white><b>"re-usability & usability"
+*****[#darkorange]:<i><color #black><size:14>**Logical design** (classes & packages) impacts <color #white><b>"extensibility"
+*<i><color #black><size:14>**Methods:** "functions" inside "classes", & classes inside <b>source files
+*<i><color #black><size:14>**Modules:** "classes & source files" inside <b>folders;
+*****[#darkorange] <i><color #black><size:14>**Physical design** (.jar) impacts <color #white><b>"re-usability & usability"\n**<i><color #black><size:14>**Components:** "folders" inside <b>.Jar file\n**<i><color #black><size:14>**.War:** many ".Jar" inside <b>.war file
 **[#lightblue] <i><color #black><size:14>Keep it DRY!
 ***[#green] <i><color #white><b><size:14>Don't Repeat yourself
 ****[#yellow]:<i><color #black><size:14>Don't duplicate <b>code
