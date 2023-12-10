@@ -22,15 +22,15 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ****[#yellow] <i><color #black><size:14>Learning new <b>"programming Paradigm"</b> is hard <b>(takes more effort)
 ***[#green] <b><i><color #white><size:22>Paradigm Shift
 ****[#yellow] <i><color #black><size:14><b>1st paradigm shift:</b> Procedural programming or <b>"algorithmic decomposition" of code (modules)
-*****[#gold] *<i><color #black><size:14><b>Time & Space complexity analysis</b>\n*<i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/Goal-of-the-data-structures-is-no-incidental-data-structures.puml Data-Structure]] + [[docs/books/1-books-backlog/data-structure-and-algorithm/Algorithms-Four-Principles-of-optimality.puml Algorithm]] = <color #red>Program</b>\n*<i><color #black><size:14><b>Good for <u>"decomposition"</b>\n*<i><color #black><size:14><b>"Pointer" is <u>"in-direction"</b>
+*****[#gold] *<i><color #black><size:14><b>Time & Space complexity analysis</b>\n*<i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/Goal-of-the-data-structures-is-no-incidental-data-structures.puml Data-Structure]] + [[docs/books/1-books-backlog/data-structure-and-algorithm/Algorithms-Four-Principles-of-optimality.puml Algorithm]] = <color #red>Program</b>\n*<i><color #black><size:14><b>Good for <u>"decomposition"</b>\n*<i><color #black><size:14><b>"Pointer" is <u>"in-direction"</b>\n*<i><color #black><size:14><b>"Diagramming:" using <u>"flowchart"</b>
 ****[#yellow] <i><color #black><size:14><b>2nd paradigm shift:</b> Object Oriented Programming or <b>"object decomposition" of code (modules)
-*****[#yellow] <i><color #black><size:14><b>OOA&D</b>\n*<i><color #black><size:14><b>Objects + Messages = <color #red>Program\n*<i><color #black><size:14><b>Good for "modeling"</b>\n*<i><color #black><size:14><b>"Runtime-Polymorphisim" is <u>"in-direction"</b>
+*****[#yellow] <i><color #black><size:14><b>OOA&D</b>\n*<i><color #black><size:14><b>Objects + Messages = <color #red>Program\n*<i><color #black><size:14><b>Good for "modeling"</b>\n*<i><color #black><size:14><b>"Runtime-Polymorphisim" is <u>"in-direction"</b>\n*<i><color #black><size:14><b>"Diagramming:" using <u>"UML"</b>
 ******[#gold] <i><color #black><size:14><img:images/img_33.png>
 ****[#yellow] <i><color #black><size:14><b>3rd paradigm shift:</b> Distributed Object Computing or Common Object Request Broker Architecture <b>(CORBA)
 *****[#yellow] <i><color #black><size:14>Remote computing
 ****[#darkorange] <i><color #black><size:15><b>4rth paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Asynchronous-Programming-in-Java-Options-to-Choose-from.puml Asynchronous Programming]]\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Asynchronous is non-blocking]] click gif\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Multi-threading vs Multi-processing programming ]]
 *****[#yellow]:<i><color #black><size:14><b>It took me more time to understand it. Why? Because</b>
-* <color #black><size:14><i>I was not satisfied writing another <b>"callback"</b> in & go home
+* <color #black><size:14><i>I was not satisfied writing another <b>"callback"</b> & go home
 * <color #black><size:14><i>I wanted to understand the following:
 ** <color #black><size:14><i> <b>How these "callback" behave</b>
 ** <color #black><size:14><i> <b>How these "callback" work</b>
@@ -44,6 +44,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 *****[#yellow]:*<i><color #green><size:14><b>Lambda (->) is indirection
 *<i><color #green><size:14><b> (function-1)(function-2) = <color #red>Program
 **<i><color #green><size:14><b>"FP" is good for "reasoning"
+*<i><color #black><size:14><b>"Diagramming:" using <u>"Category theory",</u> it is equivalent of "UML"</b>
 <i><color #black><size:14>People said it's very easy but it was not. **Why?** Because it was really hard
 <i><color #black><size:14>to think a different way than what I'm used to thinking in <b>imperative style
 <img:images/img_29.png>;
