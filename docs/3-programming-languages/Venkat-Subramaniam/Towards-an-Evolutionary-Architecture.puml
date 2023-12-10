@@ -102,7 +102,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ***[#yellow]:<i><color #black><size:14>There is nothing wrong with **outside-in or inside-out approach** so long as you
 <i><color #black><size:14>**decouple** your **business rules** from them.
 ==<i><color #black><size:16>**Inside-out:**==
-*<i><color #black><size:16>**Inside-out:** approach (1st analyze & design entities & use cases layer)
+*<i><color #black><size:16>**Inside-out:** approach is (1st <u>**analyze & design entities & use cases layer**)
 <i><color #brown><b><size:16>1- Entities
 <i><color #red><b><size:16>2- Use Cases
 ==<i><color #black><size:16>**Outside-in:**==
@@ -111,7 +111,9 @@ title =<i><b><u>Towards an Evolutionary Architecture
 **<i><color #green><b><size:14>E.g. (SQL or NoSQL)
 **<i><color #green><b><size:14>E.g. (CLI or GUI)
 **<i><color #green><b><size:14>E.g. (Centralized or Distributed)
-**<i><color #green><b><size:14>E.g. (On-premise or cloud or multi-cloud) etc.;
+**<i><color #green><b><size:14>E.g. (On-premise or cloud or multi-cloud) etc.
+====
+*<i><color #black><b><size:14>In reality a mix of both "inside-out & outside-in" is used.;
 **[#lightblue] <i><color #black><size:14>Summary
 
 @endmindmap
