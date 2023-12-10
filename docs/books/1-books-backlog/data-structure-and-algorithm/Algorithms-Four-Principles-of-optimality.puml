@@ -12,9 +12,9 @@ skinparam arrow {
   Thickness 0.3
 }
 
-title =__ Four Principles of Optimality__
+title =<b><i><u> Four Principles of Optimality
 
-*:In this PlantUML mind map script, the mind map diagram focuses on the **four principles of optimality:**
+*:<b>The four principles of optimality:
 
   **Principle of** <color #pink>**Optimality:**</color> This principle states that **sub-problems should exhibit** the **optimal substructure property,** meaning that the optimal
   solution to a problem contains optimal solutions to its sub-problems. It enables the use of dynamic programming and divide-and-conquer algorithms.
@@ -29,7 +29,7 @@ title =__ Four Principles of Optimality__
   **Principle of** <color #pink>**State Transition:**</color> This principle highlights that problem-solving can be represented as a state transition diagram. It
   involves transitioning from one state to another by applying operators or actions. State transition diagrams aid in understanding the
   problem structure and designing efficient algorithms.;
-
+** <img:img_36.png>
 * Four Principles of **Optimality**
 ** Principle of **Optimality**
 *** Sub-problems should exhibit the **optimal substructure property**.
