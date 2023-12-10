@@ -16,10 +16,10 @@ title =<i><u>Cloud Native\n<img:images/img.png>
 **[#lightblue] <i><size:14>Containerization
 ***[#yellow] <i><size:14>Applications are packaged as containers, which provide a lightweight and portable runtime environment
 ***[#yellow] <i><size:14>Containers can be easily deployed, scaled, and managed across different environments
-**[#lightblue] <i><size:14>Infrastructure as Code
+**[#lightblue] <i><size:14>[[docs/3-devops/devops-plantuml-mindmap/advance-infrastructure-as-code.puml Infrastructure as Code]]
 ***[#yellow] <i><size:14>Infrastructure is defined and managed using code, which makes it easier to automate and manage at scale
 ***[#yellow] <i><size:14>Changes to infrastructure can be version-controlled and deployed using automated pipelines
-**[#lightblue] <i><size:14>DevOps
+**[#lightblue] <i><size:14>[[docs/3-devops/devops-plantuml-mindmap/DevOps.puml DevOps]]
 ***[#yellow] <i><size:14>Culture and practices that emphasize collaboration and automation between development and operations teams
 ***[#yellow] <i><size:14>DevOps enables teams to deliver software faster, with higher quality, and more reliably
 
