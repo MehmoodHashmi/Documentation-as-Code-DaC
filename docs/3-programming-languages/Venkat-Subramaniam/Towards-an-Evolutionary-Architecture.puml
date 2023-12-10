@@ -64,7 +64,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#yellow] <i><color #black><size:14><b>E.g.</b> Databases (SQL or NoSQL) etc.
 ***[#yellow] <i><color #black><size:14>Like **"Rewrite"** java app in go-lang or C# or python, this is difficult, time consuming & hard to <b>reverse.
 ***[#yellow] <i><color #black><size:14>The more you are couple to a decision the harder it is to reverse, introduce **indirection** to increase <b>reversibility.
-***[#yellow] <i><color #black><size:14>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.\n*<b><i><color #black><size:14>Why don't we postpone?\n**<b><i><color #green><size:14>Because we are afraid!\n*<b><i><color #black><size:14>If you want to "postpone" we need to 've good "automated testing". (TDD)
+***[#yellow] <i><color #black><size:14>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.\n*<b><i><color #black><size:14>Why don't we postpone?\n**<b><i><color #green><size:14>Because we are afraid!\n*<b><i><color #black><size:14>If you want to "postpone" we need to 've good "automated testing". (TDD)\n<img:images/img_43.png>
 ****[#gold] <i><color #black><size:14><img:images/img_35.png>
 ***[#yellow] <i><color #black><size:14>Database decisions, libraries and frameworks decisions etc.
 ***[#yellow] <i><color #black><size:14>**Prototyping** is helpful
