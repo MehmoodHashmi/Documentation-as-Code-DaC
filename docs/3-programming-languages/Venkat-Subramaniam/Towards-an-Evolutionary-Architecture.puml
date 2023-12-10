@@ -99,7 +99,15 @@ title =<i><b><u>Towards an Evolutionary Architecture
 **[#lightblue] <i><color #black><size:18>Minimize libraries & frameworks\n<img:images/img_31.png><img:images/img_34.png>
 ***[#yellow] <i><color #black><size:14>in the system, otherwise it is "infatuation" with the "technology"
 ***[#yellow] <i><color #black><size:14>Don't **build** what you can **buy/download.** Don't **buy/download** what you don't <b>need!
-***[#yellow] <i><color #black><size:14>There is nothing wrong with **outside-in or inside-out approach** so long as you \n<i><color #black><size:14>**decouple** your **business rules*** from them.
+***[#yellow]:<i><color #black><size:14>There is nothing wrong with **outside-in or inside-out approach** so long as you
+<i><color #black><size:14>**decouple** your **business rules** from them.
+==<i><color #black><size:16>**Inside-out:**==
+*<i><color #black><size:16>**Inside-out:** approach (1st analyze & design entities & use cases layer)
+<i><color #brown><b><size:16>1- Entities
+<i><color #red><b><size:16>2- Use Cases
+==<i><color #black><size:16>**Outside-in:**==
+*<i><color #black><size:16>**Outside-in:** approach (1st select right tools for app & integration b/w components)
+<i><color #green><b><size:15>4- Outer most layer (Databases, Devices, External interfaces, Web, UI/UX etc.);
 **[#lightblue] <i><color #black><size:14>Summary
 
 @endmindmap
