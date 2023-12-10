@@ -1,0 +1,48 @@
+@startmindmap
+title =<b><i><u>Logic Programming
+!theme hacker
+
+*[#darkblue] <i>Logic Programming vs.\n<i>Machine Learning
+**[#lightblue] <i>Introduction
+***[#green] <size:14><color #white><i>**Logic programming and machine learning** are **"distinct paradigms"** used in "computer science" and have different "approaches" to "problem-solving".
+
+**[#lightblue] <i>Logic Programming Style
+***[#green] <size:14><color #white><i><b>Approach
+****[#yellow] <size:14><color #black><i>revolves around a declarative programming paradigm, where the focus is on describing a problem domain in terms of logical rules and relations \n<size:14><color #black><i>rather than focusing on the sequence of steps to solve it.
+***[#green] <b><size:14><color #white><i>Representational Basis
+****[#yellow] <size:14><color #black><i>Utilizes logical inference and rule-based reasoning. <b>Popular languages include "Prolog and Datalog."
+**[#lightblue] <i>Purpose
+***[#green] <b><size:14><color #white><i>Expert systems
+****[#yellow] <size:14><color #black><i>Ideal for developing expert systems that rely on rules and facts to make inferences or solve problems in specific domains.
+***[#green] <b><size:14><color #white><i>Rule based reasoning
+****[#yellow] <size:14><color #black><i>Suitable for applications requiring rule-based decision making or knowledge representation.
+***[#green] <b><size:14><color #white><i>Symbolic reasoning
+****[#yellow] <size:14><color #black><i>Well-suited for problems with symbolic or declarative nature, such as natural language processing or knowledge representation.
+**[#lightblue] <i>Machine Learning
+***[#green] <size:14><color #white><i><b>Approach
+****[#yellow] <size:14><color #black><i>involves **training models** on **"data"** to make predictions, identify patterns, or perform tasks without explicit programming for each step.
+***[#green] <b><size:14><color #white><i>Representational Basis
+****[#yellow] <size:14><color #black><i>Utilizes "algorithms" that learn from "data" and improve over time through experience. \n*<size:14><color #black><i>Includes <b>supervised, unsupervised, and reinforcement learning.
+**[#lightblue] <i>Purpose
+***[#green] <b><size:14><color #white><i>Pattern Recognition
+****[#yellow] <size:14><color #black><i>Excellent for tasks involving pattern recognition, classification, regression, clustering, etc.
+***[#green] <b><size:14><color #white><i>Prediction
+****[#yellow] <size:14><color #black><i>Used to predict outcomes based on historical data or patterns identified in data.
+***[#green] <b><size:14><color #white><i>Optimization & Decision Making
+****[#yellow] <size:14><color #black><i>Helpful in optimizing processes, making decisions, and **discovering insights** from <b>large datasets.
+
+**[#lightblue] <i>Differences & Purposes
+***[#green] <size:14><color #white><i><b>Approach
+****[#yellow] <size:14><color #black><i>**Logic Programming:** relies on explicit rules and logical inference.
+****[#yellow] <size:14><color #black><i>**Machine Learning:** focuses on learning patterns and making predictions from data.
+***[#green] <b><size:14><color #white><i>Applications
+****[#yellow] <size:14><color #black><i>**Logic Programming:** is good for problems with clear rules or symbolic reasoning.
+****[#yellow] <size:14><color #black><i>**Machine Learning:** is well-suited for tasks involving **"pattern recognition, prediction, and optimization"** from <b>data.
+***[#green] <b><size:14><color #white><i>Data Dependency
+****[#yellow] <size:14><color #black><i>**Logic Programming:** often "relies" on <b>pre-defined rules and facts.
+****[#yellow] <size:14><color #black><i>**Machine Learning:** **"learns from data"** and "improves with experience".
+**[#lightblue] <i>Summary
+***[#yellow] <size:14><color #black><i>Both paradigms have their strengths and weaknesses, making them suitable for different types of problems.
+***[#yellow] <size:14><color #black><i>**Logic programming:** excels in scenarios where clear rules & logical reasoning are essential.
+***[#yellow] <size:14><color #black><i>**Machine learning:** shines in tasks involving learning patterns or predictions from data, especially in scenarios where the rules are  not explicitly known or are hard to define.
+@endmindmap
