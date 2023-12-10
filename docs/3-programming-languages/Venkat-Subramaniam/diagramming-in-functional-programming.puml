@@ -1,0 +1,20 @@
+@startmindmap
+title =<b><i><u>Diagramming in functional programming
+!theme hacker
+
+*[#darkblue] ==<color #white><i>Diagramming in \n<color #white><i>functional programming
+**[#lightblue] <i>Introduction
+***[#green] <size:14><color #white><i>**UML** is not only **class diagram.** Most of the **other diagram types (use case, activity, sequence)** are perfectly applicable to a <b>purely functional programming style.
+**[#lightblue] <i>Diagramming
+***[#green] <size:14><color #white><i><b>UML in functional programming
+****[#yellow] <size:14><color #black><i>Functional programmers 've their own version of UML, it is called <b>category theory.\n*<size:14><color #black><i>There is certain truth to this, but it is meant to be read with a <b>touch of humor.
+***[#green] <size:14><color #white><i><b>Writing down "types"
+****[#yellow] <size:14><color #black><i>Functional programmers generally do not 've a lot of use for diagrams.
+****[#yellow] <size:14><color #black><i>Many Functional programmers (but not all) find that **writing down "types"** is a good way to "encapsulate design relationships" that "OO programmers" put into <b>UML diagrams.
+***[#green] <size:14><color #white><i><b>Mutable state
+****[#yellow] <size:14><color #black><i>Because mutable state is rare in functional programs, there is no mutable "objects", so it is not usually useful or necessary to diagram relationships among them.
+****[#yellow] <size:14><color #black><i>While one function might call another, this property is usually not important to the overall design of a system but only to the implementation of the function doing the calling.
+****[#yellow] <size:14><color #black><i>If you are feeling  strong need to diagram a **"functional program"** then use a **"concept-map or mindmap"** in which **"types or functions"** play the "role" of <b>concepts.
+
+@endmindmap
+
