@@ -71,10 +71,10 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ***[#yellow] <i><color #black><size:14>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
 **[#lightblue] <i><color #black><size:14>YAGNI
 **[#lightblue] <i><color #black><size:20>What about <color #white>"extensibility"?
-***[#green] <i><color #white><b><size:14>Two things you need to make software extensible.
+***[#green] <i><color #white><b><size:14>Two things you need to \n<i><color #white><b><size:14>make software extensible.
 ****[#yellow] *<i><color #black><size:14><b>Domain Knowledge
 ****[#yellow] *<i><color #black><size:14><b>Knowledge of software design & concerns
-***[#green] <i><color #white><b><size:14>Three Kinds of people in an organization
+***[#green] <i><color #white><b><size:14>Three Kinds of people \n<i><color #white><b><size:14>in an organization
 ****[#yellow] *<i><color #black><size:14><b>People with domain knowledge but no clue of Software design\n*<i><color #black><size:14>Too many in an organization
 ****[#yellow] *<i><color #black><size:14><b>People with no clue of domain knowledge but with knowledge the Software design\n*<i><color #black><size:14>Too many in an organization
 ****[#gold] *<i><color #black><size:18><b>People with domain knowledge & also knowledge of the Software design\n*<i><color #black><size:14>Very few in an organization
