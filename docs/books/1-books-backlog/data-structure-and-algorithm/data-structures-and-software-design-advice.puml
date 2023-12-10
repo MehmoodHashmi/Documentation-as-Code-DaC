@@ -1,9 +1,9 @@
 @startmindmap
-title =__// Data Structures & Software Design advice "UNIX O/S" book cathedral & bazaar//__
-
+title =<b><i><u>Data Structures & Software Design advice book ("UNIX O/S" book cathedral & bazaar)
+* <b><i><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/Goal-of-the-data-structures-is-no-incidental-data-structures.puml Goal: of the data structures is no "incidental data structures"]]
 *:<img:images/img_37.png>
 <img:images/img_38.png>
-= <size:26>__//Fold "knowledge" into "data structure", so program logic can be stupid and robust//__
+= <size:23><i>Fold "knowledge" into "data structure", so program logic can be stupid and robust
 <img:images/img_39.png>;
 
 @endmindmap

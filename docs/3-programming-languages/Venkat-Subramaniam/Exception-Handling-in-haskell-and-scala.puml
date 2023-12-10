@@ -37,6 +37,8 @@ title =<i><b><u>Exception Handling in Functional Programming <color #red>(Haskel
 ****[#yellow] <i><color #black><size:14>**Option Monad:** Handles absence of values without null.
 ****[#yellow] <i><color #black><size:14>**Either Monad:** Manages success or failure computations.
 ****[#yellow] <i><color #black><size:14>**Error Monad:** Handles errors in a controlled computational context.
+****[#darkorange] <b><i><color #black><size:14>Advance & Extra "Category Theory" video lectures
+****[#darkorange] <b><i><color #black><size:14>Advance & Extra book "Structure & interpretation of Computer Programs" & video lectures "MIT"
 **[#lightblue] <i><color #blac><size:14>Advantages
 ***[#green] <b><i><color #white><size:14>Predictability
 ****[#yellow] <i><color #black><size:14>Encourages explicit error handling, making code more predictable.
