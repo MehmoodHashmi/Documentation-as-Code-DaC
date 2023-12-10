@@ -101,6 +101,11 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 *****[#darkorange]:<i><color #black><size:14>**Physical design** (.jar) impacts <color #white><b>"re-usability & usability"
 ====
 *<i><color #black><size:14>**Components:** "folders" inside a <b>.Jar file
+**<i><color #black><size:14>**Components "Classification":**
+##<i><color #green><size:14><b>Compile time,
+##<i><color #green><size:14><b>Some exist only at link time,
+##<i><color #green><size:14><b>Some exist only at runtime; &
+##<i><color #green><size:14><b>Some exist at more than one time.
 *<i><color #black><size:14>**.War:** many ".Jar" inside a <b>.war file;
 
 **[#lightblue] <i><color #black><size:14>Keep it DRY!
