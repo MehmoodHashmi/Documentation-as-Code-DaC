@@ -98,7 +98,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#darkorange] <i><color #black><size:18>**Physical design** (.jar) impacts <color #white><b>"re-usability & usability"
 **[#lightblue] <i><color #black><size:18>Minimize libraries & frameworks\n<img:images/img_31.png><img:images/img_34.png>
 ***[#yellow] <i><color #black><size:14>in the system, otherwise it is "infatuation" with the "technology"
-***[#yellow] <i><color #black><size:14>Don't **build** what you can **buy.** Don't **buy/download** what you don't <b>need!
+***[#yellow] <i><color #black><size:14>Don't **build** what you can **buy/download.** Don't **buy/download** what you don't <b>need!
 ***[#yellow] <i><color #black><size:14>There is nothing wrong with **outside-in or inside-out approach** so long as you \n<i><color #black><size:14>**decouple** your **business rules*** from them.
 **[#lightblue] <i><color #black><size:14>Summary
 
