@@ -107,7 +107,11 @@ title =<i><b><u>Towards an Evolutionary Architecture
 <i><color #red><b><size:16>2- Use Cases
 ==<i><color #black><size:16>**Outside-in:**==
 *<i><color #black><size:16>**Outside-in:** approach (1st select right tools for app & integration b/w components)
-<i><color #green><b><size:15>4- Outer most layer (Databases, Devices, External interfaces, Web, UI/UX etc.);
+<i><color #green><b><size:15>4- Outer most layer (Databases, Devices, External interfaces, Web, UI/UX etc.)
+**<i><color #green><b><size:14>E.g. (SQL or NoSQL)
+**<i><color #green><b><size:14>E.g. (CLI or GUI)
+**<i><color #green><b><size:14>E.g. (Centralized or Distributed)
+**<i><color #green><b><size:14>E.g. (On-premise or cloud or multi-cloud) etc.;
 **[#lightblue] <i><color #black><size:14>Summary
 
 @endmindmap
