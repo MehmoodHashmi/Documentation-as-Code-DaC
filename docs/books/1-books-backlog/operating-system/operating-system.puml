@@ -1,31 +1,50 @@
 @startmindmap
-title =//__Operating Systems__//
+title =<b><i>Operating Systems\n<img:images/img_11.png> <img:images/img_3.png>
 !theme hacker
 
 *[#darkblue] <color #white><i><size:14> Introduction
 **[#lightblue] <b><color #black><i><size:14>Definition of an Operating System
 **[#lightblue] <b><color #black><i><size:14>Evolution of Operating Systems
 **[#lightblue] <b><color #black><i><size:14>Functions of an Operating System
-*[#darkblue] <color #white><i><size:14> Processes and Threads
+*[#darkblue] <color #white><i><size:42>Processes & Threads\n<img:images/img.png>
 **[#lightblue] <b><color #black><i><size:14>Process Management
-***[#green] <b><color #white><i><size:14>Process Scheduling
-***[#green] <b><color #white><i><size:14>Interprocess Communication
+***[#green] <b><color #white><i><size:24>Process Scheduling (algorithms):\n<img:images/img_2.png>
+****[#darkorange] <b><color #black><i><size:14>1- Preemptive Scheduling (algorithms):\n*<b><color #black><i><size:14>Resources <color #white>(CPU & RAM)</color> <size:14><color:black><i> are allocated to a "process" for a specified period of of time.
+****[#darkorange] <b><color #black><i><size:14>2- Non-Preemptive Scheduling (algorithms):\n*<b><color #black><i><size:14>Once <color #white>resources (CPU & RAM)</color> <size:14><color:black><i> are allocated to a "process", the "process" maintains \n<b><color #black><i><size:14>the "control" until it "completes or transitions" to a "waiting state".
+****[#yellow] <color #black><i><size:14><b>Round robin scheduling
+****[#yellow] <color #black><i><size:14><b>Priority Scheduling (H, M, L)
+****[#yellow] <color #black><i><size:14><b>Shortest remaining time
+****[#yellow] <color #black><i><size:14><b>FIFO
+****[#yellow] <color #black><i><size:14><b>Shortest job next
+****[#yellow] <color #black><i><size:14><b>Highest response ratio next
+****[#yellow] <color #black><i><size:14><b>Multi-Level feedback queue
+****[#yellow] <color #black><i><size:14><b>Round robin(rr) scheduling
+****[#yellow] <color #black><i><size:14><b>Preemptive priority cpu scheduling
+***[#green] <b><color #white><i><size:17>Interprocess Communication <b><color #white><i><size:14>(Two widely used methods:)\n<img:images/img_1.png>
+****[#yellow] <color #black><i><size:14>Shared Memory
+****[#yellow] <color #black><i><size:14>Message-Passing
+****[#yellow] <color #black><i><size:14><b>Other methods:
+*****[#darkorange] <b><color #black><i><size:14>Other methods: \n*<b><color #black><i><size:14>Semaphores\n*<b><color #black><i><size:14> Singals etc.
 ***[#green] <b><color #white><i><size:14>Process Synchronization
 **[#lightblue] <b><color #black><i><size:14>Thread Management
 ***[#green] <b><color #white><i><size:14>Thread Scheduling
 ***[#green] <b><color #white><i><size:14>Thread Synchronization
+***[#gold] <b><color #black><i><size:14>Thread Block Storage (TBS):
+****[#yellow] <color #black><i><size:14><b>is a data-structure, something like "Process Control Block"
 **[#lightblue] <b><color #black><i><size:14>Deadlock and Starvation
-*[#darkblue] <color #white><i><size:14> Memory Management
-**[#lightblue] <b><color #black><i><size:14>Memory Hierarchy
+*[#darkblue] <color #white><i><size:34>Memory Management\n<img:images/img_4.png>
+**[#lightblue] <b><color #black><i><size:24>Memory Hierarchy\n<img:images/img_10.png>
 **[#lightblue] <b><color #black><i><size:14>Address Binding
-**[#lightblue] <b><color #black><i><size:14>Memory Allocation
+***[#green] <b><color #white><i><size:14>Address Translation
+****[#yellow] <color #black><i><size:14><img:images/img_5.png>
+**[#lightblue] <b><color #black><i><size:34>Memory Allocation\n<img:images/img_9.png>
 ***[#green] <b><color #white><i><size:14>Static Allocation
 ***[#green] <b><color #white><i><size:14>Dynamic Allocation
 ****[#yellow] <color #black><i><size:14>First-Fit Algorithm
 ****[#yellow] <color #black><i><size:14>Best-Fit Algorithm
 ****[#yellow] <color #black><i><size:14>Worst-Fit Algorithm
 ****[#yellow] <color #black><i><size:14>Buddy Algorithm
-**[#lightblue] <b><color #black><i><size:14>Memory Paging
+**[#lightblue] <b><color #black><i><size:34>Memory Paging\n<img:images/img_6.png>
 ***[#green] <b><color #white><i><size:14>Page Replacement Algorithms
 ****[#yellow] <color #black><i><size:14>FIFO Algorithm
 ****[#yellow] <color #black><i><size:14>Optimal Algorithm
@@ -37,12 +56,12 @@ title =//__Operating Systems__//
 ****[#yellow] <color #black><i><size:14>Page Fault
 ****[#yellow] <color #black><i><size:14>Page Replacement
 ****[#yellow] <color #black><i><size:14>Page Replacement Algorithms
-*****[#yellow] <color #black><i><size:14>LRU Algorithm
-*****[#yellow] <color #black><i><size:14>Clock Algorithm
-*****[#yellow] <color #black><i><size:14>Second Chance Algorithm
-*****[#yellow] <color #black><i><size:14>NFU Algorithm
-*****[#yellow] <color #black><i><size:14>Aging Algorithm
-**[#lightblue] <b><color #black><i><size:14>Fragmentation
+*****[#gold] <color #black><i><size:14>LRU Algorithm
+*****[#gold] <color #black><i><size:14>Clock Algorithm
+*****[#gold] <color #black><i><size:14>Second Chance Algorithm
+*****[#gold] <color #black><i><size:14>NFU Algorithm
+*****[#gold] <color #black><i><size:14>Aging Algorithm
+**[#lightblue] <b><color #black><i><size:24>Fragmentation\n<img:images/img_7.png>\n\n<img:images/img_8.png>
 ***[#green] <b><color #white><i><size:14>External Fragmentation
 ***[#green] <b><color #white><i><size:14>Internal Fragmentation
 *[#darkblue] <color #white><i><size:14> File Systems
@@ -93,7 +112,7 @@ title =//__Operating Systems__//
 **[#lightblue] <b><color #black><i><size:18>Virtual Machines
 **[#lightblue] <b><color #black><i><size:18>Hypervisors
 **[#lightblue] <b><color #black><i><size:14>Emulation
-**[#lightblue] <b><color #black><i><size:18>Containerization
+**[#lightblue] <b><color #black><i><size:22>[[docs/3-devops/devops-plantuml-mindmap/Docker.puml Containerization]]
 *[#darkblue] <color #white><i><size:14> Types of Operating Systems
 **[#lightblue] <b><color #black><i><size:14>Batch Operating System
 **[#lightblue] <b><color #black><i><size:14>Time-Sharing Operating System

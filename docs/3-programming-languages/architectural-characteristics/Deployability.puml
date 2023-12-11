@@ -11,7 +11,7 @@ title = <i><u>Deploy-ability
 ***[#white] <i><size:14>Improves time-to-market
 **[#lime] <i>Factors Affecting Deploy-ability
 ***[#green] <color #white><i><size:14>Portability
-****[#yellow] <color #black><i><size:14> The ability of the system to run on different platforms and operating systems
+****[#yellow] <color #black><i><size:14> The ability of the system to run on different <b>platforms and operating systems
 ****[#yellow] <color #black><i><size:14> Achieved by using platform-independent technologies and standard protocols
 ***[#green] <color #white><i><size:14>**Configuration Management**
 ****[#yellow] <color #black><i><size:14> The ability of the system to be easily configured and customized for different environments

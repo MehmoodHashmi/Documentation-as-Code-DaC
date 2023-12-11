@@ -36,11 +36,12 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 *****[#gold] <i><color #black><size:14>In case of failure system restores itself
 ***[#yellow] <b><i><color #black><size:14>Dataflow & composition of events
 **[#lightblue] <i><color #blac><size:14>How does it work?
-***[#green] <i><color #white><size:14><b>Designing for elasticity
-***[#green] <i><color #white><size:14><b>Designing message-driven applications
-***[#green] <i><color #white><size:14><b>Providing responsiveness
+***[#green] <i><color #white><size:14><b>Designing for "elasticity"
+***[#green] <i><color #white><size:14><b>Designing "message-driven" applications
+***[#green] <i><color #white><size:14><b>Providing "responsiveness"
 ****[#yellow] <i><color #black><size:14><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:14>but by avoiding those tasks that <b>should not be done in the first place.
-***[#green] <i><color #white><size:14><b>Making it resilient
+*****[#darkorange] <i><color #black><size:14><b>E.g. don't do (Clean Architecture + DDD) for simple apps (system).\n<i><color #black><size:14>Instead simple **three layer architecture** is enough etc.
+***[#green] <i><color #white><size:14><b>Making it "resilient"
 ****[#yellow] <i><color #black><size:14>"Functional programming" and "exception handling" are "mutually exclusive"
 ****[#yellow] <i><color #black><size:14>Don't throw "exceptions" in "Functional programming" <b>deal with it down stream
 ****[#yellow] <i><color #black><size:14>Treat <b>"Errors"</b> as form of <b>"Data",</b> deal with it <b>down stream
@@ -70,8 +71,8 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 ****[#yellow] <i><color #black><size:14><b>Directly affects the scalability!
 ***[#green] <i><color #white><size:18><b>2- Sharding & replication
 ****[#yellow] <i><color #black><size:14>**Replication:** Avoid <b>Centralized Databases</b>. Why because it becomes a <b>bottleneck
-****[#yellow] <i><color #black><size:14>**Sharding:** Splitting the <b>Data</b> across **machines** so that you can support <b>multiple users
-****[#yellow] <i><color #black><size:14><b>Databases</b>
+****[#a] <i><color #black><size:14>**[[docs/books/1-books-backlog/DBMS/Sharding.puml Sharding:]]** Splitting the <b>Data</b> across **machines** so that you can support <b>multiple users
+****[#a] <i><color #black><size:14><b>[[docs/books/1-books-backlog/DBMS/Cardinality-vs-Multiplicity.puml Databases]]</b>
 ****[#yellow] <i><color #black><size:14>Both **sharding & replication** directly affects the <b>scalability!
 ***[#green] <i><color #white><size:18><b>3- Failure as first class citizen
 ****[#yellow] <i><color #black><size:14>make or keep system <b>resilient:\n*<i><color #black><size:14>Design for failure\n*<i><color #black><size:14>Test for failure
@@ -92,7 +93,7 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 ****[#yellow] <i><color #black><size:14>Using <b>parallel collections & threads\n*<i><color #black><size:14>Always using **multiple-cores** is not the <b>right answer!
 ***[#green] <i><color #white><size:22><b>[[docs/books/1-books-backlog/DBMS/CAP-Theorem.puml CAP Theorem]]
 ****[#yellow] <i><color #black><size:14>has been **proven** & can't be <b>challenged!
-****[#yellow] <i><color #black><size:14>Says you can only provide only <b>two of the following at any given instant of time:\n#<b><i><color #black><size:14>Consistency ("eventual consistency" is usually good option)\n#<b><i><color #black><size:14>Availability\n#<b><i><color #black><size:14>Partition tolerance
+****[#a] <i><color #black><size:14>Says you can only provide only <b>two of the following at any given instant of time:\n<b><i><color #black><size:14>[[docs/books/1-books-backlog/DBMS/ACID-vs-BASE.puml 1- Consistency ("eventual consistency" is usually good option)]]\n<b><i><color #black><size:14>2- Availability\n<b><i><color #black><size:14>3- Partition tolerance (data)
 ****[#yellow] <i><color #black><size:14>You 've to figure out what is good for the <b>business
 **[#lightblue] <i><color #blac><size:32>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]] click me
 @endmindmap

@@ -1,35 +1,35 @@
 @startmindmap
-title =__ ACID vs BASE__
+title = <b><i><u>ACID vs BASE
 !theme hacker
 
-* **ACID vs BASE**
-** **ACID**
-*** Definition
-****[#yellow] ====<size:13>Atomicity, Consistency, Isolation, Durability
-****[#yellow] ====<size:13>A set of properties that guarantee reliable processing of transactions.
-*** Key Characteristics
-****[#yellow] ====<size:13>Transactions are atomic and indivisible.
-****[#yellow] ====<size:13>Transactions maintain consistency of the database.
-****[#yellow] ====<size:13>Transactions are isolated from each other.
-****[#yellow] ====<size:13>Transactions are durable and will persist even if the system fails.
-*** Examples
-****[#yellow] ====<size:13>Bank transactions
-****[#yellow] ====<size:13>Flight reservation systems
-** **BASE**
-*** Definition
-****[#yellow] ====<size:13>Basically Available, Soft state, Eventually consistent
-****[#yellow] ====<size:13>A set of properties that allow for greater scalability and availability of distributed systems.
-*** Key Characteristics
-****[#yellow] ====<size:13>Systems prioritize availability over consistency.
-****[#yellow] ====<size:13>The system may experience temporary inconsistency but will eventually become consistent.
-****[#yellow] ====<size:13>The system is designed to be adaptable to changes in workload and usage.
-*** Examples
-****[#yellow] ====<size:13>Social media newsfeeds
-****[#yellow] ====<size:13>Recommendation systems
-** Comparison
-*** **ACID** focuses on data consistency and reliability, while **BASE** prioritizes availability and scalability.
-*** **ACID** transactions are immediate and guarantee consistency, while **BASE** systems may experience temporary inconsistency but eventually become consistent.
-*** **ACID** is best for systems that require high reliability and data consistency, while **BASE** is best for systems that require high availability and scalability.
-*** **ACID** is commonly used for transactional systems, while **BASE** is commonly used for non-transactional systems.
-*** **ACID** systems can be slower and less scalable than **BASE** systems.
+*[#darkblue] <i><color #white>ACID vs BASE
+**[#lightblue] <i><size:14><color #black>ACID
+***[#green] <b><i><size:14><color #white>Definition
+****[#yellow] <i><size:14><color #black>Atomicity, Consistency, Isolation, Durability
+****[#yellow] <i><size:14><color #black>A set of properties that guarantee reliable processing of transactions.
+***[#green] <b><i><size:14><color #white>Key Characteristics
+****[#yellow] <i><size:14><color #black>Transactions are atomic and indivisible.
+****[#yellow] <i><size:14><color #black>Transactions maintain consistency of the database.
+****[#yellow] <i><size:14><color #black>Transactions are isolated from each other.
+****[#yellow] <i><size:14><color #black>Transactions are durable and will persist even if the system fails.
+***[#green] <b><i><size:14><color #white>Examples
+****[#yellow] <i><size:14><color #black>Bank transactions
+****[#yellow] <i><size:14><color #black>Flight reservation systems
+**[#lightblue] <i><size:22><color #black>[[docs/books/1-books-backlog/DBMS/BASE.puml BASE]]
+***[#green] <b><i><size:14><color #white>Definition
+****[#yellow] <i><size:14><color #black>Basically Available, Soft state, Eventually consistent
+****[#yellow] <i><size:14><color #black>A set of properties that allow for greater scalability and availability of distributed systems.
+***[#green] <b><i><size:14><color #white>Key Characteristics
+****[#yellow] <i><size:14><color #black>Systems prioritize availability over consistency.
+****[#yellow] <i><size:14><color #black>The system may experience temporary inconsistency but will eventually become consistent.
+****[#yellow] <i><size:14><color #black>The system is designed to be adaptable to changes in workload and usage.
+***[#green] <b><i><size:14><color #white>Examples
+****[#yellow] <i><size:14><color #black>Social media newsfeeds
+****[#yellow] <i><size:14><color #black>Recommendation systems
+**[#lightblue] <i><size:14><color #black>Comparison
+***[#green] <i><size:18><color #white>**ACID** focuses on data consistency and reliability, while **BASE** prioritizes availability and scalability.
+***[#green] <i><size:18><color #white>**ACID** transactions are immediate and guarantee consistency, while **BASE** systems may experience temporary inconsistency but eventually become consistent.
+***[#green] <i><size:18><color #white>**ACID** is best for systems that require high reliability and data consistency, while **BASE** is best for systems that require high availability and scalability.
+***[#green] <i><size:18><color #white>**ACID** is commonly used for transactional systems, while **BASE** is commonly used for non-transactional systems.
+***[#green] <i><size:18><color #white>**ACID** systems can be slower and less scalable than **BASE** systems.
 @endmindmap

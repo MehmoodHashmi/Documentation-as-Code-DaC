@@ -1,6 +1,4 @@
 @startmindmap
-
-
 <style>
 rootNode {
     LineStyle 8.0;
@@ -25,11 +23,10 @@ arrow {
 }
 </style>
 
-
 title =<i><u><b>Advanced Operating Systems
 !theme hacker
 
-*[#darkblue] <i>Kernel Architecture
+*[#darkblue] <color #white><i>Kernel Architecture
 **[#lightblue] <color #black><i><size:14>Monolithic Kernel
 ***[#green] <color #white><i><size:14>Advantages
 ****[#yellow] <color #black><i><size:14>Fast Performance
@@ -60,17 +57,19 @@ title =<i><u><b>Advanced Operating Systems
 ****[#yellow] <color #black><i><size:14>Complexity
 ****[#yellow] <color #black><i><size:14>Overhead
 ****[#yellow] <color #black><i><size:14>Security Risks
-*[#darkblue] <i>Virtualization
+*[#darkblue] <color #white><i>Virtualization
 **[#lightblue] <color #black><i><size:14>Full Virtualization
 ***[#green] <color #white><i><size:14>Emulation
 ***[#green] <color #white><i><size:14>Hypervisor
 **[#lightblue] <color #black><i><size:14>Paravirtualization
 ***[#green] <color #white><i><size:14>Lightweight Virtualization
 ***[#green] <color #white><i><size:14>Hardware Assisted Virtualization
-**[#lightblue] <color #black><i><size:14>Containerization
+**[#lightblue] <color #black><i><size:22>Containerization
 ***[#green] <color #white><i><size:14>Container Engines
+****[#darkorange] <color #black><i><size:14><b>E.g [[docs/3-devops/devops-plantuml-mindmap/Docker.puml Docker]]
 ***[#green] <color #white><i><size:14>Container Orchestration
-*[#darkblue] <i>Concurrency
+****[#darkorange] <color #black><i><size:14><b>E.g [[docs/3-devops/images/kubernetes-components-mindmap.puml Kubernetes]]
+*[#darkblue] <color #white><i>Concurrency
 **[#lightblue] <color #black><i><size:14>Process Synchronization
 ***[#green] <color #white><i><size:14>Semaphores
 ***[#green] <color #white><i><size:14>Monitors
@@ -86,7 +85,7 @@ title =<i><u><b>Advanced Operating Systems
 ***[#green] <color #white><i><size:14>Lock-Based Protocols
 ***[#green] <color #white><i><size:14>Timestamp-Based Protocols
 ***[#green] <color #white><i><size:14>Validation-Based Protocols
-*[#darkblue] <i>File Systems
+*[#darkblue] <color #white><i>File Systems
 **[#lightblue] <color #black><i><size:14>Disk Layout
 ***[#green] <color #white><i><size:14>Partitioning
 ***[#green] <color #white><i><size:14>Formatting
@@ -102,7 +101,7 @@ title =<i><u><b>Advanced Operating Systems
 ***[#green] <color #white><i><size:14>Write-Back Journaling
 ***[#green] <color #white><i><size:14>Write-Through Journaling
 ***[#green] <color #white><i><size:14>Log-Structured File Systems
-*[#darkblue] <i>Memory Management
+*[#darkblue] <color #white><i>Memory Management
 **[#lightblue] <color #black><i><size:14>Memory Allocation
 ***[#green] <color #white><i><size:14>Static Allocation
 ***[#green] <color #white><i><size:14>Dynamic Allocation
@@ -116,7 +115,7 @@ title =<i><u><b>Advanced Operating Systems
 ***[#green] <color #white><i><size:14>Reference Counting
 ***[#green] <color #white><i><size:14>Mark-and-Sweep
 ***[#green] <color #white><i><size:14>Copying
-*[#darkblue] <i>Security
+*[#darkblue] <color #white><i>Security
 **[#lightblue] <color #black><i><size:14>Authentication
 ***[#green] <color #white><i><size:14>Password-Based Authentication
 ***[#green] <color #white><i><size:14>Token-Based Authentication

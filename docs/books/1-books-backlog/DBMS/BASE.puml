@@ -1,29 +1,28 @@
 @startmindmap
-title = BASE
+title =<b><i><u>BASE
 !theme hacker
 
-
-* BASE
-** Definition
-*** Basically Available, Soft state, Eventually consistent
-** Characteristics
-*** Emphasizes availability over consistency
-*** Tolerates eventual consistency instead of immediate consistency
-*** Provides more flexibility and scalability
-*** Is a complement to ACID, rather than a replacement
-** Components
-*** B - Basically Available
-****[#yellow] ====<size:13>Ensures availability, even when some nodes fail
-****[#yellow] ====<size:13>Serves incomplete data to users, instead of denying access
-*** S - Soft State
-****[#yellow] ====<size:13>State of the system may change over time, even without input
-****[#yellow] ====<size:13>Implies there may not be a consistent view of the data at all times
-*** E - Eventually Consistent
-****[#yellow] ====<size:13>Achieves consistency over time, rather than immediately
-****[#yellow] ====<size:13>Data may not be consistent during the process of updates
-** Example
-*** A shopping cart
-****[#yellow] ====<size:13>A user adds items to their cart on one node
-****[#yellow] ====<size:13>Before payment, the user goes to another node
-****[#yellow] ====<size:13>The user's cart is eventually consistent across both nodes
+*[#darkblue] <i><color #white>BASE
+**[#lightblue] <i><size:14><color #black>Definition
+***[#green] <i><size:14><color #white>Basically Available, Soft state, Eventually consistent
+**[#lightblue] <i><size:14><color #black>Characteristics
+***[#green] <i><size:14><color #white>Emphasizes availability over consistency
+***[#green] <i><size:14><color #white>Tolerates eventual consistency instead of immediate consistency
+***[#green] <i><size:14><color #white>Provides more flexibility and scalability
+***[#green] <i><size:22><color #white>Is a "complement" to **ACID,** rather than a <b>replacement
+**[#lightblue] <i><size:14><color #black>Components
+***[#green] <i><size:14><color #white><b>B - Basically Available
+****[#yellow] <i><size:14><color #black>Ensures availability, even when some nodes fail
+****[#yellow] <i><size:14><color #black>Serves incomplete data to users, instead of denying access
+***[#green] <i><size:14><color #white><b>S - Soft State
+****[#yellow] <i><size:14><color #black>State of the system may change over time, <b>even without input
+****[#yellow] <i><size:18><color #black>Implies there may not be a **"consistent view"** of the **"data"** at all times
+***[#green] <i><size:14><color #white><b>E - Eventually Consistent
+****[#yellow] <i><size:14><color #black>Achieves consistency over time, rather than immediately
+****[#yellow] <i><size:14><color #black>Data may not be consistent during the process of updates
+**[#lightblue] <i><size:14><color #black>Example
+***[#green] <i><size:14><color #white><b>A shopping cart
+****[#yellow] <i><size:14><color #black>A user adds items to their cart on one node
+****[#yellow] <i><size:14><color #black>Before payment, the user goes to another node
+****[#yellow] <i><size:14><color #black>The user's cart is eventually consistent across both nodes
 @endmindmap

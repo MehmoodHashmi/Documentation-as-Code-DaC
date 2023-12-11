@@ -28,7 +28,7 @@ title =<i><b><u>Resilient System
 ****[#yellow] <i><color #black><size:14>Equally distributing workloads across multiple resources.
 ***[#green] <b><i><color #white><size:14>Failover Mechanisms
 ****[#yellow] <i><color #black><size:14>Automatic switching to redundant systems upon failure detection.
-***[#green] <b><i><color #white><size:14>Circuit Breakers
+***[#green] <b><i><color #white><size:16>[[docs/3-programming-languages/Venkat-Subramaniam/Circuit-Breaker.puml Circuit Breakers]]
 ****[#yellow] <i><color #black><size:14>Mechanisms to prevent system overload during failure scenarios.
 **[#lightblue] <i><color #blac><size:14>Technologies & Patterns
 ***[#green] <b><i><color #white><size:14>Microservices Architecture

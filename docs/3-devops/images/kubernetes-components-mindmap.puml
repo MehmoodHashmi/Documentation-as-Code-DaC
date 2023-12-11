@@ -1,49 +1,49 @@
-@startmindmap
+@startwbs
+title = <b><u><i>Kubernetes Components
+!theme hacker
 
-title = __Kubernetes Components__
+*[#darkblue] <i><color #white>Kubernetes Components
+**[#lightblue] <i><color #black><size:14>Compute
+***[#green] <size:12><b><i><color #white>Pods\n<img:pod1.svg>
+****[#yellow] <b><i><color #black>Containers\n<img:docker.svg>
+****[#yellow] <b><i><color #black>Init Containers
+***[#green] <size:12><b><i><color #white>ReplicaSets\n<img:replica-set.svg>
+***[#green] <size:12><b><i><color #white>Deployments\n<img:deployment.svg>
+***[#green] <size:12><b><i><color #white>StatefulSets\n<img:stateful-set.svg>
+***[#green] <size:12><b><i><color #white>DaemonSets
+***[#green] <size:12><b><i><color #white>Jobs
+***[#green] <size:12><b><i><color #white>CronJobs
+***[#green] <size:12><b><i><color #white>Services\n<img:service.svg>
 
-* Kubernetes Components
-** Compute
-*** Pods \n<img:pod1.svg>
-**** Containers \n<img:docker.svg>
-**** Init Containers
-*** ReplicaSets \n<img:replica-set.svg>
-*** Deployments \n<img:deployment.svg>
-*** StatefulSets \n<img:stateful-set.svg>
-*** DaemonSets
-*** Jobs
-*** CronJobs
-*** Services \n<img:service.svg>
+**[#lightblue] <i><color #black><size:14>Storage
+***[#green] <size:12><b><i><color #white>Persistent Volumes (PV)
+***[#green] <size:12><b><i><color #white>Persistent Volume Claims (PVC)
+***[#green] <size:12><b><i><color #white>Storage Classes
+***[#green] <size:12><b><i><color #white>Volume Snapshots
+***[#green] <size:12><b><i><color #white>Volume Snapshots Restores
 
-** Storage
-*** Persistent Volumes (PV)
-*** Persistent Volume Claims (PVC)
-*** Storage Classes
-*** Volume Snapshots
-*** Volume Snapshots Restores
+**[#lightblue] <i><color #black><size:14>Database
+***[#green] <size:12><b><i><color #white>StatefulSets \n<img:stateful-set.svg>
+***[#green] <size:12><b><i><color #white>Operators \n*<size:12><b><i><color #white>(e.g., etcd Operator, MySQL Operator, etc.)
+***[#green] <size:12><b><i><color #white>Database as a Service (DBaaS) \n*<size:12><b><i><color #white>solutions (e.g., AWS RDS, Azure Database for MySQL, etc.)
 
-** Database
-*** StatefulSets \n<img:stateful-set.svg>
-*** Operators (e.g., etcd Operator, MySQL Operator, etc.)
-*** Database as a Service (DBaaS) solutions (e.g., AWS RDS, Azure Database for MySQL, etc.)
+**[#lightblue] <i><color #black><size:14>Networking
+***[#green] <size:12><b><i><color #white>Services \n<img:service.svg>
+***[#green] <size:12><b><i><color #white>Ingress Controllers
+***[#green] <size:12><b><i><color #white>Load Balancers
+***[#green] <size:12><b><i><color #white>Network Policies
+***[#green] <size:12><b><i><color #white>DNS-Based Service Discovery (e.g., CoreDNS)
 
-** Networking
-*** Services \n<img:service.svg>
-*** Ingress Controllers
-*** Load Balancers
-*** Network Policies
-*** DNS-Based Service Discovery (e.g., CoreDNS)
+**[#lightblue] <i><color #black><size:14>Other
+***[#green] <size:12><b><i><color #white>Namespaces
+***[#green] <size:12><b><i><color #white>ConfigMaps
+***[#green] <size:12><b><i><color #white>Secrets \n<img:secretes.svg>
+***[#green] <size:12><b><i><color #white>Resource Quotas
+***[#green] <size:12><b><i><color #white>Limit Ranges
+***[#green] <size:12><b><i><color #white>Horizontal Pod Autoscaler
+***[#green] <size:12><b><i><color #white>Vertical Pod Autoscaler
+***[#green] <size:12><b><i><color #white>Custom Resource Definitions (CRDs)
+***[#green] <size:12><b><i><color #white>Operators \n*<size:12><b><i><color #white>(e.g., Prometheus Operator, Elasticsearch Operator, etc.)
+***[#green] <size:12><b><i><color #white>Helm Charts
 
-** Other
-*** Namespaces
-*** ConfigMaps
-*** Secrets \n<img:secretes.svg>
-*** Resource Quotas
-*** Limit Ranges
-*** Horizontal Pod Autoscaler
-*** Vertical Pod Autoscaler
-*** Custom Resource Definitions (CRDs)
-*** Operators (e.g., Prometheus Operator, Elasticsearch Operator, etc.)
-*** Helm Charts
-
-@endmindmap
+@endwbs
