@@ -20,11 +20,14 @@ title =<b><i>Operating Systems\n<img:images/img_11.png> <img:images/img_3.png>
 ****[#yellow] <color #black><i><size:14><b>Multi-Level feedback queue
 ****[#yellow] <color #black><i><size:14><b>Round robin(rr) scheduling
 ****[#yellow] <color #black><i><size:14><b>Preemptive priority cpu scheduling
-***[#green] <b><color #white><i><size:17>Interprocess Communication <b><color #white><i><size:14>(Two widely used methods:)\n<img:images/img_1.png>
-****[#yellow] <color #black><i><size:14>Shared Memory
-****[#yellow] <color #black><i><size:14>Message-Passing
-****[#yellow] <color #black><i><size:14><b>Other methods:
-*****[#darkorange] <b><color #black><i><size:14>Other methods: \n*<b><color #black><i><size:14>Semaphores\n*<b><color #black><i><size:14> Singals etc.
+***[#green]:<b><color #white><i><size:17>Interprocess Communication <b><color #white><i><size:14>(Two widely used methods:)
+*<color #white><b><i><size:16>Shared Memory
+*<color #white><b><i><size:16>Message-Passing
+<b><color #white><i><size:14>Other methods:
+**<b><color #white><i><size:14>Semaphores
+**<b><color #white><i><size:14> Signals etc.
+<img:images/img_1.png>;
+****[#yellow] <color #black><i><size:24><b>Process ID & Port number\n<img:images/img_12.png>
 ***[#green] <b><color #white><i><size:14>Process Synchronization
 **[#lightblue] <b><color #black><i><size:14>Thread Management
 ***[#green] <b><color #white><i><size:14>Thread Scheduling
