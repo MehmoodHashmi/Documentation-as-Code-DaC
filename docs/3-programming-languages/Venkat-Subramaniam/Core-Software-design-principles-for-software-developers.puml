@@ -93,7 +93,7 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 *<i><color #black><size:14>Depending on an<b> interface</b> is <b>"loose" coupling;
 ***[#green] <i><color #white><b><size:14>High Cohesion & Coupling
 ****[#yellow] <i><color #black><size:14><b>"Good design" has "high cohesion" & "low Coupling"
-***[#green] <i><color #white><b><size:14><img:images/img_42.png>
+***[#green] <i><color #white><b><size:14><img:images/img_42.png>\n<i><color #white><b><size:18>The spectrum of "contract types" from "strict to lose"\n<img:images/img_46.png>
 ****[#yellow] <i><color #black><b><size:14>In general:
 *****[#darkorange]:<i><color #black><size:14>**Logical design** (classes & packages) impacts <color #white><b> [[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml "extensibility"]]
 ====
@@ -103,12 +103,12 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ====
 *<i><color #black><size:14>**Components:** "folders" inside a <b>.Jar file
 **<i><color #black><size:14>**Components "Classification":**
-##<i><color #green><size:14><b>Compile time,
-##<i><color #green><size:14><b>Some exist only at link time,
-##<i><color #green><size:14><b>Some exist only at runtime; &
-##<i><color #green><size:14><b>Some exist at more than one time.
+<i><color #green><size:14><b>\t1- Compile time,
+<i><color #green><size:14><b>\t2- Some exist only at link time,
+<i><color #green><size:14><b>\t3- Some exist only at runtime; &
+<i><color #green><size:14><b>\t4- Some exist at more than one time.
 *<i><color #black><size:14>**.War:** many ".Jar" inside a <b>.war file;
-
+*****[#darkorange] <i><color #black><size:14> wirte here
 **[#lightblue] <i><color #black><size:14>Keep it DRY!
 ***[#green] <i><color #white><b><size:14>Don't Repeat yourself
 ****[#yellow]:<i><color #black><size:14>Don't duplicate <b>code

@@ -91,9 +91,10 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 ****[#yellow] <i><color #black><size:14>If you want to build a <b>"scalable system"</b> then do not build it without <b>"Circuit Breakers"</b>
 ***[#green] <i><color #white><size:14><b>Improved performance through parallelization
 ****[#yellow] <i><color #black><size:14>Using <b>parallel collections & threads\n*<i><color #black><size:14>Always using **multiple-cores** is not the <b>right answer!
-***[#green] <i><color #white><size:22><b>[[docs/books/1-books-backlog/DBMS/CAP-Theorem.puml CAP Theorem]]
+***[#green] <i><color #white><size:22><b>[[docs/books/1-books-backlog/DBMS/CAP-Theorem.puml CAP Theorem]]\n<img:images/img_45.png>
 ****[#yellow] <i><color #black><size:14>has been **proven** & can't be <b>challenged!
 ****[#a] <i><color #black><size:14>Says you can only provide only <b>two of the following at any given instant of time:\n<b><i><color #black><size:14>[[docs/books/1-books-backlog/DBMS/ACID-vs-BASE.puml 1- Consistency ("eventual consistency" is usually good option)]]\n<b><i><color #black><size:14>2- Availability\n<b><i><color #black><size:14>3- Partition tolerance (data)
 ****[#yellow] <i><color #black><size:14>You 've to figure out what is good for the <b>business
+****[#yellow] <i><color #black><size:14><b>Dynamic Quantum Coupling: (a new term coined by the book "fundamentals of s/w architecture")\n<i><color #black><size:14>The image depicts the **dimensions** of **dynamic quantum coupling** & also represents the <b>three-dimensional interacting \n<i><color #black><size:14>space for messaging forces in <b>distributed systesm.
 **[#lightblue] <i><color #blac><size:32>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]] click me
 @endmindmap

@@ -2,7 +2,7 @@
 title = <b><i><u>ACID vs BASE
 !theme hacker
 
-*[#darkblue] <i><color #white>ACID vs BASE
+*[#darkblue] =<i><color #white>ACID vs BASE\n<img:images/img.png>
 **[#lightblue] <i><size:14><color #black>ACID
 ***[#green] <b><i><size:14><color #white>Definition
 ****[#yellow] <i><size:14><color #black>Atomicity, Consistency, Isolation, Durability
@@ -27,9 +27,9 @@ title = <b><i><u>ACID vs BASE
 ****[#yellow] <i><size:14><color #black>Social media newsfeeds
 ****[#yellow] <i><size:14><color #black>Recommendation systems
 **[#lightblue] <i><size:14><color #black>Comparison
-***[#green] <i><size:18><color #white>**ACID** focuses on data consistency and reliability, while **BASE** prioritizes availability and scalability.
-***[#green] <i><size:18><color #white>**ACID** transactions are immediate and guarantee consistency, while **BASE** systems may experience temporary inconsistency but eventually become consistent.
-***[#green] <i><size:18><color #white>**ACID** is best for systems that require high reliability and data consistency, while **BASE** is best for systems that require high availability and scalability.
-***[#blue] <i><size:18><color #white>**ACID** is commonly used for transactional systems, while **BASE** is commonly used for non-transactional systems.
-***[#green] <i><size:18><color #white>**ACID** systems can be slower and less scalable than **BASE** systems.
+***[#green] <i><size:16><color #white>**ACID** focuses on data consistency and reliability, while **BASE** prioritizes availability and scalability.
+***[#green] <i><size:16><color #white>**ACID** transactions are immediate and guarantee consistency, while **BASE** systems may experience temporary inconsistency but eventually become consistent.
+***[#green] <i><size:16><color #white>**ACID** is best for systems that require high reliability and data consistency, while **BASE** is best for systems that require high availability and scalability.
+***[#blue] <i><size:16><color #white>**ACID** is commonly used for transactional systems, while **BASE** is commonly used for non-transactional systems.
+***[#green] <i><size:16><color #white>**ACID** systems can be slower and less scalable than **BASE** systems.
 @endmindmap
