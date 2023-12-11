@@ -1,67 +1,61 @@
 @startmindmap
-title = __ UI/UX__
+title = <b><i>UI/UX
+!theme hacker
 
-* UI/UX
-**[#yellow] **User Interface (UI)**
-*** Design
-**** Aesthetics
-**** Layout
-**** Visual Hierarchy
-**** Typography
-**** Color
-**** Images and Icons
-**** Responsive Design
-*** Components
-**** Buttons
-**** Forms
-**** Dropdowns
-**** Menus
-**** Lists
-**** Icons
-**** Navigation
-**** Cards
-**** Modals
-**** Popovers
-**** Tooltips
-**** Progress Bars
-**** Spinners
-*** Usability
-**** Navigation
-**** Feedback
-**** Consistency
-**** Error Handling
-**** Help and Documentation
-**** Accessibility
-**** Speed and Performance
-**[#yellow] **User Experience (UX)**
-*** Research
-**** User Analysis
-**** Personas
-**** Scenarios
-**** Journey Maps
-**** Surveys
-**** Interviews
-**** Analytics
-**** Usability Testing
-**** A/B Testing
-**** Heatmaps
-*** =Strategy
-****[#pink] ===Information Architecture
-**** Wireframes
-**** Prototypes
-****[#pink] User Flows
-****[#pink] Content Strategy
-**** Business Strategy
-*** Design
-**** Visual Design
-**** Interaction Design
-**** Information Design
-**** Motion Design
-*** Evaluation
-**** User Testing
-**** Expert Reviews
-**** Usability Metrics
-**** Analytics
-**** Feedback
-**** Surveys
+
+
+
+
+
+*[#darkblue] <i><color:white>UI/UX
+**[#lightblue] <i><color #blac><size:22>User Interface (UI)
+***[#green] <b><i><color #white><size:14>Design
+****[#yellow] <i><color #black><size:14>Aesthetics
+****[#yellow] <i><color #black><size:14>Layout
+****[#yellow] <i><color #black><size:14>Visual Hierarchy
+****[#yellow] <i><color #black><size:14>Typography
+****[#yellow] <i><color #black><size:14>Color
+****[#yellow] <i><color #black><size:14>Images and Icons
+****[#yellow] <i><color #black><size:14>Responsive Design
+***[#green] <b><i><color #white><size:14>Components
+****[#yellow] <i><color #black><size:14><b>Buttons, Forms, Dropdowns, Menus, Lists, Icons, Navigation, Cards, Modals, Popovers, Tooltips, Progress Bars, Spinners
+***[#green] <b><i><color #white><size:14>Usability
+****[#yellow] <i><color #black><size:14>Navigation
+****[#yellow] <i><color #black><size:14>Feedback
+****[#yellow] <i><color #black><size:14>Consistency
+****[#yellow] <i><color #black><size:14>Error Handling
+****[#yellow] <i><color #black><size:14>Help and Documentation
+****[#yellow] <i><color #black><size:14>Accessibility
+****[#yellow] <i><color #black><size:14>Speed and Performance
+**[#lightblue] <i><color #blac><size:22>User Experience (UX)
+***[#green] <b><i><color #white><size:14>Research
+****[#yellow] <i><color #black><size:14>User Analysis
+****[#yellow] <i><color #black><size:14>Personas
+****[#yellow] <i><color #black><size:14>Scenarios
+****[#yellow] <i><color #black><size:14>Journey Maps
+****[#yellow] <i><color #black><size:14>Surveys
+****[#yellow] <i><color #black><size:14>Interviews
+****[#yellow] <i><color #black><size:14>Analytics
+****[#yellow] <i><color #black><size:14>Usability Testing
+****[#yellow] <i><color #black><size:14>A/B Testing
+****[#yellow] <i><color #black><size:14>Heatmaps
+***[#green] <b><i><color #white><size:14>Strategy
+****[#orange] <b><i><color #black><size:14>Information Architecture
+****[#yellow] <i><color #black><size:14>Wireframes
+****[#yellow] <i><color #black><size:14>Prototypes
+****[#orange] <b><i><color #black><size:14>User Flows
+****[#orange] <b><i><color #black><size:14>Content Strategy
+****[#yellow] <i><color #black><size:14>Business Strategy
+***[#green] <b><i><color #white><size:14>Design
+****[#yellow] <i><color #black><size:14>Visual Design
+****[#yellow] <i><color #black><size:14>Interaction Design
+****[#yellow] <i><color #black><size:14>Information Design
+****[#yellow] <i><color #black><size:14>Motion Design
+***[#green] <b><i><color #white><size:14>Evaluation
+****[#yellow] <i><color #black><size:14>User Testing
+****[#yellow] <i><color #black><size:14>Expert Reviews
+****[#yellow] <i><color #black><size:14>Usability Metrics
+****[#yellow] <i><color #black><size:14>Analytics
+****[#yellow] <i><color #black><size:14>Feedback
+****[#yellow] <i><color #black><size:14>Surveys
 @endmindmap

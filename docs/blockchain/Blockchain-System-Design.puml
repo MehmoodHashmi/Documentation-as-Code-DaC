@@ -1,5 +1,11 @@
 @startmindmap
 title =<i><u>Blockchain System Design
+*:*<i><size:14>The **'Internet'** focuses much more on **'information exchange'**, while **'blockchain'** focuses on **'value exchange'.** When thinking about a **blockchain use case,** ask yourself whether it <b>leverages some value exchange,
+<i><size:14>particularly that which cannot be handled by <b>a single authority.
+
+*<u><i><size:14>**Blockchain is built on technology, where multiple copies of data exist across a network, rather than a single server or database.**</u> <i><size:14><color:green><b>Because no centralized authority—or an institution—controls it, participants
+<i><size:14>can access the "same version" of the **"data"** in near <b>real-time.
+<b><i>[[https://www.simplilearn.com/tutorials/blockchain-tutorial/types-of-blockchain The Complete Guide for Types of Blockchain!]];
 !theme hacker
 
 +[#darkblue] <i><color:white><size:22>Blockchain \n<i><color:white>System Design

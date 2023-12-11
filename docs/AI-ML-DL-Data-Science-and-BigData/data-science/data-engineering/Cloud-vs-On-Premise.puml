@@ -1,71 +1,72 @@
 @startmindmap
-title =__ Cloud vs. On-Premise__
+title =<b><i>Cloud vs. On-Premise
+*[#gold] <b><i><size:14>[[docs/cloud-computing/Cloud-Native.puml Cloud Native]]
 !theme hacker
 
-* Cloud vs. On-Premise
-** Cloud Computing
-***[#gold] =Definition
-****[#yellow] ====<size:13>Cloud computing refers to the delivery of computing resources over the internet, including servers, storage, databases, networking, and software.
-*** Key Characteristics
-****[#yellow] ====<size:13>On-demand self-service
-****[#yellow] ====<size:13>Broad network access
-****[#yellow] ====<size:13>Resource pooling
-****[#yellow] ====<size:13>Rapid elasticity
-****[#yellow] ====<size:13>Measured service
-*** Advantages
-****[#yellow] ====<size:13>Scalability and Flexibility
-****[#yellow] ====<size:13>Cost Efficiency
-****[#yellow] ====<size:13>Reliability and Availability
-****[#yellow] ====<size:13>Global Accessibility
-****[#yellow] ====<size:13>Managed Services and Automation
-*** Disadvantages
-****[#yellow] ====<size:13>Dependency on Internet Connection
-****[#yellow] ====<size:13>Security and Privacy Concerns
-****[#yellow] ====<size:13>Limited Control and Customization
-****[#yellow] ====<size:13>Vendor Lock-In
-** On-Premise Computing
-***[#gold] =Definition
-****[#yellow] ====<size:13>On-premise computing refers to deploying and managing computing resources within an organization's physical infrastructure or data center.
-*** Key Characteristics
-****[#yellow] ====<size:13>Control and Customization
-****[#yellow] ====<size:13>Data Security and Privacy
-****[#yellow] ====<size:13>Direct Hardware Access
-****[#yellow] ====<size:13>Compliance and Regulatory Requirements
-****[#yellow] ====<size:13>Cost Predictability
-*** Advantages
-****[#yellow] ====<size:13>Full Control and Customization
-****[#yellow] ====<size:13>Data Security and Compliance
-****[#yellow] ====<size:13>Lower Latency
-****[#yellow] ====<size:13>No Vendor Dependency
-****[#yellow] ====<size:13>Cost Predictability
-*** Disadvantages
-****[#yellow] ====<size:13>High Initial Investment
-****[#yellow] ====<size:13>Infrastructure Maintenance and Management
-****[#yellow] ====<size:13>Limited Scalability
-****[#yellow] ====<size:13>Lack of Geographic Redundancy
-****[#yellow] ====<size:13>Skill and Expertise Requirements
-** Considerations for Choosing Between Cloud and On-Premise
-*** Data Sensitivity and Security Requirements
-*** Performance and Latency Needs
-*** Scalability and Resource Requirements
-*** Cost Considerations
-*** Regulatory and Compliance Factors
-*** Integration and Interoperability Requirements
-*** Organizational Capabilities and Resources
-** Hybrid and Multi-Cloud Solutions
-***[#gold] =Definition
-****[#yellow] ====<size:13>Hybrid solutions combine both cloud and on-premise environments, allowing organizations to leverage the benefits of both.
-****[#yellow] ====<size:13>Multi-cloud refers to using multiple cloud service providers for different workloads or purposes.
-*** Advantages
-****[#yellow] ====<size:13>Flexibility and Agility
-****[#yellow] ====<size:13>Redundancy and Resilience
-****[#yellow] ====<size:13>Vendor Diversity and Negotiation Power
-****[#yellow] ====<size:13>Workload Optimization
-****[#yellow] ====<size:13>Data Sovereignty and Compliance
-*** Challenges
-****[#yellow] ====<size:13>Complexity and Integration
-****[#yellow] ====<size:13>Data Synchronization and Consistency
-****[#yellow] ====<size:13>Security and Access Control
-****[#yellow] ====<size:13>Cost Management and Optimization
-****[#yellow] ====<size:13>Skill and Expertise Requirements
+*[#gold] <b><i><size:14>Cloud vs. On-Premise
+**[#lightblue] <b><i><size:14>Cloud Computing
+***[#gold] <b><i><size:14>Definition
+****[#yellow] <i><color:black><size:14>Cloud computing refers to the delivery of computing resources over the internet, including servers, storage, databases, networking, and software.
+***[#green] <b><i><color:white><size:14>Key Characteristics
+****[#yellow] <i><color:black><size:14>On-demand self-service
+****[#yellow] <i><color:black><size:14>Broad network access
+****[#yellow] <i><color:black><size:14>Resource pooling
+****[#yellow] <i><color:black><size:14>Rapid elasticity
+****[#yellow] <i><color:black><size:14>Measured service
+***[#green] <b><i><color:white><size:14>Advantages
+****[#yellow] <i><color:black><size:14>Scalability and Flexibility
+****[#yellow] <i><color:black><size:14>Cost Efficiency
+****[#yellow] <i><color:black><size:14>Reliability and Availability
+****[#yellow] <i><color:black><size:14>Global Accessibility
+****[#yellow] <i><color:black><size:14>Managed Services and Automation
+***[#green] <b><i><color:white><size:14>Disadvantages
+****[#yellow] <i><color:black><size:14>Dependency on Internet Connection
+****[#yellow] <i><color:black><size:14>Security and Privacy Concerns
+****[#yellow] <i><color:black><size:14>Limited Control and Customization
+****[#yellow] <i><color:black><size:14>Vendor Lock-In
+**[#lightblue] <b><i><size:14>On-Premise Computing
+***[#gold] <b><i><size:14>Definition
+****[#yellow] <i><color:black><size:14>On-premise computing refers to deploying and managing computing resources within an organization's physical infrastructure or data center.
+***[#green] <b><i><color:white><size:14>Key Characteristics
+****[#yellow] <i><color:black><size:14>Control and Customization
+****[#yellow] <i><color:black><size:14>Data Security and Privacy
+****[#yellow] <i><color:black><size:14>Direct Hardware Access
+****[#yellow] <i><color:black><size:14>Compliance and Regulatory Requirements
+****[#yellow] <i><color:black><size:14>Cost Predictability
+***[#green] <b><i><color:white><size:14>Advantages
+****[#yellow] <i><color:black><size:14>Full Control and Customization
+****[#yellow] <i><color:black><size:14>Data Security and Compliance
+****[#yellow] <i><color:black><size:14>Lower Latency
+****[#yellow] <i><color:black><size:14>No Vendor Dependency
+****[#yellow] <i><color:black><size:14>Cost Predictability
+***[#green] <b><i><color:white><size:14>Disadvantages
+****[#yellow] <i><color:black><size:14>High Initial Investment
+****[#yellow] <i><color:black><size:14>Infrastructure Maintenance and Management
+****[#yellow] <i><color:black><size:14>Limited Scalability
+****[#yellow] <i><color:black><size:14>Lack of Geographic Redundancy
+****[#yellow] <i><color:black><size:14>Skill and Expertise Requirements
+**[#lightblue] <b><i><size:14>Considerations for Choosing Between Cloud and On-Premise
+***[#green] <b><i><color:white><size:14>Data Sensitivity and Security Requirements
+***[#green] <b><i><color:white><size:14>Performance and Latency Needs
+***[#green] <b><i><color:white><size:14>Scalability and Resource Requirements
+***[#green] <b><i><color:white><size:14>Cost Considerations
+***[#green] <b><i><color:white><size:14>Regulatory and Compliance Factors
+***[#green] <b><i><color:white><size:14>Integration and Interoperability Requirements
+***[#green] <b><i><color:white><size:14>Organizational Capabilities and Resources
+**[#lightblue] <b><i><size:14>Hybrid and Multi-Cloud Solutions
+***[#gold] <b><i><size:14>Definition
+****[#yellow] <i><color:black><size:14>Hybrid solutions combine both cloud and on-premise environments, allowing organizations to leverage the benefits of both.
+****[#yellow] <i><color:black><size:14>Multi-cloud refers to using multiple cloud service providers for different workloads or purposes.
+***[#green] <b><i><color:white><size:14>Advantages
+****[#yellow] <i><color:black><size:14>Flexibility and Agility
+****[#yellow] <i><color:black><size:14>Redundancy and Resilience
+****[#yellow] <i><color:black><size:14>Vendor Diversity and Negotiation Power
+****[#yellow] <i><color:black><size:14>Workload Optimization
+****[#yellow] <i><color:black><size:14>Data Sovereignty and Compliance
+***[#green] <b><i><color:white><size:14>Challenges
+****[#yellow] <i><color:black><size:14>Complexity and Integration
+****[#yellow] <i><color:black><size:14>Data Synchronization and Consistency
+****[#yellow] <i><color:black><size:14>Security and Access Control
+****[#yellow] <i><color:black><size:14>Cost Management and Optimization
+****[#yellow] <i><color:black><size:14>Skill and Expertise Requirements
 @endmindmap
