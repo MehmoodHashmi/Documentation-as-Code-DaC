@@ -1,19 +1,9 @@
 @startmindmap
-!define AWESOME mindmap
-
- skinparam {
-  DefaultFontName Arial
-  BackgroundColor gold
-  DefaultFontSize 12
-  DefaultLineColor DEFAULT_LINE_COLOR
-  DefaultTextColor DEFAULT_TEXT_COLOR
-}
-
-title =__**Blockchain System Design**__
+title =<i><u>Blockchain System Design
 !theme hacker
 
-+[#darkblue] <i>**Blockchain System Design**
-++[#lightblue] <i><size:18>**Consensus Algorithms**\n<img:img_2.png>
++[#darkblue] <i><color:white><size:22>Blockchain \n<i><color:white>System Design
+++[#lightblue] <i><size:18>**Consensus Algorithms**\n<img:images/img_2.png>
 +++[#green] <i><size:14><color #white>**Proof of Work (PoW)**
 ****[#orange] <i><size:14><color #black>is done by **miners,** who compete to create new blocks filled with processed transactions. \n<i><size:14><color #black>There is a race of who will solve the fastest a **mathematical puzzle.**This **puzzle** is the **work** \n<i><size:14><color #black>in **proof of work consensus mechanism** and produces the cryptographic link between the \n<i><size:14><color #black>current block and the previous block.
 +++[#green] <i><size:14><color #white>**Proof of Stake (PoS)**
@@ -35,7 +25,9 @@ title =__**Blockchain System Design**__
 ****[#orange] <i><size:14><color #black>Ethash
 
 ++[#lightblue] <i><size:14>Blockchain Components
-+++[#green] <i><size:18> <color #white>**Blocks** \n<img:img.png>**
++++[#green] <i><size:18> <color #white>**Node**
+++++[#orange] <i><size:18> <color #white>**text goes here**
++++[#green] <i><size:18> <color #white>**Blocks** \n<img:images/img.png>**
 ****[#orange] <i><size:14><color #black>Block Header
 *****[#yellow] <i><size:14>Previous Block Hash
 *****[#yellow] <i><size:14>Merkle Tree Root Hash
@@ -51,7 +43,7 @@ title =__**Blockchain System Design**__
 ****[#orange] <i><size:14><color #black>Digital Signatures
 +++[#green] <i><size:14><color #white>**Distributed **Ledger:** (means **register or notebook**)**
 +++[#green] <i><size:14><color #white>**Smart Contracts**
-****[#orange] <i><size:14><color #black>**Definition:** A **smart contract** is an agreement between two parties in the form of computer code. Smart contracts are stored in the blockchain, \n<i><size:14><color #black>so they are part of the public ledger and cannot be changed. Smart contracts run on the blockchain and the transactions that happen are \n<i><size:14><color #black>processed by it, which means they can be sent automatically without a third party. The transactions only occur when specific conditions are met.
+****[#orange] <i><size:14><color #black>**Definition:** A **smart contract** is an **agreement** between **two parties** in the form of **computer code.** Smart contracts are stored in the blockchain,\n<i><size:14><color #black>so they are **part** of the **public ledger** and cannot be **changed.** <u>Smart contracts run on the blockchain and the transactions that happen are processed\n<i><size:14><color #black>by it, which means they can be sent automatically without a third party. The transactions only occur when specific conditions are met.
 ****[#orange] <i><size:14><color #black>Ethereum
 *****[#yellow] <i><size:14>Solidity
 *****[#yellow] <i><size:14>Vyper
@@ -62,16 +54,14 @@ title =__**Blockchain System Design**__
 *****[#yellow] <i><size:14>Plutus
 *****[#yellow] <i><size:14>Marlowe
 
-**[#lightblue] <i><size:18>__**Blockchain Networks Type:**__\n<img:img_1.png>
-***[#green]:<i><size:14><color #white>**Permissionless network:** allows access to any user to pseudo-anonymously join the
-<i><size:14><color #white>network and become a node, without any restrictions. This particular kind of network is
-<i><size:14><color #white>primarily used to exchange and mine cryptocurrencies.;
+**[#lightblue] <i><size:18>__**Blockchain Networks Type:**__\n<img:images/img_1.png>
+***[#green]:<i><size:14><color #white>**Permissionless network:** allows access to any user to pseudo-anonymously join the network and become a node, without
+<i><size:14><color #white>any restrictions. This particular kind of network is primarily used to exchange and mine cryptocurrencies.;
 
-***[#green]:<i><size:14><color #white>**Permissioned network:**  restricts access to the network to certain nodes. In this type of
-<i><size:14><color #white>network there can be rights restrictions. These private blockchain networks are controlled by a
-<i><size:14><color #white>single organization that determines who can be a node. Pri- vate BC networks are partially
-<i><size:14><color #white>decentralized because public access to them is restricted. __Due to the drawbacks of the above__
-<i><size:14><color #white>networks, consortium and hybrid blockchains were developed.;
+***[#green]:<i><size:14><color #white>**Permissioned network:**  restricts access to the **network** to **certain nodes.** In this type of network there can be rights
+<i><size:14><color #white>restrictions. These private blockchain networks are controlled by a single organization that determines who can be a <b>node.
+<i><size:14><color #white>**Private BC networks** are partially **decentralized** because public access to them is restricted. <b><u>Due to the drawbacks of
+<i><size:14><color #white><u>**the above**</u> networks, consortium and hybrid blockchains were developed.;
 
 +++[#green] <i><size:14><color #white>**Public Blockchains**
 ****[#orange] <i><size:14><color #black>Bitcoin
@@ -115,7 +105,8 @@ title =__**Blockchain System Design**__
 
 ++[#lightblue] <i><size:14>Security
 +++[#green] <i><size:14><color #white>**51% Attack**
-****[#orange] <i><size:14><color #black>In theory, a malicious user (attacker) can compromise consensus by controlling the\n<i><size:14><color #black>**51%** of the network, but consensus mechanisms are designed in a way that this attack\n<i><size:14><color #black>is practically impossible. There are different kinds of **consensus mechanisms** that are\n<i><size:14><color #black>invented to be used in cryptoeconomic systems.
+****[#orange]:<i><size:14><color #black>**In theory,** a malicious **user (attacker)** can compromise consensus by controlling the **51%** of the network, but consensus mechanisms are designed in a way
+<i><size:14><color #black>that this attack is practically impossible. There are different kinds of **consensus mechanisms** that are\n<i><size:14><color #black>invented to be used in crypto-economic systems.;
 +++[#green] <i><size:14><color #white>**Double Spending**
 +++[#green] <i><size:14><color #white>**Replay Attacks**
 +++[#green] <i><size:14><color #white>**Sybil Attacks**
