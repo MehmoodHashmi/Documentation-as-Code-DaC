@@ -55,6 +55,7 @@ title =<b><i>Operating Systems\n<img:images/img_11.png> <img:images/img_3.png>
 ****[#yellow] <color #black><i><size:14>Clock Algorithm
 ***[#green] <b><color #white><i><size:14>Segmentation
 ***[#green] <b><color #white><i><size:14>Virtual Memory
+****[#yellow] <color #black><i><size:14>**Virtual Memory:** some portion of **solid state drive (SSD)** is used as <b>RAM
 ****[#yellow] <color #black><i><size:14>Demand Paging
 ****[#yellow] <color #black><i><size:14>Page Fault
 ****[#yellow] <color #black><i><size:14>Page Replacement
