@@ -83,7 +83,7 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#yellow] <i><color #black><size:14>Try to see if you can remove coupling
 ****[#yellow] <i><color #black><size:14>"knock out before you mock out"
 ****[#yellow] <i><color #black><size:14>Can't remove all the <b>dependencies
-*****[#gold] <i><color #black><size:14>**"System"** will become so **"stable"** that it won't even <b>run!
+*****[#gold] <i><color #black><size:14>**"System"** will become so **"stable"** that it won't even <b>run!\n*<i><color #black><size:14>E.g. if all **classes** are **abstract,** then none of them can be <b>instantiated.
 
 ***[#green] <b><i><color #white><size:14>Dealing with Coupling
 ****[#yellow] <i><color #black><size:14> Get rid of it
