@@ -6,7 +6,7 @@ title =<b><i>Operating Systems\n<img:images/img_11.png> <img:images/img_3.png>
 **[#lightblue] <b><color #black><i><size:14>Definition of an Operating System
 **[#lightblue] <b><color #black><i><size:14>Evolution of Operating Systems
 **[#lightblue] <b><color #black><i><size:14>Functions of an Operating System
-*[#darkblue] <color #white><i><size:42>Processes & Threads\n<img:images/img.png>
+*[#darkblue] <color #white><i><size:38>Processes & Threads\n<img:images/img.png>
 **[#lightblue] <b><color #black><i><size:14>Process Management
 ***[#green] <b><color #white><i><size:24>Process Scheduling (algorithms):\n<img:images/img_2.png>
 ****[#darkorange] <b><color #black><i><size:14>1- Preemptive Scheduling (algorithms):\n*<b><color #black><i><size:14>Resources <color #white>(CPU & RAM)</color> <size:14><color:black><i> are allocated to a "process" for a specified period of of time.
@@ -35,7 +35,7 @@ title =<b><i>Operating Systems\n<img:images/img_11.png> <img:images/img_3.png>
 ***[#gold] <b><color #black><i><size:14>Thread Block Storage (TBS):
 ****[#yellow] <color #black><i><size:14><b>is a data-structure, something like "Process Control Block"
 **[#lightblue] <b><color #black><i><size:14>Deadlock and Starvation
-*[#darkblue] <color #white><i><size:34>Memory Management\n<img:images/img_4.png>
+*[#darkblue] <color #white><i><size:34>Memory Management\n<img:images/img_4.png>\n\n<img:images/img_13.png>
 **[#lightblue] <b><color #black><i><size:24>Memory Hierarchy\n<img:images/img_10.png>
 **[#lightblue] <b><color #black><i><size:14>Address Binding
 ***[#green] <b><color #white><i><size:14>Address Translation
