@@ -39,7 +39,16 @@ title =<b><i>Operating Systems\n<img:images/img_11.png> <img:images/img_3.png>
 **[#lightblue] <b><color #black><i><size:24>Memory Hierarchy\n<img:images/img_10.png>
 **[#lightblue] <b><color #black><i><size:14>Address Binding
 ***[#green] <b><color #white><i><size:14>Address Translation
-****[#yellow] <color #black><i><size:14><img:images/img_5.png>
+****[#yellow]:<color #black><i><size:14>**Page map table** is a **data structure** that keeps track of the relations between a **"page of a process"** and a **frame in physical memory.**
+*<color #black><i><size:14>**Page address:** also known as **logical address** is represented by "page number and offset". Thus, <b>Logical Address = Page number + page offset
+*<color #black><i><size:14>**Frame address:** also known as **physical address** is represented by "frame number and offset". Thus, <b>Physical Address = Frame number + page offset
+<img:images/img_5.png>
+*<color #black><i><size:14>When allocating a frame to any page, the system translates the logical address into a physical address, creating an entry into the page table which can
+<color #black><i><size:14>be used throughout the process of execution. The system loads the corresponding pages of a process into the available memory frames during execution.
+
+*<color #black><i><size:14>If a system runs out of RAM, the OS moves the idle or unwanted pages of a memory to the secondary memory. This frees up RAM for other processes to us &
+<color #black><i><size:14>the OS also brings back these processes when the program needs them. This continues until the execution of a process gets complete.;
+
 **[#lightblue] <b><color #black><i><size:34>Memory Allocation\n<img:images/img_9.png>
 ***[#green] <b><color #white><i><size:14>Static Allocation
 ***[#green] <b><color #white><i><size:14>Dynamic Allocation
