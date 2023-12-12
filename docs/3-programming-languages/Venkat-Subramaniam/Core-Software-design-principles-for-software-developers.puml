@@ -132,16 +132,16 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 <i><color #black><size:14>**deployable units, or even "services"**. <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.jpg click me]];
 ***[#green] <i><color #white><b><size:14>Software component \n<i><color #white><b><size:14>boundaries means:
 ****[#darkorange] <i><color #black><size:14>**1- Boundary** crossing at <b>runtime:\n<i><color #black><size:14> <b>(source code dependencies)
-*****[#yellow]:*<i><color #black><size:14>communication through <b>function calling.
+*****[#yellow]:*<i><color #black><size:14>**Communication** through <b>function calling.
 **<i><color #green><size:14><b>f.(o) is same as o.f()
-*<i><color #black><size:14>communication is <b>fast & inexpensive
+*<i><color #black><size:14>**Communication** is <b>fast & inexpensive
 *<i><color #black><size:14>requires <b>recompilation & static linking
 *<i><color #black><size:14>"components" are delivered as <b>source code
 *<i><color #black><size:14>function calling is on "same" <b>processor & address space;
 ******[#yellow] <i><color #black><size:14><img:images/img_48.png> <img:images/img_53.jpg> <img:images/img_49.png>
 ****[#darkorange] <i><color #black><size:14>**2- Deployment**\n<i><color #black><size:14><b>component boundary
-*****[#yellow]:*<i><color #black><size:14>communication through <b>function calling
-*<i><color #black><size:14>communication is <b>fast & inexpensive
+*****[#yellow]:*<i><color #black><size:14>**Communication** through <b>function calling
+*<i><color #black><size:14>**Communication** is <b>fast & inexpensive
 *<i><color #green><size:14>requires <b>no recompilation & supports dynamic linking
 **<i><color #green><size:14>**changes** to the **"source code"** in one **module/class** don't
 <i><color #green><size:14>     force others to be <b>rebuilt & redoplyed.
@@ -155,11 +155,11 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 *****[#yellow] <i><color #black><size:14>are not boundaries both **source code dependencies & deployment component boundary** can make use of <b>threads.
 ****[#darkorange] <i><color #black><size:14>**4- Local Process boundary**
 *****[#a]:*<b><i><color #black><size:14>[[docs/books/1-books-backlog/operating-system/operating-system.puml local processes "communicate" with each other using "socket, shared memory, IPC, mail boxes or message queues"]]
-*<i><color #black><size:14>communication across **local process** boundaries involve:
+*<i><color #black><size:14>**Communication** across **local process boundaries** involve:
 **<i><color #black><size:14><b>[[docs/books/1-books-backlog/operating-system/operating-system.puml operating system calls, data marshalling & decoding, & inter-process context switches which are moderately expensive]]
-*<i><color #black><size:14>communication is <b>fast & expensive
+*<i><color #black><size:14>**Communication** is <b>fast & expensive
 *<i><color #yellow><size:14>local processes can be <b>statically or dynamically linked
-*<i><color #yellow><size:14>"components" are delivered in <b>binary or .Jar, DLL</b> or some equivalent form.
+*<i><color #yellow><size:14>**"Components"** are delivered in <b>binary or .Jar, DLL</b> or some equivalent form.
 *<i><color #yellow><size:14>Processes execute on "same" <b>processor or multi-core but "separate address space". [[docs/books/1-books-backlog/operating-system/operating-system.puml click me]];
 ****[#darkorange] <i><color #black><size:14>**5- Services Boundary:**
 *****[#yellow]:*<i><color #black><size:14>Service is a <b>process
