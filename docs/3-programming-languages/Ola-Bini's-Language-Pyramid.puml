@@ -66,7 +66,7 @@ title =<i><b><u>Ola Bini's Language Pyramid\n<img:images/img_3.png> <img:images/
 ***[#green] <b><i><color #white><size:14>DSL
 ****[#yellow] <i><color #black><size:14>is  **computer language** & **specialized** to a **particular application domain.** This is in contrast \n<i><color #black><size:14>to a **General Purpose Language**, which is applicable <b>across domains.
 ****[#yellow] <i><color #black><size:14>**Characteristics:** Context & fluency
-****[#gold] <i><color #black><size:14>**Internal DSL:** support provided by the host programming language itself \n<i><color #black><size:14>e.g. **Kotlin DSL, Groovy DSL, Terraform DSL, plumini, jenkins DSL, SQL,** R, Julia\n*<i><color #black><size:14>Can't be **reused** across languages, only in host language
+****[#gold] <i><color #black><size:14>**Internal DSL:** support provided by the <b>host programming language. \n<i><color #black><size:14>e.g. **Kotlin DSL, Groovy DSL, Terraform DSL, plumini, jenkins DSL, SQL,**\n<i><color #black><size:14>**Regular expressions,** R, Julia etc.\n*<i><color #black><size:14>Can't be **reused** across languages, only in host language
 ****[#gold] <i><color #black><size:14>**External DSL:** e.g. HTML/CSS, <b>\tXML/YML \n*<i><color #black><size:14>Can be **reused** across languages
 
 **[#lightblue] <i><color #blac><size:14>Dynamic Layer
@@ -85,7 +85,7 @@ title =<i><b><u>Ola Bini's Language Pyramid\n<img:images/img_3.png> <img:images/
 **[#lightblue] <i><color #blac><size:14>Domain Layer
 ***[#green] <b><i><color #white><size:14>Domain-Specific Language (DSL)
 ****[#yellow] <i><color #black><size:14>SQL for database manipulation
-****[#yellow] <i><color #black><size:14>Regular expressions for text processing
+****[#yellow] <i><color #black><size:14>**Regular expressions** for **text processing**
 ***[#green] <b><i><color #white><size:14>Business Rules
 ****[#yellow] <i><color #black><size:14>Rule-based languages such as Drools for decision making
 ***[#green] <b><i><color #white><size:14>Industry-Specific Solutions
