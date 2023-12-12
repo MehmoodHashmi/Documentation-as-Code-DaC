@@ -259,9 +259,8 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 *<i><color #black><size:14>You want <b>substitutability;
 ***[#green] <i><color #white><b><size:14>Bad
 ****[#gold]:<b><i><color #black><size:14>Should I violate LSP or should I violate DRY & OCP?
-<i><color #black><size:14>If I violate LSP then the user of the class probably is gonna violate <b>OCP
-<i><color #black><size:14>I would rather violate it, then violate myself & force to violate as well
-<i><color #black><size:14>the sin is in me I don't want you the part of sin as a user of my class
+<i><color #black><size:14>If I violate LSP then the user of the class probably is gonna violate <b>OCP.</b> I would rather violate it, then violate myself & force to violate as well
+<i><color #black><size:14>the sin is in me I don't want you the part of sin as a user of my class.
 ==<i><color #black><size:14><b><u>What if I don't had to violate it at all?==;
 **[#lightblue] <i><color #black><size:14>Decouple using the \n<i><color #black><size:14>Dependency Inversion Principle
 ***[#yellow] <i><color #black><size:14>"Every single line of **code"** that **"uses"** the "**new** keyword" violates <b>"DIP".
