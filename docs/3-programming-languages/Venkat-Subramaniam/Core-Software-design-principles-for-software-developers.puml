@@ -31,6 +31,10 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ***[#green] <i><color #white><size:14><b>Take time to "review" design & code
 ****[#yellow] <i><color #black><size:14><b>Refactor:</b> others people code
 ****[#yellow] <i><color #black><size:14><b>Rewrite:</b> your own code
+***[#green] <i><color #white><size:14><b>Two values of software
+****[#yellow] <i><color #black><size:14><b>Structural value: </b>(is **architecture** & often ignored by the <b>developers)
+****[#yellow] <i><color #black><size:14><b>Behavioral value: </b>(is **use cases** or feature development )
+****[#gold] <i><color #black><size:14><b>The book Cathedral & bazaar in late 1990's said two values of software are:\n<i><color #black><size:14><b>1- Use value\n<i><color #black><size:14><b>2- Sale value
 **[#lightblue] <i><color #black><size:14>Keep it simple
 ***[#green] <i><color #white><size:14><b>KISS principle
 ****[#yellow] <i><color #black><size:14><b>Keep it "simple" and stupid
@@ -77,7 +81,7 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ***[#green] <i><color #white><size:14><b>Like things stay together, and unlike things stay apart
 ****[#yellow] <i><color #black><size:14>**"Code that deals"** with **database** is different than **"code that deals"** with <b>XML processing
 ****[#yellow] <i><color #black><size:14>**"Code that deals"** with **database** is different than **"code that deals"** with <b>UI
-**[#lightblue] <i><color #black><size:14>Coupling
+**[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_51.png Coupling]]
 ***[#green] <i><color #white><size:14><b>is what you depend on
 ****[#yellow] <i><color #black><size:14>Worst form of coupling is <b>inheritance
 ****[#yellow] <i><color #black><size:14>Try to see if you can remove coupling
@@ -94,6 +98,10 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ***[#green] <i><color #white><b><size:14>High Cohesion & Coupling
 ****[#yellow] <i><color #black><size:14><b>"Good design" has "high cohesion" & "low Coupling"
 ***[#green] <i><color #white><b><size:14><img:images/img_42.png>\n<i><color #white><b><size:18>The spectrum of "contract types" from "strict to lose"\n<img:images/img_46.png>
+****[#yellow]:<i><color #black><size:14>**How do yo decouple one module from another?** That depends on the **level of decoupling you need.** Sometimes simply extracting code
+<i><color #black><size:14>into a separate function is enough. More often, it's better to move all the **related code** into a **separate class** & even a separate **source file.**
+<i><color #black><size:14>And in extreme cases, you want to put those classes behind <b>polymorphic interfaces.;
+
 ****[#yellow] <i><color #black><b><size:14>In general:
 *****[#darkorange]:<i><color #black><size:14>**Logical design** (classes & packages) impacts <color #white><b> [[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml "extensibility"]]
 ====
@@ -108,7 +116,54 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 <i><color #green><size:14><b>\t3- Some exist only at runtime; &
 <i><color #green><size:14><b>\t4- Some exist at more than one time.
 *<i><color #black><size:14>**.War:** many ".Jar" inside a <b>.war file;
-*****[#darkorange] <i><color #black><size:14> wirte here
+*****[#darkorange] *<i><color #black><size:14>**Modules:** are a **new** way of "grouping" <b>codes & data.\n*<i><color #black><size:14>**Modularity:** is not an **OOP**  "concept" it's **decoupled** from <b>OOP.
+***[#green] <i><color #white><b><size:14>Boundary Anatomy (structure, framework, composition)
+****[#darkorange] <i><color #black><size:14>The **<u>"architecture"</u>** of a **<u>"System"</u>** is defined by a <u>**set of "software components"**</u> \n<i><color #black><size:14>& the **boundaries** that <u><b>separate</u> them. from book "Clean Architecture"
+*****[#yellow] <i><color #black><size:14>**1-** Crossing Boundaries. How? use <b>DIP\n<i><color #black><size:14>**2-** Which **data** crosses boundaries? simple <b>DTO's
+***[#green] <i><color #white><size:14><b>Many Ways to decouple \n<i><b><color:pink><size:18>"use cases & layers"
+****[#gold] <i><color #black><size:14><b>Source level
+*****[#darkorange] <i><color #black><size:14><b>"TDD" can help here
+****[#gold] <i><color #black><size:14><b>Deployment level
+*****[#darkorange] <i><color #black><size:14><b>is modular monolith
+****[#gold] <i><color #black><size:14><b>Service level
+****[#a]:<i><color #black><size:14>It's not difficult to imagine that a **"System"** that runs comfortably on **"one server"** right now **"might grow"** to the point where some of its **"components"** ought ('ve to) to run
+<i><color #black><size:14>on **separate server**. While the **"System"** runs on single server, the **"source-level" decoupling** might be sufficient. Later, however, it might require decoupling to
+<i><color #black><size:14>**deployable units, or even "services"**. <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.jpg click me]];
+***[#green] <i><color #white><b><size:14>Software component \n<i><color #white><b><size:14>boundaries means:
+****[#darkorange] <i><color #black><size:14>**1- Boundary** crossing at <b>runtime:\n<i><color #black><size:14> <b>(source code dependencies)
+*****[#yellow]:*<i><color #black><size:14>communication through <b>function calling.
+**<i><color #green><size:14><b>f.(o) is same as o.f()
+*<i><color #black><size:14>communication is <b>fast & inexpensive
+*<i><color #black><size:14>requires <b>recompilation & static linking
+*<i><color #black><size:14>"components" are delivered as <b>source code
+*<i><color #black><size:14>function calling is on "same" <b>processor & address space;
+******[#yellow] <i><color #black><size:14><img:images/img_48.png> <img:images/img_53.jpg> <img:images/img_49.png>
+****[#darkorange] <i><color #black><size:14>**2- Deployment**\n<i><color #black><size:14><b>component boundary
+*****[#yellow]:*<i><color #black><size:14>communication through <b>function calling
+*<i><color #black><size:14>communication is <b>fast & inexpensive
+*<i><color #green><size:14>requires <b>no recompilation & supports dynamic linking
+**<i><color #green><size:14>**changes** to the **"source code"** in one **module/class** don't
+<i><color #green><size:14>     force others to be <b>rebuilt & redoplyed.
+*<i><color #green><size:14>"components" are delivered as <b>.Jar, DLL, .class files in java
+*<i><color #black><size:14>function calling is on "same" <b>processor & address space;
+******[#yellow] <i><color #black><size:14><img:images/img_47.png>    <img:images/img_50.png>
+*******[#yellow] <i><color #black><size:14>**Modularity** decreases the **model-code gap** & increases <b>"abstraction"
+****[#darkorange] <i><color #black><size:14>**3- Thread boundary**
+*****[#yellow] <i><color #black><size:14>are not boundaries both **source code dependencies & deployment component boundary** can make use of <b>threads.
+****[#darkorange] <i><color #black><size:14>**4- Local Process boundary**
+*****[#a]:*<b><i><color #black><size:14>[[docs/books/1-books-backlog/operating-system/operating-system.puml local process "communicate" with each other using "socket, shared memory, IPC, mail boxes or message queues"]]
+*<i><color #black><size:14>communication across **local process** boundaries involve:
+**<i><color #black><size:14><b>[[docs/books/1-books-backlog/operating-system/operating-system.puml operating system calls, data marshalling & decoding, & inter-process context switches which are moderately expensive]]
+*<i><color #black><size:14>communication is <b>fast & expensive
+*<i><color #yellow><size:14>local processes can be <b>statically or dynamically linked
+*<i><color #yellow><size:14>"components" are delivered in <b>binary or .Jar, DLL</b> or some equivalent form.
+*<i><color #yellow><size:14>Processes execute on "same" <b>processor or multi-core but "separate address space". [[docs/books/1-books-backlog/operating-system/operating-system.puml click me]];
+****[#darkorange] <i><color #black><size:14>**5- Services Boundary:**
+*****[#yellow]:*<i><color #black><size:14>Service is a <b>process
+*<i><color #black><size:14>"Service" don't depend upon <b>physical location
+*<i><color #black><size:14>Two communicating "services" may, or may not, operate in the "same" <b><u>physical processor or multi-core machine.
+*<i><color #black><size:14>The **"services"** assume that all **"communication"** take place <b>over the network.
+*<i><color #black><size:14>**Communication** across **"service boundaries"** are very **slow** compared to <b>function calls;
 **[#lightblue] <i><color #black><size:14>Keep it DRY!
 ***[#green] <i><color #white><b><size:14>Don't Repeat yourself
 ****[#yellow]:<i><color #black><size:14>Don't duplicate <b>code
@@ -225,6 +280,9 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 *<i><color #black><size:14>Paves the way to refine those "directions & ideas" into realities of the project
 *<i><color #black><size:14>**SOLID, YAGNI, DRY, & other principles** are used **a lot** during <b>tactical design.;
 ***[#green] <i><color #white><b><size:18>How to apply these principles?
+****[#gold] <i><color #black><size:14>Machine Learning <b>"Model" "Testing" is different than <b>(TDD)</b> that is:
+*****[#gold] <i><color #black><size:11><b>"Testing" "Model's"
+******[#darkorange] <i><color #black><size:14>**1-** Prediction\n<i><color #black><size:14>**2-** Pattern recognition\n<i><color #black><size:14>**3-** Optimization & decision making
 ****[#yellow] <i><color #black><size:14>**1-** Use as a way to discuss **"among developers",** sit down with "developers" & say \n<i><color #black><size:14>hey if we do this we may **violate LSP or OCP or DIP.** So apply <b>YAGNI & postpone
 ****[#yellow]:<i><color #black><size:14>**2-** Use during <b>(TDD)
 ==<i><color #black><size:14><b>How?==
