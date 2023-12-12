@@ -147,7 +147,9 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 *<i><color #green><size:14>"components" are delivered as <b>.Jar, DLL, .class files in java
 *<i><color #black><size:14>function calling is on "same" <b>processor & address space;
 ******[#yellow] <i><color #black><size:14><img:images/img_47.png>    <img:images/img_50.png>
-*******[#yellow] <i><color #black><size:14>**Modularity** decreases the **model-code gap** & increases <b>"abstraction"
+*******[#a]:<i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Modularity]]** decreases the **model-code gap** & increases <b>"abstraction"
+<img:images/img_53.png>
+<i><color #black><size:14>Still **cost is higher** because you 've to know about <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg modularity]] click me;
 ****[#darkorange] <i><color #black><size:14>**3- Thread boundary**
 *****[#yellow] <i><color #black><size:14>are not boundaries both **source code dependencies & deployment component boundary** can make use of <b>threads.
 ****[#darkorange] <i><color #black><size:14>**4- Local Process boundary**
