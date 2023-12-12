@@ -1,115 +1,115 @@
 @startmindmap
+title =<i><b><u>Ola Bini's Language Pyramid\n<img:images/img_3.png> <img:images/img_4.png> <img:images/img_5.png>
+!theme hacker
 
-title =__Ola Bini's Language Pyramid__
+*[#darkblue] <i><color:#white>Key Takeaways from \n<i><color:white>Ola Bini's Language Pyramid
+**[#lightblue] <i><color #blac><size:14>Multiple levels of abstraction
+***[#green] <b><i><color #white><size:14>Different languages excel at different levels
+***[#green] <b><i><color #white><size:14>High-level languages are more expressive and easier to write in, but lower-level languages offer more control
+**[#lightblue] <i><color #blac><size:14>Performance and maintainability tradeoffs
+***[#green] <b><i><color #white><size:14>Lower-level languages can offer better performance, but higher-level languages are often more maintainable
+**[#lightblue] <i><color #blac><size:14>Interoperability between languages is important
+***[#green] <b><i><color #white><size:14>Different languages can be used together to create complex systems
+***[#green] <b><i><color #white><size:14>Communication between languages can be a challenge
+**[#lightblue] <i><color #blac><size:14>Specialized languages and tools can improve productivity
+***[#green] <b><i><color #white><size:14>Domain-specific languages can simplify tasks in specific fields
+***[#green] <b><i><color #white><size:14>Integrated development environments and other tools can help automate tasks and improve workflows
+**[#lightblue] <i><color #blac><size:14>Learning multiple languages can be beneficial
+***[#green] <b><i><color #white><size:14>Understanding different programming paradigms can broaden your perspective
+***[#green] <b><i><color #white><size:14>Familiarity with multiple languages can make you a more versatile programmer
 
-* Key Takeaways from Ola Bini's Language Pyramid
-** Multiple levels of abstraction
-*** Different languages excel at different levels
-*** High-level languages are more expressive and easier to write in, but lower-level languages offer more control
-** Performance and maintainability tradeoffs
-*** Lower-level languages can offer better performance, but higher-level languages are often more maintainable
-** Interoperability between languages is important
-*** Different languages can be used together to create complex systems
-*** Communication between languages can be a challenge
-** Specialized languages and tools can improve productivity
-*** Domain-specific languages can simplify tasks in specific fields
-*** Integrated development environments and other tools can help automate tasks and improve workflows
-** Learning multiple languages can be beneficial
-*** Understanding different programming paradigms can broaden your perspective
-*** Familiarity with multiple languages can make you a more versatile programmer
+*[#darkblue] <i><color:#white>Definition
+**[#lightblue] <i><color #blac><size:14>The Language Pyramid is a conceptual model created by Ola Bini to describe the relationship between different programming languages based on their **level of abstraction and complexity.**
+*[#darkblue] =<i><color:#white>Levels\n<img:images/img_2.png>
+**[#lightblue] <i><color #blac><size:14>Assembly Language
+***[#green] <b><i><color #white><size:14>Lowest level of programming language that is still considered human-readable.
+**[#lightblue] <i><color #blac><size:14>Procedural Languages
+***[#green] <b><i><color #white><size:14>Languages that follow a step-by-step approach to programming.
+****[#yellow] <i><color #black><size:14>**Examples:** C, Fortran
+**[#lightblue] <i><color #blac><size:14>Object-Oriented Languages
+***[#green] <b><i><color #white><size:14>Languages that use objects to represent data and behavior.
+****[#yellow] <i><color #black><size:14>**Examples:** Java, C++
+**[#lightblue] <i><color #blac><size:14>Declarative Languages
+***[#green] <b><i><color #white><size:14>Languages that focus on describing the desired outcome \n<b><i><color #white><size:14>rather than the step-by-step process of achieving it.
+****[#yellow] <i><color #black><size:14>**Examples:** SQL, HTML
+**[#lightblue] <i><color #blac><size:14>Domain-Specific Languages
+***[#green] <b><i><color #white><size:14>Languages that are designed for specific tasks or domains.
+****[#yellow] <i><color #black><size:14>**Examples:** LaTeX, Make, XML, Kotlin DSL, Groovy DSL, Terraform DSL
+*[#darkblue] <i><color:#white>Pros and Cons
+**[#lightblue] <i><color #blac><size:14>Assembly Language
+***[#green] <i><color #white><size:14>**Pros:** Low-level control over hardware, high performance.
+***[#green] <i><color #white><size:14>**Cons:** Difficult to write and maintain, platform-specific.
+**[#lightblue] <i><color #blac><size:14>Procedural Languages
+***[#green] <i><color #white><size:14>**Pros:** Efficient and fast, good for low-level system programming.
+***[#green] <i><color #white><size:14>**Cons:** Code can become complex and hard to maintain, limited abstraction.
+**[#lightblue] <i><color #blac><size:14>Object-Oriented Languages
+***[#green] <i><color #white><size:14>**Pros:** Encapsulation and modularity, easy to reuse code.
+***[#green] <i><color #white><size:14>**Cons:** Overhead from object creation, potential performance issues.
+**[#lightblue] <i><color #blac><size:14>Declarative Languages
+***[#green] <i><color #white><size:14>**Pros:** Focus on outcomes, easy to read and understand.
+***[#green] <i><color #white><size:14>**Cons:** Limited control over the process, may be less efficient.
+**[#lightblue] <i><color #blac><size:14>Domain-Specific Languages
+***[#green] <i><color #white><size:14>**Pros:** Tailored to specific tasks, easy to use.
+***[#green] <i><color #white><size:14>**Cons:** May require specialized knowledge, limited flexibility.
+*[#darkblue] =<i><color:#white>Usage
+**[#lightblue] <i><color #blac><size:14>Choosing the appropriate language depends on the project requirements and constraints.
+**[#lightblue] <i><color #blac><size:14>Hybrid approaches can be used to combine the strengths of different language levels.
+**[#lightblue] <i><color #blac><size:14>Polyglot programming can be used to use different languages for different parts of the system.
+*[#darkblue] =<i><color:#white>Ola Bini's Perspective
+**[#lightblue] <i><color #blac><size:14>Language Pyramid can help developers understand the trade-offs and strengths of different language levels.
+**[#lightblue] <i><color #blac><size:14>There is no one-size-fits-all solution, and the best approach depends on the specific project.
+**[#gold] <i><color #blac><size:14>"Language design" should consider the benefits of "abstraction, modularity, and maintainability".
 
-* Definition
-** The Language Pyramid is a conceptual model created by Ola Bini to describe the relationship between different programming languages based on their **level of abstraction and complexity.**
-*[#pink] **Levels**
-** Assembly Language
-*** Lowest level of programming language that is still considered human-readable.
-** Procedural Languages
-*** Languages that follow a step-by-step approach to programming.
-**** Examples: C, Fortran
-** Object-Oriented Languages
-*** Languages that use objects to represent data and behavior.
-**** Examples: Java, C++
-** Declarative Languages
-*** Languages that focus on describing the desired outcome rather than the step-by-step process of achieving it.
-**** Examples: SQL, HTML
-** Domain-Specific Languages
-*** Languages that are designed for specific tasks or domains.
-**** Examples: LaTeX, Make, XML, Kotlin DSL, Groovy DSL, Terraform DSL
-* Pros and Cons
-** Assembly Language
-*** Pros: Low-level control over hardware, high performance.
-*** Cons: Difficult to write and maintain, platform-specific.
-** Procedural Languages
-*** Pros: Efficient and fast, good for low-level system programming.
-*** Cons: Code can become complex and hard to maintain, limited abstraction.
-** Object-Oriented Languages
-*** Pros: Encapsulation and modularity, easy to reuse code.
-*** Cons: Overhead from object creation, potential performance issues.
-** Declarative Languages
-*** Pros: Focus on outcomes, easy to read and understand.
-*** Cons: Limited control over the process, may be less efficient.
-** Domain-Specific Languages
-*** Pros: Tailored to specific tasks, easy to use.
-*** Cons: May require specialized knowledge, limited flexibility.
-* **Usage**
-** Choosing the appropriate language depends on the project requirements and constraints.
-** Hybrid approaches can be used to combine the strengths of different language levels.
-** Polyglot programming can be used to use different languages for different parts of the system.
-* **Ola Bini's Perspective**
-** Language Pyramid can help developers understand the trade-offs and strengths of different language levels.
-** There is no one-size-fits-all solution, and the best approach depends on the specific project.
-** **Language design should consider the benefits of abstraction, modularity, and maintainability.**
+*[#darkblue] <i><color:#white>System Based on Ola Bini's Language Pyramid\n<img:images/img_31.png><img:images/img_34.png>
 
-* System Based on Ola Bini's Language Pyramid
+**[#lightblue] <i><color #blac><size:14>Domain Layer
+***[#green] <b><i><color #white><size:14>SQL
+***[#green] <b><i><color #white><size:14>HTML/CSS, \tXML/YML
+***[#green] <b><i><color #white><size:14>Kotlin DSL, Groovy DSL, Terraform DSL, plumini, jenkins DSL
+***[#green] <b><i><color #white><size:14>R
+***[#green] <b><i><color #white><size:14>Julia
 
-** Domain Layer
-*** SQL
-*** HTML/CSS, \tXML/YML
-*** Kotlin DSL, Groovy DSL, Terraform DSL, plumini, jenkins DSL
-*** R
-*** Julia
+**[#lightblue] <i><color #blac><size:14>Dynamic Layer
+***[#green] <b><i><color #white><size:14>Python
+***[#green] <b><i><color #white><size:14>Ruby
+***[#green] <b><i><color #white><size:14>JavaScript
+***[#green] <b><i><color #white><size:14>Groovy
 
-** Dynamic Layer
-*** Python
-*** Ruby
-*** JavaScript
-*** Groovy
+**[#lightblue] <i><color #blac><size:14>Stable Layer
+***[#green] <b><i><color #white><size:14>C
+***[#green] <b><i><color #white><size:14>C++
+***[#green] <b><i><color #white><size:14>Java
+***[#green] <b><i><color #white><size:14>kotlin
 
-** Stable Layer
-*** C
-*** C++
-*** Java
-*** kotlin
-
-* Ola Bini's Language Pyramid
-** Domain Layer
-*** Domain-Specific Language (DSL)
-**** SQL for database manipulation
-**** Regular expressions for text processing
-*** Business Rules
-**** Rule-based languages such as Drools for decision making
-*** Industry-Specific Solutions
-**** MATLAB for mathematical modeling in engineering and science
-**** R for statistical analysis in data science
-** Dynamic Layer
-*** High-level Language
-**** Python for data analysis, web development, and automation
-**** Ruby for web development and scripting
-*** Interpreted Language
-**** JavaScript for web development and browser scripting
-**** Bash for system administration and automation
-*** Garbage-Collected Language
-**** Java for enterprise applications and Android development
-**** C# for Windows application development and game development
-** Stable Layer
-*** Low-level Language
-**** Assembly for embedded systems and system programming
-**** Rust for systems programming with memory safety
-*** Compiled Language
-**** C for system programming and operating systems
-**** C++ for game development and high-performance applications
-*** System Programming Language
-**** **Go** for **concurrent and network programming**
-**** Swift for iOS and macOS application development
+*[#darkblue] <i><color:#white>Ola Bini's Language Pyramid\n<img:images/img_6.png>
+**[#lightblue] <i><color #blac><size:14>Domain Layer
+***[#green] <b><i><color #white><size:14>Domain-Specific Language (DSL)
+****[#yellow] <i><color #black><size:14>SQL for database manipulation
+****[#yellow] <i><color #black><size:14>Regular expressions for text processing
+***[#green] <b><i><color #white><size:14>Business Rules
+****[#yellow] <i><color #black><size:14>Rule-based languages such as Drools for decision making
+***[#green] <b><i><color #white><size:14>Industry-Specific Solutions
+****[#yellow] <i><color #black><size:14>MATLAB for mathematical modeling in engineering and science
+****[#yellow] <i><color #black><size:14>R for statistical analysis in data science
+**[#lightblue] <i><color #blac><size:14>Dynamic Layer
+***[#green] <b><i><color #white><size:14>High-level Language
+****[#yellow] <i><color #black><size:14>Python for data analysis, web development, and automation
+****[#yellow] <i><color #black><size:14>Ruby for web development and scripting
+***[#green] <b><i><color #white><size:24>Interpreted Language
+****[#yellow] <i><color #black><size:14>JavaScript for web development and browser scripting
+****[#yellow] <i><color #black><size:14>Bash for system administration and automation
+***[#green] <b><i><color #white><size:14>Garbage-Collected Language
+****[#yellow] <i><color #black><size:14>Java for enterprise applications and Android development
+****[#yellow] <i><color #black><size:14>C# for Windows application development and game development
+**[#lightblue] <i><color #blac><size:14>Stable Layer
+***[#green] <b><i><color #white><size:14>Low-level Language
+****[#yellow] <i><color #black><size:14>Assembly for embedded systems and system programming
+****[#yellow] <i><color #black><size:14>Rust for systems programming with memory safety
+***[#green] <b><i><color #white><size:24>Compiled Language
+****[#yellow] <i><color #black><size:14>C for system programming and operating systems
+****[#yellow] <i><color #black><size:14>C++ for game development and high-performance applications
+***[#green] <b><i><color #white><size:14>System Programming Language
+****[#yellow] <i><color #black><size:14>**Golang** **"concurrent** and **network"** programming
+****[#yellow] <i><color #black><size:14>**Swift** for **iOS and macOS** application development
 
 @endmindmap
