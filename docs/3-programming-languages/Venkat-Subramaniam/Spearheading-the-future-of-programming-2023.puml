@@ -4,7 +4,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 
 *[#darkblue] <i>Spearheading the \n<i>future of programming
 **[#lightblue] <i><color #blac><size:14>Introduction
-***[#green]:<i><color #white><size:14>I program in about 15 different languages what I mean by that is I'm not good in any one of them but I love programming &  I started programming because of
+***[#green]:<i><color #white><size:14>I program in about **15 different languages** what I mean by that is I'm not good in any one of them but I love programming &  I started programming because of
 <i><color #white><size:14>the **love I had for Math, physics and Science** in general but <b>"35 years later I'm still a programmer"</b> because of the <b>art and programming that I see.;
 
 ***[#green]:<i><color #white><size:14>I will talk what do I want to see in programming languages as we move forward over the years as I programmed in multiple languages.
@@ -22,7 +22,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ****[#yellow] <i><color #black><size:14>Learning new <b>"programming Paradigm"</b> is hard <b>(takes more effort)
 ***[#green] <b><i><color #white><size:42>Paradigm Shift\n<img:images/img_40.png>\n<i><color #white><size:17>**Elon-MusK:** shared this "image" in <b>tweet
 ****[#yellow] <i><color #black><size:14><b>1st paradigm shift:</b> Procedural programming or <b>"algorithmic decomposition" of code (modules)
-*****[#darkorange] *<i><color #black><size:14><b>Time & Space complexity analysis</b>\n*<i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/Goal-of-the-data-structures-is-no-incidental-data-structures.puml Data-Structure]] + [[docs/books/1-books-backlog/data-structure-and-algorithm/Algorithms-Four-Principles-of-optimality.puml Algorithm]] = <color #green>Program</b>\n*<i><color #black><size:14><b>Good for <u>"decomposition"</b>\n*<i><color #black><size:14><b>"Pointer" is <u>"in-direction"</b>\n*<i><color #black><size:14><b>"Diagramming:" using <u>"flowchart"</b> is useful\n<i><color #black><size:14><b>    upto 5000-10000 instructions of code
+*****[#darkorange] *<i><color #black><size:14><b>Time & Space complexity analysis</b>\n*<i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/Goal-of-the-data-structures-is-no-incidental-data-structures.puml Data-Structure]] + [[docs/books/1-books-backlog/data-structure-and-algorithm/Algorithms-Four-Principles-of-optimality.puml Algorithm]] = <color #green>Program</b>\n*<i><color #black><size:14><b>Good for <u>"decomposition"</b>\n*<i><color #black><size:14><b>"Pointer" is <u>"in-direction"</b>\n*<i><color #black><size:14><b>"Diagramming:" using <u>"flowchart"</b> ; is useful\n<i><color #black><size:14>    upto **5000-10000** instructions of <b>code
 ****[#yellow] <i><color #black><size:14><b>2nd paradigm shift:</b> Object Oriented Programming or <b>"object decomposition" of code (modules)
 *****[#yellow] <i><color #black><size:14><b>OOA&D</b>\n*<i><color #black><size:14><b>Objects + Messages = <color #red>Program\n*<i><color #black><size:14><b>Good for "modeling"</b>\n*<i><color #black><size:14><b>"Runtime-Polymorphisim" is <u>"in-direction"</b>\n*<i><color #black><size:14><b>"Diagramming:" using <u>"UML" + "C4-model"</b>
 ******[#gold] <i><color #black><size:14><img:images/img_33.png{scale=0.65}>
@@ -62,7 +62,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 **<i><color #black><size:14><b>Reduce<b> function using reduce function helps</b> you land on the
 <i><color #black><size:14>**concrete** type from <b>abstract (stream);
 ****[#darkorange] <i><color #black><size:15><b>6th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Designing-Reactive-Systems.puml Reactive Programming or functional programming++]]
-*****[#yellow] <i><color #black><size:14>Is an <b>abstraction</b> on top of functional programming
+*****[#yellow] <i><color #black><size:14>Is an <b>abstraction</b> on top of functional programming\n***<i><color #green><size:14><b>"FRP" is good for "Time & concurrency" related problems.
 ****[#darkorange] <i><color #black><size:15><b>7th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Logic-Programming.puml Logic Programming]]
 *****[#yellow] <i><color #black><size:14><b>Facts + Rules = <color #red>Program</b> \n*<i><color #black><size:14><b>Good for "Searching"
 ******[#a] <i><color #black><size:14><b>E.g. "languages" like Prolog, & Datalog
