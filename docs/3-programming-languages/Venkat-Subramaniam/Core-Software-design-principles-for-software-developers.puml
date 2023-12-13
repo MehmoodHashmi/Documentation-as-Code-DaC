@@ -271,7 +271,8 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#yellow] <i><color #black><size:14>**Interface/Abstract class** has its own drawback
 ****[#yellow] <i><color #black><size:14>Use more **lambda expressions** as "implementors" of \n<i><color #black><size:14>the **interface/abstract classes** rather than using the \n<i><color #black><size:14>"anonymous inner classes" or "regular classes".
 **[#lightblue] <i><color #black><size:14>Keep "interfaces Cohesive" with \n<i><color #black><size:14>"Interface Segregation Principle"
-***[#green] <i><color #white><b><size:14>
+***[#green] <i><color #white><b><size:14>"Code" should not depend on "methods" it doesn't "use".
+****[#yellow] <i><color #black><size:14>The **goal** of the **ISP** is to reduce the side-effects of using large interfaces by breaking them into smaller, more specific interfaces.
 ****[#yellow] <i><color #black><size:14>Really is **"cohesion", "Single Responsibility Principle" (SRP)** \n<i><color #black><size:14>but at the <b>interface-level.
 **[#lightblue] <i><color #black><size:14>When to apply these principles?
 ***[#green] <i><color #white><b><size:18>2-Phases \n<i><color #white><b><size:18>of Design:
