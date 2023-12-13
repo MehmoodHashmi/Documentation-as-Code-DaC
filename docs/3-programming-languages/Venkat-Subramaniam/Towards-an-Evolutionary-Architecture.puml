@@ -81,7 +81,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ***[#darkorange] <i><color #black><size:14>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful
 ***[#yellow] <i><color #black><size:14>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
 **[#lightblue] <i><color #black><size:14>YAGNI
-**[#lightblue] <i><color #black><size:20>What about <color #white>"extensibility"?
+**[#lightblue] <i><color #black><size:20>What about <color #white>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml "extensibility"?]]
 ***[#green] <i><color #white><b><size:14>Two things you need to \n<i><color #white><b><size:14>make software extensible.
 ****[#yellow] *<i><color #black><size:14><b>Domain Knowledge
 ****[#yellow] *<i><color #black><size:14><b>Knowledge of software design & concerns

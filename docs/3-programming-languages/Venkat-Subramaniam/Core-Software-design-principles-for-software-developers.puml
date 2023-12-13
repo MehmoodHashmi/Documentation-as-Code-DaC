@@ -46,7 +46,7 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#yellow] <i><color #black><size:14><b>Easier to "understand"
 ****[#yellow] <i><color #black><size:14>Has few "moving parts" in it
 ****[#yellow] <i><color #black><size:14><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:14>but by avoiding those tasks that <b>should not be done in the first place.
-**[#lightblue] <i><color #black><size:24>Complexity\n<img:images/img_32.png>
+**[#lightblue] <i><color #black><size:24>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Complexity]]\n<img:images/img_32.png>
 ***[#green] <i><color #white><size:14><b>Inherent or Essential
 ****[#yellow] <i><color #black><size:14>is from the **problem domain,** you can't minimize it. When dealing with the **problem;** there are **"complexities"** \n<i><color #black><size:14>of the **problem** that you 've to deal with. And this is the "nature of the application" and **nature** of the <b>domain.
 ****[#yellow] <i><color #black><size:14>Fortunately, on daily basis we 've to deal more with the <b>accidental "complexities"</b> than <b>inherent "complexities"
