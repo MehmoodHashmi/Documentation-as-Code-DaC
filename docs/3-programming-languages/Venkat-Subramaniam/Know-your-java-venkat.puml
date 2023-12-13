@@ -32,7 +32,7 @@ title =<b><i><u>Know Your Java
 ***[#green] <size:22><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Streams.puml Stream]]
 ****[#yellow] <size:14><color #black><i>map, filter, reduce
 ****[#yellow] <size:14><color #black><i><b>teeing():</b> lets you "split" the "stream" into "multiple streams" based on the condition
-*****[#gold] <size:14><color #black><i><img:images/img_4.png> <img:images/img_5.png>
+*****[#gold] <size:14><color #black><i><img:images/img_4.png> <img:images/img_5.png{scale=0.58}>
 ****[#yellow] <size:14><color #black><i>In languages like "Java, C# & python" the execution of "stream" is always <b>lazy
 ****[#yellow] <size:14><color #black><i>In languages like "Kotlin & Scala" you can choose the execution of "stream" is <b>lazy or eager
 ****[#yellow] <size:14><color #black><i>In languages like "Javascript" the execution of "stream" is <b>eager</b> all the time unless the you use 3rd party libraries libraries

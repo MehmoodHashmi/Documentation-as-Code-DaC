@@ -97,7 +97,7 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 *<i><color #black><size:14>Depending on an<b> interface</b> is <b>"loose" coupling;
 ***[#green] <i><color #white><b><size:14>High Cohesion & Coupling
 ****[#yellow] <i><color #black><size:14><b>"Good design" has "high cohesion" & "low Coupling"
-***[#green] <i><color #white><b><size:14><img:images/img_42.png>\n<i><color #white><b><size:18>The spectrum of "contract types" from "strict to lose"\n<img:images/img_46.png>
+***[#green] <i><color #white><b><size:14><img:images/img_42.png{scale=0.935}>\n<i><color #white><b><size:18>The spectrum of "contract types" from "strict to lose"\n<img:images/img_46.png>
 ****[#yellow]:<i><color #black><size:14>**How do yo decouple one module from another?** That depends on the **level of decoupling you need.** Sometimes simply extracting code
 <i><color #black><size:14>into a separate function is enough. More often, it's better to move all the **related code** into a **separate class** & even a separate **source file.**
 <i><color #black><size:14>And in extreme cases, you want to put those classes behind <b>polymorphic interfaces.;
@@ -138,18 +138,18 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 *<i><color #black><size:14>requires <b>recompilation & static linking
 *<i><color #black><size:14>"components" are delivered as <b>source code
 *<i><color #black><size:14>function calling is on "same" <b>processor & address space;
-******[#yellow] <i><color #black><size:14><img:images/img_48.png> <img:images/img_53.jpg> <img:images/img_49.png>
+******[#yellow] <i><color #black><size:14><img:images/img_48.png> <img:images/img_53.jpg{scale=0.89}> <img:images/img_49.png{scale=0.72}>
 ****[#darkorange] <i><color #black><size:14>**2- Deployment**\n<i><color #black><size:14><b>component boundary
 *****[#yellow]:*<i><color #black><size:14>**Communication** through <b>function calling
 *<i><color #black><size:14>**Communication** is <b>fast & inexpensive
 *<i><color #green><size:14>requires <b>no recompilation & supports dynamic linking
 **<i><color #green><size:14>**changes** to the **"source code"** in one **module/class** don't
-<i><color #green><size:14>     force others to be <b>rebuilt & redoplyed.
+<i><color #green><size:14>     force others to be <b>rebuilt & redeployed.
 *<i><color #green><size:14>"components" are delivered as <b>.Jar, DLL, .class files in java
 *<i><color #black><size:14>function calling is on "same" <b>processor & address space;
-******[#yellow] <i><color #black><size:14><img:images/img_47.png>    <img:images/img_50.png>
+******[#yellow] <i><color #black><size:14><img:images/img_47.png>    <img:images/img_50.png{scale=0.9}>
 *******[#a]:<i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Modularity]]** decreases the **model-code gap** & increases <b>"abstraction"
-<img:images/img_53.png>
+<img:images/img_53.png{scale=0.8}>
 <i><color #black><size:14>Still **cost is higher** because you 've to know about <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg modularity]] click me;
 ****[#darkorange] <i><color #black><size:14>**3- Thread boundary**
 *****[#yellow] <i><color #black><size:14>are not boundaries both **source code dependencies & deployment component boundary** can make use of <b>threads.
@@ -297,7 +297,7 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****<i><color #black><size:14>What is the **"responsibility"** of the "class" I'm <b>designing?
 ****<i><color #black><size:14>If I **"use"** this particular **"code"**, am I going to **violate (OCP)** here?
 ****<i><color #black><size:14>Should I really "use" **DIP** to gain access & **test** this <b>code?
-<img:images/img_44.png>;
+<img:images/img_44.png{scale=0.81}>;
 ****[#gold] <i><color #black><size:14>**3-** Micheal Feathers: said In "OOP" we **"encapsulate"** the **"moving parts"**, in "FP" we **"eliminate"** the <b>"moving parts"
 **[#lightblue] <i><color #black><size:14>Summary
 

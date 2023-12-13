@@ -64,9 +64,9 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#yellow] <i><color #black><size:14><b>E.g.</b> Databases (SQL or NoSQL) etc.
 ***[#yellow] <i><color #black><size:14>Like **"Rewrite"** java app in go-lang or C# or python, this is difficult, time consuming & hard to <b>reverse.
 ***[#yellow] <i><color #black><size:14>The more you are couple to a decision the harder it is to reverse, introduce **indirection** to increase <b>reversibility.
-***[#yellow] <i><color #black><size:14>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.\n*<b><i><color #black><size:14>Why don't we postpone?\n**<b><i><color #green><size:14>Because we are afraid!\n*<b><i><color #black><size:14>If you want to "postpone" we need to 've good "automated testing". (TDD)\n<img:images/img_43.png>
+***[#yellow] <i><color #black><size:14>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.\n*<b><i><color #black><size:14>Why don't we postpone?\n**<b><i><color #green><size:14>Because we are afraid!\n*<b><i><color #black><size:14>If you want to "postpone" we need to 've good "automated testing". (TDD)\n<img:images/img_43.png{scale=1}>
 ****[#gold] *<i><color #black><size:14>**Low code coverage** means **bad code design** \n*<i><color #black><size:14>**High code coverage** does not <b>mean anything
-****[#gold] <i><color #black><size:14><img:images/img_35.png>
+****[#gold] <i><color #black><size:14><img:images/img_35.png{scale=0.7}>
 ****[#gold] <i><color #black><size:14>Machine Learning <b>"Model" "Testing"\n<i><color #black><size:14>is different than <b>(TDD)</b> that is:\n<i><color #black><size:14>**1-** Prediction\n<i><color #black><size:14>**2-** Pattern recognition\n<i><color #black><size:14>**3-** Optimization & decision making
 ***[#yellow] <i><color #black><size:14>Database decisions, libraries and frameworks decisions etc.
 ***[#yellow] <i><color #black><size:14>**Prototyping** is helpful
@@ -89,7 +89,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ***[#green] <i><color #white><b><size:14>Communicating across systems
 ****[#gold] *<i><color #black><size:18>True in **microservices** world
 ****[#yellow] *<i><color #black><size:18><b>Postel's law says:</b> be very  <b>generous</b> about what you <b>receive\n<i><color #black><size:18>& be very <b>conservative</b> about what you <b>send\n<img:images/img_28.png>\n<i><color #black><size:14>So as long as I can **iterate** over your **collection** it does not what is the **type** of your <b>collection.\n<i><color #black><size:14>In other words, don't make your <b>interface brittle.
-**[#lightblue] <i><color #black><size:22>Reuse <size:14>\t\t\t(Modularity patterns)\n<img:images/img_41.png>
+**[#lightblue] <i><color #black><size:22>Reuse <size:14>\t(Modularity patterns)\n<img:images/img_41.png{scale=0.7}>
 ***[#green] <i><color #white><b><size:14>Grady Booch Says:
 ****[#gold] *<i><color #black><size:18><b>First make the system "usable" then make the system <color #green>"reusable"
 ****[#yellow] *<i><color #black><size:18><b>To make a piece of the system/software "reusable" it has to be very<color #red> "generic"
@@ -100,7 +100,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#darkorange] <i><color #black><size:18>**Physical design** (.jar) impacts <color #white><b>"re-usability & usability"
 **[#lightblue]:<i><color #black><size:18>Minimize libraries & frameworks
 ==<i><color #black><size:14>Minimizing frameworks. How?==
-<img:images/img_31.png><img:images/img_34.png>
+<img:images/img_31.png{scale=0.84}> <img:images/img_34.png>
 ==<i><color #black><size:14>Minimizing Libraries. How?==
 <img:images/img_56.jpg>
 <i><color #black><size:15>"interfaces" minimizes the "surface area" of "coupling code" & ease's replacing "library";

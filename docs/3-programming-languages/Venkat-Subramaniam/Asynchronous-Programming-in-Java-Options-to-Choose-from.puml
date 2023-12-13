@@ -13,9 +13,9 @@ title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Ve
 ***[#green] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Parallel vs Concurrent]] click gif
 ****[#yellow] <i><color #black><size:14>Think about **execution.** In what **sequence** code gets <b>executed?
 ****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Concurrency-and-Parallelism/Parallelism.puml Parallel:]]</b> I can walk & talk in parallel
-*****[#a] <i><color #black><size:14><img:gif/img_2.png>
+*****[#a] <i><color #black><size:14><img:gif/img_2.png{scale=0.7}>
 ****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Concurrency-and-Parallelism/Concurrency.puml Concurrent:]]</b> I can either drink or talk but not both simultaneously
-*****[#a] <i><color #black><size:14><img:gif/img_3.png>
+*****[#a] <i><color #black><size:14><img:gif/img_3.png{scale=0.7}>
 ****[#yellow] <i><color #black><size:14><b>Resources (CPU/GPU/TPU cores) & RAM:</b> usually put restrictions/limitations on which one we can use
 ****[#a] <i><color #black><size:14><b>Java-1.0:</b> had <b>[[docs/3-programming-languages/Venkat-Subramaniam/Threads.puml Threads]]</b> (light weight), but sooner realized its drawback
 ****[#yellow] <i><color #black><size:14><b>Java-5.0:</b> had <b>Executors.</b> Don't keep creating threads all over the place its bad idea. Instead create pools of threads & schedule tasks on the pool\n*<i><color #black><size:18>In both life & programming we solve a set of problems only to realize we have now created a new set of problems\n*<i><color #black><size:18>Executors ended up into "pool induced deadlocks". <b>It was annoying!
@@ -49,14 +49,14 @@ title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Ve
 * <i><color #black><size:14>"<b>Resolved</b> (terminal state) when green in this state it does not changes anymore
 * <i><color #black><size:14>"<b>Rejected</b> (terminal state) when green in this state it does not changes anymore;
 ****[#yellow]:<i><color #black><size:14><b>Railway track pattern
-<img:images/img_11.png>
+<img:images/img_11.png{scale=0.8}>
 *<i><color #black><size:14><b>Upper track is "Data Stream"
 *<i><color #black><size:14><b>Lower track is "Error Stream";
 *****[#yellow]:*<i><color #black><size:14><b>If all is well, you keep moving on the top upper track.
 *<i><color #black><size:14><b>If there is a failure, you go down to the lower track.
 *<i><color #black><size:14><b>If you recover from the failure, you are back on the upper track
-<img:images/img_12.png>;
-****[#yellow] <i><color #black><size:14><img:images/img_13.png>
+<img:images/img_12.png{scale=0.8}>;
+****[#yellow] <i><color #black><size:14><img:images/img_13.png{scale=0.8}>
 **[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/Continuation-and-Coroutines.puml Continuations & Coroutines]]
 ***[#green] <b><i><color #white><size:14>In Kotlin
 ***[#green] <b><i><color #white><size:14>Subroutines

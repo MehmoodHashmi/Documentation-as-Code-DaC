@@ -22,11 +22,11 @@ title = <b><i><u>Imperative vs Functional: Which one to Choose?
 <size:18><color #white><i>should remain "simple", and things that are complex should be "manageable".
 
 <b><size:18><color #white><i>Example:
-<img:images/img_3.png>;
+<img:images/img_3.png{scale=1}>;
 
 **[#lightblue] <i>Declarative Style
 ***[#green] <size:14><color #white><i> You tell **what** to do **but not** how to do it
-***[#green] <b><size:14><color #white><i> example \n<img:images/img_2.png>
+***[#green] <b><size:14><color #white><i> example \n<img:images/img_2.png{scale=0.8}>
 
 **[#lightblue] <size:22><i>[[docs/3-programming-languages/Venkat-Subramaniam/Streams.puml Functional Style\n(Streams)]]
 ***[#green] <b><size:18><color #white><i> Declarative Style + <color :darkorange>Higher Order Functions
@@ -36,8 +36,8 @@ title = <b><i><u>Imperative vs Functional: Which one to Choose?
 
 ****[#yellow]:<b><i><size:14>Much like how we pass data, we can pass the code or functions around. These functions
 <b><i><size:14>that can either receive or return function are called <color :black> "Higher Order Functions";
-***[#green] <size:18><color #white><i> <color :white>"Flows" like "problem statement", has "less complexity" \n\n<b><size:18><color #white><i> example\n<img:images/img.png>
-****[#yellow] <size:14><color #black><i><b>Parallel code execution\n<img:images/img_1.png>
+***[#green] <size:18><color #white><i> <color :white>"Flows" like "problem statement", has "less complexity" \n\n<b><size:18><color #white><i> example\n<img:images/img.png{scale=0.92}>
+****[#yellow] <size:14><color #black><i><b>Parallel code execution\n<img:images/img_1.png{scale=0.8}>
 *****[#yellow] <size:14><color #black><i>__Sharing variables__ is not bad <b>(if encapsulated)
 *****[#yellow] <size:14><color #black><i>__Mutating variables__ is not bad either <b>(if encapsulated)
 *****[#yellow] <size:14><color #black><i>But __Sharing + Mutating variables__ = bad approach <b>(Devils work)

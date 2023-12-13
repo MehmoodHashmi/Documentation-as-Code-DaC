@@ -23,7 +23,7 @@ title =<i><b><u>Threads in Java
 ****[#yellow] <i><color #black><size:14>Implementing the run() method.
 ***[#green] <b><i><color #white><size:14>Executor Framework
 ****[#yellow] <i><color #black><size:14>Managing thread creation and execution.
-**[#lightblue] <i><color #blac><size:14>Thread States\n<img:images/img_14.png>
+**[#lightblue] <i><color #blac><size:14>Thread States\n<img:images/img_14.png{scale=0.75}>
 ***[#green] <b><i><color #white><size:14>New
 ****[#yellow] <i><color #black><size:14>Newly created thread, not yet started.
 ***[#green] <b><i><color #white><size:14>Runnable

@@ -30,7 +30,7 @@ title =<i><b><u>Exception Handling in Functional and Reactive Programming\nDr.Ve
 ***[#yellow]:<i><color #black><size:14>You don't have the luxury of "throwing" <b>exceptions in a functional pipeline.</b> "Think" <b>stream</b> as a <b>pipeline</b> which is what you have in the
 <i><color #black><size:14>image, here as a <b>pipeline</b> and you're <b>near in the middle of the pipeline.</b> If you have an <b>"exception"</b> you don't want to
 <i><color #black><size:14><b>"blow up your pipeline" </b>& then exit.
-<img:images/img_20.png>
+<img:images/img_20.png{scale=0.6}>
 <i><color #black><size:15>Because in <b>functional programming</b> unlike an <b>imperative style of programming</b> you don't have the <b>stack</b> the same way
 <i><color #black><size:14>as you do in an <b>imperative style of programming.</b> In an <b>imperative style</b> you <b>call a function, which calls a function, which calls
 <i><color #black><size:14><b>a function</b> and you have the luxury of <b>throwing your exception back to a caller to handle it.</b> There is no sequence of caller waiting
@@ -50,7 +50,7 @@ title =<i><b><u>Exception Handling in Functional and Reactive Programming\nDr.Ve
 ***[#yellow] <i><color #black><size:14>Treat <b>"Errors"</b> as form of <b>"Data",</b> deal with it <b>down stream
 ****[#Gold]:<i><color #black><size:14>But the <b>FP code</b> now is <b>less cohesive</b> than it was before
 ====
-<img:images/img_21.png>
+<img:images/img_21.png{scale=0.65}>
 ====
 <i><color #black><size:14>The <b>simplicity, clarity,</b> the ease are much lower with this than when
 <i><color #black><size:14>we deal with <b>pure functions</b> that do not throw any <b>exceptions.
@@ -60,7 +60,7 @@ title =<i><b><u>Exception Handling in Functional and Reactive Programming\nDr.Ve
 ****[#Gold] <i><color #black><size:14>How do we deal with <b>multiple levels of exceptions?
 ***[#yellow] <i><color #black><size:14><b>Callable API:</b> deals with <b>exceptions
 ***[#yellow] <i><color #black><size:14><b>Supplier API:</b> deals with <b>no exceptions
-***[#yellow] <i><color #black><size:14><b>RxJava API:</b> here "pipeline" is <b>cohesive</b> but when "error is thrown"\n<i><color #black><size:14>then <b>stream will be closed.</b> So, no more <b>processing. It's bad!\n<img:images/img_22.png>
+***[#yellow] <i><color #black><size:14><b>RxJava API:</b> here "pipeline" is <b>cohesive</b> but when "error is thrown"\n<i><color #black><size:14>then <b>stream will be closed.</b> So, no more <b>processing. It's bad!\n<img:images/img_22.png{scale=1.0}>
 ****[#Gold] <i><color #black><size:14><b>RxJava API:</b> provides yet another way to do <b>exception handling
 ***[#green] <i><color #red><size:22><b>[[Exception-Handling-in-haskell-and-scala.puml Haskell & Scala way]] to handle the exception
 @endmindmap
