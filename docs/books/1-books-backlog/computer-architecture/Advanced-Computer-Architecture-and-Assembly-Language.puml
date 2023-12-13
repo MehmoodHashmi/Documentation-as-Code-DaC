@@ -1,80 +1,80 @@
 @startmindmap
-title = __Advanced Computer Architecture and Assembly Language__
+title =<i><b><u>Advanced Computer Architecture and Assembly Language
+!theme hacker
 
-* Advanced Computer Architecture and Assembly Language
+*[#darkblue] <i>Advanced Computer Architecture and Assembly Language
+**[#lightblue] <i><color #blac><size:14>Computer Architecture
+***[#green] <b><i><color #white><size:14>Pipelining
+****[#yellow] <i><color #black><size:14>Stages
+****[#yellow] <i><color #black><size:14>Hazards
+****[#yellow] <i><color #black><size:14>Techniques for resolving hazards
+***[#green] <b><i><color #white><size:14>Superscalar architecture
+****[#yellow] <i><color #black><size:14>Hardware-based instruction-level parallelism
+****[#yellow] <i><color #black><size:14>Multiple instructions executed simultaneously
+***[#green] <b><i><color #white><size:14>Cache memory
+****[#yellow] <i><color #black><size:14>Cache organization
+****[#yellow] <i><color #black><size:14>Cache replacement policies
+****[#yellow] <i><color #black><size:14>Cache coherence
+***[#green] <b><i><color #white><size:14>Memory hierarchy
+****[#yellow] <i><color #black><size:14>Memory types
+****[#yellow] <i><color #black><size:14>Addressing modes
+****[#yellow] <i><color #black><size:14>Virtual memory
+****[#yellow] <i><color #black><size:14>Page replacement policies
+***[#green] <b><i><color #white><size:14>Multiprocessor systems
+****[#yellow] <i><color #black><size:14>Shared memory
+****[#yellow] <i><color #black><size:14>Distributed memory
+****[#yellow] <i><color #black><size:14>Cache coherence
+****[#yellow] <i><color #black><size:14>Interconnection networks
+***[#green] <b><i><color #white><size:14>Input/output systems
+****[#yellow] <i><color #black><size:14>DMA
+****[#yellow] <i><color #black><size:14>Interrupts
+****[#yellow] <i><color #black><size:14>I/O ports
+****[#yellow] <i><color #black><size:14>Memory-mapped I/O
+***[#green] <b><i><color #white><size:14>RISC vs. CISC architectures
+****[#yellow] <i><color #black><size:14>Characteristics of RISC and CISC architectures
+****[#yellow] <i><color #black><size:14>Advantages and disadvantages of each architecture
+***[#green] <b><i><color #white><size:14>Instruction set architecture
+****[#yellow] <i><color #black><size:14>Instruction formats
+****[#yellow] <i><color #black><size:14>Addressing modes
+****[#yellow] <i><color #black><size:14>Assembly language programming
+****[#yellow] <i><color #black><size:14>Microprogramming
 
-** Computer Architecture
-*** Pipelining
-**** Stages
-**** Hazards
-**** Techniques for resolving hazards
-*** Superscalar architecture
-**** Hardware-based instruction-level parallelism
-**** Multiple instructions executed simultaneously
-*** Cache memory
-**** Cache organization
-**** Cache replacement policies
-**** Cache coherence
-*** Memory hierarchy
-**** Memory types
-**** Addressing modes
-**** Virtual memory
-**** Page replacement policies
-*** Multiprocessor systems
-**** Shared memory
-**** Distributed memory
-**** Cache coherence
-**** Interconnection networks
-*** Input/output systems
-**** DMA
-**** Interrupts
-**** I/O ports
-**** Memory-mapped I/O
-*** RISC vs. CISC architectures
-**** Characteristics of RISC and CISC architectures
-**** Advantages and disadvantages of each architecture
-*** Instruction set architecture
-**** Instruction formats
-**** Addressing modes
-**** Assembly language programming
-**** Microprogramming
-
-** Assembly Language
-*** Data types
-**** Integer
-**** Floating-point
-**** Character
-**** Boolean
-**** Strings
-*** Operators
-**** Arithmetic
-**** Logical
-**** Comparison
-**** Bitwise
-**** Assignment
-*** Control Structures
-**** Branching
-**** Conditional statements
-**** Loops
-**** Subroutines
-**** Interrupts
-*** Procedures
-**** Calling conventions
-**** Parameter passing
-**** Local and global variables
-**** Recursion
-**** Exception handling
-*** Macros
-**** Definition and invocation
-**** Macro expansion
-**** Macro libraries
-*** Linking and Loading
-**** Object files
-**** Linking process
-**** Loading process
-*** Debugging
-**** Debugging tools
-**** Debugging techniques
-**** Tracing and profiling
+**[#lightblue] <i><color #blac><size:14>Assembly Language
+***[#green] <b><i><color #white><size:14>Data types
+****[#yellow] <i><color #black><size:14>Integer
+****[#yellow] <i><color #black><size:14>Floating-point
+****[#yellow] <i><color #black><size:14>Character
+****[#yellow] <i><color #black><size:14>Boolean
+****[#yellow] <i><color #black><size:14>Strings
+***[#green] <b><i><color #white><size:14>Operators
+****[#yellow] <i><color #black><size:14>Arithmetic
+****[#yellow] <i><color #black><size:14>Logical
+****[#yellow] <i><color #black><size:14>Comparison
+****[#yellow] <i><color #black><size:14>Bitwise
+****[#yellow] <i><color #black><size:14>Assignment
+***[#green] <b><i><color #white><size:14>Control Structures
+****[#yellow] <i><color #black><size:14>Branching
+****[#yellow] <i><color #black><size:14>Conditional statements
+****[#yellow] <i><color #black><size:14>Loops
+****[#yellow] <i><color #black><size:14>Subroutines
+****[#yellow] <i><color #black><size:14>Interrupts
+***[#green] <b><i><color #white><size:14>Procedures
+****[#yellow] <i><color #black><size:14>Calling conventions
+****[#yellow] <i><color #black><size:14>Parameter passing
+****[#yellow] <i><color #black><size:14>Local and global variables
+****[#yellow] <i><color #black><size:14>Recursion
+****[#yellow] <i><color #black><size:14>Exception handling
+***[#green] <b><i><color #white><size:14>Macros
+****[#yellow] <i><color #black><size:14>Definition and invocation
+****[#yellow] <i><color #black><size:14>Macro expansion
+****[#yellow] <i><color #black><size:14>Macro libraries
+***[#green] <b><i><color #white><size:14>Linking and Loading
+****[#yellow] <i><color #black><size:14>Object files
+****[#yellow] <i><color #black><size:14>Linking process
+****[#yellow] <i><color #black><size:14>Loading process
+***[#green] <b><i><color #white><size:14>Debugging
+****[#yellow] <i><color #black><size:14>Debugging tools
+****[#yellow] <i><color #black><size:14>Debugging techniques
+****[#yellow] <i><color #black><size:14>Tracing and profiling
 
 @endmindmap

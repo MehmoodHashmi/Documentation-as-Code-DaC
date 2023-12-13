@@ -1,46 +1,47 @@
 @startmindmap
-title =__ Computer Architecture and Assembly Language__
+title =<i><b><u>Computer Architecture and Assembly Language
+!theme hacker
 
-* Computer Architecture and Assembly Language
-** Computer Architecture
-*** CPU
-**** ALU
-**** Control Unit
-**** Registers
-**** Instruction Set Architecture
-*** Memory
-**** RAM
-**** ROM
-**** Cache
-*** Input/Output
-**** Devices
-**** Interrupts
-** Assembly Language
-*** Syntax
-**** Registers
-**** Addressing Modes
-**** Instructions
-*** Programming
-**** Control Structures
-**** Data Types
-**** Procedures
-** Machine Language
-*** Binary Representation
-*** Instruction Set
-*** Programming
-**** Assembly to Machine
-**** Machine to Assembly
-** System Software
-*** Operating Systems
-*** Device Drivers
-*** Assemblers
-*** Linkers
-*** Loaders
-*** Debuggers
-** Performance Optimization
-*** Pipelining
-*** Caching
-*** Parallelism
-*** Instruction-Level Parallelism
-*** Thread-Level Parallelism
+*[#darkblue] <i>Computer Architecture and Assembly Language
+**[#lightblue] <i><color #blac><size:14>Computer Architecture
+***[#green] <b><i><color #white><size:14>CPU
+****[#yellow] <i><color #black><size:14>ALU
+****[#yellow] <i><color #black><size:14>Control Unit
+****[#yellow] <i><color #black><size:14>Registers
+****[#yellow] <i><color #black><size:14>Instruction Set Architecture
+***[#green] <b><i><color #white><size:14>Memory
+****[#yellow] <i><color #black><size:14>RAM
+****[#yellow] <i><color #black><size:14>ROM
+****[#yellow] <i><color #black><size:14>Cache
+***[#green] <b><i><color #white><size:14>Input/Output
+****[#yellow] <i><color #black><size:14>Devices
+****[#yellow] <i><color #black><size:14>Interrupts
+**[#lightblue] <i><color #blac><size:14>Assembly Language
+***[#green] <b><i><color #white><size:14>Syntax
+****[#yellow] <i><color #black><size:14>Registers
+****[#yellow] <i><color #black><size:14>Addressing Modes
+****[#yellow] <i><color #black><size:14>Instructions
+***[#green] <b><i><color #white><size:14>Programming
+****[#yellow] <i><color #black><size:14>Control Structures
+****[#yellow] <i><color #black><size:14>Data Types
+****[#yellow] <i><color #black><size:14>Procedures
+**[#lightblue] <i><color #blac><size:14>Machine Language
+***[#green] <b><i><color #white><size:14>Binary Representation
+***[#green] <b><i><color #white><size:14>Instruction Set
+***[#green] <b><i><color #white><size:14>Programming
+****[#yellow] <i><color #black><size:14>Assembly to Machine
+****[#yellow] <i><color #black><size:14>Machine to Assembly
+**[#lightblue] <i><color #blac><size:14>System Software
+***[#green] <b><i><color #white><size:14>Operating Systems
+***[#green] <b><i><color #white><size:14>Device Drivers
+***[#green] <b><i><color #white><size:14>Assemblers
+***[#green] <b><i><color #white><size:14>Linkers
+***[#green] <b><i><color #white><size:14>Loaders
+***[#green] <b><i><color #white><size:14>Debuggers
+**[#lightblue] <i><color #blac><size:14>Performance Optimization
+***[#green] <b><i><color #white><size:14>Pipelining
+***[#green] <b><i><color #white><size:14>Caching
+***[#green] <b><i><color #white><size:14>Parallelism
+***[#green] <b><i><color #white><size:14>Instruction-Level Parallelism
+***[#green] <b><i><color #white><size:14>Thread-Level Parallelism
 @endmindmap

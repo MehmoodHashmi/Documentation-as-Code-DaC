@@ -37,8 +37,8 @@ title =<b><i>Operating Systems\n<img:images/img_11.png> <img:images/img_3.png{sc
 **[#lightblue] <b><color #black><i><size:14>Thread Management
 ***[#green] <b><color #white><i><size:14>Thread Scheduling
 ***[#green] <b><color #white><i><size:14>Thread Synchronization
-***[#gold] <b><color #black><i><size:14>Thread Block Storage (TBS):
-****[#yellow] <color #black><i><size:14><b>is a data-structure, something like "Process Control Block"
+***[#gold] <b><color #black><i><size:14>Thread Local Storage (TLS):\n<img:images/img_14.png{scale=.4}> <img:images/img_15.png{scale=.61}>
+****[#yellow] <color #black><i><size:14><b>is a data-structure, something \n<color #black><i><size:14><b>like "Process Control Block"
 **[#lightblue] <b><color #black><i><size:14>Deadlock and Starvation
 *[#darkblue] <color #white><i>Memory Management\n<img:images/img_4.png{scale=0.65}>\n\n<img:images/img_13.png{scale=0.79}>
 **[#lightblue] <b><color #black><i><size:14>Memory Hierarchy\n<img:images/img_10.png{scale=0.8}>
@@ -61,7 +61,7 @@ title =<b><i>Operating Systems\n<img:images/img_11.png> <img:images/img_3.png{sc
 ****[#yellow] <color #black><i><size:14>Best-Fit Algorithm
 ****[#yellow] <color #black><i><size:14>Worst-Fit Algorithm
 ****[#yellow] <color #black><i><size:14>Buddy Algorithm
-**[#lightblue] <b><color #black><i><size:14>Memory Paging\n<img:images/img_6.png{scale=0.85}>
+**[#lightblue] <b><color #black><i><size:14>[[docs/books/1-books-backlog/computer-architecture/7-COAL.puml Memory Paging]]\n<img:images/img_6.png{scale=0.85}>
 ***[#green] <b><color #white><i><size:14>Page Replacement Algorithms
 ****[#yellow] <color #black><i><size:14>FIFO Algorithm
 ****[#yellow] <color #black><i><size:14>Optimal Algorithm
