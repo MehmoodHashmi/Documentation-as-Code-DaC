@@ -299,6 +299,6 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****<i><color #black><size:14>Should I really "use" **DIP** to gain access & **test** this <b>code?
 <img:images/img_44.png{scale=0.81}>;
 ****[#gold] <i><color #black><size:14>**3-** Micheal Feathers: said In "OOP" we **"encapsulate"** the **"moving parts"**, in "FP" we **"eliminate"** the <b>"moving parts"
-**[#lightblue] <i><color #black><size:14>Summary
+**[#lightblue] <i><color #black><size:14>Summary [[docs/3-programming-languages/Venkat-Subramaniam/images/img_55.png click me]]\n<img:images/img_55.png{scale=.16}>
 
 @endmindmap
