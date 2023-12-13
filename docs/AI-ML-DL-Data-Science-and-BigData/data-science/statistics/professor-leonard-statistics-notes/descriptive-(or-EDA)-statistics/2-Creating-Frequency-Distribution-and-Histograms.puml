@@ -12,13 +12,13 @@ title =//**__Creating Frequency Distribution and Histograms__**//
 
 * =**Frequency Distribution**
 ** **Definition:** A  __list of values__ with corresponding **frequencies**
-** **Class Width:** Difference between two **"lower class limits"**\n<img:images/img_5.png>
+** **Class Width:** Difference between two **"lower class limits"**\n<img:images/img_5.png{scale=.7}>
 *** **"lower class limit":** smallest value belonging to a __class__ **(group)**
 *** **"Upper class limit":** largest value belonging to a __class__ **(group)**
 ** **Steps:** on how to do this (frequency distribution)?
 ***:**Step-1** Determine the number of **classes** (groups)
 **Step-2** Determine your **class width**
-<img:images/img.png>
+<img:images/img.png{scale=.7}>
 In the **image** the original answer was **2.9** but we
 had **rounded up to 3.** why because in statistic
 we often **round up.**
@@ -27,17 +27,17 @@ case it's **18.5**.
 **Step-4** Create classes using the **class width** = 3
 create the lower class limits first!;
 
-**** **Example:** \n<img:images/img_1.png>
-***** **Example:** \n<img:images/img_6.png>
-** =Class midpoint: \n<img:images/img_2.png>
-** **Class boundaries:** used to separate our classes without gaps\n<img:images/img_4.png>
-** =Relative (frequency distribution): \nwill give you a percentage\n<img:images/img_3.png>
-** **Cumulative (frequency distribution):** Adds sequential classes together\n<img:images/img_7.png>
-** **Normal Data/distribution:** \n<img:images/img_8.png>
-*** **Not Normal Data/distribution:** \n<img:images/img_9.png>
-**** **Not Normal Data/distribution:** \n<img:images/img_10.png>
+**** **Example:** \n<img:images/img_1.png{scale=.7}>
+***** **Example:** \n<img:images/img_6.png{scale=.7}>
+** =Class midpoint: \n<img:images/img_2.png{scale=.7}>
+** **Class boundaries:** used to separate our classes without gaps\n<img:images/img_4.png{scale=.7}>
+** =Relative (frequency distribution): \nwill give you a percentage\n<img:images/img_3.png{scale=.7}>
+** **Cumulative (frequency distribution):** Adds sequential classes together\n<img:images/img_7.png{scale=.7}>
+** **Normal Data/distribution:** \n<img:images/img_8.png{scale=.7}>
+*** **Not Normal Data/distribution:** \n<img:images/img_9.png{scale=.7}>
+**** **Not Normal Data/distribution:** \n<img:images/img_10.png{scale=.7}>
 
-* =**Histogram**\n<img:images/img_11.png>
+* =**Histogram**\n<img:images/img_11.png{scale=.7}>
 ** =touching bar chart
 ***[#pink] **Horizontal:** here put class midpoints or boundaries
 ***[#pink] **Vertical:** put here frequencies or relative frequencies

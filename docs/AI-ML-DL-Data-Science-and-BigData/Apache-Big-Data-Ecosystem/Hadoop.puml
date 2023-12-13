@@ -1,52 +1,52 @@
 @startmindmap
-title =**//__ Hadoop__//** \n<img:images/hadoop-ecosystem.png>
+title =**//__ Hadoop__//** \n<img:images/hadoop-ecosystem.png{scale=.6}>
 
 * **[[https://teachingbee.in/the-ecosystem-of-hadoop-the-future-of-big-data/]]**
-* **[[https://www.altexsoft.com/blog/hadoop-vs-spark/]]**
+** **[[https://www.altexsoft.com/blog/hadoop-vs-spark/]]**
 
 !theme hacker
 
-*[#a] =**Hadoop** \n<img:images/hadoop.png>
+*[#a] =<i>**Hadoop** \n<img:images/hadoop.png{scale=.4}>
 ** Overview
 *** Distributed processing framework
 *** Designed for handling large-scale data processing
 *** Provides scalability, fault tolerance, and reliability
 **[#gold] =Core Components
 ***[#feeAAAAA] =Hadoop Distributed File System (HDFS)
-****[#yellow] ====<size:14>Distributed file system for storing data across multiple machines
-****[#yellow] ====<size:14>Provides high throughput data access and fault tolerance
+****[#yellow] <i><size:14>Distributed file system for storing data across multiple machines
+****[#yellow] <i><size:14>Provides high throughput data access and fault tolerance
 ***[#feeEEEEE] ==MapReduce
-****[#yellow] ====<size:14>Programming model for processing large datasets in parallel
-****[#yellow] ====<size:14>Splits data into smaller chunks and processes them in parallel
+****[#yellow] <i><size:14>Programming model for processing large datasets in parallel
+****[#yellow] <i><size:14>Splits data into smaller chunks and processes them in parallel
 ***[#yellow] ===YARN (Yet Another Resource Negotiator)
-****[#yellow] ====<size:14>Resource management framework for scheduling and managing tasks
-****[#yellow] ====<size:14>Enables efficient resource allocation and job coordination
-**[#pink] =**Ecosystem** \n<img:images/hadoop-architecture.png>
+****[#yellow] <i><size:14>Resource management framework for scheduling and managing tasks
+****[#yellow] <i><size:14>Enables efficient resource allocation and job coordination
+**[#pink] =<i>**Ecosystem** \n<img:images/hadoop-architecture.png{scale=.7}>
 *** Hadoop Common
-****[#yellow] ====<size:14>Common utilities and libraries used by other Hadoop components
-****[#yellow] ====<size:14>Provides support for security, logging, and other shared functionalities
+****[#yellow] <i><size:14>Common utilities and libraries used by other Hadoop components
+****[#yellow] <i><size:14>Provides support for security, logging, and other shared functionalities
 *** Hadoop MapReduce
-****[#yellow] ====<size:14>Framework for writing and executing MapReduce jobs
-****[#yellow] ====<size:14>Enables processing and analyzing large datasets in parallel
+****[#yellow] <i><size:14>Framework for writing and executing MapReduce jobs
+****[#yellow] <i><size:14>Enables processing and analyzing large datasets in parallel
 *** Hadoop Distributed File System (HDFS)
-****[#yellow] ====<size:14>Scalable and fault-tolerant distributed file system
-****[#yellow] ====<size:14>Stores and manages data across a cluster of machines
+****[#yellow] <i><size:14>Scalable and fault-tolerant distributed file system
+****[#yellow] <i><size:14>Stores and manages data across a cluster of machines
 *** Hadoop YARN
-****[#yellow] ====<size:14>Resource management and job scheduling framework
-****[#yellow] ====<size:14>Supports running various data processing frameworks like MapReduce, Spark, and Flink
+****[#yellow] <i><size:14>Resource management and job scheduling framework
+****[#yellow] <i><size:14>Supports running various data processing frameworks like MapReduce, Spark, and Flink
 *** Hadoop Streaming
-****[#yellow] ====<size:14>Enables writing MapReduce programs using non-Java programming languages
-****[#yellow] ====<size:14>Processes data using standard input/output streams
+****[#yellow] <i><size:14>Enables writing MapReduce programs using non-Java programming languages
+****[#yellow] <i><size:14>Processes data using standard input/output streams
 ** Use Cases
 *** Big Data Analytics
-****[#yellow] ====<size:14>Analyzing large volumes of data for insights and decision-making
-****[#yellow] ====<size:14>Running complex data processing algorithms on distributed clusters
+****[#yellow] <i><size:14>Analyzing large volumes of data for insights and decision-making
+****[#yellow] <i><size:14>Running complex data processing algorithms on distributed clusters
 *** Data Warehousing
-****[#yellow] ====<size:14>Storing and managing structured and unstructured data for analysis
-****[#yellow] ====<size:14>Enabling ad-hoc querying and business intelligence reporting
+****[#yellow] <i><size:14>Storing and managing structured and unstructured data for analysis
+****[#yellow] <i><size:14>Enabling ad-hoc querying and business intelligence reporting
 *** Log Processing
-****[#yellow] ====<size:14>Collecting and analyzing log data from various sources
-****[#yellow] ====<size:14>Detecting patterns, anomalies, and performance issues
+****[#yellow] <i><size:14>Collecting and analyzing log data from various sources
+****[#yellow] <i><size:14>Detecting patterns, anomalies, and performance issues
 **[#pink] Integration with Other Technologies
 ***[#pink] Apache **Spark**
 *** Apache Hive

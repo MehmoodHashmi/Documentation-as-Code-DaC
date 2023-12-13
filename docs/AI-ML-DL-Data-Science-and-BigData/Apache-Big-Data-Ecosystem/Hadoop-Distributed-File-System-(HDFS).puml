@@ -1,7 +1,7 @@
 @startmindmap
-title =__Hadoop Distributed File System (HDFS)__\n<img:images/img_11.png>
+title =<i>__Hadoop Distributed File System (HDFS)__\n<img:images/img_11.png{scale=.65}>
 * **[[https://www.youtube.com/watch?v=VavRifvVwIo&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=3&ab_channel=GateSmashers]]**
-* **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
+** **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
 
 !theme hacker
 
@@ -11,39 +11,39 @@ title =__Hadoop Distributed File System (HDFS)__\n<img:images/img_11.png>
 *** <size:14>Designed for High Throughput and Fault Tolerance
 *** <size:14>Part of the Apache Hadoop Ecosystem
 
-** **Architecture**\n<img:images/img_10.png>
+** **Architecture**\n<img:images/img_10.png{scale=.7}>
 *** NameNode
-****[#yellow] ====<size:14>Manages Metadata
-****[#yellow] ====<size:14>Stores Filesystem Namespace
-****[#yellow] ====<size:14>Executes File System Operations
+****[#yellow] <i><size:14>Manages Metadata
+****[#yellow] <i><size:14>Stores Filesystem Namespace
+****[#yellow] <i><size:14>Executes File System Operations
 *** DataNode
-****[#yellow] ====<size:14>Stores Actual Data Blocks
-****[#yellow] ====<size:14>Replicates Data for Fault Tolerance
-****[#yellow] ====<size:14>Communicates with NameNode
+****[#yellow] <i><size:14>Stores Actual Data Blocks
+****[#yellow] <i><size:14>Replicates Data for Fault Tolerance
+****[#yellow] <i><size:14>Communicates with NameNode
 
 ** Features
 *** Fault Tolerance
-****[#yellow] ====<size:14>Data Replication Across DataNodes
-****[#yellow] ====<size:14>Automatic Data Recovery
+****[#yellow] <i><size:14>Data Replication Across DataNodes
+****[#yellow] <i><size:14>Automatic Data Recovery
 *** Scalability
-****[#yellow] ====<size:14>Horizontally Scales Across Commodity Hardware
-****[#yellow] ====<size:14>Handles Large Data Sets
+****[#yellow] <i><size:14>Horizontally Scales Across Commodity Hardware
+****[#yellow] <i><size:14>Handles Large Data Sets
 *** High Throughput
-****[#yellow] ====<size:14>Optimized for Sequential Data Access
-****[#yellow] ====<size:14>Supports Streaming Data Processing
-*** Data Locality\n<img:images/img_12.png>
-****[#yellow] ====<size:14>Moves Computation Close to Data
-****[#yellow] ====<size:14>Improves Performance
+****[#yellow] <i><size:14>Optimized for Sequential Data Access
+****[#yellow] <i><size:14>Supports Streaming Data Processing
+*** Data Locality\n<img:images/img_12.png{scale=.35}>
+****[#yellow] <i><size:14>Moves Computation Close to Data
+****[#yellow] <i><size:14>Improves Performance
 
 **[#pink] Data Organization
 ***[#white] **Blocks**
-****[#yellow] ====<size:14>Fixed-Sized Units of Data Storage
-****[#gold] ====<size:14>**Typically 64-MB or 128-MB in Size**
-****[#yellow] ====<size:14>**Files Split into Multiple Blocks**
+****[#yellow] <i><size:14>Fixed-Sized Units of Data Storage
+****[#gold] <i><size:14>**Typically 64-MB or 128-MB in Size**
+****[#yellow] <i><size:14>**Files Split into Multiple Blocks**
 ***[#white] **Data Replication**
-****[#yellow] ====<size:14>Replicates Blocks Across DataNodes
-****[#white] ====<size:14>**Default Replication Factor is 3**
-****[#yellow] ====<size:14>Provides Data Durability and Availability
+****[#yellow] <i><size:14>Replicates Blocks Across DataNodes
+****[#white] <i><size:14>**Default Replication Factor is 3**
+****[#yellow] <i><size:14>Provides Data Durability and Availability
 
 ** Use Cases
 *** Big Data Processing

@@ -1,75 +1,76 @@
 @startmindmap
 title =__Apache Flume__\n<img:images/img_1.png>
-
 * **[[https://www.tutorialspoint.com/apache_flume/apache_flume_quick_guide.htm]]**
-* **[[https://flume.apache.org/]]**
-* **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
+** **[[https://flume.apache.org/]]**
+***[#green] <b><i><color #white><size:14>**[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
+!theme hacker
 
-* Apache Flume
-** Overview
-*** Distributed, Reliable, and Scalable **Data Ingestion Tool**
-*** Designed for Streaming Log Data and **Event Processing**
-*** Part of the Apache Hadoop Ecosystem
 
-**[#pink] ==**Architecture** \n<img:images/img_2.png>
-*** Sources
-**** Data Producers or Providers
-**** e.g., Logs, Files, Sensors, Network Streams
-*** **Channels**
-**** Buffers Data Between Sources and Sinks
-**** Ensures Reliable Data Transfer
-**** Provides Fault Tolerance
-*** Sinks
-**** Data Destinations
-**** e.g., Hadoop Distributed File System (HDFS), HBase, Kafka, Elasticsearch
-*** **Agents** \n<img:images/img_3.png>
-**** Flume Components Configured for Data Flow
-**** Collect Data from Sources and Send to Sinks
+*[#darkblue] <i>Apache Flume
+**[#lightblue] <i><color #blac><size:14>Overview
+***[#green] <b><i><color #white><size:14>Distributed, Reliable, and Scalable **Data Ingestion Tool**
+***[#green] <b><i><color #white><size:14>Designed for Streaming Log Data and **Event Processing**
+***[#green] <b><i><color #white><size:14>Part of the Apache Hadoop Ecosystem
 
-*** **Flume event** \n<img:images/img_4.png>
-**** An **event** is the basic unit of the data transported inside Flume.
+**[#lightblue] <i><color #blac><size:14>Architecture\n<img:images/img_2.png{scale=.7}>
+***[#green] <b><i><color #white><size:14>Sources
+****[#yellow] <i><color #black><size:14>Data Producers or Providers
+****[#yellow] <i><color #black><size:14>e.g., Logs, Files, Sensors, Network Streams
+***[#green] <b><i><color #white><size:14>**Channels**
+****[#yellow] <i><color #black><size:14>Buffers Data Between Sources and Sinks
+****[#yellow] <i><color #black><size:14>Ensures Reliable Data Transfer
+****[#yellow] <i><color #black><size:14>Provides Fault Tolerance
+***[#green] <b><i><color #white><size:14>Sinks
+****[#yellow] <i><color #black><size:14>Data Destinations
+****[#yellow] <i><color #black><size:14>e.g., Hadoop Distributed File System (HDFS), HBase, Kafka, Elasticsearch
+***[#green] <b><i><color #white><size:14>**Agents** \n<img:images/img_3.png{scale=.7}>
+****[#yellow] <i><color #black><size:14>Flume Components Configured for Data Flow
+****[#yellow] <i><color #black><size:14>Collect Data from Sources and Send to Sinks
+
+***[#green] <b><i><color #white><size:14>**Flume event** \n<img:images/img_4.png{scale=.7}>
+****[#yellow] <i><color #black><size:14>An **event** is the basic unit of the data transported inside Flume.
 ****:It contains a payload of byte array that is to be transported from
 the source to the destination accompanied by optional headers.;
 
-** Features
-*** Data Collection
-**** Ingests Data from Various Sources
-**** Supports Log Data, Events, and Stream Processing
-*** Reliability and Fault Tolerance
-**** Guarantees Reliable Data Transfer
-**** Provides Fault Recovery and Error Handling
-*** Scalability and Flexibility
-**** Scales Horizontally Across Multiple Agents
-**** Allows Dynamic Configuration Changes
-*** Event Driven Architecture
-**** Processes Data in Real Time
-**** Supports Event-Based Flows
-*** Data Transformation and Enrichment
-**** Allows Data Manipulation in Flight
-**** Customizable Interceptors for Data Enrichment
-*** Extensible
-**** Supports Custom Sources, Channels, and Sinks
-**** Integration with External Systems
-**** Custom Plugins and Components
+**[#lightblue] <i><color #blac><size:14>Features
+***[#green] <b><i><color #white><size:14>Data Collection
+****[#yellow] <i><color #black><size:14>Ingests Data from Various Sources
+****[#yellow] <i><color #black><size:14>Supports Log Data, Events, and Stream Processing
+***[#green] <b><i><color #white><size:14>Reliability and Fault Tolerance
+****[#yellow] <i><color #black><size:14>Guarantees Reliable Data Transfer
+****[#yellow] <i><color #black><size:14>Provides Fault Recovery and Error Handling
+***[#green] <b><i><color #white><size:14>Scalability and Flexibility
+****[#yellow] <i><color #black><size:14>Scales Horizontally Across Multiple Agents
+****[#yellow] <i><color #black><size:14>Allows Dynamic Configuration Changes
+***[#green] <b><i><color #white><size:14>Event Driven Architecture
+****[#yellow] <i><color #black><size:14>Processes Data in Real Time
+****[#yellow] <i><color #black><size:14>Supports Event-Based Flows
+***[#green] <b><i><color #white><size:14>Data Transformation and Enrichment
+****[#yellow] <i><color #black><size:14>Allows Data Manipulation in Flight
+****[#yellow] <i><color #black><size:14>Customizable Interceptors for Data Enrichment
+***[#green] <b><i><color #white><size:14>Extensible
+****[#yellow] <i><color #black><size:14>Supports Custom Sources, Channels, and Sinks
+****[#yellow] <i><color #black><size:14>Integration with External Systems
+****[#yellow] <i><color #black><size:14>Custom Plugins and Components
 
-** Use Cases
-*** Log Collection and Analysis
-*** Real-Time Stream Processing
-*** Data Ingestion into Hadoop Ecosystem
-*** Data Pipeline and ETL (Extract, Transform, Load) Flows
-*** Centralized Data Collection and Aggregation
+**[#lightblue] <i><color #blac><size:14>Use Cases
+***[#green] <b><i><color #white><size:14>Log Collection and Analysis
+***[#green] <b><i><color #white><size:14>Real-Time Stream Processing
+***[#green] <b><i><color #white><size:14>Data Ingestion into Hadoop Ecosystem
+***[#green] <b><i><color #white><size:14>Data Pipeline and ETL (Extract, Transform, Load) Flows
+***[#green] <b><i><color #white><size:14>Centralized Data Collection and Aggregation
 
-** Integration with Apache Hadoop Ecosystem
-*** Hadoop Distributed File System (HDFS)
-*** Apache HBase
-*** Apache Kafka
-*** Elasticsearch
+**[#lightblue] <i><color #blac><size:14>Integration with Apache Hadoop Ecosystem
+***[#green] <b><i><color #white><size:14>Hadoop Distributed File System (HDFS)
+***[#green] <b><i><color #white><size:14>Apache HBase
+***[#green] <b><i><color #white><size:14>Apache Kafka
+***[#green] <b><i><color #white><size:14>Elasticsearch
 
-** Benefits
-*** Scalable and Reliable Data Ingestion
-*** Fault Tolerance and Error Handling
-*** Real-Time Data Processing
-*** Flexible Configuration and Extensibility
-*** Integration with Hadoop Ecosystem
+**[#lightblue] <i><color #blac><size:14>Benefits
+***[#green] <b><i><color #white><size:14>Scalable and Reliable Data Ingestion
+***[#green] <b><i><color #white><size:14>Fault Tolerance and Error Handling
+***[#green] <b><i><color #white><size:14>Real-Time Data Processing
+***[#green] <b><i><color #white><size:14>Flexible Configuration and Extensibility
+***[#green] <b><i><color #white><size:14>Integration with Hadoop Ecosystem
 
 @endmindmap

@@ -1,48 +1,48 @@
 @startmindmap
-title =__ Data Architect__\n<img:images/img_1.png>
+title =__ Data Architect__\n<img:images/img_1.png{scale=.7}>
 !theme hacker
 
 * **[[https://www.youtube.com/watch?v=P8qJ7kqbkIk&ab_channel=ITkFunde]]**
 
 * Data Architect
 **[#pink] **Roles and Responsibilities**
-***[#yellow] ====<size:13>Data Strategy Development
-***[#yellow] ====<size:13>Data Governance
-***[#yellow] ====<size:13>Data Modeling
-***[#yellow] ====<size:13>Data Integration
-***[#yellow] ====<size:13>Data Storage and Infrastructure
-***[#yellow] ====<size:13>Data Security and Privacy
+***[#yellow] <i><size:14>Data Strategy Development
+***[#yellow] <i><size:14>Data Governance
+***[#yellow] <i><size:14>Data Modeling
+***[#yellow] <i><size:14>Data Integration
+***[#yellow] <i><size:14>Data Storage and Infrastructure
+***[#yellow] <i><size:14>Data Security and Privacy
 ** Skills and Qualifications
-***[#yellow] ====<size:13>Data Analysis
-***[#yellow] ====<size:13>Database Design
-***[#yellow] ====<size:13>Data Modeling Techniques
-***[#yellow] ====<size:13>ETL (Extract, Transform, Load)
-***[#yellow] ====<size:13>Data Warehousing
-***[#yellow] ====<size:13>Data Governance Frameworks
-***[#yellow] ====<size:13>Data Security Practices
+***[#yellow] <i><size:14>Data Analysis
+***[#yellow] <i><size:14>Database Design
+***[#yellow] <i><size:14>Data Modeling Techniques
+***[#yellow] <i><size:14>ETL (Extract, Transform, Load)
+***[#yellow] <i><size:14>Data Warehousing
+***[#yellow] <i><size:14>Data Governance Frameworks
+***[#yellow] <i><size:14>Data Security Practices
 ** Tools and Technologies
-***[#yellow] ====<size:13>Relational Databases
-***[#yellow] ====<size:13>NoSQL Databases
-***[#yellow] ====<size:13>Data Integration Tools
-***[#yellow] ====<size:13>Data Modeling Tools
-***[#yellow] ====<size:13>Data Visualization Tools
-***[#yellow] ====<size:13>Data Governance Tools
-***[#yellow] ====<size:13>Cloud Platforms
+***[#yellow] <i><size:14>Relational Databases
+***[#yellow] <i><size:14>NoSQL Databases
+***[#yellow] <i><size:14>Data Integration Tools
+***[#yellow] <i><size:14>Data Modeling Tools
+***[#yellow] <i><size:14>Data Visualization Tools
+***[#yellow] <i><size:14>Data Governance Tools
+***[#yellow] <i><size:14>Cloud Platforms
 **[#orange] ===Domain Knowledge
-***[#yellow] ====<size:13>Business Processes
-***[#yellow] ====<size:13>Industry Standards and Regulations
-***[#yellow] ====<size:13>Data Management Best Practices
-***[#yellow] ====<size:13>Data Analytics and Reporting
+***[#yellow] <i><size:14>Business Processes
+***[#yellow] <i><size:14>Industry Standards and Regulations
+***[#yellow] <i><size:14>Data Management Best Practices
+***[#yellow] <i><size:14>Data Analytics and Reporting
 ** Collaboration and Communication
-***[#yellow] ====<size:13>Stakeholder Engagement
-***[#yellow] ====<size:13>Requirement Gathering
-***[#yellow] ====<size:13>Documentation and Presentation Skills
-***[#yellow] ====<size:13>Cross-functional Collaboration
+***[#yellow] <i><size:14>Stakeholder Engagement
+***[#yellow] <i><size:14>Requirement Gathering
+***[#yellow] <i><size:14>Documentation and Presentation Skills
+***[#yellow] <i><size:14>Cross-functional Collaboration
 ** Emerging Trends and Technologies
-***[#yellow] ====<size:13>Big Data and Analytics
-***[#yellow] ====<size:13>Artificial Intelligence and Machine Learning
-***[#yellow] ====<size:13>Internet of Things (IoT)
-***[#yellow] ====<size:13>Cloud Computing
-***[#yellow] ====<size:13>Data Virtualization
-***[#yellow] ====<size:13>Blockchain
+***[#yellow] <i><size:14>Big Data and Analytics
+***[#yellow] <i><size:14>Artificial Intelligence and Machine Learning
+***[#yellow] <i><size:14>Internet of Things (IoT)
+***[#yellow] <i><size:14>Cloud Computing
+***[#yellow] <i><size:14>Data Virtualization
+***[#yellow] <i><size:14>Blockchain
 @endmindmap

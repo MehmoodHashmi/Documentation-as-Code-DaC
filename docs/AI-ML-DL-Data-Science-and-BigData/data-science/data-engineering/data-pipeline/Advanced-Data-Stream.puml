@@ -1,16 +1,7 @@
 @startmindmap
-
-skinparam node {
-    BorderColor DarkGray
-    BackgroundColor White
-}
-
-skinparam connector {
-    LineColor DarkGray
-}
 !theme hacker
 
-title =__ Advanced Data Stream__\n<img:images/img.png>
+title =__ Advanced Data Stream__\n<img:images/img.png{scale=.8}>
 * Advanced Data Stream
 
 ** Stream Processing

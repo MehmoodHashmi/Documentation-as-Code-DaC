@@ -1,7 +1,7 @@
 @startmindmap
-title =<i><b><u>Advanced [[data-pipeline.puml Data Pipeline]]\n<img:images/img.png>
+title =<i><b><u>Advanced [[data-pipeline.puml Data Pipeline]]\n<img:images/img.png{scale=.85}>
 * **[[https://youtu.be/VtzvF17ysbc  ]]**
-* **[[https://hazelcast.com/glossary/data-pipeline/]]**
+** **[[https://hazelcast.com/glossary/data-pipeline/]]**
 
 !theme hacker
 
@@ -22,17 +22,17 @@ title =<i><b><u>Advanced [[data-pipeline.puml Data Pipeline]]\n<img:images/img.p
 ****[#yellow] <color #black><i><size:14>AWS IoT Core
 ****[#yellow] <color #black><i><size:14>Azure IoT Hub
 **[#lightblue] <size:22><i>Data Processing
-***[#green] <color #white><i><size:14>**Stream Processing**\n<img:images/stream-processing.png>
+***[#green] <color #white><i><size:14>**Stream Processing**\n<img:images/stream-processing.png{scale=.8}>
 ****[#yellow] <color #black><i><size:14>Apache Flink
 ****[#yellow] <color #black><i><size:14>Apache Storm
 ****[#yellow] <color #black><i><size:14>Spark Streaming
 ****[#yellow] <color #black><i><size:14>AWS Kinesis Data Analytics
-***[#green] <color #white><i><size:14>**Batch Processing**\n<img:images/batch-processing.png>
+***[#green] <color #white><i><size:14>**Batch Processing**\n<img:images/batch-processing.png{scale=.8}>
 ****[#yellow] <color #black><i><size:14>Apache Spark
 ****[#yellow] <color #black><i><size:14>Apache Hadoop MapReduce
 ****[#yellow] <color #black><i><size:14>AWS Glue
 ****[#yellow] <color #black><i><size:14>Google Cloud Dataflow
-***[#green] <color #white><i><size:14>**Lambda Architecture** hybrid **(combination of stream and batch processing)**\n<img:images/lambda-architecture.png>
+***[#green] <color #white><i><size:14>**Lambda Architecture** hybrid **(combination of stream and batch processing)**\n<img:images/lambda-architecture.png{scale=.75}>
 **[#lightblue] <size:22><i>Data Storage
 ***[#green] <color #white><i><size:14>Data  Warehouses
 ****[#yellow] <color #black><i><size:14>Snowflake

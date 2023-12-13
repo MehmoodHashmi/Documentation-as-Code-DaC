@@ -1,159 +1,156 @@
 @startmindmap
-title =__Color Theory__\n<img:images/img_15.png><img:images/img_13.png><img:images/img_14.png><img:images/img_16.png>
+title =__Color Theory__\n<img:images/img_15.png{scale=.777}><img:images/img_13.png{scale=.7}><img:images/img_14.png{scale=.7}><img:images/img_16.png{scale=.7}>
 
 *:There are **"objective and subjective"** colour **influences**. I was pointing more towards the objective but I didn't mention the cultural and subjective differences in perceived colour, for example, blue the colour of the sky is naturally programmed
 into the mind to be an inviting and calming colour. As it's a colour our mind has evolved to put in the background and somewhat ignore while more important colour information could be happening Infront of us. There are objective instinctual emotions and
-reactionstied to colour, though through life experiences and culture these can be shifted and changed. But in general, you need to keep these things in mind when using colour. As well
+reactions-tied to colour, though through life experiences and culture these can be shifted and changed. But in general, you need to keep these things in mind when using colour. As well
 as keeping in mind the culture and subjective meaning from the audiences viewing whatever it is you make;
-
-
-
 
 * **[[https://www.youtube.com/watch?v=oxr-5CIQm1c&ab_channel=GFXMentor Color Theory Part 1 (GFX-Mentor)]]**
 ** **[[https://www.youtube.com/watch?v=AvgCkHrcj90&ab_channel=FlowStudio Color Theory for Noobs | Beginner Guide]]**
 *** **[[https://web.natur.cuni.cz/~langhamr/lectures/vtfg1/mapinfo_2/barvy/colors.html Color Use Guidelines for Mapping and Visualization article]]**
-**** <img:images/img_21.png>
+**** <img:images/img_21.png{scale=.7}>
 !theme hacker
 
-*[#darkblue] ====Color Theory
-**[#lightblue] ==== Definition
-***[#white] ====<size:14>**Color theory** is the study of how colors interact and the principles that govern their use in art, design, and various applications. It explores the relationships between colors and their effects on visual perception.
+*[#darkblue] <i>Color Theory
+**[#lightblue] <i> Definition
+***[#white] <i><size:14>**Color theory** is the study of how colors interact and the principles that govern their use in art, design, and various applications. It explores the relationships between colors and their effects on visual perception.
 
-**[#lightblue] ====Primary Colors\n<img:images/img_1.png>
-***[#green] ====<color #white>**Red**
-****[#yellow] ====<size:14>Red is one of the three primary colors. It is **bold and intense,** often associated with **passion and energy.**
-***[#green] ====<color #white>**Blue**
-****[#yellow] ====<size:14>Blue is another primary color. It represents calm, trust, and **tranquility (calmness)**.
-***[#green] ====<color #white>**Yellow**
-****[#yellow] ====<size:14>Yellow, the third primary color, symbolizes **optimism and warmth.**
+**[#lightblue] <i>Primary Colors\n<img:images/img_1.png{scale=.5}>
+***[#green] <i><color #white>**Red**
+****[#yellow] <i><size:14>Red is one of the three primary colors. It is **bold and intense,** often associated with **passion and energy.**
+***[#green] <i><color #white>**Blue**
+****[#yellow] <i><size:14>Blue is another primary color. It represents calm, trust, and **tranquility (calmness)**.
+***[#green] <i><color #white>**Yellow**
+****[#yellow] <i><size:14>Yellow, the third primary color, symbolizes **optimism and warmth.**
 
-**[#lightblue] ====Secondary Colors\n<img:images/img_2.png>
-***[#green] ====<color #white>**Green**
-****[#yellow] ====<size:14>Green is created by mixing blue and yellow. **It signifies nature, growth, and harmony.**
-***[#green] ====<color #white>**Orange**
-****[#yellow] ====<size:14>Orange results from the combination of red and yellow. **It conveys enthusiasm and creativity.**
-***[#green] ====<color #white>**Purple**
-****[#yellow] ====<size:14>Purple is the result of mixing blue and red. **It often represents royalty and luxury.**
+**[#lightblue] <i>Secondary Colors\n<img:images/img_2.png{scale=.58}>
+***[#green] <i><color #white>**Green**
+****[#yellow] <i><size:14>Green is created by mixing blue and yellow. **It signifies nature, growth, and harmony.**
+***[#green] <i><color #white>**Orange**
+****[#yellow] <i><size:14>Orange results from the combination of red and yellow. **It conveys enthusiasm and creativity.**
+***[#green] <i><color #white>**Purple**
+****[#yellow] <i><size:14>Purple is the result of mixing blue and red. **It often represents royalty and luxury.**
 
-**[#lightblue] ====Tertiary Colors\n<img:images/img_3.png>
-***[#green] ====<color #white>**Red-Orange**
-****[#yellow] ====<size:14>A combination of red and orange. It's **vibrant and energetic.**
-***[#green] ====<color #white>**Yellow-Orange**
-****[#yellow] ====<size:14>Yellow-orange blends **warmth and cheerfulness.**
-***[#green] ====<color #white>**Yellow-Green**
-****[#yellow] ====<size:14>Yellow-green captures the essence of **freshness and renewal.**
-***[#green] ====<color #white>**Blue-Green**
-****[#yellow] ====<size:14>Blue-green combines **tranquility (calmness) with vibrancy.**
-***[#green] ====<color #white>**Blue-Purple**
-****[#yellow] ====<size:14>Blue-purple is often associated with **mystery and depth.**
-***[#green] ====<color #white>**Red-Purple**
-****[#yellow] ====<size:14>Red-purple is **rich and regal (majestic, grand, impressive) in appearance.**
+**[#lightblue] <i>Tertiary Colors\n<img:images/img_3.png{scale=.5}>
+***[#green] <i><color #white>**Red-Orange**
+****[#yellow] <i><size:14>A combination of red and orange. It's **vibrant and energetic.**
+***[#green] <i><color #white>**Yellow-Orange**
+****[#yellow] <i><size:14>Yellow-orange blends **warmth and cheerfulness.**
+***[#green] <i><color #white>**Yellow-Green**
+****[#yellow] <i><size:14>Yellow-green captures the essence of **freshness and renewal.**
+***[#green] <i><color #white>**Blue-Green**
+****[#yellow] <i><size:14>Blue-green combines **tranquility (calmness) with vibrancy.**
+***[#green] <i><color #white>**Blue-Purple**
+****[#yellow] <i><size:14>Blue-purple is often associated with **mystery and depth.**
+***[#green] <i><color #white>**Red-Purple**
+****[#yellow] <i><size:14>Red-purple is **rich and regal (majestic, grand, impressive) in appearance.**
 
-**[#lightblue] ====<size:18>Color Properties
-***[#green] ====<color #white>**Hue**
-****[#yellow] ====<size:14>Hue refers to the **dominant color** or the name of the color, like **red, blue, or green.**\n<img:images/img_22.png>
-***[#green] ====<color #white>**Saturation**
-****[#yellow] ====<size:14>Saturation determines the **intensity or vividness (clarity, distinctness or brightness)** of a color.\n<img:images/img_23.png>
-***[#green] ====<color #white>**Value (Brightness) **\n====<size:12><color #white>**Or Tint/Shades**
-****[#yellow] ====<size:14>Value represents how **light (white or tint) or dark (black or shade) a color appears.**\n<img:images/img_24.png>
+**[#lightblue] <i><size:18>Color Properties
+***[#green] <i><color #white>**Hue**
+****[#yellow] <i><size:14>Hue refers to the **dominant color** or the name of the color, like **red, blue, or green.**\n<img:images/img_22.png{scale=.4}>
+***[#green] <i><color #white>**Saturation**
+****[#yellow] <i><size:14>Saturation determines the **intensity or vividness (clarity, distinctness or brightness)** of a color.\n<img:images/img_23.png{scale=.4}>
+***[#green] <i><color #white>**Value (Brightness) **\n<i><size:12><color #white>**Or Tint/Shades**
+****[#yellow] <i><size:14>Value represents how **light (white or tint) or dark (black or shade) a color appears.**\n<img:images/img_24.png{scale=.4}>
 
-**[#lightblue] ====<size:18>Color Schemes (or Groups)
-***[#green] ====<size:18><color #orange>**"Color Schemes are applied" only when you have "chosen" the "first color"**
-***[#green] ====<color #white>**Monochromatic**\n<img:images/img_17.png>
-****[#yellow] ====<size:14>Monochromatic color schemes use variations of a single hue for a **harmonious (coordinated, friendly or matching) look.**
-***[#green] ====<color #white>**Analogous** \n<img:images/img_11.png>
-****[#yellow] ====<size:14>Analogous color schemes use colors that are adjacent on the color wheel for a pleasing and coordinated effect.
-***[#green] ====<color #white>**Complementary** \n<img:images/img_4.png>
-****[#yellow] ====<size:14>Complementary color schemes involve **colors opposite each other** on the **color wheel for contrast.**
-****[#yellow] ====<size:14>**Example**\n<img:images/img_5.png>
-***[#green] ====<color #white>**Split-Complementary**\n<img:images/img_6.png>
-****[#yellow] ====<size:14>Split-complementary schemes are variations of the complementary scheme, using two adjacent colors along with the complement.
-****[#yellow] ====<size:14>**Example**\n<img:images/img_7.png>
-***[#green] ====<color #white>**Triadic**\n<img:images/img_8.png>
-****[#yellow] ====<size:14>Triadic color schemes use three evenly spaced colors on the color wheel for a balanced look.
-****[#yellow] ====<size:14>**Example**\n<img:images/img_9.png>
-***[#green] ====<color #white>**Double Complementary**\n<img:images/img_10.png>
-****[#yellow] ====<size:14>Mostly used in **"kids products",** usually try avoiding this color scheme, avoid because simplicity is better & it has many colors
-****[#yellow] ====<size:14>**Example**
-***[#green] ====<color #white>**Tetradic**\n<img:images/img_12.png>
-****[#yellow] ====<size:14>Tetradic schemes employ two pairs of complementary colors for a rich and vibrant palette.
+**[#lightblue] <i><size:18>Color Schemes (or Groups)
+***[#green] <i><size:18><color #orange>**"Color Schemes are applied" only when you have "chosen" the "first color"**
+***[#green] <i><color #white>**Monochromatic**\n<img:images/img_17.png{scale=.6}>
+****[#yellow] <i><size:14>Monochromatic color schemes use variations of a single hue for a **harmonious (coordinated, friendly or matching) look.**
+***[#green] <i><color #white>**Analogous** \n<img:images/img_11.png{scale=.35}>
+****[#yellow] <i><size:14>Analogous color schemes use colors that are adjacent on the color wheel for a pleasing and coordinated effect.
+***[#green] <i><color #white>**Complementary** \n<img:images/img_4.png{scale=.45}>
+****[#yellow] <i><size:14>Complementary color schemes involve **colors opposite each other** on the **color wheel for contrast.**
+****[#yellow] <i><size:14>**Example**\n<img:images/img_5.png{scale=.5}>
+***[#green] <i><color #white>**Split-Complementary**\n<img:images/img_6.png{scale=.55}>
+****[#yellow] <i><size:14>Split-complementary schemes are variations of the complementary scheme, using two adjacent colors along with the complement.
+****[#yellow] <i><size:14>**Example**\n<img:images/img_7.png{scale=.5}>
+***[#green] <i><color #white>**Triadic**\n<img:images/img_8.png{scale=.5}>
+****[#yellow] <i><size:14>Triadic color schemes use three evenly spaced colors on the color wheel for a balanced look.
+****[#yellow] <i><size:14>**Example**\n<img:images/img_9.png{scale=.5}>
+***[#green] <i><color #white>**Double Complementary**\n<img:images/img_10.png{scale=.55}>
+****[#yellow] <i><size:14>Mostly used in **"kids products",** usually try avoiding this color scheme, avoid because simplicity is better & it has many colors
+****[#yellow] <i><size:14>**Example**
+***[#green] <i><color #white>**Tetradic**\n<img:images/img_12.png{scale=.5}>
+****[#yellow] <i><size:14>Tetradic schemes employ two pairs of complementary colors for a rich and vibrant palette.
 
-**[#lightblue] ==== Color Harmonies
-***[#green] ====<color #white>**Warm Colors**\n<img:images/img_18.png>
-****[#yellow] ====<size:14>Warm colors include reds, oranges, and yellows, evoking warmth and energy.
-***[#green] ====<color #white>**Cool Colors**\n<img:images/img_19.png>
-****[#yellow] ====<size:14>Cool colors, such as blues and greens, create a sense of calm and serenity.
-***[#green] ====<color #white>**Color Contrast**
-****[#yellow] ====<size:14>Color contrast involves using colors that are noticeably different to make elements stand out.
-***[#green] ====<color #white>**Color Balance**
-****[#yellow] ====<size:14>Color balance ensures that the distribution of colors in a design is harmonious.
-***[#green] ====<color #white>**Color Psychology**
-****[#yellow] ====<size:14>Color psychology explores the emotional and psychological impact of colors on people.
-***[#green] ====<color #white>**Color Symbolism**
-****[#yellow] ====<size:14>**Colors often carry cultural and symbolic meanings.**\n<img:images/img_20.png>
+**[#lightblue] <i> Color Harmonies
+***[#green] <i><color #white>**Warm Colors**\n<img:images/img_18.png{scale=.45}>
+****[#yellow] <i><size:14>Warm colors include reds, oranges, and yellows, evoking warmth and energy.
+***[#green] <i><color #white>**Cool Colors**\n<img:images/img_19.png{scale=.4}>
+****[#yellow] <i><size:14>Cool colors, such as blues and greens, create a sense of calm and serenity.
+***[#green] <i><color #white>**Color Contrast**
+****[#yellow] <i><size:14>Color contrast involves using colors that are noticeably different to make elements stand out.
+***[#green] <i><color #white>**Color Balance**
+****[#yellow] <i><size:14>Color balance ensures that the distribution of colors in a design is harmonious.
+***[#green] <i><color #white>**Color Psychology**
+****[#yellow] <i><size:14>Color psychology explores the emotional and psychological impact of colors on people.
+***[#green] <i><color #white>**Color Symbolism**
+****[#yellow] <i><size:14>**Colors often carry cultural and symbolic meanings.**\n<img:images/img_20.png{scale=.7}>
 
-**[#lightblue] ==== Applications
-***[#green] ====<color #white>**Visual Arts**
-****[#yellow] ====<size:14>In the visual arts, color theory is essential for creating visually appealing and meaningful artworks.
-***[#green] ====<color #white>**Graphic Design**
-****[#yellow] ====<size:14><color #red>"Graphic designers" use "color theory" to convey "messages and emotions" through "visual communication".
-***[#green] ====<color #white>**Web Design**
-****[#yellow] ====<size:14><color #red>"Web designers" use "color theory" to create "attractive and user-friendly" websites.
-***[#green] ====<color #white>**Interior Design**
-****[#yellow] ====<size:14>Interior designers consider color theory to create harmonious and aesthetically pleasing spaces.
-***[#green] ====<color #white>**Fashion**
-****[#yellow] ====<size:14>In the fashion industry, color choices play a crucial role in clothing and accessory design.
-***[#green] ====<color #white>**Marketing**
-****[#yellow] ====<size:14>Marketers use color to influence consumer perception, branding, and product packaging.
-***[#green] ====<color #white>**Psychology**
-****[#yellow] ====<size:14>Color theory has applications in psychology, studying the impact of color on human behavior and emotions.
-***[#green] ====<color #white>**Branding**
-****[#yellow] ====<size:14>Branding relies on color choices to create brand recognition and convey brand values.
+**[#lightblue] <i> Applications
+***[#green] <i><color #white>**Visual Arts**
+****[#yellow] <i><size:14>In the visual arts, color theory is essential for creating visually appealing and meaningful artworks.
+***[#green] <i><color #white>**Graphic Design**
+****[#yellow] <i><size:14><color #red>"Graphic designers" use "color theory" to convey "messages and emotions" through "visual communication".
+***[#green] <i><color #white>**Web Design**
+****[#yellow] <i><size:14><color #red>"Web designers" use "color theory" to create "attractive and user-friendly" websites.
+***[#green] <i><color #white>**Interior Design**
+****[#yellow] <i><size:14>Interior designers consider color theory to create harmonious and aesthetically pleasing spaces.
+***[#green] <i><color #white>**Fashion**
+****[#yellow] <i><size:14>In the fashion industry, color choices play a crucial role in clothing and accessory design.
+***[#green] <i><color #white>**Marketing**
+****[#yellow] <i><size:14>Marketers use color to influence consumer perception, branding, and product packaging.
+***[#green] <i><color #white>**Psychology**
+****[#yellow] <i><size:14>Color theory has applications in psychology, studying the impact of color on human behavior and emotions.
+***[#green] <i><color #white>**Branding**
+****[#yellow] <i><size:14>Branding relies on color choices to create brand recognition and convey brand values.
 
-**[#lightblue] ====<size:18>Color Models
-***[#green] ====<color #white>**RGB (Red, Green, Blue)**
-****[#yellow] ====<size:14>The RGB model uses additive color mixing, combining red, green, and blue light to create various colors.\n* <size:14>//RGB, or red, green and blue color wheel, is designed for online use, as it refers to mixing light – like on a computer or TV screen.//
-***[#green] ====<color #white>**RYB (Red, Yellow,Blue)**
-****[#yellow] ====<size:14>The RYB or red, yellow, blue color wheel is typically used by **artists,** as it helps with combining paint colors.
-***[#green] ====<color #white>**CMYK (Cyan, Magenta, Yellow, Key/Black)**
-****[#yellow] ====<size:14>CMYK is a subtractive color model used in printing, which involves mixing cyan, magenta, yellow, and black inks.
-***[#green] ====<color #white>**HSL (Hue, Saturation, Lightness)**
-****[#yellow] ====<size:14>HSL represents colors based on hue, saturation, and lightness values.
-***[#green] ====<color #white>**HEX Codes**
-****[#yellow] ====<size:14><color #red>**HEX codes are alphanumeric representations of colors for "digital design and web development".**
-***[#green] ====<color #white>**Pantone Matching System (PMS)**
-****[#yellow] ====<size:14>PMS is a standardized color matching system used in the **printing industry for precise color reproduction.**
+**[#lightblue] <i><size:18>Color Models
+***[#green] <i><color #white>**RGB (Red, Green, Blue)**
+****[#yellow] <i><size:14>The RGB model uses additive color mixing, combining red, green, and blue light to create various colors.\n* <size:14>//RGB, or red, green and blue color wheel, is designed for online use, as it refers to mixing light – like on a computer or TV screen.//
+***[#green] <i><color #white>**RYB (Red, Yellow,Blue)**
+****[#yellow] <i><size:14>The RYB or red, yellow, blue color wheel is typically used by **artists,** as it helps with combining paint colors.
+***[#green] <i><color #white>**CMYK (Cyan, Magenta, Yellow, Key/Black)**
+****[#yellow] <i><size:14>CMYK is a subtractive color model used in printing, which involves mixing cyan, magenta, yellow, and black inks.
+***[#green] <i><color #white>**HSL (Hue, Saturation, Lightness)**
+****[#yellow] <i><size:14>HSL represents colors based on hue, saturation, and lightness values.
+***[#green] <i><color #white>**HEX Codes**
+****[#yellow] <i><size:14><color #red>**HEX codes are alphanumeric representations of colors for "digital design and web development".**
+***[#green] <i><color #white>**Pantone Matching System (PMS)**
+****[#yellow] <i><size:14>PMS is a standardized color matching system used in the **printing industry for precise color reproduction.**
 
-**[#lightblue] ==== Color Mixing
-***[#green] ====<color #white>**Additive Mixing**
-****[#yellow] ====<size:14>Additive color mixing involves combining colored light sources to create new colors.
-***[#green] ====<color #white>**Subtractive Mixing**
-****[#yellow] ====<size:14>Subtractive color mixing is the process of mixing colored pigments, such as inks or paints.
+**[#lightblue] <i> Color Mixing
+***[#green] <i><color #white>**Additive Mixing**
+****[#yellow] <i><size:14>Additive color mixing involves combining colored light sources to create new colors.
+***[#green] <i><color #white>**Subtractive Mixing**
+****[#yellow] <i><size:14>Subtractive color mixing is the process of mixing colored pigments, such as inks or paints.
 
-**[#lightblue] ==== Cultural Influences
-***[#green] ====<color #white>**Color Meanings Vary**
-****[#yellow] ====<size:14>**The "meanings and symbolism" of "colors" can differ across "cultures and regions".**\n<img:images/img_20.png>
+**[#lightblue] <i> Cultural Influences
+***[#green] <i><color #white>**Color Meanings Vary**
+****[#yellow] <i><size:14>**The "meanings and symbolism" of "colors" can differ across "cultures and regions".**\n<img:images/img_20.png{scale=.7}>
 
-**[#lightblue] ====<size:18>Color Perception
-***[#green] ====<color #white>**Color Blindness**
-****[#yellow] ====<size:14>Color blindness is a condition where individuals have difficulty distinguishing certain colors.
-***[#green] ====<color #white>**Color Contrast and Accessibility**
-****[#yellow] ====<size:14>Ensuring sufficient contrast is essential for making content accessible to all.
+**[#lightblue] <i><size:18>Color Perception
+***[#green] <i><color #white>**Color Blindness**
+****[#yellow] <i><size:14>Color blindness is a condition where individuals have difficulty distinguishing certain colors.
+***[#green] <i><color #white>**Color Contrast and Accessibility**
+****[#yellow] <i><size:14>Ensuring sufficient contrast is essential for making content accessible to all.
 
-**[#lightblue] ==== Color Tools
-***[#green] ====<color #white>**Color Wheels**
-****[#yellow] ====<size:14>Color wheels help in understanding color relationships and creating color schemes.
-***[#green] ====<color #white>**Color Pickers**
-****[#yellow] ====<size:14>Color pickers are tools that allow you to select and reproduce specific colors.
-***[#green] ====<color #white>**Color Palettes**
-****[#yellow] ====<size:14>Color palettes are pre-defined sets of colors for design and branding.
-***[#green] ====<color #white>**Color Psychology Resources**
-****[#yellow] ====<size:14>Resources provide insights into the psychological effects of color choices.
+**[#lightblue] <i> Color Tools
+***[#green] <i><color #white>**Color Wheels**
+****[#yellow] <i><size:14>Color wheels help in understanding color relationships and creating color schemes.
+***[#green] <i><color #white>**Color Pickers**
+****[#yellow] <i><size:14>Color pickers are tools that allow you to select and reproduce specific colors.
+***[#green] <i><color #white>**Color Palettes**
+****[#yellow] <i><size:14>Color palettes are pre-defined sets of colors for design and branding.
+***[#green] <i><color #white>**Color Psychology Resources**
+****[#yellow] <i><size:14>Resources provide insights into the psychological effects of color choices.
 
-**[#lightblue] ==== Color Trends
-***[#green] ====<color #white>**Evolving Color Preferences**
-****[#yellow] ====<size:14>Color preferences change over time and are influenced by fashion, culture, and design trends.
-***[#green] ====<color #white>**Pantone Color of the Year**
-****[#yellow] ====<size:14>Pantone annually selects a Color of the Year, influencing design and branding choices.
+**[#lightblue] <i> Color Trends
+***[#green] <i><color #white>**Evolving Color Preferences**
+****[#yellow] <i><size:14>Color preferences change over time and are influenced by fashion, culture, and design trends.
+***[#green] <i><color #white>**Pantone Color of the Year**
+****[#yellow] <i><size:14>Pantone annually selects a Color of the Year, influencing design and branding choices.
 
 @endmindmap

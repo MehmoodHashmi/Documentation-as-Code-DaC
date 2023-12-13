@@ -1,6 +1,6 @@
 @startmindmap
-title =  <b><i><u>Use Case 2.0\n<img:img.png>
-caption <img:img_1.png>
+title =  <b><i><u>Use Case 2.0\n<img:img.png{scale=0.7}>
+caption <img:img_1.png{scale=0.7}>
 * ===<i>[[use-case.png Use Case types]]
 ** ===<i>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-32-12-378.png Use Case Event Table]]
 *** ===<i>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-36-44-142.png Modeling Losely coupled use case]]

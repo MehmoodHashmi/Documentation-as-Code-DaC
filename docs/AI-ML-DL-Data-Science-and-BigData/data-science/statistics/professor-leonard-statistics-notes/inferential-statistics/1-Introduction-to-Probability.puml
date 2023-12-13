@@ -3,7 +3,7 @@ skinparam node {
     FontStyle italic
 }
 
-title =__//Introduction to Probability//__\n<img:images/img_20.png>
+title =__//Introduction to Probability//__\n<img:images/img_20.png{scale=.7}>
 
 *:== //__**Science**__// knows only two kinds of processes in nature <color:lime>deterministic</color> and <color:crimson>random (non-deterministic) processes</color> and __combination of these two results in <color:brown>**probabilistic processes**__.
 = <color:crimson>Randomness (non-determinism) and probability</color> are not freedom. They mean I can't predict your actions with 100% accuracy because there's randomness.
@@ -29,7 +29,7 @@ probabilistic processes play a significant role in quantum mechanics, statistica
 
 =//__**Probability**__// is starting with an animal, and figuring out what footprints it will make.
 =//__**Statistics**__// is seeing a footprint, and guessing the animal.
-<img:images/img_3.png>
+<img:images/img_3.png{scale=.7}>
 **Probability** is a forward-looking process. It helps in predicting the next output given our knowledge of the distribution of the data
 generating model which is a random process
 
@@ -62,17 +62,17 @@ A bear? A human? If we get 6 heads and 4 tails, what're the chances of a fair co
 ====
 == [[https://www.youtube.com/watch?v=X2eomv6XfWo&ab_channel=PhysicsVideosbyEugeneKhutoryansky The more a procedure is repeated, the closer observed probability will get to the classical probability]] YouTube Video 20-minute;
 
-***** **Example:** I flip the coin 100 or 1000 times, but I cannot flip the coin infinitely, so flipping the coin \n100-times makes sure that there are good amount of outcomes.\n**Formula:**\n<img:images/img_4.png>\n <size:22>**Where "A" is an __event__**
+***** **Example:** I flip the coin 100 or 1000 times, but I cannot flip the coin infinitely, so flipping the coin \n100-times makes sure that there are good amount of outcomes.\n**Formula:**\n<img:images/img_4.png{scale=.7}>\n <size:22>**Where "A" is an __event__**
 **** =2- Classical Probability
 ***** __Probability__ based on **chance** of an **event** occurring, (each sample event must have an equal chance of occurring) \n*What **should happen** when you flip the coin every time,
-***** *Here you are just **thinking** about it that this **should happen not actually doing it** \n**Formula:** \n<img:images/img_5.png>\n <size:22>**Where "A" is an __event__**
+***** *Here you are just **thinking** about it that this **should happen not actually doing it** \n**Formula:** \n<img:images/img_5.png{scale=.7}>\n <size:22>**Where "A" is an __event__**
 **** =3- Subjective Probability
 ***** **Definition:** If someone **estimated** based on **educated guess**
 ***** =like doctors do; they tell 25% chance of cancer recovery,\n=50% chance of operation success, etc.
 
 
 * =Event
-** =A collection of outcomes of a procedure \n<img:images/img.png>
+** =A collection of outcomes of a procedure \n<img:images/img.png{scale=.7}>
 
 * =Procedure
 ** =Definition
@@ -88,8 +88,8 @@ A bear? A human? If we get 6 heads and 4 tails, what're the chances of a fair co
 * =Sample Space
 ** all __simple events__ OR **all/every** __possible outcomes__
 
-*:<img:images/img_1.png>
-<img:images/img_2.png>
+*:<img:images/img_1.png{scale=.7}>
+<img:images/img_2.png{scale=.7}>
 # **Procedure:** what you are doing
 # **Event:** what you are looking for
 # **Simple Event**: what you will eventually get
@@ -106,12 +106,12 @@ but there are **8-simple events** that can occur;
 
 * =//Complement//
 ** The complement of **event** <size:22>**"A"**</size> is denoted by
-*** <img:images/img_6.png> and is all the outcomes when **event** <size:22>**"A"**</size> __does not occur__.
+*** <img:images/img_6.png{scale=.7}> and is all the outcomes when **event** <size:22>**"A"**</size> __does not occur__.
 **:=Example
 * **event:** rolling a 5
 * **complement:** not rolling a 5
 ** <size:22>{1,2,3,4,6}</size>;
-*** <img:images/img_7.png>\n <size:22>The __probability of an event plus the probability of the complement__ must be equal to **1**
+*** <img:images/img_7.png{scale=.7}>\n <size:22>The __probability of an event plus the probability of the complement__ must be equal to **1**
 
 
 @endmindmap

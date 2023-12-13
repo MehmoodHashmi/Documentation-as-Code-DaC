@@ -4,12 +4,12 @@ title =<b><i><u>RabbitMQ
 
 !theme hacker
 
-* **RabbitMQ** \n<img:images/rabbit-mq.png>
+* <i>**RabbitMQ** \n<img:images/rabbit-mq.png{scale=.3}>
 **[#lightblue] <i><color #blac><size:14>Overview
 ***[#green] <b><i><color #white><size:14>Open-source message broker
 ***[#green] <b><i><color #white><size:14>Implements Advanced Message Queuing Protocol (AMQP)
 ***[#green] <b><i><color #white><size:14>Provides reliable messaging between applications
-**[#lightblue] <i><color #blac><size:14>Core Concepts \n<img:images/rabbit-mq-architecture.png>
+**[#lightblue] <i><color #blac><size:14>Core Concepts \n<img:images/rabbit-mq-architecture.png{scale=.55}>
 ***[#green] <b><i><color #white><size:14>Publishers
 ****[#yellow] <i><color #black><size:14>Send messages to exchanges
 ****[#yellow] <i><color #black><size:14>Responsible for message production

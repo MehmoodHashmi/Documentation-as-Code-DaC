@@ -1,8 +1,8 @@
 @startmindmap
-title =__ Data Science__ \n<img:images/img_17.png>
+title =__ Data Science__ \n<img:images/img_17.png{scale=.5}>
 !theme hacker
 
-*[#gold] =Data Science\n<img:images/img_5.png>
+*[#gold] =Data Science\n<img:images/img_5.png{scale=.5}>
 **[#a] =**Foundations of Data Science**
 ***[#yellow] ====<size:13>Statistics
 ***[#yellow] ====<size:13>Linear Algebra

@@ -1,47 +1,47 @@
 @startmindmap
-title =__ Data Modeler__\n<img:images/img_1.png>
+title =__ Data Modeler__\n<img:images/img_1.png{scale=.7}>
 * **[[https://www.youtube.com/watch?v=P8qJ7kqbkIk&ab_channel=ITkFunde]]**
 !theme hacker
 
 * Data Modeler
 **[#pink] **Roles and Responsibilities**
-***[#yellow] ====<size:13>Data Modeling
-***[#yellow] ====<size:13>Database Design
-***[#yellow] ====<size:13>Entity-Relationship Modeling
-***[#yellow] ====<size:13>Data Schema Development
-***[#yellow] ====<size:13>Data Integration
-***[#yellow] ====<size:13>Data Quality Assurance
+***[#yellow] <i><size:14>Data Modeling
+***[#yellow] <i><size:14>Database Design
+***[#yellow] <i><size:14>Entity-Relationship Modeling
+***[#yellow] <i><size:14>Data Schema Development
+***[#yellow] <i><size:14>Data Integration
+***[#yellow] <i><size:14>Data Quality Assurance
 ** Skills and Qualifications
-***[#yellow] ====<size:13>Data Modeling Techniques
-***[#yellow] ====<size:13>Database Concepts
-***[#yellow] ====<size:13>SQL and Query Languages
-***[#yellow] ====<size:13>Data Profiling and Analysis
-***[#yellow] ====<size:13>Data Validation and Cleansing
-***[#yellow] ====<size:13>Data Governance Principles
-***[#yellow] ====<size:13>Collaborative Problem Solving
+***[#yellow] <i><size:14>Data Modeling Techniques
+***[#yellow] <i><size:14>Database Concepts
+***[#yellow] <i><size:14>SQL and Query Languages
+***[#yellow] <i><size:14>Data Profiling and Analysis
+***[#yellow] <i><size:14>Data Validation and Cleansing
+***[#yellow] <i><size:14>Data Governance Principles
+***[#yellow] <i><size:14>Collaborative Problem Solving
 ** Tools and Technologies
-***[#yellow] ====<size:13>Data Modeling Tools
-***[#yellow] ====<size:13>Database Management Systems
-***[#yellow] ====<size:13>SQL Editors and IDEs
-***[#yellow] ====<size:13>Data Integration Tools
-***[#yellow] ====<size:13>Data Profiling Tools
-***[#yellow] ====<size:13>Data Quality Tools
+***[#yellow] <i><size:14>Data Modeling Tools
+***[#yellow] <i><size:14>Database Management Systems
+***[#yellow] <i><size:14>SQL Editors and IDEs
+***[#yellow] <i><size:14>Data Integration Tools
+***[#yellow] <i><size:14>Data Profiling Tools
+***[#yellow] <i><size:14>Data Quality Tools
 ** Domain Knowledge
-***[#yellow] ====<size:13>Business Processes
-***[#yellow] ====<size:13>Data Requirements and Use Cases
-***[#yellow] ====<size:13>Industry Standards and Best Practices
-***[#yellow] ====<size:13>Data Governance Frameworks
-***[#yellow] ====<size:13>Data Security and Privacy
+***[#yellow] <i><size:14>Business Processes
+***[#yellow] <i><size:14>Data Requirements and Use Cases
+***[#yellow] <i><size:14>Industry Standards and Best Practices
+***[#yellow] <i><size:14>Data Governance Frameworks
+***[#yellow] <i><size:14>Data Security and Privacy
 ** Collaboration and Communication
-***[#yellow] ====<size:13>Stakeholder Engagement
-***[#yellow] ====<size:13>Requirement Gathering
-***[#yellow] ====<size:13>Documentation and Presentation Skills
-***[#yellow] ====<size:13>Cross-functional Collaboration
+***[#yellow] <i><size:14>Stakeholder Engagement
+***[#yellow] <i><size:14>Requirement Gathering
+***[#yellow] <i><size:14>Documentation and Presentation Skills
+***[#yellow] <i><size:14>Cross-functional Collaboration
 ** Emerging Trends and Technologies
-***[#yellow] ====<size:13>Big Data and Analytics
-***[#yellow] ====<size:13>NoSQL and NewSQL Databases
-***[#yellow] ====<size:13>Cloud Computing
-***[#yellow] ====<size:13>Data Virtualization
-***[#yellow] ====<size:13>Data Lake and Data Warehouse
-***[#yellow] ====<size:13>Machine Learning and AI in Data Modeling
+***[#yellow] <i><size:14>Big Data and Analytics
+***[#yellow] <i><size:14>NoSQL and NewSQL Databases
+***[#yellow] <i><size:14>Cloud Computing
+***[#yellow] <i><size:14>Data Virtualization
+***[#yellow] <i><size:14>Data Lake and Data Warehouse
+***[#yellow] <i><size:14>Machine Learning and AI in Data Modeling
 @endmindmap

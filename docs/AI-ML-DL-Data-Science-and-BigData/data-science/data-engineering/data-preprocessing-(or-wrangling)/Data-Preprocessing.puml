@@ -1,5 +1,5 @@
 @startmindmap
-title =<b><i><u>Data Preprocessing\n<img:images/img_59.png> \nStep 1 and Step 2 are performed by the //__Data Analyst or the Data Engineer__//
+title =<b><i><u>Data Preprocessing\n<img:images/img_59.png{scale=.71}> \nStep 1 and Step 2 are performed by the //__Data Analyst or the Data Engineer__//
 !theme hacker
 
 *[#darkblue] <i>Data Preprocessing \n=**(Wrangling)** \n**[[Data-Wrangling-(or-preprocessing).puml Click for detailed \nmindmap]]**

@@ -1,7 +1,7 @@
 @startmindmap
-title =__Apache Hive__\n<img:images/img_6.png>
-
+title =__Apache Hive__\n<img:images/img_6.png{scale=.7}>
 * **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
+!theme hacker
 
 * Apache Hive
 ** Overview
@@ -9,7 +9,7 @@ title =__Apache Hive__\n<img:images/img_6.png>
 *** Built on Apache Hadoop
 *** Provides SQL-like Interface for Big Data Processing
 
-**[#pink] **Architecture** (and hive data flow)\n<img:images/img_7.png>
+** Architecture  (and hive data flow)\n<img:images/img_7.png{scale=.7}>
 *** Metastore
 **** Stores Metadata Information
 **** Schema, Tables, Partition Information

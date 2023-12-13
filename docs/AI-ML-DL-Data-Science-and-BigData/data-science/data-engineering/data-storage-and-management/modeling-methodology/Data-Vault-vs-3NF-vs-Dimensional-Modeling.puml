@@ -2,8 +2,8 @@
 title =__ Data Vault vs 3NF vs Dimensional Modeling__
 * **[[https://www.youtube.com/watch?v=l5UcUEt1IzM&ab_channel=ITkFunde]]**
 
-* <img:images/img_1.png>
-** =How we get from the raw data vault to the business vault. (Enterprise Data Warehouse)\n <img:images/img_3.png>
+* <img:images/img_1.png{scale=.67}>
+** =<i>How we get from the raw data vault to the business vault. (Enterprise Data Warehouse)\n <img:images/img_3.png>
 
 !theme hacker
 

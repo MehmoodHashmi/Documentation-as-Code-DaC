@@ -10,7 +10,7 @@ title =<i><b><u>Pooling [[../gif/pooling.adoc click gif]]
 ***[#green] <color #white><i><size:18>A technique in image processing, computer vision, and deep learning for reducing **"spatial dimensions"** while preserving <b>essential information.
 ***[#green] <color #white><i><size:18>Pooling is often applied after convolution to downsample feature maps.
 
-**[#lightblue] <color #black><i><size:22>Pooling Types [[../gif/pooling-types.adoc click gif]]\n<img:images/img_19.png>
+**[#lightblue] <color #black><i><size:18>Pooling Types [[../gif/pooling-types.adoc click gif]]\n<img:images/img_19.png{scale=.7}>
 ***[#green] <b><color #white><i><size:14>Max Pooling
 ****[#yellow] <color #black><i><size:14>Retains the maximum value within a defined region and is suitable for detecting dominant features.
 ***[#green] <b><color #white><i><size:14>Average Pooling
@@ -34,7 +34,7 @@ title =<i><b><u>Pooling [[../gif/pooling.adoc click gif]]
 ***[#green] <b><color #white><i><size:14>Dimension Reduction
 ****[#yellow] <color #black><i><size:14>Reduces the spatial dimensions of feature maps to save computational resources.
 ***[#green] <b><color #white><i><size:14>Translation Invariance
-****[#yellow] *<color #black><i><size:14>Increases the model's tolerance to small spatial translations in data.\n* <color #black><i><size:14>**Recognizes features** regardless of **exact location.**\n<img:images/img_16.png>
+****[#yellow] *<color #black><i><size:14>Increases the model's tolerance to small spatial translations in data.\n* <color #black><i><size:14>**Recognizes features** regardless of **exact location.**\n<img:images/img_16.png{scale=.7}>
 ***[#green] <b><color #white><i><size:14>Feature Highlighting
 ****[#yellow] <color #black><i><size:14>Focuses on essential features while discarding non-essential details.
 ***[#green] <b><color #white><i><size:14>Noise Robustness

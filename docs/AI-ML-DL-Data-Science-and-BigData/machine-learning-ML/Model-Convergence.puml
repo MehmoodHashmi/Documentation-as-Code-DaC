@@ -1,9 +1,6 @@
 @startmindmap
-title =<i><b><u>Model Convergence [[gif/convergence-divergence.adoc click gif]]\n<img:images/img_1.png>
-
-
+title =<i><b><u>Model Convergence [[gif/convergence-divergence.adoc click gif]]\n<img:images/img_1.png{scale=.5}>
 !theme hacker
-
 
 *[#darkblue] <i>Model Convergence
 **[#lightblue] <color #black><i><size:14>Definition
@@ -12,9 +9,9 @@ title =<i><b><u>Model Convergence [[gif/convergence-divergence.adoc click gif]]\
 ***[#green] <color #white><b><i><size:14>Loss Function
 ****[#yellow] <color #black><i><size:14>Monitor the decrease in the loss function as the model trains.
 ***[#green] <color #white><b><i><size:14>Epochs
-****[#yellow] <color #black><i><size:14>The "number of times" the **entire training dataset** is passed through the <b>"model".\n<img:3-deep-learning-DL/images/img_12.png>
+****[#yellow] <color #black><i><size:14>The "number of times" the **entire training dataset** is passed through the <b>"model".\n<img:3-deep-learning-DL/images/img_12.png{scale=.65}>
 ***[#green] <color #white><b><i><size:14>Learning Rate
-****[#yellow] <color #black><i><size:14>Controls the **"step size"** during "optimization". Or controls the **"step size"** in <b>"weight updates". \n*<i><size:14>A **higher learning rate** might lead to **faster convergence** but **risks overshooting**, while a **lower rate** might slow down convergence.\n<img:3-deep-learning-DL/images/img_18.png>
+****[#yellow] <color #black><i><size:14>Controls the **"step size"** during "optimization". Or controls the **"step size"** in <b>"weight updates". \n*<i><size:14>A **higher learning rate** might lead to **faster convergence** but **risks overshooting**, while a **lower rate** might slow down convergence.\n<img:3-deep-learning-DL/images/img_18.png{scale=.7}>
 ***[#green] <color #white><b><i><size:14>Early Stopping
 ****[#yellow] <color #black><i><size:14>A technique to prevent overfitting by stopping training when performance plateaus.
 **[#lightblue] <color #black><i><size:14>Indicators of Convergence

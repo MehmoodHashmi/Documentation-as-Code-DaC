@@ -1,5 +1,5 @@
 @startmindmap
-title =<b><i><u>MapReduce\n<img:images/img_9.png>
+title =<b><i><u>MapReduce\n<img:images/img_9.png{scale=.7}>
 * <size:14><i><b>[[https://www.youtube.com/watch?v=pcTFiU7wKkQ&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=4&ab_channel=GateSmashers What is MapReduce in Apache Hadoop]]
 ** <i><color #blac><size:14><size:14><i><b>[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers Hadoop Ecosystem | All Components Hdfs ,Mapreduce ,Hive ,Flume ,Sqoop ,Yarn ,Hbase ,Zookeeper, Pig]]
 ** <i><color #blac><size:14><size:18><i><b>[[https://www.analyticsvidhya.com/blog/2022/07/learn-everything-about-mapreduce-architecture-and-its-components/ Learn Everything about MapReduce Architecture & its Components]] Article
@@ -20,7 +20,7 @@ title =<b><i><u>MapReduce\n<img:images/img_9.png>
 ****[#yellow] <i><color #black><size:14>Aggregates Intermediate Data by Key
 ****[#yellow] <i><color #black><size:14>Produces Final Output
 
-**[#lightblue] <i><color #blac><size:18>Workflow \n<img:images/img_8.png>
+**[#lightblue] <i><color #blac><size:18>Workflow \n<img:images/img_8.png{scale=.65}>
 ***[#green] <b><i><color #white><size:14>Input Data
 ****[#yellow] <i><color #black><size:14>Split into Input Splits
 ****[#yellow] <i><color #black><size:14>Assigned to Map Tasks

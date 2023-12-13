@@ -1,46 +1,46 @@
 @startmindmap
-title =__ Snowflake__ \n<img:images/snowflake.png>
+title =__ Snowflake__ \n<img:images/snowflake.png{scale=.4}>
 
 * **[[https://www.youtube.com/watch?v=C8_os0-ti48&ab_channel=ITkFunde]]**
 !theme hacker
 
 * =Snowflake
 **[#pink] =**Overview**
-***[#white] ====<size:14>**Cloud-based data warehousing platform**
-***[#lightgreen] ====<size:14><color #crimson>**Built for the cloud with a unique architecture**</color>
-***[#lightgreen] ====<size:14><color #crimson>**Designed for scalability, flexibility, and performance**</color>
+***[#white] <i><color:black><size:14>**Cloud-based data warehousing platform**
+***[#lightgreen] <i><color:black><size:14><color #crimson>**Built for the cloud with a unique architecture**</color>
+***[#lightgreen] <i><color:black><size:14><color #crimson>**Designed for scalability, flexibility, and performance**</color>
 ** Key Features
 *** Elasticity
-****[#yellow] ====<size:14>Automatic scaling of compute resources based on workload demands
-****[#yellow] ====<size:14>Ability to scale storage independently from compute
+****[#yellow] <i><color:black><size:14>Automatic scaling of compute resources based on workload demands
+****[#yellow] <i><color:black><size:14>Ability to scale storage independently from compute
 *** Multi-cluster architecture
-****[#yellow] ====<size:14>Separation of compute and storage for flexible resource allocation
-****[#yellow] ====<size:14>Ability to run multiple compute clusters simultaneously
+****[#yellow] <i><color:black><size:14>Separation of compute and storage for flexible resource allocation
+****[#yellow] <i><color:black><size:14>Ability to run multiple compute clusters simultaneously
 *** Instant elasticity
-****[#yellow] ====<size:14>On-demand resource allocation and automatic suspension
-****[#yellow] ====<size:14>Pay only for the resources used
+****[#yellow] <i><color:black><size:14>On-demand resource allocation and automatic suspension
+****[#yellow] <i><color:black><size:14>Pay only for the resources used
 *** Data sharing
-****[#yellow] ====<size:14>Secure data sharing across organizations
-****[#yellow] ====<size:14>Controlled access to shared data without data movement
+****[#yellow] <i><color:black><size:14>Secure data sharing across organizations
+****[#yellow] <i><color:black><size:14>Controlled access to shared data without data movement
 *** Built-in security
-****[#yellow] ====<size:14>Advanced security features, including encryption and authentication
-****[#yellow] ====<size:14>Granular access control and auditing capabilities
+****[#yellow] <i><color:black><size:14>Advanced security features, including encryption and authentication
+****[#yellow] <i><color:black><size:14>Granular access control and auditing capabilities
 *** Performance optimization
-****[#yellow] ====<size:14>Query optimization and execution enhancements
-****[#yellow] ====<size:14>Caching and data materialization for faster query results
+****[#yellow] <i><color:black><size:14>Query optimization and execution enhancements
+****[#yellow] <i><color:black><size:14>Caching and data materialization for faster query results
 **[#pink] =Use Cases
 *** Data Warehousing
-****[#yellow] ====<size:14>Analyzing and reporting on large volumes of structured and semi-structured data
-****[#yellow] ====<size:14>Support for complex queries and aggregations
+****[#yellow] <i><color:black><size:14>Analyzing and reporting on large volumes of structured and semi-structured data
+****[#yellow] <i><color:black><size:14>Support for complex queries and aggregations
 *** Data Lakes
-****[#yellow] ====<size:14>Ingesting and processing large volumes of raw, unstructured data
-****[#yellow] ====<size:14>Integrating structured and semi-structured data for analysis
+****[#yellow] <i><color:black><size:14>Ingesting and processing large volumes of raw, unstructured data
+****[#yellow] <i><color:black><size:14>Integrating structured and semi-structured data for analysis
 *** Data Sharing and Collaboration
-****[#yellow] ====<size:14>Sharing data securely with external partners and stakeholders
-****[#yellow] ====<size:14>Collaborating on shared datasets without data movement
+****[#yellow] <i><color:black><size:14>Sharing data securely with external partners and stakeholders
+****[#yellow] <i><color:black><size:14>Collaborating on shared datasets without data movement
 *** Real-Time Analytics
-****[#yellow] ====<size:14>Streaming data processing and analysis
-****[#yellow] ====<size:14>Near real-time insights on live data
+****[#yellow] <i><color:black><size:14>Streaming data processing and analysis
+****[#yellow] <i><color:black><size:14>Near real-time insights on live data
 ** Integration and Ecosystem
 *** Integration with various data integration and ETL tools
 *** Support for popular programming languages and frameworks

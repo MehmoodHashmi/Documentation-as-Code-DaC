@@ -1,79 +1,79 @@
 @startmindmap
-title =CDC (Change Data Capture) Strategy\n<img:images/img_3.png>
+title =<i>CDC (Change Data Capture) Strategy\n<img:images/img_3.png{scale=.85}>
 !theme hacker
 
 * CDC Strategy
-**[#lime] ====Description
-***[#gold] ====<size:14>The **CDC strategy** involves tracking and capturing changes made to the source database.
-***[#gold] ====<size:14>These changes are then selectively replicated to the target database, reducing migration time and effort.
+**[#lime] <i>Description
+***[#gold] <i><size:14>The **CDC strategy** involves tracking and capturing changes made to the source database.
+***[#gold] <i><size:14>These changes are then selectively replicated to the target database, reducing migration time and effort.
 
 ** Benefits
-***[#yellow] ====<size:14>**Reduced Downtime: **Minimizes downtime by replicating only changes rather than the entire dataset.
-***[#yellow] ====<size:14>**Real-Time Updates:** Supports near real-time data synchronization.
-***[#yellow] ====<size:14>**Efficient Data Transfer:** Only modified data is transferred, saving bandwidth and time.
+***[#yellow] <i><size:14>**Reduced Downtime: **Minimizes downtime by replicating only changes rather than the entire dataset.
+***[#yellow] <i><size:14>**Real-Time Updates:** Supports near real-time data synchronization.
+***[#yellow] <i><size:14>**Efficient Data Transfer:** Only modified data is transferred, saving bandwidth and time.
 
 ** Challenges
-***[#yellow] ====<size:14>**Complexity:** Requires robust change tracking and replication mechanisms.
-***[#yellow] ====<size:14>**Data Integrity:** Ensuring data consistency and preventing data conflicts.
-***[#yellow] ====<size:14>**Source System Overhead:** **CDC processes** can impact the performance of the source system.
+***[#yellow] <i><size:14>**Complexity:** Requires robust change tracking and replication mechanisms.
+***[#yellow] <i><size:14>**Data Integrity:** Ensuring data consistency and preventing data conflicts.
+***[#yellow] <i><size:14>**Source System Overhead:** **CDC processes** can impact the performance of the source system.
 
-*[#gold] ====**CDC Methods**
+*[#gold] <i>**CDC Methods**
 ** Timestamp-based
-*** <img:images/img_6.png>
+*** <img:images/img_6.png{scale=.5}>
 ** Trigger-based
-*** <img:images/img_5.png>
+*** <img:images/img_5.png{scale=.5}>
 ** Log-based
-*** <img:images/img_4.png>
+*** <img:images/img_4.png{scale=.5}>
 
 *[#white] "Phases" of **CDC Migration**
 ** Change Data Capture
-***[#pink] ====<size:14>Capture changes made to the source database, such as inserts, updates, and deletes.
-***[#pink] ====<size:14>Employ **CDC technologies or database triggers** to identify changes.
+***[#pink] <i><size:14>Capture changes made to the source database, such as inserts, updates, and deletes.
+***[#pink] <i><size:14>Employ **CDC technologies or database triggers** to identify changes.
 
 **[#orange] Data Replication
-***[#yellow] ====<size:14>Replicate the captured changes to the target database.
-***[#yellow] ====<size:14>Apply data transformations if needed to match the target schema.
+***[#yellow] <i><size:14>Replicate the captured changes to the target database.
+***[#yellow] <i><size:14>Apply data transformations if needed to match the target schema.
 
 ** Continuous Data Synchronization
-***[#yellow] ====<size:14>Maintain ongoing data synchronization between the source and target databases.
-***[#yellow] ====<size:14>Real-time or batch processing methods may be employed.
+***[#yellow] <i><size:14>Maintain ongoing data synchronization between the source and target databases.
+***[#yellow] <i><size:14>Real-time or batch processing methods may be employed.
 
 ** Data Verification
-***[#yellow] ====<size:14>Verify the data in the target database to ensure it aligns with the source data and maintains data integrity.
-***[#yellow] ====<size:14>Confirm data consistency and accuracy.
+***[#yellow] <i><size:14>Verify the data in the target database to ensure it aligns with the source data and maintains data integrity.
+***[#yellow] <i><size:14>Confirm data consistency and accuracy.
 
-*[#white] ====Considerations for **CDC**
+*[#white] <i>Considerations for **CDC**
 **[#orange] Data Mapping
-***[#yellow] ====<size:14>Develop detailed data mapping and transformation rules to guide data replication.
-***[#yellow] ====<size:14>Account for differences in data structures and formats.
+***[#yellow] <i><size:14>Develop detailed data mapping and transformation rules to guide data replication.
+***[#yellow] <i><size:14>Account for differences in data structures and formats.
 
 ** Conflict Resolution
-***[#yellow] ====<size:14>Implement mechanisms for conflict resolution in case of conflicting changes in source and target databases.
-***[#yellow] ====<size:14>Decide how to handle data conflicts.
+***[#yellow] <i><size:14>Implement mechanisms for conflict resolution in case of conflicting changes in source and target databases.
+***[#yellow] <i><size:14>Decide how to handle data conflicts.
 
 ** Rollback Plan
-***[#yellow] ====<size:14>Develop a rollback plan to revert to the original database state in case of **CDC process** failures.
-***[#yellow] ====<size:14>Safeguard against data corruption or loss.
+***[#yellow] <i><size:14>Develop a rollback plan to revert to the original database state in case of **CDC process** failures.
+***[#yellow] <i><size:14>Safeguard against data corruption or loss.
 
 ** Performance Optimization
-***[#yellow] ====<size:14>Optimize the performance of **CDC processes**, including data replication and synchronization.
-***[#yellow] ====<size:14>Monitor and fine-tune **CDC jobs**.
+***[#yellow] <i><size:14>Optimize the performance of **CDC processes**, including data replication and synchronization.
+***[#yellow] <i><size:14>Monitor and fine-tune **CDC jobs**.
 
 * Best Practices
 ** Testing and Validation
-***[#yellow] ====<size:14>Rigorously test **CDC processes** in a non-production environment to ensure data accuracy.
-***[#yellow] ====<size:14>Validate application functionality with the new database.
+***[#yellow] <i><size:14>Rigorously test **CDC processes** in a non-production environment to ensure data accuracy.
+***[#yellow] <i><size:14>Validate application functionality with the new database.
 
 ** Documentation
-***[#yellow] ====<size:14>Maintain detailed documentation of the **CDC processes**, including data mapping, change tracking mechanisms, and transformation rules.
-***[#yellow] ====<size:14>Document any issues and their resolutions.
+***[#yellow] <i><size:14>Maintain detailed documentation of the **CDC processes**, including data mapping, change tracking mechanisms, and transformation rules.
+***[#yellow] <i><size:14>Document any issues and their resolutions.
 
 ** Communication
-***[#yellow] ====<size:14>Communicate with stakeholders about the progress of **CDC processes** and any potential impacts.
-***[#yellow] ====<size:14>Coordinate with application owners and users.
+***[#yellow] <i><size:14>Communicate with stakeholders about the progress of **CDC processes** and any potential impacts.
+***[#yellow] <i><size:14>Coordinate with application owners and users.
 
 ** Monitoring and Alerting
-***[#yellow] ====<size:14>Implement monitoring and alerting to promptly address issues during **CDC processes**.
-***[#yellow] ====<size:14>Detect and respond to data synchronization problems.
+***[#yellow] <i><size:14>Implement monitoring and alerting to promptly address issues during **CDC processes**.
+***[#yellow] <i><size:14>Detect and respond to data synchronization problems.
 
 @endmindmap

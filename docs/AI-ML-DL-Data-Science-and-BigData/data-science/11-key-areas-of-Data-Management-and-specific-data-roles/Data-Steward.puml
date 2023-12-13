@@ -1,52 +1,52 @@
 @startmindmap
-title =__ Data Steward__\n<img:images/img_1.png>
+title =__ Data Steward__\n<img:images/img_1.png{scale=.7}>
 
 * **[[https://www.youtube.com/watch?v=P8qJ7kqbkIk&ab_channel=ITkFunde]]**
 !theme hacker
 
 * Data Steward
 **[#pink] **Roles and Responsibilities**
-***[#yellow] ====<size:13>Data Governance and Compliance
-***[#yellow] ====<size:13>Data Quality Management
-***[#yellow] ====<size:13>Data Classification and Categorization
-***[#yellow] ====<size:13>Data Standards and Policies
-***[#yellow] ====<size:13>Data Access and Security
-***[#yellow] ====<size:13>Data Privacy and Confidentiality
-***[#yellow] ====<size:13>Metadata Management
-***[#yellow] ====<size:13>Data Documentation and Lineage
+***[#yellow] <i><size:14>Data Governance and Compliance
+***[#yellow] <i><size:14>Data Quality Management
+***[#yellow] <i><size:14>Data Classification and Categorization
+***[#yellow] <i><size:14>Data Standards and Policies
+***[#yellow] <i><size:14>Data Access and Security
+***[#yellow] <i><size:14>Data Privacy and Confidentiality
+***[#yellow] <i><size:14>Metadata Management
+***[#yellow] <i><size:14>Data Documentation and Lineage
 ** Skills and Qualifications
-***[#yellow] ====<size:13>Knowledge of Data Governance Frameworks
-***[#yellow] ====<size:13>Understanding of Data Management Principles
-***[#yellow] ====<size:13>Proficiency in Data Analysis and Validation
-***[#yellow] ====<size:13>Familiarity with Data Privacy Regulations **(e.g., GDPR)**
-***[#yellow] ====<size:13>Strong Communication and Collaboration Skills
-***[#yellow] ====<size:13>Attention to Detail and Organizational Skills
-***[#yellow] ====<size:13>Problem-solving and Troubleshooting Abilities
+***[#yellow] <i><size:14>Knowledge of Data Governance Frameworks
+***[#yellow] <i><size:14>Understanding of Data Management Principles
+***[#yellow] <i><size:14>Proficiency in Data Analysis and Validation
+***[#yellow] <i><size:14>Familiarity with Data Privacy Regulations **(e.g., GDPR)**
+***[#yellow] <i><size:14>Strong Communication and Collaboration Skills
+***[#yellow] <i><size:14>Attention to Detail and Organizational Skills
+***[#yellow] <i><size:14>Problem-solving and Troubleshooting Abilities
 ** Data Governance Framework
-***[#yellow] ====<size:13>Data Governance Roles and Responsibilities
-***[#yellow] ====<size:13>Data Governance Policies and Procedures
-***[#yellow] ====<size:13>Data Governance Framework Implementation
-***[#yellow] ====<size:13>Data Stewardship Processes and Workflows
-***[#yellow] ====<size:13>Data Quality Metrics and KPIs
-***[#yellow] ====<size:13>Data Issue and Exception Management
+***[#yellow] <i><size:14>Data Governance Roles and Responsibilities
+***[#yellow] <i><size:14>Data Governance Policies and Procedures
+***[#yellow] <i><size:14>Data Governance Framework Implementation
+***[#yellow] <i><size:14>Data Stewardship Processes and Workflows
+***[#yellow] <i><size:14>Data Quality Metrics and KPIs
+***[#yellow] <i><size:14>Data Issue and Exception Management
 ** Data Quality Management
-***[#yellow] ====<size:13>Data Profiling and Analysis
-***[#yellow] ====<size:13>Data Cleansing and Standardization
-***[#yellow] ====<size:13>Data Validation and Verification
-***[#yellow] ====<size:13>Data Monitoring and Reporting
-***[#yellow] ====<size:13>Root Cause Analysis and Issue Resolution
-***[#yellow] ====<size:13>Continuous Improvement of Data Quality
+***[#yellow] <i><size:14>Data Profiling and Analysis
+***[#yellow] <i><size:14>Data Cleansing and Standardization
+***[#yellow] <i><size:14>Data Validation and Verification
+***[#yellow] <i><size:14>Data Monitoring and Reporting
+***[#yellow] <i><size:14>Root Cause Analysis and Issue Resolution
+***[#yellow] <i><size:14>Continuous Improvement of Data Quality
 ** Metadata Management
-***[#yellow] ====<size:13>Metadata Capture and Documentation
-***[#yellow] ====<size:13>Metadata Repository and Catalogs
-***[#yellow] ====<size:13>Data Lineage and Impact Analysis
-***[#yellow] ====<size:13>Metadata Governance and Maintenance
-***[#yellow] ====<size:13>Metadata Integration and Interoperability
+***[#yellow] <i><size:14>Metadata Capture and Documentation
+***[#yellow] <i><size:14>Metadata Repository and Catalogs
+***[#yellow] <i><size:14>Data Lineage and Impact Analysis
+***[#yellow] <i><size:14>Metadata Governance and Maintenance
+***[#yellow] <i><size:14>Metadata Integration and Interoperability
 ** Data Privacy and Security
-***[#yellow] ====<size:13>Data Classification and Sensitivity
-***[#yellow] ====<size:13>Access Controls and Permissions
-***[#yellow] ====<size:13>Data Masking and Anonymization
-***[#yellow] ====<size:13>Data Retention and Deletion Policies
-***[#yellow] ====<size:13>Data Breach Management
-***[#yellow] ====<size:13>Data Privacy Compliance **(e.g., GDPR, CCPA)**
+***[#yellow] <i><size:14>Data Classification and Sensitivity
+***[#yellow] <i><size:14>Access Controls and Permissions
+***[#yellow] <i><size:14>Data Masking and Anonymization
+***[#yellow] <i><size:14>Data Retention and Deletion Policies
+***[#yellow] <i><size:14>Data Breach Management
+***[#yellow] <i><size:14>Data Privacy Compliance **(e.g., GDPR, CCPA)**
 @endmindmap

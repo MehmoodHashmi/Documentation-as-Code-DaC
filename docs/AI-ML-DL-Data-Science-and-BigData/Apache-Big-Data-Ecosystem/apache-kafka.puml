@@ -1,17 +1,17 @@
 @startmindmap
-title =<b><u><i>Apache Kafka \n<img:images/apache-kafka.png>
+title =<b><u><i>Apache Kafka \n<img:images/apache-kafka.png{scale=.7}>
 
 * <b><size:14><i>[[https://www.youtube.com/watch?v=0V9SK6jmDPk&ab_channel=ITkFunde Apache Kafka Basics ]]
 ** <b><size:14><i>[[https://www.youtube.com/watch?v=84HRqqWpqL4&list=PLBb5HFCJVQts9MRueDBfi-K8DB_p_dGLJ&index=2&ab_channel=JavaShastra Kafka Producer Consumer using spring boot | Kafka producer | Kafka Consumer]]
 
 !theme hacker
 
-*[#darkblue] =<i>Apache Kafka\n<img:images/kafka.png>
+*[#darkblue] =<i>Apache Kafka\n<img:images/kafka.png{scale=.7}>
 **[#lightblue] <i><size:14>Overview
 ***[#green] <color #white><b><i><size:14><size:14>Distributed streaming platform
 ***[#green] <color #white><b><i><size:14><size:14>Handles high-volume, real-time data feeds
 ***[#green] <color #white><b><i><size:14><size:14>Provides fault-tolerant and scalable data processing
-**[#lightblue] <i><size:14>Core Concepts \n<img:images/producer-consumer.png>\n\n<img:images/queue.png>
+**[#lightblue] <i><size:14>Core Concepts \n<img:images/producer-consumer.png{scale=.7}>\n\n<img:images/queue.png{scale=.62}>
 ***[#green] <color #white><b><i><size:14>Topics
 ****[#yellow] <color #black><i><size:14>Categories or feeds of messages in Kafka
 ****[#yellow] <color #black><i><size:14>Partitioned and distributed across **brokers** (are nothing but **kafka server instances**)
@@ -69,6 +69,5 @@ title =<b><u><i>Apache Kafka \n<img:images/apache-kafka.png>
 ***[#green] <color #white><b><i><size:14>Elasticsearch
 ***[#green] <color #white><b><i><size:14>MongoDB
 
-* <img:images/kafka-cluster.png>
-
+* <img:images/kafka-cluster.png{scale=.45}>
 @endmindmap

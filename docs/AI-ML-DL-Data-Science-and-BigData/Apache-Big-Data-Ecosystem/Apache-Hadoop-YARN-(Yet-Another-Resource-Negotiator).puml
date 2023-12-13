@@ -1,7 +1,7 @@
 @startmindmap
-title =__Apache Hadoop YARN (Yet Another Resource Negotiator)__\n<img:images/img_13.png>
-
+title =__Apache Hadoop YARN (Yet Another Resource Negotiator)__\n<img:images/img_13.png{scale=.8}>
 * **[[https://www.youtube.com/watch?v=8r7kHT4K1pA&list=PLxCzCOWd7aiHUUi6ZlansKbDw_cXut0El&index=5&ab_channel=GateSmashers]]**
+!theme hacker
 
 * Apache Hadoop YARN
 ** Overview

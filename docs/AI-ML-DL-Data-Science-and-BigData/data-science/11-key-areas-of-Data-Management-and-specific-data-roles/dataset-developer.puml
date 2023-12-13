@@ -1,56 +1,56 @@
 @startmindmap
-title =__ Dataset Developer__\n<img:images/img_1.png>
+title =__ Dataset Developer__\n<img:images/img_1.png{scale=.7}>
 !theme hacker
 
 * Dataset Developer
 ** Data Analysis
-***[#gold] ====<size:13>**Exploratory Data Analysis (EDA)** e.g. using python **pandas library**
-***[#yellow] ====<size:13>Data Visualization
-***[#yellow] ====<size:13>Statistical Analysis
+***[#gold] <i><size:14>**Exploratory Data Analysis (EDA)** e.g. using python **pandas library**
+***[#yellow] <i><size:14>Data Visualization
+***[#yellow] <i><size:14>Statistical Analysis
 ** Data Collection
-***[#yellow] ====<size:13>Data Sources
-***[#yellow] ====<size:13>Data Extraction
-***[#yellow] ====<size:13>Data Transformation
-***[#yellow] ====<size:13>Data Integration
+***[#yellow] <i><size:14>Data Sources
+***[#yellow] <i><size:14>Data Extraction
+***[#yellow] <i><size:14>Data Transformation
+***[#yellow] <i><size:14>Data Integration
 ** Data Quality
-***[#yellow] ====<size:13>Data Cleansing
-***[#yellow] ====<size:13>Data Validation
-***[#yellow] ====<size:13>Data Standardization
-***[#yellow] ====<size:13>Data Profiling
+***[#yellow] <i><size:14>Data Cleansing
+***[#yellow] <i><size:14>Data Validation
+***[#yellow] <i><size:14>Data Standardization
+***[#yellow] <i><size:14>Data Profiling
 ** Data Modeling
-***[#yellow] ====<size:13>Conceptual Data Model
-***[#yellow] ====<size:13>Logical Data Model
-***[#yellow] ====<size:13>Physical Data Model
+***[#yellow] <i><size:14>Conceptual Data Model
+***[#yellow] <i><size:14>Logical Data Model
+***[#yellow] <i><size:14>Physical Data Model
 ** Database Management
-***[#yellow] ====<size:13>Relational Databases
-***[#yellow] ====<size:13>NoSQL Databases
-***[#yellow] ====<size:13>Data Warehousing
-***[#yellow] ====<size:13>Data Lake
+***[#yellow] <i><size:14>Relational Databases
+***[#yellow] <i><size:14>NoSQL Databases
+***[#yellow] <i><size:14>Data Warehousing
+***[#yellow] <i><size:14>Data Lake
 ** ETL (Extract, Transform, Load) Processes
-***[#yellow] ====<size:13>Data Extraction
-***[#yellow] ====<size:13>Data Transformation
-***[#yellow] ====<size:13>Data Loading
+***[#yellow] <i><size:14>Data Extraction
+***[#yellow] <i><size:14>Data Transformation
+***[#yellow] <i><size:14>Data Loading
 ** Data Governance
-***[#yellow] ====<size:13>Data Policies
-***[#yellow] ====<size:13>Data Privacy
-***[#yellow] ====<size:13>Data Security
-***[#yellow] ====<size:13>Data Compliance
+***[#yellow] <i><size:14>Data Policies
+***[#yellow] <i><size:14>Data Privacy
+***[#yellow] <i><size:14>Data Security
+***[#yellow] <i><size:14>Data Compliance
 ** Data Documentation
-***[#yellow] ====<size:13>Data Dictionary
-***[#yellow] ====<size:13>Data Lineage
-***[#yellow] ====<size:13>Metadata Management
-***[#yellow] ====<size:13>Data Catalog
+***[#yellow] <i><size:14>Data Dictionary
+***[#yellow] <i><size:14>Data Lineage
+***[#yellow] <i><size:14>Metadata Management
+***[#yellow] <i><size:14>Data Catalog
 ** Data Pipelines
-***[#yellow] ====<size:13>Batch Processing
-***[#yellow] ====<size:13>Stream Processing
-***[#yellow] ====<size:13>Data Orchestration
+***[#yellow] <i><size:14>Batch Processing
+***[#yellow] <i><size:14>Stream Processing
+***[#yellow] <i><size:14>Data Orchestration
 ** Data Collaboration
-***[#yellow] ====<size:13>Cross-functional Collaboration
-***[#yellow] ====<size:13>Data Sharing
-***[#yellow] ====<size:13>Data Integration
+***[#yellow] <i><size:14>Cross-functional Collaboration
+***[#yellow] <i><size:14>Data Sharing
+***[#yellow] <i><size:14>Data Integration
 ** Programming Languages
-***[#yellow] ====<size:13>SQL
-***[#yellow] ====<size:13>Python
-***[#yellow] ====<size:13>R
-***[#yellow] ====<size:13>Java
+***[#yellow] <i><size:14>SQL
+***[#yellow] <i><size:14>Python
+***[#yellow] <i><size:14>R
+***[#yellow] <i><size:14>Java
 @endmindmap

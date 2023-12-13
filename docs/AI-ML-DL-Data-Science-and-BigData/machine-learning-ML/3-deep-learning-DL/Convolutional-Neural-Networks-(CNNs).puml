@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><b><u>Convolutional Neural Networks (CNNs) [[../gif/CNN-architecture.adoc click gif]] \n<img:images/img_13.png>\t<img:images/img_17.png>
+title =<i><b><u>Convolutional Neural Networks (CNNs) [[../gif/CNN-architecture.adoc click gif]] \n<img:images/img_13.png{scale=.88}>\t<img:images/img_17.png{scale=.85}>
 
 * =<i>[[Pooling.puml Pooling]], [[../gif/pooling.adoc click gif]]
 **:<i><size:14>**Pooling** is like **summarizing information**, keeping what's <b>important.
@@ -16,7 +16,7 @@ title =<i><b><u>Convolutional Neural Networks (CNNs) [[../gif/CNN-architecture.a
 ****[#yellow]:*<u><color #black><i><size:18>Apply **convolution** operations to detect <b>features.
 ==<color #black><i><size:14>**Images** are full of important parts called <b>features==
 *<color #black><i><size:14><b>Features</b> can be edges, textures, shapes, or even faces.
-<img:images/img_14.png>;
+<img:images/img_14.png{scale=.85}>;
 ***[#green] <b><color #white><i><size:14>Pooling Layers
 ****[#yellow] <color #black><i><size:14>Downsample **feature maps** to reduce **spatial dimensions** while retaining <b>essential information.
 ***[#green] <b><color #white><i><size:14>Fully Connected Layers

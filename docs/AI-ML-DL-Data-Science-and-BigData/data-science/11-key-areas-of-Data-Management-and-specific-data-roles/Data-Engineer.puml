@@ -1,49 +1,49 @@
 @startmindmap
-title =__ Data Engineer__\n<img:images/img_1.png>
+title =__ Data Engineer__\n<img:images/img_1.png{scale=.7}>
 
 * **[[https://www.youtube.com/watch?v=P8qJ7kqbkIk&ab_channel=ITkFunde]]**
 !theme hacker
 
-* **Data Engineer** \n <img:images/img.png>
+* **Data Engineer** \n<img:images/img.png{scale=.5}>
 **[#pink] **Roles and Responsibilities**
-***[#yellow] ====<size:14>Data Pipeline Development
-***[#yellow] ====<size:14>Data Integration and ETL
-***[#yellow] ====<size:14>Data Warehousing
-***[#yellow] ====<size:14>Data Processing and Transformation
-***[#yellow] ====<size:14>Data Storage and Retrieval
-***[#yellow] ====<size:14>Database Design and Optimization
-***[#yellow] ====<size:14>Data Quality and Validation
+***[#yellow] <i><size:14>Data Pipeline Development
+***[#yellow] <i><size:14>Data Integration and ETL
+***[#yellow] <i><size:14>Data Warehousing
+***[#yellow] <i><size:14>Data Processing and Transformation
+***[#yellow] <i><size:14>Data Storage and Retrieval
+***[#yellow] <i><size:14>Database Design and Optimization
+***[#yellow] <i><size:14>Data Quality and Validation
 ** Skills and Qualifications
-***[#yellow] ====<size:14>Programming Languages **(e.g., Python, Java, SQL)**
-***[#yellow] ====<size:14>ETL Tools and Frameworks **(e.g., Apache Spark, Apache Beam)**
-***[#yellow] ====<size:14>Database Systems **(e.g., MySQL, PostgreSQL, MongoDB)**
-***[#yellow] ====<size:14>Data Modeling and Database Design
-***[#yellow] ====<size:14>Data Streaming Technologies **(e.g., Apache Kafka)**
-***[#yellow] ====<size:14>Cloud Computing Platforms **(e.g., AWS, Azure, GCP)**
-***[#yellow] ====<size:14>Data Visualization and Reporting
+***[#yellow] <i><size:14>Programming Languages **(e.g., Python, Java, SQL)**
+***[#yellow] <i><size:14>ETL Tools and Frameworks **(e.g., Apache Spark, Apache Beam)**
+***[#yellow] <i><size:14>Database Systems **(e.g., MySQL, PostgreSQL, MongoDB)**
+***[#yellow] <i><size:14>Data Modeling and Database Design
+***[#yellow] <i><size:14>Data Streaming Technologies **(e.g., Apache Kafka)**
+***[#yellow] <i><size:14>Cloud Computing Platforms **(e.g., AWS, Azure, GCP)**
+***[#yellow] <i><size:14>Data Visualization and Reporting
 ** Big Data Technologies
-***[#yellow] ====<size:14>Hadoop Ecosystem **(e.g., HDFS, MapReduce, Hive, HBase)**
-***[#yellow] ====<size:14>Distributed Processing Frameworks **(e.g., Apache Spark, Apache Flink)**
-***[#yellow] ====<size:14>NoSQL and NewSQL Databases
-***[#yellow] ====<size:14>Data Lakes and Data Warehouses
-***[#yellow] ====<size:14>Streaming and Real-time Analytics
+***[#yellow] <i><size:14>Hadoop Ecosystem **(e.g., HDFS, MapReduce, Hive, HBase)**
+***[#yellow] <i><size:14>Distributed Processing Frameworks **(e.g., Apache Spark, Apache Flink)**
+***[#yellow] <i><size:14>NoSQL and NewSQL Databases
+***[#yellow] <i><size:14>Data Lakes and Data Warehouses
+***[#yellow] <i><size:14>Streaming and Real-time Analytics
 ** Data Governance and Security
-***[#yellow] ====<size:14>Data Privacy and Compliance
-***[#yellow] ====<size:14>Data Quality Management
-***[#yellow] ====<size:14>Metadata Management
-***[#yellow] ====<size:14>Data Security and Access Control
-***[#yellow] ====<size:14>Data Lifecycle Management
+***[#yellow] <i><size:14>Data Privacy and Compliance
+***[#yellow] <i><size:14>Data Quality Management
+***[#yellow] <i><size:14>Metadata Management
+***[#yellow] <i><size:14>Data Security and Access Control
+***[#yellow] <i><size:14>Data Lifecycle Management
 ** Data Science Collaboration
-***[#yellow] ====<size:14>Collaborating with Data Scientists
-***[#yellow] ====<size:14>Implementing Data Science Workflows
-***[#yellow] ====<size:14>Feature Engineering and Data Preparation
-***[#yellow] ====<size:14>Model Deployment and Monitoring
-***[#yellow] ====<size:14>Experimentation and A/B Testing
+***[#yellow] <i><size:14>Collaborating with Data Scientists
+***[#yellow] <i><size:14>Implementing Data Science Workflows
+***[#yellow] <i><size:14>Feature Engineering and Data Preparation
+***[#yellow] <i><size:14>Model Deployment and Monitoring
+***[#yellow] <i><size:14>Experimentation and A/B Testing
 ** Emerging Technologies and Trends
-***[#yellow] ====<size:14>Machine Learning and AI in Data Engineering
-***[#yellow] ====<size:14>Serverless Computing
-***[#yellow] ====<size:14>DataOps and DevOps Practices
-***[#yellow] ====<size:14>Data Catalogs and Metadata Management
-***[#yellow] ====<size:14>Data Mesh Architecture
-***[#yellow] ====<size:14>Edge Computing and IoT Data Processing
+***[#yellow] <i><size:14>Machine Learning and AI in Data Engineering
+***[#yellow] <i><size:14>Serverless Computing
+***[#yellow] <i><size:14>DataOps and DevOps Practices
+***[#yellow] <i><size:14>Data Catalogs and Metadata Management
+***[#yellow] <i><size:14>Data Mesh Architecture
+***[#yellow] <i><size:14>Edge Computing and IoT Data Processing
 @endmindmap

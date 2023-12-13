@@ -11,7 +11,7 @@ title =__//Finding the Center of a Data Set. Mean, Median, Mode//__
 
 **:**Descriptive Statistics** is a **method** of organizing, summarizing, & presenting data in a convenient &
 informative way. The actual **method** used depends **__on what information we would like to extract.__**
-<img:images/img_31.png>;
+<img:images/img_31.png{scale=.7}>;
 
 
 * <size: 22>**5-Characteristics of "describing" data**
@@ -26,7 +26,7 @@ informative way. The actual **method** used depends **__on what information we w
 * =**1- Center**
 ** **Definition:** What's happening most often, by what value\n data is mostly surrounded OR The **middle** of the data set
 ***[#pink] =**3-ways to find __center__:**
-**** **1- Mean:** is Arithmetic average, add all the values and divide the by the total number\n of values you added\n<img:images/img_12.png>
+**** **1- Mean:** is Arithmetic average, add all the values and divide the by the total number\n of values you added\n<img:images/img_12.png{scale=.7}>
 ***** **Mean** is affected by the **outliers** data
 **** =**2- Median:** is the \n**middle value** of the  **data set**
 ***** **data:** must be in **order,** otherwise your **middle number** \nwill not necessarily be the middle of your **data set**
@@ -40,15 +40,15 @@ informative way. The actual **method** used depends **__on what information we w
 **** =**3- Mode:** Most commonly occurring data value. e.g. 1, 2 ,2, **3,3,3,** 4,5,6. In this example **mode is 3.**
 **** ===__Making up frequency distributions__ and __calculating the mean of those frequency distributions__ and calculating the mean of weighted distributions
 ****[#gold] <size: 22>**skewed:**</size>
-***** **skewed right:** meaning most** outliers** exists on right side of graph\n<img:images/img_13.png>
-****** **skewed left:** meaning most **outliers** exists on left side of graph\n<img:images/img_14.png>
-***** **Normal:** not bad data \n<img:images/img_15.png>
-******[#white] <size:22>**Empirical Rule:**</size> if a **data set** is **normally distributed,** \nonly then we can use the **empirical rule**\n<img:images/img_22.png>
+***** **skewed right:** meaning most** outliers** exists on right side of graph\n<img:images/img_13.png{scale=.4}>
+****** **skewed left:** meaning most **outliers** exists on left side of graph\n<img:images/img_14.png{scale=.4}>
+***** **Normal:** not bad data \n<img:images/img_15.png{scale=.5}>
+******[#white] <size:22>**Empirical Rule:**</size> if a **data set** is **normally distributed,** \nonly then we can use the **empirical rule**\n<img:images/img_22.png{scale=.7}>
 *******:==**Definition:** if a **data set** is **normally distributed,** then:
 * <size:16>**68%** of the **data** will <color #green>**fall within**</color> **one __standard deviation__** of the **mean**
 * <size:16>**95%** of the **data** will <color #green>**fall within**</color> **tow __standard deviation__** of the **mean**
 * <size:16>**99.7%** of the **data** will <color #green>**fall within**</color> **three __standard deviation__** of the **mean**
-<img:images/img_24.png>;
+<img:images/img_24.png{scale=.7}>;
 
 
 *******[#pink]:If a **data value** is within **(tow or 2)** __standard deviation__ of the **mean**, that is
@@ -57,16 +57,16 @@ will be considered as <size:22>**"unusual"**</size>;
 
 *******[#gold]:A **data value** outside of **(three or 3)** __standard deviation__ of the **mean**, is very <size:22>**rare.**</size>
 **Example:**
-<img:images/img_19.png>;
+<img:images/img_19.png{scale=.5}>;
 
 
 *:=The __<color #brown>z-score</color>__ can be perfectly found in a __normal distribution curve__ with no __left skew and right skew.__ The below image shows these curves.
-<img:images/img_23.png>
+<img:images/img_23.png{scale=.5}>
 =//In Cases where data is left-skewed or right-skewed, then __Median__ is better metric for the __data centrality__ instead of the __Mean__.//;
 
 * =Machine Learning \n=(Data Engineering)
-** <img:images/img_61.png>
-*** <img:images/img_60.png>
+** <img:images/img_61.png{scale=.4}>
+*** <img:images/img_60.png{scale=.5}>
 
 **:=//If//
 =//__1- Data Spread,__//
@@ -83,7 +83,7 @@ all 3 are same & interchangeable;
 # the model (algorithm) or machine consumes <size:22>less computation time</size>;
 
 **:=Employee Table:
-<img:images/img_35.png>
+<img:images/img_35.png{scale=.7}>
 ==//__**Data-Set:**__// is all the rows or records of the Employee table/entity.
 *An **entity/table** such as Employee can 've different __levels/types of data__
 such as ratio, nominal, ordinal, etc.
@@ -101,7 +101,7 @@ the data is inconsistent;
 ****[#white] **Dimension** (in Math world)
 *****[#yellow]  **in Math specifically __Machine Learning (ML) & linear algebra people__ use this word**
 ****[#yellow] **variable** (in statistics world)
-*** =Employee Table: \n<img:images/img_41.png>
+*** =Employee Table: \n<img:images/img_41.png{scale=.7}>
 ****[#pink] **Employee Table** \n**any row is called**
 ***** =Observation
 ****** ===(in statistics world)
@@ -112,7 +112,7 @@ the data is inconsistent;
 ***** =Tuple or Record
 ****** ===In DB world
 ***** ==All these words 've same meaning but used in different contexts
-*** =//__Data model__// for physicians and patients: \n<img:images/img_36.png>
+*** =//__Data model__// for physicians and patients: \n<img:images/img_36.png{scale=.7}>
 **** =//__Object model__// in OOP:
 
 *[#red] Lecture-3 Part-2: **Finding the Center of a Data Set. Mean, Median, Mode**
@@ -133,7 +133,7 @@ We have **two ways** to do it:
 * **comparing measures** between or within the **data set/values**;
 
 ***:<size:18>**1- Coefficient of variation:**</size> which translates __**standard deviation**__ <color #green>**comparison**</color> to its **mean** to a **percentage (%)**
-<img:images/img_20.png>
+<img:images/img_20.png{scale=.7}>
 It does not says **height** varies **4.6%** more than **weight**, it is just  a way to <color #lime>**compare**</color> __height and weight__.
 
 Observe, even though the number of **standard deviation** is smaller for the **height; s=3,**
@@ -141,7 +141,7 @@ in-spite of this the **coefficient of variation = 4.6%** is larger;
 
 ***[#a]:<size:18>**2- Z-score:**</size> The number of **standard deviations** a **data value (x-axis)** is away from the **mean**
 = [[https://medium.com/pythoneers/z-distribution-or-z-score-application-in-machine-learning-fbba081cd9fe]]
-<img:images/img_21.png>
+<img:images/img_21.png{scale=.7}>
 * allows comparison of the variation in two different samples or population
 =When you questions like: who is relatively:
 * taller
@@ -157,7 +157,7 @@ in-spite of this the **coefficient of variation = 4.6%** is larger;
 <size:19>that particular sample or population. The figure below represents different values of Z-scores. Note that Z = +1
 <size:19>represents that the observation is 1 standard deviation away from mean in the positive direction. In the same
 <size:19>way, Z=-1 represents that the observation is 1 standard deviation away from mean in the negative direction.
-<img:images/img_25.png>
+<img:images/img_25.png{scale=.5}>
 
 <size:22>A **Z-Score** between -2 and 2 is considered as **"usual"**
 <size:22>A **Z-Score** less than -2 or greater than 2 is considered as **"unusual"**
@@ -175,14 +175,14 @@ in-spite of this the **coefficient of variation = 4.6%** is larger;
 ****[#pink] is **greatly affected** by the **outliers data or values**
 *****[#gold] **Closely grouped data:** will have a **small** standard deviation value
 *****[#gold] **Spread out data:** will have a **Large** standard deviation value
-****[#pink] **__Sample standard deviation__** is **denoted by 's'** \n<img:images/img_16.png> \nboth formula are correct any one of them can be used
-****[#pink] **__Standard deviation for a Population:__** \n<img:images/img_17.png>
+****[#pink] **__Sample standard deviation__** is **denoted by 's'** \n<img:images/img_16.png{scale=.7}> \nboth formula are correct any one of them can be used
+****[#pink] **__Standard deviation for a Population:__** \n<img:images/img_17.png{scale=.7}>
 
 
 ***[#pink] **3- Variance:**
 ****[#pink] **Definition:** **Variance** is inherently based on the **standard deviation**, its the **number** you calculated just before taking the **square root**
-****[#gold] **1- Sample Variance:** is **S** square \n<img:images/img_18.png>
-****[#gold] **2- Population Variance:**\n<img:images/img_18.png>
+****[#gold] **1- Sample Variance:** is **S** square \n<img:images/img_18.png{scale=.7}>
+****[#gold] **2- Population Variance:**\n<img:images/img_18.png{scale=.7}>
 
 *[#red] =//**Quartiles**//
 **:it is very similar to the idea of a **median**. A median breaks your data right in the middle, that's why it is called the median
@@ -195,7 +195,7 @@ breaks your data every **quarter**, same basic idea as the median but there are 
 ** =Third Quartile (Q-3):
 *** represents **bottom 75%** of **sorted** data
 
-** =IQR (Inter Quartile Range)
+** <i>IQR (Inter Quartile Range)
 *** =**IQR = Q3 - Q1** \n represents middle 50% of data
 *** = 5-Number Summary:
 **** =1- minimum (min)
@@ -204,15 +204,15 @@ breaks your data every **quarter**, same basic idea as the median but there are 
 **** =4- Q3
 **** =5- maximum (max)
 ****[#yellow] =Box Plot
-*** = 5-Number Summary:\n<img:images/img_27.png>\n<img:images/img_28.png>
+*** = 5-Number Summary:\n<img:images/img_27.png{scale=.7}>\n<img:images/img_28.png{scale=.5}>
 
 * =//**__Box plot__**//
-** <img:images/img_29.png>
-*** <img:images/img_30.png>
+** <img:images/img_29.png{scale=.55}>
+*** <img:images/img_30.png{scale=.7}>
 
 
 * =Percentiles
-** Separates data into 100 parts, Therefore, there are 99 percentiles\n <img:images/img_26.png>
+** Separates data into 100 parts, Therefore, there are 99 percentiles\n <img:images/img_26.png{scale=.7}>
 ** **Example:** lets say you <size:22> score 78 on a test/exam </size> and you want to figure out the percentile for the class, you should find out how many people did worse than you.
 
 

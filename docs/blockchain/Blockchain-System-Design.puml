@@ -9,7 +9,7 @@ title =<i><u>Blockchain System Design
 !theme hacker
 
 +[#darkblue] <i><color:white><size:22>Blockchain \n<i><color:white>System Design
-++[#lightblue] <i><size:18>**Consensus Algorithms**\n<img:images/img_2.png>
+++[#lightblue] <i><size:18>**Consensus Algorithms**\n<img:images/img_2.png{scale=.7}>
 +++[#green] <i><size:14><color #white>**Proof of Work (PoW)**
 ****[#orange] <i><size:14><color #black>is done by **miners,** who compete to create new blocks filled with processed transactions. \n<i><size:14><color #black>There is a race of who will solve the fastest a **mathematical puzzle.**This **puzzle** is the **work** \n<i><size:14><color #black>in **proof of work consensus mechanism** and produces the cryptographic link between the \n<i><size:14><color #black>current block and the previous block.
 +++[#green] <i><size:14><color #white>**Proof of Stake (PoS)**
@@ -33,7 +33,7 @@ title =<i><u>Blockchain System Design
 ++[#lightblue] <i><size:14>Blockchain Components
 +++[#green] <i><size:18> <color #white>**Node**
 ++++[#orange] <i><size:18> <color #white>**text goes here**
-+++[#green] <i><size:18> <color #white>**Blocks** \n<img:images/img.png>**
++++[#green] <i><size:18> <color #white>**Blocks** \n<img:images/img.png{scale=.7}>**
 ****[#orange] <i><size:14><color #black>Block Header
 *****[#yellow] <i><size:14>Previous Block Hash
 *****[#yellow] <i><size:14>Merkle Tree Root Hash
@@ -60,7 +60,7 @@ title =<i><u>Blockchain System Design
 *****[#yellow] <i><size:14>Plutus
 *****[#yellow] <i><size:14>Marlowe
 
-**[#lightblue] <i><size:18>__**Blockchain Networks Type:**__\n<img:images/img_1.png>
+**[#lightblue] <i><size:18>__**Blockchain Networks Type:**__\n<img:images/img_1.png{scale=.7}>
 ***[#green]:<i><size:14><color #white>**Permissionless network:** allows access to any user to pseudo-anonymously join the network and become a node, without
 <i><size:14><color #white>any restrictions. This particular kind of network is primarily used to exchange and mine cryptocurrencies.;
 

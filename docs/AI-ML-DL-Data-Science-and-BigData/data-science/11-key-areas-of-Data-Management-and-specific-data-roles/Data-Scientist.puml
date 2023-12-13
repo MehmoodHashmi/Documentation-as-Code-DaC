@@ -1,10 +1,10 @@
 @startmindmap
-title =__ Data Scientist__ \n<img:images/img_5.png>
+title =__ Data Scientist__ \n<img:images/img_5.png{scale=.7}>
 !theme hacker
 
 * **[[https://www.youtube.com/watch?v=P8qJ7kqbkIk&ab_channel=ITkFunde]]**
 
-* **Main Responsibilities** \n<img:images/img_3.png>
+* **Main Responsibilities** \n<img:images/img_3.png{scale=.5}>
 ** Data Analysis
 ** Machine Learning
 ** Data Visualization
@@ -16,7 +16,7 @@ title =__ Data Scientist__ \n<img:images/img_5.png>
 ** Data Mining
 ** Communication and Presentation of Findings
 
-* **Skills** \n<img:images/img_6.png>
+* **Skills** \n<img:images/img_6.png{scale=.5}>
 ** Programming (Python, R, SQL)
 ** Statistics and Mathematics
 ** Machine Learning Algorithms
@@ -41,7 +41,7 @@ title =__ Data Scientist__ \n<img:images/img_5.png>
 ** Tableau
 ** Git
 
-* =Knowledge Areas \n<img:images/img_7.png>
+* =Knowledge Areas \n<img:images/img_7.png{scale=.5}>
 ** Data Science and Analytics
 ** Statistical Analysis
 ** Machine Learning
