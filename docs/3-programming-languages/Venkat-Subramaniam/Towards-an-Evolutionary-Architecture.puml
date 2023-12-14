@@ -11,13 +11,15 @@ title =<i><b><u>Towards an Evolutionary Architecture
 *****[#gold] <i><color #black><size:14>Shared understainding between the senior team members of a system.
 ***[#green] <b><i><color #white><size:14>Why evolutionary architecture?
 
-****[#darkorange] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_27.png Clean Architecture]] click me
+****[#darkorange]:*<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_27.png Clean Architecture]] click me
+*<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_58.jpg Onion Architecture]] click me
+*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_26.png Hexagonal Architecture + DDD]] click me
+==<i><color #black><size:14><b>Building & Designing Software==
+*<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_63.png Who builds & designs the software?]] click me;
 *****[#yellow] <i><color #black><size:18>--BUFD-- is waterfall
 *****[#yellow] <i><color #black><size:18>Agile (No Design) is disaster
 *****[#yellow] <i><color #black><size:18>EUFD <&check>
-****[#darkorange] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_58.jpg Onion Architecture]] click me
-****[#darkorange] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_26.png Hexagonal Architecture + DDD]] click me
-****[#darkorange] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_63.png Who builds & designs the software?]] click me
+
 ***[#green] <b><i><color #white><size:14>In Software Development we often say:
 ****[#yellow] <i><color #black><size:18>Capture requirements
 ****[#yellow] <i><color #black><size:18>Gather requirements
