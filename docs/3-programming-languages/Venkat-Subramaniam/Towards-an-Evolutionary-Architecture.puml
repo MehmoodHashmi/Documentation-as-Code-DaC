@@ -94,7 +94,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#yellow] *<i><color #black><size:14><b>People with domain knowledge but no clue of Software design\n*<i><color #black><size:14>Too many in an organization
 ****[#yellow] *<i><color #black><size:14><b>People with no clue of domain knowledge but with knowledge the Software design\n*<i><color #black><size:14>Too many in an organization
 ****[#gold] *<i><color #black><size:18><b>People with domain knowledge & also knowledge of the Software design\n*<i><color #black><size:14>Very few in an organization
-**[#lightblue] <i><color #black><size:14>Parsimony
+**[#lightblue] <i><color #black><size:14>Parsimony\n*<i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 6- Rule of Parsimony]]
 ***[#green] <i><color #white><b><size:14>Absolute minimalism
 ****[#yellow] *<i><color #black><size:14><b>Write very few lines of code; Think does this really you need while writing code
 **[#lightblue] <i><color #black><size:14>Triangulate
@@ -103,7 +103,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ***[#green] <i><color #white><b><size:14>Communicating across systems
 ****[#gold] *<i><color #black><size:18>True in **microservices** world
 ****[#yellow] *<i><color #black><size:18><b>Postel's law says:</b> be very  <b>generous</b> about what you <b>receive\n<i><color #black><size:18>& be very <b>conservative</b> about what you <b>send\n<img:images/img_28.png{scale=1}>\n<i><color #black><size:14>So as long as I can **iterate** over your **collection** it does not what is the **type** of your <b>collection.\n<i><color #black><size:14>In other words, don't make your <b>interface brittle.
-**[#lightblue] <i><color #black><size:22>Reuse <size:14>\t(Modularity patterns)\n<img:images/img_41.png{scale=0.7}>
+**[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_64.png Reuse]] <size:14>(Modularity patterns) &\n<i><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 1- Rule of modularity]]\n<img:images/img_41.png{scale=0.7}>
 ***[#green] <i><color #white><b><size:14>Grady Booch Says:
 ****[#gold] *<i><color #black><size:18><b>First make the system "usable" then make the system <color #green>"reusable"
 ****[#yellow] *<i><color #black><size:18><b>To make a piece of the system/software "reusable" it has to be very<color #red> "generic"

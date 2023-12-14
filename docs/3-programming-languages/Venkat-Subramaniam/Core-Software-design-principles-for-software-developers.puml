@@ -182,7 +182,7 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 
 ****[#yellow] <i><color #black><size:14>Don't duplicate <b>effort
 *****[#gold] <i><color #black><size:14><b>A cascade change
-**[#lightblue] <i><color #black><size:14>Focus on "Single Responsibility Principle"
+**[#lightblue] <i><color #black><size:14>Focus on "Single Responsibility Principle"\n*<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 2- Rule of Clarity]]
 ***[#green] <i><color #white><size:14><b>Long Methods
 ****[#yellow]:<i><color #black><size:14><b>//Comment...
 
