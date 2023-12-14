@@ -38,8 +38,8 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#a]:<i><color #black><size:14><b>The book Cathedral & bazaar in late 1990's said two values of software are:
 <i><color #black><size:14><b>1- Use value
 <i><color #black><size:14><b>2- Sale value
-==<i><color #green><size:14><b>After the rise of Modern Machine Learning (Deep Learning)==
-*<i><color #brown><size:14><b>Data [[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml (Big Data)]] has "value".;
+==<i><color #black><size:14><b>After the rise of [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Modern Machine Learning]] ([[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Deep-Learning.puml & Deep Learning]])==
+*<i><color #black><size:14><b>Data [[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml (Big Data)]] has "value".;
 **[#lightblue] <i><color #black><size:14>Keep it simple
 ***[#green] <i><color #white><size:14><b>KISS principle
 ****[#yellow] <i><color #black><size:14><b>Keep it "simple" and stupid
