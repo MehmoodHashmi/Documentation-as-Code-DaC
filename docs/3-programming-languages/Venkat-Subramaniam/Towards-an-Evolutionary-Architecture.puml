@@ -107,7 +107,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ***[#green] <i><color #white><b><size:14>In general:
 ****[#darkorange] <i><color #black><size:18>**[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Logical design]]** (classes & packages) impacts <color #white><b>"extensibility"
 ****[#darkorange] <i><color #black><size:18>**[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Physical design]]** (.jar) impacts <color #white><b>"re-usability & usability"
-**[#lightblue]:<i><color #black><size:18>Minimize libraries & frameworks
+**[#lightblue]:<i><color #black><size:18>[[docs/3-programming-languages/Library-vs-Framework.puml Minimize libraries & frameworks]]
 ==<i><color #black><size:14>Minimizing frameworks. How?==
 <img:images/img_31.png{scale=0.84}> <img:images/img_34.png>
 ==<i><color #black><size:14>Minimizing Libraries. How?==
@@ -116,8 +116,8 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ***[#yellow] <i><color #black><size:14>in the system, otherwise it is **"infatuation"** with the <b>"technology"
 ***[#yellow] <i><color #black><size:14>Don't **build** what you can **buy/download.** Don't **buy/download** what you don't <b>need!\n*<i><color #black><size:14>"To slaughter a goat for a single grain". You could **buy** the **needed grain** from <b>market!
 ***[#gold] <i><color #black><size:14>If we're going to 've a **delivery independent architecture**, we 've to start with \n<i><color #black><size:14><b>delivery independent <color:#brown>"use cases"
-***[#a]:<i><color #black><size:14>There is nothing wrong with **outside-in or inside-out approach** so long as you
-<i><color #black><size:14>**decouple** your **business rules** from them.
+***[#a]:<i><color #black><size:14>There is nothing wrong with **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_56.png outside-in or inside-out approach]]** so long as you **decouple**
+<i><color #black><size:14>your **business rules** from them.
 ==<i><color #black><size:16>**Inside-out** <color:yellow>(Low-level analysis & design)==
 *<i><color #black><size:16>**Inside-out:** approach is (1st <u>**analyze & design entities & use cases layer**)
 <i><color #yellow><b><size:16>1- Entities
