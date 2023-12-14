@@ -14,6 +14,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 **[#lightblue] <i><color #blac><size:14>Characteristics
 ***[#green] <b><i><color #white><size:14>"Things change really fast in our field"
 ****[#yellow] <i><color #black><size:14>Sure, true to some extent
+*****[#darkorange] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_60.png UNWELCOME FACT! What is software made of?]] click me
 ***[#green] <b><i><color #white><size:14>How are we Programming in new Century?
 ****[#yellow] <i><color #black><size:14>Still imperative programming e.g. <b> for (int i =0; i < prices.size() -1; i ++) {}
 *****[#yellow] <i><color #black><size:14>Verbose code
@@ -21,7 +22,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ****[#yellow] <i><color #black><size:14>Learning new <b>"programming language"</b> is easy
 ****[#yellow] <i><color #black><size:14>Learning new <b>"programming Paradigm"</b> is hard <b>(takes more effort)
 ***[#green] <b><i><color #white><size:42>Paradigm Shift\n<img:images/img_40.png>\n<i><color #white><size:17>**Elon-MusK:** shared this "image" in <b>tweet
-****[#a] *<i><color #black><size:14>Every **new path** starts by throwing away what you already had & starting all over with <b>new vocabulary, new practices, & new gurus.\n*<i><color #black><size:14>And **Each path** results in a <u>**paradigm change**</u> with many **<u>methods</u>** -- sometime 100s of them.\n**<i><color #black><size:14><b>[[a The ambition to engineer has gone up & down]] click me
+****[#a] *<i><color #black><size:14>Every **new path** starts by throwing away what you already had & starting all over with <b>new vocabulary, new practices, & new gurus.\n*<i><color #black><size:14>And **Each path** results in a <u>**paradigm change**</u> with many **<u>methods</u>** -- sometime 100s of them.\n**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_62.png The ambition to engineer has gone up & down]] click me\n**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 13-Rule of Economy: Programmer time is expensive; conserve it in preference to machine time]] click me
 ****[#darkorange] <i><color #black><size:14><b>1st paradigm shift:</b> Procedural programming or <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.png "algorithmic decomposition" of code (modules)]]
 *****[#darkorange] *<i><color #black><size:14><b>Time & Space complexity analysis</b>\n*<i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/Goal-of-the-data-structures-is-no-incidental-data-structures.puml Data-Structure]] + [[docs/books/1-books-backlog/data-structure-and-algorithm/Algorithms-Four-Principles-of-optimality.puml Algorithm]] = <color #green>Program</b>\n*<i><color #black><size:14><b>Good for <u>"decomposition"</b>\n*<i><color #black><size:14><b>"Pointer" is <u>"in-direction"</b>\n*<i><color #black><size:14><b>"Diagramming:" using <u>"flowchart"</b> ; is useful\n<i><color #black><size:14>    upto **5000-10000** instructions of <b>code
 ****[#yellow] <i><color #black><size:14><b>2nd paradigm shift:</b> Object Oriented Programming or <b>"object decomposition" of code (modules)
