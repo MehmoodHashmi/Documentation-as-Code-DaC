@@ -3,7 +3,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 * ===<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers by Venkat Subramaniam]]
 !theme hacker
 
-*[#darkblue] <i>Towards an \n<i>Evolutionary Architecture
+*[#darkblue] <color:white><i>Towards an Evolutionary\n<color:white><i>Architecture
 **[#lightblue] <i><color #black><size:14>What's architecture?
 ***[#green] <i><color #white><b><size:14>Definition
 ****[#yellow] <i><color #black><size:14>Shape of the major structure of a system or topology. architecture is a view of a system.
