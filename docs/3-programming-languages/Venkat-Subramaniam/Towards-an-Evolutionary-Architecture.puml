@@ -114,7 +114,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 <img:images/img_56.jpg{scale=.75}>
 <i><color #black><size:15>"interface" minimizes the "surface area" of "coupling code" & ease's replacing "library";
 ***[#yellow] <i><color #black><size:14>in the system, otherwise it is **"infatuation"** with the <b>"technology"
-***[#yellow] <i><color #black><size:14>Don't **build** what you can **buy/download.** Don't **buy/download** what you don't <b>need!
+***[#yellow] <i><color #black><size:14>Don't **build** what you can **buy/download.** Don't **buy/download** what you don't <b>need!\n*<i><color #black><size:14>"To slaughter a goat for a single grain". You could **buy** the **needed grain** from <b>market!
 ***[#gold] <i><color #black><size:14>If we're going to 've a **delivery independent architecture**, we 've to start with \n<i><color #black><size:14><b>delivery independent <color:#brown>"use cases"
 ***[#a]:<i><color #black><size:14>There is nothing wrong with **outside-in or inside-out approach** so long as you
 <i><color #black><size:14>**decouple** your **business rules** from them.
