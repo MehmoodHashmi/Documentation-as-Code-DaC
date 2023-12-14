@@ -73,7 +73,7 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#yellow] <i><color #black><size:14>The more you are couple to a decision the harder it is to reverse, introduce indirection to increases <b>reversibility.
 ****[#yellow] <i><color #black><size:14>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.\n*<b><i><color #black><size:14>Why don't we postpone?\n**<b><i><color #green><size:14>Because we are afraid!\n*<b><i><color #black><size:14>If you want ot "postpone" we need to 've good "automated testing". (TDD)
 ****[#yellow] <i><color #black><size:14>Database decisions, libraries and frameworks decisions etc.
-****[#darkorange] <i><color #black><size:16>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful
+****[#darkorange] <i><color #black><size:16>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful. \n*<i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy
 ****[#yellow] <i><color #black><size:14>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
 **[#lightblue] <i><color #black><size:14>Cohesion
 ***[#green] <i><color #white><size:14><b>Where a piece of code is narrow, "focused"\n<i><color #white><size:14><b>& does one thing & does one thing well!
