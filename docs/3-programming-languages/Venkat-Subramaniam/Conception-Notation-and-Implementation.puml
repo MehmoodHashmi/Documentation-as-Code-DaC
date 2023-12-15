@@ -1,0 +1,38 @@
+@startmindmap
+title =<i><b><u> Conception -to-> Notation --to-> Implementation
+!theme hacker
+
+*[#darkblue] <i><color:#white>Conception, Notation, & Implementation
+**[#lightblue] <i><color #blac><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Conception.puml Conception]]
+***[#green] <b><i><color #white><size:14>Idea Generation
+****[#yellow] <i><color #black><size:14>Brainstorming sessions
+*****[#gold]:<i><color #black><size:14>Going academy & learning chemistry from professor is also an example of brain storming sessions
+*<i><color #black><size:14>Before the start of session preparing yourself via reading in advance
+*<i><color #black><size:14>Taking notes during session
+*<i><color #black><size:14>Lazer focus during session
+*<i><color #black><size:14>Attention to the details
+*<i><color #black><size:14>Consciously blocking useless thoughts that are deviating focus;
+
+****[#yellow] <i><color #black><size:14>Research and exploration of concepts
+***[#green] <b><i><color #white><size:14>Conceptualization
+****[#yellow] <i><color #black><size:14>Shaping and refining ideas
+****[#yellow] <i><color #black><size:14>Formulating strategies and approaches
+**[#lightblue] <i><color #blac><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Notation.puml Notation]]
+***[#green] <b><i><color #white><size:14>Mathematical Representation
+****[#yellow] <i><color #black><size:14>Symbols, equations, and formulas
+****[#yellow] <i><color #black><size:14>Notational systems in various domains
+***[#green] <b><i><color #white><size:14>Diagrams and Visual Representation
+****[#yellow] <i><color #black><size:14>Graphs, charts, flowcharts, and diagrams
+****[#yellow] <i><color #black><size:14>Utilized for visualizing concepts and relationships
+**[#lightblue] <i><color #blac><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Implementation.puml Implementation]]
+***[#green] <b><i><color #white><size:14>Execution and Application
+****[#yellow] <i><color #black><size:14>Practical realization of concepts
+****[#yellow] <i><color #black><size:14>Transforming ideas into tangible outcomes
+***[#green] <b><i><color #white><size:14>Tools and Technologies
+****[#yellow] <i><color #black><size:14>Software, hardware, and methodologies
+****[#yellow] <i><color #black><size:14>Utilized for implementing concepts effectively
+**[#lightblue] <i><color #blac><size:14>Integration
+***[#green] <b><i><color #white><size:14>Converging Conception, Notation, and Implementation
+****[#yellow] <i><color #black><size:14>Aligning theoretical concepts with practical execution
+****[#yellow] <i><color #black><size:14>Incorporating notation into implementation strategies
+@endmindmap

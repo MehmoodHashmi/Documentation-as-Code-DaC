@@ -79,7 +79,7 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#yellow] <i><color #black><size:14>Database decisions, libraries and frameworks decisions etc.
 ****[#darkorange] <i><color #black><size:16>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful. \n*<i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy
 ****[#yellow] <i><color #black><size:14>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
-**[#lightblue] <i><color #black><size:14>Cohesion
+**[#lightblue] <i><color #black><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_76.png Cohesion]]
 ***[#green] <i><color #white><size:14><b>Where a piece of code is narrow, "focused"\n<i><color #white><size:14><b>& does one thing & does one thing well!
 ****[#yellow] <i><color #black><size:14>We want software to change, but not too <b>(expensive to change)
 ****[#yellow] <i><color #black><size:14>If a "code" is **"cohesive",** it has to <b>change less "frequently"
@@ -123,7 +123,7 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 <i><color #green><size:14><b>\t3- Some exist only at runtime; &
 <i><color #green><size:14><b>\t4- Some exist at more than one time.
 *<i><color #black><size:14>**.War:** many ".Jar" inside a <b>.war file;
-*****[#darkorange] *<i><color #black><size:14>**Modules:** are a **new** way of "grouping" <b>codes & data.\n*<i><color #black><size:14>**Modularity:** is not an **OOP**  "concept" it's **decoupled** from <b>OOP.
+*****[#a] *<i><color #black><size:14>**Modules:** are a **new** way of "grouping" <b>codes & data.\n*<i><color #black><size:14>**Modularity:** is not an **OOP**  "concept" it's **decoupled** from <b>OOP.\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_79.png We need "flexibility" at "joints or layers" of the "system"]]
 ***[#green] <i><color #white><b><size:14>Boundary Anatomy (structure, framework, composition)
 ****[#darkorange] <i><color #black><size:14>The **<u>"architecture"</u>** of a **<u>"System"</u>** is defined by a <u>**set of "software components"**</u> \n<i><color #black><size:14>& the **boundaries** that <u><b>separate</u> them. from book "Clean Architecture"
 *****[#yellow] <i><color #black><size:14>**1-** Crossing Boundaries. How? use <b>DIP\n<i><color #black><size:14>**2-** Which **data** crosses boundaries? simple <b>DTO's

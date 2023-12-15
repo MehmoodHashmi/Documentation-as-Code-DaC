@@ -45,6 +45,8 @@ title =<i><b><u>From Connection to relation & then function
 <i><color #white><size:14><b>1- function composition f() * f1() = f2()
 <i><color #white><size:14><b>2- "Inverse" of a function;
 
+***[#green] <b><i><color #white><size:14>Function Testing
+****[#yellow] <i><color #black><size:14>Copy from chatgpt, vertical line test
 ***[#green] <b><i><color #white><size:14> Examples
 ****[#yellow] <i><color #black><size:14>Mathematical functions<b> (e.g., f(x) = x^2)
 ****[#yellow] <i><color #black><size:14>Programming functions <b>(e.g., a function that computes the square root)

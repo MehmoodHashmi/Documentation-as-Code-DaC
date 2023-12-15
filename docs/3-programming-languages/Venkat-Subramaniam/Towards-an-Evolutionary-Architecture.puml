@@ -16,16 +16,20 @@ title =<i><b><u>Towards an Evolutionary Architecture
 *<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_26.png Hexagonal Architecture + DDD]] click me
 ==<i><color #black><size:14><b>Building & Designing Software==
 *<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_63.png Who builds & designs the software?]] click me;
-*****[#yellow] <i><color #black><size:18>--BUFD-- is waterfall
-*****[#yellow] <i><color #black><size:18>Agile (No Design) is disaster
-*****[#yellow] <i><color #black><size:18>EUFD <&check>
+*****[#yellow] <i><color #black><size:12>**--BUFD--** is waterfall
+*****[#yellow] <i><color #black><size:12>Agile (No Design) is <b>disaster!
+*****[#yellow] <i><color #black><size:12><b>EUFD <&check>
 
+***[#green] <i><color #white><b><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_73.png S/W Architecture]]\n<b><i><color #black><size:9><color:white>click me
+****[#a] <b><i><color #black><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_74.png 1- Style]]
+****[#a] <b><i><color #black><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png 2- pattern]]
+****[#a] <b><i><color #black><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_75.png 3- Design pattern]]
 ***[#green] <b><i><color #white><size:14>In Software Development we often say:
-****[#yellow] <i><color #black><size:18>Capture requirements
-****[#yellow] <i><color #black><size:18>Gather requirements
-****[#yellow] <i><color #black><size:18>Observer effect
+****[#yellow] <i><color #black><size:14>Capture requirements
+****[#yellow] <i><color #black><size:14>Gather requirements
+****[#yellow] <i><color #black><size:14>Observer effect
 ****[#gold] *<i><color #black><size:14>If you want to build what your customers wanted, you will <b>fail.\n*<i><color #black><size:14>You need to build what your customers still want.
-****[#yellow] <i><color #black><size:18>Build working software.
+****[#yellow] <i><color #black><size:13>Build working software.
 *****[#gold] <i><color #black><size:14>Half of the total programmers in the world can do it
 *****[#gold] <i><color #black><size:14>But I want to build relevant working software\n*<i><color #black><size:14>Requires more effort
 ****[#gold] *<i><color #black><size:14>PowerPoint Architect

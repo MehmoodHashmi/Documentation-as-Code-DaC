@@ -1,13 +1,15 @@
 @startmindmap
 title =  <b><i><u>Use Case 2.0\n<img:img.png{scale=0.7}>
 caption <img:img_1.png{scale=0.7}>
-* ===<i>[[use-case.png Use Case types]]
-** ===<i>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-32-12-378.png Use Case Event Table]]
-*** ===<i>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-36-44-142.png Modeling Loosely coupled use case]]
-**** ===<i>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-39-05-976.png Modeling Loosely coupled use case]] continue
-***** ===<i>[[docs/3-programming-languages/clean-architecture/images/Screenshot_3x.png use case decomposition]]
-***** ===<i>[[docs/3-programming-languages/clean-architecture/images/use-case-modeling.png use case Modeling]]
-**** ===<i>[[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/img_3.png use case diagram to DFD & vice versa]] continue
+* <size:12><b><i>[[use-case.png Use Case types]]
+** <size:12><b><i>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-32-12-378.png Use Case Event Table]]
+** <size:12><b><i>[[img.jpg Use Case Modeling benefits]]
+*** <size:12><b><i>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-36-44-142.png Modeling Loosely coupled use case]]
+**** <size:12><b><i>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-39-05-976.png Modeling Loosely coupled use case]] continue
+***** <size:12><b><i>[[docs/3-programming-languages/clean-architecture/images/Screenshot_3x.png use case decomposition]]
+***** <size:12><b><i>[[docs/3-programming-languages/clean-architecture/images/use-case-modeling.png use case Modeling]]
+**** <size:12><b><i>[[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/img_3.png use case diagram --to-> DFD & vice versa]] click
+**** <size:12><b><i>[[img_1.jpg Class diagram --to-> ERD ]] click
 
 !theme hacker
 

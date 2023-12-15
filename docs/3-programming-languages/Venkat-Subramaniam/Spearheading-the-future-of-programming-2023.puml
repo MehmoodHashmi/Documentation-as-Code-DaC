@@ -10,7 +10,9 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 <i><color #white><size:14>I've kind of enjoyed some languages more than others;
 ***[#green] <i><color #white><size:14><b>Where things are today and where things are heading?
 ****[#a] <i><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_68.png How "science" is different from "computing"? Grady Booch]]
-****[#a] <i><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_69.png Religion vs Philosophy vs Science vs literature (Art/Craft) ]]
+*****[#a] <i><size:14><b><i><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Conception-Notation-and-Implementation.puml Conception, notation & then implementation]]
+****[#a] <i><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_69.png Religion vs Philosophy vs Science vs literature (Art/Craft)]]
+*****[#a] <i><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_71.png Dr. Naveed Malik Advice]]
 
 **[#lightblue] <i><color #blac><size:14>Characteristics
 ***[#green] <b><i><color #white><size:14>"Things change really fast in our field"
@@ -25,7 +27,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ***[#green] <b><i><color #white><size:42>Paradigm Shift\n<img:images/img_40.png>\n<i><color #white><size:17>**Elon-MusK:** shared this "image" in <b>tweet
 ****[#a] *<i><color #black><size:14>Every **new path** starts by throwing away what you already had & starting all over with <b>new vocabulary, new practices, & new gurus.\n*<i><color #black><size:14>And **Each path** results in a <u>**paradigm change**</u> with many **<u>methods</u>** -- sometime 100s of them.\n**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_62.png The ambition to engineer has gone up & down]] click me\n**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 13-Rule of Economy: Programmer time is expensive; conserve it in preference to machine time]] click me
 ****[#darkorange] <i><color #black><size:14><b>1st paradigm shift:</b> Procedural programming or <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.png "algorithmic decomposition" of code (modules)]]
-*****[#darkorange] *<i><color #black><size:14><b>Time & Space complexity analysis</b>\n*<i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/Goal-of-the-data-structures-is-no-incidental-data-structures.puml Data-Structure]] + [[docs/books/1-books-backlog/data-structure-and-algorithm/Algorithms-Four-Principles-of-optimality.puml Algorithm]] = <color #green>Program</b>\n*<i><color #black><size:14><b>Good for <u>"decomposition"</b>\n*<i><color #black><size:14><b>"Pointer" is <u>"in-direction"</b>\n*<i><color #black><size:14><b>"Diagramming:" using <u>"flowchart"</b> ; is useful\n<i><color #black><size:14>    upto **5000-10000** instructions of <b>code
+*****[#darkorange] *<i><color #black><size:14><b>Time & Space complexity analysis</b>\n*<i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/Goal-of-the-data-structures-is-no-incidental-data-structures.puml Data-Structure]] + [[docs/books/1-books-backlog/data-structure-and-algorithm/Algorithms-Four-Principles-of-optimality.puml Algorithm]] = <color #green>Program</b>\n*<i><color #black><size:14><b>Good for <u>"decomposition"</b>\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_72.png "Pointer" is "in-direction"]]\n*<i><color #black><size:14><b>"Diagramming:" using <u>"flowchart"</b> ; is useful\n<i><color #black><size:14>    upto **5000-10000** instructions of <b>code
 ****[#yellow] <i><color #black><size:14><b>2nd paradigm shift:</b> Object Oriented Programming or <b>"object decomposition" of code (modules)
 *****[#yellow] <i><color #black><size:14><b>OOA&D</b>\n*<i><color #black><size:14><b>Objects + Messages = <color #red>Program\n*<i><color #black><size:14><b>Good for "modeling"</b>\n*<i><color #black><size:14><b>"Runtime-Polymorphism" is <u>"in-direction"</b>\n*<i><color #black><size:14><b>"Diagramming:" using <u>"UML" + "C4-model"</b>
 ******[#gold] <i><color #black><size:14><img:images/img_33.png{scale=0.65}>
@@ -39,8 +41,8 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ** <color #black><size:14><i> <b>How these "callback" work</b>
 ** <color #black><size:14><i> <b>And reason these "callback" work</b>
 ====
-* <color #black><size:14><i><b>"Diagramming:" using [[a Specification Description language (SDL)]]
-* <color #green><size:14><i><b>"Asynchronous:" is good for "reactive & distributed systems"
+* <color #black><size:14><i><b>"Diagramming:" using [[docs/3-programming-languages/Venkat-Subramaniam/SDL-(Specification-and-Description-Language).puml Specification & Description language (SDL)]]
+* <color #green><size:14><i><b>"Asynchronous:" is good for real-time "event-driven, reactive & distributed systems"
 ** <color #green><size:14><i><b>Current areas of application: "process control & real-time apps";
 ******[#a]:<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/connection-relation-function.puml I Can relate to this from FSc:]]
 *<i><color #black><size:14>Construction/Setup <b>(at high level)
@@ -72,7 +74,8 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ****[#darkorange] <i><color #black><size:15><b>7th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Logic-Programming.puml Logic Programming]]
 *****[#yellow] <i><color #black><size:14><b>Facts + Rules = <color #red>Program</b> \n*<i><color #black><size:14><b>Good for "Searching"
 ******[#a] <i><color #black><size:14><b>E.g. "languages" like Prolog, & Datalog
-****[#darkorange] <i><color #black><size:22><b>8th paradigm shift:</b> <b>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/statistics/professor-leonard-statistics-notes/descriptive-(or-EDA)-statistics/4-machine-learning.puml Machine learning]] click\n<img:images/img_7.png{scale=0.95}>
+****[#darkorange] <i><color #black><size:15><b>8th paradigm shift: [[docs/blockchain/Blockchain-System-Design.puml Internet (info. exchange) to Blockchain (value exchange)]] internet (centralized) to blockchain (decentralized)
+****[#darkorange] <i><color #black><size:22><b>9th paradigm shift:</b> <b>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/statistics/professor-leonard-statistics-notes/descriptive-(or-EDA)-statistics/4-machine-learning.puml Machine learning]] click\n<img:images/img_7.png{scale=0.95}>
 *****[#darkorange] <i><color #black><size:16><b>[[docs/books/selfanalysis/anatomy-of-knowledge.puml Anatomy of knowledge]] click me\n<img:images/img_8.png{scale=0.60}>
 ******[#darkorange] <i><color #black><size:14><b>[[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml Data]] + [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Algorithm]] = [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/machine-learning-basic-terminology.puml Model]] \n*<i><color #black><size:14><b>"ML" Good for "Pattern recognition", "Predictions" & \n<i><color #black><size:14><b>"Optimization & decision making"
 ******[#yellow] <i><color #black><size:22><b>Data-set\n<img:images/img_6.png>

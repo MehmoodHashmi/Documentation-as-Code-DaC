@@ -1,0 +1,32 @@
+@startmindmap
+title =<i><b><u>Notation
+!theme hacker
+
+
+
+
+
+
+*[#darkblue] <i><color:white>Notation
+**[#lightblue] <i><color #blac><size:14>Mathematical Representation
+***[#green] <b><i><color #white><size:14>Symbols and Equations
+****[#yellow] <i><color #black><size:14>Mathematical symbols for expressing concepts and relationships
+****[#yellow] <i><color #black><size:14>Equations to formalize ideas and theories
+***[#green] <b><i><color #white><size:14>Notational Systems
+****[#yellow] <i><color #black><size:14>Specific notations in various domains (e.g., algebra, calculus, logic)
+****[#yellow] <i><color #black><size:14>Consistent systems for representing concepts
+**[#lightblue] <i><color #blac><size:14>Diagrams and Visual Representation
+***[#green] <b><i><color #white><size:14>Graphs and Charts
+****[#yellow] <i><color #black><size:14>Visual representation of data or relationships
+****[#yellow] <i><color #black><size:14>Bar charts, pie charts, line graphs
+***[#green] <b><i><color #white><size:14>Flowcharts and Diagrams
+****[#yellow] <i><color #black><size:14>Visualizing processes, workflows, or algorithms
+****[#yellow] <i><color #black><size:14>Flowcharts, UML diagrams, network diagrams
+**[#lightblue] <i><color #blac><size:14>Communication Tools
+***[#green] <b><i><color #white><size:14>Language and Terminology
+****[#yellow] <i><color #black><size:14>Standardized language and terminology in specific fields
+****[#yellow] <i><color #black><size:14>Common understanding and communication of ideas
+***[#green] <b><i><color #white><size:14>Presentation Aids
+****[#yellow] <i><color #black><size:14>Slides, presentations, and visual aids
+****[#yellow] <i><color #black><size:14>Effective communication of complex concepts
+@endmindmap

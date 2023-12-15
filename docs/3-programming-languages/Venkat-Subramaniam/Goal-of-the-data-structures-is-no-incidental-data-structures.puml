@@ -1,6 +1,7 @@
 @startmindmap
 title =<i><b><u>Goal: of the data-structures is no "incidental data structures"\n<img:images/img_36.png{scale=0.65}><img:images/img_38.png><img:images/img_37.png{scale=0.65}>
-* ==<i><b>[[docs/books/1-books-backlog/data-structure-and-algorithm/data-structures-and-software-design-advice.puml Data Structures & Software Design advice book ("UNIX O/S" book cathedral & bazaar)]]
+* <i><b>[[docs/books/1-books-backlog/data-structure-and-algorithm/data-structures-and-software-design-advice.puml Data Structures & Software Design advice book ("UNIX O/S" book cathedral & bazaar)]]
+** <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_78.png Data-Structure vs Data-Type]]
 !theme hacker
 *[#darkblue] =<i><color #white>Data-structure:\n<i><color #white>Goal: No "incidental data structures"
 **[#lightblue] <i><color #black><size:14>Introduction

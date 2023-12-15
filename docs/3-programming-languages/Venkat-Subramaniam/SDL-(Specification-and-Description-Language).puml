@@ -1,0 +1,176 @@
+@startuml
+title =<i>Specification & Description Language (SDL),\n<i><u><size:16>especially designed for "real-time, event-driven interactive, reactive & distributed systems"\n[[docs/2-uml/PlantUML/activity-diagram/activity-diagram-syntax.png for more details click me]]
+|Swim-lane-1|
+start
+note right
+<i><b>SDL covers 5-main aspects:
+<i>1- Structure
+<i>2- Communication
+**<i> Communication between the **components** takes place through **gates** connected by <b>channels.
+**<i> **Channels** are of **delayed channel type,** so **communication** is usually **asynchronous,**
+\t<i>but when the **<u>delay is set to zero (that is, no delay)</u>** the **communication** becomes **synchronous.**
+<i>3- Behavior
+**<i> The **behavior** of **components** is explained by **partitioning the system** into a series of **hierarchies**
+<i>4- Data
+<i>5- Inheritance
+<i><b>[[https://www.youtube.com/watch?v=0MG4I1HqIb4&t=729s&ab_channel=PragmaDevSoftware Introduction to SDL]] 30-minute video explained all these 5 concept in detail
+end note
+:SDL Shape;
+:<b>input/receive; <<input>>
+note
+*async message or signal
+*non-blocking message or signal
+end note
+
+note right
+* in sequence diagram
+<img:images/img_81.png{scale=.7}>
+end note
+
+:<b>output/send; <<output>>
+note
+*async message or signal
+*non-blocking message or signal
+end note
+
+note right
+* in sequence diagram
+<img:images/img_82.png{scale=.95}>
+end note
+
+:procedure; <<procedure>>
+note
+*is function call will figure it out
+end note
+:load; <<load>>
+:save; <<save>>
+:continuous; <<continuous>>
+:<img:images/img_83.png>;
+note left
+<img:images/img_80.png{scale=.5}>
+<b><i>[[https://stackoverflow.com/questions/43990743/uml-activity-diagram-how-to-show-game-ends-when-time-has-passed Show timers & an interrupt using a \nInterruptible Regions]]
+end note
+note right
+*<i>is timer <size:30><&timer>
+*<i>e.g. at (TimeEvent)
+*<i>e.g. On friday
+*<i>e.g. After 20-seconds
+end note
+:task; <<task>>
+|Swim-lane-2|
+end
+@enduml
+
+Introduction to SDL
+
+What is SDL?
+SDL stands for specification and description language. It is standardized by the international telecommunication union as recommendations at modeling telecommunication systems. However, its application extends to complex real-time, event-driven and interactive systems that communicate using messages. SDL can be used in combination with other languages like "message sequence charts" for describing interaction
+scenarios "abstract syntax notation-1" for describing "data types" and testing and "test control notation version3" for testing.
+Why Use SDL?
+SDL is a graphical modeling language which is extremely intuitive. The most important characteristic of SDL it's its formality. the semantics behind every concept are precisely defined. This allows for a model in SDL to be analyzed and interpreted without any ambiguities. SDL is a wide spectrum language that can be used for both high-level and detailed modeling from requirements to implementation. Although it is widely
+used in the telecommunications as SDL has also been applied to a diverse number of other areas ranging from aircraft, train control and automotive to medical and packaging systems. the language is very mature and has been evolving since the first recommendation in 1980s. SDL provides structuring entities that facilitate modeling of large and complex systems. the model is based on communicating extended finite state machines with abstract data types and object-oriented features.
+
+Structure:
+The structuring entities of an SDL model are called agents. The "system" is the top-level "agent" it can contain other agents but it cannot be contained but by any agent. Everything outside of the system is defined as the "environment". "Blocks" are containers of agents. They are used to break down the complexity and size of "systems". The "system" itself is a "block" that is the top-level container. "Processes" are bottom level "agents".
+They are found in "blocks" and cannot contain any other "agent". An "SDL model" has a "tree structure" where the system is the root, blocks are the internal nodes and processes are the Leafs.
+
+
+Communication:
+Communication in SDL is a asynchronous.  It is described using messages or discrete signals. Messages can be defined at any level of the model, with its system or block. They have names and optional parameters and can be grouped into lists for ease of use. Messages travel in channels. the channels have names and expand through the structure connecting agents to one another or to the environment. A message path is formed by the channels
+connecting this source and destination of a message. The end point of a path must be either a process or the environment.
+
+Behavior:
+Behavior in SDL is defined in processes using graphical finite state machines. The model of the finite state machine is that of mealy, meaning that actions takes place in the transitions and not in the States. State machines can perform operations on data and communicate using messages list it at the endpoints of the channel the process is connected to.
+Every process in SDL has an implicit queue for messages. Messages are consumed in the order they are received, that is first-in first-out.
+For example if signal-1 is on top of the queue it will be treated first followed by signal-2.
+The start symbol is the entry point of a state machine.
+The transition between the start symbol and the first state of the process is called the start transition. During this transition the process cannot treat messages all other symbols are allowed.
+
+Behavior: State
+A state is defined by its name when in a state the process is waiting for some event to go on. The event can be a message input, priority
+input, continuous signal or a save. The same event can generate different behavior depending on the state the process is in, e.g. signal-1 may trigger the execution of either action 1 or 2 depending on whether the process is in state 1 or state 2. There can be several symbols for the same state. Events can be connected to the same state symbol or different symbols with the same state name. If the same event triggers the same behavior on different states then these states can be grouped into the same symbol. At the end of the
+transition the process goes to the next state. The symbol used for the next state is the same.
+Special states: A dash next state (-) terminating & transition means that the next sate is the same as the state the transition was triggered, while a star (*) as a state means all states.
+
+Behavior: Message inputs
+Message inputs are consumed in first-in first-out order. In the example signal-1 will be treated first causing the execution of action 1. As the process does not change its state after consuming the message signal 2 is treated next causing the execution of action 2.
+A star (*) as a message input can be used for handling all unexpected messages. These are all the messages for which no transition has been defined in the current state.
+
+Behavior: Priority input
+In some cases it is convenient to express that reception of a message text priority of reception of other messages. This can be expressed by means of priority input. Although signal-1 comes before signal-2 in the queue it is signal-2  which will be treated first because of the priority.
+If more than one priority inputs are defined in the current state then they are consumed in first-in first-out order, like normal message inputs.
+
+
+Behavior: Continuous signal
+Sometimes, the situation may arise where a transition should be executed when a certain condition is fulfilled. A continuous signal is a boolean expression. If it evaluates to true then it's associated transition is executed. The expression is evaluated only after all messages have been consumed that is the input queue of the process is empty. Continuous signals have priorities. the expression with the lowest priority is evaluated first. In the example action 1 will be executed
+before action 2 if the value of "i" is between 0 and 10.
+
+Behavior: Save
+When a message is received while unexpected it is thrown away. This is considered normal behavior in SDL. It is however possible to save messages, so that they can be processed when execution reaches a new state.
+When a new state is reached saved messages will be processed before normal inputs. If signal 2 was saved in state 1 then when the process goes to state 2 it will first treat this message before any other messages in the queue.
+As a result action 2 will be executed before action 3.
+
+Behavior: Transition
+A transition performs a sequence of actions. During the transition the data of a process may be manipulated and messages may be sent. An event marks the entry point of a transition. This event can be a message input, priority input or continuous signal.
+The transition will end with the next state or a stop. When a stop is reached the process will terminate and all messages in its input queue or its saved messages will be discarded.
+A transition in one process can be executed at the same time as a transition in another process provided that both processes run concurrently.
+If processes run sequentially then their corresponding transitions are executed inter living. In this case the transitions are run to completion. There is only one transition is executed at a time until it reaches the next state or stop.
+The actions that can be performed during a transition include:
+timer manipulation, process creation, procedure and macro call, decision, transition option, execution of SDL code and a connector.
+
+Behavior: Output
+A process can send messages to another based on the paths defined in
+the structure. If a single path exists in the structure for a given message then its name and parameters are enough to address the receiver process. However, the receiver of a message can be set explicitly in the output symbol. This is useful when there are several possible paths for a given message. If the receiver is set explicitly then a path must exist for the given message. A message can be sent to a named process, to a process identifier to the environment or via a channel or a gate.
+The process identifier can be the sender of the message that triggered the current transition. The process that created the current process instance, a process instance created by the current process or the process itself.
+
+Behavior: Timer
+Timers are identified by their name they can be declared however, their declaration is optional. The behavior in SDL is concerned with duration. There is with the difference between timer values rather than values themselves. That is why the unit of time in SDL is irrelevant.
+A timer is started with least it's expected timeout and the now keyword can be used to get the current time.
+When a timer goes off it becomes a message in the input queue and it will be treated as any normal message that is in first in first out order. If however, the timer is cancelled while the corresponding message is already
+in the queue, the message will be removed from the queue. In this example the transition triggered by signal 2 will cancel the timer tick which will be removed from the queue and its associated transition will not be executed.
+
+Behavior: Process creation
+Process instances in SDL can be created either statically or dynamically.
+Static creation is done at system startup and the number of instances is set in the process symbol.
+Dynamic creation is done at runtime that is during the execution of a transition. In this case one instance of a process is created.
+
+Behavior: Procedure
+A procedure can be declared everywhere in the structure of a system be it block or process. The declaration symbol has the name of the procedure like procedure 1 in this example.
+Procedures are used to factorize behavior. There is a behavioral pattern that repeats itself several times can be
+defined as a procedure hence, reducing the size and complexity of the model. Behavior in procedure is modeled using state machines like in processes. However, they have a different start symbol and unlike processes they return rather than stop. Also procedures can accept parameters and return a value to the caller.
+The caller of a procedure can be either a process or another procedure. A call to a procedure will interrupt the execution of the current transition until the procedure returns.
+Procedures can send and receive messages and modify the data of their declaring agent.
+
+Behavior: Macro
+Another way to factorize behavior is with macros unlike procedures macros cannot receive messages and thus no transition can be defined inside them.
+A macro is expanded when called which is like replacing the call symbol by the contents of the macro.
+This is why a macro cannot call itself as it would cause an infinite expansion.
+
+Behavior: Composite State
+A composite state is a state composed of sub-state machines and it allows to model hierarchical state machines. Each sub-state machine handles a different subset
+of messages. The super state machine also handles its own inputs. When a message is for one of the sub-state machines the super state does not change but when a message is for the super state machine all sub-state machines are terminated. In this example the process will stay in state 1 until it receives signal 3 while in this state signal 1 and Sigma 2 are treated by its sub-state machines.
+
+Data:
+SDL supports data types. A data type definition consists of a body a set of literals and a set of operators.
+SDL provides several predefined data types which are familiar in both the behavior and syntax. This range from simple types like integer to complex ones like arrays.
+It is also possible to use ASN.1 for data types.
+This way the structure and behavior of the system can be defined in SDL while data types in ASN.1.
+A new data type can be defined also based on an existing one in this example the port number is a new data type which is based on an integer. It is easy to define a new data type by introducing constraints and a default value to an existing type e.g. the lower and upper bound values for the port number can be limited as shown.
+SDL supports declaration of constants and variables based on predefined or user-defined data types. Constants are declared at any level be its system block process or procedure and their values cannot be changed.
+Variables on the other hand are declared inside a process or a procedure. They are visible and can be modified only inside that process or procedure.
+Global variables accessible by all processes are not supported however, it is possible
+for a process to make visible its variables in other parts of the system. These are called remote variables and although they are visible in other processes they cannot be modified by them.
+Data can be sent and received via message parameters and manipulate it inside transitions. In this example the process is waiting in state 1 for signal 1 whose only parameter is an integer.
+When the message is treated its parameter will be copied to the variable named value.
+A decision is made based on whether the value is greater than 0. If it is then the value is added to the sum and the process does not leave it's current state. The process will be waiting for other integers to add to the sum until it receives a zero or negative value. In this case it will send signal to with the computed sum as a parameter.
+
+Object-Orientation:
+The object-oriented concepts of SDL give the user additional tools for structuring and reuse. The concepts are based on classes and specialization provides a simple and intuitive way for creating new classes based on existing ones.
+
+Object-Orientation: Class
+Defining an agent class allows to use the same agent several times in the system. An agent class declaration block or process includes the messages that come in and go out of that agent using gates.
+An instance of a class is represented with a dotted line with the name of the instance and that of its class. When a class is instantiated the gates are connected to the surrounding structure.
+The message is listed in the gates must be consistent with those listed in the connected channels.
+
+Object-Orientation: Specialization
+Specialization allows a block subclass to inherit the structure of its superclass. This includes agents channels gates and messages. A process subclass inherits the behavior of its superclass that is its data and transitions.
