@@ -1,35 +1,40 @@
-@startmindmap
-* =//Discrete Mathematics//
-** Sets and Logic
-*** Set Operations
-**** Union
-**** Intersection
-**** Complement
-**** Cartesian Product
-*** Predicate Logic
-**** Quantifiers
-**** Truth Tables
-**** Logical Equivalences
-** Number Theory
-*** Divisibility
-*** Prime Numbers
-*** Greatest Common Divisor
-*** Modular Arithmetic
-*** RSA Cryptography
-** Combinatorics
-*** Permutations
-*** Combinations
-*** Pigeonhole Principle
-*** Inclusion-Exclusion Principle
-** =Graph Theory
-*** Graph Properties
-**** Directed vs. Undirected
-**** Weighted vs. Unweighted
-**** Paths and Cycles
-**** Connectedness
-**** Planar Graphs
-*** =//Graph Representation//
-**** =Adjacency Matrix
+@startwbs
+title =<i><b><u>Discrete Mathematics
+!theme hacker
+
+
+
+*[#darkblue] <i>Discrete Mathematics
+**[#lightblue] <i><color #blac><size:14>Sets and Logic
+***[#green] <b><i><color #white><size:14>Set Operations
+****[#yellow] <i><color #black><size:14>Union
+****[#yellow] <i><color #black><size:14>Intersection
+****[#yellow] <i><color #black><size:14>Complement
+****[#yellow] <i><color #black><size:14>Cartesian Product
+***[#green] <b><i><color #white><size:14>Predicate Logic
+****[#yellow] <i><color #black><size:14>Quantifiers
+****[#yellow] <i><color #black><size:14>Truth Tables
+****[#yellow] <i><color #black><size:14>Logical Equivalences
+**[#lightblue] <i><color #blac><size:14>Number Theory
+***[#green] <b><i><color #white><size:14>Divisibility
+***[#green] <b><i><color #white><size:14>Prime Numbers
+***[#green] <b><i><color #white><size:14>Greatest Common Divisor
+***[#green] <b><i><color #white><size:14>Modular Arithmetic
+***[#green] <b><i><color #white><size:14>RSA Cryptography
+**[#lightblue] <i><color #blac><size:14>Combinatorics
+***[#green] <b><i><color #white><size:14>Permutations
+***[#green] <b><i><color #white><size:14>Combinations
+***[#green] <b><i><color #white><size:14>Pigeonhole Principle
+***[#green] <b><i><color #white><size:14>Inclusion-Exclusion Principle
+**[#lightblue] <i><color #blac><size:14>Graph Theory
+***[#green] <b><i><color #white><size:14>Graph Properties
+****[#yellow] <i><color #black><size:14>Directed vs. Undirected
+****[#yellow] <i><color #black><size:14>Weighted vs. Unweighted
+****[#yellow] <i><color #black><size:14>Paths and Cycles
+****[#yellow] <i><color #black><size:14>Connectedness
+****[#yellow] <i><color #black><size:14>Planar Graphs
+***[#green] <b><i><color #white><size:14>Graph Representation
+****[#yellow] <i><color #black><size:14>Adjacency Matrix
 *****:**Adjacency Matrix Example**
 
 graph = [
@@ -39,7 +44,7 @@ graph = [
     [1, 0, 1, 0]
 ];
 
-****  =//Adjacency List//
+****[#yellow] <i><color #black><size:14>Adjacency List
 
 *****:**Adjacency List Example**
 
@@ -50,39 +55,39 @@ graph = [
     [0, 2]
 ];
 
-*** Graph Algorithms
-**** Shortest Path
-**** Minimum Spanning Tree
-** Probability Theory
-*** Sample Space
-*** Events
-*** Probability Distribution
-**** Discrete Probability Distribution
-**** Continuous Probability Distribution
-*** Conditional Probability
-*** Bayes' Theorem
-** Formal Languages and Automata Theory
-*** Regular Languages
-**** Regular Expressions
-**** Finite Automata
-**** Non-deterministic Finite Automata
-*** Context-Free Languages
-**** Context-Free Grammars
-**** Pushdown Automata
-*** Turing Machines
-**** Computability
-**** Undecidability
-** Cryptography
-*** Symmetric Encryption
-**** Substitution Ciphers
-**** Transposition Ciphers
-*** Public Key Cryptography
-**** RSA Cryptography
-*** Cryptographic Hash Functions
-*** Digital Signatures
-** Applications
-*** Computer Science
-*** Engineering
-*** Mathematics
-*** Natural Sciences
-@endmindmap
+***[#green] <b><i><color #white><size:14>Graph Algorithms
+****[#yellow] <i><color #black><size:14>Shortest Path
+****[#yellow] <i><color #black><size:14>Minimum Spanning Tree
+**[#lightblue] <i><color #blac><size:14>Probability Theory
+***[#green] <b><i><color #white><size:14>Sample Space
+***[#green] <b><i><color #white><size:14>Events
+***[#green] <b><i><color #white><size:14>Probability Distribution
+****[#yellow] <i><color #black><size:14>Discrete Probability Distribution
+****[#yellow] <i><color #black><size:14>Continuous Probability Distribution
+***[#green] <b><i><color #white><size:14>Conditional Probability
+***[#green] <b><i><color #white><size:14>Bayes' Theorem
+**[#lightblue] <i><color #blac><size:14>Formal Languages and Automata Theory
+***[#green] <b><i><color #white><size:14>Regular Languages
+****[#yellow] <i><color #black><size:14>Regular Expressions
+****[#yellow] <i><color #black><size:14>Finite Automata
+****[#yellow] <i><color #black><size:14>Non-deterministic Finite Automata
+***[#green] <b><i><color #white><size:14>Context-Free Languages
+****[#yellow] <i><color #black><size:14>Context-Free Grammars
+****[#yellow] <i><color #black><size:14>Pushdown Automata
+***[#green] <b><i><color #white><size:14>Turing Machines
+****[#yellow] <i><color #black><size:14>Computability
+****[#yellow] <i><color #black><size:14>Undecidability
+**[#lightblue] <i><color #blac><size:14>Cryptography
+***[#green] <b><i><color #white><size:14>Symmetric Encryption
+****[#yellow] <i><color #black><size:14>Substitution Ciphers
+****[#yellow] <i><color #black><size:14>Transposition Ciphers
+***[#green] <b><i><color #white><size:14>Public Key Cryptography
+****[#yellow] <i><color #black><size:14>RSA Cryptography
+***[#green] <b><i><color #white><size:14>Cryptographic Hash Functions
+***[#green] <b><i><color #white><size:14>Digital Signatures
+**[#lightblue] <i><color #blac><size:14>Applications
+***[#green] <b><i><color #white><size:14>Computer Science
+***[#green] <b><i><color #white><size:14>Engineering
+***[#green] <b><i><color #white><size:14>Mathematics
+***[#green] <b><i><color #white><size:14>Natural Sciences
+@endwbs

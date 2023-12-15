@@ -60,9 +60,9 @@ will be considered as <size:22>**"unusual"**</size>;
 <img:images/img_19.png{scale=.5}>;
 
 
-*:=The __<color #brown>z-score</color>__ can be perfectly found in a __normal distribution curve__ with no __left skew and right skew.__ The below image shows these curves.
+*:<i>The __<color #brown>z-score</color>__ can be perfectly found in a __normal distribution curve__ with no __left skew and right skew.__ The below image shows these curves.
 <img:images/img_23.png{scale=.5}>
-=//In Cases where data is left-skewed or right-skewed, then __Median__ is better metric for the __data centrality__ instead of the __Mean__.//;
+//In Cases where data is left-skewed or right-skewed, then __Median__ is better metric for the __data centrality__ instead of the __Mean__.//;
 
 * =Machine Learning \n=(Data Engineering)
 ** <img:images/img_61.png{scale=.4}>

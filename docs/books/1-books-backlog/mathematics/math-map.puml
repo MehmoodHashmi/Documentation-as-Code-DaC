@@ -1,72 +1,79 @@
-@startmindmap
-* Mathematics
-** Algebra
-*** Linear Algebra
-**** Vectors and Matrices
-**** Systems of Linear Equations
-**** Eigenvalues and Eigenvectors
-*** Abstract Algebra
-**** Groups
-**** Rings
-**** Fields
-** Calculus
-*** Differential Calculus
-**** Limits and Continuity
-**** Derivatives
-**** Applications of Derivatives
-*** Integral Calculus
-**** Indefinite Integrals
-**** Definite Integrals
-**** Applications of Integrals
-** Geometry
-*** Euclidean Geometry
-**** Lines and Angles
-**** Triangles
-**** Polygons and Circles
-**** Three-Dimensional Geometry
-*** Non-Euclidean Geometry
-**** Hyperbolic Geometry
-**** Elliptic Geometry
-*** Analytic Geometry
-**** Coordinate Systems
-**** Conic Sections
-**** Transformations
-** Probability and Statistics
-*** Probability Theory
-**** Basic Concepts
-**** Discrete Probability Distributions
-**** Continuous Probability Distributions
-**** Joint Probability Distributions
-*** Statistical Inference
-**** Hypothesis Testing
-**** Estimation
-**** Regression Analysis
-** Discrete Mathematics
-*** Graph Theory
-**** Graphs and Digraphs
-**** Graph Algorithms
-*** Combinatorics
-**** Combinatorial Enumeration
-**** Generating Functions
-**** Designs and Configurations
-** Number Theory
-*** Divisibility and Congruences
-*** Prime Numbers and Cryptography
-*** Diophantine Equations
-** Applied Mathematics
-*** Numerical Analysis
-**** Approximation Theory
-**** Numerical Methods for Solving Equations
-**** Interpolation and Extrapolation
-*** Optimization
-**** Linear Programming
-**** Nonlinear Programming
-**** Dynamic Programming
-*** Game Theory
-**** Cooperative and Non-Cooperative Games
-**** Nash Equilibrium
-*** Operations Research
-**** Queuing Theory
-**** Markov Chains
-**** Simulation
-@endmindmap
+@startwbs
+title =<i><b><u>Mathematics Map
+!theme hacker
+
+
+
+
+
+*[#darkblue] <i> Mathematics
+**[#lightblue] <i><color #blac><size:14>Algebra
+***[#green] <b><i><color #white><size:14>Linear Algebra
+****[#yellow] <i><color #black><size:14>Vectors and Matrices
+****[#yellow] <i><color #black><size:14>Systems of Linear Equations
+****[#yellow] <i><color #black><size:14>Eigenvalues and Eigenvectors
+***[#green] <b><i><color #white><size:14>Abstract Algebra
+****[#yellow] <i><color #black><size:14>Groups
+****[#yellow] <i><color #black><size:14>Rings
+****[#yellow] <i><color #black><size:14>Fields
+**[#lightblue] <i><color #blac><size:14>Calculus
+***[#green] <b><i><color #white><size:14>Differential Calculus
+****[#yellow] <i><color #black><size:14>Limits and Continuity
+****[#yellow] <i><color #black><size:14>Derivatives
+****[#yellow] <i><color #black><size:14>Applications of Derivatives
+***[#green] <b><i><color #white><size:14>Integral Calculus
+****[#yellow] <i><color #black><size:14>Indefinite Integrals
+****[#yellow] <i><color #black><size:14>Definite Integrals
+****[#yellow] <i><color #black><size:14>Applications of Integrals
+**[#lightblue] <i><color #blac><size:14>Geometry
+***[#green] <b><i><color #white><size:14>Euclidean Geometry
+****[#yellow] <i><color #black><size:14>Lines and Angles
+****[#yellow] <i><color #black><size:14>Triangles
+****[#yellow] <i><color #black><size:14>Polygons and Circles
+****[#yellow] <i><color #black><size:14>Three-Dimensional Geometry
+***[#green] <b><i><color #white><size:14>Non-Euclidean Geometry
+****[#yellow] <i><color #black><size:14>Hyperbolic Geometry
+****[#yellow] <i><color #black><size:14>Elliptic Geometry
+***[#green] <b><i><color #white><size:14>Analytic Geometry
+****[#yellow] <i><color #black><size:14>Coordinate Systems
+****[#yellow] <i><color #black><size:14>Conic Sections
+****[#yellow] <i><color #black><size:14>Transformations
+**[#lightblue] <i><color #blac><size:14>Probability and Statistics
+***[#green] <b><i><color #white><size:14>Probability Theory
+****[#yellow] <i><color #black><size:14>Basic Concepts
+****[#yellow] <i><color #black><size:14>Discrete Probability Distributions
+****[#yellow] <i><color #black><size:14>Continuous Probability Distributions
+****[#yellow] <i><color #black><size:14>Joint Probability Distributions
+***[#green] <b><i><color #white><size:14>Statistical Inference
+****[#yellow] <i><color #black><size:14>Hypothesis Testing
+****[#yellow] <i><color #black><size:14>Estimation
+****[#yellow] <i><color #black><size:14>Regression Analysis
+**[#lightblue] <i><color #blac><size:14>Discrete Mathematics
+***[#green] <b><i><color #white><size:14>Graph Theory
+****[#yellow] <i><color #black><size:14>Graphs and Digraphs
+****[#yellow] <i><color #black><size:14>Graph Algorithms
+***[#green] <b><i><color #white><size:14>Combinatorics
+****[#yellow] <i><color #black><size:14>Combinatorial Enumeration
+****[#yellow] <i><color #black><size:14>Generating Functions
+****[#yellow] <i><color #black><size:14>Designs and Configurations
+**[#lightblue] <i><color #blac><size:14>Number Theory
+***[#green] <b><i><color #white><size:14>Divisibility and Congruences
+***[#green] <b><i><color #white><size:14>Prime Numbers and Cryptography
+***[#green] <b><i><color #white><size:14>Diophantine Equations
+**[#lightblue] <i><color #blac><size:14>Applied Mathematics
+***[#green] <b><i><color #white><size:14>Numerical Analysis
+****[#yellow] <i><color #black><size:14>Approximation Theory
+****[#yellow] <i><color #black><size:14>Numerical Methods for Solving Equations
+****[#yellow] <i><color #black><size:14>Interpolation and Extrapolation
+***[#green] <b><i><color #white><size:14>Optimization
+****[#yellow] <i><color #black><size:14>Linear Programming
+****[#yellow] <i><color #black><size:14>Nonlinear Programming
+****[#yellow] <i><color #black><size:14>Dynamic Programming
+***[#green] <b><i><color #white><size:14>Game Theory
+****[#yellow] <i><color #black><size:14>Cooperative and Non-Cooperative Games
+****[#yellow] <i><color #black><size:14>Nash Equilibrium
+***[#green] <b><i><color #white><size:14>Operations Research
+****[#yellow] <i><color #black><size:14>Queuing Theory
+****[#yellow] <i><color #black><size:14>Markov Chains
+****[#yellow] <i><color #black><size:14>Simulation
+@endwbs

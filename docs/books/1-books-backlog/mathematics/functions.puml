@@ -1,0 +1,42 @@
+@startmindmap
+title =<i><b><u>[[docs/books/1-books-backlog/mathematics/img_2.png Function]] click me
+!theme hacker
+
+*[#darkblue] <i>Function
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <b><i><color #white><size:14>Maps each element from one set (domain) to another set (codomain)
+***[#green] <b><i><color #white><size:14>Assigns exactly one output for each input
+**[#lightblue] <i><color #blac><size:14>Properties
+***[#green] <b><i><color #white><size:14>Domain
+****[#yellow] <i><color #black><size:14>Set of all possible inputs for the function
+***[#green] <b><i><color #white><size:14>Codomain
+****[#yellow] <i><color #black><size:14>Set of all possible outputs for the function
+***[#green] <b><i><color #white><size:14>Range
+****[#yellow] <i><color #black><size:14>Set of all actual outputs produced by the function
+**[#lightblue] <i><color #blac><size:14>Types of Functions
+***[#green] <b><i><color #white><size:14>One-to-One (Injective)
+****[#yellow] <i><color #black><size:14>Each element in the domain maps to a unique element in the codomain
+***[#green] <b><i><color #white><size:14>Onto (Surjective)
+****[#yellow] <i><color #black><size:14>Every element in the codomain has at least one pre-image in the domain
+***[#green] <b><i><color #white><size:14>Bijective
+****[#yellow] <i><color #black><size:14>Function is both one-to-one and onto
+**[#lightblue] <i><color #blac><size:14>Representation
+***[#green] <b><i><color #white><size:14>Notation: \(f: A \rightarrow B\)
+****[#yellow] <i><color #black><size:14>\(f\) is a function from set \(A\) to set \(B\)
+***[#green] <b><i><color #white><size:14>Graphical Representation
+****[#yellow] <i><color #black><size:14>Cartesian coordinates, plots, curves, or mappings
+**[#lightblue] <i><color #blac><size:14>Operations and Composition
+***[#green] <b><i><color #white><size:14>Composition of Functions
+****[#yellow] <i><color #black><size:14>Combining two functions to form a new function
+****[#yellow] <i><color #black><size:14>\(g \circ f\) denotes the composition of functions \(f\) and \(g\)
+***[#green] <b><i><color #white><size:14>Inverse Function
+****[#yellow] <i><color #black><size:14>Reverses the action of the original function
+****[#yellow] <i><color #black><size:14>Denoted as \(f^{-1}\)
+**[#lightblue] <i><color #blac><size:14>Applications
+***[#green] <b><i><color #white><size:14>Mathematics
+****[#yellow] <i><color #black><size:14>Modeling real-world problems, algebraic manipulations
+***[#green] <b><i><color #white><size:14>Computer Science
+****[#yellow] <i><color #black><size:14>Algorithms, data structures, functional programming
+***[#green] <b><i><color #white><size:14>Physics
+****[#yellow] <i><color #black><size:14>Mathematical models in physics, engineering
+@endmindmap

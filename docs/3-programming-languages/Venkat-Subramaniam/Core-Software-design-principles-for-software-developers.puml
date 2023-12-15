@@ -95,7 +95,8 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 *****[#gold] <i><color #black><size:14>**"System"** will become so **"stable"** that it won't even <b>run!\n*<i><color #black><size:14>E.g. if all **classes** are **abstract,** then none of them can be <b>instantiated.
 
 ***[#green] <b><i><color #white><size:14>Dealing with Coupling
-****[#yellow] <i><color #black><size:14> Get rid of it
+****[#yellow] <i><color #black><size:14>Get rid of it
+****[#yellow] <i><color #black><size:14>Extremely **loose coupling requires** very **few rules,** but they need to be <b>enforced strictly.
 ****[#yellow]:<i><color #black><size:14>Make it "loose" instead of <b>tight coupling
 ==<b><i><color #black><size:14>Tight coupling?==
 *<i><color #black><size:14>Depending on a <b>class</b> is <b>tight coupling

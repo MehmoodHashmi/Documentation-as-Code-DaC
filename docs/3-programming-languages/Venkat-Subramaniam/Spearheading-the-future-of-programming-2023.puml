@@ -6,10 +6,11 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 **[#lightblue] <i><color #blac><size:14>Introduction
 ***[#green]:<i><color #white><size:14>I program in about **15 different languages** what I mean by that is I'm not good in any one of them but I love programming &  I started programming because of
 <i><color #white><size:14>the **love I had for Math, physics and Science** in general but <b>"35 years later I'm still a programmer"</b> because of the <b>art and programming that I see.;
-
 ***[#green]:<i><color #white><size:14>I will talk what do I want to see in programming languages as we move forward over the years as I programmed in multiple languages.
 <i><color #white><size:14>I've kind of enjoyed some languages more than others;
-***[#green] <i><color #white><size:14><b>Where things are today and where things are heading
+***[#green] <i><color #white><size:14><b>Where things are today and where things are heading?
+****[#a] <i><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_68.png How "science" is different from "computing"? Grady Booch]]
+****[#a] <i><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_69.png Religion vs Philosophy vs Science vs literature (Art/Craft) ]]
 
 **[#lightblue] <i><color #blac><size:14>Characteristics
 ***[#green] <b><i><color #white><size:14>"Things change really fast in our field"
@@ -31,16 +32,19 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ****[#yellow] <i><color #black><size:14><b>3rd paradigm shift:</b> Distributed Object Computing or Common Object Request Broker Architecture <b>(CORBA)
 *****[#yellow] <i><color #black><size:14>Remote computing
 ****[#darkorange] <i><color #black><size:15><b>4rth paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Asynchronous-Programming-in-Java-Options-to-Choose-from.puml Asynchronous Programming]]\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Asynchronous is non-blocking]] click gif\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Multi-threading vs Multi-processing programming ]]
-*****[#yellow]:<i><color #black><size:14><b>It took me more time to understand it. Why? Because</b>
+*****[#a]:<i><color #black><size:14><b>It took me more time to understand it. Why? Because</b>
 * <color #black><size:14><i>I was not satisfied writing another <b>"callback"</b> & go home
 * <color #black><size:14><i>I wanted to understand the following:
 ** <color #black><size:14><i> <b>How these "callback" behave</b>
 ** <color #black><size:14><i> <b>How these "callback" work</b>
-** <color #black><size:14><i> <b>And reason these "callback" work</b>;
-******[#gold]:<i><color #black><size:14><b>I Can relate to this from FSc:
-*<i><color #black><size:14>Construction <b>(at high level)
-*<i><color #black><size:14>Working/setup
-*<i><color #black><size:14>**Why** its working?
+** <color #black><size:14><i> <b>And reason these "callback" work</b>
+====
+* <color #black><size:14><i><b>"Diagramming:" using [[a Specification Description language (SDL)]]
+* <color #green><size:14><i><b>"Asynchronous:" is good for "reactive & distributed systems"
+** <color #green><size:14><i><b>Current areas of application: "process control & real-time apps";
+******[#a]:<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/connection-relation-function.puml I Can relate to this from FSc:]]
+*<i><color #black><size:14>Construction/Setup <b>(at high level)
+*<i><color #black><size:14>Working & **why** its working?
 *<i><color #black><size:14>**And the reason** its working!;
 
 ****[#darkorange] <i><color #black><size:15><b>5th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml Functional Programming]]
