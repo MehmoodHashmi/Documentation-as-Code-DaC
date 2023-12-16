@@ -73,10 +73,10 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#yellow] <i><color #black><size:14><b>E.g.</b> Databases (SQL or NoSQL) etc.
 ***[#yellow] <i><color #black><size:14>E.g. **"Rewrite"** java app in go-lang or C# or python, this is difficult, time consuming & hard to <b>reverse.
 ***[#yellow] <i><color #black><size:14>The more you are **couple to a decision** the harder it is to **reverse,** introduce **indirection** to increase <b>reversibility.
-***[#yellow]:<i><color #black><size:14>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.
+***[#a]:<i><color #black><size:14>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.
 *<b><i><color #black><size:14>Why don't we postpone?
 **<b><i><color #green><size:14>Because we are afraid!
-*<b><i><color #black><size:14>If you want to "postpone" we need to 've good "automated testing". (TDD)
+*<b><i><color #black><size:14>[[a If you want to "postpone" we need to 've good "automated testing". (TDD)]] click me
 <img:images/img_43.png{scale=.86}>
 ==<i><color #black><size:14><b>(TDD) gives you Control==
 *<i><color #black><size:14><b>Statistical Control (SC):</b> is **TDD or unit testing** or <b><color:green>"Test Coverage"
