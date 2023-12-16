@@ -52,10 +52,11 @@ title =__Software House Processes__
 ***[#green] <i><size:14><color #white>**Research & Development**
 ****[#orange] <i><size:14><color #black>**Technology Exploration**
 *****[#yellow] <i><size:14>Continuously explore emerging technologies and trends relevant to your software offerings.
-****[#orange] <i><size:18><color #black>**[[../1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]**
+****[#orange] <i><size:18><color #black>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]**
 *****[#yellow] <i><size:14>Create prototypes to validate new ideas and concepts before full-scale development.
-****[#orange] <i><size:18><color #black><b>[[../1-Requirement-Engineering/MVP-PoC-and-case-study/Proof-of-Concept.puml Proof-of-Concept]]
+****[#orange] <i><size:18><color #black><b>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Proof-of-Concept.puml Proof-of-Concept]]
 *****[#yellow] <i><size:14>Develop proof of concepts to demonstrate the feasibility of innovative solutions.
+****[#orange] <i><size:18><color #black><b>[[docs/3-programming-languages/clean-architecture/mvp-minimum-viable-product-cheat-sheet.png Minimum Viable Product]] (MVP)
 
 ***[#green] <i><size:14><color #white>**Emerging Technologies**
 ****[#orange] <i><size:14><color #black>**AI/ML Integration**

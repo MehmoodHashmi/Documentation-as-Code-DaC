@@ -35,7 +35,7 @@ arrow {
 
 title =__ Difference between URI and URL__
 
-* **URL Components**\n<img:img.png>
+* **URL Components**\n<img:img.png{scale=.7}>
 ** **Scheme:** https
 *** Defines the protocol used to access the **resource** (e.g. http, https, ftp, etc.)
 ** **Host:** www.example.com

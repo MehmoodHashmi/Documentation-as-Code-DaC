@@ -1,0 +1,187 @@
+@startmindmap
+title =<i>Introduction to Specification Description Language (SDL)
+* <b><i>[[https://www.youtube.com/watch?v=0MG4I1HqIb4&t=729s&ab_channel=PragmaDevSoftware Introduction to SDL]] video 20-minutes
+** <b><i>[[https://www.youtube.com/watch?v=Hfxq5O6LhjQ&ab_channel=PragmaDevSoftware Introduction to SDL]] another video
+
+!theme hacker
+*[#darkblue] <i><color:white>Introduction to SDL
+**[#darkblue] <i><color:white>Introduction
+***[#lightblue] <b><i><size:12>What is SDL?
+****[#green] <i><size:12><b><color:white>SDL
+*****[#yellow] <i><size:12><color:black>SDL stands for **Specification & Description Language.** It is standardized by the international telecommunication union as recommendations at <b>modeling telecommunication systems.
+*****[#yellow] <i><size:12><color:black>However, its application extends to <b>complex real-time, event-driven and interactive systems</b> that "communicate" using <b>messages.
+*****[#yellow]:<i><size:12><color:black>SDL can be used in combination with other languages like:
+*<i><size:12><color:black>**"message sequence charts"** (is almost same as **sequence diagram in UML**) for describing <b>interaction scenarios.
+*<i><size:12><color:black>"Abstract syntax notation-1" for describing "data types"
+*<i><size:12><color:black>Testing,  "test control notation version3" for testing.;
+
+****[#green] <i><size:12><b><color:white>Why Use SDL?
+*****[#yellow]:*<i><size:12><color:black>SDL is a graphical modeling language which is extremely intuitive. The most important characteristic of SDL it's its formality.
+*<i><size:12><color:black>The semantics behind every concept are precisely defined. This allows for a model in SDL to be analyzed and interpreted without any ambiguities.
+*<i><size:12><color:black>SDL is a wide spectrum language that can be used for both high-level and detailed modeling from requirements to implementation.
+<i><size:12><color:black>\tAlthough it is widely used in the telecommunications.
+*<i><size:12><color:black>SDL has also been applied to a diverse number of other areas ranging from aircraft, train control and automotive to medical and packaging systems.
+*<i><size:12><color:black>The language is very mature and has been evolving since the first recommendation in 1980s.
+*<i><size:12><color:black>SDL provides structuring entities that facilitate modeling of large and complex systems.
+*<i><size:12><color:black>The model is based on communicating extended finite state machines with abstract data types and object-oriented features.;
+
+**[#darkblue] <i><color:white>Model
+***[#lightblue] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_86.png Structure]] <size:9>click me
+****[#green] <i><size:12><b><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_86.png Agents]] <size:9>click me
+*****[#yellow] <i><size:12><color:black>**Agents:** The **structuring entities** of an **SDL model** are called <b>agents.
+*****[#yellow] <i><size:12><color:black>**System:** The "system" is the top-level "agent" it can contain other agents but it cannot be contained but by any agent.
+*****[#yellow] <i><size:12><color:black>**Environment:** Everything outside of the system is defined as the "environment".
+*****[#yellow] <i><size:12><color:black>**Blocks:** "Blocks" are containers of agents. They are used to break down the complexity and size of "systems".
+*****[#yellow] <i><size:12><color:black>**System:** The "system" itself is a "block" that is the top-level container.
+*****[#yellow] <i><size:12><color:black>**Processes:** are bottom level "agents". They are found in "blocks" and cannot contain any other "agent".
+****[#green] <i><size:12><b><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_85.png Tree Structure]] <size:9>click me
+*****[#yellow] <i><size:12><color:black>An "SDL model" has a "tree structure" where the system is the root, blocks are the internal nodes and processes are the Leafs.
+
+***[#lightblue] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_87.png Communication]] <size:9>click me
+****[#green]:*<i><size:12><b><color:white>Communication in SDL is a asynchronous.  It is described using messages or discrete signals.
+*<i><size:12><color:white>Messages can be defined at any level of the model, with its system or block. They 've names and optional parameters and can be grouped into lists for ease of use.
+*<i><size:12><color:white>Messages travel in channels. The channels have names and expand through the structure connecting agents to one another or to the environment.
+*<i><size:12><color:white><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_88.png A message path is formed by the channels connecting this "source and destination" of a "message". The "end point" of a "path" must be either a "process or the environment."]] click me;
+*****[#a] *<i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_88.png Click me]]
+***[#lightblue] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_89.png Behavior]] <size:9>click me
+****[#green]:*<i><size:12><b><color:white>"Behavior" in SDL is defined in "processes" using graphical finite state machines.
+**<i><size:12><color:white>The **"model"** of the **"finite state machine"** is that of mealy, meaning that **"actions"** takes place in the <b>"transitions and not in the States".
+**<i><size:12><color:white>**State machines** can perform **operations on data and communicate using messages listed** at the **endpoints** of the **channel** the <b>"process" is connected to.;
+*****[#a] *<i><size:12><b><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_89.png Click me]]
+
+****[#green] <i><b><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_90.png Input Queue]] <size:9> click me
+*****[#yellow]:*<i><size:12><b><color:black>Every "process" in SDL has an "implicit queue" for "messages". Messages are consumed in the order they are received, that is first-in first-out.
+*<i><size:12><color:black>If signal-1 is on top of the **queue** it will be treated first followed by signal-2.;
+******[#a] *<i><size:12><b><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_90.png Click me]]
+
+*****[#yellow]:<i><size:14><b><color:black><u>Example
+<i><size:12><color:black>The **start symbol** is the **entry point** of a <b>state machine.
+<i><size:12><color:black>The transition between the start symbol and the first state of the process is called the start transition.
+<i><size:12><color:black>During this transition the process cannot treat messages all other symbols are allowed.;
+******[#a] *<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_91.png Click me]]
+****[#green] <i><size:12><b><color:white>State
+*****[#yellow]:<i><size:12><color:black>A state is defined by its name when in a state the process is waiting for some event to go on. The event can be a message input, priority input,
+<i><size:12><color:black><b>continuous signal or a save.;
+******[#a] <i><size:12><color:black>
+*****[#yellow]:<i><size:12><color:black>The same event can generate different behavior depending on the state the process is in,
+==<i><size:14><b><color:black>Example==
+<size:12><i><color:black>Signal-1 may trigger the execution of either action 1 or 2 depending on whether the process is in state 1 or state 2.
+<size:12><i><color:black>There can be several symbols for the same state. Events can be connected to the same state symbol or different symbols with the same state name.
+<size:12><i><color:black>If the same event triggers the same behavior on different states then these states can be grouped into the same symbol. At the end of the
+<size:12><i><color:black>transition the process goes to the next state. The symbol used for the next state is the same.
+==<size:14><i><color:black>Special States==
+<size:12><i><color:black>**Special states:** A dash next state (-) terminating & transition means that the next sate is the same as the state the transition was triggered,
+<size:12><i><color:black>while a star (*) as a state means all states.;
+
+****[#green] <i><size 12><b><color:white>StateMessage inputs
+*****[#yellow]:<i><size:12><color:black>Message inputs are consumed in first-in first-out order.
+==<i><size:14><color:black>Example==
+<i><size:12><color:black>Signal-1 will be treated first causing the execution of action 1. As the process does not change its state after consuming the message signal 2 is treated next causing the execution of action 2.
+<i><size:12><color:black>A star (*) as a message input can be used for handling all unexpected messages. These are all the messages for which no transition has been defined in the current state.;
+
+****[#green] <i><size 12><b><color:white>Priority input
+*****[#yellow]:<i><size:12><color:black>In some cases it is convenient to express that reception of a message text priority of reception of other messages.
+<i><size:12><color:black>This can be expressed by means of priority input. Although signal-1 comes before signal-2 in the queue it is signal-2  which will be treated first because of the priority.
+<i><size:12><color:black>If more than one priority inputs are defined in the current state then they are consumed in first-in first-out order, like normal message inputs.;
+
+
+****[#green] <i><size 12><b><color:white>Continuous signal
+*****[#yellow]:<i><size:12><color:black>Sometimes, the situation may arise where a transition should be executed when a certain condition is fulfilled.
+<i><size:12><color:black>A continuous signal is a boolean expression. If it evaluates to true then it's associated transition is executed. The expression is evaluated only after
+<i><size:12><color:black>all messages have been consumed that is the input queue of the process is empty. Continuous signals have priorities. the expression with the lowest
+<i><size:12><color:black>priority is evaluated first. In the example action 1 will be executed before action 2 if the value of "i" is between 0 and 10.;
+
+****[#green] <i><size 12><b><color:white>Save
+*****[#yellow]:<i><size:12><color:black>When a message is received while unexpected it is thrown away. This is considered normal behavior in SDL.
+<i><size:12><color:black>It is however possible to save messages, so that they can be processed when execution reaches a new state.
+<i><size:12><color:black>When a new state is reached saved messages will be processed before normal inputs. If signal 2 was saved in state 1 then when the process goes to state 2 it will first treat this
+<i><size:12><color:black>message before any other messages in the queue. As a result action 2 will be executed before action 3.;
+
+****[#green] <i><size 12><b><color:white>Transition
+*****[#yellow]:<i><size:12><color:black>A transition performs a sequence of actions. During the transition the data of a process may be manipulated and messages may be sent.
+<i><size:12><color:black>An event marks the entry point of a transition. This event can be a message input, priority input or continuous signal.
+<i><size:12><color:black>The transition will end with the next state or a stop. When a stop is reached the process will terminate and all messages in its input queue or its saved messages will be discarded.
+<i><size:12><color:black>A transition in one process can be executed at the same time as a transition in another process provided that both processes run concurrently.
+<i><size:12><color:black>If processes run sequentially then their corresponding transitions are executed inter living. In this case the transitions are run to completion.
+<i><size:12><color:black>There is only one transition is executed at a time until it reaches the next state or stop.
+<i><size:12><color:black>The actions that can be performed during a transition include:
+<i><size:12><color:black>timer manipulation, process creation, procedure and macro call, decision, transition option, execution of SDL code and a connector.;
+
+****[#green] <i><size 12><b><color:white>Output
+*****[#yellow]:<i><size:12><color:black>A process can send messages to another based on the paths defined in the structure.
+<i><size:12><color:black>If a single path exists in the structure for a given message then its name and parameters are enough to address the receiver process.
+<i><size:12><color:black>However, the receiver of a message can be set explicitly in the output symbol. This is useful when there are several possible paths for
+<i><size:12><color:black>a given message. If the receiver is set explicitly then a path must exist for the given message. A message can be sent to a named process,
+<i><size:12><color:black>to a process identifier to the environment or via a channel or a gate. The process identifier can be the sender of the message that triggered
+<i><size:12><color:black>the current transition. The process that created the current process instance, a process instance created by the current process or the process itself.;
+
+****[#green] <i><size 12><b><color:white>Timer
+*****[#yellow]:<i><size:12><color:black>Timers are identified by their name they can be declared however, their declaration is optional. The behavior in SDL is concerned with duration.
+<i><size:12><color:black>There is with the difference between timer values rather than values themselves. That is why the unit of time in SDL is irrelevant.
+<i><size:12><color:black>A timer is started with least it's expected timeout and the now keyword can be used to get the current time.
+<i><size:12><color:black>When a timer goes off it becomes a message in the input queue and it will be treated as any normal message that is in first in first out order.
+<i><size:12><color:black>If however, the timer is cancelled while the corresponding message is already in the queue, the message will be removed from the queue.
+==Example==
+<i><size:12><color:black>The transition triggered by signal 2 will cancel the timer tick which will be removed from the queue and its associated transition will not be executed.;
+
+****[#green] <i><size 12><b><color:white>Process creation
+*****[#yellow]:<i><size:12><color:black>Process instances in SDL can be created either statically or dynamically.
+<i><size:12><color:black>**Static creation** is done at **system startup** and the number of instances is set in the process symbol.
+<i><size:12><color:black>**Dynamic creation** is done at **runtime** that is during the execution of a transition. In this case one instance of a process is created.;
+
+****[#green] <i><size 12><b><color:white>Procedure
+*****[#yellow]:<i><size:12><color:black>A procedure can be declared everywhere in the structure of a system be it block or process. The declaration symbol has the name of the procedure
+<i><size:12><color:black>like procedure 1 in this example. Procedures are used to factorize behavior. There is a behavioral pattern that repeats itself several times can be
+<i><size:12><color:black>defined as a procedure hence, reducing the size and complexity of the model. Behavior in procedure is modeled using state machines like in processes.
+<i><size:12><color:black>However, they have a different start symbol and unlike processes they return rather than stop. Also procedures can accept parameters and return a value to the caller.
+<i><size:12><color:black>The caller of a procedure can be either a process or another procedure. A call to a procedure will interrupt the execution of the current transition until the procedure returns.
+<i><size:12><color:black>Procedures can send and receive messages and modify the data of their declaring agent.;
+
+****[#green] <i><size 12><b><color:white>ProcedureMacro
+*****[#yellow]:<i><size:12><color:black>Another way to factorize behavior is with macros unlike procedures macros cannot receive messages and thus no transition can be defined inside them.
+<i><size:12><color:black>A macro is expanded when called which is like replacing the call symbol by the contents of the macro. This is why a macro cannot call itself as it would cause an infinite expansion.;
+
+****[#green] <i><size 12><b><color:white>Composite State
+*****[#yellow]:<i><size:12><color:black>A composite state is a state composed of sub-state machines and it allows to model hierarchical state machines. Each sub-state machine handles a different subset
+<i><size:12><color:black>of messages. The super state machine also handles its own inputs. When a message is for one of the sub-state machines the super state does not change but when a message
+<i><size:12><color:black>is for the super state machine all sub-state machines are terminated.
+==<i><size:14><color:black><b>Example==
+The process will stay in state 1 until it receives signal 3 while in this state signal 1 and Sigma 2 are treated by its sub-state machines.;
+
+***[#lightblue] <b><i><size:12>Data
+****[#green]:<i><size 12><b><color:white>SDL supports data types. A data type definition consists of a body a set of literals and a set of operators.
+<i><size:12><color:white>SDL provides several predefined data types which are familiar in both the behavior and syntax. This range from simple types like integer to complex ones like arrays.
+<i><size:12><color:white>It is also possible to use ASN.1 for data types.
+<i><size:12><color:white>This way the structure and behavior of the system can be defined in SDL while data types in ASN.1.
+
+<i><size:12><color:white>A new data type can be defined also based on an existing one in this example the port number is a new data type which is based on an integer.
+<i><size:12><color:white>It is easy to define a new data type by introducing constraints and a default value to an existing type e.g. the lower and upper bound values for the port number can be limited as shown.
+<i><size:12><color:white>SDL supports declaration of constants and variables based on predefined or user-defined data types.
+<i><size:12><color:white>Constants are declared at any level be its system block process or procedure and their values cannot be changed.
+<i><size:12><color:white>Variables on the other hand are declared inside a process or a procedure. They are visible and can be modified only inside that process or procedure.
+<i><size:12><color:white>Global variables accessible by all processes are not supported however, it is possible for a process to make visible its variables in other parts of the system.
+<i><size:12><color:white>These are called remote variables and although they are visible in other processes they cannot be modified by them.
+<i><size:12><color:white>Data can be sent and received via message parameters and manipulate it inside transitions.
+==<i><size:14><color:white>Example==
+<i><size:12><color:white>The process is waiting in state 1 for signal 1 whose only parameter is an integer.
+<i><size:12><color:white>When the message is treated its parameter will be copied to the variable named value.
+<i><size:12><color:white>A decision is made based on whether the value is greater than 0.
+<i><size:12><color:white>If it is then the value is added to the sum and the process does not leave it's current state.
+<i><size:12><color:white>The process will be waiting for other integers to add to the sum until it receives a zero or negative value.
+<i><size:12><color:white>In this case it will send signal to with the computed sum as a parameter.;
+
+***[#lightblue] <b><i><size:12>Object-Orientation
+****[#green] *<i><size 12><b><color:white>The object-oriented concepts of SDL give the user additional tools for structuring and reuse.
+****[#green] *<i><size 12><b><color:white>The concepts are based on classes and specialization provides a simple and intuitive way for creating new classes based on existing ones.
+
+****[#green] <i><size 12><b><color:white>Class
+*****[#yellow]:<i><size:12><color:black>Defining an agent class allows to use the same agent several times in the system.
+<i><size:12><color:black>An agent class declaration block or process includes the messages that come in and go out of that agent using gates.
+<i><size:12><color:black>An instance of a class is represented with a dotted line with the name of the instance and that of its class.
+<i><size:12><color:black>When a class is instantiated the gates are connected to the surrounding structure.
+<i><size:12><color:black>The message is listed in the gates must be consistent with those listed in the connected channels.;
+
+****[#green] <i><size 12><b><color:white>ClassSpecialization
+*****[#yellow]:<i><size:12><color:black>Specialization allows a block subclass to inherit the structure of its superclass. This includes agents channels gates and messages.
+<i><size:12><color:black>A process subclass inherits the behavior of its superclass that is its data and transitions.;
+@endmindmap

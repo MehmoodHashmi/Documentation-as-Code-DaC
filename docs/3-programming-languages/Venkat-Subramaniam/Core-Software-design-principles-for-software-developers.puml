@@ -20,6 +20,23 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#yellow] <i><color #black><size:14>Almost impossible to get **design** right the first time (in one sitting)
 ****[#yellow] <i><color #black><size:14>Software is never **written,** it is always <b>rewritten.
 *****[#gold] <i><color #black><size:14>Because any "software" that is **"relevant"** has to <b>change\n*<i><color #black><size:14>Otherwise, it means your **"client or business"** has become <b>bankrupt
+**[#lightblue] *<i><color #white><size:14><b>Poor design &\n*<i><color #white><size:14><b>Design smells
+***[#green] <i><color #white><size:14><b>1- Rigidity
+****[#yellow] <i><color #black><size:14>**Design** is **difficult** to <b>change
+***[#green] <i><color #white><size:14><b>2- Fragility
+****[#yellow] <i><color #black><size:14>**Design** is **easy** to <b>break
+***[#green] <i><color #white><size:14><b>3- Immobility
+****[#yellow] <i><color #black><size:14>**Design** is **difficult** to <b>reuse
+***[#green] <i><color #white><size:14><b>4- Viscosity
+****[#yellow] <i><color #black><size:14>It is **difficult** to do the <b>right thing
+***[#green] <i><color #white><size:14><b>5- Needless complexity
+****[#yellow] <i><color #black><size:14><b>Overdesign or over engineering
+***[#green] <i><color #white><size:14><b>6- Needless repetition
+****[#yellow] <i><color #black><size:14><b>Mouse abuse
+***[#green] <i><color #white><size:14><b>7- Opacity
+****[#yellow] <i><color #black><size:14><b>Disorganized expression
+***[#green] <i><color #white><size:14><b>Summary
+****[#yellow] *<i><color #black><size:14>Your **code** must fit well into the **existing system.** It should not increase the **rigidity, fragility or opacity** of that <b>system.\n*<i><color #black><size:14>The dependencies must be well managed. In short, your **code** needs to follow <b>SOLID engineering principles.
 **[#lightblue] <i><color #black><size:14>How to evaluate quality\n<i><color #black><size:14>of good design?
 ***[#green] <i><color #white><size:14><b>First step is
 ****[#yellow] <i><color #black><size:14>Let go of the <b>ego.
@@ -28,6 +45,8 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#yellow] <i><color #black><size:14>Be <b>unemotional
 *****[#gold] <i><color #black><size:14>Stop getting attached to the **solution,** and attach yourself to <b>solving the problem
 ****[#yellow] <i><color #black><size:14>Two Kinds of people that are dangerous to <b>work:\n*<b><i><color #black><size:14>Who can't follow instructions \n*<b><i><color #black><size:14>Who can only follow instructions
+***[#yellow] <i><color #black><size:14>**Software** is not limited by **physics,** like **buildings are.** It is limited by **imagination, by design, by organization.** In short, it is **limited** by the <b>properties of people,\n<i><color #black><size:14>not by the <b>properties of the world. "We 've met the enemy & he is us."
+
 **[#lightblue] <i><color #black><size:14>How to create good design?
 ***[#green] <i><color #white><size:14><b>Take time to "review" design & code
 ****[#yellow] <i><color #black><size:14><b>Refactor:</b> others people code
@@ -52,10 +71,10 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#yellow] <i><color #black><size:14>Has few "moving parts" in it
 ****[#yellow] <i><color #black><size:14><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:14>but by avoiding those tasks that <b>should not be done in the first place.
 **[#lightblue] <i><color #black><size:24>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Complexity]]\n<img:images/img_32.png>
-***[#green] <i><color #white><size:14><b>Inherent or Essential
+***[#green] <i><color #white><size:14><b>Inherent or\n<i><color #white><size:14><b>Essential
 ****[#yellow] <i><color #black><size:14>is from the **problem domain,** you can't minimize it. When dealing with the **problem;** there are **"complexities"** \n<i><color #black><size:14>of the **problem** that you 've to deal with. And this is the "nature of the application" and **nature** of the <b>domain.
 ****[#yellow] <i><color #black><size:14>Fortunately, on daily basis we 've to deal more with the <b>accidental "complexities"</b> than <b>inherent "complexities"
-***[#green] <i><color #white><size:14><b>Accidental
+***[#green] <i><color #white><size:14><b>Accidental \n<i><color #white><size:14><b>or Non-essential
 ****[#yellow]:<i><color #black><size:14>Often, comes from the **solution** we use to solve a **particular problem.** The **solution** we are using brings
 <i><color #black><size:14>certain **complexities** into the <b>table.
 *<i><color #black><size:14>Now, to solve this **introduced "complexities"** we bring <b>other solutions.
@@ -80,6 +99,10 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#darkorange] <i><color #black><size:16>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful. \n*<i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy
 ****[#yellow] <i><color #black><size:14>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
 **[#lightblue] <i><color #black><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_76.png Cohesion]]
+***[#green] <i><color #white><size:14><b>Class-level Principles
+****[#yellow] *<i><color #black><size:14>SOLID, GRASP & TDD. **\tClass design patterns:** (Structural, Behavioral & Creational) can be reused
+***[#green] <i><color #white><size:14><b>[[docs/3-programming-languages/class-and-package-level-SOLID-Principles.puml Package-level Principles]] <size:9>click me
+****[#yellow] *<i><color #black><size:14>**Cohesion:** CCP, CRP & **Coupling:** REP, SDP, SAP.  **\tModularity design patterns:** can be reused
 ***[#green] <i><color #white><size:14><b>Where a piece of code is narrow, "focused"\n<i><color #white><size:14><b>& does one thing & does one thing well!
 ****[#yellow] <i><color #black><size:14>We want software to change, but not too <b>(expensive to change)
 ****[#yellow] <i><color #black><size:14>If a "code" is **"cohesive",** it has to <b>change less "frequently"
@@ -109,6 +132,11 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 <i><color #black><size:14>And in extreme cases, you want to put those classes behind <b>polymorphic interfaces.;
 
 ****[#a] *<i><color #black><size:14>**Modules:** are a **new** way of "grouping" <b>codes & data.\n*<i><color #black><size:14>**Modularity:** is not an **OOP**  "concept" it's **decoupled** from <b>OOP.\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_79.png We need "flexibility" at "joints or layers" of the "system"]]
+****[#a]:<i><color #black><size:14>An important <u>**"part of structuring software"**</u> that **SOLID** doesn't cover is <u><b>"how to group classes into packages & components"
+<i><color #white><size:14>in a way that makes it **"scale",** both when the
+<i><color #black><b><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_94.png 1- "application itself grows" but also when the number of]] click me
+<i><color #pink><b><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_95.png 2- "teams  & developers" working with the "code" grows.]] click me;
+
 ****[#yellow] <i><color #black><b><size:14>In general:
 *****[#darkorange]:<i><color #black><size:14>**Logical design** (classes & packages) impacts <color #white><b> [[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml "extensibility"]]
 ====
@@ -228,6 +256,8 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ***[#green] <i><color #white><size:14><b>SLAP
 ***[#green] <i><color #white><size:14><b>Compose Method Pattern
 ****[#gold] <i><color #black><size:14><b>Self documenting code
+***[#green] <i><color #white><size:14><b>Violation of (SRP)
+****[#gold] <i><color #black><size:14>increases code <b>rigidity, fragility & reuse-ability!
 **[#lightblue] <i><color #black><size:14>Don't violate the \n<i><color #black><size:14>Open-Closed Principle (OCP)
 ***[#green] <i><color #white><size:14><b>"Software module" should be "open" for\n<i><color #white><size:14><b>"extension" but "closed" for "modification"
 ****[#gold] <i><color #black><size:14><b>Abstraction
@@ -242,6 +272,8 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#yellow] *<i><color #black><size:14><b>People with domain knowledge but no clue of Software design\n*<i><color #black><size:14>Too many in an organization
 ****[#yellow] *<i><color #black><size:14><b>People with no clue of domain knowledge but with knowledge the Software design\n*<i><color #black><size:14>Too many in an organization
 ****[#gold] *<i><color #black><size:18><b>People with domain knowledge & also knowledge of the Software design\n*<i><color #black><size:14>Very few in an organization
+***[#green] <i><color #white><size:14><b>Conformance to (OCP)
+****[#gold] <i><color #black><size:14>prevents code <b>rigidity, fragility & non-reusebility!
 **[#lightblue] <i><color #black><size:14>Keep in mind \n<i><color #black><size:14>Liskov's Substitution Principle
 ***[#green] <i><color #white><b><size:14>Inheritance overused
 ****[#gold] *<i><color #black><size:14>Bad thing!
@@ -268,7 +300,8 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#gold]:<b><i><color #black><size:14>Should I violate LSP or should I violate DRY & OCP?
 <i><color #black><size:14>If I violate LSP then the user of the class probably is gonna violate <b>OCP.</b> I would rather violate it, then violate myself & force to violate as well
 <i><color #black><size:14>the sin is in me I don't want you the part of sin as a user of my class.
-==<i><color #black><size:14><b><u>What if I don't had to violate it at all?==;
+==<i><color #black><size:14><b><u>What if I don't had to violate it at all?==
+*<i><color #black><size:14>In **Java** you can do it with **Project Lombok** but I'm leaving this later study;
 **[#lightblue] <i><color #black><size:14>Decouple using the \n<i><color #black><size:14>Dependency Inversion Principle
 ***[#yellow] <i><color #black><size:14>"Every single line of **code"** that **"uses"** the "**new** keyword" violates <b>"DIP".
 ***[#green] <i><color #white><b><size:14>A "class" should not "depend" on "another class", they both should\n<i><color #white><b><size:14>'ve to "depend" on an "abstraction" (interface<color:lime>/abstract) class.
