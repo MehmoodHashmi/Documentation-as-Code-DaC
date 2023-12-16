@@ -1,12 +1,14 @@
 @startmindmap
-*:
-;
+
 
 title =<i><b><u>Core Software design principles for software developers\nDr.Venkat Subramaniam -  2015
 * ==<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]]
 ** <i><b>[[https://www.youtube.com/watch?v=llGgO74uXMI&ab_channel=Devoxx Core Software design principles for software developers by Venkat Subramaniam]] video
 *** <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png "Learning this does not guarantee earning money" Robert C Martin]] image
+
 !theme hacker
+'let it stay white, you can change it to yellow if needed or green or some clear color
+skinparam hyperlinkColor white
 
 *[#darkblue] <i>Core Software design \n<i>principles for software developers
 **[#lightblue] <i><color #black><size:14>Introduction
@@ -315,7 +317,7 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 <i><color #black><size:14>If I violate LSP then the user of the class probably is gonna violate <b>OCP.</b> I would rather violate it, then violate myself & force to violate as well
 <i><color #black><size:14>the sin is in me I don't want you the part of sin as a user of my class.
 ==<i><color #black><size:14><b><u>What if I don't had to violate it at all?==
-*<i><color #black><size:14>In **Java** you can do it with **Project Lombok** but I'm leaving this later study;
+*<i><color #black><size:14>In **Java** you can do it with **Project Lombok** but I'm leaving this for later study.;
 **[#lightblue] <i><color #black><size:14>Decouple using the \n<i><color #black><size:14>Dependency Inversion Principle
 ***[#yellow] <i><color #black><size:14>"Every single line of **code"** that **"uses"** the "**new** keyword" violates <b>"DIP".
 ***[#green] <i><color #white><b><size:14>A "class" should not "depend" on "another class", they both should\n<i><color #white><b><size:14>'ve to "depend" on an "abstraction" (interface<color:lime>/abstract) class.
@@ -340,7 +342,7 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 *****[#gold] <i><color #black><size:11><b>"Testing" "Model's"
 ******[#darkorange] <i><color #black><size:14>**1-** Prediction\n<i><color #black><size:14>**2-** Pattern recognition\n<i><color #black><size:14>**3-** Optimization & decision making
 ****[#yellow] <i><color #black><size:14>**1-** Use as a way to discuss **"among developers",** sit down with "developers" & say \n<i><color #black><size:14>hey if we do this we may **violate LSP or OCP or DIP.** So apply <b>YAGNI & postpone
-****[#yellow]:<i><color #black><size:14>**2-** Use during <b>(TDD)
+****[#a]:<i><color #black><size:14>**2-** Use during <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_110.png TDD]]. click me
 ==<i><color #black><size:14><b>How?==
 *<i><color #black><size:14>When start writing **Test cases**, ask "yourself" the following <b>questions:
 **<i><color #black><size:14>What does this **"test"** do?

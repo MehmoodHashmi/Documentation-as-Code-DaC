@@ -48,6 +48,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ***<i><color #black><size:14><b>[[docs/3-programming-languages/class-and-package-level-SOLID-Principles.puml Principles: (REP, CRP, CCP) & (ADP, SDP, SAP)]]
 *<i><color #black><size:14><b>"Runtime-Polymorphism" is <u>"in-direction"</b>
 *<i><color #black><size:14><b>"Diagramming:" using <u>"UML" + [[docs/3-programming-languages/Venkat-Subramaniam/images/img_93.png "C4-model"]]</b>;
+******[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-OOP.puml What is OOP?]] click me
 ******[#gold] <i><color #black><size:14><img:images/img_33.png{scale=0.65}>
 ****[#yellow] <i><color #black><size:14><b>3rd paradigm shift:</b> Distributed Object Computing or Common Object Request Broker Architecture <b>(CORBA)
 *****[#yellow] <i><color #black><size:14>Remote computing
@@ -61,7 +62,8 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ====
 * <color #black><size:14><i><b>"Diagramming:" using [[docs/3-programming-languages/Venkat-Subramaniam/SDL-(Specification-and-Description-Language).puml Specification & Description language (SDL)]]
 * <color #green><size:14><i><b>"Asynchronous:" is good for real-time "event-driven, reactive & distributed systems"
-** <color #green><size:14><i><b>Current areas of application: "process control & real-time apps";
+** <color #green><size:14><i><b>Current areas of application: "process control & real-time apps"
+* <color #green><size:14><i><b>[[a "Asynchronous:" design patterns]] can be reused;
 ******[#a]:<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/connection-relation-function.puml I Can relate to this from FSc:]]
 *<i><color #black><size:14>Construction/Setup <b>(at high level)
 *<i><color #black><size:14>Working & **why** its working?
@@ -92,10 +94,13 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ****[#darkorange] <i><color #black><size:15><b>7th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Logic-Programming.puml Logic Programming]]
 *****[#yellow] <i><color #black><size:14><b>Facts + Rules = <color #green>Program</b> \n*<i><color #black><size:14><b>Good for "Searching"
 ******[#a] <i><color #black><size:14><b>E.g. "languages" like Prolog, & Datalog
-****[#darkorange] <i><color #black><size:15><b>8th paradigm shift: [[docs/blockchain/Blockchain-System-Design.puml Internet (info. exchange) to Blockchain (value exchange)]] internet (centralized) to blockchain (decentralized)
+****[#darkorange] <i><color #black><size:15><b>8th paradigm shift: [[docs/blockchain/Blockchain-System-Design.puml Internet (info. exchange) to Blockchain (value exchange)]]; Internet (centralized) to blockchain (decentralized)
 ****[#darkorange] <i><color #black><size:22><b>9th paradigm shift:</b> <b>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/statistics/professor-leonard-statistics-notes/descriptive-(or-EDA)-statistics/4-machine-learning.puml Machine learning]] click\n<img:images/img_7.png{scale=0.95}>
 *****[#darkorange] <i><color #black><size:16><b>[[docs/books/selfanalysis/anatomy-of-knowledge.puml Anatomy of knowledge]] click me\n<img:images/img_8.png{scale=0.60}>
-******[#darkorange] <i><color #black><size:14><b>[[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml Data]] + [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Algorithm]] = [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/machine-learning-basic-terminology.puml Model]] \n*<i><color #black><size:14><b>"ML" Good for "Pattern recognition", "Predictions" & \n<i><color #black><size:14><b>"Optimization & decision making"
+******[#darkorange]:<i><color #black><size:14><b>[[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml Data]] + [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Algorithm]] = [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/machine-learning-basic-terminology.puml Model]]
+*<i><color #black><size:14><b>"ML" Good for "Pattern recognition", "Predictions" &
+<i><color #black><size:14><b>"Optimization & decision making"
+*<i><color #black><size:14><b>[[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Model-Fine-Tuning.puml Transfer learning:]] or Model fine-tuning; Model can be reused.;
 ******[#yellow] <i><color #black><size:22><b>Data-set\n<img:images/img_6.png>
 ***[#green] <b><i><color #white><size:14>People ask me which programming language I should learn
 ****[#yellow] <i><color #black><size:14>I always tell don't pick a **language** to learn instead pick a **programming paradigm** to learn

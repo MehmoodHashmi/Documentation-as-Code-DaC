@@ -10,7 +10,7 @@ title =<i><b><u>Model Fine-Tuning
 **[#lightblue] <i><size:14>Transfer Learning
 ***[#green] <color #white><i><size:14>Leveraging pre-trained models as a starting point.
 ***[#green] <color #white><i><size:14>Reusing knowledge from one task to benefit another.
-***[#green] <color #white><i><size:14>Reducing training time and resource requirements.
+***[#green] <color #white><b><i><size:14>Reducing "training time" & "resource requirements".
 **[#lightblue] <i><size:14>Task-Specific Layers
 ***[#green] <color #white><i><size:14>Modifying or adding layers to adapt to the new task.
 ***[#green] <color #white><i><size:14>Fine-tuning output layers for specific classifications.
