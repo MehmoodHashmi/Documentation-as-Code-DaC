@@ -161,6 +161,7 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#gold] <i><color #black><size:14><b>Deployment level
 *****[#darkorange] <i><color #black><size:14><b>is modular monolith
 ****[#gold] <i><color #black><size:14><b>Service level
+*****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_96.png Decoupling modes (Again)]]
 ****[#a]:<i><color #black><size:14>It's not difficult to imagine that a **"System"** that runs comfortably on **"one server"** right now **"might grow"** to the point where some of its **"components"** ought ('ve to) to run
 <i><color #black><size:14>on **separate server**. While the **"System"** runs on single server, the **"source-level" decoupling** might be sufficient. Later, however, it might require decoupling to
 <i><color #black><size:14>**deployable units, or even "services"**. <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.jpg click me]] & [[a Conway's law]] click me;
