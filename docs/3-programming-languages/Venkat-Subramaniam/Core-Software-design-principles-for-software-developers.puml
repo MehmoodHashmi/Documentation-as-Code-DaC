@@ -25,6 +25,16 @@ skinparam hyperlinkColor white
 ****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_98.png Almost impossible to get "design" right the first time (in one sitting)]] click me
 ****[#yellow] <i><color #black><size:14>Software is never **written,** it is always <b>rewritten.
 *****[#gold] <i><color #black><size:14>Because any "software" that is **"relevant"** has to <b>change\n*<i><color #black><size:14>Otherwise, it means your **"client or business"** has become <b>bankrupt
+**[#lightblue] <i><color #black><size:14><b>Two values of software
+***[#green] <i><color #white><size:14><b>Structural value
+****[#yellow] <i><color #black><size:14>is **architecture** & often ignored by the <b>developers
+***[#green] <i><color #white><size:14><b>Behavioral value
+****[#yellow] <i><color #black><size:14>is **use cases** or <b>feature development
+***[#a]:<i><color #black><size:14><b>The book Cathedral & bazaar in late 1990's said two values of software are:
+<i><color #black><size:14><b>1- Use value
+<i><color #black><size:14><b>2- Sale value
+==<i><color #black><size:14><b>After the rise of [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Modern Machine Learning]] ([[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Deep-Learning.puml & Deep Learning]])==
+*<i><color #black><size:14><b>Data [[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml (Big Data)]] has "value".;
 **[#lightblue] *<i><color #white><size:14><b>Poor design &\n*<i><color #white><size:14><b>Design smells
 ***[#green] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-agile-design.puml Why Software Rots?]]
 ****[#darkorange] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-agile-design.puml click me]]
@@ -62,14 +72,14 @@ skinparam hyperlinkColor white
 ***[#green] <i><color #white><size:14><b>Take time to "review" design & code
 ****[#yellow] <i><color #black><size:14><b>Refactor:</b> others people code
 ****[#yellow] <i><color #black><size:14><b>Rewrite:</b> your own code
-***[#green] <i><color #white><size:14><b>Two values of software (move this node form here)
-****[#yellow] <i><color #black><size:14><b>Structural value: </b>(is **architecture** & often ignored by the <b>developers)
-****[#yellow] <i><color #black><size:14><b>Behavioral value: </b>(is **use cases** or feature development )
-****[#a]:<i><color #black><size:14><b>The book Cathedral & bazaar in late 1990's said two values of software are:
-<i><color #black><size:14><b>1- Use value
-<i><color #black><size:14><b>2- Sale value
-==<i><color #black><size:14><b>After the rise of [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Modern Machine Learning]] ([[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Deep-Learning.puml & Deep Learning]])==
-*<i><color #black><size:14><b>Data [[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml (Big Data)]] has "value".;
+
+
+
+
+
+
+
+
 **[#lightblue] <i><color #black><size:14>Keep it simple
 ***[#green] <i><color #white><size:14><b>KISS principle
 ****[#yellow] <i><color #black><size:14><b>Keep it "simple" and stupid
