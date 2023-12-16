@@ -1,4 +1,7 @@
 @startmindmap
+*:
+;
+
 title =<i><b><u>Core Software design principles for software developers\nDr.Venkat Subramaniam -  2015
 * ==<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]]
 ** <i><b>[[https://www.youtube.com/watch?v=llGgO74uXMI&ab_channel=Devoxx Core Software design principles for software developers by Venkat Subramaniam]] video
@@ -16,25 +19,31 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#yellow] <i><color #black><size:14>We need better approach than that!
 ***[#green] <i><color #white><size:14><b>Good design
 ****[#yellow] <i><color #black><size:14>When **cost** of "changing the design" is <b>minimum
-****[#yellow] <i><color #black><size:14>Change the design along the way
-****[#yellow] <i><color #black><size:14>Almost impossible to get **design** right the first time (in one sitting)
+****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_98.png Change the design along the way]] click me
+****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_98.png Almost impossible to get "design" right the first time (in one sitting)]] click me
 ****[#yellow] <i><color #black><size:14>Software is never **written,** it is always <b>rewritten.
 *****[#gold] <i><color #black><size:14>Because any "software" that is **"relevant"** has to <b>change\n*<i><color #black><size:14>Otherwise, it means your **"client or business"** has become <b>bankrupt
 **[#lightblue] *<i><color #white><size:14><b>Poor design &\n*<i><color #white><size:14><b>Design smells
+***[#green] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-agile-design.puml Why Software Rots?]]
+****[#darkorange] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-agile-design.puml click me]]
 ***[#green] <i><color #white><size:14><b>1- Rigidity
-****[#yellow] <i><color #black><size:14>**Design** is **difficult** to <b>change
+****[#yellow] <i><color #black><size:14>**Design** is **difficult** to <b>change.</b> The **tendency** of the **system** to **resist change** by **forcing** you make <b>changes in multiple places.
 ***[#green] <i><color #white><size:14><b>2- Fragility
-****[#yellow] <i><color #black><size:14>**Design** is **easy** to <b>break
-***[#green] <i><color #white><size:14><b>3- Immobility
-****[#yellow] <i><color #black><size:14>**Design** is **difficult** to <b>reuse
-***[#green] <i><color #white><size:14><b>4- Viscosity
-****[#yellow] <i><color #black><size:14>It is **difficult** to do the <b>right thing
-***[#green] <i><color #white><size:14><b>5- Needless complexity
-****[#yellow] <i><color #black><size:14><b>Overdesign or over engineering
-***[#green] <i><color #white><size:14><b>6- Needless repetition
-****[#yellow] <i><color #black><size:14><b>Mouse abuse
-***[#green] <i><color #white><size:14><b>7- Opacity
-****[#yellow] <i><color #black><size:14><b>Disorganized expression
+****[#yellow] <i><color #black><size:14>**Design** is **easy** to <b>break.</b>It is **even worse than rigidity,** another **module somewhere breaks** when you <b>touch this module.
+***[#green] <i><color #white><size:14><b>3- Non-reusability
+****[#yellow]:*<i><color #black><size:14>**Reuse:** is something you get **if you 've a set of well-worked out "concepts",** well represented  in your programs then you can reuse those those classes or those "group" of classes.
+*<i><color #black><size:14>It's not something that comes **magically** from **language features.** It's some that comes from **"thinking clearly"** about **"issues"** & getting <b>useful "concepts" isolated & "represented clearly".;
+***[#green] <i><color #white><size:14><b>4- Immobility
+****[#yellow]:<i><color #black><size:14>**Design** is **difficult** to <b>reuse.</b> A **design** is **immobile** when it contains **parts** that could be **useful** in **other systems,** but the <u><b>effort & risk involved</b></u> with **separating** those **parts** from the
+<i><color #black><size:14>**original system** are **too great.** This is an unfortunate but very common occurrence.;
+***[#green] <i><color #white><size:14><b>5- Viscosity
+****[#yellow] <i><color #black><size:14>It is **difficult** to do the <b>right thing.</b> It is easier to make **”hacky” changes** (quick bad fix) than following the <b>intended design
+***[#green] <i><color #white><size:14><b>6- Needless complexity
+****[#yellow] <i><color #black><size:14><b>Overdesign or over engineering;</b> The code is littered with unnecessary constructs that makes the code complex and difficult to understand
+***[#green] <i><color #white><size:14><b>7- Needless repetition
+****[#yellow] <i><color #black><size:14><b>Mouse abuse;</b> The code contains a lot of code blocks that are just copy/paste, maybe with some smaller modifications
+***[#green] <i><color #white><size:14><b>8- Opacity
+****[#yellow] <i><color #black><size:14><b>Disorganized expression;</b> The code is difficult to understand.
 ***[#green] <i><color #white><size:14><b>Summary
 ****[#yellow] *<i><color #black><size:14>Your **code** must fit well into the **existing system.** It should not increase the **rigidity, fragility or opacity** of that <b>system.\n*<i><color #black><size:14>The dependencies must be well managed. In short, your **code** needs to follow <b>SOLID engineering principles.
 **[#lightblue] <i><color #black><size:14>How to evaluate quality\n<i><color #black><size:14>of good design?
@@ -51,7 +60,7 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ***[#green] <i><color #white><size:14><b>Take time to "review" design & code
 ****[#yellow] <i><color #black><size:14><b>Refactor:</b> others people code
 ****[#yellow] <i><color #black><size:14><b>Rewrite:</b> your own code
-***[#green] <i><color #white><size:14><b>Two values of software
+***[#green] <i><color #white><size:14><b>Two values of software (move this node form here)
 ****[#yellow] <i><color #black><size:14><b>Structural value: </b>(is **architecture** & often ignored by the <b>developers)
 ****[#yellow] <i><color #black><size:14><b>Behavioral value: </b>(is **use cases** or feature development )
 ****[#a]:<i><color #black><size:14><b>The book Cathedral & bazaar in late 1990's said two values of software are:
@@ -103,6 +112,8 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#yellow] *<i><color #black><size:14>SOLID, GRASP & TDD. **\tClass design patterns:** (Structural, Behavioral & Creational) can be reused
 ***[#green] <i><color #white><size:14><b>[[docs/3-programming-languages/class-and-package-level-SOLID-Principles.puml Package-level Principles]] <size:9>click me
 ****[#yellow] *<i><color #black><size:14>**Cohesion:** CCP, CRP & **Coupling:** REP, SDP, SAP.  **\tModularity design patterns:** can be reused
+****[#yellow]:*<i><color #black><size:14>If **SOLID principles** tell use how to arrange the **bricks into walls & rooms,** then the **component principles** tell us how to arrange the rooms into building.
+*<i><color #black><size:14>Large software systems, like large buildings, are built out of smaller components.;
 ***[#green] <i><color #white><size:14><b>Where a piece of code is narrow, "focused"\n<i><color #white><size:14><b>& does one thing & does one thing well!
 ****[#yellow] <i><color #black><size:14>We want software to change, but not too <b>(expensive to change)
 ****[#yellow] <i><color #black><size:14>If a "code" is **"cohesive",** it has to <b>change less "frequently"
@@ -126,32 +137,34 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 *<i><color #black><size:14>Depending on an<b> interface</b> is <b>"loose" coupling;
 ***[#green] <i><color #white><b><size:14>High Cohesion & Coupling
 ****[#yellow] <i><color #black><size:14><b>"Good design" has "high cohesion" & "low Coupling"
-***[#green] <i><color #white><b><size:14><img:images/img_42.png{scale=0.935}>\n<i><color #white><b><size:18>The spectrum of "contract types" from "strict to lose"\n<img:images/img_46.png>
+***[#green] <i><color #white><b><size:14><img:images/img_42.png{scale=1.2}>\n<i><color #white><b><size:18>The spectrum of "contract types" from "strict to lose"\n<img:images/img_46.png{scale=1.28}>
 ****[#yellow]:<i><color #black><size:14>**How do yo decouple one module from another?** That depends on the **level of decoupling you need.** Sometimes simply extracting code
 <i><color #black><size:14>into a separate function is enough. More often, it's better to move all the **related code** into a **separate class** & even a separate **source file.**
 <i><color #black><size:14>And in extreme cases, you want to put those classes behind <b>polymorphic interfaces.;
 
-****[#a] *<i><color #black><size:14>**Modules:** are a **new** way of "grouping" <b>codes & data.\n*<i><color #black><size:14>**Modularity:** is not an **OOP**  "concept" it's **decoupled** from <b>OOP.\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_79.png We need "flexibility" at "joints or layers" of the "system"]]
+****[#a] *<i><color #black><size:14>**Modules:** are a **new** way of "grouping" <b>codes & data.\n*<i><color #black><size:14>**Modularity:** is not an **OOP**  "concept" it's **decoupled** from <b>OOP.\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_79.png We need "flexibility" at "joints or layers" of the "system"]] click me
 ****[#a]:<i><color #black><size:14>An important <u>**"part of structuring software"**</u> that **SOLID** doesn't cover is <u><b>"how to group classes into packages & components"
 <i><color #white><size:14>in a way that makes it **"scale",** both when the
 <i><color #black><b><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_94.png 1- "application itself grows" but also when the number of]] click me
 <i><color #pink><b><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_95.png 2- "teams  & developers" working with the "code" grows.]] click me;
+****[#a] <i><color #black><b><size:14>Large Scale Software development: [[docs/3-programming-languages/Venkat-Subramaniam/component-based-development-CBD.puml Component Based Development (CBD)]] click me
+****[#a] <i><color #black><b><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png How source code (components, .jars, .DLL etc.) gets converted into code?]] Compilation, linking & loading both static & dynamic , & assembling
 
 ****[#yellow] <i><color #black><b><size:14>In general:
 *****[#darkorange]:<i><color #black><size:14>**Logical design** (classes & packages) impacts <color #white><b> [[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml "extensibility"]]
 ====
 *<i><color #black><size:14>**Methods:** one function calling another "function". <b>requires recompilation &  static linking
 *<i><color #black><size:14>**Modules:** one function calling another "function". <b>requires no recompilation & supports dynamic linking;
-*****[#darkorange]:<i><color #black><size:14>**Physical design** (.jar) impacts <color #white><b>"re-usability & usability"
+*****[#a]:<i><color #black><size:14>**Physical design** (.jar) impacts <color #white><b>"re-usability & usability"
 ====
 *<i><color #black><size:14>**Components:** "communication" with each other using "socket, shared memory, IPC, mail boxes or message queues"
-<i><color #black><size:14> **"components"** can be <b>statically or dynamically linked. e.g. .Jar, DLL, etc.
+<i><color #black><size:14> **"components"** are **"linked"** <b>statically or dynamically.</b> E.g. <b>.Jar, DLL, etc.
 **<i><color #black><size:14>**Components "Classification":**
-<i><color #green><size:14><b>\t1- Compile time,
-<i><color #green><size:14><b>\t2- Some exist only at link time,
-<i><color #green><size:14><b>\t3- Some exist only at runtime; &
-<i><color #green><size:14><b>\t4- Some exist at more than one time.
-*<i><color #black><size:14>**.War:** many ".Jar" inside a <b>.war file;
+|<#white><i><color #green><size:12><b>1- Compile time, |<#grey><i><color #white><size:12><b>In "compiled" languages, "components" are aggregations (collections) of <u>"binary files".|
+|<#white><i><color #green><size:12><b>2- Some exist only at link time,|<#grey><i><color #white><size:12><b>In "interpreted" languages, "components" are aggregations of <u>"source files".|
+|<#white><i><color #green><size:12><b>3- Some exist only at runtime &|<#grey><i><color #white><size:12><b>In all languages, "components" are the granule of <u>"deployment"|
+|<#white><i><color #green><size:12><b>4- Some exist at more than one time.|<#grey> |
+*<color #black><size:14><i><b>.War:</b> many ".Jar" inside a <b>.war file;
 ***[#green] <i><color #white><b><size:14>Boundary Anatomy (structure, framework, composition)
 ****[#darkorange] <i><color #black><size:14>The **<u>"architecture"</u>** of a **<u>"System"</u>** is defined by a <u>**set of "software components"**</u> \n<i><color #black><size:14>& the **boundaries** that <u><b>separate</u> them. from book "Clean Architecture"
 *****[#yellow] <i><color #black><size:14>**1-** Crossing Boundaries. How? use <b>DIP\n<i><color #black><size:14>**2-** Which **data** crosses boundaries? simple <b>DTO's
@@ -163,7 +176,7 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#gold] <i><color #black><size:14><b>Service level
 *****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_96.png Decoupling modes (Again)]]
 ****[#a]:<i><color #black><size:14>It's not difficult to imagine that a **"System"** that runs comfortably on **"one server"** right now **"might grow"** to the point where some of its **"components"** ought ('ve to) to run
-<i><color #black><size:14>on **separate server**. While the **"System"** runs on single server, the **"source-level" decoupling** might be sufficient. Later, however, it might require decoupling to
+<i><color #black><size:14>on **separate server**. While the **"System"** runs on single server, the **"source-level" decoupling** might be sufficient. Later, however, it might **require decoupling** to
 <i><color #black><size:14>**deployable units, or even "services"**. <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.jpg click me]] & [[a Conway's law]] click me;
 ***[#green] <i><color #white><b><size:14>Software component \n<i><color #white><b><size:14>boundaries means:
 ****[#darkorange] <i><color #black><size:14>**1- Boundary** crossing at <b>runtime:\n<i><color #black><size:14> <b>(source code dependencies)
@@ -311,15 +324,15 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 ****[#a] <i><color #black><size:14>**Interface/Abstract class** has its own <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_57.png drawback]]
 ****[#yellow] <i><color #black><size:14>Use more **lambda expressions** as "implementors" of \n<i><color #black><size:14>the **interface/abstract classes** rather than using the \n<i><color #black><size:14>"anonymous inner classes" or "regular classes".
 **[#lightblue] <i><color #black><size:14>Keep "interfaces Cohesive" with \n<i><color #black><size:14>"Interface Segregation Principle"
-***[#green] <i><color #white><b><size:14>"Code" should not depend on "methods" it doesn't "use".
-****[#yellow] <i><color #black><size:14>The **goal** of the **ISP** is to reduce the side-effects of using large interfaces by breaking them into smaller, more specific interfaces.
+***[#green] <i><color #white><b><size:14>"Code" should not depend on \n<i><color #white><b><size:14>"methods" it doesn't "use"
+****[#yellow] <i><color #black><size:14>The **goal** of the **ISP** is to reduce the side-effects of using **"large interfaces"** by breaking them into smaller, more <b>specific interfaces.
 ****[#yellow] <i><color #black><size:14>Really is **"cohesion", "Single Responsibility Principle" (SRP)** \n<i><color #black><size:14>but at the <b>interface-level.
 **[#lightblue] <i><color #black><size:14>When to apply these principles?
 ***[#green] <i><color #white><b><size:18>2-Phases \n<i><color #white><b><size:18>of Design:
-****[#yellow]:<i><color #black><size:14>**Strategic Design:** very high-level design.
+****[#a]:<i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_108.png Strategic Design:]]** very high-level design.
 *<i><color #black><size:14>Gives "direction & ideas" <b>to go to.
 *<i><color #black><size:14>**SOLID, YAGNI, DRY, & other principles** are used **little bit** during <b>strategic design.;
-****[#yellow]:<i><color #black><size:14>**Tactical Design:** often low-level design,
+****[#a]:<i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_108.png Tactical Design:]]** often low-level design,
 *<i><color #black><size:14>Paves the way to refine those "directions & ideas" into realities of the project
 *<i><color #black><size:14>**SOLID, YAGNI, DRY, & other principles** are used **a lot** during <b>tactical design.;
 ***[#green] <i><color #white><b><size:18>How to apply these principles?

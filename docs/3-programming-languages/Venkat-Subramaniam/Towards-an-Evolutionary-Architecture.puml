@@ -11,9 +11,10 @@ title =<i><b><u>Towards an Evolutionary Architecture
 *****[#gold] <i><color #black><size:14>Shared understainding between the senior team members of a system.
 ***[#green] <b><i><color #white><size:14>Why evolutionary architecture?
 
-****[#darkorange]:*<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_27.png Clean Architecture]] click me
+****[#a]:*<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_27.png Clean Architecture]] click me
 *<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_58.jpg Onion Architecture]] click me
 *<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_26.png Hexagonal Architecture + DDD]] click me
+*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_97.png Domain Driven Design DDD]] click me
 ==<i><color #black><size:14><b>Building & Designing Software==
 *<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_63.png Who builds & designs the software?]] click me;
 *****[#yellow] <i><color #black><size:12>**--BUFD--** is waterfall
@@ -34,7 +35,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 *****[#gold] <i><color #black><size:14>But I want to build relevant working software\n*<i><color #black><size:14>Requires more effort
 ****[#gold] *<i><color #black><size:14>PowerPoint Architect
 ****[#darkorange] *<i><color #black><size:15><b>No one cares if you write good code
-*****[#gold] <i><color #black><size:22><b>Does this code saves or makes money?
+*****[#grey] <i><color #black><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png Does this code saves or makes money?]]
 **[#lightblue] <i><color #black><size:14>The risk of not evolving
 ***[#green] <b><i><color #white><size:14>Relevance
 ****[#gold]:*<i><color #black><size:14>If not evolved may become obsolete & irrelevant.

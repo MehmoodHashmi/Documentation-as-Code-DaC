@@ -16,8 +16,8 @@ title =<b><i><u>Know Your Java
 *****[#gold] <size:14><color #black><i>"It fails on my machine" is better scenario <&check>\n*<size:14><color #black><i><b> Do TDD
 ***[#green] <size:14><color #white><i><b>Polymorphism
 ****[#yellow] <size:14><color #black><i>Compile Time polymorphism <b>(function overloading) is "early binding"
-****[#yellow] <size:14><color #black><i>Runtime Time polymorphism **(function overriding). "Overriding"** only tends to exist in case of <b>inheritance. Late binding
-***[#green] <size:14><color #white><i><b>Multimethods
+****[#a] <size:14><color #black><i>Runtime Time polymorphism **(function overriding). "Overriding"** only tends to exist in case of <b>inheritance. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_107.png Late binding]] click me
+***[#green] <size:14><color #white><i><b>Multimethod
 ****[#yellow] <size:14><color #black><i>is polymorphism on steroids. The method that is called is based on the runtime of both the reference of the receiver and the \n<size:14><color #black><i>runtime type of the parameters of functions. e.g. Groovy language supports multimethods
 ***[#green] <size:14><color #white><i><b>Type Inference
 ****[#yellow] <size:14><color #black><i>It asks "compiler" to infer/tell the type. e.g. **var** in Java

@@ -21,20 +21,23 @@ title =<i><b><u>Class & Package level Design Principles
 
 *[#darkblue] <i>Package
 **[#lightblue] <i><color #blac><size:14>Cohesion:
-***[#green] <b><i><color #white><size:14>Common Closure Principle (CCP)
-****[#yellow] <i><color #black><size:14>Gather together those classes that change for the same reasons
-****[#yellow] <i><color #black><size:14>Ensures that changes to a module do not have unexpected effects on other modules
-****[#yellow] <i><color #black><size:14>Modules should have a single, well-defined responsibility
-***[#green] <b><i><color #white><size:14>Common Reuse Principle (CRP)
-****[#yellow] <i><color #black><size:14>A module should contain only classes that are reused together
-****[#yellow] <i><color #black><size:14>Minimizes coupling and maximizes cohesion
-****[#yellow] <i><color #black><size:14>Encourages the creation of fine-grained, reusable modules
-
-**[#lightblue] <i><color #blac><size:14>Coupling:
 ***[#green] <b><i><color #white><size:14>Release Reuse Equivalency Principle (REP)
 ****[#yellow] <i><color #black><size:14>A module should be developed in tandem with a release plan that determines its anticipated reuse
 ****[#yellow] <i><color #black><size:14>Helps to avoid the trap of over-engineering or under-engineering a module
 ****[#yellow] <i><color #black><size:14>Allows for proper allocation of resources and development time
+
+***[#green] <b><i><color #white><size:14>Common Reuse Principle (CRP)
+****[#yellow] <i><color #black><size:14>A module should contain only classes that are reused together
+****[#yellow] <i><color #black><size:14>Minimizes coupling and maximizes cohesion
+****[#yellow] <i><color #black><size:14>Encourages the creation of fine-grained, reusable modules
+***[#green] <b><i><color #white><size:14>Common Closure Principle (CCP)
+****[#yellow] <i><color #black><size:14>Gather together those classes that change for the same reasons
+****[#yellow] <i><color #black><size:14>Ensures that changes to a module do not have unexpected effects on other modules
+****[#yellow] <i><color #black><size:14>Modules should have a single, well-defined responsibility
+
+**[#lightblue] <i><color #blac><size:14>Coupling:
+***[#green] <b><i><color #white><size:14>Acyclic Dependencies Principle (ADP)
+****[#yellow] <i><color #black><size:14>?
 ***[#green] <b><i><color #white><size:14>Stable Dependencies Principle (SDP)
 ****[#yellow] <i><color #black><size:14>Depend in the direction of stability
 ****[#yellow] <i><color #black><size:14>A module should only depend on modules that are more stable than itself

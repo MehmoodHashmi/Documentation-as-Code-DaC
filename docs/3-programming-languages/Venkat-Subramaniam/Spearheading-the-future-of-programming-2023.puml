@@ -2,7 +2,7 @@
 title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -  2023
 !theme hacker
 
-*[#darkblue] <i>Spearheading the \n<i>future of programming
+*[#darkblue] <color:white><i>Spearheading the \n<color:white><i>future of programming
 **[#lightblue] <i><color #blac><size:14>Introduction
 ***[#green]:<i><color #white><size:14>I program in about **15 different languages** what I mean by that is I'm not good in any one of them but I love programming &  I started programming because of
 <i><color #white><size:14>the **love I had for Math, physics and Science** in general but <b>"35 years later I'm still a programmer"</b> because of the <b>art and programming that I see.;
@@ -18,13 +18,14 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ***[#green] <b><i><color #white><size:14>"Things change really fast in our field"
 ****[#yellow] <i><color #black><size:14>Sure, true to some extent
 *****[#darkorange] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_60.png UNWELCOME FACT! What is software made of?]] click me
+******[#a] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_106.png Paradigm conclusion]] click me
 ***[#green] <b><i><color #white><size:14>How are we Programming in new Century?
 ****[#yellow] <i><color #black><size:14>Still imperative programming e.g. <b> for (int i =0; i < prices.size() -1; i ++) {}
 *****[#yellow] <i><color #black><size:14>Verbose code
 ***[#green] <b><i><color #white><size:14>Challenge
 ****[#yellow] <i><color #black><size:14>Learning new <b>"programming language"</b> is easy
 ****[#yellow] <i><color #black><size:14>Learning new <b>"programming Paradigm"</b> is hard <b>(takes more effort)
-***[#green] <b><i><color #white><size:42>Paradigm Shift\n<img:images/img_40.png>\n<i><color #white><size:17>**Elon-MusK:** shared this "image" in <b>tweet
+***[#green] <b><i><color #white><size:24>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_106.png Paradigm Shift]] <color:a>click me \n<img:images/img_40.png>\n<i><color #white><size:17>**Elon-MusK:** shared this "image" in <b>tweet
 ****[#a] *<i><color #black><size:14>Every **new path** starts by throwing away what you already had & starting all over with <b>new vocabulary, new practices, & new gurus.\n*<i><color #black><size:14>And **Each path** results in a <u>**paradigm change**</u> with many **<u>methods</u>** -- sometime 100s of them.\n**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_62.png The ambition to engineer has gone up & down]] click me\n**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 13-Rule of Economy: Programmer time is expensive; conserve it in preference to machine time]] click me
 ****[#darkorange] <i><color #black><size:14><b>1st paradigm shift:</b> Procedural programming or <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.png "algorithmic decomposition" of code (modules)]]
 
@@ -41,9 +42,10 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 *****[#a]:<i><color #black><size:14><b>OOA&D</b>
 *<i><color #black><size:14><b>Objects + Messages = <color #green>Program
 *<i><color #black><size:14><b>Good for "modeling"</b>
-**<i><color #black><size:14><b>Class & Package level design patterns can be reused both:
-***<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Principles: SOLID, GRASP, TDD & YAGNI, KISS, SLAP & DRY]]
-***<i><color #black><size:14><b>[[a Principles: CCP, REP]]
+**<i><color #black><size:14><b>[[a Class-level design patterns]] can be reused:
+***<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Principles: SOLID, GRASP, TDD, YAGNI, KISS, SLAP & DRY]]
+**<i><color #black><size:14><b>[[a Modularity design patterns]] can be reused:
+***<i><color #black><size:14><b>[[docs/3-programming-languages/class-and-package-level-SOLID-Principles.puml Principles: (REP, CRP, CCP) & (ADP, SDP, SAP)]]
 *<i><color #black><size:14><b>"Runtime-Polymorphism" is <u>"in-direction"</b>
 *<i><color #black><size:14><b>"Diagramming:" using <u>"UML" + [[docs/3-programming-languages/Venkat-Subramaniam/images/img_93.png "C4-model"]]</b>;
 ******[#gold] <i><color #black><size:14><img:images/img_33.png{scale=0.65}>

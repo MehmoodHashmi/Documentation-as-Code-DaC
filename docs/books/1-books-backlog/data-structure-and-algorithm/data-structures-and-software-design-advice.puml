@@ -3,7 +3,7 @@ title =<b><i><u>Data Structures & Software Design advice book ("UNIX O/S" book c
 * <b><i><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/Goal-of-the-data-structures-is-no-incidental-data-structures.puml Goal: of the data structures is no "incidental data structures"]]
 *:<img:images/img_37.png>
 <img:images/img_38.png>
-= <size:23><i>Fold "knowledge" into "data structure", so program logic can be stupid and robust
-<img:images/img_39.png>;
+|<#red><size:37><i><b>Fold "knowledge" into "data structure", so program logic can be stupid and robust|
+<img:images/img_39.png{scale=1.21}>;
 
 @endmindmap
