@@ -64,7 +64,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 * <color #black><size:14><i><b>"Diagramming:" using [[docs/3-programming-languages/Venkat-Subramaniam/SDL-(Specification-and-Description-Language).puml Specification & Description language (SDL)]]
 * <color #green><size:14><i><b>"Asynchronous:" is good for real-time "event-driven, reactive & distributed systems"
 ** <color #green><size:14><i><b>Current areas of application: "process control & real-time apps"
-* <color #green><size:14><i><b>[[a "Asynchronous:" design patterns]] can be reused;
+* <color #green><size:14><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Design-Patterns-in-Asynchronous-Programming.puml "Asynchronous:" design patterns]] can be reused;
 ******[#a]:<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/connection-relation-function.puml I Can relate to this from FSc:]]
 *<i><color #black><size:14>Construction/Setup <b>(at high level)
 *<i><color #black><size:14>Working & **why** its working?
@@ -77,7 +77,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 *<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/diagramming-in-functional-programming.puml "Diagramming:"]] using <u>"Category theory",</u> it is equivalent of "UML"</b>
 <i><color #black><size:14>People said it's very easy but it was not. **Why?** Because it was really hard
 <i><color #black><size:14>to think a different way than what I'm used to thinking in <b>imperative style
-<img:images/img_29.png{scale=0.722}>
+<img:images/img_29.png{scale=0.39}>
 *<i><color #black><size:14>**FP** is not about **immutability & higher-order functions,** it is about thinking
 <i><color #black><size:14>about **problem solving** in terms of <b>"lazy evaluation" & functional composition;
 ******[#darkorange]:<i><color #black><size:32><b>[[docs/3-programming-languages/Venkat-Subramaniam/Streams.puml What is Stream?]] click me

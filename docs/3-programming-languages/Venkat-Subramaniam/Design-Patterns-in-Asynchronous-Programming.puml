@@ -1,0 +1,62 @@
+@startmindmap
+title =<i><b><u>Design Patterns in Asynchronous Programming
+!theme hacker
+
+*[#darkblue] <i><color #white>Design Patterns in Asynchronous Programming
+**[#lightblue] <i><color #blac><size:14>Callback Pattern
+***[#green] <b><i><color #white><size:14>Callback Functions
+****[#yellow] <i><color #black><size:14>Functions passed as arguments to handle asynchronous results.
+***[#green] <b><i><color #white><size:14>Handling Asynchronous Operations
+****[#yellow] <i><color #black><size:14>Managing asynchronous tasks using callbacks.
+***[#green] <b><i><color #white><size:14>Potential Issues (Callback Hell)
+****[#yellow] <i><color #black><size:14>Complex nested callbacks causing readability issues.
+**[#lightblue] <i><color #blac><size:14>Promises Pattern
+***[#green] <b><i><color #white><size:14>Chaining Promises
+****[#yellow] <i><color #black><size:14>Sequencing asynchronous tasks using promise chaining.
+***[#green] <b><i><color #white><size:14>Handling Success and Errors
+****[#yellow] <i><color #black><size:14>Handling both successful and failed promise outcomes.
+***[#green] <b><i><color #white><size:14>Avoiding Pyramid of Doom
+****[#yellow] <i><color #black><size:14>Preventing deeply nested promise chains for better readability.
+**[#lightblue] <i><color #blac><size:14>Async/Await Pattern
+***[#green] <b><i><color #white><size:14>Syntax for Asynchronous Code
+****[#yellow] <i><color #black><size:14>A cleaner syntax for writing asynchronous code.
+***[#green] <b><i><color #white><size:14>Simplifying Promise-based Code
+****[#yellow] <i><color #black><size:14>Using async/await to simplify handling promises.
+***[#green] <b><i><color #white><size:14>Handling Errors
+****[#yellow] <i><color #black><size:14>Error handling in async functions using try/catch.
+**[#lightblue] <i><color #blac><size:14>Reactive Programming
+***[#green] <b><i><color #white><size:14>Observable Pattern
+****[#yellow] <i><color #black><size:14>Managing sequences of asynchronous data streams.
+***[#green] <b><i><color #white><size:14>Streams and Data Flow
+****[#yellow] <i><color #black><size:14>Managing continuous data streams and their flow.
+***[#green] <b><i><color #white><size:14>Event Handling and Reactivity
+****[#yellow] <i><color #black><size:14>Handling events and their reactivity in programming.
+**[#lightblue] <i><color #blac><size:14>Actor Model
+***[#green] <b><i><color #white><size:14>Concurrency through Actors
+****[#yellow] <i><color #black><size:14>Achieving concurrency through actor-based systems.
+***[#green] <b><i><color #white><size:14>Message Passing
+****[#yellow] <i><color #black><size:14>Communication between actors via message passing.
+***[#green] <b><i><color #white><size:14>Isolation and State Management
+****[#yellow] <i><color #black><size:14>Managing state and isolation in actor systems.
+**[#lightblue] <i><color #blac><size:14>Channel-Based Communication
+***[#green] <b><i><color #white><size:14>Communication via Channels
+****[#yellow] <i><color #black><size:14>Exchanging data through communication channels.
+***[#green] <b><i><color #white><size:14>Sharing and Syncing Data
+****[#yellow] <i><color #black><size:14>Sharing and synchronizing data using channels.
+***[#green] <b><i><color #white><size:14>Selecting and Multiplexing
+****[#yellow] <i><color #black><size:14>Selection and multiplexing of data through channels.
+**[#lightblue] <i><color #blac><size:14>Reactive Streams
+***[#green] <b><i><color #white><size:14>Publisher-Subscriber Model
+****[#yellow] <i><color #black><size:14>Implementing the publisher-subscriber model for data streams.
+***[#green] <b><i><color #white><size:14>Back Pressure Handling
+****[#yellow] <i><color #black><size:14>Managing back pressure in reactive streams.
+***[#green] <b><i><color #white><size:14>Flow Control Mechanisms
+****[#yellow] <i><color #black><size:14>Implementing flow control mechanisms in reactive systems.
+**[#lightblue] <i><color #blac><size:14>CSP (Communicating Sequential Processes)
+***[#green] <b><i><color #white><size:14>Sequential Communication
+****[#yellow] <i><color #black><size:14>Handling communication in a sequential process model.
+***[#green] <b><i><color #white><size:14>Processes as Communicating Entities
+****[#yellow] <i><color #black><size:14>Entities communicating through well-defined processes.
+***[#green] <b><i><color #white><size:14>Concurrency Handling
+****[#yellow] <i><color #black><size:14>Managing concurrency in communicating processes.
+@endmindmap
