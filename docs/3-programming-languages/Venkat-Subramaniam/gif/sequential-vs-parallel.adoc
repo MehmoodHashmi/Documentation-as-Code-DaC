@@ -1,0 +1,12 @@
+.Sequential
+image::sequential.gif[width=450]
+
+.Parallel
+image::parallel.gif[width=450]
+
+.Series vs Parallel
+image::series-vs-parallel.gif[]
+
+.Sequential vs Parallel
+image::img_4.png[]
+

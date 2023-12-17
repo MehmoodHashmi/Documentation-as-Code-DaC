@@ -1,0 +1,21 @@
+@startmindmap
+title =<i><b><u>Microservices
+!theme hacker
+
+*:<img:images/img_114.png{scale=1.5}>
+<img:images/img_115.png{scale=1.39}>
+<img:images/img_116.png{scale=1.39}>
+<img:images/img_117.png{scale=1.39}>
+<img:images/img_118.png{scale=1.39}>
+<img:images/img_119.png{scale=1.39}>
+==<i><b><size:34><color:black>Decomposing Microservices==
+<img:images/img_120.png{scale=1.39}>
+==<i><b><size:34><color:black>Microservices patterns==
+<img:images/img_121.png{scale=1.39}>
+<img:images/img_122.png{scale=1.39}>
+<img:images/img_123.png{scale=1.39}>
+<img:images/img_124.png{scale=1.39}>
+==<i><b><size:34><color:black>Iaas, PaaS & SaaS==
+<img:images/img_125.png{scale=1.39}>
+;
+@endmindmap

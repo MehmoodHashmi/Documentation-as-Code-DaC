@@ -26,12 +26,14 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 *****[#gold] <i><color #black><size:14>scaling at any particular instant of time especially during peak hours <b>(this is dynamic scalability)
 ****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Message-Driven.puml Message-Driven]]
 *****[#gold]:<i><color #black><size:14>Architecture, we want to able to communicate across systems.
-*<i><color #black><size:14>One way is <b>multi-threading.
-*<i><color #black><size:14>Another way is <b>callbacks etc.;
+*<i><color #black><size:12>One way is <b>multi-threading.
+*<i><color #black><size:12>Another way is <b>callbacks etc.
+*<i><color #green><size:12>In life & programming we should never share tow things: <b>tooth brush & database.
+**<i><color #green><size:12><b>Don't share your "database" instead "export your data". <color:brown>Tools like apache kafa, rabbitMQ;
 ****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Responsiveness.puml Responsive]]
-*****[#gold]:*<i><color #black><size:14>Organizations have moved from making their employees available to having their applications available directly to the users.
-*<i><color #black><size:14>This changes the magnitude of scale of interactions the applications have to support. Furthermore, with <b>devices and bots
-<i><color #black><size:14>accessing the systems, we’re looking at a complete different rate of response than we once had to aim for.;
+*****[#gold]:*<i><color #black><size:12>Organizations have moved from making their employees available to having their applications available directly to the users.
+*<i><color #black><size:12>This changes the magnitude of scale of interactions the applications have to support. Furthermore, with <b>devices and bots
+<i><color #black><size:12>accessing the systems, we’re looking at a complete different rate of response than we once had to aim for.;
 ****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Resilient.puml Resilient]]
 *****[#gold] <i><color #black><size:14>In case of failure system restores itself
 ***[#yellow] <b><i><color #black><size:14>Dataflow & composition of events

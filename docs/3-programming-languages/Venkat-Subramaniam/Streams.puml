@@ -12,6 +12,9 @@ title =<i><b><u>Streams\n<img:images/img_30.png{scale=0.7}>
 *****[#green] <b><i><color #white><size:22>Pipeline \n<b><i><color #white><size:22>schema is
 ******[#lightblue] <b><i><color #black><size:18>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-or-database-migration/Data-Migration-Strategies/ETL-(Extract-Transform-Load)-Strategy.puml ETL]]
 ******[#yellow] <b><i><color #black><size:18>ELT
+****[#a]:*<i><color #black><size:14>is <b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/sequential-vs-parallel.adoc sequential vs parallel]]
+*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc no forking,]]</b> single path of **dataflow/stream** (start to finish)
+*<i><color #black><size:14><b>Push **(data)** at will;
 ****[#yellow] <i><color #black><size:14>0, 1 or more pieces of <b>data
 ****[#yellow] <i><color #black><size:14>is <b>pipeline</b> of functions
 ****[#yellow] <i><color #black><size:14>has <b>lazy</b> evaluation
@@ -19,23 +22,26 @@ title =<i><b><u>Streams\n<img:images/img_30.png{scale=0.7}>
 ****[#yellow] <i><color #black><size:14>One <b>Channel</b> of data
 ****[#yellow] <i><color #black><size:14><b>map, filter, etc.</b> can't call lambdas that 've <b>"checked exceptions"
 **[#lightblue] <i><color #blac><size:14>Reactive Stream
-***[#green] <b><i><color #white><size:14>is an abstraction on top\n<b><i><color #white><size:14>of "simple stream"
-****[#yellow] <i><color #black><size:14>0, 1 ore more pieces of <b>data
-****[#yellow] <i><color #black><size:14>is <b>pipeline</b> of functions
-****[#yellow] <i><color #black><size:14>has <b>lazy</b> evaluation
-****[#yellow] <i><color #green><size:14><b>How to deal with "Exception Handling"?\n*<i><color #brown><size:14>Treat <b>error</b> as form of <b>data.\n*<i><color #black><size:14>Don't throw "exceptions" in "Functional programming" <b>deal with it down stream
-****[#yellow]:<i><color #black><size:14>Three <b>Channel</b> of data
+***[#green] <b><i><color #white><size:12>is an abstraction on top\n<b><i><color #white><size:12>of "simple stream"
+****[#a]:*<i><color #black><size:12>is <b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc sync vs async]]
+*<i><color #black><size:12><b>has [[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc forking,]]</b> through <b>multiple subscribers
+*<i><color #black><size:12><b> has [[docs/3-programming-languages/Venkat-Subramaniam/gif/stream-aggregation.adoc Backpressure]] strategies for (data);
+****[#yellow] <i><color #black><size:12>0, 1 ore more pieces of <b>data
+****[#yellow] <i><color #black><size:12>is <b>pipeline</b> of functions
+****[#yellow] <i><color #black><size:12>has <b>lazy</b> evaluation
+****[#yellow] <i><color #green><size:12><b>How to deal with "Exception Handling"?\n*<i><color #brown><size:12>Treat <b>error</b> as form of <b>data.\n*<i><color #black><size:12>Don't throw "exceptions" in "Functional programming" <b>deal with it down stream
+*****[#yellow]:<i><color #black><size:12>Three <b>Channel</b> of data
 ====
-<i><color #black><size:14>Data flows through the data channel. If no more data, a signal may
-<i><color #black><size:14>flow through the complete channel & the data channel is closed.
+<i><color #black><size:12>Data flows through the data channel. If no more data, a signal may
+<i><color #black><size:12>flow through the complete channel & the data channel is closed.
 ====
-<i><color #black><size:14>If there is an error, an error flows through the error channel &
-<i><color #black><size:14>the data channel is closed.
+<i><color #black><size:12>If there is an error, an error flows through the error channel &
+<i><color #black><size:12>the data channel is closed.
 <img:images/img_24.png{scale=0.7}>;
 
-*****[#gold] <i><color #black><size:14> <b>Data</b> Channel
-*****[#gold] <i><color #black><size:14> <b>Error</b> Channel
-*****[#gold] <i><color #black><size:14> <b>Complete</b> Channel
+******[#gold] <i><color #black><size:12> <b>Data</b> Channel
+******[#gold] <i><color #black><size:12> <b>Error</b> Channel
+******[#gold] <i><color #black><size:12> <b>Complete</b> Channel
 ****[#yellow] <i><color #black><size:14><b>map, filter, etc.</b> can 've lambdas that may throw "checked exceptions"
 **[#lightblue] <i><color #blac><size:14>CompletableFuture Stream
 ***[#green] <b><i><color #white><size:14>is an abstraction on top\n<b><i><color #white><size:14>of "simple stream"

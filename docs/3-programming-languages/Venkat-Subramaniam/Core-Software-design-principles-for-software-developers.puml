@@ -173,7 +173,7 @@ skinparam hyperlinkColor white
 <i><color #black><size:14> **"components"** are **"linked"** <b>statically or dynamically.</b> E.g. <b>.Jar, DLL, etc.
 **<i><color #black><size:14>**Components "Classification":**
 |<#white><i><color #green><size:12><b>1- Compile time, |<#grey><i><color #white><size:12><b>In "compiled" languages, "components" are aggregations (collections) of <u>"binary files".|
-|<#white><i><color #green><size:12><b>2- Some exist only at link time,|<#grey><i><color #white><size:12><b>In "interpreted" languages, "components" are aggregations of <u>"source files".|
+|<#white><i><color #green><size:12><b>2- Some exist only at link time,|<#blue><i><color #white><size:12><b>In "interpreted" languages, "components" are aggregations of <u>"source files".|
 |<#white><i><color #green><size:12><b>3- Some exist only at runtime &|<#grey><i><color #white><size:12><b>In all languages, "components" are the granule of <u>"deployment"|
 |<#white><i><color #green><size:12><b>4- Some exist at more than one time.|<#grey> |
 *<color #black><size:14><i><b>.War:</b> many ".Jar" inside a <b>.war file;
@@ -185,48 +185,51 @@ skinparam hyperlinkColor white
 *****[#darkorange] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_84.png "TDD" can help here]] click me
 ****[#gold] <i><color #black><size:14><b>Deployment level
 *****[#darkorange] <i><color #black><size:14><b>is modular monolith
-****[#gold] <i><color #black><size:14><b>Service level
+****[#darkorange] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Micro-services.puml Service level]]
 *****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_96.png Decoupling modes (Again)]]
 ****[#a]:<i><color #black><size:14>It's not difficult to imagine that a **"System"** that runs comfortably on **"one server"** right now **"might grow"** to the point where some of its **"components"** ought ('ve to) to run
 <i><color #black><size:14>on **separate server**. While the **"System"** runs on single server, the **"source-level" decoupling** might be sufficient. Later, however, it might **require decoupling** to
 <i><color #black><size:14>**deployable units, or even "services"**. <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.jpg click me]] & [[a Conway's law]] click me;
 ***[#green] <i><color #white><b><size:14>Software component \n<i><color #white><b><size:14>boundaries means:
 ****[#darkorange] <i><color #black><size:14>**1- Boundary** crossing at <b>runtime:\n<i><color #black><size:14> <b>(source code dependencies)
-*****[#yellow]:*<i><color #black><size:14>**Communication** through <b>function calling.
+*****[#a]:*<i><color #black><size:14>**Communication** through <b>function calling.
 **<i><color #green><size:14><b>f.(o) is same as o.f()
 *<i><color #black><size:14>**Communication** is <b>fast & inexpensive
-*<i><color #black><size:14>requires <b>recompilation & static linking
+*<i><color #black><size:14>requires <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png recompilation & static linking]]
 *<i><color #black><size:14>"components" are delivered as <b>source code
-*<i><color #black><size:14>function calling is on "same" <b>processor & address space;
+|<#blue><i><color #white><size:14>function calling is on "same" <b>processor & address space|;
 ******[#yellow] <i><color #black><size:14><img:images/img_48.png> <img:images/img_53.jpg{scale=0.89}> <img:images/img_49.png{scale=0.72}>
 ****[#darkorange] <i><color #black><size:14>**2- Deployment**\n<i><color #black><size:14><b>component boundary
-*****[#yellow]:*<i><color #black><size:14>**Communication** through <b>function calling
+*****[#a]:*<i><color #black><size:14>**Communication** through <b>function calling
 *<i><color #black><size:14>**Communication** is <b>fast & inexpensive
-*<i><color #green><size:14>requires <b>no recompilation & supports dynamic linking
-**<i><color #green><size:14>**changes** to the **"source code"** in one **module/class** don't
-<i><color #green><size:14>     force others to be <b>rebuilt & redeployed.
-*<i><color #green><size:14>"components" are delivered as <b>.Jar, DLL, .class files in java
-*<i><color #black><size:14>function calling is on "same" <b>processor & address space;
+*<i><color #black><size:14>requires <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png no recompilation & supports dynamic linking]]
+**<i><color #black><size:14>**changes** to the **"source code"** in one **module/class** don't
+<i><color #black><size:14>     force others to be <b>[[docs/3-programming-languages/Venkat-Subramaniam/Micro-services.puml rebuilt & redeployed.]]
+*<i><color #black><size:14>"components" are delivered as <b>.Jar, DLL, .class files in java
+|<#blue><i><color #white><size:14>function calling is on "same" <b>processor & address space|;
 ******[#yellow] <i><color #black><size:14><img:images/img_47.png>    <img:images/img_50.png{scale=0.9}>
 *******[#a]:<i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Modularity]]** decreases the **model-code gap** & increases <b>"abstraction"
 <img:images/img_53.png{scale=0.8}>
 <i><color #black><size:14>Still **cost is higher** because you 've to know about <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg modularity]] click me;
 ****[#darkorange] <i><color #black><size:14>**3- Thread boundary**
-*****[#yellow] <i><color #black><size:14>are not boundaries both **source code dependencies & deployment component boundary** can make use of <b>threads.
+*****[#yellow]:<i><color #black><size:14>are not **boundaries** both:
+<i><color #black><size:14>**1- Source code dependencies** &
+<i><color #black><size:14>**2- Deployment component boundary** can make use of <b>threads.;
 ****[#darkorange] <i><color #black><size:14>**4- Local Process boundary**
 *****[#a]:*<b><i><color #black><size:14>[[docs/books/1-books-backlog/operating-system/operating-system.puml local processes "communicate" with each other using "socket, shared memory, IPC, mail boxes or message queues"]]
 *<i><color #black><size:14>**Communication** across **local process boundaries** involve:
 **<i><color #black><size:14><b>[[docs/books/1-books-backlog/operating-system/operating-system.puml operating system calls, data marshalling & decoding, & inter-process context switches which are moderately expensive]]
 *<i><color #black><size:14>**Communication** is <b>fast & expensive
-*<i><color #yellow><size:14>local processes can be <b>statically or dynamically linked
+*<i><color #black><size:14>local processes can be <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png statically or dynamically linked]] click me
 *<i><color #yellow><size:14>**"Components"** are delivered in <b>binary or .Jar, DLL</b> or some equivalent form.
-*<i><color #yellow><size:14>Processes execute on "same" <b>processor or multi-core but "separate address space". [[docs/books/1-books-backlog/operating-system/operating-system.puml click me]];
-****[#darkorange] <i><color #black><size:14>**5- Services Boundary:**
+|<#blue><i><color #yellow><size:14>Processes execute on "same" <b>processor or multi-core but "separate address space". [[docs/books/1-books-backlog/operating-system/operating-system.puml click me]]|;
+****[#darkorange] <i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_126.png 5- Services Boundary:]]**
 *****[#yellow]:*<i><color #black><size:14>Service is a <b>process
-*<i><color #black><size:14>"Service" don't depend upon <b>physical location
-*<i><color #black><size:14>Two communicating "services" may, or may not, operate in the "same" <b><u>physical processor or multi-core machine.
-*<i><color #black><size:14>The **"services"** assume that all **"communication"** take place <b>over the network.
+|<#white><i><color #black><size:14>**"Service"** don't depend upon <b>physical location.|
+|<#blue><i><color #white><size:14>Two communicating "services" may, or may not, operate in the "same" <b><u>physical processor or multi-core machine.|
+|<#white><i><color #black><size:14>The **"services"** assume that all **"communication"** take place <b>over the network.|
 *<i><color #black><size:14>**Communication** across **"service boundaries"** are very **slow** compared to <b>function calls;
+******[#yellow] <img:images/img_126.png{scale=.2}>;
 **[#lightblue] <i><color #black><size:14>Keep it DRY!
 ***[#green] <i><color #white><b><size:14>Don't Repeat yourself
 ****[#yellow]:<i><color #black><size:14>Don't duplicate <b>code

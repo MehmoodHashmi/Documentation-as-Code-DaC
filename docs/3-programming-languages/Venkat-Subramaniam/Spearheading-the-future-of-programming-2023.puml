@@ -70,7 +70,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 *<i><color #black><size:14>Working & **why** its working?
 *<i><color #black><size:14>**And the reason** its working!;
 
-****[#darkorange] <i><color #black><size:15><b>5th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml Functional Programming]]
+****[#darkorange] <i><color #black><size:15><b>5th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml Functional Programming]] \n*<i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/sequential-vs-parallel.adoc Sequential vs Parallel]] click gif
 *****[#a]:*<i><color #green><size:14><b>Lambda (->) is indirection
 *<i><color #green><size:14><b> (function-1)(function-2) = <color #Pink>Program
 **<i><color #green><size:14><b>"FP" is good for "reasoning"
@@ -92,7 +92,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 *<i><color #black><size:14><b>"Specialized" functions</b> (filter, Map)  **rides** the <b>stream
 **<i><color #black><size:14><b>Reduce<b> function using reduce function helps</b> you land on the
 <i><color #black><size:14>**concrete** type from <b>abstract (stream);
-****[#darkorange] <i><color #black><size:15><b>6th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Designing-Reactive-Systems.puml Reactive Programming or functional programming++]]
+****[#darkorange] <i><color #black><size:15><b>6th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Designing-Reactive-Systems.puml Reactive Programming or functional programming++]]\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Asynchronous vs synchronous]] click gif
 *****[#yellow]:<i><color #black><size:14>Is an <b>abstraction</b> on top of <b>functional programming
 *<i><color #green><size:14><b>"FRP" is good for "Time & concurrency" related problems.
 *<i><color #black><size:14><b>"FRP" is opposite of "OOP",<color:green> they both try to <u>solve the same problem</u> but from "opposite directions".
