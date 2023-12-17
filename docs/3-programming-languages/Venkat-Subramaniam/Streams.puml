@@ -8,7 +8,7 @@ title =<i><b><u>Streams\n<img:images/img_30.png{scale=0.7}>
 **[#lightblue] <i><color #blac><size:14>All these "3 Stream APIs" programing "models" are just "tools". Use one that bests suits your "use case".
 **[#lightblue] <i><color #blac><size:14>Stream
 ***[#green] <b><i><color #white><size:14>Simple stream
-****[#yellow] <i><color #black><size:14><img:images/img_29.png{scale=0.7}>
+****[#yellow] <i><color #black><size:14><img:images/img_29.png{scale=0.45}>
 *****[#green] <b><i><color #white><size:22>Pipeline \n<b><i><color #white><size:22>schema is
 ******[#lightblue] <b><i><color #black><size:18>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-or-database-migration/Data-Migration-Strategies/ETL-(Extract-Transform-Load)-Strategy.puml ETL]]
 ******[#yellow] <b><i><color #black><size:18>ELT
