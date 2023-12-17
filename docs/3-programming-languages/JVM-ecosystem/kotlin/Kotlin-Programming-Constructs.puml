@@ -1,166 +1,168 @@
 
 @startmindmap
-title = Kotlin Programming Constructs
-* Kotlin Programming Constructs
-** Variables
-*** val
-**** Immutable
-**** Declared Once
-**** Assigned Once
-**** Read-only
-*** var
-**** Mutable
-**** Declared Once
-**** Reassigned
-**** Can be set to null
-** Functions
-*** Named Functions
-**** fun
-***** Returns a value
-***** Single-expression functions
-***** Multi-expression functions
-*** Anonymous Functions
-**** lambda
-***** Inline Functions
-***** Higher-order Functions
-*** Member Functions
-**** fun
-***** Object-oriented programming
-***** Refer to the object or class they belong to
-** Classes
-*** Class
-**** Blueprint for creating objects
-**** Properties
-***** Fields
-***** Getters and setters
-**** Constructors
-***** Primary Constructors
-***** Secondary Constructors
-**** Inheritance
-***** Derived classes
-***** Subclass
-***** Superclass
-**** Abstract classes
-**** Sealed classes
-** Control Flow
-*** if and when expressions
-**** Conditional Statements
-**** Multiple Branches
-**** Range Conditions
-**** Type Conditions
-**** Smart Casts
-*** for and while loops
-**** Iterating Over Collections
-**** Iterating Over Ranges
-**** Iterating Over Arrays
-**** Iterating Over Maps
-**** Do-while loops
-*** return and continue statements
-**** Returning from Functions
-**** Continuing loops
-**** Returning from lambdas
-** Type System
-*** Null Safety
-**** Nullable Types
-**** Safe Call Operator
-**** Elvis Operator
-**** Not-null Assertion Operator
-**** Lateinit
-*** Type Inference
-**** Explicit Types
-**** Type Inference
-**** Type Checking
-**** Smart Casts
-*** Type Aliases
-**** Creating Type Aliases
-**** Using Type Aliases
-**** Type Aliases and Generics
-*** Generics
-**** Type Parameters
-**** Reified Type Parameters
-**** Generic Functions
-**** Generic Classes
-*** Variance
-**** Type Projections
-**** Covariance
-**** Contravariance
-**** Invariance
-*** Reified Types
-**** Reified Type Parameters
-**** Type Checking
-**** Accessing Generic Types
-**** Type Erasure
-*** Inline Functions
-**** Inlining Functions
-**** Performance Optimization
-**** Cross-inline Optimization
-**** Inlining Lambdas
-** Collections
-*** List
-**** Mutable and Immutable Lists
-**** List Operations
-*** Set
-**** Mutable and Immutable Sets
-**** Set Operations
-*** Map
-**** Mutable and Immutable Maps
-**** Map Operations
-*** Sequence
-**** Lazy Evaluation
-**** Transformations
-**** Filtering
-**** Slicing
-*** Array
-**** Declaring Arrays
-**** Accessing Elements
-**** Updating Elements
-**** Iterating Over Arrays
-*** Ranges
-**** Declaring Ranges
-**** Accessing Elements
-**** Iterating Over Ranges
-**** Range Operations
-*** Operators
-**** Unary and Binary Operators
-**** Operator Overloading
-**** Equals Operator
-**** In Operator
-**** Index Operator
-**** Invoke Operator
-** Functional Programming
-*** Lambda Expressions
-**** Anonymous Functions
-**** Function Types
-**** Type Inference
-**** Closure
-**** Recursion
-*** Higher-Order Functions
-**** Functions as Parameters
-**** Functions as Return Values
-**** Function Types
-**** Inline Functions
-*** Closures
-**** Capturing Variables
-**** Closure and Function Type
-**** Garbage Collection
-*** Recursion
-**** Tail Recursion
-**** Optimization
-*** Function Composition
-**** Function Composition
-**** Composing Functions
-*** Partial Application and Currying
-**** Partial Function Application
-**** Currying
-** Coroutines
-*** Suspend Functions
-**** Suspending Execution
-**** Asynchronous Programming
-*** Coroutines and Threads
-**** Lightweight Threads
-**** Concurrency
-*** Coroutine Context and Dispatchers
-**** Dispatchers
-**** Context Elements
-**** Coroutine Scope
+title =<i><b><u>Kotlin Programming Constructs
+!theme hacker
+
+*[#darkblue] <i>Kotlin Programming Constructs
+**[#lightblue] <i><color #blac><size:11>Variables
+***[#green] <b><i><color #white><size:11>val
+****[#yellow] <b><i><color #black><size:11>Immutable
+****[#yellow] <b><i><color #black><size:11>Declared Once
+****[#yellow] <b><i><color #black><size:11>Assigned Once
+****[#yellow] <b><i><color #black><size:11>Read-only
+***[#green] <b><i><color #white><size:11>var
+****[#yellow] <b><i><color #black><size:11>Mutable
+****[#yellow] <b><i><color #black><size:11>Declared Once
+****[#yellow] <b><i><color #black><size:11>Reassigned
+****[#yellow] <b><i><color #black><size:11>Can be set to null
+**[#lightblue] <i><color #blac><size:11>Functions
+***[#green] <b><i><color #white><size:11>Named Functions
+****[#yellow] <b><i><color #black><size:11>fun
+*****[#gold] <i><color #black><size:11>Returns a value
+*****[#gold] <i><color #black><size:11>Single-expression functions
+*****[#gold] <i><color #black><size:11>Multi-expression functions
+***[#green] <b><i><color #white><size:11>Anonymous Functions
+****[#yellow] <b><i><color #black><size:11>lambda
+*****[#gold] <i><color #black><size:11>Inline Functions
+*****[#gold] <i><color #black><size:11>Higher-order Functions
+***[#green] <b><i><color #white><size:11>Member Functions
+****[#yellow] <b><i><color #black><size:11>fun
+*****[#gold] <i><color #black><size:11>Object-oriented programming
+*****[#gold] <i><color #black><size:11>Refer to the object or class they belong to
+**[#lightblue] <i><color #blac><size:11>Classes
+***[#green] <b><i><color #white><size:11>Class
+****[#yellow] <b><i><color #black><size:11>Blueprint for creating objects
+****[#yellow] <b><i><color #black><size:11>Properties
+*****[#gold] <i><color #black><size:11>Fields
+*****[#gold] <i><color #black><size:11>Getters and setters
+****[#yellow] <b><i><color #black><size:11>Constructors
+*****[#gold] <i><color #black><size:11>Primary Constructors
+*****[#gold] <i><color #black><size:11>Secondary Constructors
+****[#yellow] <b><i><color #black><size:11>Inheritance
+*****[#gold] <i><color #black><size:11>Derived classes
+*****[#gold] <i><color #black><size:11>Subclass
+*****[#gold] <i><color #black><size:11>Superclass
+****[#yellow] <b><i><color #black><size:11>Abstract classes
+****[#yellow] <b><i><color #black><size:11>Sealed classes
+**[#lightblue] <i><color #blac><size:11>Control Flow
+***[#green] <b><i><color #white><size:11>if and when expressions
+****[#yellow] <b><i><color #black><size:11>Conditional Statements
+****[#yellow] <b><i><color #black><size:11>Multiple Branches
+****[#yellow] <b><i><color #black><size:11>Range Conditions
+****[#yellow] <b><i><color #black><size:11>Type Conditions
+****[#yellow] <b><i><color #black><size:11>Smart Casts
+***[#green] <b><i><color #white><size:11>for and while loops
+****[#yellow] <b><i><color #black><size:11>Iterating Over Collections
+****[#yellow] <b><i><color #black><size:11>Iterating Over Ranges
+****[#yellow] <b><i><color #black><size:11>Iterating Over Arrays
+****[#yellow] <b><i><color #black><size:11>Iterating Over Maps
+****[#yellow] <b><i><color #black><size:11>Do-while loops
+***[#green] <b><i><color #white><size:11>return and continue statements
+****[#yellow] <b><i><color #black><size:11>Returning from Functions
+****[#yellow] <b><i><color #black><size:11>Continuing loops
+****[#yellow] <b><i><color #black><size:11>Returning from lambdas
+**[#lightblue] <i><color #blac><size:11>Type System
+***[#green] <b><i><color #white><size:11>Null Safety
+****[#yellow] <b><i><color #black><size:11>Nullable Types
+****[#yellow] <b><i><color #black><size:11>Safe Call Operator
+****[#yellow] <b><i><color #black><size:11>Elvis Operator
+****[#yellow] <b><i><color #black><size:11>Not-null Assertion Operator
+****[#yellow] <b><i><color #black><size:11>Lateinit
+***[#green] <b><i><color #white><size:11>Type Inference
+****[#yellow] <b><i><color #black><size:11>Explicit Types
+****[#yellow] <b><i><color #black><size:11>Type Inference
+****[#yellow] <b><i><color #black><size:11>Type Checking
+****[#yellow] <b><i><color #black><size:11>Smart Casts
+***[#green] <b><i><color #white><size:11>Type Aliases
+****[#yellow] <b><i><color #black><size:11>Creating Type Aliases
+****[#yellow] <b><i><color #black><size:11>Using Type Aliases
+****[#yellow] <b><i><color #black><size:11>Type Aliases and Generics
+***[#green] <b><i><color #white><size:11>Generics
+****[#yellow] <b><i><color #black><size:11>Type Parameters
+****[#yellow] <b><i><color #black><size:11>Reified Type Parameters
+****[#yellow] <b><i><color #black><size:11>Generic Functions
+****[#yellow] <b><i><color #black><size:11>Generic Classes
+***[#green] <b><i><color #white><size:11>Variance
+****[#yellow] <b><i><color #black><size:11>Type Projections
+****[#yellow] <b><i><color #black><size:11>Covariance
+****[#yellow] <b><i><color #black><size:11>Contravariance
+****[#yellow] <b><i><color #black><size:11>Invariance
+***[#green] <b><i><color #white><size:11>Reified Types
+****[#yellow] <b><i><color #black><size:11>Reified Type Parameters
+****[#yellow] <b><i><color #black><size:11>Type Checking
+****[#yellow] <b><i><color #black><size:11>Accessing Generic Types
+****[#yellow] <b><i><color #black><size:11>Type Erasure
+***[#green] <b><i><color #white><size:11>Inline Functions
+****[#yellow] <b><i><color #black><size:11>Inlining Functions
+****[#yellow] <b><i><color #black><size:11>Performance Optimization
+****[#yellow] <b><i><color #black><size:11>Cross-inline Optimization
+****[#yellow] <b><i><color #black><size:11>Inlining Lambdas
+**[#lightblue] <i><color #blac><size:11>Collections
+***[#green] <b><i><color #white><size:11>List
+****[#yellow] <b><i><color #black><size:11>Mutable and Immutable Lists
+****[#yellow] <b><i><color #black><size:11>List Operations
+***[#green] <b><i><color #white><size:11>Set
+****[#yellow] <b><i><color #black><size:11>Mutable and Immutable Sets
+****[#yellow] <b><i><color #black><size:11>Set Operations
+***[#green] <b><i><color #white><size:11>Map
+****[#yellow] <b><i><color #black><size:11>Mutable and Immutable Maps
+****[#yellow] <b><i><color #black><size:11>Map Operations
+***[#green] <b><i><color #white><size:11>Sequence
+****[#yellow] <b><i><color #black><size:11>Lazy Evaluation
+****[#yellow] <b><i><color #black><size:11>Transformations
+****[#yellow] <b><i><color #black><size:11>Filtering
+****[#yellow] <b><i><color #black><size:11>Slicing
+***[#green] <b><i><color #white><size:11>Array
+****[#yellow] <b><i><color #black><size:11>Declaring Arrays
+****[#yellow] <b><i><color #black><size:11>Accessing Elements
+****[#yellow] <b><i><color #black><size:11>Updating Elements
+****[#yellow] <b><i><color #black><size:11>Iterating Over Arrays
+***[#green] <b><i><color #white><size:11>Ranges
+****[#yellow] <b><i><color #black><size:11>Declaring Ranges
+****[#yellow] <b><i><color #black><size:11>Accessing Elements
+****[#yellow] <b><i><color #black><size:11>Iterating Over Ranges
+****[#yellow] <b><i><color #black><size:11>Range Operations
+***[#green] <b><i><color #white><size:11>Operators
+****[#yellow] <b><i><color #black><size:11>Unary and Binary Operators
+****[#yellow] <b><i><color #black><size:11>Operator Overloading
+****[#yellow] <b><i><color #black><size:11>Equals Operator
+****[#yellow] <b><i><color #black><size:11>In Operator
+****[#yellow] <b><i><color #black><size:11>Index Operator
+****[#yellow] <b><i><color #black><size:11>Invoke Operator
+**[#lightblue] <i><color #blac><size:11>Functional Programming
+***[#green] <b><i><color #white><size:11>Lambda Expressions
+****[#yellow] <b><i><color #black><size:11>Anonymous Functions
+****[#yellow] <b><i><color #black><size:11>Function Types
+****[#yellow] <b><i><color #black><size:11>Type Inference
+****[#yellow] <b><i><color #black><size:11>Closure
+****[#yellow] <b><i><color #black><size:11>Recursion
+***[#green] <b><i><color #white><size:11>Higher-Order Functions
+****[#yellow] <b><i><color #black><size:11>Functions as Parameters
+****[#yellow] <b><i><color #black><size:11>Functions as Return Values
+****[#yellow] <b><i><color #black><size:11>Function Types
+****[#yellow] <b><i><color #black><size:11>Inline Functions
+***[#green] <b><i><color #white><size:11>Closures
+****[#yellow] <b><i><color #black><size:11>Capturing Variables
+****[#yellow] <b><i><color #black><size:11>Closure and Function Type
+****[#yellow] <b><i><color #black><size:11>Garbage Collection
+***[#green] <b><i><color #white><size:11>Recursion
+****[#yellow] <b><i><color #black><size:11>Tail Recursion
+****[#yellow] <b><i><color #black><size:11>Optimization
+***[#green] <b><i><color #white><size:11>Function Composition
+****[#yellow] <b><i><color #black><size:11>Function Composition
+****[#yellow] <b><i><color #black><size:11>Composing Functions
+***[#green] <b><i><color #white><size:11>Partial Application and Currying
+****[#yellow] <b><i><color #black><size:11>Partial Function Application
+****[#yellow] <b><i><color #black><size:11>Currying
+**[#lightblue] <i><color #blac><size:11>Coroutines
+***[#green] <b><i><color #white><size:11>Suspend Functions
+****[#yellow] <b><i><color #black><size:11>Suspending Execution
+****[#yellow] <b><i><color #black><size:11>Asynchronous Programming
+***[#green] <b><i><color #white><size:11>Coroutines and Threads
+****[#yellow] <b><i><color #black><size:11>Lightweight Threads
+****[#yellow] <b><i><color #black><size:11>Concurrency
+***[#green] <b><i><color #white><size:11>Coroutine Context and Dispatchers
+****[#yellow] <b><i><color #black><size:11>Dispatchers
+****[#yellow] <b><i><color #black><size:11>Context Elements
+****[#yellow] <b><i><color #black><size:11>Coroutine Scope
 @endmindmap
