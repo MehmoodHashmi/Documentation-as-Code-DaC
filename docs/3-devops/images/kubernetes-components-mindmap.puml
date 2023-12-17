@@ -1,8 +1,7 @@
 @startwbs
-title = <b><u><i>Kubernetes Components
 !theme hacker
 
-*[#darkblue] <i><color #white>Kubernetes Components
+*[#darkblue] =<i><color #white>\t\t\tKubernetes Components\n<img:img_1.png{scale=.66}> <img:img_2.png>
 **[#lightblue] <i><color #black><size:14>Compute
 ***[#green] <size:12><b><i><color #white>Pods\n<img:pod1.svg>
 ****[#yellow] <b><i><color #black>Containers\n<img:docker.svg>
