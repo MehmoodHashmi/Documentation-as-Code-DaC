@@ -62,9 +62,9 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#yellow] <i><color #black><size:14><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:14>but by avoiding those tasks that <b>should not be done in the first place.
 *****[#darkorange] <i><color #black><size:14><b>E.g. don't do (Clean Architecture + [[docs/3-programming-languages/Venkat-Subramaniam/images/img_55.jpg DDD]]) for simple apps (system).\n<i><color #black><size:14>Instead simple **three layer architecture** is enough. E.g. <b>[[docs/3-programming-languages/clean-architecture/archunit.adoc ArchUnit]]
 **[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_52.png Refactor]]
-***[#green] <b><i><color #white><size:14>50% to 60% of the time you want to
+***[#green] <b><i><color #white><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.png 50% to 60% of the time you want to]]
 ****[#yellow] <i><color #black><size:14><b>Refactor:</b> others people code
-***[#green] <b><i><color #white><size:14>Other times you need to 've the courage to
+***[#green] <b><i><color #white><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.png Other times you need to 've the courage to]]
 ****[#yellow] <i><color #black><size:14><b>Rewrite:</b> your own code
 **[#lightblue] <i><color #black><size:14>Reversibility
 ***[#green] <b><i><color #white><size:14>Last responsible moment
@@ -108,7 +108,8 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ***[#green] <i><color #white><b><size:14>Communicating across systems
 ****[#gold] *<i><color #black><size:18>True in **microservices** world
 ****[#yellow] *<i><color #black><size:18><b>Postel's law says:</b> be very  <b>generous</b> about what you <b>receive\n<i><color #black><size:18>& be very <b>conservative</b> about what you <b>send\n<img:images/img_28.png{scale=1}>\n<i><color #black><size:14>So as long as I can **iterate** over your **collection** it does not what is the **type** of your <b>collection.\n<i><color #black><size:14>In other words, don't make your <b>interface brittle.
-**[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_64.png Reuse]] <size:14>(Modularity patterns) &\n<i><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 1- Rule of modularity]]\n<img:images/img_41.png{scale=0.7}>
+**[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_64.png Reuse]] <size:14>[[https://dzone.com/refcardz/patterns-modular-architecture Modularity patterns]] &\n<i><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 1- Rule of modularity]]\n<img:images/img_41.png{scale=0.7}>
+***[#green] <i><color #white><b><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_137.jpg MVC vs MVP vs MVVP click me]]
 ***[#green] <i><color #white><b><size:14>Grady Booch Says:
 ****[#gold] *<i><color #black><size:18><b>First make the system "usable" then make the system <color #green>"reusable"
 ****[#yellow] *<i><color #black><size:18><b>To make a piece of the system/software "reusable" it has to be very<color #red> "generic"

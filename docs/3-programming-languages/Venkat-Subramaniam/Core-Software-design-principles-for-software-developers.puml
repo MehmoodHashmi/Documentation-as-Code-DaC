@@ -10,11 +10,24 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 'let it stay white, you can change it to yellow if needed or green or some clear color
 skinparam hyperlinkColor white
 
-*[#darkblue] <i>Core Software design \n<i>principles for software developers
+*[#darkblue] <color #white><i>Core Software design \n<color #white><i>principles for software \n<color #white><i>developers
 **[#lightblue] <i><color #black><size:14>Introduction
 ***[#green]:<i><color #white><size:14>**Writing code is easy. Writing good quality code is an entirely different story.** How can we measure quality of design? How do we know we're doing the
 <i><color #white><size:14>right set of things that will leads us to a <b>better design?;
 
+**[#lightblue] <i><color #black><size:14>Code Vs Thought
+***[#green] <i><color #white><size:14><b>Dr. Naveed Malik & \n<i><color #white><size:14><b>Bjarne Stroustrup
+****[#yellow] <i><color #black><size:14>**Software failures** are failures of <b>understanding & imagination.
+*****[#a] <i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_137.png Tools of trade:]]** You need following tools in advance to <b>write, build, test & debug your programs.
+****[#a]:*<i><color #black><size:14>**Code** is what it **does,** it is not a <U>substitute</u> for <b>thought. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_132.png click me]]
+*<i><color #black><size:14>**Code** is **static** in nature while **thought** is <b>dynamic. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_133.png click me]]
+*<i><color #black><size:14>**Code** is a **tool** through which you can **express** your **thoughts** about a <b>problem.;
+*****[#a]:*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_134.png Grady Booch: good vs bad programmer]]
+*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_135.png Robert C Martin: Is it possible, early on, to tell whether someone can or cannot become a programmer?]]
+*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_136.png Robert C Martin: Often "developers" start getting a feeling of power, superiority, become condescending.]]
+<i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_136.png How do you not become arrogant, even though you achieve a lot?]];
+
+****[#yellow] <i><color #black><size:14>**Computation** is the **principle,** the **computer** is simply the <b>tool
 **[#lightblue] <i><color #black><size:14>What is a good design?
 ***[#green] <i><color #white><size:14><b>Usually my thinking is
 ****[#yellow] <i><color #black><size:14>The Design is good because <b>"I created it!"
@@ -153,7 +166,7 @@ skinparam hyperlinkColor white
 
 ***[#green]:<i><color #white><b><size:14><img:images/img_42.png{scale=1.2}>
 *<i><color #white><b><size:14>[[https://www.youtube.com/watch?v=_kPCbBGRl1o&t=3s&ab_channel=TechGuiders Address binding, Address translation & Memory management (O/S) (10-min video )]]
-*<i><color #white><b><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_127.png Library types & .DLL hell (click me)]]
+*<i><color #white><b><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_127.png Library Types (static vs dynamic) & .DLL hell (click me)]]
 | |<#grey><i><b><size:14><color:white>Compiler Concept|<#blue><i><b><size:14><color:white>Operating System Concept|
 |<#brown><i><b><size:14><color:white>Static |<#grey><i><b><size:12><color:white>Loading |<#blue><i><b><size:12><color:white><i><b><size:12><color:white>Linking (is early binding) \n<i><b><size:12><color:white><i><b><size:12><color:white>\t\t [[https://www.youtube.com/watch?v=eW5he5uFBNM&t=9s&ab_channel=HowTo (5-min video)]] \n<i><b><size:12><color:white>While it interacts with O/S loader, it \n<i><b><size:12><color:white>is primarily a compiler concept as it\n<i><b><size:12><color:white>occurs during "compilation phase" |
 |<#purple><i><b><size:14><color:white>Dynamic  |<#grey><i><b><size:12><color:white>Linking (is late binding) \t\t [[https://www.youtube.com/watch?v=eW5he5uFBNM&t=9s&ab_channel=HowTo (5-min video)]] \n<i><b><size:12><color:white>It is more related to O/S's <u>"dynamic linking loader",\n<i><b><size:12><color:white>but decision to create a dynamically linked program\n<i><b><size:12><color:white>is often influenced by "compiler options"|<#blue><i><b><size:12><color:white>Loading \t\t\t[[https://www.youtube.com/watch?v=qfGql6sGlZg&ab_channel=TechGuiders (2-min video)]]|
@@ -197,6 +210,7 @@ skinparam hyperlinkColor white
 *****[#darkorange] <i><color #black><size:14><b>is modular monolith
 ****[#darkorange] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Micro-services.puml Service level]]
 *****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_96.png Decoupling modes (Again)]]
+******[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_130.png The missing advice]]
 ****[#a]:<i><color #black><size:14>It's not difficult to imagine that a **"System"** that runs comfortably on **"one server"** right now **"might grow"** to the point where some of its **"components"** ought ('ve to) to run
 <i><color #black><size:14>on **separate server**. While the **"System"** runs on single server, the **"source-level" decoupling** might be sufficient. Later, however, it might **require decoupling** to
 <i><color #black><size:14>**deployable units, or even "services"**. <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.jpg click me]] & [[a Conway's law]] click me;

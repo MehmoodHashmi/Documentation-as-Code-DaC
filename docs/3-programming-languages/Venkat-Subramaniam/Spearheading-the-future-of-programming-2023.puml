@@ -42,9 +42,9 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 *****[#a]:<i><color #black><size:14><b>OOA&D</b>
 *<i><color #black><size:14><b>Objects + Messages = <color #green>Program
 *<i><color #black><size:14><b>Good for "modeling"</b>
-**<i><color #black><size:14><b>[[a Class-level design patterns]] can be reused:
+**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/class-design-patterns.puml Class-level design patterns]] can be reused:
 ***<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Principles: SOLID, GRASP, TDD, YAGNI, KISS, SLAP & DRY]]
-**<i><color #black><size:14><b>[[a Modularity design patterns]] can be reused:
+**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/modularity-patterns.pdf Modularity design patterns]] can be reused:
 ***<i><color #black><size:14><b>[[docs/3-programming-languages/class-and-package-level-SOLID-Principles.puml Principles: (REP, CRP, CCP) & (ADP, SDP, SAP)]]
 *<i><color #black><size:14><b>"Runtime-Polymorphism" is <u>"in-direction"</b>
 *<i><color #black><size:14><b>"Diagramming:" using <u>"UML" + [[docs/3-programming-languages/Venkat-Subramaniam/images/img_93.png "C4-model"]]</b>;
