@@ -16,11 +16,11 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 ***[#green] <i><color #white><size:14><b>Why yet another programming model?
 ***[#green] <i><color #white><size:14><b>Reactive manifesto
 ****[#yellow] <i><color #black><size:14>has nothing new at all except for the emphasis it places on a <b>"set of practices"</b> we should follow from the technical side of it.
-***[#green] <i><color #white><size:14><i><color #white><size:17><b>4-pillars of OOP
-****[#yellow] <b><i><color #black><size:14>Abstraction
-****[#yellow] <b><i><color #black><size:14>Encapsulation
-****[#yellow] <b><i><color #black><size:14>Inheritance
-****[#yellow] <b><i><color #black><size:14>Polymorphism
+***[#green] <i><color #white><size:14><i><color #white><size:16><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_113.png 4-pillars of OOP]] <size:12>click
+****[#yellow] <b><i><color #black><size:11>Abstraction
+****[#yellow] <b><i><color #black><size:11>Encapsulation
+****[#yellow] <b><i><color #black><size:11>Inheritance
+****[#yellow] <b><i><color #black><size:11>Polymorphism
 ***[#green] <i><color #white><size:14><b>Characteristics of a Reactive application \n*<i><color #white><size:17><b>4-pillars of Reactive application
 ****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/architectural-characteristics/Elasticity.puml Elastic]]
 *****[#gold] <i><color #black><size:14>scaling at any particular instant of time especially during peak hours <b>(this is dynamic scalability)

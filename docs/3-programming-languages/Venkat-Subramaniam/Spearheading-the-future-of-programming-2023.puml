@@ -52,6 +52,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ******[#gold] <i><color #black><size:14><img:images/img_33.png{scale=0.65}>
 ****[#yellow] <i><color #black><size:14><b>3rd paradigm shift:</b> Distributed Object Computing or Common Object Request Broker Architecture <b>(CORBA)
 *****[#yellow] <i><color #black><size:14>Remote computing
+******[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_107.png Dynamic topology & network graph]]
 ****[#darkorange] <i><color #black><size:15><b>4rth paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Asynchronous-Programming-in-Java-Options-to-Choose-from.puml Asynchronous Programming]]\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Asynchronous is non-blocking]] click gif\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Multi-threading vs Multi-processing programming ]]
 *****[#a]:<i><color #black><size:14><b>It took me more time to understand it. Why? Because</b>
 * <color #black><size:14><i>I was not satisfied writing another <b>"callback"</b> & go home
@@ -76,7 +77,9 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 *<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/diagramming-in-functional-programming.puml "Diagramming:"]] using <u>"Category theory",</u> it is equivalent of "UML"</b>
 <i><color #black><size:14>People said it's very easy but it was not. **Why?** Because it was really hard
 <i><color #black><size:14>to think a different way than what I'm used to thinking in <b>imperative style
-<img:images/img_29.png{scale=0.7}>;
+<img:images/img_29.png{scale=0.722}>
+*<i><color #black><size:14>**FP** is not about **immutability & higher-order functions,** it is about thinking
+<i><color #black><size:14>about **problem solving** in terms of <b>"lazy evaluation" & functional composition;
 ******[#darkorange]:<i><color #black><size:32><b>[[docs/3-programming-languages/Venkat-Subramaniam/Streams.puml What is Stream?]] click me
 *<i><color #black><size:14>**Stream** is an **abstraction,** it is not a <b>data structure or collection
 *<i><color #black><size:14>It is <b>non-mutating
@@ -90,7 +93,15 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 **<i><color #black><size:14><b>Reduce<b> function using reduce function helps</b> you land on the
 <i><color #black><size:14>**concrete** type from <b>abstract (stream);
 ****[#darkorange] <i><color #black><size:15><b>6th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Designing-Reactive-Systems.puml Reactive Programming or functional programming++]]
-*****[#yellow] <i><color #black><size:14>Is an <b>abstraction</b> on top of functional programming\n*<i><color #green><size:14><b>"FRP" is good for "Time & concurrency" related problems.\n*<i><color #black><size:14><b>"FRP" is opposite of "OOP",<color:green> they both try to <u>solve the same problem</u> but from "opposite directions".
+*****[#yellow]:<i><color #black><size:14>Is an <b>abstraction</b> on top of <b>functional programming
+*<i><color #green><size:14><b>"FRP" is good for "Time & concurrency" related problems.
+*<i><color #black><size:14><b>"FRP" is opposite of "OOP",<color:green> they both try to <u>solve the same problem</u> but from "opposite directions".
+*<i><color #black><size:14><b>We live in the age of Big-Data. We were doing CRUD apps for last 20-years
+|<#white><i><color #green><size:14><b>CRUD:|<#white><i><color #green><size:14><b> read from "database" -then-> process/function -then-> put back to "database"|
+|<#pink><i><color #green><size:14><b>Dataflow computing:|<i><color #green><size:14><b> <color:red>d ==> f ==> d ==> f ==> d ==> f \t(was popular in the 1980s)|
+***<i><color #green><size:14><b>Today you can do "Amazon lambdas & do Serverless programming". In the 1980s we called it
+<i><color #green><size:14>**dataflow computing,** today we call it <b>serverless.
+|<#lightblue><i><color #green><size:14><b>Functional Reactive Programming:|<i><color #green><size:14><b> <color:red><u>is dataflow computing \n<i><color #green><size:14><b> <color:red>1- Stream of data \n<i><color #green><size:14><b> <color:red>2-transformation of dataflow|;
 ****[#darkorange] <i><color #black><size:15><b>7th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Logic-Programming.puml Logic Programming]]
 *****[#yellow] <i><color #black><size:14><b>Facts + Rules = <color #green>Program</b> \n*<i><color #black><size:14><b>Good for "Searching"
 ******[#a] <i><color #black><size:14><b>E.g. "languages" like Prolog, & Datalog
