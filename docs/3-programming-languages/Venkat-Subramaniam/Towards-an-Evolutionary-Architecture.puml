@@ -4,7 +4,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 !theme hacker
 
 *[#darkblue] <color:white><i>Towards an Evolutionary\n<color:white><i>Architecture
-**[#lightblue] <i><color #black><size:14>What's architecture?
+**[#lightblue] <i><color #black><size:14>What's architecture? [[docs/3-programming-languages/Venkat-Subramaniam/images/img_139.png click me]]\n<img:images/img_139.png{scale=.4}>
 ***[#green] <i><color #white><b><size:14>Definition
 ****[#yellow] <i><color #black><size:14>Shape of the major structure of a system or topology. architecture is a view of a system.
 ****[#yellow] <i><color #black><size:14>Martin fowler article, who needs an architect.
