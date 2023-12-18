@@ -18,7 +18,10 @@ skinparam hyperlinkColor white
 **[#lightblue] <i><color #black><size:14>Code Vs Thought
 ***[#green] <i><color #white><size:14><b>Dr. Naveed Malik & \n<i><color #white><size:14><b>Bjarne Stroustrup
 ****[#yellow] <i><color #black><size:14>**Software failures** are failures of <b>understanding & imagination.
-*****[#a] <i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_137.png Tools of trade:]]** You need following tools in advance to <b>write, build, test & debug your programs.
+
+*****[#a]:*<i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_137.png Tools of trade:]]** You need following tools in advance to <b>write, build, test & debug your programs.
+*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_156.png Engineering failures]] click me;
+
 ****[#a]:*<i><color #black><size:14>**Code** is what it **does,** it is not a <U>substitute</u> for <b>thought. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_132.png click me]]
 *<i><color #black><size:14>**Code** is **static** in nature while **thought** is <b>dynamic. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_133.png click me]]
 *<i><color #black><size:14>A **mist** in **mind** is **fog** in the **code.**
@@ -174,9 +177,12 @@ skinparam hyperlinkColor white
 *<i><color #black><size:14>**Modularity:** is not an **OOP**  "concept" it's **decoupled** from <b>OOP.
 *<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_79.png We need "flexibility" at "joints or layers" of the "system"]] click me
 ==<i><color #black><size:14><b>How to "organize tests" in "modular" world?==
-*<i><color #black><size:14><b>[[a Organize tests in modular world]]
-;
-*****[#a] *<i><color #black><size:14><b>[[docs/3-programming-languages/JVM-ecosystem/java/simple-jar-vs-modular-jar.puml Simple .jar vs modular .jar]] click me\n*<i><color #black><size:14><b>[[docs/3-programming-languages/JVM-ecosystem/java/java-9-onwards.puml Java-9 onwards]] click me \n*<i><color #black><size:14><b>[[a Module Design Guidelines (size & weight)]] click me
+*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_155.png Organize tests in modular world]];
+
+*****[#a]:*<i><color #black><size:14><b>[[docs/3-programming-languages/JVM-ecosystem/java/simple-jar-vs-modular-jar.puml Simple .jar vs modular .jar]] click me
+*<i><color #black><size:14><b>[[docs/3-programming-languages/JVM-ecosystem/java/java-9-onwards.puml Java-9 onwards]] click me
+|<#blue><i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/module-design-guidelines-(size-and-weight).puml Module Design Guidelines (size & weight)]] click me|;
+
 ****[#a]:<i><color #black><size:14>An important <u>**"part of structuring software"**</u> that **SOLID** doesn't cover is <u><b>"how to group classes into packages & components"
 <i><color #white><size:14>in a way that makes it **"scale",** both when the
 <i><color #black><b><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_94.png 1- "application itself grows" but also when the number of]] click me
