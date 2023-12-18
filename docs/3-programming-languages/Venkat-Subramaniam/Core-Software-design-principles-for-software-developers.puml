@@ -356,7 +356,10 @@ skinparam hyperlinkColor white
 ****[#a] <i><color #black><size:14>**Interface/Abstract class** has its own <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_57.png drawback]]
 ****[#yellow]:<i><color #green><size:14>Use more **lambda expressions** as **"implementors"** of
 <i><color #black><size:14>the **interface/abstract classes** rather than using the
-<i><color #g><size:14>**"anonymous inner classes"** or **"regular classes"**.;
+<i><color #g><size:14>**"anonymous inner classes"** or **"regular classes"**.
+<img:images/img_132.jpg{scale=.6}>;
+*****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_152.png click me]]
+*****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_152.png Design Patterns in the light of modern Java]]
 **[#lightblue] <i><color #black><size:14>Keep "interfaces Cohesive" with \n<i><color #black><size:14>"Interface Segregation Principle"
 ***[#green] <i><color #white><b><size:14>"Code" should not depend on \n<i><color #white><b><size:14>"methods" it doesn't "use"
 ****[#yellow] <i><color #black><size:14>The **goal** of the **ISP** is to reduce the side-effects of using **"large interfaces"** by breaking them into smaller, more <b>specific interfaces.
