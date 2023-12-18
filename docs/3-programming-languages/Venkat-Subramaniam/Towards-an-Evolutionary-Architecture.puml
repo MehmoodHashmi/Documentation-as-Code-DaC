@@ -26,7 +26,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#a] <b><i><color #black><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png 2- pattern]]
 ****[#a] <b><i><color #black><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_75.png 3- Design pattern]]
 ***[#green] <b><i><color #white><size:14>In Software Development we often say:
-****[#yellow] <i><color #black><size:14>Capture requirements
+****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_138.png Capture requirements]]
 ****[#yellow] <i><color #black><size:14>Gather requirements
 ****[#yellow] <i><color #black><size:14>Observer effect
 ****[#gold] *<i><color #black><size:14>If you want to build what your customers wanted, you will <b>fail.\n*<i><color #black><size:14>You need to build what your customers still want.
@@ -36,6 +36,25 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#gold] *<i><color #black><size:14>PowerPoint Architect
 ****[#darkorange] *<i><color #black><size:15><b>No one cares if you write good code
 *****[#grey] <i><color #black><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png Does this code saves or makes money?]]
+**[#lightblue] <i><color #black><size:14><b>Two values of software
+***[#green] <i><color #white><size:14><b>Behavioral value
+****[#yellow]:|<#white><i><color #black><size:14>help  **stakeholders** <b>"make or save money".</b> Is actually **use cases** or <b>feature development. |
+**<i><color #black><size:14>by **making machines behave** in ways that **satisfy** the <b>requirement.
+*<i><color #black><size:14>Many **programmers** believe this is the entirely of their <b>job. They are sadly mistaken.;
+***[#green] <i><color #white><size:14><b>Structural value
+****[#yellow]:<i><color #black><size:14>is **architecture** & often ignored by the <b>developers
+*<i><color #black><size:14>**Architecture:** Soft-ware is a compound word
+*<i><color #black><size:14>When **stakeholders** change their **minds** the **"change"** to the "software" should be <b>"simple & easy" to make.
+*<i><color #black><size:14>The **cost of change** should be **proportional** to <b>scope (range), not shape.;
+****[#yellow]:|<#white><i><color #black><size:14><b><u>Scope Vs Shape:|
+*<i><color #black><size:14>**Stakeholders** believe that the **requirements & changes** are only **complicated** by <b>scope.
+*<i><color #black><size:14>**Programmers** see each new **requirements** as a **puzzle piece** that must be **fit** into an <b>ever more complex puzzle.
+|<#white><i><color #black><size:14>**Solution:** keep the puzzle **"simple".**|;
+***[#a]:<i><color #black><size:14><b>The book Cathedral & bazaar in late 1990's said two values of software are:
+<i><color #black><size:14><b>1- Use value
+<i><color #black><size:14><b>2- Sale value
+==<i><color #black><size:14><b>After the rise of [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Modern Machine Learning]] ([[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Deep-Learning.puml & Deep Learning]])==
+*<i><color #black><size:14><b>Data [[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml (Big Data)]] has "value".;
 **[#lightblue] <i><color #black><size:14>The risk of not evolving
 ***[#green] <b><i><color #white><size:14>Relevance
 ****[#gold]:*<i><color #black><size:14>If not evolved may become obsolete & irrelevant.
@@ -76,7 +95,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ***[#a]:<i><color #black><size:14>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.
 *<b><i><color #black><size:14>Why don't we postpone?
 **<b><i><color #green><size:14>Because we are afraid!
-*<b><i><color #black><size:14>here i i've to add images dijkts once said about "Testing" & son on[[a If you want to "postpone" we need to 've good "automated testing". (TDD)]] click me
+|<#blue><b><i><color #white><size:14>[[docs/books/1-books-backlog/software-testing/automated-testing.puml If you want to "postpone" we need to 've good "automated testing". (TDD)]] click me|
 <img:images/img_43.png{scale=.86}>
 ==<i><color #black><size:14><b>(TDD) gives you Control==
 *<i><color #black><size:14><b>Statistical Control (SC):</b> is **TDD or unit testing** or <b><color:green>"Test Coverage"
