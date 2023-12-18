@@ -21,8 +21,10 @@ skinparam hyperlinkColor white
 *****[#a] <i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_137.png Tools of trade:]]** You need following tools in advance to <b>write, build, test & debug your programs.
 ****[#a]:*<i><color #black><size:14>**Code** is what it **does,** it is not a <U>substitute</u> for <b>thought. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_132.png click me]]
 *<i><color #black><size:14>**Code** is **static** in nature while **thought** is <b>dynamic. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_133.png click me]]
+*<i><color #black><size:14>A **mist** in **mind** is **fog** in the **code.**
 *<i><color #black><size:14>**Code** is a **tool** through which you can **express** your **thoughts** about a <b>problem.;
 *****[#a]:*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_134.png Grady Booch: good vs bad programmer]]
+*<i><color #black><size:14><b>Robert C Martin: [[docs/3-programming-languages/Venkat-Subramaniam/images/img_146.png It takes "at least 15-years" in "software field" to become a "senior". Till then you should "learn" from other]] seniors. click me
 *<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_135.png Robert C Martin: Is it possible, early on, to tell whether someone can or cannot become a programmer?]]
 *<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_136.png Robert C Martin: Often "developers" start getting a feeling of power, superiority, become condescending.]]
 <i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_136.png How do you not become arrogant, even though you achieve a lot?]];
@@ -346,17 +348,19 @@ skinparam hyperlinkColor white
 <i><color #black><size:14>the sin is in me I don't want you the part of sin as a user of my class.
 ==<i><color #black><size:14><b><u>What if I don't had to violate it at all?==
 *<i><color #black><size:14>In **Java** you can do it with **Project Lombok** but I'm leaving this for later study.;
-**[#lightblue] <i><color #black><size:14>Decouple using the \n<i><color #black><size:14>Dependency Inversion Principle
+**[#lightblue] <i><color #black><size:14>Decouple using the \n<i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Dependency-inversion-principle-DIP.puml Dependency Inversion Principle]]
 ***[#yellow] <i><color #black><size:14>"Every single line of **code"** that **"uses"** the "**new** keyword" violates <b>"DIP".
 ***[#green] <i><color #white><b><size:14>A "class" should not "depend" on "another class", they both should\n<i><color #white><b><size:14>'ve to "depend" on an "abstraction" (interface<color:lime>/abstract) class.
 ****[#yellow] <i><color #black><size:14>lowers the coupling
 ****[#yellow] <i><color #black><b><size:14>Use with caution
 ****[#a] <i><color #black><size:14>**Interface/Abstract class** has its own <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_57.png drawback]]
-****[#yellow] <i><color #black><size:14>Use more **lambda expressions** as "implementors" of \n<i><color #black><size:14>the **interface/abstract classes** rather than using the \n<i><color #black><size:14>"anonymous inner classes" or "regular classes".
+****[#yellow]:<i><color #green><size:14>Use more **lambda expressions** as **"implementors"** of
+<i><color #black><size:14>the **interface/abstract classes** rather than using the
+<i><color #g><size:14>**"anonymous inner classes"** or **"regular classes"**.;
 **[#lightblue] <i><color #black><size:14>Keep "interfaces Cohesive" with \n<i><color #black><size:14>"Interface Segregation Principle"
 ***[#green] <i><color #white><b><size:14>"Code" should not depend on \n<i><color #white><b><size:14>"methods" it doesn't "use"
 ****[#yellow] <i><color #black><size:14>The **goal** of the **ISP** is to reduce the side-effects of using **"large interfaces"** by breaking them into smaller, more <b>specific interfaces.
-****[#yellow] <i><color #black><size:14>Really is **"cohesion", "Single Responsibility Principle" (SRP)** \n<i><color #black><size:14>but at the <b>interface-level.
+****[#yellow] <i><color #black><size:14>Really is **"cohesion", "Single Responsibility Principle" (SRP)** but at the <b>interface-level.
 **[#lightblue] <i><color #black><size:14>When to apply these principles?
 ***[#green] <i><color #white><b><size:18>2-Phases \n<i><color #white><b><size:18>of Design:
 ****[#a]:<i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_108.png Strategic Design:]]** very high-level design.
@@ -384,7 +388,7 @@ skinparam hyperlinkColor white
 <img:images/img_44.png{scale=0.81}>
 *<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_129.png Class Associations]]
 ;
-*****[#gold] <img:images/img_141.png>
+*****[#gold] <img:images/img_142.png>
 ****[#gold] <i><color #black><size:14>**3-** Micheal Feathers: said In "OOP" we **"encapsulate"** the **"moving parts"**, in "FP" we **"eliminate"** the <b>"moving parts"
 **[#lightblue] <i><color #black><size:14>Summary [[docs/3-programming-languages/Venkat-Subramaniam/images/img_55.png click me]]\n<img:images/img_55.png{scale=.16}>
 
