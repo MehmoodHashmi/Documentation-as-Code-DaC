@@ -138,7 +138,7 @@ skinparam hyperlinkColor white
 ***[#green] <i><color #white><size:14><b>Like things stay together, and unlike things stay apart
 ****[#yellow] <i><color #black><size:14>**"Code that deals"** with **database** is different than **"code that deals"** with <b>XML processing
 ****[#yellow] <i><color #black><size:14>**"Code that deals"** with **database** is different than **"code that deals"** with <b>UI
-**[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_51.png Coupling]]
+**[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_51.png Coupling]]\n<img:images/img_154.png{scale=.77}>
 ***[#green] <i><color #white><size:14><b>is what you depend on
 ****[#yellow] <i><color #black><size:14>Worst form of coupling is <b>inheritance
 ****[#yellow] <i><color #black><size:14>Try to see if you can remove coupling
@@ -170,7 +170,13 @@ skinparam hyperlinkColor white
 <i><color #black><size:14>And in extreme cases, you want to put those classes behind <b>polymorphic interfaces.;
 
 
-****[#a] *<i><color #black><size:14>**Modules:** are a **new** way of "grouping" <b>codes & data.\n*<i><color #black><size:14>**Modularity:** is not an **OOP**  "concept" it's **decoupled** from <b>OOP.\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_79.png We need "flexibility" at "joints or layers" of the "system"]] click me
+****[#a]:*<i><color #black><size:14>**Modules:** are a **new** way of "grouping" <b>codes & data.
+*<i><color #black><size:14>**Modularity:** is not an **OOP**  "concept" it's **decoupled** from <b>OOP.
+*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_79.png We need "flexibility" at "joints or layers" of the "system"]] click me
+==<i><color #black><size:14><b>How to "organize tests" in "modular" world?==
+*<i><color #black><size:14><b>[[a Organize tests in modular world]]
+;
+*****[#a] *<i><color #black><size:14><b>[[docs/3-programming-languages/JVM-ecosystem/java/simple-jar-vs-modular-jar.puml Simple .jar vs modular .jar]] click me\n*<i><color #black><size:14><b>[[docs/3-programming-languages/JVM-ecosystem/java/java-9-onwards.puml Java-9 onwards]] click me \n*<i><color #black><size:14><b>[[a Module Design Guidelines (size & weight)]] click me
 ****[#a]:<i><color #black><size:14>An important <u>**"part of structuring software"**</u> that **SOLID** doesn't cover is <u><b>"how to group classes into packages & components"
 <i><color #white><size:14>in a way that makes it **"scale",** both when the
 <i><color #black><b><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_94.png 1- "application itself grows" but also when the number of]] click me
@@ -389,7 +395,8 @@ skinparam hyperlinkColor white
 ****<i><color #black><size:14>If I **"use"** this particular **"code"**, am I going to **violate (OCP)** here?
 ****<i><color #black><size:14>Should I really "use" **DIP** to gain access & **test** this <b>code?
 <img:images/img_44.png{scale=0.81}>
-*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_129.png Class Associations]]
+*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_129.png Class Associations]], Only use tools like [[a visual-paradigm]] if your system
+<i><color #black><size:14><b>has more than 50-classes.
 ;
 *****[#gold] <img:images/img_142.png>
 ****[#gold] <i><color #black><size:14>**3-** Micheal Feathers: said In "OOP" we **"encapsulate"** the **"moving parts"**, in "FP" we **"eliminate"** the <b>"moving parts"
