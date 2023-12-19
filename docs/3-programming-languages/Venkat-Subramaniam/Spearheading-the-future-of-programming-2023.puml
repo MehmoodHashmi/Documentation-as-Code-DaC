@@ -61,7 +61,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ** <color #black><size:14><i> <b>How these "callback" work</b>
 ** <color #black><size:14><i> <b>And reason these "callback" work</b>
 ====
-* <color #black><size:14><i><b>"Diagramming:" using [[docs/3-programming-languages/Venkat-Subramaniam/SDL-(Specification-and-Description-Language).puml Specification & Description language (SDL)]]
+* <color #black><size:14><i><b>"Diagramming:" using [[docs/3-programming-languages/Venkat-Subramaniam/Introduction-to-SDL.puml Specification & Description language (SDL)]]
 * <color #green><size:14><i><b>"Asynchronous:" is good for real-time "event-driven, reactive & distributed systems"
 ** <color #green><size:14><i><b>Current areas of application: "process control & real-time apps"
 * <color #green><size:14><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Design-Patterns-in-Asynchronous-Programming.puml "Asynchronous:" design patterns]] can be reused;

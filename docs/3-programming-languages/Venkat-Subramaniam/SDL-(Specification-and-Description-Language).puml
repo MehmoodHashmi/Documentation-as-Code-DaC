@@ -1,5 +1,6 @@
 @startuml
 title =<i>Specification & Description Language (SDL),\n<i><u><size:16>especially designed for "real-time, event-driven interactive, reactive & distributed systems"\n[[docs/2-uml/PlantUML/activity-diagram/activity-diagram-syntax.png for more details click me]]
+
 |Swim-lane-1|
 start
 note right

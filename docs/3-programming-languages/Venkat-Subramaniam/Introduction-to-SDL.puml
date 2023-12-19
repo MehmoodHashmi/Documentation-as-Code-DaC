@@ -2,6 +2,7 @@
 title =<i>Introduction to Specification Description Language (SDL)
 * <b><i>[[https://www.youtube.com/watch?v=0MG4I1HqIb4&t=729s&ab_channel=PragmaDevSoftware Introduction to SDL]] video 20-minutes
 ** <b><i>[[https://www.youtube.com/watch?v=Hfxq5O6LhjQ&ab_channel=PragmaDevSoftware Introduction to SDL]] another video
+*** =<b><i>[[docs/3-programming-languages/Venkat-Subramaniam/SDL-(Specification-and-Description-Language).puml SDL support & example in plantuml]] click me
 
 !theme hacker
 *[#darkblue] <i><color:white>Introduction to SDL
@@ -29,10 +30,9 @@ title =<i>Introduction to Specification Description Language (SDL)
 ***[#lightblue] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_86.png Structure]] <size:9>click me
 ****[#green] <i><size:12><b><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_86.png Agents]] <size:9>click me
 *****[#yellow] <i><size:12><color:black>**Agents:** The **structuring entities** of an **SDL model** are called <b>agents.
-*****[#yellow] <i><size:12><color:black>**System:** The "system" is the top-level "agent" it can contain other agents but it cannot be contained but by any agent.
+*****[#yellow] <i><size:12><color:black>**System:** The "system" is the top-level "agent" it can contain other agents but it cannot be contained but by any agent.\n*<i><size:12><color:black>The **"system"** itself is a **"block"** that is the <b>top-level container.
 *****[#yellow] <i><size:12><color:black>**Environment:** Everything outside of the system is defined as the "environment".
 *****[#yellow] <i><size:12><color:black>**Blocks:** "Blocks" are containers of agents. They are used to break down the complexity and size of "systems".
-*****[#yellow] <i><size:12><color:black>**System:** The "system" itself is a "block" that is the top-level container.
 *****[#yellow] <i><size:12><color:black>**Processes:** are bottom level "agents". They are found in "blocks" and cannot contain any other "agent".
 ****[#green] <i><size:12><b><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_85.png Tree Structure]] <size:9>click me
 *****[#yellow] <i><size:12><color:black>An "SDL model" has a "tree structure" where the system is the root, blocks are the internal nodes and processes are the Leafs.
