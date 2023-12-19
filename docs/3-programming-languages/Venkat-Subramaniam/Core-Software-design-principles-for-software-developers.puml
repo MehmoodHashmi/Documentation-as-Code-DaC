@@ -403,7 +403,7 @@ skinparam hyperlinkColor white
 <img:images/img_44.png{scale=0.81}>
 *<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_129.png Class Associations]], Only use tools like [[a visual-paradigm]] if your system
 <i><color #black><size:14><b>has more than 50-classes.
-;
+*<i><color #black><size:14><b>[[docs/2-uml/PlantUML/sequence-diagram/heart-of-sequence-diagram.puml Heart of Sequence diagram]];
 *****[#gold] <img:images/img_142.png>
 ****[#gold] <i><color #black><size:14>**3-** Micheal Feathers: said In "OOP" we **"encapsulate"** the **"moving parts"**, in "FP" we **"eliminate"** the <b>"moving parts"
 **[#lightblue] <i><color #black><size:14>Summary [[docs/3-programming-languages/Venkat-Subramaniam/images/img_55.png click me]]\n<img:images/img_55.png{scale=.16}>

@@ -1,4 +1,3 @@
-
 @startuml __Amazon S3 objects using IAM Temporary Credentials
 !pragma teoz true
 '!theme plain

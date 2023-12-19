@@ -1,0 +1,22 @@
+@startmindmap
+!theme hacker
+*[#lightblue] <b><i><size:14>[[docs/2-uml/PlantUML/sequence-diagram/sequence-diagram-syntax.png Sequence Diagram syntax]] click me
+**[#green] <color #white><b><i><size:14>During Analysis & Design
+***[#a]:<color #black><i><size:14><b>System Level Sequence Diagram (SSD):</b> Depict the interactions between **external actors and the system itself,** outlining
+<i><size:14><color #black>the **flow of events** without **delving** into the **internal workings** of the <b>system.
+*<i><size:14><color #black><b>[[docs/2-uml/PlantUML/sequence-diagram/images/img_2.png Example 1]] click me.;
+
+***[#a]:<color #black><i><size:14><b>Design Level Sequence Diagram (DSD):</b>These provide an **overview of interactions** between <b>major components or
+<i><size:14><color #black>**systems,** focusing on their <b>relationships and interactions
+*<i><size:14><color #black><b>[[docs/2-uml/PlantUML/sequence-diagram/AWS-sequence-diagram.puml Example 1]] click me.
+*<i><size:14><color #black><b>[[docs/2-uml/PlantUML/sequence-diagram/AWS-sequence-diagram1.puml Example 2]] click me.
+*<i><size:14><color #black><b>[[docs/2-uml/PlantUML/sequence-diagram/AWS-sequence-diagram2.puml Example 3]] very simple & exactly same as example-2 but with a lesson (KISS) click me;
+**[#green] <color #white><b><i><size:14>Just before Implementation
+***[#yellow] <color #black><i><size:14><b>Object-Level Sequence Diagrams (OSD):</b> Detail the interactions between **specific objects or instances,** \n<i><size:14><color #black>illustrating the **messages exchanged** and the **order** of these <b>interactions,
+
+title =<b><i>Heart of Sequence diagram
+
+*:<img:images/img.png>
+<img:images/img_1.png>;
+
+@endmindmap
