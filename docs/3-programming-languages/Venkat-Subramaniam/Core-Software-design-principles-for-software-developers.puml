@@ -244,6 +244,7 @@ skinparam hyperlinkColor white
 *****[#yellow]:<i><color #black><size:14>are not **boundaries** both:
 <i><color #black><size:14>**1- Source code dependencies** &
 <i><color #black><size:14>**2- Deployment component boundary** can make use of <b>threads.;
+******[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.jpg click me]] thread diagram notation reusable
 ****[#darkorange] <i><color #black><size:14>**4- Local Process boundary**
 *****[#a]:*<b><i><color #black><size:14>[[docs/books/1-books-backlog/operating-system/operating-system.puml local processes "communicate" with each other using "socket, shared memory, IPC, mail boxes or message queues"]]
 *<i><color #black><size:14>**Communication** across **local process boundaries** involve:
@@ -403,7 +404,10 @@ skinparam hyperlinkColor white
 <img:images/img_44.png{scale=0.81}>
 *<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_129.png Class Associations]], Only use tools like [[a visual-paradigm]] if your system
 <i><color #black><size:14><b>has more than 50-classes.
-*<i><color #black><size:14><b>[[docs/2-uml/PlantUML/sequence-diagram/heart-of-sequence-diagram.puml Heart of Sequence diagram]];
+*<i><color #black><size:14><b>[[docs/2-uml/PlantUML/sequence-diagram/heart-of-sequence-diagram.puml Heart of Sequence diagram]]
+**<i><color #black><size:14><b>[[docs/2-uml/PlantUML/sequence-diagram/use-case-table-and-work-products.puml System Level Sequence Diagram (Use Case 2.0 & Work Products)]]
+**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_167.png Sequence Diagram vs Use Case 2.0 vs Activity diagram]]
+;
 *****[#gold] <img:images/img_142.png>
 ****[#gold] <i><color #black><size:14>**3-** Micheal Feathers: said In "OOP" we **"encapsulate"** the **"moving parts"**, in "FP" we **"eliminate"** the <b>"moving parts"
 **[#lightblue] <i><color #black><size:14>Summary [[docs/3-programming-languages/Venkat-Subramaniam/images/img_55.png click me]]\n<img:images/img_55.png{scale=.16}>

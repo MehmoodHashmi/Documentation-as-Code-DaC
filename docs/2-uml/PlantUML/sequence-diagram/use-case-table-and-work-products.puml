@@ -1,0 +1,17 @@
+@startmindmap
+title = <i><b>System level sequence diagram & <color #Red><u>Work Products of Use Case 2.0
+
+*:|<img:images/img_5.png{scale=.6}>|<img:images/img_8.png{scale=.75}>|
+====
+*<b><i><size:18><color #red>Jira & Trello are based on things like use case tables, bug fix tables, or feature table. Requirement & Project Management has been automated.
+*<b><i><size:18><color #red>Some Companies use their own Content Management System (CMS) or private wikis (wikipedia) for this same things. Because they 've their own preferences.
+**<b><i><size:18><color #green>Maybe security issues, Maybe tools like Jira & Trello does not provide good exentions or plugins for the needed functionality!. Who knows maybe some other reason!
+====
+|<img:images/img_6.png{scale=.6}>|<img:images/img_7.png{scale=1.11}>|
+====
+<img:images/img_4.png>
+<img:images/img_9.png{scale=1}>
+<img:images/img_10.png{scale=1.11}>
+<img:images/img_11.png{scale=1.11}>
+<img:images/img_12.png{scale=1}>;
+@endmindmap

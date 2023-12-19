@@ -12,7 +12,9 @@
 *<i><size:14><color #black><b>[[docs/2-uml/PlantUML/sequence-diagram/AWS-sequence-diagram1.puml Example 2]] click me.
 *<i><size:14><color #black><b>[[docs/2-uml/PlantUML/sequence-diagram/AWS-sequence-diagram2.puml Example 3]] very simple & exactly same as example-2 but with a lesson (KISS) click me;
 **[#green] <color #white><b><i><size:14>Just before Implementation
-***[#yellow] <color #black><i><size:14><b>Object-Level Sequence Diagrams (OSD):</b> Detail the interactions between **specific objects or instances,** \n<i><size:14><color #black>illustrating the **messages exchanged** and the **order** of these <b>interactions,
+***[#a]:<color #black><i><size:14><b>[[a Object-Level Sequence Diagrams (OSD):]]</b> Detail the interactions between **specific objects or instances,**
+<i><size:14><color #black>illustrating the **messages exchanged** and the **order** of these <b>interactions
+<i><size:14><color #black><b>[[a Example]];
 
 title =<b><i>Heart of Sequence diagram
 
