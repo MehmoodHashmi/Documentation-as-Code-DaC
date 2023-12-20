@@ -409,6 +409,8 @@ skinparam hyperlinkColor white
 **<i><color #black><size:14><b>[[docs/2-uml/PlantUML/sequence-diagram/use-case-table-and-work-products.puml System Level Sequence Diagram (Use Case 2.0 & Work Products)]]
 **<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_167.png Sequence Diagram vs Use Case 2.0 vs Activity diagram]]
 *<i><color #black><size:14><b>[[docs/2-uml/PlantUML/activity-diagram/activity-diagram-syntax.png Activity Diagram syntax]]
+*<i><color #black><size:11><b>[[docs/3-programming-languages/Venkat-Subramaniam/synchronous-system-use-case-modeling.puml Synchronous System Use Case Modeling; <<include>> & <<extends>> relation]] implementation
+*<i><color #black><size:10><b>[[docs/2-uml/PlantUML/activity-diagram/activity-diagram-syntax.png Asynchronous System (EDA) Use Case Modeling; <<Publish>> & <<Subscribe>> relation]] implementation
 ;
 *****[#gold] <img:images/img_142.png>
 ****[#gold] <i><color #black><size:14>**3-** Micheal Feathers: said In "OOP" we **"encapsulate"** the **"moving parts"**, in "FP" we **"eliminate"** the <b>"moving parts"

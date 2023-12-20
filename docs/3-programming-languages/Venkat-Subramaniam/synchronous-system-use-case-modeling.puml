@@ -1,0 +1,14 @@
+@startmindmap
+title =<b><i><u>Synchronous System</u> Use Case Modeling; <<include>> & <<extends>> <u>relation implementation in code
+*:<img:images/img_171.png{scale=.99}>
+==<i><size:22><color #red><b>Some Important Notes==
+*<i><size:14>**<<extends>>** **Base use case** is unaware of the **extension use case**. But the **extension use case** is aware of the base use case & its extension point from the moment the **extension use case** is modeled because it owns a relationship with the base use case.
+*<i><size:14>**<<extend>>** relation is <b>synchronous.
+*<i><size:14><color #red>**<<extends>> relation or behaviour** can be  **implemented** using: <b>Conditional logic, late binding, DIP has many variants (here it is dependency injection at runtime), Strategy Design Pattern, feature flags or toggles, Dynamic module loading,
+<i><size:14><color #red><b>   Using OCP principle along with behavioral category design patterns.
+*<i><size:14>**<<include>>** **Base use case** is aware of the included use case. <<include>> relation is synchronous.
+*<i><size:14>**<<include>> & <<extend>> "relation"** are not **association** but are <b>dependency.
+*<i><size:14>**<<include>>**  can't <u>cross <b>system boundary.
+<img:images/img_172.png>
+;
+@endmindmap
