@@ -386,7 +386,7 @@ skinparam hyperlinkColor white
 ****[#a]:<i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_108.png Tactical Design:]]** often low-level design,
 *<i><color #black><size:14>Paves the way to refine those "directions & ideas" into realities of the project
 *<i><color #black><size:14>**SOLID, YAGNI, DRY, & other principles** are used **a lot** during <b>tactical design.;
-***[#green] <i><color #white><b><size:18>How to apply these principles?
+***[#green] <i><color #white><b><size:18>How to apply \n<i><color #white><b><size:18>these principles?
 ****[#gold] <i><color #black><size:14>Machine Learning <b>"Model" "Testing" is different than <b>(TDD)</b> that is:
 *****[#gold] <i><color #black><size:11><b>"Testing" "Model's"
 ******[#darkorange] <i><color #black><size:14>**1-** Prediction\n<i><color #black><size:14>**2-** Pattern recognition\n<i><color #black><size:14>**3-** Optimization & decision making
