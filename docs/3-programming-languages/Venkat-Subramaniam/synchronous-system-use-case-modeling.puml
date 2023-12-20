@@ -1,8 +1,8 @@
 @startmindmap
 title =<b><i><u>Synchronous System</u> Use Case Modeling; <<include>> & <<extends>> <u>relation implementation in code
-* <b><i>[[https://guides.visual-paradigm.com/developing-a-new-e-commerce-platform-with-use-case-2-0-a-comprehensive-guide/ Developing a New E-commerce Platform with Use Case 2.0: A Comprehensive Guide]]
-** <b><i>[[https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/ User Story Splitting - Vertical Slice vs Horizontal Slice]]
-*** <b><i>[[docs/3-programming-languages/Venkat-Subramaniam/synchronous-system-use-case-modeling-full-details.puml Synchronous System Use Case Modeling]] full details OneNote Notebook
+* ===<b><i>[[docs/3-programming-languages/Venkat-Subramaniam/synchronous-system-use-case-modeling-full-details.puml Synchronous System Use Case Modeling]] full details OneNote Notebook
+** <b><i>[[https://guides.visual-paradigm.com/developing-a-new-e-commerce-platform-with-use-case-2-0-a-comprehensive-guide/ Developing a New E-commerce Platform with Use Case 2.0: A Comprehensive Guide]]
+*** <b><i>[[https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/ User Story Splitting - Vertical Slice vs Horizontal Slice]]
 *:==<size:18><i><b><<include>> relation summary>==
 |<#white><size:14><i><b>1- <<include>> relationship can't cross system boundaries.|<#blue><size:14><i><b><color #white>4- <<include>> use cases come int two varieties\n<size:14><i><b><color #white>\t1- Textually included (context aware)\n<size:14><i><b><color #white>\t2- Parameterized (context agnostic)|
 |<#white><size:14><i><b>2- Actors, Associations & use cases are classes |<#blue><size:14><i><b><color #white>5- <<include>> use cases maybe optional (main flow or alternative flow)|
@@ -17,5 +17,15 @@ title =<b><i><u>Synchronous System</u> Use Case Modeling; <<include>> & <<extend
 *<i><size:14>**<<include>>** **Base use case** is aware of the included use case. <<include>> relation is synchronous.
 *<i><size:14>**<<include>> & <<extend>> "relation"** are not **association** but are <b>dependency.
 *<i><size:14>**<<include>>**  can't <u>cross <b>system boundary.
-<img:images/img_173.png>;
+<img:images/img_173.png>
+====
+<img:images/img_209.png>
+<img:images/use-case.png>
+====
+*<i><size:22><color #red><b>[[docs/3-programming-languages/Venkat-Subramaniam/asynchronous-system-use-case-modeling.puml Asynchronous system use case modeling; Event Driven Architecture (EDA) ]] click me
+====
+<img:images/img_210.png>
+<img:images/img_208.png>
+<img:images/img_203.png>
+<img:images/img_204.png>;
 @endmindmap
