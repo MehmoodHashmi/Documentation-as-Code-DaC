@@ -403,7 +403,7 @@ skinparam hyperlinkColor white
 ****<i><color #black><size:14>If I **"use"** this particular **"code"**, am I going to **violate (OCP)** here?
 ****<i><color #black><size:14>Should I really "use" **DIP** to gain access & **test** this <b>code?
 <img:images/img_44.png{scale=0.81}>
-*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_129.png Class Associations]], Only use tools like [[a visual-paradigm]] if your system
+*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_174.png Class Associations]], Only use tools like [[a visual-paradigm]] if your system
 <i><color #black><size:14><b>has more than 50-classes.
 *<i><color #black><size:14><b>[[docs/2-uml/PlantUML/sequence-diagram/heart-of-sequence-diagram.puml Heart of Sequence diagram]]
 **<i><color #black><size:14><b>[[docs/2-uml/PlantUML/sequence-diagram/use-case-table-and-work-products.puml System Level Sequence Diagram (Use Case 2.0 & Work Products)]]

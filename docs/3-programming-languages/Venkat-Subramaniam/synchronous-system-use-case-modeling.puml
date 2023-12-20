@@ -1,5 +1,7 @@
 @startmindmap
 title =<b><i><u>Synchronous System</u> Use Case Modeling; <<include>> & <<extends>> <u>relation implementation in code
+* <b><i>[[https://guides.visual-paradigm.com/developing-a-new-e-commerce-platform-with-use-case-2-0-a-comprehensive-guide/ Developing a New E-commerce Platform with Use Case 2.0: A Comprehensive Guide]]
+** <b><i>[[https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/ User Story Splitting - Vertical Slice vs Horizontal Slice]]
 *:<img:images/img_171.png{scale=.99}>
 ==<i><size:22><color #red><b>Some Important Notes==
 *<i><size:14>**<<extends>>** **Base use case** is unaware of the **extension use case**. But the **extension use case** is aware of the base use case & its extension point from the moment the **extension use case** is modeled because it owns a relationship with the base use case.
@@ -9,6 +11,6 @@ title =<b><i><u>Synchronous System</u> Use Case Modeling; <<include>> & <<extend
 *<i><size:14>**<<include>>** **Base use case** is aware of the included use case. <<include>> relation is synchronous.
 *<i><size:14>**<<include>> & <<extend>> "relation"** are not **association** but are <b>dependency.
 *<i><size:14>**<<include>>**  can't <u>cross <b>system boundary.
-<img:images/img_172.png>
+<img:images/img_173.png>
 ;
 @endmindmap
