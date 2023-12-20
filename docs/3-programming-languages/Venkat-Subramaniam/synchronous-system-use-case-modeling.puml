@@ -2,7 +2,12 @@
 title =<b><i><u>Synchronous System</u> Use Case Modeling; <<include>> & <<extends>> <u>relation implementation in code
 * <b><i>[[https://guides.visual-paradigm.com/developing-a-new-e-commerce-platform-with-use-case-2-0-a-comprehensive-guide/ Developing a New E-commerce Platform with Use Case 2.0: A Comprehensive Guide]]
 ** <b><i>[[https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/ User Story Splitting - Vertical Slice vs Horizontal Slice]]
-*:<img:images/img_171.png{scale=.99}>
+*:==<size:18><i><b><<include>> relation summary>==
+|<#white><size:14><i><b>1- <<include>> relationship can't cross system boundaries.|<#blue><size:14><i><b><color #white>4- <<include>> use cases come int two varieties\n<size:14><i><b><color #white>\t1- Textually included (context aware)\n<size:14><i><b><color #white>\t2- Parameterized (context agnostic)|
+|<#white><size:14><i><b>2- Actors, Associations & use cases are classes |<#blue><size:14><i><b><color #white>5- <<include>> use cases maybe optional (main flow or alternative flow)|
+|<#white><size:14><i><b>3- <<include>> use cases are not real use cases (they are abstract; hence can't be instantiated)|<#blue><size:14><i><b><color #white>6- <<include>> use cases are not intended for functional decomposition|
+==<size:18><i><b><<include>> relation summary ends==
+<img:images/img_171.png{scale=.99}>
 ==<i><size:22><color #red><b>Some Important Notes==
 *<i><size:14>**<<extends>>** **Base use case** is unaware of the **extension use case**. But the **extension use case** is aware of the base use case & its extension point from the moment the **extension use case** is modeled because it owns a relationship with the base use case.
 *<i><size:14>**<<extend>>** relation is <b>synchronous.
