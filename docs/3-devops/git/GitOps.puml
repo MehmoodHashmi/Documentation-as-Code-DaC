@@ -1,0 +1,43 @@
+@startmindmap
+title =<i><b><u>GitOps \nTaken from chatgpt-3.5\nOverall, this mind map should help developers and operations teams gain a deeper understanding of GitOps and learn how to use it to improve their software development processes.
+!theme hacker
+
+*[#darkblue] <i>GitOps
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <b><i><color #white><size:14>GitOps is a  "software development methodology" that uses "Git" as the "source of truth" for "infrastructure" & "application deployment".
+**[#lightblue] <i><color #blac><size:14>Key Principles
+***[#green] <b><i><color #white><size:14>Declarative Infrastructure
+****[#yellow] <i><color #black><size:14>Infrastructure is defined in code, which can be version-controlled and automated.
+***[#green] <b><i><color #white><size:14>Continuous Delivery
+****[#yellow] <i><color #black><size:14>Changes to infrastructure and applications are automatically deployed from Git repositories.
+***[#green] <b><i><color #white><size:14>Observability
+****[#yellow] <i><color #black><size:14>The state of the system can be easily monitored and audited.
+***[#green] <b><i><color #white><size:14>Self-Service
+****[#yellow] <i><color #black><size:14>Developers can make changes to infrastructure and applications through Git, without needing to go through a central operations team.
+**[#lightblue] <i><color #blac><size:14>Benefits
+***[#green] <b><i><color #white><size:14>Consistency
+****[#yellow] <i><color #black><size:14>Infrastructure is always in the desired state, reducing errors and downtime.
+***[#green] <b><i><color #white><size:14>Automation
+****[#yellow] <i><color #black><size:14>Infrastructure and application deployment can be automated, saving time and effort.
+***[#green] <b><i><color #white><size:14>Collaboration
+****[#yellow] <i><color #black><size:14>Developers and operations teams can collaborate more easily, since infrastructure and application changes are made through Git.
+***[#green] <b><i><color #white><size:14>Auditability
+****[#yellow] <i><color #black><size:14>Changes to the system can be easily audited and tracked.
+**[#lightblue] <i><color #blac><size:14>Tools
+***[#green] <b><i><color #white><size:14>Git
+****[#yellow] <i><color #black><size:14>Used as the source of truth for infrastructure and application deployment.
+***[#green] <b><i><color #white><size:14>Kubernetes
+****[#yellow] <i><color #black><size:14>Used as the orchestration platform for deploying and managing containerized applications.
+***[#green] <b><i><color #white><size:14>Flux
+****[#yellow] <i><color #black><size:14>A GitOps tool that automates the deployment and management of Kubernetes applications.
+***[#green] <b><i><color #white><size:14>Helm
+****[#yellow] <i><color #black><size:14>A package manager for Kubernetes that can be used with GitOps workflows.
+***[#green] <b><i><color #white><size:14>Argo CD
+****[#yellow] <i><color #black><size:14>A GitOps tool that provides automated deployment and management of Kubernetes applications.
+**[#lightblue] <i><color #blac><size:14>Best Practices
+***[#green] <b><i><color #white><size:14>Define infrastructure and application changes as code
+***[#green] <b><i><color #white><size:14>Use Git to manage configuration and deployment
+***[#green] <b><i><color #white><size:14>Automate deployment and rollback processes
+***[#green] <b><i><color #white><size:14>Monitor system health and performance
+***[#green] <b><i><color #white><size:14>Encourage collaboration between development and operations teams
+@endmindmap

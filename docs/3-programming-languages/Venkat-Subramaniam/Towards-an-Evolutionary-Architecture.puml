@@ -6,11 +6,11 @@ title =<i><b><u>Towards an Evolutionary Architecture
 *[#darkblue] <color:white><i>Towards an Evolutionary\n<color:white><i>Architecture
 **[#lightblue] <i><color #black><size:14>What's architecture? [[docs/3-programming-languages/Venkat-Subramaniam/images/img_139.png click me]]\n<img:images/img_139.png{scale=.4}>
 ***[#green] <i><color #white><b><size:14>Definition
-****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/app-vs-network-structure.puml Shape of the major structure of a system or topology. architecture is a view of a system.]] click me
+****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/app-vs-network-structure.puml Shape of the major structure of a system or topology. architecture is a "view" of a system.]] click me
 ****[#yellow]:<i><color #black><size:14>**Goal of architecture:** Minimize the **human resources** required to **build & maintain** "software system".
 *<i><color #black><size:14>If **effort** remains **constant or shrinks with time** then **design** is **good**. If **effort** increases with each **passing release** then **design** is <b>bad.;
 ****[#yellow] <i><color #black><size:14>**Martin fowler** article, "Who needs an architect". <b>Said: It is
-*****[#gold] <i><color #black><size:14>Shared understanding between the senior team members of a system.
+*****[#darkorange] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_252.png Shared understanding between the senior team members of a system.]] click
 ***[#green] <b><i><color #white><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_134.jpg Why evolutionary architecture? click me]]
 
 ****[#a]:*<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_27.png Clean Architecture]] click me
@@ -32,6 +32,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_179.png 4- Anti-pattern]]
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_245.png Knowledge triangle]]
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_247.png 4+1 View Model]]
+****[#darkorange] <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_250.png Architecture refactoring]]
 ***[#green] <b><i><color #white><size:14>In Software Development we often say:
 ****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_138.png Capture requirements]]
 *****[#a]:*<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_242.png Requirements Engineering Process Maturity Model]]
@@ -42,8 +43,8 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#gold] *<i><color #black><size:14>If you want to build what your customers wanted, you will <b>fail.\n*<i><color #black><size:14>You need to build what your customers still want.
 ****[#yellow] <i><color #black><size:13>Build working software.
 *****[#gold] <i><color #black><size:14>Half of the total programmers in the world can do it
-*****[#gold] <i><color #black><size:14>But I want to build relevant working software\n*<i><color #black><size:14>Requires more effort
-****[#gold] *<i><color #black><size:14>PowerPoint Architect
+*****[#gold] <i><color #black><size:14>But I want to build <b>relevant working software\n*<b><i><color #black><size:14>Requires more effort
+****[#a] <i><color #black><size:13><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_251.png PowerPoint Architect]]
 ****[#darkorange] *<i><color #black><size:15><b>No one cares if you write good code
 *****[#grey] <i><color #black><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png Does this code saves or makes money?]]
 **[#lightblue] <i><color #black><size:14><b>Two values of software
@@ -93,7 +94,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 *****[#darkorange]:<i><color #black><size:13><b>E.g. don't do (Clean Architecture + [[docs/3-programming-languages/Venkat-Subramaniam/images/img_55.jpg DDD]]) for simple apps (system) as it's not applicable.
 <i><color #black><size:13>Instead simple **three layer architecture** is enough. E.g. <b>[[docs/3-programming-languages/clean-architecture/archunit.adoc use ArchUnit]] to enforce the layers;
 
-**[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_52.png Refactor]]
+**[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_249.png Refactor]]
 ***[#green] <b><i><color #white><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.png 50% to 60% of the time you want to]]
 ****[#yellow] <i><color #black><size:14><b>Refactor:</b> others people code
 ***[#green] <b><i><color #white><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.png Other times you need to 've the courage to]]

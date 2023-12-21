@@ -1,0 +1,65 @@
+@startmindmap
+title =<i><b><u>__ Advanced Git__\n<i>Overall, this mind map should help developers gain a deeper understanding of Git and learn how to use it to its full potential.
+!theme hacker
+
+
+
+*[#darkblue] <i>Advanced Git
+**[#lightblue] <i><color #blac><size:14>Rebasing
+***[#green] <b><i><color #white><size:14>Definition
+****[#yellow] <i><color #black><size:14>Rebasing is the process of moving changes made in one branch onto another, allowing for a linear history. \n*<i><color #black><size:14>Before pushing to **remote (repository)** perform **rebase** it will bring order in all commits
+***[#green] <b><i><color #white><size:14>Benefits
+****[#yellow] <i><color #black><size:14>Simplifies the commit history
+****[#yellow] <i><color #black><size:14>Reduces merge conflicts
+****[#yellow] <i><color #black><size:14>Improves readability of the commit history
+**[#lightblue] <i><color #blac><size:14>Submodules
+***[#green] <b><i><color #white><size:14>Definition
+****[#yellow] <i><color #black><size:14>Submodules are repositories within repositories. They allow developers to include external dependencies within their own projects.
+***[#green] <b><i><color #white><size:14>Benefits
+****[#yellow] <i><color #black><size:14>Simplifies dependency management
+****[#yellow] <i><color #black><size:14>Allows for modular design
+****[#yellow] <i><color #black><size:14>Eases collaboration between teams
+**[#lightblue] <i><color #blac><size:14>Cherry-picking
+***[#green] <b><i><color #white><size:14>Definition
+****[#yellow] <i><color #black><size:14>Cherry-picking is the process of selecting specific commits from one branch and applying them to another branch.
+***[#green] <b><i><color #white><size:14>Benefits
+****[#yellow] <i><color #black><size:14>Allows for selective merging of changes
+****[#yellow] <i><color #black><size:14>Useful for backporting bug fixes to stable releases
+****[#yellow] <i><color #black><size:14>Helps avoid merge conflicts
+**[#lightblue] <i><color #blac><size:14>Stashing\n<img:images/img_1.png{scale=.9}>
+***[#green] <b><i><color #white><size:14>Definition
+****[#yellow] <i><color #black><size:14>Stashing is the process of temporarily storing changes made to a repository, allowing developers to \n<i><color #black><size:14>switch to a different branch or work on a different task without losing their progress.
+***[#green] <b><i><color #white><size:14>Benefits
+****[#yellow] <i><color #black><size:14>Allows for temporary storage of changes
+****[#yellow] <i><color #black><size:14>Prevents loss of work
+****[#yellow] <i><color #black><size:14>Useful for switching between tasks or branches
+**[#lightblue] <i><color #blac><size:14>Bisecting
+***[#green] <b><i><color #white><size:14>Definition
+****[#yellow] <i><color #black><size:14>Bisecting is the process of identifying the commit that introduced a bug by performing a binary search through the commit history.
+***[#green] <b><i><color #white><size:14>Benefits
+****[#yellow] <i><color #black><size:14>Saves time and effort in identifying the cause of a bug
+****[#yellow] <i><color #black><size:14>Useful for large codebases with complex commit histories
+**[#lightblue] <i><color #blac><size:14>Workflows
+***[#green] <b><i><color #white><size:14>Definition
+****[#yellow] <i><color #black><size:14>Workflows are defined processes for using Git in a team environment. Different workflows offer different approaches to collaboration and integration of changes.
+***[#green] <b><i><color #white><size:14>Examples
+****[#yellow] <i><color #black><size:14>Centralized Workflow
+****[#yellow] <i><color #black><size:14>Feature Branch Workflow
+****[#a] <b><i><color #black><size:14>[[docs/3-devops/git/images/img.png Gitflow Workflow]] click me
+****[#yellow] <i><color #black><size:14>Forking Workflow
+**[#lightblue] <i><color #blac><size:14>Hooks
+***[#green] <b><i><color #white><size:14>Definition
+****[#yellow] <i><color #black><size:14>Hooks are scripts that run automatically at certain points in the Git workflow. They can be used to automate tasks or enforce rules.
+***[#green] <b><i><color #white><size:14>Examples
+****[#yellow] <i><color #black><size:14>Pre-commit Hook
+****[#yellow] <i><color #black><size:14>Post-commit Hook
+****[#yellow] <i><color #black><size:14>Pre-push Hook
+****[#yellow] <i><color #black><size:14>Update Hook
+**[#lightblue] <i><color #blac><size:14>Tips and Tricks
+***[#a] <b><i><color #white><size:14>Use "Git aliases" to "simplify" frequently used commands
+***[#a] <b><i><color #white><size:14>Use "Git hooks" to "enforce" coding standards and best practices
+***[#a] <b><i><color #white><size:14>Use "Git blame" to "identify" who made changes to specific lines of code
+***[#a] <b><i><color #white><size:14>Use "Git bisect" to "identify" the commit that introduced a bug
+***[#a] <b><i><color #white><size:14>Use "Git stash" to "temporarily" store changes
+***[#a] <b><i><color #white><size:14>Use "Git reflog" to "recover" lost commits
+@endmindmap

@@ -1,0 +1,42 @@
+@startmindmap
+title =__<i> GitOps__\n Taken from chatgpt-4
+!theme hacker
+
+
+
+
+*[#darkblue] <i>GitOps
+**[#lightblue] <i><color #blac><size:14>Principles
+***[#green] <b><i><color #white><size:14>[[docs/3-devops/devops-plantuml-mindmap/infrastructure-as-code.puml Infrastructure as Code (IaC)]]
+***[#green] <b><i><color #white><size:14>Version Control
+***[#green] <b><i><color #white><size:14>Continuous Deployment
+***[#green] <b><i><color #white><size:14>Automated Reconciliation
+**[#lightblue] <i><color #blac><size:14>Components
+***[#green] <b><i><color #white><size:14>Version Control System
+****[#darkorange] <i><color #black><size:14><size:14><b>[[Git.puml Git]]
+****[#yellow] <i><color #black><size:14><size:14>GitHub
+****[#yellow] <i><color #black><size:14><size:14>GitLab
+***[#green] <b><i><color #white><size:14>**Containerization**
+****[#darkorange] <i><color #black><size:14><size:14>**[[docs/3-devops/devops-plantuml-mindmap/Docker.puml Docker]]**
+***[#green] <b><i><color #white><size:14>**Orchestration**
+****[#darkorange] <i><color #black><size:14><size:14>**[[docs/3-devops/devops-plantuml-mindmap/kubernetes.puml Kubernetes]]**
+**[#lightblue] <i><color #blac><size:22>Workflow
+***[#darkorange] <b><i><color #white><size:14>**Step 1:** Code Commit
+***[#darkorange] <b><i><color #white><size:14>**Step 2:** CI/CD **Pipeline**
+***[#darkorange] <b><i><color #white><size:14>**Step 3:** **Deployment**
+***[#darkorange] <b><i><color #white><size:14>**Step 4:** Monitoring & Reconciliation
+**[#lightblue] <i><color #blac><size:14>Benefits
+***[#green] <b><i><color #white><size:14>Consistency
+***[#green] <b><i><color #white><size:14>Traceability
+***[#green] <b><i><color #white><size:14>Faster Recovery
+***[#green] <b><i><color #white><size:14>Improved Security
+**[#lightblue] <i><color #blac><size:14>Challenges
+***[#green] <b><i><color #white><size:14>Initial Setup
+***[#green] <b><i><color #white><size:14>Learning Curve
+***[#green] <b><i><color #white><size:14>Security Concerns
+**[#lightblue] <i><color #blac><size:14>Tools
+***[#green] <b><i><color #white><size:14>**Flux**
+***[#green] <b><i><color #white><size:14>**Argo CD**
+***[#green] <b><i><color #white><size:14>**Jenkins X**
+***[#green] <b><i><color #white><size:14>**Gitkube**
+@endmindmap
