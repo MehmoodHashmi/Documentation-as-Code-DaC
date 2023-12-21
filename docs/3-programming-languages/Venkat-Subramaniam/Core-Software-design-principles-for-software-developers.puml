@@ -408,12 +408,13 @@ skinparam hyperlinkColor white
 ****<i><color #black><size:14>If I **"use"** this particular **"code"**, am I going to **violate (OCP)** here?
 ****<i><color #black><size:14>Should I really "use" **DIP** to gain access & **test** this <b>code?
 <img:images/img_44.png{scale=0.81}>
+==<i><color #black><size:14><b>UML & BPMN==
 *<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_174.png Class Associations]], Only use tools like [[a visual-paradigm]] if your system
 <i><color #black><size:14><b>has more than 50-classes.
 *<i><color #black><size:14><b>[[docs/2-uml/PlantUML/sequence-diagram/heart-of-sequence-diagram.puml Heart of Sequence diagram]]
 **<i><color #black><size:14><b>[[docs/2-uml/PlantUML/sequence-diagram/use-case-table-and-work-products.puml System Level Sequence Diagram (Use Case 2.0 & Work Products)]]
 **<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_211.png Sequence Diagram vs Use Case 2.0 vs Activity diagram]]
-*<i><color #black><size:14><b>[[docs/2-uml/PlantUML/activity-diagram/activity-diagram-syntax.png Activity Diagram syntax]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_128.jpg UML diagrams cheatsheet]]
+*<i><color #black><size:12><b>[[docs/2-uml/PlantUML/activity-diagram/activity-diagram-syntax.png Activity Diagram syntax]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_128.jpg UML diagrams cheatsheet]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_248.png Keep audience in mind of UML]]
 *<i><color #black><size:11><b>[[docs/3-programming-languages/Venkat-Subramaniam/synchronous-system-use-case-modeling.puml Synchronous System Use Case Modeling; <<include>> & <<extends>> relation]] implementation
 *<i><color #black><size:10><b>[[docs/3-programming-languages/Venkat-Subramaniam/asynchronous-system-use-case-modeling.puml Asynchronous System (EDA) Use Case Modeling; <<Publish>> & <<Subscribe>> relation]] implementation
 *<i><color #black><size:10><b>[[https://www.youtube.com/watch?v=F6omQ8avp5I&ab_channel=Prayance BPMN]] 7-minute video [[https://www.youtube.com/watch?v=nXImBt_HnNo&t=1114s&ab_channel=VisualParadigm Business Process Modeling with BPMN]] 45-minute video, [[docs/3-programming-languages/Venkat-Subramaniam/images/img_180.png BPMN notes]]
