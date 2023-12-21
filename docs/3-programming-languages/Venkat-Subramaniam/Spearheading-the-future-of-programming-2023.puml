@@ -26,7 +26,14 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ****[#yellow] <i><color #black><size:14>Learning new <b>"programming language"</b> is easy
 ****[#yellow] <i><color #black><size:14>Learning new <b>"programming Paradigm"</b> is hard <b>(takes more effort)
 ***[#green] <b><i><color #white><size:24>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_106.png Paradigm Shift]] <color:a>click me \n<img:images/img_40.png>\n<i><color #white><size:17>**Elon-MusK:** shared this "image" in <b>tweet
-****[#a] *<i><color #black><size:14>Every **new path** starts by throwing away what you already had & starting all over with <b>new vocabulary, new practices, & new gurus.\n*<i><color #black><size:14>And **Each path** results in a <u>**paradigm change**</u> with many **<u>methods</u>** -- sometime 100s of them.\n**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_62.png The ambition to engineer has gone up & down]] click me\n**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 13-Rule of Economy: Programmer time is expensive; conserve it in preference to machine time]] click me
+
+****[#a]:*<i><color #black><size:14>Every **new path** starts by throwing away what you already had & starting all over with <b>new vocabulary, new practices, & new gurus.
+*<i><color #black><size:14>And **Each path** results in a <u>**paradigm change**</u> with many **<u>methods</u>** -- sometime 100s of them.
+**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/mixed-paradigms-(the-method-to-madness).puml Mixed Paradigms: The method to madness]] click me
+**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_62.png The ambition to engineer has gone up & down]] click me
+**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 13-Rule of Economy: Programmer time is expensive; conserve it in preference to machine time]] click me
+;
+
 ****[#darkorange] <i><color #black><size:14><b>1st paradigm shift:</b> Procedural programming or <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.png "algorithmic decomposition" of code (modules)]]
 
 *****[#a]:*<i><color #black><size:14><b>Time & Space complexity analysis</b>
@@ -60,6 +67,9 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ** <color #black><size:14><i> <b>How these "callback" behave</b>
 ** <color #black><size:14><i> <b>How these "callback" work</b>
 ** <color #black><size:14><i> <b>And reason these "callback" work</b>
+<size:11><color #white><i><b>Venkat: I'm not a person who is happy when my code works. Actually I'm very unhappy when my code works.
+<size:11><color #white><i><b>Because I want to know how it works & why it works. <u>And I want to break it & then put it back together.
+**<size:14><color #white><i><b><u>Especially true for Entities & use case layer
 ====
 * <color #black><size:14><i><b>"Diagramming:" using [[docs/3-programming-languages/Venkat-Subramaniam/Introduction-to-SDL.puml Specification & Description language (SDL)]]
 * <color #green><size:14><i><b>"Asynchronous:" is good for real-time "event-driven, reactive & distributed systems"
@@ -69,6 +79,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 *<i><color #black><size:14>Construction/Setup <b>(at high level)
 *<i><color #black><size:14>Working & **why** its working?
 *<i><color #black><size:14>**And the reason** its working!;
+
 
 ****[#darkorange] <i><color #black><size:15><b>5th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml Functional Programming]] \n*<i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/sequential-vs-parallel.adoc Sequential vs Parallel]] click gif
 *****[#a]:*<i><color #green><size:14><b>Lambda (->) is indirection

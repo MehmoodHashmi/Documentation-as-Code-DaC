@@ -1,6 +1,5 @@
 @startmindmap
-
-title = <b><i><u>Imperative vs Functional: Which one to Choose?
+title = <b><i><u>Imperative vs Functional: Which one to Choose?\n<img:images/img_213.png{scale=1}>
 
 *:<i><size:16>The imperative style of programming is the most popular, familiar, and widely used, and yet is packed with accidental complexity. Functional programming is gaining popularity,
 <i><size:16>less accidental complexity, and makes it easier to understand code once we're familiar with the paradigm. However, it has its own set of limitations. Should we choose to
@@ -8,21 +7,27 @@ title = <b><i><u>Imperative vs Functional: Which one to Choose?
 <i><size:16>questions in this presentation;
 
 !theme hacker
-*[#darkblue] <i>Imperative vs Functional:\nWhich one to Choose?
+*[#darkblue] <color #white><i>Imperative vs Functional:\n<color #white><i>Which one to Choose?
 **[#lightblue] <i>Imperative Style
 ***[#green] <size:14><color #white><i> You tell **what** to do **and** how to do it
-****[#yellow] <size:14><color #black><i>Imperative style has higher accidental complexity
-****[#yellow] <size:14><color #black><i>Problem with imperative style
+****[#yellow] <size:14><color #black><i>Imperative style has <b>higher "accidental complexity"
+****[#yellow] <size:14><color #black><i>Problem with <b>imperative style
 *****[#yellow]:*<size:14><color #black><i>Garbage variables
 * <size:14><i>Has mutability
 * <size:14><i>Verbose
 * <size:14><i>Prone to "Errors"
 * <size:14><i>Hard to parallelize;
-***[#green]: <size:18><color #white><i>It is easier to write **(due to familiarity)** but **hard to read**. Don't confuse familiar with simple, things that are simple
-<size:18><color #white><i>should remain "simple", and things that are complex should be "manageable".
-
+***[#green]:<size:14><color #white><i>It is easier to write **(due to familiarity)** but **hard to read**.
+<size:14><color #white><i>Don't confuse familiar with simple, things that are simple
+<size:14><color #white><i>should remain "simple", and things that are complex
+<size:14><color #white><i>should be "manageable".
 <b><size:18><color #white><i>Example:
-<img:images/img_3.png{scale=1}>;
+<img:images/img_3.png{scale=1.13}>;
+****[#yellow]:<size:14><color #black><i>**Venkat:** It took me **8-min** to solve a **problem** in imperative style. <b>Easy to "write" but hard to read!
+<size:14><color #black><i>The same **problem** took me **8-hours** in declarative style (FP).<b> Hard to "write" but easy to read! ;
+****[#yellow] <size:14><color #black><i>Problem with <b>imperative style</b> is that it can get <b>progressively hard
+****[#yellow] <size:14><color #black><i><b>Imperative style</b> is good at dealing with <b>side-effects, exceptions
+****[#yellow] <size:14><color #black><i><b>Functional style</b> is good at dealing with <b>scale, parallelization, reasoning
 
 **[#lightblue] <i>Declarative Style
 ***[#green] <size:14><color #white><i> You tell **what** to do **but not** how to do it
@@ -30,7 +35,7 @@ title = <b><i><u>Imperative vs Functional: Which one to Choose?
 
 **[#lightblue] <size:22><i>[[docs/3-programming-languages/Venkat-Subramaniam/Streams.puml Functional Style\n(Streams)]]
 ***[#green] <b><size:18><color #white><i> Declarative Style + <color :darkorange>Higher Order Functions
-
+****[#yellow] <size:14><color #black><i><b>Functional style</b> is good at dealing with <b>scale, parallelization, reasoning
 
 ***[#green] <b><size:14><color #white><i> <i><color :darkorange>Higher Order Functions
 

@@ -1,0 +1,90 @@
+@startmindmap
+title =<b><i><u>Mixed Paradigm: The method to madness
+!theme hacker
+
+*[#darkblue] <color #white><i>Mixed Paradigm:\n<color #white><i>The method to madness
+**[#lightblue] <i>Introduction
+***[#green]:<size:14><color #white><i>Who are we? And if you ask a group of people who we are you're gonna get answers something like this you're gonna have people say they are programmers they're coders
+<size:14><color #white><i>they are developers they are data scientists they're computer scientiststhey are software engineers they're managers they're architects.
+<size:14><color #white><i><b>But who are we really? We're not any of those what we really are; **We are problem solvers**;
+***[#green] <size:14><color #white><i>Some of us create more problems than we solve but nevertheless <b>we are problem solvers
+**[#lightblue] <i>Problem Solving
+***[#green] <size:14><color #white><i><b>Programming languages
+****[#yellow] <size:14><color #black><i>is a **small part** of <b>problem solving</b> of solving the big puzzle
+****[#yellow] <size:14><color #black><i>Languages play a role in that; but very small role
+****[#yellow] <size:14><color #black><i>Languages play a role in that; but very small role
+***[#green] <size:14><color #white><i><b>What is language?
+****[#yellow] <size:14><color #black><i>is a <b>communication "tool"
+****[#yellow]:<size:14><color #black><i>I see **languages** as **vehicles.** And certain (some) **vehicles** are better for **transportation** in a **certain situation**.
+*<size:14><color #black><i>You know a **bicycle** versus a **car** versus an **airplane** or a <b>helicopter.;
+****[#yellow] <size:14><color #black><i>Similarly on a given day for different tasks & projects you want to use <b>different programing languages (tools)
+****[#a] <size:14><color #black><i>is a <b>form of "expression"
+***[#green] <size:14><color #white><i><b>Turing complete
+****[#yellow] <size:14><color #black><i>Almost every single programing language we use today is turing complete. \n*<size:14><color #black><i>If Language is turing complete then it can be used as **general purpose** programing language
+
+****[#yellow] <size:14><color #black><i>Language turing completeness is **necessary** but not <b>sufficient in selecting language.\n*<size:14><color #black><i>Saying that most languages are turing complete is like saying that most people can sing <b>(program)
+*****[#gold]:<size:14><color #black><i><b>What about?
+*<size:14><color #black><i>**Ease** of programing language
+*<size:14><color #black><i>**Elegance** of programing language
+*<size:14><color #black><i>**Performance** of programing language
+*<size:14><color #black><i>**Efficiency** of programing language
+*<size:14><color #black><i>**Usability** of programing language
+*<size:14><color #black><i>**Ease** of **testing** in  programing language
+*<size:14><color #black><i>**Maintainability** of programing language;
+***[#green] <size:14><color #white><i><b>Languages comes in different flavours
+****[#yellow] <size:14><color #black><i><b>Strong, weak, static & dynamic\n<img:images/img_212.png{scale=.6}>
+***[#green] <size:14><color #white><i><b>Programming language paradigm</b>
+****[#yellow] <size:14><color #black><i><b>Procedural
+*****[#yellow] <size:14><color #black><i><b>We write procedures or functions
+****[#yellow] <size:14><color #black><i><b>Structured
+*****[#yellow] <size:14><color #black><i><b>If-else construct, entry point & exit point & goto statements are evil
+****[#yellow] <size:14><color #black><i><b>Object-Oriented
+*****[#yellow] <size:12><color #black><i><b>"Objects" as "encapsulated boundaries", capturing "behavior" not as much "state". but this lead to wrong direction
+****[#yellow] <size:14><color #black><i><b>Distributed Computing
+*****[#a] <size:11><color #white><i><b>Venkat: I'm not a person who is happy when my code works. Actually I'm very unhappy when my code works.\n<size:11><color #white><i><b>Because I want to know how it works & why it works. <u>And I want to break it & then put it back together.\n**<size:11><color #white><i><b><u>Especially true for Entities & use case layer
+****[#yellow] <size:14><color #black><i><b>Functional
+*****[#yellow] <size:11><color #black><i><b>"Encapsulation" of transformation engines (behavior & state changes), and then composition of functions & lazy evaluation
+****[#yellow] <size:14><color #black><i><b>Reactive (FP++)
+***[#green] <size:14><color #white><i><b>What's common & different between languages?
+****[#yellow] <size:14><color #black><i><b>David Wheeler</b> "All problems in computer science can be solved by another level of indirection." <b><u>Except another level of indirection
+****[#yellow]:<size:14><color #black><i><b>level of indirection is the common thread (thing) between paradigms.</b>
+*<size:14><color #black><i><b>Every single new paradigm offers a level of indirection.
+*<size:14><color #black><i><b>level of indirection in:
+|<#white><size:14><color #black><i><b>Paradigm|<#white><size:14><color #black><i><b>Indirection|
+|<#white><size:14><color #black><i><b>Procedural|<#blue><size:14><color #white><i><b>Pointer|
+|<#white><size:14><color #black><i><b>Object-Oriented|<#blue><size:14><color #white><i><b>Polymorphism|
+|<#white><size:14><color #black><i><b>Functional|<#blue><size:14><color #white><i><b>lambda ("lazy evaluation" is to "FP" what "polymorphism" is to "OOP")|;
+***[#green] <size:14><color #white><i><b>Misguised Conversation
+****[#yellow] <size:14><color #black><i><b>Object-Oriented vs Functional
+****[#yellow] <size:14><color #black><i><b>The real question should be:
+*****[#gold] <size:14><color #black><i><b>Imperative vs Declarative
+******[#a] <size:14><color #black><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml What is the difference between them? click me]]
+****[#yellow] <size:14><color #black><i><b>Clearly functional style is better right?
+*****[#darkorange] <size:14><color #black><i><b>Should programing style be \n<size:14><color #black><i><b>imperative or functional?
+******[#gold] <size:14><color #black><i><b>Is "light" particle or wave?
+*******[#gold] <size:14><color #black><i><b>Wave-particle duality?
+******[#gold]:<size:14><color #black><i><b>In "programing" we 've <color #red>Imperative-Functional duality
+*<u><size:14><color #black><i><b>Imperative or functional?
+**<size:14><color #black><i><b>It's none of them
+**<size:14><color #black><i><b>There are times when code has to be <color #red>imperative
+**<size:14><color #black><i><b>And there are times when code has to be <color #red>functional
+**<size:14><color #black><i><b>And there are times when <color #red>mixing both makes good sense ;
+****[#yellow] <size:14><color #black><i><b>Capabilities of \n<size:14><color #black><i><b>modern languages
+*****[#gold] <size:14><color #black><i><b>Streams
+******[#a] <size:14><color #white><i><b>Structure of <color #yellow>"Sequential Functional Code" can be same as\n<size:14><color #white><i><b>Structure of <color #blue>"Concurrent Functional Code"
+*******[#a] <size:14><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Concurrency-and-Parallelism/images/img_1.png Goal of "Concurrency Code" click me]]
+*****[#yellow]:*<size:14><color #black><i><b>Languages should enable & should not limit our form of "expressions"
+<size:14><color #black><i>This is one thing I'm very keen on when it comes to choosing what **programming paradigms** to use & to choose the language to program
+<size:14><color #black><i> in, and I want the **flexibility, not the limitations.** So the **language** should enable me & should not **limit the form of expression** & give
+<size:14><color #black><i>me the ability to choose the **form of expression** that's right for the problem at hand. In a way, I would say to me languages are like this hybrid.
+|<img:images/img_214.png{scale=1}>|<img:images/img_215.png{scale=1.48}>|
+<img:images/img_216.png{scale=.8}>
+*<size:14><color #black><i>We can have this **hybrid** of you know a **hybrid plane** it is up in the air we can also be on top of the water as the case may be.
+<img:images/img_217.png{scale=.8}>
+<size:14><color #black><i>So I'm not suggesting to be whimsical but what I'm saying is that we should learn these things but be willing to accept that there are differences
+<size:14><color #black><i>after all I would argue wisdom is realizing that there are no absolutes so anytime we want to seek absolutes I think we failed really badly and so
+<size:14><color #black><i>I would just end by saying wisdom is realizing that there are no absolutes hope that was useful
+====
+<img:images/img_218.png{scale=.8}>;
+@endmindmap
+
