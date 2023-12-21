@@ -257,13 +257,13 @@ skinparam hyperlinkColor white
 *<i><color #black><size:14>local processes can be <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png statically or dynamically linked]] click me
 *<i><color #yellow><size:14>**"Components"** are delivered in <b>binary or .Jar, DLL</b> or some equivalent form.
 |<#blue><i><color #yellow><size:14>Processes execute on "same" <b>processor or multi-core but "separate address space". [[docs/books/1-books-backlog/operating-system/operating-system.puml click me]]|;
-****[#darkorange] <i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_126.png 5- Services Boundary:]]**
+****[#darkorange] <i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_246.png 5- Services Boundary:]]**
 *****[#yellow]:*<i><color #black><size:14>Service is a <b>process
 |<#white><i><color #black><size:14>**"Service"** don't depend upon <b>physical location.|
 |<#blue><i><color #white><size:14>Two communicating "services" may, or may not, operate in the "same" <b><u>physical processor or multi-core machine.|
 |<#white><i><color #black><size:14>The **"services"** assume that all **"communication"** take place <b>over the network.|
 *<i><color #black><size:14>**Communication** across **"service boundaries"** are very **slow** compared to <b>function calls;
-******[#yellow] <img:images/img_126.png{scale=.2}>;
+******[#yellow] <img:images/img_246.png{scale=.135}>
 **[#lightblue] <i><color #black><size:14>Keep it DRY!
 ***[#green] <i><color #white><b><size:14>Don't Repeat yourself
 ****[#yellow]:<i><color #black><size:14>Don't duplicate <b>code
