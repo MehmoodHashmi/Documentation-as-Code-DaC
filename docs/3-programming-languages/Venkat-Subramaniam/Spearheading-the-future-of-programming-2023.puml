@@ -11,6 +11,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ***[#green] <i><color #white><size:14><b>Where things are today and where things are heading?
 ****[#a] <i><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_68.png How "science" is different from "computing"? Grady Booch]]
 *****[#a] <i><size:14><b><i><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Conception-Notation-and-Implementation.puml Conception, notation & then implementation]]
+****[#darkorange] <i><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Refactor-your-language-knowledge-portfolio-(we-are-what-we-can-code-in).puml Refactor your language knowledge portfolio (we are what we can code in)]] Venkat Subramaniam
 ****[#a] <i><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_69.png Religion vs Philosophy vs Science vs literature (Art/Craft)]]
 *****[#a] <i><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_239.png Dr. Naveed Malik Advice]]
 
@@ -31,8 +32,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 *<i><color #black><size:14>And **Each path** results in a <u>**paradigm change**</u> with many **<u>methods</u>** -- sometime 100s of them.
 **<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/mixed-paradigms-(the-method-to-madness).puml Mixed Paradigms: The method to madness]] click me
 **<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_62.png The ambition to engineer has gone up & down]] click me
-**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 13-Rule of Economy: Programmer time is expensive; conserve it in preference to machine time]] click me
-;
+**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 13-Rule of Economy: Programmer time is expensive; conserve it in preference to machine time]] click me;
 
 ****[#darkorange] <i><color #black><size:14><b>1st paradigm shift:</b> Procedural programming or <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.png "algorithmic decomposition" of code (modules)]]
 
