@@ -46,10 +46,10 @@ title =<b><i><u>Mixed Paradigm: The method to madness
 *****[#yellow] <size:11><color #black><i><b>"Encapsulation" of transformation engines (behavior & state changes), and then composition of functions & lazy evaluation
 ****[#yellow] <size:14><color #black><i><b>Reactive (FP++)
 ***[#green] <size:14><color #white><i><b>What's common & different between languages?
-****[#yellow] <size:14><color #black><i><b>David Wheeler</b> "All problems in computer science can be solved by another level of indirection." <b><u>Except another level of indirection
-****[#yellow]:<size:14><color #black><i><b>level of indirection is the common thread (thing) between paradigms.</b>
+****[#yellow] <size:14><color #black><i><b>David Wheeler</b> "All problems in computer science can be solved by another level of indirection," \n<size:14><color #black><i><b><u>Except for the problem of too many layers of indirection.
+****[#yellow]:<size:14><color #black><i><b>Level of indirection is the common thread (thing) between paradigms.</b>
 *<size:14><color #black><i><b>Every single new paradigm offers a level of indirection.
-*<size:14><color #black><i><b>level of indirection in:
+*<size:14><color #black><i><b>Level of indirection in:
 |<#white><size:14><color #black><i><b>Paradigm|<#white><size:14><color #black><i><b>Indirection|
 |<#white><size:14><color #black><i><b>Procedural|<#blue><size:14><color #white><i><b>Pointer|
 |<#white><size:14><color #black><i><b>Object-Oriented|<#blue><size:14><color #white><i><b>Polymorphism|

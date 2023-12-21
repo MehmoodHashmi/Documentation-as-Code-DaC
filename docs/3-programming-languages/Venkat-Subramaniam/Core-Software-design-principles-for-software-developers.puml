@@ -43,6 +43,8 @@ skinparam hyperlinkColor white
 ****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_98.png Almost impossible to get "design" right the first time (in one sitting)]] click me
 ****[#yellow] <i><color #black><size:14>Software is never **written,** it is always <b>rewritten.
 *****[#gold] <i><color #black><size:14>Because any "software" that is **"relevant"** has to <b>change\n*<i><color #black><size:14>Otherwise, it means your **"client or business"** has become <b>bankrupt
+****[#darkorange] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_241.png Trade-off]]
+*****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_241.png The common trade-off between "cost & quality", this trade-off doesn't apply to software.]] click me
 
 **[#lightblue] *<i><color #white><size:14><b>Poor design &\n*<i><color #white><size:14><b>Design smells
 ***[#green] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-agile-design.puml Why Software Rots?]]
@@ -142,7 +144,7 @@ skinparam hyperlinkColor white
 ***[#green] <i><color #white><size:14><b>Like things stay together, and unlike things stay apart
 ****[#yellow] <i><color #black><size:14>**"Code that deals"** with **database** is different than **"code that deals"** with <b>XML processing
 ****[#yellow] <i><color #black><size:14>**"Code that deals"** with **database** is different than **"code that deals"** with <b>UI
-**[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_51.png Coupling]]\n<img:images/img_154.png{scale=.77}>
+**[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_240.png Coupling]]\n<img:images/img_154.png{scale=.77}>
 ***[#green] <i><color #white><size:14><b>is what you depend on
 ****[#yellow] <i><color #black><size:14>Worst form of coupling is <b>inheritance
 ****[#yellow] <i><color #black><size:14>Try to see if you can remove coupling
@@ -182,6 +184,7 @@ skinparam hyperlinkColor white
 
 *****[#a]:*<i><color #black><size:14><b>[[docs/3-programming-languages/JVM-ecosystem/java/simple-jar-vs-modular-jar.puml Simple .jar vs modular .jar]] click me
 *<i><color #black><size:14><b>[[docs/3-programming-languages/JVM-ecosystem/java/java-9-onwards.puml Java-9 onwards]] click me
+*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-modularity-in-java.puml What is modularity in Java]] click me
 |<#blue><i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/module-design-guidelines-(size-and-weight).puml Module Design Guidelines (size & weight)]] click me|;
 
 ****[#a]:<i><color #black><size:14>An important <u>**"part of structuring software"**</u> that **SOLID** doesn't cover is <u><b>"how to group classes into packages & components"
