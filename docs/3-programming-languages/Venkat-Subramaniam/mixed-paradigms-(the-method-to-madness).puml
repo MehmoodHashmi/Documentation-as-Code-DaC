@@ -33,6 +33,7 @@ title =<b><i><u>Mixed Paradigm: The method to madness
 *<size:14><color #black><i>**Maintainability** of programing language;
 ***[#green] <size:14><color #white><i><b>Languages comes in different flavours
 ****[#yellow] <size:14><color #black><i><b>Strong, weak, static & dynamic\n<img:images/img_212.png{scale=.6}>
+*****[#a] <size:14><color #black><i><b>[[docs/3-programming-languages/Ola-Bini's-Language-Pyramid.puml Ola Bini's Language Pyramid]]
 ***[#green] <size:14><color #white><i><b>Programming language paradigm</b>
 ****[#yellow] <size:14><color #black><i><b>Procedural
 *****[#yellow] <size:14><color #black><i><b>We write procedures or functions

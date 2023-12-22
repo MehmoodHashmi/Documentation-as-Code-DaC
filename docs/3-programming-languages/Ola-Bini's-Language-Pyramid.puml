@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><b><u>Ola Bini's Language Pyramid\n<img:images/img_3.png> <img:images/img_4.png> <img:images/img_5.png>
+title =<i><b><u>Ola Bini's Language Pyramid\n<img:images/img_3.png{scale=.76}> <img:images/img_4.png> <img:images/img_5.png{scale=.74}>
 !theme hacker
 
 *[#darkblue] <i><color:#white>Key Takeaways from \n<i><color:white>Ola Bini's Language Pyramid
@@ -89,11 +89,11 @@ title =<i><b><u>Ola Bini's Language Pyramid\n<img:images/img_3.png> <img:images/
 ***[#green] <b><i><color #white><size:14>Business Rules
 ****[#yellow] <i><color #black><size:14>Rule-based languages such as Drools for decision making
 ***[#green] <b><i><color #white><size:14>Industry-Specific Solutions
-****[#yellow] <i><color #black><size:14>MATLAB for mathematical modeling in engineering and science
-****[#yellow] <i><color #black><size:14>R for statistical analysis in data science
+****[#yellow] <i><color #black><size:14>**MATLAB** for mathematical modeling in engineering and science
+****[#yellow] <i><color #black><size:14>**R** for **statistical analysis** in data science
 **[#lightblue] <i><color #blac><size:14>Dynamic Layer
 ***[#green] <b><i><color #white><size:14>High-level Language
-****[#yellow] <i><color #black><size:14>Python for data analysis, web development, and automation
+****[#yellow] <i><color #black><size:14>**Python** for data analysis, web development, and automation
 ****[#yellow] <i><color #black><size:14>Ruby for web development and scripting
 ***[#green] <b><i><color #white><size:24>Interpreted Language
 ****[#yellow] <i><color #black><size:14>JavaScript for web development and browser scripting

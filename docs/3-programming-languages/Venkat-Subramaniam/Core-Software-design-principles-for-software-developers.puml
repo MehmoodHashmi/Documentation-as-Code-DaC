@@ -409,7 +409,9 @@ skinparam hyperlinkColor white
 ****<i><color #black><size:14>What is the **"responsibility"** of the "class" I'm <b>designing?
 ****<i><color #black><size:14>If I **"use"** this particular **"code"**, am I going to **violate (OCP)** here?
 ****<i><color #black><size:14>Should I really "use" **DIP** to gain access & **test** this <b>code?
+*<b><i><color #black><size:14>[[docs/books/1-books-backlog/data-structure-and-algorithm/classes-vs-data-structures.puml Classes Vs. Data structures]] click me
 <img:images/img_44.png{scale=0.81}>
+
 ==<i><color #black><size:14><b>UML & BPMN==
 *<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_174.png Class Associations]], Only use tools like [[a visual-paradigm]] if your system
 <i><color #black><size:14><b>has more than 50-classes.

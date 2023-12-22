@@ -1,0 +1,40 @@
+@startuml
+
+struct Square1 << <b>data-structure>>{
+int topLeftPoint
+int lengthOfSide
+shapeType typeCode
+}
+
+struct Circle1 << <b>data-structure>> {
+int centerPoint
+int radius
+shapeType typeCode
+}
+
+class Square
+class Circle
+interface Shape {
+calculateArea()
+calculatePerimeter()
+}
+
+shapeType <.. Square1
+shapeType <.. Circle1
+
+Shape <|.. Square
+Shape <|.. Circle
+
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum shapeType {
+'DAYS
+'HOURS
+'MINUTES
+}
+
+@enduml
