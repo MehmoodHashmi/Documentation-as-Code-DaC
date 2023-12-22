@@ -1,0 +1,37 @@
+@startmindmap
+title =<i><b><u>Convention over Configuration
+!theme hacker
+
+
+*[#darkblue] <i><color #white>Convention over Configuration
+**[#lightblue] <i><color #blac><size:14>Definition
+***[#green] <b><i><color #white><size:14>Emphasizes default conventions and assumptions to reduce explicit configuration in software development.
+**[#lightblue] <i><color #blac><size:14>Key Aspects
+***[#green] <b><i><color #white><size:14>Default Settings
+****[#yellow] <i><color #black><size:14>Systems provide default configurations that work effectively in most scenarios.
+***[#green] <b><i><color #white><size:14>Reduced Boilerplate Code
+****[#yellow] <i><color #black><size:14>Minimizes the need for repetitive, configuration-related code.
+***[#green] <b><i><color #white><size:14>Consistency and Predictability
+****[#yellow] <i><color #black><size:14>Common conventions lead to predictability and ease of understanding across projects.
+***[#green] <b><i><color #white><size:14>Faster Development
+****[#yellow] <i><color #black><size:14>Developers focus on application-specific logic rather than extensive configurations.
+**[#lightblue] <i><color #blac><size:14>Examples
+***[#green] <b><i><color #white><size:14>Frameworks and Libraries
+****[#gold] <i><color #black><size:14>Ruby on Rails, Django, **Spring Boot:** Offer defaults, reducing configuration needs.
+***[#green] <b><i><color #white><size:14>File Structure and Naming
+****[#yellow] <i><color #black><size:14>Specific folder structures or file names imply their role without explicit configuration.
+***[#green] <b><i><color #white><size:14>Database Mapping
+****[#yellow] <i><color #black><size:14>ORM frameworks map database tables to object models based on naming conventions.
+**[#lightblue] <i><color #blac><size:14>Benefits
+***[#green] <b><i><color #white><size:14>Productivity
+****[#yellow] <i><color #black><size:14>Saves time by reducing the need for extensive configuration.
+***[#green] <b><i><color #white><size:14>Consistency
+****[#yellow] <i><color #black><size:14>Ensures uniformity across projects, aiding comprehension.
+***[#green] <b><i><color #white><size:14>Focus on Business Logic
+****[#yellow] <i><color #black><size:14>Developers concentrate on writing application-specific code.
+**[#lightblue] <i><color #blac><size:14>Challenges
+***[#green] <b><i><color #white><size:14>Limited Flexibility
+****[#yellow] <i><color #black><size:14>Might restrict customization in scenarios requiring deviations from conventions.
+***[#green] <b><i><color #white><size:14>Learning Curve
+****[#yellow] <i><color #black><size:14>New developers must grasp and adapt to established conventions.
+@endmindmap

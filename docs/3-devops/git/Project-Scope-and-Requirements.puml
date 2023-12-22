@@ -1,0 +1,29 @@
+@startmindmap
+title =<i><b><u>Project Scope and Requirements
+!theme hacker
+
+*[#darkblue] <i>Project Scope and Requirements
+**[#lightblue] <i><color #blac><size:14>Scope Management
+***[#green] <b><i><color #white><size:14>Defining Project Boundaries
+****[#yellow] <i><color #black><size:14>Clearly outlining what's included and excluded in the project.
+***[#green] <b><i><color #white><size:14>Scope Creep Mitigation
+****[#yellow] <i><color #black><size:14>Strategies to prevent uncontrolled scope expansion.
+***[#green] <b><i><color #white><size:14>Change Control
+****[#yellow] <i><color #black><size:14>Managing changes to the project scope effectively.
+**[#lightblue] <i><color #blac><size:14>Requirement Elicitation
+***[#green] <b><i><color #white><size:14>Stakeholder Collaboration
+****[#yellow] <i><color #black><size:14>Involving stakeholders to gather diverse perspectives.
+***[#green] <b><i><color #white><size:14>User Stories
+****[#yellow] <i><color #black><size:14>Capturing user needs and expectations in story format.
+***[#green] <b><i><color #white><size:14>Prototyping
+****[#yellow] <i><color #black><size:14>Building mock-ups or prototypes to clarify requirements.
+***[#green] <b><i><color #white><size:14>Analysis Techniques
+****[#yellow] <i><color #black><size:14>Employing various methods for thorough requirement analysis.
+**[#lightblue] <i><color #blac><size:14>Requirement Documentation
+***[#green] <b><i><color #white><size:14>Clarity and Completeness
+****[#yellow] <i><color #black><size:14>Ensuring requirements are clear, comprehensive, and unambiguous.
+***[#green] <b><i><color #white><size:14>Traceability
+****[#yellow] <i><color #black><size:14>Establishing traceability between requirements and project outcomes.
+***[#green] <b><i><color #white><size:14>Prioritization
+****[#yellow] <i><color #black><size:14>Ranking requirements based on criticality and necessity.
+@endmindmap

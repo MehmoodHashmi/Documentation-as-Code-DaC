@@ -1,0 +1,24 @@
+@startmindmap
+title =<i><b><u>Complexity vs. Simplicity
+!theme hacker
+
+*[#darkblue] <i>Complexity vs. Simplicity
+**[#lightblue] <i><color #blac><size:14>Complexity
+***[#green] <b><i><color #white><size:14>Interconnectedness
+****[#yellow] <i><color #black><size:14>Relationships among various components or elements.
+***[#green] <b><i><color #white><size:14>Cognitive Load
+****[#yellow] <i><color #black><size:14>The mental effort required to understand a system.
+***[#green] <b><i><color #white><size:14>Non-linearity
+****[#yellow] <i><color #black><size:14>Behavior or outcomes not directly proportional to inputs.
+***[#green] <b><i><color #white><size:14>Dependencies
+****[#yellow] <i><color #black><size:14>Interdependencies among components or processes.
+**[#lightblue] <i><color #blac><size:14>Simplicity
+***[#green] <b><i><color #white><size:14>Clarity and Understandability
+****[#yellow] <i><color #black><size:14>Easily comprehensible and straightforward structures.
+***[#green] <b><i><color #white><size:14>Minimized Dependencies
+****[#yellow] <i><color #black><size:14>Reducing reliance on intricate interconnections.
+***[#green] <b><i><color #white><size:14>Intuitive Design
+****[#yellow] <i><color #black><size:14>Designs that are easy to grasp and use intuitively.
+***[#green] <b><i><color #white><size:14>Essentialism
+****[#yellow] <i><color #black><size:14>Focusing on the core elements, minimizing unnecessary details.
+@endmindmap

@@ -39,9 +39,9 @@ title =<i><b><u>__ Advanced Git__\n<i>Overall, this mind map should help develop
 ***[#green] <b><i><color #white><size:14>Benefits
 ****[#yellow] <i><color #black><size:14>Saves time and effort in identifying the cause of a bug
 ****[#yellow] <i><color #black><size:14>Useful for large codebases with complex commit histories
-**[#lightblue] <i><color #blac><size:14>Workflows
+**[#lightblue] <i><color #blac><size:22>[[a Workflows]]
 ***[#green] <b><i><color #white><size:14>Definition
-****[#yellow] <i><color #black><size:14>Workflows are defined processes for using Git in a team environment. Different workflows offer different approaches to collaboration and integration of changes.
+****[#gold] <i><color #black><size:14>**Workflows** are **defined processes** for using **Git** in a **team environment.** "Different workflows" offer different **approaches** to <b>collaboration & integration of changes.
 ***[#green] <b><i><color #white><size:14>Examples
 ****[#yellow] <i><color #black><size:14>Centralized Workflow
 ****[#yellow] <i><color #black><size:14>Feature Branch Workflow

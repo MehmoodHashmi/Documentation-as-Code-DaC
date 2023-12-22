@@ -1,0 +1,52 @@
+@startmindmap
+title =<i><b><u>GitLab Flow
+!theme hacker
+
+*[#darkblue] <i>GitLab Flow
+**[#lightblue] <i><color #blac><size:14>Overview
+***[#green] <b><i><color #white><size:14>Based on Feature Branch Workflow
+****[#yellow] <i><color #black><size:14>Emphasizes feature-based development and CI/CD practices within GitLab.
+***[#green] <b><i><color #white><size:14>Integrated CI/CD Pipelines
+****[#yellow] <i><color #black><size:14>GitLab's native CI/CD capabilities integrated into the workflow.
+***[#green] <b><i><color #white><size:14>Iterative Development
+****[#yellow] <i><color #black><size:14>Promotes continuous integration and deployment for each feature.
+**[#lightblue] <i><color #blac><size:14>Main Components
+***[#green] <b><i><color #white><size:14>Main Branches
+****[#yellow] <i><color #black><size:14>master and production branches for stable and deployable code.
+***[#green] <b><i><color #white><size:14>Feature Branches
+****[#yellow] <i><color #black><size:14>Individual branches created for specific features or tasks.
+***[#green] <b><i><color #white><size:14>Merge Requests
+****[#yellow] <i><color #black><size:14>Propose, review, and merge changes via merge requests (MRs).
+***[#green] <b><i><color #white><size:14>CI/CD Pipelines
+****[#yellow] <i><color #black><size:14>Automated testing and deployment pipelines within GitLab.
+**[#lightblue] <i><color #blac><size:14>Workflow Characteristics
+***[#green] <b><i><color #white><size:14>Continuous Integration and Deployment
+****[#yellow] <i><color #black><size:14>Emphasizes automated testing and deployment of every feature branch.
+***[#green] <b><i><color #white><size:14>Iterative and Agile
+****[#yellow] <i><color #black><size:14>Supports an iterative development approach with short-lived branches.
+***[#green] <b><i><color #white><size:14>Collaboration and Code Review
+****[#yellow] <i><color #black><size:14>Encourages collaboration and code review through MRs.
+**[#lightblue] <i><color #blac><size:14>Process Flow
+***[#green] <b><i><color #white><size:14>Create Feature Branch
+****[#yellow] <i><color #black><size:14>Developers create a branch from the main branch for a new feature.
+***[#green] <b><i><color #white><size:14>Work on Feature
+****[#yellow] <i><color #black><size:14>Develop and commit changes to the feature branch.
+***[#green] <b><i><color #white><size:14>Create Merge Request
+****[#yellow] <i><color #black><size:14>Propose changes via an MR for review and integration.
+***[#green] <b><i><color #white><size:14>Review, Test, and Merge
+****[#yellow] <i><color #black><size:14>Code reviewed, tested, and merged into the main branches.
+**[#lightblue] <i><color #blac><size:14>Advantages
+***[#green] <b><i><color #white><size:14>Streamlined CI/CD Integration
+****[#yellow] <i><color #black><size:14>Seamless integration of CI/CD pipelines within the GitLab environment.
+***[#green] <b><i><color #white><size:14>Iterative and Agile Development
+****[#yellow] <i><color #black><size:14>Supports agile practices with short-lived feature branches.
+***[#green] <b><i><color #white><size:14>Automated Testing and Deployment
+****[#yellow] <i><color #black><size:14>Facilitates automated testing and deployment of each feature.
+**[#lightblue] <i><color #blac><size:14>Considerations
+***[#green] <b><i><color #white><size:14>Learning Curve
+****[#yellow] <i><color #black><size:14>Requires familiarity with GitLab's merge request-based workflow.
+***[#green] <b><i><color #white><size:14>Overhead in Pipeline Management
+****[#yellow] <i><color #black><size:14>Managing CI/CD pipelines for multiple feature branches.
+***[#green] <b><i><color #white><size:14>Branch and Merge Management
+****[#yellow] <i><color #black><size:14>Requires proper branch creation, tracking, and merging practices.
+@endmindmap

@@ -1,0 +1,54 @@
+@startmindmap
+title =<i><b><u>Gitflow Workflow
+!theme hacker
+
+*[#darkblue] <i>Gitflow Workflow
+**[#lightblue] <i><color #blac><size:14>Overview
+***[#green] <b><i><color #white><size:14>Long-lived Branches Strategy
+****[#yellow] <i><color #black><size:14>Utilizes multiple long-lived branches for managing development and releases.
+***[#green] <b><i><color #white><size:14>Defines Specific Branches for Different Phases
+****[#yellow] <i><color #black><size:14>Separates development, feature work, releases, and hotfixes.
+***[#green] <b><i><color #white><size:14>Advanced Version Control Strategy
+****[#yellow] <i><color #black><size:14>Focuses on maintaining a stable mainline while enabling ongoing development.
+**[#lightblue] <i><color #blac><size:14>Main Components
+***[#green] <b><i><color #white><size:14>Master Branch
+****[#yellow] <i><color #black><size:14>Represents the production-ready state of the project.
+***[#green] <b><i><color #white><size:14>Develop Branch
+****[#yellow] <i><color #black><size:14>Integration branch for ongoing development work.
+***[#green] <b><i><color #white><size:14>Feature Branches
+****[#yellow] <i><color #black><size:14>Dedicated branches for individual features or tasks.
+***[#green] <b><i><color #white><size:14>Release Branches
+****[#yellow] <i><color #black><size:14>Branches created for preparing and finalizing a release.
+***[#green] <b><i><color #white><size:14>Hotfix Branches
+****[#yellow] <i><color #black><size:14>Created to address immediate production issues.
+**[#lightblue] <i><color #blac><size:14>Workflow Characteristics
+***[#green] <b><i><color #white><size:14>Structured Development Phases
+****[#yellow] <i><color #black><size:14>Clearly defines stages for feature development, release, and hotfixes.
+***[#green] <b><i><color #white><size:14>Versioning and Release Management
+****[#yellow] <i><color #black><size:14>Offers precise control over versioning and release cycles.
+***[#green] <b><i><color #white><size:14>Strict Branch Management
+****[#yellow] <i><color #black><size:14>Follows a formalized approach to branch creation and merging.
+**[#lightblue] <i><color #blac><size:14>Process Flow
+***[#green] <b><i><color #white><size:14>Start from Develop
+****[#yellow] <i><color #black><size:14>Feature branches branched off from the develop branch.
+***[#green] <b><i><color #white><size:14>Merge to Develop
+****[#yellow] <i><color #black><size:14>Completed features merged back into the develop branch.
+***[#green] <b><i><color #white><size:14>Release Preparation
+****[#yellow] <i><color #black><size:14>Release branches branched off from develop for finalizing features.
+***[#green] <b><i><color #white><size:14>Merge to Master
+****[#yellow] <i><color #black><size:14>Approved releases merged into the master branch for production.
+**[#lightblue] <i><color #blac><size:14>Advantages
+***[#green] <b><i><color #white><size:14>Clear Release Cycle
+****[#yellow] <i><color #black><size:14>Organized approach to feature development and release management.
+***[#green] <b><i><color #white><size:14>Stable Main Branch
+****[#yellow] <i><color #black><size:14>Master branch remains stable and ready for deployment.
+***[#green] <b><i><color #white><size:14>Effective Hotfix Management
+****[#yellow] <i><color #black><size:14>Dedicated branches for immediate issue resolution in production.
+**[#lightblue] <i><color #blac><size:14>Considerations
+***[#green] <b><i><color #white><size:14>Complexity and Overhead
+****[#yellow] <i><color #black><size:14>Requires discipline in managing multiple long-lived branches.
+***[#green] <b><i><color #white><size:14>Learning Curve
+****[#yellow] <i><color #black><size:14>Might be challenging for new developers unfamiliar with the workflow.
+***[#green] <b><i><color #white><size:14>Resource Allocation
+****[#yellow] <i><color #black><size:14>Requires dedicated resources for branch management and release activities.
+@endmindmap

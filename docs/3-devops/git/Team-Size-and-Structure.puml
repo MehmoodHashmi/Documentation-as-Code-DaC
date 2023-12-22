@@ -1,0 +1,29 @@
+@startmindmap
+title =<i><b><u>Team Size and Structure
+!theme hacker
+
+*[#darkblue] <i>Team Size and Structure
+**[#lightblue] <i><color #blac><size:14>Team Size
+***[#green] <b><i><color #white><size:14>Small Teams
+****[#yellow] <i><color #black><size:14>Flexibility and agility in decision-making.
+****[#yellow] <i><color #black><size:14>Enhanced communication and camaraderie.
+***[#green] <b><i><color #white><size:14>Large Teams
+****[#yellow] <i><color #black><size:14>Diverse skill sets and broader expertise.
+****[#yellow] <i><color #black><size:14>Potential for specialized roles and scalability.
+***[#green] <b><i><color #white><size:14>Optimal Team Size
+****[#yellow] <i><color #black><size:14>Balancing dynamics for effective collaboration.
+****[#yellow] <i><color #black><size:14>Considering project scope and complexity.
+**[#lightblue] <i><color #blac><size:14>Team Structure
+***[#green] <b><i><color #white><size:14>Hierarchical
+****[#yellow] <i><color #black><size:14>Clear reporting and decision-making lines.
+****[#yellow] <i><color #black><size:14>Efficient task delegation and management.
+***[#green] <b><i><color #white><size:14>Flat Structures
+****[#yellow] <i><color #black><size:14>Increased autonomy and faster decision-making.
+****[#yellow] <i><color #black><size:14>Enhanced communication and collaboration.
+***[#darkorange] <b><i><color #white><size:22>Cross-Functional Teams
+****[#yellow] <i><color #black><size:14>Diverse skill sets within a single team.
+****[#yellow] <i><color #black><size:14>Comprehensive problem-solving and innovation.
+***[#darkorange] <b><i><color #white><size:22>Remote or Distributed Teams
+****[#yellow] <i><color #black><size:14>Flexibility and access to global talent pools.
+****[#yellow] <i><color #black><size:14>Challenges in communication and coordination.
+@endmindmap

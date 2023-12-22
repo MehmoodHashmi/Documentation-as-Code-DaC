@@ -1,0 +1,48 @@
+@startmindmap
+title =<i><b><u>Centralized Workflow
+!theme hacker
+
+*[#darkblue] <i>Centralized Workflow
+**[#lightblue] <i><color #blac><size:14>Overview
+***[#green] <b><i><color #white><size:14>Utilizes a Single Shared Repository
+****[#yellow] <i><color #black><size:14>All developers interact with a central repository.
+***[#green] <b><i><color #white><size:14>Linear Development Flow
+****[#yellow] <i><color #black><size:14>Follows a straightforward commit and update cycle.
+**[#lightblue] <i><color #blac><size:14>Main Components
+***[#green] <b><i><color #white><size:14>Master Branch
+****[#yellow] <i><color #black><size:14>Mainline branch representing the official project history.
+***[#green] <b><i><color #white><size:14>Commits and Updates
+****[#yellow] <i><color #black><size:14>Developers commit changes directly to the master branch.
+***[#green] <b><i><color #white><size:14>Collaboration and Communication
+****[#yellow] <i><color #black><size:14>Developers coordinate changes and updates through direct commits.
+**[#lightblue] <i><color #blac><size:14>Workflow Characteristics
+***[#green] <b><i><color #white><size:14>Simplicity and Linearity
+****[#yellow] <i><color #black><size:14>Easy-to-understand, sequential approach for development.
+***[#green] <b><i><color #white><size:14>Version Control
+****[#yellow] <i><color #black><size:14>Tracks changes and maintains a linear history.
+***[#green] <b><i><color #white><size:14>Limitations in Collaboration
+****[#yellow] <i><color #black><size:14>Lacks features for concurrent, collaborative development.
+**[#lightblue] <i><color #blac><size:14>Process Flow
+***[#green] <b><i><color #white><size:14>Clone Central Repository
+****[#yellow] <i><color #black><size:14>Developers clone the central repository to their local machines.
+***[#green] <b><i><color #white><size:14>Make Changes Locally
+****[#yellow] <i><color #black><size:14>Changes and updates made within the local repository.
+***[#green] <b><i><color #white><size:14>Commit to Central Repository
+****[#yellow] <i><color #black><size:14>Developers commit changes directly to the master branch.
+***[#green] <b><i><color #white><size:14>Pull Updates
+****[#yellow] <i><color #black><size:14>Periodically pull changes made by others from the central repository.
+**[#lightblue] <i><color #blac><size:14>Advantages
+***[#green] <b><i><color #white><size:14>Straightforward and Understandable
+****[#yellow] <i><color #black><size:14>Easy for new users to grasp and follow.
+***[#green] <b><i><color #white><size:14>Clear Versioning
+****[#yellow] <i><color #black><size:14>Provides a linear history of changes.
+***[#green] <b><i><color #white><size:14>Centralized Control
+****[#yellow] <i><color #black><size:14>Offers centralized oversight and management of the codebase.
+**[#lightblue] <i><color #blac><size:14>Considerations
+***[#green] <b><i><color #white><size:14>Limited Collaboration Features
+****[#yellow] <i><color #black><size:14>Restricts concurrent, collaborative work.
+***[#green] <b><i><color #white><size:14>Risk of Conflicting Changes
+****[#yellow] <i><color #black><size:14>Direct commits to master may lead to conflicts.
+***[#green] <b><i><color #white><size:14>Central Repository Dependency
+****[#yellow] <i><color #black><size:14>Heavily reliant on the central repository's availability.
+@endmindmap

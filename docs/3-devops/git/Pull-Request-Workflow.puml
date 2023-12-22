@@ -1,0 +1,43 @@
+@startmindmap
+title =<i><b><u>Pull Request Workflow
+!theme hacker
+
+*[#darkblue] <i>Pull Request Workflow
+**[#lightblue] <i><color #blac><size:14>Development
+***[#green] <b><i><color #white><size:14>Create a Branch
+****[#yellow] <i><color #black><size:14>Branch off from the main branch <b>(e.g., "develop").
+***[#green] <b><i><color #white><size:14>Work on Feature/Issue
+****[#yellow] <i><color #black><size:14>Make changes, implement features, or fix issues.
+***[#green] <b><i><color #white><size:14>Commit Changes
+****[#yellow] <i><color #black><size:14>Regularly commit changes with descriptive messages.
+***[#green] <b><i><color #white><size:14>Push Branch
+****[#yellow] <i><color #black><size:14>Push the branch with changes to the remote repository.
+**[#lightblue] <i><color #blac><size:14>Initiate Pull Request
+***[#green] <b><i><color #white><size:14>Create Pull Request
+****[#yellow] <i><color #black><size:14>Open a PR to merge changes into the main branch.
+***[#green] <b><i><color #white><size:14>Add Description
+****[#yellow] <i><color #black><size:14>Provide a clear description of changes made.
+***[#green] <b><i><color #white><size:14>Assign Reviewers
+****[#yellow] <i><color #black><size:14>Assign relevant team members as reviewers for the PR.
+***[#green] <b><i><color #white><size:14>Set Labels or Tags
+****[#yellow] <i><color #black><size:14>Categorize PRs with labels <b>(e.g., bug fix, feature, enhancement).
+**[#lightblue] <i><color #blac><size:14>Review Process
+***[#green] <b><i><color #white><size:14>Review Code Changes
+****[#yellow] <i><color #black><size:14>Reviewers inspect code, offer feedback, and suggest improvements.
+***[#green] <b><i><color #white><size:14>Address Feedback
+****[#yellow] <i><color #black><size:14>Make necessary changes based on reviewer comments.
+***[#green] <b><i><color #white><size:14>Continuous Integration <b>(CI)
+****[#yellow] <i><color #black><size:14>Run automated tests and checks on the proposed changes.
+**[#lightblue] <i><color #blac><size:14>Approval and Merging
+***[#green] <b><i><color #white><size:14>Approval
+****[#yellow] <i><color #black><size:14>Wait for approval from designated reviewers.
+***[#green] <b><i><color #white><size:14>Merge PR
+****[#yellow] <i><color #black><size:14>Merge changes into the main branch upon approval.
+***[#green] <b><i><color #white><size:14>Delete Branch
+****[#yellow] <i><color #black><size:14>Optionally delete the feature branch after successful merging.
+**[#lightblue] <i><color #blac><size:14>Post-Merge Actions
+***[#green] <b><i><color #white><size:14>Update Documentation
+****[#yellow] <i><color #black><size:14>Update project documentation if necessary.
+***[#green] <b><i><color #white><size:14>Deploy Changes
+****[#yellow] <i><color #black><size:14>Deploy the merged changes to relevant environments.
+@endmindmap
