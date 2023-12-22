@@ -1,5 +1,6 @@
 @startmindmap
-title =<i><b><u>Classes Vs. Data-structures
+title =<i><b><u>Classes Vs. Data-structures \n|<img:images/img_19.png{scale=.85}>|<img:images/img_21.png{scale=.85}>|<img:images/img_23.png{scale=.84}>|
+caption |<img:images/img_16.png>|<img:images/img_18.png>|\n\n|<img:images/img_22.png>| |<img:images/img_24.png>|
 * ==<b><i>[[docs/books/1-books-backlog/data-structure-and-algorithm/classes-vs-data-structres.adoc Class Vs. Data-structures .adoc file important aritcle by robert c martin]] A must read talks about DTO's, Databases, ORM, etc.
 !theme hacker
 
