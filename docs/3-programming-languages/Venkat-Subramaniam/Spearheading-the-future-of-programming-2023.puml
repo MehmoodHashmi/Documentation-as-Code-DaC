@@ -44,7 +44,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 *<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_72.png "Pointer" is "in-direction"]]
 *<i><color #black><size:14><b>"Diagramming:" using <u>"flowchart"</b> ; is useful
 <i><color #black><size:14>    upto **5000-10000** instructions of <b>code;
-******[#a] *<b><i><color #black><size:14>[[docs/books/1-books-backlog/data-structure-and-algorithm/classes-vs-data-structures.puml Classes Vs. Data structures]] click me
+******[#a] *<b><i><color #black><size:14>[[docs/books/1-books-backlog/data-structure-and-algorithm/classes-vs-data-structures.puml Classes Vs. Data structures]] click me \n*<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_257.png Data-Structures & Algorithms advice]] click me
 ****[#yellow] <i><color #black><size:14><b>2nd paradigm shift:</b> Object Oriented Programming or <b>"object decomposition" of code (modules)
 *****[#a]:<i><color #black><size:14><b>OOA&D</b>
 *<i><color #black><size:14><b>Objects + Messages = <color #green>Program
@@ -69,7 +69,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ** <color #black><size:14><i> <b>And reason these "callback" work</b>
 <size:11><color #white><i><b>Venkat: I'm not a person who is happy when my code works. Actually I'm very unhappy when my code works.
 <size:11><color #white><i><b>Because I want to know how it works & why it works. <u>And I want to break it & then put it back together.
-**<size:14><color #white><i><b><u>Especially true for Entities & use case layer
+**<size:14><color #white><i><b><u>Especially true for Entities & use case layer & also in data-structures & algorithms
 ====
 * <color #black><size:14><i><b>"Diagramming:" using [[docs/3-programming-languages/Venkat-Subramaniam/Introduction-to-SDL.puml Specification & Description language (SDL)]]
 * <color #green><size:14><i><b>"Asynchronous:" is good for real-time "event-driven, reactive & distributed systems"

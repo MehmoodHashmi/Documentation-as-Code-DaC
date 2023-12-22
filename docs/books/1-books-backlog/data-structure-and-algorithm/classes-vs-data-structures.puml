@@ -1,6 +1,6 @@
 @startmindmap
 title =<i><b><u>Classes Vs. Data-structures \n|<img:images/img_19.png{scale=.85}>|<img:images/img_21.png{scale=.85}>|<img:images/img_23.png{scale=.84}>|
-caption |<img:images/img_16.png>|<img:images/img_18.png>|\n\n|<img:images/img_22.png>| |<img:images/img_24.png>|
+
 * ==<b><i>[[docs/books/1-books-backlog/data-structure-and-algorithm/classes-vs-data-structres.adoc Class Vs. Data-structures .adoc file important aritcle by robert c martin]] A must read talks about DTO's, Databases, ORM, etc.
 !theme hacker
 
@@ -22,18 +22,25 @@ caption |<img:images/img_16.png>|<img:images/img_18.png>|\n\n|<img:images/img_22
 ** <i>What is a **data structure**?
 ***[#yellow]:*<i><color #black><size:14>A **data structure** is a **cohesive set** of <b>data elements.
 *<i><color #black><size:14>Or, in other words, a **data structure** is a **set** of **data elements** **"operated"** upon by <b>implied functions.;
-
+****[#a] <i><color #black><size:14><b>[[docs/books/1-books-backlog/data-structure-and-algorithm/images/img_41.png Unix philosophy Algorithms & Data structure advice]]
 **[#lightblue] <i><color #black><size:14>Indeed! They are complements of each other. They fit together like a hand in a glove.
 ***[#yellow] *<i><color #black><size:14>An **"Object"** is a "set" of "functions" that "operate" upon "implied data elements".
 ***[#yellow] *<i><color #black><size:14>A **"Data Structure"** is a "set" of "data elements" "operated" upon by "implied functions"
 
 **[#gold] <i>**You got it. These are issues that every good software designer and architect needs to keep in mind.**
 *:<i><color #w><size:14>OK, so let me see if I can wrap this up. Classes and Data Structures are opposites in at least three different ways.
-|<#black><color #white><i><size:15> |<#white><color #black><i><size:15>Data Structures|<#blue><color #white><i><size:15>Classes|
+|<#black><color #white><i><size:15> |<#white><color #black><i><size:15>Data Structures |<#blue><color #white><i><size:15>Classes|
 |<#green><color #white><i><size:15>function |<#white><color #black><i><size:15>Adding new "functions" to a "set" of "data structures" is <u>"easy"</u>, you just add the function, nothing else changes.\n<color #black><i><size:11>Why? because you had not changed the current <u><color #purple>"design"</u> of the <color #purple>"Node" |<#blue><color #white><i><size:14>Adding new "functions" to a "set" of "classes" is "hard", you have to change each class.\n<color #white><i><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_170.png Why? because "interface" breaks! click me]]|
 |<#darkorange><color #white><i><size:15>Type |<#white><color #black><i><size:15>Adding new "types" to a "set" of "data structures" is "hard", you have to change each <color #green>function <size:10>(Insert, Update, Access, Delete)\n<color #black><i><size:11>Why? because you had <u><color #purple>"designed"</u> the <u><color #purple>"Node" of these "data-structure"</u>  only to support a particular <u><color #purple>"Type".</u> When you try supporting another "type" you 've\n<color #black><i><size:11>to change the existing "Node" design, resultantly all the "functions" manipulating this "Node" wll break.  |<#blue><color #white><i><size:15>Adding new "types" to a "set" of "classes" is "easy", you just add the new class.\n<color #white><i><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_169.png Why & how? via DIP, or runtime polymorphism click me]]|
 |<#black><color #white><i><size:15> |<#white><color #black><i><size:15>1- Data structures make data visible while keeping <color #green>functions implied <size:11>(understood, suggested)|<#blue><color #white><i><size:15>1- Classes make functions visible while keeping <color #pink>data implied <size:11>(understood, suggested)|
 |<#black><color #white><i><size:15> |<#white><color #black><i><size:15>2- Data structures make it easy to add functions but hard to add types.|<#blue><color #white><i><size:15>2- Classes make it easy to add types but hard to add functions.|
-|<#black><color #white><i><size:15> |<#white><color #black><i><size:15>3- Data Structures expose callers to <u>"recompilation and redeployment".|<#blue><color #white><i><size:15>3- Classes isolate callers from recompilation and redeployment.|;
+|<#black><color #white><i><size:15> |<#white><color #black><i><size:15>3- Data Structures expose callers to <u>"recompilation and redeployment".|<#blue><color #white><i><size:15>3- Classes isolate callers from recompilation and redeployment.|
+====
+|<img:images/img_41.png{scale=.73}>|<img:images/img_16.png>|
+|<img:images/img_22.png{scale=1.23}>\n<img:images/img_24.png{scale=1.13}>|<img:images/img_18.png>\n<img:images/img_12.png{scale=.83}>|
+|<img:images/img_11.png>|<img:images/img_17.png{scale=1.1}>|
+|<img:images/img_20.png>\n<img:images/img_27.png{scale=.7}>|<img:images/img_25.png{scale=.65}>\n<img:images/img_26.png{scale=.67}>|
+|<img:images/img_28.png{scale=.7}>|<img:images/img_29.png{scale=.65}>|
+;
 
 @endmindmap
