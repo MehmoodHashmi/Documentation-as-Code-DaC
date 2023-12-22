@@ -3,61 +3,61 @@ title =<i><b><u>Continuations and Coroutines
 !theme hacker
 
 *[#darkblue] <i>Continuations and Coroutines
-**[#lightblue] <i><color #blac><size:14>Continuations
-***[#green] <b><i><color #white><size:14>Definition
-****[#yellow] <i><color #black><size:14>Representations of the **"control state"** of a "program".
-***[#green] <b><i><color #white><size:14>Characteristics
-****[#yellow] <i><color #black><size:14>Capturing Execution State
-*****[#gold] <i><color #black><size:14> Saving the state of a computation to be resumed later.
-****[#yellow] <i><color #black><size:14>Non-Local Control Transfer
-*****[#gold] <i><color #black><size:14> Enabling transfer of control beyond a single <b>subroutine.
-****[#yellow] <i><color #black><size:14>Deferred Execution
-*****[#gold] <i><color #black><size:14> Delaying execution until a later time or condition.
-****[#yellow] <i><color #black><size:14>Implementations
-*****[#gold] <i><color #black><size:14> Used in various programming languages and frameworks.
+**[#lightblue] <i><color #blac><size:12>Continuations
+***[#green] <b><i><color #white><size:12>Definition
+****[#yellow] <i><color #black><size:12>Representations of the **"control state"** of a "program".
+***[#green] <b><i><color #white><size:12>Characteristics
+****[#yellow] <i><color #black><size:12>Capturing Execution State
+*****[#gold] <i><color #black><size:12> Saving the state of a computation to be resumed later.
+****[#yellow] <i><color #black><size:12>Non-Local Control Transfer
+*****[#gold] <i><color #black><size:12> Enabling transfer of control beyond a single <b>subroutine.
+****[#yellow] <i><color #black><size:12>Deferred Execution
+*****[#gold] <i><color #black><size:12> Delaying execution until a later time or condition.
+****[#yellow] <i><color #black><size:12>Implementations
+*****[#gold] <i><color #black><size:12> Used in various programming languages and frameworks.
 **[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/gif/coroutine.adoc Coroutines]]</size> click gif
-***[#green] <b><i><color #white><size:14>Definition
-****[#yellow] <i><color #black><size:14>**Cooperative multitasking** components.
-***[#green] <b><i><color #white><size:14>Characteristics
-****[#yellow] <i><color #black><size:14>Cooperative Concurrency
-*****[#gold] <i><color #black><size:14> Enabling tasks to voluntarily yield control.
-****[#yellow] <i><color #black><size:14>Lightweight
-*****[#gold] <i><color #black><size:14> Low-cost overhead for task switching.
-****[#yellow] <i><color #black><size:14>Sequential Execution
-*****[#gold] <i><color #black><size:14> Execution proceeds step-by-step.
-****[#yellow] <i><color #black><size:14><b>Asynchronous I/O
-*****[#gold] <i><color #black><size:14> Handling **asynchronous operations** efficiently.
-****[#yellow] <i><color #black><size:14>Implementations
-*****[#gold] <i><color #black><size:14> Available in languages like Kotlin, Python, C#, etc.
-**[#lightblue] <i><color #blac><size:14>Relationship
-***[#green] <b><i><color #white><size:14>Continuations and Coroutines
-****[#yellow] <i><color #black><size:14>Both enable **suspending and resuming** computations.
-****[#yellow] <i><color #black><size:14>**Coroutines** can be implemented using <b>continuations.
-****[#yellow] <i><color #black><size:14>**Continuations** provide a more <b>general control flow abstraction.
-**[#lightblue] <i><color #blac><size:14>Use Cases
-***[#green] <b><i><color #white><size:14>Continuations
-****[#yellow] <i><color #black><size:14>Web Servers
-*****[#gold] <i><color #black><size:14> Managing request-response cycles efficiently.
-****[#yellow] <i><color #black><size:14>State Machines
-*****[#gold] <i><color #black><size:14> Representing complex sequential workflows.
-***[#green] <b><i><color #white><size:14>Coroutines
-****[#yellow] <i><color #black><size:14>Asynchronous Programming
-*****[#gold] <i><color #black><size:14> Handling non-blocking I/O efficiently.
-****[#yellow] <i><color #black><size:14>Data Streaming
-*****[#gold] <i><color #black><size:14> Processing large streams of data.
-****[#yellow] <i><color #black><size:14>User Interfaces
-*****[#gold] <i><color #black><size:14> Managing UI events and responses.
-**[#lightblue] <i><color #blac><size:14>Benefits
-***[#green] <b><i><color #white><size:14>Continuations
-****[#yellow] <i><color #black><size:14>Representing Complex Control Flow
-*****[#gold] <i><color #black><size:14> Capturing and resuming execution at specific points.
-****[#yellow] <i><color #black><size:14><b>Control Flow Abstraction
-*****[#gold] <i><color #black><size:14> Providing a "way to manipulate" <b>control flow.
-***[#green] <b><i><color #white><size:14>Coroutines
-****[#yellow] <i><color #black><size:14>Concurrent and Asynchronous Operations
-*****[#gold] <i><color #black><size:14> Enabling "non-blocking" <b>multitasking.
-****[#yellow] <i><color #black><size:14><b>Simplified Code
-*****[#gold] <i><color #black><size:14><b>Writing "sequential code" for "asynchronous tasks".
-****[#yellow] <i><color #black><size:14>Efficiency
-*****[#gold] <i><color #black><size:14> Low-cost context switching for multitasking.
+***[#green] <b><i><color #white><size:12>Definition
+****[#yellow] <i><color #black><size:12>**Cooperative multitasking** components.
+***[#green] <b><i><color #white><size:12>Characteristics
+****[#yellow] <i><color #black><size:12>Cooperative Concurrency
+*****[#gold] <i><color #black><size:12> Enabling tasks to voluntarily yield control.
+****[#yellow] <i><color #black><size:12>Lightweight
+*****[#gold] <i><color #black><size:12> Low-cost overhead for task switching.
+****[#yellow] <i><color #black><size:12>Sequential Execution
+*****[#gold] <i><color #black><size:12> Execution proceeds step-by-step.
+****[#yellow] <i><color #black><size:12><b>Asynchronous I/O
+*****[#gold] <i><color #black><size:12> Handling **asynchronous operations** efficiently.
+****[#yellow] <i><color #black><size:12>Implementations
+*****[#gold] <i><color #black><size:12> Available in languages like Kotlin, Python, C#, etc.
+**[#lightblue] <i><color #blac><size:12>Relationship
+***[#green] <b><i><color #white><size:12>Continuations and Coroutines
+****[#yellow] <i><color #black><size:12>Both enable **suspending and resuming** computations.
+****[#yellow] <i><color #black><size:12>**Coroutines** can be implemented using <b>continuations.
+****[#yellow] <i><color #black><size:12>**Continuations** provide a more <b>general control flow abstraction.
+**[#lightblue] <i><color #blac><size:12>Use Cases
+***[#green] <b><i><color #white><size:12>Continuations
+****[#yellow] <i><color #black><size:12>Web Servers
+*****[#gold] <i><color #black><size:12> Managing request-response cycles efficiently.
+****[#yellow] <i><color #black><size:12>State Machines
+*****[#gold] <i><color #black><size:12> Representing complex sequential workflows.
+***[#green] <b><i><color #white><size:12>Coroutines
+****[#yellow] <i><color #black><size:12>Asynchronous Programming
+*****[#gold] <i><color #black><size:12> Handling non-blocking I/O efficiently.
+****[#yellow] <i><color #black><size:12>Data Streaming
+*****[#gold] <i><color #black><size:12> Processing large streams of data.
+****[#yellow] <i><color #black><size:12>User Interfaces
+*****[#gold] <i><color #black><size:12> Managing UI events and responses.
+**[#lightblue] <i><color #blac><size:12>Benefits
+***[#green] <b><i><color #white><size:12>Continuations
+****[#yellow] <i><color #black><size:12>Representing Complex Control Flow
+*****[#gold] <i><color #black><size:12> Capturing and resuming execution at specific points.
+****[#yellow] <i><color #black><size:12><b>Control Flow Abstraction
+*****[#gold] <i><color #black><size:12> Providing a "way to manipulate" <b>control flow.
+***[#green] <b><i><color #white><size:12>Coroutines
+****[#yellow] <i><color #black><size:12>Concurrent and Asynchronous Operations
+*****[#gold] <i><color #black><size:12> Enabling "non-blocking" <b>multitasking.
+****[#yellow] <i><color #black><size:12><b>Simplified Code
+*****[#gold] <i><color #black><size:12><b>Writing "sequential code" for "asynchronous tasks".
+****[#yellow] <i><color #black><size:12>Efficiency
+*****[#gold] <i><color #black><size:12> Low-cost context switching for multitasking.
 @endmindmap

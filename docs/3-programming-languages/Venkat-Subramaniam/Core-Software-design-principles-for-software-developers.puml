@@ -11,420 +11,420 @@ title =<i><b><u>Core Software design principles for software developers\nDr.Venk
 skinparam hyperlinkColor white
 
 *[#darkblue] <color #white><i>Core Software design \n<color #white><i>principles for software \n<color #white><i>developers\n<img:images/img_254.png{scale=.246}>
-**[#lightblue] <i><color #black><size:14>Introduction
-***[#green]:<i><color #white><size:14>**Writing code is easy. Writing good quality code is an entirely different story.** How can we measure quality of design? How do we know we're doing the
-<i><color #white><size:14>right set of things that will leads us to a <b>better design?;
+**[#lightblue] <i><color #black><size:12>Introduction
+***[#green]:<i><color #white><size:12>**Writing code is easy. Writing good quality code is an entirely different story.** How can we measure quality of design? How do we know we're doing the
+<i><color #white><size:12>right set of things that will leads us to a <b>better design?;
 
-**[#lightblue] <i><color #black><size:14>Code Vs Thought
-***[#green] <i><color #white><size:14><b>Dr. Naveed Malik & \n<i><color #white><size:14><b>Bjarne Stroustrup
-****[#yellow] <i><color #black><size:14>**Software failures** are failures of <b>understanding & imagination.
+**[#lightblue] <i><color #black><size:12>Code Vs Thought
+***[#green] <i><color #white><size:12><b>Dr. Naveed Malik & \n<i><color #white><size:12><b>Bjarne Stroustrup
+****[#yellow] <i><color #black><size:12>**Software failures** are failures of <b>understanding & imagination.
 
-*****[#a]:*<i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_137.png Tools of trade:]]** You need following tools in advance to <b>write, build, test & debug your programs.
-*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_156.png Engineering failures]] click me;
+*****[#a]:*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_137.png Tools of trade:]]** You need following tools in advance to <b>write, build, test & debug your programs.
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_156.png Engineering failures]] click me;
 
-****[#a]:*<i><color #black><size:14>**Code** is what it **does,** it is not a <U>substitute</u> for <b>thought. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_132.png click me]]
-*<i><color #black><size:14>**Code** is **static** in nature while **thought** is <b>dynamic. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_133.png click me]]
-*<i><color #black><size:14>A **mist** in **mind** is **fog** in the **code.**
-*<i><color #black><size:14>**Code** is a **tool** through which you can **express** your **thoughts** about a <b>problem.;
-*****[#a]:*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_134.png Grady Booch: good vs bad programmer]]
-*<i><color #black><size:14><b>Robert C Martin: [[docs/3-programming-languages/Venkat-Subramaniam/images/img_146.png It takes "at least 15-years" in "software field" to become a "senior". Till then you should "learn" from other]] seniors. click me
-*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_135.png Robert C Martin: Is it possible, early on, to tell whether someone can or cannot become a programmer?]]
-*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_136.png Robert C Martin: Often "developers" start getting a feeling of power, superiority, become condescending.]]
-<i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_136.png How do you not become arrogant, even though you achieve a lot?]];
+****[#a]:*<i><color #black><size:12>**Code** is what it **does,** it is not a <U>substitute</u> for <b>thought. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_132.png click me]]
+*<i><color #black><size:12>**Code** is **static** in nature while **thought** is <b>dynamic. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_133.png click me]]
+*<i><color #black><size:12>A **mist** in **mind** is **fog** in the **code.**
+*<i><color #black><size:12>**Code** is a **tool** through which you can **express** your **thoughts** about a <b>problem.;
+*****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_134.png Grady Booch: good vs bad programmer]]
+*<i><color #black><size:12><b>Robert C Martin: [[docs/3-programming-languages/Venkat-Subramaniam/images/img_146.png It takes "at least 15-years" in "software field" to become a "senior". Till then you should "learn" from other]] seniors. click me
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_135.png Robert C Martin: Is it possible, early on, to tell whether someone can or cannot become a programmer?]]
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_136.png Robert C Martin: Often "developers" start getting a feeling of power, superiority, become condescending.]]
+<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_136.png How do you not become arrogant, even though you achieve a lot?]];
 
-****[#yellow] <i><color #black><size:14>**Computation** is the **principle,** the **computer** is simply the <b>tool
-**[#lightblue] <i><color #black><size:14>What is a good design?
-***[#green] <i><color #white><size:14><b>Usually my thinking is
-****[#yellow] <i><color #black><size:14>The Design is good because <b>"I created it!"
-****[#yellow] <i><color #black><size:14>We need better approach than that!
-***[#green] <i><color #white><size:14><b>Good design
-****[#yellow] <i><color #black><size:14>When **cost** of "changing the design" is <b>minimum
-****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_98.png Change the design along the way]] click me
-****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_98.png Almost impossible to get "design" right the first time (in one sitting)]] click me
-****[#yellow] <i><color #black><size:14>Software is never **written,** it is always <b>rewritten.
-*****[#gold] <i><color #black><size:14>Because any "software" that is **"relevant"** has to <b>change\n*<i><color #black><size:14>Otherwise, it means your **"client or business"** has become <b>bankrupt
-****[#darkorange] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_241.png Trade-off]]
-*****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_241.png The common trade-off between "cost & quality", this trade-off doesn't apply to software.]] click me
+****[#yellow] <i><color #black><size:12>**Computation** is the **principle,** the **computer** is simply the <b>tool
+**[#lightblue] <i><color #black><size:12>What is a good design?
+***[#green] <i><color #white><size:12><b>Usually my thinking is
+****[#yellow] <i><color #black><size:12>The Design is good because <b>"I created it!"
+****[#yellow] <i><color #black><size:12>We need better approach than that!
+***[#green] <i><color #white><size:12><b>Good design
+****[#yellow] <i><color #black><size:12>When **cost** of "changing the design" is <b>minimum
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_98.png Change the design along the way]] click me
+****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_98.png Almost impossible to get "design" right the first time (in one sitting)]] click me
+****[#yellow] <i><color #black><size:12>Software is never **written,** it is always <b>rewritten.
+*****[#gold] <i><color #black><size:12>Because any "software" that is **"relevant"** has to <b>change\n*<i><color #black><size:12>Otherwise, it means your **"client or business"** has become <b>bankrupt
+****[#darkorange] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_241.png Trade-off]]
+*****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_241.png The common trade-off between "cost & quality", this trade-off doesn't apply to software.]] click me
 
-**[#lightblue] *<i><color #white><size:14><b>Poor design &\n*<i><color #white><size:14><b>Design smells
-***[#green] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-agile-design.puml Why Software Rots?]]
-****[#darkorange] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-agile-design.puml click me]]
-***[#green] <i><color #white><size:14><b>1- Rigidity
-****[#yellow] <i><color #black><size:14>**Design** is **difficult** to <b>change.</b> The **tendency** of the **system** to **resist change** by **forcing** you make <b>changes in multiple places.
-***[#green] <i><color #white><size:14><b>2- Fragility
-****[#yellow] <i><color #black><size:14>**Design** is **easy** to <b>break.</b>It is **even worse than rigidity,** another **module somewhere breaks** when you <b>touch this module.
-***[#green] <i><color #white><size:14><b>3- Non-reusability
-****[#yellow]:*<i><color #black><size:14>**Reuse:** is something you get **if you 've a set of well-worked out "concepts",** well represented  in your programs then you can reuse those those classes or those "group" of classes.
-*<i><color #black><size:14>It's not something that comes **magically** from **language features.** It's some that comes from **"thinking clearly"** about **"issues"** & getting <b>useful "concepts" isolated & "represented clearly".;
-***[#green] <i><color #white><size:14><b>4- Immobility
-****[#yellow]:<i><color #black><size:14>**Design** is **difficult** to <b>reuse.</b> A **design** is **immobile** when it contains **parts** that could be **useful** in **other systems,** but the <u><b>effort & risk involved</b></u> with **separating** those **parts** from the
-<i><color #black><size:14>**original system** are **too great.** This is an unfortunate but very common occurrence.;
-***[#green] <i><color #white><size:14><b>5- Viscosity
-****[#yellow] <i><color #black><size:14>It is **difficult** to do the <b>right thing.</b> It is easier to make **”hacky” changes** (quick bad fix) than following the <b>intended design
-***[#green] <i><color #white><size:14><b>6- Needless complexity
-****[#yellow] <i><color #black><size:14><b>Overdesign or over engineering;</b> The code is littered with unnecessary constructs that makes the code complex and difficult to understand
-***[#green] <i><color #white><size:14><b>7- Needless repetition
-****[#yellow] <i><color #black><size:14><b>Mouse abuse;</b> The code contains a lot of code blocks that are just copy/paste, maybe with some smaller modifications
-***[#green] <i><color #white><size:14><b>8- Opacity
-****[#yellow] <i><color #black><size:14><b>Disorganized expression;</b> The code is difficult to understand.
-***[#green] <i><color #white><size:14><b>Summary
-****[#yellow] *<i><color #black><size:14>Your **code** must fit well into the **existing system.** It should not increase the **rigidity, fragility or opacity** of that <b>system.\n*<i><color #black><size:14>The dependencies must be well managed. In short, your **code** needs to follow <b>SOLID engineering principles.
-**[#lightblue] <i><color #black><size:14>How to evaluate quality\n<i><color #black><size:14>of good design?
-***[#green] <i><color #white><size:14><b>First step is
-****[#yellow] <i><color #black><size:14>Let go of the <b>ego.
-*****[#gold] <i><color #black><size:14>The Design is good because <b>"I created it!"
-***[#green] <i><color #white><size:14><b>Second step is
-****[#yellow] <i><color #black><size:14>Be <b>unemotional
-*****[#gold] <i><color #black><size:14>Stop getting attached to the **solution,** and attach yourself to <b>solving the problem
-****[#yellow] <i><color #black><size:14>Two Kinds of people that are dangerous to <b>work:\n*<b><i><color #black><size:14>Who can't follow instructions \n*<b><i><color #black><size:14>Who can only follow instructions
-***[#yellow] <i><color #black><size:14>**Software** is not limited by **physics,** like **buildings are.** It is limited by **imagination, by design, by organization.** In short, it is **limited** by the <b>properties of people,\n<i><color #black><size:14>not by the <b>properties of the world. "We 've met the enemy & he is us."
+**[#lightblue] *<i><color #white><size:12><b>Poor design &\n*<i><color #white><size:12><b>Design smells
+***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-agile-design.puml Why Software Rots?]]
+****[#darkorange] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-agile-design.puml click me]]
+***[#green] <i><color #white><size:12><b>1- Rigidity
+****[#yellow] <i><color #black><size:12>**Design** is **difficult** to <b>change.</b> The **tendency** of the **system** to **resist change** by **forcing** you make <b>changes in multiple places.
+***[#green] <i><color #white><size:12><b>2- Fragility
+****[#yellow] <i><color #black><size:12>**Design** is **easy** to <b>break.</b>It is **even worse than rigidity,** another **module somewhere breaks** when you <b>touch this module.
+***[#green] <i><color #white><size:12><b>3- Non-reusability
+****[#yellow]:*<i><color #black><size:12>**Reuse:** is something you get **if you 've a set of well-worked out "concepts",** well represented  in your programs then you can reuse those those classes or those "group" of classes.
+*<i><color #black><size:12>It's not something that comes **magically** from **language features.** It's some that comes from **"thinking clearly"** about **"issues"** & getting <b>useful "concepts" isolated & "represented clearly".;
+***[#green] <i><color #white><size:12><b>4- Immobility
+****[#yellow]:<i><color #black><size:12>**Design** is **difficult** to <b>reuse.</b> A **design** is **immobile** when it contains **parts** that could be **useful** in **other systems,** but the <u><b>effort & risk involved</b></u> with **separating** those **parts** from the
+<i><color #black><size:12>**original system** are **too great.** This is an unfortunate but very common occurrence.;
+***[#green] <i><color #white><size:12><b>5- Viscosity
+****[#yellow] <i><color #black><size:12>It is **difficult** to do the <b>right thing.</b> It is easier to make **”hacky” changes** (quick bad fix) than following the <b>intended design
+***[#green] <i><color #white><size:12><b>6- Needless complexity
+****[#yellow] <i><color #black><size:12><b>Overdesign or over engineering;</b> The code is littered with unnecessary constructs that makes the code complex and difficult to understand
+***[#green] <i><color #white><size:12><b>7- Needless repetition
+****[#yellow] <i><color #black><size:12><b>Mouse abuse;</b> The code contains a lot of code blocks that are just copy/paste, maybe with some smaller modifications
+***[#green] <i><color #white><size:12><b>8- Opacity
+****[#yellow] <i><color #black><size:12><b>Disorganized expression;</b> The code is difficult to understand.
+***[#green] <i><color #white><size:12><b>Summary
+****[#yellow] *<i><color #black><size:12>Your **code** must fit well into the **existing system.** It should not increase the **rigidity, fragility or opacity** of that <b>system.\n*<i><color #black><size:12>The dependencies must be well managed. In short, your **code** needs to follow <b>SOLID engineering principles.
+**[#lightblue] <i><color #black><size:12>How to evaluate quality\n<i><color #black><size:12>of good design?
+***[#green] <i><color #white><size:12><b>First step is
+****[#yellow] <i><color #black><size:12>Let go of the <b>ego.
+*****[#gold] <i><color #black><size:12>The Design is good because <b>"I created it!"
+***[#green] <i><color #white><size:12><b>Second step is
+****[#yellow] <i><color #black><size:12>Be <b>unemotional
+*****[#gold] <i><color #black><size:12>Stop getting attached to the **solution,** and attach yourself to <b>solving the problem
+****[#yellow] <i><color #black><size:12>Two Kinds of people that are dangerous to <b>work:\n*<b><i><color #black><size:12>Who can't follow instructions \n*<b><i><color #black><size:12>Who can only follow instructions
+***[#yellow] <i><color #black><size:12>**Software** is not limited by **physics,** like **buildings are.** It is limited by **imagination, by design, by organization.** In short, it is **limited** by the <b>properties of people,\n<i><color #black><size:12>not by the <b>properties of the world. "We 've met the enemy & he is us."
 
-**[#lightblue] <i><color #black><size:14>How to create good design?
-***[#green] <i><color #white><size:14><b>Take time to "review" design & code
-****[#yellow] <i><color #black><size:14><b>Refactor:</b> others people code
-****[#yellow] <i><color #black><size:14><b>Rewrite:</b> your own code
-
-
+**[#lightblue] <i><color #black><size:12>How to create good design?
+***[#green] <i><color #white><size:12><b>Take time to "review" design & code
+****[#yellow] <i><color #black><size:12><b>Refactor:</b> others people code
+****[#yellow] <i><color #black><size:12><b>Rewrite:</b> your own code
 
 
 
 
 
 
-**[#lightblue] <i><color #black><size:14>Keep it simple
-***[#green] <i><color #white><size:14><b>KISS principle
-****[#yellow] <i><color #black><size:14><b>Keep it "simple" and stupid
-****[#yellow] <i><color #black><size:14><b>Most of us don't know what is <b>"simple"
-***[#green] <i><color #white><size:14><b>Simple
-****[#yellow] <i><color #black><size:14><b>Keeps you "focused"
-****[#yellow] <i><color #black><size:14><b>Solves only "real problems" we know about
-****[#yellow] <i><color #black><size:14><b>Fails less (is resilient & robust)
-****[#yellow] <i><color #black><size:14><b>Easier to "understand"
-****[#yellow] <i><color #black><size:14>Has few "moving parts" in it
-****[#yellow] <i><color #black><size:14><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:14>but by avoiding those tasks that <b>should not be done in the first place.
+
+
+**[#lightblue] <i><color #black><size:12>Keep it simple
+***[#green] <i><color #white><size:12><b>KISS principle
+****[#yellow] <i><color #black><size:12><b>Keep it "simple" and stupid
+****[#yellow] <i><color #black><size:12><b>Most of us don't know what is <b>"simple"
+***[#green] <i><color #white><size:12><b>Simple
+****[#yellow] <i><color #black><size:12><b>Keeps you "focused"
+****[#yellow] <i><color #black><size:12><b>Solves only "real problems" we know about
+****[#yellow] <i><color #black><size:12><b>Fails less (is resilient & robust)
+****[#yellow] <i><color #black><size:12><b>Easier to "understand"
+****[#yellow] <i><color #black><size:12>Has few "moving parts" in it
+****[#yellow] <i><color #black><size:12><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:12>but by avoiding those tasks that <b>should not be done in the first place.
 **[#lightblue] <i><color #black><size:24>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Complexity]]\n<img:images/img_32.png>
-***[#green] <i><color #white><size:14><b>Inherent or\n<i><color #white><size:14><b>Essential
-****[#yellow] <i><color #black><size:14>is from the **problem domain,** you can't minimize it. When dealing with the **problem;** there are **"complexities"** \n<i><color #black><size:14>of the **problem** that you 've to deal with. And this is the "nature of the application" and **nature** of the <b>domain.
-****[#yellow] <i><color #black><size:14>Fortunately, on daily basis we 've to deal more with the <b>accidental "complexities"</b> than <b>inherent "complexities"
-***[#green] <i><color #white><size:14><b>Accidental \n<i><color #white><size:14><b>or Non-essential
-****[#yellow]:<i><color #black><size:14>Often, comes from the **solution** we use to solve a **particular problem.** The **solution** we are using brings
-<i><color #black><size:14>certain **complexities** into the <b>table.
-*<i><color #black><size:14>Now, to solve this **introduced "complexities"** we bring <b>other solutions.
-*<i><color #black><size:14>**Other solutions,** bring more **"complexities"** & this goes on & on.;
-****[#gold] <i><color #black><size:14>The **problem** did not require a **specific solution,** its the **solution we choose** to solve the <b>problem!
-****[#yellow] <i><color #black><size:14><b>E.g. Concurrency
-****[#yellow] <i><color #black><size:14><b>E.g. Streams </b>(less accidental complexity)
-****[#yellow] <i><color #black><size:14>Simple is not necessarily Familiar
-*****[#gold] <i><color #black><size:14>e.g. <b>For loop
-***[#green] <i><color #white><size:14><b>Good Design
-****[#gold] <i><color #black><size:14>A **good design** is the one that **"hides" or "encapsulates"** the <b>inherent complexity\n<i><color #black><size:14>and <b>"eliminates" the <b>accidental complexity
-****[#gold] <i><color #black><size:14><b>Follow YAGNI Principle
-**[#lightblue] <i><color #black><size:14>Think YAGNI
-***[#green] <i><color #white><size:14><b>You are not goona need it yet!
-***[#green] <i><color #white><size:14><b>When should I implement something?
-****[#gold] <i><color #black><size:14><b>How much do you know?
-****[#gold] <i><color #black><size:14><b>Cost of implementing?
-****[#yellow] <i><color #black><size:14>Like **"Rewrite"** java app in go-lang or C# or python, this is difficult, time consuming & hard to <b>reverse.
-****[#yellow] <i><color #black><size:14>The more you are couple to a decision the harder it is to reverse, introduce indirection to increases <b>reversibility.
-****[#yellow] <i><color #black><size:14>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.\n*<b><i><color #black><size:14>Why don't we postpone?\n**<b><i><color #green><size:14>Because we are afraid!\n*<b><i><color #black><size:14>If you want ot "postpone" we need to 've good "automated testing". (TDD)
-****[#yellow] <i><color #black><size:14>Database decisions, libraries and frameworks decisions etc.
-*****[#a] <b><i><color #black><size:14>[[a Choosing programing language venkat-subramaniam]] from onenote book
-****[#darkorange] <i><color #black><size:16>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful. \n*<i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy
-****[#yellow] <i><color #black><size:14>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
+***[#green] <i><color #white><size:12><b>Inherent or\n<i><color #white><size:12><b>Essential
+****[#yellow] <i><color #black><size:12>is from the **problem domain,** you can't minimize it. When dealing with the **problem;** there are **"complexities"** \n<i><color #black><size:12>of the **problem** that you 've to deal with. And this is the "nature of the application" and **nature** of the <b>domain.
+****[#yellow] <i><color #black><size:12>Fortunately, on daily basis we 've to deal more with the <b>accidental "complexities"</b> than <b>inherent "complexities"
+***[#green] <i><color #white><size:12><b>Accidental \n<i><color #white><size:12><b>or Non-essential
+****[#yellow]:<i><color #black><size:12>Often, comes from the **solution** we use to solve a **particular problem.** The **solution** we are using brings
+<i><color #black><size:12>certain **complexities** into the <b>table.
+*<i><color #black><size:12>Now, to solve this **introduced "complexities"** we bring <b>other solutions.
+*<i><color #black><size:12>**Other solutions,** bring more **"complexities"** & this goes on & on.;
+****[#gold] <i><color #black><size:12>The **problem** did not require a **specific solution,** its the **solution we choose** to solve the <b>problem!
+****[#yellow] <i><color #black><size:12><b>E.g. Concurrency
+****[#yellow] <i><color #black><size:12><b>E.g. Streams </b>(less accidental complexity)
+****[#yellow] <i><color #black><size:12>Simple is not necessarily Familiar
+*****[#gold] <i><color #black><size:12>e.g. <b>For loop
+***[#green] <i><color #white><size:12><b>Good Design
+****[#gold] <i><color #black><size:12>A **good design** is the one that **"hides" or "encapsulates"** the <b>inherent complexity\n<i><color #black><size:12>and <b>"eliminates" the <b>accidental complexity
+****[#gold] <i><color #black><size:12><b>Follow YAGNI Principle
+**[#lightblue] <i><color #black><size:12>Think YAGNI
+***[#green] <i><color #white><size:12><b>You are not goona need it yet!
+***[#green] <i><color #white><size:12><b>When should I implement something?
+****[#gold] <i><color #black><size:12><b>How much do you know?
+****[#gold] <i><color #black><size:12><b>Cost of implementing?
+****[#yellow] <i><color #black><size:12>Like **"Rewrite"** java app in go-lang or C# or python, this is difficult, time consuming & hard to <b>reverse.
+****[#yellow] <i><color #black><size:12>The more you are couple to a decision the harder it is to reverse, introduce indirection to increases <b>reversibility.
+****[#yellow] <i><color #black><size:12>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.\n*<b><i><color #black><size:12>Why don't we postpone?\n**<b><i><color #green><size:12>Because we are afraid!\n*<b><i><color #black><size:12>If you want ot "postpone" we need to 've good "automated testing". (TDD)
+****[#yellow] <i><color #black><size:12>Database decisions, libraries and frameworks decisions etc.
+*****[#a] <b><i><color #black><size:12>[[a Choosing programing language venkat-subramaniam]] from onenote book
+****[#darkorange] <i><color #black><size:16>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful. \n*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy
+****[#yellow] <i><color #black><size:12>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
 **[#lightblue] <i><color #black><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_76.png Cohesion]]
-***[#green] <i><color #white><size:14><b>Class-level Principles
-****[#yellow] *<i><color #black><size:14>SOLID, GRASP & TDD. **\tClass design patterns:** (Structural, Behavioral & Creational) can be reused
-***[#green] <i><color #white><size:14><b>[[docs/3-programming-languages/class-and-package-level-SOLID-Principles.puml Package-level Principles]] <size:9>click me
-****[#yellow] *<i><color #black><size:14>**Cohesion:** CCP, CRP & **Coupling:** REP, SDP, SAP.  **\tModularity design patterns:** can be reused
-****[#yellow]:*<i><color #black><size:14>If **SOLID principles** tell use how to arrange the **bricks into walls & rooms,** then the **component principles** tell us how to arrange the rooms into building.
-*<i><color #black><size:14>Large software systems, like large buildings, are built out of smaller components.;
-***[#green] <i><color #white><size:14><b>Where a piece of code is narrow, "focused"\n<i><color #white><size:14><b>& does one thing & does one thing well!
-****[#yellow] <i><color #black><size:14>We want software to change, but not too <b>(expensive to change)
-****[#yellow] <i><color #black><size:14>If a "code" is **"cohesive",** it has to <b>change less "frequently"
-***[#green] <i><color #white><size:14><b>Like things stay together, and unlike things stay apart
-****[#yellow] <i><color #black><size:14>**"Code that deals"** with **database** is different than **"code that deals"** with <b>XML processing
-****[#yellow] <i><color #black><size:14>**"Code that deals"** with **database** is different than **"code that deals"** with <b>UI
+***[#green] <i><color #white><size:12><b>Class-level Principles
+****[#yellow] *<i><color #black><size:12>SOLID, GRASP & TDD. **\tClass design patterns:** (Structural, Behavioral & Creational) can be reused
+***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/class-and-package-level-SOLID-Principles.puml Package-level Principles]] <size:9>click me
+****[#yellow] *<i><color #black><size:12>**Cohesion:** CCP, CRP & **Coupling:** REP, SDP, SAP.  **\tModularity design patterns:** can be reused
+****[#yellow]:*<i><color #black><size:12>If **SOLID principles** tell use how to arrange the **bricks into walls & rooms,** then the **component principles** tell us how to arrange the rooms into building.
+*<i><color #black><size:12>Large software systems, like large buildings, are built out of smaller components.;
+***[#green] <i><color #white><size:12><b>Where a piece of code is narrow, "focused"\n<i><color #white><size:12><b>& does one thing & does one thing well!
+****[#yellow] <i><color #black><size:12>We want software to change, but not too <b>(expensive to change)
+****[#yellow] <i><color #black><size:12>If a "code" is **"cohesive",** it has to <b>change less "frequently"
+***[#green] <i><color #white><size:12><b>Like things stay together, and unlike things stay apart
+****[#yellow] <i><color #black><size:12>**"Code that deals"** with **database** is different than **"code that deals"** with <b>XML processing
+****[#yellow] <i><color #black><size:12>**"Code that deals"** with **database** is different than **"code that deals"** with <b>UI
 **[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_240.png Coupling]]\n<img:images/img_154.png{scale=.77}>
-***[#green] <i><color #white><size:14><b>is what you depend on
-****[#yellow] <i><color #black><size:14>Worst form of coupling is <b>inheritance
-****[#yellow] <i><color #black><size:14>Try to see if you can remove coupling
-****[#yellow] <i><color #black><size:14>"knock out before you mock out"
-****[#yellow] <i><color #black><size:14>Can't remove all the <b>dependencies
-*****[#gold] <i><color #black><size:14>**"System"** will become so **"stable"** that it won't even <b>run!\n*<i><color #black><size:14>E.g. if all **classes** are **abstract,** then none of them can be <b>instantiated.
+***[#green] <i><color #white><size:12><b>is what you depend on
+****[#yellow] <i><color #black><size:12>Worst form of coupling is <b>inheritance
+****[#yellow] <i><color #black><size:12>Try to see if you can remove coupling
+****[#yellow] <i><color #black><size:12>"knock out before you mock out"
+****[#yellow] <i><color #black><size:12>Can't remove all the <b>dependencies
+*****[#gold] <i><color #black><size:12>**"System"** will become so **"stable"** that it won't even <b>run!\n*<i><color #black><size:12>E.g. if all **classes** are **abstract,** then none of them can be <b>instantiated.
 
-***[#green] <b><i><color #white><size:14>Dealing with Coupling
-****[#yellow] <i><color #black><size:14>Get rid of it
-****[#yellow] <i><color #black><size:14>Extremely **loose coupling requires** very **few rules,** but they need to be <b>enforced strictly.
-****[#yellow]:<i><color #black><size:14>Make it "loose" instead of <b>tight coupling
+***[#green] <b><i><color #white><size:12>Dealing with Coupling
+****[#yellow] <i><color #black><size:12>Get rid of it
+****[#yellow] <i><color #black><size:12>Extremely **loose coupling requires** very **few rules,** but they need to be <b>enforced strictly.
+****[#yellow]:<i><color #black><size:12>Make it "loose" instead of <b>tight coupling
 ==<b><i><color #black><size:14>Tight coupling?==
-*<i><color #black><size:14>Depending on a <b>class</b> is <b>tight coupling
-*<i><color #black><size:14>Depending on an<b> interface</b> is <b>"loose" coupling;
-***[#green] <i><color #white><b><size:14>High Cohesion & Coupling
-****[#yellow] <i><color #black><size:14><b>"Good design" has "high cohesion" & "low Coupling"
+*<i><color #black><size:12>Depending on a <b>class</b> is <b>tight coupling
+*<i><color #black><size:12>Depending on an<b> interface</b> is <b>"loose" coupling;
+***[#green] <i><color #white><b><size:12>High Cohesion & Coupling
+****[#yellow] <i><color #black><size:12><b>"Good design" has "high cohesion" & "low Coupling"
 
 
-***[#green]:<i><color #white><b><size:14><img:images/img_42.png{scale=1.2}>
-*<i><color #white><b><size:14>[[https://www.youtube.com/watch?v=_kPCbBGRl1o&t=3s&ab_channel=TechGuiders Address binding, Address translation & Memory management (O/S) (10-min video )]]
-*<i><color #white><b><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_127.png Library Types (static vs dynamic) & .DLL hell (click me)]]
-| |<#grey><i><b><size:14><color:white>Compiler Concept|<#blue><i><b><size:14><color:white>Operating System Concept|
-|<#brown><i><b><size:14><color:white>Static |<#grey><i><b><size:12><color:white>Loading |<#blue><i><b><size:12><color:white><i><b><size:12><color:white>Linking (is early binding) \n<i><b><size:12><color:white><i><b><size:12><color:white>\t\t [[https://www.youtube.com/watch?v=eW5he5uFBNM&t=9s&ab_channel=HowTo (5-min video)]] \n<i><b><size:12><color:white>While it interacts with O/S loader, it \n<i><b><size:12><color:white>is primarily a compiler concept as it\n<i><b><size:12><color:white>occurs during "compilation phase" |
-|<#purple><i><b><size:14><color:white>Dynamic  |<#grey><i><b><size:12><color:white>Linking (is late binding) \t\t [[https://www.youtube.com/watch?v=eW5he5uFBNM&t=9s&ab_channel=HowTo (5-min video)]] \n<i><b><size:12><color:white>It is more related to O/S's <u>"dynamic linking loader",\n<i><b><size:12><color:white>but decision to create a dynamically linked program\n<i><b><size:12><color:white>is often influenced by "compiler options"|<#blue><i><b><size:12><color:white>Loading \t\t\t[[https://www.youtube.com/watch?v=qfGql6sGlZg&ab_channel=TechGuiders (2-min video)]]|
+***[#green]:<i><color #white><b><size:12><img:images/img_42.png{scale=1.2}>
+*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=_kPCbBGRl1o&t=3s&ab_channel=TechGuiders Address binding, Address translation & Memory management (O/S) (10-min video )]]
+*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_127.png Library Types (static vs dynamic) & .DLL hell (click me)]]
+| |<#grey><i><b><size:12><color:white>Compiler Concept|<#blue><i><b><size:12><color:white>Operating System Concept|
+|<#brown><i><b><size:12><color:white>Static |<#grey><i><b><size:12><color:white>Loading |<#blue><i><b><size:12><color:white><i><b><size:12><color:white>Linking (is early binding) \n<i><b><size:12><color:white><i><b><size:12><color:white>\t\t [[https://www.youtube.com/watch?v=eW5he5uFBNM&t=9s&ab_channel=HowTo (5-min video)]] \n<i><b><size:12><color:white>While it interacts with O/S loader, it \n<i><b><size:12><color:white>is primarily a compiler concept as it\n<i><b><size:12><color:white>occurs during "compilation phase" |
+|<#purple><i><b><size:12><color:white>Dynamic  |<#grey><i><b><size:12><color:white>Linking (is late binding) \t\t [[https://www.youtube.com/watch?v=eW5he5uFBNM&t=9s&ab_channel=HowTo (5-min video)]] \n<i><b><size:12><color:white>It is more related to O/S's <u>"dynamic linking loader",\n<i><b><size:12><color:white>but decision to create a dynamically linked program\n<i><b><size:12><color:white>is often influenced by "compiler options"|<#blue><i><b><size:12><color:white>Loading \t\t\t[[https://www.youtube.com/watch?v=qfGql6sGlZg&ab_channel=TechGuiders (2-min video)]]|
 ==<i><color #white><b><size:18>The spectrum of "contract types" from "strict to lose"==
 <img:images/img_46.png{scale=1.28}>;
-****[#yellow]:<i><color #black><size:14>**How do yo decouple one module from another?** That depends on the **level of decoupling you need.** Sometimes simply extracting code
-<i><color #black><size:14>into a separate function is enough. More often, it's better to move all the **related code** into a **separate class** & even a separate **source file.**
-<i><color #black><size:14>And in extreme cases, you want to put those classes behind <b>polymorphic interfaces.;
+****[#yellow]:<i><color #black><size:12>**How do yo decouple one module from another?** That depends on the **level of decoupling you need.** Sometimes simply extracting code
+<i><color #black><size:12>into a separate function is enough. More often, it's better to move all the **related code** into a **separate class** & even a separate **source file.**
+<i><color #black><size:12>And in extreme cases, you want to put those classes behind <b>polymorphic interfaces.;
 
 
-****[#a]:*<i><color #black><size:14>**Modules:** are a **new** way of "grouping" <b>codes & data.
-*<i><color #black><size:14>**Modularity:** is not an **OOP**  "concept" it's **decoupled** from <b>OOP.
-*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_79.png We need "flexibility" at "joints or layers" of the "system"]] click me
+****[#a]:*<i><color #black><size:12>**Modules:** are a **new** way of "grouping" <b>codes & data.
+*<i><color #black><size:12>**Modularity:** is not an **OOP**  "concept" it's **decoupled** from <b>OOP.
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_79.png We need "flexibility" at "joints or layers" of the "system"]] click me
 ==<i><color #black><size:14><b>How to "organize tests" in "modular" world?==
-*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_155.png Organize tests in modular world]];
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_155.png Organize tests in modular world]];
 
-*****[#a]:*<i><color #black><size:14><b>[[docs/3-programming-languages/JVM-ecosystem/java/simple-jar-vs-modular-jar.puml Simple .jar vs modular .jar]] click me
-*<i><color #black><size:14><b>[[docs/3-programming-languages/JVM-ecosystem/java/java-9-onwards.puml Java-9 onwards]] click me
-*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-modularity-in-java.puml What is modularity in Java]] click me
-|<#blue><i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/module-design-guidelines-(size-and-weight).puml Module Design Guidelines (size & weight)]] click me|;
+*****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/JVM-ecosystem/java/simple-jar-vs-modular-jar.puml Simple .jar vs modular .jar]] click me
+*<i><color #black><size:12><b>[[docs/3-programming-languages/JVM-ecosystem/java/java-9-onwards.puml Java-9 onwards]] click me
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-modularity-in-java.puml What is modularity in Java]] click me
+|<#blue><i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/module-design-guidelines-(size-and-weight).puml Module Design Guidelines (size & weight)]] click me|;
 
-****[#a]:<i><color #black><size:14>An important <u>**"part of structuring software"**</u> that **SOLID** doesn't cover is <u><b>"how to group classes into packages & components"
-<i><color #white><size:14>in a way that makes it **"scale",** both when the
-<i><color #black><b><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_94.png 1- "application itself grows" but also when the number of]] click me
-<i><color #pink><b><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_95.png 2- "teams  & developers" working with the "code" grows.]] click me;
-****[#a] <i><color #black><b><size:14>Large Scale Software development: [[docs/3-programming-languages/Venkat-Subramaniam/component-based-development-CBD.puml Component Based Development (CBD)]] click me
-****[#a] <i><color #black><b><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png How source code (components, .jars, .DLL etc.) gets converted into code?]] Compilation, linking & loading both static & dynamic , & assembling
+****[#a]:<i><color #black><size:12>An important <u>**"part of structuring software"**</u> that **SOLID** doesn't cover is <u><b>"how to group classes into packages & components"
+<i><color #white><size:12>in a way that makes it **"scale",** both when the
+<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_94.png 1- "application itself grows" but also when the number of]] click me
+<i><color #pink><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_95.png 2- "teams  & developers" working with the "code" grows.]] click me;
+****[#a] <i><color #black><b><size:12>Large Scale Software development: [[docs/3-programming-languages/Venkat-Subramaniam/component-based-development-CBD.puml Component Based Development (CBD)]] click me
+****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png How source code (components, .jars, .DLL etc.) gets converted into code?]] Compilation, linking & loading both static & dynamic , & assembling
 
-****[#yellow] <i><color #black><b><size:14>In general:
-*****[#darkorange]:<i><color #black><size:14>**Logical design** (classes & packages) impacts <color #white><b> [[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml "extensibility"]]
+****[#yellow] <i><color #black><b><size:12>In general:
+*****[#darkorange]:<i><color #black><size:12>**Logical design** (classes & packages) impacts <color #white><b> [[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml "extensibility"]]
 ====
-*<i><color #black><size:14>**Methods:** one function calling another "function". <b>requires recompilation &  static linking
-*<i><color #black><size:14>**Modules:** one function calling another "function". <b>requires no recompilation & supports dynamic linking;
-*****[#a]:<i><color #black><size:14>**Physical design** (.jar) impacts <color #white><b>"re-usability & usability"
+*<i><color #black><size:12>**Methods:** one function calling another "function". <b>requires recompilation &  static linking
+*<i><color #black><size:12>**Modules:** one function calling another "function". <b>requires no recompilation & supports dynamic linking;
+*****[#a]:<i><color #black><size:12>**Physical design** (.jar) impacts <color #white><b>"re-usability & usability"
 ====
-*<i><color #black><size:14>**Components:** "communication" with each other using "socket, shared memory, IPC, mail boxes or message queues"
-<i><color #black><size:14> **"components"** are **"linked"** <b>statically or dynamically.</b> E.g. <b>.Jar, DLL, etc.
-**<i><color #black><size:14>**Components "Classification":**
+*<i><color #black><size:12>**Components:** "communication" with each other using "socket, shared memory, IPC, mail boxes or message queues"
+<i><color #black><size:12> **"components"** are **"linked"** <b>statically or dynamically.</b> E.g. <b>.Jar, DLL, etc.
+**<i><color #black><size:12>**Components "Classification":**
 |<#white><i><color #green><size:12><b>1- Compile time, |<#grey><i><color #white><size:12><b>In "compiled" languages, "components" are aggregations (collections) of <u>"binary files".|
 |<#white><i><color #green><size:12><b>2- Some exist only at link time,|<#blue><i><color #white><size:12><b>In "interpreted" languages, "components" are aggregations of <u>"source files".|
 |<#white><i><color #green><size:12><b>3- Some exist only at runtime &|<#grey><i><color #white><size:12><b>In all languages, "components" are the granule of <u>"deployment"|
 |<#white><i><color #green><size:12><b>4- Some exist at more than one time.|<#grey> |
-*<color #black><size:14><i><b>.War:</b> many ".Jar" inside a <b>.war file;
-***[#green] <i><color #white><b><size:14>Boundary Anatomy (structure, framework, composition)
-****[#darkorange] <i><color #black><size:14>The **<u>"architecture"</u>** of a **<u>"System"</u>** is defined by a <u>**set of "software components"**</u> \n<i><color #black><size:14>& the **boundaries** that <u><b>separate</u> them. from book "Clean Architecture"
-*****[#yellow] <i><color #black><size:14>**1-** Crossing Boundaries. How? use <b>DIP\n<i><color #black><size:14>**2-** Which **data** crosses boundaries? simple <b>DTO's
-***[#green] <i><color #white><size:14><b>Many Ways to decouple \n<i><b><color:pink><size:18>"use cases & layers"
-****[#gold] <i><color #black><size:14><b>Source level
-*****[#darkorange] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_84.png "TDD" can help here]] click me
-****[#gold] <i><color #black><size:14><b>Deployment level
-*****[#darkorange] <i><color #black><size:14><b>is modular monolith
-****[#darkorange] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Micro-services.puml Service level]]
-*****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_96.png Decoupling modes (Again)]]
-******[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_130.png The missing advice]]
-****[#a]:<i><color #black><size:14>It's not difficult to imagine that a **"System"** that runs comfortably on **"one server"** right now **"might grow"** to the point where some of its **"components"** ought ('ve to) to run
-<i><color #black><size:14>on **separate server**. While the **"System"** runs on single server, the **"source-level" decoupling** might be sufficient. Later, however, it might **require decoupling** to
-<i><color #black><size:14>**deployable units, or even "services"**. <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.jpg click me]] & [[a Conway's law]] click me;
-***[#green] <i><color #white><b><size:14>Software component \n<i><color #white><b><size:14>boundaries means:
-****[#darkorange] <i><color #black><size:14>**1- Boundary** crossing at <b>runtime:\n<i><color #black><size:14> <b>(source code dependencies)
-*****[#a]:*<i><color #black><size:14>**Communication** through <b>function calling.
-**<i><color #green><size:14><b>f.(o) is same as o.f()
-*<i><color #black><size:14>**Communication** is <b>fast & inexpensive
-*<i><color #black><size:14>requires <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png recompilation & static linking]]
-*<i><color #black><size:14>"components" are delivered as <b>source code
-|<#blue><i><color #white><size:14>function calling is on "same" <b>processor & address space|;
-******[#yellow] <i><color #black><size:14><img:images/img_48.png> <img:images/img_53.jpg{scale=0.89}> <img:images/img_49.png{scale=0.72}>
-****[#darkorange] <i><color #black><size:14>**2- Deployment**\n<i><color #black><size:14><b>component boundary
-*****[#a]:*<i><color #black><size:14>**Communication** through <b>function calling
-*<i><color #black><size:14>**Communication** is <b>fast & inexpensive
-*<i><color #black><size:14>requires <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png no recompilation & supports dynamic linking]]
-**<i><color #black><size:14>**changes** to the **"source code"** in one **module/class** don't
-<i><color #black><size:14>     force others to be <b>[[docs/3-programming-languages/Venkat-Subramaniam/Micro-services.puml rebuilt & redeployed.]]
-*<i><color #black><size:14>"components" are delivered as <b>.Jar, DLL, .class files in java
-|<#blue><i><color #white><size:14>function calling is on "same" <b>processor & address space|;
-******[#yellow] <i><color #black><size:14><img:images/img_47.png>    <img:images/img_50.png{scale=0.9}>
-*******[#a]:<i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Modularity]]** decreases the **model-code gap** & increases <b>"abstraction"
+*<color #black><size:12><i><b>.War:</b> many ".Jar" inside a <b>.war file;
+***[#green] <i><color #white><b><size:12>Boundary Anatomy (structure, framework, composition)
+****[#darkorange] <i><color #black><size:12>The **<u>"architecture"</u>** of a **<u>"System"</u>** is defined by a <u>**set of "software components"**</u> \n<i><color #black><size:12>& the **boundaries** that <u><b>separate</u> them. from book "Clean Architecture"
+*****[#yellow] <i><color #black><size:12>**1-** Crossing Boundaries. How? use <b>DIP\n<i><color #black><size:12>**2-** Which **data** crosses boundaries? simple <b>DTO's
+***[#green] <i><color #white><size:12><b>Many Ways to decouple \n<i><b><color:pink><size:18>"use cases & layers"
+****[#gold] <i><color #black><size:12><b>Source level
+*****[#darkorange] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_84.png "TDD" can help here]] click me
+****[#gold] <i><color #black><size:12><b>Deployment level
+*****[#darkorange] <i><color #black><size:12><b>is modular monolith
+****[#darkorange] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Micro-services.puml Service level]]
+*****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_96.png Decoupling modes (Again)]]
+******[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_130.png The missing advice]]
+****[#a]:<i><color #black><size:12>It's not difficult to imagine that a **"System"** that runs comfortably on **"one server"** right now **"might grow"** to the point where some of its **"components"** ought ('ve to) to run
+<i><color #black><size:12>on **separate server**. While the **"System"** runs on single server, the **"source-level" decoupling** might be sufficient. Later, however, it might **require decoupling** to
+<i><color #black><size:12>**deployable units, or even "services"**. <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.jpg click me]] & [[a Conway's law]] click me;
+***[#green] <i><color #white><b><size:12>Software component \n<i><color #white><b><size:12>boundaries means:
+****[#darkorange] <i><color #black><size:12>**1- Boundary** crossing at <b>runtime:\n<i><color #black><size:12> <b>(source code dependencies)
+*****[#a]:*<i><color #black><size:12>**Communication** through <b>function calling.
+**<i><color #green><size:12><b>f.(o) is same as o.f()
+*<i><color #black><size:12>**Communication** is <b>fast & inexpensive
+*<i><color #black><size:12>requires <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png recompilation & static linking]]
+*<i><color #black><size:12>"components" are delivered as <b>source code
+|<#blue><i><color #white><size:12>function calling is on "same" <b>processor & address space|;
+******[#yellow] <i><color #black><size:12><img:images/img_48.png> <img:images/img_53.jpg{scale=0.89}> <img:images/img_49.png{scale=0.72}>
+****[#darkorange] <i><color #black><size:12>**2- Deployment**\n<i><color #black><size:12><b>component boundary
+*****[#a]:*<i><color #black><size:12>**Communication** through <b>function calling
+*<i><color #black><size:12>**Communication** is <b>fast & inexpensive
+*<i><color #black><size:12>requires <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png no recompilation & supports dynamic linking]]
+**<i><color #black><size:12>**changes** to the **"source code"** in one **module/class** don't
+<i><color #black><size:12>     force others to be <b>[[docs/3-programming-languages/Venkat-Subramaniam/Micro-services.puml rebuilt & redeployed.]]
+*<i><color #black><size:12>"components" are delivered as <b>.Jar, DLL, .class files in java
+|<#blue><i><color #white><size:12>function calling is on "same" <b>processor & address space|;
+******[#yellow] <i><color #black><size:12><img:images/img_47.png>    <img:images/img_50.png{scale=0.9}>
+*******[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Modularity]]** decreases the **model-code gap** & increases <b>"abstraction"
 <img:images/img_53.png{scale=0.8}>
-<i><color #black><size:14>Still **cost is higher** because you 've to know about <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg modularity]] click me;
-****[#darkorange] <i><color #black><size:14>**3- Thread boundary**
-*****[#yellow]:<i><color #black><size:14>are not **boundaries** both:
-<i><color #black><size:14>**1- Source code dependencies** &
-<i><color #black><size:14>**2- Deployment component boundary** can make use of <b>threads.;
-******[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.jpg click me]] thread diagram notation reusable
-****[#darkorange] <i><color #black><size:14>**4- Local Process boundary**
-*****[#a]:*<b><i><color #black><size:14>[[docs/books/1-books-backlog/operating-system/operating-system.puml local processes "communicate" with each other using "socket, shared memory, IPC, mail boxes or message queues"]]
-*<i><color #black><size:14>**Communication** across **local process boundaries** involve:
-**<i><color #black><size:14><b>[[docs/books/1-books-backlog/operating-system/operating-system.puml operating system calls, data marshalling & decoding, & inter-process context switches which are moderately expensive]]
-*<i><color #black><size:14>**Communication** is <b>fast & expensive
-*<i><color #black><size:14>local processes can be <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png statically or dynamically linked]] click me
-*<i><color #yellow><size:14>**"Components"** are delivered in <b>binary or .Jar, DLL</b> or some equivalent form.
-|<#blue><i><color #yellow><size:14>Processes execute on "same" <b>processor or multi-core but "separate address space". [[docs/books/1-books-backlog/operating-system/operating-system.puml click me]]|;
-******[#darkorange] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_253.png "Modularity" can be achieved without resorting (alternating) \nto "process isolation" (separate address space).]]
+<i><color #black><size:12>Still **cost is higher** because you 've to know about <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg modularity]] click me;
+****[#darkorange] <i><color #black><size:12>**3- Thread boundary**
+*****[#yellow]:<i><color #black><size:12>are not **boundaries** both:
+<i><color #black><size:12>**1- Source code dependencies** &
+<i><color #black><size:12>**2- Deployment component boundary** can make use of <b>threads.;
+******[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.jpg click me]] thread diagram notation reusable
+****[#darkorange] <i><color #black><size:12>**4- Local Process boundary**
+*****[#a]:*<b><i><color #black><size:12>[[docs/books/1-books-backlog/operating-system/operating-system.puml local processes "communicate" with each other using "socket, shared memory, IPC, mail boxes or message queues"]]
+*<i><color #black><size:12>**Communication** across **local process boundaries** involve:
+**<i><color #black><size:12><b>[[docs/books/1-books-backlog/operating-system/operating-system.puml operating system calls, data marshalling & decoding, & inter-process context switches which are moderately expensive]]
+*<i><color #black><size:12>**Communication** is <b>fast & expensive
+*<i><color #black><size:12>local processes can be <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png statically or dynamically linked]] click me
+*<i><color #yellow><size:12>**"Components"** are delivered in <b>binary or .Jar, DLL</b> or some equivalent form.
+|<#blue><i><color #yellow><size:12>Processes execute on "same" <b>processor or multi-core but "separate address space". [[docs/books/1-books-backlog/operating-system/operating-system.puml click me]]|;
+******[#darkorange] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_253.png "Modularity" can be achieved without resorting (alternating) \nto "process isolation" (separate address space).]]
 
-****[#darkorange] <i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_246.png 5- Services Boundary:]]**
-*****[#yellow]:*<i><color #black><size:14>Service is a <b>process
-|<#white><i><color #black><size:14>**"Service"** don't depend upon <b>physical location.|
-|<#blue><i><color #white><size:14>Two communicating "services" may, or may not, operate in the "same" <b><u>physical processor or multi-core machine.|
-|<#white><i><color #black><size:14>The **"services"** assume that all **"communication"** take place <b>over the network.|
-*<i><color #black><size:14>**Communication** across **"service boundaries"** are very **slow** compared to <b>function calls;
+****[#darkorange] <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_246.png 5- Services Boundary:]]**
+*****[#yellow]:*<i><color #black><size:12>Service is a <b>process
+|<#white><i><color #black><size:12>**"Service"** don't depend upon <b>physical location.|
+|<#blue><i><color #white><size:12>Two communicating "services" may, or may not, operate in the "same" <b><u>physical processor or multi-core machine.|
+|<#white><i><color #black><size:12>The **"services"** assume that all **"communication"** take place <b>over the network.|
+*<i><color #black><size:12>**Communication** across **"service boundaries"** are very **slow** compared to <b>function calls;
 ******[#yellow] <img:images/img_246.png{scale=.135}>
-**[#lightblue] <i><color #black><size:14>Keep it DRY!
-***[#green] <i><color #white><b><size:14>Don't Repeat yourself
-****[#yellow]:<i><color #black><size:14>Don't duplicate <b>code
+**[#lightblue] <i><color #black><size:12>Keep it DRY!
+***[#green] <i><color #white><b><size:12>Don't Repeat yourself
+****[#yellow]:<i><color #black><size:12>Don't duplicate <b>code
 ====
-*<i><color #black><size:14>Every "piece of knowledge" in a "System" should 've <b><u>single unambiguous authoritative representation
-*<i><color #black><size:14>It "reduces" the "cost" of "development"
-*<i><color #black><size:14>The future you will thank you!
-*<i><color #black><size:14><b>Do code refactor!
-**<i><color #black><size:14><b>Some tools:
-*** <i><color #black><size:14><b>CPD (Copy paste detector)
-*** <i><color #black><size:14><b>Simian (means monkey)</b> Detects code if you copy & pasted code at several places;
+*<i><color #black><size:12>Every "piece of knowledge" in a "System" should 've <b><u>single unambiguous authoritative representation
+*<i><color #black><size:12>It "reduces" the "cost" of "development"
+*<i><color #black><size:12>The future you will thank you!
+*<i><color #black><size:12><b>Do code refactor!
+**<i><color #black><size:12><b>Some tools:
+*** <i><color #black><size:12><b>CPD (Copy paste detector)
+*** <i><color #black><size:12><b>Simian (means monkey)</b> Detects code if you copy & pasted code at several places;
 
-****[#yellow] <i><color #black><size:14>Don't duplicate <b>effort
-*****[#gold] <i><color #black><size:14><b>A cascade change
-**[#lightblue] <i><color #black><size:14>Focus on "Single Responsibility Principle"\n*<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 2- Rule of Clarity]]
-***[#green] <i><color #white><size:14><b>Long Methods
-****[#yellow]:<i><color #black><size:14><b>//Comment...
+****[#yellow] <i><color #black><size:12>Don't duplicate <b>effort
+*****[#gold] <i><color #black><size:12><b>A cascade change
+**[#lightblue] <i><color #black><size:12>Focus on "Single Responsibility Principle"\n*<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 2- Rule of Clarity]]
+***[#green] <i><color #white><size:12><b>Long Methods
+****[#yellow]:<i><color #black><size:12><b>//Comment...
 
-<i><color #black><size:14>Code...
+<i><color #black><size:12>Code...
 
-<i><color #black><size:14><b>//Comment...
+<i><color #black><size:12><b>//Comment...
 
-<i><color #black><size:14>Code...
+<i><color #black><size:12>Code...
 
-<i><color #black><size:14><b>//Comment...
+<i><color #black><size:12><b>//Comment...
 
-<i><color #black><size:14>Code...
+<i><color #black><size:12>Code...
 
-<i><color #black><size:14><b>//Comment...
+<i><color #black><size:12><b>//Comment...
 
-<i><color #black><size:14>Code...;
-*****[#gold]:<i><color #black><size:14><b>Long Methods are bad:</b>
-*<i><color #black><size:14>Hard to test <b>(TDD)
-*<i><color #black><size:14>Hard to read
-*<i><color #black><size:14>Hard to remember
-*<i><color #black><size:14>Obscured business rules
-*<i><color #black><size:14>Hard to <b>reuse
-*<i><color #black><size:14>Leads to duplication
-*<i><color #black><size:14>many reasons to change
-*<i><color #black><size:14>Can't be optimized by anything
-*<i><color #black><size:14>Lot of variables...
-*<i><color #black><size:14>Not developer friendly
-*<i><color #black><size:14><b>Mixed levels
-*<i><color #black><size:14>Obsolete comments
-*<i><color #black><size:14>Hard to debug <b>(victim);
-******[#yellow] <i><color #black><size:14><b>Opposite of:\n*<i><color #black><size:14><b>High Cohesion\n*<i><color #black><size:14><b>Low Coupling
-****[#yellow]:<i><color #black><size:14><b>How "long" is a "long method"?
-*<i><color #black><size:14><b>The answer is <b>"SLAP"</b> (Single Level of Abstraction)
-*<i><color #black><size:14>Don't comment "bad code" instead <b>refactor bad code
-*<i><color #black><size:14>Don't comment **"What",** instead <b>comment "Why"
-*<i><color #black><size:14>A good code is like a <b>joke
-**<i><color #black><size:14>refactor it if it doesnt work;
-***[#green] <i><color #white><size:14><b>SLAP
-***[#green] <i><color #white><size:14><b>Compose Method Pattern
-****[#gold] <i><color #black><size:14><b>Self documenting code
-***[#green] <i><color #white><size:14><b>Violation of (SRP)
-****[#gold] <i><color #black><size:14>increases code <b>rigidity, fragility & reuse-ability!
-**[#lightblue] <i><color #black><size:14>Don't violate the \n<i><color #black><size:14>Open-Closed Principle (OCP)
-***[#green] <i><color #white><size:14><b>"Software module" should be "open" for\n<i><color #white><size:14><b>"extension" but "closed" for "modification"
-****[#gold] <i><color #black><size:14><b>Abstraction
-****[#gold] <i><color #black><size:14><b>Polymorphism
-***[#green] <i><color #white><size:14><b>Two options: to make an "enhancement":
-****[#gold] <i><color #black><size:14><b>1- Change an existing code <size:20><&circle-x>
-****[#gold] <i><color #black><size:14><b>2- Add a small new "module" of code <&check>
-***[#green] <i><color #white><size:14><b>A class/code can't be "infinitely extensible,"
-****[#gold] <i><color #black><size:14>It is only extensible for <b>"what you design for"!
-****[#gold] <i><color #black><size:14>Who can make extensible?\n*<i><color #black><size:14>We need to know <b>software & domain knowledge
-***[#green] <i><color #white><b><size:14>Three Kinds of people in we work with:
-****[#yellow] *<i><color #black><size:14><b>People with domain knowledge but no clue of Software design\n*<i><color #black><size:14>Too many in an organization
-****[#yellow] *<i><color #black><size:14><b>People with no clue of domain knowledge but with knowledge the Software design\n*<i><color #black><size:14>Too many in an organization
-****[#gold] *<i><color #black><size:18><b>People with domain knowledge & also knowledge of the Software design\n*<i><color #black><size:14>Very few in an organization
-***[#green] <i><color #white><size:14><b>Conformance to (OCP)
-****[#gold] <i><color #black><size:14>prevents code <b>rigidity, fragility & non-reusebility!
-**[#lightblue] <i><color #black><size:14>Keep in mind \n<i><color #black><size:14>Liskov's Substitution Principle
-***[#green] <i><color #white><b><size:14>Inheritance overused
-****[#gold] *<i><color #black><size:14>Bad thing!
-***[#green] <i><color #white><b><size:14>Inheritance should be used \n<i><color #white><b><size:14>only for substitutability
-****[#gold] *<i><color #black><size:14>If **an object of B** should be "used" anywhere **an object of of A** is used then use <b>inheritance.
-****[#gold] *<i><color #black><size:14>If **an object of B** should "use" **an object of A**, then use <b>"composition or delegation".
-****[#yellow] *<i><color #black><size:14>**Inheritance** demands more from a "developer" than **composition or delegation** does.
-****[#yellow]:*<i><color #black><size:14>**Services** of the **derived class** should "require" no more & "promise" no less than the corresponding
-<i><color #black><size:14>**"services"** of the <b>base class.
+<i><color #black><size:12>Code...;
+*****[#gold]:<i><color #black><size:12><b>Long Methods are bad:</b>
+*<i><color #black><size:12>Hard to test <b>(TDD)
+*<i><color #black><size:12>Hard to read
+*<i><color #black><size:12>Hard to remember
+*<i><color #black><size:12>Obscured business rules
+*<i><color #black><size:12>Hard to <b>reuse
+*<i><color #black><size:12>Leads to duplication
+*<i><color #black><size:12>many reasons to change
+*<i><color #black><size:12>Can't be optimized by anything
+*<i><color #black><size:12>Lot of variables...
+*<i><color #black><size:12>Not developer friendly
+*<i><color #black><size:12><b>Mixed levels
+*<i><color #black><size:12>Obsolete comments
+*<i><color #black><size:12>Hard to debug <b>(victim);
+******[#yellow] <i><color #black><size:12><b>Opposite of:\n*<i><color #black><size:12><b>High Cohesion\n*<i><color #black><size:12><b>Low Coupling
+****[#yellow]:<i><color #black><size:12><b>How "long" is a "long method"?
+*<i><color #black><size:12><b>The answer is <b>"SLAP"</b> (Single Level of Abstraction)
+*<i><color #black><size:12>Don't comment "bad code" instead <b>refactor bad code
+*<i><color #black><size:12>Don't comment **"What",** instead <b>comment "Why"
+*<i><color #black><size:12>A good code is like a <b>joke
+**<i><color #black><size:12>refactor it if it doesnt work;
+***[#green] <i><color #white><size:12><b>SLAP
+***[#green] <i><color #white><size:12><b>Compose Method Pattern
+****[#gold] <i><color #black><size:12><b>Self documenting code
+***[#green] <i><color #white><size:12><b>Violation of (SRP)
+****[#gold] <i><color #black><size:12>increases code <b>rigidity, fragility & reuse-ability!
+**[#lightblue] <i><color #black><size:12>Don't violate the \n<i><color #black><size:12>Open-Closed Principle (OCP)
+***[#green] <i><color #white><size:12><b>"Software module" should be "open" for\n<i><color #white><size:12><b>"extension" but "closed" for "modification"
+****[#gold] <i><color #black><size:12><b>Abstraction
+****[#gold] <i><color #black><size:12><b>Polymorphism
+***[#green] <i><color #white><size:12><b>Two options: to make an "enhancement":
+****[#gold] <i><color #black><size:12><b>1- Change an existing code <size:20><&circle-x>
+****[#gold] <i><color #black><size:12><b>2- Add a small new "module" of code <&check>
+***[#green] <i><color #white><size:12><b>A class/code can't be "infinitely extensible,"
+****[#gold] <i><color #black><size:12>It is only extensible for <b>"what you design for"!
+****[#gold] <i><color #black><size:12>Who can make extensible?\n*<i><color #black><size:12>We need to know <b>software & domain knowledge
+***[#green] <i><color #white><b><size:12>Three Kinds of people in we work with:
+****[#yellow] *<i><color #black><size:12><b>People with domain knowledge but no clue of Software design\n*<i><color #black><size:12>Too many in an organization
+****[#yellow] *<i><color #black><size:12><b>People with no clue of domain knowledge but with knowledge the Software design\n*<i><color #black><size:12>Too many in an organization
+****[#gold] *<i><color #black><size:18><b>People with domain knowledge & also knowledge of the Software design\n*<i><color #black><size:12>Very few in an organization
+***[#green] <i><color #white><size:12><b>Conformance to (OCP)
+****[#gold] <i><color #black><size:12>prevents code <b>rigidity, fragility & non-reusebility!
+**[#lightblue] <i><color #black><size:12>Keep in mind \n<i><color #black><size:12>Liskov's Substitution Principle
+***[#green] <i><color #white><b><size:12>Inheritance overused
+****[#gold] *<i><color #black><size:12>Bad thing!
+***[#green] <i><color #white><b><size:12>Inheritance should be used \n<i><color #white><b><size:12>only for substitutability
+****[#gold] *<i><color #black><size:12>If **an object of B** should be "used" anywhere **an object of of A** is used then use <b>inheritance.
+****[#gold] *<i><color #black><size:12>If **an object of B** should "use" **an object of A**, then use <b>"composition or delegation".
+****[#yellow] *<i><color #black><size:12>**Inheritance** demands more from a "developer" than **composition or delegation** does.
+****[#yellow]:*<i><color #black><size:12>**Services** of the **derived class** should "require" no more & "promise" no less than the corresponding
+<i><color #black><size:12>**"services"** of the <b>base class.
 ==<i><color #black><b><size:14>Why?==
-*<i><color #black><size:14>**Reason:** The "user" of a **base class** should be able to "use" an **instance** of a <b>derived class</b> without
-<i><color #black><size:14>knowing the difference.
+*<i><color #black><size:12>**Reason:** The "user" of a **base class** should be able to "use" an **instance** of a <b>derived class</b> without
+<i><color #black><size:12>knowing the difference.
 ==<i><color #black><b><size:14>How?==
-*<i><color #black><size:14>You & I 've to make sure that we protect it at the <b>"code level."</b> Otherwise design begins to fall apart.
-<i><color #black><size:14>And we don't know why it's falling apart.
-*<i><color #black><size:14>Violation of the <b>"Liskov's substitution principle"</b> may result in violation of the <b>Open-Closed Principle (OCP);
-***[#green] <i><color #white><b><size:14>Good
-****[#yellow] <i><color #black><size:14>Public vs. protected in base vs. derived class
-****[#yellow] <i><color #black><size:14>Derived functions can't throw any new checked exceptions no thrown by the base class (Unless the new exception extends the old one...)
-****[#yellow] <i><color #black><size:14>Collection of derived class does not extend from collection of base class.
-****[#yellow]:<i><color #black><size:14>Use **Composition or delegation** instead of **inheritance** unless:
-*<i><color #black><size:14>You want <b>substitutability;
-***[#green] <i><color #white><b><size:14>Bad
-****[#gold]:<b><i><color #black><size:14>Should I violate LSP or should I violate DRY & OCP?
-<i><color #black><size:14>If I violate LSP then the user of the class probably is gonna violate <b>OCP.</b> I would rather violate it, then violate myself & force to violate as well
-<i><color #black><size:14>the sin is in me I don't want you the part of sin as a user of my class.
+*<i><color #black><size:12>You & I 've to make sure that we protect it at the <b>"code level."</b> Otherwise design begins to fall apart.
+<i><color #black><size:12>And we don't know why it's falling apart.
+*<i><color #black><size:12>Violation of the <b>"Liskov's substitution principle"</b> may result in violation of the <b>Open-Closed Principle (OCP);
+***[#green] <i><color #white><b><size:12>Good
+****[#yellow] <i><color #black><size:12>Public vs. protected in base vs. derived class
+****[#yellow] <i><color #black><size:12>Derived functions can't throw any new checked exceptions no thrown by the base class (Unless the new exception extends the old one...)
+****[#yellow] <i><color #black><size:12>Collection of derived class does not extend from collection of base class.
+****[#yellow]:<i><color #black><size:12>Use **Composition or delegation** instead of **inheritance** unless:
+*<i><color #black><size:12>You want <b>substitutability;
+***[#green] <i><color #white><b><size:12>Bad
+****[#gold]:<b><i><color #black><size:12>Should I violate LSP or should I violate DRY & OCP?
+<i><color #black><size:12>If I violate LSP then the user of the class probably is gonna violate <b>OCP.</b> I would rather violate it, then violate myself & force to violate as well
+<i><color #black><size:12>the sin is in me I don't want you the part of sin as a user of my class.
 ==<i><color #black><size:14><b><u>What if I don't had to violate it at all?==
-*<i><color #black><size:14>In **Java** you can do it with **Project Lombok** but I'm leaving this for later study.;
-**[#lightblue] <i><color #black><size:14>Decouple using the \n<i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Dependency-inversion-principle-DIP.puml Dependency Inversion Principle]]
-***[#yellow] <i><color #black><size:14>"Every single line of **code"** that **"uses"** the "**new** keyword" violates <b>"DIP".
-***[#green] <i><color #white><b><size:14>A "class" should not "depend" on "another class", they both should\n<i><color #white><b><size:14>'ve to "depend" on an "abstraction" (interface<color:lime>/abstract) class.
-****[#yellow] <i><color #black><size:14>lowers the coupling
-****[#yellow] <i><color #black><b><size:14>Use with caution
-****[#a]:*<i><color #black><size:14>**Interface/Abstract class** has its own <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_170.png drawback]]
-*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_169.png Runtime Polymorphism]] & its working;
-****[#yellow]:<i><color #green><size:14>Use more **lambda expressions** as **"implementors"** of
-<i><color #black><size:14>the **interface/abstract classes** rather than using the
-<i><color #g><size:14>**"anonymous inner classes"** or **"regular classes"**.
+*<i><color #black><size:12>In **Java** you can do it with **Project Lombok** but I'm leaving this for later study.;
+**[#lightblue] <i><color #black><size:12>Decouple using the \n<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Dependency-inversion-principle-DIP.puml Dependency Inversion Principle]]
+***[#yellow] <i><color #black><size:12>"Every single line of **code"** that **"uses"** the "**new** keyword" violates <b>"DIP".
+***[#green] <i><color #white><b><size:12>A "class" should not "depend" on "another class", they both should\n<i><color #white><b><size:12>'ve to "depend" on an "abstraction" (interface<color:lime>/abstract) class.
+****[#yellow] <i><color #black><size:12>lowers the coupling
+****[#yellow] <i><color #black><b><size:12>Use with caution
+****[#a]:*<i><color #black><size:12>**Interface/Abstract class** has its own <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_170.png drawback]]
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_169.png Runtime Polymorphism]] & its working;
+****[#yellow]:<i><color #green><size:12>Use more **lambda expressions** as **"implementors"** of
+<i><color #black><size:12>the **interface/abstract classes** rather than using the
+<i><color #g><size:12>**"anonymous inner classes"** or **"regular classes"**.
 <img:images/img_132.jpg{scale=.6}>;
-*****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_152.png click me]]
-*****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_152.png Design Patterns in the light of modern Java]] venkat-subramaniam
-**[#lightblue] <i><color #black><size:14>Keep "interfaces Cohesive" with \n<i><color #black><size:14>"Interface Segregation Principle"
-***[#green] <i><color #white><b><size:14>"Code" should not depend on \n<i><color #white><b><size:14>"methods" it doesn't "use"
-****[#yellow] <i><color #black><size:14>The **goal** of the **ISP** is to reduce the side-effects of using **"large interfaces"** by breaking them into smaller, more <b>specific interfaces.
-****[#yellow] <i><color #black><size:14>Really is **"cohesion", "Single Responsibility Principle" (SRP)** but at the <b>interface-level.
-**[#lightblue] <i><color #black><size:14>When to apply these principles?
+*****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_152.png click me]]
+*****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_152.png Design Patterns in the light of modern Java]] venkat-subramaniam
+**[#lightblue] <i><color #black><size:12>Keep "interfaces Cohesive" with \n<i><color #black><size:12>"Interface Segregation Principle"
+***[#green] <i><color #white><b><size:12>"Code" should not depend on \n<i><color #white><b><size:12>"methods" it doesn't "use"
+****[#yellow] <i><color #black><size:12>The **goal** of the **ISP** is to reduce the side-effects of using **"large interfaces"** by breaking them into smaller, more <b>specific interfaces.
+****[#yellow] <i><color #black><size:12>Really is **"cohesion", "Single Responsibility Principle" (SRP)** but at the <b>interface-level.
+**[#lightblue] <i><color #black><size:12>When to apply these principles?
 ***[#green] <i><color #white><b><size:18>2-Phases \n<i><color #white><b><size:18>of Design:
-****[#a]:<i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_108.png Strategic Design:]]** very high-level design.
-*<i><color #black><size:14>Gives "direction & ideas" <b>to go to.
-*<i><color #black><size:14>**SOLID, YAGNI, DRY, & other principles** are used **little bit** during <b>strategic design.;
-*****[#a] <i><color #black><size:14>Link here DDD technique + Event Storming technique + Deep models
-****[#a]:<i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_108.png Tactical Design:]]** often low-level design,
-*<i><color #black><size:14>Paves the way to refine those "directions & ideas" into realities of the project
-*<i><color #black><size:14>**SOLID, YAGNI, DRY, & other principles** are used **a lot** during <b>tactical design.;
+****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_108.png Strategic Design:]]** very high-level design.
+*<i><color #black><size:12>Gives "direction & ideas" <b>to go to.
+*<i><color #black><size:12>**SOLID, YAGNI, DRY, & other principles** are used **little bit** during <b>strategic design.;
+*****[#a] <i><color #black><size:12>Link here DDD technique + Event Storming technique + Deep models
+****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_108.png Tactical Design:]]** often low-level design,
+*<i><color #black><size:12>Paves the way to refine those "directions & ideas" into realities of the project
+*<i><color #black><size:12>**SOLID, YAGNI, DRY, & other principles** are used **a lot** during <b>tactical design.;
 ***[#green] <i><color #white><b><size:18>How to apply \n<i><color #white><b><size:18>these principles?
-****[#gold] <i><color #black><size:14>Machine Learning <b>"Model" "Testing" is different than <b>(TDD)</b> that is:
+****[#gold] <i><color #black><size:12>Machine Learning <b>"Model" "Testing" is different than <b>(TDD)</b> that is:
 *****[#gold] <i><color #black><size:11><b>"Testing" "Model's"
-******[#darkorange] <i><color #black><size:14>**1-** Prediction\n<i><color #black><size:14>**2-** Pattern recognition\n<i><color #black><size:14>**3-** Optimization & decision making
-****[#yellow] <i><color #black><size:14>**1-** Use as a way to discuss **"among developers",** sit down with "developers" & say \n<i><color #black><size:14>hey if we do this we may **violate LSP or OCP or DIP.** So apply <b>YAGNI & postpone
-****[#a]:<i><color #black><size:14>**2-** Use during <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_110.png TDD]]. click me
+******[#darkorange] <i><color #black><size:12>**1-** Prediction\n<i><color #black><size:12>**2-** Pattern recognition\n<i><color #black><size:12>**3-** Optimization & decision making
+****[#yellow] <i><color #black><size:12>**1-** Use as a way to discuss **"among developers",** sit down with "developers" & say \n<i><color #black><size:12>hey if we do this we may **violate LSP or OCP or DIP.** So apply <b>YAGNI & postpone
+****[#a]:<i><color #black><size:12>**2-** Use during <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_110.png TDD]]. click me
 ==<i><color #black><size:14><b>How?==
-*<i><color #black><size:14>When start writing **Test cases**, ask "yourself" the following <b>questions:
-**<i><color #black><size:14>What does this **"test"** do?
-**<i><color #black><size:14>How does this "feels" to "use" this <b>object?
-**<i><color #black><size:14>What are the <b>consequences?
-***<i><color #black><size:14>Am I increasing coupling when I'm using this particular object?
-***<i><color #black><size:14>What is <b>"cohesion"?
-****<i><color #black><size:14>What is the **"responsibility"** of the "class" I'm <b>designing?
-****<i><color #black><size:14>If I **"use"** this particular **"code"**, am I going to **violate (OCP)** here?
-****<i><color #black><size:14>Should I really "use" **DIP** to gain access & **test** this <b>code?
-*<b><i><color #black><size:14>[[docs/books/1-books-backlog/data-structure-and-algorithm/classes-vs-data-structures.puml Classes Vs. Data structures]] click me
+*<i><color #black><size:12>When start writing **Test cases**, ask "yourself" the following <b>questions:
+**<i><color #black><size:12>What does this **"test"** do?
+**<i><color #black><size:12>How does this "feels" to "use" this <b>object?
+**<i><color #black><size:12>What are the <b>consequences?
+***<i><color #black><size:12>Am I increasing coupling when I'm using this particular object?
+***<i><color #black><size:12>What is <b>"cohesion"?
+****<i><color #black><size:12>What is the **"responsibility"** of the "class" I'm <b>designing?
+****<i><color #black><size:12>If I **"use"** this particular **"code"**, am I going to **violate (OCP)** here?
+****<i><color #black><size:12>Should I really "use" **DIP** to gain access & **test** this <b>code?
+*<b><i><color #black><size:12>[[docs/books/1-books-backlog/data-structure-and-algorithm/classes-vs-data-structures.puml Classes Vs. Data structures]] click me
 <img:images/img_44.png{scale=0.81}>
 
 ==<i><color #black><size:14><b>UML & BPMN==
-*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_174.png Class Associations]], Only use tools like [[a visual-paradigm]] if your system
-<i><color #black><size:14><b>has more than 50-classes.
-*<i><color #black><size:14><b>[[docs/2-uml/PlantUML/sequence-diagram/heart-of-sequence-diagram.puml Heart of Sequence diagram]]
-**<i><color #black><size:14><b>[[docs/2-uml/PlantUML/sequence-diagram/use-case-table-and-work-products.puml System Level Sequence Diagram (Use Case 2.0 & Work Products)]]
-**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_211.png Sequence Diagram vs Use Case 2.0 vs Activity diagram]]
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_174.png Class Associations]], Only use tools like [[a visual-paradigm]] if your system
+<i><color #black><size:12><b>has more than 50-classes.
+*<i><color #black><size:12><b>[[docs/2-uml/PlantUML/sequence-diagram/heart-of-sequence-diagram.puml Heart of Sequence diagram]]
+**<i><color #black><size:12><b>[[docs/2-uml/PlantUML/sequence-diagram/use-case-table-and-work-products.puml System Level Sequence Diagram (Use Case 2.0 & Work Products)]]
+**<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_211.png Sequence Diagram vs Use Case 2.0 vs Activity diagram]]
 *<i><color #black><size:12><b>[[docs/2-uml/PlantUML/activity-diagram/activity-diagram-syntax.png Activity Diagram syntax]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_128.jpg UML diagrams cheatsheet]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_248.png Keep audience in mind of UML]]
 *<i><color #black><size:11><b>[[docs/3-programming-languages/Venkat-Subramaniam/synchronous-system-use-case-modeling.puml Synchronous System Use Case Modeling; <<include>> & <<extends>> relation]] implementation
 *<i><color #black><size:10><b>[[docs/3-programming-languages/Venkat-Subramaniam/asynchronous-system-use-case-modeling.puml Asynchronous System (EDA) Use Case Modeling; <<Publish>> & <<Subscribe>> relation]] implementation
 *<i><color #black><size:10><b>[[https://www.youtube.com/watch?v=F6omQ8avp5I&ab_channel=Prayance BPMN]] 7-minute video [[https://www.youtube.com/watch?v=nXImBt_HnNo&t=1114s&ab_channel=VisualParadigm Business Process Modeling with BPMN]] 45-minute video, [[docs/3-programming-languages/Venkat-Subramaniam/images/img_180.png BPMN notes]]
 ;
 *****[#gold] <img:images/img_142.png>
-****[#gold] <i><color #black><size:14>**3-** Micheal Feathers: said In "OOP" we **"encapsulate"** the **"moving parts"**, in "FP" we **"eliminate"** the <b>"moving parts"
-**[#lightblue] <i><color #black><size:14>Summary [[docs/3-programming-languages/Venkat-Subramaniam/images/img_55.png click me]]\n<img:images/img_55.png{scale=.16}>
+****[#gold] <i><color #black><size:12>**3-** Micheal Feathers: said In "OOP" we **"encapsulate"** the **"moving parts"**, in "FP" we **"eliminate"** the <b>"moving parts"
+**[#lightblue] <i><color #black><size:12>Summary [[docs/3-programming-languages/Venkat-Subramaniam/images/img_55.png click me]]\n<img:images/img_55.png{scale=.16}>
 
 @endmindmap

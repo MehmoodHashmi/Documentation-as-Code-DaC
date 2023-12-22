@@ -5,23 +5,23 @@ title =<i><b><u>Streams\n<img:images/img_30.png{scale=0.7}>
 ** ==<i><b>[[https://www.youtube.com/watch?v=S5tLVsvbHBg&t=5622s&ab_channel=Devoxx Exception Handling in Functional and Reactive Programming by Venkat Subramaniam]]
 !theme hacker
 *[#darkblue] <color:white><i>Streams
-**[#lightblue] <i><color #blac><size:14>All these "3 Stream APIs" programing "models" are just "tools". Use one that bests suits your "use case".
-**[#lightblue] <i><color #blac><size:14>Stream
-***[#green] <b><i><color #white><size:14>Simple stream
-****[#yellow] <i><color #black><size:14><img:images/img_29.png{scale=0.45}>
+**[#lightblue] <i><color #blac><size:12>All these "3 Stream APIs" programing "models" are just "tools". Use one that bests suits your "use case".
+**[#lightblue] <i><color #blac><size:12>Stream
+***[#green] <b><i><color #white><size:12>Simple stream
+****[#yellow] <i><color #black><size:12><img:images/img_29.png{scale=0.45}>
 *****[#green] <b><i><color #white><size:22>Pipeline \n<b><i><color #white><size:22>schema is
 ******[#lightblue] <b><i><color #black><size:18>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-or-database-migration/Data-Migration-Strategies/ETL-(Extract-Transform-Load)-Strategy.puml ETL]]
 ******[#yellow] <b><i><color #black><size:18>ELT
-****[#a]:*<i><color #black><size:14>is <b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/sequential-vs-parallel.adoc sequential vs parallel]]
-*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc no forking,]]</b> single path of **dataflow/stream** (start to finish)
-*<i><color #black><size:14><b>Push **(data)** at will;
-****[#yellow] <i><color #black><size:14>0, 1 or more pieces of <b>data
-****[#yellow] <i><color #black><size:14>is <b>pipeline</b> of functions
-****[#yellow] <i><color #black><size:14>has <b>lazy</b> evaluation
-****[#yellow] *<i><color #black><size:14><b>How to deal with "Exception Handling"?\n*<i><color #black><size:14>"Exception Handling" is an imperative style programing idea \n*<i><color #black><size:14>"Functional programming" and "exception handling" are "mutually exclusive"
-****[#yellow] <i><color #black><size:14>One <b>Channel</b> of data
-****[#yellow] <i><color #black><size:14><b>map, filter, etc.</b> can't call lambdas that 've <b>"checked exceptions"
-**[#lightblue] <i><color #blac><size:14>Reactive Stream
+****[#a]:*<i><color #black><size:12>is <b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/sequential-vs-parallel.adoc sequential vs parallel]]
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc no forking,]]</b> single path of **dataflow/stream** (start to finish)
+*<i><color #black><size:12><b>Push **(data)** at will;
+****[#yellow] <i><color #black><size:12>0, 1 or more pieces of <b>data
+****[#yellow] <i><color #black><size:12>is <b>pipeline</b> of functions
+****[#yellow] <i><color #black><size:12>has <b>lazy</b> evaluation
+****[#yellow] *<i><color #black><size:12><b>How to deal with "Exception Handling"?\n*<i><color #black><size:12>"Exception Handling" is an imperative style programing idea \n*<i><color #black><size:12>"Functional programming" and "exception handling" are "mutually exclusive"
+****[#yellow] <i><color #black><size:12>One <b>Channel</b> of data
+****[#yellow] <i><color #black><size:12><b>map, filter, etc.</b> can't call lambdas that 've <b>"checked exceptions"
+**[#lightblue] <i><color #blac><size:12>Reactive Stream
 ***[#green] <b><i><color #white><size:12>is an abstraction on top\n<b><i><color #white><size:12>of "simple stream"
 ****[#a]:*<i><color #black><size:12>is <b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc sync vs async]]
 *<i><color #black><size:12><b>has [[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc forking,]]</b> through <b>multiple subscribers
@@ -42,64 +42,64 @@ title =<i><b><u>Streams\n<img:images/img_30.png{scale=0.7}>
 ******[#gold] <i><color #black><size:12> <b>Data</b> Channel
 ******[#gold] <i><color #black><size:12> <b>Error</b> Channel
 ******[#gold] <i><color #black><size:12> <b>Complete</b> Channel
-****[#yellow] <i><color #black><size:14><b>map, filter, etc.</b> can 've lambdas that may throw "checked exceptions"
-**[#lightblue] <i><color #blac><size:14>CompletableFuture Stream
-***[#green] <b><i><color #white><size:14>is an abstraction on top\n<b><i><color #white><size:14>of "simple stream"
-****[#yellow] <i><color #black><size:14>0 or 1 piece of <b>data
-****[#yellow] <i><color #black><size:14>Has better **"exception handling" API** than **Stream & Reactive stream** but not perfect
+****[#yellow] <i><color #black><size:12><b>map, filter, etc.</b> can 've lambdas that may throw "checked exceptions"
+**[#lightblue] <i><color #blac><size:12>CompletableFuture Stream
+***[#green] <b><i><color #white><size:12>is an abstraction on top\n<b><i><color #white><size:12>of "simple stream"
+****[#yellow] <i><color #black><size:12>0 or 1 piece of <b>data
+****[#yellow] <i><color #black><size:12>Has better **"exception handling" API** than **Stream & Reactive stream** but not perfect
 
 *[#darkblue] <i>Java Streams
-**[#lightblue] <i><color #blac><size:14>Definition
-***[#green] <b><i><color #white><size:14>Sequences supporting aggregate operations on elements.
-**[#lightblue] <i><color #blac><size:14>Characteristics
-***[#green] <b><i><color #white><size:14>Sequence of Elements
-****[#yellow] <i><color #black><size:14>Collection, array, I/O channel, or generator source.
-***[#green] <b><i><color #white><size:14>Functional Operations
-****[#yellow] <i><color #black><size:14>map, filter, reduce, collect, forEach, etc.
-***[#green] <b><i><color #white><size:14>Pipelining
-****[#yellow] <i><color #black><size:14>Chaining multiple operations to form a pipeline.
-***[#green] <b><i><color #white><size:14>Lazy Evaluation
-****[#yellow] <i><color #black><size:14>Operations evaluated only when needed.
-***[#green] <b><i><color #white><size:14>Eager Evaluation
-****[#yellow] <i><color #black><size:14>Operations are always evaluated even when not needed.
-***[#green] <b><i><color #white><size:14>Terminal Operations
-****[#yellow] <i><color #black><size:14>Triggering the evaluation of intermediate operations.
-***[#green] <b><i><color #white><size:14>Parallel Processing
-****[#yellow] <i><color #black><size:14>Execution in parallel for improved performance.
-***[#green] <b><i><color #white><size:14>Immutability
-****[#yellow] <i><color #black><size:14>Streams themselves are immutable.
-**[#lightblue] <i><color #blac><size:14>Functional Operations
-***[#green] <b><i><color #white><size:14>map
-****[#yellow] <i><color #black><size:14>Transforms elements using a function.
-***[#green] <b><i><color #white><size:14>filter
-****[#yellow] <i><color #black><size:14>Selects elements based on a predicate.
-***[#green] <b><i><color #white><size:14>reduce
-****[#yellow] <i><color #black><size:14>Aggregates elements into a single value.
-***[#green] <b><i><color #white><size:14>collect
-****[#yellow] <i><color #black><size:14>Accumulates elements into a collection or a value.
-***[#green] <b><i><color #white><size:14>forEach
-****[#yellow] <i><color #black><size:14>Performs an action on each element.
-***[#green] <b><i><color #white><size:14>sorted
-****[#yellow] <i><color #black><size:14>Sorts elements based on a comparator.
-**[#lightblue] <i><color #blac><size:14>Stream Sources
-***[#green] <b><i><color #white><size:14>Collections
-****[#yellow] <i><color #black><size:14>Lists, Sets, Maps, etc.
-***[#green] <b><i><color #white><size:14>Arrays
-****[#yellow] <i><color #black><size:14>Arrays of elements.
-***[#green] <b><i><color #white><size:14>I/O Channels
-****[#yellow] <i><color #black><size:14>Reading and writing from I/O.
-***[#green] <b><i><color #white><size:14>Generators
-****[#yellow] <i><color #black><size:14>Creating streams from generators or suppliers.
-**[#lightblue] <i><color #blac><size:14>Intermediate vs Terminal Operations
-***[#green] <b><i><color #white><size:14>Intermediate
-****[#yellow] <i><color #black><size:14>Lazy evaluated operations (map, filter, etc.).
-***[#green] <b><i><color #white><size:14>Terminal
-****[#yellow] <i><color #black><size:14>Operations that trigger stream evaluation (collect, forEach, etc.).
+**[#lightblue] <i><color #blac><size:12>Definition
+***[#green] <b><i><color #white><size:12>Sequences supporting aggregate operations on elements.
+**[#lightblue] <i><color #blac><size:12>Characteristics
+***[#green] <b><i><color #white><size:12>Sequence of Elements
+****[#yellow] <i><color #black><size:12>Collection, array, I/O channel, or generator source.
+***[#green] <b><i><color #white><size:12>Functional Operations
+****[#yellow] <i><color #black><size:12>map, filter, reduce, collect, forEach, etc.
+***[#green] <b><i><color #white><size:12>Pipelining
+****[#yellow] <i><color #black><size:12>Chaining multiple operations to form a pipeline.
+***[#green] <b><i><color #white><size:12>Lazy Evaluation
+****[#yellow] <i><color #black><size:12>Operations evaluated only when needed.
+***[#green] <b><i><color #white><size:12>Eager Evaluation
+****[#yellow] <i><color #black><size:12>Operations are always evaluated even when not needed.
+***[#green] <b><i><color #white><size:12>Terminal Operations
+****[#yellow] <i><color #black><size:12>Triggering the evaluation of intermediate operations.
+***[#green] <b><i><color #white><size:12>Parallel Processing
+****[#yellow] <i><color #black><size:12>Execution in parallel for improved performance.
+***[#green] <b><i><color #white><size:12>Immutability
+****[#yellow] <i><color #black><size:12>Streams themselves are immutable.
+**[#lightblue] <i><color #blac><size:12>Functional Operations
+***[#green] <b><i><color #white><size:12>map
+****[#yellow] <i><color #black><size:12>Transforms elements using a function.
+***[#green] <b><i><color #white><size:12>filter
+****[#yellow] <i><color #black><size:12>Selects elements based on a predicate.
+***[#green] <b><i><color #white><size:12>reduce
+****[#yellow] <i><color #black><size:12>Aggregates elements into a single value.
+***[#green] <b><i><color #white><size:12>collect
+****[#yellow] <i><color #black><size:12>Accumulates elements into a collection or a value.
+***[#green] <b><i><color #white><size:12>forEach
+****[#yellow] <i><color #black><size:12>Performs an action on each element.
+***[#green] <b><i><color #white><size:12>sorted
+****[#yellow] <i><color #black><size:12>Sorts elements based on a comparator.
+**[#lightblue] <i><color #blac><size:12>Stream Sources
+***[#green] <b><i><color #white><size:12>Collections
+****[#yellow] <i><color #black><size:12>Lists, Sets, Maps, etc.
+***[#green] <b><i><color #white><size:12>Arrays
+****[#yellow] <i><color #black><size:12>Arrays of elements.
+***[#green] <b><i><color #white><size:12>I/O Channels
+****[#yellow] <i><color #black><size:12>Reading and writing from I/O.
+***[#green] <b><i><color #white><size:12>Generators
+****[#yellow] <i><color #black><size:12>Creating streams from generators or suppliers.
+**[#lightblue] <i><color #blac><size:12>Intermediate vs Terminal Operations
+***[#green] <b><i><color #white><size:12>Intermediate
+****[#yellow] <i><color #black><size:12>Lazy evaluated operations (map, filter, etc.).
+***[#green] <b><i><color #white><size:12>Terminal
+****[#yellow] <i><color #black><size:12>Operations that trigger stream evaluation (collect, forEach, etc.).
 **[#lightblue] <i><color #blac><size:22>Use Cases
-***[#green] <b><i><color #white><size:14>Data Processing
-****[#yellow] <i><color #black><size:14>Manipulating and transforming <b>data sets.
-***[#green] <b><i><color #white><size:14>Parallel Processing
-****[#yellow] <i><color #black><size:14>Concurrent operations on large <b>data sets.
-***[#green] <b><i><color #white><size:14>Functional Programming
-****[#yellow] <i><color #black><size:14>Functional-style operations on collections.
+***[#green] <b><i><color #white><size:12>Data Processing
+****[#yellow] <i><color #black><size:12>Manipulating and transforming <b>data sets.
+***[#green] <b><i><color #white><size:12>Parallel Processing
+****[#yellow] <i><color #black><size:12>Concurrent operations on large <b>data sets.
+***[#green] <b><i><color #white><size:12>Functional Programming
+****[#yellow] <i><color #black><size:12>Functional-style operations on collections.
 @endmindmap

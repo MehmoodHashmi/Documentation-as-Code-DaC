@@ -5,64 +5,64 @@ title =<b><i><u>Refactor your language knowledge portfolio - (we are what we can
 
 *[#darkblue] <color #white><i>Refactor your language knowledge portfolio\n<color #white><i> - (we are what we can code in)
 **[#lightblue] <i>Introduction
-***[#green]:<size:14><color #white><i>It is the **syntax** that most of us **observe** when introduced to a **language.** However, we ought to move quickly beyond that to leverage its powers.
-<size:14><color #white><i>The **real strength** comes from its **styles and idioms.** Learning **a different style** does not simply change how we write code, it <b>fundamentally
-<size:14><color #white><i><b>changes how we think and how we solve problems.;
-***[#green]:<size:14><color #white><i>The **book pragmatic programmer** said we should learn a new programming language every new year. What he really meant was we should learn a very
-<size:14><color #white><i>different programming language.  <b>If you know Java & then you learn C# that doesn't count.;
-***[#green] <size:14><color #white><i><b>The science in programming drew me in, but it's the art in programming that kept me in.
-***[#green] <size:14><color #white><i><b> "I want to as close to the edge as I can without going over. Out on the edge you see all kinds of things you can't see from the center," Kurt Vonnegut
+***[#green]:<size:12><color #white><i>It is the **syntax** that most of us **observe** when introduced to a **language.** However, we ought to move quickly beyond that to leverage its powers.
+<size:12><color #white><i>The **real strength** comes from its **styles and idioms.** Learning **a different style** does not simply change how we write code, it <b>fundamentally
+<size:12><color #white><i><b>changes how we think and how we solve problems.;
+***[#green]:<size:12><color #white><i>The **book pragmatic programmer** said we should learn a new programming language every new year. What he really meant was we should learn a very
+<size:12><color #white><i>different programming language.  <b>If you know Java & then you learn C# that doesn't count.;
+***[#green] <size:12><color #white><i><b>The science in programming drew me in, but it's the art in programming that kept me in.
+***[#green] <size:12><color #white><i><b> "I want to as close to the edge as I can without going over. Out on the edge you see all kinds of things you can't see from the center," Kurt Vonnegut
 **[#lightblue] <i>Programming is a nascent field
-***[#green] <size:14><color #white><i><b>it's just 50-years or more old
-****[#yellow] <size:14><color #black><i>I want to buy a car, what would you recommend?
-****[#yellow] <size:14><color #black><i>What if a lot of us bought electric cars?
-****[#yellow]:<size:14><color #black><i>The whole of **United States** will be **sprinkled** with **electric** change stations. <b>This is quote from 1899
+***[#green] <size:12><color #white><i><b>it's just 50-years or more old
+****[#yellow] <size:12><color #black><i>I want to buy a car, what would you recommend?
+****[#yellow] <size:12><color #black><i>What if a lot of us bought electric cars?
+****[#yellow]:<size:12><color #black><i>The whole of **United States** will be **sprinkled** with **electric** change stations. <b>This is quote from 1899
 |<img:images/img_219.png{scale=.55}>|<img:images/img_220.png{scale=.58}>|;
-**[#lightblue] <size:14><color #black><i><b>Let's focus on Java
-***[#green] <size:14><color #white><i>**Java**
-****[#yellow] <size:14><color #black><i>**Java** case is special; it's one that survived longest period of time.
-****[#yellow] <size:14><color #black><i>If you look at the language history in the past, languages lived for 10 years. That's the life time of a language.
-***[#green] <size:14><color #white><i>**How it started?**
-****[#yellow] <size:14><color #black><i><img:images/img_221.png{scale=.8}>
-*****[#yellow] <size:14><color #black><i><img:images/img_223.png{scale=.8}>
-******[#yellow] <size:14><color #black><i><img:images/img_222.png{scale=.8}>
-***[#green] <size:14><color #white><i>**Emergence**\n<img:images/img_224.png{scale=.8}>
-****[#yellow] <size:14><color #black><i><b>Where we're now \n<img:images/img_225.png{scale=.8}>
-*****[#a] <size:14><color #black><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/mixed-paradigms-(the-method-to-madness).puml Programming languages as vehicles]]
-*****[#gold] <size:14><color #black><i><b>What was old, is new again
-******[#yellow] <size:14><color #black><i><b>It's not about "syntax" that matters
-******[#yellow] <size:14><color #black><i><b>It's the "semantics" in a language that matters
-******[#yellow] <size:14><color #black><i><b>7-habits of highly effective people
-******[#yellow] <size:14><color #black><i><b>It's the "idioms" in a language that matters
-****[#yellow] <size:14><color #black><i><b><img:images/img_226.png{scale=.8}>
-*****[#yellow] <size:14><color #black><i><b>Ceremony\n|<img:images/img_227.png{scale=.8}>|<img:images/img_229.png{scale=.5}>|
-*****[#yellow] <size:14><color #black><i><b>Essence\n|<img:images/img_228.png{scale=.8}>|<img:images/img_230.png{scale=.5}>|
-****[#yellow] <size:14><color #black><i><b><img:images/img_231.png{scale=.8}>
-*****[#yellow] <size:14><color #black><i><b>Use "expression" in APIs
-*****[#yellow] <size:14><color #black><i><b><img:images/img_232.png{scale=1}>
-***[#green] <size:14><color #white><i>**Java Can't Innovate because of larger user base**
-****[#yellow] <size:14><color #black><i><b><img:images/img_233.png{scale=.5}>
-*****[#yellow] <size:14><color #black><i><b><img:images/img_234.png{scale=.5}>
-******:*<size:14><color #black><i>They share common <b>traits
-*<size:14><color #black><i><b>Concise
-*<size:14><color #black><i><b>Highly expressive
-*<size:14><color #black><i><b>Functional style
-*<size:14><color #black><i><b>Immutable
-*<size:14><color #black><i><b>Pure functions
-*<size:14><color #black><i><b>No side-effects
-*<size:14><color #black><i><b>Higher-order functions;
-***[#green] <size:14><color #white><i>**Object-oriented**\n<img:images/img_235.png{scale=1}>
-****[#yellow] <size:14><color #black><i><b>Functional\n<img:images/img_236.png{scale=.8}>
-***[#green] <size:14><color #white><i><b>What you can do?
-****[#yellow] <size:14><color #black><i><b>as a company
-*****[#yellow] <size:14><color #black><i><b>Corporate strategy
-*****[#yellow] <size:14><color #black><i><b>Evaluate risk vs reward
+**[#lightblue] <size:12><color #black><i><b>Let's focus on Java
+***[#green] <size:12><color #white><i>**Java**
+****[#yellow] <size:12><color #black><i>**Java** case is special; it's one that survived longest period of time.
+****[#yellow] <size:12><color #black><i>If you look at the language history in the past, languages lived for 10 years. That's the life time of a language.
+***[#green] <size:12><color #white><i>**How it started?**
+****[#yellow] <size:12><color #black><i><img:images/img_221.png{scale=.8}>
+*****[#yellow] <size:12><color #black><i><img:images/img_223.png{scale=.8}>
+******[#yellow] <size:12><color #black><i><img:images/img_222.png{scale=.8}>
+***[#green] <size:12><color #white><i>**Emergence**\n<img:images/img_224.png{scale=.8}>
+****[#yellow] <size:12><color #black><i><b>Where we're now \n<img:images/img_225.png{scale=.8}>
+*****[#a] <size:12><color #black><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/mixed-paradigms-(the-method-to-madness).puml Programming languages as vehicles]]
+*****[#gold] <size:12><color #black><i><b>What was old, is new again
+******[#yellow] <size:12><color #black><i><b>It's not about "syntax" that matters
+******[#yellow] <size:12><color #black><i><b>It's the "semantics" in a language that matters
+******[#yellow] <size:12><color #black><i><b>7-habits of highly effective people
+******[#yellow] <size:12><color #black><i><b>It's the "idioms" in a language that matters
+****[#yellow] <size:12><color #black><i><b><img:images/img_226.png{scale=.8}>
+*****[#yellow] <size:12><color #black><i><b>Ceremony\n|<img:images/img_227.png{scale=.8}>|<img:images/img_229.png{scale=.5}>|
+*****[#yellow] <size:12><color #black><i><b>Essence\n|<img:images/img_228.png{scale=.8}>|<img:images/img_230.png{scale=.5}>|
+****[#yellow] <size:12><color #black><i><b><img:images/img_231.png{scale=.8}>
+*****[#yellow] <size:12><color #black><i><b>Use "expression" in APIs
+*****[#yellow] <size:12><color #black><i><b><img:images/img_232.png{scale=1}>
+***[#green] <size:12><color #white><i>**Java Can't Innovate because of larger user base**
+****[#yellow] <size:12><color #black><i><b><img:images/img_233.png{scale=.5}>
+*****[#yellow] <size:12><color #black><i><b><img:images/img_234.png{scale=.5}>
+******:*<size:12><color #black><i>They share common <b>traits
+*<size:12><color #black><i><b>Concise
+*<size:12><color #black><i><b>Highly expressive
+*<size:12><color #black><i><b>Functional style
+*<size:12><color #black><i><b>Immutable
+*<size:12><color #black><i><b>Pure functions
+*<size:12><color #black><i><b>No side-effects
+*<size:12><color #black><i><b>Higher-order functions;
+***[#green] <size:12><color #white><i>**Object-oriented**\n<img:images/img_235.png{scale=1}>
+****[#yellow] <size:12><color #black><i><b>Functional\n<img:images/img_236.png{scale=.8}>
+***[#green] <size:12><color #white><i><b>What you can do?
+****[#yellow] <size:12><color #black><i><b>as a company
+*****[#yellow] <size:12><color #black><i><b>Corporate strategy
+*****[#yellow] <size:12><color #black><i><b>Evaluate risk vs reward
 ******[#a] <size:12><color #white><i><b>"There are risk & costs to a program of action, buty they are far less than \n<size:12><color #white><i><b>the long-range risks & cost of comfortable inaction." JFK
-****[#yellow] <size:14><color #black><i><b>as an individual
-*****[#gold] *<size:14><color #black><i><b>I stand on the shoulders of giants. (Learn from other people & avoid isolation)\n|<img:images/img_237.png{scale=.55}>|<img:images/img_238.png{scale=.55}>|
-******[#gold] *<size:14><color #black><i><b>Image one technique is bad
-******[#gold] *<size:14><color #black><i><b>Image two technique is good <size:22><&check>
-*****[#a] <size:14><color #white><i><b>"The illiterate of 21st century will not be those who can't read & write, but those who can't learn, unlearn, & relearn." Alvin Toffler
+****[#yellow] <size:12><color #black><i><b>as an individual
+*****[#gold] *<size:12><color #black><i><b>I stand on the shoulders of giants. (Learn from other people & avoid isolation)\n|<img:images/img_237.png{scale=.55}>|<img:images/img_238.png{scale=.55}>|
+******[#gold] *<size:12><color #black><i><b>Image one technique is bad
+******[#gold] *<size:12><color #black><i><b>Image two technique is good <size:22><&check>
+*****[#a] <size:12><color #white><i><b>"The illiterate of 21st century will not be those who can't read & write, but those who can't learn, unlearn, & relearn." Alvin Toffler
 
 @endmindmap
 

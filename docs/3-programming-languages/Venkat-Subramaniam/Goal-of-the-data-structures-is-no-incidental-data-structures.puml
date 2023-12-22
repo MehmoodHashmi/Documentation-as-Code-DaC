@@ -4,92 +4,92 @@ title =<i><b><u>Goal: of the data-structures is no "incidental data structures"\
 ** <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_78.png Data-Structure vs Data-Type]]
 !theme hacker
 *[#darkblue] =<i><color #white>Data-structure:\n<i><color #white>Goal: No "incidental data structures"
-**[#lightblue] <i><color #black><size:14>Introduction
-***[#green] <b><i><color #white><size:14>Goal
-****[#yellow]:<i><color #black><size:14>The **"goal"** of **"no incidental data structures"** refers to a **deliberate and thoughtful approach** to **choosing or designing data structures** in "software development".
-<i><color #black><size:14>It emphasizes avoiding accidental, unplanned, or unnecessary data structures that may <b><u>complicate the code, reduce efficiency, or hinder maintainability
-<i><color #black><size:14>without a clear purpose.;
-**[#lightblue] <i><color #black><size:14>Intentional Design
-***[#gold] <i><color #black><size:14>Every **data structure** used in a "software system" should have a clear purpose and relevance to the **"problem domain" or the "specific requirements" of the "system".**
-***[#gold] <i><color #black><size:14>This means consciously choosing data structures based on their suitability for the task at hand.
-**[#lightblue] <i><color #black><size:14>Minimalism and Simplicity
-***[#gold]:<i><color #black><size:14>Avoiding unnecessary complexity by employing the **"simplest data structure"** that adequately fulfills the <b>"requirements".
-<i><color #black><size:14>This prevents the introduction of overly intricate or convoluted structures that may hinder understanding and maintenance of the codebase.;
-**[#lightblue] <i><color #black><size:14>Performance Consideration:
-***[#yellow]:<i><color #black><size:14>Opting for data structures that efficiently support the required operations. Choosing appropriate structures based on the expected usage patterns
-<i><color #black><size:14>**(e.g., considering time complexity for insertions, deletions, lookups)** helps in achieving optimal performance.;
-**[#lightblue] <i><color #black><size:14>Maintainability and Readability:
-***[#yellow]:<i><color #black><size:14>Ensuring that the chosen data structures contribute to code that is easy to read, understand, and maintain. Using data structures that align with
-<i><color #black><size:14>best practices and widely understood conventions can facilitate collaboration among developers and future modifications.;
-**[#lightblue] <i><color #black><size:14>Avoiding Redundancy:
-***[#yellow] <i><color #black><size:14>Eliminating redundant or duplicated data structures that serve the same purpose, leading to increased memory consumption and potential inconsistency in the <b>system.
-**[#lightblue] <i><color #black><size:14>Adaptability &\n<i><color #black><size:14>Extensibility:
-***[#yellow] <i><color #black><size:14>Selecting data structures that offer adaptability and extensibility to accommodate potential changes or expansions in the system's requirements\n<i><color #black><size:14>without the need for <b>extensive rework.
+**[#lightblue] <i><color #black><size:12>Introduction
+***[#green] <b><i><color #white><size:12>Goal
+****[#yellow]:<i><color #black><size:12>The **"goal"** of **"no incidental data structures"** refers to a **deliberate and thoughtful approach** to **choosing or designing data structures** in "software development".
+<i><color #black><size:12>It emphasizes avoiding accidental, unplanned, or unnecessary data structures that may <b><u>complicate the code, reduce efficiency, or hinder maintainability
+<i><color #black><size:12>without a clear purpose.;
+**[#lightblue] <i><color #black><size:12>Intentional Design
+***[#gold] <i><color #black><size:12>Every **data structure** used in a "software system" should have a clear purpose and relevance to the **"problem domain" or the "specific requirements" of the "system".**
+***[#gold] <i><color #black><size:12>This means consciously choosing data structures based on their suitability for the task at hand.
+**[#lightblue] <i><color #black><size:12>Minimalism and Simplicity
+***[#gold]:<i><color #black><size:12>Avoiding unnecessary complexity by employing the **"simplest data structure"** that adequately fulfills the <b>"requirements".
+<i><color #black><size:12>This prevents the introduction of overly intricate or convoluted structures that may hinder understanding and maintenance of the codebase.;
+**[#lightblue] <i><color #black><size:12>Performance Consideration:
+***[#yellow]:<i><color #black><size:12>Opting for data structures that efficiently support the required operations. Choosing appropriate structures based on the expected usage patterns
+<i><color #black><size:12>**(e.g., considering time complexity for insertions, deletions, lookups)** helps in achieving optimal performance.;
+**[#lightblue] <i><color #black><size:12>Maintainability and Readability:
+***[#yellow]:<i><color #black><size:12>Ensuring that the chosen data structures contribute to code that is easy to read, understand, and maintain. Using data structures that align with
+<i><color #black><size:12>best practices and widely understood conventions can facilitate collaboration among developers and future modifications.;
+**[#lightblue] <i><color #black><size:12>Avoiding Redundancy:
+***[#yellow] <i><color #black><size:12>Eliminating redundant or duplicated data structures that serve the same purpose, leading to increased memory consumption and potential inconsistency in the <b>system.
+**[#lightblue] <i><color #black><size:12>Adaptability &\n<i><color #black><size:12>Extensibility:
+***[#yellow] <i><color #black><size:12>Selecting data structures that offer adaptability and extensibility to accommodate potential changes or expansions in the system's requirements\n<i><color #black><size:12>without the need for <b>extensive rework.
 
-**[#lightblue] <i><color #black><size:14>Summary
-***[#yellow] <i><color #black><size:14>For instance, rather than implementing a complex, custom data structure when a standard one **(like arrays, lists, maps, or trees)** suffices, the principle of \n<i><color #black><size:14>**"no incidental data structures"** suggests using these **"established structures"** to ensure code simplicity and maintainability unless there's a <b>"clear & justifiable"\n<i><color #black><size:14>need for a <b>"specialized structure".
-***[#yellow] <i><color #black><size:14>Overall, this principle emphasizes thoughtful and purposeful selection or creation of data structures in software development to promote \n<i><color #black><size:14><b>simplicity, efficiency, and maintainability in "codebases".
+**[#lightblue] <i><color #black><size:12>Summary
+***[#yellow] <i><color #black><size:12>For instance, rather than implementing a complex, custom data structure when a standard one **(like arrays, lists, maps, or trees)** suffices, the principle of \n<i><color #black><size:12>**"no incidental data structures"** suggests using these **"established structures"** to ensure code simplicity and maintainability unless there's a <b>"clear & justifiable"\n<i><color #black><size:12>need for a <b>"specialized structure".
+***[#yellow] <i><color #black><size:12>Overall, this principle emphasizes thoughtful and purposeful selection or creation of data structures in software development to promote \n<i><color #black><size:12><b>simplicity, efficiency, and maintainability in "codebases".
 
 *[#darkblue] =<i><color #white>Data-structure:\n==<i><color #white>is an "abstraction"
-**[#lightblue] <i><color #black><size:14>Introduction
-***[#green] <b><i><color #white><size:14>Data-structure provides a "framework" for efficiently "managing (organizing) & accessing data" during "execution" of an "algorithm".
+**[#lightblue] <i><color #black><size:12>Introduction
+***[#green] <b><i><color #white><size:12>Data-structure provides a "framework" for efficiently "managing (organizing) & accessing data" during "execution" of an "algorithm".
 **[#lightblue] <i><color #black><size:32>is an "abstraction"
 ***[#green] <b><i><color #white><size:18>of Computer memory (RAM)\n<img:images/img_39.png>
-****[#gold] <b><i><color #blue><size:14>Storage of data
-****[#gold] <b><i><color #blue><size:14>Organization of data
-**[#lightblue] <i><color #black><size:14>Data-structure
-***[#green] <b><i><color #white><size:14>We talk about data-structure as:
-****[#yellow] <i><color #black><size:14>Mathematical/Logical model
-****[#yellow] <i><color #black><size:14>**Abstract data-type (ADT):** define "data & operations" but no <b>implementation
-***[#green] <b><i><color #white><size:14>When you study data-structures, you study its:
-****[#yellow] <i><color #black><size:14>1- Logical view
-****[#yellow] <i><color #black><size:14>2- Operations (what operations are available to us with this data-structure)
-****[#yellow] <i><color #black><size:14>3- Cost of each operation
-****[#yellow] <i><color #black><size:14>4- Implementation
-***[#green] <b><i><color #white><size:14>is "tactical design"
-****[#yellow] <i><color #black><size:14>**Performance** comes through <b>Data-structure
-****[#yellow]:<i><color #black><size:14>**Performance:** how quickly a program does its work, that means it is measurable.
-*<i><color #red><size:14>Improving **performance** involves doing work <b>faster!
-*<i><color #black><size:14>There is no point at which a program can't do work any faster... until you Bremermann's limit...;
-****[#darkorange] <i><color #black><size:14>There is some **theoretical limit** how quickly a "program" can do its <b>work.\n*<i><color #black><size:14>**Physics Limit:** I can't pass **information** faster than the <b>speed of light.\n*<i><color #black><size:14>I can **compress information** only to **certain level,** this is just the nature of the **laws of physics** of the world in which we live.
-****[#yellow] <i><color #black><size:14>Inside-out
-**[#lightblue] <i><color #black><size:14>Algorithm
-***[#green] <b><i><color #white><size:14>is "strategic design"
-****[#yellow] <i><color #black><size:14>**Efficiency** comes through <b>"algorithm"
-****[#yellow]:<i><color #black><size:14>**Efficiency:** is how much work is required by a <b>task.
-*<i><color #green><size:14>Improving **"efficiency"** involves doing less work & get same result.
-*<i><color #black><size:14>An **Efficient:** program is one which does the minimum (that we're aware of) amount of work to accomplish a given task.;
-****[#darkorange] <i><color #black><size:14>Improving **"algorithmic efficiency"** requires finding a different way of solving the same problem.
-****[#yellow] <i><color #black><size:14>Outside-in
-**[#lightblue] <i><color #black><size:14>Data-structure \n<i>Summary
-***[#yellow]:<i><color #black><size:14>Data structures are indeed abstractions that represent and organize data in a specific way to facilitate efficient operations and manipulation within a computer program.
+****[#gold] <b><i><color #blue><size:12>Storage of data
+****[#gold] <b><i><color #blue><size:12>Organization of data
+**[#lightblue] <i><color #black><size:12>Data-structure
+***[#green] <b><i><color #white><size:12>We talk about data-structure as:
+****[#yellow] <i><color #black><size:12>Mathematical/Logical model
+****[#yellow] <i><color #black><size:12>**Abstract data-type (ADT):** define "data & operations" but no <b>implementation
+***[#green] <b><i><color #white><size:12>When you study data-structures, you study its:
+****[#yellow] <i><color #black><size:12>1- Logical view
+****[#yellow] <i><color #black><size:12>2- Operations (what operations are available to us with this data-structure)
+****[#yellow] <i><color #black><size:12>3- Cost of each operation
+****[#yellow] <i><color #black><size:12>4- Implementation
+***[#green] <b><i><color #white><size:12>is "tactical design"
+****[#yellow] <i><color #black><size:12>**Performance** comes through <b>Data-structure
+****[#yellow]:<i><color #black><size:12>**Performance:** how quickly a program does its work, that means it is measurable.
+*<i><color #red><size:12>Improving **performance** involves doing work <b>faster!
+*<i><color #black><size:12>There is no point at which a program can't do work any faster... until you Bremermann's limit...;
+****[#darkorange] <i><color #black><size:12>There is some **theoretical limit** how quickly a "program" can do its <b>work.\n*<i><color #black><size:12>**Physics Limit:** I can't pass **information** faster than the <b>speed of light.\n*<i><color #black><size:12>I can **compress information** only to **certain level,** this is just the nature of the **laws of physics** of the world in which we live.
+****[#yellow] <i><color #black><size:12>Inside-out
+**[#lightblue] <i><color #black><size:12>Algorithm
+***[#green] <b><i><color #white><size:12>is "strategic design"
+****[#yellow] <i><color #black><size:12>**Efficiency** comes through <b>"algorithm"
+****[#yellow]:<i><color #black><size:12>**Efficiency:** is how much work is required by a <b>task.
+*<i><color #green><size:12>Improving **"efficiency"** involves doing less work & get same result.
+*<i><color #black><size:12>An **Efficient:** program is one which does the minimum (that we're aware of) amount of work to accomplish a given task.;
+****[#darkorange] <i><color #black><size:12>Improving **"algorithmic efficiency"** requires finding a different way of solving the same problem.
+****[#yellow] <i><color #black><size:12>Outside-in
+**[#lightblue] <i><color #black><size:12>Data-structure \n<i>Summary
+***[#yellow]:<i><color #black><size:12>Data structures are indeed abstractions that represent and organize data in a specific way to facilitate efficient operations and manipulation within a computer program.
 
 <i><color #black><size:18><b>Abstraction of Memory Representation:
-<i><color #black><size:14>At its core, a data structure is an abstraction of how data is stored in a computer's memory. It provides a logical and organized way to store, access, and manage data elements.
-<i><color #black><size:14>
+<i><color #black><size:12>At its core, a data structure is an abstraction of how data is stored in a computer's memory. It provides a logical and organized way to store, access, and manage data elements.
+<i><color #black><size:12>
 <i><color #black><size:18><b>Organization of Data:
-<i><color #black><size:14>Data structures abstractly represent the organization of data elements by defining relationships, constraints, and operations applicable to those elements. They help in
+<i><color #black><size:12>Data structures abstractly represent the organization of data elements by defining relationships, constraints, and operations applicable to those elements. They help in
 arranging and managing data for optimal access and manipulation.
-<i><color #black><size:14>
+<i><color #black><size:12>
 <i><color #black><size:18><b>Data Access and Operations:
-<i><color #black><size:14>They abstractly define how data can be accessed and manipulated. Different data structures offer various operations (like insert, delete, search) that efficiently interact with
+<i><color #black><size:12>They abstractly define how data can be accessed and manipulated. Different data structures offer various operations (like insert, delete, search) that efficiently interact with
 the stored data, allowing programmers to use these structures without needing to know the low-level details of their implementation.
 
 <i><color #black><size:18><b>Efficiency and Optimization:
-<i><color #black><size:14>Data structures abstractly represent efficiency in terms of time and space complexities for various operations. For instance, some data structures excel in fast retrieval of
-<i><color #black><size:14>elements, while others optimize storage efficiency or insertion speed.
+<i><color #black><size:12>Data structures abstractly represent efficiency in terms of time and space complexities for various operations. For instance, some data structures excel in fast retrieval of
+<i><color #black><size:12>elements, while others optimize storage efficiency or insertion speed.
 
 <i><color #black><size:18><b>Example:
-<i><color #black><size:14>Consider the abstraction provided by an array. It represents a contiguous block of memory elements of the same type, abstracting how the computer manages and accesses these
-<i><color #black><size:14>elements, providing a straightforward way to access elements by their indices.
-<i><color #black><size:14>
+<i><color #black><size:12>Consider the abstraction provided by an array. It represents a contiguous block of memory elements of the same type, abstracting how the computer manages and accesses these
+<i><color #black><size:12>elements, providing a straightforward way to access elements by their indices.
+<i><color #black><size:12>
 <i><color #black><size:18><b>Elaboration:
-<i><color #black><size:14>- **High-Level View:** Data structures offer a high-level view or model of how data can be organized, stored, and manipulated.
-<i><color #black><size:14>- **Independence from Implementation:** They abstract away the underlying implementation details, allowing programmers to focus on using the structure without being
-<i><color #black><size:14>concerned with the specifics of how it's implemented in memory.
-<i><color #black><size:14>- **Unified Interface:** Most data structures offer a consistent interface for performing common operations (like adding, removing, or accessing elements), irrespective of
-<i><color #black><size:14>their internal workings.
-<i><color #black><size:14>
-<i><color #black><size:14>In summary, data structures serve as abstract models that allow programmers to efficiently manage and manipulate data by providing a standardized and efficient way to
-<i><color #black><size:14>represent and interact with data in computer memory.;
+<i><color #black><size:12>- **High-Level View:** Data structures offer a high-level view or model of how data can be organized, stored, and manipulated.
+<i><color #black><size:12>- **Independence from Implementation:** They abstract away the underlying implementation details, allowing programmers to focus on using the structure without being
+<i><color #black><size:12>concerned with the specifics of how it's implemented in memory.
+<i><color #black><size:12>- **Unified Interface:** Most data structures offer a consistent interface for performing common operations (like adding, removing, or accessing elements), irrespective of
+<i><color #black><size:12>their internal workings.
+<i><color #black><size:12>
+<i><color #black><size:12>In summary, data structures serve as abstract models that allow programmers to efficiently manage and manipulate data by providing a standardized and efficient way to
+<i><color #black><size:12>represent and interact with data in computer memory.;
 @endmindmap

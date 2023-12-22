@@ -4,153 +4,153 @@ title =<i><b><u>Towards an Evolutionary Architecture
 !theme hacker
 
 *[#darkblue] <color:white><i>Towards an Evolutionary\n<color:white><i>Architecture
-**[#lightblue] <i><color #black><size:14>What's architecture? [[docs/3-programming-languages/Venkat-Subramaniam/images/img_139.png click me]]\n<img:images/img_139.png{scale=.4}>
-***[#green] <i><color #white><b><size:14>Definition
-****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/app-vs-network-structure.puml Shape of the major structure of a system or topology. architecture is a "view" of a system.]] click me
-****[#yellow]:<i><color #black><size:14>**Goal of architecture:** Minimize the **human resources** required to **build & maintain** "software system".
-*<i><color #black><size:14>If **effort** remains **constant or shrinks with time** then **design** is **good**. If **effort** increases with each **passing release** then **design** is <b>bad.;
-****[#yellow] <i><color #black><size:14>**Martin fowler** article, "Who needs an architect". <b>Said: It is
-*****[#darkorange] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_252.png Shared understanding between the senior team members of a system.]] click
-***[#green] <b><i><color #white><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_134.jpg Why evolutionary architecture? click me]]
+**[#lightblue] <i><color #black><size:12>What's architecture? [[docs/3-programming-languages/Venkat-Subramaniam/images/img_139.png click me]]\n<img:images/img_139.png{scale=.4}>
+***[#green] <i><color #white><b><size:12>Definition
+****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/app-vs-network-structure.puml Shape of the major structure of a system or topology. architecture is a "view" of a system.]] click me
+****[#yellow]:<i><color #black><size:12>**Goal of architecture:** Minimize the **human resources** required to **build & maintain** "software system".
+*<i><color #black><size:12>If **effort** remains **constant or shrinks with time** then **design** is **good**. If **effort** increases with each **passing release** then **design** is <b>bad.;
+****[#yellow] <i><color #black><size:12>**Martin fowler** article, "Who needs an architect". <b>Said: It is
+*****[#darkorange] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_252.png Shared understanding between the senior team members of a system.]] click
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_134.jpg Why evolutionary architecture? click me]]
 
-****[#a]:*<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_27.png Clean Architecture]] click me
-*<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_58.jpg Onion Architecture]] click me
-*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_26.png Hexagonal Architecture + DDD]] click me
-*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_97.png Domain Driven Design DDD]] click me
+****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_27.png Clean Architecture]] click me
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_58.jpg Onion Architecture]] click me
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_26.png Hexagonal Architecture + DDD]] click me
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_97.png Domain Driven Design DDD]] click me
 ==<i><color #black><size:14><b>Building & Designing Software==
-*<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_63.png Who builds & designs the software?]] click me;
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_63.png Who builds & designs the software?]] click me;
 *****[#yellow] <i><color #black><size:12>**--BUFD--** is waterfall
 ******[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_255.png Agile vs DevOps vs SRE]]
 *****[#yellow] <i><color #black><size:12>Agile (No Design) is <b>disaster!
 ******[#a] <b><i><color #black><size:12>[[a Clean Agile]]
 *****[#yellow] <i><color #black><size:12><b>EUFD <&check>
 
-***[#green] <i><color #white><b><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_73.png S/W Architecture]]\n<b><i><color #black><size:9><color:white>click me
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_73.png S/W Architecture]]\n<b><i><color #black><size:9><color:white>click me
 ****[#darkorange] <b><i><color #black><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_175.png Scaffolding vs Design]]
 ****[#a] <b><i><color #black><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_75.png 1- Design pattern]]
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/integration-style.puml 2- Integration Style]]
-****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png 3- pattern]]
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png 3- pattern]]
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_179.png 4- Anti-pattern]]
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_245.png Knowledge triangle]]
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_247.png 4+1 View Model]]
 ****[#darkorange] <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_256.png Architecture refactoring]]
 ***[#green] <b><i><color #white><size:14>In Software Development we often say:
-****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_138.png Capture requirements]]
-*****[#a]:*<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_242.png Requirements Engineering Process Maturity Model]]
-*<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_244.png CMMI version-2]];
-****[#a] <b><i><color #black><size:14>[[docs/1-business-analyst/requirements-management.puml Gather requirements]]
-*****[#a]:<b><i><color #black><size:14>[[docs/1-business-analyst/project-management/project-management.puml Project Management]]
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_138.png Capture requirements]]
+*****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_242.png Requirements Engineering Process Maturity Model]]
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_244.png CMMI version-2]];
+****[#a] <b><i><color #black><size:12>[[docs/1-business-analyst/requirements-management.puml Gather requirements]]
+*****[#a]:<b><i><color #black><size:12>[[docs/1-business-analyst/project-management/project-management.puml Project Management]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/clean-architecture/images/use-case-modeling.png Traditional use case modeling]] vs [[docs/3-programming-languages/Venkat-Subramaniam/images/img_171.png Use Case 2.0 Modeling]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_211.png Work Products]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_128.jpg UML cheatsheet]];
-****[#yellow] <i><color #black><size:14>Observer effect
-****[#gold] *<i><color #black><size:14>If you want to build what your customers wanted, you will <b>fail.\n*<i><color #black><size:14>You need to build what your customers still want.
+****[#yellow] <i><color #black><size:12>Observer effect
+****[#gold] *<i><color #black><size:12>If you want to build what your customers wanted, you will <b>fail.\n*<i><color #black><size:12>You need to build what your customers still want.
 ****[#yellow] <i><color #black><size:13>Build working software.
-*****[#gold] <i><color #black><size:14>Half of the total programmers in the world can do it
-*****[#gold] <i><color #black><size:14>But I want to build <b>relevant working software\n*<b><i><color #black><size:14>Requires more effort
+*****[#gold] <i><color #black><size:12>Half of the total programmers in the world can do it
+*****[#gold] <i><color #black><size:12>But I want to build <b>relevant working software\n*<b><i><color #black><size:12>Requires more effort
 ****[#a] <i><color #black><size:13><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_251.png PowerPoint Architect]]
 ****[#darkorange] *<i><color #black><size:15><b>No one cares if you write good code
 *****[#grey] <i><color #black><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png Does this code saves or makes money?]]
-**[#lightblue] <i><color #black><size:14><b>Two values of software
-***[#green] <i><color #white><size:14><b>Behavioral value
-****[#yellow]:|<#white><i><color #black><size:14>help  **stakeholders** <b>"make or save money".</b> Is actually **use cases** or <b>feature development. (& problem solving)|
-**<i><color #black><size:14>by **making machines behave** in ways that **satisfy** the <b>requirement.
-*<i><color #black><size:14>Many **programmers** believe this is the entirely of their <b>job. They are sadly mistaken.;
-***[#green] <i><color #white><size:14><b>Structural value
-****[#yellow]:<i><color #black><size:14>is **architecture** & often ignored by the <b>developers
+**[#lightblue] <i><color #black><size:12><b>Two values of software
+***[#green] <i><color #white><size:12><b>Behavioral value
+****[#yellow]:|<#white><i><color #black><size:12>help  **stakeholders** <b>"make or save money".</b> Is actually **use cases** or <b>feature development. (& problem solving)|
+**<i><color #black><size:12>by **making machines behave** in ways that **satisfy** the <b>requirement.
+*<i><color #black><size:12>Many **programmers** believe this is the entirely of their <b>job. They are sadly mistaken.;
+***[#green] <i><color #white><size:12><b>Structural value
+****[#yellow]:<i><color #black><size:12>is **architecture** & often ignored by the <b>developers
 ====
-*<i><color #black><size:14>**Architecture:** Soft-ware is a compound word
-*<i><color #black><size:14>When **stakeholders** change their **minds** the **"change"** to the "software" should be <b>"simple & easy" to make.
-*<i><color #black><size:14>The **cost of change** should be **proportional** to <b>scope (range), not shape.;
-****[#yellow]:|<#white><i><color #black><size:14><b><u>Scope Vs Shape:|
-*<i><color #black><size:14>**Stakeholders** believe that the **requirements & changes** are only **complicated** by <b>scope.
-*<i><color #black><size:14>**Programmers** see each new **requirements** as a **puzzle piece** that must be **fit** into an <b>ever more complex puzzle.
-|<#white><i><color #black><size:14>**Solution:** keep the puzzle **"simple".**|;
-***[#a]:<i><color #black><size:14><b>The book Cathedral & bazaar in late 1990's said two values of software are:
-<i><color #black><size:14><b>1- Use value
-<i><color #black><size:14><b>2- Sale value
+*<i><color #black><size:12>**Architecture:** Soft-ware is a compound word
+*<i><color #black><size:12>When **stakeholders** change their **minds** the **"change"** to the "software" should be <b>"simple & easy" to make.
+*<i><color #black><size:12>The **cost of change** should be **proportional** to <b>scope (range), not shape.;
+****[#yellow]:|<#white><i><color #black><size:12><b><u>Scope Vs Shape:|
+*<i><color #black><size:12>**Stakeholders** believe that the **requirements & changes** are only **complicated** by <b>scope.
+*<i><color #black><size:12>**Programmers** see each new **requirements** as a **puzzle piece** that must be **fit** into an <b>ever more complex puzzle.
+|<#white><i><color #black><size:12>**Solution:** keep the puzzle **"simple".**|;
+***[#a]:<i><color #black><size:12><b>The book Cathedral & bazaar in late 1990's said two values of software are:
+<i><color #black><size:12><b>1- Use value
+<i><color #black><size:12><b>2- Sale value
 ==<i><color #black><size:14><b>After the rise of [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Modern Machine Learning]] ([[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Deep-Learning.puml & Deep Learning]])==
-*<i><color #black><size:14><b>Data [[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml (Big Data)]] has "value".;
-**[#lightblue] <i><color #black><size:14>The risk of not evolving
-***[#green] <b><i><color #white><size:14>Relevance
-****[#gold]:*<i><color #black><size:14>If not evolved may become obsolete & irrelevant.
-<i><color #black><size:14>**1-** Team is held hosted by the architects, architect says you will develop it because we architected it.
-<i><color #black><size:14>**2-** System does one thing & architecture diagrams on the walls does completely different things, they
-<i><color #black><size:14>deliver a "working system" which is not in **sync** with its <b>architecture;
-***[#green] <b><i><color #white><size:14>Governance
-****[#gold] *<i><color #black><size:14>**Architecture committee,** slows down the process & "initial architecture" draft becomes useless.
-**[#lightblue] <i><color #black><size:14>The risk of  evolving
-***[#green] <b><i><color #white><size:14>What if we can't support a feature?
-****[#yellow] *<i><color #black><size:14><b>Planned Features
-*****[#yellow] *<i><color #black><size:14>Things you know, you will work on, in the beginning of the project you had project backlog. \n<i><color #black><size:14>A list of requirements given to you.
-*****[#yellow] *<i><color #black><size:14>Find the following for each <b>user story:\n#<i><color #black><size:14>Business value\n#<i><color #black><size:14>Architecture Impact\n*<i><color #black><size:14>Now prioritize & implement the high value features first!
-****[#yellow] *<i><color #black><size:14>Surprise Features
-*****[#yellow] *<i><color #black><size:14>Do **minimal architecture** like **Clean Architecture** so that you can "modify & maintain" the system
-***[#green] <i><color #white><b><size:14>How to deal with that?
-****[#yellow] <b><i><color #black><size:14>Prioritize on value & architecture impact
-**[#lightblue] <i><color #black><size:14>Keep it simple
-***[#green] <i><color #white><b><size:14>How?
-****[#yellow] <i><color #black><size:14>Make it easy to understand
-****[#yellow] <i><color #black><size:14>Make it easier to change
-****[#yellow] <i><color #black><size:14>It has few moving parts in it
-****[#yellow] <i><color #black><size:14>It Fails less but when fails, it fails gracefully
-****[#yellow] <i><color #black><size:14><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:14>but by avoiding those tasks that <b>should not be done in the first place.
+*<i><color #black><size:12><b>Data [[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml (Big Data)]] has "value".;
+**[#lightblue] <i><color #black><size:12>The risk of not evolving
+***[#green] <b><i><color #white><size:12>Relevance
+****[#gold]:*<i><color #black><size:12>If not evolved may become obsolete & irrelevant.
+<i><color #black><size:12>**1-** Team is held hosted by the architects, architect says you will develop it because we architected it.
+<i><color #black><size:12>**2-** System does one thing & architecture diagrams on the walls does completely different things, they
+<i><color #black><size:12>deliver a "working system" which is not in **sync** with its <b>architecture;
+***[#green] <b><i><color #white><size:12>Governance
+****[#gold] *<i><color #black><size:12>**Architecture committee,** slows down the process & "initial architecture" draft becomes useless.
+**[#lightblue] <i><color #black><size:12>The risk of  evolving
+***[#green] <b><i><color #white><size:12>What if we can't support a feature?
+****[#yellow] *<i><color #black><size:12><b>Planned Features
+*****[#yellow] *<i><color #black><size:12>Things you know, you will work on, in the beginning of the project you had project backlog. \n<i><color #black><size:12>A list of requirements given to you.
+*****[#yellow] *<i><color #black><size:12>Find the following for each <b>user story:\n#<i><color #black><size:12>Business value\n#<i><color #black><size:12>Architecture Impact\n*<i><color #black><size:12>Now prioritize & implement the high value features first!
+****[#yellow] *<i><color #black><size:12>Surprise Features
+*****[#yellow] *<i><color #black><size:12>Do **minimal architecture** like **Clean Architecture** so that you can "modify & maintain" the system
+***[#green] <i><color #white><b><size:12>How to deal with that?
+****[#yellow] <b><i><color #black><size:12>Prioritize on value & architecture impact
+**[#lightblue] <i><color #black><size:12>Keep it simple
+***[#green] <i><color #white><b><size:12>How?
+****[#yellow] <i><color #black><size:12>Make it easy to understand
+****[#yellow] <i><color #black><size:12>Make it easier to change
+****[#yellow] <i><color #black><size:12>It has few moving parts in it
+****[#yellow] <i><color #black><size:12>It Fails less but when fails, it fails gracefully
+****[#yellow] <i><color #black><size:12><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:12>but by avoiding those tasks that <b>should not be done in the first place.
 *****[#darkorange]:<i><color #black><size:13><b>E.g. don't do (Clean Architecture + [[docs/3-programming-languages/Venkat-Subramaniam/images/img_55.jpg DDD]]) for simple apps (system) as it's not applicable.
 <i><color #black><size:13>Instead simple **three layer architecture** is enough. E.g. <b>[[docs/3-programming-languages/clean-architecture/archunit.adoc use ArchUnit]] to enforce the layers;
 
 **[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_249.png Refactor]]
-***[#green] <b><i><color #white><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.png 50% to 60% of the time you want to]]
-****[#yellow] <i><color #black><size:14><b>Refactor:</b> others people code
-***[#green] <b><i><color #white><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.png Other times you need to 've the courage to]]
-****[#yellow] <i><color #black><size:14><b>Rewrite:</b> your own code
-**[#lightblue] <i><color #black><size:14>Reversibility
-***[#green] <b><i><color #white><size:14>Last responsible moment
-****[#gold] <i><color #black><size:14>You either make the decision now or if you do not you begin to <b>procrastinate
-****[#gold] <i><color #black><size:14><b>Two main reason: \n<i><color #black><size:14>**1-** You are smarter tomorrow than you are today\n<i><color #black><size:14>**2-** If I don't make the decision now, I can go faster focusing on other decisions that 've to \n<i><color #black><size:14>be done now. And you want to postponed things that gives you <b>focus.
-****[#yellow] <i><color #black><size:14><b>E.g.</b> Databases (SQL or NoSQL) etc.
-***[#yellow] <i><color #black><size:14>E.g. **"Rewrite"** java app in go-lang or C# or python, this is difficult, time consuming & hard to <b>reverse.
-***[#yellow] <i><color #black><size:14>The more you are **couple to a decision** the harder it is to **reverse,** introduce **indirection** to increase <b>reversibility.
-***[#a]:<i><color #black><size:14>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.
-*<b><i><color #black><size:14>Why don't we postpone?
-**<b><i><color #green><size:14>Because we are afraid!
-|<#blue><b><i><color #white><size:14>[[docs/books/1-books-backlog/software-testing/automated-testing.puml If you want to "postpone" we need to 've good "automated testing". (TDD)]] click me|
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.png 50% to 60% of the time you want to]]
+****[#yellow] <i><color #black><size:12><b>Refactor:</b> others people code
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.png Other times you need to 've the courage to]]
+****[#yellow] <i><color #black><size:12><b>Rewrite:</b> your own code
+**[#lightblue] <i><color #black><size:12>Reversibility
+***[#green] <b><i><color #white><size:12>Last responsible moment
+****[#gold] <i><color #black><size:12>You either make the decision now or if you do not you begin to <b>procrastinate
+****[#gold] <i><color #black><size:12><b>Two main reason: \n<i><color #black><size:12>**1-** You are smarter tomorrow than you are today\n<i><color #black><size:12>**2-** If I don't make the decision now, I can go faster focusing on other decisions that 've to \n<i><color #black><size:12>be done now. And you want to postponed things that gives you <b>focus.
+****[#yellow] <i><color #black><size:12><b>E.g.</b> Databases (SQL or NoSQL) etc.
+***[#yellow] <i><color #black><size:12>E.g. **"Rewrite"** java app in go-lang or C# or python, this is difficult, time consuming & hard to <b>reverse.
+***[#yellow] <i><color #black><size:12>The more you are **couple to a decision** the harder it is to **reverse,** introduce **indirection** to increase <b>reversibility.
+***[#a]:<i><color #black><size:12>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.
+*<b><i><color #black><size:12>Why don't we postpone?
+**<b><i><color #green><size:12>Because we are afraid!
+|<#blue><b><i><color #white><size:12>[[docs/books/1-books-backlog/software-testing/automated-testing.puml If you want to "postpone" we need to 've good "automated testing". (TDD)]] click me|
 <img:images/img_43.png{scale=.86}>
 ==<i><color #black><size:14><b>(TDD) gives you Control==
-*<i><color #black><size:14><b>Statistical Control (SC):</b> is **TDD or unit testing** or <b><color:green>"Test Coverage"
-**<i><color #black><size:14><b>"Testing"</b> numbs (freezes) us to loss of <b>reasoning (intellectual control)
-*<i><color #black><size:14><b>Intellectual Control (IC):</b> is **simple design,** or <b>"Model Based Testing"</b> etc. but simply when <b>project
-<i><color #black><size:14>"grows big" you start losing (intellectual control) on the <b>project;
-****[#gold] <i><color #black><size:14><img:images/img_35.png{scale=0.7}>
-****[#gold] *<i><color #black><size:14>**"Low code coverage"** means **bad code design** \n*<i><color #black><size:14>**"High code coverage"** does not <b>mean anything
-****[#gold] <i><color #black><size:14>Machine Learning <b>"Model" "Testing"\n<i><color #black><size:14>is different than <b>(TDD)</b> that is:\n<i><color #black><size:14>**1-** Prediction\n<i><color #black><size:14>**2-** Pattern recognition\n<i><color #black><size:14>**3-** Optimization & decision making
+*<i><color #black><size:12><b>Statistical Control (SC):</b> is **TDD or unit testing** or <b><color:green>"Test Coverage"
+**<i><color #black><size:12><b>"Testing"</b> numbs (freezes) us to loss of <b>reasoning (intellectual control)
+*<i><color #black><size:12><b>Intellectual Control (IC):</b> is **simple design,** or <b>"Model Based Testing"</b> etc. but simply when <b>project
+<i><color #black><size:12>"grows big" you start losing (intellectual control) on the <b>project;
+****[#gold] <i><color #black><size:12><img:images/img_35.png{scale=0.7}>
+****[#gold] *<i><color #black><size:12>**"Low code coverage"** means **bad code design** \n*<i><color #black><size:12>**"High code coverage"** does not <b>mean anything
+****[#gold] <i><color #black><size:12>Machine Learning <b>"Model" "Testing"\n<i><color #black><size:12>is different than <b>(TDD)</b> that is:\n<i><color #black><size:12>**1-** Prediction\n<i><color #black><size:12>**2-** Pattern recognition\n<i><color #black><size:12>**3-** Optimization & decision making
 ****[#darkorange] <i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 12- Rule of Repair & TDD:]] click me
-***[#yellow] <i><color #black><size:14>Database decisions, libraries and frameworks decisions etc.
-***[#darkorange] <i><color #black><size:14>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful\n*<i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy
-***[#yellow] <i><color #black><size:14>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
-**[#lightblue] <i><color #black><size:14>YAGNI
+***[#yellow] <i><color #black><size:12>Database decisions, libraries and frameworks decisions etc.
+***[#darkorange] <i><color #black><size:12>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful\n*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy
+***[#yellow] <i><color #black><size:12>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
+**[#lightblue] <i><color #black><size:12>YAGNI
 **[#lightblue] <i><color #black><size:20>What about <color #white>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml "extensibility"?]]
-***[#green] <i><color #white><b><size:14>Two things you need to \n<i><color #white><b><size:14>make software extensible.
-****[#yellow] *<i><color #black><size:14><b>Domain Knowledge
-****[#yellow] *<i><color #black><size:14><b>Knowledge of software design & concerns
-***[#green] <i><color #white><b><size:14>Three Kinds of people \n<i><color #white><b><size:14>in an organization
-****[#yellow] *<i><color #black><size:14><b>People with domain knowledge but no clue of Software design\n*<i><color #black><size:14>Too many in an organization
-****[#yellow] *<i><color #black><size:14><b>People with no clue of domain knowledge but with knowledge the Software design\n*<i><color #black><size:14>Too many in an organization
-****[#gold] *<i><color #black><size:18><b>People with domain knowledge & also knowledge of the Software design\n*<i><color #black><size:14>Very few in an organization
-**[#lightblue] <i><color #black><size:14>Parsimony\n*<i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 6- Rule of Parsimony]]
-***[#green] <i><color #white><b><size:14>Absolute minimalism
-****[#yellow] *<i><color #black><size:14><b>Write very few lines of code; Think does this really you need while writing code
-**[#lightblue] <i><color #black><size:14>Triangulate
-***[#green] <i><color #white><b><size:14>Develop the system in a light weight manner
+***[#green] <i><color #white><b><size:12>Two things you need to \n<i><color #white><b><size:12>make software extensible.
+****[#yellow] *<i><color #black><size:12><b>Domain Knowledge
+****[#yellow] *<i><color #black><size:12><b>Knowledge of software design & concerns
+***[#green] <i><color #white><b><size:12>Three Kinds of people \n<i><color #white><b><size:12>in an organization
+****[#yellow] *<i><color #black><size:12><b>People with domain knowledge but no clue of Software design\n*<i><color #black><size:12>Too many in an organization
+****[#yellow] *<i><color #black><size:12><b>People with no clue of domain knowledge but with knowledge the Software design\n*<i><color #black><size:12>Too many in an organization
+****[#gold] *<i><color #black><size:18><b>People with domain knowledge & also knowledge of the Software design\n*<i><color #black><size:12>Very few in an organization
+**[#lightblue] <i><color #black><size:12>Parsimony\n*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 6- Rule of Parsimony]]
+***[#green] <i><color #white><b><size:12>Absolute minimalism
+****[#yellow] *<i><color #black><size:12><b>Write very few lines of code; Think does this really you need while writing code
+**[#lightblue] <i><color #black><size:12>Triangulate
+***[#green] <i><color #white><b><size:12>Develop the system in a light weight manner
 **[#lightblue] <i><color #black><size:22>Postel's law
-***[#green] <i><color #white><b><size:14>Communicating across systems
+***[#green] <i><color #white><b><size:12>Communicating across systems
 ****[#gold] *<i><color #black><size:18>True in **microservices** world
-****[#yellow] *<i><color #black><size:18><b>Postel's law says:</b> be very  <b>generous</b> about what you <b>receive\n<i><color #black><size:18>& be very <b>conservative</b> about what you <b>send\n<img:images/img_28.png{scale=1}>\n<i><color #black><size:14>So as long as I can **iterate** over your **collection** it does not what is the **type** of your <b>collection.\n<i><color #black><size:14>In other words, don't make your <b>interface brittle.
-**[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_64.png Reuse]] <size:14>[[https://dzone.com/refcardz/patterns-modular-architecture Modularity patterns]] &\n<i><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 1- Rule of modularity]]\n<img:images/img_41.png{scale=0.7}>
-***[#green] <i><color #white><b><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_137.jpg MVC vs MVP vs MVVP click me]]
-***[#green] <i><color #white><b><size:14>Grady Booch Says:
+****[#yellow] *<i><color #black><size:18><b>Postel's law says:</b> be very  <b>generous</b> about what you <b>receive\n<i><color #black><size:18>& be very <b>conservative</b> about what you <b>send\n<img:images/img_28.png{scale=1}>\n<i><color #black><size:12>So as long as I can **iterate** over your **collection** it does not what is the **type** of your <b>collection.\n<i><color #black><size:12>In other words, don't make your <b>interface brittle.
+**[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_64.png Reuse]] <size:12>[[https://dzone.com/refcardz/patterns-modular-architecture Modularity patterns]] &\n<i><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 1- Rule of modularity]]\n<img:images/img_41.png{scale=0.7}>
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_137.jpg MVC vs MVP vs MVVP click me]]
+***[#green] <i><color #white><b><size:12>Grady Booch Says:
 ****[#gold] *<i><color #black><size:18><b>First make the system "usable" then make the system <color #green>"reusable"
 ****[#yellow] *<i><color #black><size:18><b>To make a piece of the system/software "reusable" it has to be very<color #red> "generic"
 ****[#yellow] *<i><color #black><size:18><b>To make a piece of the system/software "usable"" it has to be very <color #brown>"specific"
 ****[#a] *<i><color #black><size:18><b>It's a tension between the two
-***[#green] <i><color #white><b><size:14>In general:
+***[#green] <i><color #white><b><size:12>In general:
 ****[#darkorange] <i><color #black><size:18>**[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Logical design]]** (classes & packages) impacts <color #white><b>"extensibility"
 ****[#darkorange] <i><color #black><size:18>**[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Physical design]]** (.jar) impacts <color #white><b>"re-usability & usability"
 **[#lightblue]:<i><color #black><size:18>[[docs/3-programming-languages/Library-vs-Framework.puml Minimize libraries & frameworks]]
@@ -161,11 +161,11 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ==<i><color #black><size:14>Minimizing Libraries. How?==
 <img:images/img_56.jpg{scale=.75}>
 <i><color #black><size:15>"interface" minimizes the "surface area" of "coupling code" & ease's replacing "library";
-***[#yellow] <i><color #black><size:14>in the system, otherwise it is **"infatuation"** with the <b>"technology"
-***[#yellow] <i><color #black><size:14>Don't **build** what you can **buy/download.** Don't **buy/download** what you don't <b>need!\n*<i><color #black><size:14>"To slaughter a goat for a single grain". You could **buy** the **needed grain** from <b>market!
-***[#gold] <i><color #black><size:14>If we're going to 've a **delivery independent architecture**, we 've to start with \n<i><color #black><size:14><b>delivery independent <color:#brown>"use cases"
-***[#a]:<i><color #black><size:14>There is nothing wrong with **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_56.png outside-in or inside-out approach]]** so long as you **decouple**
-<i><color #black><size:14>your **business rules** from them.
+***[#yellow] <i><color #black><size:12>in the system, otherwise it is **"infatuation"** with the <b>"technology"
+***[#yellow] <i><color #black><size:12>Don't **build** what you can **buy/download.** Don't **buy/download** what you don't <b>need!\n*<i><color #black><size:12>"To slaughter a goat for a single grain". You could **buy** the **needed grain** from <b>market!
+***[#gold] <i><color #black><size:12>If we're going to 've a **delivery independent architecture**, we 've to start with \n<i><color #black><size:12><b>delivery independent <color:#brown>"use cases"
+***[#a]:<i><color #black><size:12>There is nothing wrong with **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_56.png outside-in or inside-out approach]]** so long as you **decouple**
+<i><color #black><size:12>your **business rules** from them.
 ==<i><color #black><size:16>**Inside-out** <color:yellow>(Low-level analysis & design)==
 *<i><color #black><size:16>**Inside-out:** approach is (1st <u>**analyze & design entities & use cases layer**)
 <i><color #yellow><b><size:16>1- Entities
@@ -185,12 +185,12 @@ title =<i><b><u>Towards an Evolutionary Architecture
 **<i><color #green><b><size:12>E.g. [[a Brownfield]] (maintenance) or [[a Greenfield]] (new project)
 **<i><color #green><b><size:12>E.g. [[docs/blockchain/Blockchain-System-Design.puml Blockchain (value exchange)]] or [[docs/blockchain/Blockchain-System-Design.puml Internet/Web (info. exchange)]] or Without internet etc.
 ==<i><color #black><size:16><b>Conclusion==
-*<i><color #black><b><size:14>In reality a mix of both "inside-out & outside-in" is used.;
+*<i><color #black><b><size:12>In reality a mix of both "inside-out & outside-in" is used.;
 ****[#yellow] <img:images/img_245.png{scale=.8}>
 *****[#a]:*<i><color #black><b>Law of Attraction: Applies to both knowledge & materialistic desires
 *<i><color #black><b>It can happen to both who do good deeds or sins at extreme level
 *<i><color #black><b>Basic emotions involved in this motivator  are love, fear, & anger.
-<i><color #white><b><size:14>Solution: Concept of God and Prayer
+<i><color #white><b><size:12>Solution: Concept of God and Prayer
 ==<i><color #black><b><size:14>Knowledge Triangle & Hyperactive State of Mind==
 *<i><color #black><b>Knowledge Triangle & Hyperactive State of Mind, imagination,
 <i><color #black><b>intuition, & visualization.  <color #white>E.g. PTI was a state of mind. Group psychology!
@@ -207,6 +207,6 @@ title =<i><b><u>Towards an Evolutionary Architecture
 <i><color #black><b>does not stop here then you may start seeing & observing these in outer worl (physical world, real)
 <i><color #black><b>life). But actually this is self constructed illusion.;
 
-**[#lightblue] <i><color #black><size:14>Summary
+**[#lightblue] <i><color #black><size:12>Summary
 
 @endmindmap

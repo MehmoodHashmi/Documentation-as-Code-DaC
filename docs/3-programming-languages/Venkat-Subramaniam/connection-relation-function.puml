@@ -5,59 +5,59 @@ title =<i><b><u>From Connection to relation & then function
 !theme hacker
 
 *[#darkblue] <color:white><i>From Connection to \n<i><color:white>Relation & then Function
-**[#lightblue] <i><color #blac><size:14>Connection
-***[#green] <b><i><color #white><size:14>Definition
-****[#yellow] <i><color #black><size:14>Identify **association or connection** between some ideas or concepts or variables. And then finding a **strong relationship** between them.
-****[#yellow] <i><color #black><size:14><b>Indicates a link or association between entities or systems
-****[#gold] <i><color #black><size:14>Can be <b>physical or conceptual
-***[#green] <b><i><color #white><size:14>Examples
-****[#yellow] <i><color #black><size:14>Internet connection
-****[#yellow] <i><color #black><size:14>Neural connections in the brain
+**[#lightblue] <i><color #blac><size:12>Connection
+***[#green] <b><i><color #white><size:12>Definition
+****[#yellow] <i><color #black><size:12>Identify **association or connection** between some ideas or concepts or variables. And then finding a **strong relationship** between them.
+****[#yellow] <i><color #black><size:12><b>Indicates a link or association between entities or systems
+****[#gold] <i><color #black><size:12>Can be <b>physical or conceptual
+***[#green] <b><i><color #white><size:12>Examples
+****[#yellow] <i><color #black><size:12>Internet connection
+****[#yellow] <i><color #black><size:12>Neural connections in the brain
 
-***[#green] <b><i><color #white><size:14>Association strength
-****[#yellow] <i><color #black><size:14>Strength of **association or connection** between some ideas or concepts or variables is <b>weakest.
-**[#lightblue] <i><color #blac><size:14>Relation
-***[#green] <b><i><color #white><size:14>Definition
-****[#yellow] <i><color #black><size:14>Describes an **association or link** between <b>elements or concepts
-****[#yellow] <i><color #black><size:14>Defines **how entities** are <b>related or connected
-****[#darkorange] <i><color #black><size:14>Every **"function"** is a **relation,** but every **"relation"** is not a <b>function.
-*****[#gold] <i><color #black><size:14>But you can convert a **relation into a function** by applying <b>restriction/extension \n<i><color #black><size:14>on **relation.** Meaning by manipulating **(domain & range)** of the <b>relation.\n<img:images/img_70.png{scale=.812}>
-*****[#gold] <i><color #black><size:14>**Construct or deconstruct** an <b>idea/thought
-***[#green] <b><i><color #white><size:14>Examples
-****[#yellow] <i><color #black><size:14>Family relationships <b>(e.g., parent-child)
-****[#yellow] <i><color #black><size:14>Database table relationships <b>(e.g., one-to-many)
-**[#lightblue] <i><color #blac><size:14>Function
-***[#green] <b><i><color #white><size:14>Definition
-****[#yellow] <i><color #black><size:14>Describes a **mathematical or logical relationship** between <b>variables
-****[#yellow] <i><color #black><size:14><b>Maps each element of a set to exactly one element of another set
-****[#darkorange] <i><color #black><size:14>Every **"function"** is a **relation,** but every **"relation"** is not a <b>function.
-****[#darkorange]:<i><color #black><size:14>**Function** is **science, engineering & technology.** **Why?** Because **function** is <b>reproducible.
-*<i><color #black><size:14>Everything which is **reproducible** & can be **explained** is **science.** Relation is not science. It is not not <b>reproducible.
-*<i><color #black><size:14>What is <b>reproducible?
-**<i><color #black><size:14>You are someone else if **follows the procedure/steps** can get the same results irrespective of how many times
-<i><color #black><size:14>   the **procedure** is <b>carried out.;
-*****[#a]:<i><color #black><size:14><b>I Can relate to this from FSc:
-*<i><color #black><size:14>Construction/Setup <b>(at high level) \t<i><color #white><b><size:14>--is-> function
-*<i><color #black><size:14>Working & **why** its working? \t<i><color #white><b><size:14>--is-> Explanation of function
-*<i><color #black><size:14>**And the reason** its working! \t<i><color #white><b><size:14>--is-> You can deconstruct/construct this function by exploiting
-<i><color #white><size:14><b>its domain & range through (restricted/extension). And the function will stop working/behaving
+***[#green] <b><i><color #white><size:12>Association strength
+****[#yellow] <i><color #black><size:12>Strength of **association or connection** between some ideas or concepts or variables is <b>weakest.
+**[#lightblue] <i><color #blac><size:12>Relation
+***[#green] <b><i><color #white><size:12>Definition
+****[#yellow] <i><color #black><size:12>Describes an **association or link** between <b>elements or concepts
+****[#yellow] <i><color #black><size:12>Defines **how entities** are <b>related or connected
+****[#darkorange] <i><color #black><size:12>Every **"function"** is a **relation,** but every **"relation"** is not a <b>function.
+*****[#gold] <i><color #black><size:12>But you can convert a **relation into a function** by applying <b>restriction/extension \n<i><color #black><size:12>on **relation.** Meaning by manipulating **(domain & range)** of the <b>relation.\n<img:images/img_70.png{scale=.812}>
+*****[#gold] <i><color #black><size:12>**Construct or deconstruct** an <b>idea/thought
+***[#green] <b><i><color #white><size:12>Examples
+****[#yellow] <i><color #black><size:12>Family relationships <b>(e.g., parent-child)
+****[#yellow] <i><color #black><size:12>Database table relationships <b>(e.g., one-to-many)
+**[#lightblue] <i><color #blac><size:12>Function
+***[#green] <b><i><color #white><size:12>Definition
+****[#yellow] <i><color #black><size:12>Describes a **mathematical or logical relationship** between <b>variables
+****[#yellow] <i><color #black><size:12><b>Maps each element of a set to exactly one element of another set
+****[#darkorange] <i><color #black><size:12>Every **"function"** is a **relation,** but every **"relation"** is not a <b>function.
+****[#darkorange]:<i><color #black><size:12>**Function** is **science, engineering & technology.** **Why?** Because **function** is <b>reproducible.
+*<i><color #black><size:12>Everything which is **reproducible** & can be **explained** is **science.** Relation is not science. It is not not <b>reproducible.
+*<i><color #black><size:12>What is <b>reproducible?
+**<i><color #black><size:12>You are someone else if **follows the procedure/steps** can get the same results irrespective of how many times
+<i><color #black><size:12>   the **procedure** is <b>carried out.;
+*****[#a]:<i><color #black><size:12><b>I Can relate to this from FSc:
+*<i><color #black><size:12>Construction/Setup <b>(at high level) \t<i><color #white><b><size:12>--is-> function
+*<i><color #black><size:12>Working & **why** its working? \t<i><color #white><b><size:12>--is-> Explanation of function
+*<i><color #black><size:12>**And the reason** its working! \t<i><color #white><b><size:12>--is-> You can deconstruct/construct this function by exploiting
+<i><color #white><size:12><b>its domain & range through (restricted/extension). And the function will stop working/behaving
 ==<i><color #green><size:14><b>Two more very basic things related to functions==
-<i><color #white><size:14><b>1- function composition f() * f1() = f2()
-<i><color #white><size:14><b>2- "Inverse" of a function;
+<i><color #white><size:12><b>1- function composition f() * f1() = f2()
+<i><color #white><size:12><b>2- "Inverse" of a function;
 
-***[#green] <b><i><color #white><size:14>Function Testing
-****[#yellow] <i><color #black><size:14>Copy from chatgpt, vertical line test
-***[#green] <b><i><color #white><size:14> Examples
-****[#yellow] <i><color #black><size:14>Mathematical functions<b> (e.g., f(x) = x^2)
-****[#yellow] <i><color #black><size:14>Programming functions <b>(e.g., a function that computes the square root)
-***[#green] <b><i><color #white><size:14>Function Types
-****[#yellow] <b><i><color #black><size:14>One-to-one
-*****[#gold] <i><color #black><size:14>Irreversible
-****[#yellow] <b><i><color #black><size:14>Onto
-*****[#gold] <i><color #black><size:14>Irreversible
-****[#yellow] <b><i><color #black><size:14>Bijective
-*****[#gold] <i><color #black><size:14>is simultaneously both <b>one-to-one & onto
-*****[#gold] <i><color #black><size:14><b>Reversible
+***[#green] <b><i><color #white><size:12>Function Testing
+****[#yellow] <i><color #black><size:12>Copy from chatgpt, vertical line test
+***[#green] <b><i><color #white><size:12> Examples
+****[#yellow] <i><color #black><size:12>Mathematical functions<b> (e.g., f(x) = x^2)
+****[#yellow] <i><color #black><size:12>Programming functions <b>(e.g., a function that computes the square root)
+***[#green] <b><i><color #white><size:12>Function Types
+****[#yellow] <b><i><color #black><size:12>One-to-one
+*****[#gold] <i><color #black><size:12>Irreversible
+****[#yellow] <b><i><color #black><size:12>Onto
+*****[#gold] <i><color #black><size:12>Irreversible
+****[#yellow] <b><i><color #black><size:12>Bijective
+*****[#gold] <i><color #black><size:12>is simultaneously both <b>one-to-one & onto
+*****[#gold] <i><color #black><size:12><b>Reversible
 
 
 

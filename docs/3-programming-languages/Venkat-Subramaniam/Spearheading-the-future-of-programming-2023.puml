@@ -3,209 +3,209 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 !theme hacker
 
 *[#darkblue] <color:white><i>Spearheading the \n<color:white><i>future of programming
-**[#lightblue] <i><color #blac><size:14>Introduction
-***[#green]:<i><color #white><size:14>I program in about **15 different languages** what I mean by that is I'm not good in any one of them but I love programming &  I started programming because of
-<i><color #white><size:14>the **love I had for Math, physics and Science** in general but <b>"35 years later I'm still a programmer"</b> because of the <b>art and programming that I see.;
-***[#green]:<i><color #white><size:14>I will talk what do I want to see in programming languages as we move forward over the years as I programmed in multiple languages.
-<i><color #white><size:14>I've kind of enjoyed some languages more than others;
-***[#green] <i><color #white><size:14><b>Where things are today and where things are heading?
-****[#a] <i><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_68.png How "science" is different from "computing"? Grady Booch]]
-*****[#a] <i><size:14><b><i><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Conception-Notation-and-Implementation.puml Conception, notation & then implementation]]
-****[#darkorange] <i><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Refactor-your-language-knowledge-portfolio-(we-are-what-we-can-code-in).puml Refactor your language knowledge portfolio (we are what we can code in)]] Venkat Subramaniam
-****[#a] <i><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_69.png Religion vs Philosophy vs Science vs literature (Art/Craft)]]
-*****[#a] <i><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_239.png Dr. Naveed Malik Advice]]
+**[#lightblue] <i><color #blac><size:12>Introduction
+***[#green]:<i><color #white><size:12>I program in about **15 different languages** what I mean by that is I'm not good in any one of them but I love programming &  I started programming because of
+<i><color #white><size:12>the **love I had for Math, physics and Science** in general but <b>"35 years later I'm still a programmer"</b> because of the <b>art and programming that I see.;
+***[#green]:<i><color #white><size:12>I will talk what do I want to see in programming languages as we move forward over the years as I programmed in multiple languages.
+<i><color #white><size:12>I've kind of enjoyed some languages more than others;
+***[#green] <i><color #white><size:12><b>Where things are today and where things are heading?
+****[#a] <i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_68.png How "science" is different from "computing"? Grady Booch]]
+*****[#a] <i><size:12><b><i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Conception-Notation-and-Implementation.puml Conception, notation & then implementation]]
+****[#darkorange] <i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Refactor-your-language-knowledge-portfolio-(we-are-what-we-can-code-in).puml Refactor your language knowledge portfolio (we are what we can code in)]] Venkat Subramaniam
+****[#a] <i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_69.png Religion vs Philosophy vs Science vs literature (Art/Craft)]]
+*****[#a] <i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_239.png Dr. Naveed Malik Advice]]
 
-**[#lightblue] <i><color #blac><size:14>Characteristics
-***[#green] <b><i><color #white><size:14>"Things change really fast in our field"
-****[#yellow] <i><color #black><size:14>Sure, true to some extent
-*****[#darkorange] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_60.png UNWELCOME FACT! What is software made of?]] click me
-******[#a] <i><color #white><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_106.png Paradigm conclusion]] click me
-***[#green] <b><i><color #white><size:14>How are we Programming in new Century?
-****[#yellow] <i><color #black><size:14>Still imperative programming e.g. <b> for (int i =0; i < prices.size() -1; i ++) {}
-*****[#yellow] <i><color #black><size:14>Verbose code
-***[#green] <b><i><color #white><size:14>Challenge
-****[#yellow] <i><color #black><size:14>Learning new <b>"programming language"</b> is easy
-****[#yellow] <i><color #black><size:14>Learning new <b>"programming Paradigm"</b> is hard <b>(takes more effort)
+**[#lightblue] <i><color #blac><size:12>Characteristics
+***[#green] <b><i><color #white><size:12>"Things change really fast in our field"
+****[#yellow] <i><color #black><size:12>Sure, true to some extent
+*****[#darkorange] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_60.png UNWELCOME FACT! What is software made of?]] click me
+******[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_106.png Paradigm conclusion]] click me
+***[#green] <b><i><color #white><size:12>How are we Programming in new Century?
+****[#yellow] <i><color #black><size:12>Still imperative programming e.g. <b> for (int i =0; i < prices.size() -1; i ++) {}
+*****[#yellow] <i><color #black><size:12>Verbose code
+***[#green] <b><i><color #white><size:12>Challenge
+****[#yellow] <i><color #black><size:12>Learning new <b>"programming language"</b> is easy
+****[#yellow] <i><color #black><size:12>Learning new <b>"programming Paradigm"</b> is hard <b>(takes more effort)
 ***[#green] <b><i><color #white><size:24>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_106.png Paradigm Shift]] <color:a>click me \n<img:images/img_40.png>\n<i><color #white><size:17>**Elon-MusK:** shared this "image" in <b>tweet
 
-****[#a]:*<i><color #black><size:14>Every **new path** starts by throwing away what you already had & starting all over with <b>new vocabulary, new practices, & new gurus.
-*<i><color #black><size:14>And **Each path** results in a <u>**paradigm change**</u> with many **<u>methods</u>** -- sometime 100s of them.
-**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/mixed-paradigms-(the-method-to-madness).puml Mixed Paradigms: The method to madness]] click me
-**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_62.png The ambition to engineer has gone up & down]] click me
-**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 13-Rule of Economy: Programmer time is expensive; conserve it in preference to machine time]] click me;
+****[#a]:*<i><color #black><size:12>Every **new path** starts by throwing away what you already had & starting all over with <b>new vocabulary, new practices, & new gurus.
+*<i><color #black><size:12>And **Each path** results in a <u>**paradigm change**</u> with many **<u>methods</u>** -- sometime 100s of them.
+**<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/mixed-paradigms-(the-method-to-madness).puml Mixed Paradigms: The method to madness]] click me
+**<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_62.png The ambition to engineer has gone up & down]] click me
+**<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 13-Rule of Economy: Programmer time is expensive; conserve it in preference to machine time]] click me;
 
-****[#darkorange] <i><color #black><size:14><b>1st paradigm shift:</b> Procedural programming or <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.png "algorithmic decomposition" of code (modules)]]
+****[#darkorange] <i><color #black><size:12><b>1st paradigm shift:</b> Procedural programming or <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.png "algorithmic decomposition" of code (modules)]]
 
-*****[#a]:*<i><color #black><size:14><b>Time & Space complexity analysis</b>
+*****[#a]:*<i><color #black><size:12><b>Time & Space complexity analysis</b>
 *<i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/Goal-of-the-data-structures-is-no-incidental-data-structures.puml Data-Structure]] + [[docs/books/1-books-backlog/data-structure-and-algorithm/Algorithms-Four-Principles-of-optimality.puml Algorithm]] = <color #green>Program</b>
-*<i><color #black><size:14><b>Good for <u>"decomposition"</b>
-**<i><color #black><size:14><b><u>[[docs/books/1-books-backlog/data-structure-and-algorithm/Algorithm-Design-Strategies.puml "Decomposition Strategies"]] patterns can be reused.
-**<i><color #black><size:14><b>[[docs/books/1-books-backlog/data-structure-and-algorithm/Algorithms-Four-Principles-of-optimality.puml 4-Principles of optimality (Decomposition)]] </b>
-*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_72.png "Pointer" is "in-direction"]]
-*<i><color #black><size:14><b>"Diagramming:" using <u>"flowchart"</b> ; is useful
-<i><color #black><size:14>    upto **5000-10000** instructions of <b>code;
-******[#a] *<b><i><color #black><size:14>[[docs/books/1-books-backlog/data-structure-and-algorithm/classes-vs-data-structures.puml Classes Vs. Data structures]] click me \n*<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_257.png Data-Structures & Algorithms advice]] click me
-****[#yellow] <i><color #black><size:14><b>2nd paradigm shift:</b> Object Oriented Programming or <b>"object decomposition" of code (modules)
-*****[#a]:<i><color #black><size:14><b>OOA&D</b>
-*<i><color #black><size:14><b>Objects + Messages = <color #green>Program
-*<i><color #black><size:14><b>Good for "modeling"</b>
-**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/class-design-patterns.puml Class-level design patterns]] can be reused:
-***<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Principles: SOLID, GRASP, TDD, YAGNI, KISS, SLAP & DRY]]
-**<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/modularity-patterns.pdf Modularity design patterns]] can be reused:
-***<i><color #black><size:14><b>[[docs/3-programming-languages/class-and-package-level-SOLID-Principles.puml Principles: (REP, CRP, CCP) & (ADP, SDP, SAP)]]
-*<i><color #black><size:14><b>"Runtime-Polymorphism" is <u>"in-direction"</b>
-*<i><color #black><size:14><b>"Diagramming:" using <u>"UML" + [[docs/3-programming-languages/Venkat-Subramaniam/images/img_93.png "C4-model"]]</b>;
-******[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-OOP.puml What is OOP?]] click me
-******[#gold] <i><color #black><size:14><img:images/img_33.png{scale=0.65}>
-****[#yellow] <i><color #black><size:14><b>3rd paradigm shift:</b> Distributed Object Computing or Common Object Request Broker Architecture <b>(CORBA)
-*****[#yellow] <i><color #black><size:14>Remote computing
-******[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_107.png Dynamic topology & network graph]]
-****[#darkorange] <i><color #black><size:15><b>4rth paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Asynchronous-Programming-in-Java-Options-to-Choose-from.puml Asynchronous Programming]]\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Asynchronous is non-blocking]] click gif\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Multi-threading vs Multi-processing programming ]]
-*****[#a]:<i><color #black><size:14><b>It took me more time to understand it. Why? Because</b>
-* <color #black><size:14><i>I was not satisfied writing another <b>"callback"</b> & go home
-* <color #black><size:14><i>I wanted to understand the following:
-** <color #black><size:14><i> <b>How these "callback" behave</b>
-** <color #black><size:14><i> <b>How these "callback" work</b>
-** <color #black><size:14><i> <b>And reason these "callback" work</b>
+*<i><color #black><size:12><b>Good for <u>"decomposition"</b>
+**<i><color #black><size:12><b><u>[[docs/books/1-books-backlog/data-structure-and-algorithm/Algorithm-Design-Strategies.puml "Decomposition Strategies"]] patterns can be reused.
+**<i><color #black><size:12><b>[[docs/books/1-books-backlog/data-structure-and-algorithm/Algorithms-Four-Principles-of-optimality.puml 4-Principles of optimality (Decomposition)]] </b>
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_72.png "Pointer" is "in-direction"]]
+*<i><color #black><size:12><b>"Diagramming:" using <u>"flowchart"</b> ; is useful
+<i><color #black><size:12>    upto **5000-10000** instructions of <b>code;
+******[#a] *<b><i><color #black><size:12>[[docs/books/1-books-backlog/data-structure-and-algorithm/classes-vs-data-structures.puml Classes Vs. Data structures]] click me \n*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_257.png Data-Structures & Algorithms advice]] click me
+****[#yellow] <i><color #black><size:12><b>2nd paradigm shift:</b> Object Oriented Programming or <b>"object decomposition" of code (modules)
+*****[#a]:<i><color #black><size:12><b>OOA&D</b>
+*<i><color #black><size:12><b>Objects + Messages = <color #green>Program
+*<i><color #black><size:12><b>Good for "modeling"</b>
+**<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/class-design-patterns.puml Class-level design patterns]] can be reused:
+***<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Principles: SOLID, GRASP, TDD, YAGNI, KISS, SLAP & DRY]]
+**<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/modularity-patterns.pdf Modularity design patterns]] can be reused:
+***<i><color #black><size:12><b>[[docs/3-programming-languages/class-and-package-level-SOLID-Principles.puml Principles: (REP, CRP, CCP) & (ADP, SDP, SAP)]]
+*<i><color #black><size:12><b>"Runtime-Polymorphism" is <u>"in-direction"</b>
+*<i><color #black><size:12><b>"Diagramming:" using <u>"UML" + [[docs/3-programming-languages/Venkat-Subramaniam/images/img_93.png "C4-model"]]</b>;
+******[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-OOP.puml What is OOP?]] click me
+******[#gold] <i><color #black><size:12><img:images/img_33.png{scale=0.65}>
+****[#yellow] <i><color #black><size:12><b>3rd paradigm shift:</b> Distributed Object Computing or Common Object Request Broker Architecture <b>(CORBA)
+*****[#yellow] <i><color #black><size:12>Remote computing
+******[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_107.png Dynamic topology & network graph]]
+****[#darkorange] <i><color #black><size:15><b>4rth paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Asynchronous-Programming-in-Java-Options-to-Choose-from.puml Asynchronous Programming]]\n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Asynchronous is non-blocking]] click gif\n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Multi-threading vs Multi-processing programming ]]
+*****[#a]:<i><color #black><size:12><b>It took me more time to understand it. Why? Because</b>
+* <color #black><size:12><i>I was not satisfied writing another <b>"callback"</b> & go home
+* <color #black><size:12><i>I wanted to understand the following:
+** <color #black><size:12><i> <b>How these "callback" behave</b>
+** <color #black><size:12><i> <b>How these "callback" work</b>
+** <color #black><size:12><i> <b>And reason these "callback" work</b>
 <size:11><color #white><i><b>Venkat: I'm not a person who is happy when my code works. Actually I'm very unhappy when my code works.
 <size:11><color #white><i><b>Because I want to know how it works & why it works. <u>And I want to break it & then put it back together.
-**<size:14><color #white><i><b><u>Especially true for Entities & use case layer & also in data-structures & algorithms
+**<size:12><color #white><i><b><u>Especially true for Entities & use case layer & also in data-structures & algorithms
 ====
-* <color #black><size:14><i><b>"Diagramming:" using [[docs/3-programming-languages/Venkat-Subramaniam/Introduction-to-SDL.puml Specification & Description language (SDL)]]
-* <color #green><size:14><i><b>"Asynchronous:" is good for real-time "event-driven, reactive & distributed systems"
-** <color #green><size:14><i><b>Current areas of application: "process control & real-time apps"
-* <color #green><size:14><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Design-Patterns-in-Asynchronous-Programming.puml "Asynchronous:" design patterns]] can be reused;
-******[#a]:<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/connection-relation-function.puml I Can relate to this from FSc:]]
-*<i><color #black><size:14>Construction/Setup <b>(at high level)
-*<i><color #black><size:14>Working & **why** its working?
-*<i><color #black><size:14>**And the reason** its working!;
+* <color #black><size:12><i><b>"Diagramming:" using [[docs/3-programming-languages/Venkat-Subramaniam/Introduction-to-SDL.puml Specification & Description language (SDL)]]
+* <color #green><size:12><i><b>"Asynchronous:" is good for real-time "event-driven, reactive & distributed systems"
+** <color #green><size:12><i><b>Current areas of application: "process control & real-time apps"
+* <color #green><size:12><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Design-Patterns-in-Asynchronous-Programming.puml "Asynchronous:" design patterns]] can be reused;
+******[#a]:<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/connection-relation-function.puml I Can relate to this from FSc:]]
+*<i><color #black><size:12>Construction/Setup <b>(at high level)
+*<i><color #black><size:12>Working & **why** its working?
+*<i><color #black><size:12>**And the reason** its working!;
 
 
 ****[#darkorange] <i><color #black><size:15><b>5th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml Functional Programming]] \n*<i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/sequential-vs-parallel.adoc Sequential vs Parallel]] click gif
-*****[#a]:*<i><color #green><size:14><b>Lambda (->) is indirection
-*<i><color #green><size:14><b> (function-1)(function-2) = <color #Pink>Program
-**<i><color #green><size:14><b>"FP" is good for "reasoning"
-*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/diagramming-in-functional-programming.puml "Diagramming:"]] using <u>"Category theory",</u> it is equivalent of "UML"</b>
-<i><color #black><size:14>People said it's very easy but it was not. **Why?** Because it was really hard
-<i><color #black><size:14>to think a different way than what I'm used to thinking in <b>imperative style
+*****[#a]:*<i><color #green><size:12><b>Lambda (->) is indirection
+*<i><color #green><size:12><b> (function-1)(function-2) = <color #Pink>Program
+**<i><color #green><size:12><b>"FP" is good for "reasoning"
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/diagramming-in-functional-programming.puml "Diagramming:"]] using <u>"Category theory",</u> it is equivalent of "UML"</b>
+<i><color #black><size:12>People said it's very easy but it was not. **Why?** Because it was really hard
+<i><color #black><size:12>to think a different way than what I'm used to thinking in <b>imperative style
 <img:images/img_29.png{scale=0.39}>
-*<i><color #black><size:14>**FP** is not about **immutability & higher-order functions,** it is about thinking
-<i><color #black><size:14>about **problem solving** in terms of <b>"lazy evaluation" & functional composition;
+*<i><color #black><size:12>**FP** is not about **immutability & higher-order functions,** it is about thinking
+<i><color #black><size:12>about **problem solving** in terms of <b>"lazy evaluation" & functional composition;
 ******[#darkorange]:<i><color #black><size:32><b>[[docs/3-programming-languages/Venkat-Subramaniam/Streams.puml What is Stream?]] click me
-*<i><color #black><size:14>**Stream** is an **abstraction,** it is not a <b>data structure or collection
-*<i><color #black><size:14>It is <b>non-mutating
-*<i><color #black><size:14>A view of how **data** is <b>transformed
-*<i><color #black><size:14><b>Pipeline schema <color #white>(ETL vs ELT)
+*<i><color #black><size:12>**Stream** is an **abstraction,** it is not a <b>data structure or collection
+*<i><color #black><size:12>It is <b>non-mutating
+*<i><color #black><size:12>A view of how **data** is <b>transformed
+*<i><color #black><size:12><b>Pipeline schema <color #white>(ETL vs ELT)
 ====
-*<i><color #black><size:14><b>Stream employs function composition
-*<i><color #black><size:14><b>"Stateless" behavior
-*<i><color #black><size:14><b>"pure" functions
-*<i><color #black><size:14><b>"Specialized" functions</b> (filter, Map)  **rides** the <b>stream
-**<i><color #black><size:14><b>Reduce<b> function using reduce function helps</b> you land on the
-<i><color #black><size:14>**concrete** type from <b>abstract (stream);
-****[#darkorange] <i><color #black><size:15><b>6th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Designing-Reactive-Systems.puml Reactive Programming or functional programming++]]\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Asynchronous vs synchronous]] click gif
-*****[#yellow]:<i><color #black><size:14>Is an <b>abstraction</b> on top of <b>functional programming
-*<i><color #green><size:14><b>"FRP" is good for "Time & concurrency" related problems.
-*<i><color #black><size:14><b>"FRP" is opposite of "OOP",<color:green> they both try to <u>solve the same problem</u> but from "opposite directions".
-*<i><color #black><size:14><b>We live in the age of Big-Data. We were doing CRUD apps for last 20-years
-|<#white><i><color #green><size:14><b>CRUD:|<#white><i><color #green><size:14><b> read from "database" -then-> process/function -then-> put back to "database"|
-|<#pink><i><color #green><size:14><b>Dataflow computing:|<i><color #green><size:14><b> <color:red>d ==> f ==> d ==> f ==> d ==> f \t(was popular in the 1980s)|
-***<i><color #green><size:14><b>Today you can do "Amazon lambdas & do Serverless programming". In the 1980s we called it
-<i><color #green><size:14>**dataflow computing,** today we call it <b>serverless.
-|<#lightblue><i><color #green><size:14><b>Functional Reactive Programming:|<i><color #green><size:14><b> <color:red><u>is dataflow computing \n<i><color #green><size:14><b> <color:red>1- Stream of data \n<i><color #green><size:14><b> <color:red>2-transformation of dataflow|;
+*<i><color #black><size:12><b>Stream employs function composition
+*<i><color #black><size:12><b>"Stateless" behavior
+*<i><color #black><size:12><b>"pure" functions
+*<i><color #black><size:12><b>"Specialized" functions</b> (filter, Map)  **rides** the <b>stream
+**<i><color #black><size:12><b>Reduce<b> function using reduce function helps</b> you land on the
+<i><color #black><size:12>**concrete** type from <b>abstract (stream);
+****[#darkorange] <i><color #black><size:15><b>6th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Designing-Reactive-Systems.puml Reactive Programming or functional programming++]]\n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Asynchronous vs synchronous]] click gif
+*****[#yellow]:<i><color #black><size:12>Is an <b>abstraction</b> on top of <b>functional programming
+*<i><color #green><size:12><b>"FRP" is good for "Time & concurrency" related problems.
+*<i><color #black><size:12><b>"FRP" is opposite of "OOP",<color:green> they both try to <u>solve the same problem</u> but from "opposite directions".
+*<i><color #black><size:12><b>We live in the age of Big-Data. We were doing CRUD apps for last 20-years
+|<#white><i><color #green><size:12><b>CRUD:|<#white><i><color #green><size:12><b> read from "database" -then-> process/function -then-> put back to "database"|
+|<#pink><i><color #green><size:12><b>Dataflow computing:|<i><color #green><size:12><b> <color:red>d ==> f ==> d ==> f ==> d ==> f \t(was popular in the 1980s)|
+***<i><color #green><size:12><b>Today you can do "Amazon lambdas & do Serverless programming". In the 1980s we called it
+<i><color #green><size:12>**dataflow computing,** today we call it <b>serverless.
+|<#lightblue><i><color #green><size:12><b>Functional Reactive Programming:|<i><color #green><size:12><b> <color:red><u>is dataflow computing \n<i><color #green><size:12><b> <color:red>1- Stream of data \n<i><color #green><size:12><b> <color:red>2-transformation of dataflow|;
 ****[#darkorange] <i><color #black><size:15><b>7th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Logic-Programming.puml Logic Programming]]
-*****[#yellow] <i><color #black><size:14><b>Facts + Rules = <color #green>Program</b> \n*<i><color #black><size:14><b>Good for "Searching"
-******[#a] <i><color #black><size:14><b>E.g. "languages" like Prolog, & Datalog
+*****[#yellow] <i><color #black><size:12><b>Facts + Rules = <color #green>Program</b> \n*<i><color #black><size:12><b>Good for "Searching"
+******[#a] <i><color #black><size:12><b>E.g. "languages" like Prolog, & Datalog
 ****[#darkorange] <i><color #black><size:15><b>8th paradigm shift: [[docs/blockchain/Blockchain-System-Design.puml Internet (info. exchange) to Blockchain (value exchange)]]; Internet (centralized) to blockchain (decentralized)
 ****[#darkorange] <i><color #black><size:22><b>9th paradigm shift:</b> <b>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/statistics/professor-leonard-statistics-notes/descriptive-(or-EDA)-statistics/4-machine-learning.puml Machine learning]] click\n<img:images/img_7.png{scale=0.95}>
 *****[#darkorange] <i><color #black><size:16><b>[[docs/books/selfanalysis/anatomy-of-knowledge.puml Anatomy of knowledge]] click me\n<img:images/img_8.png{scale=0.60}>
-******[#darkorange]:<i><color #black><size:14><b>[[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml Data]] + [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Algorithm]] = [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/machine-learning-basic-terminology.puml Model]]
-*<i><color #black><size:14><b>"ML" Good for "Pattern recognition", "Predictions" &
-<i><color #black><size:14><b>"Optimization & decision making"
-*<i><color #black><size:14><b>[[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Model-Fine-Tuning.puml Transfer learning:]] or Model fine-tuning; Model can be reused.;
+******[#darkorange]:<i><color #black><size:12><b>[[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml Data]] + [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Algorithm]] = [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/machine-learning-basic-terminology.puml Model]]
+*<i><color #black><size:12><b>"ML" Good for "Pattern recognition", "Predictions" &
+<i><color #black><size:12><b>"Optimization & decision making"
+*<i><color #black><size:12><b>[[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Model-Fine-Tuning.puml Transfer learning:]] or Model fine-tuning; Model can be reused.;
 ******[#yellow] <i><color #black><size:22><b>Data-set\n<img:images/img_6.png>
-***[#green] <b><i><color #white><size:14>People ask me which programming language I should learn
-****[#yellow] <i><color #black><size:14>I always tell don't pick a **language** to learn instead pick a **programming paradigm** to learn
-****[#yellow] <i><color #black><size:14>Because when you learn a <b>different paradigm,</b> you learn a <b>different way of thinking
-****[#darkorange] <i><color #black><size:14>Learn <b>Problem solving
-*****[#gold] <i><color #black><size:14>**Programming:** is part **practical,** part <color #green><b>theoretical.\n<i><color #black><size:14>**1-** If you are just <color #green>**theoretical, (analysis & design)**</color> <size:14>you will produce <u><b>unusable (or unaffordable) toys.\n<i><color #black><size:14>**2-** If you are just **practical, (code & test)** you will produce <u><b>non-scalable, unmaintainable hacks.
-****[#yellow] <i><color #black><size:14>Because when you know <b>Java</b> & then you learn <b>C#,</b> it does not count, your total count is still one
-****[#yellow]:<i><color #black><size:14>Pickup something that will hurt you, make your cry, beg for mercy only then you are learning something interesting.
-<i><color #black><size:14>It changes the way you **"think"** & will change the way you **"program and design"** as well.;
+***[#green] <b><i><color #white><size:12>People ask me which programming language I should learn
+****[#yellow] <i><color #black><size:12>I always tell don't pick a **language** to learn instead pick a **programming paradigm** to learn
+****[#yellow] <i><color #black><size:12>Because when you learn a <b>different paradigm,</b> you learn a <b>different way of thinking
+****[#darkorange] <i><color #black><size:12>Learn <b>Problem solving
+*****[#gold] <i><color #black><size:12>**Programming:** is part **practical,** part <color #green><b>theoretical.\n<i><color #black><size:12>**1-** If you are just <color #green>**theoretical, (analysis & design)**</color> <size:12>you will produce <u><b>unusable (or unaffordable) toys.\n<i><color #black><size:12>**2-** If you are just **practical, (code & test)** you will produce <u><b>non-scalable, unmaintainable hacks.
+****[#yellow] <i><color #black><size:12>Because when you know <b>Java</b> & then you learn <b>C#,</b> it does not count, your total count is still one
+****[#yellow]:<i><color #black><size:12>Pickup something that will hurt you, make your cry, beg for mercy only then you are learning something interesting.
+<i><color #black><size:12>It changes the way you **"think"** & will change the way you **"program and design"** as well.;
 
-***[#green] <b><i><color #white><size:14>Somethings are fundamental & hard to change
-****[#yellow] <i><color #black><size:14>E.g. Turing completeness
-*****[#yellow]:<i><color #black><size:14>Why would you want to use a "programming language" that is not "turing complete"?
+***[#green] <b><i><color #white><size:12>Somethings are fundamental & hard to change
+****[#yellow] <i><color #black><size:12><b>E.g. Turing completeness
+*****[#yellow]:<i><color #black><size:12>Why would you want to use a "programming language" that is not "turing complete"?
 
-<i><color #black><size:14>That to me is a pretty low bar in a lot of ways because Turing completeness often
-<i><color #black><size:14>doesn't talk about
-*<i><color #black><size:14><b>Efficiency of programming
-*<i><color #black><size:14><b>Speed at which the code can run
-*<i><color #black><size:14><b>Elegance of the code
-<i><color #black><size:14>none of it really addresses in that regard. So we want to think about <b>"turing complete"
-<i><color #black><size:14>but we have to go beyond that in a lot of ways when looking at <b>"languages";
-****[#yellow] <i><color #black><size:14>E.g. Von Newman bottleneck
-*****[#yellow]:<i><color #black><size:14>In terms of moving:
-*<i><color #black><size:14><b>objects around
-*<i><color #black><size:14><b>data around memory
-<i><color #black><size:14>This often becomes a challenge especially when we do <b><u>distributed computing
-<i><color #black><size:14>and when we trying to really do all these <b>architectures</b> that we are trying to
-<i><color #black><size:14>implement these days that becomes a challenge;
-*****[#yellow] <i><color #black><size:14><b>Grady Booch said: \n<i><color #black><size:14>"There are some physics limitations" that is I can't make data travel faster than the speed of light
-*****[#yellow] <i><color #black><size:14><b>Hardware limitations:</b> CPUs, GPUs, TPUs, & so on. & **Heat** produced by these <b>hardware
+<i><color #black><size:12>That to me is a pretty low bar in a lot of ways because Turing completeness often
+<i><color #black><size:12>doesn't talk about
+*<i><color #black><size:12><b>Efficiency of programming
+*<i><color #black><size:12><b>Speed at which the code can run
+*<i><color #black><size:12><b>Elegance of the code
+<i><color #black><size:12>none of it really addresses in that regard. So we want to think about <b>"turing complete"
+<i><color #black><size:12>but we have to go beyond that in a lot of ways when looking at <b>"languages";
+****[#yellow] <i><color #black><size:12><b>E.g. Von Newman bottleneck
+*****[#yellow]:<i><color #black><size:12>In terms of moving:
+*<i><color #black><size:12><b>objects around
+*<i><color #black><size:12><b>data around memory
+<i><color #black><size:12>This often becomes a challenge especially when we do <b><u>distributed computing
+<i><color #black><size:12>and when we trying to really do all these <b>architectures</b> that we are trying to
+<i><color #black><size:12>implement these days that becomes a challenge;
+*****[#yellow] <i><color #black><size:12><b>Grady Booch said: \n<i><color #black><size:12>"There are some physics limitations" that is I can't make data travel faster than the speed of light
+*****[#yellow] <i><color #black><size:12><b>Hardware limitations:</b> CPUs, GPUs, TPUs, & so on. & **Heat** produced by these <b>hardware
 
-**[#lightblue] <i><color #blac><size:14>When was OOP introduced?
-***[#green] <b><i><color #white><size:14>During the 1990 OOP became popular
-****[#yellow] <i><color #black><size:14>OOP was introduced in 1967.
-****[#yellow] <i><color #black><size:14>It took 23-years for OOP to become mainstream. Is this fast? When people tell me things are changing very fast. <b>Really!
-****[#yellow] <i><color #black><size:14>Things don't change as fast it actually changes. e.g. it took 23-years for OOP to become mainstream
-****[#yellow] <i><color #black><size:14>What is 23-years? It took 23-years for OOP to become mature
+**[#lightblue] <i><color #blac><size:12>When was OOP introduced?
+***[#green] <b><i><color #white><size:12>During the 1990 OOP became popular
+****[#yellow] <i><color #black><size:12>OOP was introduced in 1967.
+****[#yellow] <i><color #black><size:12>It took 23-years for OOP to become mainstream. Is this fast? When people tell me things are changing very fast. <b>Really!
+****[#yellow] <i><color #black><size:12>Things don't change as fast it actually changes. e.g. it took 23-years for OOP to become mainstream
+****[#yellow] <i><color #black><size:12>What is 23-years? It took 23-years for OOP to become mature
 
-**[#lightblue] <i><color #blac><size:14>What about "functional programming"?
-***[#green] <b><i><color #white><size:14>Most mainstream programming languages support "FP"
-****[#yellow] <i><color #black><size:14><b>Most "languages" are "hybrid" today
-***[#green] <b><i><color #white><size:14>When was "lambda calculus" created?
-****[#yellow] <i><color #black><size:14>1930s it was created
-***[#green] <b><i><color #white><size:14>Why does it take so long for adoption?
-****[#yellow] <i><color #black><size:14>We take change in bit size
-****[#yellow] <i><color #black><size:14>Habits are hard to change, it takes a new generation
-****[#yellow] <i><color #black><size:14>We are poised (prepare) for a few big changes
-****[#yellow] <i><color #black><size:14>It started between 2003-2006
-*****[#yellow] <i><color #black><size:14>Hardware changed <b>(single core to multiple core machines)
-*****[#yellow] <i><color #black><size:14>Business world decided to change
+**[#lightblue] <i><color #blac><size:12>What about "functional programming"?
+***[#green] <b><i><color #white><size:12>Most mainstream programming languages support "FP"
+****[#yellow] <i><color #black><size:12><b>Most "languages" are "hybrid" today
+***[#green] <b><i><color #white><size:12>When was "lambda calculus" created?
+****[#yellow] <i><color #black><size:12>1930s it was created
+***[#green] <b><i><color #white><size:12>Why does it take so long for adoption?
+****[#yellow] <i><color #black><size:12>We take change in bit size
+****[#yellow] <i><color #black><size:12>Habits are hard to change, it takes a new generation
+****[#yellow] <i><color #black><size:12>We are poised (prepare) for a few big changes
+****[#yellow] <i><color #black><size:12>It started between 2003-2006
+*****[#yellow] <i><color #black><size:12>Hardware changed <b>(single core to multiple core machines)
+*****[#yellow] <i><color #black><size:12>Business world decided to change
 *****[#a] <i><color #black><size:22><b>Other factors:</b> Modern demands, <b>[[docs/cloud-computing/Cloud-Native.puml Cloud,]] [[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml Big Data]], IoT, [[docs/AI-ML-DL-Data-Science-and-BigData/data-science/statistics/professor-leonard-statistics-notes/descriptive-(or-EDA)-statistics/4-machine-learning.puml ML]], Microservices
 ****[#yellow] <i><color #black><size:22><b>Some answers:</b>
 *****[#darkorange] <b><i><color #black><size:18>[[docs/books/1-books-backlog/DBMS/Designing-Data-Intensive-Applications.puml NoSQL,]] [[docs/AI-ML-DL-Data-Science-and-BigData/Apache-Big-Data-Ecosystem/MapReduce.puml MapReduce,]] [[docs/3-programming-languages/Venkat-Subramaniam/Designing-Reactive-Systems.puml Reactive]]
 **[#lightblue] <i>Web
-***[#green] <b><i><color #white><size:14>How do we build web-apps?
-****[#yellow] <i><color #black><size:14>"Stateless" <b>(Request-Response)
-*****[#yellow] <i><color #black><size:14>Poor separation of concern
-***[#green] <b><i><color #white><size:14>How do we build moderen web-apps?
-****[#yellow] <i><color #black><size:14>"Continuations" <b>(Request-Response)
-*****[#yellow] <i><color #black><size:14>Save execution state & return to that point later in time
-****[#darkorange] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml "Languages" should make simple things simpler, hard things manageable]]
+***[#green] <b><i><color #white><size:12>How do we build web-apps?
+****[#yellow] <i><color #black><size:12>"Stateless" <b>(Request-Response)
+*****[#yellow] <i><color #black><size:12>Poor separation of concern
+***[#green] <b><i><color #white><size:12>How do we build moderen web-apps?
+****[#yellow] <i><color #black><size:12>"Continuations" <b>(Request-Response)
+*****[#yellow] <i><color #black><size:12>Save execution state & return to that point later in time
+****[#darkorange] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml "Languages" should make simple things simpler, hard things manageable]]
 ****[#yellow] <i><color #black><size:15>Languages must promote <b>higher-level of abstraction, compos-ability, & declarative style
 ****[#yellow] <i><color #black><size:15><b>Expressive Languages</b> (intuitive to use)
 *****[#yellow] <i><color #black><size:15><b>"Expressive code"</b> often leads to better design & extensibility
 *****[#yellow] <i><color #black><size:15>Efficiency
 ******[#yellow] <i><color #black><size:15>It is cute. <b>Cuteness doesn't last very long!\n<img:images/img_9.png{scale=0.8}>
 ******[#yellow] <i><color #black><size:15>It is cute. <b>Cuteness + Efficiency is highly critical!\n<img:images/img_10.png{scale=0.85}>
-******[#gold]:*<size:14><color #black><i>**Functional Programming:** relies on "lazy evaluation" for <b>"efficiency"
-*<size:14><color #black><i>**"lazy evaluation"** relies on **"purity of functions"** (immutability) for <b>"correctness"
-*<size:14><color #black><i>We need make sure **"lambda" (->)** are <b>"pure"
+******[#gold]:*<size:12><color #black><i>**Functional Programming:** relies on "lazy evaluation" for <b>"efficiency"
+*<size:12><color #black><i>**"lazy evaluation"** relies on **"purity of functions"** (immutability) for <b>"correctness"
+*<size:12><color #black><i>We need make sure **"lambda" (->)** are <b>"pure"
 
-**<size:14><color #black><i>Pure functions do not have side-effects. They are <b>idempotent.
-**<size:14><color #black><i>**Idempotent:** For the same input function always produces same output
+**<size:12><color #black><i>Pure functions do not have side-effects. They are <b>idempotent.
+**<size:12><color #black><i>**Idempotent:** For the same input function always produces same output
 
-<size:14><color #black><i><u><b>Rules of Purity </b>(rule 1 is necessary but not sufficient)
-#<size:14><color #black><i> The function does not mutate or change anything that is visible from the outside
-#<size:14><color #black><i>The function does not depend on anything from outside that may/possibly change;
-*****[#yellow] <i><color #black><size:14><b>Hybrid "languages"</b> can't enforce **(immutability),** so it is on us to take care of that
-****[#darkorange] <i><color #black><size:18><b>Asynchronous Programming\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Asynchronous is non-blocking]] click gif\n*<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Multi-threading vs Multi-processing programming ]]
-**[#lightblue] <i><color #blac><size:14>What we should do?
-***[#green] <b><i><color #white><size:14>Studies suggest multilingual exposure boosts children's communication skills
-***[#green] <b><i><color #white><size:14>The amount of time we need to learn a new concept is inversely proportional to the diverse ideas we 've been exposed to.
-***[#green] <b><i><color #white><size:14>So learning different paradigms exposes to different ideas, learning different paradigms exposes to different line of thinking
+<size:12><color #black><i><u><b>Rules of Purity </b>(rule 1 is necessary but not sufficient)
+#<size:12><color #black><i> The function does not mutate or change anything that is visible from the outside
+#<size:12><color #black><i>The function does not depend on anything from outside that may/possibly change;
+*****[#yellow] <i><color #black><size:12><b>Hybrid "languages"</b> can't enforce **(immutability),** so it is on us to take care of that
+****[#darkorange] <i><color #black><size:18><b>Asynchronous Programming\n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Asynchronous is non-blocking]] click gif\n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Multi-threading vs Multi-processing programming ]]
+**[#lightblue] <i><color #blac><size:12>What we should do?
+***[#green] <b><i><color #white><size:12>Studies suggest multilingual exposure boosts children's communication skills
+***[#green] <b><i><color #white><size:12>The amount of time we need to learn a new concept is inversely proportional to the diverse ideas we 've been exposed to.
+***[#green] <b><i><color #white><size:12>So learning different paradigms exposes to different ideas, learning different paradigms exposes to different line of thinking
 ***[#green] <b><i><color #white><size:11>So the more we think differently the faster we learn to think differently. The less we are exposed to different things the harder it is for us to change when the language we are using changes already
 ***[#green] <b><i><color #white><size:17>Learn different languages, not to use them all... But to able to adapt to change quickly & easily as the languages we use evolve
 @endmindmap

@@ -5,98 +5,98 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 !theme hacker
 
 *[#darkblue] <i>Designing Reactive\n<i>\tSystems
-**[#lightblue] <i><color #blac><size:14>Introduction
-***[#green]:<i><color #white><size:14>Organizations have moved from making their employees available to having their applications available directly to the users. This changes the magnitude of scale
-<i><color #white><size:14>of interactions the applications have to support. Furthermore, with devices and bots accessing the systems, we’re looking at a complete different rate of response
-<i><color #white><size:14>than we once had to aim for.;
+**[#lightblue] <i><color #blac><size:12>Introduction
+***[#green]:<i><color #white><size:12>Organizations have moved from making their employees available to having their applications available directly to the users. This changes the magnitude of scale
+<i><color #white><size:12>of interactions the applications have to support. Furthermore, with devices and bots accessing the systems, we’re looking at a complete different rate of response
+<i><color #white><size:12>than we once had to aim for.;
 
-**[#lightblue] <i><color #blac><size:14>Reactive Programing
-***[#green] <i><color #white><size:14><b>What's reactive programming?
-****[#yellow] <i><color #black><size:14>E.g. **Google docs app,** two people can edit & change the documentation simultaneously
-***[#green] <i><color #white><size:14><b>Why yet another programming model?
-***[#green] <i><color #white><size:14><b>Reactive manifesto
-****[#yellow] <i><color #black><size:14>has nothing new at all except for the emphasis it places on a <b>"set of practices"</b> we should follow from the technical side of it.
-***[#green] <i><color #white><size:14><i><color #white><size:16><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_113.png 4-pillars of OOP]] <size:12>click
+**[#lightblue] <i><color #blac><size:12>Reactive Programing
+***[#green] <i><color #white><size:12><b>What's reactive programming?
+****[#yellow] <i><color #black><size:12>E.g. **Google docs app,** two people can edit & change the documentation simultaneously
+***[#green] <i><color #white><size:12><b>Why yet another programming model?
+***[#green] <i><color #white><size:12><b>Reactive manifesto
+****[#yellow] <i><color #black><size:12>has nothing new at all except for the emphasis it places on a <b>"set of practices"</b> we should follow from the technical side of it.
+***[#green] <i><color #white><size:12><i><color #white><size:16><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_113.png 4-pillars of OOP]] <size:12>click
 ****[#yellow] <b><i><color #black><size:11>Abstraction
 ****[#yellow] <b><i><color #black><size:11>Encapsulation
 ****[#yellow] <b><i><color #black><size:11>Inheritance
 ****[#yellow] <b><i><color #black><size:11>Polymorphism
-***[#green] <i><color #white><size:14><b>Characteristics of a Reactive application \n*<i><color #white><size:17><b>4-pillars of Reactive application
-****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/architectural-characteristics/Elasticity.puml Elastic]]
-*****[#gold] <i><color #black><size:14>scaling at any particular instant of time especially during peak hours <b>(this is dynamic scalability)
-****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Message-Driven.puml Message-Driven]]
-*****[#gold]:<i><color #black><size:14>Architecture, we want to able to communicate across systems.
+***[#green] <i><color #white><size:12><b>Characteristics of a Reactive application \n*<i><color #white><size:17><b>4-pillars of Reactive application
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/architectural-characteristics/Elasticity.puml Elastic]]
+*****[#gold] <i><color #black><size:12>scaling at any particular instant of time especially during peak hours <b>(this is dynamic scalability)
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Message-Driven.puml Message-Driven]]
+*****[#gold]:<i><color #black><size:12>Architecture, we want to able to communicate across systems.
 *<i><color #black><size:12>One way is <b>multi-threading.
 *<i><color #black><size:12>Another way is <b>callbacks etc.
 *<i><color #green><size:12>In life & programming we should never share tow things: <b>tooth brush & database.
 **<i><color #green><size:12><b>Don't share your "database" instead "export your data". <color:brown>Tools like apache kafa, rabbitMQ;
-****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Responsiveness.puml Responsive]]
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Responsiveness.puml Responsive]]
 *****[#gold]:*<i><color #black><size:12>Organizations have moved from making their employees available to having their applications available directly to the users.
 *<i><color #black><size:12>This changes the magnitude of scale of interactions the applications have to support. Furthermore, with <b>devices and bots
 <i><color #black><size:12>accessing the systems, we’re looking at a complete different rate of response than we once had to aim for.;
-****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Resilient.puml Resilient]]
-*****[#gold] <i><color #black><size:14>In case of failure system restores itself
-***[#yellow] <b><i><color #black><size:14>Dataflow & composition of events
-**[#lightblue] <i><color #blac><size:14>How does it work?
-***[#green] <i><color #white><size:14><b>Designing for "elasticity"
-***[#green] <i><color #white><size:14><b>Designing "message-driven" applications
-***[#green] <i><color #white><size:14><b>Providing "responsiveness"
-****[#yellow] <i><color #black><size:14><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:14>but by avoiding those tasks that <b>should not be done in the first place.
-*****[#darkorange] <i><color #black><size:14><b>E.g. don't do (Clean Architecture + DDD) for simple apps (system).\n<i><color #black><size:14>Instead simple **three layer architecture** is enough etc.
-***[#green] <i><color #white><size:14><b>Making it "resilient"
-****[#yellow] <i><color #black><size:14>"Functional programming" and "exception handling" are "mutually exclusive"
-****[#yellow] <i><color #black><size:14>Don't throw "exceptions" in "Functional programming" <b>deal with it down stream
-****[#yellow] <i><color #black><size:14>Treat <b>"Errors"</b> as form of <b>"Data",</b> deal with it <b>down stream
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Resilient.puml Resilient]]
+*****[#gold] <i><color #black><size:12>In case of failure system restores itself
+***[#yellow] <b><i><color #black><size:12>Dataflow & composition of events
+**[#lightblue] <i><color #blac><size:12>How does it work?
+***[#green] <i><color #white><size:12><b>Designing for "elasticity"
+***[#green] <i><color #white><size:12><b>Designing "message-driven" applications
+***[#green] <i><color #white><size:12><b>Providing "responsiveness"
+****[#yellow] <i><color #black><size:12><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:12>but by avoiding those tasks that <b>should not be done in the first place.
+*****[#darkorange] <i><color #black><size:12><b>E.g. don't do (Clean Architecture + DDD) for simple apps (system).\n<i><color #black><size:12>Instead simple **three layer architecture** is enough etc.
+***[#green] <i><color #white><size:12><b>Making it "resilient"
+****[#yellow] <i><color #black><size:12>"Functional programming" and "exception handling" are "mutually exclusive"
+****[#yellow] <i><color #black><size:12>Don't throw "exceptions" in "Functional programming" <b>deal with it down stream
+****[#yellow] <i><color #black><size:12>Treat <b>"Errors"</b> as form of <b>"Data",</b> deal with it <b>down stream
 **[#lightblue] <i><color #blac><size:22>[[Reactive-Data-Stream.puml Programing Libraries & APIs:]]
-***[#green] <i><color #white><size:14><b>Observable vs. Iterator
-****[#yellow]:<i><color #black><size:14><b>Observable:</b> is stream of <b>"Data"</b>, something that keeps flowing <b>e.g. water stream, stock price data, weather data
-*<i><color #black><size:14><b>Two rules of observable/stream:
-<i><color #brown><size:14><b>\t1- You can't get data until it becomes available
-<i><color #brown><size:14><b>\t2- Producer of data can't force you to run faster;
-****[#yellow] <i><color #black><size:14><b>Iterator:</b> is a pool request; you say <b>give me next, give me next, give me next
-***[#green] <i><color #white><size:14><b>Observable pattern vs.
-****[#yellow]:<i><color #black><size:14><b>It can send you 3-things:</b>
-#<i><color #black><size:14>**"Data"** any time when data becomes available
-#<i><color #black><size:14>**"onComplete"** call when there is no more data
-#<i><color #black><size:14>**"Error/EndSignal"** signal & closes the stream;
+***[#green] <i><color #white><size:12><b>Observable vs. Iterator
+****[#yellow]:<i><color #black><size:12><b>Observable:</b> is stream of <b>"Data"</b>, something that keeps flowing <b>e.g. water stream, stock price data, weather data
+*<i><color #black><size:12><b>Two rules of observable/stream:
+<i><color #brown><size:12><b>\t1- You can't get data until it becomes available
+<i><color #brown><size:12><b>\t2- Producer of data can't force you to run faster;
+****[#yellow] <i><color #black><size:12><b>Iterator:</b> is a pool request; you say <b>give me next, give me next, give me next
+***[#green] <i><color #white><size:12><b>Observable pattern vs.
+****[#yellow]:<i><color #black><size:12><b>It can send you 3-things:</b>
+#<i><color #black><size:12>**"Data"** any time when data becomes available
+#<i><color #black><size:12>**"onComplete"** call when there is no more data
+#<i><color #black><size:12>**"Error/EndSignal"** signal & closes the stream;
 
-***[#green] <i><color #white><size:14><b>Data vs. error
-***[#green] <i><color #white><size:14><b>Lazy evaluations
-****[#yellow] <i><color #black><size:14>Do <b>"data processing"</b> only when <b>data changes
+***[#green] <i><color #white><size:12><b>Data vs. error
+***[#green] <i><color #white><size:12><b>Lazy evaluations
+****[#yellow] <i><color #black><size:12>Do <b>"data processing"</b> only when <b>data changes
 ***[#green] <i><color #white><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/Asynchronous-Programming-in-Java-Options-to-Choose-from.puml Synchronous vs. asynchronous]]
-****[#yellow] <i><color #black><size:14>Doing <b>"pre-mature optimization"</b> is root cause of all <b>evils
-***[#green] <i><color #white><size:14><b>Error handling
-**[#lightblue] <i><color #blac><size:14>Design concerns:
+****[#yellow] <i><color #black><size:12>Doing <b>"pre-mature optimization"</b> is root cause of all <b>evils
+***[#green] <i><color #white><size:12><b>Error handling
+**[#lightblue] <i><color #blac><size:12>Design concerns:
 ***[#green] <i><color #white><size:18><b>1- Partition based on user location/query
-****[#yellow] <i><color #black><size:14><b>partition based on user location e.g. CDN</b>
-****[#yellow] <i><color #black><size:14><b>partition based on user query e.g. </b>
-****[#yellow] <i><color #black><size:14><b>Directly affects the scalability!
+****[#yellow] <i><color #black><size:12><b>partition based on user location e.g. CDN</b>
+****[#yellow] <i><color #black><size:12><b>partition based on user query e.g. </b>
+****[#yellow] <i><color #black><size:12><b>Directly affects the scalability!
 ***[#green] <i><color #white><size:18><b>2- Sharding & replication
-****[#yellow] <i><color #black><size:14>**Replication:** Avoid <b>Centralized Databases</b>. Why because it becomes a <b>bottleneck
-****[#a] <i><color #black><size:14>**[[docs/books/1-books-backlog/DBMS/Sharding.puml Sharding:]]** Splitting the <b>Data</b> across **machines** so that you can support <b>multiple users
-****[#a] <i><color #black><size:14><b>[[docs/books/1-books-backlog/DBMS/Cardinality-vs-Multiplicity.puml Databases]]</b>
-****[#yellow] <i><color #black><size:14>Both **sharding & replication** directly affects the <b>scalability!
+****[#yellow] <i><color #black><size:12>**Replication:** Avoid <b>Centralized Databases</b>. Why because it becomes a <b>bottleneck
+****[#a] <i><color #black><size:12>**[[docs/books/1-books-backlog/DBMS/Sharding.puml Sharding:]]** Splitting the <b>Data</b> across **machines** so that you can support <b>multiple users
+****[#a] <i><color #black><size:12><b>[[docs/books/1-books-backlog/DBMS/Cardinality-vs-Multiplicity.puml Databases]]</b>
+****[#yellow] <i><color #black><size:12>Both **sharding & replication** directly affects the <b>scalability!
 ***[#green] <i><color #white><size:18><b>3- Failure as first class citizen
-****[#yellow] <i><color #black><size:14>make or keep system <b>resilient:\n*<i><color #black><size:14>Design for failure\n*<i><color #black><size:14>Test for failure
-***[#green] <i><color #white><size:14><b>4- Not on all or nothing proposition
-****[#yellow] <i><color #black><size:14><b>Network failures</b>
+****[#yellow] <i><color #black><size:12>make or keep system <b>resilient:\n*<i><color #black><size:12>Design for failure\n*<i><color #black><size:12>Test for failure
+***[#green] <i><color #white><size:12><b>4- Not on all or nothing proposition
+****[#yellow] <i><color #black><size:12><b>Network failures</b>
 *****[#gold] <i><color #black><size:18>Can I provide a partial service on the client side when the network has failed?
-****[#yellow] <i><color #black><size:14><b>Database failures</b>
+****[#yellow] <i><color #black><size:12><b>Database failures</b>
 *****[#gold] <i><color #black><size:18>**Sharding & replication** can help in this area
-****[#yellow] <i><color #black><size:14><b>Provide redundancies across geographical locations</b>
-*****[#darkorange] <i><color #black><size:18>You can **[[docs/3-programming-languages/architectural-characteristics/Deployability.puml deploy]]** on <b>Cloud
+****[#yellow] <i><color #black><size:12><b>Provide redundancies across geographical locations</b>
+*****[#darkorange] <i><color #black><size:18>You can **[[docs/3-programming-languages/architectural-characteristics/Deployability.puml deploy]]** on <b>Cloud <&cloud>
 *****[#gold] <i><color #black><size:18>Distribution of <b>Services</b>
-****[#yellow] <i><color #black><size:14><b>Load related failures</b>
-*****[#gold] <i><color #black><size:14><b>Backpressures</b>
+****[#yellow] <i><color #black><size:12><b>Load related failures</b>
+*****[#gold] <i><color #black><size:12><b>Backpressures</b>
 *****[#darkorange] <i><color #black><size:22><b>[[https://zendesk.engineering/event-pipelines-part-1-backpressure-and-buffering-1bba0ed3451e Event Pipelines (Part 1): Backpressure and Buffering]] a must read
 ***[#green] <i><color #white><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/Circuit-Breaker.puml Use Circuit Breakers]]
-****[#yellow] <i><color #black><size:14>If you want to build a <b>"scalable system"</b> then do not build it without <b>"Circuit Breakers"</b>
-***[#green] <i><color #white><size:14><b>Improved performance through parallelization
-****[#yellow] <i><color #black><size:14>Using <b>parallel collections & threads\n*<i><color #black><size:14>Always using **multiple-cores** is not the <b>right answer!
+****[#yellow] <i><color #black><size:12>If you want to build a <b>"scalable system"</b> then do not build it without <b>"Circuit Breakers"</b>
+***[#green] <i><color #white><size:12><b>Improved performance through parallelization
+****[#yellow] <i><color #black><size:12>Using <b>parallel collections & threads\n*<i><color #black><size:12>Always using **multiple-cores** is not the <b>right answer!
 ***[#green] <i><color #white><size:22><b>[[docs/books/1-books-backlog/DBMS/CAP-Theorem.puml CAP Theorem]]\n<img:images/img_45.png{scale=0.65}>
-****[#yellow] <i><color #black><size:14>has been **proven** & can't be <b>challenged!
-****[#a] <i><color #black><size:14>Says you can only provide only <b>two of the following at any given instant of time:\n<b><i><color #black><size:14>[[docs/books/1-books-backlog/DBMS/ACID-vs-BASE.puml 1- Consistency ("eventual consistency" is usually good option)]]\n<b><i><color #black><size:14>2- Availability\n<b><i><color #black><size:14>3- Partition tolerance (data)
-****[#yellow] <i><color #black><size:14>You 've to figure out what is good for the <b>business
-****[#yellow] <i><color #black><size:14><b>Dynamic Quantum Coupling: (a new term coined by the book "fundamentals of s/w architecture")\n<i><color #black><size:14>The image depicts the **dimensions** of **dynamic quantum coupling** & also represents the <b>three-dimensional interacting \n<i><color #black><size:14>space for messaging forces in <b>distributed systesm.
+****[#yellow] <i><color #black><size:12>has been **proven** & can't be <b>challenged!
+****[#a] <i><color #black><size:12>Says you can only provide only <b>two of the following at any given instant of time:\n<b><i><color #black><size:12>[[docs/books/1-books-backlog/DBMS/ACID-vs-BASE.puml 1- Consistency ("eventual consistency" is usually good option)]]\n<b><i><color #black><size:12>2- Availability\n<b><i><color #black><size:12>3- Partition tolerance (data)
+****[#yellow] <i><color #black><size:12>You 've to figure out what is good for the <b>business
+****[#yellow] <i><color #black><size:12><b>Dynamic Quantum Coupling: (a new term coined by the book "fundamentals of s/w architecture")\n<i><color #black><size:12>The image depicts the **dimensions** of **dynamic quantum coupling** & also represents the <b>three-dimensional interacting \n<i><color #black><size:12>space for messaging forces in <b>distributed systesm.
 **[#lightblue] <i><color #blac><size:32>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]] click me
 @endmindmap
