@@ -257,6 +257,8 @@ skinparam hyperlinkColor white
 *<i><color #black><size:14>local processes can be <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png statically or dynamically linked]] click me
 *<i><color #yellow><size:14>**"Components"** are delivered in <b>binary or .Jar, DLL</b> or some equivalent form.
 |<#blue><i><color #yellow><size:14>Processes execute on "same" <b>processor or multi-core but "separate address space". [[docs/books/1-books-backlog/operating-system/operating-system.puml click me]]|;
+******[#darkorange] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_253.png "Modularity" can be achieved without resorting (alternating) \nto "process isolation" (separate address space).]]
+
 ****[#darkorange] <i><color #black><size:14>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_246.png 5- Services Boundary:]]**
 *****[#yellow]:*<i><color #black><size:14>Service is a <b>process
 |<#white><i><color #black><size:14>**"Service"** don't depend upon <b>physical location.|
