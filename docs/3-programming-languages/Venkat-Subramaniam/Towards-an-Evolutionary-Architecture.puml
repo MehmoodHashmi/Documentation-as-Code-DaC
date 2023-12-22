@@ -20,6 +20,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ==<i><color #black><size:14><b>Building & Designing Software==
 *<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_63.png Who builds & designs the software?]] click me;
 *****[#yellow] <i><color #black><size:12>**--BUFD--** is waterfall
+******[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_255.png Agile vs DevOps vs SRE]]
 *****[#yellow] <i><color #black><size:12>Agile (No Design) is <b>disaster!
 ******[#a] <b><i><color #black><size:12>[[a Clean Agile]]
 *****[#yellow] <i><color #black><size:12><b>EUFD <&check>
@@ -32,13 +33,14 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_179.png 4- Anti-pattern]]
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_245.png Knowledge triangle]]
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_247.png 4+1 View Model]]
-****[#darkorange] <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_250.png Architecture refactoring]]
+****[#darkorange] <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_256.png Architecture refactoring]]
 ***[#green] <b><i><color #white><size:14>In Software Development we often say:
 ****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_138.png Capture requirements]]
 *****[#a]:*<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_242.png Requirements Engineering Process Maturity Model]]
 *<b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_244.png CMMI version-2]];
 ****[#a] <b><i><color #black><size:14>[[docs/1-business-analyst/requirements-management.puml Gather requirements]]
-*****[#a] <b><i><color #black><size:14>[[docs/1-business-analyst/project-management/project-management.puml Project Management]]
+*****[#a]:<b><i><color #black><size:14>[[docs/1-business-analyst/project-management/project-management.puml Project Management]]
+*<b><i><color #black><size:12>[[docs/3-programming-languages/clean-architecture/images/use-case-modeling.png Traditional use case modeling]] vs [[docs/3-programming-languages/Venkat-Subramaniam/images/img_171.png Use Case 2.0 Modeling]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_211.png Work Products]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_128.jpg UML cheatsheet]];
 ****[#yellow] <i><color #black><size:14>Observer effect
 ****[#gold] *<i><color #black><size:14>If you want to build what your customers wanted, you will <b>fail.\n*<i><color #black><size:14>You need to build what your customers still want.
 ****[#yellow] <i><color #black><size:13>Build working software.
