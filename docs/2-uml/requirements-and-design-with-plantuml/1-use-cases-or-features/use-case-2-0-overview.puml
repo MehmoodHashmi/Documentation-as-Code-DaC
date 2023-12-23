@@ -14,56 +14,56 @@ caption <img:img_1.png{scale=0.7}>
 !theme hacker
 
 *[#darkblue] <i>Use Case#1 or feature#1
-**[#lightblue] <i><size:14>Use Case Name
-***[#yellow] <i><size:14>A short, descriptive name for the use case
-**[#lightblue] <i><size:14>Actor
-***[#yellow] <i><size:14>The person, system or organization that interacts with the system to achieve a goal
-**[#lightblue] <i><size:14>Data:
-***[#yellow] <i><size:14>Name, Father name, City, zip code etc.
-**[#lightblue] <i><size:14>Purpose or goal
-***[#yellow] <i><size:14>The **purpose or goal** this use case will achieve
-**[#lightblue] <i><size:14>Trigger
-***[#yellow] <i><size:14>The **event** that initiates the use case
-**[#lightblue] <i><size:14>Preconditions
-***[#yellow]:<i><size:14>Conditions that must be true for the use case to begin
-#<i><size:14> First precondition
-#<i><size:14> Second precondition;
-**[#lightblue] <i><size:14>Post-conditions
-***[#yellow]:<i><size:14>Conditions that must be true after the use case has been completed
-#<i><size:14> First post-condition
-#<i><size:14> Second post-condition;
-**[#lightblue] <i><size:14>Use Case Dependncy
-***[#green] <b><color #white><i><size:14>'<<Includes>>'
-****[#a] <color #white><b><i><size:14>Use Case#2, Use Case#3, click me
-***[#green] <b><color #white><i><size:14>'<<Extends>>'
-****[#a] <color #white><b><i><size:14>Use Case#4, Use Case#5, click me
-***[#green] <b><color #white><i><size:14><img:img_2.png>
-**[#lightblue] <i><size:14>Use Case Notes:
-***[#yellow] <i><size:14>If any
-**[#lightblue] <i><size:14>[[docs/2-uml/requirements-and-design-with-plantuml/activity-diagrams/use-case-1-activity.puml Use case#1 Activity Diagram]] click me
-***[#green] <color #white><b><i><size:14>--Main-- --Flow--
-****[#yellow] <i><size:14>A sequence of steps that describe the normal course of events for the use case
-***[#green] <color #white><b><i><size:14>--Alternative-- --Flows--
-****[#yellow] <i><size:14>Sequences of steps that describe exceptional courses of events for the use case
-***[#green] <color #white><b><i><size:14>Exception Flows
-****[#yellow] <i><size:14>Sequences of steps that describe how the system handles unexpected events
-**[#lightblue] <i><size:14>[[docs/2-uml/requirements-and-design-with-plantuml/sequence-diagrams/use-case-1-sequence.puml Use case#1 Sequence Diagram]] click me
-***[#green] <color #white><b><i><size:14>During Analsis & Design
-****[#yellow] <color #black><i><size:14><b>System Level Sequence Diagram (SSD):</b> Depict the interactions between external actors and the system itself, outlining\n<i><size:14><color #black>the flow of events without delving into the internal workings of the system
-****[#yellow] <color #black><i><size:14><b>Design Level Sequence Diagram (DSD):</b>These provide an overview of interactions between major components or \n<i><size:14><color #black>systems, focusing on their relationships and interactions
-***[#green] <color #white><b><i><size:14>Just before Implementation
-****[#yellow] <color #black><i><size:14><b>Object-Level Sequence Diagrams (OSD):</b> Detail the interactions between specific **objects or instances,** \n<i><size:14><color #black>illustrating the messages exchanged and the order of these interactions
-**[#lightblue] <i><size:14>[[docs/2-uml/requirements-and-design-with-plantuml/state-transition-diagrams/use-case-1-state-transition.puml Use case#1 State Transition Diagram]] click me
-***[#green] <color #white><b><i><size:14>During Analysis & Design
-**[#lightblue] <i><size:14>[[docs/2-uml/requirements-and-design-with-plantuml/0-use-case-diagrams/Tomplot-Use-Case-diagram.puml Use case Diagram]] click me
-**[#lightblue] <i><size:14>[[docs/2-uml/requirements-and-design-with-plantuml/glossary.puml Glossary]]
-**[#lightblue] <i><size:14>Schema Diagram
-***[#green] <color #white><b><i><size:14>Don't add schema detials inside the use case. Keep it simple. You are adding Databases (SQL, NoSQL) & Programming in use cases.
-***[#green] <color #white><b><i><size:14>Class diagram
-****[#yellow] <color #black><i><size:14><b>Domain model (DDD)
-****[#yellow] <color #black><i><size:14><b>Class diagram
-****[#yellow] <color #black><i><size:14><b>Object Model
-***[#green] <color #white><b><i><size:14>Data model
-****[#yellow] <color #black><i><size:14><b>SQL, NoSQL, ERD
+**[#lightblue] <i><size:12>Use Case Name
+***[#yellow] <i><size:12>A short, descriptive name for the use case
+**[#lightblue] <i><size:12>Actor
+***[#yellow] <i><size:12>The person, system or organization that interacts with the system to achieve a goal
+**[#lightblue] <i><size:12>Data:
+***[#yellow] <i><size:12>Name, Father name, City, zip code etc.
+**[#lightblue] <i><size:12>Purpose or goal
+***[#yellow] <i><size:12>The **purpose or goal** this use case will achieve
+**[#lightblue] <i><size:12>Trigger
+***[#yellow] <i><size:12>The **event** that initiates the use case
+**[#lightblue] <i><size:12>Preconditions
+***[#yellow]:<i><size:12>Conditions that must be true for the use case to begin
+#<i><size:12> First precondition
+#<i><size:12> Second precondition;
+**[#lightblue] <i><size:12>Post-conditions
+***[#yellow]:<i><size:12>Conditions that must be true after the use case has been completed
+#<i><size:12> First post-condition
+#<i><size:12> Second post-condition;
+**[#lightblue] <i><size:12>Use Case Dependncy
+***[#green] <b><color #white><i><size:12>'<<Includes>>'
+****[#a] <color #white><b><i><size:12>Use Case#2, Use Case#3, click me
+***[#green] <b><color #white><i><size:12>'<<Extends>>'
+****[#a] <color #white><b><i><size:12>Use Case#4, Use Case#5, click me
+***[#green] <b><color #white><i><size:12><img:img_2.png{scale=.7}>
+**[#lightblue] <i><size:12>Use Case Notes:
+***[#yellow] <i><size:12>If any
+**[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/activity-diagrams/use-case-1-activity.puml Use case#1 Activity Diagram]] click me
+***[#green] <color #white><b><i><size:12>--Main-- --Flow--
+****[#yellow] <i><size:12>A sequence of steps that describe the normal course of events for the use case
+***[#green] <color #white><b><i><size:12>--Alternative-- --Flows--
+****[#yellow] <i><size:12>Sequences of steps that describe exceptional courses of events for the use case
+***[#green] <color #white><b><i><size:12>Exception Flows
+****[#yellow] <i><size:12>Sequences of steps that describe how the system handles unexpected events
+**[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/sequence-diagrams/use-case-1-sequence.puml Use case#1 Sequence Diagram]] click me
+***[#green] <color #white><b><i><size:12>During Analsis & Design
+****[#yellow] <color #black><i><size:12><b>System Level Sequence Diagram (SSD):</b> Depict the interactions between external actors and the system itself, outlining\n<i><size:12><color #black>the flow of events without delving into the internal workings of the system
+****[#yellow] <color #black><i><size:12><b>Design Level Sequence Diagram (DSD):</b>These provide an overview of interactions between major components or \n<i><size:12><color #black>systems, focusing on their relationships and interactions
+***[#green] <color #white><b><i><size:12>Just before Implementation
+****[#yellow] <color #black><i><size:12><b>Object-Level Sequence Diagrams (OSD):</b> Detail the interactions between specific **objects or instances,** \n<i><size:12><color #black>illustrating the messages exchanged and the order of these interactions
+**[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/state-transition-diagrams/use-case-1-state-transition.puml Use case#1 State Transition Diagram]] click me
+***[#green] <color #white><b><i><size:12>During Analysis & Design
+**[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/0-use-case-diagrams/Tomplot-Use-Case-diagram.puml Use case Diagram]] click me
+**[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/glossary.puml Glossary]]
+**[#lightblue] <i><size:12>Schema Diagram
+***[#green] <color #white><b><i><size:12>Don't add schema detials inside the use case. Keep it simple. You are adding Databases (SQL, NoSQL) & Programming in use cases.
+***[#green] <color #white><b><i><size:12>Class diagram
+****[#yellow] <color #black><i><size:12><b>Domain model (DDD)
+****[#yellow] <color #black><i><size:12><b>Class diagram
+****[#yellow] <color #black><i><size:12><b>Object Model
+***[#green] <color #white><b><i><size:12>Data model
+****[#yellow] <color #black><i><size:12><b>SQL, NoSQL, ERD
 
 @endmindmap
