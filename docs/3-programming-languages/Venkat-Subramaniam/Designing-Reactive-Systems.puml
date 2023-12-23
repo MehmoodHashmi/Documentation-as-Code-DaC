@@ -35,7 +35,7 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 *<i><color #black><size:12>This changes the magnitude of scale of interactions the applications have to support. Furthermore, with <b>devices and bots
 <i><color #black><size:12>accessing the systems, we’re looking at a complete different rate of response than we once had to aim for.;
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Resilient.puml Resilient]]
-*****[#gold] <i><color #black><size:12>In case of failure system restores itself
+*****[#gold] <i><color #black><size:12>In case of **"failure"** system <b>restores itself
 ***[#yellow] <b><i><color #black><size:12>"Dataflow" & composition of "events"\n<img:images/img_272.png{scale=.35}>
 **[#lightblue] <i><color #blac><size:12>How does it work?
 ***[#green] <i><color #white><size:12><b>Designing for "elasticity"
