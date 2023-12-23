@@ -1,7 +1,6 @@
 @startmindmap
 title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
-
-* ===<i><b>[[https://www.youtube.com/watch?v=2k76zO2Q6vg&t=7003s&ab_channel=devnexus DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam]]
+* ===<i><b>[[https://www.youtube.com/watch?v=2k76zO2Q6vg&t=7003s&ab_channel=devnexus DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam]] video
 !theme hacker
 
 *[#darkblue] <i>Designing Reactive\n<i>\tSystems
@@ -14,6 +13,7 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 ***[#green] <i><color #white><size:12><b>What's reactive programming?
 ****[#yellow] <i><color #black><size:12>E.g. **Google docs app,** two people can edit & change the documentation simultaneously
 ***[#green] <i><color #white><size:12><b>Why yet another programming model?
+****[#a] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_271.png Software Engineering in the Cloud]] <&cloud> click me
 ***[#green] <i><color #white><size:12><b>Reactive manifesto
 ****[#yellow] <i><color #black><size:12>has nothing new at all except for the emphasis it places on a <b>"set of practices"</b> we should follow from the technical side of it.
 ***[#green] <i><color #white><size:12><i><color #white><size:16><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_113.png 4-pillars of OOP]] <size:12>click
@@ -36,7 +36,7 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 <i><color #black><size:12>accessing the systems, we’re looking at a complete different rate of response than we once had to aim for.;
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Resilient.puml Resilient]]
 *****[#gold] <i><color #black><size:12>In case of failure system restores itself
-***[#yellow] <b><i><color #black><size:12>Dataflow & composition of events
+***[#yellow] <b><i><color #black><size:12>"Dataflow" & composition of "events"\n<img:images/img_272.png{scale=.35}>
 **[#lightblue] <i><color #blac><size:12>How does it work?
 ***[#green] <i><color #white><size:12><b>Designing for "elasticity"
 ***[#green] <i><color #white><size:12><b>Designing "message-driven" applications
@@ -47,7 +47,7 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 ****[#yellow] <i><color #black><size:12>"Functional programming" and "exception handling" are "mutually exclusive"
 ****[#yellow] <i><color #black><size:12>Don't throw "exceptions" in "Functional programming" <b>deal with it down stream
 ****[#yellow] <i><color #black><size:12>Treat <b>"Errors"</b> as form of <b>"Data",</b> deal with it <b>down stream
-**[#lightblue] <i><color #blac><size:22>[[Reactive-Data-Stream.puml Programing Libraries & APIs:]]
+**[#lightblue] <i><color #blac><size:22>[[Reactive-Data-Stream.puml Programing Libraries & APIs:]]\n<img:images/img_270.png{scale=.5}>
 ***[#green] <i><color #white><size:12><b>Observable vs. Iterator
 ****[#yellow]:<i><color #black><size:12><b>Observable:</b> is stream of <b>"Data"</b>, something that keeps flowing <b>e.g. water stream, stock price data, weather data
 *<i><color #black><size:12><b>Two rules of observable/stream:

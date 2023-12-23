@@ -1,117 +1,118 @@
 @startmindmap
+title =<i><b><u>Internet of Things <b>(IoT)
+!theme hacker
 
-title = Internet of Things (IoT)
-* Internet of Things (IoT)
-** IoT Applications
-*** Smart Homes
-*** Industrial Automation
-*** Agriculture and Farming
-*** Healthcare and Wearable Devices
-*** Smart Cities
-*** Energy Management
-*** Transportation and Logistics
-** IoT Architecture
-*** Sensors and Actuators
-*** Connectivity Technologies
-**** Wi-Fi
-**** Bluetooth
-**** Zigbee
-**** Cellular Networks (2G, 3G, 4G, 5G)
-**** LoRaWAN
-**** NB-IoT
-**** Sigfox
-*** Cloud Platforms
-**** Data Storage and Processing
-**** IoT Analytics and Insights
-**** Device Management
-*** Edge Computing
-**** Edge Devices and Gateways
-**** Local Data Processing
-**** Real-Time Analytics
-**** Reduced Latency
-*** Communication Protocols
-**** MQTT
-**** CoAP
-**** AMQP
-**** HTTP/HTTPS
-**** DDS
-**** OPC UA
-** IoT Security
-*** Device Authentication
-*** Data Encryption
-*** Access Control and Authorization
-*** Secure Communication Protocols
-*** Firmware and Software Updates
-*** Vulnerability Management
-*** Security Monitoring and Incident Response
-** IoT Data Management
-*** Data Collection and Aggregation
-*** Data Storage and Retrieval
-*** Data Processing and Analytics
-*** Data Integration with Enterprise Systems
-*** Data Quality and Governance
-*** Real-Time Streaming and Processing
-** IoT Platforms and Frameworks
-*** Device Management Platforms
-*** Application Enablement Platforms (AEP)
-*** IoT Middleware
-*** Open-Source IoT Frameworks
-*** IoT Development Kits and Tools
-** IoT Standards and Interoperability
-*** IoT Connectivity Standards
-**** MQTT
-**** OMA LWM2M
-**** Thread
-**** Zigbee
-**** Z-Wave
-*** IoT Data Interoperability
-**** Semantic Interoperability
-**** IoT Messaging Protocols (AMQP, CoAP)
-**** IoT Data Models (FIWARE NGSI, OGC SensorThings)
-**** IoT Metadata Standards
-** IoT Analytics and Machine Learning
-*** Predictive Maintenance
-*** Anomaly Detection
-*** Real-Time Monitoring and Alerts
-*** Predictive Analytics
-*** Machine Learning Algorithms
-*** Data Visualization and Dashboards
-** IoT Privacy and Ethics
-*** Personal Data Protection
-*** Consent and Privacy Policies
-*** Data Ownership and Control
-*** Ethical Use of IoT Data
-*** Privacy by Design Principles
-*** Regulatory Compliance (e.g., GDPR)
-** IoT Energy Efficiency
-*** Low-Power IoT Devices
-*** Energy Harvesting Techniques
-*** Power Management Strategies
-*** Energy-Efficient Communication Protocols
-*** Sleep Modes and Wake-up Patterns
-*** Energy Monitoring and Optimization
-** IoT and Artificial Intelligence (AI)
-*** Sensor Data Fusion
-*** Machine Learning for IoT Data
-*** Cognitive Computing
-*** AI-Assisted Decision Making
-*** Natural Language Processing (NLP)
-*** Computer Vision and Image Recognition
-** IoT Deployment and Management
-*** Scalability and Interoperability
-*** Network Configuration and Optimization
-*** Device Provisioning and Registration
-*** Over-the-Air (OTA) Updates
-*** Remote Monitoring and Management
-*** Lifecycle Management
-*** Firmware and Software Version Control
-** IoT Challenges and Risks
-*** Security and Privacy Concerns
-*** Data Governance and Compliance
-*** Interoperability Issues
-*** Scalability and Performance
-*** Legacy System Integration
-*** Network Reliability and Bandwidth
-*** Technical Skills and Workforce Training
+*[#darkblue] <i>Internet of Things <b>(IoT)
+**[#lightblue] <i><color #blac><size:11>IoT Applications
+***[#gold] <b><i><color #black><size:11>Smart Homes
+***[#gold] <b><i><color #black><size:11>Industrial Automation
+***[#gold] <b><i><color #black><size:11>Agriculture and Farming
+***[#gold] <b><i><color #black><size:11>Healthcare and Wearable Devices
+***[#gold] <b><i><color #black><size:11>Smart Cities
+***[#gold] <b><i><color #black><size:11>Energy Management
+***[#gold] <b><i><color #black><size:11>Transportation and Logistics
+**[#lightblue] <i><color #blac><size:11>IoT Architecture
+***[#gold] <b><i><color #black><size:11>Sensors and Actuators
+***[#gold] <b><i><color #black><size:11>Connectivity Technologies
+****[#yellow] <i><color #black><size:11>Wi-Fi
+****[#yellow] <i><color #black><size:11>Bluetooth
+****[#yellow] <i><color #black><size:11>Zigbee
+****[#yellow] <i><color #black><size:11>Cellular Networks <b>(2G, 3G, 4G, 5G)
+****[#yellow] <i><color #black><size:11>LoRaWAN
+****[#yellow] <i><color #black><size:11>NB-IoT
+****[#yellow] <i><color #black><size:11>Sigfox
+***[#gold] <b><i><color #black><size:11>Cloud Platforms
+****[#yellow] <i><color #black><size:11>Data Storage and Processing
+****[#yellow] <i><color #black><size:11>IoT Analytics and Insights
+****[#yellow] <i><color #black><size:11>Device Management
+***[#gold] <b><i><color #black><size:11>Edge Computing
+****[#yellow] <i><color #black><size:11>Edge Devices and Gateways
+****[#yellow] <i><color #black><size:11>Local Data Processing
+****[#yellow] <i><color #black><size:11>Real-Time Analytics
+****[#yellow] <i><color #black><size:11>Reduced Latency
+***[#gold] <b><i><color #black><size:11>Communication Protocols
+****[#yellow] <i><color #black><size:11><b>MQTT
+****[#yellow] <i><color #black><size:11><b>CoAP
+****[#yellow] <i><color #black><size:11><b>AMQP
+****[#yellow] <i><color #black><size:11><b>HTTP/HTTPS
+****[#yellow] <i><color #black><size:11><b>DDS
+****[#yellow] <i><color #black><size:11><b>OPC UA
+**[#lightblue] <i><color #blac><size:11>IoT Security
+***[#gold] <b><i><color #black><size:11>Device Authentication
+***[#gold] <b><i><color #black><size:11>Data Encryption
+***[#gold] <b><i><color #black><size:11>Access Control and Authorization
+***[#gold] <b><i><color #black><size:11>Secure Communication Protocols
+***[#gold] <b><i><color #black><size:11>Firmware and Software Updates
+***[#gold] <b><i><color #black><size:11>Vulnerability Management
+***[#gold] <b><i><color #black><size:11>Security Monitoring and Incident Response
+**[#lightblue] <i><color #blac><size:11>IoT Data Management
+***[#gold] <b><i><color #black><size:11>Data Collection and Aggregation
+***[#gold] <b><i><color #black><size:11>Data Storage and Retrieval
+***[#gold] <b><i><color #black><size:11>Data Processing and Analytics
+***[#gold] <b><i><color #black><size:11>Data Integration with Enterprise Systems
+***[#gold] <b><i><color #black><size:11>Data Quality and Governance
+***[#gold] <b><i><color #black><size:11>Real-Time Streaming and Processing
+**[#lightblue] <i><color #blac><size:11>IoT Platforms and Frameworks
+***[#gold] <b><i><color #black><size:11>Device Management Platforms
+***[#gold] <b><i><color #black><size:11>Application Enablement Platforms <b>(AEP)
+***[#gold] <b><i><color #black><size:11>IoT Middleware
+***[#gold] <b><i><color #black><size:11>Open-Source IoT Frameworks
+***[#gold] <b><i><color #black><size:11>IoT Development Kits and Tools
+**[#lightblue] <i><color #blac><size:11>IoT Standards and Interoperability
+***[#gold] <b><i><color #black><size:11>IoT Connectivity Standards
+****[#yellow] <i><color #black><size:11>MQTT
+****[#yellow] <i><color #black><size:11>OMA LWM2M
+****[#yellow] <i><color #black><size:11>Thread
+****[#yellow] <i><color #black><size:11>Zigbee
+****[#yellow] <i><color #black><size:11>Z-Wave
+***[#gold] <b><i><color #black><size:11>IoT Data Interoperability
+****[#yellow] <i><color #black><size:11>Semantic Interoperability
+****[#yellow] <i><color #black><size:11>IoT Messaging Protocols <b>(AMQP, CoAP)
+****[#yellow] <i><color #black><size:11>IoT Data Models <b>(FIWARE NGSI, OGC SensorThings)
+****[#yellow] <i><color #black><size:11>IoT Metadata Standards
+**[#lightblue] <i><color #blac><size:11>IoT Analytics and Machine Learning
+***[#gold] <b><i><color #black><size:11>Predictive Maintenance
+***[#gold] <b><i><color #black><size:11>Anomaly Detection
+***[#gold] <b><i><color #black><size:11>Real-Time Monitoring and Alerts
+***[#gold] <b><i><color #black><size:11>Predictive Analytics
+***[#gold] <b><i><color #black><size:11>Machine Learning Algorithms
+***[#gold] <b><i><color #black><size:11>Data Visualization and Dashboards
+**[#lightblue] <i><color #blac><size:11>IoT Privacy and Ethics
+***[#gold] <b><i><color #black><size:11>Personal Data Protection
+***[#gold] <b><i><color #black><size:11>Consent and Privacy Policies
+***[#gold] <b><i><color #black><size:11>Data Ownership and Control
+***[#gold] <b><i><color #black><size:11>Ethical Use of IoT Data
+***[#gold] <b><i><color #black><size:11>Privacy by Design Principles
+***[#gold] <b><i><color #black><size:11>Regulatory Compliance <b>(e.g., GDPR)
+**[#lightblue] <i><color #blac><size:11>IoT Energy Efficiency
+***[#gold] <b><i><color #black><size:11>Low-Power IoT Devices
+***[#gold] <b><i><color #black><size:11>Energy Harvesting Techniques
+***[#gold] <b><i><color #black><size:11>Power Management Strategies
+***[#gold] <b><i><color #black><size:11>Energy-Efficient Communication Protocols
+***[#gold] <b><i><color #black><size:11>Sleep Modes and Wake-up Patterns
+***[#gold] <b><i><color #black><size:11>Energy Monitoring and Optimization
+**[#lightblue] <i><color #blac><size:11>IoT and Artificial Intelligence <b>(AI)
+***[#gold] <b><i><color #black><size:11>Sensor Data Fusion
+***[#gold] <b><i><color #black><size:11>Machine Learning for IoT Data
+***[#gold] <b><i><color #black><size:11>Cognitive Computing
+***[#gold] <b><i><color #black><size:11>AI-Assisted Decision Making
+***[#gold] <b><i><color #black><size:11>Natural Language Processing <b>(NLP)
+***[#gold] <b><i><color #black><size:11>Computer Vision and Image Recognition
+**[#lightblue] <i><color #blac><size:11>IoT Deployment and Management
+***[#gold] <b><i><color #black><size:11>Scalability and Interoperability
+***[#gold] <b><i><color #black><size:11>Network Configuration and Optimization
+***[#gold] <b><i><color #black><size:11>Device Provisioning and Registration
+***[#gold] <b><i><color #black><size:11>Over-the-Air <b>(OTA) Updates
+***[#gold] <b><i><color #black><size:11>Remote Monitoring and Management
+***[#gold] <b><i><color #black><size:11>Lifecycle Management
+***[#gold] <b><i><color #black><size:11>Firmware and Software Version Control
+**[#lightblue] <i><color #blac><size:11>IoT Challenges and Risks
+***[#gold] <b><i><color #black><size:11>Security and Privacy Concerns
+***[#gold] <b><i><color #black><size:11>Data Governance and Compliance
+***[#gold] <b><i><color #black><size:11>Interoperability Issues
+***[#gold] <b><i><color #black><size:11>Scalability and Performance
+***[#gold] <b><i><color #black><size:11>Legacy System Integration
+***[#gold] <b><i><color #black><size:11>Network Reliability and Bandwidth
+***[#gold] <b><i><color #black><size:11>Technical Skills and Workforce Training
 
 @endmindmap
