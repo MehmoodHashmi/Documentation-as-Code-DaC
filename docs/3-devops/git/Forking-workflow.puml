@@ -1,17 +1,17 @@
 @startmindmap
-title =<i><b><u>Forking Workflow
+title =<i><b><u>Forking Workflow\n|<img:images/img_16.png{scale=1.3}>|<img:images/img_17.png{scale=1}>|
 !theme hacker
 
-
-*[#darkblue] <i>Forking Workflow
+*[#darkblue] <i>Forking \n<i>Workflow
 **[#lightblue] <i><color #blac><size:14>Overview
 ***[#green] <b><i><color #white><size:14>Utilizes Independent Repositories
+****[#yellow] <i><color #black><size:14>The **Forking Workflow** is most often seen in <b>public open source projects.
 ****[#yellow] <i><color #black><size:14>Each developer forks the main repository, works in their forked repository, and creates pull requests (PRs) to the main repository.
 ***[#green] <b><i><color #white><size:14>Facilitates Independent Development
 ****[#yellow] <i><color #black><size:14>Developers work in their isolated environment.
 ***[#green] <b><i><color #white><size:14>Collaboration through PRs
 ****[#yellow] <i><color #black><size:14>Changes integrated via PRs after review and approval.
-**[#lightblue] <i><color #blac><size:14>Main Components
+**[#lightblue] <i><color #blac><size:14>Main Components\n|<img:images/img_16.png{scale=.65}>|<img:images/img_17.png{scale=.51}>|
 ***[#green] <b><i><color #white><size:14>Main Repository
 ****[#yellow] <i><color #black><size:14>Central repository representing the project.
 ***[#green] <b><i><color #white><size:14>Forked Repositories

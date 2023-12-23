@@ -3,14 +3,14 @@ title =<i><b><u>GitHub Flow
 !theme hacker
 
 *[#darkblue] <i>GitHub Flow
-**[#lightblue] <i><color #blac><size:14>Overview
+**[#lightblue] <i><color #blac><size:14>[[docs/3-devops/git/gif/github-flow.adoc Overview]]click gif
 ***[#green] <b><i><color #white><size:14>Based on Branching Workflow
 ****[#yellow] <i><color #black><size:14>Emphasizes a lightweight and flexible branching strategy for development.
 ***[#green] <b><i><color #white><size:14>Simple and Iterative Process
 ****[#yellow] <i><color #black><size:14>Focuses on continuous integration and deployment for each change.
 ***[#green] <b><i><color #white><size:14>Collaboration and Code Review
 ****[#yellow] <i><color #black><size:14>Encourages collaboration and code review through pull requests (PRs).
-**[#lightblue] <i><color #blac><size:14>Main Components
+**[#lightblue] <i><color #blac><size:14>Main Components\n<img:images/img_15.png{scale=.7}>
 ***[#green] <b><i><color #white><size:14>Main Branch
 ****[#yellow] <i><color #black><size:14>master or main branch representing the production-ready code.
 ***[#green] <b><i><color #white><size:14>Feature Branches

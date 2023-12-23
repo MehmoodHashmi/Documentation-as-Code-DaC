@@ -2,13 +2,14 @@
 title =<i><b><u>Centralized Workflow
 !theme hacker
 
-*[#darkblue] <i>Centralized Workflow
+*[#darkblue] <i>Centralized Workflow\n<img:images/img_9.png>
 **[#lightblue] <i><color #blac><size:14>Overview
 ***[#green] <b><i><color #white><size:14>Utilizes a Single Shared Repository
 ****[#yellow] <i><color #black><size:14>All developers interact with a central repository.
 ***[#green] <b><i><color #white><size:14>Linear Development Flow
 ****[#yellow] <i><color #black><size:14>Follows a straightforward commit and update cycle.
-**[#lightblue] <i><color #blac><size:14>Main Components
+***[#a] <b><i><color #black><size:14>[[https://www.atlassian.com/git/tutorials/comparing-workflows Centralized workflow]] article of attlasian
+**[#lightblue] <i><color #blac><size:14>Main Components\n<img:images/img_9.png{scale=.84}>
 ***[#green] <b><i><color #white><size:14>Master Branch
 ****[#yellow] <i><color #black><size:14>Mainline branch representing the official project history.
 ***[#green] <b><i><color #white><size:14>Commits and Updates
@@ -41,7 +42,7 @@ title =<i><b><u>Centralized Workflow
 **[#lightblue] <i><color #blac><size:14>Considerations
 ***[#green] <b><i><color #white><size:14>Limited Collaboration Features
 ****[#yellow] <i><color #black><size:14>Restricts concurrent, collaborative work.
-***[#green] <b><i><color #white><size:14>Risk of Conflicting Changes
+***[#green] <b><i><color #white><size:14>Risk of Conflicting Changes\n<img:images/img_12.png{scale=.8}>
 ****[#yellow] <i><color #black><size:14>Direct commits to master may lead to conflicts.
 ***[#green] <b><i><color #white><size:14>Central Repository Dependency
 ****[#yellow] <i><color #black><size:14>Heavily reliant on the central repository's availability.

@@ -5,20 +5,21 @@ title =<i><b><u>Feature Branch Workflow
 *[#darkblue] <i>Feature Branch Workflow
 **[#lightblue] <i><color #blac><size:14>Overview
 ***[#green] <b><i><color #white><size:14>Utilizes Individual Branches for Features
-****[#yellow] <i><color #black><size:14>Each feature or task developed in a dedicated branch.
+****[#yellow] <i><color #black><size:14>**Each feature or task** developed in a <b>dedicated branch.
 ***[#green] <b><i><color #white><size:14>Facilitates Parallel Development
-****[#yellow] <i><color #black><size:14>Developers work on features concurrently.
+****[#yellow] <i><color #black><size:14>Developers work on <b>"features" concurrently.
 ***[#green] <b><i><color #white><size:14>Integration through Merge or Rebase
-****[#yellow] <i><color #black><size:14>Feature branches merged into the main branch.
-**[#lightblue] <i><color #blac><size:14>Main Components
+****[#yellow] <i><color #black><size:14>**Feature branches merged** into the <b>main branch.
+***[#a] <b><i><color #black><size:14>[[https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow feature branch workflow]] atlassian article
+**[#lightblue] <i><color #blac><size:14>Main Components\n<img:images/img_8.png{scale=.6}>
 ***[#green] <b><i><color #white><size:14>Master/Main Branch
 ****[#yellow] <i><color #black><size:14>Represents the stable and deployable state of the project.
 ***[#green] <b><i><color #white><size:14>Feature Branches
 ****[#yellow] <i><color #black><size:14>Dedicated branches for specific features or tasks.
 ***[#green] <b><i><color #white><size:14>Commits and Updates
 ****[#yellow] <i><color #black><size:14>Developers commit changes to their feature branches.
-***[#green] <b><i><color #white><size:14>Pull Requests (Optional)
-****[#yellow] <i><color #black><size:14>PRs used for code review and merging changes.
+***[#green] <b><i><color #white><size:14>Pull Requests (Optional)\n<img:images/img_11.png{scale=.7}>
+****[#yellow] <i><color #black><size:14>**PRs** used for **code review** & <b>merging changes.
 **[#lightblue] <i><color #blac><size:14>Workflow Characteristics
 ***[#green] <b><i><color #white><size:14>Parallel Development
 ****[#yellow] <i><color #black><size:14>Enables concurrent work on multiple features.

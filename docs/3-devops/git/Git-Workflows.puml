@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><b><u>Git Workflows
+title =<i><b><u>Git Workflows\n|<img:images/img_10.png>|<img:images/Git.jpg{scale=.805}>|
 !theme hacker
 
 *[#darkblue] <i>Git Workflows
@@ -21,11 +21,13 @@ title =<i><b><u>Git Workflows
 ****[#yellow] <i><color #black><size:14>Feature branches merged into the main branch.
 **[#lightblue] <i><color #blac><size:14>[[docs/3-devops/git/Gitflow-workflow.puml Gitflow Workflow]]
 ***[#green] <b><i><color #white><size:14>Long-lived Branches
-****[#yellow] <i><color #black><size:14>Main branches: `master` for production, `develop` for ongoing work.
+****[#yellow] <i><color #black><size:14>**Main branches:** "master" "for production, "develop" for <b>ongoing work.
 ***[#green] <b><i><color #white><size:14>Feature, Release, and Hotfix Branches
-****[#yellow] <i><color #black><size:14>Features in branches off `develop`, releases in branches off `develop` or `master`, hotfixes off `master`.
+****[#yellow] <i><color #black><size:14>Features in branches off "develop", releases in branches off "develop" "or "master", hotfixes off "master`.
 ***[#green] <b><i><color #white><size:14>Strict Branch Management
 ****[#yellow] <i><color #black><size:14>Specific branches for each phase of development.
+**[#lightblue] <i><color #blac><size:14>[[docs/3-devops/git/trunk-based-development-workflow.puml Trunk-based development Workflow]]
+***[#a] <i><color #black><size:14><b>[[https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development CI/CD Trunk based development]] article
 **[#lightblue] <i><color #blac><size:14>[[docs/3-devops/git/Forking-workflow.puml Forking Workflow]]
 ***[#green] <b><i><color #white><size:14>Independent Repositories
 ****[#yellow] <i><color #black><size:14>Each developer forks the main repository, works in their own repository, and creates PRs to the main repository.
@@ -59,8 +61,13 @@ title =<i><b><u>Git Workflows
 ***[#green] <b><i><color #white><size:14>Enhanced Control and Clarity
 ***[#green] <b><i><color #white><size:14>Flexibility to Suit Project Needs
 **[#lightblue] <i><color #blac><size:14>[[docs/3-devops/git/Git-Workflows-Considerations.puml Git workflows Considerations]]
-**[#lightblue] <i><color #blac><size:14>[[ Considerations]]
+**[#lightblue] <i><color #blac><size:14>Considerations
 ***[#green] <b><i><color #white><size:14>Complexity vs. Simplicity
 ***[#green] <b><i><color #white><size:14>Team Size and Structure
 ***[#green] <b><i><color #white><size:14>Project Scope and Requirements
+**[#lightblue] <i><color #blac><size:14>Some things to consider when evaluating a Git workflow are:
+***[#yellow] <i><color #black><size:14>Does this workflow scale with team size?
+***[#yellow] <i><color #black><size:14>Is it easy to undo mistakes and errors with this workflow?
+***[#yellow] <i><color #black><size:14>Does this workflow impose any new unnecessary cognitive overhead to the team?
+
 @endmindmap
