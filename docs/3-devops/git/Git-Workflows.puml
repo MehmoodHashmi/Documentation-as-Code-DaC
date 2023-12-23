@@ -3,71 +3,71 @@ title =<i><b><u>Git Workflows\n|<img:images/img_10.png>|<img:images/Git.jpg{scal
 !theme hacker
 
 *[#darkblue] <i>Git Workflows
-**[#lightblue] <i><color #blac><size:14>[[docs/3-devops/git/Pull-Request-Workflow.puml Pull request Workflow]]
-***[#yellow] <i><color #black><size:14>is used along with other workflows or almost in every workflow
-**[#lightblue] <i><color #blac><size:14>[[docs/3-devops/git/Centralized-workflow.puml Centralized Workflow]]
-***[#green] <b><i><color #white><size:14>Single Shared Repository
-****[#yellow] <i><color #black><size:14>All developers commit to a single central repository.
-***[#green] <b><i><color #white><size:14>Simple and Linear
-****[#yellow] <i><color #black><size:14>Easy to understand and manage but lacks collaboration features.
-***[#green] <b><i><color #white><size:14>Collaboration via Pull Requests
-****[#yellow] <i><color #black><size:14>Developers propose changes through PRs for review and integration.
-**[#lightblue] <i><color #blac><size:14>[[docs/3-devops/git/Feature-Branch-workflow.puml Feature Branch Workflow]]
-***[#green] <b><i><color #white><size:14>Individual Branches for Features
-****[#yellow] <i><color #black><size:14>Each feature developed in a dedicated branch.
-***[#green] <b><i><color #white><size:14>Facilitates Parallel Development
-****[#yellow] <i><color #black><size:14>Developers work on features concurrently.
-***[#green] <b><i><color #white><size:14>Integration via Merge or Rebase
-****[#yellow] <i><color #black><size:14>Feature branches merged into the main branch.
-**[#lightblue] <i><color #blac><size:14>[[docs/3-devops/git/Gitflow-workflow.puml Gitflow Workflow]]
-***[#green] <b><i><color #white><size:14>Long-lived Branches
-****[#yellow] <i><color #black><size:14>**Main branches:** "master" "for production, "develop" for <b>ongoing work.
-***[#green] <b><i><color #white><size:14>Feature, Release, and Hotfix Branches
-****[#yellow] <i><color #black><size:14>Features in branches off "develop", releases in branches off "develop" "or "master", hotfixes off "master`.
-***[#green] <b><i><color #white><size:14>Strict Branch Management
-****[#yellow] <i><color #black><size:14>Specific branches for each phase of development.
-**[#lightblue] <i><color #blac><size:14>[[docs/3-devops/git/trunk-based-development-workflow.puml Trunk-based development Workflow]]
-***[#a] <i><color #black><size:14><b>[[https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development CI/CD Trunk based development]] article
-**[#lightblue] <i><color #blac><size:14>[[docs/3-devops/git/Forking-workflow.puml Forking Workflow]]
-***[#green] <b><i><color #white><size:14>Independent Repositories
-****[#yellow] <i><color #black><size:14>Each developer forks the main repository, works in their own repository, and creates PRs to the main repository.
-***[#green] <b><i><color #white><size:14>Enhanced Collaboration and Isolation
-****[#yellow] <i><color #black><size:14>Enables contributors to work independently.
-***[#green] <b><i><color #white><size:14>Integration via Pull Requests
-****[#yellow] <i><color #black><size:14>Changes reviewed and merged through PRs to the main repository.
-**[#lightblue] <i><color #blac><size:14>[[docs/3-devops/git/Gitlab-workflow.puml GitLab Flow]]
-***[#green] <b><i><color #white><size:14>Continuous Integration Focus
-****[#yellow] <i><color #black><size:14>Integration after successful testing via <b>CI/CD pipelines.
-***[#green] <b><i><color #white><size:14>Main Branch Reflects Production
-****[#yellow] <i><color #black><size:14>Main branch mirrors the state of production.
-***[#green] <b><i><color #white><size:14>Continuous Delivery Emphasis
-****[#yellow] <i><color #black><size:14>Changes deployed continuously to staging or production.
-**[#lightblue] <i><color #blac><size:14>[[docs/3-devops/git/GitHub-workflow.puml GitHub Flow]]
-***[#green] <b><i><color #white><size:14>Single Branch (Usually `master`)
-****[#yellow] <i><color #black><size:14>All work happens in a single branch.
-***[#green] <b><i><color #white><size:14>Straightforward Workflow
-****[#yellow] <i><color #black><size:14>Commits, PRs, Reviews, and Deploys are core actions.
-***[#green] <b><i><color #white><size:14>Fast Iteration and Deployment
-****[#yellow] <i><color #black><size:14>Emphasis on quickly shipping small, incremental changes.
-**[#lightblue] <i><color #blac><size:14>[[docs/3-devops/git/Bitbucket-workflow.puml Bitbucket Flow]]
-***[#green] <b><i><color #white><size:14>Branch per Task or Issue
-****[#yellow] <i><color #black><size:14>Dedicated branches for each task or issue.
-***[#green] <b><i><color #white><size:14>Similar to Feature Branch Workflow
-****[#yellow] <i><color #black><size:14>Task-based branches merged back into the main branch.
-***[#green] <b><i><color #white><size:14>Collaborative Code Review
-****[#yellow] <i><color #black><size:14>Pull Requests for peer reviews and merging changes.
-**[#lightblue] <i><color #blac><size:14>[[docs/3-devops/git/Git-workflows-advantages.puml Advantages]]
-***[#green] <b><i><color #white><size:14>Structured Collaboration
-***[#green] <b><i><color #white><size:14>Enhanced Control and Clarity
-***[#green] <b><i><color #white><size:14>Flexibility to Suit Project Needs
-**[#lightblue] <i><color #blac><size:14>[[docs/3-devops/git/Git-Workflows-Considerations.puml Git workflows Considerations]]
-**[#lightblue] <i><color #blac><size:14>Considerations
-***[#green] <b><i><color #white><size:14>Complexity vs. Simplicity
-***[#green] <b><i><color #white><size:14>Team Size and Structure
-***[#green] <b><i><color #white><size:14>Project Scope and Requirements
-**[#lightblue] <i><color #blac><size:14>Some things to consider when evaluating a Git workflow are:
-***[#yellow] <i><color #black><size:14>Does this workflow scale with team size?
-***[#yellow] <i><color #black><size:14>Is it easy to undo mistakes and errors with this workflow?
-***[#yellow] <i><color #black><size:14>Does this workflow impose any new unnecessary cognitive overhead to the team?
+**[#lightblue] <i><color #blac><size:22>[[docs/3-devops/git/Pull-Request-Workflow.puml Pull request Workflow]]
+***[#yellow] <i><color #black><size:12>is used along with other workflows or almost in every workflow
+**[#lightblue] <i><color #blac><size:12>[[docs/3-devops/git/Centralized-workflow.puml Centralized Workflow]]
+***[#green] <b><i><color #white><size:12>Single Shared Repository
+****[#yellow] <i><color #black><size:12>All developers commit to a single central repository.
+***[#green] <b><i><color #white><size:12>Simple and Linear
+****[#yellow] <i><color #black><size:12>Easy to understand and manage but lacks collaboration features.
+***[#green] <b><i><color #white><size:12>Collaboration via Pull Requests
+****[#yellow] <i><color #black><size:12>Developers propose changes through PRs for review and integration.
+**[#lightblue] <i><color #blac><size:12>[[docs/3-devops/git/Feature-Branch-workflow.puml Feature Branch Workflow]]
+***[#green] <b><i><color #white><size:12>Individual Branches for Features
+****[#yellow] <i><color #black><size:12>Each feature developed in a dedicated branch.
+***[#green] <b><i><color #white><size:12>Facilitates Parallel Development
+****[#yellow] <i><color #black><size:12>Developers work on features concurrently.
+***[#green] <b><i><color #white><size:12>Integration via Merge or Rebase
+****[#yellow] <i><color #black><size:12>Feature branches merged into the main branch.
+**[#lightblue] <i><color #blac><size:12>[[docs/3-devops/git/Gitflow-workflow.puml Gitflow Workflow]]
+***[#green] <b><i><color #white><size:12>Long-lived Branches
+****[#yellow] <i><color #black><size:12>**Main branches:** "master" "for production, "develop" for <b>ongoing work.
+***[#green] <b><i><color #white><size:12>Feature, Release, and Hotfix Branches
+****[#yellow] <i><color #black><size:12>Features in branches off "develop", releases in branches off "develop" "or "master", hotfixes off "master`.
+***[#green] <b><i><color #white><size:12>Strict Branch Management
+****[#yellow] <i><color #black><size:12>Specific branches for each phase of development.
+**[#lightblue] <i><color #blac><size:12>[[docs/3-devops/git/trunk-based-development-workflow.puml Trunk-based development Workflow]]
+***[#a] <i><color #black><size:12><b>[[https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development CI/CD Trunk based development]] article
+**[#lightblue] <i><color #blac><size:12>[[docs/3-devops/git/Forking-workflow.puml Forking Workflow]]
+***[#green] <b><i><color #white><size:12>Independent Repositories
+****[#yellow] <i><color #black><size:12>Each developer forks the main repository, works in their own repository, and creates PRs to the main repository.
+***[#green] <b><i><color #white><size:12>Enhanced Collaboration and Isolation
+****[#yellow] <i><color #black><size:12>Enables contributors to work independently.
+***[#green] <b><i><color #white><size:12>Integration via Pull Requests
+****[#yellow] <i><color #black><size:12>Changes reviewed and merged through PRs to the main repository.
+**[#lightblue] <i><color #blac><size:12>[[docs/3-devops/git/Gitlab-workflow.puml GitLab Flow]]
+***[#green] <b><i><color #white><size:12>Continuous Integration Focus
+****[#yellow] <i><color #black><size:12>Integration after successful testing via <b>CI/CD pipelines.
+***[#green] <b><i><color #white><size:12>Main Branch Reflects Production
+****[#yellow] <i><color #black><size:12>Main branch mirrors the state of production.
+***[#green] <b><i><color #white><size:12>Continuous Delivery Emphasis
+****[#yellow] <i><color #black><size:12>Changes deployed continuously to staging or production.
+**[#lightblue] <i><color #blac><size:12>[[docs/3-devops/git/GitHub-workflow.puml GitHub Flow]]
+***[#green] <b><i><color #white><size:12>Single Branch (Usually `master`)
+****[#yellow] <i><color #black><size:12>All work happens in a single branch.
+***[#green] <b><i><color #white><size:12>Straightforward Workflow
+****[#yellow] <i><color #black><size:12>Commits, PRs, Reviews, and Deploys are core actions.
+***[#green] <b><i><color #white><size:12>Fast Iteration and Deployment
+****[#yellow] <i><color #black><size:12>Emphasis on quickly shipping small, incremental changes.
+**[#lightblue] <i><color #blac><size:12>[[docs/3-devops/git/Bitbucket-workflow.puml Bitbucket Flow]]
+***[#green] <b><i><color #white><size:12>Branch per Task or Issue
+****[#yellow] <i><color #black><size:12>Dedicated branches for each task or issue.
+***[#green] <b><i><color #white><size:12>Similar to Feature Branch Workflow
+****[#yellow] <i><color #black><size:12>Task-based branches merged back into the main branch.
+***[#green] <b><i><color #white><size:12>Collaborative Code Review
+****[#yellow] <i><color #black><size:12>Pull Requests for peer reviews and merging changes.
+**[#lightblue] <i><color #blac><size:12>[[docs/3-devops/git/Git-workflows-advantages.puml Advantages]]
+***[#green] <b><i><color #white><size:12>Structured Collaboration
+***[#green] <b><i><color #white><size:12>Enhanced Control and Clarity
+***[#green] <b><i><color #white><size:12>Flexibility to Suit Project Needs
+**[#lightblue] <i><color #blac><size:12>[[docs/3-devops/git/Git-Workflows-Considerations.puml Git workflows Considerations]]
+**[#lightblue] <i><color #blac><size:12>Considerations
+***[#green] <b><i><color #white><size:12>Complexity vs. Simplicity
+***[#green] <b><i><color #white><size:12>Team Size and Structure
+***[#green] <b><i><color #white><size:12>Project Scope and Requirements
+**[#lightblue] <i><color #blac><size:12>Some things to consider when evaluating a Git workflow are:
+***[#yellow] <i><color #black><size:12>Does this workflow scale with team size?
+***[#yellow] <i><color #black><size:12>Is it easy to undo mistakes and errors with this workflow?
+***[#yellow] <i><color #black><size:12>Does this workflow impose any new unnecessary cognitive overhead to the team?
 
 @endmindmap

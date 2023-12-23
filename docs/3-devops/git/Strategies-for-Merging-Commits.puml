@@ -1,0 +1,30 @@
+@startmindmap
+title =<i><b><u>Strategies for Merging Commits
+!theme hacker
+
+*[#darkblue] <i>Strategies for Merging Commits
+**[#lightblue] <i><color #blac><size:14>Fast-Forward Merge
+***[#yellow] <i><color #black><size:14>Simple and linear merge.
+***[#yellow] <i><color #black><size:14>Directly applies changes from the source branch to the target branch.
+***[#yellow] <i><color #black><size:14>Results in a straight line of commits.
+**[#lightblue] <i><color #blac><size:14>Recursive Merge (No Fast-Forward)
+***[#yellow] <i><color #black><size:14>Creates a new merge commit even if changes can be applied directly.
+***[#yellow] <i><color #black><size:14>Preserves commit history and relationships.
+***[#yellow] <i><color #black><size:14>Avoids linear commit history.
+**[#lightblue] <i><color #blac><size:14>Squash and Merge
+***[#yellow] <i><color #black><size:14>Condenses multiple commits into a single commit.
+***[#yellow] <i><color #black><size:14>Results in a cleaner history, reducing noise.
+***[#yellow] <i><color #black><size:14>Useful for grouping related changes into a single commit.
+**[#lightblue] <i><color #blac><size:14>Rebase and Merge
+***[#yellow] <i><color #black><size:14>Rewrites commit history by moving, combining, or altering commits.
+***[#yellow] <i><color #black><size:14>Produces a linear history by placing the source branch commits on top of the target branch.
+***[#yellow] <i><color #black><size:14>Helps maintain a clean and linear history.
+**[#lightblue] <i><color #blac><size:14>Octopus Merge
+***[#yellow] <i><color #black><size:14>Merges multiple branches simultaneously.
+***[#yellow] <i><color #black><size:14>Useful for combining multiple related features.
+***[#yellow] <i><color #black><size:14>Results in a merge commit with more than two parents.
+**[#lightblue] <i><color #blac><size:14>Merge with Commit Message Edit
+***[#yellow] <i><color #black><size:14>Modifies the commit message during the merge process.
+***[#yellow] <i><color #black><size:14>Helps in refining or rephrasing the commit message for clarity.
+***[#yellow] <i><color #black><size:14>Useful for enhancing commit documentation.
+@endmindmap

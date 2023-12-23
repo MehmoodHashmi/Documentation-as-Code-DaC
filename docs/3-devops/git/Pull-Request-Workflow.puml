@@ -33,6 +33,8 @@ title =<i><b><u>Pull Request Workflow
 ****[#yellow] <i><color #black><size:14>Wait for approval from designated reviewers.
 ***[#green] <b><i><color #white><size:14>Merge PR
 ****[#yellow] <i><color #black><size:14>Merge changes into the main branch upon approval.
+****[#a] <b><i><color #black><size:14>[[docs/3-devops/git/Strategies-for-Merging-Commits.puml Strategies for Merging Commits]] click me
+
 ***[#green] <b><i><color #white><size:14>Delete Branch
 ****[#yellow] <i><color #black><size:14>Optionally delete the feature branch after successful merging.
 **[#lightblue] <i><color #blac><size:14>Post-Merge Actions

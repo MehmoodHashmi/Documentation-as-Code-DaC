@@ -1,6 +1,47 @@
 @startmindmap
-title =<i><b><u>Centralized Workflow
+title =<i><b><u>Trunk-Based Development Workflow
 !theme hacker
 
-*[#darkblue] <i>Centralized
+*[#darkblue] <i>Trunk-Based Development Workflow
+**[#lightblue] <i><color #blac><size:12>Overview
+***[#green] <b><i><color #white><size:12>Main Branch (Trunk)
+****[#yellow] <i><color #black><size:12>Central branch representing the primary codebase.
+***[#green] <b><i><color #white><size:22>Continuous Integration (CI)
+****[#yellow] <i><color #black><size:12>Frequent integration of changes into the trunk.
+***[#green] <b><i><color #white><size:12>Collaboration
+****[#yellow] <i><color #black><size:12>Teamwork on a single branch for development.
+**[#lightblue] <i><color #blac><size:12>Key Principles
+***[#green] <b><i><color #white><size:12>Single Trunk
+****[#yellow] <i><color #black><size:12>All developers work directly on the main branch.
+***[#green] <b><i><color #white><size:12>Continuous Integration
+****[#yellow] <i><color #black><size:12>Regularly integrate small changes to trunk.
+***[#green] <b><i><color #white><size:12>Feature Flags
+****[#yellow] <i><color #black><size:12>Use feature toggles to isolate unfinished work.
+**[#lightblue] <i><color #blac><size:12>Workflow
+***[#green] <b><i><color #white><size:12>Feature Development
+****[#yellow] <i><color #black><size:12>Develop new features directly on the trunk.
+***[#green] <b><i><color #white><size:12>Testing and Validation
+****[#yellow] <i><color #black><size:12>Continuous testing and validation of trunk changes.
+***[#green] <b><i><color #white><size:12>Code Reviews
+****[#yellow] <i><color #black><size:12>Collaborative code reviews before merging.
+**[#lightblue] <i><color #blac><size:12>Deployment
+***[#green] <b><i><color #white><size:22>Continuous Delivery
+****[#yellow] <i><color #black><size:12>Rapid and automated deployment from the trunk.
+***[#green] <b><i><color #white><size:12>Feature Toggles
+****[#yellow] <i><color #black><size:12>Control feature releases independently.
+**[#lightblue] <i><color #blac><size:12>Advantages
+***[#green] <b><i><color #white><size:12>Simplicity
+****[#yellow] <i><color #black><size:12>Streamlined workflow with a single main branch.
+***[#green] <b><i><color #white><size:12>Rapid Feedback
+****[#yellow] <i><color #black><size:12>Quick integration and validation of changes.
+***[#green] <b><i><color #white><size:12>Reduced Merge Complexity
+****[#yellow] <i><color #black><size:12>Less merging effort due to frequent integration.
+****[#a] <b><i><color #black><size:14>[[docs/3-devops/git/Strategies-for-Merging-Commits.puml Strategies for Merging Commits]] click me
+**[#lightblue] <i><color #blac><size:12>Challenges
+***[#green] <b><i><color #white><size:12>Conflicts
+****[#yellow] <i><color #black><size:12>Potential conflicts due to concurrent changes.
+***[#green] <b><i><color #white><size:12>Discipline
+****[#yellow] <i><color #black><size:12>Requires discipline to ensure trunk stability.
+***[#green] <b><i><color #white><size:12>Feature Flags Management
+****[#yellow] <i><color #black><size:12>Proper handling of feature toggles for deployment.
 @endmindmap

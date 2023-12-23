@@ -1,0 +1,44 @@
+@startmindmap
+title =<i><b><u>Version Control Systems
+!theme hacker
+
+*[#darkblue] <i>Version Control Systems
+**[#lightblue] <i><color #blac><size:14>Types of VCS
+***[#green] <b><i><color #white><size:14>Centralized VCS
+****[#yellow] <i><color #black><size:14>SVN <b>(Subversion)
+****[#yellow] <i><color #black><size:14>CVS <b>(Concurrent Versions System)
+****[#yellow] <i><color #black><size:14>Perforce
+***[#green] <b><i><color #white><size:14>Distributed VCS
+****[#a] <b><i><color #white><size:14>[[docs/3-devops/git/Git.puml Git]]
+****[#yellow] <i><color #black><size:14>Mercurial
+****[#yellow] <i><color #black><size:14>Bazaar
+**[#lightblue] <i><color #blac><size:14>Basic Concepts
+***[#green] <b><i><color #white><size:14>Repository
+****[#yellow] <i><color #black><size:14>Central storage for versioned files and history.
+***[#green] <b><i><color #white><size:14>Commit
+****[#yellow] <i><color #black><size:14>Saving changes to the repository with a message.
+***[#green] <b><i><color #white><size:14>Branching
+****[#yellow] <i><color #black><size:14>Creating divergent lines of development.
+***[#green] <b><i><color #white><size:14>Merging
+****[#yellow] <i><color #black><size:14>Combining changes from different branches.
+***[#green] <b><i><color #white><size:14>Tagging
+****[#yellow] <i><color #black><size:14>Assigning meaningful labels to specific points in history.
+**[#lightblue] <i><color #blac><size:14>Benefits of VCS
+***[#green] <b><i><color #white><size:14>Collaboration
+****[#yellow] <i><color #black><size:14>Facilitates teamwork and concurrent work on files.
+***[#green] <b><i><color #white><size:14>Versioning
+****[#yellow] <i><color #black><size:14>Tracks changes, enabling rollback and comparison.
+***[#green] <b><i><color #white><size:14>Backup and Recovery
+****[#yellow] <i><color #black><size:14>Safeguards against data loss by maintaining history.
+***[#green] <b><i><color #white><size:14>Traceability
+****[#yellow] <i><color #black><size:14>Provides traceability and accountability for changes.
+**[#lightblue] <i><color #blac><size:14>Key Features
+***[#green] <b><i><color #white><size:14>Branching and Merging
+****[#yellow] <i><color #black><size:14>Ability to branch for feature development or bug fixes.
+***[#green] <b><i><color #white><size:14>Remote Repositories
+****[#yellow] <i><color #black><size:14>Cloning and syncing with remote repositories.
+***[#green] <b><i><color #white><size:14>Blame/Annotation
+****[#yellow] <i><color #black><size:14>Identifying contributors to specific lines of code.
+***[#green] <b><i><color #white><size:14>Pull Requests
+****[#yellow] <i><color #black><size:14>Requesting code review and merge in a distributed environment.
+@endmindmap
