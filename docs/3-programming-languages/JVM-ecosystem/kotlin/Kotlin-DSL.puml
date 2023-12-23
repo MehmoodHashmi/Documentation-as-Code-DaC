@@ -1,0 +1,23 @@
+@startmindmap
+title =<i><b><u>Kotlin DSL
+!theme hacker
+
+*[#white] <i>Kotlin DSL
+**[#lightblue] <i><color #blac><size:11>Introduction
+***[#green] <b><i><color #white><size:11>Domain Specific Languages (DSLs) are concise, fluent, and carry implicit context. For a language to be used as a host for internal DSLs first it needs to have low ceremony.\n<b><i><color #white><size:11>Then it should provide a way to inject behavior into classes as well. Kotlin has both of those capabilities.;
+**[#lightblue] <i><color #blac><size:11>DSLs
+***[#green] <b><i><color #white><size:11>Generally speaking we use languages that are what we call as "general purpose languages" we can write pretty much any code.
+***[#green] <b><i><color #white><size:11>But a DSL is a language we create which is very specific to a particular domain or a particular application.
+***[#green] <b><i><color #white><size:11>This gives a lot of opportunity for us to give a very targeted API for the users of our application depending on what who the users are.
+***[#green] <b><i><color #white><size:11>As a result this can be very useful in applications where our users can provide input to the application where they can configure a certain things or provide certain domain specific rules and our business logic
+***[#lightblue] <i><color #blac><size:11>Examples
+****[#green] <b><i><color #white><size:11>Types
+*****[#yellow] <b><i><color #black><size:11>Internal:</b>
+******[#yellow] *<b><i><color #black><size:11>Rides on an existing language\n*<b><i><color #black><size:11>Advantage: You don't 've to write "parser" for it. The language compiler itself &
+*****[#yellow] <b><i><color #black><size:11>External: CSS, XML
+******[#yellow] *<b><i><color #black><size:11>Your define your own language & syntax everything all by yourself\n*<b><i><color #black><size:11>Disadvantage: You 've to "parse" it as well
+***[#green] <b><i><color #white><size:11>Characteristics
+****[#yellow] <b><i><color #black><size:11>Context
+****[#yellow] <b><i><color #black><size:11>Fluency
+
+@endmindmap

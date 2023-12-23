@@ -4,7 +4,7 @@
 title =<i><b><u>Core Software design principles for software developers\nDr.Venkat Subramaniam -  2015
 * ==<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]]
 ** <i><b>[[https://www.youtube.com/watch?v=llGgO74uXMI&ab_channel=Devoxx Core Software design principles for software developers by Venkat Subramaniam]] video
-*** <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png "Learning this does not guarantee earning money" Robert C Martin]] image
+*** <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png "Learning these principles do not guarantee earning money" Robert C Martin]] image
 
 !theme hacker
 'let it stay white, you can change it to yellow if needed or green or some clear color
@@ -52,10 +52,10 @@ skinparam hyperlinkColor white
 ***[#green] <i><color #white><size:12><b>1- Rigidity
 ****[#yellow] <i><color #black><size:12>**Design** is **difficult** to <b>change.</b> The **tendency** of the **system** to **resist change** by **forcing** you make <b>changes in multiple places.
 ***[#green] <i><color #white><size:12><b>2- Fragility
-****[#yellow] <i><color #black><size:12>**Design** is **easy** to <b>break.</b>It is **even worse than rigidity,** another **module somewhere breaks** when you <b>touch this module.
+****[#yellow] <i><color #black><size:12>**Design** is **easy** to <b>break. </b>It is **even worse than rigidity,** another **module somewhere breaks** when you <b>touch this module.
 ***[#green] <i><color #white><size:12><b>3- Non-reusability
 ****[#yellow]:*<i><color #black><size:12>**Reuse:** is something you get **if you 've a set of well-worked out "concepts",** well represented  in your programs then you can reuse those those classes or those "group" of classes.
-*<i><color #black><size:12>It's not something that comes **magically** from **language features.** It's some that comes from **"thinking clearly"** about **"issues"** & getting <b>useful "concepts" isolated & "represented clearly".;
+*<i><color #black><size:12>It's not something that comes **magically** from **language features.** It's something that comes from **"thinking clearly"** about **"issues"** & getting <b>useful "concepts" isolated & "represented clearly".;
 ***[#green] <i><color #white><size:12><b>4- Immobility
 ****[#yellow]:<i><color #black><size:12>**Design** is **difficult** to <b>reuse.</b> A **design** is **immobile** when it contains **parts** that could be **useful** in **other systems,** but the <u><b>effort & risk involved</b></u> with **separating** those **parts** from the
 <i><color #black><size:12>**original system** are **too great.** This is an unfortunate but very common occurrence.;
@@ -64,7 +64,7 @@ skinparam hyperlinkColor white
 ***[#green] <i><color #white><size:12><b>6- Needless complexity
 ****[#yellow] <i><color #black><size:12><b>Overdesign or over engineering;</b> The code is littered with unnecessary constructs that makes the code complex and difficult to understand
 ***[#green] <i><color #white><size:12><b>7- Needless repetition
-****[#yellow] <i><color #black><size:12><b>Mouse abuse;</b> The code contains a lot of code blocks that are just copy/paste, maybe with some smaller modifications
+****[#yellow] <i><color #black><size:12><b>Mouse abuse;</b> The code contains a lot of **code blocks** that are just **copy/paste,** maybe with some smaller modifications
 ***[#green] <i><color #white><size:12><b>8- Opacity
 ****[#yellow] <i><color #black><size:12><b>Disorganized expression;</b> The code is difficult to understand.
 ***[#green] <i><color #white><size:12><b>Summary
@@ -76,7 +76,7 @@ skinparam hyperlinkColor white
 ***[#green] <i><color #white><size:12><b>Second step is
 ****[#yellow] <i><color #black><size:12>Be <b>unemotional
 *****[#gold] <i><color #black><size:12>Stop getting attached to the **solution,** and attach yourself to <b>solving the problem
-****[#yellow] <i><color #black><size:12>Two Kinds of people that are dangerous to <b>work:\n*<b><i><color #black><size:12>Who can't follow instructions \n*<b><i><color #black><size:12>Who can only follow instructions
+****[#yellow] <i><color #black><size:12>Two Kinds of "people" that are **dangerous** to <b>work:\n*<b><i><color #black><size:12>Who can't follow instructions \n*<b><i><color #black><size:12>Who can only follow instructions
 ***[#yellow] <i><color #black><size:12>**Software** is not limited by **physics,** like **buildings are.** It is limited by **imagination, by design, by organization.** In short, it is **limited** by the <b>properties of people,\n<i><color #black><size:12>not by the <b>properties of the world. "We 've met the enemy & he is us."
 
 **[#lightblue] <i><color #black><size:12>How to create good design?
@@ -171,6 +171,7 @@ skinparam hyperlinkColor white
 |<#purple><i><b><size:12><color:white>Dynamic  |<#grey><i><b><size:12><color:white>Linking (is late binding) \t\t [[https://www.youtube.com/watch?v=eW5he5uFBNM&t=9s&ab_channel=HowTo (5-min video)]] \n<i><b><size:12><color:white>It is more related to O/S's <u>"dynamic linking loader",\n<i><b><size:12><color:white>but decision to create a dynamically linked program\n<i><b><size:12><color:white>is often influenced by "compiler options"|<#blue><i><b><size:12><color:white>Loading \t\t\t[[https://www.youtube.com/watch?v=qfGql6sGlZg&ab_channel=TechGuiders (2-min video)]]|
 ==<i><color #white><b><size:18>The spectrum of "contract types" from "strict to lose"==
 <img:images/img_46.png{scale=1.28}>;
+****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_258.png History of Components]] click me
 ****[#yellow]:<i><color #black><size:12>**How do yo decouple one module from another?** That depends on the **level of decoupling you need.** Sometimes simply extracting code
 <i><color #black><size:12>into a separate function is enough. More often, it's better to move all the **related code** into a **separate class** & even a separate **source file.**
 <i><color #black><size:12>And in extreme cases, you want to put those classes behind <b>polymorphic interfaces.;
@@ -240,7 +241,7 @@ skinparam hyperlinkColor white
 <i><color #black><size:12>     force others to be <b>[[docs/3-programming-languages/Venkat-Subramaniam/Micro-services.puml rebuilt & redeployed.]]
 *<i><color #black><size:12>"components" are delivered as <b>.Jar, DLL, .class files in java
 |<#blue><i><color #white><size:12>function calling is on "same" <b>processor & address space|;
-******[#yellow] <i><color #black><size:12><img:images/img_47.png>    <img:images/img_50.png{scale=0.9}>
+******[#yellow] |<#blue><i><color #white><size:12><b>[[a Hierarchical Structure Vs. Decomposition; click]] |\n<img:images/img_47.png{scale=1.1}>    <img:images/img_50.png{scale=.99}>
 *******[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Modularity]]** decreases the **model-code gap** & increases <b>"abstraction"
 <img:images/img_53.png{scale=0.8}>
 <i><color #black><size:12>Still **cost is higher** because you 've to know about <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg modularity]] click me;
@@ -259,13 +260,14 @@ skinparam hyperlinkColor white
 |<#blue><i><color #yellow><size:12>Processes execute on "same" <b>processor or multi-core but "separate address space". [[docs/books/1-books-backlog/operating-system/operating-system.puml click me]]|;
 ******[#darkorange] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_253.png "Modularity" can be achieved without resorting (alternating) \nto "process isolation" (separate address space).]]
 
-****[#darkorange] <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_246.png 5- Services Boundary:]]**
+****[#darkorange] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_246.png 5- Services Boundary:]]
 *****[#yellow]:*<i><color #black><size:12>Service is a <b>process
-|<#white><i><color #black><size:12>**"Service"** don't depend upon <b>physical location.|
+|<#a><i><color #black><size:12>**"Service"** don't depend upon <b>physical location. \t\t\t [[docs/3-programming-languages/Venkat-Subramaniam/images/img_260.png "Service Configuration" click me]]||
 |<#blue><i><color #white><size:12>Two communicating "services" may, or may not, operate in the "same" <b><u>physical processor or multi-core machine.|
 |<#white><i><color #black><size:12>The **"services"** assume that all **"communication"** take place <b>over the network.|
 *<i><color #black><size:12>**Communication** across **"service boundaries"** are very **slow** compared to <b>function calls;
-******[#yellow] <img:images/img_246.png{scale=.135}>
+******[#yellow] <img:images/img_260.png{scale=.65}>
+*******[#yellow] <img:images/img_246.png{scale=.135}>
 **[#lightblue] <i><color #black><size:12>Keep it DRY!
 ***[#green] <i><color #white><b><size:12>Don't Repeat yourself
 ****[#yellow]:<i><color #black><size:12>Don't duplicate <b>code
@@ -411,7 +413,6 @@ skinparam hyperlinkColor white
 ****<i><color #black><size:12>Should I really "use" **DIP** to gain access & **test** this <b>code?
 *<b><i><color #black><size:12>[[docs/books/1-books-backlog/data-structure-and-algorithm/classes-vs-data-structures.puml Classes Vs. Data structures]] click me
 <img:images/img_44.png{scale=0.81}>
-
 ==<i><color #black><size:14><b>UML & BPMN==
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_174.png Class Associations]], Only use tools like [[a visual-paradigm]] if your system
 <i><color #black><size:12><b>has more than 50-classes.
@@ -421,6 +422,8 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12><b>[[docs/2-uml/PlantUML/activity-diagram/activity-diagram-syntax.png Activity Diagram syntax]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_128.jpg UML diagrams cheatsheet]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_248.png Keep audience in mind of UML]]
 *<i><color #black><size:11><b>[[docs/3-programming-languages/Venkat-Subramaniam/synchronous-system-use-case-modeling.puml Synchronous System Use Case Modeling; <<include>> & <<extends>> relation]] implementation
 *<i><color #black><size:10><b>[[docs/3-programming-languages/Venkat-Subramaniam/asynchronous-system-use-case-modeling.puml Asynchronous System (EDA) Use Case Modeling; <<Publish>> & <<Subscribe>> relation]] implementation
+*<i><color #black><size:10><b>[[docs/2-uml/UML-component-diagram.puml Component Diagram]] click me
+
 *<i><color #black><size:10><b>[[https://www.youtube.com/watch?v=F6omQ8avp5I&ab_channel=Prayance BPMN]] 7-minute video [[https://www.youtube.com/watch?v=nXImBt_HnNo&t=1114s&ab_channel=VisualParadigm Business Process Modeling with BPMN]] 45-minute video, [[docs/3-programming-languages/Venkat-Subramaniam/images/img_180.png BPMN notes]]
 ;
 *****[#gold] <img:images/img_142.png>
