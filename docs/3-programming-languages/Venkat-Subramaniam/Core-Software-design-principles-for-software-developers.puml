@@ -14,6 +14,7 @@ skinparam hyperlinkColor white
 **[#lightblue] <i><color #black><size:12>Introduction
 ***[#green]:<i><color #white><size:12>**Writing code is easy. Writing good quality code is an entirely different story.** How can we measure quality of design? How do we know we're doing the
 <i><color #white><size:12>right set of things that will leads us to a <b>better design?;
+****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Computational Thinking ]] \n*<i><color #black><size:12><b>[[docs/1-Requirement-Engineering/Abstract-Thinking.puml Abstract Thinking ]]
 
 **[#lightblue] <i><color #black><size:12>Code Vs Thought
 ***[#green] <i><color #white><size:12><b>Dr. Naveed Malik & \n<i><color #white><size:12><b>Bjarne Stroustrup

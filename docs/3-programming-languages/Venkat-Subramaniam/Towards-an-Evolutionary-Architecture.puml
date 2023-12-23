@@ -164,6 +164,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ***[#yellow] <i><color #black><size:12>in the system, otherwise it is **"infatuation"** with the <b>"technology"
 ***[#yellow] <i><color #black><size:12>Don't **build** what you can **buy/download.** Don't **buy/download** what you don't <b>need!\n*<i><color #black><size:12>"To slaughter a goat for a single grain". You could **buy** the **needed grain** from <b>market!
 ***[#gold] <i><color #black><size:12>If we're going to 've a **delivery independent architecture**, we 've to start with \n<i><color #black><size:12><b>delivery independent <color:#brown>"use cases"
+***[#yellow] <i><color #black><size:12>**"main ()"** function is at **outer most layer.** Why? Because it is near to **input/output** & prone to <b>changes.
 ***[#a]:<i><color #black><size:12>There is nothing wrong with **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_56.png outside-in or inside-out approach]]** so long as you **decouple**
 <i><color #black><size:12>your **business rules** from them.
 ==<i><color #black><size:16>**Inside-out** <color:yellow>(Low-level analysis & design)==
