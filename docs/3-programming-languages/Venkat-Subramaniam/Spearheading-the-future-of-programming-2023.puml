@@ -44,8 +44,8 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 **<i><color #black><size:12><b><u>[[docs/books/1-books-backlog/data-structure-and-algorithm/Algorithm-Design-Strategies.puml "Decomposition Strategies"]] patterns can be reused.
 **<i><color #black><size:12><b>[[docs/books/1-books-backlog/data-structure-and-algorithm/Algorithms-Four-Principles-of-optimality.puml 4-Principles of optimality (Decomposition)]] </b>
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_72.png "Pointer" is "in-direction"]]
-*<i><color #black><size:12><b>"Diagramming:" using <u>"flowchart"</b> ; is useful
-<i><color #black><size:12>    upto **5000-10000** instructions of <b>code;
+*<i><color #black><size:12><b>"Diagramming:" using <u>"flowchart"</b>, is <b>"procedural" thinking
+<i><color #black><size:12>**technique** & is useful upto **5000-10000** instructions of <b>code/system;
 ******[#a] *<b><i><color #black><size:12>[[docs/books/1-books-backlog/data-structure-and-algorithm/classes-vs-data-structures.puml Classes Vs. Data structures]] click me \n*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_257.png Data-Structures & Algorithms advice]] click me
 ****[#yellow] <i><color #black><size:12><b>2nd paradigm shift:</b> Object Oriented Programming or <b>"object decomposition" of code (modules)
 *****[#a]:<i><color #black><size:12><b>OOA&D</b>

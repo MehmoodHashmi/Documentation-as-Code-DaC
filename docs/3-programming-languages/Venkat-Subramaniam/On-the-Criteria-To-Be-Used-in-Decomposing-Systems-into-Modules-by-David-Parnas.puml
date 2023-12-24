@@ -1,0 +1,114 @@
+@startmindmap
+title =<i><b><u>"On the Criteria To Be Used in Decomposing Systems into Modules" by David Parnas
+caption = <img:images/img_279.png{scale=.93}>
+*:<i><color #black><size:12>Certainly! A good decomposition refers to breaking down a system into manageable, understandable, and cohesive parts or modules. It involves organizing and structuring the system in a way that simplifies complexity, enhances
+<i><color #black><size:12>maintainability, and promotes reusability. On the other hand, a hierarchical structure refers to organizing these parts or modules in a hierarchical manner, often creating a tree-like structure with parent-child relationships.
+
+<i><color #black><size:12>The confusion often arises due to the apparent similarities in benefits between a <b>well-decomposed system and a hierarchical structure:
+<i><color #black><size:12>1. **Clarity and Manageability:** Both a good decomposition and a hierarchical structure aim to enhance the system's clarity and manageability. A well-decomposed system provides clear and distinct modules, making it easier to
+<i><color #black><size:12> understand and manage individual components. Similarly, a **hierarchical structure** "arranges" these **modules** in a **hierarchical order,** offering a clear **top-down view** of the <b>system.
+
+<i><color #black><size:12>2. **Encapsulation and Abstraction:** A **good decomposition** often **employs principles** like **information hiding, encapsulation, and abstraction** to **break down a system into smaller, self-contained modules.** Similarly, a
+<i><color #black><size:12>**hierarchical structure** often involves **encapsulating functionality** at **different levels of abstraction** within the <b>hierarchy.
+
+<i><color #black><size:12>3. **Modularity and Reusability:** Both concepts facilitate modularity and reusability. A well-decomposed system promotes the creation of reusable modules. Likewise, a hierarchical structure often encourages reuse of modules
+<i><color #black><size:12>  by organizing them into a hierarchical arrangement, allowing components at lower levels to be reused by multiple higher-level modules.
+
+<i><color #black><size:12><b><u><color #green>However, there are key distinctions between the two:
+
+*<i><color #black><size:12>**Independence of Modules:** A **good decomposition** focuses on **creating modules** that are relatively independent of each other. Each **module** handles a **specific functionality or aspect** without relying heavily on other <b>modules.
+<i><color #black><size:12>  In contrast, a **hierarchical structure** can impose **dependencies,** where modules at **lower levels** are "inherently dependent" on those at **higher levels,** potentially leading to <b>tighter coupling.
+
+*<i><color #black><size:12>**Flexibility and Adaptability:** A **well-decomposed system** allows for more flexibility in modifying or replacing individual modules without significantly affecting other parts. In contrast, changes in a hierarchical structure
+<i><color #black><size:12>  might necessitate modifications higher up the hierarchy, impacting several lower-level modules.
+
+<i><color #black><size:12>In essence, while a hierarchical structure might offer an organizational framework, it's the quality of the decomposition that truly determines the system's flexibility, maintainability, and reusability. A well-decomposed
+<i><color #black><size:12>system, regardless of its hierarchical arrangement, ensures modules are cohesive, loosely coupled, and individually understandable, enabling easier maintenance, scalability, and adaptability.
+|<#pink><img:images/img_281.png{scale=.607}>|<#blue><img:images/img_280.png{scale=.5}>|;
+
+!theme hacker
+
+*[#darkblue] <i>"On the Criteria To Be Used in Decomposing \n<i>Systems into Modules" by David Parnas
+**[#lightblue] <i><color #black><size:12>Introduction
+***[#green] <b><i><color #white><size:12>Importance of Modular Design
+****[#yellow] <i><color #black><size:12><b>Managing Complexity
+****[#yellow] <i><color #black><size:12><b>Enhancing System Understandability
+**[#lightblue] <i><color #black><size:12>Criteria for System Decomposition
+***[#green] <b><i><color #white><size:12>Information Hiding Principle
+****[#yellow] <i><color #black><size:12><b>Encapsulation and Abstraction
+*****[#gold] <i><color #black><size:12>Concealing Implementation Details
+*****[#gold] <i><color #green><size:12><b>Providing Well-Defined Interfaces
+***[#a] <b><i><color #white><size:12>Functional Cohesion
+****[#yellow] <i><color #black><size:12><b>Grouping Based on Functionality
+*****[#gold] <i><color #black><size:12>Logical Cohesion within Modules
+*****[#gold] <i><color #black><size:12>Reducing Coupling
+***[#a] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_278.png High-Level vs. Low-Level Design Decisions]]
+****[#yellow] <i><color #black><size:12><b>Importance of Separation
+*****[#gold] <i><color #black><size:12>Segregating System Design Levels
+*****[#gold] <i><color #black><size:12>Isolating System Components
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_279.png Criteria for Module Independence]]
+****[#yellow] <i><color #black><size:12><b>Reducing Interdependence
+*****[#gold] <i><color #black><size:12>Minimizing Dependencies
+*****[#gold] <i><color #black><size:12>Enhancing Module Reusability
+**[#lightblue] <i><color #black><size:12>Modularization Benefits
+***[#green] <b><i><color #white><size:12>Maintainability
+****[#yellow] <i><color #black><size:12><b>Ease of Maintenance
+*****[#gold] <i><color #black><size:12>Localizing Changes
+*****[#gold] <i><color #black><size:12>Reducing Impact of Modifications
+***[#green] <b><i><color #white><size:12>Reusability
+****[#yellow] <i><color #black><size:12><b>Encouraging Reuse
+*****[#gold] <i><color #black><size:12>Encapsulation of Functionalities
+*****[#gold] <i><color #black><size:12>Promoting Code Sharing
+***[#green] <b><i><color #white><size:12>Understandability
+****[#yellow] <i><color #black><size:12><b>Facilitating Understanding
+*****[#gold] <i><color #black><size:12>Clear Module Interfaces
+*****[#gold] <i><color #black><size:12>Improved System Comprehensibility
+**[#lightblue] <i><color #black><size:12>Real-World Application
+***[#green] <b><i><color #white><size:12>Software Engineering Practices
+****[#yellow] <i><color #black><size:12><b>Impact on Development
+*****[#gold] <i><color #black><size:12>Streamlining Development Efforts
+*****[#gold] <i><color #black><size:12>Enhancing Team Collaboration
+***[#green] <b><i><color #white><size:12>Influence on System Architecture
+****[#yellow] <i><color #black><size:12><b>Architectural Design Principles
+*****[#gold] <i><color #black><size:12>Encouraging Modular Architectures
+*****[#gold] <i><color #black><size:12>Emphasizing Component Independence
+**[#lightblue] <i><color #black><size:12>Conclusion
+***[#green] <b><i><color #white><size:12>Summary of Key Principles
+****[#yellow] <i><color #black><size:12><b>Information Hiding
+****[#yellow] <i><color #black><size:12><b>Functional Cohesion
+****[#yellow] <i><color #black><size:12><b>Module Independence
+****[#yellow] <i><color #black><size:12><b>Benefits of Modularization
+****[#yellow] <i><color #black><size:12><b>Real-World Application
+****[#yellow] <i><color #black><size:12><b>Importance of Design Principles
+
+
+*[#darkblue] <i>Partial Ordering
+**[#lightblue] <i><color #black><size:12>Definition
+***[#green] <b><i><color #white><size:12>Relation where some elements are ordered, but not all.
+**[#lightblue] <i><color #black><size:12>Characteristics
+***[#green] <b><i><color #white><size:12>Reflexivity
+****[#yellow] <i><color #black><size:12>Every element is related to itself <b>(a <= a).
+***[#green] <b><i><color #white><size:12>Antisymmetry
+****[#yellow] <i><color #black><size:12>If a <= b and b <= a, then a = b.
+***[#green] <b><i><color #white><size:12>Transitivity
+****[#yellow] <i><color #black><size:12>If a <= b and b <= c, then a <= c.
+**[#lightblue] <i><color #black><size:12>Types of Partial Orders
+***[#green] <b><i><color #white><size:12>Total Order
+****[#yellow] <i><color #black><size:12>All elements are comparable <b>(a <= b or b <= a).
+***[#green] <b><i><color #white><size:12>Weak Order
+****[#yellow] <i><color #black><size:12>All elements are comparable or equal <b>(a <= b or b <= a or a = b).
+***[#green] <b><i><color #white><size:12>Strict Partial Order
+****[#yellow] <i><color #black><size:12>Not reflexive <b>(a cannot relate to itself) but transitive and antisymmetric.
+**[#lightblue] <i><color #black><size:12>Applications
+***[#green] <b><i><color #white><size:12>Mathematics
+****[#yellow] <i><color #black><size:12>Set inclusion, subset relationships.
+***[#green] <b><i><color #white><size:12>Computer Science
+****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Dependency-Resolution.puml Dependency resolution]], job scheduling.
+***[#green] <b><i><color #white><size:12>Economics
+****[#yellow] <i><color #black><size:12>Preference relations, rankings.
+**[#lightblue] <i><color #black><size:12>Properties
+***[#green] <b><i><color #white><size:12>Top Element <b>(Maximal)
+****[#yellow] <i><color #black><size:12>Element that is greater than or equal to all other elements.
+***[#green] <b><i><color #white><size:12>Bottom Element <b>(Minimal)
+****[#yellow] <i><color #black><size:12>Element that is less than or equal to all other elements.
+@endmindmap

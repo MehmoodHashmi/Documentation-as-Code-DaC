@@ -1,0 +1,50 @@
+@startmindmap
+title =<i><b><u>Dependency Resolution
+!theme hacker
+
+*[#darkblue] <i>Dependency Resolution
+**[#lightblue] <i><color #blac><size:12>Definition
+***[#green] <b><i><color #white><size:12>Process of Resolving Dependencies
+***[#green] <b><i><color #white><size:12>Ensuring Required Components are Available
+**[#lightblue] <i><color #blac><size:12>Types of Dependencies
+***[#green] <b><i><color #white><size:12>Runtime Dependencies
+****[#yellow] <i><color #black><size:12>Required for Application Execution
+***[#green] <b><i><color #white><size:12>Compile-time Dependencies
+****[#yellow] <i><color #black><size:12>Needed During Compilation
+***[#green] <b><i><color #white><size:12>Transitive Dependencies
+****[#yellow] <i><color #black><size:12>Indirect Dependencies through Direct Dependencies
+***[#green] <b><i><color #white><size:12>External Dependencies
+****[#yellow] <i><color #black><size:12>Dependencies Outside the System
+**[#lightblue] <i><color #blac><size:12>Dependency Management
+***[#green] <b><i><color #white><size:12>Manual Dependency Tracking
+****[#yellow] <i><color #black><size:12>Handling Dependencies Manually
+***[#green] <b><i><color #white><size:12>Automated Dependency Management
+****[#yellow] <i><color #black><size:12>Tools and Systems for Dependency Handling
+**[#lightblue] <i><color #blac><size:12>Dependency Conflict Resolution
+***[#green] <b><i><color #white><size:12>Version Conflict Resolution
+****[#yellow] <i><color #black><size:12>Managing Different Versions of Dependencies
+***[#green] <b><i><color #white><size:12>Conflict Detection and Resolution
+****[#yellow] <i><color #black><size:12>Resolving Conflicts in Dependencies
+**[#lightblue] <i><color #blac><size:12>Dependency Injection
+***[#green] <b><i><color #white><size:12>Frameworks and Techniques
+****[#yellow] <i><color #black><size:12>Injecting Dependencies into Components
+***[#green] <b><i><color #white><size:12>Inversion of Control (IoC)
+****[#yellow] <i><color #black><size:12>Decoupling Components by Inverting Control Flow
+***[#green] <b><i><color #white><size:12>Benefits and Use Cases
+****[#yellow] <i><color #black><size:12>Flexibility in Component Configuration
+****[#yellow] <i><color #black><size:12>Testing and Mocking Dependencies
+**[#lightblue] <i><color #blac><size:12>Dependency Scope
+***[#green] <b><i><color #white><size:12>Compile, Runtime, Test, Provided, etc.
+****[#yellow] <i><color #black><size:12>Specifying Dependency Usage Scopes
+***[#green] <b><i><color #white><size:12>Scope Management
+****[#yellow] <i><color #black><size:12>Controlling Dependencies in Different Scenarios
+**[#lightblue] <i><color #blac><size:12>Best Practices
+***[#green] <b><i><color #white><size:12>Explicit Dependency Declarations
+****[#yellow] <i><color #black><size:12>Clearly Specifying Dependencies
+***[#green] <b><i><color #white><size:12>Dependency Versioning
+****[#yellow] <i><color #black><size:12>Controlled and Consistent Versioning
+***[#green] <b><i><color #white><size:12>Minimizing Dependencies
+****[#yellow] <i><color #black><size:12>Reducing Unnecessary Dependencies
+***[#green] <b><i><color #white><size:12>Continuous Dependency Monitoring
+****[#yellow] <i><color #black><size:12>Regularly Assessing and Updating Dependencies
+@endmindmap

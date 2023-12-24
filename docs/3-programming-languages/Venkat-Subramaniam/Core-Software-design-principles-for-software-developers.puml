@@ -244,10 +244,14 @@ skinparam hyperlinkColor white
 <i><color #black><size:12>     force others to be <b>[[docs/3-programming-languages/Venkat-Subramaniam/Micro-services.puml rebuilt & redeployed.]]
 *<i><color #black><size:12>"components" are delivered as <b>.Jar, DLL, .class files in java
 |<#blue><i><color #white><size:12>function calling is on "same" <b>processor & address space|;
-******[#yellow] |<#blue><i><color #white><size:12><b>[[a Hierarchical Structure Vs. Decomposition; click]] |\n<img:images/img_47.png{scale=1.1}>    <img:images/img_50.png{scale=.99}>
+******[#yellow] |<#blue><i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_278.png Hierarchical Structure Vs. Decomposition; click]] |\n<img:images/img_47.png{scale=1.1}>    <img:images/img_50.png{scale=.99}> \n|<#blue><b><i><size:12>[[http://sunnyday.mit.edu/16.355/parnas-criteria.html Parnas 1972 article click me]]|<#black><i><size:12><b>[[https://hackernoon.com/how-to-decompose-a-system-into-modules-796bd941f036 Another article]] |
 *******[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Modularity]]** decreases the **model-code gap** & increases <b>"abstraction"
 <img:images/img_53.png{scale=0.8}>
-<i><color #black><size:12>Still **cost is higher** because you 've to know about <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg modularity]] click me;
+<i><color #black><size:12>Still **cost is higher** because you 've to know about <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg modularity]] click me
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/On-the-Criteria-To-Be-Used-in-Decomposing-Systems-into-Modules-by-David-Parnas.puml "On the Criteria To Be Used in Decomposing Systems into Modules" by David Parnas]]
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/On-the-Criteria-To-Be-Used-in-Decomposing-Systems-into-Modules-by-David-Parnas.puml In discussion of system structure it is easy to confuse the benefits of a]]
+<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/On-the-Criteria-To-Be-Used-in-Decomposing-Systems-into-Modules-by-David-Parnas.puml "good decomposition" with those of a "hierarchical structure"]].;
+
 ****[#darkorange] <i><color #black><size:12>**3- Thread boundary**
 *****[#yellow]:<i><color #black><size:12>are not **boundaries** both:
 <i><color #black><size:12>**1- Source code dependencies** &
