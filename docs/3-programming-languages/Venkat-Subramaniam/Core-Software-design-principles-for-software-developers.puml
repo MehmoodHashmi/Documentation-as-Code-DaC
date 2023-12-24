@@ -26,7 +26,9 @@ skinparam hyperlinkColor white
 ****[#a]:*<i><color #black><size:12>**Code** is what it **does,** it is not a <U>substitute</u> for <b>thought. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_132.png click me]]
 *<i><color #black><size:12>**Code** is **static** in nature while **thought** is <b>dynamic. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_133.png click me]]
 *<i><color #black><size:12>A **mist** in **mind** is **fog** in the **code.**
-*<i><color #black><size:12>**Code** is a **tool** through which you can **express** your **thoughts** about a <b>problem.;
+*<i><color #black><size:12>**Code** is a **tool** through which you can **express** your **thoughts** about a <b>problem.
+*<i><color #black><size:12>The **moment** you 've better **design idea** the existing **source code** becomes
+<i><color #black><size:12>**obsolete** as it doesn't **reflects** your **latest mental-model** & requires <b>refactoring;
 *****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_134.png Grady Booch: good vs bad programmer]]
 *<i><color #black><size:12><b>Robert C Martin: [[docs/3-programming-languages/Venkat-Subramaniam/images/img_146.png It takes "at least 15-years" in "software field" to become a "senior". Till then you should "learn" from other]] seniors. click me
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_135.png Robert C Martin: Is it possible, early on, to tell whether someone can or cannot become a programmer?]]
@@ -82,8 +84,8 @@ skinparam hyperlinkColor white
 
 **[#lightblue] <i><color #black><size:12>How to create good design?
 ***[#green] <i><color #white><size:12><b>Take time to "review" design & code
-****[#yellow] <i><color #black><size:12><b>Refactor:</b> others people code
-****[#yellow] <i><color #black><size:12><b>Rewrite:</b> your own code
+****[#yellow] <i><color #black><size:12><b>Refactor:</b> others "people code"
+****[#yellow] <i><color #black><size:12><b>Rewrite:</b> your "own code"
 
 
 

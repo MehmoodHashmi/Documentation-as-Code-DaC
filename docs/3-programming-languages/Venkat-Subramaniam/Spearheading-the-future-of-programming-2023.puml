@@ -18,7 +18,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 **[#lightblue] <i><color #blac><size:12>Characteristics
 ***[#green] <b><i><color #white><size:12>"Things change really fast in our field"
 ****[#yellow] <i><color #black><size:12>Sure, true to some extent
-*****[#darkorange] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_60.png UNWELCOME FACT! What is software made of?]] click me
+*****[#darkorange] *<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_60.png UNWELCOME FACT! What is software made of?]] click me \n*<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_274.png Murphy & Moore's Law?]] click me
 ******[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_106.png Paradigm conclusion]] click me
 ***[#green] <b><i><color #white><size:12>How are we Programming in new Century?
 ****[#yellow] <i><color #black><size:12>Still imperative programming e.g. <b> for (int i =0; i < prices.size() -1; i ++) {}
@@ -32,7 +32,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 *<i><color #black><size:12>And **Each path** results in a <u>**paradigm change**</u> with many **<u>methods</u>** -- sometime 100s of them.
 **<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/mixed-paradigms-(the-method-to-madness).puml Mixed Paradigms: The method to madness]] click me
 **<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_62.png The ambition to engineer has gone up & down]] click me [[docs/3-programming-languages/Venkat-Subramaniam/images/img_69.png (Art Vs. Craft)]] also [[docs/3-programming-languages/Venkat-Subramaniam/images/img_63.png Software is a craft]] & also [[docs/3-programming-languages/Venkat-Subramaniam/images/img_63.png Who builds & designs the software?]] & also Trade-off [[docs/3-programming-languages/Venkat-Subramaniam/images/img_241.png S/W (Build Vs. Design & Quality Vs Cost)]]
-***<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_241.png The common trade-off between "cost & quality", this trade-off doesn't apply to software.]]
+***<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_241.png The common trade-off between "cost & quality", this trade-off doesn't apply to software.]] & also [[docs/3-programming-languages/Venkat-Subramaniam/images/software-product-quallity.jpg What is S/W Product Quality?]] & also [[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 14- Rule of Generation (avoid hand-hacking)]]
 **<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 13-Rule of Economy: Programmer time is expensive; conserve it in preference to machine time]] click me;
 
 ****[#darkorange] <i><color #black><size:12><b>1st paradigm shift:</b> Procedural programming or <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.png "algorithmic decomposition" of code (modules)]]
