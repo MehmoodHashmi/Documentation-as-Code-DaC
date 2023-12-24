@@ -24,6 +24,7 @@ title = __Kubernetes__
 **[#lightblue] <i><size:14>Metrics Server
 **[#lightblue] <i><size:14>Network Policy Controller
 **[#lightblue] <i><size:14>Storage Class Provisioner
+
 * Cluster Architecture
 **[#lightblue] <i><size:14>Nodes
 ***[#yellow] <i><size:14>Pods

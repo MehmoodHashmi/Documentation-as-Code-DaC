@@ -68,7 +68,7 @@ title =<i><u><b>Advanced Operating Systems
 ***[#green] <color #white><i><size:14>Container Engines
 ****[#darkorange] <color #black><i><size:14><b>E.g [[docs/3-devops/devops-plantuml-mindmap/Docker.puml Docker]]
 ***[#green] <color #white><i><size:14>Container Orchestration
-****[#darkorange] <color #black><i><size:14><b>E.g [[docs/3-devops/images/kubernetes-components-mindmap.puml Kubernetes]]
+****[#darkorange] <color #black><i><size:14><b>E.g [[docs/3-devops/images/kubernetes.puml Kubernetes]]
 *[#darkblue] <color #white><i>Concurrency
 **[#lightblue] <color #black><i><size:14>Process Synchronization
 ***[#green] <color #white><i><size:14>Semaphores

@@ -1,0 +1,122 @@
+@startmindmap
+title = <i>Kubernetes\n<img:img_1.png{scale=.66}> <img:img_2.png> \n<i><color #white>[[docs/3-devops/images/k8-cheatsheet.png kubernetes cheatsheet]] cick me
+caption |<img:k8_architecture.png{scale=.65}>|<img:k8_architecture1.png{scale=.53}>|
+
+!theme hacker
+* <img:kubernetes-cluster-node-pod.png{scale=.85}>
+**[#black] <color #white><i><size:12>[[docs/3-devops/devops-plantuml-mindmap/Docker.puml Docker in depth]]
+***[#a] <i><size:12><b>[[docs/3-devops/docker.adoc docker.adoc]] Click me
+***[#a] <i><size:12><b>[[docs/3-devops/dockerize-a-web-app.puml dockerize a web-app]] Click me
+**[#black] <color #white><i><size:12>[[docs/3-devops/kubernetes.adoc Kubernetes in depth]]
+***[#lightblue] <i><size:12>Click me .adoc
+**[#black] <color #white><i><size:12>Introduction to AWS
+***[#lightblue] <i><size:12>Click me
+**[#gold] <i><size:12>Core Components
+***[#lightblue] <i><size:12>API Server
+***[#lightblue] <i><size:12>etcd
+***[#lightblue] <i><size:12>Controller Manager
+***[#lightblue] <i><size:12>Scheduler
+***[#lightblue] <i><size:12>Kubelet
+***[#lightblue] <i><size:12>Kube-proxy
+**[#gold] <i><size:12>Master Components
+***[#lightblue] <i><size:12>kube-apiserver
+***[#lightblue] <i><size:12>kube-controller-manager
+***[#lightblue] <i><size:12>kube-scheduler
+***[#lightblue] <i><size:12>etcd
+**[#gold] <i><size:12>Node Components
+***[#lightblue] <i><size:12>kubelet
+***[#lightblue] <i><size:12>kube-proxy
+**[#gold] <i><size:12>Addons
+***[#lightblue] <i><size:12>Dashboard
+***[#lightblue] <i><size:12>DNS
+***[#lightblue] <i><size:12>Ingress Controller
+***[#lightblue] <i><size:12>Metrics Server
+***[#lightblue] <i><size:12>Network Policy Controller
+***[#lightblue] <i><size:12>Storage Class Provisioner
+
+
+
+*[#darkblue] <i><color #white>Kubernetes
+**[#lightblue] <i><color #blac><size:12>Definition
+***[#green] <b><i><color #white><size:12>Open-source container orchestration platform.
+**[#lightblue] <i><color #blac><size:12>Components
+***[#green] <b><i><color #white><size:12>API Server
+****[#yellow] <i><color #black><size:12>Handles Kubernetes <b>API requests.
+***[#green] <b><i><color #white><size:12>Scheduler
+****[#yellow] <i><color #black><size:12>Assigns workloads to specific <b>nodes.
+***[#green] <b><i><color #white><size:12>Controller Manager
+****[#yellow] <i><color #black><size:12>Monitors **cluster state** & manages <b>controllers.
+***[#green] <b><i><color #white><size:12>Kubelet
+****[#yellow] <i><color #black><size:12>**Agent** running on each **node,** manages <b>containers.
+***[#green] <b><i><color #white><size:12>Container Runtime
+****[#yellow] <i><color #black><size:12>Software responsible for running <b>containers. e.g. docker-engine
+*****[#yellow]  <img:docker.svg{scale=.65}>
+***[#green] <b><i><color #white><size:12>etcd
+****[#yellow] <i><color #black><size:12>Distributed **key-value store** for <b>cluster data.
+**[#lightblue] <i><color #blac><size:12>Core Concepts
+***[#green] <b><i><color #white><size:12>Pod
+****[#yellow] <i><color #black><size:12>**Smallest deployable unit,** contains one or more <b>containers.
+***[#green] <b><i><color #white><size:12>Node
+****[#yellow] <i><color #black><size:12>Individual **worker machine** in a <b>Kubernetes cluster.
+***[#green] <b><i><color #white><size:12>Service
+****[#yellow] <i><color #black><size:12>Permanent **IP address** for a **set** of <b>Pods.
+***[#green] <b><i><color #white><size:12>Deployment
+****[#yellow] <i><color #black><size:12>Manages **Pods** & their <b>lifecycle.
+*****[#black] <i><color #white><size:12><b>[[docs/3-devops/images/pod-lifecycle.png Pod's lifecycle]] \n<i><color #white><size:12><b>[[docs/3-devops/images/container-lifecycle.png Container lifecycle]]
+***[#green] <b><i><color #white><size:12>Namespace
+****[#yellow] <i><color #black><size:12>**Virtual clusters** within a <b>physical cluster.
+
+**[#lightblue] <i><color #blac><size:12>Cluster Architecture\n<img:cluster-node-pod.drawio.png{scale=1}>
+***[#gold] <b><i><size:12>Nodes
+****[#yellow] <color #black><i><size:12>Pods<img:pod1.svg{scale=.35}>
+****[#yellow] <color #black><i><size:12>Labels and Selectors
+****[#yellow] <color #black><i><size:12>Namespaces
+****[#yellow] <color #black><i><size:12>Services<img:service.svg{scale=.35}>
+****[#yellow] <color #black><i><size:12>Endpoints
+****[#yellow] <color #black><i><size:12>Replication Controllers
+****[#yellow] <color #black><i><size:12>Deployments<img:deployment.svg{scale=.35}>
+****[#yellow] <color #black><i><size:12>StatefulSets<img:stateful-set.svg{scale=.5}>
+****[#yellow] <color #black><i><size:12>DaemonSets
+***[#gold] <b><i><size:12>Volumes\n<img:img_3.png{scale=.8}>
+****[#yellow] <color #black><i><size:12>EmptyDir
+****[#yellow] <color #black><i><size:12>HostPath
+****[#yellow] *<color #black><i><size:12><b>ConfigMap
+****[#yellow] *<color #black><i><size:12><b>Secrets
+****[#yellow] <color #black><i><size:12><b>PersistentVolume
+****[#yellow] <color #black><i><size:12><b>PersistentVolumeClaim
+***[#gold] <b><i><size:12>Configurations
+****[#yellow] <color #black><i><size:12>ConfigMaps
+****[#yellow] <color #black><i><size:12>Secrets<img:secretes.svg{scale=.5}>
+***[#gold] <b><i><size:12>Security
+****[#yellow] <color #black><i><size:12>Role-Based Access Control
+****[#yellow] <color #black><i><size:12>Service Account
+****[#yellow] <color #black><i><size:12>Network Policies
+
+**[#lightblue] <i><color #blac><size:12>Features
+***[#green] <b><i><color #white><size:12>Scaling
+****[#yellow] <i><color #black><size:12>Horizontal and Vertical scaling of <b>applications.
+***[#green] <b><i><color #white><size:12>Load Balancing
+****[#yellow] <i><color #black><size:12>Distributes **traffic** across multiple <b>Pods.
+***[#green] <b><i><color #white><size:12>Self-healing
+****[#yellow] <i><color #black><size:12>Restores **failed containers** or replaces them.
+***[#green] <b><i><color #white><size:12>Rolling Updates
+****[#yellow] <i><color #black><size:12>Updates applications without downtime.
+***[#green] <b><i><color #white><size:12>Configuration Management
+****[#yellow] <i><color #black><size:12>Centralized management of <b>configurations.
+**[#lightblue] <i><color #blac><size:12>Advantages
+***[#green] <b><i><color #white><size:12>Scalability
+****[#yellow] <i><color #black><size:12>Scales applications effortlessly.
+***[#green] <b><i><color #white><size:12>Portability
+****[#yellow] <i><color #black><size:12>Allows seamless movement between <b>environments.
+***[#green] <b><i><color #white><size:12>Resource Optimization
+****[#yellow] <i><color #black><size:12>Efficient **resource (RAM, CPU, & GPU)** utilization.
+***[#green] <b><i><color #white><size:12>Automation
+****[#yellow] <i><color #black><size:12>Automates <b>deployment, scaling, and management.
+**[#lightblue] <i><color #blac><size:12>Use Cases
+***[#green] <b><i><color #white><size:12>Microservices Deployment
+****[#yellow] <i><color #black><size:12>Orchestrating multiple microservices.
+***[#green] <b><i><color #white><size:12>Continuous Deployment
+****[#yellow] <i><color #black><size:12><b>Continuous integration and deployment workflows.
+***[#green] <b><i><color #white><size:12>Hybrid Cloud Management
+****[#yellow] <i><color #black><size:12>Management of **applications** across <b>multiple clouds.
+@endmindmap

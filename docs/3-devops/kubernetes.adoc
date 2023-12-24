@@ -284,7 +284,7 @@ image::images/pod.svg[width=200,float=right]
 
 [[cluster]]
 .cluster,node, & pod
-image::images/cluster,node,pod.svg[width=800]
+image::images/cluster-node-pod.svg[width=800]
 
 [[manages]]
 .cluster,node, pod, docker, & ec2

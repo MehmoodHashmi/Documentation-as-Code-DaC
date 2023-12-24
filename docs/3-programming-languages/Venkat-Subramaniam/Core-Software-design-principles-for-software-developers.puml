@@ -270,8 +270,9 @@ skinparam hyperlinkColor white
 |<#white><i><color #black><size:12>The **"services"** assume that all **"communication"** take place <b>over the network.|
 *<i><color #black><size:12>**Communication** across **"service boundaries"** are very **slow** compared to <b>function calls;
 ******[#a] <color #black><size:12><b><i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_269.png Protocol]] vs [[docs/3-programming-languages/clean-architecture/Difference-between-URI-and-URL.puml URL vs URI]]
+*******[#a] <color #black><size:12><b><i>[[docs/3-devops/images/kubernetes.puml kubernetes]]
 ******[#yellow] <img:images/img_246.png{scale=.135}>
-*******[#yellow] <img:images/img_260.png{scale=.65}>
+*******[#yellow] <img:images/img_260.png{scale=.85}>
 **[#lightblue] <i><color #black><size:12>Keep it DRY!
 ***[#green] <i><color #white><b><size:12>Don't Repeat yourself
 ****[#yellow]:<i><color #black><size:12>Don't duplicate <b>code
