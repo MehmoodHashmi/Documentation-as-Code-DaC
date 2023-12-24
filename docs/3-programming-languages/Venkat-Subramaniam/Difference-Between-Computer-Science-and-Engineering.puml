@@ -1,0 +1,58 @@
+@startmindmap
+title =<i><b><u>Difference Between Computer Science and Engineering\n<img:images/img_68.png>
+caption <img:images/img_69.png>\n\n<img:images/img_63.png{scale=.88}>
+!theme hacker
+
+*[#darkblue] <i><color #white>Difference Between \n<i><color #white>Computer Science & Engineering
+**[#lightblue] <i><color #blac><size:12>Computer Science
+***[#green] <b><i><color #white><size:12>Focus
+****[#yellow] <i><color #black><size:12><b>Study of algorithms, computation, and information processing.
+***[#green] <b><i><color #white><size:12>Key Areas
+****[#yellow] <i><color #black><size:12>Algorithms and Data Structures
+****[#yellow] <i><color #black><size:12>Artificial Intelligence
+****[#yellow] <i><color #black><size:12>Software Development
+****[#yellow] <i><color #black><size:12>Computational Theory
+****[#yellow] <i><color #black><size:12>Networking and Security
+***[#green] <b><i><color #white><size:12>Core Concepts
+****[#yellow] <i><color #black><size:12><b>Theory of Computation
+****[#yellow] <i><color #black><size:12><b>Programming Languages
+****[#yellow] <i><color #black><size:12><b>Database Systems
+****[#yellow] <i><color #black><size:12><b>Operating Systems
+****[#yellow] <i><color #black><size:12><b>Computer Architecture
+***[#green] <b><i><color #white><size:12>Application
+****[#yellow] <i><color #black><size:12>Software Development
+****[#yellow] <i><color #black><size:12>System Analysis
+****[#yellow] <i><color #black><size:12>Research in AI and Machine Learning
+****[#yellow] <i><color #black><size:12>Cybersecurity
+**[#lightblue] <i><color #blac><size:12>Engineering
+***[#green] <b><i><color #white><size:12>Focus
+****[#yellow] <i><color #black><size:12><b>Application of scientific principles to solve real-world problems.
+***[#green] <b><i><color #white><size:12>Key Areas
+****[#yellow] <i><color #black><size:12>Electrical <b>Engineering
+****[#yellow] <i><color #black><size:12>Mechanical <b>Engineering
+****[#yellow] <i><color #black><size:12>Civil <b>Engineering
+****[#yellow] <i><color #black><size:12>Chemical <b>Engineering
+****[#yellow] <i><color #black><size:12>Aerospace <b>Engineering
+***[#green] <b><i><color #white><size:12>Core Concepts
+****[#yellow] <i><color #black><size:12>Mathematics and Physics
+****[#yellow] <i><color #black><size:12>Applied Science
+****[#yellow] <i><color #black><size:12>Design and Analysis
+****[#yellow] <i><color #black><size:12>Problem-Solving
+****[#yellow] <i><color #black><size:12>Prototyping and Testing
+***[#green] <b><i><color #white><size:12>Application
+****[#yellow] <i><color #black><size:12>Building Structures and Infrastructure
+****[#yellow] <i><color #black><size:12>Designing Electrical Circuits
+****[#yellow] <i><color #black><size:12>Manufacturing Processes
+****[#yellow] <i><color #black><size:12>Chemical Production
+****[#yellow] <i><color #black><size:12>Vehicle Design and Aerospace Projects
+**[#lightblue] <i><color #blac><size:12>Key Differences
+***[#green] <b><i><color #white><size:12>Focus
+****[#yellow] <i><color #black><size:12>Computer Science centers on software, algorithms, and information.
+****[#yellow] <i><color #black><size:12>Engineering applies scientific principles to physical systems and structures.
+***[#green] <b><i><color #white><size:12>Core Concepts
+****[#yellow] <i><color #black><size:12>Computer Science focuses on computation theory, programming, and software development.
+****[#yellow] <i><color #black><size:12>Engineering emphasizes applied science, problem-solving, and design principles.
+***[#green] <b><i><color #white><size:12>Application
+****[#yellow] <i><color #black><size:12>Computer Science applies to software development, AI, and cybersecurity.
+****[#yellow] <i><color #black><size:12>Engineering covers various domains like construction, manufacturing, and infrastructure.
+@endmindmap
