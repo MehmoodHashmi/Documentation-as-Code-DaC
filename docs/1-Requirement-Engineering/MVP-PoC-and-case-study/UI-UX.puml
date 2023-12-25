@@ -25,7 +25,7 @@ title = <b><i>UI/UX\n<img:images/img_2.png{scale=.8}>
 **[#lightblue] <i><color #blac><size:22>User Experience (UX)
 ***[#green] <b><i><color #white><size:12>Research
 ****[#yellow] <i><color #black><size:12>User Analysis
-****[#yellow] <i><color #black><size:12><b>Personas
+****[#a] <i><color #black><size:12><b>[[https://www.youtube.com/watch?v=UnAuwhu2C9Q&ab_channel=GFXMentor Personas]]
 ****[#yellow] <i><color #black><size:12>Scenarios
 ****[#a] <b><i><color #black><size:12>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/images/img_3.png Journey Maps]]
 *****[#gold] *<i><color #black><size:12>uses **personas** as **basis** to start <b>working\n*<i><color #black><size:12>Use **mermaid tool** for creating <b>"journey map"
