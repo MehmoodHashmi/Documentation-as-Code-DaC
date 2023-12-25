@@ -27,6 +27,7 @@ caption |<img:images/img.png{scale=.85}>|<img:images/img_1.png{scale=0.71}>|
 ***[#green] <b><i><color #white><size:12>Research
 ****[#yellow] <i><color #black><size:12>User Analysis
 ****[#a] <i><color #black><size:12><b>[[https://www.youtube.com/watch?v=UnAuwhu2C9Q&ab_channel=GFXMentor Personas]]
+*****[#yellow] <i><color #black><size:12>E.g. tools like <b>"MS Word Document"
 ****[#yellow] <i><color #black><size:12>Scenarios
 ****[#a] <b><i><color #black><size:12>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/images/img_3.png Journey Maps]]
 *****[#gold] *<i><color #black><size:12>uses **personas** as **basis** to start <b>working\n*<i><color #black><size:12>Use **mermaid tool** for creating <b>"journey map"
@@ -39,7 +40,9 @@ caption |<img:images/img.png{scale=.85}>|<img:images/img_1.png{scale=0.71}>|
 ***[#green] <b><i><color #white><size:12>Strategy
 ****[#orange] <b><i><color #black><size:12>Information Architecture
 ****[#a] <b><i><color #black><size:12>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/images/image_3.png Wireframes]]
+*****[#orange] <b><i><color #black><size:12>tools visual paradigm, draw.io, balsamiq, miro, figma, lucid-chart etc.
 ****[#a] <b><i><color #black><size:12>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototypes]]
+*****[#orange] <b><i><color #black><size:12>tools like Adobe photoshop, figma etc.
 ****[#orange] <b><i><color #black><size:12>User Flows
 *****[#orange] *<b><i><color #black><size:12>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/images/image_5.png Example-1]] \n*<b><i><color #black><size:12>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/images/image_4.png Example-2]]
 ****[#orange] <b><i><color #black><size:12>Content Strategy
