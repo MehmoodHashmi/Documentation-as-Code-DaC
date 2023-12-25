@@ -4,53 +4,55 @@ title = <b><i>UI/UX\n<img:images/img_2.png{scale=.8}>
 
 *[#darkblue] <i><color:white>UI/UX
 **[#lightblue] <i><color #blac><size:22>User Interface (UI)
-***[#green] <b><i><color #white><size:14>Design
-****[#yellow] <i><color #black><size:14>Aesthetics
-****[#yellow] <i><color #black><size:14>Layout
-****[#yellow] <i><color #black><size:14>Visual Hierarchy
-****[#yellow] <i><color #black><size:14>Typography
-****[#yellow] <i><color #black><size:14>Color
-****[#yellow] <i><color #black><size:14>Images and Icons
-****[#yellow] <i><color #black><size:14>Responsive Design
-***[#green] <b><i><color #white><size:14>Components
-****[#yellow] <i><color #black><size:14><b>Buttons, Forms, Dropdowns, Menus, Lists, Icons, Navigation, Cards, Modals, Popovers, Tooltips, Progress Bars, Spinners
-***[#green] <b><i><color #white><size:14>Usability
-****[#yellow] <i><color #black><size:14>Navigation
-****[#yellow] <i><color #black><size:14>Feedback
-****[#yellow] <i><color #black><size:14>Consistency
-****[#yellow] <i><color #black><size:14>Error Handling
-****[#yellow] <i><color #black><size:14>Help and Documentation
-****[#yellow] <i><color #black><size:14>Accessibility
-****[#yellow] <i><color #black><size:14>Speed and Performance
+***[#green] <b><i><color #white><size:12>Design
+****[#yellow] <i><color #black><size:12>Aesthetics
+****[#yellow] <i><color #black><size:12>Layout
+****[#yellow] <i><color #black><size:12>Visual Hierarchy
+****[#yellow] <i><color #black><size:12>Typography
+****[#yellow] <i><color #black><size:12>Color
+****[#yellow] <i><color #black><size:12>Images and Icons
+****[#yellow] <i><color #black><size:12>Responsive Design
+***[#green] <b><i><color #white><size:12>Components
+****[#yellow] <i><color #black><size:12><b>Buttons, Forms, Dropdowns, Menus, Lists, Icons, Navigation, Cards, Modals, Popovers, Tooltips, Progress Bars, Spinners
+***[#green] <b><i><color #white><size:12>Usability
+****[#yellow] <i><color #black><size:12>Navigation
+****[#yellow] <i><color #black><size:12>Feedback
+****[#yellow] <i><color #black><size:12>Consistency
+****[#yellow] <i><color #black><size:12>Error Handling
+****[#yellow] <i><color #black><size:12>Help and Documentation
+****[#yellow] <i><color #black><size:12>Accessibility
+****[#yellow] <i><color #black><size:12>Speed and Performance
 **[#lightblue] <i><color #blac><size:22>User Experience (UX)
-***[#green] <b><i><color #white><size:14>Research
-****[#yellow] <i><color #black><size:14>User Analysis
-****[#yellow] <i><color #black><size:14>Personas
-****[#yellow] <i><color #black><size:14>Scenarios
-****[#yellow] <i><color #black><size:14>Journey Maps
-****[#yellow] <i><color #black><size:14>Surveys
-****[#yellow] <i><color #black><size:14>Interviews
-****[#yellow] <i><color #black><size:14>Analytics
-****[#yellow] <i><color #black><size:14>Usability Testing
-****[#yellow] <i><color #black><size:14>A/B Testing
-****[#yellow] <i><color #black><size:14>Heatmaps
-***[#green] <b><i><color #white><size:14>Strategy
-****[#orange] <b><i><color #black><size:14>Information Architecture
-****[#yellow] <i><color #black><size:14>Wireframes
-****[#yellow] <i><color #black><size:14>Prototypes
-****[#orange] <b><i><color #black><size:14>User Flows
-****[#orange] <b><i><color #black><size:14>Content Strategy
-****[#yellow] <i><color #black><size:14>Business Strategy
-***[#green] <b><i><color #white><size:14>Design
-****[#yellow] <i><color #black><size:14>Visual Design
-****[#yellow] <i><color #black><size:14>Interaction Design
-****[#yellow] <i><color #black><size:14>Information Design
-****[#yellow] <i><color #black><size:14>Motion Design
-***[#green] <b><i><color #white><size:14>Evaluation
-****[#yellow] <i><color #black><size:14>User Testing
-****[#yellow] <i><color #black><size:14>Expert Reviews
-****[#yellow] <i><color #black><size:14>Usability Metrics
-****[#yellow] <i><color #black><size:14>Analytics
-****[#yellow] <i><color #black><size:14>Feedback
-****[#yellow] <i><color #black><size:14>Surveys
+***[#green] <b><i><color #white><size:12>Research
+****[#yellow] <i><color #black><size:12>User Analysis
+****[#yellow] <i><color #black><size:12><b>Personas
+****[#yellow] <i><color #black><size:12>Scenarios
+****[#a] <b><i><color #black><size:12>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/images/img_3.png Journey Maps]]
+*****[#gold] *<i><color #black><size:12>uses **personas** as **basis** to start <b>working\n*<i><color #black><size:12>Use **mermaid tool** for creating <b>"journey map"
+****[#yellow] <i><color #black><size:12>Surveys
+****[#yellow] <i><color #black><size:12>Interviews
+****[#yellow] <i><color #black><size:12>Analytics
+****[#yellow] <i><color #black><size:12>Usability Testing
+****[#yellow] <i><color #black><size:12>A/B Testing
+****[#yellow] <i><color #black><size:12>Heatmaps
+***[#green] <b><i><color #white><size:12>Strategy
+****[#orange] <b><i><color #black><size:12>Information Architecture
+****[#a] <b><i><color #black><size:12>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/images/image_3.png Wireframes]]
+****[#a] <b><i><color #black><size:12>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototypes]]
+****[#orange] <b><i><color #black><size:12>User Flows
+*****[#orange] *<b><i><color #black><size:12>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/images/image_5.png Example-1]] \n*<b><i><color #black><size:12>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/images/image_4.png Example-2]]
+****[#orange] <b><i><color #black><size:12>Content Strategy
+****[#yellow] <i><color #black><size:12>Business Strategy
+***[#green] <b><i><color #white><size:12>Design
+****[#yellow] <i><color #black><size:12>Visual Design
+****[#yellow] <i><color #black><size:12>Interaction Design
+****[#yellow] <i><color #black><size:12>Information Design
+****[#yellow] <i><color #black><size:12>Motion Design
+***[#green] <b><i><color #white><size:12>Evaluation
+****[#yellow] <i><color #black><size:12>User Testing
+****[#yellow] <i><color #black><size:12>Expert Reviews
+****[#yellow] <i><color #black><size:12>Usability Metrics
+****[#yellow] <i><color #black><size:12>Analytics
+****[#yellow] <i><color #black><size:12>Feedback
+****[#yellow] <i><color #black><size:12>Surveys
 @endmindmap

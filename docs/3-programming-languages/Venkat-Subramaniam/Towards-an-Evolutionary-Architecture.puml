@@ -20,7 +20,8 @@ title =<i><b><u>Towards an Evolutionary Architecture
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_26.png Hexagonal Architecture + DDD]] click me
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_97.png Domain Driven Design DDD]] click me
 ==<i><color #black><size:14><b>Building & Designing Software==
-*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_63.png Who builds & designs the software?]] click me;
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_63.png Who builds & designs the software?]] click me
+*<b><i><color #black><size:12>[[docs/cloud-computing/AWS-Cloud/Software_Architecture_Mindmap.png Software Architecture fundamentals Mindmap]];
 *****[#yellow] <i><color #black><size:12>**--BUFD--** is waterfall
 ******[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_255.png Agile vs DevOps vs SRE]]
 *****[#yellow] <i><color #black><size:12>Agile (No Design) is <b>disaster!
@@ -41,6 +42,12 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_138.png Capture requirements]]
 *****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_242.png Requirements Engineering Process Maturity Model]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_244.png CMMI version-2]];
+
+******[#a]:<b><i><color #black><size:12>[[https://docs.google.com/document/d/1yBJZUMnXvuQWVgM9HTpH0VHwaUutjbFmHIjZrzKLMVA/edit Try BDD]] google docs
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_282.png Template]] share google doc with client
+*<b><i><color #black><size:12>[[https://cucumber.io/blog/bdd/better-requirements-by-harnessing-the-power-of-exa/ Better requirements by harnessing the power of examples]] article
+*<b><i><color #black><size:12>[[https://cucumber.io/blog/bdd/bdd-with-event-mapping/ BDD with Event Mapping]] article;
+
 ****[#a] <b><i><color #black><size:12>[[docs/1-business-analyst/requirements-management.puml Gather requirements]]
 *****[#a]:<b><i><color #black><size:12>[[docs/1-business-analyst/project-management/project-management.puml Project Management]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/clean-architecture/images/use-case-modeling.png Traditional use case modeling]] vs [[docs/3-programming-languages/Venkat-Subramaniam/images/img_171.png Use Case 2.0 Modeling]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_211.png Work Products]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_128.jpg UML cheatsheet]];
