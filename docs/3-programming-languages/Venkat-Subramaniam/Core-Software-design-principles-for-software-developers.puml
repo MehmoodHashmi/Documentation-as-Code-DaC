@@ -292,7 +292,7 @@ skinparam hyperlinkColor white
 
 ****[#yellow] <i><color #black><size:12>Don't duplicate <b>effort
 *****[#gold] <i><color #black><size:12><b>A cascade change
-**[#lightblue] <i><color #black><size:12>Focus on "Single Responsibility Principle"\n*<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 2- Rule of Clarity]]
+**[#lightblue] <i><color #black><size:12>Focus on "Single Responsibility Principle"\n*<i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 2- Rule of Clarity]]
 ***[#green] <i><color #white><size:12><b>Long Methods
 ****[#yellow]:<i><color #black><size:12><b>//Comment...
 
