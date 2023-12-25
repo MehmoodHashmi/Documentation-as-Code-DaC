@@ -1,13 +1,29 @@
 @startmindmap
 title =<i><b><u>Non-Linear Behavior in Programming
-*:<i><size:12>This state of **uncertainty,** where the satisfaction of boundary conditions doesn't ensure the fulfillment of all intermediate conditions, is commonly referred to as **"non-linearity" or "non-linear behavior"** in programming.
+*:<i><size:14><b><u>Non-linearity or Non-linear behavior:
+<i><size:14>This state of **uncertainty,** where the satisfaction of boundary conditions doesn't ensure the fulfillment of all intermediate conditions, is commonly referred to as **"non-linearity" or "non-linear behavior"** in programming.
 
 <i><size:12>In programming, especially when dealing with **complex systems or algorithms,** <color #crimson><b><u>even if "boundary conditions" seem to satisfy certain "expected outcomes", the "behavior" "within those boundaries" might not follow a "predictable linear path".
 <i><size:12>This non-linearity arises due to the intricate interactions and dependencies between different elements or conditions within the system.
 
 <i><size:12>This behavior is often elucidated by the phrase **"Non-linear dynamics" or "Non-linear systems,"** suggesting that the intermediate conditions, interactions, or dependencies might not behave in a linear, straightforward manner even
 <i><size:12>when boundary conditions are met. <b>It emphasizes the need for thorough testing and validation at various levels within the system to ensure its functionality across the spectrum of conditions and interactions.
-|<#pink><i><size:12><b>Linear system <color #green>(straight line)\n<img:images/img_275.png{scale=.5}>|<#gold><i><size:12><b>Non-linear system <color #green>(curved line)\n<img:images/img_276.png{scale=.67}>|<img:images/img_277.png{scale=.58}>|;
+|<#pink><i><size:12><b>Linear system <color #green>(straight line)\n<img:images/img_275.png{scale=.5}>|<#gold><i><size:12><b>Non-linear system <color #green>(curved line)\n<img:images/img_276.png{scale=.67}>|<img:images/img_277.png{scale=.58}>|
+==<i><size:14><b>[[docs/books/1-books-backlog/mathematics/math-map.puml What is interpolation?]]==
+<i><size:14><b>Example-1 [[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering/data-preprocessing-(or-wrangling)/Normalization-and-Standardization.puml Normalization and Standardization]] click me
+<i><size:14><b>Example-2 [[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering/data-preprocessing-(or-wrangling)/Feature-Scaling.puml Feature-Scaling]] click me & many others
+
+<i><size:12>**Interpolation** refers to the process of **estimating or filling** in missing values within a **set** of **data points.** It's commonly used in various fields to approximate unknown values between "known" <b>data points.
+
+<i><size:12>**Interpolation** methods involve creating a function that estimates the missing data based on the known surrounding data points. This technique assumes a certain relationship or pattern between the known values to predict the unknown ones accurately.
+
+<i><size:12><color #green>**Interpolation** is particularly useful in **mathematics, computer science, statistics, & signal processing** when dealing with **datasets or sequences of values** that have **missing or incomplete information.** It helps **smooth** out <b>"data" or "create" continuous
+<i><size:12>**"functions"** based on **discrete data points,** aiding in <b>analysis, modeling, & visualization.
+
+<i><size:12>**Interpolation** is often used in **computer graphics** to "create" **smooth curves** between **discrete points,** in **signal processing** to estimate missing **data points** in a **signal,** or in **mathematics** to find **intermediate values** between "known" <b>data points.
+
+<i><size:12>In the **context** of "programming or computing", **interpolation** can also refer to **string interpolation,** where "variables or expressions" are "embedded" within a "string" to produce a "composite string", making it easier to work with formatted output or constructing
+<i><size:12>"complex strings".;
 !theme hacker
 
 *[#darkblue] <i><color #white>Non-Linear Behavior in Programming

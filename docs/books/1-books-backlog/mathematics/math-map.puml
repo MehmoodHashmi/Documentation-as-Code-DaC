@@ -64,11 +64,11 @@ title =<i><b><u>Mathematics Map
 ***[#green] <b><i><color #white><size:14>Numerical Analysis
 ****[#yellow] <i><color #black><size:14>Approximation Theory
 ****[#yellow] <i><color #black><size:14>Numerical Methods for Solving Equations
-****[#yellow] <i><color #black><size:14>Interpolation and Extrapolation
+****[#a] <i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/Non-Linear-Behavior-in-Programming.puml Interpolation and Extrapolation]]
 ***[#green] <b><i><color #white><size:14>Optimization
 ****[#yellow] <i><color #black><size:14>Linear Programming
 ****[#yellow] <i><color #black><size:14>Nonlinear Programming
-****[#yellow] <i><color #black><size:14>Dynamic Programming
+****[#a] <i><color #black><size:14><b>Dynamic Programming
 ***[#green] <b><i><color #white><size:14>Game Theory
 ****[#yellow] <i><color #black><size:14>Cooperative and Non-Cooperative Games
 ****[#yellow] <i><color #black><size:14>Nash Equilibrium
