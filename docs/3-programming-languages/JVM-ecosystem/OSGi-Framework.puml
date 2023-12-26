@@ -44,13 +44,13 @@ title =<i><b><u>OSGi Framework\n|<img:images/img_3.png>|<img:images/img_8.png{sc
 ***[#green] <b><i><color #white><size:12>Flexibility
 ***[#green] <b><i><color #white><size:12>Reliability
 
-**[#lightblue] <i><color #black><size:12>Core Concepts\n|<img:images/img_1.png>|<img:images/img_9.png{scale=.86}>|
+**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/JVM-ecosystem/images/img_12.png Core Concepts]] click me\n|<img:images/img_1.png>|<img:images/img_9.png{scale=.86}>|
 ***[#green] <b><i><color #white><size:12>Bundles
 ****[#yellow] <i><color #black><size:12>A modular and portable JAR file that contains classes, resources, and metadata
 ****[#yellow] <i><color #black><size:12>Can be installed, started, stopped, updated, and uninstalled at runtime
 ****[#yellow] <i><color #black><size:12>Manifest file specifies bundle metadata
 ***[#green] <b><i><color #white><size:12>Services
-****[#yellow] <i><color #black><size:12>A reusable and pluggable component that provides a well-defined interface for other components to interact with
+****[#yellow] <i><color #black><size:12>A reusable & pluggable component that provides a well-defined interface for other components to interact with
 ****[#yellow] <i><color #black><size:12>Can be dynamically registered, discovered, and used by other components
 ***[#green] <b><i><color #white><size:12>Service Registry
 ****[#yellow] <i><color #black><size:12>A dynamic lookup service that allows components to register and discover services at runtime
