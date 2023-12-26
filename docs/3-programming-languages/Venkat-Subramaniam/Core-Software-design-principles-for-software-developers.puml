@@ -167,7 +167,7 @@ skinparam hyperlinkColor white
 ****[#yellow] <i><color #black><size:12><b>"Good design" has "high cohesion" & "low Coupling"
 
 
-***[#green]:<i><color #white><b><size:12><img:images/img_341.png{scale=1}>
+***[#green]:<i><color #white><b><size:12><img:images/img_342.png{scale=1}>
 *<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=_kPCbBGRl1o&t=3s&ab_channel=TechGuiders Address binding, Address translation & Memory management (O/S) (10-min video )]]
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_127.png Library Types (static vs dynamic) & .DLL hell (click me)]]
 | |<#grey><i><b><size:12><color:white>Compiler Concept|<#blue><i><b><size:12><color:white>Operating System Concept|
