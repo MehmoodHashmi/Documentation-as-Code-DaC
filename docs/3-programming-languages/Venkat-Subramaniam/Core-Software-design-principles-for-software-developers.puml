@@ -167,14 +167,14 @@ skinparam hyperlinkColor white
 ****[#yellow] <i><color #black><size:12><b>"Good design" has "high cohesion" & "low Coupling"
 
 
-***[#green]:<i><color #white><b><size:12><img:images/img_339.png{scale=.85}>
+***[#green]:<i><color #white><b><size:12><img:images/img_340.png{scale=1}>
 *<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=_kPCbBGRl1o&t=3s&ab_channel=TechGuiders Address binding, Address translation & Memory management (O/S) (10-min video )]]
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_127.png Library Types (static vs dynamic) & .DLL hell (click me)]]
 | |<#grey><i><b><size:12><color:white>Compiler Concept|<#blue><i><b><size:12><color:white>Operating System Concept|
 |<#brown><i><b><size:12><color:white>Static |<#grey><i><b><size:12><color:white>Loading |<#blue><i><b><size:12><color:white><i><b><size:12><color:white>Linking (is early binding) \n<i><b><size:12><color:white><i><b><size:12><color:white>\t\t [[https://www.youtube.com/watch?v=eW5he5uFBNM&t=9s&ab_channel=HowTo (5-min video)]] \n<i><b><size:12><color:white>While it interacts with O/S loader, it \n<i><b><size:12><color:white>is primarily a compiler concept as it\n<i><b><size:12><color:white>occurs during "compilation phase" |
 |<#purple><i><b><size:12><color:white>Dynamic  |<#grey><i><b><size:12><color:white>Linking (is late binding) \t\t [[https://www.youtube.com/watch?v=eW5he5uFBNM&t=9s&ab_channel=HowTo (5-min video)]] \n<i><b><size:12><color:white>It is more related to O/S's <u>"dynamic linking loader",\n<i><b><size:12><color:white>but decision to create a dynamically linked program\n<i><b><size:12><color:white>is often influenced by "compiler options"|<#blue><i><b><size:12><color:white>Loading \t\t\t[[https://www.youtube.com/watch?v=qfGql6sGlZg&ab_channel=TechGuiders (2-min video)]]|
 ==<i><color #white><b><size:18>The spectrum of "contract types" from "strict to lose"==
-<img:images/img_46.png{scale=1.28}>;
+<img:images/img_46.png{scale=.85}>;
 ****[#gold] <i><color #black><size:12><b>Ditributed Architecture
 *****[#a] *<i><color #black><size:12><b>[[docs/3-devops/images/kubernetes.puml "Kuberenetes cluster"]] is good for systems involving "syncrhronous communication" like e.g. "microservices"\n*<i><color #black><size:12><b>[[docs/cloud-computing/AWS-Cloud/serverless.puml "AWS lambda" (Serverless)]] is good in reactive systems involving "asynchronous communication" e.g. EDA
 ****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_258.png History of Components]] click me
