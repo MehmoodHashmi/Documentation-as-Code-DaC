@@ -1,8 +1,8 @@
 @startmindmap
 title =<i>Introduction to Specification Description Language (SDL)
-* <b><i>[[https://www.youtube.com/watch?v=0MG4I1HqIb4&t=729s&ab_channel=PragmaDevSoftware Introduction to SDL]] video 20-minutes
+* <b><i>[[https://www.youtube.com/watch?v=0MG4I1HqIb4&t=729s&ab_channel=PragmaDevSoftware Introduction to SDL]] video 20-minutes, It is excellent explaination if you can't understand by reading just watch it again
 ** <b><i>[[https://www.youtube.com/watch?v=Hfxq5O6LhjQ&ab_channel=PragmaDevSoftware Introduction to SDL]] another video
-*** =<b><i>[[docs/3-programming-languages/Venkat-Subramaniam/SDL-(Specification-and-Description-Language).puml SDL support & example in plantuml]] click me
+*** <b><i>[[docs/3-programming-languages/Venkat-Subramaniam/SDL-(Specification-and-Description-Language).puml SDL support & example in plantuml]] click me
 
 !theme hacker
 *[#darkblue] <i><color:white>Introduction to SDL
@@ -120,7 +120,7 @@ title =<i>Introduction to Specification Description Language (SDL)
 **<i><size:12><color:black>If processes run sequentially then their corresponding transitions are executed inter living. In this case the transitions are run to completion.
 **<i><size:12><color:black>There is only one transition is executed at a time until it reaches the next state or stop.
 *<b><u><i><size:12><color:black>The actions that can be performed during a transition include:
-**<i><size:12><color:black>timer manipulation, process creation, procedure and macro call, decision, transition option, execution of SDL code and a connector.;
+**<i><size:12><color:green>timer manipulation, process creation, procedure and macro call, decision, transition option, execution of SDL code and a connector.;
 ******[#a]:*<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_306.png Unexpected inputs are discarded click me]]
 *<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_309.png Transition Triggered by an event click me]]
 *<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_310.png Ends in next state or stop click me]]
@@ -130,37 +130,49 @@ title =<i>Introduction to Specification Description Language (SDL)
 ****[#green] <i><size 12><b><color:white>Output
 *****[#yellow]:*<i><size:12><color:black>A process can send messages to another based on the paths defined in the structure.
 <i><size:12><color:black>If a single path exists in the structure for a given message then its name and parameters are enough to address the receiver process.
-<i><size:12><color:black>However, the receiver of a message can be set explicitly in the output symbol. This is useful when there are several possible paths for
-<i><size:12><color:black>a given message. If the receiver is set explicitly then a path must exist for the given message. A message can be sent to a named process,
-<i><size:12><color:black>to a process identifier to the environment or via a channel or a gate. The process identifier can be the sender of the message that triggered
-<i><size:12><color:black>the current transition. The process that created the current process instance, a process instance created by the current process or the process itself.;
-******[#a] <i><size 12><b><color:white>[[a a]]
+*<i><size:12><color:black>However, the receiver of a message can be set explicitly in the output symbol. This is useful when there are several possible paths for
+<i><size:12><color:black>a given message. If the receiver is set explicitly then a path must exist for the given message.
+|<#white><i><size:12><color:black>A **"message"** can be **"sent"** to a **named process,** to a **process identifier** to the **environment** or via a **channel** or a <b>gate.|
+**<i><size:12><color:black>The **process identifier** can be the **"sender of the message"** that triggered the current transition.The **process** that created the
+<i><size:12><color:black>\t**"current process instance",** a **"process instance"** created by the **"current process"** or the **"process"** itself.;
+******[#a]:*<i><size 12><b><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_313.png Message are sent "implicitly"]]
+*<i><size 12><b><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_314.png Message are sent "explicitly"]];
 
 ****[#green] <i><size 12><b><color:white>Timer
-*****[#yellow]:<i><size:12><color:black>Timers are identified by their name they can be declared however, their declaration is optional. The behavior in SDL is concerned with duration.
+*****[#yellow]:*<i><size:12><color:black>Timers are identified by their name they can be declared however, their declaration is optional. The behavior in SDL is concerned with duration.
 <i><size:12><color:black>There is with the difference between timer values rather than values themselves. That is why the unit of time in SDL is irrelevant.
-<i><size:12><color:black>A timer is started with least it's expected timeout and the now keyword can be used to get the current time.
-<i><size:12><color:black>When a timer goes off it becomes a message in the input queue and it will be treated as any normal message that is in first in first out order.
-<i><size:12><color:black>If however, the timer is cancelled while the corresponding message is already in the queue, the message will be removed from the queue.
-==Example==
+*<i><size:12><color:black>A **timer is started** with least it's expected timeout and the now keyword can be used to get the current time.
+*<i><size:12><color:black>When a **timer goes off** it becomes a message in the input queue and it will be treated as any normal message that is in first in first out order.
+<i><size:12><color:black>If however, the **timer is cancelled** while the corresponding message is already in the queue, the message will be removed from the queue.
+==<i><size:12><color:black><b>Example==
 <i><size:12><color:black>The transition triggered by signal 2 will cancel the timer tick which will be removed from the queue and its associated transition will not be executed.;
+******[#a]:*<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_315.png Timer identified by name optional declaration]]
+*<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_316.png Timer Start]]
+*<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_317.png Timeout]]
+*<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_318.png Timer cancelled]];
 
 ****[#green] <i><size 12><b><color:white>Process creation
-*****[#yellow]:<i><size:12><color:black>Process instances in SDL can be created either statically or dynamically.
-<i><size:12><color:black>**Static creation** is done at **system startup** and the number of instances is set in the process symbol.
-<i><size:12><color:black>**Dynamic creation** is done at **runtime** that is during the execution of a transition. In this case one instance of a process is created.;
+*****[#yellow]:<i><size:12><color:black>**Process instances** in SDL can be **created** either <b>statically or dynamically.
+*<i><size:12><color:black>**Static creation** is done at **system startup** and the number of instances is set in the process symbol.
+*<i><size:12><color:black>**Dynamic creation** is done at **runtime** that is during the execution of a transition. In this case one instance of a process is created.;
+******[#a] *<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_319.png Process creation]]
 
 ****[#green] <i><size 12><b><color:white>Procedure
-*****[#yellow]:<i><size:12><color:black>A procedure can be declared everywhere in the structure of a system be it block or process. The declaration symbol has the name of the procedure
-<i><size:12><color:black>like procedure 1 in this example. Procedures are used to factorize behavior. There is a behavioral pattern that repeats itself several times can be
-<i><size:12><color:black>defined as a procedure hence, reducing the size and complexity of the model. Behavior in procedure is modeled using state machines like in processes.
+*****[#yellow]:<i><size:12><color:black>A **procedure** can be declared everywhere in the structure of a system be it **"block" or "process".** The declaration symbol has the name of the procedure
+<i><size:12><color:black>like procedure 1 in this example.
+*<i><size:12><color:black>Procedures are used to factorize behavior. There is a behavioral pattern that repeats itself several times can be defined as a procedure hence, reducing the
+<i><size:12><color:black>size and complexity of the model. Behavior in procedure is modeled using state machines like in processes.
 <i><size:12><color:black>However, they have a different start symbol and unlike processes they return rather than stop. Also procedures can accept parameters and return a value to the caller.
-<i><size:12><color:black>The caller of a procedure can be either a process or another procedure. A call to a procedure will interrupt the execution of the current transition until the procedure returns.
+*<i><size:12><color:black>The **caller** of a procedure can be either a process or another procedure. A call to a procedure will interrupt the execution of the current transition until the procedure returns.
 <i><size:12><color:black>Procedures can send and receive messages and modify the data of their declaring agent.;
+******[#a]:*<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_320.png Procedure]]
+*<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_321.png Definition]]
+*<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_322.png Call]];
 
-****[#green] <i><size 12><b><color:white>ProcedureMacro
+****[#green] <i><size 12><b><color:white>Macro
 *****[#yellow]:<i><size:12><color:black>Another way to factorize behavior is with macros unlike procedures macros cannot receive messages and thus no transition can be defined inside them.
 <i><size:12><color:black>A macro is expanded when called which is like replacing the call symbol by the contents of the macro. This is why a macro cannot call itself as it would cause an infinite expansion.;
+******[#a] *<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_323.png Macro]]
 
 ****[#green] <i><size 12><b><color:white>Composite State
 *****[#yellow]:<i><size:12><color:black>A composite state is a state composed of sub-state machines and it allows to model hierarchical state machines. Each sub-state machine handles a different subset
@@ -168,6 +180,7 @@ title =<i>Introduction to Specification Description Language (SDL)
 <i><size:12><color:black>is for the super state machine all sub-state machines are terminated.
 ==<i><size:14><color:black><b>Example==
 The process will stay in state 1 until it receives signal 3 while in this state signal 1 and Sigma 2 are treated by its sub-state machines.;
+******[#a] *<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_324.png Composite State]]
 
 ***[#lightblue] <b><i><size:12>Data
 ****[#green]:<i><size 12><b><color:white>SDL supports data types. A data type definition consists of a body a set of literals and a set of operators.
@@ -190,10 +203,18 @@ The process will stay in state 1 until it receives signal 3 while in this state 
 <i><size:12><color:white>If it is then the value is added to the sum and the process does not leave it's current state.
 <i><size:12><color:white>The process will be waiting for other integers to add to the sum until it receives a zero or negative value.
 <i><size:12><color:white>In this case it will send signal to with the computed sum as a parameter.;
+*****[#a]:*<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_325.png Data]]
+*<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_326.png Type based on type]]
+**<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_327.png Constraints & default value]]
+**<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_328.png Constants & variables]]
+**<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_329.png No global variables & remote variables]]
+**<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_330.png More on Data]];
 
 ***[#lightblue] <b><i><size:12>Object-Orientation
 ****[#green] *<i><size 12><b><color:white>The object-oriented concepts of SDL give the user additional tools for structuring and reuse.
+*****[#a] *<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_331.png Object orientation]]
 ****[#green] *<i><size 12><b><color:white>The concepts are based on classes and specialization provides a simple and intuitive way for creating new classes based on existing ones.
+*****[#a] *<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_331.png Object orientation]]
 
 ****[#green] <i><size 12><b><color:white>Class
 *****[#yellow]:<i><size:12><color:black>Defining an agent class allows to use the same agent several times in the system.
@@ -201,8 +222,11 @@ The process will stay in state 1 until it receives signal 3 while in this state 
 <i><size:12><color:black>An instance of a class is represented with a dotted line with the name of the instance and that of its class.
 <i><size:12><color:black>When a class is instantiated the gates are connected to the surrounding structure.
 <i><size:12><color:black>The message is listed in the gates must be consistent with those listed in the connected channels.;
+******[#a]:*<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_332.png Class definition]]
+*<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_333.png Instanciation]];
 
 ****[#green] <i><size 12><b><color:white>ClassSpecialization
 *****[#yellow]:<i><size:12><color:black>Specialization allows a block subclass to inherit the structure of its superclass. This includes agents channels gates and messages.
 <i><size:12><color:black>A process subclass inherits the behavior of its superclass that is its data and transitions.;
+******[#a] *<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_334.png Specialization]]
 @endmindmap
