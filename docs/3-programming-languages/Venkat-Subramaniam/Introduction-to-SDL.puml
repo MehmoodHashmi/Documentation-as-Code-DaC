@@ -52,68 +52,89 @@ title =<i>Introduction to Specification Description Language (SDL)
 ****[#green] <i><b><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_90.png Input Queue]] <size:9> click me
 *****[#yellow]:*<i><size:12><b><color:black>Every "process" in SDL has an "implicit queue" for "messages". Messages are consumed in the order they are received, that is first-in first-out.
 *<i><size:12><color:black>If signal-1 is on top of the **queue** it will be treated first followed by signal-2.;
-******[#a] *<i><size:12><b><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_90.png Click me]]
+******[#a] *<i><size:12><b><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_90.png Input queue click me]]
 
+****[#green] <i><size:12><b><color:white><u>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_91.png Start]]
 *****[#yellow]:<i><size:14><b><color:black><u>Example
 <i><size:12><color:black>The **start symbol** is the **entry point** of a <b>state machine.
 <i><size:12><color:black>The transition between the start symbol and the first state of the process is called the start transition.
 <i><size:12><color:black>During this transition the process cannot treat messages all other symbols are allowed.;
-******[#a] *<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_91.png Click me]]
-****[#green] <i><size:12><b><color:white>State
-*****[#yellow]:<i><size:12><color:black>A state is defined by its name when in a state the process is waiting for some event to go on. The event can be a message input, priority input,
-<i><size:12><color:black><b>continuous signal or a save.;
-******[#a] <i><size:12><color:black>
-*****[#yellow]:<i><size:12><color:black>The same event can generate different behavior depending on the state the process is in,
+******[#a] *<i><size:12><color:black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_91.png Start symbol Click me]]
+****[#green] <i><size:12><b><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_294.png State]]
+*****[#yellow]:<i><size:12><color:black>A state is defined by its name. When in a state the process is waiting for some event to go on. <b>The "event" can be a <color #red>message input, priority input,
+<i><size:12><color:black><b><color #red>continuous signal or a save.;
+******[#a] <b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_294.png Wating for an event click me]]
+*****[#yellow]:<i><size:12><color:black>The **same event** can "generate" **different behavior** depending on the **state** the <b>process is in,
 ==<i><size:14><b><color:black>Example==
-<size:12><i><color:black>Signal-1 may trigger the execution of either action 1 or 2 depending on whether the process is in state 1 or state 2.
-<size:12><i><color:black>There can be several symbols for the same state. Events can be connected to the same state symbol or different symbols with the same state name.
-<size:12><i><color:black>If the same event triggers the same behavior on different states then these states can be grouped into the same symbol. At the end of the
-<size:12><i><color:black>transition the process goes to the next state. The symbol used for the next state is the same.
-==<size:14><i><color:black>Special States==
-<size:12><i><color:black>**Special states:** A dash next state (-) terminating & transition means that the next sate is the same as the state the transition was triggered,
+*<size:12><i><color:black>**Signal-1** may trigger the execution of either action 1 or 2 depending on whether the process is in state 1 or state 2.
+*<size:12><i><color:black>There can be several symbols for the same state. Events can be connected to the same state symbol or different symbols with the same state name.
+*<size:12><i><color:black>If the same event triggers the same behavior on different states then these states can be grouped into the same symbol. At the end of the
+*<size:12><i><color:black>transition the process goes to the next state. The symbol used for the next state is the same.
+==<size:14><i><color:black><b>Special States==
+*<size:12><i><color:black>**Special states:** A dash next state (-) terminating & transition means that the next sate is the same as the state the transition was triggered,
 <size:12><i><color:black>while a star (*) as a state means all states.;
+******[#a]:*<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_295.png "Different behaviour" same "state" click me]]
+*<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_296.png "Several symbol" same "state" click me]]
+*<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_297.png "Different symbol" same "state" click me]]
+*<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_298.png Next "states" click me]]
+*<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_299.png Special State: Star (*),  (-) state click me]];
 
-****[#green] <i><size 12><b><color:white>StateMessage inputs
-*****[#yellow]:<i><size:12><color:black>Message inputs are consumed in first-in first-out order.
-==<i><size:14><color:black>Example==
-<i><size:12><color:black>Signal-1 will be treated first causing the execution of action 1. As the process does not change its state after consuming the message signal 2 is treated next causing the execution of action 2.
-<i><size:12><color:black>A star (*) as a message input can be used for handling all unexpected messages. These are all the messages for which no transition has been defined in the current state.;
+****[#green] <i><size 12><b><color:white>Inputs
+*****[#yellow]:<i><size:12><color:black>Message **inputs** are consumed in first-in first-out order.
+==<i><size:14><color:black><b>Example==
+*<i><size:12><color:black>Signal-1 will be treated first causing the execution of action 1. As the process does not change its state after consuming the message signal 2 is treated next causing the execution of action 2.
+* <i><size:12><color:black>**Special Messages:** A star (*) as a message input can be used for handling all unexpected messages. These are all the messages for which no transition has been defined in the current state.;
+******[#a]:*<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_300.png Message inputs are treated in FIFO order click me]]
+* <b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_301.png Special Messages: * used for unexpected messages click me]];
 
 ****[#green] <i><size 12><b><color:white>Priority input
 *****[#yellow]:<i><size:12><color:black>In some cases it is convenient to express that reception of a message text priority of reception of other messages.
 <i><size:12><color:black>This can be expressed by means of priority input. Although signal-1 comes before signal-2 in the queue it is signal-2  which will be treated first because of the priority.
 <i><size:12><color:black>If more than one priority inputs are defined in the current state then they are consumed in first-in first-out order, like normal message inputs.;
-
+******[#a]:*<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_302.png Priority message/input click me]]
+*<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_303.png if more than one Priority input then FIFO order click me]];
 
 ****[#green] <i><size 12><b><color:white>Continuous signal
-*****[#yellow]:<i><size:12><color:black>Sometimes, the situation may arise where a transition should be executed when a certain condition is fulfilled.
-<i><size:12><color:black>A continuous signal is a boolean expression. If it evaluates to true then it's associated transition is executed. The expression is evaluated only after
-<i><size:12><color:black>all messages have been consumed that is the input queue of the process is empty. Continuous signals have priorities. the expression with the lowest
-<i><size:12><color:black>priority is evaluated first. In the example action 1 will be executed before action 2 if the value of "i" is between 0 and 10.;
+*****[#yellow]:*<i><size:12><color:black>Sometimes, the situation may arise where a transition should be executed when a certain condition is fulfilled.
+*<i><size:12><color:black>A continuous signal is a boolean expression. If it evaluates to true then it's associated transition is executed. The expression is evaluated only after
+<i><size:12><color:black>all messages have been consumed that is the input queue of the process is empty.
+*<i><size:12><color:black>Continuous signals have priorities. the expression with the lowest priority is evaluated first. In the example action 1 will be executed before action 2
+<i><size:12><color:black>if the value of "i" is between 0 and 10.;
+******[#a]:*<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_304.png Continuous signal when some particular condition is fulfilled click me]]
+**<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_305.png Continuous signals 've priorities click me]];
 
 ****[#green] <i><size 12><b><color:white>Save
-*****[#yellow]:<i><size:12><color:black>When a message is received while unexpected it is thrown away. This is considered normal behavior in SDL.
-<i><size:12><color:black>It is however possible to save messages, so that they can be processed when execution reaches a new state.
-<i><size:12><color:black>When a new state is reached saved messages will be processed before normal inputs. If signal 2 was saved in state 1 then when the process goes to state 2 it will first treat this
+*****[#yellow]:*<b><u><i><size:12><color:black>When a message is received while unexpected it is thrown away. This is considered normal behavior in SDL.
+*<i><size:12><color:black>It is however possible to save messages, so that they can be processed when execution reaches a new state.
+*<i><size:12><color:black>When a **new state is reached** saved messages will be processed before normal inputs. If signal 2 was saved in state 1 then when the process goes to state 2 it will first treat this
 <i><size:12><color:black>message before any other messages in the queue. As a result action 2 will be executed before action 3.;
+******[#a]:*<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_306.png Unexpected inputs are discarded click me]]
+*<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_307.png Save Message to be processed later click me]]
+*<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_308.png When a new state is reached saved messages will be processed before normal inputs click me]];
 
 ****[#green] <i><size 12><b><color:white>Transition
 *****[#yellow]:<i><size:12><color:black>A transition performs a sequence of actions. During the transition the data of a process may be manipulated and messages may be sent.
-<i><size:12><color:black>An event marks the entry point of a transition. This event can be a message input, priority input or continuous signal.
-<i><size:12><color:black>The transition will end with the next state or a stop. When a stop is reached the process will terminate and all messages in its input queue or its saved messages will be discarded.
-<i><size:12><color:black>A transition in one process can be executed at the same time as a transition in another process provided that both processes run concurrently.
-<i><size:12><color:black>If processes run sequentially then their corresponding transitions are executed inter living. In this case the transitions are run to completion.
-<i><size:12><color:black>There is only one transition is executed at a time until it reaches the next state or stop.
-<i><size:12><color:black>The actions that can be performed during a transition include:
-<i><size:12><color:black>timer manipulation, process creation, procedure and macro call, decision, transition option, execution of SDL code and a connector.;
+*<b><u><i><size:12><color:black>An event marks the entry point of a transition. This event can be a message input, priority input or continuous signal.
+*<i><size:12><color:black>The transition will end with the next state or a stop. When a stop is reached the process will terminate and all messages in its input queue or its saved messages will be discarded.
+*<i><size:12><color:black>A transition in one process can be executed at the same time as a transition in another process provided that both processes run concurrently.
+**<i><size:12><color:black>If processes run sequentially then their corresponding transitions are executed inter living. In this case the transitions are run to completion.
+**<i><size:12><color:black>There is only one transition is executed at a time until it reaches the next state or stop.
+*<b><u><i><size:12><color:black>The actions that can be performed during a transition include:
+**<i><size:12><color:black>timer manipulation, process creation, procedure and macro call, decision, transition option, execution of SDL code and a connector.;
+******[#a]:*<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_306.png Unexpected inputs are discarded click me]]
+*<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_309.png Transition Triggered by an event click me]]
+*<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_310.png Ends in next state or stop click me]]
+*<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_311.png Concurrent run to completion click me]]
+*<b><i><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_312.png Transition sequence of actions click me]];
 
 ****[#green] <i><size 12><b><color:white>Output
-*****[#yellow]:<i><size:12><color:black>A process can send messages to another based on the paths defined in the structure.
+*****[#yellow]:*<i><size:12><color:black>A process can send messages to another based on the paths defined in the structure.
 <i><size:12><color:black>If a single path exists in the structure for a given message then its name and parameters are enough to address the receiver process.
 <i><size:12><color:black>However, the receiver of a message can be set explicitly in the output symbol. This is useful when there are several possible paths for
 <i><size:12><color:black>a given message. If the receiver is set explicitly then a path must exist for the given message. A message can be sent to a named process,
 <i><size:12><color:black>to a process identifier to the environment or via a channel or a gate. The process identifier can be the sender of the message that triggered
 <i><size:12><color:black>the current transition. The process that created the current process instance, a process instance created by the current process or the process itself.;
+******[#a] <i><size 12><b><color:white>[[a a]]
 
 ****[#green] <i><size 12><b><color:white>Timer
 *****[#yellow]:<i><size:12><color:black>Timers are identified by their name they can be declared however, their declaration is optional. The behavior in SDL is concerned with duration.
