@@ -45,6 +45,7 @@ caption |<img:images/img.png{scale=.85}>|<img:images/img_1.png{scale=0.71}>|
 *****[#orange] <b><i><color #black><size:12>tools like Adobe photoshop, figma etc.
 ****[#orange] <b><i><color #black><size:12>User Flows
 *****[#orange] *<b><i><color #black><size:12>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/images/image_5.png Example-1]] \n*<b><i><color #black><size:12>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/images/image_4.png Example-2]]
+******[#a] *<b><i><color #black><size:12>You can use "plantuml wbs diagram" for the "website map" or "site-map"
 ****[#orange] <b><i><color #black><size:12>Content Strategy
 ****[#yellow] <i><color #black><size:12>Business Strategy
 ***[#green] <b><i><color #white><size:12>Design

@@ -167,7 +167,7 @@ skinparam hyperlinkColor white
 ****[#yellow] <i><color #black><size:12><b>"Good design" has "high cohesion" & "low Coupling"
 
 
-***[#green]:<i><color #white><b><size:12><img:images/img_293.png{scale=.84}>
+***[#green]:<i><color #white><b><size:12><img:images/img_338.png{scale=.84}>
 *<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=_kPCbBGRl1o&t=3s&ab_channel=TechGuiders Address binding, Address translation & Memory management (O/S) (10-min video )]]
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_127.png Library Types (static vs dynamic) & .DLL hell (click me)]]
 | |<#grey><i><b><size:12><color:white>Compiler Concept|<#blue><i><b><size:12><color:white>Operating System Concept|
@@ -175,6 +175,8 @@ skinparam hyperlinkColor white
 |<#purple><i><b><size:12><color:white>Dynamic  |<#grey><i><b><size:12><color:white>Linking (is late binding) \t\t [[https://www.youtube.com/watch?v=eW5he5uFBNM&t=9s&ab_channel=HowTo (5-min video)]] \n<i><b><size:12><color:white>It is more related to O/S's <u>"dynamic linking loader",\n<i><b><size:12><color:white>but decision to create a dynamically linked program\n<i><b><size:12><color:white>is often influenced by "compiler options"|<#blue><i><b><size:12><color:white>Loading \t\t\t[[https://www.youtube.com/watch?v=qfGql6sGlZg&ab_channel=TechGuiders (2-min video)]]|
 ==<i><color #white><b><size:18>The spectrum of "contract types" from "strict to lose"==
 <img:images/img_46.png{scale=1.28}>;
+****[#gold] <i><color #black><size:12><b>Ditributed Architecture
+*****[#a] *<i><color #black><size:12><b>[[docs/3-devops/images/kubernetes.puml "Kuberenetes cluster"]] is good for systems involving "syncrhronous communication" like e.g. "microservices"\n*<i><color #black><size:12><b>[[docs/cloud-computing/AWS-Cloud/serverless.puml "AWS lambda" (Serverless)]] is good in reactive systems involving "asynchronous communication" e.g. EDA
 ****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_258.png History of Components]] click me
 ****[#yellow]:<i><color #black><size:12>**How do yo decouple one module from another?** That depends on the **level of decoupling you need.** Sometimes simply extracting code
 <i><color #black><size:12>into a separate function is enough. More often, it's better to move all the **related code** into a **separate class** & even a separate **source file.**
@@ -266,7 +268,7 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12>local processes can be <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png statically or dynamically linked]] click me
 *<i><color #yellow><size:12>**"Components"** are delivered in <b>binary or .Jar, DLL</b> or some equivalent form.
 |<#blue><i><color #yellow><size:12>Processes execute on "same" <b>processor or multi-core but "separate address space". [[docs/books/1-books-backlog/operating-system/operating-system.puml click me]]|;
-******[#darkorange] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_253.png "Modularity" can be achieved without resorting (alternating) \nto "process isolation" (separate address space).]]
+******[#a] *<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_253.png "Modularity" can be achieved without resorting (alternating) \nto "process isolation" (separate address space).]] \n*<i><color #white><size:12><b>[[docs/3-programming-languages/JVM-ecosystem/OSGi-Framework.puml OSGi-Framework a "dynamic module system" Vs. Java-9 module system]]
 
 ****[#darkorange] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_246.png 5- Services Boundary:]]
 *****[#yellow]:*<i><color #black><size:12>Service is a <b>process

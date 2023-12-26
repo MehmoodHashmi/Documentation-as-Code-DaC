@@ -1,117 +1,212 @@
 @startmindmap
-title = OSGi Framework
+title =<i><b><u>OSGi Framework\n|<img:images/img_3.png>|<img:images/img_8.png{scale=.87}>|<img:images/img_11.png{scale=.91}>|
+* <b><i>[[https://livebook.manning.com/book/spring-dynamic-modules-in-action/chapter-6/ OSGi and Spring DM for enterprise applications]] book chapter
+*:=<i>Difference between Java 9 module system and OSGi module system
+<i>Java 9 module system (JPMS - Java Platform Module System) and OSGi (Open Service Gateway initiative) module system are both module systems for Java applications, but they differ in several aspects:
 
-* OSGi Framework
-** Introduction
-*** Modular architecture
-*** Dynamic component model
-*** Service registry
-*** Versioning
+<i>  1. **Scope and Purpose:**
+<i>     - **Java 9 Module System (JPMS):** Introduced in Java 9, JPMS aims to modularize the Java SE platform itself. It provides a way to create modular applications and to partition the Java runtime environment into modules, allowing better
+<i>      encapsulation and dependency management.
+<i>     - **OSGi:** OSGi is a mature and flexible module system used primarily for building modular applications in Java. **It's more dynamic than the Java 9 module system** and is widely used in enterprise applications, particularly in scenarios where
+<i>     **modules** can be <b><color #green>dynamically installed, started, stopped, and updated at runtime.
 
-** Benefits of OSGi
-*** Reusability
-*** Maintainability
-*** Scalability
-*** Flexibility
-*** Reliability
+<i>  2. **Granularity:**
+<i>     - **Java 9 Module System (JPMS):** Provides **coarse-grained modules,** focusing on whole <b>packages and their dependencies.
+<i>     - **OSGi:** Offers **fine-grained modularity,** allowing **bundles (equivalent to modules)** to **encapsulate** not just **packages** but also <b>individual classes and resources.
 
-** Core Concepts
-*** Bundles
-**** A modular and portable JAR file that contains classes, resources, and metadata
-**** Can be installed, started, stopped, updated, and uninstalled at runtime
-**** Manifest file specifies bundle metadata
-*** Services
-**** A reusable and pluggable component that provides a well-defined interface for other components to interact with
-**** Can be dynamically registered, discovered, and used by other components
-*** Service Registry
-**** A dynamic lookup service that allows components to register and discover services at runtime
-*** Lifecycle
-**** Framework lifecycle, bundle lifecycle, and service lifecycle
+<i>  3. **Dynamicity:**
+<i>     - **Java 9 Module System (JPMS):** **Modules** are **static** and defined at **compile time.** Once defined, the **module structure** remains **fixed** during <b>runtime.
+<i>     - **OSGi:** Offers **dynamic modules (bundles)** that can be <b>installed, started, stopped, updated, and uninstalled at runtime</b> without requiring a **restart of** the entire <b>application.
 
-** OSGi Services
-*** Service Interfaces
-**** A Java interface that defines the methods for a service
-*** Service Provider
-**** A bundle that implements a service interface
-*** Service Consumer
-**** A bundle that uses the service provided by a service provider
-*** Service Registration
-**** The process of a bundle registering a service with the service registry
-*** Service Discovery
-**** The process of a bundle discovering available services in the service registry
-*** Service Binding
-**** The process of a bundle obtaining a reference to a service from the service registry
+<i>  4. **Standardization and Adoption:**
+<i>     - **Java 9 Module System (JPMS):** Built directly into the Java language and platform, making it the standard module system for Java SE.
+<i>     - **OSGi:** A separate framework that needs to be included in the application and has been widely adopted in the enterprise world for many years, particularly in server-side applications.
 
-** OSGi Bundles
-*** Bundle Manifest
-**** The metadata file that defines the bundle, its dependencies, and services
-*** Bundle Lifecycle
-**** Installation, starting, stopping, updating, and uninstalling
-*** Class Loading
-**** The OSGi class loading model, including visibility and delegation
+<i>  5. **Tooling and Ecosystem:**
+<i>     - **Java 9 Module System (JPMS):** Integrated into the Java Development Kit (JDK) and leverages tools like `jlink` for creating custom runtime images.
+<i>     - **OSGi:** Provides a rich set of tooling and a mature ecosystem with features for versioning, service registries, and dynamic module lifecycle management.
 
-** OSGi Framework
-*** Framework Architecture
-**** The OSGi framework components and their interactions
-*** Framework Extensions
-**** The optional components that extend the OSGi framework, such as the Http Service and the JMX Service
-*** Framework Security
-**** The OSGi security model, including permissions and policies
+<i>  Both systems offer module-based approaches to software development in Java, but their differences in granularity, dynamicity, standardization, tooling, and use cases make each suitable for different scenarios and application types.
+;
+!theme hacker
 
-** OSGi Tools
-*** Apache Felix
-**** An open-source implementation of the OSGi framework
-*** Eclipse Equinox
-**** An OSGi implementation used by the Eclipse IDE and other Eclipse-based products
-*** Bnd
-**** A tool for building OSGi bundles and libraries
-*** OSGi enRoute
-**** A collection of tools, libraries, and examples for building OSGi applications
+*[#darkblue] <i><color #white>OSGi Framework\n<img:images/img_2.png>
+**[#lightblue] <i><color #black><size:12>Introduction
+***[#green] <b><i><color #white><size:12>Modular architecture
+***[#green] <b><i><color #white><size:12>Dynamic component model
+***[#green] <b><i><color #white><size:12>Service registry
+***[#green] <b><i><color #white><size:12>Versioning
+
+**[#lightblue] <i><color #black><size:12>Benefits of OSGi
+***[#green] <b><i><color #white><size:12>Reusability
+***[#green] <b><i><color #white><size:12>Maintainability
+***[#green] <b><i><color #white><size:12>Scalability
+***[#green] <b><i><color #white><size:12>Flexibility
+***[#green] <b><i><color #white><size:12>Reliability
+
+**[#lightblue] <i><color #black><size:12>Core Concepts\n|<img:images/img_1.png>|<img:images/img_9.png{scale=.86}>|
+***[#green] <b><i><color #white><size:12>Bundles
+****[#yellow] <i><color #black><size:12>A modular and portable JAR file that contains classes, resources, and metadata
+****[#yellow] <i><color #black><size:12>Can be installed, started, stopped, updated, and uninstalled at runtime
+****[#yellow] <i><color #black><size:12>Manifest file specifies bundle metadata
+***[#green] <b><i><color #white><size:12>Services
+****[#yellow] <i><color #black><size:12>A reusable and pluggable component that provides a well-defined interface for other components to interact with
+****[#yellow] <i><color #black><size:12>Can be dynamically registered, discovered, and used by other components
+***[#green] <b><i><color #white><size:12>Service Registry
+****[#yellow] <i><color #black><size:12>A dynamic lookup service that allows components to register and discover services at runtime
+***[#green] <b><i><color #white><size:12>Lifecycle
+****[#yellow] <i><color #black><size:12><b>"Framework" lifecycle, "bundle" lifecycle, and "service" lifecycle
+
+**[#lightblue] <i><color #black><size:12>OSGi Services\n<img:images/img.png{scale=.5}>
+***[#green] <b><i><color #white><size:12>Service Interfaces
+****[#yellow] <i><color #black><size:12>A Java interface that defines the methods for a service
+***[#green] <b><i><color #white><size:12>Service Provider
+****[#yellow] <i><color #black><size:12>A bundle that implements a service interface
+***[#green] <b><i><color #white><size:12>Service Consumer
+****[#yellow] <i><color #black><size:12>A bundle that uses the service provided by a service provider
+***[#green] <b><i><color #white><size:12>Service Registration
+****[#yellow] <i><color #black><size:12>The process of a bundle registering a service with the service registry
+***[#green] <b><i><color #white><size:12>Service Discovery
+****[#yellow] <i><color #black><size:12>The process of a bundle discovering available services in the service registry
+***[#green] <b><i><color #white><size:12>Service Binding
+****[#yellow] <i><color #black><size:12>The process of a bundle obtaining a reference to a service from the service registry
+
+**[#lightblue] <i><color #black><size:12>OSGi Bundles\n<img:images/img_10.png{scale=1}>
+***[#green] <b><i><color #white><size:12>Bundle Manifest
+****[#yellow] <i><color #black><size:12>The metadata file that defines the bundle, its dependencies, and services
+***[#green] <b><i><color #white><size:12>Bundle Lifecycle
+****[#yellow] <i><color #black><size:12><b>Installation, starting, stopping, updating, and uninstalling
+*****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/JVM-ecosystem/images/img_4.png click me]]
+***[#green] <b><i><color #white><size:12>Class Loading
+****[#yellow] <i><color #black><size:12>The OSGi class loading model, including visibility and delegation
+*****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/JVM-ecosystem/images/img_6.png click me]]
+
+**[#lightblue] <i><color #black><size:12>OSGi Framework
+***[#green] <b><i><color #white><size:12>Framework Architecture
+****[#yellow] <i><color #black><size:12>The OSGi framework components and their interactions
+***[#green] <b><i><color #white><size:12>Framework Extensions
+****[#yellow] <i><color #black><size:12>The optional components that extend the OSGi framework, such as the Http Service and the JMX Service
+***[#green] <b><i><color #white><size:12>Framework Security
+****[#yellow] <i><color #black><size:12>The OSGi security model, including permissions and policies
+
+**[#lightblue] <i><color #black><size:12>OSGi Tools
+***[#green] <b><i><color #white><size:12>Apache Felix
+****[#yellow] <i><color #black><size:12>An open-source implementation of the OSGi framework
+***[#green] <b><i><color #white><size:12>Eclipse Equinox
+****[#yellow] <i><color #black><size:12>An OSGi implementation used by the Eclipse IDE and other Eclipse-based products
+***[#green] <b><i><color #white><size:12>Bnd
+****[#yellow] <i><color #black><size:12>A tool for building OSGi bundles and libraries
+***[#green] <b><i><color #white><size:12>OSGi enRoute
+****[#yellow] <i><color #black><size:12>A collection of tools, libraries, and examples for building OSGi applications
 
 
-title Key Takeaways from "Java Application Architecture: Modularity Patterns with Examples Using OSGi"
+* Key Takeaways from "Java Application Architecture: Modularity Patterns with Examples Using OSGi"
 
-* OSGi Framework
-** A modular framework for Java that provides a dynamic module system
-** Enables development of modular applications with dynamic service capabilities
+*[#darkblue] <i><color #white>OSGi Framework
+**[#lightblue] <i><color #black><size:12>A modular framework for Java that provides a <color #brown>"dynamic module system"
+**[#a] <i><color #white><size:12>Enables development of modular applications with dynamic service capabilities
 
-* Modularity Patterns
-** OSGi Design Patterns
-*** Service Consumer Pattern
-**** Services are located and dynamically bound to consumer
-*** Service Provider Pattern
-**** Services are registered with the service registry
-*** Whiteboard Pattern
-**** Multiple providers offer services and the highest ranking is chosen
-*** Extension Point Pattern
-**** An interface is defined and providers implement it
+*[#darkblue] <i><color #white>Modularity Patterns
+**[#lightblue] <i><color #black><size:12>OSGi Design Patterns
+***[#green] <b><i><color #white><size:12>Service Consumer Pattern
+****[#yellow] <i><color #black><size:12>Services are located and dynamically bound to consumer
+***[#green] <b><i><color #white><size:12>Service Provider Pattern
+****[#yellow] <i><color #black><size:12>Services are registered with the service registry
+***[#green] <b><i><color #white><size:12>Whiteboard Pattern
+****[#yellow] <i><color #black><size:12>Multiple providers offer services and the highest ranking is chosen
+***[#green] <b><i><color #white><size:12>Extension Point Pattern
+****[#yellow] <i><color #black><size:12>An interface is defined and providers implement it
 
-** Other Modularity Patterns
-*** Layered Architecture Pattern
-**** Divides an application into layers based on functionality or responsibility
-*** Module Grouping Pattern
-**** Group related modules together for better organization and management
-*** Single Responsibility Principle Pattern
-**** Each module should have a single responsibility
-*** Interface Segregation Principle Pattern
-**** Clients should not be forced to depend on interfaces they do not use
-*** Dependency Inversion Principle Pattern
-**** High-level modules should not depend on low-level modules; both should depend on abstractions
-**** Abstractions should not depend on details; details should depend on abstractions
+**[#lightblue] <i><color #black><size:12>Other Modularity Patterns
+***[#green] <b><i><color #white><size:12>Layered Architecture Pattern
+****[#yellow] <i><color #black><size:12>Divides an application into layers based on functionality or responsibility
+***[#green] <b><i><color #white><size:12>Module Grouping Pattern
+****[#yellow] <i><color #black><size:12>Group related modules together for better organization and management
+***[#green] <b><i><color #white><size:12>Single Responsibility Principle Pattern
+****[#yellow] <i><color #black><size:12>Each module should have a single responsibility
+***[#green] <b><i><color #white><size:12>Interface Segregation Principle Pattern
+****[#yellow] <i><color #black><size:12>Clients should not be forced to depend on interfaces they do not use
+***[#green] <b><i><color #white><size:12>Dependency Inversion Principle Pattern
+****[#yellow] <i><color #black><size:12>High-level modules should not depend on low-level modules; both should depend on abstractions
+****[#yellow] <i><color #black><size:12>Abstractions should not depend on details; details should depend on abstractions
 
-* OSGi Development Best Practices
-** Use Dynamic Services
-*** Allows for decoupling of modules and dynamic binding of services
-** Avoid Package Imports
-*** Minimizes the number of dependencies between modules
-** Use Declarative Services
-*** Simplifies the implementation of services and their dependencies
-** Use the OSGi Framework to Manage Dependencies
-*** Allows for dynamic resolution of dependencies and versioning of modules
+*[#darkblue] <i><color #white>OSGi Development Best Practices
+**[#lightblue] <i><color #black><size:12>Use Dynamic Services
+***[#a] <b><i><color #white><size:12>Allows for decoupling of modules and dynamic binding of services
+**[#lightblue] <i><color #black><size:12>Avoid Package Imports
+***[#green] <b><i><color #white><size:12>Minimizes the number of dependencies between modules
+**[#lightblue] <i><color #black><size:12>Use Declarative Services
+***[#green] <b><i><color #white><size:12>Simplifies the implementation of services and their dependencies
+**[#lightblue] <i><color #black><size:12>Use the OSGi Framework to Manage Dependencies
+***[#green] <b><i><color #white><size:12>Allows for dynamic resolution of dependencies and versioning of modules
 
-* Conclusion
-** OSGi provides a powerful framework for developing modular Java applications
-** Modularity patterns are essential for building well-structured, maintainable, and scalable applications
-** Following OSGi development best practices ensures the flexibility and adaptability of your application
+*[#darkblue] <i><color #white>Conclusion
+**[#lightblue] <i><color #black><size:12>OSGi provides a powerful framework for developing modular Java applications
+**[#lightblue] <i><color #black><size:12>Modularity patterns are essential for building well-structured, maintainable, and scalable applications
+**[#lightblue] <i><color #black><size:12>Following OSGi development best practices ensures the flexibility and adaptability of your application
+
+
+
+*[#darkblue] <i><color #white>Java 9 Module System vs \n<i><color #white>OSGi Dynamic Module System
+**[#lightblue] <i><color #black><size:12>Java 9 Module System
+***[#green] <b><i><color #white><size:12>Overview
+****[#yellow] <i><color #black><size:12><b>Introduced in Java 9
+****[#yellow] <i><color #black><size:12><b>Part of Java SE platform
+***[#green] <b><i><color #white><size:12>Key Concepts
+****[#yellow] <i><color #black><size:12><b>Module Declarations
+*****[#yellow] <i><color #black><size:12>module-info.java file
+*****[#yellow] <i><color #black><size:12>Defines module name, dependencies
+****[#yellow] <i><color #black><size:12><b>Module Path
+*****[#yellow] <i><color #black><size:12>Location for modules
+*****[#yellow] <i><color #black><size:12>Resolves dependencies
+****[#yellow] <i><color #black><size:12><b>Module Visibility
+*****[#yellow] <i><color #black><size:12>Exported packages
+*****[#yellow] <i><color #black><size:12>Controlled access
+***[#green] <b><i><color #white><size:12>Benefits
+****[#yellow] <i><color #black><size:12><b>Encapsulation
+*****[#yellow] <i><color #black><size:12>Strong module boundaries
+****[#yellow] <i><color #black><size:12><b>Dependency Management
+*****[#yellow] <i><color #black><size:12>Explicit module dependencies
+****[#yellow] <i><color #black><size:12><b>Security
+*****[#yellow] <i><color #black><size:12>Controlled access to APIs
+****[#yellow] <i><color #black><size:12><b>Maintainability
+*****[#yellow] <i><color #black><size:12>Easily modularize large codebases
+***[#green] <b><i><color #white><size:12>Tooling
+****[#yellow] <i><color #black><size:12><b>jdeps
+*****[#yellow] <i><color #black><size:12>Analyzes dependencies
+****[#yellow] <i><color #black><size:12><b>jlink
+*****[#yellow] <i><color #black><size:12>Creates custom runtime images
+****[#yellow] <i><color #black><size:12><b>jmod
+*****[#yellow] <i><color #black><size:12>Creates modular JAR files
+**[#lightblue] <i><color #black><size:12>OSGi Dynamic Module System
+***[#green] <b><i><color #white><size:12>Overview
+****[#yellow] <i><color #black><size:12><b>Framework for modular applications
+****[#yellow] <i><color #black><size:12><b>Dynamic runtime behavior
+***[#green] <b><i><color #white><size:12>Core Concepts
+****[#yellow] <i><color #black><size:12><b>Bundles
+*****[#yellow] <i><color #black><size:12>Equivalent to modules
+*****[#gold] <i><color #black><size:12><b>Fine-grained encapsulation
+****[#yellow] <i><color #black><size:12><b>Service Registry
+*****[#yellow] <i><color #black><size:12>Allows service-based communication
+*****[#yellow] <i><color #black><size:12>Dynamically registers and discovers services
+****[#yellow] <i><color #black><size:12><b>Lifecycle Management
+*****[#yellow] <i><color #black><size:12><b>Bundles can be installed, started, stopped, updated, and uninstalled at runtime
+***[#green] <b><i><color #white><size:12>Advantages
+****[#gold] <i><color #black><size:12><b>Dynamicity
+*****[#yellow] <i><color #black><size:12>Dynamic module lifecycle
+****[#yellow] <i><color #black><size:12><b>Service-Based Architecture
+*****[#yellow] <i><color #black><size:12>Loose coupling through services
+****[#yellow] <i><color #black><size:12><b>Versioning
+*****[#yellow] <i><color #black><size:12>Allows different versions of bundles to coexist
+****[#yellow] <i><color #black><size:12><b>Extensive Ecosystem
+*****[#yellow] <i><color #black><size:12>Mature tooling and libraries
+***[#green] <b><i><color #white><size:12>Tools & Specifications
+****[#yellow] <i><color #black><size:12><b>Apache Felix
+*****[#yellow] <i><color #black><size:12>OSGi framework implementation
+****[#yellow] <i><color #black><size:12><b>Apache Karaf
+*****[#yellow] <i><color #black><size:12>OSGi runtime environment
+****[#yellow] <i><color #black><size:12><b>OSGi Compendium
+*****[#yellow] <i><color #black><size:12>Specifications for additional functionality
+
 @endmindmap
 

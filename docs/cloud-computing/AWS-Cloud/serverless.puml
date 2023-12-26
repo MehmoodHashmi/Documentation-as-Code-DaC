@@ -1,0 +1,26 @@
+@startmindmap
+title =<i><b><u>Serverless
+!theme hacker
+
+*[#darkblue] <i><color #white>Serverless
+**[#lightblue] <i><color #black><size:14>Definition
+***[#a] <b><i><color #white><size:14>Event-driven, code execution model
+**[#lightblue] <i><color #black><size:14>Characteristics
+***[#green] <b><i><color #white><size:14>Scalability
+****[#yellow] <i><color #black><size:14>Auto-scaling based on demand
+***[#green] <b><i><color #white><size:14>Pay-per-use
+****[#yellow] <i><color #black><size:14>Billing based on resource consumption
+***[#green] <b><i><color #white><size:14>No Infrastructure Management
+****[#yellow] <i><color #black><size:14>Abstracts server management
+**[#lightblue] <i><color #black><size:14>Components
+***[#green] <b><i><color #white><size:14>Functions
+****[#yellow] <i><color #black><size:14>Independent code blocks
+***[#green] <b><i><color #white><size:14>Events
+****[#yellow] <i><color #black><size:14>Triggers function execution
+***[#green] <b><i><color #white><size:14>Cloud Services
+****[#yellow] <i><color #black><size:14>Managed by cloud providers
+**[#lightblue] <i><color #black><size:14>Benefits
+***[#green] <b><i><color #white><size:14>Cost-Effective
+***[#green] <b><i><color #white><size:14>Simplified Deployment
+***[#green] <b><i><color #white><size:14>Focus on Code
+@endmindmap
