@@ -5,7 +5,7 @@ title =<i><b><u>Sockets
 *[#darkblue] <i><color #white>Sockets
 **[#lightblue] <i><color #black><size:12>Definition
 ***[#green] <b><i><color #white><size:12>Communication endpoint between two processes
-**[#lightblue] <i><color #black><size:12>Types
+**[#e] <i><color #black><size:12>Types
 ***[#green] <b><i><color #white><size:12>TCP Sockets
 ****[#yellow] <i><color #black><size:12>Transmission Control Protocol
 ****[#yellow] <i><color #black><size:12>Connection-oriented, reliable communication
