@@ -1,0 +1,47 @@
+@startmindmap
+title =<i><b><u>Port Numbers
+!theme hacker
+
+*[#darkblue] <i><color #white>Port Numbers
+**[#lightblue] <i><color #black><size:12>Definition
+***[#green] <b><i><color #white><size:12>Logical endpoints within networking
+**[#lightblue] <i><color #black><size:12>Types
+***[#green] <b><i><color #white><size:12>Well-known Ports
+****[#yellow] <i><color #black><size:12>Reserved ports below 1024
+****[#yellow] <i><color #black><size:12>**E.g.,** HTTP <b>(80), HTTPS <b>(443)
+***[#green] <b><i><color #white><size:12>Registered Ports
+****[#yellow] <i><color #black><size:12>User or software-defined ports <b>(1024 - 49151)
+****[#yellow] <i><color #black><size:12>**E.g.,** Oracle <b>(1521), MySQL <b>(3306)
+***[#green] <b><i><color #white><size:12>Dynamic/Private Ports
+****[#yellow] <i><color #black><size:12>Temporary ports <b>(49152 - 65535)
+****[#yellow] <i><color #black><size:12>Ephemeral ports for client-server communication
+**[#lightblue] <i><color #black><size:12>Transport Layer
+***[#green] <b><i><color #white><size:12>TCP Ports
+****[#yellow] <i><color #black><size:12>Connection-oriented, reliable communication
+****[#yellow] <i><color #black><size:12>**E.g.,** FTP <b>(20, 21), SMTP <b>(25)
+***[#green] <b><i><color #white><size:12>UDP Ports
+****[#yellow] <i><color #black><size:12>Connectionless, unreliable communication
+****[#yellow] <i><color #black><size:12>**E.g.,** DNS <b>(53), DHCP <b>(67, 68)
+**[#lightblue] <i><color #black><size:12>Port Assignment
+***[#green] <b><i><color #white><size:12>IANA <b>(Internet Assigned Numbers Authority)
+****[#yellow] <i><color #black><size:12>Authority for port number assignments
+***[#green] <b><i><color #white><size:12>Service Name and Port Number Registry
+****[#yellow] <i><color #black><size:12>Maintains a list of assigned ports and their associated services
+***[#green] <b><i><color #white><size:12>Port Scanning
+****[#yellow] <i><color #black><size:12>Process of identifying open ports on a system
+****[#yellow] <i><color #black><size:12>Used for security assessment
+**[#lightblue] <i><color #black><size:12>Usage and Configuration
+***[#green] <b><i><color #white><size:12>Port Forwarding
+****[#yellow] <i><color #black><size:12>Redirecting incoming network traffic to a specific port or machine within a network
+***[#green] <b><i><color #white><size:12>Firewall Configuration
+****[#yellow] <i><color #black><size:12>Control and filtering of network traffic based on port numbers
+***[#green] <b><i><color #white><size:12>Service Configuration
+****[#yellow] <i><color #black><size:12>Configuring applications or services to listen on specific ports for incoming connections
+**[#lightblue] <i><color #black><size:12>Security Considerations
+***[#green] <b><i><color #white><size:12>Port Security
+****[#yellow] <i><color #black><size:12>Limiting access to specific ports for enhanced network security
+***[#green] <b><i><color #white><size:12>Port Knocking
+****[#yellow] <i><color #black><size:12>Sequence-based security mechanism to open ports on a firewall
+***[#green] <b><i><color #white><size:12>Port-Based Authentication
+****[#yellow] <i><color #black><size:12>Authenticating users based on specific port access
+@endmindmap

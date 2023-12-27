@@ -4,138 +4,138 @@ title =<b><i>Operating Systems\n<img:images/img_11.png> <img:images/img_3.png{sc
 ** <b><i>[[https://www.youtube.com/watch?v=NKYgZH7SBjk&ab_channel=InOneLesson What is inside CPU?]] 3-minute video
 !theme hacker
 
-*[#darkblue] <color #white><i><size:14> Introduction
-**[#lightblue] <b><color #black><i><size:14>Definition of an Operating System
-**[#lightblue] <b><color #black><i><size:14>Evolution of Operating Systems
-**[#lightblue] <b><color #black><i><size:14>Functions of an Operating System
+*[#darkblue] <color #white><i><size:12> Introduction
+**[#lightblue] <b><color #black><i><size:12>Definition of an Operating System
+**[#lightblue] <b><color #black><i><size:12>Evolution of Operating Systems
+**[#lightblue] <b><color #black><i><size:12>Functions of an Operating System
 *[#darkblue] <color #white><i>Processes & Threads\n<img:images/img.png{scale=0.8}>
-**[#lightblue] <b><color #black><i><size:14>Process Management
+**[#lightblue] <b><color #black><i><size:12>[[docs/books/1-books-backlog/operating-system/process-management.puml Process Management]]
 ***[#green] <b><color #white><i><size:24>Process Scheduling (algorithms):\n<img:images/img_2.png{scale=0.8}>
-****[#darkorange]:<b><color #black><i><size:14>1- Preemptive Scheduling (algorithms):
-<u><b><color #black><i><size:14>Once <color #white>resources (CPU & RAM)</color> <size:14><color:black><i> are allocated to a "process" for a specified period of of time.
-*<color #black><i><size:14><b>\tRound robin scheduling
-*<color #black><i><size:14><b>\tShortest remaining time
-*<color #black><i><size:14><b>\tPriority Scheduling (H, M, L)
-*<color #black><i><size:14><b>\tMulti-Level feedback queue (preemptive version)
-*<color #black><i><size:14><b>\tRound robin(rr) scheduling;
-****[#darkorange]:<b><color #black><i><size:14>2- Non-Preemptive Scheduling (algorithms):
-<u><b><color #black><i><size:14>Once <color #white>resources (CPU & RAM)</color> <size:14><color:black><i> are allocated to a "process", the "process" maintains
-<u><b><color #black><i><size:14>the "control" until it "completes or transitions" to a "waiting state".
-*<color #black><i><size:14><b>\tFIFO
-*<color #black><i><size:14><b>\tShortest job next
-*<color #black><i><size:14><b>\tPreemptive priority cpu scheduling
-*<color #black><i><size:14><b>\tHighest response ratio next
-*<color #black><i><size:14><b>\tMulti-Level feedback queue (non-preemptive version);
-***[#green]:<b><color #white><i><size:17>Interprocess Communication <b><color #white><i><size:14>
-<u><color #white><b><i><size:14>Two widely used methods:
-*<color #white><b><i><size:14>Shared Memory
-*<color #white><b><i><size:14>Message-Passing
-<b><color #white><i><size:14>Other methods:
-**<b><color #white><i><size:14>Semaphores
-**<b><color #white><i><size:14> Signals etc.
-<img:images/img_1.png{scale=0.6}>;
-****[#yellow] <color #black><i><size:14><b>Process ID & Port number\n<img:images/img_12.png{scale=.65}>
-***[#green] <b><color #white><i><size:14>Process Synchronization
-**[#lightblue] <b><color #black><i><size:14>Thread Management
-***[#green] <b><color #white><i><size:14>Thread Scheduling
-***[#green] <b><color #white><i><size:14>Thread Synchronization
-***[#gold] <b><color #black><i><size:14>Thread Local Storage (TLS):\n<img:images/img_14.png{scale=.4}> <img:images/img_15.png{scale=.61}>
-****[#yellow] <color #black><i><size:14><b>is a data-structure, something \n<color #black><i><size:14><b>like "Process Control Block"
-**[#lightblue] <b><color #black><i><size:14>Deadlock and Starvation
-*[#darkblue] <color #white><i>Memory Management\n<img:images/img_4.png{scale=0.65}>\n\n<img:images/img_13.png{scale=0.79}>
-**[#lightblue] <b><color #black><i><size:14>Memory Hierarchy\n<img:images/img_10.png{scale=0.8}>
-**[#lightblue] <b><color #black><i><size:14>Address Binding
-***[#green] <b><color #white><i><size:14>Address Translation
-****[#yellow]:<color #black><i><size:14>**Page map table** is a **data structure** that keeps track of the relations between a **"page of a process"** and a **frame in physical memory.**
-*<color #black><i><size:14>**Page address:** also known as **logical address** is represented by "page number and offset". Thus, <b>Logical Address = Page number + page offset
-*<color #black><i><size:14>**Frame address:** also known as **physical address** is represented by "frame number and offset". Thus, <b>Physical Address = Frame number + page offset
+****[#darkorange]:<b><color #black><i><size:12>1- Preemptive Scheduling (algorithms):
+<u><b><color #black><i><size:12>Once <color #white>resources (CPU & RAM)</color> <size:12><color:black><i> are allocated to a "process" for a specified period of of time.
+*<color #black><i><size:12><b>\tRound robin scheduling
+*<color #black><i><size:12><b>\tShortest remaining time
+*<color #black><i><size:12><b>\tPriority Scheduling (H, M, L)
+*<color #black><i><size:12><b>\tMulti-Level feedback queue (preemptive version)
+*<color #black><i><size:12><b>\tRound robin(rr) scheduling;
+****[#darkorange]:<b><color #black><i><size:12>12- Non-Preemptive Scheduling (algorithms):
+<u><b><color #black><i><size:12>Once <color #white>resources (CPU & RAM)</color> <size:12><color:black><i> are allocated to a "process", the "process" maintains
+<u><b><color #black><i><size:12>the "control" until it "completes or transitions" to a "waiting state".
+*<color #black><i><size:12><b>\tFIFO
+*<color #black><i><size:12><b>\tShortest job next
+*<color #black><i><size:12><b>\tPreemptive priority cpu scheduling
+*<color #black><i><size:12><b>\tHighest response ratio next
+*<color #black><i><size:12><b>\tMulti-Level feedback queue (non-preemptive version);
+***[#green]:<b><color #white><i><size:17>[[docs/books/1-books-backlog/operating-system/interprocess-communication.puml Interprocess Communication]] <size:9>click me<b><color #white><i><size:12>
+<u><color #white><b><i><size:12>Two widely used methods:
+*<color #white><b><i><size:12>Shared Memory
+*<color #white><b><i><size:12>Message-Passing
+<b><color #white><i><size:12>Other methods:
+**<b><color #white><i><size:12>Semaphores
+**<b><color #white><i><size:12> Signals etc.
+<img:images/img_1.png{scale=0.62}>;
+****[#a] <color #black><i><size:12><b>Process ID & [[docs/books/1-books-backlog/operating-system/port-numbers.puml Port number]] click me\n<img:images/img_12.png{scale=.65}>
+***[#green] <b><color #white><i><size:12>Process Synchronization
+**[#lightblue] <b><color #black><i><size:12>Thread Management
+***[#green] <b><color #white><i><size:12>Thread Scheduling
+***[#green] <b><color #white><i><size:12>Thread Synchronization
+***[#gold] <b><color #black><i><size:12>Thread Local Storage (TLS):\n<img:images/img_14.png{scale=.4}> <img:images/img_15.png{scale=.61}>
+****[#yellow] <color #black><i><size:12><b>is a data-structure, something \n<color #black><i><size:12><b>like "Process Control Block"
+**[#lightblue] <b><color #black><i><size:12>Deadlock and Starvation
+*[#darkblue] <color #white><i>[[docs/books/1-books-backlog/operating-system/memory-management.puml Memory Management]] click me\n<img:images/img_4.png{scale=0.65}>\n\n<img:images/img_13.png{scale=0.79}>
+**[#lightblue] <b><color #black><i><size:12>Memory Hierarchy\n<img:images/img_10.png{scale=0.8}>
+**[#lightblue] <b><color #black><i><size:12>Address Binding
+***[#green] <b><color #white><i><size:12>Address Translation
+****[#yellow]:<color #black><i><size:12>**Page map table** is a **data structure** that keeps track of the relations between a **"page of a process"** and a **frame in physical memory.**
+*<color #black><i><size:12>**Page address:** also known as **logical address** is represented by "page number and offset". Thus, <b>Logical Address = Page number + page offset
+*<color #black><i><size:12>**Frame address:** also known as **physical address** is represented by "frame number and offset". Thus, <b>Physical Address = Frame number + page offset
 <img:images/img_5.png{scale=0.6}>
-*<color #black><i><size:14>When allocating a frame to any page, the system translates the logical address into a physical address, creating an entry into the page table which can
-<color #black><i><size:14>be used throughout the process of execution. The system loads the corresponding pages of a process into the available memory frames during execution.
+*<color #black><i><size:12>When allocating a frame to any page, the system translates the logical address into a physical address, creating an entry into the page table which can
+<color #black><i><size:12>be used throughout the process of execution. The system loads the corresponding pages of a process into the available memory frames during execution.
 
-*<color #black><i><size:14>If a system runs out of RAM, the OS moves the idle or unwanted pages of a memory to the secondary memory. This frees up RAM for other processes to us &
-<color #black><i><size:14>the OS also brings back these processes when the program needs them. This continues until the execution of a process gets complete.;
+*<color #black><i><size:12>If a system runs out of RAM, the OS moves the idle or unwanted pages of a memory to the secondary memory. This frees up RAM for other processes to us &
+<color #black><i><size:12>the OS also brings back these processes when the program needs them. This continues until the execution of a process gets complete.;
 
-**[#lightblue] <b><color #black><i><size:14>Memory Allocation\n<img:images/img_9.png{scale=0.6}>
-***[#green] <b><color #white><i><size:14>Static Allocation
-***[#green] <b><color #white><i><size:14>Dynamic Allocation
-****[#yellow] <color #black><i><size:14>First-Fit Algorithm
-****[#yellow] <color #black><i><size:14>Best-Fit Algorithm
-****[#yellow] <color #black><i><size:14>Worst-Fit Algorithm
-****[#yellow] <color #black><i><size:14>Buddy Algorithm
-**[#lightblue] <b><color #black><i><size:14>[[docs/books/1-books-backlog/computer-architecture/7-COAL.puml Memory Paging]]\n<img:images/img_6.png{scale=0.85}>
-***[#green] <b><color #white><i><size:14>Page Replacement Algorithms
-****[#yellow] <color #black><i><size:14>FIFO Algorithm
-****[#yellow] <color #black><i><size:14>Optimal Algorithm
-****[#yellow] <color #black><i><size:14>LRU Algorithm
-****[#yellow] <color #black><i><size:14>Clock Algorithm
-***[#green] <b><color #white><i><size:14>Segmentation
-***[#green] <b><color #white><i><size:14>Virtual Memory
-****[#yellow] <color #black><i><size:14>**Virtual Memory:** some portion of **solid state drive (SSD)** is used as <b>RAM
-****[#yellow] <color #black><i><size:14>Demand Paging
-****[#yellow] <color #black><i><size:14>Page Fault
-****[#yellow] <color #black><i><size:14>Page Replacement
-****[#yellow] <color #black><i><size:14>Page Replacement Algorithms
-*****[#gold] <color #black><i><size:14>LRU Algorithm
-*****[#gold] <color #black><i><size:14>Clock Algorithm
-*****[#gold] <color #black><i><size:14>Second Chance Algorithm
-*****[#gold] <color #black><i><size:14>NFU Algorithm
-*****[#gold] <color #black><i><size:14>Aging Algorithm
-**[#lightblue] <b><color #black><i><size:14>Fragmentation\n<img:images/img_7.png{scale=0.6}>\n\n<img:images/img_8.png{scale=0.6}>
-***[#green] <b><color #white><i><size:14>External Fragmentation
-***[#green] <b><color #white><i><size:14>Internal Fragmentation
-*[#darkblue] <color #white><i><size:14> File Systems
-**[#lightblue] <b><color #black><i><size:14>File Concepts
-**[#lightblue] <b><color #black><i><size:14>File Access Methods
-**[#lightblue] <b><color #black><i><size:14>File Allocation Methods
-***[#green] <b><color #white><i><size:14>Contiguous Allocation
-***[#green] <b><color #white><i><size:14>Linked Allocation
-***[#green] <b><color #white><i><size:14>Indexed Allocation
-****[#yellow] <color #black><i><size:14>Single-Level Indexing
-****[#yellow] <color #black><i><size:14>Two-Level Indexing
-****[#yellow] <color #black><i><size:14>Multi-Level Indexing
-**[#lightblue] <b><color #black><i><size:14>Directory Structure
-***[#green] <b><color #white><i><size:14>Single-Level Directory
-***[#green] <b><color #white><i><size:14>Two-Level Directory
-***[#green] <b><color #white><i><size:14>Tree-Structured Directory
-***[#green] <b><color #white><i><size:14>Acyclic-Graph Directory
-**[#lightblue] <b><color #black><i><size:14>File System Implementation
-***[#green] <b><color #white><i><size:14>Disk Management
-****[#yellow] <color #black><i><size:14>Disk Formatting
-****[#yellow] <color #black><i><size:14>Disk Partitioning
-****[#yellow] <color #black><i><size:14>Boot Block
-****[#yellow] <color #black><i><size:14>Master Boot Record
-***[#green] <b><color #white><i><size:14>File System Interface
-***[#green] <b><color #white><i><size:14>File System Mounting
-***[#green] <b><color #white><i><size:14>File System Performance
-*[#darkblue] <color #white><i><size:14> Inpu/Output Systems
-**[#lightblue] <b><color #black><i><size:14>Device Management
-***[#green] <b><color #white><i><size:14>Device Driver
-***[#green] <b><color #white><i><size:14>Interrupt Handling
-***[#green] <b><color #white><i><size:14>Direct Memory Access (DMA)
-**[#lightblue] <b><color #black><i><size:14>I/O Scheduling
-***[#green] <b><color #white><i><size:14>FCFS Algorithm
-***[#green] <b><color #white><i><size:14>Priority Algorithm
-***[#green] <b><color #white><i><size:14>Shortest Seek Time First Algorithm
-***[#green] <b><color #white><i><size:14>SCAN Algorithm
-***[#green] <b><color #white><i><size:14>C-SCAN Algorithm
-*[#darkblue] <color #white><i><size:14> Security and Protection
-**[#lightblue] <b><color #black><i><size:14>Threats and Attacks
-**[#lightblue] <b><color #black><i><size:14>Authentication
-**[#lightblue] <b><color #black><i><size:14>Authorization
-**[#lightblue] <b><color #black><i><size:14>Access Control
-**[#lightblue] <b><color #black><i><size:14>Encryption and Decryption
-**[#lightblue] <b><color #black><i><size:14>Firewalls
-**[#lightblue] <b><color #black><i><size:14>Intrusion Detection and Prevention
-**[#lightblue] <b><color #black><i><size:14>Security Management
+**[#lightblue] <b><color #black><i><size:12>Memory Allocation\n<img:images/img_9.png{scale=0.6}>
+***[#green] <b><color #white><i><size:12>Static Allocation
+***[#green] <b><color #white><i><size:12>Dynamic Allocation
+****[#yellow] <color #black><i><size:12>First-Fit Algorithm
+****[#yellow] <color #black><i><size:12>Best-Fit Algorithm
+****[#yellow] <color #black><i><size:12>Worst-Fit Algorithm
+****[#yellow] <color #black><i><size:12>Buddy Algorithm
+**[#lightblue] <b><color #black><i><size:12>[[docs/books/1-books-backlog/computer-architecture/7-COAL.puml Memory Paging]]\n<img:images/img_6.png{scale=0.85}>
+***[#green] <b><color #white><i><size:12>Page Replacement Algorithms
+****[#yellow] <color #black><i><size:12>FIFO Algorithm
+****[#yellow] <color #black><i><size:12>Optimal Algorithm
+****[#yellow] <color #black><i><size:12>LRU Algorithm
+****[#yellow] <color #black><i><size:12>Clock Algorithm
+***[#green] <b><color #white><i><size:12>Segmentation
+***[#green] <b><color #white><i><size:12>Virtual Memory
+****[#yellow] <color #black><i><size:12>**Virtual Memory:** some portion of **solid state drive (SSD)** is used as <b>RAM
+****[#yellow] <color #black><i><size:12>Demand Paging
+****[#yellow] <color #black><i><size:12>Page Fault
+****[#yellow] <color #black><i><size:12>Page Replacement
+****[#yellow] <color #black><i><size:12>Page Replacement Algorithms
+*****[#gold] <color #black><i><size:12>LRU Algorithm
+*****[#gold] <color #black><i><size:12>Clock Algorithm
+*****[#gold] <color #black><i><size:12>Second Chance Algorithm
+*****[#gold] <color #black><i><size:12>NFU Algorithm
+*****[#gold] <color #black><i><size:12>Aging Algorithm
+**[#lightblue] <b><color #black><i><size:12>Fragmentation\n<img:images/img_7.png{scale=0.6}>\n\n<img:images/img_8.png{scale=0.6}>
+***[#green] <b><color #white><i><size:12>External Fragmentation
+***[#green] <b><color #white><i><size:12>Internal Fragmentation
+*[#darkblue] <color #white><i><size:12> File Systems
+**[#lightblue] <b><color #black><i><size:12>File Concepts
+**[#lightblue] <b><color #black><i><size:12>File Access Methods
+**[#lightblue] <b><color #black><i><size:12>File Allocation Methods
+***[#green] <b><color #white><i><size:12>Contiguous Allocation
+***[#green] <b><color #white><i><size:12>Linked Allocation
+***[#green] <b><color #white><i><size:12>Indexed Allocation
+****[#yellow] <color #black><i><size:12>Single-Level Indexing
+****[#yellow] <color #black><i><size:12>Two-Level Indexing
+****[#yellow] <color #black><i><size:12>Multi-Level Indexing
+**[#lightblue] <b><color #black><i><size:12>Directory Structure
+***[#green] <b><color #white><i><size:12>Single-Level Directory
+***[#green] <b><color #white><i><size:12>Two-Level Directory
+***[#green] <b><color #white><i><size:12>Tree-Structured Directory
+***[#green] <b><color #white><i><size:12>Acyclic-Graph Directory
+**[#lightblue] <b><color #black><i><size:12>File System Implementation
+***[#green] <b><color #white><i><size:12>Disk Management
+****[#yellow] <color #black><i><size:12>Disk Formatting
+****[#yellow] <color #black><i><size:12>Disk Partitioning
+****[#yellow] <color #black><i><size:12>Boot Block
+****[#yellow] <color #black><i><size:12>Master Boot Record
+***[#green] <b><color #white><i><size:12>File System Interface
+***[#green] <b><color #white><i><size:12>File System Mounting
+***[#green] <b><color #white><i><size:12>File System Performance
+*[#darkblue] <color #white><i><size:12> Inpu/Output Systems
+**[#lightblue] <b><color #black><i><size:12>Device Management
+***[#green] <b><color #white><i><size:12>Device Driver
+***[#green] <b><color #white><i><size:12>Interrupt Handling
+***[#green] <b><color #white><i><size:12>Direct Memory Access (DMA)
+**[#lightblue] <b><color #black><i><size:12>I/O Scheduling
+***[#green] <b><color #white><i><size:12>FCFS Algorithm
+***[#green] <b><color #white><i><size:12>Priority Algorithm
+***[#green] <b><color #white><i><size:12>Shortest Seek Time First Algorithm
+***[#green] <b><color #white><i><size:12>SCAN Algorithm
+***[#green] <b><color #white><i><size:12>C-SCAN Algorithm
+*[#darkblue] <color #white><i><size:12> Security and Protection
+**[#lightblue] <b><color #black><i><size:12>Threats and Attacks
+**[#lightblue] <b><color #black><i><size:12>Authentication
+**[#lightblue] <b><color #black><i><size:12>Authorization
+**[#lightblue] <b><color #black><i><size:12>Access Control
+**[#lightblue] <b><color #black><i><size:12>Encryption and Decryption
+**[#lightblue] <b><color #black><i><size:12>Firewalls
+**[#lightblue] <b><color #black><i><size:12>Intrusion Detection and Prevention
+**[#lightblue] <b><color #black><i><size:12>Security Management
 *[#darkblue] <color #white><i><size:22> Virtualization
 **[#lightblue] <b><color #black><i><size:18>Virtual Machines
 **[#lightblue] <b><color #black><i><size:18>Hypervisors
-**[#lightblue] <b><color #black><i><size:14>Emulation
+**[#lightblue] <b><color #black><i><size:12>Emulation
 **[#lightblue] <b><color #black><i><size:22>[[docs/3-devops/devops-plantuml-mindmap/Docker.puml Containerization]]
-*[#darkblue] <color #white><i><size:14> Types of Operating Systems
-**[#lightblue] <b><color #black><i><size:14>Batch Operating System
-**[#lightblue] <b><color #black><i><size:14>Time-Sharing Operating System
-**[#lightblue] <b><color #black><i><size:14>Real-Time Operating System
-**[#lightblue] <b><color #black><i><size:14>Distributed Operating System
+*[#darkblue] <color #white><i><size:12> Types of Operating Systems
+**[#lightblue] <b><color #black><i><size:12>Batch Operating System
+**[#lightblue] <b><color #black><i><size:12>Time-Sharing Operating System
+**[#lightblue] <b><color #black><i><size:12>Real-Time Operating System
+**[#lightblue] <b><color #black><i><size:12>Distributed Operating System
 @endmindmap

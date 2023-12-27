@@ -1,0 +1,64 @@
+@startmindmap
+title =<i><b><u>Process Management
+!theme hacker
+
+*[#darkblue] <i><color #white>Process Management
+**[#lightblue] <i><color #black><size:12>Definition
+***[#green] <b><i><color #white><size:12>Operating system function managing execution of processes
+**[#lightblue] <i><color #black><size:12>Process Lifecycle
+***[#green] <b><i><color #white><size:12>Creation
+****[#yellow] <i><color #black><size:12>Initialization of new processes
+***[#green] <b><i><color #white><size:12>Execution
+****[#yellow] <i><color #black><size:12>Process runs and performs its tasks
+***[#green] <b><i><color #white><size:12>Termination
+****[#yellow] <i><color #black><size:12>Properly ending the process execution
+**[#lightblue] <i><color #black><size:12>Process States\n<img:images/img_2.png{scale=.9}>
+***[#green] <b><i><color #white><size:12>Running
+****[#yellow] <i><color #black><size:12>Currently executing instructions
+***[#green] <b><i><color #white><size:12>Ready
+****[#yellow] <i><color #black><size:12>Ready to run but waiting for CPU time
+***[#green] <b><i><color #white><size:12>Blocked
+****[#yellow] <i><color #black><size:12>Waiting for an event (e.g., I/O completion)
+***[#green] <b><i><color #white><size:12>Terminated
+****[#yellow] <i><color #black><size:12>Process execution is completed
+**[#lightblue] <i><color #black><size:12>Process Control Block (PCB)
+***[#green] <b><i><color #white><size:12>Data structure containing process-related information
+****[#yellow] <i><color #black><size:12>Process ID, state, priority, memory information
+****[#yellow] <i><color #black><size:12>CPU registers, scheduling information
+**[#lightblue] <i><color #black><size:12>Process Scheduling
+***[#green] <b><i><color #white><size:12>CPU Scheduling Algorithms
+****[#yellow] <i><color #black><size:12>Determines which process to run next
+****[#yellow] <i><color #black><size:12>Examples: FCFS, SJF, Round Robin
+***[#green] <b><i><color #white><size:12>Context Switching
+****[#yellow] <i><color #black><size:12>Switching between different processes by the OS
+****[#yellow] <i><color #black><size:12>Saving and restoring process state
+**[#lightblue] <i><color #black><size:12>Interprocess Communication (IPC)
+***[#green] <b><i><color #white><size:12>Communication between different processes
+****[#yellow] <i><color #black><size:12>Shared Memory, Message Passing, Synchronization
+***[#green] <b><i><color #white><size:12>IPC Mechanisms
+****[#yellow] <i><color #black><size:12>Pipes, Sockets, Signals, Semaphores
+**[#lightblue] <i><color #black><size:12>Process Creation
+***[#green] <b><i><color #white><size:12>Forking
+****[#yellow] <i><color #black><size:12>Creating a new process (child) from an existing one (parent)
+****[#yellow] <i><color #black><size:12>Unix/Linux fork() system call
+***[#green] <b><i><color #white><size:12>Executing a New Program
+****[#yellow] <i><color #black><size:12>Replacing the current process image with a new one
+****[#yellow] <i><color #black><size:12>Unix/Linux exec() system call
+**[#lightblue] <i><color #black><size:12>Threads and Multithreading
+***[#green] <b><i><color #white><size:12>Lightweight processes within a process
+****[#yellow] <i><color #black><size:12>Share memory space, resources
+****[#yellow] <i><color #black><size:12>Increase application responsiveness and concurrency
+**[#lightblue] <i><color #black><size:12>Process Synchronization
+***[#green] <b><i><color #white><size:12>Preventing race conditions and ensuring data consistency
+****[#yellow] <i><color #black><size:12>Mutexes, Semaphores, Monitors
+**[#lightblue] <i><color #black><size:12>Process Termination
+***[#green] <b><i><color #white><size:12>Graceful process exit
+****[#yellow] <i><color #black><size:12>Release of resources, memory deallocation
+***[#green] <b><i><color #white><size:12>Abnormal Termination
+****[#yellow] <i><color #black><size:12>Forced termination due to errors or system events
+**[#lightblue] <i><color #black><size:12>Process Monitoring and Control
+***[#green] <b><i><color #white><size:12>Process Inspection
+****[#yellow] <i><color #black><size:12>Monitoring process behavior, resource usage
+***[#green] <b><i><color #white><size:12>Process Termination
+****[#yellow] <i><color #black><size:12>Stopping, killing or terminating processes
+@endmindmap

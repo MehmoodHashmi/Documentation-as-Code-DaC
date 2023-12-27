@@ -1,0 +1,64 @@
+@startmindmap
+title =<i><b><u>Interprocess Communication
+!theme hacker
+
+*[#darkblue] <i><color #white>Interprocess Communication
+**[#lightblue] <i><color #black><size:12>Definition
+***[#green] <b><i><color #white><size:12>Exchange of data between multiple processes in a system
+**[#lightblue] <i><color #black><size:12>Types\n<img:images/img_1.png{scale=.6}>
+***[#green] <b><i><color #white><size:12>Shared Memory
+****[#yellow] <i><color #black><size:12>Processes share a portion of memory for communication
+***[#green] <b><i><color #white><size:12>Message Passing
+****[#yellow] <i><color #black><size:12>Processes communicate by sending messages
+*****[#darkorange] <i><color #black><size:12><b>Synchronous
+******[#gold] <i><color #black><size:12>Blocking until message received
+*****[#darkorange] <i><color #black><size:12><b>Asynchronous
+******[#gold] <i><color #black><size:12>Non-blocking message transmission
+***[#green] <b><i><color #white><size:12>Pipes and FIFOs
+****[#yellow] <i><color #black><size:12>Unidirectional communication channels
+*****[#darkorange] <i><color #black><size:12>**Pipes:** One-way communication
+*****[#darkorange] <i><color #black><size:12>**FIFOs (Named Pipes):** Allows bidirectional communication
+***[#a] <b><i><color #white><size:12>[[docs/books/1-books-backlog/operating-system/sockets.puml Sockets]]
+****[#yellow] <b><i><color #black><size:12>Network communication between processes on different systems
+*****[#darkorange] <i><color #black><size:12>TCP/IP Sockets
+******[#gold] <i><color #black><size:12>Reliable, connection-oriented
+*****[#darkorange] <i><color #black><size:12>UDP Sockets
+******[#gold] <i><color #black><size:12>Unreliable, connectionless
+**[#lightblue] <i><color #black><size:12>Mechanisms
+***[#green] <b><i><color #white><size:12>Semaphores
+****[#yellow] <i><color #black><size:12>Synchronization between processes
+****[#yellow] <i><color #black><size:12>Counting and binary semaphores
+***[#green] <b><i><color #white><size:12>Mutexes
+****[#yellow] <i><color #black><size:12>Mutual exclusion for shared resources
+***[#green] <b><i><color #white><size:12>Condition Variables
+****[#yellow] <i><color #black><size:12>Signaling between processes
+****[#yellow] <i><color #black><size:12>Wait and notify mechanism
+***[#green] <b><i><color #white><size:12>Signals and Interrupts
+****[#yellow] <i><color #black><size:12>**Asynchronous** notifications to <b>processes
+****[#yellow] <i><color #black><size:12>Used for handling exceptional conditions
+**[#lightblue] <i><color #black><size:12>Models and Protocols
+***[#green] <b><i><color #white><size:12>Client-Server Model
+****[#yellow] <i><color #black><size:12>Request-Response mechanism
+****[#yellow] <i><color #black><size:12>**Examples:** HTTP, FTP
+***[#green] <b><i><color #white><size:12>Publish-Subscribe Model
+****[#yellow] <i><color #black><size:12>Subscribers receive messages from publishers
+****[#gold] <i><color #black><size:12>**Examples:** Message brokers, MQTT
+***[#green] <b><i><color #white><size:12>Remote Procedure Call (RPC)
+****[#yellow] <i><color #black><size:12>Invocation of procedures on remote systems
+****[#yellow] <i><color #black><size:12>**Examples:** gRPC, XML-RPC
+**[#lightblue] <i><color #black><size:12>Operating System Support
+***[#green] <b><i><color #white><size:12>APIs and Libraries
+****[#yellow] <i><color #black><size:12>Provided by OS for interprocess communication
+****[#yellow] <i><color #black><size:12>**Examples:** POSIX IPC, Windows IPC
+***[#green] <b><i><color #white><size:12>Interprocess Communication Primitives
+****[#yellow] <i><color #black><size:12>Built-in mechanisms for communication
+****[#yellow] <i><color #black><size:12>Facilitate synchronization and data exchange
+**[#lightblue] <i><color #black><size:12>Security and Considerations
+***[#green] <b><i><color #white><size:12>Access Control
+****[#yellow] <i><color #black><size:12>Limiting access to interprocess communication mechanisms
+***[#green] <b><i><color #white><size:12>Encryption and Authentication
+****[#yellow] <i><color #black><size:12>Secure communication channels between processes
+***[#a] <b><i><color #white><size:12>Race Conditions and Deadlocks
+****[#yellow] <i><color #black><size:12>Issues in synchronization leading to program errors
+****[#yellow] <i><color #black><size:12>Careful handling required to avoid deadlock situations
+@endmindmap

@@ -1,0 +1,61 @@
+@startmindmap
+title =<i><b><u>Memory Management
+!theme hacker
+
+*[#darkblue] <i><color #white>Memory Management
+**[#lightblue] <i><color #black><size:12>Definition
+***[#green] <b><i><color #white><size:12>Operating system function managing computer memory
+**[#lightblue] <i><color #black><size:12>Memory Hierarchy\n <img:images/img_10.png{scale=.7}>
+***[#green] <b><i><color #white><size:12>Registers
+****[#yellow] <i><color #black><size:12>Fastest and smallest storage directly accessible to CPU
+***[#green] <b><i><color #white><size:12>Cache Memory
+****[#yellow] <i><color #black><size:12>Faster than main memory, holds frequently used data
+***[#green] <b><i><color #white><size:12>Main Memory (RAM)
+****[#yellow] <i><color #black><size:12>Stores currently executing programs and data
+***[#green] <b><i><color #white><size:12>Secondary Storage
+****[#yellow] <i><color #black><size:12>Slower but larger storage (e.g., hard drives, SSDs)
+***[#green] <b><i><color #white><size:12>Tertiary Storage
+****[#yellow] <i><color #black><size:12>Archival storage (e.g., tape libraries)
+**[#a] <i><color #black><size:12>Memory Allocation
+***[#green] <b><i><color #white><size:12>Allocation Strategies
+****[#yellow] <b><i><color #black><size:12>Contiguous Allocation
+*****[#gold] <i><color #black><size:12>Assigning memory in contiguous blocks
+****[#yellow] <b><i><color #black><size:12>Non-contiguous Allocation
+*****[#gold] <i><color #black><size:12>Dynamic memory allocation using paging or segmentation
+***[#green] <b><i><color #white><size:12>Memory Fragmentation
+****[#yellow] <b><i><color #black><size:12>External Fragmentation
+*****[#gold] <i><color #black><size:12>Free memory divided into small chunks but not large enough to fulfill a request
+****[#yellow] <b><i><color #black><size:12>Internal Fragmentation
+*****[#gold] <i><color #black><size:12>Wastage of memory within allocated blocks
+**[#lightblue] <i><color #black><size:12>Memory Organization
+***[#green] <b><i><color #white><size:12>Logical vs Physical Addressing
+****[#yellow] <i><color #black><size:12>Logical addresses used by programs, converted to physical addresses by Memory Management Unit (MMU)
+***[#green] <b><i><color #white><size:12>Address Translation
+****[#yellow] <i><color #black><size:12>Mapping logical to physical addresses
+****[#yellow] <i><color #black><size:12>Paging, Segmentation, Page Tables
+***[#green] <b><i><color #white><size:12>Virtual Memory
+****[#yellow] <i><color #black><size:12>Extending available memory by using secondary storage as an extension of RAM
+****[#yellow] <i><color #black><size:12>Paging and Demand Paging
+**[#lightblue] <i><color #black><size:12>Memory Protection
+***[#green] <b><i><color #white><size:12>Preventing unauthorized access to memory locations
+****[#yellow] <i><color #black><size:12>Hardware-based protection using memory protection units
+****[#yellow] <i><color #black><size:12>Access control through permissions (read, write, execute)
+**[#lightblue] <i><color #black><size:12>Memory Deallocation
+***[#green] <b><i><color #white><size:12>Release of unused memory by processes
+****[#yellow] <i><color #black><size:12>Explicit deallocation (freeing) or implicit (garbage collection)
+**[#lightblue] <i><color #black><size:12>Swapping and Paging
+***[#green] <b><i><color #white><size:12>Swapping
+****[#yellow] <i><color #black><size:12>Moving entire processes between main memory and secondary storage
+***[#green] <b><i><color #white><size:12>Paging
+****[#yellow] <i><color #black><size:12>Dividing memory into fixed-size pages, used for virtual memory management
+**[#lightblue] <i><color #black><size:12>Memory Optimization Techniques
+***[#green] <b><i><color #white><size:12>Caching Strategies
+****[#yellow] <i><color #black><size:12>LRU (Least Recently Used), LFU (Least Frequently Used)
+***[#green] <b><i><color #white><size:12>Compaction
+****[#yellow] <i><color #black><size:12>Reducing external fragmentation by compacting memory
+***[#green] <b><i><color #white><size:12>Memory Compression
+****[#yellow] <i><color #black><size:12>Compressing memory contents to save space
+**[#lightblue] <i><color #black><size:12>Memory Leak Detection
+***[#green] <b><i><color #white><size:12>Identification of memory leaks causing excessive memory consumption
+****[#yellow] <i><color #black><size:12>Tools and techniques for detecting and fixing memory leaks
+@endmindmap

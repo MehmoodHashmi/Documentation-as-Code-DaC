@@ -1,0 +1,60 @@
+@startmindmap
+title =<i><b><u>Sockets
+!theme hacker
+
+*[#darkblue] <i><color #white>Sockets
+**[#lightblue] <i><color #black><size:12>Definition
+***[#green] <b><i><color #white><size:12>Communication endpoint between two processes
+**[#lightblue] <i><color #black><size:12>Types
+***[#green] <b><i><color #white><size:12>TCP Sockets
+****[#yellow] <i><color #black><size:12>Transmission Control Protocol
+****[#yellow] <i><color #black><size:12>Connection-oriented, reliable communication
+****[#yellow] <i><color #black><size:12>Stream-based communication
+***[#green] <b><i><color #white><size:12>UDP Sockets
+****[#yellow] <i><color #black><size:12>User Datagram Protocol
+****[#yellow] <i><color #black><size:12>Connectionless, unreliable communication
+****[#yellow] <i><color #black><size:12>Datagram-based communication
+**[#lightblue] <i><color #black><size:12>Socket Addressing
+***[#green] <b><i><color #white><size:12>IP Address and Port Number
+****[#yellow] <i><color #black><size:12>Identifies a specific endpoint in the network
+***[#green] <b><i><color #white><size:12>IP Version
+****[#yellow] <i><color #black><size:12>IPv4 and IPv6 support for addressing
+**[#lightblue] <i><color #black><size:12>Socket Lifecycle
+***[#green] <b><i><color #white><size:12>Creation
+****[#yellow] <i><color #black><size:12>Socket creation by applications for communication
+***[#green] <b><i><color #white><size:12>Binding
+****[#yellow] <i><color #black><size:12>Assigning an address and port to a socket
+***[#green] <b><i><color #white><size:12>Listening (Server)
+****[#yellow] <i><color #black><size:12>Passive socket waiting for incoming connections
+***[#green] <b><i><color #white><size:12>Connection Establishment (TCP)
+****[#yellow] <i><color #black><size:12>Handshaking between client and server sockets
+***[#green] <b><i><color #white><size:12>Data Transmission
+****[#yellow] <i><color #black><size:12>Sending and receiving data through sockets
+***[#green] <b><i><color #white><size:12>Connection Termination
+****[#yellow] <i><color #black><size:12>Proper closure of connections
+****[#yellow] <i><color #black><size:12>Graceful shutdown of sockets
+**[#lightblue] <i><color #black><size:12>Socket Operations
+***[#green] <b><i><color #white><size:12>Socket API
+****[#yellow] <i><color #black><size:12>Programming interface for socket operations
+****[#yellow] <i><color #black><size:12>Provides functions for socket creation, binding, connection, and data transfer
+***[#green] <b><i><color #white><size:12>Blocking vs Non-blocking
+****[#yellow] <i><color #black><size:12>Blocking sockets wait until data is available; Non-blocking sockets don't halt program execution
+***[#green] <b><i><color #white><size:12>Socket Options
+****[#yellow] <i><color #black><size:12>Configurations for sockets (e.g., timeout, buffer size)
+***[#green] <b><i><color #white><size:12>Socket Modes
+****[#yellow] <i><color #black><size:12>Stream (TCP) vs Datagram (UDP) modes
+**[#lightblue] <i><color #black><size:12>Application Areas
+***[#green] <b><i><color #white><size:12>Network Programming
+****[#yellow] <i><color #black><size:12>Communication between client and server applications
+***[#green] <b><i><color #white><size:12>Web Communication
+****[#yellow] <i><color #black><size:12>HTTP, FTP, SMTP utilize sockets for data transmission
+***[#green] <b><i><color #white><size:12>Real-time Applications
+****[#yellow] <i><color #black><size:12>Voice over IP (VoIP), online gaming use sockets for low-latency communication
+**[#lightblue] <i><color #black><size:12>Security Considerations
+***[#green] <b><i><color #white><size:12>Authentication and Encryption
+****[#yellow] <i><color #black><size:12>Secure transmission through secure socket layers (SSL/TLS)
+***[#green] <b><i><color #white><size:12>Firewall and Port Restrictions
+****[#yellow] <i><color #black><size:12>Handling of firewall rules and port-based access control
+***[#green] <b><i><color #white><size:12>Denial-of-Service (DoS) Protection
+****[#yellow] <i><color #black><size:12>Protection against flooding attacks targeting sockets
+@endmindmap
