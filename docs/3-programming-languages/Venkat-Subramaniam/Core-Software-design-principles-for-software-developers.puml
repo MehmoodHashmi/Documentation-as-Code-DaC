@@ -136,7 +136,7 @@ skinparam hyperlinkColor white
 ****[#yellow] <i><color #black><size:12>The more you are **couple to a decision** the harder it is to **reverse,** introduce **indirection** to increases <b>reversibility.
 ****[#yellow] <i><color #black><size:12>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.\n*<b><i><color #black><size:12>Why don't we postpone?\n**<b><i><color #green><size:12>Because we are afraid!\n*<b><i><color #black><size:12>If you want to "postpone" we need to 've good "automated testing". (TDD)
 ****[#yellow] <i><color #black><size:12>Database decisions, libraries and frameworks decisions etc.
-*****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/mixed-paradigms-(the-method-to-madness).puml Choosing programing language venkat-subramaniam]]
+*****[#a] *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/mixed-paradigms-(the-method-to-madness).puml Choosing programing language venkat-subramaniam]] \n*<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]]
 ****[#darkorange] <i><color #black><size:16>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful. \n*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy
 ****[#yellow] <i><color #black><size:12>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
 **[#lightblue] <i><color #black><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_76.png Cohesion]]
