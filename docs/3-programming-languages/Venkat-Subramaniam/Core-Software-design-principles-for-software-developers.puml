@@ -139,19 +139,21 @@ skinparam hyperlinkColor white
 *****[#a] *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/mixed-paradigms-(the-method-to-madness).puml Choosing programing language venkat-subramaniam]] \n*<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]]
 ****[#darkorange] <i><color #black><size:16>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful. \n*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy
 ****[#yellow] <i><color #black><size:12>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
+
 **[#lightblue] <i><color #black><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_76.png Cohesion]]
-***[#green] <i><color #white><size:12><b>Class-level Principles
-****[#yellow] *<i><color #black><size:12>SOLID, GRASP & TDD. **\tClass design patterns:** (Structural, Behavioral & Creational) can be reused
-***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/class-and-package-level-SOLID-Principles.puml Package-level Principles]] <size:9>click me
-****[#a] *<i><color #black><size:12>**Cohesion:** CCP, CRP & **Coupling:** REP, SDP, SAP.  **\t[[docs/3-programming-languages/Venkat-Subramaniam/images/img_160.png Modularity design patterns:]]** can be reused
-****[#yellow]:*<i><color #black><size:12>If **SOLID principles** tell use how to arrange the **bricks into walls & rooms,** then the **component principles** tell us how to arrange the rooms into building.
-*<i><color #black><size:12>Large software systems, like large buildings, are built out of smaller components.;
 ***[#green] <i><color #white><size:12><b>Where a piece of code is narrow, "focused"\n<i><color #white><size:12><b>& does one thing & does one thing well!
 ****[#yellow] <i><color #black><size:12>We want software to change, but not too <b>(expensive to change)
 ****[#yellow] <i><color #black><size:12>If a "code" is **"cohesive",** it has to <b>change less "frequently"
 ***[#green] <i><color #white><size:12><b>Like things stay together, and unlike things stay apart
 ****[#yellow] <i><color #black><size:12>**"Code that deals"** with **database** is different than **"code that deals"** with <b>XML processing
 ****[#a] <i><color #black><size:12>**"Code that deals"** with **database** is different than **"code that deals"** with <b>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/UI-UX.puml UI]] click me
+***[#green] <i><color #white><size:12><b>Class-level Principles
+****[#yellow] *<i><color #black><size:12>SOLID, GRASP & TDD. **\tClass design patterns:** (Structural, Behavioral & Creational) can be reused
+***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/class-and-package-level-SOLID-Principles.puml Package-level Principles]] <size:9>click me
+****[#a] *<i><color #black><size:12>**Cohesion:** CCP, CRP & **Coupling:** REP, SDP, SAP.  **\t[[docs/3-programming-languages/Venkat-Subramaniam/images/img_160.png Modularity design patterns:]]** can be reused
+****[#yellow]:*<i><color #black><size:12>If **SOLID principles** tell use how to arrange the **bricks into walls & rooms,** then the **component principles** tell us how to arrange the rooms into building.
+*<i><color #black><size:12>Large software systems, like large buildings, are built out of smaller components.;
+
 **[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_240.png Coupling]]\n<img:images/img_154.png{scale=.77}>
 ***[#green] <i><color #white><size:12><b>is what you depend on
 ****[#yellow] <i><color #black><size:12>Worst form of coupling is <b>inheritance
