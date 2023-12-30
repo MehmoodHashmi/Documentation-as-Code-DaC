@@ -64,7 +64,7 @@ skinparam hyperlinkColor white
 ***[#green] <i><color #white><size:12><b>2- Fragility
 ****[#yellow] <i><color #black><size:12>**Design** is **easy** to <b>break. </b>It is **even worse than rigidity,** another **module somewhere breaks** when you <b>touch this module.
 ***[#green] <i><color #white><size:12><b>3- Non-reusability
-****[#yellow]:*<i><color #black><size:12>**Reuse:** is something you get **if you 've a set of well-worked out "concepts",** well represented  in your programs then you can reuse those those classes or those "group" of classes.
+****[#yellow]:*<i><color #black><size:12>**Reuse:** is something you get **if you 've a set of well-worked out "concepts",** well represented  in your **programs** then you can **reuse** those classes or those "group" of classes.
 *<i><color #black><size:12>It's not something that comes **magically** from **language features.** It's something that comes from **"thinking clearly"** about **"issues"** & getting <b>useful "concepts" isolated & "represented clearly".;
 ***[#green] <i><color #white><size:12><b>4- Immobility
 ****[#yellow]:<i><color #black><size:12>**Design** is **difficult** to <b>reuse.</b> A **design** is **immobile** when it contains **parts** that could be **useful** in **other systems,** but the <u><b>effort & risk involved</b></u> with **separating** those **parts** from the
@@ -96,21 +96,18 @@ skinparam hyperlinkColor white
 
 
 
-
-
-
-
-
 **[#lightblue] <i><color #black><size:12>Keep it simple
 ***[#green] <i><color #white><size:12><b>KISS principle
 ****[#yellow] <i><color #black><size:12><b>Keep it "simple" and stupid
 ****[#yellow] <i><color #black><size:12><b>Most of us don't know what is <b>"simple"
+
 ***[#green] <i><color #white><size:12><b>Simple
-****[#yellow] <i><color #black><size:12><b>Keeps you "focused"
-****[#yellow] <i><color #black><size:12><b>Solves only "real problems" we know about
-****[#yellow] <i><color #black><size:12><b>Fails less (is resilient & robust)
-****[#yellow] <i><color #black><size:12><b>Easier to "understand"
-****[#yellow] <i><color #black><size:12>Has few "moving parts" in it
+****[#yellow]:*<i><color #black><size:12><b>Keeps you "focused"
+*<i><color #black><size:12><b>Solves only "real problems" we know about
+*<i><color #black><size:12><b>Fails less (is resilient & robust)
+*<i><color #black><size:12><b>Easier to "understand"
+*<i><color #black><size:12>Has few "moving parts" in it;
+
 ****[#yellow] <i><color #black><size:12><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:12>but by avoiding those tasks that <b>should not be done in the first place.
 **[#lightblue] <i><color #black><size:24>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Complexity]]\n<img:images/img_32.png>
 ***[#green] <i><color #white><size:12><b>Inherent or\n<i><color #white><size:12><b>Essential
@@ -122,14 +119,13 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12>Now, to solve this **introduced "complexities"** we bring <b>other solutions.
 *<i><color #black><size:12>**Other solutions,** bring more **"complexities"** & this goes on & on.;
 ****[#gold] <i><color #black><size:12>The **problem** did not require a **specific solution,** its the **solution we choose** to solve the <b>problem!
-****[#yellow] <i><color #black><size:12><b>E.g. Concurrency
-****[#yellow] <i><color #black><size:12><b>E.g. Streams </b>(less accidental complexity)
-****[#yellow] <i><color #black><size:12>Simple is not necessarily Familiar
+****[#yellow] *<i><color #black><size:12><b>E.g. Concurrency \n*<i><color #black><size:12><b>E.g. Streams </b>(less accidental complexity)
+****[#yellow] <i><color #black><size:12>**Simple** is not necessarily <b>familiar
 *****[#gold] <i><color #black><size:12>e.g. <b>For loop
 ***[#green] <i><color #white><size:12><b>Good Design
 ****[#gold] <i><color #black><size:12>A **good design** is the one that **"hides" or "encapsulates"** the <b>inherent complexity\n<i><color #black><size:12>and <b>"eliminates" the <b>accidental complexity
-*****[#a]:*<b><i><color #black><size:12>img_3466.png] click me
-*<b><i><color #black><size:12>img_3466.png] click me
+*****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Encapsulation vs. Abstraction]] click me
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Data-type vs. Data-Structure]] click me
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/knowledge-and-data-structure.drawio.png knowledge Vs. Data-Structures]] click me;
 ****[#gold] <i><color #black><size:12><b>Follow YAGNI Principle
 **[#lightblue] <i><color #black><size:12>Think YAGNI
