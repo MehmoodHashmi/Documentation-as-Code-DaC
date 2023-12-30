@@ -131,11 +131,10 @@ skinparam hyperlinkColor white
 **[#lightblue] <i><color #black><size:12>Think YAGNI
 ***[#green] <i><color #white><size:12><b>You are not goona need it yet!
 ***[#green] <i><color #white><size:12><b>When should I implement something?
-****[#gold] <i><color #black><size:12><b>How much do you know?
-****[#gold] <i><color #black><size:12><b>Cost of implementing?
-****[#yellow] <i><color #black><size:12>Like **"Rewrite"** java app in go-lang or C# or python, this is difficult, time consuming & hard to <b>reverse.
-****[#yellow] <i><color #black><size:12>The more you are couple to a decision the harder it is to reverse, introduce indirection to increases <b>reversibility.
-****[#yellow] <i><color #black><size:12>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.\n*<b><i><color #black><size:12>Why don't we postpone?\n**<b><i><color #green><size:12>Because we are afraid!\n*<b><i><color #black><size:12>If you want ot "postpone" we need to 've good "automated testing". (TDD)
+****[#gold] *<i><color #black><size:12><b>How much do you know? \n*<i><color #black><size:12><b>Cost of implementing?
+****[#yellow] <i><color #black><size:12>Like **"Rewrite"** java **app** in go-lang or C# or python, this is difficult, time consuming & hard to <b>reverse.
+****[#yellow] <i><color #black><size:12>The more you are **couple to a decision** the harder it is to **reverse,** introduce **indirection** to increases <b>reversibility.
+****[#yellow] <i><color #black><size:12>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.\n*<b><i><color #black><size:12>Why don't we postpone?\n**<b><i><color #green><size:12>Because we are afraid!\n*<b><i><color #black><size:12>If you want to "postpone" we need to 've good "automated testing". (TDD)
 ****[#yellow] <i><color #black><size:12>Database decisions, libraries and frameworks decisions etc.
 *****[#a] <b><i><color #black><size:12>[[a Choosing programing language venkat-subramaniam]] from onenote book
 ****[#darkorange] <i><color #black><size:16>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful. \n*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy
