@@ -128,8 +128,8 @@ skinparam hyperlinkColor white
 *****[#gold] <i><color #black><size:12>e.g. <b>For loop
 ***[#green] <i><color #white><size:12><b>Good Design
 ****[#gold] <i><color #black><size:12>A **good design** is the one that **"hides" or "encapsulates"** the <b>inherent complexity\n<i><color #black><size:12>and <b>"eliminates" the <b>accidental complexity
-*****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Encapsulation Vs. Abstraction]] click me
-*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Data-types Vs. Data-Structures]] click me
+*****[#a]:*<b><i><color #black><size:12>img_3466.png] click me
+*<b><i><color #black><size:12>img_3466.png] click me
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/knowledge-and-data-structure.drawio.png knowledge Vs. Data-Structures]] click me;
 ****[#gold] <i><color #black><size:12><b>Follow YAGNI Principle
 **[#lightblue] <i><color #black><size:12>Think YAGNI
