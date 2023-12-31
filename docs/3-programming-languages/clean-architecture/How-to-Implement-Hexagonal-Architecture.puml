@@ -1,90 +1,86 @@
 @startmindmap
-<style>
-node {
-    Padding 12
-    Margin 3
-    HorizontalAlignment center
-    LineColor blue
-    LineThickness 3.0
-    BackgroundColor gold
-    RoundCorner 40
-    MaximumWidth 1000
-}
+title =<i>How to Implement Hexagonal Architecture \n#<b><i><size:22><u>Hexagonal Architecture:</u></size> Structuring a project & the influence of <color #red>granularity \n#<i>About the granularity of ports and adapters & how it influences the code structure\n|<img:images/influence-of-granularity.jpg{scale=.66}><img:images/Screenshot_3.png{scale=.56}>|
+* <img:images/Screenshot_9.png>
+!theme hacker
 
-rootNode {
-    LineStyle 8.0;3.0
-    LineColor red
-    BackgroundColor white
-    LineThickness 1.0
-    RoundCorner 0
-    Shadowing 1.0
-}
-
-leafNode {
-    LineColor gold
-    RoundCorner 0
-    Padding 3
-}
-
-arrow {
-    LineStyle 4
-    LineThickness 1.0
-    LineColor green
-}
-</style>
-
-title =__ How to Implement Hexagonal Architecture__
+*[#darkblue] <i><color #white>Hexagonal Architecture
+**[#lightblue] <i><color #black><size:12>Definition
+***[#green] <b><i><color #white><size:12>Also known as Ports and Adapters Architecture or Clean Architecture
+***[#green] <b><i><color #white><size:12>Separates the application core from external concerns
+***[#green] <b><i><color #white><size:12>Focuses on the domain logic by using a layered architecture
+**[#lightblue] <i><color #black><size:12>Layers
+***[#green] <b><i><color #white><size:12>Application Core
+****[#yellow] <i><color #black><size:12> Contains the <b>domain model, business logic, and use cases
+****[#yellow] <i><color #black><size:12> Defines the **ports** for <b>input and output
+***[#green] <b><i><color #white><size:12>Adapters
+****[#yellow] <i><color #black><size:12>**Connect** the **application core** to the <b>external world
+****[#yellow] <i><color #black><size:12>**Adapters** are either **inbound (receiving input)** or <b>outbound (sending output)
+****[#yellow] <i><color #black><size:12> **Examples of adapters include:** controllers, views, repositories, databases, and services
+***[#green] <b><i><color #white><size:12>Infrastructure
+****[#yellow] <i><color #black><size:12> Provides the technical foundation for the application
+****[#yellow] <i><color #black><size:12> Contains technology-specific implementations for the <b>ports
+****[#yellow] <i><color #black><size:12> **Examples of infrastructure include:** databases, <b>message queues, and external APIs
+**[#lightblue] <i><color #black><size:12>Example
+***[#green] <b><i><color #white><size:12>A web application that manages a list of "contacts"
+***[#green] <b><i><color #white><size:12>Application Core
+****[#yellow] <b><i><color #black><size:12>Contains the \n*<i><color #black><size:12>Contact <b>domain model, \n*<i><color #black><size:12>ContactRepository **port**, and \n*<i><color #black><size:12>CreateContact <b>use case
+***[#green] <b><i><color #white><size:12>Adapters
+****[#yellow] <i><color #black><size:12> **Inbound Adapter:** a RESTful API that receives HTTP requests and maps them to the <b>CreateContact use case
+****[#yellow] <i><color #black><size:12> **Outbound Adapter:** a MySQL database that stores contact data
+***[#green] <b><i><color #white><size:12>Infrastructure
+****[#yellow] <i><color #black><size:12> MySQL database
+****[#yellow] <i><color #black><size:12> Spring Boot RESTful API framework
 
 
-* How to Implement Hexagonal Architecture
-** Step 1: Define the **Domain Model**
-*** Identify the **domain entities** and their attributes
-*** Represent the **domain entities** using domain objects
-** Step 2: Define the **Ports**
-*** Identify the inputs and outputs required by the **application core**
-*** Define the **ports** that represent these inputs and outputs
-*** **Ports** are **interfaces** that define the methods for input and output
-** Step 3: Implement the Application Core
-*** Implement the domain objects and business logic in the **application core**
-*** Use the **ports** to interact with the adapters
-*** The **application core** should be decoupled from the adapters and the infrastructure
-** Step 4: Implement the Adapters
-*** Implement the **inbound** and **outbound adapters**
-*** The **inbound** adapters convert external inputs into the domain objects and pass them to the **application core** via the **ports**
-*** The **outbound adapters** convert the domain objects into external outputs and pass them back via the **ports**
-*** Adapters should be decoupled from the **application core** and the infrastructure
-** Step 5: Implement the **Infrastructure**
-*** Implement the infrastructure components, such as databases, message queues, and external APIs
-*** Implement the technology-specific implementations for the **ports**
-*** **Infrastructure** should be decoupled from the **application core** and the adapters
+*[#darkblue] <i><color #white>How to Implement Hexagonal Architecture
+**[#lightblue] <i><color #black><size:12>Step 1: Define the **Domain Model**
+***[#green] <i><color #white><size:12>Identify the **domain entities** and their attributes
+***[#green] <i><color #white><size:12>Represent the **domain entities** using domain objects
+**[#lightblue] <i><color #black><size:12>Step 2: Define the **Ports**
+***[#green] <i><color #white><size:12>Identify the inputs and outputs required by the **application core**
+***[#green] <i><color #white><size:12>Define the **ports** that represent these inputs and outputs
+***[#green] <i><color #white><size:12>**Ports** are **interfaces** that define the methods for input and output
+**[#lightblue] <i><color #black><size:12>Step 3: Implement the Application Core
+***[#green] <i><color #white><size:12>Implement the domain objects and business logic in the **application core**
+***[#green] <i><color #white><size:12>Use the **ports** to interact with the adapters
+***[#green] <i><color #white><size:12>The **application core** should be decoupled from the adapters and the infrastructure
+**[#lightblue] <i><color #black><size:12>Step 4: Implement the Adapters
+***[#green] <i><color #white><size:12>Implement the **inbound** and **outbound adapters**
+***[#green] <i><color #white><size:12>The **inbound** adapters convert external inputs into the domain objects and pass them to the **application core** via the **ports**
+***[#green] <i><color #white><size:12>The **outbound adapters** convert the domain objects into external outputs and pass them back via the **ports**
+***[#green] <i><color #white><size:12>Adapters should be decoupled from the **application core** and the infrastructure
+**[#lightblue] <i><color #black><size:12>Step 5: Implement the **Infrastructure**
+***[#green] <i><color #white><size:12>Implement the infrastructure components, such as databases, message queues, and external APIs
+***[#green] <i><color #white><size:12>Implement the technology-specific implementations for the **ports**
+***[#green] <i><color #white><size:12>**Infrastructure** should be decoupled from the **application core** and the adapters
 
 
 
 
-* How to **Implement Hexagonal Architecture** \n **example**
-**[#yellow] **Step 1:** Define the **Domain Model**
-***[#yellow] Example: A **library system** with books and patrons as **domain entities**
-*** **Domain objects:** Book and Patron
-****[#yellow] **Attributes:** Book (title, author, ISBN) and Patron (name, email, library card number)
-**[#yellow] **Step 2:** Define the Ports
-*** **Input:** Add a new book to the library, Add a new patron to the library, Check out a book, Return a book
-*** **Output:** List all books in the library, List all patrons in the library, List all checked-out books, List all books checked out by a specific patron
-*** Ports: BookRepository, PatronRepository, CheckOutRepository, ReturnRepository
-**[#yellow] **Step 3:** Implement the Application Core
-*** Business logic: AddBook, AddPatron, CheckOutBook, ReturnBook
-*** Use the **ports** to interact with the adapters
-*** Decoupled from the adapters and the infrastructure
-**[#yellow] **Step 4:** Implement the Adapters
-*** Inbound Adapter: **RESTful API**
-**** **Input:** HTTP POST requests for adding a book or patron
-**** **Output:** HTTP GET requests for listing books, patrons, and checked-out books
-*** Outbound Adapter: **Database**
-**** **Input:** Domain objects (Book, Patron, CheckOut)
-**** **Output:** Domain objects (Book, Patron, CheckOut)
-*** Decoupled from the **application core** and the infrastructure
-**[#yellow] **Step 5:** Implement the **Infrastructure**
-*** **Database** for storing books, patrons, and checkouts
-*** **RESTful API** server for handling incoming HTTP requests and returning HTTP responses
-*** Decoupled from the **application core** and the adapters
+*[#darkblue] <i><color #white>How to Implement Hexagonal Architecture example
+**[#lightblue] <i><color #black><size:12>Step 1: Define the **Domain Model**
+***[#green] <i><color #white><size:12>**Example:** A **library system** with books and patrons as **domain entities**
+***[#green] <i><color #white><size:12>**Domain objects:** Book and Patron
+****[#yellow] <i><color #black><size:12>**Attributes:** Book **(title, author, ISBN)** and Patron <b>(name, email, library card number)
+**[#lightblue] <i><color #black><size:12>Step 2: Define the Ports
+***[#green] <i><color #white><size:12>**Input:** Add a new book to the library, Add a new patron to the library, Check out a book, Return a book
+***[#green] <i><color #white><size:12>**Output:** List all books in the library, List all patrons in the library, List all checked-out books, List all books checked out by a specific patron
+***[#green] <i><color #white><size:12>**Ports:** BookRepository, PatronRepository, CheckOutRepository, ReturnRepository
+**[#lightblue] <i><color #black><size:12>Step 3: Implement the Application Core
+***[#green] <i><color #white><size:12>**Business logic:** AddBook, AddPatron, CheckOutBook, ReturnBook
+***[#green] <i><color #white><size:12>Use the **ports** to interact with the adapters
+***[#green] <i><color #white><size:12>Decoupled from the adapters and the infrastructure
+**[#lightblue] <i><color #black><size:12>Step 4: Implement the Adapters
+***[#green] <i><color #white><size:12>**Inbound Adapter:** RESTful API
+****[#yellow] <i><color #black><size:12>**Input:** HTTP POST requests for adding a book or patron
+****[#yellow] <i><color #black><size:12>**Output:** HTTP GET requests for listing books, patrons, and checked-out books
+***[#green] <i><color #white><size:12>**Outbound Adapter:** Database
+****[#yellow] <i><color #black><size:12>**Input:** Domain objects <b>(Book, Patron, CheckOut)
+****[#yellow] <i><color #black><size:12>**Output:** Domain objects <b>(Book, Patron, CheckOut)
+***[#green] <i><color #white><size:12>Decoupled from the **application core** and the infrastructure
+**[#lightblue] <i><color #black><size:12>Step 5: Implement the **Infrastructure**
+***[#green] <i><color #white><size:12>**Database** for storing books, patrons, and checkouts
+***[#green] <i><color #white><size:12>**RESTful API** server for handling incoming HTTP requests and returning HTTP responses
+***[#green] <i><color #white><size:12>Decoupled from the **application core** and the adapters
 
 @endmindmap

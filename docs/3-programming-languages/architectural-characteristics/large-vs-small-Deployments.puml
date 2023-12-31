@@ -1,0 +1,89 @@
+@startmindmap
+title =<i><b><u>Large vs Small Deployments
+* =<b><i>[[docs/3-programming-languages/architectural-characteristics/Deployment-size.puml Deployment Sizes]]
+!theme hacker
+
+*[#darkblue] <i><color #white>Large vs Small Deployments
+**[#lightblue] <i><color #black><size:12>Definition
+***[#green] <b><i><color #white><size:12>Large Deployments
+****[#yellow] <i><color #black><size:12>Complex, Extensive Systems
+****[#yellow] <i><color #black><size:12>Distributed Infrastructure
+***[#green] <b><i><color #white><size:12>Small Deployments
+****[#yellow] <i><color #black><size:12>Compact, Simplified Systems
+*****[#gold] *<i><color #black><size:12>Monolithic architecture\n*<i><color #black><size:12>Single unit
+****[#yellow] <i><color #black><size:12>Minimalist Infrastructure
+*****[#gold] *<i><color #black><size:12>Single Server or Small Cluster\n*<i><color #black><size:12>Limited user-base
+**[#lightblue] <i><color #black><size:12>Characteristics
+***[#green] <b><i><color #white><size:12>Scale
+****[#yellow] <i><color #black><size:12>Extensive Scale and Scope
+****[#yellow] <i><color #black><size:12>Handling High Loads and Traffic
+****[#yellow] <i><color #black><size:12><b>Geographical Distribution
+*****[#gold] *<i><color #black><size:12><b>Region 1 \n*<i><color #black><size:12><b>Region 2 \n*<i><color #black><size:12><b>Region 3
+***[#green] <b><i><color #white><size:12>Complexity
+****[#yellow] <i><color #black><size:12>Diverse Components and <b>Services
+*****[#gold] *<i><color #black><size:12><b>Service 1 \n*<i><color #black><size:12><b>Service 2 \n*<i><color #black><size:12><b>Service 3
+****[#gold] <i><color #black><size:12><b>Interconnected Systems
+*****[#gold] *<i><color #black><size:12><b>APIs as integration
+****[#yellow] <i><color #black><size:12>Higher Configuration Management
+***[#green] <b><i><color #white><size:12>Resource Requirements
+****[#yellow] <i><color #black><size:12>Extensive <b>Hardware/Resources
+****[#yellow] <i><color #black><size:12><b>High Bandwidth and Storage Needs
+****[#yellow] <i><color #black><size:12>Advanced <b>Networking and Computing
+***[#green] <b><i><color #white><size:12>Maintenance
+****[#gold] <i><color #black><size:12><b>Dedicated "Teams" and Resources
+****[#yellow] <i><color #black><size:12>Specialized Maintenance Procedures
+****[#yellow] <i><color #black><size:12>Compliance and Governance Challenges
+**[#gold] <i><color #black><size:12>Infrastructure
+***[#green] <b><i><color #white><size:12>Hardware
+****[#a] <i><color #white><size:12><b>Large-Scale Servers/Clusters
+****[#a] <i><color #white><size:12><b>Redundancy and Failover Mechanisms
+****[#a] <i><color #white><size:12><b>Load Balancing at Scale
+***[#green] <b><i><color #white><size:12>Software
+****[#gold] <b><i><color #black><size:12>Distributed Systems and Microservices
+****[#gold] <b><i><color #black><size:12>Container Orchestration (e.g., Kubernetes)
+****[#gold] <b><i><color #black><size:12>Scalable Databases and Storage Solutions
+**[#lightblue] <i><color #black><size:12>Challenges
+***[#green] <b><i><color #white><size:12>Scalability
+****[#yellow] <i><color #black><size:12><b>Ensuring Scalability without Performance Loss
+****[#yellow] <i><color #black><size:12>Handling Increasing Demands
+****[#yellow] <i><color #black><size:12><b>Balancing Resources and Costs
+***[#green] <b><i><color #white><size:12>Complexity Management
+****[#yellow] <i><color #black><size:12>Managing Complexity Across Various Components
+****[#yellow] <i><color #black><size:12>Debugging and Troubleshooting Complex Systems
+****[#yellow] <i><color #black><size:12>Ensuring Consistency Across Distributed Environments
+***[#green] <b><i><color #white><size:12>Cost and Resources
+****[#yellow] <i><color #black><size:12>High Infrastructure and Maintenance Costs
+****[#yellow] <i><color #black><size:12>Efficient Resource Utilization
+****[#yellow] <i><color #black><size:12>Staffing Challenges for Maintenance
+**[#lightblue] <i><color #black><size:12>Benefits
+***[#green] <b><i><color #white><size:12>High Performance and Scalability
+****[#yellow] <i><color #black><size:12>Capability to Handle Large User Base
+****[#yellow] <i><color #black><size:12>Resilience to High Loads
+****[#yellow] <i><color #black><size:12><b>Geographic Reach and Availability
+***[#green] <b><i><color #white><size:12>Agility and Flexibility
+****[#yellow] <i><color #black><size:12>Ability to Quickly Adapt and Scale
+****[#yellow] <i><color #black><size:12>Support for Diverse Use Cases
+***[#green] <b><i><color #white><size:12>Enhanced Security and Compliance
+****[#yellow] <i><color #black><size:12>Robust Security Measures
+****[#yellow] <i><color #black><size:12>Compliance with Regulations
+****[#yellow] <i><color #black><size:12>Centralized Governance
+**[#lightblue] <i><color #black><size:12>Use Cases
+***[#green] <b><i><color #white><size:12>Large Deployments
+****[#gold] <i><color #black><size:12>Enterprises and Multinational Corporations
+****[#gold] <i><color #black><size:12>Cloud-Based Applications
+****[#gold] <i><color #black><size:12>Global Services and Platforms
+***[#a] <b><i><color #white><size:12>Small Deployments
+****[#yellow] <b><i><color #black><size:12>Startups and Small Businesses
+****[#yellow] <b><i><color #black><size:12>Prototyping and MVPs
+****[#yellow] <b><i><color #black><size:12>Personal Projects and Small Teams
+**[#lightblue] <i><color #black><size:12>Considerations
+***[#green] <b><i><color #white><size:12>Cost vs Benefit Analysis
+****[#yellow] <i><color #black><size:12>Scaling Infrastructure Costs
+****[#yellow] <i><color #black><size:12>Impact on Performance and Services
+***[#green] <b><i><color #white><size:12>Maintenance Overhead
+****[#yellow] <i><color #black><size:12>Maintenance Complexity vs System Size
+****[#yellow] <i><color #black><size:12><b>Availability and Support for Users
+***[#green] <b><i><color #white><size:12>Future Growth and Scaling
+****[#yellow] <i><color #black><size:12>Ability to Scale Quickly and Efficiently
+****[#yellow] <i><color #black><size:12><b>Planning for Expansion and Change
+@endmindmap
