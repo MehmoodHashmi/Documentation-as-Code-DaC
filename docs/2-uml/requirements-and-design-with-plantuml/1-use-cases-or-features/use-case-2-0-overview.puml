@@ -13,7 +13,7 @@ caption <img:img_1.png{scale=0.7}>
 
 !theme hacker
 
-*[#darkblue] <i>Use Case#1 or feature#1
+*[#darkblue] <color #white><i>Use Case#1 or feature#1
 **[#lightblue] <i><size:12>Use Case Name
 ***[#yellow] <i><size:12>A short, descriptive name for the use case
 **[#lightblue] <i><size:12>Actor
