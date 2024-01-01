@@ -1,7 +1,5 @@
 @startmindmap
-
-
-title =<i><b><u>Core Software design principles for software developers\nDr.Venkat Subramaniam -  2015
+title =<i><b><u><size:16>Core Software design principles for software developers\nDr.Venkat Subramaniam -  2015
 * ==<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]]
 ** <i><b>[[https://www.youtube.com/watch?v=llGgO74uXMI&ab_channel=Devoxx Core Software design principles for software developers by Venkat Subramaniam]] video
 *** <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png "Learning these principles do not guarantee earning money" Robert C Martin]] image
