@@ -2,7 +2,7 @@
 title =<b><i>Types of API Integration\n<img:images/img_1.png>\n<size:18><i><color:pink>The spectrum of "contract types" from "strict to lose"
 !theme hacker
 
-*[#darkblue] =<color:white><i>Types of API Integration\n<img:images/img.png{scale=.72}>\n<color:white><i>Architecture styles define how different components of an \n<color:white><i>application programming interface (API) interact with one another.
+*[#darkblue] =<color:white><i>[[docs/3-programming-languages/Venkat-Subramaniam/gif/api-architecture-style.adoc Types of API Integration]] gif click me\n<img:images/img.png{scale=.72}>\n<color:white><i>Architecture styles define how different components of an \n<color:white><i>application programming interface (API) interact with one another.
 **[#lightblue] <i><color #blac><size:14>Synchronous
 ***[#green] <b><i><color #white><size:14>REST
 ****[#yellow] <i><color #black><size:14>SOAP
@@ -16,7 +16,7 @@ title =<b><i>Types of API Integration\n<img:images/img_1.png>\n<size:18><i><colo
 ***[#green] <b><i><color #white><size:14>Websockets
 ***[#green] <b><i><color #white><size:14>Event-Driven
 ****[#yellow] <i><color #black><size:14>Pub/Sub
-****[#yellow] <i><color #black><size:14>Message Queue
+****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/gif/message-queues.adoc Message Queue]] click me
 ****[#yellow] <i><color #black><size:14>Streaming API
 
 @endmindmap

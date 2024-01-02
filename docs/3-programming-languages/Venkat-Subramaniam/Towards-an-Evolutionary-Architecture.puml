@@ -23,7 +23,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_63.png Who builds & designs the software?]] click me
 *<b><i><color #black><size:12>[[docs/cloud-computing/AWS-Cloud/Software_Architecture_Mindmap.png Software Architecture fundamentals Mindmap]];
 *****[#yellow] <i><color #black><size:12>**--BUFD--** is waterfall
-******[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_255.png Agile vs DevOps vs SRE]]
+******[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_255.png Agile vs DevOps vs SRE]] & [[docs/3-devops/devops-plantuml-mindmap/Site-Reliability-Engineering-(SRE).puml SRE Mindmap & Observability]]
 *****[#yellow] <i><color #black><size:12>Agile (No Design) is <b>disaster!
 ******[#a] <b><i><color #black><size:12>[[a Clean Agile]]
 *****[#yellow] <i><color #black><size:12><b>EUFD <&check>

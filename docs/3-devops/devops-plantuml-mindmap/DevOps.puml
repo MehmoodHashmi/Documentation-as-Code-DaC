@@ -4,84 +4,84 @@ title =__**[[devops.puml DevOps]]**__
 
 * DevOps
 ** Definition
-***[#a] ====<size:14>**[[devops.puml DevOps]]** is a set of **practices and cultural philosophies** that aims to __automate and integrate the processes of software development__ **(Dev)** and IT operations **(Ops)** to achieve continuous delivery and improve \n<size:14>//software quality and efficiency.//
+***[#a] <i><size:12>**[[devops.puml DevOps]]** is a set of **practices and cultural philosophies** that aims to __automate and integrate the processes of software development__ **(Dev)** and IT operations **(Ops)** to achieve continuous delivery and improve \n<size:12>//software quality and efficiency.//
 
 ** Key Concepts
 *** Continuous Integration **(CI)**
-****[#yellow] ====<size:14>Automating the process of code integration and validation.
+****[#yellow] <i><size:12>Automating the process of code integration and validation.
 *** Continuous Delivery **(CD)**
-****[#yellow] ====<size:14>Automatically deploying code to production or staging environments.
+****[#yellow] <i><size:12>Automatically deploying code to production or staging environments.
 *** Infrastructure as Code **(IaC)**
-****[#yellow] ====<size:14>Managing and provisioning infrastructure using code.
-***[#gold] ====**Automation**
-****[#yellow] ====<size:18>**Reducing manual, repetitive tasks through scripting and tooling.**
-***[#orange] ====**Collaboration**
-****[#pink] ====<size:16>**Encouraging cross-functional teamwork and communication.**
+****[#yellow] <i><size:12>Managing and provisioning infrastructure using code.
+***[#gold] <i>**Automation**
+****[#yellow] <i><size:18>**Reducing manual, repetitive tasks through scripting and tooling.**
+***[#orange] <i>**Collaboration**
+****[#pink] <i><size:16>**Encouraging cross-functional teamwork and communication.**
 *** Monitoring and Feedback
-****[#yellow] ====<size:14>Collecting and analyzing data to inform improvements.
+****[#yellow] <i><size:12>Collecting and analyzing data to inform improvements.
 
 ** DevOps Practices
 *** Version Control
-****[#yellow] ====<size:14>Using tools like **Git** to manage and track changes in code.
+****[#yellow] <i><size:12>Using tools like **Git** to manage and track changes in code.
 *** Continuous Integration **(CI)**
-****[#yellow] ====<size:14>**Building and testing** code __automatically__ upon **commits.**
+****[#yellow] <i><size:12>**Building and testing** code __automatically__ upon **commits.**
 *** Continuous Delivery **(CD)**
-****[#yellow] ====<size:14>Deploying code to various environments in an automated fashion.
+****[#yellow] <i><size:12>Deploying code to various environments in an automated fashion.
 *** Configuration Management
-****[#yellow] ====<size:14>Managing infrastructure and application configurations.
+****[#yellow] <i><size:12>Managing infrastructure and application configurations.
 *** Containers and Orchestration
-****[#yellow] ====<size:14>Using containerization **(e.g., Docker)** and orchestrators **(e.g., Kubernetes)**.
+****[#yellow] <i><size:12>Using containerization **(e.g., Docker)** and orchestrators **(e.g., Kubernetes)**.
 *** Release Management
-****[#yellow] ====<size:14>Planning, scheduling, and controlling software releases.
+****[#yellow] <i><size:12>Planning, scheduling, and controlling software releases.
 *** Monitoring and Logging
-****[#yellow] ====<size:14>Collecting data and generating logs for analysis.
-***[#white] ====<size:14>**Security**
-****[#lightgreen] ====<size:14>**Integrating security practices** into the **DevOps pipeline.**
+****[#yellow] <i><size:12>Collecting data and generating logs for analysis.
+***[#white] <i><size:12>**Security**
+****[#lightgreen] <i><size:12>**Integrating security practices** into the **DevOps pipeline.**
 
 ** DevOps Tools
 *** Version Control
-****[#yellow] ====<size:14>Git, SVN, and Mercurial.
+****[#yellow] <i><size:12>Git, SVN, and Mercurial.
 *** CI/CD
-****[#yellow] ====<size:14>Jenkins, Travis CI, GitLab CI/CD.
+****[#yellow] <i><size:12>Jenkins, Travis CI, GitLab CI/CD.
 *** Containerization
-****[#yellow] ====<size:14>**Docker** and container orchestration tools **(e.g., Kubernetes)**.
+****[#yellow] <i><size:12>**Docker** and container orchestration tools **(e.g., Kubernetes)**.
 *** Configuration Management
-****[#yellow] ====<size:14>Ansible, Puppet, and Chef.
+****[#yellow] <i><size:12>Ansible, Puppet, and Chef.
 *** Collaboration
-****[#yellow] ====<size:14>Chat and communication tools **(e.g., Slack)**.
+****[#yellow] <i><size:12>Chat and communication tools **(e.g., Slack)**.
 *** Monitoring and Logging
-****[#yellow] ====<size:14>Prometheus, Grafana, ELK Stack.
+****[#yellow] <i><size:12>Prometheus, Grafana, ELK Stack.
 *** IaC
-****[#yellow] ====<size:14>Terraform, Pulumi and CloudFormation.
-***[#white] ====<size:14>**Security**
-****[#lightgreen] ====<size:14>**Tools for vulnerability scanning and security audits.**
+****[#yellow] <i><size:12>Terraform, Pulumi and CloudFormation.
+***[#white] <i><size:12>**Security**
+****[#lightgreen] <i><size:12>**Tools for vulnerability scanning and security audits.**
 
-**[#gold] ====DevOps Lifecycle
+**[#gold] <i>DevOps Lifecycle
 *** Plan
-****[#yellow] ====<size:14>Define project goals and requirements.
+****[#yellow] <i><size:12>Define project goals and requirements.
 *** Code
-****[#yellow] ====<size:14>Write and maintain code.
+****[#yellow] <i><size:12>Write and maintain code.
 *** Build
-****[#yellow] ====<size:14>Compile, build, and package code.
+****[#yellow] <i><size:12>Compile, build, and package code.
 *** Test
-****[#yellow] ====<size:14>Validate code quality through testing.
+****[#yellow] <i><size:12>Validate code quality through testing.
 *** Deploy
-****[#yellow] ====<size:14>Deploy code to various environments.
+****[#yellow] <i><size:12>Deploy code to various environments.
 *** Operate
-****[#yellow] ====<size:14>Manage and monitor deployed applications.
+****[#yellow] <i><size:12>Manage and monitor deployed applications.
 *** Monitor
-****[#yellow] ====<size:14>Collect data and feedback for continuous improvement.
+****[#yellow] <i><size:12>Collect data and feedback for continuous improvement.
 
 ** Benefits of DevOps
 *** Faster Delivery
-****[#yellow] ====<size:14>Speeding up software development and deployment.
+****[#yellow] <i><size:12>Speeding up software development and deployment.
 *** Improved Quality
-****[#yellow] ====<size:14>Enhanced testing and reduced defects.
+****[#yellow] <i><size:12>Enhanced testing and reduced defects.
 *** Increased Collaboration
-****[#yellow] ====<size:14>Bridging the gap between development and operations teams.
+****[#yellow] <i><size:12>Bridging the gap between development and operations teams.
 *** Greater Scalability
-****[#yellow] ====<size:14>Handling increased workloads and complexity.
+****[#yellow] <i><size:12>Handling increased workloads and complexity.
 *** Enhanced Security
-****[#yellow] ====<size:14>Integrating security practices from the start.
+****[#yellow] <i><size:12>Integrating security practices from the start.
 
 @endmindmap

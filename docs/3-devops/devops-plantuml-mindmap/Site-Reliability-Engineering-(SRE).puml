@@ -1,0 +1,49 @@
+@startmindmap
+title =<i><b><u>Site Reliability Engineering (SRE)
+!theme hacker
+
+
+
+*[#darkblue] <i><color #white>SRE
+**[#lightblue] <i><color #black><size:12>Core Principles
+***[#yellow] <i><color #black><size:12>Automation
+***[#gold] <i><color #black><size:12><b>Reliability Engineering
+***[#gold] <i><color #black><size:12><b>Service Level Objectives (SLOs)
+***[#yellow] <i><color #black><size:12>Error Budgets
+***[#yellow] <i><color #black><size:12>Incident Management
+
+**[#lightblue] <i><color #black><size:12>Responsibilities
+***[#yellow] <i><color #black><size:12>System Stability
+***[#yellow] <i><color #black><size:12>Monitoring & Alerting
+***[#yellow] <i><color #black><size:12>Capacity Planning
+***[#yellow] <i><color #black><size:12>Change Management
+***[#yellow] <i><color #black><size:12>Disaster Recovery
+
+**[#lightblue] <i><color #black><size:22>Tools & Practices
+***[#yellow] <i><color #black><size:12>Monitoring Tools
+***[#a] <b><i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/gif/observability.adoc 3 pillars of "Observability"]] click me
+***[#yellow] <i><color #black><size:12>Automation Frameworks
+***[#yellow] <i><color #black><size:12>Incident Response Tools
+***[#yellow] <i><color #black><size:12>Testing Methodologies
+
+**[#lightblue] <i><color #black><size:12>Collaboration
+***[#gold] <b><i><color #black><size:12>Cross-functional Teams
+***[#yellow] <i><color #black><size:12>Communication
+***[#yellow] <i><color #black><size:12>Documentation
+***[#yellow] <i><color #black><size:12>Post-Incident Reviews
+
+**[#lightblue] <i><color #black><size:12>Metrics & Analysis
+***[#yellow] <i><color #black><size:12>Service Metrics
+***[#yellow] <i><color #black><size:12>Error Rates
+***[#yellow] <i><color #black><size:12>Performance Analysis
+***[#yellow] <i><color #black><size:12>User Experience Metrics
+***[#yellow] <i><color #black><size:12>Reliability Metrics
+
+**[#lightblue] <i><color #black><size:12>Evolution
+***[#yellow] <i><color #black><size:12>Continuous Improvement
+***[#yellow] <i><color #black><size:12>Scaling Strategies
+***[#yellow] <i><color #black><size:12>Adaptability
+***[#yellow] <i><color #black><size:12>System Resilience
+***[#yellow] <i><color #black><size:12>Learning Culture
+
+@endmindmap

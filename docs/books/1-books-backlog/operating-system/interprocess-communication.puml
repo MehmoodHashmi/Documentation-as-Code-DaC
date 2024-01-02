@@ -2,10 +2,10 @@
 title =<i><b><u>Interprocess Communication
 !theme hacker
 
-*[#darkblue] <i><color #white>Interprocess Communication
+*[#darkblue] <i><color #white>Interprocess Communication\n<img:images/img_1.png{scale=.6}>
 **[#lightblue] <i><color #black><size:12>Definition
 ***[#green] <b><i><color #white><size:12>Exchange of data between multiple processes in a system
-**[#lightblue] <i><color #black><size:12>Types\n<img:images/img_1.png{scale=.6}>
+**[#lightblue] <i><color #black><size:12>Types\n<img:images/img_17.png{scale=.9}>
 ***[#green] <b><i><color #white><size:12>Shared Memory
 ****[#yellow] <i><color #black><size:12>Processes share a portion of memory for communication
 ***[#green] <b><i><color #white><size:12>Message Passing
@@ -26,13 +26,13 @@ title =<i><b><u>Interprocess Communication
 ******[#gold] <i><color #black><size:12>Unreliable, connectionless
 **[#lightblue] <i><color #black><size:12>Mechanisms
 ***[#green] <b><i><color #white><size:12>Semaphores
-****[#yellow] <i><color #black><size:12>Synchronization between processes
+****[#yellow] <i><color #black><size:12>**Synchronization** between <b>processes
 ****[#yellow] <i><color #black><size:12>Counting and binary semaphores
 ***[#green] <b><i><color #white><size:12>Mutexes
-****[#yellow] <i><color #black><size:12>Mutual exclusion for shared resources
+****[#yellow] <i><color #black><size:12>**Mutual exclusion** for <b>shared resources
 ***[#green] <b><i><color #white><size:12>Condition Variables
-****[#yellow] <i><color #black><size:12>Signaling between processes
-****[#yellow] <i><color #black><size:12>Wait and notify mechanism
+****[#yellow] <i><color #black><size:12>**Signaling** between <b>processes
+****[#yellow] <i><color #black><size:12>**Wait & notify** mechanism
 ***[#green] <b><i><color #white><size:12>Signals and Interrupts
 ****[#yellow] <i><color #black><size:12>**Asynchronous** notifications to <b>processes
 ****[#yellow] <i><color #black><size:12>Used for handling exceptional conditions
