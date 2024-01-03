@@ -118,6 +118,7 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12>**Other solutions,** bring more **"complexities"** & this goes on & on.;
 ****[#gold] <i><color #black><size:12>The **problem** did not require a **specific solution,** its the **solution we choose** to solve the <b>problem!
 ****[#yellow] *<i><color #black><size:12><b>E.g. Concurrency \n*<i><color #black><size:12><b>E.g. Streams </b>(less accidental complexity)
+*****[#gold] *<i><color #black><size:12>**FP** is good at **managing complexity** in **local computation tasks,** \n*<i><color #black><size:12>**OOP** is good at **managing complexity** in <b>global computation tasks.
 ****[#yellow] <i><color #black><size:12>**Simple** is not necessarily <b>familiar
 *****[#gold] <i><color #black><size:12>e.g. <b>For loop
 ***[#green] <i><color #white><size:12><b>Good Design

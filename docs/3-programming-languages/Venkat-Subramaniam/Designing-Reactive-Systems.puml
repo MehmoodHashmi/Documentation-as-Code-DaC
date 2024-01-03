@@ -3,7 +3,7 @@ title =<i><b><u>DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam
 * ===<i><b>[[https://www.youtube.com/watch?v=2k76zO2Q6vg&t=7003s&ab_channel=devnexus DevNexus 2016 - Designing Reactive Systems - Venkat Subramaniam]] video
 !theme hacker
 
-*[#darkblue] <i>Designing Reactive\n<i>\tSystems
+*[#darkblue] <color #white><i>Designing Reactive\n<i><color #white>\tSystems
 **[#lightblue] <i><color #blac><size:12>Introduction
 ***[#green]:<i><color #white><size:12>Organizations have moved from making their employees available to having their applications available directly to the users. This changes the magnitude of scale
 <i><color #white><size:12>of interactions the applications have to support. Furthermore, with devices and bots accessing the systems, we’re looking at a complete different rate of response

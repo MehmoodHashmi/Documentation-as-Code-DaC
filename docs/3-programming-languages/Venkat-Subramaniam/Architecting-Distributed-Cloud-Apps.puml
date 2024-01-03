@@ -1,0 +1,122 @@
+@startmindmap
+title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_374.png>|<img:images/img_375.png{scale=.91}>|\n<i><b><u><size:18>Instructor Jeffrey Richter is Microsoft Most Valuable Professional (MVP)
+* ===<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers by Venkat Subramaniam]]
+** ===<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Designing-Reactive-Systems.puml Designing Reactive Systems by Venkat Subramaniam]]
+!theme hacker
+
+*[#darkblue] <color:white><i>Architecting Distributed\n<color:white><i>Cloud Apps
+**[#lightblue]:<i><color #black><size:12>Fundamentals
+|<img:images/img_270.png{scale=.504}>|
+|<img:images/img_272.png{scale=.5}>|;
+***[#green] <i><color #white><b><size:12>Introduction
+****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_363.png Cloud Apps: are fundamentally different than traditional apps]]** that run on the **desktop, in a browser, or on a mobile device.** Whether you
+<i><color #black><size:12>are **designing apps** for **Microsoft Azure, AWS,or Google or other platforms,** absorbing the **principles** contained here in is a must
+<i><color #black><size:12><b>before writing the first line of code.;
+***** <img:images/img_366.png{scale=.2}>
+***[#green] <i><color #white><b><size:12>Why Cloud apps?
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_363.png Reason-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_364.png Reason-2]],[[docs/3-programming-languages/Venkat-Subramaniam/images/img_365.png Reason-3]],
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_367.png Orchestrators]]
+****[#yellow]:<i><color #black><size:12>**Purpose of an Orchestrator:** Infrastructure/Platform/Containers/Functions as a Service aka Orchestrators
+*<i><color #black><size:12>**Manage a cluster's**  (**set of PC/VMs**) lifecycle, networking, health, upgrades, scaling, & deploys/runs service code.
+==<i><color #black><size:12><b>Automation vs. Orchestration==
+<i><color #black><size:12>**Automation:** refers to **automating** a single **process or a small number of related tasks** (e.g., deploying an app)
+<i><color #black><size:12>**Orchestration:** refers to **managing** multiple **automated tasks** to **create a dynamica workflow** (e.g., deploying an app, connecting it to a network,
+<i><color #black><size:12>& **integrating** it with other <b>systems);
+
+***[#green] <i><color #white><b><size:12>Region, Availability Zones, & Fault Domains
+****[#a]:<i><color #black><size:12>**Distributed [[docs/3-programming-languages/Venkat-Subramaniam/images/img_359.png Cloud]] Apps:** are largely about:
+*<i><color #black><size:12><b>Scalability (auto-scaling)
+*<i><color #black><size:12><b>High availability;
+***[#green] <i><color #white><b><size:12>Services & Service-Based Architecture
+***[#green] <i><color #white><b><size:12>Monolith vs. Microservices
+****[#yellow]:<i><color #black><size:12>**Four reasons to split monolith to Microservices:**
+<i><color #black><size:12><b>1- Scale independently (balance cost with speed)
+<i><color #black><size:12><b>2- Different technology stack
+<i><color #black><size:12><b>3- 2-plus clients (clients adopt new features at will)
+<i><color #black><size:12><b>4- Conflicting Dependencies;
+***[#green] <i><color #white><b><size:12>Service-Level Agreements (SLAs) & Dependent Services
+***[#green] <i><color #white><b><size:12>Auto Scaling
+****[#yellow] <i><color #black><size:12>**has 3-techniques**
+***[#green] <i><color #white><b><size:12>12-Factor Services & Apps
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_368.png Containers]]
+****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_369.png Docker Architecture]]
+****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_370.png Image Vs Container]]
+****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_371.png VM Vs. Container]]
+***[#green] <i><color #white><b><size:12>Why Containers?
+****[#a] <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_372.png VM vs. Containers]]** size, bootup time & memory usage
+****[#yellow] <i><color #black><size:12>**Isolation vs. Density**
+***[#green] <i><color #white><b><size:12>Containers & Operation Systems
+***[#green] <i><color #white><b><size:12>Orchestrators & Containers
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_373.png Continuous Integration & Continuous Deployment]]
+**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_362.png Networking Communication]]
+
+***[#green] <i><color #white><b><size:12>Introduction
+****[#a]:<i><color #black><size:12>**Microservices** use **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_362.png network]]** to **communicate with each other,** but architecting a robust microservice based app is not as simple as replacing <b>function calls (source-level decoupling)
+<i><color #black><size:12>with **network calls.** Concepts such as **API versioning, client retires & idempotence** are critical to <b>distributed cloud architecture.;
+***[#green] <i><color #white><b><size:12>[[docs/books/1-books-backlog/DBMS/8-Fallacies-of-Distributed-Systems.puml 8 Fallacies of Distributed Computing]]
+***[#green] <i><color #white><b><size:12>Service Endpoints
+***[#green] <i><color #white><b><size:12>Proxies
+***[#green] <i><color #white><b><size:12>Putting it all together
+***[#green] <i><color #white><b><size:12>Orchestration & Load Balancing
+***[#green] <i><color #white><b><size:12>Connecting Microservices
+***[#green] <i><color #white><b><size:12>API Versioning
+****[#yellow] <i><color #black><size:12>Designing & Versioning <b>HTTP/REST APIs
+***[#green] <i><color #white><b><size:12>Network API Contracts
+***[#green] <i><color #white><b><size:12>Leaky RPC-Like Abstractions
+***[#green] <i><color #white><b><size:12>Retrying Failed Network Operations
+***[#green] <i><color #white><b><size:12>Implementing Operations Idempotently
+****[#yellow] <i><color #black><size:12>**Idempotent:** For the same input **function** always produces same <b>output
+
+**[#lightblue] <i><color #black><size:12>Messaging
+***[#green] <i><color #white><b><size:12>Introduction
+****[#yellow]:<i><color #black><size:12>**Queues:** are used to facilitate reliable **message-based communication** between **services.** Learn what **queues** are, why **messaging communication** with **queues** is frequently preferable to <b>network
+<i><color #black><size:12>**communication,** & what implications queues 've for the design & implementation of distributed cloud apps;
+***[#green] <i><color #white><b><size:12>Messaging Communication
+***[#green] <i><color #white><b><size:12>Messaging with Queues
+***[#green] <i><color #white><b><size:12>Fault-Tolerant Messaging Processing
+***[#green] <i><color #white><b><size:12>More About Queues
+
+**[#lightblue] <i><color #black><size:12>Versioning Services
+***[#green] <i><color #white><b><size:12>Introduction
+****[#yellow]:<i><color #black><size:12>**Services:** inevitably evolve, which means an important consideration when deploying them is how to version them without disrupting service. Learn the ins & outs of versioning the services that
+<i><color #black><size:12>comprise cloud apps & how to protect the **configuration data** that accompanies them.;
+***[#green] <i><color #white><b><size:12>Service-Update Options
+***[#green] <i><color #white><b><size:12>Comparing Service-Update Options
+***[#green] <i><color #white><b><size:12>Two-Phase Updates
+***[#green] <i><color #white><b><size:12>Shutting Down Service Instances
+***[#green] <i><color #white><b><size:12>Service Configuration & Secrets
+***[#green] <i><color #white><b><size:12>Cryptographic Message Syntax
+
+**[#lightblue] <i><color #black><size:12>Leader Election
+***[#green] <i><color #white><b><size:12>Introduction
+****[#yellow]:<i><color #black><size:12>**Leader election:** is a pattern that is commonly used in **distributed cloud apps.** The purpose is to allow one service instance to coordinate tasks among other service instances, & to easily be
+<i><color #black><size:12>replaced if it goes out of scope down. Learn about the leader election pattern & understand <b>how & why to implement it.;
+***[#green] <i><color #white><b><size:12>What is leader election, & why would I use it?
+***[#green] <i><color #white><b><size:12>Leader election using "leases"
+***[#green] <i><color #white><b><size:12>Leader election using "Queue Messaging"
+
+**[#lightblue] <i><color #black><size:12>Data Storage
+***[#green] <i><color #white><b><size:12>Introduction
+****[#yellow]:<i><color #black><size:12>Being **reliable & scalable services** that **manage state** is **exponentially more difficult** than **building stateless services.** Here follows the problems that you will encounter, solutions to those
+<i><color #black><size:12>problems & patterns that will help you implement them.;
+***[#green] <i><color #white><b><size:12>Data Storage Considerations
+***[#green] <i><color #white><b><size:12>Data Temperature
+***[#green] <i><color #white><b><size:12>Caching
+***[#a] <i><color #white><b><size:12>File & Object Storage
+***[#a] <i><color #white><b><size:12>Database Storage
+***[#a] <i><color #white><b><size:12>Data Partitioning
+***[#a] <i><color #white><b><size:12>Data Consistency
+***[#green] <i><color #white><b><size:12>Patterns
+****[#yellow] <i><color #black><size:12><b>CQRS Pattern
+****[#yellow] <i><color #black><size:12><b>Event-Sourcing Pattern
+****[#yellow] <i><color #black><size:12><b>Eventual Consistency
+****[#yellow] <i><color #black><size:12><b>Saga Consistency</b> (see book fundamentals of software architecture patterns) these are very easy
+***[#green] <i><color #white><b><size:12>Data Concurrency & Versioning
+***[#green] <i><color #white><b><size:12>Optimistic Concurrency
+***[#green] <i><color #white><b><size:12>Versioning Data Schemas
+***[#green] <i><color #white><b><size:12>Backup & Restore
+***[#green] <i><color #white><b><size:12>Recovery & Restore
+***[#green] <i><color #white><b><size:12>Recovery Point & Time Objectives
+***[#green] <i><color #white><b><size:12>Disaster Recovery
+
+@endmindmap

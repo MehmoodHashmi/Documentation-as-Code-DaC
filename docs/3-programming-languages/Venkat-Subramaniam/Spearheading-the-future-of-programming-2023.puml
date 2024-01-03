@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -  2023
+title =<i><b><u><size:18>Spearheading the future of programming \n<i>Dr.Venkat Subramaniam -  2023
 !theme hacker
 
 *[#darkblue] <color:white><i>Spearheading the \n<color:white><i>future of programming
@@ -57,7 +57,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 
 ****[#yellow] <i><color #black><size:12><b>2nd paradigm shift:</b> Object Oriented Programming or <b>"object decomposition" of code (modules)
 *****[#a]:<i><color #black><size:12><b>OOA&D</b>
-*<i><color #black><size:12><b>Objects + Messages = <color #green>Program
+*<i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Objects + Messages]] = <color #green>Program
 *<i><color #black><size:12><b>Good for "modeling"</b>
 **<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/class-design-patterns.puml Class-level design patterns]] can be reused:
 ***<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Principles: SOLID, GRASP, TDD, YAGNI, KISS, SLAP & DRY]]
@@ -93,7 +93,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 
 ****[#darkorange] <i><color #black><size:15><b>5th paradigm shift: [[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml Functional Programming]] \n*<i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/sequential-vs-parallel.adoc Sequential vs Parallel]] click gif
 *****[#a]:*<i><color #green><size:12><b>Lambda (->) is indirection
-*<i><color #green><size:12><b> (function-1)(function-2) = <color #Pink>Program
+*<i><color #green><size:15><b> (function-1)(function-2) = <color #Pink>Program
 **<i><color #green><size:12><b>"FP" is good for "reasoning"
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/diagramming-in-functional-programming.puml "Diagramming:"]] using <u>"Category theory",</u> it is equivalent of "UML"</b>
 <i><color #black><size:12>People said it's very easy but it was not. **Why?** Because it was really hard
@@ -129,7 +129,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 ****[#darkorange] <i><color #black><size:15><b>8th paradigm shift: [[docs/blockchain/Blockchain-System-Design.puml Internet (info. exchange) to Blockchain (value exchange)]]; Internet (centralized) to blockchain (decentralized)
 ****[#darkorange] <i><color #black><size:22><b>9th paradigm shift:</b> <b>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/statistics/professor-leonard-statistics-notes/descriptive-(or-EDA)-statistics/4-machine-learning.puml Machine learning]] click\n<img:images/img_7.png{scale=0.95}>
 *****[#darkorange] <i><color #black><size:16><b>[[docs/books/selfanalysis/anatomy-of-knowledge.puml Anatomy of knowledge]] click me\n<img:images/img_8.png{scale=0.60}>
-******[#darkorange]:<i><color #black><size:12><b>[[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml Data]] + [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Algorithm]] = [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/machine-learning-basic-terminology.puml Model]]
+******[#darkorange]:<i><color #black><size:15><b>[[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml Data]] + [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Algorithm]] = [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/machine-learning-basic-terminology.puml Model]]
 *<i><color #black><size:12><b>"ML" Good for "Pattern recognition", "Predictions" &
 <i><color #black><size:12><b>"Optimization & decision making"
 *<i><color #black><size:12><b>[[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Model-Fine-Tuning.puml Transfer learning:]] or Model fine-tuning; Model can be reused.;
@@ -209,7 +209,7 @@ title =<i><b><u>Spearheading the future of programming \nDr.Venkat Subramaniam -
 **<size:12><color #black><i>**Idempotent:** For the same input function always produces same output
 
 <size:12><color #black><i><u><b>Rules of Purity </b>(rule 1 is necessary but not sufficient)
-#<size:12><color #black><i> The function does not mutate or change anything that is visible from the outside
+#<size:12><color #black><i>The function does not mutate or change anything that is visible from the outside
 #<size:12><color #black><i>The function does not depend on anything from outside that may/possibly change;
 *****[#yellow] <i><color #black><size:12><b>Hybrid "languages"</b> can't enforce **(immutability),** so it is on us to take care of that
 ****[#darkorange] <i><color #black><size:18><b>Asynchronous Programming\n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Asynchronous is non-blocking]] click gif\n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Multi-threading vs Multi-processing programming ]]
