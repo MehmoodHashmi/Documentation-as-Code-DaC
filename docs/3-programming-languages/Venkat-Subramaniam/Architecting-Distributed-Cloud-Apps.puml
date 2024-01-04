@@ -39,6 +39,9 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc 2- High Throughput,]]
 <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc 3- High Scalability]];
 ****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_390.png Cloud hidden cost]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_391.png 2-Decades of Cloud Evolution]] & [[docs/cloud-computing/images/IaaS,PaaS,SaaS.png How we reached here?]]
+****[#a] <i><size:12><b>[[docs/cloud-computing/Cloud-Design-Patterns.puml Design for Resilience & Fault Tolerance]]
+*****[#darkorange] *<i><size:12>**Cloud-native apps** are **designed** to be **resilient to failures** & can automatically **recover** from them \n*<i><size:12>Use **[[docs/cloud-computing/Cloud-Design-Patterns.puml fault-tolerant design patterns]]** & consider implementing <b>[[docs/cloud-computing/Cloud-Design-Patterns.puml circuit breakers & retry mechanisms]]
+
 ***[#green] <i><color #white><b><size:12>Services & Service-Based Architecture
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_271.png Monolith vs. Microservices]]
 ****[#yellow]:<i><color #black><size:12>**Four reasons to split monolith to Microservices:**
@@ -46,6 +49,7 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 <i><color #black><size:12><b>2- Different technology stack
 <i><color #black><size:12><b>3- 2-plus clients (clients adopt new features at will)
 <i><color #black><size:12><b>4- Conflicting Dependencies;
+*****[#gold] *<i><color #black><size:12><b>Service Discovery
 ****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_383.png Latency Number you should know]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_384.png Commonly used tech-stack for microservices]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png How Data is sent across servers]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc How session, JWT, Token, SSO, & OAuth-2.0 works?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_394.png Top 4 Most used Authentication Mechanisms]]
@@ -69,6 +73,11 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 ***[#green] <i><color #white><b><size:12>Introduction
 ****[#a]:<i><color #black><size:12>**Microservices** use **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_362.png network]]** to **communicate with each other,** but architecting a robust microservice based app is not as simple as replacing <b>function calls (source-level decoupling)
 <i><color #black><size:12>with **network calls.** Concepts such as **API versioning, client retires & idempotence** are critical to <b>distributed cloud architecture.;
+***[#green] <i><color #white><b><size:12>Networking
+****[#a] <i><color #black><size:12><b>Virtual Networks
+*****[#a] *<i><color #black><size:12><b>VPCs \n*<i><color #black><size:12><b>Subnets
+****[#a] <i><color #black><size:12><b>Traffic Routing
+*****[#a] *<i><color #black><size:12><b>CDNs \n*<i><color #black><size:12><b>DNS Services (Translate domain names to IPs)
 ***[#green] <i><color #white><b><size:12>[[docs/books/1-books-backlog/DBMS/8-Fallacies-of-Distributed-Systems.puml 8 Fallacies of Distributed Computing]]
 ***[#green] <i><color #white><b><size:12>Service Endpoints
 ***[#green] <i><color #white><b><size:12>Proxies
@@ -78,7 +87,7 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 ***[#green] <i><color #white><b><size:12>Connecting Microservices
 ***[#green] <i><color #white><b><size:12>API Versioning
 ****[#darkorange] <i><color #black><size:12>Designing & Versioning <b>HTTP/REST APIs; & [[docs/3-programming-languages/Venkat-Subramaniam/gif/Common-HTTP-Verbs.adoc Common HTTP Verbs]] gif
-****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/3-API-gateway-use-cases.adoc 3 API gateway use cases]]
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_397.png What does API gateway do?]] & [[docs/3-programming-languages/Venkat-Subramaniam/gif/3-API-gateway-use-cases.adoc 3 API gateway use cases]]
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_46.png Network API Contracts]]
 ***[#green] <i><color #white><b><size:12>Leaky RPC-Like Abstractions
 ***[#green] <i><color #white><b><size:12>Retrying Failed Network Operations
@@ -120,8 +129,11 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png Data Storage Considerations]]
 ****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_393.png Types of Data Storage (from ground)]]
 ***[#green] <i><color #white><b><size:12>Data Temperature
-***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_385.png Caching]]
-****[#a]:*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/how-does-redis-persist-data.adoc How does Redis persist data? gif]]
+
+
+***[#green] <i><color #white><b><size:12>Performance Optimization
+****[#a] *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_385.png Caching]] & \n*<i><color #white><b><size:12>CDNs
+*****[#darkorange]:*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/how-does-redis-persist-data.adoc How does Redis persist data? gif]]
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_380.png Where do we cache data?]]
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_381.png Top 5 Caching strategies]]
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_385.png Caching complete mind-map]]
@@ -150,5 +162,8 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 ***[#green] <i><color #white><b><size:12>Recovery & Restore
 ***[#green] <i><color #white><b><size:12>Recovery Point & Time Objectives
 ***[#green] <i><color #white><b><size:12>Disaster Recovery
+***[#green] <i><color #white><b><size:12>Data Encryption
+****[#a] <i><color #white><b><size:12>In-transit Encryption
+****[#a] <i><color #white><b><size:12>At-rest Encryption
 
 @endmindmap
