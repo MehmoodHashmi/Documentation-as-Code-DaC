@@ -17,6 +17,7 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 <i><color #black><size:12><b>before writing the first line of code.;
 ***[#green] <i><color #white><b><size:12>Why Cloud apps?
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_363.png Reason-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_364.png Reason-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_365.png Reason-3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_271.png Reason-4]], [[docs/cloud-computing/Cloud-Native.puml Cloud Native]],
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/how-to-adopt-cloud-native.adoc How do we transform a system to be Cloud Native?]]
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_367.png Orchestrators]]
 ****[#yellow]:<i><color #black><size:12>**Purpose of an Orchestrator:** Infrastructure/Platform/Containers/Functions as a Service aka Orchestrators
 *<i><color #black><size:12>**Manage a cluster's**  (**set of PC/VMs**) lifecycle, networking, health, upgrades, scaling, & deploys/runs service code.
@@ -43,7 +44,9 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 <i><color #black><size:12><b>3- 2-plus clients (clients adopt new features at will)
 <i><color #black><size:12><b>4- Conflicting Dependencies;
 ****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_383.png Latency Number you should know]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_384.png Commonly used tech-stack for microservices]]
-*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png How Data is sent across servers]];
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png How Data is sent across servers]]
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc How session, JWT, Token, SSO, & OAuth-2.0 works?]]
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_392.png HTTP 1.0 -> HTTP 1.1 -> HTTP 2.0 -> HTTP 3.0 (QUIC)]];
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc Service-Level Agreements (SLAs) & Dependent Services]]
 ***[#green] <i><color #white><b><size:12>Auto Scaling
 ****[#yellow] <i><color #black><size:12>**has 3-techniques**
@@ -119,6 +122,7 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_385.png Caching complete mindmap]];
 
 ***[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png File & Object Storage]]
+****[#darkorange] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/blob-and-object-store-use-cases.adoc File & Object Storage top six (6) use-cases]] gif
 ***[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png Database Storage]]
 ****[#darkorange] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_380.jpg 8 data-structures that power "Modern Database"]]
 ***[#a] <i><color #white><b><size:12>Data Partitioning
@@ -126,6 +130,7 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 ***[#green] <i><color #white><b><size:12>Patterns
 ****[#yellow] <i><color #black><size:12><b>CQRS Pattern
 ****[#yellow] <i><color #black><size:12><b>Event-Sourcing Pattern
+*****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/CRUD-Vs-Event-Sourcing.adoc CRUD Vs. Event-Sourcing]] gif
 ****[#yellow] <i><color #black><size:12><b>Eventual Consistency
 ****[#yellow] <i><color #black><size:12><b>Saga Consistency</b> (see book fundamentals of software architecture patterns) these are very easy
 ***[#green] <i><color #white><b><size:12>Data Concurrency & Versioning
