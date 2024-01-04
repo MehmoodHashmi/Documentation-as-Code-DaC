@@ -152,6 +152,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#yellow] *<i><color #black><size:12><b>People with domain knowledge but no clue of Software design\n*<i><color #black><size:12>Too many in an organization
 ****[#yellow] *<i><color #black><size:12><b>People with no clue of domain knowledge but with knowledge the Software design\n*<i><color #black><size:12>Too many in an organization
 ****[#gold] *<i><color #black><size:18><b>People with domain knowledge & also knowledge of the Software design\n*<i><color #black><size:12>Very few in an organization
+*****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_396.png Types of Software Engineers]]
 **[#lightblue] <i><color #black><size:12>Parsimony\n*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 6- Rule of Parsimony]]
 ***[#green] <i><color #white><b><size:12>Absolute minimalism
 ****[#yellow] *<i><color #black><size:12><b>Write very few lines of code; Think does this really you need while writing code

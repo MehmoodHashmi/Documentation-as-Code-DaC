@@ -2,6 +2,8 @@
 
 The diagram below shows a comparison of normal CRUD system design and event sourcing system design. We use an order service as an example.
 
+image::CRUD-Vs-Event-Sourcing.webp[width = 800]
+
 The *_##event sourcing paradigm##_* is used to design a system with determinism. This changes the philosophy of normal system designs.
 
 How does this work? Instead of recording the order states in the database, the event sourcing design persists the events that lead to the state changes in the event store. The event store is an append-only log. The events must be sequenced with incremental numbers to guarantee their ordering. The order states can be rebuilt from the events and maintained in OrderView. If the OrderView is down, we can always rely on the event store which is the source of truth to recover the order states.
@@ -24,4 +26,4 @@ Let's look at the detailed steps.
 
 Over to you: Which type of system is suitable for event sourcing design? Have you used this paradigm in your work?
 
-image::CRUD-Vs-Event-Sourcing.webp[width = 800]
+

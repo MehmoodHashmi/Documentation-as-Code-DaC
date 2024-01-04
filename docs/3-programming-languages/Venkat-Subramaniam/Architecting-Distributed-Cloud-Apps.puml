@@ -13,7 +13,7 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 |<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_387.png Monitoring Services Across Cloud click]]|
 |<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_362.png Software Defined Networking (SDN & IaC)]]|
 |<#blue><i><size:15>[[docs/books/1-books-backlog/operating-system/images/img_12.png Infrastructure as Code (IaC & Kubernetes) ]]|
-|<#blue><i><size:15>[[docs/cloud-computing/images/cloud-pyramid.png Cloud Payramid]]|;
+|<#blue><i><size:15>[[docs/cloud-computing/images/cloud-pyramid.png Cloud Pyramid]]|;
 ***[#green] <i><color #white><b><size:12>Introduction
 ****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_363.png Cloud Apps: are fundamentally different than traditional apps]]** that run on the **desktop, in a browser, or on a mobile device.** Whether you
 <i><color #black><size:12>are **designing apps** for **Microsoft Azure, AWS,or Google or other platforms,** absorbing the **principles** contained here in is a must
@@ -28,7 +28,7 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 <i><color #black><size:12>**Automation:** refers to **automating** a single **process or a small number of related tasks** (e.g., deploying an app)
 <i><color #black><size:12>**Orchestration:** refers to **managing** multiple **automated tasks** to **create a dynamica workflow** (e.g., deploying an app, connecting it to a network,
 <i><color #black><size:12>& **integrating** it with other <b>systems);
-****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_386.png Kubernetes Tool Ecosystem]]
+****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_386.png Kubernetes Tool Ecosystem]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_395.png Kubernetes Vs. Docker]]
 
 ***[#green] <i><color #white><b><size:12>Region, Availability Zones, & Fault Domains
 ****[#a]:<i><color #black><size:12>**Distributed [[docs/3-programming-languages/Venkat-Subramaniam/images/img_359.png Cloud]] Apps:** are largely about:
@@ -48,7 +48,7 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 <i><color #black><size:12><b>4- Conflicting Dependencies;
 ****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_383.png Latency Number you should know]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_384.png Commonly used tech-stack for microservices]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png How Data is sent across servers]]
-*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc How session, JWT, Token, SSO, & OAuth-2.0 works?]]
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc How session, JWT, Token, SSO, & OAuth-2.0 works?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_394.png Top 4 Most used Authentication Mechanisms]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_392.png HTTP 1.0 -> HTTP 1.1 -> HTTP 2.0 -> HTTP 3.0 (QUIC)]];
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc Service-Level Agreements (SLAs) & Dependent Services]]
 ***[#green] <i><color #white><b><size:12>Auto Scaling
@@ -77,8 +77,9 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 ***[#green] <i><color #white><b><size:12>Orchestration & Load Balancing
 ***[#green] <i><color #white><b><size:12>Connecting Microservices
 ***[#green] <i><color #white><b><size:12>API Versioning
-****[#yellow] <i><color #black><size:12>Designing & Versioning <b>HTTP/REST APIs
-***[#green] <i><color #white><b><size:12>Network API Contracts
+****[#darkorange] <i><color #black><size:12>Designing & Versioning <b>HTTP/REST APIs; & [[docs/3-programming-languages/Venkat-Subramaniam/gif/Common-HTTP-Verbs.adoc Common HTTP Verbs]] gif
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/3-API-gateway-use-cases.adoc 3 API gateway use cases]]
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_46.png Network API Contracts]]
 ***[#green] <i><color #white><b><size:12>Leaky RPC-Like Abstractions
 ***[#green] <i><color #white><b><size:12>Retrying Failed Network Operations
 ***[#green] <i><color #white><b><size:12>Implementing Operations Idempotently
@@ -123,7 +124,8 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 ****[#a]:*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/how-does-redis-persist-data.adoc How does Redis persist data? gif]]
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_380.png Where do we cache data?]]
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_381.png Top 5 Caching strategies]]
-*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_385.png Caching complete mindmap]];
+*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_385.png Caching complete mind-map]]
+*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/How-can-Cache-Systems-go-wrong.adoc How can Cache Systems go wrong? (cache challenges)]] gif;
 
 ***[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png File & Object Storage]]
 ****[#darkorange] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/blob-and-object-store-use-cases.adoc File & Object Storage top six (6) use-cases]] gif
@@ -135,7 +137,10 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 ***[#green] <i><color #white><b><size:12>Patterns
 ****[#yellow] <i><color #black><size:12><b>CQRS Pattern
 ****[#yellow] <i><color #black><size:12><b>Event-Sourcing Pattern
-*****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/CRUD-Vs-Event-Sourcing.adoc CRUD Vs. Event-Sourcing]] gif \n*<i><color #black><size:12><b>[[docs/cloud-computing/images/event-sourcing.png Event-Sourcing]]
+*****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/CRUD-Vs-Event-Sourcing.adoc CRUD Vs. Event-Sourcing]] gif
+*<i><color #black><size:12><b>[[docs/cloud-computing/images/event-sourcing.png Event-Sourcing]]
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/How-do-we-incorporate-Event-Sourcing-into-the-systems.adoc How do we incorporate Event Sourcing into the systems?]] gif;
+
 ****[#yellow] <i><color #black><size:12><b>Eventual Consistency
 ****[#yellow] <i><color #black><size:12><b>Saga Consistency</b> (see book fundamentals of software architecture patterns) these are very easy
 ***[#green] <i><color #white><b><size:12>Data Concurrency & Versioning
