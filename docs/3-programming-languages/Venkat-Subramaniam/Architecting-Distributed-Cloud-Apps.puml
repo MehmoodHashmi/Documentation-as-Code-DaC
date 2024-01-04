@@ -9,7 +9,8 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 |<img:images/img_270.png{scale=.504}>|
 |<img:images/img_366.png{scale=.2109}>|
 |<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_377.jpg Most Popular Cloud Services in 2023, click]]|
-|<img:images/img_272.png{scale=.5}>|;
+|<img:images/img_272.png{scale=.5}>|
+|<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_387.png Monitoring Services Across Cloud click]]|;
 ***[#green] <i><color #white><b><size:12>Introduction
 ****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_363.png Cloud Apps: are fundamentally different than traditional apps]]** that run on the **desktop, in a browser, or on a mobile device.** Whether you
 <i><color #black><size:12>are **designing apps** for **Microsoft Azure, AWS,or Google or other platforms,** absorbing the **principles** contained here in is a must
@@ -23,11 +24,17 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 <i><color #black><size:12>**Automation:** refers to **automating** a single **process or a small number of related tasks** (e.g., deploying an app)
 <i><color #black><size:12>**Orchestration:** refers to **managing** multiple **automated tasks** to **create a dynamica workflow** (e.g., deploying an app, connecting it to a network,
 <i><color #black><size:12>& **integrating** it with other <b>systems);
+****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_386.png Kubernetes Tool Ecosystem]]
 
 ***[#green] <i><color #white><b><size:12>Region, Availability Zones, & Fault Domains
 ****[#a]:<i><color #black><size:12>**Distributed [[docs/3-programming-languages/Venkat-Subramaniam/images/img_359.png Cloud]] Apps:** are largely about:
 *<i><color #black><size:12><b>Scalability (auto-scaling)
 *<i><color #black><size:12><b>High availability;
+*****[#darkorange]:<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc System Design:]] gif
+<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc 1- High availability,]]
+<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc 2- High Throughput,]]
+<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc 3- High Scalability]];
+****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_390.png Cloud hidden cost]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_391.png 2-Decades of Cloud Evolution]]
 ***[#green] <i><color #white><b><size:12>Services & Service-Based Architecture
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_271.png Monolith vs. Microservices]]
 ****[#yellow]:<i><color #black><size:12>**Four reasons to split monolith to Microservices:**
@@ -35,7 +42,9 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 <i><color #black><size:12><b>2- Different technology stack
 <i><color #black><size:12><b>3- 2-plus clients (clients adopt new features at will)
 <i><color #black><size:12><b>4- Conflicting Dependencies;
-***[#green] <i><color #white><b><size:12>Service-Level Agreements (SLAs) & Dependent Services
+****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_383.png Latency Number you should know]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_384.png Commonly used tech-stack for microservices]]
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png How Data is sent across servers]];
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc Service-Level Agreements (SLAs) & Dependent Services]]
 ***[#green] <i><color #white><b><size:12>Auto Scaling
 ****[#yellow] <i><color #black><size:12>**has 3-techniques**
 ***[#green] <i><color #white><b><size:12>12-Factor Services & Apps
@@ -89,23 +98,29 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 ***[#green] <i><color #white><b><size:12>Service Configuration & Secrets
 ***[#green] <i><color #white><b><size:12>Cryptographic Message Syntax
 
-**[#lightblue] <i><color #black><size:12>Leader Election
+**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc Leader Election]]
 ***[#green] <i><color #white><b><size:12>Introduction
 ****[#yellow]:<i><color #black><size:12>**Leader election:** is a pattern that is commonly used in **distributed cloud apps.** The purpose is to allow one service instance to coordinate tasks among other service instances, & to easily be
 <i><color #black><size:12>replaced if it goes out of scope down. Learn about the leader election pattern & understand <b>how & why to implement it.;
-***[#green] <i><color #white><b><size:12>What is leader election, & why would I use it?
-***[#green] <i><color #white><b><size:12>Leader election using "leases"
-***[#green] <i><color #white><b><size:12>Leader election using "Queue Messaging"
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc What is leader election, & why would I use it?]]
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc Leader election using "leases"]]
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc Leader election using "Queue Messaging"]]
 
-**[#lightblue] <i><color #black><size:12>Data Storage
+**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png Data Storage]]
 ***[#green] <i><color #white><b><size:12>Introduction
 ****[#yellow]:<i><color #black><size:12>Being **reliable & scalable services** that **manage state** is **exponentially more difficult** than **building stateless services.** Here follows the problems that you will encounter, solutions to those
 <i><color #black><size:12>problems & patterns that will help you implement them.;
-***[#green] <i><color #white><b><size:12>Data Storage Considerations
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png Data Storage Considerations]]
 ***[#green] <i><color #white><b><size:12>Data Temperature
-***[#green] <i><color #white><b><size:12>Caching
-***[#a] <i><color #white><b><size:12>File & Object Storage
-***[#a] <i><color #white><b><size:12>Database Storage
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_385.png Caching]]
+****[#a]:*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/how-does-redis-persist-data.adoc How does Redis persist data? gif]]
+*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_380.png Where do we cache data?]]
+*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_381.png Top 5 Caching strategies]]
+*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_385.png Caching complete mindmap]];
+
+***[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png File & Object Storage]]
+***[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png Database Storage]]
+****[#darkorange] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_380.jpg 8 data-structures that power "Modern Database"]]
 ***[#a] <i><color #white><b><size:12>Data Partitioning
 ***[#a] <i><color #white><b><size:12>Data Consistency
 ***[#green] <i><color #white><b><size:12>Patterns
