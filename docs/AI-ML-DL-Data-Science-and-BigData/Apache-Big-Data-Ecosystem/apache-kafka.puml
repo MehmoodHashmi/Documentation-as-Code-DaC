@@ -42,7 +42,7 @@ title =<b><u><i>Apache Kafka \n<img:images/apache-kafka.png{scale=.7}>
 ***[#green] <color #white><b><i><size:14>Durability
 ****[#yellow] <color #black><i><size:14>Persists messages on disk
 ****[#yellow] <color #black><i><size:14>Allows for data retention based on configurable policies
-**[#lightblue] <i><size:14>Use Cases
+**[#lightblue] <i><size:14>[[docs/AI-ML-DL-Data-Science-and-BigData/Apache-Big-Data-Ecosystem/gif/apache-kafka-use-cases.adoc Use Cases]] gif
 ***[#green] <color #white><b><i><size:14>Real-time Stream Processing
 ****[#yellow] <color #black><i><size:14>Analyzing and reacting to real-time data streams
 ****[#yellow] <color #black><i><size:14>Enabling near-instantaneous data processing

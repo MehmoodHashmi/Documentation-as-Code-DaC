@@ -195,9 +195,9 @@ skinparam hyperlinkColor white
 <i><color #white><size:12><b>\t And, yes, I know that the last two are cheap but the first one is not.
 **<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_358.png Conclusion: Decoupling mode of a system is one of those things that is likely to change with time.]]
 **<i><color #black><size:12><b>[[docs/3-programming-languages/architectural-characteristics/large-vs-small-Deployments.puml Large vs. small deployments & Deployment sizes]];
-****[#gold] <i><color #black><size:12><b>Distributed Architecture
+****[#darkorange] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Distributed Architecture & Cloud apps]]
 *****[#a] *<i><color #black><size:12><b>[[docs/3-devops/images/kubernetes.puml "Kuberenetes cluster"]] is good for systems involving "syncrhronous communication" like e.g. "microservices"\n*<i><color #black><size:12><b>[[docs/cloud-computing/AWS-Cloud/serverless.puml "AWS lambda" (Serverless)]] is good in reactive systems involving "asynchronous communication" e.g. EDA
-****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_258.png History of Components]] click me
+****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_258.png History of Components]] click me [[docs/3-programming-languages/Venkat-Subramaniam/images/img_377.png Build Tools (Maven)]] click me
 ****[#yellow]:<i><color #black><size:12>**How do yo decouple one module from another?** That depends on the **level of decoupling you need.** Sometimes simply extracting code
 <i><color #black><size:12>into a separate function is enough. More often, it's better to move all the **related code** into a **separate class** & even a separate **source file.**
 <i><color #black><size:12>And in extreme cases, you want to put those classes behind <b>polymorphic interfaces.;
@@ -362,7 +362,7 @@ skinparam hyperlinkColor white
 **[#lightblue] <i><color #black><size:12>Don't violate the \n<i><color #black><size:12>Open-Closed Principle (OCP)
 ***[#green] <i><color #white><size:12><b>"Software module" should be "open" for\n<i><color #white><size:12><b>"extension" but "closed" for "modification"
 ****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Abstraction]]
-****[#gold] <i><color #black><size:12><b>Polymorphism
+****[#darkorange] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_169.png Polymorphism]]
 ***[#green] <i><color #white><size:12><b>Two options: to make an "enhancement":
 ****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/knowledge-and-data-structure.drawio.png 1- Change an existing code]] <size:20><&circle-x>
 ****[#a] <i><color #black><size:12><b>[[docs/books/1-books-backlog/data-structure-and-algorithm/classes-vs-data-structures.puml 2- Add a small new "module" of code]] <&check>
@@ -413,7 +413,7 @@ skinparam hyperlinkColor white
 <i><color #black><size:12>the **interface/abstract classes** rather than using the
 <i><color #g><size:12>**"anonymous inner classes"** or **"regular classes"**.
 <img:images/img_132.jpg{scale=.6}>;
-*****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_152.png click me]]
+*****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_152.png Detailed Lambda syntax click me]]
 *****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_152.png Design Patterns in the light of modern Java]] venkat-subramaniam
 **[#lightblue] <i><color #black><size:12>Keep "interfaces Cohesive" with \n<i><color #black><size:12>"Interface Segregation Principle"
 ***[#green] <i><color #white><b><size:12>"Code" should not depend on \n<i><color #white><b><size:12>"methods" it doesn't "use"

@@ -13,52 +13,52 @@ title =Advanced Infrastructure as Code
 ** Infrastructure Pipelines
 * Security and Compliance
 ** Infrastructure Security
-***[#yellow] ====<size:14>Encryption
-***[#yellow] ====<size:14>Access Control
-***[#yellow] ====<size:14>Network Segmentation
-***[#yellow] ====<size:14>Auditing
-***[#yellow] ====<size:14>Penetration Testing
+***[#yellow] <i><size:12>Encryption
+***[#yellow] <i><size:12>Access Control
+***[#yellow] <i><size:12>Network Segmentation
+***[#yellow] <i><size:12>Auditing
+***[#yellow] <i><size:12>Penetration Testing
 ** Compliance and Governance
-***[#yellow] ====<size:14>PCI DSS
-***[#yellow] ====<size:14>HIPAA
-***[#yellow] ====<size:14>SOC 2
-***[#yellow] ====<size:14>GDPR
-***[#yellow] ====<size:14>ISO 27001
+***[#yellow] <i><size:12>PCI DSS
+***[#yellow] <i><size:12>HIPAA
+***[#yellow] <i><size:12>SOC 2
+***[#yellow] <i><size:12>GDPR
+***[#yellow] <i><size:12>ISO 27001
 * Testing and Quality Assurance
 ** Unit Testing
 ** Integration Testing
 ** Load Testing
 ** Security Testing
 ** Code Quality
-***[#yellow] ====<size:14>Code Smells
-***[#yellow] ====<size:14>Code Coverage
-***[#yellow] ====<size:14>Code Duplication
-***[#yellow] ====<size:14>Code Complexity
+***[#yellow] <i><size:12>Code Smells
+***[#yellow] <i><size:12>Code Coverage
+***[#yellow] <i><size:12>Code Duplication
+***[#yellow] <i><size:12>Code Complexity
 * Collaboration and Workflow
 ** Version Control
-***[#yellow] ====<size:14>Git
-***[#yellow] ====<size:14>Subversion
-***[#yellow] ====<size:14>Mercurial
+***[#yellow] <i><size:12>Git
+***[#yellow] <i><size:12>Subversion
+***[#yellow] <i><size:12>Mercurial
 ** Branching Strategies
-***[#yellow] ====<size:14>Trunk-based Development
-***[#yellow] ====<size:14>Feature Branching
-***[#yellow] ====<size:14>Gitflow
+***[#yellow] <i><size:12>Trunk-based Development
+***[#yellow] <i><size:12>Feature Branching
+***[#yellow] <i><size:12>Gitflow
 ** Code Review
-***[#yellow] ====<size:14>Manual Review
-***[#yellow] ====<size:14>Automated Review
+***[#yellow] <i><size:12>Manual Review
+***[#yellow] <i><size:12>Automated Review
 ** Continuous Integration
-***[#yellow] ====<size:14>Jenkins
-***[#yellow] ====<size:14>Travis CI
-***[#yellow] ====<size:14>CircleCI
+***[#yellow] <i><size:12>Jenkins
+***[#yellow] <i><size:12>Travis CI
+***[#yellow] <i><size:12>CircleCI
 ** Continuous Delivery
-***[#yellow] ====<size:14>GitLab CI/CD
-***[#yellow] ====<size:14>AWS CodePipeline
-***[#yellow] ====<size:14>Azure DevOps
+***[#yellow] <i><size:12>GitLab CI/CD
+***[#yellow] <i><size:12>AWS CodePipeline
+***[#yellow] <i><size:12>Azure DevOps
 ** ChatOps
-***[#yellow] ====<size:14>Slack
-***[#yellow] ====<size:14>Microsoft Teams
-***[#yellow] ====<size:14>Google Chat
-***[#yellow] ====<size:14>Webex Teams
-***[#yellow] ====<size:14>Mattermost
-***[#yellow] ====<size:14>Rocket.Chat
+***[#yellow] <i><size:12>Slack
+***[#yellow] <i><size:12>Microsoft Teams
+***[#yellow] <i><size:12>Google Chat
+***[#yellow] <i><size:12>Webex Teams
+***[#yellow] <i><size:12>Mattermost
+***[#yellow] <i><size:12>Rocket.Chat
 @endmindmap

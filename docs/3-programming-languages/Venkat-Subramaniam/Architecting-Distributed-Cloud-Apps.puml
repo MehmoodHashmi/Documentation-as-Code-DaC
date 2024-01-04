@@ -7,14 +7,15 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 *[#darkblue] <color:white><i>Architecting Distributed\n<color:white><i>Cloud Apps
 **[#lightblue]:<i><color #black><size:12>Fundamentals
 |<img:images/img_270.png{scale=.504}>|
+|<img:images/img_366.png{scale=.2109}>|
+|<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_377.jpg Most Popular Cloud Services in 2023, click]]|
 |<img:images/img_272.png{scale=.5}>|;
 ***[#green] <i><color #white><b><size:12>Introduction
 ****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_363.png Cloud Apps: are fundamentally different than traditional apps]]** that run on the **desktop, in a browser, or on a mobile device.** Whether you
 <i><color #black><size:12>are **designing apps** for **Microsoft Azure, AWS,or Google or other platforms,** absorbing the **principles** contained here in is a must
 <i><color #black><size:12><b>before writing the first line of code.;
-***** <img:images/img_366.png{scale=.2}>
 ***[#green] <i><color #white><b><size:12>Why Cloud apps?
-****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_363.png Reason-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_364.png Reason-2]],[[docs/3-programming-languages/Venkat-Subramaniam/images/img_365.png Reason-3]],
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_363.png Reason-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_364.png Reason-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_365.png Reason-3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_271.png Reason-4]], [[docs/cloud-computing/Cloud-Native.puml Cloud Native]],
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_367.png Orchestrators]]
 ****[#yellow]:<i><color #black><size:12>**Purpose of an Orchestrator:** Infrastructure/Platform/Containers/Functions as a Service aka Orchestrators
 *<i><color #black><size:12>**Manage a cluster's**  (**set of PC/VMs**) lifecycle, networking, health, upgrades, scaling, & deploys/runs service code.
@@ -28,7 +29,7 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 *<i><color #black><size:12><b>Scalability (auto-scaling)
 *<i><color #black><size:12><b>High availability;
 ***[#green] <i><color #white><b><size:12>Services & Service-Based Architecture
-***[#green] <i><color #white><b><size:12>Monolith vs. Microservices
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_271.png Monolith vs. Microservices]]
 ****[#yellow]:<i><color #black><size:12>**Four reasons to split monolith to Microservices:**
 <i><color #black><size:12><b>1- Scale independently (balance cost with speed)
 <i><color #black><size:12><b>2- Different technology stack
@@ -39,16 +40,16 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 ****[#yellow] <i><color #black><size:12>**has 3-techniques**
 ***[#green] <i><color #white><b><size:12>12-Factor Services & Apps
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_368.png Containers]]
-****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_369.png Docker Architecture]]
-****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_370.png Image Vs Container]]
-****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_371.png VM Vs. Container]]
+****[#a] *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_369.png Docker Architecture]] \n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_370.png Image Vs Container]] \n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_371.png VM Vs. Container]]
 ***[#green] <i><color #white><b><size:12>Why Containers?
-****[#a] <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_372.png VM vs. Containers]]** size, bootup time & memory usage
+****[#a] <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_372.png VM vs. Containers]]** <b>size, boot-up time & memory usage
 ****[#yellow] <i><color #black><size:12>**Isolation vs. Density**
+****[#darkorange] <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_376.png Container Vs. O/S windows, Linux & Mac compatability]]**
 ***[#green] <i><color #white><b><size:12>Containers & Operation Systems
 ***[#green] <i><color #white><b><size:12>Orchestrators & Containers
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_373.png Continuous Integration & Continuous Deployment]]
-**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_362.png Networking Communication]]
+****[#darkorange] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/conventional-SDLC-vs-DevOps-vs-NoOps.adoc Conventional SDLC vs. DevOps Vs. NoOps]] gif
+**[#lightblue] *<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_362.png Networking Communication]] \n*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_378.png Multi-Cloud Networking Cheatsheet]]
 
 ***[#green] <i><color #white><b><size:12>Introduction
 ****[#a]:<i><color #black><size:12>**Microservices** use **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_362.png network]]** to **communicate with each other,** but architecting a robust microservice based app is not as simple as replacing <b>function calls (source-level decoupling)
@@ -56,6 +57,7 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 ***[#green] <i><color #white><b><size:12>[[docs/books/1-books-backlog/DBMS/8-Fallacies-of-Distributed-Systems.puml 8 Fallacies of Distributed Computing]]
 ***[#green] <i><color #white><b><size:12>Service Endpoints
 ***[#green] <i><color #white><b><size:12>Proxies
+****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_376.jpg proxy vs reverse proxy]]
 ***[#green] <i><color #white><b><size:12>Putting it all together
 ***[#green] <i><color #white><b><size:12>Orchestration & Load Balancing
 ***[#green] <i><color #white><b><size:12>Connecting Microservices

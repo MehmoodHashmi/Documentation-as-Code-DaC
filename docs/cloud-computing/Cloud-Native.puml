@@ -5,11 +5,11 @@ title =<i><u>Cloud Native\n<img:images/img.png>
 !theme hacker
 
 
-*[#darkblue] <i>Definition
+*[#darkblue] <color #white><i>Definition
 **[#lightblue] <i><size:14>A software development approach that emphasizes building applications specifically for cloud environments
 **[#lightblue] <i><size:14>Cloud-native applications are designed to be scalable, resilient, and easily managed in dynamic and distributed environments
 
-*[#darkblue] <i>Key Principles
+*[#darkblue] <color #white><i>Key Principles
 **[#lightblue] <i><size:14>Microservices Architecture
 ***[#yellow] <i><size:14>Application is composed of small, independent services that can be developed, deployed, and scaled independently
 ***[#yellow] <i><size:14>Each service runs in its own process and communicates with other services using lightweight mechanisms
@@ -23,7 +23,7 @@ title =<i><u>Cloud Native\n<img:images/img.png>
 ***[#yellow] <i><size:14>Culture and practices that emphasize collaboration and automation between development and operations teams
 ***[#yellow] <i><size:14>DevOps enables teams to deliver software faster, with higher quality, and more reliably
 
-*[#darkblue] <i>Benefits
+*[#darkblue] <color #white><i>Benefits
 **[#lightblue] <i><size:14>Scalability and Resilience
 ***[#yellow] <i><size:14>Cloud-native applications can handle large and unpredictable workloads by scaling up or down as needed
 ***[#yellow] <i><size:14>Applications are designed to be resilient to failures and can automatically recover from them
@@ -34,7 +34,7 @@ title =<i><u>Cloud Native\n<img:images/img.png>
 ***[#yellow] <i><size:14>Cloud-native applications can be more cost-effective by leveraging cloud resources more efficiently
 ***[#yellow] <i><size:14>Containerization enables better resource utilization and reduces infrastructure overhead
 
-*[#darkblue] <i>Cloud-Native Technologies
+*[#darkblue] <color #white><i>Cloud-Native Technologies
 **[#lightblue] <i><size:14>Container Orchestration
 ***[#yellow] <i><size:14>Kubernetes
 ***[#yellow] <i><size:14>Docker Swarm
@@ -54,7 +54,7 @@ title =<i><u>Cloud Native\n<img:images/img.png>
 ***[#yellow] <i><size:14>Google Cloud Functions
 ***[#yellow] <i><size:14>Azure Functions
 
-*[#darkblue] <i>Challenges
+*[#darkblue] <color #white><i>Challenges
 **[#lightblue] <i><size:14>Complexity and Learning Curve
 ***[#yellow] <i><size:14>Cloud-native development requires new skills, tools, and practices that may take time to learn and adopt
 ***[#yellow] <i><size:14>Managing complex distributed systems can be challenging and requires a new mindset
@@ -65,7 +65,7 @@ title =<i><u>Cloud Native\n<img:images/img.png>
 ***[#yellow] <i><size:14>Cloud-native technologies and services may create a dependency on a particular cloud provider
 ***[#yellow] <i><size:14>Teams need to carefully consider the tradeoffs of using cloud-native services and be prepared for potential migration challenges
 
-*[#darkblue] <i>Best Practices
+*[#darkblue] <color #white><i>Best Practices
 **[#lightblue] <i><size:14>Use a Container Orchestration Platform
 ***[#yellow] <i><size:14>Kubernetes is the most popular container orchestration platform and provides a rich set of features for managing cloud-native applications
 ***[#yellow] <i><size:14>Other options include Docker Swarm, Amazon ECS, and Google Kubernetes Engine
