@@ -12,7 +12,7 @@ title = <i><u>Cloud Design Patterns
 ****[#yellow] <i><color #black><size:14>Resource Upgrade
 **[#lightblue] <i><color #blac><size:14>Resiliency Patterns
 ***[#green] <b><i><color #white><size:14>Retry
-***[#green] <b><i><color #white><size:22>Circuit Breaker
+***[#green] <b><i><color #white><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/Circuit-Breaker.puml Circuit Breaker]]
 ***[#green] <b><i><color #white><size:14>Bulkhead
 ***[#green] <b><i><color #white><size:14>Timeout
 ***[#green] <b><i><color #white><size:14>Failover
