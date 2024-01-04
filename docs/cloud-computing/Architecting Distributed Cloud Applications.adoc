@@ -35,7 +35,7 @@ NOTE: *Container image:../3-devops/images/docker.svg[width=40]* #---># *_Kuberne
 
 
 
-image::images/cloud pyramid.png[]
+image::images/cloud-pyramid.png[]
 image::images/image-2023-02-16-22-17-21-992.png[]
 
 .*_How PaaS, IaaS, SaaS, CaaS & FaaS (Server-less) are separated at service level_* In this section, we are going to learn about how we can separate *_##IaaS, PaaS, and SaaS##_* at the service level:
@@ -327,20 +327,20 @@ image:images/data partition and replica.png[]
 
 |00:48:15 |Data Consistency:
 The concept of strong & weak data consistency, the CAP theorem, and apology-based computing.
-image:images/data consistency.png[]
+image:images/data-consistency.png[]
 
-image:images/consistency or availabilty which is better.png[]
+image:images/consistency-or-availabilty-which-is-better.png[]
 
 |01:05:34 |#The CQRS Pattern#
 The Command Query Responsibility Segregation (CQRS) pattern which separates data modifications (commands) from data queries.
 
 |01:10:06 |#The Event-Sourcing Pattern#
 The Event sourcing pattern as a way of storing *#immutable (big)#* data and then producing *#views#* over this data.
-image:images/event sourcing.png[]
+image:images/event-sourcing.png[]
 |
 01:16:59 |#Eventual Consistency:#
 Some patterns and tips for how to deal with and implement eventual consistency.
-image:images/implementing eventual consistency.png[]
+image:images/implementing-eventual-consistency.png[]
 
 |01:21:12 |#The Saga Pattern#
 The Saga pattern for dealing with eventual consistency which compromises atomicity for availability.
