@@ -10,7 +10,10 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 |<img:images/img_366.png{scale=.2109}>|
 |<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_377.jpg Most Popular Cloud Services in 2023, click]]|
 |<img:images/img_272.png{scale=.5}>|
-|<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_387.png Monitoring Services Across Cloud click]]|;
+|<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_387.png Monitoring Services Across Cloud click]]|
+|<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_362.png Software Defined Networking (SDN & IaC)]]|
+|<#blue><i><size:15>[[docs/books/1-books-backlog/operating-system/images/img_12.png Infrastructure as Code (IaC & Kubernetes) ]]|
+;
 ***[#green] <i><color #white><b><size:12>Introduction
 ****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_363.png Cloud Apps: are fundamentally different than traditional apps]]** that run on the **desktop, in a browser, or on a mobile device.** Whether you
 <i><color #black><size:12>are **designing apps** for **Microsoft Azure, AWS,or Google or other platforms,** absorbing the **principles** contained here in is a must
