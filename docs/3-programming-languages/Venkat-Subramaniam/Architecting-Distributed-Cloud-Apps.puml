@@ -13,14 +13,21 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 |<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_387.png Monitoring Services Across Cloud click]]|
 |<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_362.png Software Defined Networking (SDN & IaC)]]|
 |<#blue><i><size:15>[[docs/books/1-books-backlog/operating-system/images/img_12.png Infrastructure as Code (IaC & Kubernetes) ]]|
-|<#blue><i><size:15>[[docs/cloud-computing/images/cloud-pyramid.png Cloud Pyramid]]|;
+|<#blue><i><size:15>[[docs/cloud-computing/images/cloud-pyramid.png Cloud Pyramid]]|
+|<#blue><i><size:12><color #white>Casado shares his thoughts on the future of \n<i><size:12><color #white>"infrastructure" as well as views on how 3 important \n<i><size:12><color #white>trends coming together: \n<i><size:12><color #white>1- hardware to software; \n<i><size:12><color #white>2- software to services; \n<i><size:12><color #white>3- & finally, the rise of the developer…|;
+
 ***[#green] <i><color #white><b><size:12>Introduction
 ****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_363.png Cloud Apps: are fundamentally different than traditional apps]]** that run on the **desktop, in a browser, or on a mobile device.** Whether you
 <i><color #black><size:12>are **designing apps** for **Microsoft Azure, AWS,or Google or other platforms,** absorbing the **principles** contained here in is a must
 <i><color #black><size:12><b>before writing the first line of code.;
 ***[#green] <i><color #white><b><size:12>Why Cloud apps?
 ****[#green] <i><color #white><b><size:12>[[https://youtu.be/IBTpNptxYF4 Phases of Cloud Adoption]]
-****[#green] <i><color #white><b><size:12>[[https://rescale.com/blog/cloud-3-0-the-rise-of-big-compute/ Cloud 1.0 ---is-> SaaS, Cloud 2.0 ---is-> Big Data, Cloud 3.0 ---is-> Big Compute]]
+****[#green]:*<i><color #white><b><size:12>[[https://rescale.com/blog/cloud-3-0-the-rise-of-big-compute/ Cloud 1.0 ---is-> SaaS, Cloud 2.0 ---is-> Big Data, Cloud 3.0 ---is-> Big Compute]]
+====
+*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_414.png SaaS (Cloud 1.0) transforming the "delivery & business model", &]]
+*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_415.png Big Data (Cloud 2.0) unlocking the "value" in "massive data sets".]]
+*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_416.png Now, "Big Compute", built on these critical foundational layers, is at an]]
+<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_398.png inflection point & poised to be the third.]];
 *****[#darkorange]:* <i><color #white><b><size:12>**Cloud 1.0:** SaaS (In this model we are not concerned about literally anything.
 <i><color #white><b><size:12>The only thing that we need to work on is the code & just a look at the "bill".)
 * <i><color #white><b><size:12>**Cloud 2.0:** Big Data (removed constraints on "data" & transformed major

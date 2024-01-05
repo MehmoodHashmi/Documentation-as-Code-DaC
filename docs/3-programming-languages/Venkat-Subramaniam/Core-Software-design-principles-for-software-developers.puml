@@ -33,7 +33,9 @@ skinparam hyperlinkColor white
 ***<i><color #black><size:12><b>Outer world = <color #green> to control outer world you 've to <b>control inner world.
 *<i><color #black><size:12>**Code** is a **tool** through which you can **express** your **thoughts** about a <b>problem.
 *<i><color #black><size:12>The **moment** you 've better **design idea** the existing **source code** becomes
-<i><color #black><size:12>**obsolete** as it doesn't **reflects** your **latest mental-model** & requires <b>refactoring;
+<i><color #black><size:12>**obsolete** as it doesn't **reflects** your **latest mental-model** & requires <b>refactoring
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_420.png "Programmers time spent" in "analysis & design" pays off.]];
+
 *****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_134.png Grady Booch: good vs bad programmer]]
 *<i><color #black><size:12><b>Robert C Martin: [[docs/3-programming-languages/Venkat-Subramaniam/images/img_146.png It takes "at least 15-years" in "software field" to become a "senior". Till then you should "learn" from other]] seniors. click me
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_135.png Robert C Martin: Is it possible, early on, to tell whether someone can or cannot become a programmer?]]
@@ -352,7 +354,10 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12>Obsolete comments
 *<i><color #black><size:12>Hard to debug <b>(victim);
 ******[#yellow] <i><color #black><size:12><b>Opposite of:\n*<i><color #black><size:12><b>High Cohesion\n*<i><color #black><size:12><b>Low Coupling
-******[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_353.png Method Names]]
+******[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_353.png Method Names]]
+*<i><color #black><size:12><b>The declaration of the central data structure (comments on data are usually much more helpful than on algorithms)
+<i><color #black><size:12><b>basically, avoid comments.;
+
 ****[#yellow]:<i><color #black><size:12><b>How "long" is a "long method"?
 *<i><color #black><size:12><b>The answer is <b>"SLAP"</b> (Single Level of Abstraction)
 *<i><color #black><size:12>Don't comment "bad code" instead <b>refactor bad code

@@ -1,8 +1,8 @@
 @startmindmap
-title =<i><b><u>Compiler Construction and Design
+title =<i><b><u>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_418.png Compiler Construction and Design]]
 !theme hacker
 
-*[#darkblue] <i><color #white>Phases of a Compiler
+*[#darkblue] <i><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_418.png Phases of a Compiler]]
 **[#lightblue] <i><color #black><size:12>Lexical Analysis
 ***[#green] <b><i><color #white><size:12>Tokenization
 ***[#green] <b><i><color #white><size:12>Regular Expressions
