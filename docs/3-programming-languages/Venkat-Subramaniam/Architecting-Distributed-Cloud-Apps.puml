@@ -19,6 +19,17 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 <i><color #black><size:12>are **designing apps** for **Microsoft Azure, AWS,or Google or other platforms,** absorbing the **principles** contained here in is a must
 <i><color #black><size:12><b>before writing the first line of code.;
 ***[#green] <i><color #white><b><size:12>Why Cloud apps?
+****[#green] <i><color #white><b><size:12>[[https://youtu.be/IBTpNptxYF4 Phases of Cloud Adoption]]
+****[#green] <i><color #white><b><size:12>[[https://rescale.com/blog/cloud-3-0-the-rise-of-big-compute/ Cloud 1.0 ---is-> SaaS, Cloud 2.0 ---is-> Big Data, Cloud 3.0 ---is-> Big Compute]]
+*****[#darkorange]:* <i><color #white><b><size:12>**Cloud 1.0:** SaaS (In this model we are not concerned about literally anything.
+<i><color #white><b><size:12>The only thing that we need to work on is the code & just a look at the "bill".)
+* <i><color #white><b><size:12>**Cloud 2.0:** Big Data (removed constraints on "data" & transformed major
+<i><color #white><b><size:12>"enterprise software categories")
+* <i><color #white><b><size:12>**Cloud 3.0:** Big Compute (eliminates constraints on "compute hardware" &
+<i><color #white><b><size:12>provides the ability to scale computational workloads seamlessly on
+<i><color #white><b><size:12>workload-optimized infrastructure configurations without sacrificing performance.);
+*****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_398.png Big Compute]]
+****** <i><color #black><size:12>The specialized capabilities of these processors is critical for specific Big Compute workloads \n<i><color #black><size:12>that need to be mapped to the right architectures, depending on their algorithms & implementation.
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_363.png Reason-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_364.png Reason-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_365.png Reason-3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_271.png Reason-4]], [[docs/cloud-computing/Cloud-Native.puml Cloud Native]],
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/how-to-adopt-cloud-native.adoc How do we transform a system to be Cloud Native?]] A lot of Companies are at Step-4 due to the "complexity" & the required "DevOps talent"
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_367.png Orchestrators]]
@@ -30,7 +41,11 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 <i><color #black><size:12>& **integrating** it with other <b>systems);
 ****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_386.png Kubernetes Tool Ecosystem]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_395.png Kubernetes Vs. Docker]]
 
-***[#green] <i><color #white><b><size:12>Region, Availability Zones, & Fault Domains
+***[#green]:*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_399.png Global Datacenters]]
+*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_400.png Region = Independent geographic area]]
+**<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_400.png Contains at least 2-availability zones (except for Osaka region)]]
+*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_400.png Availability Zones = Multiple isolated location /data-centers within a region]]
+*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_400.png Fault Domains]];
 ****[#a]:<i><color #black><size:12>**Distributed [[docs/3-programming-languages/Venkat-Subramaniam/images/img_359.png Cloud]] Apps:** are largely about:
 *<i><color #black><size:12><b>Scalability (auto-scaling)
 *<i><color #black><size:12><b>High availability;
@@ -49,7 +64,10 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 <i><color #black><size:12><b>2- Different technology stack
 <i><color #black><size:12><b>3- 2-plus clients (clients adopt new features at will)
 <i><color #black><size:12><b>4- Conflicting Dependencies;
-*****[#gold] *<i><color #black><size:12><b>Service Discovery
+*****[#gold]:*<i><color #black><size:12><b>Service Discovery
+*<i><color #black><size:12>When your **software architecture is about microservices,** then **containers** are a good choice.
+<i><color #black><size:12>When you are using old **monolithic applications** then **VMs** are not a bad option.;
+
 ****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_383.png Latency Number you should know]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_384.png Commonly used tech-stack for microservices]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png How Data is sent across servers]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc How session, JWT, Token, SSO, & OAuth-2.0 works?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_394.png Top 4 Most used Authentication Mechanisms]]
@@ -75,9 +93,23 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 <i><color #black><size:12>with **network calls.** Concepts such as **API versioning, client retires & idempotence** are critical to <b>distributed cloud architecture.;
 ***[#green] <i><color #white><b><size:12>Networking
 ****[#a] <i><color #black><size:12><b>Virtual Networks
-*****[#a] *<i><color #black><size:12><b>VPCs \n*<i><color #black><size:12><b>Subnets
-****[#a] <i><color #black><size:12><b>Traffic Routing
+*****[#a]:<i><color #black><size:12>**Networking:** is the **thing** which **decides** the **security** of your **application architecture** as well as whether your **application can scale**
+<i><color #black><size:12>& how do you **design** the **traffic, security groups, or say firewalls & the routing decisions** you take.;
+*****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_406.png VPCs]] \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_407.png Subnets]]
+******[#darkorange]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_401.png What are services, regions & Availability zones (AZ) & how they map to each other]]
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_401.png What is AWS Account, Users & Services Scope]];
+*******[#black]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_402.png 1- Compute Services &]] [[docs/3-programming-languages/Venkat-Subramaniam/images/img_403.png 1- Compute & Analytics]]
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_404.png 2- Storage & Database Services]]
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_405.png 3- Network & Management &]] [[docs/3-programming-languages/Venkat-Subramaniam/images/img_405.png 4- App & Dev]];
+*****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_408.png Classless Inter-Domain Routing (is "CIDR")]] \n*<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=O3fgul-fJCk&ab_channel=AWSTrainingCenter Classless means (no A, B, C & D class like we have in "IPV-4", its "32-bit")]] video
+****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_408.png Traffic Routing]]
 *****[#a] *<i><color #black><size:12><b>CDNs \n*<i><color #black><size:12><b>DNS Services (Translate domain names to IPs)
+******[#gold] <i><color #black><size:12><b>Example: \n<i><color #black><size:12><b>Designing a social website like Facebook.
+*******[#darkorange]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_409.png Without Cloud computing]]
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_410.png With Cloud computing]]
+**<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_411.png When added more AWS services like (App services)]]
+**<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_412.png When added more AWS services like (Security services)]]
+**<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_413.png When added more AWS services like (Development & DevOps services)]];
 ***[#green] <i><color #white><b><size:12>[[docs/books/1-books-backlog/DBMS/8-Fallacies-of-Distributed-Systems.puml 8 Fallacies of Distributed Computing]]
 ***[#green] <i><color #white><b><size:12>Service Endpoints
 ***[#green] <i><color #white><b><size:12>Proxies
@@ -87,7 +119,8 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 ***[#green] <i><color #white><b><size:12>Connecting Microservices
 ***[#green] <i><color #white><b><size:12>API Versioning
 ****[#darkorange] <i><color #black><size:12>Designing & Versioning <b>HTTP/REST APIs; & [[docs/3-programming-languages/Venkat-Subramaniam/gif/Common-HTTP-Verbs.adoc Common HTTP Verbs]] gif
-****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_397.png What does API gateway do?]] & [[docs/3-programming-languages/Venkat-Subramaniam/gif/3-API-gateway-use-cases.adoc 3 API gateway use cases]]
+****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_397.png What does API gateway do?]] & [[docs/3-programming-languages/Venkat-Subramaniam/gif/3-API-gateway-use-cases.adoc 3 API gateway use cases]]
+*<b><i><color #black><size:12>[[https://www.youtube.com/embed/3t7pMx35Reg APIs Vs. Events | Can they coexist? | API First or Event First]];
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_46.png Network API Contracts]]
 ***[#green] <i><color #white><b><size:12>Leaky RPC-Like Abstractions
 ***[#green] <i><color #white><b><size:12>Retrying Failed Network Operations
@@ -140,21 +173,27 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/How-can-Cache-Systems-go-wrong.adoc How can Cache Systems go wrong? (cache challenges)]] gif;
 
 ***[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png File & Object Storage]]
-****[#darkorange] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/blob-and-object-store-use-cases.adoc File & Object Storage top six (6) use-cases]] gif
+****[#darkorange] <i><color #white><b><size:12>How to improve performance of client’s accessing these documents by using a Content Delivery Network (CDN). \n<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/blob-and-object-store-use-cases.adoc File & Object Storage top six (6) use-cases]] gif
 ***[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png Database Storage]]
 ****[#darkorange] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_380.jpg 8 data-structures that power "Modern Database"]]
 ***[#a] <i><color #white><b><size:12>Data Partitioning
+****[#a] <i><color #white><b><size:12>➢ Data is partitioned for size, speed or both \n<i><color #white><b><size:12>➢ Each partition’s data is replicated for reliability \n<i><color #white><b><size:12>➢ How you partition your data is your choice & its super important.
+
 ***[#a] <i><color #white><b><size:12>[[docs/cloud-computing/images/data-consistency.png Data Consistency]] <size:9> click me
-****[#darkorange] *<i><color #white><b><size:12>[[docs/cloud-computing/images/consistency-or-availabilty-which-is-better.png Data Consistency or avail-ability which is better?]] \n*<i><color #white><b><size:12>[[docs/cloud-computing/images/implementing-eventual-consistency.png Implementing Eventual Consistency]]
+****[#darkorange]:<i><color #white><b><size:12>Strong & Weak data consistency, the CAP theorem, & apology-based computing.
+*<i><color #white><b><size:12>[[docs/cloud-computing/images/consistency-or-availabilty-which-is-better.png Data Consistency or avail-ability which is better?]]
+*<i><color #white><b><size:12>[[docs/cloud-computing/images/implementing-eventual-consistency.png Implementing Eventual Consistency]];
+
 ***[#green] <i><color #white><b><size:12>Patterns
-****[#yellow] <i><color #black><size:12><b>CQRS Pattern
+****[#yellow] <i><color #black><size:12><b>CQRS Pattern: </b> separates **data modifications** (commands) from <b>data queries.
 ****[#yellow] <i><color #black><size:12><b>Event-Sourcing Pattern
-*****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/CRUD-Vs-Event-Sourcing.adoc CRUD Vs. Event-Sourcing]] gif
+*****[#a]:<i><color #black><size:12><b>A way of storing "immutable" (big) data & then producing "views" over this "data".
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/CRUD-Vs-Event-Sourcing.adoc CRUD Vs. Event-Sourcing]] gif
 *<i><color #black><size:12><b>[[docs/cloud-computing/images/event-sourcing.png Event-Sourcing]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/How-do-we-incorporate-Event-Sourcing-into-the-systems.adoc How do we incorporate Event Sourcing into the systems?]] gif;
 
 ****[#yellow] <i><color #black><size:12><b>Eventual Consistency
-****[#yellow] <i><color #black><size:12><b>Saga Consistency</b> (see book fundamentals of software architecture patterns) these are very easy
+****[#yellow] <i><color #black><size:12><b>Saga </b>for dealing with **eventual consistency** which compromises **atomicity** for **availability.** (see book fundamentals of software architecture patterns) these are very easy
 ***[#green] <i><color #white><b><size:12>Data Concurrency & Versioning
 ***[#green] <i><color #white><b><size:12>Optimistic Concurrency
 ***[#green] <i><color #white><b><size:12>Versioning Data Schemas
