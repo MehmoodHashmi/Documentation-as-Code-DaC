@@ -2,7 +2,10 @@
 title =<i><b>Prototyping\n<img:images/img.png{scale=.75}> <img:images/img_1.png{scale=0.61}>
 !theme hacker
 
-*[#darkblue] <color:white><i>Prototyping
+*[#darkblue]:<color:white><i>Prototyping
+|<img:images/img_5.png{scale=0.42}>|
+|<img:images/img_4.png{scale=0.5}>|
+|<img:images/img_6.png{scale=0.55}>|;
 **[#lightblue] <i><color #black><size:14>Definition
 ***[#green] <i><color #white><size:14>**Prototyping** is the process of creating a preliminary model or sample of a product or system to visualize its design, test its functionality, and gather feedback before the final product is developed.
 
