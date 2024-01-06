@@ -1,0 +1,24 @@
+@startmindmap
+title =<i><b><u><size:18>Venkat Subramaniam Talks Mindmap
+!theme hacker
+
+
+*[#darkblue] <i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/Spearheading-the-future-of-programming-2023.puml Spreadsheet the future]] \n<i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/Spearheading-the-future-of-programming-2023.puml of programming]]
+**[#lightblue] <color:white><i>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles]] \n<color:white><i>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml for software developers ]]
+***[#green] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]]
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Qualities-of-good-architect.puml Qualities of good-architect]]
+***[#green] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Designing-Reactive-Systems.puml Designing Reactive Systems]]
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Architecting Distributed Cloud Apps]]
+***[#green] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/mixed-paradigms-(the-method-to-madness).puml Mixed Paradigms]] \n<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/mixed-paradigms-(the-method-to-madness).puml (the method to madness)]]
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Refactor-your-language-knowledge-portfolio-(we-are-what-we-can-code-in).puml Refactor your language knowledge portfolio]]
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Asynchronous-Programming-in-Java-Options-to-Choose-from.puml Asynchronous Programming in Java Options to Choose from]]
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Design-Patterns-revisited-in-the-Light-of-Lambda-Expression.puml Design Patterns Revisited in the Light of Lambda Expression]]
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Exception-Handling-in-Functional-and-Reactive-Programming.puml Exception Handling in Functional and Reactive Programming]]
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Know-your-java-venkat.puml Know your Java]]
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml Imperative vs Functional which One to Choose]]
+*****[#darkorange] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Streams.puml Streams]]
+**[#lightblue] <b><i><color #black><size:12>[[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Modern Machine Learning]]
+***[#green] <b><i><color #black><size:12>[[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Deep-Learning.puml Deep Learning]]
+****[#darkorange] <b><i><color #black><size:12>[[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Neural-Network-Architecture.puml Deep Neural Networks]]
+
+@endmindmap
