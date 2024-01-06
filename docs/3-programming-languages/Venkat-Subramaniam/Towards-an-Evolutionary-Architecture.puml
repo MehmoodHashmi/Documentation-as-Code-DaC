@@ -55,7 +55,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 *****[#a]:<b><i><color #black><size:12>[[docs/1-business-analyst/project-management/project-management.puml Project Management]] & [[docs/3-programming-languages/Venkat-Subramaniam/pdf/software-requirements.pdf Software Requirements Book]] 2-pages only
 *<b><i><color #black><size:12>[[docs/3-programming-languages/clean-architecture/images/use-case-modeling.png Traditional use case modeling]] vs [[docs/3-programming-languages/Venkat-Subramaniam/images/img_171.png Use Case 2.0 Modeling Part-1,]] [[docs/3-programming-languages/Venkat-Subramaniam/images/img_345.png Part-2,]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_211.png Work Products]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_287.png Use Case variations]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_128.jpg UML cheatsheet]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Identification-of-a-use-case.puml Identification of a Use Case]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_355.png Use Case 2.0 Test Cases]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_356.png Principles of Use Case 2.0, activities for (iterative or incremental) development]]
-*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/BDD-Vs-TDD.drawio.png BDD vs. TDD]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_426.png TDD vs. BDD vs ATDD naveen-automation-lab]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_427.png BDD naveen-automation-lab]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/ATDD-vs-TDD-robert-c-martin.drawio.png TDD vs. BDD vs. ATDD Robert C Martin]];
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/BDD-Vs-TDD.drawio.png BDD vs. TDD Part-1]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_427.png BDD Part-2 Naveen-Automation-Lab]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_426.png TDD vs. BDD vs ATDD naveen-automation-lab]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/ATDD-vs-TDD-robert-c-martin.drawio.png TDD vs. BDD vs. ATDD Robert C Martin]];
 ****[#yellow] <i><color #black><size:12>Observer effect
 *****[#yellow] *<i><color #black><size:12>Does client's problem requires research? Or did he asked for doing research? <b>If yes, then requires more cost & time \n*<i><color #black><size:12>Providing solution to a problem without doing research & after research are two different processes
 ****[#gold] *<i><color #black><size:12>If you want to build what your customers wanted, you will <b>fail.\n*<i><color #black><size:12>You need to build what your customers still want.
@@ -112,7 +112,8 @@ title =<i><b><u>Towards an Evolutionary Architecture
 *<i><color #black><size:12>It Fails less but when fails, it fails gracefully;
 
 ****[#yellow] <i><color #black><size:12><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:12>but by avoiding those tasks that <b>should not be done in the first place.
-*****[#darkorange]:<i><color #black><size:13><b>E.g. don't do (Clean Architecture + [[docs/3-programming-languages/Venkat-Subramaniam/images/img_55.jpg DDD]]) for simple apps (system) as it's not applicable.
+*****[#darkorange]:*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy; Moreover,
+<i><color #black><size:13><b>E.g. don't do (Clean Architecture + [[docs/3-programming-languages/Venkat-Subramaniam/images/img_55.jpg DDD]]) for simple apps (system) as it's not applicable.
 <i><color #black><size:13>Instead simple **three layer architecture** is enough. E.g. <b>[[docs/3-programming-languages/clean-architecture/archunit.adoc use ArchUnit]] to enforce the layers;
 
 **[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_249.png Refactor]]
@@ -181,9 +182,9 @@ title =<i><b><u>Towards an Evolutionary Architecture
 <img:images/img_56.jpg{scale=.75}>
 <i><color #black><size:15>"interface" minimizes the "surface area" of "coupling code" & ease's replacing "library";
 ***[#yellow] <i><color #black><size:12>in the system, otherwise it is **"infatuation"** with the <b>"technology"
-***[#yellow] <i><color #black><size:12>Don't **build** what you can **buy/download.** Don't **buy/download** what you don't <b>need!\n*<i><color #black><size:12>"To slaughter a goat for a single grain". You could **buy** the **needed grain** from <b>market!
+***[#darkorange] *<i><color #black><size:12>Don't **build** what you can **buy/download.** Don't **buy/download** what you don't <b>need! [[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png click me]]\n*<i><color #black><size:12>"To slaughter a goat for a single grain". You could **buy** the **needed grain** from <b>market!
 ***[#gold] <i><color #black><size:12>If we're going to 've a **delivery independent architecture**, we 've to start with \n<i><color #black><size:12><b>delivery independent <color:#brown>"use cases"
-***[#yellow] <i><color #black><size:12>**"main ()"** function is at **outer most layer.** Why? Because it is near to **input/output** & prone to <b>changes.
+***[#darkorange] *<i><color #black><size:12>**"main ()"** function is at **outer most layer.** Why? Because it is near to **input/output** & prone to <b>changes. \n*<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_424.png click me]]
 ***[#a]:<i><color #black><size:12>There is nothing wrong with **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_56.png outside-in or inside-out approach]]** so long as you **decouple**
 <i><color #black><size:12>your **business rules** from them.
 ==<i><color #black><size:16>**Inside-out** <color:yellow>(Low-level analysis & design)==

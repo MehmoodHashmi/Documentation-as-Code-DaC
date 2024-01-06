@@ -20,7 +20,7 @@ title =<i><b><u>Neural Network Architecture \n<color #red><i>Activation Function
 ****[#yellow] <i><size:12><color #black>Here "function" is "sin" & numbers are (x & y)\n<img:images/img_1.png{scale=.85}>
 
 *[#darkblue] <color #white><i>Neural Network's Role is
-**[#lightblue] <i><size:12>To "approximate" Unknown "Function"
+**[#lightblue] <i><size:12>[[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/images/img_20.png To "approximate" Unknown "Function"]]
 ***[#green] <b><i><size:12><color #white>Based on given
 ****[#orange] <color #black><b><i><size:12>"Data Points" from "unknown Function"\n<img:images/img_2.png{scale=.7}>
 *****[#yellow] <i><size:12>This is our "Data Set", <b><i>The Inputs & Outputs
