@@ -1,115 +1,115 @@
 @startmindmap
-title =<i><b><u>Ola Bini's Language Pyramid\n<img:images/img_3.png{scale=.76}> <img:images/img_4.png> <img:images/img_5.png{scale=.74}>
+title =<i><b><u><size:18>Ola Bini's Language Pyramid\n<img:images/img_3.png{scale=.76}> <img:images/img_4.png> <img:images/img_5.png{scale=.74}>
 !theme hacker
 
 *[#darkblue] <i><color:#white>Key Takeaways from \n<i><color:white>Ola Bini's Language Pyramid
-**[#lightblue] <i><color #blac><size:14>Multiple levels of abstraction
-***[#green] <b><i><color #white><size:14>Different languages excel at different levels
-***[#green] <b><i><color #white><size:14>High-level languages are more expressive and easier to write in, but lower-level languages offer more control
-**[#lightblue] <i><color #blac><size:14>Performance and maintainability tradeoffs
-***[#green] <b><i><color #white><size:14>Lower-level languages can offer better performance, but higher-level languages are often more maintainable
-**[#lightblue] <i><color #blac><size:14>Interoperability between languages is important
-***[#green] <b><i><color #white><size:14>Different languages can be used together to create complex systems
-***[#green] <b><i><color #white><size:14>Communication between languages can be a challenge
-**[#lightblue] <i><color #blac><size:14>Specialized languages and tools can improve productivity
-***[#green] <b><i><color #white><size:14>Domain-specific languages can simplify tasks in specific fields
-***[#green] <b><i><color #white><size:14>Integrated development environments and other tools can help automate tasks and improve workflows
-**[#lightblue] <i><color #blac><size:14>Learning multiple languages can be beneficial
-***[#green] <b><i><color #white><size:14>Understanding different programming paradigms can broaden your perspective
-***[#green] <b><i><color #white><size:14>Familiarity with multiple languages can make you a more versatile programmer
+**[#lightblue] <i><color #black><size:12>Multiple levels of abstraction
+***[#green] <b><i><color #white><size:12>Different languages excel at different levels
+***[#green] <b><i><color #white><size:12>High-level languages are more expressive and easier to write in, but lower-level languages offer more control
+**[#lightblue] <i><color #black><size:12>Performance and maintainability tradeoffs
+***[#green] <b><i><color #white><size:12>Lower-level languages can offer better performance, but higher-level languages are often more maintainable
+**[#lightblue] <i><color #black><size:12>Interoperability between languages is important
+***[#green] <b><i><color #white><size:12>Different languages can be used together to create complex systems
+***[#green] <b><i><color #white><size:12>Communication between languages can be a challenge
+**[#lightblue] <i><color #black><size:12>Specialized languages and tools can improve productivity
+***[#green] <b><i><color #white><size:12>Domain-specific languages can simplify tasks in specific fields
+***[#green] <b><i><color #white><size:12>Integrated development environments and other tools can help automate tasks and improve workflows
+**[#lightblue] <i><color #black><size:12>Learning multiple languages can be beneficial
+***[#green] <b><i><color #white><size:12>Understanding different programming paradigms can broaden your perspective
+***[#green] <b><i><color #white><size:12>Familiarity with multiple languages can make you a more versatile programmer
 
 *[#darkblue] <i><color:#white>Definition
-**[#lightblue] <i><color #blac><size:14>The Language Pyramid is a conceptual model created by Ola Bini to describe the relationship between different programming languages based on their **level of abstraction and complexity.**
+**[#lightblue] <i><color #black><size:12>The Language Pyramid is a conceptual model created by Ola Bini to describe the relationship between different programming languages based on their **level of abstraction and complexity.**
 *[#darkblue] =<i><color:#white>Levels\n<img:images/img_2.png>
-**[#lightblue] <i><color #blac><size:14>Assembly Language
-***[#green] <b><i><color #white><size:14>Lowest level of programming language that is still considered human-readable.
-**[#lightblue] <i><color #blac><size:14>Procedural Languages
-***[#green] <b><i><color #white><size:14>Languages that follow a step-by-step approach to programming.
-****[#yellow] <i><color #black><size:14>**Examples:** C, Fortran
-**[#lightblue] <i><color #blac><size:14>Object-Oriented Languages
-***[#green] <b><i><color #white><size:14>Languages that use objects to represent data and behavior.
-****[#yellow] <i><color #black><size:14>**Examples:** Java, C++
-**[#lightblue] <i><color #blac><size:14>Declarative Languages
-***[#green] <b><i><color #white><size:14>Languages that focus on describing the desired outcome \n<b><i><color #white><size:14>rather than the step-by-step process of achieving it.
-****[#yellow] <i><color #black><size:14>**Examples:** SQL, HTML
-**[#lightblue] <i><color #blac><size:14>Domain-Specific Languages
-***[#green] <b><i><color #white><size:14>Languages that are designed for specific tasks or domains.
-****[#yellow] <i><color #black><size:14>**Examples:** LaTeX, Make, XML, Kotlin DSL, Groovy DSL, Terraform DSL
+**[#lightblue] <i><color #black><size:12>Assembly Language
+***[#green] <b><i><color #white><size:12>Lowest level of programming language that is still considered human-readable.
+**[#lightblue] <i><color #black><size:12>Procedural Languages
+***[#green] <b><i><color #white><size:12>Languages that follow a step-by-step approach to programming.
+****[#yellow] <i><color #black><size:12>**Examples:** C, Fortran
+**[#lightblue] <i><color #black><size:12>Object-Oriented Languages
+***[#green] <b><i><color #white><size:12>Languages that use objects to represent data and behavior.
+****[#yellow] <i><color #black><size:12>**Examples:** Java, C++
+**[#lightblue] <i><color #black><size:12>Declarative Languages
+***[#green] <b><i><color #white><size:12>Languages that focus on describing the desired outcome \n<b><i><color #white><size:12>rather than the step-by-step process of achieving it.
+****[#yellow] <i><color #black><size:12>**Examples:** SQL, HTML
+**[#lightblue] <i><color #black><size:12>Domain-Specific Languages
+***[#green] <b><i><color #white><size:12>Languages that are designed for specific tasks or domains.
+****[#yellow] <i><color #black><size:12>**Examples:** LaTeX, Make, XML, Kotlin DSL, Groovy DSL, Terraform DSL
 *[#darkblue] <i><color:#white>Pros and Cons
-**[#lightblue] <i><color #blac><size:14>Assembly Language
-***[#green] <i><color #white><size:14>**Pros:** Low-level control over hardware, high performance.
-***[#green] <i><color #white><size:14>**Cons:** Difficult to write and maintain, platform-specific.
-**[#lightblue] <i><color #blac><size:14>Procedural Languages
-***[#green] <i><color #white><size:14>**Pros:** Efficient and fast, good for low-level system programming.
-***[#green] <i><color #white><size:14>**Cons:** Code can become complex and hard to maintain, limited abstraction.
-**[#lightblue] <i><color #blac><size:14>Object-Oriented Languages
-***[#green] <i><color #white><size:14>**Pros:** Encapsulation and modularity, easy to reuse code.
-***[#green] <i><color #white><size:14>**Cons:** Overhead from object creation, potential performance issues.
-**[#lightblue] <i><color #blac><size:14>Declarative Languages
-***[#green] <i><color #white><size:14>**Pros:** Focus on outcomes, easy to read and understand.
-***[#green] <i><color #white><size:14>**Cons:** Limited control over the process, may be less efficient.
-**[#lightblue] <i><color #blac><size:14>Domain-Specific Languages
-***[#green] <i><color #white><size:14>**Pros:** Tailored to specific tasks, easy to use.
-***[#green] <i><color #white><size:14>**Cons:** May require specialized knowledge, limited flexibility.
+**[#lightblue] <i><color #black><size:12>Assembly Language
+***[#green] <i><color #white><size:12>**Pros:** Low-level control over hardware, high performance.
+***[#green] <i><color #white><size:12>**Cons:** Difficult to write and maintain, platform-specific.
+**[#lightblue] <i><color #black><size:12>Procedural Languages
+***[#green] <i><color #white><size:12>**Pros:** Efficient and fast, good for low-level system programming.
+***[#green] <i><color #white><size:12>**Cons:** Code can become complex and hard to maintain, limited abstraction.
+**[#lightblue] <i><color #black><size:12>Object-Oriented Languages
+***[#green] <i><color #white><size:12>**Pros:** Encapsulation and modularity, easy to reuse code.
+***[#green] <i><color #white><size:12>**Cons:** Overhead from object creation, potential performance issues.
+**[#lightblue] <i><color #black><size:12>Declarative Languages
+***[#green] <i><color #white><size:12>**Pros:** Focus on outcomes, easy to read and understand.
+***[#green] <i><color #white><size:12>**Cons:** Limited control over the process, may be less efficient.
+**[#lightblue] <i><color #black><size:12>Domain-Specific Languages
+***[#green] <i><color #white><size:12>**Pros:** Tailored to specific tasks, easy to use.
+***[#green] <i><color #white><size:12>**Cons:** May require specialized knowledge, limited flexibility.
 *[#darkblue] =<i><color:#white>Usage
-**[#lightblue] <i><color #blac><size:14>Choosing the appropriate language depends on the project requirements and constraints.
-**[#lightblue] <i><color #blac><size:14>Hybrid approaches can be used to combine the strengths of different language levels.
-**[#lightblue] <i><color #blac><size:14>Polyglot programming can be used to use different languages for different parts of the system.
+**[#lightblue] <i><color #black><size:12>Choosing the appropriate language depends on the project requirements and constraints.
+**[#lightblue] <i><color #black><size:12>Hybrid approaches can be used to combine the strengths of different language levels.
+**[#lightblue] <i><color #black><size:12>Polyglot programming can be used to use different languages for different parts of the system.
 *[#darkblue] =<i><color:#white>Ola Bini's Perspective
-**[#lightblue] <i><color #blac><size:14>Language Pyramid can help developers understand the trade-offs and strengths of different language levels.
-**[#lightblue] <i><color #blac><size:14>There is no one-size-fits-all solution, and the best approach depends on the specific project.
-**[#gold] <i><color #blac><size:14>"Language design" should consider the benefits of "abstraction, modularity, and maintainability".
+**[#lightblue] <i><color #black><size:12>Language Pyramid can help developers understand the trade-offs and strengths of different language levels.
+**[#lightblue] <i><color #black><size:12>There is no one-size-fits-all solution, and the best approach depends on the specific project.
+**[#gold] <i><color #black><size:12>"Language design" should consider the benefits of "abstraction, modularity, and maintainability".
 
 *[#darkblue] <i><color:#white>System Based on Ola Bini's Language Pyramid\n<img:images/img_31.png><img:images/img_34.png>
 
-**[#lightblue] <i><color #blac><size:14>Domain Layer
-***[#green] <b><i><color #white><size:14>DSL
-****[#yellow] <i><color #black><size:14>is  **computer language** & **specialized** to a **particular application domain.** This is in contrast \n<i><color #black><size:14>to a **General Purpose Language**, which is applicable <b>across domains.
-****[#yellow] <i><color #black><size:14>**Characteristics:** Context & fluency
-****[#gold] <i><color #black><size:14>**Internal DSL:** support provided by the <b>host programming language. \n<i><color #black><size:14>e.g. **Kotlin DSL, Groovy DSL, Terraform DSL, plumini, jenkins DSL, SQL,**\n<i><color #black><size:14>**Regular expressions,** R, Julia etc.\n*<i><color #black><size:14>Can't be **reused** across languages, only in host language
-****[#gold] <i><color #black><size:14>**External DSL:** e.g. HTML/CSS, <b>\tXML/YML \n*<i><color #black><size:14>Can be **reused** across languages
+**[#lightblue] <i><color #black><size:12>Domain Layer
+***[#green] <b><i><color #white><size:12>DSL
+****[#yellow] <i><color #black><size:12>is  **computer language** & **specialized** to a **particular application domain.** This is in contrast \n<i><color #black><size:12>to a **General Purpose Language**, which is applicable <b>across domains.
+****[#yellow] <i><color #black><size:12>**Characteristics:** Context & fluency
+****[#gold] <i><color #black><size:12>**Internal DSL:** support provided by the <b>host programming language. \n<i><color #black><size:12>e.g. **Kotlin DSL, Groovy DSL, Terraform DSL, plumini, jenkins DSL, SQL,**\n<i><color #black><size:12>**Regular expressions,** R, Julia etc.\n*<i><color #black><size:12>Can't be **reused** across languages, only in host language
+****[#gold] <i><color #black><size:12>**External DSL:** e.g. HTML/CSS, <b>\tXML/YML \n*<i><color #black><size:12>Can be **reused** across languages
 
-**[#lightblue] <i><color #blac><size:14>Dynamic Layer
-***[#green] <b><i><color #white><size:14>Python
-***[#green] <b><i><color #white><size:14>Ruby
-***[#green] <b><i><color #white><size:14>JavaScript
-***[#green] <b><i><color #white><size:14>Groovy
+**[#lightblue] <i><color #black><size:12>Dynamic Layer
+***[#green] <b><i><color #white><size:12>Python
+***[#green] <b><i><color #white><size:12>Ruby
+***[#green] <b><i><color #white><size:12>JavaScript
+***[#green] <b><i><color #white><size:12>Groovy
 
-**[#lightblue] <i><color #blac><size:14>Stable Layer
-***[#green] <b><i><color #white><size:14>C
-***[#green] <b><i><color #white><size:14>C++
-***[#green] <b><i><color #white><size:14>Java
-***[#green] <b><i><color #white><size:14>kotlin
+**[#lightblue] <i><color #black><size:12>Stable Layer
+***[#green] <b><i><color #white><size:12>C
+***[#green] <b><i><color #white><size:12>C++
+***[#green] <b><i><color #white><size:12>Java
+***[#green] <b><i><color #white><size:12>kotlin
 
 *[#darkblue] <i><color:#white>Ola Bini's Language Pyramid\n<img:images/img_6.png>
-**[#lightblue] <i><color #blac><size:14>Domain Layer
-***[#green] <b><i><color #white><size:14>Domain-Specific Language (DSL)
-****[#yellow] <i><color #black><size:14>SQL for database manipulation
-****[#yellow] <i><color #black><size:14>**Regular expressions** for **text processing**
-***[#green] <b><i><color #white><size:14>Business Rules
-****[#yellow] <i><color #black><size:14>Rule-based languages such as Drools for decision making
-***[#green] <b><i><color #white><size:14>Industry-Specific Solutions
-****[#yellow] <i><color #black><size:14>**MATLAB** for mathematical modeling in engineering and science
-****[#yellow] <i><color #black><size:14>**R** for **statistical analysis** in data science
-**[#lightblue] <i><color #blac><size:14>Dynamic Layer
-***[#green] <b><i><color #white><size:14>High-level Language
-****[#yellow] <i><color #black><size:14>**Python** for data analysis, web development, and automation
-****[#yellow] <i><color #black><size:14>Ruby for web development and scripting
+**[#lightblue] <i><color #black><size:12>Domain Layer
+***[#green] <b><i><color #white><size:12>Domain-Specific Language (DSL)
+****[#yellow] <i><color #black><size:12>SQL for database manipulation
+****[#yellow] <i><color #black><size:12>**Regular expressions** for **text processing**
+***[#green] <b><i><color #white><size:12>Business Rules
+****[#yellow] <i><color #black><size:12>Rule-based languages such as Drools for decision making
+***[#green] <b><i><color #white><size:12>Industry-Specific Solutions
+****[#yellow] <i><color #black><size:12>**MATLAB** for mathematical modeling in engineering and science
+****[#yellow] <i><color #black><size:12>**R** for **statistical analysis** in data science
+**[#lightblue] <i><color #black><size:12>Dynamic Layer
+***[#green] <b><i><color #white><size:12>High-level Language
+****[#yellow] <i><color #black><size:12>**Python** for data analysis, web development, and automation
+****[#yellow] <i><color #black><size:12>Ruby for web development and scripting
 ***[#green] <b><i><color #white><size:24>Interpreted Language
-****[#yellow] <i><color #black><size:14>JavaScript for web development and browser scripting
-****[#yellow] <i><color #black><size:14>Bash for system administration and automation
-***[#green] <b><i><color #white><size:14>Garbage-Collected Language
-****[#yellow] <i><color #black><size:14>Java for enterprise applications and Android development
-****[#yellow] <i><color #black><size:14>C# for Windows application development and game development
-**[#lightblue] <i><color #blac><size:14>Stable Layer
-***[#green] <b><i><color #white><size:14>Low-level Language
-****[#yellow] <i><color #black><size:14>Assembly for embedded systems and system programming
-****[#yellow] <i><color #black><size:14>Rust for systems programming with memory safety
+****[#yellow] <i><color #black><size:12>JavaScript for web development and browser scripting
+****[#yellow] <i><color #black><size:12>Bash for system administration and automation
+***[#green] <b><i><color #white><size:12>Garbage-Collected Language
+****[#yellow] <i><color #black><size:12>Java for enterprise applications and Android development
+****[#yellow] <i><color #black><size:12>C# for Windows application development and game development
+**[#lightblue] <i><color #black><size:12>Stable Layer
+***[#green] <b><i><color #white><size:12>Low-level Language
+****[#yellow] <i><color #black><size:12>Assembly for embedded systems and system programming
+****[#yellow] <i><color #black><size:12>Rust for systems programming with memory safety
 ***[#green] <b><i><color #white><size:24>Compiled Language
-****[#yellow] <i><color #black><size:14>C for system programming and operating systems
-****[#yellow] <i><color #black><size:14>C++ for game development and high-performance applications
-***[#green] <b><i><color #white><size:14>System Programming Language
-****[#yellow] <i><color #black><size:14>**Golang** **"concurrent** and **network"** programming
-****[#yellow] <i><color #black><size:14>**Swift** for **iOS and macOS** application development
+****[#yellow] <i><color #black><size:12>C for system programming and operating systems
+****[#yellow] <i><color #black><size:12>C++ for game development and high-performance applications
+***[#green] <b><i><color #white><size:12>System Programming Language
+****[#yellow] <i><color #black><size:12>**Golang** **"concurrent** and **network"** programming
+****[#yellow] <i><color #black><size:12>**Swift** for **iOS and macOS** application development
 
 @endmindmap

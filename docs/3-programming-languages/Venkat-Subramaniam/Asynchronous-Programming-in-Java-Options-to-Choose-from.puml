@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Venkat Subramaniam -  2023\n His PhD is in parallelism
+title =<i><b><u><size:18>Asynchronous Programming in Java: Options to Choose from \nDr.Venkat Subramaniam -  2023\n His PhD is in parallelism
 * <i><b>[[https://www.youtube.com/watch?v=1zSF1259s6w&t=4778s&ab_channel=Devoxx Asynchronous Programming in Java: Options to Choose from By Venkat Subramaniam]]
 !theme hacker
 
@@ -19,7 +19,7 @@ title =<i><b><u>Asynchronous Programming in Java: Options to Choose from \nDr.Ve
 ****[#yellow] <i><color #black><size:12><b>Resources (CPU/GPU/TPU cores) & RAM:</b> usually put restrictions/limitations on which one we can use
 ****[#a] <i><color #black><size:12><b>Java-1.0:</b> had <b>[[docs/3-programming-languages/Venkat-Subramaniam/Threads.puml Threads]]</b> (light weight), but sooner realized its drawback
 ****[#yellow] <i><color #black><size:12><b>Java-5.0:</b> had <b>Executors.</b> Don't keep creating threads all over the place its bad idea. Instead create pools of threads & schedule tasks on the pool\n*<i><color #black><size:18>In both life & programming we solve a set of problems only to realize we have now created a new set of problems\n*<i><color #black><size:18>Executors ended up into "pool induced deadlocks". <b>It was annoying!
-****[#yellow] <i><color #black><size:12><b>Java-7.0:</b> had <b>ForkJoin API</b> was introduced pool introduced deadlocks.
+****[#yellow] <i><color #black><size:12><b>Java-7.0:</b> had <b>ForkJoin API</b> was introduced; pool introduced deadlocks.
 ****[#yellow] <i><color #black><size:12><b>Java-8.0:</b> had <b>Parallel Streams & CompletableFuture</b>
 ****[#a] <i><color #black><size:12><b>Java-18:</b> onwards <b>[[docs/3-programming-languages/Venkat-Subramaniam/Virtual-Threads.puml Virtual Threads]]</b> are under discussion\n*<i><color #black><size:12>Maybe after three years from now we learn from the problems with virtual threads & then try to solve it
 ***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Parallel vs Asynchronous]] gif
