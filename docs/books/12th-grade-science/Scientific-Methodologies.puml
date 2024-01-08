@@ -1,0 +1,56 @@
+@startmindmap
+title =<i><b><u>Scientific Methodologies
+*:<b><i>Is studying science up to 12 grade is enough?
+
+<i>Studying science up to the 12th grade provides a solid foundation in various scientific disciplines, covering fundamental concepts in physics, chemistry, and biology.
+<i>This level of education equips individuals with a broad understanding of scientific principles and methodologies.
+
+<i>However, whether it's "enough" depends on your goals and aspirations. For some career paths or specialized fields within science, further education, such as pursuing
+<i>a degree in a specific scientific discipline at a university, might be necessary or beneficial. Advanced studies provide in-depth knowledge, research opportunities,
+<i>and practical skills that can be crucial for certain professions or scientific research.
+
+<i>Ultimately, the depth of knowledge needed in science depends on the career or field you're interested in pursuing. While studying science up to the 12th grade is a
+<i>great starting point, additional education or specialized training may be required for specific scientific careers or advanced research roles.;
+** <b><i>[[docs/books/12th-grade-science/Scientific-Methodologies.puml Scientific Methodologies]]
+** <b><i>[[docs/books/12th-grade-science/Scientific-Principles.puml Scientific Principles]]
+!theme hacker
+
+*[#darkblue] <i><color #white>Scientific Methodologies
+**[#lightblue] <i><color #black><size:12>Experimental Method
+***[#green] <i><color #white><size:12>**Observation: **Noticing and documenting phenomena or patterns.
+***[#green] <i><color #white><size:12>**Hypothesis Formation:** Proposing explanations for observed phenomena.
+***[#green] <i><color #white><size:12>**Experimental Design:** Planning controlled experiments to test hypotheses.
+****[#yellow] <i><color #black><size:12>**Independent Variables:** Factors manipulated in an experiment.
+****[#yellow] <i><color #black><size:12>**Dependent Variables:** Outcomes measured or observed in an experiment.
+****[#yellow] <i><color #black><size:12>**Control Variables:** Factors kept constant to ensure accurate results.
+***[#green] <i><color #white><size:12>**Data Collection:** Gathering empirical evidence through observations or measurements.
+***[#green] <i><color #white><size:12>**Analysis and **Interpretation: Examining data to draw conclusions.
+***[#green] <i><color #white><size:12>**Conclusion: **Evaluating results to accept or reject the hypothesis.
+**[#lightblue] <i><color #black><size:12>Observational Method
+***[#green] <i><color #white><size:12>**Naturalistic Observation:** Studying subjects in their natural environment.
+***[#green] <i><color #white><size:12>**Case Studies:** Detailed examinations of specific individuals or cases.
+***[#green] <i><color #white><size:12>**Surveys: **Collecting information from a sample population through questionnaires.
+***[#green] <i><color #white><size:12>**Longitudinal Studies:** Observing subjects over an extended period.
+***[#green] <i><color #white><size:12>**Cross-Sectional Studies:** Comparing different groups at the same time.
+**[#lightblue] <i><color #black><size:12>Computational Modeling
+***[#green] <i><color #white><size:12>**Mathematical Models:** Representing systems or phenomena using mathematical equations.
+***[#green] <i><color #white><size:12>**Simulation: **Using computer models to imitate real-world processes.
+***[#green] <i><color #white><size:12>**Data Analysis:** Analyzing large datasets to uncover patterns or relationships.
+***[#green] <i><color #white><size:12>**Predictive Modeling:** Forecasting outcomes based on analyzed data.
+**[#lightblue] <i><color #black><size:12>Quantitative Research
+***[#green] <i><color #white><size:12>**Numerical Data:** Collection of measurable data for statistical analysis.
+***[#green] <i><color #white><size:12>**Statistical Tests:** Analyzing data to draw inferences or test hypotheses.
+****[#yellow] <i><color #black><size:12>**T-tests:** Comparing means of two groups to assess differences.
+****[#yellow] <i><color #black><size:12>**ANOVA: **Analyzing variance among multiple groups.
+****[#yellow] <i><color #black><size:12>**Regression Analysis:** Examining relationships between variables.
+**[#lightblue] <i><color #black><size:12>Qualitative Research
+***[#green] <i><color #white><size:12>**Non-Numerical Data:** Collecting descriptive or narrative data.
+***[#green] <i><color #white><size:12>**Content Analysis:** Analyzing textual or visual data for patterns or themes.
+***[#green] <i><color #white><size:12>**Phenomenology: **Studying and describing subjective experiences or perceptions.
+***[#green] <i><color #white><size:12>**Ethnography: **Immersing in a culture to understand social phenomena.
+**[#lightblue] <i><color #black><size:12>Interdisciplinary Approaches
+***[#green] <i><color #white><size:12>**Systems Approach:** Examining complex systems as interconnected entities.
+***[#green] <i><color #white><size:12>**Transdisciplinary Research:** Integrating diverse disciplines to address complex problems.
+***[#green] <i><color #white><size:12>**Collaborative Research:** Cooperative efforts across multiple disciplines.
+***[#green] <i><color #white><size:12>**Mixed-Methods Research:** Combining qualitative and quantitative methods.
+@endmindmap

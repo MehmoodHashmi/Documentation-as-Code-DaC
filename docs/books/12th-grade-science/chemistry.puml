@@ -1,0 +1,67 @@
+@startmindmap
+title =<i><b><u>Chemistry
+*:<b><i>Is studying science up to 12 grade is enough?
+
+<i>Studying science up to the 12th grade provides a solid foundation in various scientific disciplines, covering fundamental concepts in physics, chemistry, and biology.
+<i>This level of education equips individuals with a broad understanding of scientific principles and methodologies.
+
+<i>However, whether it's "enough" depends on your goals and aspirations. For some career paths or specialized fields within science, further education, such as pursuing
+<i>a degree in a specific scientific discipline at a university, might be necessary or beneficial. Advanced studies provide in-depth knowledge, research opportunities,
+<i>and practical skills that can be crucial for certain professions or scientific research.
+
+<i>Ultimately, the depth of knowledge needed in science depends on the career or field you're interested in pursuing. While studying science up to the 12th grade is a
+<i>great starting point, additional education or specialized training may be required for specific scientific careers or advanced research roles.;
+** <b><i>[[docs/books/12th-grade-science/Scientific-Methodologies.puml Scientific Methodologies]]
+** <b><i>[[docs/books/12th-grade-science/Scientific-Principles.puml Scientific Principles]]
+!theme hacker
+
+
+*[#darkblue] <i><color #white>Chemistry
+**[#lightblue] <i><color #black><size:12>General Chemistry
+***[#green] <b><i><color #white><size:12>Matter
+****[#yellow] <i><color #black><size:12>**Atoms:** Fundamental units of matter.
+****[#yellow] <i><color #black><size:12>**Elements:** Substances consisting of a single type of atom.
+****[#yellow] <i><color #black><size:12>**Compounds:** Substances formed by bonding different atoms.
+****[#yellow] <i><color #black><size:12>**Mixtures:** Combination of substances not chemically bonded.
+***[#green] <b><i><color #white><size:12>Chemical Reactions
+****[#yellow] <i><color #black><size:12>Types of Reactions
+*****[#gold] <i><color #black><size:12>**Synthesis:** Combination of substances to form a new compound.
+*****[#gold] <i><color #black><size:12>**Decomposition:** Breakdown of compounds into simpler substances.
+*****[#gold] <i><color #black><size:12>**Combustion:** Rapid chemical combination with oxygen, often producing heat and light.
+*****[#gold] <i><color #black><size:12>**Single Replacement**: One element replaces another in a compound.
+*****[#gold] <i><color #black><size:12>**Double Replacement**: Exchange of ions between two compounds.
+****[#yellow] <i><color #black><size:12>**Reaction Rates:** Speed at which reactions occur.
+***[#green] <b><i><color #white><size:22>Atomic Structure
+****[#yellow] <i><color #black><size:12>Subatomic Particles
+*****[#gold] <i><color #black><size:12>**Protons:** Positively charged particles in the nucleus.
+*****[#gold] <i><color #black><size:12>**Neutrons:** Neutral particles in the nucleus.
+*****[#gold] <i><color #black><size:12>**Electrons:** Negatively charged particles orbiting the nucleus.
+****[#darkorange] <b><i><color #black><size:12>Atomic Models
+*****[#gold] <i><color #black><size:12>**Bohr Model:** Electrons orbit around the nucleus in specific energy levels.
+*****[#gold] <i><color #black><size:12>**Quantum Mechanical Model:** Describes electrons as existing in probable regions.
+****[#yellow] <i><color #black><size:12>**Isotopes:** Atoms of the same element with different numbers of neutrons.
+**[#lightblue] <i><color #black><size:12>Organic Chemistry
+***[#green] <b><i><color #white><size:12>Hydrocarbons
+****[#yellow] <i><color #black><size:12>**Alkanes:** Saturated hydrocarbons with single bonds.
+****[#yellow] <i><color #black><size:12>**Alkenes:** Unsaturated hydrocarbons with double bonds.
+****[#yellow] <i><color #black><size:12>**Alkynes:** Unsaturated hydrocarbons with triple bonds.
+***[#green] <b><i><color #white><size:12>Functional Groups: \n<b><i><color #white><size:12>Groups of atoms responsible for the characteristic reactions of organic compounds.
+****[#yellow] <i><color #black><size:12>**Alcohols: **Organic compounds with hydroxyl (-OH) functional groups.
+****[#yellow] <i><color #black><size:12>**Aldehydes & Ketones:** Compounds containing carbonyl groups.
+****[#yellow] <i><color #black><size:12>**Carboxylic Acids:** Compounds with carboxyl groups.
+****[#yellow] <i><color #black><size:12>**Amines: **Compounds containing amino groups.
+**[#lightblue] <i><color #black><size:12>Biochemistry
+***[#green] <b><i><color #white><size:12>Biomolecules
+****[#yellow] <i><color #black><size:12>**Carbohydrates: **Sugars, starches, and cellulose.
+****[#yellow] <i><color #black><size:12>**Lipids: **Fats, oils, and waxes.
+****[#yellow] <i><color #black><size:12>**Proteins: **Chains of amino acids performing various functions in cells.
+****[#darkorange] <i><color #black><size:12>**Nucleic Acids:** DNA and RNA carrying genetic information.
+***[#green] <b><i><color #white><size:12>Enzymes: \n<b><i><color #white><size:12>Biological catalysts speeding up chemical reactions in living organisms.
+**[#lightblue] <i><color #black><size:12>Physical Chemistry
+***[#green] <b><i><color #white><size:12>Thermodynamics
+****[#yellow] <i><color #black><size:12>**Laws of Thermodynamics:** Principles governing energy and its transformation.
+****[#yellow] <i><color #black><size:12>**Chemical Kinetics: **Study of reaction rates and mechanisms.
+***[#green] <b><i><color #white><size:12>Chemical Equilibrium: \n<b><i><color #white><size:12>Balance between forward and reverse reactions in a system.
+***[#green] <b><i><color #white><size:12>Electrochemistry: \n<b><i><color #white><size:12>Study of chemical processes involving electricity.
+****[#yellow] <i><color #black><size:12>**Redox Reactions:** Reactions involving electron transfer.
+@endmindmap

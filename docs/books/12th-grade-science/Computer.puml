@@ -1,0 +1,74 @@
+@startmindmap
+title =<i><b><u>Computer Science
+*:<b><i>Is studying science up to 12 grade is enough?
+
+<i>Studying science up to the 12th grade provides a solid foundation in various scientific disciplines, covering fundamental concepts in physics, chemistry, and biology.
+<i>This level of education equips individuals with a broad understanding of scientific principles and methodologies.
+
+<i>However, whether it's "enough" depends on your goals and aspirations. For some career paths or specialized fields within science, further education, such as pursuing
+<i>a degree in a specific scientific discipline at a university, might be necessary or beneficial. Advanced studies provide in-depth knowledge, research opportunities,
+<i>and practical skills that can be crucial for certain professions or scientific research.
+
+<i>Ultimately, the depth of knowledge needed in science depends on the career or field you're interested in pursuing. While studying science up to the 12th grade is a
+<i>great starting point, additional education or specialized training may be required for specific scientific careers or advanced research roles.;
+** <b><i>[[docs/books/12th-grade-science/Scientific-Methodologies.puml Scientific Methodologies]]
+** <b><i>[[docs/books/12th-grade-science/Scientific-Principles.puml Scientific Principles]]
+!theme hacker
+
+
+*[#darkblue] <i><color #white>Computer Science
+**[#lightblue] <i><color #black><size:12>Programming Languages
+***[#green] <b><i><color #white><size:12>High-Level Languages
+****[#yellow] <i><color #black><size:12>Python: General-purpose language known for readability and versatility.
+****[#yellow] <i><color #black><size:12>Java: Object-oriented language with platform independence.
+****[#yellow] <i><color #black><size:12>C++: High-performance language used in system software and game development.
+****[#yellow] <i><color #black><size:12>JavaScript: Web scripting language for interactive web development.
+***[#green] <b><i><color #white><size:12>Low-Level Languages
+****[#yellow] <i><color #black><size:12>Assembly Language: Uses mnemonics to represent machine code instructions.
+****[#yellow] <i><color #black><size:12>Machine Code: Binary representation of instructions directly understood by the CPU.
+****[#yellow] <i><color #black><size:12>C: Efficient and powerful language close to hardware, widely used in system programming.
+****[#yellow] <i><color #black><size:12>Rust: Modern language focused on safety and performance.
+**[#lightblue] <i><color #black><size:12>Data Structures
+***[#green] <i><color #white><size:12>**Arrays: **Ordered collection of elements accessed by index.
+***[#green] <i><color #white><size:12>**Linked Lists:** Elements connected via pointers allowing dynamic size and insertion.
+***[#green] <i><color #white><size:12>**Stacks: **Last In, First Out (LIFO) data structure.
+***[#green] <i><color #white><size:12>**Queues: **First In, First Out (FIFO) data structure.
+***[#green] <i><color #white><size:12>**Trees: **Hierarchical structure with nodes and branches.
+***[#green] <i><color #white><size:12>**Graphs: **Network of nodes connected by edges.
+**[#lightblue] <i><color #black><size:12>Algorithms
+***[#green] <b><i><color #white><size:12>Sorting Algorithms
+****[#yellow] <i><color #black><size:12>Bubble Sort: Simple sorting algorithm repeatedly steps through the list.
+****[#yellow] <i><color #black><size:12>Quick Sort: Fast and efficient divide-and-conquer algorithm.
+****[#yellow] <i><color #black><size:12>Merge Sort: Efficient comparison-based algorithm dividing and merging lists.
+****[#yellow] <i><color #black><size:12>Insertion Sort: Builds a sorted list one element at a time.
+***[#green] <b><i><color #white><size:12>Searching Algorithms
+****[#yellow] <i><color #black><size:12>Binary Search: Efficient search on sorted arrays dividing search interval.
+****[#yellow] <i><color #black><size:12>Linear Search: Sequentially checks each element in a list.
+****[#yellow] <i><color #black><size:12>Depth-First Search (DFS): Explores as far as possible before backtracking.
+****[#yellow] <i><color #black><size:12>Breadth-First Search (BFS): Explores all neighbor nodes before moving to the next level.
+**[#lightblue] <i><color #black><size:12>Computer Architecture
+***[#green] <b><i><color #white><size:12>CPU Components
+****[#yellow] <i><color #black><size:12>ALU: Arithmetic Logic Unit performing arithmetic and logic operations.
+****[#yellow] <i><color #black><size:12>Control Unit: Coordinates activities within the CPU.
+****[#yellow] <i><color #black><size:12>Registers: Fast-access storage locations within the CPU.
+***[#green] <b><i><color #white><size:12>Memory Hierarchy
+****[#yellow] <i><color #black><size:12>Cache Memory: High-speed memory for frequently accessed data.
+****[#yellow] <i><color #black><size:12>RAM: Volatile memory for storing data and program instructions.
+****[#yellow] <i><color #black><size:12>Secondary Storage: Non-volatile memory like hard drives and SSDs for long-term storage.
+***[#green] <b><i><color #white><size:12>Input/Output
+****[#yellow] <i><color #black><size:12>Input Devices: Devices for feeding data into the computer.
+****[#yellow] <i><color #black><size:12>Output Devices: Devices for displaying or producing results.
+****[#yellow] <i><color #black><size:12>Communication Ports: Interfaces for connecting external devices.
+**[#lightblue] <i><color #black><size:12>Software Development
+***[#green] <b><i><color #white><size:12>Software Development Life Cycle (SDLC)
+****[#yellow] <i><color #black><size:12>**Planning:** Requirement gathering and analysis.
+****[#yellow] <i><color #black><size:12>**Design:** Architectural and detailed design of software.
+****[#yellow] <i><color #black><size:12>**Implementation:** Writing code according to design specifications.
+****[#yellow] <i><color #black><size:12>**Testing:** Verifying software to ensure it meets requirements.
+****[#yellow] <i><color #black><size:12>**Deployment:** Releasing software for users.
+****[#yellow] <i><color #black><size:12>**Maintenance:** Updating, fixing, and improving software post-deployment.
+***[#green] <b><i><color #white><size:12>Version Control
+****[#yellow] <i><color #black><size:12>**Git:** Distributed version control system for tracking changes in code.
+****[#yellow] <i><color #black><size:12>**SVN:** Centralized version control system managing versions of files.
+****[#yellow] <i><color #black><size:12>**Mercurial:** Distributed version control system emphasizing simplicity.
+@endmindmap

@@ -1,0 +1,53 @@
+@startmindmap
+title =<i><b><u>Scientific Principles
+*:<b><i>Is studying science up to 12 grade is enough?
+
+<i>Studying science up to the 12th grade provides a solid foundation in various scientific disciplines, covering fundamental concepts in physics, chemistry, and biology.
+<i>This level of education equips individuals with a broad understanding of scientific principles and methodologies.
+
+<i>However, whether it's "enough" depends on your goals and aspirations. For some career paths or specialized fields within science, further education, such as pursuing
+<i>a degree in a specific scientific discipline at a university, might be necessary or beneficial. Advanced studies provide in-depth knowledge, research opportunities,
+<i>and practical skills that can be crucial for certain professions or scientific research.
+
+<i>Ultimately, the depth of knowledge needed in science depends on the career or field you're interested in pursuing. While studying science up to the 12th grade is a
+<i>great starting point, additional education or specialized training may be required for specific scientific careers or advanced research roles.;
+** <b><i>[[docs/books/12th-grade-science/Scientific-Methodologies.puml Scientific Methodologies]]
+** <b><i>[[docs/books/12th-grade-science/Scientific-Principles.puml Scientific Principles]]
+!theme hacker
+
+
+*[#darkblue] <i><color #white>Scientific Principles
+**[#lightblue] <i><color #black><size:12>Scientific Method
+***[#green] <b><i><color #white><size:12>Observation: Noticing and gathering information about a phenomenon.
+***[#green] <b><i><color #white><size:12>Hypothesis: Proposing a testable explanation for observed phenomena.
+***[#green] <b><i><color #white><size:12>Experimentation: Testing hypotheses through controlled experiments.
+***[#green] <b><i><color #white><size:12>Analysis: Collecting and interpreting data to draw conclusions.
+***[#green] <b><i><color #white><size:12>Conclusion: Evaluating results and refining hypotheses.
+**[#lightblue] <i><color #black><size:12>Empirical Evidence
+***[#green] <b><i><color #white><size:12>Observation: Direct or indirect information gathered through senses or instruments.
+***[#green] <b><i><color #white><size:12>Experimentation: Controlled tests to gather data and validate hypotheses.
+***[#green] <b><i><color #white><size:12>Replication: Repeating experiments by different researchers to verify results.
+***[#green] <b><i><color #white><size:12>Peer Review: Evaluation of research by experts in the field.
+**[#lightblue] <i><color #black><size:12>Laws and Theories
+***[#green] <b><i><color #white><size:12>Scientific Laws: Descriptions of observed phenomena under specific conditions.
+****[#yellow] <i><color #black><size:12>Newton's Laws of Motion: Fundamental principles governing motion.
+****[#yellow] <i><color #black><size:12>Laws of Thermodynamics: Principles governing energy and its transformations.
+****[#yellow] <i><color #black><size:12>Mendel's Laws of Inheritance: Patterns of genetic inheritance.
+***[#green] <b><i><color #white><size:12>Scientific Theories: Comprehensive explanations supported by a body of evidence.
+****[#yellow] <i><color #black><size:12>Theory of Evolution: Explaining biological diversity through natural selection.
+****[#yellow] <i><color #black><size:12>Atomic Theory: Describing the nature of matter as composed of atoms.
+****[#yellow] <i><color #black><size:12>Theory of Relativity: Describing gravity and motion in space-time.
+**[#lightblue] <i><color #black><size:12>Precision and Accuracy
+***[#green] <b><i><color #white><size:12>Precision: Consistency and reproducibility in measurements.
+***[#green] <b><i><color #white><size:12>Accuracy: Proximity of measurements to the true value.
+***[#green] <b><i><color #white><size:12>Significant Figures: Digits in a number that carry meaningful information.
+**[#lightblue] <i><color #black><size:12>Cause and Effect
+***[#green] <b><i><color #white><size:12>Causality: Relationship between cause and effect in observed phenomena.
+***[#green] <b><i><color #white><size:12>Correlation: Relationship between variables without implying causation.
+***[#green] <b><i><color #white><size:12>Experimental Design: Establishing cause-and-effect relationships through controlled experiments.
+**[#lightblue] <i><color #black><size:12>Ethics in Science
+***[#green] <b><i><color #white><size:12>Scientific Integrity: Conducting research with honesty and transparency.
+***[#green] <b><i><color #white><size:12>Bias and Objectivity: Avoiding personal or institutional biases in research.
+***[#green] <b><i><color #white><size:12>Responsible Conduct: Adhering to ethical guidelines and standards in scientific practice.
+***[#green] <b><i><color #white><size:12>Research Ethics: Ensuring the welfare and rights of subjects and adherence to ethical standards.
+@endmindmap

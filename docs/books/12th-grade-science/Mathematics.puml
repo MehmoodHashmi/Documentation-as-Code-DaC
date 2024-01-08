@@ -1,0 +1,71 @@
+@startmindmap
+title =<i><b><u>Mathematics
+*:<b><i>Is studying science up to 12 grade is enough?
+
+<i>Studying science up to the 12th grade provides a solid foundation in various scientific disciplines, covering fundamental concepts in physics, chemistry, and biology.
+<i>This level of education equips individuals with a broad understanding of scientific principles and methodologies.
+
+<i>However, whether it's "enough" depends on your goals and aspirations. For some career paths or specialized fields within science, further education, such as pursuing
+<i>a degree in a specific scientific discipline at a university, might be necessary or beneficial. Advanced studies provide in-depth knowledge, research opportunities,
+<i>and practical skills that can be crucial for certain professions or scientific research.
+
+<i>Ultimately, the depth of knowledge needed in science depends on the career or field you're interested in pursuing. While studying science up to the 12th grade is a
+<i>great starting point, additional education or specialized training may be required for specific scientific careers or advanced research roles.;
+** <b><i>[[docs/books/12th-grade-science/Scientific-Methodologies.puml Scientific Methodologies]]
+** <b><i>[[docs/books/12th-grade-science/Scientific-Principles.puml Scientific Principles]]
+!theme hacker
+
+*[#darkblue] <i><color #white>Mathematics
+**[#lightblue] <i><color #black><size:12>Arithmetic
+***[#green] <b><i><color #white><size:12>Operations
+****[#yellow] <i><color #black><size:12>Addition: Combining numbers.
+****[#yellow] <i><color #black><size:12>Subtraction: Removing one number from another.
+****[#yellow] <i><color #black><size:12>Multiplication: Repeated addition.
+****[#yellow] <i><color #black><size:12>Division: Sharing or grouping into equal parts.
+***[#green] <b><i><color #white><size:12>Properties
+****[#yellow] <i><color #black><size:12>Commutative Property: Changing the order of numbers without changing the result.
+****[#yellow] <i><color #black><size:12>Associative Property: Changing the grouping of numbers without changing the result.
+****[#yellow] <i><color #black><size:12>Distributive Property: Multiplying a number by a group of numbers.
+**[#lightblue] <i><color #black><size:12>Algebra
+***[#green] <b><i><color #white><size:12>Expressions and Equations
+****[#yellow] <i><color #black><size:12>Algebraic Expressions: Combinations of numbers, variables, and operations.
+****[#yellow] <i><color #black><size:12>Linear Equations: First-degree equations in one or more variables.
+****[#yellow] <i><color #black><size:12>Quadratic Equations: Equations of second degree, often forming parabolas.
+****[#yellow] <i><color #black><size:12>Systems of Equations: Simultaneous equations with multiple variables.
+***[#green] <b><i><color #white><size:12>Functions
+****[#yellow] <i><color #black><size:12>**Function Notation:** Representing relationships between variables.
+****[#yellow] <i><color #black><size:12>**Domain and Range:** Set of input and output values in a function.
+****[#yellow] <i><color #black><size:12>**Graphing Functions:** Visual representation of functions on a coordinate plane.
+**[#lightblue] <i><color #black><size:12>Geometry
+***[#green] <b><i><color #white><size:12>Shapes and Figures
+****[#yellow] <i><color #black><size:12>Points, Lines, and Angles: Basic elements in geometry.
+****[#yellow] <i><color #black><size:12>Triangles: Three-sided polygons classified by sides and angles.
+****[#yellow] <i><color #black><size:12>Quadrilaterals: Four-sided polygons like squares, rectangles, and parallelograms.
+****[#yellow] <i><color #black><size:12>Circles: Round shapes with a constant radius.
+***[#green] <b><i><color #white><size:12>Transformations
+****[#yellow] <i><color #black><size:12>Translation: Sliding figures without changing their shape or size.
+****[#yellow] <i><color #black><size:12>Rotation: Turning figures around a point.
+****[#yellow] <i><color #black><size:12>Reflection: Flipping figures over a line.
+***[#green] <b><i><color #white><size:12>Measurement
+****[#yellow] <i><color #black><size:12>Area and Perimeter: Measurement of space inside a shape and its boundary.
+****[#yellow] <i><color #black><size:12>Volume: Measure of the space occupied by a 3D object.
+****[#yellow] <i><color #black><size:12>Pythagorean Theorem: Relationship between the sides of a right triangle.
+**[#lightblue] <i><color #black><size:12>Calculus
+***[#green] <b><i><color #white><size:12>Differentiation
+****[#yellow] <i><color #black><size:12>Derivatives: Rate of change or slope of a function at a point.
+****[#yellow] <i><color #black><size:12>Rules of Differentiation: Techniques to find derivatives.
+****[#yellow] <i><color #black><size:12>Applications of Derivatives: Finding maxima, minima, and rates of change.
+***[#green] <b><i><color #white><size:12>Integration
+****[#yellow] <i><color #black><size:12>Definite Integrals: Calculation of area under a curve.
+****[#yellow] <i><color #black><size:12>Indefinite Integrals: Finding antiderivatives.
+****[#yellow] <i><color #black><size:12>Applications of Integrals: Area, volume, and accumulation problems.
+**[#lightblue] <i><color #black><size:12>Statistics
+***[#green] <b><i><color #white><size:12>Data Analysis
+****[#yellow] <i><color #black><size:12>Measures of Central Tendency: Mean, median, mode.
+****[#yellow] <i><color #black><size:12>Measures of Dispersion: Range, variance, standard deviation.
+****[#yellow] <i><color #black><size:12>Probability Distributions: Patterns in the distribution of data.
+***[#green] <b><i><color #white><size:12>Probability
+****[#yellow] <i><color #black><size:12>Probability Rules: Laws governing likelihoods of events.
+****[#yellow] <i><color #black><size:12>Conditional Probability: Probability of an event given another has occurred.
+****[#yellow] <i><color #black><size:12>Expected Value: Mean value of a random variable weighted by probabilities.
+@endmindmap

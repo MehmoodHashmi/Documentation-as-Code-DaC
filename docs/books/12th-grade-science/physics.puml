@@ -1,0 +1,63 @@
+@startmindmap
+title =<i><b><u>Physics
+*:<b><i>Is studying science up to 12 grade is enough?
+
+<i>Studying science up to the 12th grade provides a solid foundation in various scientific disciplines, covering fundamental concepts in physics, chemistry, and biology.
+<i>This level of education equips individuals with a broad understanding of scientific principles and methodologies.
+
+<i>However, whether it's "enough" depends on your goals and aspirations. For some career paths or specialized fields within science, further education, such as pursuing
+<i>a degree in a specific scientific discipline at a university, might be necessary or beneficial. Advanced studies provide in-depth knowledge, research opportunities,
+<i>and practical skills that can be crucial for certain professions or scientific research.
+
+<i>Ultimately, the depth of knowledge needed in science depends on the career or field you're interested in pursuing. While studying science up to the 12th grade is a
+<i>great starting point, additional education or specialized training may be required for specific scientific careers or advanced research roles.;
+** <b><i>[[docs/books/12th-grade-science/Scientific-Methodologies.puml Scientific Methodologies]]
+** <b><i>[[docs/books/12th-grade-science/Scientific-Principles.puml Scientific Principles]]
+!theme hacker
+
+*[#darkblue] <i><color #white>Physics
+**[#lightblue] <i><color #black><size:12>Classical Mechanics
+***[#green] <i><color #white><size:12>Kinematics
+****[#yellow] <i><color #black><size:12>**Linear Motion:** Motion along a straight line.
+****[#yellow] <i><color #black><size:12>**Projectile Motion:** Motion of objects projected into the air at an angle.
+****[#yellow] <i><color #black><size:12>**Circular Motion:** Motion in a circular path.
+***[#green] <i><color #white><size:12>Dynamics
+****[#yellow] <i><color #black><size:12>**Newton's Laws:** Fundamental laws governing motion.
+****[#yellow] <i><color #black><size:12>**Forces**
+*****[#gold] <i><color #black><size:12>**Gravitational Force:** Force of attraction between objects with mass.
+*****[#gold] <i><color #black><size:12>**Frictional Force:** Force resisting motion between surfaces.
+****[#yellow] <i><color #black><size:12>**Momentum:** Property of a moving object due to its mass and velocity.
+***[#green] <i><color #white><size:12>Energy
+****[#yellow] <i><color #black><size:12>**Kinetic Energy:** Energy associated with motion.
+****[#yellow] <i><color #black><size:12>**Potential Energy:** Stored energy due to position or configuration.
+****[#yellow] <i><color #black><size:12>**Conservation of Energy:** Energy cannot be created or destroyed, only transformed.
+**[#lightblue] <i><color #black><size:12>Thermodynamics
+***[#green] <i><color #white><size:12>**Laws of Thermodynamics:** Principles governing energy transfer and transformation.
+***[#green] <i><color #white><size:12><b>Heat Transfer
+****[#yellow] <i><color #black><size:12>**Conduction:** Heat transfer through direct contact.
+****[#yellow] <i><color #black><size:12>**Convection:** Heat transfer through fluid motion.
+****[#yellow] <i><color #black><size:12>**Radiation: **Heat transfer through electromagnetic waves.
+***[#green] <i><color #white><size:12>**Thermodynamic Processes:** Different ways energy is exchanged.
+****[#yellow] <i><color #black><size:12>**Isobaric: **Constant pressure process.
+****[#yellow] <i><color #black><size:12>**Isochoric:** Constant volume process.
+****[#yellow] <i><color #black><size:12>**Isothermal:** Constant temperature process.
+****[#yellow] <i><color #black><size:12>**Adiabatic:** No heat exchange process.
+**[#lightblue] <i><color #black><size:12>Electromagnetism
+***[#green] <i><color #white><size:12>**Electric Fields:** Fields around charged particles.
+****[#yellow] <i><color #black><size:12>**Coulomb's Law:** Force between charged particles.
+****[#yellow] <i><color #black><size:12>**Electric Potential:** Work done to bring a charge from infinity to a point.
+****[#yellow] <i><color #black><size:12>**Capacitance:** Ability of a system to store charge.
+***[#green] <i><color #white><size:12>**Magnetic Fields:** Fields around magnets and moving charges.
+****[#yellow] <i><color #black><size:12>**Magnetic Forces:** Forces between magnets or moving charges.
+****[#yellow] <i><color #black><size:12>**Electromagnetic Induction:** Generating voltage through a changing magnetic field.
+****[#yellow] <i><color #black><size:12>**Magnetic Fields in Matter:** Behavior of magnetic materials in a magnetic field.
+***[#green] <i><color #white><size:12>**Electromagnetic Waves:** Waves of oscillating electric and magnetic fields.
+****[#yellow] <i><color #black><size:12>**Light:** Visible electromagnetic radiation.
+****[#yellow] <i><color #black><size:12>**Radio Waves:** Low-frequency electromagnetic radiation.
+****[#yellow] <i><color #black><size:12>**Microwaves: **Electromagnetic waves used in various applications.
+**[#lightblue] <i><color #black><size:12>Quantum Mechanics
+***[#green] <i><color #white><size:12>**Wave-Particle Duality:** Duality of particles behaving as waves.
+***[#green] <i><color #white><size:12>**Uncertainty Principle:** Principle stating the limits of simultaneous precision in certain measurements.
+***[#green] <i><color #white><size:12>**Quantum Superposition:** State where a particle exists in multiple states simultaneously.
+***[#green] <i><color #white><size:12>**Quantum Entanglement:** Correlation between particles regardless of distance.
+@endmindmap

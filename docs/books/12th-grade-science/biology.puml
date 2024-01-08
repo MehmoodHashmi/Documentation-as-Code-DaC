@@ -1,0 +1,64 @@
+@startmindmap
+title =<i><b><u>Biology
+*:<b><i>Is studying science up to 12 grade is enough?
+
+<i>Studying science up to the 12th grade provides a solid foundation in various scientific disciplines, covering fundamental concepts in physics, chemistry, and biology.
+<i>This level of education equips individuals with a broad understanding of scientific principles and methodologies.
+
+<i>However, whether it's "enough" depends on your goals and aspirations. For some career paths or specialized fields within science, further education, such as pursuing
+<i>a degree in a specific scientific discipline at a university, might be necessary or beneficial. Advanced studies provide in-depth knowledge, research opportunities,
+<i>and practical skills that can be crucial for certain professions or scientific research.
+
+<i>Ultimately, the depth of knowledge needed in science depends on the career or field you're interested in pursuing. While studying science up to the 12th grade is a
+<i>great starting point, additional education or specialized training may be required for specific scientific careers or advanced research roles.;
+** <b><i>[[docs/books/12th-grade-science/Scientific-Methodologies.puml Scientific Methodologies]]
+** <b><i>[[docs/books/12th-grade-science/Scientific-Principles.puml Scientific Principles]]
+!theme hacker
+
+*[#darkblue] <i><color #white>Biology
+**[#lightblue] <i><color #black><size:12>Cell Biology
+***[#green] <b><i><color #white><size:12>Cell Structure
+****[#yellow] <i><color #black><size:12>**Cell Membrane:** Boundary surrounding the cell, controlling entry and exit of substances.
+****[#yellow] <i><color #black><size:12>**Nucleus: **Control center containing genetic material (DNA).
+****[#yellow] <i><color #black><size:12>**Cytoplasm:** Gel-like substance within the cell, where organelles are suspended.
+***[#green] <b><i><color #white><size:12>Cell Organelles
+****[#yellow] <i><color #black><size:12>**Mitochondria: **Powerhouses producing energy (ATP) through cellular respiration.
+****[#yellow] <i><color #black><size:12>**Endoplasmic Reticulum:** Involved in protein and lipid synthesis.
+****[#yellow] <i><color #black><size:12>**Golgi Apparatus:** Packages and distributes cellular materials.
+****[#yellow] <i><color #black><size:12>**Ribosomes: **Site of protein synthesis.
+****[#yellow] <i><color #black><size:12>**Chloroplasts: **Found in plant cells, involved in photosynthesis.
+****[#yellow] <i><color #black><size:12>**Vacuoles: **Storage sacs for nutrients, water, and waste.
+**[#lightblue] <i><color #black><size:12>Genetics
+***[#green] <b><i><color #white><size:12>Mendelian Genetics
+****[#yellow] <i><color #black><size:12>**Gregor Mendel's Laws:** Principles of inheritance (dominance, segregation, independent assortment).
+****[#yellow] <i><color #black><size:12>**Punnett Squares:** Tool to predict offspring genotype ratios.
+***[#green] <b><i><color #white><size:12>DNA and RNA
+****[#yellow] <i><color #black><size:12>**DNA Structure: **Double helix carrying genetic information.
+****[#yellow] <i><color #black><size:12>**DNA Replication: **Process of making an identical copy of DNA.
+****[#yellow] <i><color #black><size:12>**RNA Types: **Messenger RNA, Transfer RNA, Ribosomal RNA.
+****[#yellow] <i><color #black><size:12>**Transcription and Translation:** Process of protein synthesis.
+**[#lightblue] <i><color #black><size:12>Evolutionary Biology
+***[#green] <i><color #white><size:12>**Natural Selection:** Mechanism driving evolution by favoring advantageous traits.
+***[#green] <b><i><color #white><size:12>Evidence of Evolution
+****[#yellow] <i><color #black><size:12>**Fossil Records:** Remains of organisms providing historical evidence.
+****[#yellow] <i><color #black><size:12>**Comparative Anatomy:** Similarities and differences in structures among species.
+****[#yellow] <i><color #black><size:12>**Homologous and Analogous Structures:** Similarities indicating evolutionary relationships.
+****[#yellow] <i><color #black><size:12>**Molecular Biology:** Comparing DNA and protein sequences to infer evolutionary relationships.
+**[#lightblue] <i><color #black><size:12>Ecology
+***[#green] <b><i><color #white><size:12>Ecosystems
+****[#yellow] <i><color #black><size:12>**Food Chains & Webs:** Flow of energy and nutrients among organisms.
+****[#yellow] <i><color #black><size:12>**Biogeochemical Cycles:** Cycling of elements (carbon, nitrogen, water) through ecosystems.
+***[#green] <b><i><color #white><size:12>Population Ecology
+****[#yellow] <i><color #black><size:12>**Population Dynamics:** Study of population growth, size, and structure.
+****[#yellow] <i><color #black><size:12>**Biotic and Abiotic Factors:** Living and non-living elements affecting populations.
+**[#lightblue] <i><color #black><size:12>Human Biology
+***[#green] <b><i><color #white><size:12>Body Systems
+****[#yellow] <i><color #black><size:12>**Digestive System:** Processes food for nutrient absorption and waste elimination.
+****[#yellow] <i><color #black><size:12>**Circulatory System:** Transports oxygen, nutrients, and waste throughout the body.
+****[#yellow] <i><color #black><size:12>**Nervous System:** Controls body functions and responds to stimuli.
+****[#yellow] <i><color #black><size:12>**Endocrine System:** Regulates hormones and body functions.
+***[#green] <b><i><color #white><size:12>Health & Disease
+****[#yellow] <i><color #black><size:12>**Immune System:** Defends against pathogens and diseases.
+****[#yellow] <i><color #black><size:12>**Common Diseases:** Understanding causes and treatments of prevalent illnesses.
+****[#yellow] <i><color #black><size:12>**Public Health:** Promoting well-being and preventing diseases at a population level.
+@endmindmap
