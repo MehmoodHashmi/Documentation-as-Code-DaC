@@ -17,19 +17,16 @@ title =<i><b><u>Graph  <size:14><color #red>("Tree" is a restricted version of a
 ****[#yellow] <i><color #black><size:12>**Acyclic Graph (DAG):** Directed graph with no cycles.
 ****[#yellow] <i><color #black><size:12>**Weighted Graph:** Assigning weights/costs to edges.
 **[#lightblue] <i><color #black><size:12>Graph Representation
-***[#darkorange] <b><i><color #white><size:12><img:images/img_25.png{scale=.7}>
-****[#darkorange] <b><i><color #white><size:12>[[docs/books/1-books-backlog/data-structure-and-algorithm/images/img_50.png Adjacency Matrix:]]
-*****[#yellow] <i><color #black><size:12>Two-dimensional array representing connections between nodes.
-****[#darkorange] <b><i><color #white><size:12>[[docs/books/1-books-backlog/data-structure-and-algorithm/images/img_48.png Adjacency List:]]
-*****[#yellow] <i><color #black><size:12>Array of linked lists or map representation of connected nodes.
-****[#darkorange] <b><i><color #white><size:12>Incidence Matrix:
-*****[#yellow] <i><color #black><size:12>Matrix representation of edges and nodes.
-***[#green] <b><i><color #white><size:12>Graph Traversal \n<img:images/img_26.png{scale=.66}>
+***[#darkorange] <b><i><color #white><size:12><img:images/img_25.png{scale=.75}>
+****[#darkorange] <b><i><color #white><size:12>[[docs/books/1-books-backlog/data-structure-and-algorithm/images/img_50.png Adjacency Matrix:]] \n*<i><color #black><size:12>Two-dimensional array representing connections between nodes.
+****[#darkorange] <b><i><color #white><size:12>[[docs/books/1-books-backlog/data-structure-and-algorithm/images/img_48.png Adjacency List:]] \n*<i><color #black><size:12>Array of linked lists or map representation of connected nodes.
+****[#darkorange] <b><i><color #white><size:12>Incidence Matrix: \n*<i><color #black><size:12>Matrix representation of edges and nodes.
+***[#green] <b><i><color #white><size:12>Graph Traversal \n<img:images/img_26.png{scale=.78}>
 
-****[#yellow] <i><color #black><size:12>**Depth-First Search (DFS):** Traversing graph nodes as deeply as possible before backtracking.
-****[#yellow] <i><color #black><size:12>**Breadth-First Search (BFS):** Visiting all neighbors before moving to the next level.
-****[#yellow] <i><color #black><size:12>**Dijkstra's Algorithm:** Finding shortest path in weighted graphs.
-****[#yellow] <i><color #black><size:12>**Bellman-Ford Algorithm:** Finding shortest paths allowing negative edge weights.
+****[#yellow] <i><color #black><size:12>**Depth-First Search (DFS):** \n*<i><color #black><size:12>Traversing graph nodes as deeply as possible before backtracking.
+****[#yellow] <i><color #black><size:12>**Breadth-First Search (BFS):** \n*<i><color #black><size:12>Visiting all neighbors before moving to the next level.
+****[#yellow] <i><color #black><size:12>**Dijkstra's Algorithm:** \n*<i><color #black><size:12>Finding shortest path in weighted graphs.
+****[#yellow] <i><color #black><size:12>**Bellman-Ford Algorithm:** \n*<i><color #black><size:12>Finding shortest paths allowing negative edge weights.
 **[#lightblue] <i><color #black><size:12>Graph Properties
 ***[#green] <b><i><color #white><size:12>Degree of a Node:
 ****[#yellow] <i><color #black><size:12>Number of edges incident to a node.
