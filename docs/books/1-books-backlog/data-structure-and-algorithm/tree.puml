@@ -1,0 +1,69 @@
+@startmindmap
+title =<i><b><u>Tree
+
+!theme hacker
+
+*[#darkblue] <i><color #white>Tree\n<img:images/img_43.png{scale=.5}>
+**[#lightblue] <i><color #black><size:12>Types of Trees
+***[#green] <b><i><color #white><size:12>Binary Trees\n<img:images/img_44.png{scale=.5}>
+****[#yellow] <i><color #black><size:12>**Full Binary Tree:** Each node has 0 or 2 children.
+****[#yellow] <i><color #black><size:12>**Complete Binary Tree:** All levels, except the last, are fully filled and left-aligned.
+****[#yellow] <i><color #black><size:12>**Perfect Binary Tree:** All internal nodes have two children, and all leaf nodes are at the same level.
+****[#yellow] <i><color #black><size:12>**Balanced Binary Tree:** Height-balanced tree, minimizing height differences between subtrees.
+***[#green] <b><i><color #white><size:12>Binary Search Tree (BST)
+****[#yellow] <i><color #black><size:12>**Property:** Left child is smaller, and the right child is greater than the parent.
+****[#yellow] <i><color #black><size:12>**Operations:** Insertion, deletion, search, traversal <b>(inorder, preorder, postorder).
+***[#green] <b><i><color #white><size:12>AVL Trees
+****[#yellow] <i><color #black><size:12>**Self-Balancing Tree:** Maintains height balance for efficient operations.
+****[#yellow] <i><color #black><size:12>**Rotations:** Single and double rotations to maintain balance.
+***[#green] <b><i><color #white><size:12>Red-Black Trees
+****[#yellow] <i><color #black><size:12>**Balanced Search Tree:** Ensures logarithmic time complexity for operations.
+****[#yellow] <i><color #black><size:12>**Properties:** Nodes colored red or black, maintaining balance and properties.
+***[#green] <b><i><color #white><size:12>B+ Trees
+****[#a] <b><i><color #black><size:12>[[docs/books/1-books-backlog/data-structure-and-algorithm/images/img_22.png 8 Data Structure that Power Modern Databases]]
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_380.jpg 8 Data Structure that Power Modern Databases]] with more info.
+**[#lightblue] <i><color #black><size:12>Tree Terminologies\n<img:images/img_42.png{scale=.8}>
+***[#green] <b><i><color #white><size:12>Root Node
+****[#yellow] <i><color #black><size:12>Topmost node in a tree without a parent.
+***[#green] <b><i><color #white><size:12>Internal Node
+****[#yellow] <i><color #black><size:12>Node with at least one child.
+***[#green] <b><i><color #white><size:12>Leaf Node
+****[#yellow] <i><color #black><size:12>Node without any children.
+***[#green] <b><i><color #white><size:12>Subtree
+ ****[#yellow] <i><color #black><size:12>A node and all its descendants.
+***[#green] <b><i><color #white><size:12>Height of Tree
+****[#yellow] <i><color #black><size:12>Longest path from root to leaf.
+**[#lightblue]:<i><color #black><size:12>Nodes in Trees
+|<img:images/img_45.png{scale=.8}>|
+|<img:images/img_46.png{scale=.666}>|
+|<img:images/img_47.png{scale=1.2}>|;
+***[#green] <b><i><color #white><size:12>Structure
+****[#yellow] <i><color #black><size:12>**Data:** Information stored in a <b>node.
+****[#yellow] <i><color #black><size:12>**Left Child Pointer: **Reference to the left child node.
+****[#yellow] <i><color #black><size:12>**Right Child Pointer:** Reference to the right child node.
+****[#yellow] <i><color #black><size:12>**Parent Pointer:** Reference to the parent node (in some implementations).
+***[#green] <b><i><color #white><size:12>Types of Nodes
+****[#yellow] <i><color #black><size:12><b>Root Node
+****[#yellow] <i><color #black><size:12><b>Internal Node
+****[#yellow] <i><color #black><size:12><b>Leaf Node
+****[#yellow] <i><color #black><size:12><b>Subtree
+***[#green] <b><i><color #white><size:12>Operations
+****[#yellow] <i><color #black><size:12>**Insertion:** Adding a new node to the tree.
+****[#yellow] <i><color #black><size:12>**Deletion:** Removing a node from the tree.
+****[#yellow] <i><color #black><size:12>**Traversal:** Visiting nodes in a specific order <b>(inorder, preorder, postorder).
+****[#yellow] <i><color #black><size:12>**Searching:** Finding a node with a specific value.
+**[#lightblue] <i><color #black><size:12>Tree Operations
+***[#green] <b><i><color #white><size:12>Insertion
+***[#green] <b><i><color #white><size:12>Deletion
+***[#green] <b><i><color #white><size:12>Traversal
+***[#green] <b><i><color #white><size:12>Searching
+**[#lightblue] <i><color #black><size:12>Applications of Trees
+***[#green] <b><i><color #white><size:12>Hierarchical Data Structures
+****[#yellow] <i><color #black><size:12>**File Systems:** Representing directories and files.
+****[#yellow] <i><color #black><size:12>**Organization Charts:** Displaying hierarchical structures in organizations.
+****[#yellow] <i><color #black><size:12>**HTML DOM:** Document Object Model for web page structure.
+***[#green] <b><i><color #white><size:12>Algorithms
+****[#yellow] <i><color #black><size:12>**Searching and Sorting:** Utilizing binary search trees for efficient search.
+****[#yellow] <i><color #black><size:12>**Decision Trees: **Implementing in machine learning for decision-making.
+****[#yellow] <i><color #black><size:12>**Huffman Coding: **Compression technique using tree structures.
+@endmindmap

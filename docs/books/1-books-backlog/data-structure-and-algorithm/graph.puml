@@ -1,0 +1,54 @@
+@startmindmap
+title =<i><b><u>Graph  <size:14><color #red>("Tree" is a restricted version of a "Graph")
+!theme hacker
+
+*[#darkblue] <i><color #white>Graphs
+**[#lightblue] <i><color #black><size:12>Introduction
+***[#yellow] <i><color #black><size:12>**Graphs** can be complex and difficult to understand, especially for people who are not familiar with <b>graph theory or related algorithms. \n*<i><color #black><size:12>You can do **PhD** in <b>Graphs
+**[#lightblue] <i><color #black><size:12>Types of Graphs
+***[#green] <b><i><color #white><size:12>Undirected Graphs
+****[#yellow] <i><color #black><size:12>**Edge: **Connection between nodes without direction.
+****[#yellow] <i><color #black><size:12>**Cycle: **Closed path in which the start and end nodes are the same.
+****[#yellow] <i><color #black><size:12>**Connected Graph:** All nodes are reachable from any other node.
+****[#yellow] <i><color #black><size:12>**Complete Graph:** Every node is directly connected to all other nodes.
+***[#green] <b><i><color #white><size:12>Directed Graphs (Digraphs)
+****[#yellow] <i><color #black><size:12>**Arc:** Directed edge from one **node (source)** to another <b>(destination).
+****[#yellow] <i><color #black><size:12>**Strongly Connected Graph:** All nodes have a path to every other node.
+****[#yellow] <i><color #black><size:12>**Acyclic Graph (DAG):** Directed graph with no cycles.
+****[#yellow] <i><color #black><size:12>**Weighted Graph:** Assigning weights/costs to edges.
+**[#lightblue] <i><color #black><size:12>Graph Representation
+***[#darkorange] <b><i><color #white><size:12>[[docs/books/1-books-backlog/data-structure-and-algorithm/images/img_50.png Adjacency Matrix:]]
+****[#yellow] <i><color #black><size:12>Two-dimensional array representing connections between nodes.
+***[#darkorange] <b><i><color #white><size:12>[[docs/books/1-books-backlog/data-structure-and-algorithm/images/img_48.png Adjacency List:]]
+****[#yellow] <i><color #black><size:12>Array of linked lists or map representation of connected nodes.
+***[#darkorange] <b><i><color #white><size:12>Incidence Matrix:
+****[#yellow] <i><color #black><size:12>Matrix representation of edges and nodes.
+***[#green] <b><i><color #white><size:12>Graph Traversal
+****[#yellow] <i><color #black><size:12>**Depth-First Search (DFS):** Traversing graph nodes as deeply as possible before backtracking.
+****[#yellow] <i><color #black><size:12>**Breadth-First Search (BFS):** Visiting all neighbors before moving to the next level.
+****[#yellow] <i><color #black><size:12>**Dijkstra's Algorithm:** Finding shortest path in weighted graphs.
+****[#yellow] <i><color #black><size:12>**Bellman-Ford Algorithm:** Finding shortest paths allowing negative edge weights.
+**[#lightblue] <i><color #black><size:12>Graph Properties
+***[#green] <b><i><color #white><size:12>Degree of a Node:
+****[#yellow] <i><color #black><size:12>Number of edges incident to a node.
+***[#green] <b><i><color #white><size:12>Path:
+****[#yellow] <i><color #black><size:12>Sequence of nodes connected by edges.
+***[#green] <b><i><color #white><size:12>Cycle:
+****[#yellow] <i><color #black><size:12>Closed path where the start and end nodes are the same.
+***[#green] <b><i><color #white><size:12>Connectivity:
+****[#yellow] <i><color #black><size:12>Measuring how connected or disconnected a graph is.
+***[#green] <b><i><color #white><size:12>Planar Graph:
+****[#yellow] <i><color #black><size:12>Graph that can be drawn on a plane without edges crossing.
+**[#lightblue] <i><color #black><size:12>Applications of Graphs
+***[#green] <b><i><color #white><size:12>Network and Transportation
+****[#yellow] <i><color #black><size:12>**Road Networks:** Representing roads as edges and intersections as nodes.
+****[#yellow] <i><color #black><size:12>**Flight Routes:** Modeling air travel routes between cities.
+****[#yellow] <i><color #black><size:12>**Telecommunications Networks:** Mapping connections between phone exchanges.
+***[#green] <b><i><color #white><size:12>Social Networks
+****[#yellow] <i><color #black><size:12>**Friendship Networks: **Nodes represent individuals, edges represent friendships.
+****[#yellow] <i><color #black><size:12>**Online Social Platforms:** Analyzing connections between users.
+***[#green] <b><i><color #white><size:12>Computer Science
+****[#yellow] <i><color #black><size:12>**Dependency Resolution:** Managing software dependencies.
+****[#yellow] <i><color #black><size:12>**Compiler Design:** Graph-based representation of program structure.
+****[#yellow] <i><color #black><size:12>**Graph Databases:** Storing and querying data using graph structures.
+@endmindmap
