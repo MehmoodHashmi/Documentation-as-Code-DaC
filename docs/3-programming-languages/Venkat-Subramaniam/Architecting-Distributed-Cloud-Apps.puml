@@ -72,8 +72,9 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 <i><color #black><size:12><b>3- 2-plus clients (clients adopt new features at will)
 <i><color #black><size:12><b>4- Conflicting Dependencies;
 *****[#yellow]:*<i><color #black><size:12><b>Service Discovery
+====
 *<i><color #black><size:12>When your **software architecture is about microservices,** then **containers** are a good choice.
-<i><color #black><size:12>When you are using old **monolithic applications** then **VMs** are not a bad option.;
+*<i><color #black><size:12>When you are using old **monolithic applications** then **VMs** are not a bad option.;
 
 ****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_383.png Latency Number you should know]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_384.png Commonly used tech-stack for microservices]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png How Data is sent across servers]]

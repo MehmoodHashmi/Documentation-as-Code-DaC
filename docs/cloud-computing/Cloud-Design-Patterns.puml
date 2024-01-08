@@ -2,7 +2,7 @@
 title = <i><u>Cloud Design Patterns
 !theme hacker
 
-*[#darkblue] <i>Cloud Design Patterns
+*[#darkblue] <color #white><i>Cloud Design Patterns
 **[#lightblue] <i><color #blac><size:14>Scalability Patterns
 ***[#green] <b><i><color #white><size:14>Horizontal Scaling
 ****[#yellow] <i><color #black><size:14>Load Balancing
