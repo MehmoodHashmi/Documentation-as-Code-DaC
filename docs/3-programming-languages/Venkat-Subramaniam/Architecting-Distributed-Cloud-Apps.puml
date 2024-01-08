@@ -28,7 +28,7 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_415.png Big Data (Cloud 2.0) unlocking the "value" in "massive data sets".]]
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_416.png Now, "Big Compute", built on these critical foundational layers, is at an]]
 <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_398.png inflection point & poised to be the third.]];
-*****[#darkorange]:* <i><color #white><b><size:12>**Cloud 1.0:** SaaS (In this model we are not concerned about literally anything.
+*****[#a]:* <i><color #white><b><size:12>**Cloud 1.0:** SaaS (In this model we are not concerned about literally anything.
 <i><color #white><b><size:12>The only thing that we need to work on is the code & just a look at the "bill".)
 * <i><color #white><b><size:12>**Cloud 2.0:** Big Data (removed constraints on "data" & transformed major
 <i><color #white><b><size:12>"enterprise software categories")
