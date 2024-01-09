@@ -8,7 +8,7 @@ title =<i><b><u><size:18>Engineering, Productivity & Learning Venkat's Interview
 **[#lightblue] <i><color #black><size:12>Introduction into Venkat's Journey
 ***[#yellow]:<i><color #black><size:12>I'm generalist, I'm a problem solver. I usually go one level below the level of abstraction to understand how things work & why they work.
 <i><color #black><size:12>So, I share this information of how & why things work in my talks & while teaching others;
-***[#black] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_396.png Having very specialized or narrow knowledge in software development limits your interaction with others or "stakeholders".]]
+***[#black] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_396.png Having very specialized or narrow knowledge in software development limits your interaction with others or "stakeholders".]] \n<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_245.png Knowledge Triangle]]
 ***[#yellow] <i><color #black><size:12>Not Learning the **API** instead taking time to learn why the API exists the way it is. And then asking questions what is good about it and what can be improved? What are it's deficiencies
 
 **[#lightblue] <i><color #black><size:12>How is Venkat able to do so many things?
@@ -21,7 +21,7 @@ title =<i><b><u><size:18>Engineering, Productivity & Learning Venkat's Interview
 *<i><color #black><size:12>**Learn to say no** via the help of **time blocking,** as you 've to be realistic
 **<i><color #black><size:12>Look at your schedule & control the activities & tasks instead of activities & tasks controlling you;
 ***[#green] <i><color #white><b><size:12>Strategies you can \n<i><color #white><b><size:12>follow to say no
-****[#yellow] <i><color #black><size:12>You are not saying no the **person** you are saying no to the <b>task.
+****[#yellow] <i><color #black><size:12>You are not saying no to the **person** instead you are saying no to the <b>task.
 ****[#yellow] <i><color #black><size:12>If my schedule is full & still I'm getting more tasks/activities in that case you 've to remove a scheduled task or an activity to entertain an unscheduled task/activity
 
 ****[#yellow]:<i><color #black><size:12>In the long-term care about three things:
@@ -31,7 +31,7 @@ title =<i><b><u><size:18>Engineering, Productivity & Learning Venkat's Interview
 ****[#gold] <i><color #black><size:12>Analysis paralysis (leads to no action)
 
 ****[#darkorange]:<i><color #black><size:12>**Study, research & analyze a "problem domain"** via asking questions in **Breadth-First Search fashion** until you get enough information to decide if it is worth digging in more or not so.
-<i><color #black><size:12>I could use **Depth-First Search** approach as well. **Breadth-First Search fashion** helps you maintain **abstraction** by avoiding knowing everything in detail in <b>first interaction. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_245.png click me]]];
+<i><color #black><size:12>I could use **Depth-First Search** approach as well. **Breadth-First Search fashion** helps you maintain **abstraction** by avoiding knowing everything in detail in <b>first interaction. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_245.png click me]];
 ****[#yellow] *<i><color #black><size:12>**Programmer** knows in <b>Depth \n*<i><color #black><size:12>**Architect** knows in <b>Breadth
 *****[#a] *<b><i><color #black><size:12>A lot of times we 've self-induced fear in our minds \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_431.png As an  "architect" you 've to do a lot but don't do it "alone"]]
 
@@ -39,10 +39,10 @@ title =<i><b><u><size:18>Engineering, Productivity & Learning Venkat's Interview
 **[#lightblue] <i><color #black><size:12>Keeping up with \n<i><color #black><size:12>the pace & learn
 ***[#yellow] <i><color #black><size:12>People think **learning** is equal to **volume**. But it is quite opposite, learning is not volume.
 ***[#yellow] <i><color #black><size:12>Often people say I like or dislike. It is not a question of like or dislike. It is a question of <b>capabilities vs strength & weakness. Again absent comes into play
-***[#yellow] <i><color #black><size:12>**Critical thinking** (here means **comparative analysis** between choices) related to capabilities vs strengths & weakness in choice of technology
+***[#yellow] <i><color #black><size:12>**Critical thinking** (here means **comparative analysis** between choices) related to **capabilities vs strengths & weakness** in choice of technology
 ***[#gold] <i><color #black><size:12>**How to deploy?** On-premises or On-Cloud?
 **[#lightblue] <i><color #black><size:12>Engineering practices every \n<i><color #black><size:12>engineer must follow
-***[#yellow] <i><color #black><size:12>Start with what your client's needs/expectations are & then work your way backward from it.
+***[#honeydew] <i><color #black><size:12>Start with what your **client's needs/expectations are** & then work your way backward from it.
 ***[#yellow] <i><color #black><size:12>Sometimes the answer to a problem is not to even write the code!. \n<i><color #black><size:12>Writing code it the worst thing you can do.
 ****[#yellow] <i><color #black><size:12><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:12>but by avoiding those tasks that <b>should not be done in the first place.
 *****[#darkorange]:*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy; Moreover,
@@ -50,13 +50,13 @@ title =<i><b><u><size:18>Engineering, Productivity & Learning Venkat's Interview
 <i><color #black><size:13>Instead simple **three layer architecture** is enough. E.g. <b>[[docs/3-programming-languages/clean-architecture/archunit.adoc use ArchUnit]] to enforce the layers
 *<i><color #black><size:13><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/DDD-and-subdomain-classification.html DDD & subdomain classification (Generic Subdomain, Core Subdomains, & Supporting Subdomains)]] this .html file open in browser
 **<i><color #black><size:13><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/DDD-and-questions.drawio.png Use DDD or not; answer the following  questions]];
-***[#green] <i><color #white><b><size:12>Talk to your clients, users, and customers & find out what they want & why they want it. And see what you can do to achieve that.
-***[#green] <i><color #white><b><size:12>When you step into the company's building ask yourself What is your worth for this company?
-***[#green] <i><color #white><b><size:12>Raise the bar, raise the competency of your team.
-***[#green] <i><color #white><b><size:12>I don't want to be perfect. Perfection is a goal hard to achieve. But I want to be better everyday or better than yesterday.
-***[#gold] <i><color #black><size:12>Identify the things that can give you the "results" & practice those, rather than saying, here are the things that make me better engineer, I'm going to start doding it. \n<i><color #black><b><size:12>No it will not give you results. e.g. if you this the patient will die
-***[#gold] <i><color #black><b><size:12>Why we want to do something? Because product requires enormous amount of scale. It depends on what you want to do as not everything has to scale. \n<i>Ask yourself questions what are the particalr things that are necessary to achieve for that particular app. And start analyzing the why. Once you know the why. Detach yourself from the emotion. \n*<i>Don't pick a solution becuse you like it nobody cares what you like. What matters is does this solves the problem for the client or users?
-***[#gold] <i><color #black><size:12>Ability to delegate
+***[#green]:<i><color #white><b><size:12>Talk to your clients, users, and customers & find out what they want & why they want it. And see what you can do to achieve that.
+*<i><color #white><b><size:12>When you step into the company's building ask yourself What is your worth for this company?
+*<i><color #white><b><size:12>Raise the bar, raise the competency of your team.
+*<i><color #white><b><size:12>I don't want to be perfect. Perfection is a goal hard to achieve. But I want to be better everyday or better than yesterday.;
+***[#gold] <i><color #black><size:12>Identify the things that can give you the "results" & practice those, rather than saying, here are the things that make me better engineer, I'm going to start doing it. \n<i><color #black><b><size:12>No it will not give you results. e.g. if you do this the patient will die
+***[#gold] <i><color #black><b><size:12>Why we want to do something? Because product requires enormous amount of scale. It depends on what you want to do as not everything has to scale. \n<i>Ask yourself questions what are the particular things that are necessary to achieve for that particular app. And start analyzing the why. Once you know the why. Detach yourself from the emotion. \n*<i>Don't pick a solution because you like it nobody cares what you like. What matters is does this solves the problem for the client or users?
+***[#gold] <i><color #black><size:12>Ability to <b>delegate
 
 **[#lightblue] <i><color #black><size:12>Ending notes, resources etc..
 
