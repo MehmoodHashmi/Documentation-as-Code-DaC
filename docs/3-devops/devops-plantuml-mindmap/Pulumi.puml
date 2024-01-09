@@ -5,92 +5,92 @@ title =__Pulumi__
 
 * Pulumi
 ** Definition
-***[#yellow] ====<size:14>**Pulumi** is an open-source Infrastructure as Code **(IaC)** tool that enables users to create, deploy, and manage infrastructure and applications using familiar programming languages and frameworks.
+***[#yellow] <i><size:12><color #black>**Pulumi** is an open-source Infrastructure as Code **(IaC)** tool that enables users to create, deploy, and manage infrastructure and applications using familiar programming languages and frameworks.
 
 ** Key Concepts
 *** Infrastructure as Code **(IaC)**
-****[#yellow] ====<size:14>Managing infrastructure through code and automation.
+****[#yellow] <i><size:12><color #black>Managing infrastructure through code and automation.
 *** Declarative and Imperative
-****[#yellow] ====<size:14>Supporting both declarative and imperative styles.
+****[#yellow] <i><size:12><color #black>Supporting both declarative and imperative styles.
 *** Multilingual Support
-****[#yellow] ====<size:14>Writing IaC using various programming languages.
+****[#yellow] <i><size:12><color #black>Writing IaC using various programming languages.
 *** Stacks
-****[#yellow] ====<size:14>Environment-specific configurations for infrastructure.
+****[#yellow] <i><size:12><color #black>Environment-specific configurations for infrastructure.
 *** Components
-****[#yellow] ====<size:14>Reusable and shareable infrastructure modules.
+****[#yellow] <i><size:12><color #black>Reusable and shareable infrastructure modules.
 *** Remote Backends
-****[#yellow] ====<size:14>Storing Pulumi state remotely for collaboration.
+****[#yellow] <i><size:12><color #black>Storing Pulumi state remotely for collaboration.
 *** Secret Management
-****[#yellow] ====<size:14>Managing sensitive data securely.
+****[#yellow] <i><size:12><color #black>Managing sensitive data securely.
 *** State Snapshot
-****[#yellow] ====<size:14>A snapshot of the current infrastructure state.
+****[#yellow] <i><size:12><color #black>A snapshot of the current infrastructure state.
 *** Stack Configuration
-****[#yellow] ====<size:14>Stack-specific parameterization of Pulumi programs.
+****[#yellow] <i><size:12><color #black>Stack-specific parameterization of Pulumi programs.
 
 ** Pulumi Workflow
 *** Setup
-****[#yellow] ====<size:14>Initializing a new Pulumi project.
+****[#yellow] <i><size:12><color #black>Initializing a new Pulumi project.
 *** Code
-****[#yellow] ====<size:14>Writing infrastructure code using a supported language.
+****[#yellow] <i><size:12><color #black>Writing infrastructure code using a supported language.
 *** Preview
-****[#yellow] ====<size:14>Previewing planned changes to the infrastructure.
+****[#yellow] <i><size:12><color #black>Previewing planned changes to the infrastructure.
 *** Update
-****[#yellow] ====<size:14>Applying infrastructure changes to create or modify resources.
+****[#yellow] <i><size:12><color #black>Applying infrastructure changes to create or modify resources.
 *** Destroy
-****[#yellow] ====<size:14>Removing resources when no longer needed.
+****[#yellow] <i><size:12><color #black>Removing resources when no longer needed.
 
 ** Pulumi Programming Languages
 *** TypeScript
-****[#yellow] ====<size:14>Writing infrastructure as code using TypeScript.
+****[#yellow] <i><size:12><color #black>Writing infrastructure as code using TypeScript.
 *** Python
-****[#yellow] ====<size:14>Using Python to define infrastructure.
+****[#yellow] <i><size:12><color #black>Using Python to define infrastructure.
 *** Go
-****[#yellow] ====<size:14>Managing infrastructure with Go programming language.
+****[#yellow] <i><size:12><color #black>Managing infrastructure with Go programming language.
 *** C#
-****[#yellow] ====<size:14>Writing IaC using C# for .NET applications.
+****[#yellow] <i><size:12><color #black>Writing IaC using C# for .NET applications.
 
 ** Pulumi Ecosystem
 *** Pulumi Hub
-****[#yellow] ====<size:14>A repository for sharing and discovering Pulumi packages.
+****[#yellow] <i><size:12><color #black>A repository for sharing and discovering Pulumi packages.
 *** Pulumi Automation API
-****[#yellow] ====<size:14>Programmatic access to Pulumi capabilities.
+****[#yellow] <i><size:12><color #black>Programmatic access to Pulumi capabilities.
 *** Pulumi Service
-****[#yellow] ====<size:14>A hosted platform for Pulumi collaboration and remote state management.
+****[#yellow] <i><size:12><color #black>A hosted platform for Pulumi collaboration and remote state management.
 
 ** Benefits of Pulumi
 *** Choice of Languages
-****[#yellow] ====<size:14>Writing infrastructure code in preferred programming languages.
+****[#yellow] <i><size:12><color #black>Writing infrastructure code in preferred programming languages.
 *** Multicloud and Hybrid Cloud
-****[#yellow] ====<size:14>Managing resources across different cloud providers and on-premises.
+****[#yellow] <i><size:12><color #black>Managing resources across different cloud providers and on-premises.
 *** Reusability
-****[#yellow] ====<size:14>Creating and sharing infrastructure components and stacks.
+****[#yellow] <i><size:12><color #black>Creating and sharing infrastructure components and stacks.
 *** Collaboration
-****[#yellow] ====<size:14>Collaborating on infrastructure and application development.
+****[#yellow] <i><size:12><color #black>Collaborating on infrastructure and application development.
 *** CI/CD Integration
-****[#yellow] ====<size:14>Integrating Pulumi into CI/CD pipelines.
+****[#yellow] <i><size:12><color #black>Integrating Pulumi into CI/CD pipelines.
 *** Secret Management
-****[#yellow] ====<size:14>Securely handling secrets and sensitive data.
+****[#yellow] <i><size:12><color #black>Securely handling secrets and sensitive data.
 
 ** Challenges
 *** Learning Curve
-****[#yellow] ====<size:14>Understanding Pulumi's concepts and workflow.
+****[#yellow] <i><size:12><color #black>Understanding Pulumi's concepts and workflow.
 *** Tool Maturity
-****[#yellow] ====<size:14>Assessing tool maturity compared to other IaC solutions.
+****[#yellow] <i><size:12><color #black>Assessing tool maturity compared to other IaC solutions.
 *** Ecosystem
-****[#yellow] ====<size:14>Evaluating the availability of Pulumi modules and resources.
+****[#yellow] <i><size:12><color #black>Evaluating the availability of Pulumi modules and resources.
 *** Stack Management
-****[#yellow] ====<size:14>Managing stack-specific configurations and state.
+****[#yellow] <i><size:12><color #black>Managing stack-specific configurations and state.
 
 ** Use Cases
 *** Cloud Infrastructure
-****[#yellow] ====<size:14>Provisioning and managing cloud resources.
+****[#yellow] <i><size:12><color #black>Provisioning and managing cloud resources.
 *** Kubernetes
-****[#yellow] ====<size:14>Managing Kubernetes clusters and applications.
+****[#yellow] <i><size:12><color #black>Managing Kubernetes clusters and applications.
 *** Serverless
-****[#yellow] ====<size:14>Deploying serverless functions and services.
+****[#yellow] <i><size:12><color #black>Deploying serverless functions and services.
 *** Hybrid Cloud
-****[#yellow] ====<size:14>Managing resources in both on-premises and cloud environments.
+****[#yellow] <i><size:12><color #black>Managing resources in both on-premises and cloud environments.
 *** Application Deployment
-****[#yellow] ====<size:14>Deploying and managing applications and services.
+****[#yellow] <i><size:12><color #black>Deploying and managing applications and services.
 
 @endmindmap

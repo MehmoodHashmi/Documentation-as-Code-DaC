@@ -1,103 +1,103 @@
 @startmindmap
-title =__Terraform__
+title =<i>Terraform
 !theme hacker
 
-*[#darkblue] <i>Terraform
-**[#lightblue] <i><color #blac><size:14>Definition
-***[#green] <i><color #white><size:14>**Terraform** is an open-source Infrastructure as Code **(IaC)** tool developed by HashiCorp, used for provisioning and managing infrastructure in a declarative manner.
+*[#darkblue] <i><color #white>Terraform
+**[#lightblue] <i><color #black><size:12>Definition
+***[#green] <i><color #white><size:12>**Terraform** is an open-source Infrastructure as Code **(IaC)** tool developed by HashiCorp, used for provisioning and managing infrastructure in a declarative manner.
 
-**[#lightblue] <i><color #blac><size:14>Key Concepts
-***[#green] <b><i><color #white><size:14>Infrastructure as Code **(IaC)**
-****[#yellow] <i><color #black><size:14>Managing infrastructure through code and automation.
-***[#green] <b><i><color #white><size:14>Declarative Configuration
-****[#yellow] <i><color #black><size:14>Describing desired infrastructure state without specifying how to achieve it.
-***[#green] <b><i><color #white><size:14>HCL **(HashiCorp Configuration Language)**
-****[#yellow] <i><color #black><size:14>The domain-specific language used to write Terraform configurations.
-***[#green] <b><i><color #white><size:14>Providers
-****[#yellow] <i><color #black><size:14>Plugins that interface with various infrastructure platforms.
-***[#green] <b><i><color #white><size:14>Resources
-****[#yellow] <i><color #black><size:14>Infrastructure components like servers, databases, and networks.
-***[#green] <b><i><color #white><size:14>Modules
-****[#yellow] <i><color #black><size:14>Reusable, shareable Terraform configurations.
-***[#green] <b><i><color #white><size:14>State File
-****[#yellow] <i><color #black><size:14>A record of the current infrastructure state.
-***[#green] <b><i><color #white><size:14>Plan and Apply
-****[#yellow] <i><color #black><size:14>The process of generating and applying infrastructure changes.
+**[#lightblue] <i><color #black><size:12>Key Concepts
+***[#green] <b><i><color #white><size:12>Infrastructure as Code **(IaC)**
+****[#yellow] <i><color #black><size:12>Managing infrastructure through code and automation.
+***[#green] <b><i><color #white><size:12>Declarative Configuration
+****[#yellow] <i><color #black><size:12>Describing desired infrastructure state without specifying how to achieve it.
+***[#green] <b><i><color #white><size:12>HCL **(HashiCorp Configuration Language)**
+****[#yellow] <i><color #black><size:12>The domain-specific language used to write Terraform configurations.
+***[#green] <b><i><color #white><size:12>Providers
+****[#yellow] <i><color #black><size:12>Plugins that interface with various infrastructure platforms.
+***[#green] <b><i><color #white><size:12>Resources
+****[#yellow] <i><color #black><size:12>Infrastructure components like servers, databases, and networks.
+***[#green] <b><i><color #white><size:12>Modules
+****[#yellow] <i><color #black><size:12>Reusable, shareable Terraform configurations.
+***[#green] <b><i><color #white><size:12>State File
+****[#yellow] <i><color #black><size:12>A record of the current infrastructure state.
+***[#green] <b><i><color #white><size:12>Plan and Apply
+****[#yellow] <i><color #black><size:12>The process of generating and applying infrastructure changes.
 
-**[#lightblue] <i><color #blac><size:14>Terraform Workflow
-***[#green] <b><i><color #white><size:14>Initialize
-****[#yellow] <i><color #black><size:14>Setting up Terraform working directory.
-***[#green] <b><i><color #white><size:14>Plan
-****[#yellow] <i><color #black><size:14>Generating an execution plan for changes.
-***[#green] <b><i><color #white><size:14>Apply
-****[#yellow] <i><color #black><size:14>Applying the execution plan to create or modify infrastructure.
-***[#green] <b><i><color #white><size:14>Destroy
-****[#yellow] <i><color #black><size:14>Destroying infrastructure resources.
-***[#green] <b><i><color #white><size:14>Import
-****[#yellow] <i><color #black><size:14>Bringing existing resources under Terraform management.
+**[#lightblue] <i><color #black><size:12>Terraform Workflow
+***[#green] <b><i><color #white><size:12>Initialize
+****[#yellow] <i><color #black><size:12>Setting up Terraform working directory.
+***[#green] <b><i><color #white><size:12>Plan
+****[#yellow] <i><color #black><size:12>Generating an execution plan for changes.
+***[#green] <b><i><color #white><size:12>Apply
+****[#yellow] <i><color #black><size:12>Applying the execution plan to create or modify infrastructure.
+***[#green] <b><i><color #white><size:12>Destroy
+****[#yellow] <i><color #black><size:12>Destroying infrastructure resources.
+***[#green] <b><i><color #white><size:12>Import
+****[#yellow] <i><color #black><size:12>Bringing existing resources under Terraform management.
 
-**[#lightblue] <i><color #blac><size:14>Terraform Configurations
-***[#green] <b><i><color #white><size:14>Variables
-****[#yellow] <i><color #black><size:14>Input values for Terraform configurations.
-***[#green] <b><i><color #white><size:14>Outputs
-****[#yellow] <i><color #black><size:14>Values to be displayed after infrastructure creation.
-***[#green] <b><i><color #white><size:14>Data Sources
-****[#yellow] <i><color #black><size:14>External data retrieval for configurations.
-***[#green] <b><i><color #white><size:14>Provisioners
-****[#yellow] <i><color #black><size:14>Running scripts on resources after creation.
-***[#green] <b><i><color #white><size:14>Remote Backends
-****[#yellow] <i><color #black><size:14>Storing Terraform state remotely for collaboration.
-***[#green] <b><i><color #white><size:14>Workspaces
-****[#yellow] <i><color #black><size:14>Isolating and managing multiple environments.
+**[#lightblue] <i><color #black><size:12>Terraform Configurations
+***[#green] <b><i><color #white><size:12>Variables
+****[#yellow] <i><color #black><size:12>Input values for Terraform configurations.
+***[#green] <b><i><color #white><size:12>Outputs
+****[#yellow] <i><color #black><size:12>Values to be displayed after infrastructure creation.
+***[#green] <b><i><color #white><size:12>Data Sources
+****[#yellow] <i><color #black><size:12>External data retrieval for configurations.
+***[#green] <b><i><color #white><size:12>Provisioners
+****[#yellow] <i><color #black><size:12>Running scripts on resources after creation.
+***[#green] <b><i><color #white><size:12>Remote Backends
+****[#yellow] <i><color #black><size:12>Storing Terraform state remotely for collaboration.
+***[#green] <b><i><color #white><size:12>Workspaces
+****[#yellow] <i><color #black><size:12>Isolating and managing multiple environments.
 
-**[#lightblue] <i><color #blac><size:14>Terraform Ecosystem
-***[#green] <b><i><color #white><size:14>Community Providers
-****[#yellow] <i><color #black><size:14>Third-party providers for various services.
-***[#green] <b><i><color #white><size:14>Terraform Cloud
-****[#yellow] <i><color #black><size:14>SaaS platform for remote execution and collaboration.
-***[#green] <b><i><color #white><size:14>Terraform Enterprise
-****[#yellow] <i><color #black><size:14>Self-hosted enterprise version of Terraform.
-***[#green] <b><i><color #white><size:14>Sentinel
-****[#yellow] <i><color #black><size:14>Policy as Code for enforcing compliance and security.
-***[#green] <b><i><color #white><size:14>Terraform Modules Registry
-****[#yellow] <i><color #black><size:14>Repository for sharing and discovering Terraform modules.
+**[#lightblue] <i><color #black><size:12>Terraform Ecosystem
+***[#green] <b><i><color #white><size:12>Community Providers
+****[#yellow] <i><color #black><size:12>Third-party providers for various services.
+***[#green] <b><i><color #white><size:12>Terraform Cloud
+****[#yellow] <i><color #black><size:12>SaaS platform for remote execution and collaboration.
+***[#green] <b><i><color #white><size:12>Terraform Enterprise
+****[#yellow] <i><color #black><size:12>Self-hosted enterprise version of Terraform.
+***[#green] <b><i><color #white><size:12>Sentinel
+****[#yellow] <i><color #black><size:12>Policy as Code for enforcing compliance and security.
+***[#green] <b><i><color #white><size:12>Terraform Modules Registry
+****[#yellow] <i><color #black><size:12>Repository for sharing and discovering Terraform modules.
 
-**[#lightblue] <i><color #blac><size:14>Benefits of Terraform
-***[#green] <b><i><color #white><size:14>Infrastructure Consistency
-****[#yellow] <i><color #black><size:14>Ensuring infrastructure consistency through code.
-***[#green] <b><i><color #white><size:14>Scalability
-****[#yellow] <i><color #black><size:14>Managing infrastructure at any scale.
-***[#green] <b><i><color #white><size:14>Version Control
-****[#yellow] <i><color #black><size:14>Storing Terraform configurations in source control.
-***[#green] <b><i><color #white><size:14>Collaboration
-****[#yellow] <i><color #black><size:14>Collaborating on infrastructure development.
-***[#green] <b><i><color #white><size:14>Cloud Agnostic
-****[#yellow] <i><color #black><size:14>Supporting multiple cloud and on-premises platforms.
-***[#green] <b><i><color #white><size:14>Automation
-****[#yellow] <i><color #black><size:14>Automating infrastructure provisioning and updates.
+**[#lightblue] <i><color #black><size:12>Benefits of Terraform
+***[#green] <b><i><color #white><size:12>Infrastructure Consistency
+****[#yellow] <i><color #black><size:12>Ensuring infrastructure consistency through code.
+***[#green] <b><i><color #white><size:12>Scalability
+****[#yellow] <i><color #black><size:12>Managing infrastructure at any scale.
+***[#green] <b><i><color #white><size:12>Version Control
+****[#yellow] <i><color #black><size:12>Storing Terraform configurations in source control.
+***[#green] <b><i><color #white><size:12>Collaboration
+****[#yellow] <i><color #black><size:12>Collaborating on infrastructure development.
+***[#green] <b><i><color #white><size:12>Cloud Agnostic
+****[#yellow] <i><color #black><size:12>Supporting multiple cloud and on-premises platforms.
+***[#green] <b><i><color #white><size:12>Automation
+****[#yellow] <i><color #black><size:12>Automating infrastructure provisioning and updates.
 
-**[#lightblue] <i><color #blac><size:14>Challenges
-***[#green] <b><i><color #white><size:14>Learning Curve
-****[#yellow] <i><color #black><size:14>Understanding Terraform concepts and configurations.
-***[#green] <b><i><color #white><size:14>Complexity
-****[#yellow] <i><color #black><size:14>Managing complex infrastructure setups.
-***[#green] <b><i><color #white><size:14>State Management
-****[#yellow] <i><color #black><size:14>Handling Terraform state and locking.
-***[#green] <b><i><color #white><size:14>Continuous Delivery
-****[#yellow] <i><color #black><size:14>Integrating Terraform with CI/CD pipelines.
-***[#green] <b><i><color #white><size:14>Best Practices
-****[#yellow] <i><color #black><size:14>Adhering to IaC best practices for security and efficiency.
+**[#lightblue] <i><color #black><size:12>Challenges
+***[#green] <b><i><color #white><size:12>Learning Curve
+****[#yellow] <i><color #black><size:12>Understanding Terraform concepts and configurations.
+***[#green] <b><i><color #white><size:12>Complexity
+****[#yellow] <i><color #black><size:12>Managing complex infrastructure setups.
+***[#green] <b><i><color #white><size:12>State Management
+****[#yellow] <i><color #black><size:12>Handling Terraform state and locking.
+***[#green] <b><i><color #white><size:12>Continuous Delivery
+****[#yellow] <i><color #black><size:12>Integrating Terraform with CI/CD pipelines.
+***[#green] <b><i><color #white><size:12>Best Practices
+****[#yellow] <i><color #black><size:12>Adhering to IaC best practices for security and efficiency.
 
-**[#lightblue] <i><color #blac><size:14>Use Cases
-***[#green] <b><i><color #white><size:14>Cloud Infrastructure
-****[#yellow] <i><color #black><size:14>Provisioning and managing resources in cloud platforms.
-***[#green] <b><i><color #white><size:14>Data Centers
-****[#yellow] <i><color #black><size:14>Managing on-premises and hybrid data center infrastructure.
-***[#green] <b><i><color #white><size:14>Kubernetes
-****[#yellow] <i><color #black><size:14>Deploying and configuring Kubernetes clusters.
-***[#green] <b><i><color #white><size:14>Multi-Cloud
-****[#yellow] <i><color #black><size:14>Managing infrastructure across multiple cloud providers.
-***[#green] <b><i><color #white><size:14>Development Environments
-****[#yellow] <i><color #black><size:14>Creating reproducible development environments.
+**[#lightblue] <i><color #black><size:12>Use Cases
+***[#green] <b><i><color #white><size:12>Cloud Infrastructure
+****[#yellow] <i><color #black><size:12>Provisioning and managing resources in cloud platforms.
+***[#green] <b><i><color #white><size:12>Data Centers
+****[#yellow] <i><color #black><size:12>Managing on-premises and hybrid data center infrastructure.
+***[#green] <b><i><color #white><size:12>Kubernetes
+****[#yellow] <i><color #black><size:12>Deploying and configuring Kubernetes clusters.
+***[#green] <b><i><color #white><size:12>Multi-Cloud
+****[#yellow] <i><color #black><size:12>Managing infrastructure across multiple cloud providers.
+***[#green] <b><i><color #white><size:12>Development Environments
+****[#yellow] <i><color #black><size:12>Creating reproducible development environments.
 
 @endmindmap

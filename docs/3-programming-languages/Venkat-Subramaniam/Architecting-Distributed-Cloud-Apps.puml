@@ -12,7 +12,7 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 |<img:images/img_272.png{scale=.5}>|
 |<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_387.png Monitoring Services Across Cloud click]]|
 |<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_362.png Software Defined Networking (SDN & IaC)]]|
-|<#blue><i><size:15>[[docs/books/1-books-backlog/operating-system/images/img_12.png Infrastructure as Code (IaC & Kubernetes) ]]|
+|<#blue><i><size:15>[[docs/books/1-books-backlog/operating-system/images/img_12.png IaC (Kubernetes,]] [[docs/3-devops/devops-plantuml-mindmap/Terraform.puml Terraform,]] [[docs/3-devops/devops-plantuml-mindmap/Pulumi.puml Pulumi)]]|
 |<#blue><i><size:15>[[docs/cloud-computing/images/cloud-pyramid.png Cloud Pyramid]]|
 |<#blue><i><size:12><color #white>Casado shares his thoughts on the future of \n<i><size:12><color #white>"infrastructure" as well as views on how 3 important \n<i><size:12><color #white>trends coming together: \n<i><size:12><color #white>1- hardware to software; \n<i><size:12><color #white>2- software to services; \n<i><size:12><color #white>3- & finally, the rise of the developer…|;
 
