@@ -1,0 +1,87 @@
+@startmindmap
+title =<i><b><u>[[docs/3-programming-languages/clean-architecture/images/external-interfaces-or-APIs.png WebService & API as Integration (integrating with a webservice)]]
+!theme hacker
+
+*[#darkblue] <i><color #white>[[docs/3-programming-languages/clean-architecture/images/external-interfaces-or-APIs.png WebService]]
+**[#lightblue] <i><color #black><size:12>Front-end
+***[#green] <b><i><color #white><size:12>User Interface
+***[#green] <b><i><color #white><size:12>Client-side Logic
+***[#green] <b><i><color #white><size:12>UI Components
+****[#yellow] <i><color #black><size:12>Forms
+****[#yellow] <i><color #black><size:12>Buttons
+****[#yellow] <i><color #black><size:12>Input Fields
+**[#lightblue] <i><color #black><size:12>Back-end
+***[#green] <b><i><color #white><size:12>Server-side Logic
+***[#green] <b><i><color #white><size:12>Database
+****[#yellow] <i><color #black><size:12>SQL Database
+****[#yellow] <i><color #black><size:12>NoSQL Database
+****[#yellow] <i><color #black><size:12>Data Models
+**[#lightblue] <i><color #black><size:12>APIs
+***[#green] <b><i><color #white><size:12>RESTful APIs
+****[#yellow] <i><color #black><size:12>Authentication
+****[#yellow] <i><color #black><size:12>Authorization
+****[#yellow] <i><color #black><size:12>Endpoint 1
+****[#yellow] <i><color #black><size:12>Endpoint 2
+**[#lightblue] <i><color #black><size:12>Security
+***[#green] <b><i><color #white><size:12>SSL/TLS
+***[#green] <b><i><color #white><size:12>Encryption
+***[#green] <b><i><color #white><size:12>Firewalls
+**[#lightblue] <i><color #black><size:12>Scalability
+***[#green] <b><i><color #white><size:12>Load Balancing
+***[#green] <b><i><color #white><size:12>Caching
+***[#green] <b><i><color #white><size:12>Replication
+**[#lightblue] <i><color #black><size:12>Monitoring
+***[#green] <b><i><color #white><size:12>Logging
+***[#green] <b><i><color #white><size:12>Metrics
+***[#green] <b><i><color #white><size:12>Alerts
+**[#lightblue] <i><color #black><size:12>HTTP Methods
+***[#green] <b><i><color #white><size:12>GET
+***[#green] <b><i><color #white><size:12>POST
+***[#green] <b><i><color #white><size:12>PUT
+***[#green] <b><i><color #white><size:12>DELETE
+
+
+
+*[#darkblue] <i><color #white>[[docs/3-programming-languages/clean-architecture/images/external-interfaces-or-APIs.png APIs as Integration]]
+**[#lightblue] <i><color #black><size:12>RESTful APIs
+***[#green] <b><i><color #white><size:12>Authentication
+****[#yellow] <i><color #black><size:12>OAuth
+****[#yellow] <i><color #black><size:12>JWT
+***[#green] <b><i><color #white><size:12>Authorization
+****[#yellow] <i><color #black><size:12>Role-based Access
+****[#yellow] <i><color #black><size:12>Permissions
+***[#green] <b><i><color #white><size:12>Endpoint 1
+****[#yellow] <i><color #black><size:12>Description
+****[#yellow] <i><color #black><size:12>Parameters
+****[#yellow] <i><color #black><size:12>Response
+***[#green] <b><i><color #white><size:12>Endpoint 2
+****[#yellow] <i><color #black><size:12>Description
+****[#yellow] <i><color #black><size:12>Parameters
+****[#yellow] <i><color #black><size:12>Response
+**[#lightblue] <i><color #black><size:12>SOAP APIs
+***[#green] <b><i><color #white><size:12>WSDL
+***[#green] <b><i><color #white><size:12>SOAP Envelope
+***[#green] <b><i><color #white><size:12>Endpoint
+***[#green] <b><i><color #white><size:12>Operations
+**[#lightblue] <i><color #black><size:12>GraphQL
+***[#green] <b><i><color #white><size:12>Schemas
+***[#green] <b><i><color #white><size:12>Queries
+***[#green] <b><i><color #white><size:12>Mutations
+**[#lightblue] <i><color #black><size:12>API Gateways
+***[#green] <b><i><color #white><size:12>Traffic Routing
+***[#green] <b><i><color #white><size:12>Rate Limiting
+***[#green] <b><i><color #white><size:12>Transformation
+**[#lightblue] <i><color #black><size:12>API Documentation
+***[#green] <b><i><color #white><size:12>Swagger/OpenAPI
+***[#green] <b><i><color #white><size:12>API Reference
+***[#green] <b><i><color #white><size:12>Interactive API Console
+**[#lightblue] <i><color #black><size:12>API Monitoring
+***[#green] <b><i><color #white><size:12>Health Checks
+***[#green] <b><i><color #white><size:12>Performance Metrics
+***[#green] <b><i><color #white><size:12>Error Tracking
+**[#lightblue] <i><color #black><size:12>API Security
+***[#green] <b><i><color #white><size:12>API Keys
+***[#green] <b><i><color #white><size:12>Rate Limiting
+***[#green] <b><i><color #white><size:12>Input Validation
+
+@endmindmap

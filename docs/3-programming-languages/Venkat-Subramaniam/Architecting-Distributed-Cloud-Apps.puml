@@ -40,11 +40,11 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_363.png Reason-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_364.png Reason-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_365.png Reason-3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_271.png Reason-4]], [[docs/cloud-computing/Cloud-Native.puml Cloud Native]],
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/how-to-adopt-cloud-native.adoc How do we transform a system to be Cloud Native?]] A lot of Companies are at Step-4 due to the "complexity" & the required "DevOps talent"
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_367.png Orchestrators]]
-****[#yellow]:<i><color #black><size:12>**Purpose of an Orchestrator:** Infrastructure/Platform/Containers/Functions as a Service aka Orchestrators
+****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_440.png Purpose of an Orchestrator:]]** Infrastructure/Platform/Containers/Functions as a Service aka Orchestrators
 *<i><color #black><size:12>**Manage a cluster's**  (**set of PC/VMs**) lifecycle, networking, health, upgrades, scaling, & deploys/runs service code.
-==<i><color #black><size:12><b>Automation vs. Orchestration==
+==<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_440.png Automation vs. Orchestration]]==
 <i><color #black><size:12>**Automation:** refers to **automating** a single **process or a small number of related tasks** (e.g., deploying an app)
-<i><color #black><size:12>**Orchestration:** refers to **managing** multiple **automated tasks** to **create a dynamica workflow** (e.g., deploying an app, connecting it to a network,
+<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_440.png Orchestration:]]** refers to **managing** multiple **automated tasks** to **create a dynamica workflow** (e.g., deploying an app, connecting it to a network,
 <i><color #black><size:12>& **integrating** it with other <b>systems);
 ****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_386.png Kubernetes Tool Ecosystem]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_395.png Kubernetes Vs. Docker]]
 
@@ -104,6 +104,7 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 *****[#a]:<i><color #black><size:12>**Networking:** is the **thing** which **decides** the **security** of your **application architecture** as well as whether your **application can scale**
 <i><color #black><size:12>& how do you **design** the **traffic, security groups, or say firewalls & the routing decisions** you take.;
 *****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_406.png VPCs]] \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_407.png Subnets]]
+******[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_441.png What is VPC & How it Works? Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_442.png Part-2 (Two Types of VPC)]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_443.png Part-3 AWS-VPC Peering (2 VPC within a Region)]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_444.png Part-4 AWS N/W ACL's inside VPC]]
 ******[#darkorange]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_401.png What are services, regions & Availability zones (AZ) & how they map to each other]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_401.png What is AWS Account, Users & Services Scope]];
 *******[#black]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_402.png 1- Compute Services &]] [[docs/3-programming-languages/Venkat-Subramaniam/images/img_403.png 1- Compute & Analytics]]
@@ -127,8 +128,10 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 ***[#green] <i><color #white><b><size:12>Connecting Microservices
 ***[#green] <i><color #white><b><size:12>API Versioning
 ****[#darkorange] <i><color #black><size:12>Designing & Versioning <b>HTTP/REST APIs; & [[docs/3-programming-languages/Venkat-Subramaniam/gif/Common-HTTP-Verbs.adoc Common HTTP Verbs]] gif
+****[#darkorange] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/API-vs-SDK.adoc API vs SDK]] gif [[a Webservice]]
 ****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_397.png What does API gateway do?]] & [[docs/3-programming-languages/Venkat-Subramaniam/gif/3-API-gateway-use-cases.adoc 3 API gateway use cases]]
 *<b><i><color #black><size:12>[[https://www.youtube.com/embed/3t7pMx35Reg APIs Vs. Events | Can they coexist? | API First or Event First]];
+*****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/webservice.puml Webservice?]]
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_46.png Network API Contracts]]
 ***[#green] <i><color #white><b><size:12>Leaky RPC-Like Abstractions
 ***[#green] <i><color #white><b><size:12>Retrying Failed Network Operations
@@ -181,7 +184,11 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/How-can-Cache-Systems-go-wrong.adoc How can Cache Systems go wrong? (cache challenges)]] gif;
 
 ***[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png File & Object Storage]]
-****[#darkorange] <i><color #white><b><size:12>How to improve performance of client’s accessing these documents by using a Content Delivery Network (CDN). \n<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/blob-and-object-store-use-cases.adoc File & Object Storage top six (6) use-cases]] gif
+****[#darkorange]:*<i><color #white><b><size:12>How to improve performance of client’s accessing these documents by using a Content Delivery Network (CDN).
+*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/blob-and-object-store-use-cases.adoc File & Object Storage top six (6) use-cases]] gif
+*<i><color #white><b><size:12>[[docs/cloud-computing/AWS-Cloud/image-2023-03-05-20-07-51-822.png Performance comparison of storage types]]
+*<i><color #black><b><size:12>[[https://www.youtube.com/embed/6vNC_BCqFmI AWS Storage - EBS vs S3 vs EFS]] video;
+
 ***[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png Database Storage]]
 ****[#darkorange] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_380.jpg 8 data-structures that power "Modern Database"]]
 ***[#a] <i><color #white><b><size:12>Data Partitioning
