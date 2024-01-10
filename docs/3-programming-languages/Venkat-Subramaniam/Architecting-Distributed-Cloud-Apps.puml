@@ -90,9 +90,10 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 ****[#a] *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_369.png Docker Architecture]] \n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_370.png Image Vs Container]] \n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_371.png VM Vs. Container]]
 ***[#green] <i><color #white><b><size:12>Why Containers?
 ****[#a] <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_372.png VM vs. Containers]]** <b>size, boot-up time & memory usage
-****[#yellow] <i><color #black><size:12>**Isolation vs. Density**
+****[#black] <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/isolation-vs-density.drawio.png Isolation vs. Density]]**
+*****[#yellow] <b><i><color #black><size:12>PC vs VM vs Hyper-V Container Vs Containers Vs Process
 ****[#darkorange] <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_376.png Container Vs. O/S windows, Linux & Mac compatability]]**
-***[#green] <i><color #white><b><size:12>Containers & Operating Systems
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/OS-Kernel-and-container-images.drawio.png Containers & Operating Systems]]
 ***[#green] <i><color #white><b><size:12>Orchestrators & Containers
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_373.png Continuous Integration & Continuous Deployment]]
 ****[#darkorange] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/conventional-SDLC-vs-DevOps-vs-NoOps.adoc Conventional SDLC vs. DevOps Vs. NoOps]] gif
