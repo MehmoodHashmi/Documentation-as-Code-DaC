@@ -48,9 +48,11 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 <i><color #black><size:12>& **integrating** it with other <b>systems);
 ****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_386.png Kubernetes Tool Ecosystem]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_395.png Kubernetes Vs. Docker]]
 
-***[#green]:*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_399.png Global Datacenters]]
-*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_400.png Region = Independent geographic area]]
-**<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_400.png Contains at least 2-availability zones (except for Osaka region)]]
+***[#green]:*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/region-availability-zone-and-fault-domain.drawio.png Region, availability zone and fault domain]]
+====
+*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_399.png Global Datacenters]]
+*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_400.png Region = Independent geographic area]] click me
+**<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_400.png Contains at least 2-availability zones (except for Osaka region)]] click me
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_400.png Availability Zones = Multiple isolated location /data-centers within a region]]
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_400.png Fault Domains]];
 ****[#a]:<i><color #black><size:12>**Distributed [[docs/3-programming-languages/Venkat-Subramaniam/images/img_359.png Cloud]] Apps:** are largely about:
