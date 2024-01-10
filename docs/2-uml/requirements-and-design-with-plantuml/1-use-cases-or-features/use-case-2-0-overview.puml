@@ -58,12 +58,12 @@ caption <img:img_1.png{scale=0.7}>
 **[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/0-use-case-diagrams/Tomplot-Use-Case-diagram.puml Use case Diagram]] click me
 **[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/glossary.puml Glossary]]
 **[#lightblue] <i><size:12>Schema Diagram
-***[#green] <color #white><b><i><size:12>Don't add schema detials inside the use case. Keep it simple. You are adding Databases (SQL, NoSQL) & Programming in use cases.
+***[#green] <color #white><b><i><size:12>Don't add schema details inside the use case. Keep it simple. You are adding Databases (SQL, NoSQL) & Programming in use cases.
 ***[#green] <color #white><b><i><size:12>Class diagram
-****[#yellow] <color #black><i><size:12><b>Domain model (DDD)
+****[#yellow] <color #black><i><size:12><b>Domain model (DDD) Or Deep Model
 ****[#yellow] <color #black><i><size:12><b>Class diagram
 ****[#yellow] <color #black><i><size:12><b>Object Model
 ***[#green] <color #white><b><i><size:12>Data model
-****[#yellow] <color #black><i><size:12><b>SQL, NoSQL, ERD
+****[#yellow] <color #black><i><size:12><b>SQL (schema/ERD) , NoSQL (schemaless)
 
 @endmindmap

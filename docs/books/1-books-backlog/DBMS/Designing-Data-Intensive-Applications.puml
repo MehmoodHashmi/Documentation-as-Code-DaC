@@ -3,7 +3,7 @@
 title  = //__**Designing Data-Intensive Applications**__//\n <size:24>**Key Takeaways**
 !theme hacker
 
-*[#darkblue] <i>Designing Data-Intensive Applications\n \t Key Takeaways
+*[#darkblue] <i><color #white>Designing Data-Intensive Applications\n \t <color #white>Key Takeaways
 **[#lightblue] <size:14><i>**Choose** the right **__data model__** for your **application**
 ***[#green] <size:20><i><color #white><b>Data Model
 ****[#orange] <color #black><size:14><i>**1- Hierarchical**
