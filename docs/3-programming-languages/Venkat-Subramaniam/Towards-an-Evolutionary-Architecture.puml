@@ -63,7 +63,8 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ****[#yellow] <i><color #black><size:13>Build working software.
 *****[#gold] <i><color #black><size:12>Half of the total programmers in the world can do it
 *****[#gold] <i><color #black><size:12>But I want to build <b>relevant working software\n*<b><i><color #black><size:12>Requires more effort
-****[#a] <i><color #black><size:13><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_251.png PowerPoint Architect]] \n*<i><color #black><size:13><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_431.png Ivory Tower]]
+****[#a] <i><color #black><size:13><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_251.png PowerPoint Architect]] \n*<i><color #black><size:13><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_431.png Ivory Tower]] \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_446.png Architect & Devloper]]
+*****[#yellow] <i><color #black><size:12><b>When we Say an Architect must code, the goal is not they should sit & code. Then why are we saying they should code? Because you want \n<i><color #black><size:12><b>them to get insight at the low levels so that when they make decisions at the higher levels, they are not limiting what you can do. Those \n<i><color #black><size:12><b>constraints their knowledge, visibility & understanding is what you count on.
 ****[#darkorange] *<i><color #black><size:15><b>No one cares if you write good code
 *****[#grey] <i><color #black><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png Does this code saves or makes money?]]\n<i><color #black><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png Add value via buy/save more time for client]]
 ******[#grey] <i><color #black><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png Education vs. Knowledge?]]
@@ -99,7 +100,8 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ***[#green] <b><i><color #white><size:12>What if we can't support a feature?
 ****[#yellow] *<i><color #black><size:12><b>Planned Features
 *****[#yellow] *<i><color #black><size:12>Things you know, you will work on, in the beginning of the project you had project backlog. \n<i><color #black><size:12>A list of requirements given to you.
-*****[#yellow] *<i><color #black><size:12>Find the following for each <b>user story:\n#<i><color #black><size:12>Business value\n#<i><color #black><size:12>Architecture Impact\n*<i><color #black><size:12>Now prioritize & implement the high value features first!
+*****[#a] *<i><color #black><size:12>Find the following for each <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_448.png user story:]]\n<i><color #black><size:12>1- Business value \n<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_448.png 2- Architecture Impact]]\n*<i><color #black><size:12>Now prioritize & implement the high value features first!
+******[#black] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_447.png Jira, Trello, User Story, Requirements & Backlog, Project Management & Client Management (Transparency with client)]]
 ****[#yellow] *<i><color #black><size:12>Surprise Features
 *****[#yellow] *<i><color #black><size:12>Do **minimal architecture** like **Clean Architecture** so that you can "modify & maintain" the system
 ***[#green] <i><color #white><b><size:12>How to deal with that?
@@ -134,7 +136,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ***[#a]:<i><color #black><size:12>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.
 *<b><i><color #black><size:12>Why don't we postpone?
 **<b><i><color #green><size:12>Because we are afraid!
-|<#blue><b><i><color #white><size:12>[[docs/books/1-books-backlog/software-testing/automated-testing.puml If you want to "postpone" we need to 've good "automated testing". (TDD)]] click me|
+|<#red><b><i><color #white><size:12>[[docs/books/1-books-backlog/software-testing/automated-testing.puml If you want to "postpone" we need to 've good "automated testing". (TDD) click me]]|
 <img:images/img_43.png{scale=.86}>
 ==<i><color #black><size:14><b>(TDD) gives you Control==
 *<i><color #black><size:12><b>Statistical Control (SC):</b> is **TDD or unit testing** or <b><color:green>"Test Coverage"
@@ -180,7 +182,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 <i><color #black><size:12>I still use old libraries & frameworks. I use them because I know them already. Will I learn them today? Today
 <i><color #black><size:12>I should learn things which are new & popular in market. <color #white>Venkat Subramaniam
 ==<i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_266.png Minimizing frameworks. How?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_357.png Frameworks that you must marry?]]==
-<img:images/img_31.png{scale=0.84}> <img:images/img_34.png>
+|<img:images/img_31.png{scale=0.84}>| <img:images/img_34.png>|
 ==<i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_267.png Minimizing Libraries. How?]]==
 <img:images/img_56.jpg{scale=.75}>
 <i><color #black><size:15>"interface" minimizes the "surface area" of "coupling code" & ease's replacing "library";
