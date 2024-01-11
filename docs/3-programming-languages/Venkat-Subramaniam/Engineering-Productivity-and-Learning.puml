@@ -28,7 +28,7 @@ title =<i><b><u><size:18>Engineering, Productivity & Learning Venkat's Interview
 <i><color #black><size:12><b>1) Relationship (friends & relatives)
 <i><color #black><size:12><b>2) Wealth (Am I financially free? When I get up in the morning am I forced to work? Can I stay at home and do nothing?)
 <i><color #black><size:12><b>3) Health (healthy food & exercise);
-****[#gold] <i><color #black><size:12>Analysis paralysis (leads to no action)
+****[#gold] <i><color #black><size:12>**Analysis paralysis** is overflow of information (& leads to no action)
 
 ****[#darkorange]:<i><color #black><size:12>**Study, research & analyze a "problem domain"** via asking questions in **Breadth-First Search fashion** until you get enough information to decide if it is worth digging in more or not so.
 <i><color #black><size:12>I could use **Depth-First Search** approach as well. **Breadth-First Search fashion** helps you maintain **abstraction** by avoiding knowing everything in detail in <b>first interaction. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_245.png click me]];
