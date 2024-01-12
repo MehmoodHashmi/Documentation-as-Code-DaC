@@ -184,7 +184,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 ==<i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_266.png Minimizing frameworks. How?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_357.png Frameworks that you must marry?]]==
 |<img:images/img_31.png{scale=0.84}>| <img:images/img_34.png>|
 ==<i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_267.png Minimizing Libraries. How?]]==
-<img:images/img_56.jpg{scale=.75}>
+|<img:images/img_56.jpg{scale=.65}>|<img:images/img_464.png{scale=.52}>|
 <i><color #black><size:15>"interface" minimizes the "surface area" of "coupling code" & ease's replacing "library";
 ***[#yellow] <i><color #black><size:12>in the system, otherwise it is **"infatuation"** with the <b>"technology"
 ***[#darkorange] *<i><color #black><size:12>Don't **build** what you can **buy/download.** Don't **buy/download** what you don't <b>need! [[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png click me]]\n*<i><color #black><size:12>"To slaughter a goat for a single grain". You could **buy** the **needed grain** from <b>market!
@@ -232,7 +232,11 @@ title =<i><b><u>Towards an Evolutionary Architecture
 <i><color #black><b>abstract things become concrete. But they exist inside your inner world (mind) but if you still
 <i><color #black><b>does not stop here then you may start seeing & observing these in outer worl (physical world, real)
 <i><color #black><b>life). But actually this is self constructed illusion.;
-
+***[#gold] <b><i>Resume Driven Development
+****[#yellow]:<i><b><size:12>Separate the things you've "learnt" from things you 've "used in production."
+*<i><color #black><b><size:12>If the list of things you've used in production is long then we can't talk because you will complicate my system
+<i><color #black><b><size:12>\t unnecessarily & I will not be able to release my "product".
+*<i><color #black><b><size:12>If the list of things you've used in production is small than the things you've learnt over the years then we can talk;
 **[#lightblue] <i><color #black><size:12>Summary
 
 @endmindmap

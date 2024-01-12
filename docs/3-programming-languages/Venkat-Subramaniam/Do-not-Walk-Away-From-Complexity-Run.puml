@@ -1,0 +1,169 @@
+@startmindmap
+title =<i><b><u><size:18>Don't Walk away from "Complexity" Run
+!theme hacker
+
+*[#darkblue] <i><color #white>Don't Walk away \n<i><color #white>from "Complexity" Run
+**[#lightblue] <color:white><i>Introduction
+***[#green]:<b><i><color #white><size:12>We constantly hear that change should be affordable and cost effective. True, but, in reality, that is easily said than done. Complexity makes change hard.
+<i><color #white><size:12>We can't shy away from the hard problems posed by domains and business needs. So, how can we solve complicated problems without getting dragged into the quagmire of
+<i><color #white><size:12>what appears to be an inevitable complexity? ;
+***[#green] <b><i><color #white><size:12>When I was Kid, I used to tell scary stories, I've grown, now I tell people about programming.
+**[#lightblue] <b><i><color #black><size:12>"The only constant is change." Heraclitus \n<img:images/img_449.png{scale=.55}>
+***[#gold] <b><i><color #black><size:12>"Agility" is ability to "change".
+****[#yellow] <b><i><color #black><size:12>Agile Development
+****[#yellow] <b><i><color #black><size:12>Talk to customer & accommodate changing requirements
+****[#yellow] <b><i><color #black><size:12>Adopt agile tools E.g. CI/CD, TDD etc.
+***[#yellow] <i><color #black><size:12>**"Complexity"** makes it hard to **"adapt"** change
+**[#lightblue]:<i><color #black><size:24>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Complexity]]
+<img:images/img_32.png>
+*<i><color #black><size:16>"System design" is "complicated", by "nature"
+*<i><color #black><size:16>We're victims of our own "complexities"
+|<img:images/img_450.png{scale=.5}>|<img:images/img_451.png{scale=.35}>|;
+***[#green] <i><color #white><size:12><b>Inherent or\n<i><color #white><size:12><b>Essential
+****[#yellow] <i><color #black><size:12>is from the **problem domain,** you can't minimize it. When dealing with the **problem;** there are **"complexities"** \n<i><color #black><size:12>of the **problem** that you 've to deal with. And this is the "nature of the application" and **nature** of the <b>domain.
+****[#yellow] <i><color #black><size:12>Fortunately, on daily basis we 've to deal more with the <b>accidental "complexities"</b> than <b>inherent "complexities"
+***[#green] <i><color #white><size:12><b>Accidental \n<i><color #white><size:12><b>or Non-essential
+****[#yellow]:<i><color #black><size:12>Often, comes from the **solution** we use to solve a **particular problem.** The **solution** we are using brings
+<i><color #black><size:12>certain **complexities** into the <b>table.
+*<i><color #black><size:12>Now, to solve this **introduced "complexities"** we bring <b>other solutions.
+*<i><color #black><size:12>**Other solutions,** bring more **"complexities"** & this goes on & on.;
+****[#gold] <i><color #black><size:12>The **problem** did not require a **specific solution,** its the **solution we choose** to solve the <b>problem!
+****[#yellow] *<i><color #black><size:12><b>E.g. Concurrency \n*<i><color #black><size:12><b>E.g. Streams </b>(less accidental complexity)
+*****[#gold] *<i><color #black><size:12>**FP** is good at **managing complexity** in **local computation tasks,** \n*<i><color #black><size:12>**OOP** is good at **managing complexity** in <b>global computation tasks.
+****[#yellow] <i><color #black><size:12>**Simple** is not necessarily <b>familiar
+*****[#gold] <i><color #black><size:12>e.g. <b>For loop
+***[#green] <i><color #white><size:12><b>Good Design
+****[#gold] <i><color #black><size:12>A **good design** is the one that **"hides" or "encapsulates"** the <b>inherent complexity\n<i><color #black><size:12>and <b>"eliminates" the <b>accidental complexity
+*****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Encapsulation vs. Abstraction]] click me
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Data-type vs. Data-Structure]] click me
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/knowledge-and-data-structure.drawio.png knowledge Vs. Data-Structures]] click me;
+****[#gold] <i><color #black><size:12><b>Follow YAGNI Principle
+**[#lightblue] <i><color #black><size:12>What makes Software Systems complex?
+***[#yellow]:*<i><color #black><size:12>Too Many Moving Parts
+|<img:images/img_452.png{scale=.4}>||<b><i><color #black><size:12>E.g. Microservices\n<img:images/img_453.png{scale=.4}>|<img:images/img_454.png{scale=.36}>|;
+****[#darkorange]:*<i><color #black><size:12>Configuration in XML
+**<i><color #black><size:12>Configuration from <b>hell
+*<i><color #black><size:12>**[[ docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 14- Rule of Generation:]]** (Avoid hand-hacking; write programs to write programs when you can)
+**<i><color #black><size:12>**XML** is like **humans,** **cute** when **small,** **annoying when** it gets <b>bigger
+***<i><color #black><size:12>Extremely **complex** when bigger & not **maintainable** (app **maintainability** becomes **difficult**)
+***<i><color #black><size:12>**Sustainability (is Survival)** is **achieved** by making application **extensible (OCP)**
+<i><color #black><size:12>\tbut not so **customizable** as it makes it incredibly hard to <b>maintain
+*<i><color #black><size:12><b>Early waring signs:
+**<i><color #black><size:12>Brittle (unnecessary coupling; another module breaks when you touch this module)
+**<i><color #black><size:12>Error Prone
+**<i><color #black><size:12>Hard to <b>deploy (unnecessary coupling)
+**<i><color #black><size:12>Hard to <b>Test (Violation of DIP & SRP)
+**<i><color #black><size:12>Hard to Reason (accidental complexity, poor abstraction & encapsulation);
+***[#gold] <b><i><color #black><size:12>Invisible Changes
+****[#yellow]:*<i><color #black><size:12>You are very **unfortunate** when you **rely on debugger** to **understand,** what **code** is doing!
+**<i><color #black><size:12><b>Two Kinds of "code" that frustrate (angry) me the most:
+***<i><color #black><size:12><b>1- One that won't work
+***<i><color #black><size:12><b>2- One that won't work, but shouldn't
+====
+*<i><color #black><size:12>As a **programmer** it is our job to make sure that the **code conveys** its <b>"intent".
+*<i><color #black><size:12>Once the code conveys its intent then its easy to anticipate whats the code goona do.
+|<img:images/img_455.png{scale=.5}>|<b><i>Costs Time\n<img:images/img_456.png{scale=.235}>|<b><i>OOP vs FP vs FRP\n<img:images/img_457.png{scale=.24}>|;
+*****[#gold]:*<i><color #black><size:12><b>Programing with few "states" (is what I learned in last 20-years. Venkat)
+====
+<i><color #black><size:12>I Don't write my fields.
+<i><color #black><size:12>I start writing my functions/methods & only when method demands that I need a field I make
+<i><color #black><size:12>the field cry & plead for his existence & then reluctantly I bring the field into my class.
+<i><color #black><size:12>Because its easy & cheap to bring in fields but very expensive to remove them!
+====
+*<i><color #black><size:12>**Mutability** is **expensive** to **maintain** in the <b>long run.
+*<i><color #black><size:12>**Mutability** needs company, it often hangs around with <b>bugs.
+*<i><color #black><size:12>**State Transition** causes <b>Brain Damage;
+****** <img:images/img_458.png{scale=.5}>
+
+**[#lightblue] <i>Comprehend all "complexities" in your "mind"\n<img:images/img_459.png{scale=.7}>
+***[#lightblue] <i>One thing people don't realize is that you made all that connection of your algorithm & your objects & data structures in your mind
+***[#lightblue] <i>Happiness is when world understands programmers
+***[#lightblue] <i>**The point is:** that it takes **focus** for us to get our work done. Because of the **"complexities"** we've to deal with every single day.
+***[#lightblue] <i>**Take time** to **reduce mutability** in the code. Reducing the mutability reduces "complexities", & when complexity is reduced then **time & money** required for **maintaining the system** is also <b>reduced.
+
+**[#lightblue] <i><color #black><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_76.png Lack of Cohesion]]\n<img:images/img_460.png{scale=.6}>
+***[#green] <i><color #white><size:12><b>Where a piece of code is narrow, "focused"\n<i><color #white><size:12><b>& does one thing & does one thing well!
+****[#yellow] <i><color #black><size:12>We want software to change, but not too <b>(expensive to change)
+****[#yellow] <i><color #black><size:12>If a "code" is **"cohesive",** it has to <b>change less "frequently"
+***[#green] <i><color #white><size:12><b>Like things stay together, and unlike things stay apart
+****[#yellow] <i><color #black><size:12>**"Code that deals"** with **database** is different than **"code that deals"** with <b>XML processing
+****[#a] <i><color #black><size:12>**"Code that deals"** with **database** is different than **"code that deals"** with <b>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/UI-UX.puml UI]] click me
+***[#green] <i><color #white><size:12><b>Class-level Principles
+****[#yellow] *<i><color #black><size:12>SOLID, GRASP & TDD. **\tClass design patterns:** (Structural, Behavioral & Creational) can be reused
+***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/class-and-package-level-SOLID-Principles.puml Package-level Principles]] <size:9>click me
+****[#a] *<i><color #black><size:12>**Cohesion:** CCP, CRP & **Coupling:** REP, SDP, SAP.  **\t[[docs/3-programming-languages/Venkat-Subramaniam/images/img_160.png Modularity design patterns:]]** can be reused
+****[#yellow]:*<i><color #black><size:12>If **SOLID principles** tell use how to arrange the **bricks into walls & rooms,** then the **component principles** tell us how to **arrange** the **rooms** into <b>building.
+*<i><color #black><size:12>Large software systems, like large buildings, are built out of smaller <b>components.;
+
+**[#lightblue] <i>Coupling\n|<img:images/img_461.png{scale=.5}>|<img:images/img_463.png{scale=.64}>|
+***[#lightblue] <img:images/img_462.png{scale=1}>
+****[#yellow] *<i><color #black>Currently we're dealing with **module hell** in Java
+****[#yellow] *<i><color #black>You don't use Maven... it uses you.
+***[#yellow] *<i><color #black>Technology infatuation
+****[#yellow] *<i><color #black>Is this technology the right choice?
+**[#lightblue] <i><color #black><size:12>Reversibility?
+***[#green] <b><i><color #white><size:12>Last responsible moment
+****[#gold] <i><color #black><size:12>You either make the decision now or if you do not you begin to <b>procrastinate
+****[#gold] <i><color #black><size:12><b>Two main reason: \n<i><color #black><size:12>**1-** You are smarter tomorrow than you are today\n<i><color #black><size:12>**2-** If I don't make the decision now, I can go faster focusing on other decisions that 've to \n<i><color #black><size:12>be done now. And you want to postponed things that gives you <b>focus.
+****[#yellow] <i><color #black><size:12><b>E.g.</b> Databases (SQL or NoSQL) etc.
+***[#yellow] <i><color #black><size:12>E.g. **"Rewrite"** java app in go-lang or C# or python, this is difficult, time consuming & hard to <b>reverse.
+***[#yellow] <i><color #black><size:12>The more you are **couple to a decision** the harder it is to **reverse,** introduce **indirection** to increase <b>reversibility.
+***[#a]:<i><color #black><size:12>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.
+*<b><i><color #black><size:12>Why don't we postpone?
+**<b><i><color #green><size:12>Because we are afraid!
+|<#red><b><i><color #white><size:12>[[docs/books/1-books-backlog/software-testing/automated-testing.puml If you want to "postpone" we need to 've good "automated testing". (TDD) click me]]|
+<img:images/img_43.png{scale=.86}>
+==<i><color #black><size:14><b>(TDD) gives you Control==
+*<i><color #black><size:12><b>Statistical Control (SC):</b> is **TDD or unit testing** or <b><color:green>"Test Coverage"
+**<i><color #black><size:12><b>"Testing"</b> numbs (freezes) us to loss of <b>reasoning (intellectual control)
+*<i><color #black><size:12><b>Intellectual Control (IC):</b> is **simple design,** or <b>"Model Based Testing"</b> etc. but simply when <b>project
+<i><color #black><size:12>"grows big" you start losing (intellectual control) on the <b>project;
+****[#gold] <i><color #black><size:12><img:images/img_35.png{scale=0.7}>
+****[#gold] *<i><color #black><size:12>**"Low code coverage"** means **bad code design** \n*<i><color #black><size:12>**"High code coverage"** does not <b>mean anything
+****[#gold] <i><color #black><size:12>Machine Learning <b>"Model" "Testing"\n<i><color #black><size:12>is different than <b>(TDD)</b> that is:\n<i><color #black><size:12>**1-** Prediction\n<i><color #black><size:12>**2-** Pattern recognition\n<i><color #black><size:12>**3-** Optimization & decision making
+****[#darkorange] <i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 12- Rule of Repair & TDD:]] click me
+***[#yellow] <i><color #black><size:12>Database decisions, libraries and frameworks decisions etc.
+***[#darkorange] <i><color #black><size:12>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful\n*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy
+***[#yellow] <i><color #black><size:12>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
+
+**[#lightblue]:<i><color #black><size:18>[[docs/3-programming-languages/Library-vs-Framework.puml Minimize libraries & frameworks]]
+<i><color #black><size:12>I still use old libraries & frameworks. I use them because I know them already. Will I learn them today? Today
+<i><color #black><size:12>I should learn things which are new & popular in market. <color #white>Venkat Subramaniam
+==<i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_266.png Minimizing frameworks. How?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_357.png Frameworks that you must marry?]]==
+|<img:images/img_31.png{scale=0.84}>| <img:images/img_34.png>|
+==<i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_267.png Minimizing Libraries. How?]]==
+|<img:images/img_56.jpg{scale=.65}>|<img:images/img_464.png{scale=.52}>|
+<i><color #black><size:15>"interface" minimizes the "surface area" of "coupling code" & ease's replacing "library";
+***[#yellow] <i><color #black><size:12>in the system, otherwise it is **"infatuation"** with the <b>"technology"
+***[#darkorange] *<i><color #black><size:12>Don't **build** what you can **buy/download.** Don't **buy/download** what you don't <b>need! [[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png click me]]\n*<i><color #black><size:12>"To slaughter a goat for a single grain". You could **buy** the **needed grain** from <b>market!
+***[#gold] <i><color #black><size:12>If we're going to 've a **delivery independent architecture**, we 've to start with \n<i><color #black><size:12><b>delivery independent <color:#brown>"use cases"
+***[#darkorange] *<i><color #black><size:12>**"main ()"** function is at **outer most layer.** Why? Because it is near to **input/output** & prone to <b>changes. \n*<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_424.png click me]]
+***[#a]:<i><color #black><size:12>There is nothing wrong with **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_56.png outside-in or inside-out approach]]** so long as you **decouple**
+<i><color #black><size:12>your **business rules** from them.
+==<i><color #black><size:16>**Inside-out** <color:yellow>(Low-level analysis & design)==
+*<i><color #black><size:16>**Inside-out:** approach is (1st <u>**analyze & design entities & use cases layer**)
+<i><color #yellow><b><size:16>1- Entities
+<i><color #brown><b><size:16>2- Use Cases [[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/use-case-2-0-overview.puml click me]] or [[docs/1-Requirement-Engineering/VU-course/Event-Storming-technique.adoc Event Storming]] or etc.
+==<i><color #black><size:16>**Outside-in** <color:blue>(High-level analysis & design)==
+*<i><color #black><size:16>**Outside-in:** approach (1st select right tools, integrations etc. for app development)
+<i><color #green><b><size:15>4- Outer most layer <color #white>(Databases, Devices, External interfaces, Web, UI/UX etc.)
+**<i><color #green><b><size:12>E.g. [[docs/books/1-books-backlog/DBMS/Designing-Data-Intensive-Applications.puml NFR technology constraints]], seldom "client" tells "explicitly" if not they still exist "implicitly"
+**<i><color #green><b><size:12>E.g. [[docs/books/1-books-backlog/DBMS/Designing-Data-Intensive-Applications.puml SQL or NoSQL]]
+**<i><color #green><b><size:12>E.g. CLI or [[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/UI-UX.puml GUI (UI/UX)]]
+**<i><color #green><b><size:12>E.g. [[docs/3-programming-languages/Venkat-Subramaniam/images/external-interfaces-or-APIs.png External Interfaces (APIs)]] or [[docs/1-Requirement-Engineering/APIs-design/types-of-APIs-Integration.puml Types of API integration]] or [[docs/1-Requirement-Engineering/APIs-design/Using-an-API.puml Using an API]] or [[docs/1-Requirement-Engineering/APIs-design/Designing-API.puml Designing API]]
+**<i><color #green><b><size:12>E.g. [[docs/3-programming-languages/Venkat-Subramaniam/Designing-Reactive-Systems.puml Sync or Async]] (reactive system)
+**<i><color #green><b><size:12>E.g. [[docs/3-programming-languages/Ola-Bini's-Language-Pyramid.puml Ola Bini's Language Pyramid]] or [[a Compiled vs Interpreted]] or [[a Structured vs FP vs OOP]]
+**<i><color #green><b><size:12>E.g. [[docs/1-Requirement-Engineering/levels-of-distributed-system/Centralized-System.puml Centralized]] or [[docs/AI-ML-DL-Data-Science-and-BigData/data-science/designing-data-intensive-applications/Distributed-Systems.puml Distributed]]
+**<i><color #green><b><size:12>E.g. [[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering/Cloud-vs-On-Premise.puml On-premise or cloud or multi-cloud]] or [[docs/cloud-computing/Cloud-Native.puml cloud native]]
+**<i><color #green><b><size:12>E.g. [[docs/books/1-books-backlog/operating-system/Linux-operating-system.puml O/S open source e.g. Linux]] or [[a proprietary e.g. Windows]]
+**<i><color #green><b><size:12>E.g. [[a Brownfield]] (maintenance) or [[a Greenfield]] (new project)
+**<i><color #green><b><size:12>E.g. [[docs/blockchain/Blockchain-System-Design.puml Blockchain (value exchange)]] or [[docs/blockchain/Blockchain-System-Design.puml Internet/Web (info. exchange)]] or Without internet etc.
+==<i><color #black><size:16><b>Conclusion==
+*<i><color #black><b><size:12>In reality a mix of both "inside-out & outside-in" is used.;
+***[#gold] <b><i>Resume Driven Development
+****[#yellow]:<i><b><size:12>Separate the things you've "learnt" from things you 've "used in production."
+*<i><color #black><b><size:12>If the list of things you've used in production is long then we can't talk because you will complicate my system
+<i><color #black><b><size:12>\t unnecessarily & I will not be able to release my "product".
+*<i><color #black><b><size:12>If the list of things you've used in production is small than the things you've learnt over the years then we can talk;
+
+@endmindmap
