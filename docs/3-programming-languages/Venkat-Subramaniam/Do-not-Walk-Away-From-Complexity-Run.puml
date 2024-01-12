@@ -165,5 +165,10 @@ title =<i><b><u><size:18>Don't Walk away from "Complexity" Run
 *<i><color #black><b><size:12>If the list of things you've used in production is long then we can't talk because you will complicate my system
 <i><color #black><b><size:12>\t unnecessarily & I will not be able to release my "product".
 *<i><color #black><b><size:12>If the list of things you've used in production is small than the things you've learnt over the years then we can talk;
-
+**[#lightblue] <i>"Complecting things is the source of complexity." Rich Hickey\n<img:images/img_465.png>
+***[#yellow] <i>is violation of <b>separation of concerns
+***[#yellow] <i>is violation of <b>SRP
+***[#yellow] <i>is violation of <b>KISS
+***[#yellow] <i>We should learn to deal with complexity & 've the wisdom to minimize it.
+***[#yellow] <i>A **maintainable code** is a **gift** we give ourselves for the future!
 @endmindmap
