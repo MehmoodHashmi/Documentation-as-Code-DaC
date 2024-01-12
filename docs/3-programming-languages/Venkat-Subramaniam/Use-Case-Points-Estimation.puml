@@ -1,0 +1,29 @@
+@startmindmap
+title =<i><b><u>Use Case Points Estimation
+!theme hacker
+caption <img:images/image-2023-02-20-18-57-28-106.png{scale=.66}>
+
+
+*[#darkblue] <i><color #white>Use Case Points Estimation
+**[#lightblue] <i><color #black><size:12>UCP Technique
+***[#green] <b><i><color #white><size:12>The UCP technique is a software estimation method used to approximate the size and effort needed for software development based on use case analysis.
+
+**[#lightblue] <i><color #black><size:12>UCP Components
+***[#green] <b><i><color #white><size:12>Definition: Components used in UCP estimation.
+
+***[#green] <b><i><color #white><size:12>Actor Points
+****[#yellow] <i><color #black><size:12>Quantifies the complexity and number of actors interacting with the system.
+
+***[#green] <b><i><color #white><size:12>Use Case Weight
+****[#yellow] <i><color #black><size:12>Measures the complexity and size of each use case based on various factors.
+
+***[#green] <b><i><color #white><size:12>Technical Complexity
+****[#yellow] <i><color #black><size:12>Assesses the technical challenges and intricacies involved in the development process.
+
+***[#green] <b><i><color #white><size:12>Environmental Complexity
+****[#yellow] <i><color #black><size:12>Considers external factors, such as third-party integrations or platform constraints.
+
+***[#green] <b><i><color #white><size:12>UCP Calculation
+****[#yellow] <i><color #black><size:12>Formula: UCP = (Actor Points * Technical Complexity) + (Use Case Weight * Environmental Complexity)
+
+@endmindmap
