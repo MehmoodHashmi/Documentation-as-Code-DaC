@@ -2,11 +2,11 @@
 title =<i><b><u>[[docs/3-programming-languages/clean-architecture/images/external-interfaces-or-APIs.png WebService & API as Integration (integrating with a webservice)]]
 !theme hacker
 
-*[#darkblue] <i><color #white>[[docs/3-programming-languages/clean-architecture/images/external-interfaces-or-APIs.png WebService]]
-**[#lightblue] <i><color #black><size:12>Front-end
-***[#green] <b><i><color #white><size:12>User Interface
+*[#darkblue] <i><color #white>[[docs/3-programming-languages/clean-architecture/images/external-interfaces-or-APIs.png WebService]]  & <size:12>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-57-28-106.png (S/W Project Cost Estimation Technique based on Use Case Points) click me]] \n<img:images/img.jpg>
+**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png Front-end]]
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png User Interface]]
 ***[#green] <b><i><color #white><size:12>Client-side Logic
-***[#green] <b><i><color #white><size:12>UI Components
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png UI Components]]
 ****[#yellow] <i><color #black><size:12>Forms
 ****[#yellow] <i><color #black><size:12>Buttons
 ****[#yellow] <i><color #black><size:12>Input Fields
