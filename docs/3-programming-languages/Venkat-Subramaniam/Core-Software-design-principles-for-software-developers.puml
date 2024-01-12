@@ -20,7 +20,7 @@ skinparam hyperlinkColor white
 
 *****[#a]:*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_137.png Tools of trade:]]** You need following tools in advance to <b>write, build, test & debug your programs.
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_156.png Engineering failures]] click me;
-******[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_284.png What tools programmers used 40-years ago]]
+******[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_284.png What tools programmers used 40-years ago]] \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_467.png Agile Tools]]
 
 ****[#a]:*<i><color #black><size:12>**Code** is what it **does,** it is not a <U>substitute</u> for <b>thought. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_132.png click me]]
 *<i><color #black><size:12>**Code** is **static** in nature while **thought** is <b>dynamic. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_133.png click me]]
@@ -77,8 +77,8 @@ skinparam hyperlinkColor white
 ****[#yellow] <i><color #black><size:12><b>Mouse abuse;</b> The code contains a lot of **code blocks** that are just **copy/paste,** maybe with some smaller modifications
 ***[#green] <i><color #white><size:12><b>8- Opacity
 ****[#yellow] <i><color #black><size:12><b>Disorganized expression;</b> The code is difficult to understand.
-***[#green] <i><color #white><size:12><b>Summary
-****[#yellow] *<i><color #black><size:12>Your **code** must fit well into the **existing system.** It should not increase the **rigidity, fragility or opacity** of that <b>system.\n*<i><color #black><size:12>The dependencies must be well managed. In short, your **code** needs to follow <b>SOLID engineering principles.
+***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_468.png Summary]]
+****[#yellow] *<i><color #black><size:12>Your **code** must fit well into the **existing system.** It should not increase the **rigidity, fragility or opacity** of that <b>system.\n*<i><color #black><size:12>The **dependencies** must be **well managed**. In short, your **code** needs to follow <b>SOLID engineering principles.
 **[#lightblue] <i><color #black><size:12>How to evaluate quality\n<i><color #black><size:12>of good design?
 ***[#green] <i><color #white><size:12><b>First step is
 ****[#yellow] <i><color #black><size:12>Let go of the <b>ego.
