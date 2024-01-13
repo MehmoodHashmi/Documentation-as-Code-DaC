@@ -4,7 +4,9 @@ caption <img:images/image-2023-02-20-18-57-28-106.png{scale=.66}>
 
 !theme hacker
 
-*[#darkblue] <i><color #white>[[docs/3-programming-languages/clean-architecture/images/external-interfaces-or-APIs.png WebService]]  & <size:12>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-57-28-106.png (S/W Project Cost Estimation Technique based on Use Case Points) click me]] \n<img:images/img_469.png>
+*[#darkblue]:<i><color #white>[[docs/3-programming-languages/clean-architecture/images/external-interfaces-or-APIs.png WebService]]  & <size:12>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-57-28-106.png (S/W Project Cost Estimation Technique based on Use Case Points) click me]]
+|<img:images/img_469.png>|
+|<img:images/img_470.png{scale=.97}>|;
 **[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png Front-end]]
 ***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png User Interface]]
 ***[#green] <b><i><color #white><size:12>Client-side Logic
@@ -30,7 +32,7 @@ caption <img:images/image-2023-02-20-18-57-28-106.png{scale=.66}>
 ***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/api-design-and-security-best-practices.adoc SSL/TLS]]
 ***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/api-design-and-security-best-practices.adoc Encryption]]
 ***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/api-design-and-security-best-practices.adoc Firewalls]]
-**[#lightblue] <i><color #black><size:12>Scalability
+**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/4-K8-service-type.adoc Scalability]]
 ***[#green] <b><i><color #white><size:12>Load Balancing
 ***[#green] <b><i><color #white><size:12>Caching
 ***[#green] <b><i><color #white><size:12>Replication
