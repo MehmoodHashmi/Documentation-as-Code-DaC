@@ -21,15 +21,15 @@ caption <img:images/image-2023-02-20-18-57-28-106.png{scale=.66}>
 **[#lightblue] <i><color #black><size:12>APIs
 ***[#green] <b><i><color #white><size:12>RESTful APIs
 ****[#darkorange] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/api-design-and-security-best-practices.adoc Authentication]]
-*****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc 12 Tips for API Security]]
+*****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/api-design-and-security-best-practices.adoc 12 Tips for API Security]]
 ****[#darkorange] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc Authorization]]
-*****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc 12 Tips for API Security]]
+*****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/api-design-and-security-best-practices.adoc 12 Tips for API Security]]
 ****[#yellow] <i><color #black><size:12>Endpoint 1
 ****[#yellow] <i><color #black><size:12>Endpoint 2
-**[#lightblue] <i><color #black><size:12>Security
-***[#green] <b><i><color #white><size:12>SSL/TLS
-***[#green] <b><i><color #white><size:12>Encryption
-***[#green] <b><i><color #white><size:12>Firewalls
+**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/api-design-and-security-best-practices.adoc Security]]
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/api-design-and-security-best-practices.adoc SSL/TLS]]
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/api-design-and-security-best-practices.adoc Encryption]]
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/api-design-and-security-best-practices.adoc Firewalls]]
 **[#lightblue] <i><color #black><size:12>Scalability
 ***[#green] <b><i><color #white><size:12>Load Balancing
 ***[#green] <b><i><color #white><size:12>Caching
@@ -83,9 +83,9 @@ caption <img:images/image-2023-02-20-18-57-28-106.png{scale=.66}>
 ***[#green] <b><i><color #white><size:12>Health Checks
 ***[#green] <b><i><color #white><size:12>Performance Metrics
 ***[#green] <b><i><color #white><size:12>Error Tracking
-**[#lightblue] <i><color #black><size:12>API Security
-***[#green] <b><i><color #white><size:12>API Keys
-***[#green] <b><i><color #white><size:12>Rate Limiting
-***[#green] <b><i><color #white><size:12>Input Validation
+**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/api-design-and-security-best-practices.adoc API Security]]
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/api-design-and-security-best-practices.adoc API Keys]]
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/api-design-and-security-best-practices.adoc Rate Limiting]]
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/api-design-and-security-best-practices.adoc Input Validation]]
 
 @endmindmap
