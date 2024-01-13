@@ -1,5 +1,7 @@
 @startmindmap
-title =<i><b><u>[[docs/3-programming-languages/clean-architecture/images/external-interfaces-or-APIs.png WebService & API as Integration (integrating with a webservice)]]
+title =<i><b><u>[[docs/3-programming-languages/Venkat-Subramaniam/gif/API-vs-SDK.adoc WebService & API as Integration (integrating with a webservice)]]
+caption <img:images/image-2023-02-20-18-57-28-106.png{scale=.66}>
+
 !theme hacker
 
 *[#darkblue] <i><color #white>[[docs/3-programming-languages/clean-architecture/images/external-interfaces-or-APIs.png WebService]]  & <size:12>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-57-28-106.png (S/W Project Cost Estimation Technique based on Use Case Points) click me]] \n<img:images/img_469.png>
@@ -18,8 +20,10 @@ title =<i><b><u>[[docs/3-programming-languages/clean-architecture/images/externa
 ****[#yellow] <i><color #black><size:12>Data Models
 **[#lightblue] <i><color #black><size:12>APIs
 ***[#green] <b><i><color #white><size:12>RESTful APIs
-****[#yellow] <i><color #black><size:12>Authentication
-****[#yellow] <i><color #black><size:12>Authorization
+****[#darkorange] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/api-design-and-security-best-practices.adoc Authentication]]
+*****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc 12 Tips for API Security]]
+****[#darkorange] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc Authorization]]
+*****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc 12 Tips for API Security]]
 ****[#yellow] <i><color #black><size:12>Endpoint 1
 ****[#yellow] <i><color #black><size:12>Endpoint 2
 **[#lightblue] <i><color #black><size:12>Security
@@ -44,10 +48,10 @@ title =<i><b><u>[[docs/3-programming-languages/clean-architecture/images/externa
 
 *[#darkblue] <i><color #white>[[docs/3-programming-languages/clean-architecture/images/external-interfaces-or-APIs.png APIs as Integration]]
 **[#lightblue] <i><color #black><size:12>RESTful APIs
-***[#green] <b><i><color #white><size:12>Authentication
-****[#yellow] <i><color #black><size:12>OAuth
-****[#yellow] <i><color #black><size:12>JWT
-***[#green] <b><i><color #white><size:12>Authorization
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc Authentication]]
+****[#darkorange] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc OAuth]]
+****[#darkorange] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc JWT]]
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc Authorization]]
 ****[#yellow] <i><color #black><size:12>Role-based Access
 ****[#yellow] <i><color #black><size:12>Permissions
 ***[#green] <b><i><color #white><size:12>Endpoint 1
