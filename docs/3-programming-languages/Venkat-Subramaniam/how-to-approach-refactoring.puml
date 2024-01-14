@@ -117,7 +117,7 @@ title =<i><b><u><size:18>How to approach Refactoring \n<i>[[docs/3-programming-l
 ***[#yellow] <i><color #black><size:12>**When a programmer says:** Let me figure out what this code is saying
 ****[#gold] <i><color #black><size:12>This means this code sucks
 ****[#gold] <i><color #black><size:12>Don't make the reader read through every single line of code to understand **"what"** the code is doing
-***[#yellow]:*<i><color #black><size:12>**How Do I know <color #red>if(<color #blue> ifFileIsInvalid<color #green>(line) <color #red>)**
+***[#yellow]:*<i><color #black><size:12>**How Do I know <color #red>if(<color #blue> if File Is Invalid<color #green>(line) <color #red>)**
 ====
 *<i><color #black><size:12>**Convey** the **"what"** & **delegate** the <b>"how";
 ****[#gold] <i><color #black><size:12><b>I don't care
@@ -134,7 +134,33 @@ title =<i><b><u><size:18>How to approach Refactoring \n<i>[[docs/3-programming-l
 *****[#darkorange] *<i><color #black><size:12>**Reuse Methods**\n*<i><color #black><size:12>**Reuse Libraries**
 **[#lightblue] <i><color #black><size:12>Ninth Principle
 ***[#yellow] <i><color #black><size:12>Checkin frequently, take small steps
-****[#gold] <i><color #black><size:12>How often do I **commit** code? **Commit code** as soon as it **passes** the <b>Test
-****[#gold] <i><color #black><size:12>Commit frequently so you can **reduce the cost** of **undo** to near <b>zero
+****[#gold]:*<i><color #black><size:12>How often do I **commit** code? **Commit code** as soon as it **passes** the <b>Test
+*<i><color #black><size:12>Commit frequently so you can **reduce the cost** of **undo** to near <b>zero
+*<i><color #black><size:12>Don't hold code for extended period of time
+*<i><color #black><size:12>Merge becomes painful
+*<i><color #black><size:12>If you lock out others, you inhibit their progress
+*<i><color #black><size:12>Big Bang Integration is a Big Bang fail
+*<i><color #black><size:12>By checking in frequently, you allow for short quick feedback cycle
+*<i><color #black><size:12>Your changes are relevant, exercised, & validated right away;
+**[#lightblue] <i><color #black><size:12>Tenth Principle
+***[#yellow] <i><color #black><size:12>Keep code at one level of abstraction
+****[#gold] <i><color #black><size:12>**Compose Method Pattern** where each **method** addresses one level of abstraction
+***[#yellow] <i><color #black><size:12>Refactoring Opportunity?
+****[#gold]:<i><color #black><size:12>How do you know which code needs refactoring?
+*<i><color #black><size:12>General awareness to sense smelly code
+*<i><color #black><size:12>Use tactical code reviews
+*<i><color #black><size:12>Make refactoring a regular activity, each day;
+***[#yellow] <i><color #black><size:12>When not to refactor?
+****[#gold] <i><color #black><size:12>**Code** is Messed up beyond any Possible <b>repair
+****[#gold] <i><color #black><size:12>When you're in the middle of <b>fixing a bug
+****[#gold] <i><color #black><size:12>When in the middle of another <b>change or refactoring \n*<i><color #black><size:12>Make a note to visit later
+****[#gold] <i><color #black><size:12>**When/If** you don't see clear benefit to the particular refactoring activity
+***[#yellow] <i><color #black><size:12>How to refactor?\n<img:images/img_478.png>
+****[#yellow] <i><color #black><size:12>**Small Steps**--- devise sequence of small steps to take <b>e.g. <b><color #red>Red, <color #lime>Green, <color #black>Refactor
+****[#gold] <i><color #black><size:12>Be continuous, not episodic
+****[#gold] <i><color #black><size:12>Aim for bite size improvements
+****[#gold] <i><color #black><size:12>Never refactor code that is not in version control
+****[#gold] <i><color #black><size:12>Don't hesitate to through out change
+****[#gold] <i><color #black><size:12>Check in frequently (every few minutes)
 
 @endmindmap
