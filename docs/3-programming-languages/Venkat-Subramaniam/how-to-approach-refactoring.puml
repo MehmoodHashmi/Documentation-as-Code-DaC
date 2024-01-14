@@ -62,7 +62,7 @@ title =<i><b><u><size:18>How to approach Refactoring \n<i>[[docs/3-programming-l
 ***[#green] <b><i><color #white><size:12>Is my change worst than the original code?
 ***[#green] <b><i><color #white><size:12>We hate being embarrassed, it's easy to leave things as is.
 **[#lightblue] <i><color #black><size:12>Zeroth Principle \n<img:images/img_472.png{scale=.8}>
-***[#green]:<b><i><color #white><size:12>Rely of automated tests;
+***[#green]:<b><i><color #white><size:12>Rely on automated tests;
 *<b><i><color #white><size:12>Most ideal if you can 've unit tests
 *<b><i><color #white><size:12>If you can't, high-level functional/integration test is good
 *<b><i><color #white><size:12>Isolate candidate code & create test if you've to.;
@@ -95,7 +95,7 @@ title =<i><b><u><size:18>How to approach Refactoring \n<i>[[docs/3-programming-l
 **[#lightblue] <i><color #black><size:12>Fifth Principle
 ***[#yellow] <b><i><color #black><size:12>Eliminate Dependency
 ****[#gold] <b><i><color #black><size:12>Don't strive to reduce Dependency/decoupling. Get rid of it!
-****[#darkorange] <b><i><color #black><size:12>"Decouple" only when you can't "Eliminate".
+****[#darkorange] <b><i><color #black><size:22>"Decouple" only when you can't "Eliminate"
 **[#lightblue] <i><color #black><size:12>Sixth Principle
 ***[#yellow] <b><i><color #black><size:12>Make comments redundant & remove them
 ***[#yellow] <b><i><color #black><size:12>Make Code self documented
@@ -117,9 +117,24 @@ title =<i><b><u><size:18>How to approach Refactoring \n<i>[[docs/3-programming-l
 ***[#yellow] <i><color #black><size:12>**When a programmer says:** Let me figure out what this code is saying
 ****[#gold] <i><color #black><size:12>This means this code sucks
 ****[#gold] <i><color #black><size:12>Don't make the reader read through every single line of code to understand **"what"** the code is doing
-***[#yellow] <i><color #black><size:12>**How Do I know <color #red>if(file is Invalid(line))**
+***[#yellow]:*<i><color #black><size:12>**How Do I know <color #red>if(<color #blue> ifFileIsInvalid<color #green>(line) <color #red>)**
+====
+*<i><color #black><size:12>**Convey** the **"what"** & **delegate** the <b>"how";
 ****[#gold] <i><color #black><size:12><b>I don't care
 *****[#gold] <i><color #black><size:12>What does **"I don't care"** means in <b>Programming?
 ******[#darkorange] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Abstraction &]]\n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Encapsulation]]
+*****[#gold] *<i><color #black><size:12>It's **encapsulated**. But I want to know what is <b>inside!
+******[#darkorange] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Okay! remove the abstraction!]] How? \n*<i><color #black><size:12><b>Via <color #white>"Stepping into"</color> <b>function/class
+****[#gold] <i><color #black><size:12><b>SLAP
+*****[#gold] *<i><color #black><size:12><b>We use "compose method" pattern \n*<i><color #black><size:12><b>Instructions are at a Single Level of Abstraction or detail
+**[#lightblue]:<i><color #black><size:12>Eighth Principle
+|<img:images/img_476.png{scale=.5}>|<img:images/img_477.png{scale=.72}>|;
+***[#yellow] <i><color #black><size:12>Avoid Primitive (int, chart, float, String, double, etc. ) Obsession
+****[#gold] *<i><color #black><size:12>Avoid desire to operate at lowest level of detail \n*<i><color #black><size:12>**Instead use, look for, or create higher-level** \n<i><size:12><color #black>\teasy to use abstraction
+*****[#darkorange] *<i><color #black><size:12>**Reuse Methods**\n*<i><color #black><size:12>**Reuse Libraries**
+**[#lightblue] <i><color #black><size:12>Ninth Principle
+***[#yellow] <i><color #black><size:12>Checkin frequently, take small steps
+****[#gold] <i><color #black><size:12>How often do I **commit** code? **Commit code** as soon as it **passes** the <b>Test
+****[#gold] <i><color #black><size:12>Commit frequently so you can **reduce the cost** of **undo** to near <b>zero
 
 @endmindmap
