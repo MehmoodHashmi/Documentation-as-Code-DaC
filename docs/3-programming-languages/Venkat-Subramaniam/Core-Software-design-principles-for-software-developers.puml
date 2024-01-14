@@ -27,10 +27,17 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12>A **mist** in **mind** is **fog** in the **code.**
 **<i><color #black><size:12>**Clarity of thought:** You can see through clear water but can't through muddy water.
 **<i><color #black><size:12>**Organization of thoughts:** bringing order in your thoughts.
+====
 *<i><color #black><size:12><b>Is thought "systematic"?.
 **<i><color #black><size:12>No, it's not it can fly to anywhere at any time. But <b>[[docs/3-programming-languages/Venkat-Subramaniam/inner-world-vs-outer-world.puml Inner world & outer world]]
 ***<i><color #black><size:12><b>Inner world = <color #green>loop of thoughts & emotions (+ve, -ve)
 ***<i><color #black><size:12><b>Outer world = <color #green> to control outer world you 've to <b>control inner world.
+**<i><color #black><size:12>**Thought can be:**
+<i><color #black><size:12>\t**1- injected** (into someone) & thoughts are <b>educated or uneducated
+<i><color #black><size:12>\tabout a <b>concept or idea. <color #green>Uneducated (irregular & not systematic)
+<i><color #black><size:12><b>\t2- Planted (in favour or against someone)
+<i><color #black><size:12><b>\t3- Cultivated such as (as you sow, so shall you reap)
+====
 *<i><color #black><size:12>**Code** is a **tool** through which you can **express** your **thoughts** about a <b>problem.
 *<i><color #black><size:12>The **moment** you 've better **design idea** the existing **source code** becomes
 <i><color #black><size:12>**obsolete** as it doesn't **reflects** your **latest mental-model** & requires <b>refactoring

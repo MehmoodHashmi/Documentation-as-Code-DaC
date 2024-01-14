@@ -1,6 +1,6 @@
 @startmindmap
-title =<i><b><u>Towards an Evolutionary Architecture
-* ===<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers by Venkat Subramaniam]]
+title =<i><b><u><size:18>Towards an Evolutionary Architecture
+* <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers by Venkat Subramaniam]]
 !theme hacker
 
 *[#darkblue] <color:white><i>Towards an Evolutionary\n<color:white><i>Architecture
@@ -13,7 +13,7 @@ title =<i><b><u>Towards an Evolutionary Architecture
 *****[#darkorange] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_252.png Shared understanding between the senior team members of a system.]] click
 ****[#green] *<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_271.png Software Engineering in the Cloud]] <&cloud> click me \n*<b><i><color #white><size:12>[[docs/3-programming-languages/clean-architecture/images/img.png Software Architecture the Hard Parts]] click me
 
-***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_134.jpg Why evolutionary architecture? click me]]
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_134.jpg Why evolutionary architecture? click me]] \n<img:images/img_1.jpg{scale=.222}>
 
 ****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_27.png Clean Architecture]] click me
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_58.jpg Onion Architecture]] click me

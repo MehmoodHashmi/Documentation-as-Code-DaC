@@ -120,6 +120,6 @@ title =<i><b><u><size:18>How to approach Refactoring \n<i>[[docs/3-programming-l
 ***[#yellow] <i><color #black><size:12>**How Do I know <color #red>if(file is Invalid(line))**
 ****[#gold] <i><color #black><size:12><b>I don't care
 *****[#gold] <i><color #black><size:12>What does **"I don't care"** means in <b>Programming?
-******[#darkorange] *<i><color #black><size:12>Abstraction &\n*<i><color #black><size:12>Encapsulation
+******[#darkorange] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Abstraction &]]\n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Encapsulation]]
 
 @endmindmap
