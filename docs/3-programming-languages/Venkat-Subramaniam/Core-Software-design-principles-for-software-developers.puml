@@ -110,7 +110,7 @@ skinparam hyperlinkColor white
 ***[#yellow] <i><color #black><size:12>**Software** is not limited by **physics,** like **buildings are.** It is limited by **imagination, by design, by organization.** In short, it is **limited** by the <b>properties of people,\n<i><color #black><size:12>not by the <b>properties of the world. "We 've met the enemy & he is us."
 
 **[#lightblue] <i><color #black><size:12>How to create good design?
-***[#green] *<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.png Take time to "review" design & code]] \n*<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.png Code "reviews" By Venkat]]
+***[#green] *<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.png Take time to "review" design & code]] \n*<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Code-Review-you-said.puml Code "reviews" By Venkat]]
 ****[#yellow] <i><color #black><size:12><b>Refactor:</b> others "people code"
 ****[#yellow] <i><color #black><size:12><b>Rewrite:</b> your "own code"
 
@@ -380,7 +380,8 @@ skinparam hyperlinkColor white
 ******[#yellow] <i><color #black><size:12><b>Opposite of:\n*<i><color #black><size:12><b>High Cohesion\n*<i><color #black><size:12><b>Low Coupling
 ******[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_353.png Method Names]]
 *<i><color #black><size:12><b>The declaration of the central data structure (comments on data are usually much more helpful than on algorithms)
-<i><color #black><size:12><b>basically, avoid comments.;
+<i><color #black><size:12><b>basically, avoid comments.
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_495.png Dependent Functions Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_496.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_497.png Part-3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_498.png Part-4]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_499.png Part-5]];
 
 ****[#yellow]:<i><color #black><size:12><b>How "long" is a "long method"?
 *<i><color #black><size:12><b>The answer is <b>"SLAP"</b> (Single Level of Abstraction)

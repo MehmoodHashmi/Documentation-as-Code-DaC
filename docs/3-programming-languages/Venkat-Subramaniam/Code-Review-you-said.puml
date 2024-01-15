@@ -22,13 +22,13 @@ title =<i><b><u>Code Review, You Said?
 **[#lightblue]:<i><color #black><size:12>Types of Feeback
 |<img:images/img_484.png{scale=.3}>|<img:images/img_485.png{scale=.3}>|<img:images/img_486.png{scale=.3}>|
 ;
-***[#green] <b><i><color #white><size:12>Active Use of the Product
-***[#green] <b><i><color #white><size:12>From an automated Tests (TDD, BDD, ATDD)
+***[#green] <b><i><color #white><size:12>1- Active Use of the Product
+***[#green] <b><i><color #white><size:12>2- From an automated Tests (TDD, BDD, ATDD)
 ****[#yellow] <b><i><color #black><size:12>I want "Tests" tell me code sucks rather than my colleagues
-***[#green]:<b><i><color #white><size:12>Code Reviews
+***[#green]:<b><i><color #white><size:12>3- Code Reviews
 |<img:images/img_487.png{scale=.25}>|
 |<img:images/img_488.png{scale=.33}>|
-|<img:images/img_489.png{scale=.4}>|;
+|<img:images/img_489.png{scale=.51}>|;
 ****[#yellow] <b><i><color #black><size:12>We all dread it!
 ****[#yellow] <i><color #black><size:12>Nobody **likes** code reviews
 *****[#gold] <i><color #black><size:12>Same feeling of exams/Surprise Test in University
