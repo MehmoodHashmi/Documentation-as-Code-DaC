@@ -165,7 +165,11 @@ skinparam hyperlinkColor white
 ****[#darkorange] <i><color #black><size:16>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful. \n*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy
 ****[#yellow] <i><color #black><size:12>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
 
-**[#lightblue] <i><color #black><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_76.png Cohesion]]
+**[#lightblue]:<i><color #black><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_76.png Cohesion]]
+*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_500.png Part-1]]
+*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_501.png Part-2]]
+*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_502.png Part-3]]
+*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_503.png Part-4]];
 ***[#green] <i><color #white><size:12><b>Where a piece of code is narrow, "focused"\n<i><color #white><size:12><b>& does one thing & does one thing well!
 ****[#yellow] <i><color #black><size:12>We want software to change, but not too <b>(expensive to change)
 ****[#yellow] <i><color #black><size:12>If a "code" is **"cohesive",** it has to <b>change less "frequently"
