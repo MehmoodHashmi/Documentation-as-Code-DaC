@@ -38,11 +38,11 @@ title =<i><b><u>Code Review, You Said?
 ******[#yellow]:<i><color #black><size:12>**Benefits:** (to writer, reader, & Team)
 |<img:images/img_491.png{scale=.45}>|<img:images/img_492.png{scale=.4}>|<img:images/img_493.png{scale=.42}>|;
 ******[#darkorange] <i><color #black><size:12><img:images/img_494.png{scale=.35}>
-*******[#yellow]:<i><color #black><size:12><b>Never review code that has not:</b> (Why? because I want to give meaningful feedback!)
+*******[#darkorange]:<i><color #black><size:12><b>Never review code that has not:</b> (Why? because I want to give meaningful feedback!)
 *<i><color #black><size:12>been compiled: where compilation is required
 *<i><color #black><size:12>passed tests: where "Tests" are required--- just kidding pass the damn tests
 *<i><color #black><size:12>passes through code quality tools: like <b>linters
-==<i><color #black><size:12><b>Start (Tests first then, code review)==
+==<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_84.png Start (Tests first then, code review)]]==
 <i><color #black><size:12>Start with "Tests":
 <i><color #black><size:12>Are "Tests" easy to understand?
 <i><color #black><size:12>Are they short?
