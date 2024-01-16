@@ -47,8 +47,9 @@ title =<i><b><u>Code Review, You Said?
 <i><color #black><size:12>Are "Tests" easy to understand?
 <i><color #black><size:12>Are they short?
 <i><color #black><size:12>Does it 've a good structure?
-<i><color #black><size:12>Do "Tests" tell the story of <b>Design Evolution?
+<i><color #black><size:12>Do "Tests" tell the **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_504.png story]]** of <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_504.png Design Evolution?]]
 <i><color #black><size:12>Are there missing "Tests"?;
+*******[#darkorange] <i><color #black><size:12><b>When to review?
 
 
 @endmindmap
