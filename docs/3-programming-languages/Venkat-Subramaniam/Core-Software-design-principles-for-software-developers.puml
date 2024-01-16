@@ -78,7 +78,7 @@ skinparam hyperlinkColor white
 
 **[#lightblue] *<i><color #white><size:12><b>Poor design &\n*<i><color #white><size:12><b>Design smells
 ***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-agile-design.puml Why Software Rots?]]
-****[#darkorange] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-agile-design.puml click me]]
+****[#darkorange] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-agile-design.puml What is agile design?]]
 ***[#green] <i><color #white><size:12><b>1- Rigidity
 ****[#yellow] <i><color #black><size:12>**Design** is **difficult** to <b>change.</b> The **tendency** of the **system** to **resist change** by **forcing** you make <b>changes in multiple places.
 ***[#green] <i><color #white><size:12><b>2- Fragility
