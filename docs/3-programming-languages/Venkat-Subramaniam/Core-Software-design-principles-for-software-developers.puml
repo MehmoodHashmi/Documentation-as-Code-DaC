@@ -94,7 +94,7 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12>**Software:** It is **difficult** to do the <b>right thing.</b> It is easier to make **”hacky” changes** (quick bad fix) than following the <b>intended design.
 *<i><color #black><size:12>**Environment:** When inefficient, & slow development environment. E.g. **Large compile times** hinder design & code changes even if changes doesn't preserve good design!;
 ***[#green] <i><color #white><size:12><b>6- Needless complexity
-****[#yellow] <i><color #black><size:12><b>Overdesign or over engineering;</b> The code is littered with unnecessary constructs that makes the code complex and difficult to understand
+****[#yellow] <i><color #black><size:12><b>Overdesign or over engineering;</b> The code is **littered** with **unnecessary constructs** that makes the code **complex** and difficult to understand
 ***[#green] <i><color #white><size:12><b>7- Needless repetition
 ****[#yellow] <i><color #black><size:12><b>Mouse abuse;</b> The code contains a lot of **code blocks** that are just **copy/paste,** maybe with some smaller modifications
 ***[#green] <i><color #white><size:12><b>8- Opacity
