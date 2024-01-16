@@ -49,7 +49,30 @@ title =<i><b><u>Code Review, You Said?
 <i><color #black><size:12>Does it 've a good structure?
 <i><color #black><size:12>Do "Tests" tell the **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_504.png story]]** of <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_504.png Design Evolution?]]
 <i><color #black><size:12>Are there missing "Tests"?;
-*******[#darkorange] <i><color #black><size:12><b>When to review?
+*******[#darkorange]:
+==<i><color #black><size:12><b>When to review?==
+*<i><color #black><size:12><b>When should we ask for review?
+|<img:images/img_505.png{scale=.5}>|
+*<i><color #black><size:12><b>Threat Driven Development (TDD), When Manager said do review
+*<i><color #black><size:12><b>Code Reviews are effective when deveopers ask for it
+*<i><color #black><size:12><b>Show a little code, get a lot fo feedback.
+<i><color #black><size:12><b>Show a lot of code & get only a little feedback!. Review incrementally
+<i><color #black><size:12><b>Ask early & frequently if you want feedback.
+<i><color #black><size:12><b>Ask in the end if you want blessings
+<i><color #black><size:12><b>Be continuous; not episodic
+<i><color #black><size:12><b>reviews in stages, not in features
+==<i><color #black><size:12><b>How to review?==
+|<img:images/img_506.png{scale=.25}>|<img:images/img_507.png{scale=.22}>|
+==<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_508.png Click me]]==
+|<img:images/img_508.png{scale=.35}>|
+*<i><color #black><size:12><b>When you find a "bug" don't fix it, first write "Test" for it then fix it.
+**<i><color #black><size:12><b>3-months later if someone changes that code then "Test" is still
+<i><color #black><size:12><b>\tthere to monitor, & restricts "bug" to appear again!
+|<img:images/img_509.png{scale=.35}>|
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Qualities-of-good-architect.puml Qualities of good architect]]
+|<img:images/img_510.png{scale=.35}>|;
+
+
 
 
 @endmindmap
