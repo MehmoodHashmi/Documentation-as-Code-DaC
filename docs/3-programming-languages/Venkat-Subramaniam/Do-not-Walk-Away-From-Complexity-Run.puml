@@ -22,7 +22,7 @@ title =<i><b><u><size:18>Don't Walk away from "Complexity" Run
 ***[#green] <i><color #white><size:12><b>Inherent or\n<i><color #white><size:12><b>Essential
 ****[#yellow] <i><color #black><size:12>is from the **problem domain,** you can't minimize it. When dealing with the **problem;** there are **"complexities"** \n<i><color #black><size:12>of the **problem** that you 've to deal with. And this is the "nature of the application" and **nature** of the <b>domain.
 ****[#yellow] <i><color #black><size:12>Fortunately, on daily basis we 've to deal more with the <b>accidental "complexities"</b> than <b>inherent "complexities"
-***[#green] <i><color #white><size:12><b>Accidental \n<i><color #white><size:12><b>or Non-essential
+***[#green] <i><color #white><size:12><b>Accidental or\n<i><color #white><size:12><b>Non-essential
 ****[#yellow]:<i><color #black><size:12>Often, comes from the **solution** we use to solve a **particular problem.** The **solution** we are using brings
 <i><color #black><size:12>certain **complexities** into the <b>table.
 *<i><color #black><size:12>Now, to solve this **introduced "complexities"** we bring <b>other solutions.
