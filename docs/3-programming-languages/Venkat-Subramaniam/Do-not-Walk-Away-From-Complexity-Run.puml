@@ -76,10 +76,10 @@ title =<i><b><u><size:18>Don't Walk away from "Complexity" Run
 ****** <img:images/img_458.png{scale=.5}>
 
 **[#lightblue] <i>Comprehend all "complexities" in your "mind"\n<img:images/img_459.png{scale=.7}>
-***[#lightblue] <i>One thing people don't realize is that you made all that connection of your algorithm & your objects & data structures in your mind
+***[#lightblue] <i>One thing people don't realize is that you made all that connection of your <b>algorithm & your objects & data structures in your mind
 ***[#lightblue] <i>Happiness is when world understands programmers
 ***[#lightblue] <i>**The point is:** that it takes **focus** for us to get our work done. Because of the **"complexities"** we've to deal with every single day.
-***[#lightblue] <i>**Take time** to **reduce mutability** in the code. Reducing the mutability reduces "complexities", & when complexity is reduced then **time & money** required for **maintaining the system** is also <b>reduced.
+***[#lightblue] <i>**Take time** to **reduce mutability** in the code. Reducing the mutability **reduces "complexities",** & when **complexity** is reduced then **time & money** required for **maintaining the system** is also <b>reduced.
 
 **[#lightblue] <i><color #black><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_76.png Lack of Cohesion]]\n<img:images/img_460.png{scale=.6}>
 ***[#green] <i><color #white><size:12><b>Where a piece of code is narrow, "focused"\n<i><color #white><size:12><b>& does one thing & does one thing well!
