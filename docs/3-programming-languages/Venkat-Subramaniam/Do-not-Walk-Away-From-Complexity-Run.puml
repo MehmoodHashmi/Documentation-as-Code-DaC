@@ -65,10 +65,10 @@ title =<i><b><u><size:18>Don't Walk away from "Complexity" Run
 |<img:images/img_455.png{scale=.5}>|<b><i>Costs Time\n<img:images/img_456.png{scale=.235}>|<b><i>OOP vs FP vs FRP\n<img:images/img_457.png{scale=.24}>|;
 *****[#gold]:*<i><color #black><size:12><b>Programing with few "states" (is what I learned in last 20-years. Venkat)
 ====
-<i><color #black><size:12>I Don't write my fields.
-<i><color #black><size:12>I start writing my functions/methods & only when method demands that I need a field I make
-<i><color #black><size:12>the field cry & plead for his existence & then reluctantly I bring the field into my class.
-<i><color #black><size:12>Because its easy & cheap to bring in fields but very expensive to remove them!
+<i><color #black><size:12>I Don't write my <b>fields (data-members)
+<i><color #black><size:12>I start writing my **functions/methods** & only when **method** demands that I need a **field** I
+<i><color #black><size:12>make the **field** cry & plead for his existence & then reluctantly I bring the **field** into my <b>class.
+<i><color #black><size:12>Because its easy & cheap to bring in **fields** but very expensive to remove them!
 ====
 *<i><color #black><size:12>**Mutability** is **expensive** to **maintain** in the <b>long run.
 *<i><color #black><size:12>**Mutability** needs company, it often hangs around with <b>bugs.
