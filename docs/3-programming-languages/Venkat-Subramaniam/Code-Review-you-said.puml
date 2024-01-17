@@ -20,8 +20,7 @@ title =<i><b><u>Code Review, You Said?
 ****[#gold] <b><i><color #black><size:12>Feeback Driven Development (FDD) <&check>
 *****[#gold] <i><color #black><size:12>E.g. Blue Dot on Google Maps If stops \n<i><color #black><size:12>ticking you can't know where you're
 **[#lightblue]:<i><color #black><size:12>Types of Feeback
-|<img:images/img_484.png{scale=.3}>|<img:images/img_485.png{scale=.3}>|<img:images/img_486.png{scale=.3}>|
-;
+|<img:images/img_484.png{scale=.3}>|<img:images/img_485.png{scale=.3}>|<img:images/img_486.png{scale=.3}>|;
 ***[#green] <b><i><color #white><size:12>1- Active Use of the Product
 ***[#green] <b><i><color #white><size:12>2- From an automated Tests (TDD, BDD, ATDD)
 ****[#yellow] <b><i><color #black><size:12>I want "Tests" tell me code sucks rather than my colleagues
@@ -30,8 +29,8 @@ title =<i><b><u>Code Review, You Said?
 |<img:images/img_488.png{scale=.33}>|
 |<img:images/img_489.png{scale=.51}>|;
 ****[#yellow] <b><i><color #black><size:12>We all dread it!
-****[#yellow] <i><color #black><size:12>Nobody **likes** code reviews
-*****[#gold] <i><color #black><size:12>Same feeling of exams/Surprise Test in University
+****[#yellow] <i><color #black><size:12>Nobody **likes** \n<i><color #black><size:12>code reviews
+*****[#gold] <i><color #black><size:12>Same feeling as **exams/surprise test** in <b>University
 ****[#darkorange] <b><i><color #black><size:12>Instead
 *****[#darkorange] <i><color #black><size:12>Code reviews are the next best to \n<i><color #black><size:12>(Pair Programming) pair rotation
 *****[#darkorange] <i><color #black><size:12>**Code reviews:** Both Technical and Social \n<img:images/img_490.png{scale=.63}>

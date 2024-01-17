@@ -39,6 +39,7 @@ skinparam hyperlinkColor white
 *****<i><color #black><size:12>2- **Close** the door <&check>. Well I must open a door that <b>spreads fragrance (thoughts)
 <i><color #black><size:12>**Father:** Tute main pather maro chenthain he urte hain or kupry gandy hoty hain
 *<i><color #black><size:12>Meaning something is bad inherently than stop doing it.
+*<i><color #black><size:12><b>Aura of Authority: (+ve, -ve)
 |<#white><i><color #black><size:12><b>Outer world = <color #green> to control outer world you 've to <b>control inner world.|
 **<i><color #black><size:12>**Thought can be:**
 <i><color #black><size:12>\t**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_2.jpg 1- injected]]** (into someone) & thoughts are <b>educated or uneducated
@@ -50,11 +51,16 @@ skinparam hyperlinkColor white
 <i><color #black><size:12>\tyou're focusing on <b>grows.
 <i><color #black><size:12>**Thoughts** has relation with **philosophy.** There exist thoughts which has no end result.
 <i><color #black><size:12>Such **thoughts** are my own self delusional or my own creations.
+*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/inner-world-vs-outer-world.puml Source of thoughts:]]** The Job of **mind** is to create <b>thoughts/ideas.
+** <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_513.png Source of thoughts != Creation of thoughts]]** Job of **mind** is to create <b>thoughts.
 ====
 *<i><color #black><size:12>**Code** is a **tool** through which you can **express** your **thoughts** about a <b>problem.
 *<i><color #black><size:12>The **moment** you 've better **design idea** the existing **source code** becomes
 <i><color #black><size:12>**obsolete** as it doesn't **reflects** your **latest mental-model** & requires <b>refactoring
-*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_420.png "Programmers time spent" in "analysis & design" pays off.]];
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_420.png "Programmers time spent" in "analysis & design" pays off.]]
+*<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=wfGhuv3BlTI&list=LL&index=11&pp=gAQBiAQB&ab_channel=SystemsInnovation Standards of Thinking]]
+**<i><color #black><size:12><b>Place the systematic thinking note here
+;
 
 *****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_134.png Grady Booch: good vs bad programmer]]
 *<i><color #black><size:12><b>Robert C Martin: [[docs/3-programming-languages/Venkat-Subramaniam/images/img_146.png It takes "at least 15-years" in "software field" to become a "senior". Till then you should "learn" from other]] seniors. click me
@@ -132,7 +138,21 @@ skinparam hyperlinkColor white
 
 ****[#yellow] <i><color #black><size:12><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:12>but by avoiding those tasks that <b>should not be done in the first place.
 *****[#a] *<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy
-**[#lightblue] <i><color #black><size:24>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Complexity]] <size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Do-not-Walk-Away-From-Complexity-Run.puml Don't Walk Away From Complexity, Run by Venkat]] \n<img:images/img_32.png> \nYou-Tube video link of Complexity theory \nYou-Tube video link of irreducible Complexity theory \nYou-Tube video link of Intellint Design
+**[#lightblue]:<i><color #black><size:24>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Complexity]] <size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Do-not-Walk-Away-From-Complexity-Run.puml Don't Walk Away From Complexity, Run by Venkat]]
+<img:images/img_32.png>
+*<i><color #black><size:12>[[https://www.youtube.com/watch?v=i-ladOjo1QA&list=LL&index=13&t=9s Complexity Theory Overview]] 10-min video
+**<i><color #black><size:12>[[https://www.youtube.com/watch?v=i-ladOjo1QA&list=LL&index=13&t=9s Complexity Explorer (What is Complexity?)]] 30-min video
+**<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_514.png Redesign vs. Research & Solution vs Dissolution]] .png
+*<i><color #black><size:12>[[https://www.youtube.com/watch?v=VLlJXn0XOFg&list=LL&index=6&ab_channel=DiscoveryScience Irreducible Complexity]] video-5 mintute
+**<i><color #black><size:12>[[https://www.youtube.com/watch?v=Cws74kULQuA&list=LL&index=6&pp=gAQBiAQB&ab_channel=BioLogos Ard Louis on Irreducible Complexity]] 2-mintute video
+*<i><color #black><size:12>[[https://www.youtube.com/watch?v=CWtCakPk9eM&list=LL&index=2&t=6s&ab_channel=RandallChristopherNiles Darwins Theory of Evolution]]
+*<i><color #black><size:12>[[https://www.youtube.com/watch?v=NjsIn7yd2x8&list=LL&index=3&t=87s&ab_channel=RandallChristopherNiles Intelligent Design Theory]] 5-min video
+|<i><color #black><size:12>Design = <color #yellow>Small Probability + Specification|<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_239.png What is Physics of Software?]]|
+**<i><color #black><size:12>If you're scientific
+**<i><color #black><size:12>[[https://www.youtube.com/watch?v=_5SQE0rp5gI&list=LL&index=3&t=160s&pp=gAQBiAQB&ab_channel=PragerU What is Intelligent Design (Science & GOd)]] 5-min video
+**<i><color #black><size:12>[[https://www.youtube.com/watch?v=prFZTMIKOi4&list=LL&index=5&t=254s&ab_channel=VerdantServant Richard Dawkins Proves Intelligent Design]] 5-min video
+*<i><color #black><size:12>[[https://www.youtube.com/watch?v=NvtvqGdMJbo&list=LL&index=14&ab_channel=RandallChristopherNiles DNA Double Helix]] 9-min video
+;
 ***[#green] <i><color #white><size:12><b>Inherent or\n<i><color #white><size:12><b>Essential
 ****[#yellow] <i><color #black><size:12>is from the **problem domain,** you can't minimize it. When dealing with the **problem;** there are **"complexities"** \n<i><color #black><size:12>of the **problem** that you 've to deal with. And this is the "nature of the application" and **nature** of the <b>domain.
 ****[#yellow] <i><color #black><size:12>Fortunately, on daily basis we 've to deal more with the <b>accidental "complexities"</b> than <b>inherent "complexities"

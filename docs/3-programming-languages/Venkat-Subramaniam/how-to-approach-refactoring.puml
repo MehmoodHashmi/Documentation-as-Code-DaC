@@ -18,9 +18,12 @@ title =<i><b><u><size:18>How to approach Refactoring \n<i>[[docs/3-programming-l
 ***[#green] <b><i><color #white><size:12>TDD
 ****[#yellow] <i><color #black><size:12>Do <b><color #red>Red, <color #lime>Green, <color #black>Refactor
 ****[#yellow] <i><color #black><size:12>It is almost impossible to write correct for the first time (structural design)
-****[#yellow] <i><color #black><size:12>Micro deletion vs Macro deletion
-*****[#yellow] *<i><color #black><size:12>**Micro deletion:** Deleting small units **(classes or methods)** of code during <b>TDD  \n*<i><color #black><size:12>**Macro deletion:** Deleting module/components units of code during TDD or CBD or Integration
-**[#lightblue]:<i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_249.png Refactor ]]
+****[#darkorange]:<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_512.png Micro deletion vs Macro deletion]]
+====
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_466.png 1- Structure (generally reversible)]]
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_466.png 2- Behavior (generally irreversible)]];
+*****[#a] *<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_512.png Micro deletion]]:** Deleting small units **(classes or methods)** of code during <b>TDD  \n*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_256.png Macro deletion]]:** Deleting **module/components** units of code during TDD or CBD or Integration
+**[#lightblue]:<i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_249.png Refactor]]
 <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_466.png 1- Structure (generally reversible)]]
 <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_466.png 2- Behavior (generally irreversible)]];
 ***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.png 50% to 60% of the time you want to]]
@@ -40,7 +43,7 @@ title =<i><b><u><size:18>How to approach Refactoring \n<i>[[docs/3-programming-l
 *<b><i><color #white><size:12>To make the code easier to maintain
 *<b><i><color #white><size:12>To make the code changes affordable
 *<b><i><color #white><size:12>After all change is the only constant. Confucius
-*<b><i><color #white><size:12>It helps you to <v>"embrace change";
+*<b><i><color #white><size:12>It helps you to "embrace change";
 ***[#green] <b><i><color #white><size:12>Programs must be written for people to read, and only incidentally for machines to execute. ---Abelson & Sussman
 ***[#green] <b><i><color #white><size:12>Code is how we tell our colleagues how we feel about them.
 ***[#green] <b><i><color #white><size:12>Coding is an act of empathy
@@ -95,7 +98,8 @@ title =<i><b><u><size:18>How to approach Refactoring \n<i>[[docs/3-programming-l
 **[#lightblue] <i><color #black><size:12>Fifth Principle
 ***[#yellow] <b><i><color #black><size:12>Eliminate Dependency
 ****[#gold] <b><i><color #black><size:12>Don't strive to reduce Dependency/decoupling. Get rid of it!
-****[#darkorange] <b><i><color #black><size:22>"Decouple" only when you can't "Eliminate"
+****[#darkorange] <b><i><color #black><size:22>"Decouple" only when you can't "Eliminate".
+*****[#darkorange] <i><color #black><size:18><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_514.png Redesign vs. Research & Solution vs Dissolution]]
 **[#lightblue] <i><color #black><size:12>Sixth Principle
 ***[#yellow] <b><i><color #black><size:12>Make comments redundant & remove them
 ***[#yellow] <b><i><color #black><size:12>Make Code self documented
@@ -124,7 +128,14 @@ title =<i><b><u><size:18>How to approach Refactoring \n<i>[[docs/3-programming-l
 *****[#gold] <i><color #black><size:12>What does **"I don't care"** means in <b>Programming?
 ******[#darkorange] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Abstraction &]]\n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Encapsulation]]
 *****[#gold] *<i><color #black><size:12>It's **encapsulated**. But I want to know what is <b>inside!
-******[#darkorange] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Okay! remove the abstraction!]] How? \n*<i><color #black><size:12><b>Via <color #white>"Stepping into"</color> <b>function/class
+******[#darkorange]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Okay! remove the abstraction!]] How?
+*<i><color #black><size:12><b>Via <color #white>"Stepping into"</color> <b>function/class
+====
+**<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=i-ladOjo1QA&list=LL&index=13&t=9s Complexity Explorer (What is Complexity?)]] 30-min video
+***<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=i-ladOjo1QA&list=LL&index=13&t=9s Physics: To understand What is electricity you've to understand what is electron?]]
+***<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=i-ladOjo1QA&list=LL&index=13&t=9s Physics: To understand What is Gravity you've to understand what is graviton?]]
+****<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=i-ladOjo1QA&list=LL&index=13&t=9s You've to go one level deeper (lower level of abstraction)]];
+
 ****[#gold] <i><color #black><size:12><b>SLAP
 *****[#gold] *<i><color #black><size:12><b>We use "compose method" pattern \n*<i><color #black><size:12><b>Instructions are at a Single Level of Abstraction or detail
 **[#lightblue]:<i><color #black><size:12>Eighth Principle
@@ -143,8 +154,8 @@ title =<i><b><u><size:18>How to approach Refactoring \n<i>[[docs/3-programming-l
 *<i><color #black><size:12>By checking in frequently, you allow for short quick feedback cycle
 *<i><color #black><size:12>Your changes are relevant, exercised, & validated right away;
 **[#lightblue] <i><color #black><size:12>Tenth Principle
-***[#yellow] <i><color #black><size:12>Keep code at one level of abstraction
-****[#gold] <i><color #black><size:12>**Compose Method Pattern** where each **method** addresses one level of abstraction
+***[#yellow] <i><color #black><size:12>Keep code at <b>one level of abstraction
+****[#gold] <i><color #black><size:12>**Compose Method Pattern** where each **method** addresses <b>one level of abstraction
 ***[#yellow] <i><color #black><size:12>Refactoring Opportunity?
 ****[#gold]:<i><color #black><size:12>How do you know which code needs refactoring?
 *<i><color #black><size:12>General awareness to sense smelly code
