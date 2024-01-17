@@ -9,7 +9,7 @@ title =<i><b><u><size:18>How to approach Refactoring \n<i>[[docs/3-programming-l
 ***[#green]:<b><i><color #white><size:12>We can't deliver good code on the first write. We first have to make the code work, then we have to make it better from different points of view:
 <b><i><color #white><size:12>ease of change, better quality, reducing complexity, and so on.
 <b><i><color #white><size:12>We all know that we have to constantly refactor the code, but what are some of the tenets we should follow for better journey through refactoring.;
-***[#green] <b><i><color #white><size:12>Refactoring is an art of improving the design of existing code
+***[#green] *<b><i><color #white><size:12>Refactoring is an art of improving the "design" of existing code \n*<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_514.png Redesign (is Dissolution) vs. Research (is Solution)]]
 ****[#yellow] <i><color #black><size:12>**Refactoring:** is your genuine desire to improve the quality of your code & design in it.
 ****[#yellow]:<i><color #black><size:12>**Refactoring:** A process of changing the software system in such a way that it does not
 <i><color #black><size:12>alter the external behavior of the code yet improves its internal structure. --- Martin Fowler;
@@ -99,7 +99,7 @@ title =<i><b><u><size:18>How to approach Refactoring \n<i>[[docs/3-programming-l
 ***[#yellow] <b><i><color #black><size:12>Eliminate Dependency
 ****[#gold] <b><i><color #black><size:12>Don't strive to reduce Dependency/decoupling. Get rid of it!
 ****[#darkorange] <b><i><color #black><size:22>"Decouple" only when you can't "Eliminate".
-*****[#darkorange] <i><color #black><size:18><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_514.png Redesign vs. Research & Solution vs Dissolution]]
+*****[#darkorange] <i><color #black><size:18><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_514.png Redesign (is Dissolution) vs. Research (is Solution)]]
 **[#lightblue] <i><color #black><size:12>Sixth Principle
 ***[#yellow] <b><i><color #black><size:12>Make comments redundant & remove them
 ***[#yellow] <b><i><color #black><size:12>Make Code self documented
