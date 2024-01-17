@@ -17,7 +17,7 @@ title =<i><b><u><size:18>How to approach Refactoring \n<i>[[docs/3-programming-l
 **[#lightblue] <i><color #black><size:12>Make it work, make it better real soon!
 ***[#green] <b><i><color #white><size:12>TDD
 ****[#yellow] <i><color #black><size:12>Do <b><color #red>Red, <color #lime>Green, <color #black>Refactor
-****[#yellow] <i><color #black><size:12>It is almost impossible to write correct for the first time (structural design)
+****[#yellow] <i><color #black><size:12>It is almost impossible to write correct for the first time <b>(structural design)
 ****[#darkorange]:<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_512.png Micro deletion vs Macro deletion]]
 ====
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_466.png 1- Structure (generally reversible)]]
