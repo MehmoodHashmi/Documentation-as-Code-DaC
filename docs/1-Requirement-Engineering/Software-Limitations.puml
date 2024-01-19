@@ -2,26 +2,28 @@
 title =<b><i><u><size:18>Software Limitations \n<color #white><b><i><u><size:16>Software is not limited by physics like buildings are instead it is limited by organization, structure and design in short it's limited by the properties of the people not properties of the world" \n<size:15>Software is indeed not limited by the physical constraints that apply to other engineering fields such as construction or manufacturing. The limitations of software are often more related to the human factors \n<size:15>involved in the development process. The quality of the design, the organization of the development team, the communication between team members, and the overall skill level of the \n<size:15>developers all play a crucial role in the success or failure of software projects. In addition, the requirements and specifications of the software itself may also limit its capabilities \n<size:15>and functionality. Therefore, software development is ultimately limited by the properties of the people involved, including their skills, knowledge, experience, and communication abilities.
 !theme hacker
 
-*[#darkblue] <i><color #white>Software Limitations
+*[#darkblue] <i><color #white>Software \n<i><color #white>Limitations
 **[#lightblue] <i><color #black><size:12>Physical Limitations
 ***[#green] <b><i><color #white><size:12>Buildings
 ****[#yellow] <i><color #black><size:12>Buildings are limited by physical constraints such as materials, laws of physics, and building codes.
 **[#lightblue] <i><color #black><size:12>Software Limitations
-***[#green] <b><i><color #white><size:12>**Organization**
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_239.png What is Physics of Software?]]
+****[#yellow] <i><color #black><size:12>Click me
+***[#green] <b><i><color #white><size:12>Organization
 ****[#yellow] <i><color #black><size:12>Development Team
 *****[#gold] <i><color #black><size:12>The quality of the development team, including their skills and experience, can impact the success of a software project.
 ****[#yellow] <i><color #black><size:12>Communication
 *****[#gold] <i><color #black><size:12>Clear communication and collaboration between team members is essential for successful software development.
 ****[#yellow] <i><color #black><size:12>Management
 *****[#gold] <i><color #black><size:12>Good project management and leadership can help ensure that the development process is organized and efficient.
-***[#green] <b><i><color #white><size:12>**Structure**
+***[#green] <b><i><color #white><size:12>Structure
 ****[#yellow] <i><color #black><size:12>Design
 *****[#gold] <i><color #black><size:12>The design of software, including its architecture and functionality, can limit its capabilities and effectiveness.
 ****[#yellow] <i><color #black><size:12>Architecture
 *****[#gold] <i><color #black><size:12>The overall architecture of a software system can also limit its scalability and performance.
 ****[#yellow] <i><color #black><size:12>Coding Standards
 *****[#gold] <i><color #black><size:12>Adhering to coding standards can ensure that software is reliable and maintainable, but can also limit creativity and flexibility.
-***[#green] <b><i><color #white><size:12>**People**
+***[#green] <b><i><color #white><size:12>People
 ****[#yellow] <i><color #black><size:12>Skills
 *****[#gold] <i><color #black><size:12>The skills of the developers, such as programming languages and software development methodologies, can limit what they are able to create.
 ****[#yellow] <i><color #black><size:12>Knowledge

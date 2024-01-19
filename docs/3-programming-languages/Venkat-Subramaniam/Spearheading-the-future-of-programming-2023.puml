@@ -13,7 +13,12 @@ title =<i><b><u><size:18>Spearheading the future of programming \n<i>Dr.Venkat S
 *****[#a] <i><size:12><b><i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Conception-Notation-and-Implementation.puml Conception, notation & then implementation]]
 ****[#darkorange] <i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Refactor-your-language-knowledge-portfolio-(we-are-what-we-can-code-in).puml Refactor your language knowledge portfolio (we are what we can code in)]] Venkat Subramaniam
 ****[#a] <i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_69.png Religion vs Philosophy vs Science vs literature (Art/Craft)]]
-*****[#black] <i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_239.png Dr. Naveed Malik Advice]]\n*<i><size:12><b>[[docs/1-Requirement-Engineering/Abstract-Engineering.puml Abstract-Engineering]]
+*****[#black]:<i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_239.png Dr. Naveed Malik Advice]]
+====
+<i><size:12><b>[[docs/1-Requirement-Engineering/Abstract-Engineering.puml Abstract-Engineering]]
+<b><i><color #black><size:12>[[docs/1-Requirement-Engineering/Software-Limitations.puml Software Limitations]]
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_239.png What is Physics of Software?]];
+
 ******[#black]:<i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Difference-Between-Computer-Science-and-Engineering.puml Difference between Computer science & Engineering]]
 <i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Non-Linear-Behavior-in-Programming.puml Non-linear behavior in Programming & interpolation]]
 <i><color #black><size:12><b>[[https://www.youtube.com/watch?v=i-ladOjo1QA&list=LL&index=13&t=9s Complexity Theory Overview 10-min]];
