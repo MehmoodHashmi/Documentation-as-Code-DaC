@@ -5,6 +5,7 @@ caption <img:images/image-2023-02-20-18-57-28-106.png{scale=.66}>
 !theme hacker
 
 *[#darkblue]:<i><color #white>[[docs/3-programming-languages/clean-architecture/images/external-interfaces-or-APIs.png WebService]]  & <size:12>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-57-28-106.png (S/W Project Cost Estimation Technique based on Use Case Points) click me]]
+|<#red><b><i>[[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/use-case.png Nature of Use-Case & Actor vs Use-Case & webservice]] click me|
 |<img:images/img_470.png{scale=.94}>|
 |<img:images/img_469.png{scale=.96}>|
 |<img:images/img_471.png{scale=.838}>|;
@@ -80,6 +81,7 @@ caption <img:images/image-2023-02-20-18-57-28-106.png{scale=.66}>
 ***[#green] <b><i><color #white><size:12>Transformation
 **[#lightblue] <i><color #black><size:12>API Documentation
 ***[#green] <b><i><color #white><size:12>Swagger/OpenAPI
+****[#yellow] *<b><i><color #black><size:12>Read: So that You can "Use" it to integrate with the existing APIs \n*<b><i><color #black><size:12>Write(Create): So that others can "use" it to integrate with your API/service
 ***[#green] <b><i><color #white><size:12>API Reference
 ***[#green] <b><i><color #white><size:12>Interactive API Console
 **[#lightblue] <i><color #black><size:12>API Monitoring

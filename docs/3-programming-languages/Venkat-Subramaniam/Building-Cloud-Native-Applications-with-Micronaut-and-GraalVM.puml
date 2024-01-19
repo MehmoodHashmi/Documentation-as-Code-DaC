@@ -1,0 +1,40 @@
+@startmindmap
+title =<i><b><u><size:18>Building Cloud Native Applications with Micronaut and GraalVM
+!theme hacker
+
+
+*[#darkblue] <i><color #white>Building Cloud Native Apps\n<i><color #white>with Micronaut & GraalVM
+**[#lightblue] <i><color #black><size:12>Part-1
+***[#green] <b><i><color #white><size:12>Creating Micronaut Applications for the JVM & GraalVM
+***[#green] <b><i><color #white><size:12>What is Micronaut & Why?
+****[#yellow] <i><color #black><size:12>The demands of the modern world
+****[#yellow] <i><color #black><size:12>Microservices & Serverless computing
+****[#yellow] <i><color #black><size:12>**Polyglot programming:** Java, Groovy, & Kotlin
+*****[#darkorange] <i><color #black><size:12>If you choose **Micronaut** then you can select any of the following <b>languages (Java, Groovy, & Kotlin)
+****[#yellow] <i><color #black><size:12>**Fast Startup time:** \n*<i><color #black><size:12>Compile time metaprogramming, no reflection
+****[#yellow] <i><color #black><size:12>High throughput
+****[#yellow] <i><color #black><size:12>Small memory footprint
+*****[#darkorange] *<i><color #black><size:12>Both in <b>deployment & in Production
+****[#yellow] <i><color #black><size:12>Convention over configuration
+****[#yellow] <i><color #black><size:12>Sensible defaults
+*****[#darkorange] <i><color #black><size:12>Things work as they are supposed to work, & also prevention of <b>configuration hell
+****[#yellow] <i><color #black><size:12>Dependency injection with compile time metaprogramming instructions at runtime
+****[#yellow] <i><color #black><size:12>Both conventional & reactive APIs
+***[#green] <b><i><color #white><size:12>Benefits
+****[#yellow] <i><color #black><size:12>**Speed of:** development, deployment, startup, & execution
+****[#yellow] <i><color #black><size:12>**Small footprint**
+****[#yellow] <i><color #black><size:12>**Declarative in Nature**
+****[#yellow] <i><color #black><size:12>**Compile-time dependency injection**
+****[#yellow] <i><color #black><size:12>Natively cloud-native
+****[#yellow] <i><color #black><size:12>Built-in circuit-breakers
+****[#yellow] <i><color #black><size:12>Compile-time meta-programming
+***[#green] <b><i><color #white><size:12>Let's create an App
+****[#yellow] <i><color #black><size:12>Starting with a service service
+****[#yellow] <i><color #black><size:12>Bean configurations
+*****[#darkorange] *<i><color #black><size:12><b>@Singleton
+
+**[#lightblue] <i><color #black><size:12>Part-2
+***[#green] <b><i><color #white><size:12>Creating for Microservices & Cloud Infrastructure
+****[#yellow] <i><color #black><size:12>
+
+@endmindmap
