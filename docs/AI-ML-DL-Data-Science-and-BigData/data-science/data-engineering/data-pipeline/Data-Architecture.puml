@@ -5,109 +5,109 @@ title =<i><u><b>Data Architecture
 
 
 *[#darkblue] <i><b>Data Architecture
-**[#lightblue] <i><size:14><b><color #black>Definition
+**[#lightblue] <i><size:12><b><color #black>Definition
 ***[#green] <i><size:18><color #white>**Data architecture** refers to the "structure, organization, and design of data" within an organization, including data storage, management, and utilization.
 
-**[#lightblue] <i><size:14><b><color #black>Components
-***[#green] <i><size:14><b><color #white>Data Storage
-****[#yellow] <i><size:14><color #black>Physical or digital repositories for data storage.
-***[#green] <i><size:14><b><color #white>Data Models
-****[#yellow] <i><size:14><color #black>Structured representations of data and its relationships.
-***[#green] <i><size:14><b><color #white>Data Flow
-****[#yellow] <i><size:14><color #black>The movement of data within and between systems.
-***[#green] <i><size:14><b><color #white>Data Processing
-****[#yellow] <i><size:14><color #black>Techniques for data transformation and analysis.
-***[#green] <i><size:14><b><color #white>Data Governance
-****[#yellow] <i><size:14><color #black>Policies, standards, and practices for data management.
-***[#green] <i><size:14><b><color #white>Data Integration
-****[#yellow] <i><size:14><color #black>Methods for combining data from various sources.
+**[#lightblue] <i><size:12><b><color #black>Components
+***[#green] <i><size:12><b><color #white>Data Storage
+****[#yellow] <i><size:12><color #black>Physical or digital repositories for data storage.
+***[#green] <i><size:12><b><color #white>Data Models
+****[#yellow] <i><size:12><color #black>Structured representations of data and its relationships.
+***[#green] <i><size:12><b><color #white>Data Flow
+****[#yellow] <i><size:12><color #black>The movement of data within and between systems.
+***[#green] <i><size:12><b><color #white>Data Processing
+****[#yellow] <i><size:12><color #black>Techniques for data transformation and analysis.
+***[#green] <i><size:12><b><color #white>Data Governance
+****[#yellow] <i><size:12><color #black>Policies, standards, and practices for data management.
+***[#green] <i><size:12><b><color #white>Data Integration
+****[#yellow] <i><size:12><color #black>Methods for combining data from various sources.
 
-**[#lightblue] <i><size:14><b><color #black>Data Storage
-***[#green] <i><size:14><b><color #white>Relational Databases
-****[#yellow] <i><size:14><color #black>Structured data storage with tables and relationships <b>(e.g., SQL databases).
-***[#green] <i><size:14><b><color #white>NoSQL Databases
-****[#yellow] <i><size:14><color #black>Flexible data storage for unstructured and semi-structured data <b>(e.g., MongoDB, Cassandra).
-***[#green] <i><size:14><b><color #white>Data Warehouses
-****[#yellow] <i><size:14><color #black>Central repositories for storing structured data for reporting and analysis.
-***[#green] <i><size:14><b><color #white>Data Lakes
-****[#yellow] <i><size:14><color #black>Storage for large volumes of raw and diverse data for various uses.
-***[#green] <i><size:14><b><color #white>In-Memory Databases
-****[#yellow] <i><size:14><color #black>Data storage in RAM for fast access and processing.
+**[#lightblue] <i><size:12><b><color #black>Data Storage
+***[#green] <i><size:12><b><color #white>Relational Databases
+****[#yellow] <i><size:12><color #black>Structured data storage with tables and relationships <b>(e.g., SQL databases).
+***[#green] <i><size:12><b><color #white>NoSQL Databases
+****[#yellow] <i><size:12><color #black>Flexible data storage for unstructured and semi-structured data <b>(e.g., MongoDB, Cassandra).
+***[#green] <i><size:12><b><color #white>Data Warehouses
+****[#yellow] <i><size:12><color #black>Central repositories for storing structured data for reporting and analysis.
+***[#green] <i><size:12><b><color #white>Data Lakes
+****[#yellow] <i><size:12><color #black>Storage for large volumes of raw and diverse data for various uses.
+***[#green] <i><size:12><b><color #white>In-Memory Databases
+****[#yellow] <i><size:12><color #black>Data storage in RAM for fast access and processing.
 
-**[#lightblue] <i><size:14><b><color #black>Data Models
-***[#green] <i><size:14><b><color #white>Entity-Relationship Diagrams <b>(ERD)
-****[#yellow] <i><size:14><color #black>Visual representations of data entities and their relationships.
-***[#green] <i><size:14><b><color #white>Data Schema
-****[#yellow] <i><size:14><color #black>Formalized structure of data elements and attributes.
-***[#green] <i><size:14><b><color #white>Dimensional Modeling
-****[#yellow] <i><size:14><color #black>Design for data warehousing, emphasizing facts and dimensions.
-***[#green] <i><size:14><b><color #white>Conceptual, Logical, and Physical Models
-****[#yellow] <i><size:14><color #black>Progressive modeling levels to define data concepts, structure, and implementation details.
+**[#lightblue] <i><size:12><b><color #black>Data Models
+***[#green] <i><size:12><b><color #white>Entity-Relationship Diagrams <b>(ERD)
+****[#yellow] <i><size:12><color #black>Visual representations of data entities and their relationships.
+***[#green] <i><size:12><b><color #white>Data Schema
+****[#yellow] <i><size:12><color #black>Formalized structure of data elements and attributes.
+***[#green] <i><size:12><b><color #white>Dimensional Modeling
+****[#yellow] <i><size:12><color #black>Design for data warehousing, emphasizing facts and dimensions.
+***[#green] <i><size:12><b><color #white>Conceptual, Logical, and Physical Models
+****[#yellow] <i><size:12><color #black>Progressive modeling levels to define data concepts, structure, and implementation details.
 
-**[#lightblue] <i><size:14><b><color #black>Data Flow
-***[#green] <i><size:14><b><color #white>Data Ingestion
-****[#yellow] <i><size:14><color #black>Collecting data from various sources into the architecture.
-***[#green] <i><size:14><b><color #white>Data Transformation
-****[#yellow] <i><size:14><color #black>Processing and cleansing data to make it usable.
-***[#green] <i><size:14><b><color #white>Data Integration
-****[#yellow] <i><size:14><color #black>Combining data from multiple sources into a unified view.
-***[#green] <i><size:14><b><color #white>Data Distribution
-****[#yellow] <i><size:14><color #black>Delivering data to end-users or downstream systems.
+**[#lightblue] <i><size:12><b><color #black>Data Flow
+***[#green] <i><size:12><b><color #white>Data Ingestion
+****[#yellow] <i><size:12><color #black>Collecting data from various sources into the architecture.
+***[#green] <i><size:12><b><color #white>Data Transformation
+****[#yellow] <i><size:12><color #black>Processing and cleansing data to make it usable.
+***[#green] <i><size:12><b><color #white>Data Integration
+****[#yellow] <i><size:12><color #black>Combining data from multiple sources into a unified view.
+***[#green] <i><size:12><b><color #white>Data Distribution
+****[#yellow] <i><size:12><color #black>Delivering data to end-users or downstream systems.
 
-**[#lightblue] <i><size:14><b><color #black>Data Processing
-***[#green] <i><size:14><b><color #white>Batch Processing
-****[#yellow] <i><size:14><color #black>Processing data in bulk at scheduled intervals <b>(e.g., Hadoop MapReduce).
-***[#green] <i><size:14><b><color #white>Stream Processing
-****[#yellow] <i><size:14><color #black>Real-time data processing for immediate insights <b>(e.g., Apache Kafka, Spark Streaming).
-***[#green] <i><size:14><b><color #white>Data Analytics
-****[#yellow] <i><size:14><color #black>Techniques and tools for data analysis and insights.
-***[#green] <i><size:14><b><color #white>Machine Learning
-****[#yellow] <i><size:14><color #black>Implementing machine learning models for data-driven predictions and decisions.
+**[#lightblue] <i><size:12><b><color #black>Data Processing
+***[#green] <i><size:12><b><color #white>Batch Processing
+****[#yellow] <i><size:12><color #black>Processing data in bulk at scheduled intervals <b>(e.g., Hadoop MapReduce).
+***[#green] <i><size:12><b><color #white>Stream Processing
+****[#yellow] <i><size:12><color #black>Real-time data processing for immediate insights <b>(e.g., Apache Kafka, Spark Streaming).
+***[#green] <i><size:12><b><color #white>Data Analytics
+****[#yellow] <i><size:12><color #black>Techniques and tools for data analysis and insights.
+***[#green] <i><size:12><b><color #white>Machine Learning
+****[#yellow] <i><size:12><color #black>Implementing machine learning models for data-driven predictions and decisions.
 
-**[#lightblue] <i><size:14><b><color #black>Data Governance
-***[#green] <i><size:14><b><color #white>Data Policies
-****[#yellow] <i><size:14><color #black>Defined rules and regulations for data usage and security.
-***[#green] <i><size:14><b><color #white>Data Stewardship
-****[#yellow] <i><size:14><color #black>Responsible individuals or teams for data quality and compliance.
-***[#green] <i><size:14><b><color #white>Data Quality
-****[#yellow] <i><size:14><color #black>Ensuring data accuracy, consistency, and reliability.
-***[#green] <i><size:14><b><color #white>Metadata Management
-****[#yellow] <i><size:14><color #black>Cataloging and organizing data attributes and definitions.
+**[#lightblue] <i><size:12><b><color #black>Data Governance
+***[#green] <i><size:12><b><color #white>Data Policies
+****[#yellow] <i><size:12><color #black>Defined rules and regulations for data usage and security.
+***[#green] <i><size:12><b><color #white>Data Stewardship
+****[#yellow] <i><size:12><color #black>Responsible individuals or teams for data quality and compliance.
+***[#green] <i><size:12><b><color #white>Data Quality
+****[#yellow] <i><size:12><color #black>Ensuring data accuracy, consistency, and reliability.
+***[#green] <i><size:12><b><color #white>Metadata Management
+****[#yellow] <i><size:12><color #black>Cataloging and organizing data attributes and definitions.
 
-**[#lightblue] <i><size:14><b><color #black>Data Integration
-***[#green] <i><size:14><b><color #white>ETL <b>(Extract, Transform, Load)
-****[#yellow] <i><size:14><color #black>Extracting, transforming, and loading data into target systems.
-***[#green] <i><size:14><b><color #white>Data Virtualization
-****[#yellow] <i><size:14><color #black>Providing a unified view of data across multiple sources.
-***[#green] <i><size:14><b><color #white>API Integration
-****[#yellow] <i><size:14><color #black>Exchanging data between applications using APIs.
-***[#green] <i><size:14><b><color #white>Data Replication
-****[#yellow] <i><size:14><color #black>Duplicating data from source to target systems.
+**[#lightblue] <i><size:12><b><color #black>Data Integration
+***[#green] <i><size:12><b><color #white>ETL <b>(Extract, Transform, Load)
+****[#yellow] <i><size:12><color #black>Extracting, transforming, and loading data into target systems.
+***[#green] <i><size:12><b><color #white>Data Virtualization
+****[#yellow] <i><size:12><color #black>Providing a unified view of data across multiple sources.
+***[#green] <i><size:12><b><color #white>API Integration
+****[#yellow] <i><size:12><color #black>Exchanging data between applications using APIs.
+***[#green] <i><size:12><b><color #white>Data Replication
+****[#yellow] <i><size:12><color #black>Duplicating data from source to target systems.
 
 **[#lightblue] <i><size:22><b><color #black>Data Architecture Patterns
-***[#green] <i><size:14><b><color #white>Centralized
-****[#yellow] <i><size:14><color #black>Data is stored and managed in a central repository.
-***[#green] <i><size:14><b><color #white>Decentralized
-****[#yellow] <i><size:14><color #black>Data is distributed across various systems and locations.
-***[#green] <i><size:14><b><color #white>Hybrid
-****[#yellow] <i><size:14><color #black>A combination of centralized and decentralized approaches.
+***[#green] <i><size:12><b><color #white>Centralized
+****[#yellow] <i><size:12><color #black>Data is stored and managed in a central repository.
+***[#green] <i><size:12><b><color #white>Decentralized
+****[#yellow] <i><size:12><color #black>Data is distributed across various systems and locations.
+***[#green] <i><size:12><b><color #white>Hybrid
+****[#yellow] <i><size:12><color #black>A combination of centralized and decentralized approaches.
 
 **[#lightblue] <i><size:22><b><color #black>Challenges
-***[#green] <i><size:14><b><color #white>Data Security
-****[#yellow] <i><size:14><color #black>Protecting data from breaches and unauthorized access.
-***[#green] <i><size:14><b><color #white>Scalability
-****[#yellow] <i><size:14><color #black>Ensuring the architecture can handle growing data volumes.
-***[#green] <i><size:14><b><color #white>Data Privacy
-****[#yellow] <i><size:14><color #black>Complying with regulations and safeguarding sensitive data.
-***[#green] <i><size:14><b><color #white>Integration Complexity
-****[#yellow] <i><size:14><color #black>Managing data integration challenges in complex environments.
+***[#green] <i><size:12><b><color #white>Data Security
+****[#yellow] <i><size:12><color #black>Protecting data from breaches and unauthorized access.
+***[#green] <i><size:12><b><color #white>Scalability
+****[#yellow] <i><size:12><color #black>Ensuring the architecture can handle growing data volumes.
+***[#green] <i><size:12><b><color #white>Data Privacy
+****[#yellow] <i><size:12><color #black>Complying with regulations and safeguarding sensitive data.
+***[#green] <i><size:12><b><color #white>Integration Complexity
+****[#yellow] <i><size:12><color #black>Managing data integration challenges in complex environments.
 
 **[#lightblue] <i><size:22><b><color #black>Trends
-***[#green] <i><size:14><b><color #white>Cloud-Based Data Architecture
-****[#yellow] <i><size:14><color #black>Leveraging cloud services for scalable and flexible data storage and processing.
-***[#green] <i><size:14><b><color #white>Data Mesh
-****[#yellow] <i><size:14><color #black>A decentralized approach to data architecture that focuses on domain-oriented data products.
-***[#green] <i><size:14><b><color #white>DataOps
-****[#yellow] <i><size:14><color #black>Applying DevOps practices to data management for faster and more efficient processes.
+***[#green] <i><size:12><b><color #white>Cloud-Based Data Architecture
+****[#yellow] <i><size:12><color #black>Leveraging cloud services for scalable and flexible data storage and processing.
+***[#green] <i><size:12><b><color #white>Data Mesh
+****[#yellow] <i><size:12><color #black>A decentralized approach to data architecture that focuses on domain-oriented data products.
+***[#green] <i><size:12><b><color #white>DataOps
+****[#yellow] <i><size:12><color #black>Applying DevOps practices to data management for faster and more efficient processes.
 
 @endmindmap

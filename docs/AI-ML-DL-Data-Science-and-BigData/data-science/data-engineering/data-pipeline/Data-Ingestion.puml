@@ -1,54 +1,54 @@
 @startmindmap
-title =Data Ingestion
+title =<i>Data Ingestion
 !theme hacker
 
-*[#darkblue] ====Data Ingestion
-**[#lightblue] ====<size:14>Definition
-***[#green] ====<size:14><color #white>**Data ingestion** is the process of **collecting, importing, and transferring data** from **various sources into a data storage or processing system** for analysis or storage.
+*[#darkblue] <i>Data Ingestion
+**[#lightblue] <i><size:14>Definition
+***[#green] <i><size:14><color #white>**Data ingestion** is the process of **collecting, importing, and transferring data** from **various sources into a data storage or processing system** for analysis or storage.
 
-**[#lightblue] ====<size:14>Objectives
-***[#green] ====<size:14><color #white>Collect Data
-****[#yellow] ====<size:14>Gather data from diverse sources, such as **databases, logs, files, and external APIs.**
-***[#green] ====<size:14><color #white>Ensure Data Availability
-****[#yellow] ====<size:14>Make data accessible for analysis and decision-making.
-***[#green] ====<size:14><color #white>Maintain Data Freshness
-****[#yellow] ====<size:14>Keep data up to date to support real-time or near-real-time analysis.
+**[#lightblue] <i><size:14>Objectives
+***[#green] <i><size:14><color #white>Collect Data
+****[#yellow] <i><size:14>Gather data from diverse sources, such as **databases, logs, files, and external APIs.**
+***[#green] <i><size:14><color #white>Ensure Data Availability
+****[#yellow] <i><size:14>Make data accessible for analysis and decision-making.
+***[#green] <i><size:14><color #white>Maintain Data Freshness
+****[#yellow] <i><size:14>Keep data up to date to support real-time or near-real-time analysis.
 
-**[#lightblue] ====<size:18>Data Ingestion Techniques
-***[#green] ====<size:14>**[[Batch-Ingestion.puml Batch Ingestion]]**
-****[#yellow] ====<size:14>Collect and transfer **data** periodically in predefined batches.
-***[#green] ====<size:14>**[[Stream-Ingestion.puml Stream Ingestion]]**
-****[#yellow] ====<size:14>Process and move **data** in real-time or near-real-time streams.
-***[#green] ====<size:14>**[[Change-Data-Capture-(CDC).puml Change Data Capture (CDC)]]**
-****[#yellow] ====<size:14>Capture and replicate changes made to **data** sources in real-time.
+**[#lightblue] <i><size:18>Data Ingestion Techniques
+***[#green] <i><size:14>**[[Batch-Ingestion.puml Batch Ingestion]]**
+****[#yellow] <i><size:14>Collect and transfer **data** periodically in predefined batches.
+***[#green] <i><size:14>**[[Stream-Ingestion.puml Stream Ingestion]]**
+****[#yellow] <i><size:14>Process and move **data** in real-time or near-real-time streams.
+***[#green] <i><size:14>**[[Change-Data-Capture-(CDC).puml Change Data Capture (CDC)]]**
+****[#yellow] <i><size:14>Capture and replicate changes made to **data** sources in real-time.
 
-**[#lightblue] ====<size:14>Data Ingestion Tools
-***[#green] ====<size:14><color #white>Apache Nifi
-****[#yellow] ====<size:14>An open-source **data** integration tool for routing and transforming data.
-***[#green] ====<size:14><color #white>Kafka
-****[#yellow] ====<size:14>A distributed streaming platform for building real-time data pipelines.
-***[#green] ====<size:14><color #white>AWS Glue
-****[#yellow] ====<size:14>A managed ETL service for ingesting and preparing data.
+**[#lightblue] <i><size:14>Data Ingestion Tools
+***[#green] <i><size:14><color #white>Apache Nifi
+****[#yellow] <i><size:14>An open-source **data** integration tool for routing and transforming data.
+***[#green] <i><size:14><color #white>Kafka
+****[#yellow] <i><size:14>A distributed streaming platform for building real-time data pipelines.
+***[#green] <i><size:14><color #white>AWS Glue
+****[#yellow] <i><size:14>A managed ETL service for ingesting and preparing data.
 
-**[#lightblue] ====<size:18>Considerations
-***[#green] ====<size:14><color #white>Data Sources
-****[#yellow] ====<size:14>Identify and connect to various data sources, including databases, files, and APIs.
-***[#green] ====<size:14><color #white>Data Transformation
-****[#yellow] ====<size:14>Determine whether data should be transformed during ingestion or after.
-***[#green] ====<size:14><color #white>Scalability
-****[#yellow] ====<size:14>Ensure the ingestion process can handle growing data volumes.
+**[#lightblue] <i><size:18>Considerations
+***[#green] <i><size:14><color #white>Data Sources
+****[#yellow] <i><size:14>Identify and connect to various data sources, including databases, files, and APIs.
+***[#green] <i><size:14><color #white>Data Transformation
+****[#yellow] <i><size:14>Determine whether data should be transformed during ingestion or after.
+***[#green] <i><size:14><color #white>Scalability
+****[#yellow] <i><size:14>Ensure the ingestion process can handle growing data volumes.
 
-***[#green] ====<size:14><color #white>Data Security
-****[#yellow] ====<size:14>Protect data during ingestion with encryption and access controls.
+***[#green] <i><size:14><color #white>Data Security
+****[#yellow] <i><size:14>Protect data during ingestion with encryption and access controls.
 
-**[#lightblue] ====<size:14>Best Practices
-***[#green] ====<size:14><color #white>Data Profiling
-****[#yellow] ====<size:14>Understand source data to prepare for ingestion.
-***[#green] ====<size:14><color #white>Data Validation
-****[#yellow] ====<size:14>Implement validation checks to verify data integrity.
-***[#green] ====<size:14><color #white>Error Handling
-****[#yellow] ====<size:14>Plan for handling errors and exceptions during ingestion.
-***[#green] ====<size:14><color #white>Monitoring
-****[#yellow] ====<size:14>Implement monitoring and alerting to detect and address issues.
+**[#lightblue] <i><size:14>Best Practices
+***[#green] <i><size:14><color #white>Data Profiling
+****[#yellow] <i><size:14>Understand source data to prepare for ingestion.
+***[#green] <i><size:14><color #white>Data Validation
+****[#yellow] <i><size:14>Implement validation checks to verify data integrity.
+***[#green] <i><size:14><color #white>Error Handling
+****[#yellow] <i><size:14>Plan for handling errors and exceptions during ingestion.
+***[#green] <i><size:14><color #white>Monitoring
+****[#yellow] <i><size:14>Implement monitoring and alerting to detect and address issues.
 
 @endmindmap
