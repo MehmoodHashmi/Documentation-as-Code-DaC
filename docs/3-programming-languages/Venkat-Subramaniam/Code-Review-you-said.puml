@@ -17,13 +17,13 @@ title =<i><b><u>Code Review, You Said?
 ****[#yellow] <i><color #black><size:12>Scrum!
 ****[#yellow] <i><color #black><size:12>Velocity!
 ****[#yellow] <i><color #black><size:12>Just need to hire a <b>Scrum Master?
-****[#gold] <b><i><color #black><size:12>Feeback Driven Development (FDD) <&check>
+****[#gold] <b><i><color #black><size:12>Feedback Driven Development (FDD) <&check>
 *****[#gold] <i><color #black><size:12>E.g. Blue Dot on Google Maps If stops \n<i><color #black><size:12>ticking you can't know where you're
-**[#lightblue]:<i><color #black><size:12>Types of Feeback
+**[#lightblue]:<i><color #black><size:12>Types of Feedback
 |<img:images/img_484.png{scale=.3}>|<img:images/img_485.png{scale=.3}>|<img:images/img_486.png{scale=.3}>|;
 ***[#green] <b><i><color #white><size:12>1- Active Use of the Product
 ***[#green] <b><i><color #white><size:12>2- From an automated Tests (TDD, BDD, ATDD)
-****[#yellow] <b><i><color #black><size:12>I want "Tests" tell me code sucks rather than my colleagues
+****[#yellow] <b><i><color #black><size:12>I want "Tests" tell me code "sucks" rather than my colleagues
 ***[#green]:<b><i><color #white><size:12>3- Code Reviews
 |<img:images/img_487.png{scale=.25}>|
 |<img:images/img_488.png{scale=.33}>|
@@ -38,16 +38,16 @@ title =<i><b><u>Code Review, You Said?
 |<img:images/img_491.png{scale=.45}>|<img:images/img_492.png{scale=.4}>|<img:images/img_493.png{scale=.42}>|;
 ******[#darkorange] <i><color #black><size:12><img:images/img_494.png{scale=.35}>
 *******[#darkorange]:<i><color #black><size:12><b>Never review code that has not:</b> (Why? because I want to give meaningful feedback!)
-*<i><color #black><size:12>been compiled: where compilation is required
-*<i><color #black><size:12>passed tests: where "Tests" are required--- just kidding pass the damn tests
+*<i><color #black><size:12>been **compiled:** where compilation is required!
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_355.png passed tests: where "Tests" are required--- just kidding pass the damn tests]]
 *<i><color #black><size:12>passes through code quality tools: like <b>linters
 ==<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_84.png Start (Tests first then, code review)]]==
-<i><color #black><size:12>Start with "Tests":
-<i><color #black><size:12>Are "Tests" easy to understand?
-<i><color #black><size:12>Are they short?
-<i><color #black><size:12>Does it 've a good structure?
-<i><color #black><size:12>Do "Tests" tell the **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_504.png story]]** of <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_504.png Design Evolution?]]
-<i><color #black><size:12>Are there missing "Tests"?;
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_355.png Start with "Tests":]]
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_355.png Are "Tests" easy to understand?]]
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_355.png Are they short?]]
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_355.png Does it 've a good structure?]]
+|<i><color #black><size:12>Do "Tests" tell the **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_504.png story]]** of <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_504.png Design Evolution?]] |<#red><b><i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_239.png Dr. Naveed Malik Advice Part-1]], <b><i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_475.png Part-2]]|
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_355.png Are there missing "Tests"?]];
 *******[#darkorange]:
 ==<i><color #black><size:12><b>When to review?==
 *<i><color #black><size:12><b>When should we ask for review?
@@ -64,6 +64,7 @@ title =<i><b><u>Code Review, You Said?
 |<img:images/img_506.png{scale=.25}>|<img:images/img_507.png{scale=.22}>|
 ==<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_508.png Click me]]==
 |<img:images/img_508.png{scale=.35}>|
+|<#red><b><i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_239.png Dr. Naveed Malik Advice on Tesing Part-1]], <b><i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_475.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_355.png Part-3]]|
 *<i><color #black><size:12><b>When you find a "bug" don't fix it, first write "Test" for it then fix it.
 **<i><color #black><size:12><b>3-months later if someone changes that code then "Test" is still
 <i><color #black><size:12><b>\tthere to monitor, & restricts "bug" to appear again!

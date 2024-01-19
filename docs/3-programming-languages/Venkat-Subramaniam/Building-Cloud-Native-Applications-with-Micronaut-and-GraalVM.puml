@@ -30,9 +30,16 @@ title =<i><b><u><size:18>Building Cloud Native Applications with Micronaut and G
 ****[#yellow] <i><color #black><size:12>Compile-time meta-programming
 ***[#green]:<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_518.png Let's create an App]]
 *<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_519.png Directory Structure]]
-*<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_520.png In IntelliJ IDE]];
+*<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_520.png In IntelliJ IDE]]
+*<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_4.jpg Clean Architecture]]
+<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_4.jpg & boundary crossing]]
+==<b><i><color #yellow><size:12>Clean Architecture==
+*<b><i><color #white><size:12>[[docs/3-programming-languages/clean-architecture/images/Screenshot_6.png Part-0]]
+*<b><i><color #white><size:12>[[docs/3-programming-languages/clean-architecture/images/Screenshot_7.png Part-1]]
+*<b><i><color #white><size:12>[[docs/3-programming-languages/clean-architecture/images/Screenshot_8.png Part-2]]
+*<b><i><color #white><size:12>[[docs/3-programming-languages/clean-architecture/images/Screenshot_9.png Part-3]];
 ****[#yellow] <i><color #black><size:12>Starting with a service service
-****[#yellow] <i><color #black><size:12>Bean configurations
+****[#yellow] <i><color #black><size:12>Bean <b>configurations
 *****[#darkorange]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_521.png @Singleton]] </b>(Each time you request an instance you get the same shared instance)
 *<i><color #black><size:12><b>@Context </b>(use seldomly, even ask for advice from a team member)
 *<i><color #black><size:12><b>@Prototype </b>(means each time I request an instance I will get a new instance instead of a same shared instance)

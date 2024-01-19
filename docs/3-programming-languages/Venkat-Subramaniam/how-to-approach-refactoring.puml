@@ -140,7 +140,7 @@ title =<i><b><u><size:18>How to approach Refactoring \n<i>[[docs/3-programming-l
 *****[#gold] *<i><color #black><size:12><b>We use "compose method" pattern \n*<i><color #black><size:12><b>Instructions are at a Single Level of Abstraction or detail
 **[#lightblue]:<i><color #black><size:12>Eighth Principle
 |<img:images/img_476.png{scale=.5}>|<img:images/img_477.png{scale=.72}>|;
-***[#yellow] <i><color #black><size:12>Avoid Primitive (int, chart, float, String, double, etc. ) Obsession
+***[#yellow] <i><color #black><size:12>Avoid Primitive **(int, chart, float, String, double, etc.)** Obsession
 ****[#gold] *<i><color #black><size:12>Avoid desire to operate at lowest level of detail \n*<i><color #black><size:12>**Instead use, look for, or create higher-level** \n<i><size:12><color #black>\teasy to use abstraction
 *****[#darkorange] *<i><color #black><size:12>**Reuse Methods**\n*<i><color #black><size:12>**Reuse Libraries**
 **[#lightblue] <i><color #black><size:12>Ninth Principle
@@ -159,7 +159,7 @@ title =<i><b><u><size:18>How to approach Refactoring \n<i>[[docs/3-programming-l
 ***[#yellow] <i><color #black><size:12>Refactoring Opportunity?
 ****[#gold]:<i><color #black><size:12>How do you know which code needs refactoring?
 *<i><color #black><size:12>General awareness to sense smelly code
-*<i><color #black><size:12>Use tactical code reviews
+|<#white><i><color #black><size:12>Use **tactical code** reviews|
 *<i><color #black><size:12>Make refactoring a regular activity, each day;
 ***[#yellow] <i><color #black><size:12>When not to refactor?
 ****[#gold] <i><color #black><size:12>**Code** is Messed up beyond any Possible <b>repair
