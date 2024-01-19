@@ -28,10 +28,34 @@ title =<i><b><u><size:18>Building Cloud Native Applications with Micronaut and G
 ****[#yellow] <i><color #black><size:12>Natively cloud-native
 ****[#yellow] <i><color #black><size:12>Built-in circuit-breakers
 ****[#yellow] <i><color #black><size:12>Compile-time meta-programming
-***[#green] <b><i><color #white><size:12>Let's create an App
+***[#green]:<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_518.png Let's create an App]]
+*<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_519.png Directory Structure]]
+*<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_520.png In IntelliJ IDE]];
 ****[#yellow] <i><color #black><size:12>Starting with a service service
 ****[#yellow] <i><color #black><size:12>Bean configurations
-*****[#darkorange] *<i><color #black><size:12><b>@Singleton
+*****[#darkorange]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_521.png @Singleton]] </b>(Each time you request an instance you get the same shared instance)
+*<i><color #black><size:12><b>@Context </b>(use seldomly, even ask for advice from a team member)
+*<i><color #black><size:12><b>@Prototype </b>(means each time I request an instance I will get a new instance instead of a same shared instance)
+*<i><color #black><size:12><b>@Infrastructure
+*<i><color #black><size:12><b>@RequestScope </b>(means each time I request an instance I will get a new instance instead of a same shared instance)
+*<i><color #black><size:12><b>...;
+****[#a] <i><color #black><size:12>Create a <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_523.png Controller]]
+
+****[#a] <i><color #black><size:12>Dependency injection of **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_524.png service]]** into <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_523.png Controller]]
+*****[#darkorange]:*<i><color #black><size:12><b>Constructor injection
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_522.png Field injection]]
+*<i><color #black><size:12><b>Java Bean property injection;
+****[#yellow] <i><color #black><size:12>Creating a <b>Client
+
+****[#yellow] <i><color #black><size:12>Going <b>Reactive
+*****[#darkorange]:*<i><color #black><size:12><b>Reactive Programming
+*<i><color #black><size:12><b>Publishers & Subscribers
+*<i><color #black><size:12><b>Providing a reactive interface;
+
+****[#yellow] <i><color #black><size:12>Deployment & Execution
+*****[#darkorange]:*<i><color #black><size:12><b>.
+*<i><color #black><size:12><b>.
+*<i><color #black><size:12><b>.;
 
 **[#lightblue] <i><color #black><size:12>Part-2
 ***[#green] <b><i><color #white><size:12>Creating for Microservices & Cloud Infrastructure
