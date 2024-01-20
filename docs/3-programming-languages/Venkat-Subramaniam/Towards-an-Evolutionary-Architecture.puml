@@ -117,10 +117,10 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 ***[#green] <b><i><color #white><size:12>Governance
 ****[#gold] *<i><color #black><size:12>**Architecture committee,** slows down the process & "initial architecture" draft becomes useless.
 **[#lightblue] <i><color #black><size:12>The risk of  evolving
-***[#green] <b><i><color #white><size:12>What if we can't support a feature?
+***[#green] <b><i><color #white><size:12>What if we can't \n<b><i><color #white><size:12>support a feature?
 ****[#yellow] *<i><color #black><size:12><b>Planned Features
 *****[#yellow] *<i><color #black><size:12>Things you know, you will work on, in the beginning of the project you had project backlog. \n<i><color #black><size:12>A list of requirements given to you.
-*****[#a] *<i><color #black><size:12>Find the following for each <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_448.png user story:]]\n<i><color #black><size:12>1- Business value \n<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_448.png 2- Architecture Impact]]\n*<i><color #black><size:12>Now prioritize & implement the high value features first!
+*****[#a] *<i><color #black><size:12>Find the following for each <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_448.png user story:]]\n<i><color #black><size:12><b>1- Business value \n<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_448.png 2- Architecture Impact]]\n*<i><color #black><size:12>Now prioritize & implement the high value features first!
 ******[#black] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_447.png Jira, Trello, User Story, Requirements & Backlog, Project Management & Client Management (Transparency with client)]]
 ****[#yellow] *<i><color #black><size:12>Surprise Features
 *****[#yellow] *<i><color #black><size:12>Do **minimal architecture** like **Clean Architecture** so that you can "modify & maintain" the system
