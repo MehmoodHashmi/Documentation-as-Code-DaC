@@ -1,10 +1,12 @@
 @startmindmap
-title = <b><i>UI/UX\n<img:images/img_2.png{scale=.8}>
-caption |<img:images/img.png{scale=.85}>|<img:images/img_1.png{scale=0.71}>|
+title = <b><i>UI/UX\n<img:images/img_2.png{scale=.95}>
+caption |<img:images/img.jpg{scale=.56}>|<img:images/img.png{scale=.75}>|<img:images/img_1.png{scale=0.61}>|
 !theme hacker
 
-*[#darkblue] <i><color:white>UI/UX
-**[#lightblue] <i><color #blac><size:22>User Interface (UI)
+*[#darkblue]:|<i><color:white>UI/UX\n<img:images/img_7.png{scale=.566}>|
+|<i><color:white><img:images/img_8.png{scale=1.05}>|
+|<i><color:white><img:images/img_9.png{scale=1}>|;
+**[#lightblue] <i><color #blac><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_533.png User Interface (UI)]]
 ***[#green] <b><i><color #white><size:12>Design
 ****[#yellow] <i><color #black><size:12>Aesthetics
 ****[#yellow] <i><color #black><size:12>Layout
@@ -14,7 +16,7 @@ caption |<img:images/img.png{scale=.85}>|<img:images/img_1.png{scale=0.71}>|
 ****[#yellow] <i><color #black><size:12>Images and Icons
 ****[#yellow] <i><color #black><size:12>Responsive Design
 ***[#green] <b><i><color #white><size:12>Components
-****[#yellow] <i><color #black><size:12><b>Buttons, Forms, Dropdowns, Menus, Lists, Icons, Navigation, Cards, Modals, Popovers, Tooltips, Progress Bars, Spinners
+****[#yellow] <i><color #black><size:12><b>Buttons, Forms, Dropdowns, Menus, Lists, Icons, Navigation, \n<i><color #black><size:12><b>Cards, Modals, Popovers, Tooltips, Progress Bars, Spinners
 ***[#green] <b><i><color #white><size:12>Usability
 ****[#yellow] <i><color #black><size:12>Navigation
 ****[#yellow] <i><color #black><size:12>Feedback
@@ -23,7 +25,7 @@ caption |<img:images/img.png{scale=.85}>|<img:images/img_1.png{scale=0.71}>|
 ****[#yellow] <i><color #black><size:12>Help and Documentation
 ****[#yellow] <i><color #black><size:12>Accessibility
 ****[#yellow] <i><color #black><size:12>Speed and Performance
-**[#lightblue] <i><color #blac><size:22>User Experience (UX)
+**[#lightblue] <i><color #blac><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_534.png User Experience (UX)]]
 ***[#green] <b><i><color #white><size:12>Research
 ****[#yellow] <i><color #black><size:12>User Analysis
 ****[#a] <i><color #black><size:12><b>[[https://www.youtube.com/watch?v=UnAuwhu2C9Q&ab_channel=GFXMentor Personas]]
@@ -38,7 +40,7 @@ caption |<img:images/img.png{scale=.85}>|<img:images/img_1.png{scale=0.71}>|
 ****[#yellow] <i><color #black><size:12>A/B Testing
 ****[#yellow] <i><color #black><size:12>Heatmaps
 ***[#green] <b><i><color #white><size:12>Strategy
-****[#orange] <b><i><color #black><size:12>Information Architecture
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_535.png Information Architecture]]
 ****[#a] <b><i><color #black><size:12>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/images/image_3.png Wireframes]]
 *****[#orange] <b><i><color #black><size:12>tools visual paradigm, draw.io, balsamiq, miro, figma, lucid-chart etc.
 ****[#a] <b><i><color #black><size:12>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototypes]]
@@ -50,7 +52,7 @@ caption |<img:images/img.png{scale=.85}>|<img:images/img_1.png{scale=0.71}>|
 ****[#yellow] <i><color #black><size:12>Business Strategy
 ***[#green] <b><i><color #white><size:12>Design
 ****[#yellow] <i><color #black><size:12>Visual Design
-****[#yellow] <i><color #black><size:12>Interaction Design
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_536.png Interaction Design]]
 ****[#yellow] <i><color #black><size:12>Information Design
 ****[#yellow] <i><color #black><size:12>Motion Design
 ***[#green] <b><i><color #white><size:12>Evaluation

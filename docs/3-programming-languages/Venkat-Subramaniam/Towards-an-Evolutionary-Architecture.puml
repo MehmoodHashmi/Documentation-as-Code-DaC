@@ -39,6 +39,8 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_179.png 4- Anti-pattern]]
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_245.png Knowledge triangle]]
 ****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_247.png 4+1 View Model]]
+*<b><i><color #black><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_527.png Why 4+1 View Model?]]
+**<b><i><color #black><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_528.png Part-2]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_529.png Grady Booch]]
 ====
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_3.jpg Quality Categorization]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/conventional-SDLC-vs-DevOps-vs-NoOps.adoc DevOps]] (Dev & Ops);
@@ -46,7 +48,12 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 ****[#darkorange] <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_283.png Mutability & Architecture]]
 ****[#darkorange] <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_256.png Architecture refactoring]] \n*<b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_512.png Module Refactoring]]
 ***[#green] <b><i><color #white><size:14>In Software Development we often say:
-****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_138.png Capture requirements]]
+****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_138.png Capture requirements]]
+====
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_5.jpg 3-Levels of requirements]]
+<b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_530.png Analysis & Design duration vs.]]
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_530.png Implementation duration]];
+
 *****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_242.png Requirements Engineering Process Maturity Model]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_244.png CMMI version-2]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_439.png S/W Project Estimation (Robert C Martin)]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-57-28-106.png S/W Project Cost Estimation Technique based on Use Case Points]];
@@ -56,8 +63,14 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 *<b><i><color #black><size:12>[[https://cucumber.io/blog/bdd/better-requirements-by-harnessing-the-power-of-exa/ Better requirements by harnessing the power of examples]] article
 *<b><i><color #black><size:12>[[https://cucumber.io/blog/bdd/bdd-with-event-mapping/ BDD with Event Mapping]] article;
 
-****[#a] <b><i><color #black><size:12>[[docs/1-business-analyst/requirements-management.puml Gather requirements]]
-*****[#a]:<b><i><color #black><size:12>[[docs/1-business-analyst/project-management/project-management.puml Project Management]] & [[docs/3-programming-languages/Venkat-Subramaniam/pdf/software-requirements.pdf Software Requirements Book]] 2-pages only
+****[#a]:*<b><i><color #black><size:12>[[docs/1-business-analyst/requirements-management.puml Gather requirements]]
+====
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_532.png GUI is not Use-Cases]]
+**<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_534.png UX Design]]
+**<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_533.png UI Design]]
+**<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_535.png IA Info Architecture]]
+**<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_536.png ID Interaction Design]];
+*****[#a]:<b><i><color #black><size:12>[[docs/1-business-analyst/project-management/project-management.puml Project Management]] & [[docs/3-programming-languages/Venkat-Subramaniam/pdf/software-requirements.pdf Software Requirements Book]] 2-pages only & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_538.png Use Case Development Top-down or Bottom-Up?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_539.png Use Case 2.0 Work Products]]
 |<b><i><color #black><size:12>[[docs/3-programming-languages/clean-architecture/images/use-case-modeling.png Traditional use case modeling]] vs [[docs/3-programming-languages/Venkat-Subramaniam/images/img_171.png Use Case 2.0 Modeling Part-1,]] [[docs/3-programming-languages/Venkat-Subramaniam/images/img_345.png Part-2,]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_211.png Work Products]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_287.png Use Case variations]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_128.jpg UML cheatsheet]]|<#blue><b><i>[[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/use-case.png Use-Case vs webservice]]|
 |<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Identification-of-a-use-case.puml Identification of a Use Case]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_355.png Use Case 2.0 Test Cases]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_356.png Principles of Use Case 2.0, activities for (iterative or incremental) development]]|<#red><b><i>[[docs/3-programming-languages/clean-architecture/images/Screenshot_33.png Use-Case Templates]]|
 |<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/BDD-Vs-TDD.drawio.png BDD vs. TDD Part-1]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_427.png BDD Part-2 Naveen-Automation-Lab]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_426.png TDD vs. BDD vs ATDD naveen-automation-lab]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/ATDD-vs-TDD-robert-c-martin.drawio.png TDD vs. BDD vs. ATDD Robert C Martin]]|<#black><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_525.png Use-Case Vs. CRUD]] |;
@@ -200,11 +213,11 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 ***[#darkorange] *<i><color #black><size:12>**"main ()"** function is at **outer most layer.** Why? Because it is near to **input/output** & prone to <b>changes. \n*<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_424.png click me]]
 ***[#a]:<i><color #black><size:12>There is nothing wrong with **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_56.png outside-in or inside-out approach]]** so long as you **decouple**
 <i><color #black><size:12>your **business rules** from them.
-==<i><color #black><size:16>**Inside-out** <color:yellow>(Low-level analysis & design)==
+==<i><color #black><size:16>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_537.png Inside-out]]** <color:yellow>(Low-level analysis & design)==
 *<i><color #black><size:16>**Inside-out:** approach is (1st <u>**analyze & design entities & use cases layer**)
 <i><color #yellow><b><size:16>1- Entities
 <i><color #brown><b><size:16>2- Use Cases [[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/use-case-2-0-overview.puml click me]] or [[docs/1-Requirement-Engineering/VU-course/Event-Storming-technique.adoc Event Storming]] or etc.
-==<i><color #black><size:16>**Outside-in** <color:blue>(High-level analysis & design)==
+==<i><color #black><size:16>**[[a Outside-in]]** <color:blue>(High-level analysis & design)==
 *<i><color #black><size:16>**Outside-in:** approach (1st select right tools, integrations etc. for app development)
 <i><color #green><b><size:15>4- Outer most layer <color #white>(Databases, Devices, External interfaces, Web, UI/UX etc.)
 **<i><color #green><b><size:12>E.g. [[docs/books/1-books-backlog/DBMS/Designing-Data-Intensive-Applications.puml NFR technology constraints]], seldom "client" tells "explicitly" if not they still exist "implicitly"
