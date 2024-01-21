@@ -67,6 +67,8 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 
 ****[#a]:*<b><i><color #black><size:12>[[docs/1-business-analyst/requirements-management.puml Gather requirements]]
 ====
+<b><i><color #black><size:12>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/UI-UX.puml UI/UX vs. Use Case]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_267.png Framework]] is (
+<b><i><color #black><size:9>Spring, Springboot, struts, Micronaut, not tomcat)
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_532.png GUI is not Use-Cases]]
 **<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_534.png UX Design]]
 **<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_533.png UI Design]]
