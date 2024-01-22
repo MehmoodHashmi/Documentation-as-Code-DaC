@@ -31,7 +31,10 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 ******[#a] <b><i><color #black><size:12>[[a Clean Agile]]
 *****[#yellow] <i><color #black><size:12><b>EUFD <&check>
 
-***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_73.png S/W Architecture]] \n*<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_541.png Next Architecture]] \n*<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_542.png Defer Decisions]]
+***[#green]:<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_73.png S/W Architecture]]
+*<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_541.png Next Architecture]]
+*<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_542.png Defer Decisions]]
+*<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_562.png Premature decisions]];
 ****[#black] <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_291.png Screaming architecture]]
 ****[#black] <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_273.png 2-Laws of S/W architecture]]
 ****[#darkorange] <b><i><color #black><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_175.png Scaffolding vs Design]]
