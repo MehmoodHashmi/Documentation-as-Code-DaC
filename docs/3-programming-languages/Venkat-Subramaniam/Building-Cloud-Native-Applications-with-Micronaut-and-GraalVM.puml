@@ -49,23 +49,68 @@ title =<i><b><u><size:18>Building Cloud Native Applications with Micronaut and G
 ****[#a] <i><color #black><size:12>Create a <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_523.png Controller]]
 
 ****[#a] <i><color #black><size:12>Dependency injection of **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_524.png service]]** into <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_523.png Controller]]
-*****[#darkorange]:*<i><color #black><size:12><b>Constructor injection
+*****[#darkorange]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_545.png Constructor injection]] </b>(Venkat-Subramaniam I prefer this one because it's pretty <b>low ceremony)
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_522.png Field injection]]
 *<i><color #black><size:12><b>Java Bean property injection;
-****[#yellow] <i><color #black><size:12>Creating a <b>Client
+****[#darkorange] <i><color #black><size:12>Creating a <b>Client \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_548.png Client Configuration]]
+
+*****[#a]:<i><color #black><size:12>is also a <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_546.png Test]] for
+<i><color #black><size:12>**communication** with <b>"server"
+<i><color #black><size:12>I will write here more on when & why ControllerTest & ServiceTest later Time-stamp at 33:00 minutes
+;
+*****[#a]:<i><color #black><size:12>In **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_547.png Microservices]]** we tend not to **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_547.png share code;]]** and that is not to say that we should not share code,
+<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_547.png but rather we don't share as much code as we can do in traditional applications development]]
+*<i><color #black><size:12>If the **client & server** both are written in the same programming language then we can <b>share code.
+*<i><color #black><size:12>But in **microservices** world services are **polyglot** meaning both <b>server (running service/module) & client
+<i><color #black><size:12>are usually coded in different programming languages.;
 
 ****[#yellow] <i><color #black><size:12>Going <b>Reactive
-*****[#darkorange]:*<i><color #black><size:12><b>Reactive Programming
+*****[#darkorange]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_550.png Reactive Programming]] </b>(I look for 3-things when it comes to reactive programming)
+**<i><color #black><size:12><b>1- Stream of Data or dataflow
+**<i><color #black><size:12><b>2- Backpressure
+**<i><color #black><size:12><b>3- Non-blocking (asynchronous)
 *<i><color #black><size:12><b>Publishers & Subscribers
 *<i><color #black><size:12><b>Providing a reactive interface;
 
 ****[#yellow] <i><color #black><size:12>Deployment & Execution
-*****[#darkorange]:*<i><color #black><size:12><b>.
-*<i><color #black><size:12><b>.
-*<i><color #black><size:12><b>.;
+*****[#darkorange]:==|<#black><i><color #white><size:12><b>Without GraalVM|==
+*<i><color #black><size:12><b>Building for the JVM
+**<i><color #black><size:12><b>1- Startup time: </b>(about 700ms)
+**<i><color #black><size:12><b>2- Firt request: </b>(about 0.237s)
+**<i><color #black><size:12><b>3- more requests: </b>(about 0.026s)
+*<i><color #black><size:12><b>What's GraalVM </b>(is used to generate **native binaries** like C, C++) complier, hence size of the app is decreased
+*<i><color #black><size:12><b>Why GraalVM
+*<i><color #black><size:12><b>Building native image
+==|<#black><i><color #white><size:12><b>With GraalVM (native image)|==
+*<i><color #black><size:12><b>Comparing startup times & memory usage (with & without GraalVM)
+**<i><color #black><size:12><b>1- Startup time: </b>(about 18ms)
+**<i><color #black><size:12><b>2- Firt request: </b>(about 0.27s)
+**<i><color #black><size:12><b>3- more requests: </b>(about 0.27s) same as first request
+***<i><color #black><size:12><b>This is important for the "serverless computing";
 
 **[#lightblue] <i><color #black><size:12>Part-2
 ***[#green] <b><i><color #white><size:12>Creating for Microservices & Cloud Infrastructure
-****[#yellow] <i><color #black><size:12>
+****[#yellow] <i><color #black><size:12>We will take all what we did in **part-1** & put in some of the **microservices details & build** for the **cloud** itself
+***[#green] <b><i><color #white><size:12>Service Discovery
+****[#yellow] <i><color #black><size:12>Configuring services
+****[#a] <i><color #black><size:12><b>Using Registry: [[docs/3-programming-languages/Venkat-Subramaniam/images/img_552.png Council]]
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_552.png Council]] -> Client -> registration
+****[#yellow] <i><color #black><size:12><img:images/img_551.png{scale=.5}>
+*****[#a] *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_553.png Why assign a random Port number to App/Server]]
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_554.png Load Balancing]]
+****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_554.png Default Round-Robin selection]] \n*<i><color #black><size:12>using other algorithms
+*****[#a] *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_553.png Why assign a random Port number to App/Server]]
+***[#green]:<b><i><color #white><size:12>Dealing with failures
+====
+*<b><i><color #white><size:12>A failure can be:
+**<b><i><color #white><size:12>1- Transient or
+**<b><i><color #white><size:12>2- May takes  little longer to process;
+****[#yellow] *<i><color #black><size:12>Communication between services
+****[#yellow]:*<i><color #black><size:12>Retrying requests
+**<i><color #black><size:12>attempts -3
+**<i><color #black><size:12>exponential delays -1, 2, 3 ... seconds;
+****[#yellow] *<i><color #black><size:12>Circuit breaker pattern
+*****[#darkorange] *<i><color #black><size:12>a retryable which opens the circuit after the number of attempts \n**<i><color #black><size:12>reset -20 seconds
+
 
 @endmindmap
