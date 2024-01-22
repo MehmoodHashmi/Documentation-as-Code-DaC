@@ -35,23 +35,23 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 *<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_541.png Next Architecture]]
 *<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_542.png Defer Decisions]]
 *<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_562.png Premature decisions]];
-****[#black] <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_291.png Screaming architecture]]
-****[#black] <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_273.png 2-Laws of S/W architecture]]
-****[#darkorange] <b><i><color #black><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_175.png Scaffolding vs Design]]
-****[#a] <b><i><color #black><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_75.png 1- Design pattern]]
-****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/integration-style.puml 2- Integration Style]]
-****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png 3- pattern]]
-****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_179.png 4- Anti-pattern]]
-****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_245.png Knowledge triangle]]
 ****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_247.png 4+1 View Model]]
 *<b><i><color #black><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_527.png Why 4+1 View Model?]]
 **<b><i><color #black><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_528.png Part-2]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_529.png Grady Booch]]
 ====
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_3.jpg Quality Categorization]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/conventional-SDLC-vs-DevOps-vs-NoOps.adoc DevOps]] (Dev & Ops);
-
+*****[#brown]:*<b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_291.png Screaming architecture]]
+*<b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_273.png 2-Laws of S/W architecture]]
+*<b><i><color #black><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_175.png Scaffolding vs Design]]
+<b><i><color #black><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_75.png 1- Design pattern]]
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/integration-style.puml 2- Integration Style]]
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png 3- pattern]]
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_179.png 4- Anti-pattern]]
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_245.png Knowledge triangle]];
 ****[#darkorange] <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_283.png Mutability & Architecture]]
 ****[#darkorange] <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_256.png Architecture refactoring]] \n*<b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_512.png Module Refactoring]]
+
 ***[#green] <b><i><color #white><size:14>In Software Development we often say:
 ****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_138.png Capture requirements]]
 ====
