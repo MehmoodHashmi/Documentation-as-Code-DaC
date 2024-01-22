@@ -57,7 +57,7 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 ====
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_5.jpg 3-Levels of requirements]]
 <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_530.png Analysis & Design duration vs.]]
-<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_530.png Implementation duration]];
+<b><i><color #black><size:12> [[docs/3-programming-languages/Venkat-Subramaniam/images/img_530.png Over Engineering]];
 
 *****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_242.png Requirements Engineering Process Maturity Model]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_244.png CMMI version-2]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_439.png S/W Project Estimation (Robert C Martin)]]
@@ -189,7 +189,7 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 ****[#yellow] *<i><color #black><size:12><b>People with domain knowledge but no clue of Software design\n*<i><color #black><size:12>Too many in an organization
 ****[#yellow] *<i><color #black><size:12><b>People with no clue of domain knowledge but with knowledge the Software design\n*<i><color #black><size:12>Too many in an organization
 ****[#gold] *<i><color #black><size:18><b>People with domain knowledge & also knowledge of the Software design\n*<i><color #black><size:12>Very few in an organization
-*****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_396.png Types of Software Engineers]]
+*****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_396.png Types of Software Engineers]] \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_146.png Student, Intern, Professional]]
 **[#lightblue] <i><color #black><size:12>Parsimony\n*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 6- Rule of Parsimony]]
 ***[#green] <i><color #white><b><size:12>Absolute minimalism
 ****[#yellow] *<i><color #black><size:12><b>Write very few lines of code; Think does this really you need while writing code
@@ -225,7 +225,7 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_557.png What are critical Business Rules?]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_559.png Business Rules & Coincidence Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_560.png Part-2]]
 ==<i><color #black><size:16>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_537.png Inside-out]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_555.png Bottom-up]], & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_556.png BUFD]]** <color:yellow>(Low-level analysis & design)==
 *<i><color #black><size:16>**Inside-out:** approach is (1st <u>**analyze & design entities & use cases layer**)
-<i><color #black><b><size:16>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_558.png 1- Entities]], <size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_555.png (Bottom-up design)]]
+<i><color #black><b><size:16>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_558.png 1- Entities]], <size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_555.png (Bottom-up design)]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_530.png Over Engineering]]
 <i><color #brown><b><size:16>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_538.png 2- Use Cases]], <size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_561.png (Top-down vs- Bottom-up?)]] & [[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/use-case-2-0-overview.puml use-case 2.0]] or [[docs/1-Requirement-Engineering/VU-course/Event-Storming-technique.adoc Event Storming]] or etc.
 ==<i><color #black><size:16>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_555.png Outside-in]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_555.png Top-down]]** <color:blue>(High-level analysis & design)==
 *<i><color #black><size:16>**Outside-in:** approach (1st select right tools, integrations etc. for app development)

@@ -18,7 +18,7 @@ title =<i><b><u>Crafting High-Quality Code
 ***[#green] <b><i><color #white><size:12>SOLID Principles
 ****[#yellow] <i><color #black><size:12>Design principles for maintainable code
 **[#lightblue] <i><color #black><size:12>Best Practices
-***[#a] <b><i><color #white><size:12>Code Reviews
+***[#a] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Code-Review-you-said.puml Code Reviews]]
 ****[#yellow] <i><color #black><size:12>Peer evaluations for quality assurance
 ***[#a] <b><i><color #white><size:12>Unit Testing
 ****[#yellow] <i><color #black><size:12>Testing individual components
@@ -41,7 +41,7 @@ title =<i><b><u>Crafting High-Quality Code
 **[#gold] <i><color #black><size:12>Continuous Integration (CI)
 ***[#green] <b><i><color #white><size:12>Automated build & test workflows
 ***[#green] <b><i><color #white><size:12>Jenkins, GitLab CI/CD, etc.
-**[#lightblue] <i><color #black><size:12>Code Reviews
+**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Code-Review-you-said.puml Code Reviews]]
 ***[#green] <b><i><color #white><size:12>Collaborative feedback for improvement
 ***[#green] <b><i><color #white><size:12>Pull requests, code review tools
 @endmindmap
