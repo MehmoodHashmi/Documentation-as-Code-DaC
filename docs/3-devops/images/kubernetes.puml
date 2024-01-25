@@ -27,6 +27,7 @@ caption |<img:k8_architecture.png{scale=.65}>|<img:k8_architecture1.png{scale=.5
 ***[#lightblue] <i><size:12>kubelet
 ***[#lightblue] <i><size:12>kube-proxy
 **[#gold] <i><size:12>Addons
+***[#a] <i><size:16><b>[[docs/3-devops/devops-plantuml-mindmap/Crossplane-and-backstage(provision-infrastructure).puml Crossplane & Backstage to provision infrastructure]] is latest thing
 ***[#lightblue] <i><size:12>Dashboard
 ***[#lightblue] <i><size:12>DNS
 ***[#lightblue] <i><size:12>Ingress Controller
@@ -119,4 +120,6 @@ caption |<img:k8_architecture.png{scale=.65}>|<img:k8_architecture1.png{scale=.5
 ****[#yellow] <i><color #black><size:12><b>Continuous integration and deployment workflows.
 ***[#green] <b><i><color #white><size:12>Hybrid Cloud Management
 ****[#yellow] <i><color #black><size:12>Management of **applications** across <b>multiple clouds.
+
+
 @endmindmap

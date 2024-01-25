@@ -13,6 +13,7 @@ skinparam hyperlinkColor white
 ***[#green]:<i><color #white><size:12>**Writing code is easy. Writing good quality code is an entirely different story.** How can we measure quality of design? How do we know we're doing the
 <i><color #white><size:12>right set of things that will leads us to a <b>better design?;
 ****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Computational Thinking ]] \n*<i><color #black><size:12><b>[[docs/1-Requirement-Engineering/Abstract-Thinking.puml Abstract Thinking ]]
+*****[#darkorange] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Programming is part practical, & part theoretical]]
 
 **[#lightblue] <i><color #black><size:12>Code Vs Thought
 ***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_475.png Dr. Naveed Malik &]] \n<i><color #white><size:12><b>Bjarne Stroustrup
@@ -53,6 +54,11 @@ skinparam hyperlinkColor white
 <i><color #black><size:12>Such **thoughts** are my own self delusional or my own creations.
 *<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/inner-world-vs-outer-world.puml Source of thoughts:]]** The Job of **mind** is to create <b>thoughts/ideas.
 ** <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_513.png Source of thoughts != Creation of thoughts]]** Job of **mind** is to create <b>thoughts.
+|<#white><i><color #black><size:12><b>World here after =<color #green> Day of judgement (Qiyamut)|<#blue><i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_517.png The believe in life after death]]|
+*<i><color #black><size:12>There exist people who give higher precedence (or value) to **life after death** over this
+<i><color #black><size:12>**World (Duniya/outer world)** & these people are known as <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_563.png "Allah waly log"]]
+**<i><color #black><size:12>Tuqwa (Allah ka khof) & Duniya Akhrat ke khaite ha
+**<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=CLhHwVy5sZQ&list=LL&index=15&ab_channel=Let%27sExploreOurDeen The root cause of all evils]]
 ====
 *<i><color #black><size:12>**Code** is a **tool** through which you can **express** your **thoughts** about a <b>problem.
 *<i><color #black><size:12>The **moment** you 've better **design idea** the existing **source code** becomes
