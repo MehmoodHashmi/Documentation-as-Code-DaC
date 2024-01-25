@@ -16,7 +16,7 @@ skinparam hyperlinkColor white
 *****[#darkorange] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Programming is part practical, & part theoretical]]
 
 **[#lightblue] <i><color #black><size:12>Code Vs Thought
-***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_475.png Dr. Naveed Malik &]] \n<i><color #white><size:12><b>Bjarne Stroustrup
+***[#green] *<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_475.png Dr. Naveed Malik &]] \n*<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Bjarne Stroustrup]]
 ****[#yellow] <i><color #black><size:12>**Software failures** are failures of <b>understanding & imagination.
 
 *****[#a]:*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_137.png Tools of trade:]]** You need following tools in advance to <b>write, build, test & debug your programs.
@@ -253,11 +253,10 @@ skinparam hyperlinkColor white
 
 ****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_360.png Granularity, Unit of deployment & Unit of Reuse]] & [[docs/3-programming-languages/clean-architecture/How-to-Implement-Hexagonal-Architecture.puml Hexagonal Architecture: Structuring a project & the influence of granularity]]
 *<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_358.png A "good architecture protects" the majority of the "source code" from those changes. It "leaves" the "decoupling mode open" as an "option" so that]]
-<i><color #white><size:12><b>\t [[docs/3-programming-languages/Venkat-Subramaniam/images/img_358.png the "large deployments" can use "one mode", whereas "small deployments" can use another.]]
+|<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_358.png the "large deployments" can use "one mode", whereas "small deployments" can use another.]]|<#red><i><color #black><size:12><b>[[docs/3-programming-languages/architectural-characteristics/large-vs-small-Deployments.puml Large vs. small deployments & Deployment sizes]]|
 *<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_358.png What is the best decoupling mode to use? "Dealing" with "service boundaries" where none are needed is a waste of "effort", memory, & cycles.]]
 <i><color #white><size:12><b>\t And, yes, I know that the last two are cheap but the first one is not.
-**<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_358.png Conclusion: Decoupling mode of a system is one of those things that is likely to change with time.]]
-**<i><color #black><size:12><b>[[docs/3-programming-languages/architectural-characteristics/large-vs-small-Deployments.puml Large vs. small deployments & Deployment sizes]];
+**<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_358.png Conclusion: Decoupling mode of a system is one of those things that is likely to change with time.]];
 ****[#darkorange] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Distributed Architecture & Cloud apps]]
 *****[#a] *<i><color #black><size:12><b>[[docs/3-devops/images/kubernetes.puml "Kuberenetes cluster"]] is good for systems involving "syncrhronous communication" like e.g. "microservices"\n*<i><color #black><size:12><b>[[docs/cloud-computing/AWS-Cloud/serverless.puml "AWS lambda" (Serverless)]] is good in reactive systems involving "asynchronous communication" e.g. EDA
 ****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_258.png History of Components]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_429.png Heart of CBD]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_530.png CBD promotes black-box reuse]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_425.png More on "Components"]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_377.png Build Tools (Maven)]]
@@ -497,7 +496,7 @@ skinparam hyperlinkColor white
 ****[#yellow] <i><color #black><size:12>Really is **"cohesion", "Single Responsibility Principle" (SRP)** but at the <b>interface-level.
 *****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_531.png Explicit vs. Implicit Interface]]
 **[#lightblue] <i><color #black><size:12>When to apply these principles?
-***[#green] <i><color #white><b><size:18>2-Phases \n<i><color #white><b><size:18>of Design:
+***[#green] <i><color #white><b><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_544.png 2-Phases]] \n<i><color #white><b><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_544.png of Design:]]
 ****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_108.png Strategic Design:]]** very high-level design.
 *<i><color #black><size:12>Gives "direction & ideas" <b>to go to.
 *<i><color #black><size:12>**SOLID, YAGNI, DRY, & other principles** are used **little bit** during <b>strategic design.;
@@ -524,8 +523,8 @@ skinparam hyperlinkColor white
 *<b><i><color #black><size:12>[[docs/books/1-books-backlog/data-structure-and-algorithm/classes-vs-data-structures.puml Classes Vs. Data structures]] click me
 <img:images/img_44.png{scale=0.81}>
 ==<i><color #black><size:14><b>UML & BPMN==
-*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_174.png Class Associations]], Only use tools like [[a visual-paradigm]] if your system
-<i><color #black><size:12><b>has more than 50-classes.
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_174.png Class Associations]], Only use tools like [[a visual-paradigm]] if your system has more
+<i><color #black><size:12><b>than 50-classes.
 *<i><color #black><size:12><b>[[docs/2-uml/PlantUML/sequence-diagram/heart-of-sequence-diagram.puml Heart of Sequence diagram]]
 **<i><color #black><size:12><b>[[docs/2-uml/PlantUML/sequence-diagram/use-case-table-and-work-products.puml System Level Sequence Diagram (Use Case 2.0 & Work Products)]]
 **<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_211.png Sequence Diagram vs Use Case 2.0 vs Activity diagram]]
