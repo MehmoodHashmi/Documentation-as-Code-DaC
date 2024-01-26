@@ -97,7 +97,14 @@ title =<i><b><u><size:18>Asynchronous Programming in Java: Options to Choose fro
 ****<i><color #black><size:12><b>1- You can be asynchronous in your communication
 ****<i><color #black><size:12><b>2- You can benefit from back pressure
 |<#red><i><color #white><size:12><b>1- "Virtual-Thread" addresses the first problem (you can benefit from asynchronous communication)|
-|<#red><i><color #white><size:12><b>2- Hence, If you're using "FRP" for [[docs/3-programming-languages/Venkat-Subramaniam/Reactive-Data-Stream.puml "backpressure"]] there is till value in it.|;
+|<#red><i><color #white><size:12><b>2- Hence, If you're using "FRP" for [[docs/3-programming-languages/Venkat-Subramaniam/Reactive-Data-Stream.puml "backpressure"]] there is till value in it.|
+==|<b><i><color #black><size:12>Virtual-Thread are like Aspect Oriented Programming (AOP)|==
+*<i><color #black><size:12>Virtual-Thread are like Aspect Oriented Programming (AOP)
+<i><color #black><size:12>The reason I say this is you're able to separate your threading mechanism up here (on top)
+*<i><color #black><size:12>So **Implementation** is the **tactics,** your **threading** is your <b>strategy.
+*<i><color #black><size:12>Just like (AOP) I can use a regular "Executor service" & my code is "blocking" or I can
+<i><color #black><size:12>"Executor service" a "virtual thread" & the code doesn't
+<i><color #black><size:12>Know that it has been changed but it turns into "non-blocking". To me this is super powerful.;
 
 ***[#green] <b><i><color #white><size:12>Does & don'ts
 ****[#yellow] <i><color #black><size:12>Don't confuse <b>ExecutorService</b> with <b>pooling</b> they are not same
