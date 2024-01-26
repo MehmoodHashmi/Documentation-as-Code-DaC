@@ -92,8 +92,8 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 ****[#a] <i><color #black><size:13><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_251.png PowerPoint Architect]] \n*<i><color #black><size:13><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_431.png Ivory Tower]] \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_446.png Architect & Devloper]]
 *****[#yellow] <i><color #black><size:12><b>When we Say an Architect must code, the goal is not they should sit & code. Then why are we saying they should code? Because you want \n<i><color #black><size:12><b>them to get insight at the low levels so that when they make decisions at the higher levels, they are not limiting what you can do. Those \n<i><color #black><size:12><b>constraints their knowledge, visibility & understanding is what you count on. \n*<i>Doing **"Pair Programing"** with <b>developers!
 ****[#darkorange] *<i><color #black><size:15><b>No one cares if you write good code
-*****[#brown]:*<i><color #black><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png Does this code saves or makes money?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_559.png Answer-1]]
-*<i><color #black><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png Add value via buy/save more time for client]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_560.png Answer-2]];
+*****[#brown]:*<i><color #black><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png Does this code saves or makes money?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_559.png Answer-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_560.png 2]]
+*<i><color #black><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png Add value via buy/save more time for client]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_566.png Answer-3]];
 ******[#grey] <i><color #black><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png Education vs. Knowledge?]]
 **[#lightblue] <i><color #black><size:12><b>Two values of software
 ***[#green] <i><color #white><size:12><b>Behavioral value
@@ -190,7 +190,10 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 ****[#yellow] *<i><color #black><size:12><b>People with domain knowledge but no clue of Software design\n*<i><color #black><size:12>Too many in an organization
 ****[#yellow] *<i><color #black><size:12><b>People with no clue of domain knowledge but with knowledge the Software design\n*<i><color #black><size:12>Too many in an organization
 ****[#gold] *<i><color #black><size:18><b>People with domain knowledge & also knowledge of the Software design\n*<i><color #black><size:12>Very few in an organization
-*****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_396.png Types of Software Engineers]] \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_146.png Student, Intern, Professional]]
+
+*****[#a]:|<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_396.png Types of Software Engineers]]|<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_146.png Student, Intern, Professional]]|
+*<i><color #black><size:12><b>[[docs/1-business-analyst/client-management/software-house/images/img_2.png What is "People" of 3Ps?]];
+
 **[#lightblue] <i><color #black><size:12>Parsimony\n*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 6- Rule of Parsimony]]
 ***[#green] <i><color #white><b><size:12>Absolute minimalism
 ****[#yellow] *<i><color #black><size:12><b>Write very few lines of code; Think does this really you need while writing code
