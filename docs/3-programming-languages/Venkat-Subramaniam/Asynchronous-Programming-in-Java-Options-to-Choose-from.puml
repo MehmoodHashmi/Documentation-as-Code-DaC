@@ -104,7 +104,15 @@ title =<i><b><u><size:18>Asynchronous Programming in Java: Options to Choose fro
 *<i><color #black><size:12>So **Implementation** is the **tactics,** your **threading** is your <b>strategy.
 *<i><color #black><size:12>Just like (AOP) I can use a regular "Executor service" & my code is "blocking" or I can
 <i><color #black><size:12>"Executor service" a "virtual thread" & the code doesn't
-<i><color #black><size:12>Know that it has been changed but it turns into "non-blocking". To me this is super powerful.;
+<i><color #black><size:12>Know that it has been changed but it turns into "non-blocking". To me this is super powerful.
+==|<b><i><color #black><size:12>Virtual-Thread, Cloud Bill, & elasticity for scale or availability?|==
+<i><color #black><size:12>If you talke frameworks like spring the number of threads you can entertain just sky rockets. Which means that not only
+<i><color #black><size:12>you're able to give better scale for your application, you don't've to scree the environment to do that. Because in the
+<i><color #black><size:12>There is only so many threads you can've on a cpu (box). So, what do you do? Be elastic! So why do you want to be
+<i><color #black><size:12>elastic? **Do you want to be elastic for "scale"? Or Do you want to be elastic for "availability"?** You still want to be
+<i><color #black><size:12>**elastic** for availability. But to the extent you've to be elastic for availability is far less than the you've to be <b>elastic
+<i><color #black><size:12>for **scale.** But if yor are able to reduce the need for being **elastic** for **scale** then this is not only better for the <b>environment,
+<i><color #black><size:12>but also your boss doesn't've to send that <b>big money (amount or bill) to cloud services. ;
 
 ***[#green] <b><i><color #white><size:12>Does & don'ts
 ****[#yellow] <i><color #black><size:12>Don't confuse <b>ExecutorService</b> with <b>pooling</b> they are not same

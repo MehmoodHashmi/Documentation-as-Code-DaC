@@ -321,7 +321,7 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12>requires <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png recompilation & static linking]]
 *<i><color #black><size:12>"components" are delivered as <b>source code
 |<#blue><i><color #white><size:12>function calling is on "same" <b>processor & address space|;
-******[#yellow] <i><color #black><size:12><img:images/img_48.png> <img:images/img_53.jpg{scale=0.89}> <img:images/img_49.png{scale=0.72}>
+******[#yellow] |<img:images/img_48.png{scale=1.05}>|<img:images/img_53.jpg{scale=0.93}>|<img:images/img_49.png{scale=0.72}>|
 ****[#darkorange] <i><color #black><size:12>**2- Deployment**\n<i><color #black><size:12><b>component boundary
 *****[#a]:*<i><color #black><size:12>**Communication** through <b>function calling
 *<i><color #black><size:12>**Communication** is <b>fast & inexpensive
