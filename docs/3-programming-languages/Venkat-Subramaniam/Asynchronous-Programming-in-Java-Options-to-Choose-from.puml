@@ -27,7 +27,7 @@ title =<i><b><u><size:18>Asynchronous Programming in Java: Options to Choose fro
 ****[#yellow] <i><color #black><size:12><b>Fire & forget
 ****[#yellow]:<i><color #black><size:12><b>Asynchronous is "non-blocking" "request/call"
 * <i><color #black><size:12>**Non-blocking** means you don't want to block your "thread of execution" & "wait" for it to finish
-* <i><color #black><size:12>**Benefit of Non-blocking** is your thread becomes available to do other things
+* <i><color #black><size:12>**Benefit of Non-blocking** is your **"thread"** becomes available to do other things
 * <i><color #black><size:12><b>"Tasks:"</b>  are always "blocking". It has to wait & finish the next job but your thread becomes "non-blocking";
 ****[#yellow] <i><color #black><size:12><b>What does the thread do?
 ****[#yellow] <i><color #black><size:12><b>"Paradigm Shift"; Learning a different paradigm
@@ -90,13 +90,22 @@ title =<i><b><u><size:18>Asynchronous Programming in Java: Options to Choose fro
 ****[#yellow] <i><color #black><size:12>When you 've mounting & unmouting <b>"blocking" operations
 ****[#yellow] <i><color #black><size:12><b>Benefit:</b> "Thread" is not <b>"blocked & waiting"</b> it unmounts & goes on
 ****[#yellow] <i><color #black><size:12><b>Benefit:</b> with few no. of "Threads" you can get same <b>"Throughput"</b> & more <b>scalability
+****[#yellow]:<i><color #black><size:12><b>Venkat Perspective:</b> **"Reactive programming"** scales your **services,** while **"virtual threads"** scale your <b>servers
+*<i><color #black><size:12>People say **"virtual threads"** will kill <b>reactive programming
+**<i><color #black><size:12><b>Venkat take on it</b> I tend to differ from this idea! <b>Reason, Why?
+***<i><color #black><size:12><b>2-Reasons: To Me FRP uses to distinctive benefits:
+****<i><color #black><size:12><b>1- You can be asynchronous in your communication
+****<i><color #black><size:12><b>2- You can benefit from back pressure
+|<#red><i><color #white><size:12><b>1- "Virtual-Thread" addresses the first problem (you can benefit from asynchronous communication)|
+|<#red><i><color #white><size:12><b>2- Hence, If you're using "FRP" for [[docs/3-programming-languages/Venkat-Subramaniam/Reactive-Data-Stream.puml "backpressure"]] there is till value in it.|;
+
 ***[#green] <b><i><color #white><size:12>Does & don'ts
 ****[#yellow] <i><color #black><size:12>Don't confuse <b>ExecutorService</b> with <b>pooling</b> they are not same
 ****[#yellow] <i><color #black><size:12>It makes no sense to <b>pool</b> <b>"virtual threads"</b>, please don't
 ****[#yellow]:<i><color #black><size:12>Somebody says I need pool of virtual threads. Ask Why?
 *<i><color #black><size:12>**Virtual Threads** are like **qtips;** use them & throw around.;
 ****[#yellow] <i><color #black><size:12>Learn what <b>functions are mounting & unmounting</b> what are not. Otherwise you will not get the <b>"performance"</b> you are expecting
-****[#yellow] <i><color #black><size:12>If you 've computationaly intensive operations/tasks then there is no use of giving it <b>"virtual threads"</b> because once you assign it \n<i><color #black><size:12>mounts & holds on to it & also the <b>overhead of mounting and unmounting
+****[#yellow] <i><color #black><size:12>If you've **computationally** intensive **operations/tasks** then there is no use of giving it <b>"virtual threads"</b> because once you assign; it \n<i><color #black><size:12>mounts & holds on to it & also the <b>overhead of mounting and unmounting
 
 **[#lightblue] <i><color #blac><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/Spearheading-the-future-of-programming-2023.puml Programming Models]]
 ***[#green] <b><i><color #white><size:12>Imperative ----to---> functional ----to----> imperative
