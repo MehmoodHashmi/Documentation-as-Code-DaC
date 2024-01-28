@@ -115,13 +115,13 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 <i><color #black><size:12><b>2- Sale value
 ==<i><color #black><size:14><b>After the rise of [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Modern Machine Learning]] ([[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Deep-Learning.puml & Deep Learning]])==
 *<i><color #black><size:12><b>Data [[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml (Big Data)]] has "value".;
-**[#lightblue] <i><color #black><size:12>The risk of not evolving
-***[#green] <b><i><color #white><size:12>Relevance
+**[#lightblue] <i><color #black><size:12>[[docs/1-business-analyst/client-management/software-house/Software-House-Processes.puml The risk of not evolving]]
+***[#green] <b><i><color #white><size:12>[[docs/1-business-analyst/client-management/software-house/Software-House-Processes.puml Relevance]]
 ****[#gold]:*<i><color #black><size:12>If not evolved may become obsolete & irrelevant.
 <i><color #black><size:12>**1-** Team is held hosted by the architects, architect says you will develop it because we architected it.
 <i><color #black><size:12>**2-** System does one thing & architecture diagrams on the walls does completely different things, they
 <i><color #black><size:12>deliver a "working system" which is not in **sync** with its <b>architecture;
-***[#green] <b><i><color #white><size:12>Governance
+***[#green] <b><i><color #white><size:12>[[docs/1-business-analyst/client-management/software-house/Software-House-Processes.puml Governance]]
 ****[#gold] *<i><color #black><size:12>**Architecture committee,** slows down the process & "initial architecture" draft becomes useless.
 **[#lightblue] <i><color #black><size:12>The risk of  evolving
 ***[#green] <b><i><color #white><size:12>What if we can't \n<b><i><color #white><size:12>support a feature?
