@@ -3,7 +3,11 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 * <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers by Venkat Subramaniam]]
 !theme hacker
 
-*[#darkblue] <color:white><i>Towards an Evolutionary\n<color:white><i>Architecture
+*[#darkblue]:<color:white><i>Towards an Evolutionary Architecture
+|<img:images/img_6.jpg{scale=.4}>|
+|<img:images/img_568.png{scale=.33}>|
+|<img:images/img_567.png{scale=.396}>|;
+
 **[#lightblue] <i><color #black><size:12>What's architecture? [[docs/3-programming-languages/Venkat-Subramaniam/images/img_139.png click me]]\n<img:images/img_139.png{scale=.4}>
 ***[#green] <i><color #white><b><size:12>Definition
 ****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/app-vs-network-structure.puml Shape of the major structure of a system or topology. architecture is a "view" of a system.]] click me
