@@ -12,8 +12,8 @@ skinparam hyperlinkColor white
 **[#lightblue] <i><color #black><size:12>Introduction
 ***[#green]:<i><color #white><size:12>**Writing code is easy. Writing good quality code is an entirely different story.** How can we measure quality of design? How do we know we're doing the
 <i><color #white><size:12>right set of things that will leads us to a <b>better design?;
-****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Computational Thinking ]] \n*<i><color #black><size:12><b>[[docs/1-Requirement-Engineering/Abstract-Thinking.puml Abstract Thinking ]]
-*****[#darkorange] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Programming is part practical, & part theoretical]]
+****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Computational Thinking]] \n*<i><color #black><size:12><b>[[docs/1-Requirement-Engineering/Abstract-Thinking.puml Abstract Thinking]]
+*****[#darkorange] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Programming is part practical, & part theoretical]] \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_285.png Attitude Matters Too]] Unix philosophy
 
 **[#lightblue] <i><color #black><size:12>Code Vs Thought
 ***[#green] *<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_475.png Dr. Naveed Malik &]] \n*<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Bjarne Stroustrup]]
@@ -67,7 +67,7 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=wfGhuv3BlTI&list=LL&index=11&pp=gAQBiAQB&ab_channel=SystemsInnovation Standards of Thinking]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_515.png Systematic Thinking Vs. Systematic Principle]];
 
 *****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_134.png Grady Booch: good vs bad programmer]]
-*<i><color #black><size:12><b>Robert C Martin: [[docs/3-programming-languages/Venkat-Subramaniam/images/img_146.png It takes "at least 15-years" in "software field" to become a "senior". Till then you should "learn" from other]] seniors. click me
+*<i><color #black><size:12><b>Robert C Martin: [[docs/3-programming-languages/Venkat-Subramaniam/images/img_146.png It takes "at least 15-years" in "software field" to become a "senior". Till then you should "learn" from other seniors.]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_135.png Robert C Martin: Is it possible, early on, to tell whether someone can or cannot become a programmer?]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_136.png Robert C Martin: Often "developers" start getting a feeling of power, superiority, become condescending.]]
 <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_136.png How do you not become arrogant, even though you achieve a lot?]];

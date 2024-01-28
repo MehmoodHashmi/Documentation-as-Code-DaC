@@ -1,7 +1,7 @@
 @startmindmap
 title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_374.png>|<img:images/img_375.png{scale=.91}>|\n<i><b><u><size:18>Instructor Jeffrey Richter is Microsoft Most Valuable Professional (MVP)
-* ===<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers by Venkat Subramaniam]]
-** ===<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Designing-Reactive-Systems.puml Designing Reactive Systems by Venkat Subramaniam]]
+* <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers by Venkat Subramaniam]]
+** <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Designing-Reactive-Systems.puml Designing Reactive Systems by Venkat Subramaniam]]
 !theme hacker
 
 *[#darkblue] <color:white><i>Architecting Distributed\n<color:white><i>Cloud Apps

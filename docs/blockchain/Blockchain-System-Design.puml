@@ -60,7 +60,7 @@ title =<i><u>Blockchain System Design
 *****[#yellow] <i><size:12>Plutus
 *****[#yellow] <i><size:12>Marlowe
 
-**[#lightblue] <i><size:18>__**Blockchain Networks Type:**__\n<img:images/img_1.png{scale=.7}>
+**[#lightblue] <i><size:18>__**Blockchain Networks Type:**__\n<img:images/img_1.png{scale=.8}>
 ***[#green]:<i><size:12><color #white>**Permissionless network:** allows access to any user to pseudo-anonymously join the network and become a node, without
 <i><size:12><color #white>any restrictions. This particular kind of network is primarily used to exchange and mine cryptocurrencies.;
 
