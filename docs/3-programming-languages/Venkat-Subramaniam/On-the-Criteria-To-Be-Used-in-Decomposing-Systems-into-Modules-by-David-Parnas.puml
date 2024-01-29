@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><b><u>"On the Criteria To Be Used in Decomposing Systems into Modules" by David Parnas
+title =<i><b><u><size:18>"On the Criteria To Be Used in Decomposing Systems into Modules" by David Parnas
 caption = <img:images/img_279.png{scale=.93}>
 *:<i><color #black><size:12>Certainly! A good decomposition refers to breaking down a system into manageable, understandable, and cohesive parts or modules. It involves organizing and structuring the system in a way that simplifies complexity, enhances
 <i><color #black><size:12>maintainability, and promotes reusability. On the other hand, a hierarchical structure refers to organizing these parts or modules in a hierarchical manner, often creating a tree-like structure with parent-child relationships.

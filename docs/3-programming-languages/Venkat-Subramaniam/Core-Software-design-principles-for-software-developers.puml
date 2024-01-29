@@ -364,7 +364,9 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12>local processes can be <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png statically or dynamically linked]] click me
 *<i><color #yellow><size:12>**"Components"** are delivered in <b>binary or .Jar, DLL</b> or some equivalent form.
 |<#blue><i><color #yellow><size:12>Processes execute on "same" <b>processor or multi-core but "separate address space". [[docs/books/1-books-backlog/operating-system/operating-system.puml click me]]|;
-******[#a] *<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_253.png "Modularity" can be achieved without resorting (alternating) \nto "process isolation" (separate address space).]] \n*<i><color #white><size:12><b>[[docs/3-programming-languages/JVM-ecosystem/OSGi-Framework.puml OSGi-Framework a "dynamic module system" Vs. Java-9 module system]]
+******[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_253.png "Modularity" can be achieved without resorting (alternating) to]]
+<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_253.png "process isolation" (separate address space).]]
+*<i><color #white><size:12><b>[[docs/3-programming-languages/JVM-ecosystem/OSGi-Framework.puml OSGi-Framework a "dynamic module system" Vs. Java-9 module system]];
 
 ****[#darkorange] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_246.png 5- Services Boundary:]]
 *****[#yellow]:*<i><color #black><size:12>Service is a <b>process

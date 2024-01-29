@@ -19,7 +19,8 @@ title =<i><b><u><size:18>Spearheading the future of programming \n<i>Dr.Venkat S
 <b><i><color #black><size:12>[[docs/1-Requirement-Engineering/Software-Limitations.puml Software Limitations]]
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_239.png What is Physics of Software?]];
 
-******[#black]:<i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Difference-Between-Computer-Science-and-Engineering.puml Difference between Computer science & Engineering]]
+******[#black]:|<#brown><i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Difference-Between-Computer-Science-and-Engineering.puml Difference between Computer science & Engineering]]|
+|<#grey><i><size:12><b>[[docs/books/1-books-backlog/software-testing/images/img_6.png Software Development vs. Mathematics vs. Science]]|
 <i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Non-Linear-Behavior-in-Programming.puml Non-linear behavior in Programming & interpolation]]
 <i><color #black><size:12><b>[[https://www.youtube.com/watch?v=i-ladOjo1QA&list=LL&index=13&t=9s Complexity Theory Overview 10-min]];
 
