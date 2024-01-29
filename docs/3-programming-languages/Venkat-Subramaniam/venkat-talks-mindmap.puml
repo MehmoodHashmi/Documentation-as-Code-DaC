@@ -9,10 +9,20 @@ title =<i><b><u><size:18>Venkat Subramaniam Talks Mindmap \n<i>[[docs/1-business
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Engineering-Productivity-and-Learning.puml Engineering Productivity &]]
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Engineering-Productivity-and-Learning.puml Learning]];
 
-***[#green] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]]
+***[#green]:<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]]
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Is "Application's Architecture"]]
+**<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Is Low Level Design]]
+***<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Is Tactical Vs. Strategic Design]]
+***<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml YAGNI & KISS Principle]];
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Qualities-of-good-architect.puml Qualities of good-architect]]
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Designing-Reactive-Systems.puml Designing Reactive Systems]]
-****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Architecting Distributed Cloud Apps]]
+
+****[#a]:<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Architecting Distributed Cloud Apps]]
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Is Application's "Network Topology"]]
+***<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Is High-Level "System Design"]]
+**<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Synonym with "System Design"]]
+**<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Cost & Infra Optimization]];
+
 *****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Versioning HTTP APIs]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/webservice.puml Webservices]] can be:
 **<b><i><color #black><size:12>1- Synchronous (blocking) e.g. RESTful
