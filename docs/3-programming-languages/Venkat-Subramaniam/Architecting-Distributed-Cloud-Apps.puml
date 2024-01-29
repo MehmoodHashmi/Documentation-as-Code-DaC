@@ -125,7 +125,7 @@ title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_
 ***[#green] <i><color #white><b><size:12>[[docs/books/1-books-backlog/DBMS/8-Fallacies-of-Distributed-Systems.puml 8 Fallacies of Distributed Computing]]
 ***[#green] <i><color #white><b><size:12>Service Endpoints
 ***[#green] <i><color #white><b><size:12>Proxies
-****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_376.jpg proxy vs reverse proxy]]
+****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_376.jpg Forward vs. Reverse Proxy]]
 ***[#green] <i><color #white><b><size:12>Putting it all together
 ***[#green] <i><color #white><b><size:12>Orchestration & Load Balancing
 ***[#green] <i><color #white><b><size:12>Connecting Microservices

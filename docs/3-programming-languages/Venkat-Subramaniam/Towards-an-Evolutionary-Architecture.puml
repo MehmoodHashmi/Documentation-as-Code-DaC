@@ -4,6 +4,11 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 !theme hacker
 
 *[#darkblue]:<color:white><i>Towards an Evolutionary Architecture
+<color:white><i><size:12>Following are on Thought-Works Tech-Radar:
+*<color:white><i><size:12>Evolutionary Architecture "Adapt"(since 2012)
+**<color:white><i><size:12>Is related to "Application Architecture"
+*<color:white><i><size:12>Nowadays System Design "Adapt"(In 2024)
+**<color:white><i><size:12>Is related to Application's "Network Topology"
 |<img:images/img_6.jpg{scale=.4}>|
 |<img:images/img_568.png{scale=.33}>|
 |<img:images/img_567.png{scale=.396}>|;
@@ -50,7 +55,8 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 *<b><i><color #black><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_175.png Scaffolding vs Design]]
 <b><i><color #black><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_75.png 1- Design pattern]]
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/integration-style.puml 2- Integration Style]]
-<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png 3- pattern]]
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png 3- Patterns]]
+*<b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png Tecnical vs. Domain Partition]]
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_179.png 4- Anti-pattern]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_245.png Knowledge triangle]];
 ****[#darkorange] <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_283.png Mutability & Architecture]]
@@ -86,7 +92,8 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 |<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Identification-of-a-use-case.puml Identification of a Use Case]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_355.png Use Case 2.0 Test Cases]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_356.png Principles of Use Case 2.0, activities for (iterative or incremental) development]]|<#red><b><i>[[docs/3-programming-languages/clean-architecture/images/Screenshot_33.png Use-Case Templates]]|
 |<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/BDD-Vs-TDD.drawio.png BDD vs. TDD Part-1]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_427.png BDD Part-2 Naveen-Automation-Lab]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_426.png TDD vs. BDD vs ATDD naveen-automation-lab]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/ATDD-vs-TDD-robert-c-martin.drawio.png TDD vs. BDD vs. ATDD Robert C Martin]]|<#black><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_525.png Use-Case Vs. CRUD]]|
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_543.png Some useful models for representing certain types of system information]]
-|<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_564.png Process vs. Scenario vs. Step vs. Method]]|<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_565.png Management Vs CRUD operations on an Entity]]|;
+|<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_564.png Process vs. Scenario vs. Step vs. Method]]|<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_565.png Management Vs CRUD operations on an Entity]]|<b><i><color #black><size:12>[[docs/1-Requirement-Engineering/reuse-oriented-software-engineering.puml Reuse-Oriented software engineering]]|;
+
 ****[#yellow] <i><color #black><size:12>Observer effect
 *****[#yellow] *<i><color #black><size:12>Does client's problem requires research? Or did he asked for doing research? <b>If yes, then requires more cost & time \n*<i><color #black><size:12>Providing solution to a problem without doing research & after research are two different processes
 ****[#black] *<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Programming If you want to build what your customers wanted, you will]] <b>"fail".\n*<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Programming You need to build what your customers still want.]]
