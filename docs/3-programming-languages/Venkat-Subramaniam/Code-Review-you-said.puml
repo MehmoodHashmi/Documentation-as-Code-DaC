@@ -1,6 +1,5 @@
 @startmindmap
-
-title =<i><b><u>Code Review, You Said?
+title =<i><b><u><size:18>Code Review, You Said?
 !theme hacker
 
 *[#darkblue] <i><color #white>Code Review
@@ -48,8 +47,7 @@ title =<i><b><u>Code Review, You Said?
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_355.png Does it 've a good structure?]]
 |<i><color #black><size:12>Do "Tests" tell the **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_504.png story]]** of <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_504.png Design Evolution?]] |<#red><b><i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_239.png Dr. Naveed Malik Advice Part-1]], <b><i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_475.png Part-2]]|
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_355.png Are there missing "Tests"?]];
-*******[#darkorange]:
-==<i><color #black><size:12><b>When to review?==
+*******[#darkorange]:==<i><color #black><size:12><b>When to review?==
 *<i><color #black><size:12><b>When should we ask for review?
 |<img:images/img_505.png{scale=.5}>|
 *<i><color #black><size:12><b>Threat Driven Development (TDD), When Manager said do review

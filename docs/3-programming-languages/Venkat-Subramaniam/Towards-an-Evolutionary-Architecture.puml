@@ -16,7 +16,12 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 |<img:images/img_568.png{scale=.33}>|
 |<img:images/img_567.png{scale=.396}>|;
 
-**[#lightblue] <i><color #black><size:12>What's architecture? [[docs/3-programming-languages/Venkat-Subramaniam/images/img_139.png click me]]\n<img:images/img_139.png{scale=.4}>
+**[#lightblue]:<i><color #black><size:12>What's architecture? [[docs/3-programming-languages/Venkat-Subramaniam/images/img_139.png click me]]
+<img:images/img_139.png{scale=.4}>
+<i><color #black><size:12>Standard Template used in Countries
+*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_571.png ADD in Russia]]
+*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_571.png Arch42 in Germany]];
+
 ***[#green] <i><color #white><b><size:12>Definition
 ****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/app-vs-network-structure.puml Shape of the major structure of a system or topology. architecture is a "view" of a system.]] click me
 ****[#yellow]:<i><color #black><size:12>**Goal of architecture:** Minimize the **human resources** required to **build & maintain** "software system".
