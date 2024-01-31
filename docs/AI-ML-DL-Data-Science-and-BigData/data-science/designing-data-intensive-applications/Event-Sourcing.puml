@@ -1,45 +1,45 @@
 @startmindmap
-title =<b><u><i> Event Sourcing
+title =<b><u><i><size:18>Event Sourcing
 !theme hacker
 
 
 *[#darkblue] <i>Event Sourcing
-**[#lightblue] <i><color #blac><size:14>Definition
-***[#green] <b><i><color #white><size:14>Persistence of a system's state changes as a sequence of events.
-**[#lightblue] <i><color #blac><size:14>Characteristics
-***[#green] <b><i><color #white><size:14>Immutable Events
-****[#yellow] <i><color #black><size:14>Recorded events are never changed or deleted.
-***[#green] <b><i><color #white><size:14>State Reconstruction
-****[#yellow] <i><color #black><size:14>System state is derived from stored events.
-***[#green] <b><i><color #white><size:14>Time Sequencing
-****[#yellow] <i><color #black><size:14>Events are ordered by occurrence time.
-***[#green] <b><i><color #white><size:14>Full Audit Trail
-****[#yellow] <i><color #black><size:14>Complete history of state changes is available.
-**[#lightblue] <i><color #blac><size:14>Advantages
-***[#green] <b><i><color #white><size:14>Reconstructing State
-****[#yellow] <i><color #black><size:14>System state can be rebuilt at any point in time.
-***[#green] <b><i><color #white><size:14>Decoupling State and Behavior
-****[#yellow] <i><color #black><size:14>Separation of state storage from business logic.
-***[#green] <b><i><color #white><size:14>Auditability and Compliance
-****[#yellow] <i><color #black><size:14>Full traceability and audit trails for compliance needs.
-***[#green] <b><i><color #white><size:14>Supporting Multiple Views
-****[#yellow] <i><color #black><size:14>Events can be replayed to create different projections.
-**[#lightblue] <i><color #blac><size:14>Implementation
-***[#green] <b><i><color #white><size:14>Event Store
-****[#yellow] <i><color #black><size:14>Database storing immutable events.
-***[#green] <b><i><color #white><size:14>Projections
-****[#yellow] <i><color #black><size:14>Derived views based on replaying events.
-***[#green] <b><i><color #white><size:14>Command Handlers
-****[#yellow] <i><color #black><size:14>Processes commands to generate events.
-***[#green] <b><i><color #white><size:14>Event Handlers
-****[#yellow] <i><color #black><size:14>React to events to update system state.
-**[#lightblue] <i><color #blac><size:14>Challenges
-***[#green] <b><i><color #white><size:14>Complexity
-****[#yellow] <i><color #black><size:14>Understanding and managing event flows.
-***[#green] <b><i><color #white><size:14>Scalability
-****[#yellow] <i><color #black><size:14>Handling large event volumes efficiently.
-***[#green] <b><i><color #white><size:14>Versioning and Evolution
-****[#yellow] <i><color #black><size:14>Handling changes in event structure over time.
-***[#green] <b><i><color #white><size:14>Eventual Consistency
-****[#yellow] <i><color #black><size:14>Achieving consistency across multiple projections.
+**[#lightblue] <i><color #blac><size:12>Definition
+***[#green] <b><i><color #white><size:12>Persistence of a system's state changes as a sequence of events.
+**[#lightblue] <i><color #blac><size:12>Characteristics
+***[#green] <b><i><color #white><size:12>Immutable Events
+****[#yellow] <i><color #black><size:12>Recorded events are never changed or deleted.
+***[#green] <b><i><color #white><size:12>State Reconstruction
+****[#yellow] <i><color #black><size:12>System state is derived from stored events.
+***[#green] <b><i><color #white><size:12>Time Sequencing
+****[#yellow] <i><color #black><size:12>Events are ordered by occurrence time.
+***[#green] <b><i><color #white><size:12>Full Audit Trail
+****[#yellow] <i><color #black><size:12>Complete history of state changes is available.
+**[#lightblue] <i><color #blac><size:12>Advantages
+***[#green] <b><i><color #white><size:12>Reconstructing State
+****[#yellow] <i><color #black><size:12>System state can be rebuilt at any point in time.
+***[#green] <b><i><color #white><size:12>Decoupling State and Behavior
+****[#yellow] <i><color #black><size:12>Separation of state storage from business logic.
+***[#green] <b><i><color #white><size:12>Auditability and Compliance
+****[#yellow] <i><color #black><size:12>Full traceability and audit trails for compliance needs.
+***[#green] <b><i><color #white><size:12>Supporting Multiple Views
+****[#yellow] <i><color #black><size:12>Events can be replayed to create different projections.
+**[#lightblue] <i><color #blac><size:12>Implementation
+***[#green] <b><i><color #white><size:12>Event Store
+****[#yellow] <i><color #black><size:12>Database storing immutable events.
+***[#green] <b><i><color #white><size:12>Projections
+****[#yellow] <i><color #black><size:12>Derived views based on replaying events.
+***[#green] <b><i><color #white><size:12>Command Handlers
+****[#yellow] <i><color #black><size:12>Processes commands to generate events.
+***[#green] <b><i><color #white><size:12>Event Handlers
+****[#yellow] <i><color #black><size:12>React to events to update system state.
+**[#lightblue] <i><color #blac><size:12>Challenges
+***[#green] <b><i><color #white><size:12>Complexity
+****[#yellow] <i><color #black><size:12>Understanding and managing event flows.
+***[#green] <b><i><color #white><size:12>Scalability
+****[#yellow] <i><color #black><size:12>Handling large event volumes efficiently.
+***[#green] <b><i><color #white><size:12>Versioning and Evolution
+****[#yellow] <i><color #black><size:12>Handling changes in event structure over time.
+***[#green] <b><i><color #white><size:12>Eventual Consistency
+****[#yellow] <i><color #black><size:12>Achieving consistency across multiple projections.
 @endmindmap
