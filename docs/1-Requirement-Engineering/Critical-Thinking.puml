@@ -1,39 +1,36 @@
 @startmindmap
-title = "This mindmap outlines what <color #118888>critical thinking</color> is, why it's important, key skills involved in critical thinking, and strategies for improving critical thinking. The key skills include\n analysis, interpretation, inference, evaluation, and explanation. The mindmap suggests strategies such as questioning assumptions, evaluating evidence and sources, considering different perspectives, \nlooking for patterns and relationships, and being aware of biases and fallacies.
+title =<i><b><u><size:18>Critical Thinking
+!theme hacker
 
-
-
-
-
-* **Critical Thinking**
-** What is it?
-*** Objective analysis
-*** Evaluating arguments and evidence
-*** Considering different perspectives
-** Why is it important?
-*** Effective decision-making
-*** Problem-solving
-*** Avoiding biases and fallacies
-** Key skills
-*** Analysis
-**** Breaking down complex problems
-**** Identifying patterns and relationships
-*** Interpretation
-**** Understanding and explaining information
-**** Recognizing implications and consequences
-*** Inference
-**** Drawing conclusions based on evidence
-**** Identifying assumptions and implications
-*** Evaluation
-**** Assessing arguments and evidence
-**** Recognizing biases and fallacies
-*** Explanation
-**** Presenting ideas clearly and logically
-**** Providing reasons and evidence to support claims
-** Strategies for improving critical thinking
-*** Question assumptions
-*** Evaluate evidence and sources
-*** Consider different perspectives
-*** Look for patterns and relationships
-*** Be aware of biases and fallacies
+*[#darkblue] <i><color #white>**Critical Thinking**
+**[#lightblue] <i><color #black><size:12>What is it?
+***[#green] <b><i><color #white><size:12>"Objective" analysis
+***[#green] <b><i><color #white><size:12>Evaluating arguments and evidence
+***[#green] <b><i><color #white><size:12>Considering different perspectives
+**[#lightblue] <i><color #black><size:12>Why is it important?
+***[#green] <b><i><color #white><size:12>Effective decision-making
+***[#green] <b><i><color #white><size:12>Problem-solving
+***[#green] <b><i><color #white><size:12>Avoiding biases and fallacies
+**[#lightblue] <i><color #black><size:12>Key skills
+***[#green] <b><i><color #white><size:12>Analysis
+****[#yellow] <i><color #black><size:12>Breaking down complex problems
+****[#yellow] <i><color #black><size:12>Identifying patterns and relationships
+***[#green] <b><i><color #white><size:12>Interpretation
+****[#yellow] <i><color #black><size:12>Understanding and explaining information
+****[#yellow] <i><color #black><size:12>Recognizing implications and consequences
+***[#green] <b><i><color #white><size:12>Inference
+****[#yellow] <i><color #black><size:12>Drawing conclusions based on evidence
+****[#yellow] <i><color #black><size:12>Identifying assumptions and implications
+***[#green] <b><i><color #white><size:12>Evaluation
+****[#yellow] <i><color #black><size:12>Assessing arguments and evidence
+****[#yellow] <i><color #black><size:12>Recognizing biases and fallacies
+***[#green] <b><i><color #white><size:12>Explanation
+****[#yellow] <i><color #black><size:12>Presenting ideas clearly and logically
+****[#yellow] <i><color #black><size:12>Providing reasons and evidence to support claims
+**[#lightblue] <i><color #black><size:12>Strategies for improving critical thinking
+***[#green] <b><i><color #white><size:12>Question "assumptions"
+***[#green] <b><i><color #white><size:12>Evaluate "evidence and sources"
+***[#green] <b><i><color #white><size:12>Consider different "perspectives"
+***[#green] <b><i><color #white><size:12>Look for "patterns and relationships"
+***[#green] <b><i><color #white><size:12>Be aware of "biases and fallacies"
 @endmindmap
