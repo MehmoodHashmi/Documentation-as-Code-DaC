@@ -9,15 +9,15 @@ caption <img:images/image-2023-02-20-18-57-28-106.png{scale=.66}>
 |<img:images/img_470.png{scale=.94}>|
 |<img:images/img_469.png{scale=.96}>|
 |<img:images/img_471.png{scale=.838}>|;
-**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png Front-end]]
-***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png User Interface]]
+**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png Front-end]] \n*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_574.png DDD]]
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png User Interface]] \n*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_574.png DDD]]
 ****[#a] <i><color #white><b><size:12>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/UI-UX.puml UI/UX mindmap]]
 ***[#green] <b><i><color #white><size:12>Client-side Logic
-***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png UI Components]]
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png UI Components]] \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_574.png DDD]]
 ****[#yellow] <i><color #black><size:12>Forms
 ****[#yellow] <i><color #black><size:12>Buttons
 ****[#yellow] <i><color #black><size:12>Input Fields
-**[#lightblue] <i><color #black><size:12>Back-end
+**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.jpg Back-end]]
 ***[#green] <b><i><color #white><size:12>Server-side Logic
 ***[#green] <b><i><color #white><size:12>Database
 ****[#yellow] <i><color #black><size:12>SQL Database
