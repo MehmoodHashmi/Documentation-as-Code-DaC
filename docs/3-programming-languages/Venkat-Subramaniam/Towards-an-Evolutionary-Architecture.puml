@@ -65,6 +65,8 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 *<b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_8.jpg Technical vs. Domain Partition]]
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_179.png 4- Anti-pattern]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_245.png Knowledge triangle]];
+******[#a]:|<#black><b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_575.png Split Code by features not layers]]|<#blue><b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.jpg Explicit Architecture]]|<#red><b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_8.jpg Technical vs Domain Partition]]|
+<b><i><color #black><size:10>[[a Independent Develop-ability vs Deploy-ability]];
 ****[#darkorange] <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_283.png Mutability & Architecture]]
 ****[#darkorange] <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_256.png Architecture refactoring]] \n*<b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_512.png Module Refactoring]]
 
