@@ -502,3 +502,49 @@ The passage highlights the distinction between arts (funoon) and sciences, parti
 - While scientists adhere to rigid laws, social scientists navigate a realm of interpretative flexibility, subjectivity, and adaptability based on changing circumstances.
 
 In summary, the passage underscores the nuanced differences between the rigid laws of physical sciences and the interpretative, context-dependent nature of social sciences, particularly in the realm of political science and arts. It highlights the need for a different mindset when approaching these diverse fields of study.
+
+.*Do you believe that Google, Meta, Uber, and Airbnb put almost all of their code in one repository?*
+
+This practice is called a *#monorepo.#*
+
+#*_Monorepo vs. Microrepo._*# Which is the best? Why do different companies choose different options?
+
+*Monorepo isn't new;* Linux and Windows were both created using Monorepo. To improve scalability and build speed, Google developed its internal dedicated toolchain to scale it faster and strict coding quality standards to keep it consistent.
+
+Amazon and Netflix are major ambassadors of the Microservice philosophy. This approach naturally separates the service code into separate repositories. It scales faster but can lead to governance pain points later on.
+
+Within Monorepo, each service is a folder, and every folder has a BUILD config and OWNERS permission control. Every service member is responsible for their own folder.
+
+On the other hand, in Microrepo, each service is responsible for its repository, with the build config and permissions typically set for the entire repository.
+
+In Monorepo, dependencies are shared across the entire codebase regardless of your business, so when there's a version upgrade, every codebase upgrades their version.
+
+#*_In Microrepo,_*# dependencies are controlled within each repository. Businesses choose when to upgrade their versions based on their own schedules.
+
+Monorepo has a standard for check-ins. Google's code review process is famously known for setting a high bar, ensuring a coherent quality standard for Monorepo, regardless of the business.
+
+Microrepo can either set their own standard or adopt a shared standard by incorporating best practices. It can scale faster for business, but the code quality might be a bit different.
+
+Google engineers built Bazel, and Meta built Buck. There are other open-source tools available, including Nix, Lerna, and others.
+
+Over the years, Microrepo has had more supported tools, including Maven and Gradle for Java, NPM for NodeJS, and CMake for C/C++, among others.
+
+Over to you: Which option do you think is better? Which code repository strategy does your company use?
+
+.The concepts of Monorepo/Microrepo and Monolith/Microservices share similarities in terms of their overarching principles, but they refer to different aspects of software development.
+
+1. **#_Monorepo vs. Monolith:_#**
+- **Monorepo (Monolithic Repository):** A monorepo refers to having a single repository that contains the source code of multiple projects or components. These projects might be interdependent and share common libraries.
+- **Monolith (Monolithic Architecture):** A monolith refers to a single, unified software application where all the components are tightly integrated. In a monolith, the entire application is typically deployed as a single unit.
+
+2. **#_Microrepo vs. Microservices:_#**
+- **Microrepo (Microservices Repository):** The term "microrepo" is less commonly used, but it could be interpreted as having multiple repositories, each containing a microservice or a small, independent component.
+- **Microservices (Microservices Architecture):** Microservices involve breaking down a software application into small, independent services that communicate with each other. Each microservice can have its own codebase, database, and functionality.
+
+While there are parallels between Monorepo/Microrepo and Monolith/Microservices, it's essential to clarify that they represent different dimensions of software development:
+
+- **Monorepo/Microrepo focuses on code organization and version control**, addressing whether code for multiple projects is stored in a single repository (Monorepo) or separate repositories (Microrepo).
+
+- **Monolith/Microservices focuses on software architecture**, addressing how an application is structured and deployed, whether as a single, cohesive unit (Monolith) or as a collection of independently deployable services (Microservices).
+
+In summary, Monorepo/Microrepo and Monolith/Microservices refer to different aspects of the development and deployment process, with the former addressing code organization and version control, and the latter addressing architectural principles and deployment strategies.

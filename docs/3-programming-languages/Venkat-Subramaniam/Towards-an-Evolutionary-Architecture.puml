@@ -6,15 +6,18 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 *[#darkblue]:<color:white><i>Towards an Evolutionary Architecture
 <color:white><i><size:12>Following are on Thought-Works Tech-Radar:
 *<color:white><i><size:12>Evolutionary Architecture "Adapt"(since 2012)
-**<color:white><i><size:12>[[https://github.com/MehmoodHashmi/Documentation-as-Code-DaC/blob/5535dd03c14810a8ada9a4e9dd7474aaf8919ba4/docs/3-programming-languages/Venkat-Subramaniam/images/img_149.png Is related to "Application Architecture"]]
+**<color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_149.png Is related to "Application Architecture"]]
 **<color:white><i><size:11>[[https://www.thoughtworks.com/radar/techniques/lightweight-approach-to-rfcs Lightweight approach to RFCs "Adapt" (since 2024)]]
 ***<color:white><i><size:12>[[https://www.thoughtworks.com/radar/techniques/lightweight-approach-to-rfcs Lightweight approach to RFCs, How to article?]]
 ***<color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_569.png Lightweight approach to RFCs .png]]
 *<color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Nowadays System Design "Adapt"(In 2024)]]
-**<color:white><i><size:12>[[https://github.com/MehmoodHashmi/Documentation-as-Code-DaC/blob/5535dd03c14810a8ada9a4e9dd7474aaf8919ba4/docs/3-programming-languages/Venkat-Subramaniam/images/img_149.png Is related to Application's "Network Topology"]]
+**<color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_149.png Is related to Application's "Network Topology"]]
 |<img:images/img_6.jpg{scale=.4}>|
 |<img:images/img_568.png{scale=.33}>|
-|<img:images/img_567.png{scale=.396}>|;
+|<img:images/img_567.png{scale=.396}>|
+<color:white><i><size:12>Last image is placed temporarily will replace once
+<color:white><i><size:12>I find its right place.
+|<img:images/img_581.png{scale=.35}>|;
 
 **[#lightblue]:<i><color #black><size:12>What's architecture? [[docs/3-programming-languages/Venkat-Subramaniam/images/img_139.png click me]]
 <img:images/img_139.png{scale=.4}>
@@ -65,8 +68,15 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 *<b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_8.jpg Technical vs. Domain Partition]]
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_179.png 4- Anti-pattern]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_245.png Knowledge triangle]];
-******[#a]:|<#black><b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_575.png Split Code by features not layers]]|<#blue><b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.jpg Explicit Architecture]]|<#red><b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_8.jpg Technical vs Domain Partition]]|
-<b><i><color #black><size:10>[[a Independent Develop-ability vs Deploy-ability]];
+******[#a]:|<#black><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_575.png Split Code by features not layers]]|<#red><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_8.jpg Technical vs Domain Partition]]|<#blue><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.jpg Explicit Architecture]]|
+<b><i><color #black><size:12>[[a Independent Develop-ability vs Deploy-ability]]
+|<#blue><b><i><color #red><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.jpg Onion, Clean, Hexagon Architecture]] != [[docs/3-programming-languages/Venkat-Subramaniam/images/img_41.png Modularization]]|<#grey><b><i><color #red><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.jpg Onion, Clean, Hexagon Architecture]] = [[a Separation of Concerns]]|
+*<b><i><color #black><size:12>A [[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.jpg Separation of Concerns architecture]] are concerned with [[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.jpg separating "domain code" from "infrastructure code".]] These
+<b><i><color #black><size:12>are not actually concerned with [[docs/3-programming-languages/Venkat-Subramaniam/images/img_580.png structuring of domain itself.]]
+|<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_73.png Software Architecture]] !=|<#red><b><i><color #red><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/integration-style.puml Architecture Style]]|<b><i><color #black><size:12>!= [[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png Architectural Pattern]]|
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_582.png Architecture Vs Design Part-0]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_575.png Part-1: Components are not gold standard]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_583.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_584.png Part-3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_585.png Part-4]],
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_586.png components is not only the way & also not a silver bullet Part-5]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_587.png Part-6: DDD can be be used with different architectures!]] ;
+
 ****[#darkorange] <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_283.png Mutability & Architecture]]
 ****[#darkorange] <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_256.png Architecture refactoring]] \n*<b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_512.png Module Refactoring]]
 

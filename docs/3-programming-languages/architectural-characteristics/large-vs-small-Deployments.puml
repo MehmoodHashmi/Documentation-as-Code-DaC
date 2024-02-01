@@ -1,6 +1,6 @@
 @startmindmap
-title =<i><b><u>Large vs Small Deployments
-* =<b><i>[[docs/3-programming-languages/architectural-characteristics/Deployment-size.puml Deployment Sizes]]
+title =<i><b><u><size:18>Large vs Small Deployments
+* <b><i>[[docs/3-programming-languages/architectural-characteristics/Deployment-size.puml Deployment Sizes]]
 !theme hacker
 
 *[#darkblue] <i><color #white>Large vs Small Deployments

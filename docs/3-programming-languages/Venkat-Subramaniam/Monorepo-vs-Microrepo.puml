@@ -1,0 +1,71 @@
+@startmindmap
+title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_588.png Monorepo vs Microrepo]]
+caption <img:images/img_588.png>
+!theme hacker
+
+*[#darkblue] <i><color #white>Monorepo vs Microrepo
+
+**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_588.png Monorepo]]
+***[#green] <b><i><color #white><size:12>Definition
+****[#yellow] <i><color #black><size:12>Single repository that contains all the code, projects, and assets of an organization.
+****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_589.png Is monorepo and microrepo is same as monolith and microservices?]]
+
+***[#green] <b><i><color #white><size:12>Advantages
+****[#yellow] <i><color #black><size:12>Centralized Codebase
+*****[#gold] <i><color #black><size:12>All code is in one place, simplifying versioning and dependency management.
+****[#yellow] <i><color #black><size:12>Shared Libraries
+*****[#gold] <i><color #black><size:12>Easier sharing of common libraries and components.
+****[#yellow] <i><color #black><size:12>Cross-Project Refactoring
+*****[#gold] <i><color #black><size:12>Simplifies refactoring across different projects.
+****[#yellow] <i><color #black><size:12><b><b>Consistent Builds
+*****[#gold] <i><color #black><size:12>Uniform build and test processes for the entire codebase.
+***[#green] <b><i><color #white><size:12>Challenges
+****[#yellow] <i><color #black><size:12>Scalability
+*****[#gold] <i><color #black><size:12>Large codebases can become challenging to manage.
+****[#yellow] <i><color #black><size:12><b>Build Times
+*****[#gold] <i><color #black><size:12>Increased build times as the codebase grows.
+****[#yellow] <i><color #black><size:12>Access Control
+*****[#gold] <i><color #black><size:12>Limited access control granularity for different projects.
+****[#yellow] <i><color #black><size:12>Tooling
+*****[#gold] <i><color #black><size:12>Tooling may need to handle the complexity of a large repository.
+
+**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_588.png Microrepo]]
+***[#green] <b><i><color #white><size:12>Definition
+****[#yellow] <i><color #black><size:12>Multiple independent repositories, each containing a specific project or service.
+****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_589.png Is monorepo and microrepo is same as monolith and microservices?]]
+***[#green] <b><i><color #white><size:12>Advantages
+****[#yellow] <i><color #black><size:12>Modularity
+*****[#gold] <i><color #black><size:12>Each repository is independent, promoting modularity.
+****[#yellow] <i><color #black><size:12>Autonomy
+*****[#gold] <i><color #black><size:12>Teams have autonomy over their specific projects.
+****[#yellow] <i><color #black><size:12>Scalability
+*****[#gold] <i><color #black><size:12>Easier scalability as projects can be added or removed independently.
+****[#yellow] <i><color #black><size:12>Parallel Development
+*****[#gold] <i><color #black><size:12>Teams can work on different projects simultaneously.
+***[#green] <b><i><color #white><size:12>Challenges
+****[#yellow] <i><color #black><size:12>Dependency Management
+*****[#gold] <i><color #black><size:12>Managing dependencies between microrepositories.
+****[#yellow] <i><color #black><size:12>Cross-Project Refactoring
+*****[#gold] <i><color #black><size:12>Refactoring may require coordination across multiple repositories.
+****[#yellow] <i><color #black><size:12>Consistent Builds
+*****[#gold] <i><color #black><size:12>Ensuring consistency in build and test processes.
+****[#yellow] <i><color #black><size:12>Sharing Code
+*****[#gold] <i><color #black><size:12>Reusability may require additional effort.
+****[#yellow] <i><color #black><size:12>Code Discoverability
+*****[#gold] <i><color #black><size:12>Finding and understanding code across multiple repositories.
+
+**[#lightblue] <i><color #black><size:12>Considerations
+***[#green] <b><i><color #white><size:12>Team Structure
+****[#yellow] <i><color #black><size:12>Monorepo may align better with centralized teams.
+****[#yellow] <i><color #black><size:12>Microrepo may suit distributed or independently working teams.
+***[#green] <b><i><color #white><size:12>Project Size
+****[#yellow] <i><color #black><size:12>Monorepo is suitable for smaller to medium-sized projects.
+****[#yellow] <i><color #black><size:12>Microrepo scales well for large and complex projects.
+***[#green] <b><i><color #white><size:12>Continuous Integration
+****[#yellow] <i><color #black><size:12>Monorepo may require more robust CI systems.
+****[#yellow] <i><color #black><size:12>Microrepo can benefit from faster CI cycles.
+***[#green] <b><i><color #white><size:12>Developer Workflow
+****[#yellow] <i><color #black><size:12>Monorepo provides a unified workflow.
+****[#yellow] <i><color #black><size:12>Microrepo allows tailored workflows for specific projects.
+
+@endmindmap

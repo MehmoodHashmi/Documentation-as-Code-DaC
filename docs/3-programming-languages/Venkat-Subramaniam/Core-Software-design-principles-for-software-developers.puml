@@ -16,7 +16,7 @@ skinparam hyperlinkColor white
 *****[#darkorange]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Programming is part practical, & part theoretical]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_285.png Attitude Matters Too]] Unix philosophy;
 ******[#a]:<i><color #white><size:12>That's why some people say <b>"read more" (that is understand theory behind a concept)
-<i><color #white><size:12>hence making mind polluted with via learning <b>new ideas or borrowing ideas or thoughts,
+<i><color #white><size:12>hence **polluting the mind** via learning <b>new ideas or borrowing ideas or thoughts,
 <i><color #white><size:12>while other people say **implement more (that is hands on practice or practical)** hence
 <i><color #white><size:12>**making hands dirty via hands on learning.** In reality there should be balance between.;
 
@@ -172,7 +172,7 @@ skinparam hyperlinkColor white
 ==<i><color #black><size:12>More on Complexity From other fields & domains==
 *<i><color #black><size:12>[[https://www.youtube.com/watch?v=i-ladOjo1QA&list=LL&index=13&t=9s Complexity Theory Overview]] 10-min
 **<i><color #black><size:12>[[https://www.youtube.com/watch?v=i-ladOjo1QA&list=LL&index=13&t=9s Complexity Explorer (What is Complexity?)]] 30-min
-**<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_514.png Redesign (is Dissolution) vs. Research (is Solution)]] .png
+**<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_514.png Redesign (is Dissolution or elimination) vs. Research (is Solution)]] .png
 *<i><color #black><size:12>[[https://www.youtube.com/watch?v=VLlJXn0XOFg&list=LL&index=6&ab_channel=DiscoveryScience Irreducible Complexity]] 5-min
 **<i><color #black><size:12>[[https://www.youtube.com/watch?v=Cws74kULQuA&list=LL&index=6&pp=gAQBiAQB&ab_channel=BioLogos Ard Louis on Irreducible Complexity]] 2-min
 *<i><color #black><size:12>[[https://www.youtube.com/watch?v=CWtCakPk9eM&list=LL&index=2&t=6s&ab_channel=RandallChristopherNiles Darwins Theory of Evolution]] 7-min
@@ -186,7 +186,9 @@ skinparam hyperlinkColor white
 **<i><color #black><size:12>[[https://www.youtube.com/watch?v=_5SQE0rp5gI&list=LL&index=3&t=160s&pp=gAQBiAQB&ab_channel=PragerU What is Intelligent Design (Science & God)]] 5-min
 **<i><color #black><size:12>[[https://www.youtube.com/watch?v=prFZTMIKOi4&list=LL&index=5&t=254s&ab_channel=VerdantServant Richard Dawkins Proves Intelligent Design]] 5-min
 *<i><color #black><size:12>[[https://www.youtube.com/watch?v=NvtvqGdMJbo&list=LL&index=14&ab_channel=RandallChristopherNiles DNA Double Helix]] 9-min
-;
+====
+<i><color #black><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_354.png Systems Theory: System is not sum of its parts but the product of its inter-actions.]];
+
 ***[#green] <i><color #white><size:12><b>Inherent or\n<i><color #white><size:12><b>Essential
 ****[#yellow] <i><color #black><size:12>is from the **problem domain,** you can't minimize it. When dealing with the **problem;** there are **"complexities"** \n<i><color #black><size:12>of the **problem** that you 've to deal with. And this is the "nature of the application" and **nature** of the <b>domain.
 ****[#yellow] <i><color #black><size:12>Fortunately, on daily basis we 've to deal more with the <b>accidental "complexities"</b> than <b>inherent "complexities"
@@ -215,7 +217,7 @@ skinparam hyperlinkColor white
 ****[#a]:<i><color #black><size:12>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.
 *<b><i><color #black><size:12>Why don't we postpone?
 **<b><i><color #green><size:12>Because we are afraid!
-*<b><i><color #black><size:12>[[docs/books/1-books-backlog/software-testing/gif/testing.adoc If you want to "postpone" we need to 've good "automated testing". (TDD)]] levels click gif;
+*<b><i><color #black><size:12>[[docs/books/1-books-backlog/software-testing/gif/testing.adoc If you want to "postpone" we need to 've good "automated testing". (TDD) levels]] click gif;
 ****[#yellow] <i><color #black><size:12>Database decisions, libraries and frameworks decisions etc.
 *****[#a] *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/mixed-paradigms-(the-method-to-madness).puml Choosing programing language venkat-subramaniam]] \n*<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]]
 ****[#darkorange] <i><color #black><size:16>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful. \n*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy
@@ -271,6 +273,7 @@ skinparam hyperlinkColor white
 ==<i><color #white><b><size:18>The spectrum of "contract types" from "strict to lose"==
 |<#blue><img:images/img_46.png{scale=.85}>|<#blue><i><b><size:12><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/gif/api-architecture-style.adoc API architecture styles & contract gif]] \n\n\n<i><b><size:12><color:white>API (OpenAPI or swagger) \n<i><b><size:12><color:white>APIs Vs. Events \n<i><b><size:12><color:white> Can they coexist? \n<i><b><size:14><color:white>[[https://www.youtube.com/embed/3t7pMx35Reg API First or Event First click me]]|;
 
+****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Monorepo-vs-Microrepo.puml Is monorepo and microrepo is same as monolith and microservices?]]
 ****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_383.png Latency Number you should know]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_384.png Commonly used tech-stack for microservices]] \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png How Data is sent across servers]] & [[docs/3-programming-languages/Venkat-Subramaniam/what-is-api.puml What is an API?]] & [[docs/3-programming-languages/clean-architecture/images/external-interfaces-or-APIs.png What is a webservice?]] & [[docs/3-programming-languages/Venkat-Subramaniam/webservice.puml Webservice]]
 ****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/types-of-api-testing.adoc Types of API testing]] gif & [[docs/3-programming-languages/Venkat-Subramaniam/gif/api-design-and-security-best-practices.adoc API Design & Security best practices]] gif & [[docs/3-programming-languages/Venkat-Subramaniam/gif/api-architecture-style.adoc API architecture styles & contract]] gif & [[docs/3-programming-languages/Venkat-Subramaniam/gif/bigEndian-little-endian-order.adoc Big Endian Vs. Little Endian order]] gif
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/message-queues.adoc Message Queue Evolution]] gif;
@@ -354,7 +357,7 @@ skinparam hyperlinkColor white
 <i><color #black><size:12>     force others to be <b>[[docs/3-programming-languages/Venkat-Subramaniam/Micro-services.puml rebuilt & redeployed.]]
 *<i><color #black><size:12>"components" are delivered as <b>.Jar, DLL, .class files in java
 |<#blue><i><color #white><size:12>function calling is on "same" <b>processor & address space|;
-******[#yellow] |<#blue><i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_278.png Hierarchical Structure Vs. Decomposition; click]] |\n<img:images/img_47.png{scale=1.1}>    <img:images/img_50.png{scale=.99}> \n|<#blue><b><i><size:12>[[http://sunnyday.mit.edu/16.355/parnas-criteria.html Parnas 1972 article click me]]|<#black><i><size:12><b>[[https://hackernoon.com/how-to-decompose-a-system-into-modules-796bd941f036 Another article]] |
+******[#yellow] |<#blue><i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_278.png Hierarchical Structure Vs. Decomposition; click]] |\n<img:images/img_47.png{scale=1.1}>    <img:images/img_50.png{scale=.99}> \n|<#blue><b><i><size:12>[[http://sunnyday.mit.edu/16.355/parnas-criteria.html Parnas 1972 article click me]]|<#grey><i><size:12><b>[[https://hackernoon.com/how-to-decompose-a-system-into-modules-796bd941f036 Another article]] |
 *******[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Modularity]]** decreases the **model-code gap** & increases <b>"abstraction"
 <img:images/img_53.png{scale=0.8}>
 <i><color #black><size:12>Still **cost is higher** because you 've to know about <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg modularity]] click me
