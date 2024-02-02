@@ -32,7 +32,7 @@ title =<i><b><u><size:18>Venkat Subramaniam Talks Mindmap \n<i>[[docs/1-business
 **<b><i><color #black><size:12>2- Asynchronous (Non-blocking, reactive) e.g. "Flowable API" programming model in Java
 ==|<b><i><color #black><size:12>Demo & Implementation in Different languages|==
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Building-Cloud-Native-Applications-with-Micronaut-and-GraalVM.puml Building Cloud Native Applications with Micronaut & GraalVM]];
-****[#a] <b><i><color #black><size:12>[[docs/books/1-books-backlog/DBMS/Designing-Data-Intensive-Applications.puml Designing Data Intensive applications]]
+****[#a] <b><i><color #black><size:12>[[docs/books/1-books-backlog/DBMS/Designing-Data-Intensive-Applications.puml Designing Data Intensive applications]] \n*<b><i><color #black><size:12>[[docs/books/1-books-backlog/DBMS/Designing-Data-Intensive-Applications.puml Data Oriented Programming (DOP)]]
 *****[#a]:*<b><i><color #black><size:12>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering/Data-Engineering.puml Data Engineering]]
 *<b><i><color #black><size:12>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/Data-Science.puml Data Science]]
 ==|<#black><b><i><color #black><size:12>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-or-database-migration/Data-Migration.puml Data Migration]]|==

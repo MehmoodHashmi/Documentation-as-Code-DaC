@@ -138,7 +138,8 @@ title =<i><b><u><size:18>Spearheading the future of programming \n<i>Dr.Venkat S
 *****[#yellow] <i><color #black><size:12><b>Facts + Rules = <color #green>Program</b> \n*<i><color #black><size:12><b>Good for "Searching"
 ******[#a] <i><color #black><size:12><b>E.g. "languages" like Prolog, & Datalog
 ****[#darkorange] <i><color #black><size:15><b>8th paradigm shift: [[docs/blockchain/Blockchain-System-Design.puml Internet (info. exchange) to Blockchain (value exchange)]]; Internet (centralized) to blockchain (decentralized)
-****[#darkorange] <i><color #black><size:22><b>9th paradigm shift:</b> <b>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/statistics/professor-leonard-statistics-notes/descriptive-(or-EDA)-statistics/4-machine-learning.puml Machine learning]] click\n<img:images/img_7.png{scale=0.95}>
+****[#darkorange] <i><color #black><size:22><b>9th paradigm shift:</b> Data Oriented Programming (DOP)
+****[#darkorange] <i><color #black><size:22><b>10th paradigm shift:</b> <b>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/statistics/professor-leonard-statistics-notes/descriptive-(or-EDA)-statistics/4-machine-learning.puml Machine learning]] click\n<img:images/img_7.png{scale=0.95}>
 *****[#darkorange] <i><color #black><size:16><b>[[docs/books/selfanalysis/anatomy-of-knowledge.puml Anatomy of knowledge]] click me\n<img:images/img_8.png{scale=0.60}>
 ******[#darkorange]:<i><color #black><size:15><b>[[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml Data]] + [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Algorithm]] = [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/machine-learning-basic-terminology.puml Model]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_430.png "ML" Good for "Pattern recognition", "Predictions" &]]
