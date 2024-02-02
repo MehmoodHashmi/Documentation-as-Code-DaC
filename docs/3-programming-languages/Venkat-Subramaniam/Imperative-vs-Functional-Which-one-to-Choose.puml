@@ -1,6 +1,6 @@
 @startmindmap
-title = <b><i><u>Imperative vs Functional: Which one to Choose?\n<img:images/img_213.png{scale=1}>
-
+title = <b><i><u><size:18>Imperative vs Functional: Which one to Choose?\n<img:images/img_213.png{scale=1}>
+caption <img:images/img_590.png>
 *:<i><size:16>The imperative style of programming is the most popular, familiar, and widely used, and yet is packed with accidental complexity. Functional programming is gaining popularity,
 <i><size:16>less accidental complexity, and makes it easier to understand code once we're familiar with the paradigm. However, it has its own set of limitations. Should we choose to
 <i><size:16>program in imperative or should we use functional? Which one is better or should we be choosing one over the other on different occasions? We'll explore the answers to these
