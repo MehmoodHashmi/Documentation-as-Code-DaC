@@ -1,0 +1,41 @@
+@startmindmap
+title =<i><size:18>Installing Docker desktop & Engine on "Linux" & setup with IntelliJ IDEA
+* <b><i>[[docs/3-devops/linux.adoc Few more things related to installing Docker desktop & Docker Engine on "Linux" & setup with IntelliJ IDEA]]
+!theme hacker
+
+*[#darkblue] <color #white><i>Install Docker "Desktop & Engine"\n<color #white><i>on Linux & setup with IntelliJ IDEA
+**[#lightblue] <color #white><i><size:12>3 Linux distributions?\n<img:images/redhat-debian-and-suse.png>
+***[#gold] <color #black><i><size:12>These are three main **“families”** of Linux distributions
+***[#gold] <color #black><i><size:12>Most other **Linux distributions** use one of these three **distributions** as their <b>foundation
+***[#a]:*<color #black><i><size:12><b>[[https://www.youtube.com/watch?v=FzwIs2jMESM&t=1060s&ab_channel=JetBrains Intro to Docker (with Java Examples)]] 20-min
+*<color #black><i><size:12><b>[[https://www.youtube.com/watch?v=_m9JYAvFB8s&ab_channel=JetBrains Intro to Docker - Part 2 (Networking, Docker Compose)]] 30-min
+====
+*<color #black><i><size:12><b>[[https://www.youtube.com/watch?v=ck6xQqSOlpw&t=729s&ab_channel=IntelliJIDEAbyJetBrains Docker in IntelliJ IDEA]] 15-min;
+
+****[#gold] <color #black><i><size:12><b>Ultimate tutorials best one one the internet
+
+**[#lightblue] <color #white><i><size:12>Installing Docker-desktop on \n<color #white><i><size:12>Ubuntu-22.0 LTS release
+***[#green] <color #white><i><size:12><b>Step-1
+****[#a] <color #black><i><size:12><b>[[https://www.youtube.com/watch?v=Vplj9b0L_1Y&ab_channel=Abstractprogrammer Must watch video]] 5-minutes
+***[#green] <color #white><i><size:12><b>Step-2
+****[#a] <color #black><i><size:12><b>[[https://docs.docker.com/engine/install/ubuntu/ Download & install "Docker Engine"]] click
+***[#green] <color #white><i><size:12><b>Step-3
+****[#a]:<color #black><i><size:12><b>[[https://docs.docker.com/desktop/install/linux-install/ Now, install docker-desktop on the Linux machine]] click
+*<color #black><i><size:12><b>[[https://docs.docker.com/desktop/get-started/#credentials-management-for-linux-users Step-2a Sign-in in the Docker-desktop]] click
+|<color #black><i><size:12><b>Fig-1: Do sign-in Docker-desktop\n<img:images/docker-desktop-sign-in.png>|<color #black><i><size:12><b>[[docs/3-devops/images/docker-desktop-signin-key.png Fig-2:]] click \n<img:images/docker-desktop-signin-key.png{scale=.38}>|
+*<color #black><i><size:12><b>Fig-2: [[docs/3-devops/images/docker-desktop-signin-key.png Highlighted key is different each time you sign in, & has to be passed in along with the command as shown in the terminal]];
+**[#lightblue] <color #black><i><size:12>[[https://phoenixnap.com/kb/cannot-connect-to-the-docker-daemon-error How to Resolve, the “cannot connect]] \n<color #black><i><size:12>[[https://phoenixnap.com/kb/cannot-connect-to-the-docker-daemon-error to the Docker daemon” Error]] Click
+***[#green] <color #white><i><size:12><b><img:images/docker-demon-error-fix.png{scale=.9}>
+****[#a] <color #white><i><size:12><b>[[docs/3-devops/images/img_4.png Another Complete solution]]
+
+***[#green] <color #white><i><size:12><b>The execution of Step-3
+****[#a]:<color #black><i><size:12>will fix **IntelliJ-IDEA docker-plugin** issues as shown in the image through labels
+****[#a]:<color #black><i><size:12>will fix **IntelliJ-IDEA docker-plugin** issues as shown in the image through labels
+*<b><color #black><i><size:12>[[docker-register-and-docker-dameon.png fixing docker registery and docker daemon in intelliJ-idea]]
+<img:images/docker-register-and-docker-dameon.png{scale=.9}>
+;
+
+
+
+
+@endmindmap
