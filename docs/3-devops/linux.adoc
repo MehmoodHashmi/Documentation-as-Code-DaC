@@ -1,6 +1,6 @@
 = What are the 3 Linux distributions?
 
-There are three main “*families*” of _**Linux distributions**_: Debian image:images/debian.svg[width=40], Red Hat image:images/redhat.svg[width=40], and SUSE image:images/suse.svg[width=40]. Most other Linux distributions use one of these three distributions as their foundation.
+There are three main “*families*” of _**Linux distributions**_: #_Debian GNU/Linux, redhad, and suse_# image:images/redhat-debian-and-suse.png[width=200]. Most other Linux distributions use one of these three distributions as their foundation.
 
 
 
