@@ -20,8 +20,11 @@ image::images/docker-desktop-signin-key.png[width=400]
 
 ** *_The execution of Step-3_* will fix IntelliJ-IDEA docker-plugin  issues as shown in the through labels
 
-.fixing docker registery and docker daemon in intelliJ-idea
+.fixing docker registry and docker daemon in intelliJ-idea
 image::images/docker-register-and-docker-dameon.png[]
+
+.Another Solution
+image::images/img_4.png[]
 
 .ubuntu:
 
