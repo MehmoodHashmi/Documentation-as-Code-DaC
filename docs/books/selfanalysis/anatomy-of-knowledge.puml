@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><b><u>Anatomy of knowledge \n(By Irfan malik & Dr. Javed)
+title =<i><b><u><size:18>Anatomy of knowledge \n(By Irfan malik & Dr. Javed)
 !theme hacker
 
 *[#darkblue] =<i>Anatomy of knowledge\n<img:img.png>
@@ -13,14 +13,14 @@ title =<i><b><u>Anatomy of knowledge \n(By Irfan malik & Dr. Javed)
 ***[#green] <b><i><color #white><size:14>Abstract Concepts
 ****[#yellow] <i><color #black><size:14>Intangible, theoretical, or philosophical ideas <b>(e.g., Justice, Love).
 ***[#green] <b><i><color #white><size:14>Correlational Concepts
-****[#yellow] <i><color #black><size:14>The correlation between two concepts is <b>"proposition"
+****[#yellow] <i><color #black><size:14>The correlation between two **concepts** is <b>"proposition"
 ****[#yellow] <i><color #black><size:14>e.g. the semantic or logical relationship between two concepts or entities
 **[#lightblue] <i><color #blac><size:14>Schema
 ***[#green] <b><i><color #white><size:14>The place where these "proposition" exist in brain is called "schema"
-****[#yellow] <i><color #black><size:14>e.g. the schema of a person
-****[#yellow] <i><color #black><size:14>e.g. the schema of a book
-****[#yellow] <i><color #black><size:14>e.g. the schema of a city
-****[#yellow] <i><color #black><size:14>e.g. the schema of a country etc.
+****[#yellow]:*<i><color #black><size:14>e.g. the schema of a person
+*<i><color #black><size:14>e.g. the schema of a book
+*<i><color #black><size:14>e.g. the schema of a city
+*<i><color #black><size:14>e.g. the schema of a country etc.;
 **[#lightblue] <i><color #blac><size:14>The "knowledge" you absorb can be
 ***[#green] <b><i><color #white><size:14>Sementic
 ****[#yellow] <i><color #black><size:14>means names and places
@@ -35,9 +35,9 @@ title =<i><b><u>Anatomy of knowledge \n(By Irfan malik & Dr. Javed)
 ****[#yellow] <i><color #black><size:14>Incomplete without "Conditional knowledge"
 ***[#green] <b><i><color #white><size:14>Conditional "knowledge"
 ****[#yellow] <i><color #black><size:14>is the break, when don't do something, gives you precision
-***[#green] <b><i><color #white><size:14>Explicit "knowledge"
+***[#a] <b><i><color #white><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_598.png Explicit "knowledge"]]
 ****[#yellow] <i><color #black><size:14>Some sort of "knowledge" you carry & can explain it then its explicit "knowledge"
-***[#green] <b><i><color #white><size:14>Implicit "knowledge"
+***[#a] <b><i><color #white><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_598.png Implicit "knowledge"]]
 ****[#yellow] <i><color #black><size:14>Some sort of "knowledge" that you carry but can't explain it then its implicit "knowledge"
 
 ****[#yellow] <i><color #black><size:14>10-year boy throwing & swinging the ball but can't explain why it is swinging
@@ -49,11 +49,11 @@ title =<i><b><u>Anatomy of knowledge \n(By Irfan malik & Dr. Javed)
 ****[#yellow] <i><color #black><size:14>Discusses theory
 ***[#green] <b><i><color #white><size:14>Psychomotor
 ****[#yellow] <i><color #black><size:14>Working manually
-***[#green] <b><i><color #white><size:14>Attitude
-****[#yellow] <i><color #black><size:14>To use cognition & psychomotor affectively you need "attitude"
-****[#yellow] <i><color #black><size:14>Attitude can't be learned verbally
+***[#a] <b><i><color #white><size:14>[[docs/1-business-analyst/client-management/software-house/images/img_2.png Attitude]]
+****[#yellow] <i><color #black><size:14>To use **cognition & psychomotor** affectively you need <b>"attitude"
+****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_285.png Attitude can't be learned verbally]]
 ***[#green] <b><i><color #white><size:14>Behavioral part
-****[#yellow] <i><color #black><size:14>Cannot be learned without a "role model"
+****[#yellow] <i><color #black><size:14>Cannot be learned without a <b>"role model"
 
 **[#lightblue] <i><color #blac><size:14>Formation of Concepts
 ***[#green] <b><i><color #white><size:14>Induction
@@ -62,7 +62,7 @@ title =<i><b><u>Anatomy of knowledge \n(By Irfan malik & Dr. Javed)
 ****[#yellow] <i><color #black><size:14>Derived from general principles or categories to specific instances.
 **[#lightblue] <i><color #blac><size:14>Role in Cognition
 ***[#green] <b><i><color #white><size:14>Understanding and Learning
-****[#yellow] <i><color #black><size:14>Concepts aid comprehension and acquisition of knowledge.
+****[#yellow] <i><color #black><size:14>**Concepts** aid comprehension and acquisition of knowledge.
 ***[#green] <b><i><color #white><size:14>Problem-Solving
 ****[#yellow] <i><color #black><size:14>Utilizing concepts to analyze and solve complex problems.
 ***[#green] <b><i><color #white><size:14>Communication
