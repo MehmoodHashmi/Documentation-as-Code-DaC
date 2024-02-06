@@ -77,6 +77,7 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_582.png Architecture Vs Design Part-0]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_575.png Part-1: Components are not gold standard]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_583.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_584.png Part-3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_585.png Part-4]],
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_586.png components is not only the way & also not a silver bullet Part-5]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_587.png Part-6: DDD can be be used with different architectures!]]
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_599.png How to Choose the most appropriate architecture for your system?]] & [[https://www.youtube.com/watch?v=LwSyX9AA3_0&ab_channel=MarkRichards Domain To Architecture Isomorphism Part 1]], [[https://www.youtube.com/watch?v=LwSyX9AA3_0&ab_channel=MarkRichards Part 2]]
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_604.png How to start implementing hexagonal architecture & microservices using Use Case Driven Development (UCDD)?]]
 ;
 
 ****[#darkorange] <b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_283.png Mutability & Architecture]]
