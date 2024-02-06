@@ -6,8 +6,10 @@ title =<i><size:18>Installing Docker desktop & Engine on "Linux" & setup with In
 
 *[#darkblue] <color #white><i>Install Docker "Desktop & Engine"\n<color #white><i>on Linux & setup with IntelliJ IDEA
 **[#lightblue] <color #white><i><size:12>3 Linux distributions?\n<img:images/redhat-debian-and-suse.png>
-***[#gold] <color #black><i><size:12>These are three main **“families”** of Linux distributions
-***[#gold] <color #black><i><size:12>Most other **Linux distributions** use one of these three **distributions** as their <b>foundation
+***[#a]:*<color #black><i><size:12>These are three main **“families”** of Linux distributions
+*<color #black><i><size:12>Most other **Linux distributions** use one of these three **distributions** as their <b>foundation
+*<b><color #black><i><size:12>[[https://www.youtube.com/watch?v=n1dMMsJzac4&list=LL&index=9&ab_channel=UniqueTutorials How to install .deb file in any Linux Computer?]]
+;
 ***[#a]:*<color #black><i><size:12><b>[[https://www.youtube.com/watch?v=FzwIs2jMESM&t=1060s&ab_channel=JetBrains Intro to Docker (with Java Examples)]] 20-min
 *<color #black><i><size:12><b>[[https://www.youtube.com/watch?v=_m9JYAvFB8s&ab_channel=JetBrains Intro to Docker - Part 2 (Networking, Docker Compose)]] 30-min
 ====
