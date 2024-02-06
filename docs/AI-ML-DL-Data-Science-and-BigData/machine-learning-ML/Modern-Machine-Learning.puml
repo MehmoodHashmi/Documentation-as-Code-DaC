@@ -1,5 +1,6 @@
 @startmindmap
-title =<b><i><u>Modern Machine Learning \n<img:images/img_2.png{scale=.9}>
+title =<b><i><u><size:18>Modern Machine Learning \n|<img:images/img_2.png{scale=.9}>|<img:images/img_23.png{scale=.644}>|<img:images/23-data-and-instructions-or-OOP.png{scale=.666}>|
+caption <img:images/img_22.png{scale=1}>
 !theme hacker
 
 *[#darkblue] <color #white><i>Modern Machine \n<color #white><i>Learning
