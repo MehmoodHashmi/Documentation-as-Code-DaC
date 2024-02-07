@@ -204,8 +204,8 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 ==<i><color #black><size:14><b>(TDD) gives you Control==
 *<i><color #black><size:12><b>Statistical Control (SC):</b> is **TDD or unit testing** or <b><color:green>"Test Coverage"
 **<i><color #black><size:12><b>"Testing"</b> numbs (freezes) us to loss of <b>reasoning (intellectual control)
-*<i><color #black><size:12><b>Intellectual Control (IC):</b> is **simple design,** or <b>"Model Based Testing"</b> etc. but simply when <b>project
-<i><color #black><size:12>"grows big" you start losing (intellectual control) on the <b>project;
+*<i><color #black><size:12><b>Intellectual Control (IC):</b> is **simple design,** or <b>"Model Based Testing"</b> etc. but simply when <b>project </b>"grows big" you
+<i><color #black><size:12>start losing (intellectual control) on the <b>project;
 ****[#gold] <i><color #black><size:12><img:images/img_35.png{scale=0.7}>
 ****[#gold] *<i><color #black><size:12>**"Low code coverage"** means **bad code design** \n*<i><color #black><size:12>**"High code coverage"** does not <b>mean anything
 ****[#gold] <i><color #black><size:12>Machine Learning <b>"Model" "Testing"\n<i><color #black><size:12>is different than <b>(TDD)</b> that is:\n<i><color #black><size:12>**1-** Prediction\n<i><color #black><size:12>**2-** Pattern recognition\n<i><color #black><size:12>**3-** Optimization & decision making
