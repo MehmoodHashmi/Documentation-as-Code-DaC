@@ -14,7 +14,7 @@ title =<i><b><u><size:18>Don't Walk away from "Complexity" Run
 ****[#yellow] <b><i><color #black><size:12>Talk to customer & accommodate changing requirements
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_467.png Adopt agile tools E.g. CI/CD, TDD etc. click me]]
 ***[#yellow] <i><color #black><size:12>**"Complexity"** makes it hard to **"adapt"** change
-**[#lightblue]:<i><color #black><size:24>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Complexity]]
+**[#lightblue]:<i><color #black><size:24>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Complexity]] <size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software Design Principles for software developers]]
 ==|<#black><b><i><color #white><size:12>Abstraction: is a way to cope with "complexity"|==
 <img:images/img_32.png>
 *<i><color #black><size:16>"System design" is "complicated", by "nature"
@@ -99,7 +99,7 @@ title =<i><b><u><size:18>Don't Walk away from "Complexity" Run
 **[#lightblue] <i>Coupling\n|<img:images/img_461.png{scale=.5}>|<img:images/img_463.png{scale=.64}>|
 ***[#lightblue] <img:images/img_462.png{scale=1}>
 ****[#yellow] *<i><color #black>Currently we're dealing with **module hell** in Java
-****[#yellow] *<i><color #black>You don't use Maven... it uses you.
+****[#yellow] *<i><color #black>You don't use **Maven...** it uses you.
 ***[#yellow] *<i><color #black>Technology infatuation
 ****[#yellow] *<i><color #black>Is this technology the right choice?
 **[#lightblue] <i><color #black><size:12>Reversibility?
@@ -173,6 +173,7 @@ title =<i><b><u><size:18>Don't Walk away from "Complexity" Run
 ***[#yellow] <i>is violation of <b>separation of concerns
 ***[#yellow] <i>is violation of <b>SRP
 ***[#yellow] <i>is violation of <b>KISS
-***[#yellow] <i>We should learn to deal with complexity & 've the wisdom to minimize it.
+***[#yellow] <i>We should learn to **deal with complexity** & 've the wisdom to minimize it.
+****[#Gold] |<i><color #black>**Abstraction** is a way to **cope** with <b>complexity.|
 ***[#yellow] <i>A **maintainable code** is a **gift** we give ourselves for the future!
 @endmindmap
