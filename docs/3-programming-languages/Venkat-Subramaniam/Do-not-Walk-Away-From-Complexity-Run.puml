@@ -112,8 +112,8 @@ title =<i><b><u><size:18>Don't Walk away from "Complexity" Run
 ***[#a]:<i><color #black><size:12>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.
 *<b><i><color #black><size:12>Why don't we postpone?
 **<b><i><color #green><size:12>Because we are afraid!
-|<#red><b><i><color #white><size:12>[[docs/books/1-books-backlog/software-testing/automated-testing.puml If you want to "postpone" we need to 've good "automated testing". (TDD) click me]]|
-<img:images/img_43.png{scale=.86}>
+|<#red><b><i><color #white><size:12>[[docs/books/1-books-backlog/software-testing/automated-testing.puml If you want to "postpone" we need to 've good "automated testing". (TDD)]]|<#black><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_614.png Testing or (TDD) is Self Testing Code]]|
+<img:images/img_43.png{scale=.89}>
 ==<i><color #black><size:14><b>(TDD) gives you Control==
 *<i><color #black><size:12><b>Statistical Control (SC):</b> is **TDD or unit testing** or <b><color:green>"Test Coverage"
 **<i><color #black><size:12><b>"Testing"</b> numbs (freezes) us to loss of <b>reasoning (intellectual control)
