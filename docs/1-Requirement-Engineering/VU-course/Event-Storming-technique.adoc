@@ -1,5 +1,13 @@
 
-Even if you aren't using #*DDD or event sourcing*#, you can use event storming because it is a general technique/tool/strategy
+_Even if you aren't using #*DDD or event sourcing*#, you can use event storming because it is a general technique/tool/strategy._
+
+image::{docdir}/../VU-course/../../3-programming-languages/Venkat-Subramaniam/images/img_612.png[Part-2]
+
+image::{docdir}/../VU-course/../../3-programming-languages/Venkat-Subramaniam/images/img_613.png[Event Storming Technique Part-1]
+
+
+
+
 
 .What is event storming?
 image::images/image-2023-01-24-00-36-30-390.png[width=600]

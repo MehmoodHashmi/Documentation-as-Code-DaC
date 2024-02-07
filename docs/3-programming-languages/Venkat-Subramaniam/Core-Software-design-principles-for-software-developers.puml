@@ -541,7 +541,7 @@ skinparam hyperlinkColor white
 ****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_108.png Strategic Design:]]** very high-level design.
 *<i><color #black><size:12>Gives "direction & ideas" <b>to go to.
 *<i><color #black><size:12>**SOLID, YAGNI, DRY, & other principles** are used **little bit** during <b>strategic design.;
-*****[#a] <i><color #black><size:12>Link here DDD technique + Event Storming technique + Deep models
+*****[#a] *<b><i><color #black><size:12>Will add Link here DDD technique & Deep models from DDD \n*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_612.png Event Storming Technique Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_613.png Part-2]]
 ****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_108.png Tactical Design:]]** often low-level design,
 *<i><color #black><size:12>Paves the way to refine those "directions & ideas" into realities of the project
 *<i><color #black><size:12>**SOLID, YAGNI, DRY, & other principles** are used **a lot** during <b>tactical design.;
