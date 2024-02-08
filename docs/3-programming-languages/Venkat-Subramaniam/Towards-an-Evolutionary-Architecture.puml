@@ -5,13 +5,13 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 
 *[#darkblue]:<color:white><i>Towards an Evolutionary Architecture
 <color:white><i><size:12>Following are on Thought-Works Tech-Radar:
-*<color:white><i><size:12>Evolutionary Architecture "Adapt"(since 2012)
+*<color:white><i><size:12>Evolutionary Architecture "Adapt"(since 2011)
 **<color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_149.png Is related to "Application Architecture"]]
 **<color:white><i><size:11>[[https://www.thoughtworks.com/radar/techniques/lightweight-approach-to-rfcs Lightweight approach to RFCs "Adapt" (since 2024)]]
 ***<color:white><i><size:12>[[https://www.thoughtworks.com/radar/techniques/lightweight-approach-to-rfcs Lightweight approach to RFCs, How to article?]]
 ***<color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_569.png Lightweight approach to RFCs .png]]
-*<color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Nowadays System Design "Adapt"(In 2024)]]
-**<color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_149.png Is related to Application's "Network Topology"]]
+<color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml An RFC can be a valuable tool for facilitating]]
+<color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml "Evolutionary Architecture"]]
 |<img:images/img_6.jpg{scale=.4}>|
 |<img:images/img_568.png{scale=.33}>|
 |<img:images/img_567.png{scale=.396}>|
@@ -46,7 +46,7 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 ******[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_255.png Agile vs DevOps vs SRE]] & [[docs/3-devops/devops-plantuml-mindmap/Site-Reliability-Engineering-(SRE).puml SRE Mindmap & Observability]] \n*<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/conventional-SDLC-vs-DevOps-vs-NoOps.adoc Conventional SDLC vs. DevOps Vs. NoOps]] gif \n*<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/how-companies-ship-code.adoc How Companies ship code?]] gif
 
 *****[#yellow] <i><color #black><size:12>Agile (No Design) is <b>disaster!
-******[#a] *<b><i><color #black><size:12>[[a Clean Agile]] & \n*<b><i><color #black><size:12>[[ Agile Manifesto & values]]
+******[#a] *<b><i><color #black><size:12>[[a Clean Agile]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_619.png Agile Practices]] \n*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_618.png Agile Manifesto & values]]
 *****[#yellow] <i><color #black><size:12><b>EUFD <&check>
 
 ***[#green]:<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_73.png S/W Architecture]]
