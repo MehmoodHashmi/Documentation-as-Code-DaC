@@ -1,16 +1,19 @@
 @startmindmap
-* <b><i>[[ Database Paradigms]] 7-min YouTube
+* <b><i>[[https://www.youtube.com/watch?v=W2Z7fbCLSTw&list=LL&index=3 Database Paradigms]] 7-min YouTube
 title  = <i><size:18>Designing Data-Intensive Applications \n <size:24>**Key Takeaways**
 !theme hacker
 
 *[#darkblue] <i><color #white>Designing Data-Intensive Applications\n \t <color #white>Key Takeaways
-**[#lightblue] <size:12><i>**Choose** the right **__data model__** \n<size:12><i>for your **application**
+**[#lightblue]:<size:12><i>Choose the right __data model__
+<size:12><i>for your application
+====
+*<size:12><i>[[https://www.youtube.com/watch?v=W2Z7fbCLSTw&list=LL&index=3 Database Paradigms]] 7-min;
 ***[#green] <size:20><i><color #white><b>Data Model
 ****[#orange] <color #black><size:12><i>**1- Hierarchical**
 ****[#orange] <color #black><size:12><i>**2- Network**
 ****[#orange] <color #black><size:18><i>**3- Relational (SQL) + ACID**
-*****[#yellow] <size:18><i>**schema-based database**
-*****[#yellow] <size:18><i>**Types**
+*****[#yellow] <size:18><i><b>Schema-based database
+*****[#yellow] <size:18><i><b>Types
 ******[#yellow]  **Relational**
 *******:* <b>SQL Server
 * <b>My SQL
@@ -19,8 +22,8 @@ title  = <i><size:18>Designing Data-Intensive Applications \n <size:24>**Key Tak
 * <b>SQL Compact;
 ******[#yellow]  **Analiticals (OLAP)**
 ****[#orange] <color #black><size:18><i>**4- Non-Relational (No-SQL) + BASE**
-*****[#yellow] <size:18><i>**schema-less database**
-*****[#yellow] <size:18><i>**Types**
+*****[#yellow] <size:18><i><b>Schema-less database
+*****[#yellow] <size:18><i><b>Types
 
 ******[#yellow] **Key-Value**
 *******:*<b>redis

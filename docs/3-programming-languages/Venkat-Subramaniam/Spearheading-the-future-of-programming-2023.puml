@@ -146,7 +146,9 @@ title =<i><b><u><size:18>Spearheading the future of programming \n<i>Dr.Venkat S
 ******[#darkorange]:<i><color #black><size:15><b>[[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml Data]] + [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Algorithm]] = [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/machine-learning-basic-terminology.puml Model]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_430.png "ML" Good for "Pattern recognition", "Predictions" &]]
 <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_430.png "Optimization & decision making"]]
-*<i><color #black><size:12><b>[[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Model-Fine-Tuning.puml Transfer learning:]] or Model fine-tuning; Model can be reused.;
+*<i><color #black><size:12><b>[[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Model-Fine-Tuning.puml Transfer learning:]] or Model fine-tuning; Model can be reused.
+====
+*<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=VHHT6W-N0ak&ab_channel=MasteryLearning LinusTorvalds: Impact of Artificial Intelligence on Programming Transfer learning]];
 ******[#yellow] <i><color #black><size:22><b>Data-set\n<img:images/img_6.png>
 ***[#green] <b><i><color #white><size:12>People ask me which programming language I should learn
 ****[#yellow] <i><color #black><size:12>I always tell don't pick a **language** to learn instead pick a **programming paradigm** to learn
