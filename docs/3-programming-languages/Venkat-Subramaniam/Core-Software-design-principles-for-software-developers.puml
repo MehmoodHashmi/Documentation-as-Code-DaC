@@ -179,7 +179,9 @@ skinparam hyperlinkColor white
 **[#lightblue]:<i><color #black><size:24>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Complexity]] <size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Do-not-Walk-Away-From-Complexity-Run.puml Don't Walk Away From "Complexity", Run by Venkat]]
 ==|<#black><b><i><color #white><size:12>Abstraction: is a way to cope with "complexity"|==
 <img:images/img_32.png>
-==<i><color #black><size:12>More on Complexity From other fields & domains==
+==|<#black><i><color #white><size:12>Model: is an "abstraction" of "reality"|==
+<i><color #black><size:12>Abstraction: [[docs/3-programming-languages/Venkat-Subramaniam/images/img_617.png Grady Booch, Edsger Dijkstra, Donald Knuth, & David Wheeler]]
+==|<i><color #black><size:12>More on "Complexity" From other fields & domains|==
 *<i><color #black><size:12>[[https://www.youtube.com/watch?v=i-ladOjo1QA&list=LL&index=13&t=9s Complexity Theory Overview]] 10-min
 **<i><color #black><size:12>[[https://www.youtube.com/watch?v=i-ladOjo1QA&list=LL&index=13&t=9s Complexity Explorer (What is Complexity?)]] 30-min
 **<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_514.png Redesign (is Dissolution or elimination) vs. Research (is Solution)]] .png
@@ -528,7 +530,7 @@ skinparam hyperlinkColor white
 ****[#a]:*<i><color #black><size:12>**Interface/Abstract class** has its own <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_170.png drawback]]
 **<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_531.png Explicit vs. Implicit Interface]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_169.png Runtime Polymorphism]] & its working ([[docs/3-programming-languages/Venkat-Subramaniam/images/img_610.png late binding]]);
-*****[#a]:<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_605.png Data Oriented Programming (DOP) Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_609.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_590.png Part-2a]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_608.png Part-3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_611.png Part-4 DOP Principles]]
+*****[#a]:<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_605.png Data Oriented Programming (DOP) Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_609.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_590.png Part-2a]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_608.png Part-3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_611.png Part-4 DOP Principles]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_615.png Part-5]]
 *<b><i><color #black><size:12>[[https://www.youtube.com/watch?v=UQAw3pvZPCY&list=LL&index=13 Data Oriented Programming (DOP) in Java]] 30-min;
 ****[#yellow]:<i><color #green><size:12>Use more **lambda expressions** as **"implementors"** of
 <i><color #black><size:12>the **interface/abstract classes** rather than using the

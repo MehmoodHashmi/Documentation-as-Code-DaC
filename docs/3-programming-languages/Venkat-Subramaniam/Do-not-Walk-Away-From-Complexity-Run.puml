@@ -17,6 +17,8 @@ title =<i><b><u><size:18>Don't Walk away from "Complexity" Run
 **[#lightblue]:<i><color #black><size:24>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Complexity]] <size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software Design Principles for software developers]]
 ==|<#black><b><i><color #white><size:12>Abstraction: is a way to cope with "complexity"|==
 <img:images/img_32.png>
+==|<#black><i><color #white><size:12>Model: is an "abstraction" of "reality"|==
+<i><color #black><size:12>Abstraction: [[docs/3-programming-languages/Venkat-Subramaniam/images/img_617.png Grady Booch, Edsger Dijkstra, Donald Knuth, & David Wheeler]]
 *<i><color #black><size:16>"System design" is "complicated", by "nature"
 *<i><color #black><size:16>We're victims of our own "complexities"
 |<img:images/img_450.png{scale=.5}>|<img:images/img_451.png{scale=.35}>|;
