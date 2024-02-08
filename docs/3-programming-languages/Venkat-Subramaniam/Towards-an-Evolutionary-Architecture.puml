@@ -125,8 +125,8 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 *****[#yellow] <i><color #black><size:12><b>When we Say an Architect must code, the goal is not they should sit & code. Then why are we saying they should code? Because you want \n<i><color #black><size:12><b>them to get insight at the low levels so that when they make decisions at the higher levels, they are not limiting what you can do. Those \n<i><color #black><size:12><b>constraints their knowledge, visibility & understanding is what you count on. \n*<i>Doing **"Pair Programing"** with <b>developers!
 ****[#darkorange] *<i><color #black><size:15><b>No one cares if you write good code
 *****[#brown]:*<i><color #black><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png Does this code saves or makes money?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_559.png Answer-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_560.png 2]]
-*<i><color #black><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png Add value via buy/save more time for client]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_566.png Answer-3]];
-******[#grey] <i><color #black><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png Education vs. Knowledge?]]
+*<i><color #black><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png Add value via buy/save more time for client]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_566.png Answer-3]]
+==|<i><color #black><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png Education vs. Knowledge?]]|==;
 **[#lightblue] <i><color #black><size:12><b>Two values of software
 ***[#green] <i><color #white><size:12><b>Behavioral value
 ****[#yellow]:|<#white><i><color #black><size:12>help  **stakeholders** <b>"make or save money".</b> Is actually **use cases** or <b>feature development. (& problem solving)|
@@ -214,11 +214,11 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 ***[#darkorange] <i><color #black><size:12>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful\n*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy
 ***[#yellow] <i><color #black><size:12>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
 **[#lightblue] <i><color #black><size:12>YAGNI
-**[#lightblue] <i><color #black><size:20>What about <color #white>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml "extensibility"?]]
+**[#lightblue] <i><color #black><size:20>What about \n<i><size:20>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml "extensibility"?]]
 ***[#green] <i><color #white><b><size:12>Two things you need to \n<i><color #white><b><size:12>make software extensible.
 ****[#yellow] *<i><color #black><size:12><b>Domain Knowledge
 ****[#yellow] *<i><color #black><size:12><b>Knowledge of software design & concerns
-***[#green] <i><color #white><b><size:12>Three Kinds of people \n<i><color #white><b><size:12>in an organization
+***[#green] <i><color #white><b><size:12>Three Kinds of people in \n<i><color #white><b><size:12>organization we work with:
 ****[#yellow] *<i><color #black><size:12><b>People with domain knowledge but no clue of Software design\n*<i><color #black><size:12>Too many in an organization
 ****[#yellow] *<i><color #black><size:12><b>People with no clue of domain knowledge but with knowledge the Software design\n*<i><color #black><size:12>Too many in an organization
 ****[#gold] *<i><color #black><size:18><b>People with domain knowledge & also knowledge of the Software design\n*<i><color #black><size:12>Very few in an organization

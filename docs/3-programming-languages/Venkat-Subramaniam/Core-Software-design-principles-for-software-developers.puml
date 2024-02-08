@@ -482,10 +482,13 @@ skinparam hyperlinkColor white
 ***[#green] <i><color #white><size:12><b>A class/code can't be "infinitely extensible,"
 ****[#gold] <i><color #black><size:12>It is only extensible for <b>"what you design for"!
 ****[#gold] <i><color #black><size:12>Who can make extensible?\n*<i><color #black><size:12>We need to know <b>software & domain knowledge
-***[#green] <i><color #white><b><size:12>Three Kinds of people in we work with:
+***[#green] <i><color #white><b><size:12>Three Kinds of people in \n<i><color #white><b><size:12>organization we work with:
 ****[#yellow] *<i><color #black><size:12><b>People with domain knowledge but no clue of Software design\n*<i><color #black><size:12>Too many in an organization
 ****[#yellow] *<i><color #black><size:12><b>People with no clue of domain knowledge but with knowledge the Software design\n*<i><color #black><size:12>Too many in an organization
 ****[#gold] *<i><color #black><size:18><b>People with domain knowledge & also knowledge of the Software design\n*<i><color #black><size:12>Very few in an organization
+*****[#a]:|<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_396.png Types of Software Engineers]]|<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_146.png Student, Intern, Professional]]|
+*<i><color #black><size:12><b>[[docs/1-business-analyst/client-management/software-house/images/img_2.png What is "People" of 3Ps?]];
+
 ***[#green] <i><color #white><size:12><b>Conformance to (OCP)
 ****[#gold] <i><color #black><size:12>prevents code <b>rigidity, fragility & non-reusebility!
 **[#lightblue] <i><color #black><size:12>Keep in mind \n<i><color #black><size:12>Liskov's Substitution Principle

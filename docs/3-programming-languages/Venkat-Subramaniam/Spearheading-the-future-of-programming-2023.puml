@@ -8,7 +8,7 @@ title =<i><b><u><size:18>Spearheading the future of programming \n<i>Dr.Venkat S
 <i><color #white><size:12>the **love I had for Math, physics and Science** in general but <b>"35 years later I'm still a programmer"</b> because of the <b>art and programming that I see.;
 ***[#green]:<i><color #white><size:12>I will talk what do I want to see in programming languages as we move forward over the years as I programmed in multiple languages.
 <i><color #white><size:12>I've kind of enjoyed some languages more than others;
-***[#green] <i><color #white><size:12><b>Where things are today and where things are heading?
+***[#green] <i><color #white><size:12><b>Where things are today & \n<i><color #white><size:12><b>where things are heading?
 ****[#a] <i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_68.png How "science" is different from "computing"? Grady Booch]]
 *****[#a] <i><size:12><b><i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Conception-Notation-and-Implementation.puml Conception, notation & then implementation]]
 ****[#darkorange] <i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Refactor-your-language-knowledge-portfolio-(we-are-what-we-can-code-in).puml Refactor your language knowledge portfolio (we are what we can code in)]] Venkat Subramaniam
@@ -139,7 +139,9 @@ title =<i><b><u><size:18>Spearheading the future of programming \n<i>Dr.Venkat S
 ******[#a] <i><color #black><size:12><b>E.g. "languages" like Prolog, & Datalog
 ****[#darkorange] <i><color #black><size:15><b>8th paradigm shift: [[docs/blockchain/Blockchain-System-Design.puml Internet (info. exchange) to Blockchain (value exchange)]]; Internet (centralized) to blockchain (decentralized)
 ****[#darkorange] <i><color #black><size:22><b>9th paradigm shift:</b> Data Oriented Programming (DOP)
-****[#darkorange] <i><color #black><size:22><b>10th paradigm shift:</b> <b>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/statistics/professor-leonard-statistics-notes/descriptive-(or-EDA)-statistics/4-machine-learning.puml Machine learning]] click\n<img:images/img_7.png{scale=0.95}>
+****[#darkorange] <i><color #black><size:22><b>10th paradigm shift: [[docs/books/1-books-backlog/DBMS/Designing-Data-Intensive-Applications.puml Database Programming]]
+*****[#a] <i><color #black><size:18><b>SQL or No-SQL, Relational or Non-Relational, ACID or BASE, Schema-based or Schema-less
+****[#darkorange] <i><color #black><size:22><b>11th paradigm shift:</b> <b>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/statistics/professor-leonard-statistics-notes/descriptive-(or-EDA)-statistics/4-machine-learning.puml Machine learning]] click\n<img:images/img_7.png{scale=0.95}>
 *****[#darkorange] <i><color #black><size:16><b>[[docs/books/selfanalysis/anatomy-of-knowledge.puml Anatomy of knowledge]] click me\n<img:images/img_8.png{scale=0.60}>
 ******[#darkorange]:<i><color #black><size:15><b>[[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml Data]] + [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Algorithm]] = [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/machine-learning-basic-terminology.puml Model]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_430.png "ML" Good for "Pattern recognition", "Predictions" &]]

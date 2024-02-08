@@ -1,66 +1,71 @@
 @startmindmap
-
-title  = //__**Designing Data-Intensive Applications**__//\n <size:24>**Key Takeaways**
+* <b><i>[[ Database Paradigms]] 7-min YouTube
+title  = <i><size:18>Designing Data-Intensive Applications \n <size:24>**Key Takeaways**
 !theme hacker
 
 *[#darkblue] <i><color #white>Designing Data-Intensive Applications\n \t <color #white>Key Takeaways
-**[#lightblue] <size:14><i>**Choose** the right **__data model__** for your **application**
+**[#lightblue] <size:12><i>**Choose** the right **__data model__** \n<size:12><i>for your **application**
 ***[#green] <size:20><i><color #white><b>Data Model
-****[#orange] <color #black><size:14><i>**1- Hierarchical**
-****[#orange] <color #black><size:14><i>**2- Network**
+****[#orange] <color #black><size:12><i>**1- Hierarchical**
+****[#orange] <color #black><size:12><i>**2- Network**
 ****[#orange] <color #black><size:18><i>**3- Relational (SQL) + ACID**
 *****[#yellow] <size:18><i>**schema-based database**
 *****[#yellow] <size:18><i>**Types**
 ******[#yellow]  **Relational**
-*******  **SQL Server**
-*******  **My SQL**
-*******  **Oracle**
-*******  **Postgres**
-*******  **SQL Compact**
+*******:* <b>SQL Server
+* <b>My SQL
+* <b>Oracle
+* <b>Postgres
+* <b>SQL Compact;
 ******[#yellow]  **Analiticals (OLAP)**
 ****[#orange] <color #black><size:18><i>**4- Non-Relational (No-SQL) + BASE**
 *****[#yellow] <size:18><i>**schema-less database**
 *****[#yellow] <size:18><i>**Types**
-******[#yellow] **Document**
-******* **Mongo DB**
-******* **Couch DB**
-******* **Arango DB**
-******* **RAVEN DB**
-******[#yellow] **Graph**
-******* **neo4j**
-******* **AllergoGraph**
+
 ******[#yellow] **Key-Value**
-******* **redis**
-******* **memcached**
-******* **ignite**
-******* **riak**
+*******:*<b>redis
+*<b>memcached
+*<b>ignite
+*<b>riak;
 ******[#yellow] **Wide-column**
-******* **cassandra**
-******* **Apache HBase**
-***[#green] <size:14><i><color #white>Each **__data model__** has its own **strengths and weaknesses**
+*******:*<b>cassandra
+* <b>Apache HBase;
+
+******[#yellow] **Document**
+*******:* <b>Mongo DB
+* <b>Couch DB
+* <b>Arango DB
+* <b>RAVEN DB;
+
+******[#yellow] **Graph**
+*******:*<b>neo4j
+*<b>AllergoGraph;
+
+
+***[#green] <size:12><i><color #white>Each **__data model__** has its own **strengths and weaknesses**
 ***[#green] <size:20><i><color #white>**__The choice of //data model// can significantly impact //performance and scalability//__**
-**[#lightblue] <size:14><i>Data __storage__ and __retrieval__
-***[#green] <size:14><i><color #white>**__Techniques__** include **indexing, caching, and compression**
-***[#green] <size:14><i><color #white>__**Choice of storage technique can impact performance and scalability**__
-**[#lightblue] <size:14><i>Data processing
-***[#green] <size:14><i><color #white>Covers **batch processing and stream processing**
-***[#green] <size:14><i><color #white>**__Techniques__** include **MapReduce and Apache Kafka**
-****[#orange] <color #black><size:14><i> **Apache beam** can do **stream and batch processing** & is open source plus latest **technology**. \n<size:14><i><color #black>It is a **polyglot** tool (meaning works flawlessly with different programing languages)
-***[#green] <size:14><i><color #white>Emphasizes importance of **fault tolerance**
-**[#lightblue] <size:14><i>Distributed systems
-***[#green] <size:14><i><color #white>Includes **distributed databases, messaging, and consensus algorithms**
-***[#green] <size:14><i><color #white>Emphasizes importance of **fault tolerance and replication**
-**[#lightblue] <size:14><i>Scalability
-***[#green] <size:14><i><color #white>**__Techniques__** include **sharding, partitioning, and replication**
-***[#green] <size:14><i><color #white>Emphasizes importance of **horizontal scalability**
-**[#lightblue] <size:14><i> Reliability
-***[#green] <size:14><i><color #white>**__Techniques__** include **replication, consensus algorithms, and failure detection**
-***[#green] <size:14><i><color #white>Emphasizes importance of **designing for failure**
-**[#lightblue] <size:14><i>Performance
-***[#green] <size:14><i><color #white>Guidance on **optimizing latency, throughput, and resource utilization**
-**[#lightblue] <size:14><i>Trade-offs
-***[#green] <size:14><i><color #white>**__Every design decision involves trade-offs__**
-***[#green] <size:14><i><color #white>**Encourages making informed choices**
+**[#lightblue] <size:12><i>Data __storage__ and __retrieval__
+***[#green] <size:12><i><color #white>**__Techniques__** include **indexing, caching, and compression**
+***[#green] <size:12><i><color #white>__**Choice of storage technique can impact performance and scalability**__
+**[#lightblue] <size:12><i>Data processing
+***[#green] <size:12><i><color #white>Covers **batch processing and stream processing**
+***[#green] <size:12><i><color #white>**__Techniques__** include **MapReduce and Apache Kafka**
+****[#orange] <color #black><size:12><i> **Apache beam** can do **stream and batch processing** & is open source plus latest **technology**. \n<size:12><i><color #black>It is a **polyglot** tool (meaning works flawlessly with different programing languages)
+***[#green] <size:12><i><color #white>Emphasizes importance of **fault tolerance**
+**[#lightblue] <size:12><i>Distributed systems
+***[#green] <size:12><i><color #white>Includes **distributed databases, messaging, and consensus algorithms**
+***[#green] <size:12><i><color #white>Emphasizes importance of **fault tolerance and replication**
+**[#lightblue] <size:12><i>Scalability
+***[#green] <size:12><i><color #white>**__Techniques__** include **sharding, partitioning, and replication**
+***[#green] <size:12><i><color #white>Emphasizes importance of **horizontal scalability**
+**[#lightblue] <size:12><i> Reliability
+***[#green] <size:12><i><color #white>**__Techniques__** include **replication, consensus algorithms, and failure detection**
+***[#green] <size:12><i><color #white>Emphasizes importance of **designing for failure**
+**[#lightblue] <size:12><i>Performance
+***[#green] <size:12><i><color #white>Guidance on **optimizing latency, throughput, and resource utilization**
+**[#lightblue] <size:12><i>Trade-offs
+***[#green] <size:12><i><color #white>**__Every design decision involves trade-offs__**
+***[#green] <size:12><i><color #white>**Encourages making informed choices**
 
 @endmindmap
 
