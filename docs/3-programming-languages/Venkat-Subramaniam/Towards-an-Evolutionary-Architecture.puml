@@ -207,6 +207,7 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 *<i><color #black><size:12><b>Intellectual Control (IC):</b> is **simple design,** or <b>"Model Based Testing"</b> etc. but simply when <b>project </b>"grows big" you
 <i><color #black><size:12>start losing (intellectual control) on the <b>project;
 ****[#gold] <i><color #black><size:12><img:images/img_35.png{scale=0.7}>
+*****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_9.jpg Zoom in image]]
 ****[#gold] *<i><color #black><size:12>**"Low code coverage"** means **bad code design** \n*<i><color #black><size:12>**"High code coverage"** does not <b>mean anything
 ****[#gold] <i><color #black><size:12>Machine Learning <b>"Model" "Testing"\n<i><color #black><size:12>is different than <b>(TDD)</b> that is:\n<i><color #black><size:12>**1-** Prediction\n<i><color #black><size:12>**2-** Pattern recognition\n<i><color #black><size:12>**3-** Optimization & decision making
 ****[#darkorange] <i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 12- Rule of Repair & TDD:]] click me
