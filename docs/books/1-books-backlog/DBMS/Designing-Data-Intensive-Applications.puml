@@ -1,9 +1,9 @@
 @startmindmap
 * <b><i>[[https://www.youtube.com/watch?v=W2Z7fbCLSTw&list=LL&index=3 Database Paradigms]] 7-min YouTube
-title  = <i><size:18>Designing Data-Intensive Applications \n <size:24>**Key Takeaways**
+title  = <i><size:18>Designing Data-Intensive Applications
 !theme hacker
 
-*[#darkblue] <i><color #white>Designing Data-Intensive Applications\n \t <color #white>Key Takeaways
+*[#darkblue] <i><color #white>Designing Data-Intensive \n<i><color #white>Applications
 **[#lightblue]:<size:12><i>Choose the right __data model__
 <size:12><i>for your application
 ====
