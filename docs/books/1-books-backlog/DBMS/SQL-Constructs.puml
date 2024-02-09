@@ -1,93 +1,93 @@
 @startmindmap
-title This mindmap covers the four main categories of SQL constructs: Data Definition Language (DDL), Data Manipulation Language (DML), Transaction Control Language (TCL), and Data Control Language (DCL). Each category has \nsubcategories with specific SQL commands such as CREATE, ALTER, SELECT, INSERT, UPDATE, DELETE, COMMIT, ROLLBACK, GRANT, and REVOKE. \nThese commands are used to create, modify, and manage databases, tables, views, indexes, triggers, functions, and procedures, as well as to control transactions and access to data.
+title =<i>Four main categories of SQL constructs: \nData Definition Language (DDL), Data Manipulation Language (DML), Transaction Control Language (TCL), and Data Control Language (DCL). \nEach category has subcategories with specific SQL commands such as CREATE, ALTER, SELECT, INSERT, UPDATE, DELETE, COMMIT, ROLLBACK, GRANT, and REVOKE. \nThese commands are used to create, modify, and manage databases, tables, views, indexes, triggers, functions, and procedures, as well as to control transactions and access to data.
+!theme hacker
 
 
 
 
-
-* **SQL Constructs** \n<img:images/sql-joins.png> \n\n **sql-cheatsheet**\n<img:images/img_1.png>
+*[#darkblue] <i><color #white>SQL Constructs \n<img:images/sql-joins.png> \n\n **sql-cheatsheet**\n<img:images/img_1.png>
 **[#yellow] **Data** <color #118888>**Definition**</color> Language **(DDL)**\nis related to **schema** of **database**\nthe **structure** of the database e.g.\nFK, PK , null, not null, compound\nprimary key, column etc.\n\n**Schema has 3-levels:**\n1. conceptual model **(generic)**\n2. logical model\n3. physical model **(specific)**
-*** CREATE
-**** TABLE
-**** INDEX
-**** VIEW
-**** TRIGGER
-**** FUNCTION
-**** PROCEDURE
-*** ALTER
-**** TABLE
-**** INDEX
-**** VIEW
-**** TRIGGER
-**** FUNCTION
-**** PROCEDURE
-*** DROP
-**** TABLE
-**** INDEX
-**** VIEW
-**** TRIGGER
-**** FUNCTION
-**** PROCEDURE
-*** RENAME
-**** TABLE
-**** COLUMN
-**** INDEX
-**** VIEW
-**** TRIGGER
-**** FUNCTION
-**** PROCEDURE
-**[#yellow] Data **Manipulation** Language **(DML)**
-*** SELECT
-**** FROM
-**** WHERE
-**** GROUP BY
-**** HAVING
-**** ORDER BY
-**** JOIN
-***** INNER JOIN
-***** LEFT JOIN
-***** RIGHT JOIN
-***** FULL OUTER JOIN
-***** CROSS JOIN
-**** UNION
-**** SUBQUERY
-**** EXISTS
-**** CASE
-**** WINDOW FUNCTIONS
-**** AGGREGATE FUNCTIONS
-*** INSERT
-**** INTO
-**** VALUES
-**** SELECT
-**** DEFAULT VALUES
-**** RETURNING
-*** UPDATE
-**** SET
-**** WHERE
-**** RETURNING
-*** DELETE
-**** FROM
-**** WHERE
-**** RETURNING
+***[#green] <b><i><color #white><size:12>CREATE
+****[#yellow] <i><color #black><size:12>TABLE
+****[#yellow] <i><color #black><size:12>INDEX
+****[#yellow] <i><color #black><size:12>VIEW
+****[#yellow] <i><color #black><size:12>TRIGGER
+****[#yellow] <i><color #black><size:12>FUNCTION
+****[#yellow] <i><color #black><size:12>PROCEDURE
+***[#green] <b><i><color #white><size:12>ALTER
+****[#yellow] <i><color #black><size:12>TABLE
+****[#yellow] <i><color #black><size:12>INDEX
+****[#yellow] <i><color #black><size:12>VIEW
+****[#yellow] <i><color #black><size:12>TRIGGER
+****[#yellow] <i><color #black><size:12>FUNCTION
+****[#yellow] <i><color #black><size:12>PROCEDURE
+***[#green] <b><i><color #white><size:12>DROP
+****[#yellow] <i><color #black><size:12>TABLE
+****[#yellow] <i><color #black><size:12>INDEX
+****[#yellow] <i><color #black><size:12>VIEW
+****[#yellow] <i><color #black><size:12>TRIGGER
+****[#yellow] <i><color #black><size:12>FUNCTION
+****[#yellow] <i><color #black><size:12>PROCEDURE
+***[#green] <b><i><color #white><size:12>RENAME
+****[#yellow] <i><color #black><size:12>TABLE
+****[#yellow] <i><color #black><size:12>COLUMN
+****[#yellow] <i><color #black><size:12>INDEX
+****[#yellow] <i><color #black><size:12>VIEW
+****[#yellow] <i><color #black><size:12>TRIGGER
+****[#yellow] <i><color #black><size:12>FUNCTION
+****[#yellow] <i><color #black><size:12>PROCEDURE
+**[#yellow] Data "Manipulation" Language (DML) \nManipulation is "Management" like: \n* CRUD Operations
+***[#green] <b><i><color #white><size:12>SELECT
+****[#yellow] <i><color #black><size:12>FROM
+****[#yellow] <i><color #black><size:12>WHERE
+****[#yellow] <i><color #black><size:12>GROUP BY
+****[#yellow] <i><color #black><size:12>HAVING
+****[#yellow] <i><color #black><size:12>ORDER BY
+****[#yellow] <i><color #black><size:12>JOIN
+*****[#gold] <i><color #black><size:12>INNER JOIN
+*****[#gold] <i><color #black><size:12>LEFT JOIN
+*****[#gold] <i><color #black><size:12>RIGHT JOIN
+*****[#gold] <i><color #black><size:12>FULL OUTER JOIN
+*****[#gold] <i><color #black><size:12>CROSS JOIN
+****[#yellow] <i><color #black><size:12>UNION
+****[#yellow] <i><color #black><size:12>SUBQUERY
+****[#yellow] <i><color #black><size:12>EXISTS
+****[#yellow] <i><color #black><size:12>CASE
+****[#yellow] <i><color #black><size:12>WINDOW FUNCTIONS
+****[#yellow] <i><color #black><size:12>AGGREGATE FUNCTIONS
+***[#green] <b><i><color #white><size:12>INSERT
+****[#yellow] <i><color #black><size:12>INTO
+****[#yellow] <i><color #black><size:12>VALUES
+****[#yellow] <i><color #black><size:12>SELECT
+****[#yellow] <i><color #black><size:12>DEFAULT VALUES
+****[#yellow] <i><color #black><size:12>RETURNING
+***[#green] <b><i><color #white><size:12>UPDATE
+****[#yellow] <i><color #black><size:12>SET
+****[#yellow] <i><color #black><size:12>WHERE
+****[#yellow] <i><color #black><size:12>RETURNING
+***[#green] <b><i><color #white><size:12>DELETE
+****[#yellow] <i><color #black><size:12>FROM
+****[#yellow] <i><color #black><size:12>WHERE
+****[#yellow] <i><color #black><size:12>RETURNING
 **[#yellow] <color #118888>**Transaction**</color> **Control** Language **(TCL)**
-*** COMMIT
-*** ROLLBACK
-*** SAVEPOINT
-*** SET TRANSACTION
-** <color #118888>**Data**</color> **Control** Language **(DCL)**
-*** GRANT
-**** SELECT
-**** INSERT
-**** UPDATE
-**** DELETE
-**** EXECUTE
-**** ALL PRIVILEGES
-*** REVOKE
-**** SELECT
-**** INSERT
-**** UPDATE
-**** DELETE
-**** EXECUTE
-**** ALL PRIVILEGES
+***[#green] <b><i><color #white><size:12>COMMIT
+***[#green] <b><i><color #white><size:12>ROLLBACK
+***[#green] <b><i><color #white><size:12>SAVEPOINT
+***[#green] <b><i><color #white><size:12>SET TRANSACTION
+**[#lightblue] <i><color #blac><size:12><color #118888>**Data**</color> **Control** Language **(DCL)**
+***[#green] <b><i><color #white><size:12>GRANT
+****[#yellow] <i><color #black><size:12>SELECT
+****[#yellow] <i><color #black><size:12>INSERT
+****[#yellow] <i><color #black><size:12>UPDATE
+****[#yellow] <i><color #black><size:12>DELETE
+****[#yellow] <i><color #black><size:12>EXECUTE
+****[#yellow] <i><color #black><size:12>ALL PRIVILEGES
+***[#green] <b><i><color #white><size:12>REVOKE
+****[#yellow] <i><color #black><size:12>SELECT
+****[#yellow] <i><color #black><size:12>INSERT
+****[#yellow] <i><color #black><size:12>UPDATE
+****[#yellow] <i><color #black><size:12>DELETE
+****[#yellow] <i><color #black><size:12>EXECUTE
+****[#yellow] <i><color #black><size:12>ALL PRIVILEGES
 
 @endmindmap

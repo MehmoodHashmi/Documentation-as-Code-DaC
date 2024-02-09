@@ -8,11 +8,17 @@ title  = <i><size:18>Designing Data-Intensive Applications \n <size:24>**Key Tak
 <size:12><i>for your application
 ====
 *<size:12><i>[[https://www.youtube.com/watch?v=W2Z7fbCLSTw&list=LL&index=3 Database Paradigms]] 7-min;
-***[#green] <size:20><i><color #white><b>Data Model
+***[#green] <size:22><i><color #white><b>Data Model \n<b><i>[[https://www.youtube.com/watch?v=W2Z7fbCLSTw&list=LL&index=3 Database Paradigms]]
 ****[#orange] <color #black><size:12><i>**1- Hierarchical**
 ****[#orange] <color #black><size:12><i>**2- Network**
 ****[#orange] <color #black><size:18><i>**3- Relational (SQL) + ACID**
 *****[#yellow] <size:18><i><b>Schema-based database
+******[#a]:*<size:12><i><b>[[https://www.youtube.com/watch?v=UrYLYV7WSHM&t=39s Normalization: 1NF, 2NF, 3NF and 4NF]]
+**<size:12><i><b>[[https://www.youtube.com/watch?v=SK4H5tTT6-M&t=278s 1NF, 2NF, 3NF]]
+**<size:12><i><b>[[https://www.youtube.com/watch?v=GFQaEYEc8_8&t=1247s 1NF, 2NF, 3NF, 4NF, and 5NF]]
+*<size:12><i><b>[[https://www.youtube.com/watch?v=BHwzDmr6d7s&t=99s Secret To Optimizing SQL Queries - Understand The SQL Execution Order]]
+*<size:12><i><b>[[docs/books/1-books-backlog/DBMS/SQL-Constructs.puml SQL Constructs]];
+
 *****[#yellow] <size:18><i><b>Types
 ******[#yellow]  **Relational**
 *******:* <b>SQL Server
@@ -46,7 +52,7 @@ title  = <i><size:18>Designing Data-Intensive Applications \n <size:24>**Key Tak
 
 
 ***[#green] <size:12><i><color #white>Each **__data model__** has its own **strengths and weaknesses**
-***[#green] <size:20><i><color #white>**__The choice of //data model// can significantly impact //performance and scalability//__**
+***[#green] <size:22><i><color #white>**__The choice of //data model// can significantly impact //performance and scalability//__**
 **[#lightblue] <size:12><i>Data __storage__ and __retrieval__
 ***[#green] <size:12><i><color #white>**__Techniques__** include **indexing, caching, and compression**
 ***[#green] <size:12><i><color #white>__**Choice of storage technique can impact performance and scalability**__
