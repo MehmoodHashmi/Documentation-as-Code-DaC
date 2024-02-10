@@ -63,9 +63,11 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 *<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_541.png Next Architecture]]
 *<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_542.png Defer Decisions]]
 *<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_562.png Premature decisions]]
-*<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/39-Quality-Attribute-Scenario-(QAS).png QAS]] & [[docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/39-Quality-Attribute-Scenario-(QAS).png ADR]]
-**<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_631.png Tactic for QAS]]
-**<b><i><color #black><size:10><color:white>[[docs/2-architecture-document-template/ADD-3.0/Tactics-Based-Questionnaires.adoc Part-2]];
+====
+*<b><i><color #red><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/39-Quality-Attribute-Scenario-(QAS).png QAS]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_632.png ADR?]]
+**<b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_631.png Tactic for QAS]]
+**<b><i><color #black><size:10>[[docs/2-architecture-document-template/ADD-3.0/Tactics-Based-Questionnaires.adoc Part-2]]
+**<b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_633.png NFR & QAS]];
 
 ****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_247.png 4+1 View Model]]
 *<b><i><color #black><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_527.png Why 4+1 View Model?]]
@@ -73,12 +75,14 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ====
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_3.jpg Quality Categorization]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/conventional-SDLC-vs-DevOps-vs-NoOps.adoc DevOps]] (Dev & Ops);
+
 *****[#brown]:*<b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_291.png Screaming architecture]]
 *<b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_273.png 2-Laws of S/W architecture]]
 *<b><i><color #black><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_175.png Scaffolding vs Design]]
 <b><i><color #black><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_75.png 1- Design pattern]]
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/integration-style.puml 2- Integration Style]]
-<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png 3- Patterns]]
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png 3- Patterns:]]
+*<b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png Capabilities & Constraints]]
 *<b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_8.jpg Technical vs. Domain Partition]]
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_179.png 4- Anti-pattern]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_245.png Knowledge triangle]];
@@ -87,7 +91,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 |<#blue><b><i><color #red><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.jpg Onion, Clean, Hexagon Architecture]] != [[docs/3-programming-languages/Venkat-Subramaniam/images/img_41.png Modularization]]|<#grey><b><i><color #red><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.jpg Onion, Clean, Hexagon Architecture]] = [[a Separation of Concerns]]|
 *<b><i><color #black><size:12>A [[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.jpg Separation of Concerns architecture]] are concerned with [[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.jpg separating "domain code" from "infrastructure code".]] These
 <b><i><color #black><size:12>are not actually concerned with [[docs/3-programming-languages/Venkat-Subramaniam/images/img_580.png structuring of domain itself.]]
-|<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_73.png Software Architecture]] !=|<#red><b><i><color #red><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png Architecture Style]]|<#brown><b><i><color #black><size:12>!= [[docs/3-programming-languages/Venkat-Subramaniam/integration-style.puml Integration Style]]|<b><i><color #black><size:12>!= [[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png Architectural Pattern]]|<#grey><b><i><color #black><size:12> NFR = [[docs/3-programming-languages/Venkat-Subramaniam/images/img_603.png Capabilities & Constraints]]|
+|<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_73.png Software Architecture]] !=|<#red><b><i><color #red><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png Architecture Style]]|<#brown><b><i><color #black><size:12>!= [[docs/3-programming-languages/Venkat-Subramaniam/integration-style.puml Integration Style]]|<b><i><color #black><size:12>!= [[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png Architectural Pattern]]|<#grey><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_633.png NFR & QAS]] = [[docs/3-programming-languages/Venkat-Subramaniam/images/img_603.png Capabilities & Constraints]]|
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_582.png Architecture Vs Design Part-0]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_575.png Part-1: Components are not gold standard]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_583.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_584.png Part-3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_585.png Part-4]],
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_586.png components is not only the way & also not a silver bullet Part-5]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_587.png Part-6: DDD can be be used with different architectures!]]
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_599.png How to Choose the most appropriate architecture for your system?]] & [[https://www.youtube.com/watch?v=LwSyX9AA3_0&ab_channel=MarkRichards Domain To Architecture Isomorphism Part 1]], [[https://www.youtube.com/watch?v=LwSyX9AA3_0&ab_channel=MarkRichards Part 2]]
