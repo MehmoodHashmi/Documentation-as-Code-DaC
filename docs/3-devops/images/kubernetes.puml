@@ -1,12 +1,12 @@
 @startmindmap
-title = <i>Kubernetes\n<img:img_1.png{scale=.66}> <img:img_2.png> \n<i><color #white>[[docs/3-devops/images/k8-cheatsheet.png kubernetes cheatsheet]] cick me
+title = <i>Kubernetes \n<img:img_1.png{scale=.66}> <img:img_2.png> \n<i><color #white>[[docs/3-devops/images/k8-cheatsheet.png kubernetes cheatsheet]] cick me
 caption |<img:k8_architecture.png{scale=.65}>|<img:k8_architecture1.png{scale=.53}>|
 
 !theme hacker
 * <img:kubernetes-cluster-node-pod.png{scale=.85}>
 **[#black] <color #white><i><size:12>[[docs/3-devops/devops-plantuml-mindmap/Docker.puml Docker in depth]]
-***[#a] <i><size:12><b>[[docs/3-devops/docker.adoc docker.adoc]] Click me
-***[#a] <i><size:12><b>[[docs/3-devops/dockerize-a-web-app.puml dockerize a web-app]] Click me
+***[#a]:*<i><size:12><b>[[docs/3-devops/docker.adoc docker.adoc]] Click me
+*<i><size:12><b>[[docs/3-devops/dockerize-a-web-app.puml dockerize a web-app]] Click me;
 **[#black] <color #white><i><size:12>[[docs/3-devops/kubernetes.adoc Kubernetes in depth]]
 ***[#lightblue] <i><size:12>Click me .adoc \n*<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/4-K8-service-type.adoc Top 4 kubernetes services]] gif \n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_386.png Kubenetes tool ecosystem]]
 **[#black] <color #white><i><size:12>Introduction to AWS
