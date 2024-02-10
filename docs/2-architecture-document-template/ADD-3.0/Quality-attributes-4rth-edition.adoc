@@ -1,7 +1,5 @@
 :doctype: pdf
 
-+++<span style="color: #09af99">I'm testing this line of text for the sake of the coloring+++
-
 
 1.	Availability
 2.	Scalability (Nowadays in the cloud using #*docker and Kubernetes*# technology)
@@ -24,7 +22,7 @@ b.	*Horizontal scalability* (is [red]#*elasticity*#, Horizontal scaling simply a
 
 *#Kubernetes#* (an orchestration tool) & provides declarative primitives for the "desired state"
 
-1. [red]#*Self-healing*# (if you tell me I need 3-instances for my "application" it makes sure there are exactly three instances if there is an additional one for some reason it kills it if there is one less it will create one for you)
+1. [red]#*Self-healing*# (if you tell me I need 3-instances for my "application" it makes sure there are exactly three instances if there is an additional one for some reason, it kills it if there is one less it will create one for you)
 
 2. [red]#*Auto-restarting*# (automatically restarts a container as well)
 

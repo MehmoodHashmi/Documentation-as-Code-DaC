@@ -62,7 +62,11 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ***[#green]:<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_73.png S/W Architecture]]
 *<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_541.png Next Architecture]]
 *<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_542.png Defer Decisions]]
-*<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_562.png Premature decisions]];
+*<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_562.png Premature decisions]]
+*<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/39-Quality-Attribute-Scenario-(QAS).png QAS]] & [[docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/39-Quality-Attribute-Scenario-(QAS).png ADR]]
+**<b><i><color #black><size:10><color:white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_631.png Tactic for QAS]]
+**<b><i><color #black><size:10><color:white>[[docs/2-architecture-document-template/ADD-3.0/Tactics-Based-Questionnaires.adoc Part-2]];
+
 ****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_247.png 4+1 View Model]]
 *<b><i><color #black><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_527.png Why 4+1 View Model?]]
 **<b><i><color #black><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_528.png Part-2]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_529.png Grady Booch]]

@@ -100,7 +100,7 @@ effort on cost, schedule, evolution, and so forth.
 
 |===
 
-== Performance
+== 4. Performance
 
 [options="header"]
 |===
@@ -114,36 +114,7 @@ effort on cost, schedule, evolution, and so forth.
 |    7|                |                   |                   |                                     |               |
 
 |===
-==  Security
-
-[options="header"]
-|===
-| #  | Tactics Group  | Tactics Question  | Supported? (Y/N)  | Design Decisions and Risk Location  | Assumptions   | Rationale and Assumptions
-|   1 |                |                   |                   |                                     |               |
-|  2  |                |                   |                   |                                     |               |
-|    3|                |                   |                   |                                     |               |
-|    4|                |                   |                   |                                     |               |
-|    5|                |                   |                   |                                     |               |
-|    6|                |                   |                   |                                     |               |
-|    7|                |                   |                   |                                     |               |
-
-|===
-
-==  Testability
-
-[options="header"]
-|===
-| #  | Tactics Group  | Tactics Question  | Supported? (Y/N)  | Design Decisions and Risk Location  | Assumptions   | Rationale and Assumptions
-|   1 |                |                   |                   |                                     |               |
-|  2  |                |                   |                   |                                     |               |
-|    3|                |                   |                   |                                     |               |
-|    4|                |                   |                   |                                     |               |
-|    5|                |                   |                   |                                     |               |
-|    6|                |                   |                   |                                     |               |
-|    7|                |                   |                   |                                     |               |
-
-|===
-==  Usability
+==  5. Security
 
 [options="header"]
 |===
@@ -158,7 +129,36 @@ effort on cost, schedule, evolution, and so forth.
 
 |===
 
-== 9. DevOps
+==  6. Testability
+
+[options="header"]
+|===
+| #  | Tactics Group  | Tactics Question  | Supported? (Y/N)  | Design Decisions and Risk Location  | Assumptions   | Rationale and Assumptions
+|   1 |                |                   |                   |                                     |               |
+|  2  |                |                   |                   |                                     |               |
+|    3|                |                   |                   |                                     |               |
+|    4|                |                   |                   |                                     |               |
+|    5|                |                   |                   |                                     |               |
+|    6|                |                   |                   |                                     |               |
+|    7|                |                   |                   |                                     |               |
+
+|===
+==  7. Usability
+
+[options="header"]
+|===
+| #  | Tactics Group  | Tactics Question  | Supported? (Y/N)  | Design Decisions and Risk Location  | Assumptions   | Rationale and Assumptions
+|   1 |                |                   |                   |                                     |               |
+|  2  |                |                   |                   |                                     |               |
+|    3|                |                   |                   |                                     |               |
+|    4|                |                   |                   |                                     |               |
+|    5|                |                   |                   |                                     |               |
+|    6|                |                   |                   |                                     |               |
+|    7|                |                   |                   |                                     |               |
+
+|===
+
+== 8. DevOps
 
 [options="header"]
 |===
