@@ -1,7 +1,7 @@
 @startmindmap
 title =<i><b><u><size:18>Building Cloud Native Applications with Micronaut and GraalVM
 !theme hacker
-
+caption |<img:images/img_606.png>|<img:images/img_607.png>|
 
 *[#darkblue] <i><color #white>Building Cloud Native Apps\n<i><color #white>with Micronaut & GraalVM
 **[#lightblue] <i><color #black><size:12>Part-1

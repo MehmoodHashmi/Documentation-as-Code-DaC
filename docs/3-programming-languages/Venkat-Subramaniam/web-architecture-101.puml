@@ -1,0 +1,8 @@
+@startmindmap
+title = <i>Web Architecture 101\n|<img:images/img_623.png>|<img:images/img_624.png>|
+!theme hacker
+
+*[#darkblue] <i><color #white>Web Architecture 101
+**[#lightblue] <i><color #black><size:12>Introduction
+***[#a] <i><color #black><size:12><b>click me
+@endmindmap

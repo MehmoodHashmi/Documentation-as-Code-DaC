@@ -23,7 +23,17 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 <img:images/img_139.png{scale=.4}>
 <i><color #black><size:12>Standard Template used in Countries
 *<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_571.png ADD in Russia]]
-*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_571.png Arch42 in Germany]];
+*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_571.png Arch42 in Germany]]
+==|<#red><i><size:12>[[https://medium.com/storyblocks-engineering/web-architecture-101-a3224e126947 Web Architecture 101]] article|==
+*<i><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_623.png Web Architecture 101 Part-1]]
+**<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_624.png Part-2]]
+***<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_626.png 1- Simple & small size Web-App]]
+***<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_627.png 2- Small to Medium size Web-App]]
+***<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_628.png 3- Medium to Large size Web-App]]
+==|<i><size:12>Layoffs|==
+<i><color #black><size:12>[[https://medium.com/jonathans-musings/the-great-tech-deflation-5c42114999a8 The Great Tech Deflation (layoffs)]]
+<i><color #black><size:12>[[https://betterprogramming.pub/advices-from-a-software-engineer-with-8-years-of-experience-8df5111d4d55 Advice From a Software Engineer With]]
+<i><color #black><size:12>[[https://betterprogramming.pub/advices-from-a-software-engineer-with-8-years-of-experience-8df5111d4d55 8 Years of Experience]];
 
 ***[#green] <i><color #white><b><size:12>Definition
 ****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/app-vs-network-structure.puml Shape of the major structure of a system or topology. architecture is a "view" of a system.]] click me
