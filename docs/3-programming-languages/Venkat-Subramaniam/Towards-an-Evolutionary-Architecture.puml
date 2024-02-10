@@ -1,11 +1,11 @@
 @startmindmap
-title =<i><b><u><size:18>Towards an Evolutionary Architecture
+title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_630.png Towards an Evolutionary Architecture]] click me
 * <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers by Venkat Subramaniam]]
 !theme hacker
 
-*[#darkblue]:<color:white><i>Towards an Evolutionary Architecture
+*[#darkblue]:<color:white><i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_630.png Towards an Evolutionary Architecture]]
 <color:white><i><size:12>Following are on Thought-Works Tech-Radar:
-*<color:white><i><size:12>Evolutionary Architecture "Adapt"(since 2011)
+*<color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_630.png Evolutionary Architecture "Adapt"(since 2011)]]
 **<color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_149.png Is related to "Application Architecture"]]
 **<color:white><i><size:11>[[https://www.thoughtworks.com/radar/techniques/lightweight-approach-to-rfcs Lightweight approach to RFCs "Adapt" (since 2024)]]
 ***<color:white><i><size:12>[[https://www.thoughtworks.com/radar/techniques/lightweight-approach-to-rfcs Lightweight approach to RFCs, How to article?]]
@@ -43,9 +43,9 @@ title =<i><b><u><size:18>Towards an Evolutionary Architecture
 *****[#darkorange] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_252.png Shared understanding between the senior team members of a system.]] click
 ****[#green] *<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_271.png Software Engineering in the Cloud]] <&cloud> click me \n*<b><i><color #white><size:12>[[docs/3-programming-languages/clean-architecture/images/img.png Software Architecture the Hard Parts]] click me
 
-***[#green]:<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_134.jpg Why evolutionary architecture? click me]]
+***[#green]:<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_630.png Why evolutionary architecture? click me]]
 <img:images/img_1.jpg{scale=.222}>
-*<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_541.png Next Architecture?]];
+*<b><i><color #red><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_541.png Next Architecture?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_134.jpg Technical Debt]];
 
 ****[#a]:<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_27.png Architecture]]: [[docs/3-programming-languages/Venkat-Subramaniam/images/img_27.png Clean ]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_58.jpg Onion]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_574.png Hexagonal + DDD]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_97.png DDD]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.jpg DDD & Explicit Architecture]],
