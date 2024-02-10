@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><b><u>Class & Package level Design Principles
+title =<i><b><u><size:18>Class & Package level Design Principles
 !theme hacker
 
 
@@ -8,44 +8,44 @@ title =<i><b><u>Class & Package level Design Principles
 
 
 *[#darkblue] <i>SOLID Principles
-**[#lightblue] <i><color #blac><size:14>Single Responsibility Principle (SRP)
-***[#green] <b><i><color #white><size:14>One class should have only one reason to change
-**[#lightblue] <i><color #blac><size:14>Open/Closed Principle (OCP)
-***[#green] <b><i><color #white><size:14>Software entities should be open for extension, but closed for modification
-**[#lightblue] <i><color #blac><size:14>Liskov Substitution Principle (LSP)
-***[#green] <b><i><color #white><size:14>Subtypes should be substitutable for their base types
-**[#lightblue] <i><color #blac><size:14>Interface Segregation Principle (ISP)
-***[#green] <b><i><color #white><size:14>Clients should not be forced to depend upon interfaces they do not use
-**[#lightblue] <i><color #blac><size:14>Dependency Inversion Principle (DIP)
-***[#green] <b><i><color #white><size:14>High-level modules should not depend on low-level modules. Both should depend on abstractions
+**[#lightblue] <i><color #blac><size:12>Single Responsibility Principle (SRP)
+***[#green] <b><i><color #white><size:12>One class should have only one reason to change
+**[#lightblue] <i><color #blac><size:12>Open/Closed Principle (OCP)
+***[#green] <b><i><color #white><size:12>Software entities should be open for extension, but closed for modification
+**[#lightblue] <i><color #blac><size:12>Liskov Substitution Principle (LSP)
+***[#green] <b><i><color #white><size:12>Subtypes should be substitutable for their base types
+**[#lightblue] <i><color #blac><size:12>Interface Segregation Principle (ISP)
+***[#green] <b><i><color #white><size:12>Clients should not be forced to depend upon interfaces they do not use
+**[#lightblue] <i><color #blac><size:12>Dependency Inversion Principle (DIP)
+***[#green] <b><i><color #white><size:12>High-level modules should not depend on low-level modules. Both should depend on abstractions
 
 *[#darkblue] <i>Package
-**[#lightblue] <i><color #blac><size:14>Cohesion:
-***[#green] <b><i><color #white><size:14>Release Reuse Equivalency Principle (REP)
-****[#yellow] <i><color #black><size:14>A module should be developed in tandem with a release plan that determines its anticipated reuse
-****[#yellow] <i><color #black><size:14>Helps to avoid the trap of over-engineering or under-engineering a module
-****[#yellow] <i><color #black><size:14>Allows for proper allocation of resources and development time
+**[#lightblue] <i><color #blac><size:12>Cohesion:
+***[#green] <b><i><color #white><size:12>Release Reuse Equivalency Principle (REP)
+****[#yellow] <i><color #black><size:12>A module should be developed in tandem with a release plan that determines its anticipated reuse
+****[#yellow] <i><color #black><size:12>Helps to avoid the trap of over-engineering or under-engineering a module
+****[#yellow] <i><color #black><size:12>Allows for proper allocation of resources and development time
 
-***[#green] <b><i><color #white><size:14>Common Reuse Principle (CRP)
-****[#yellow] <i><color #black><size:14>A module should contain only classes that are reused together
-****[#yellow] <i><color #black><size:14>Minimizes coupling and maximizes cohesion
-****[#yellow] <i><color #black><size:14>Encourages the creation of fine-grained, reusable modules
-***[#green] <b><i><color #white><size:14>Common Closure Principle (CCP)
-****[#yellow] <i><color #black><size:14>Gather together those classes that change for the same reasons
-****[#yellow] <i><color #black><size:14>Ensures that changes to a module do not have unexpected effects on other modules
-****[#yellow] <i><color #black><size:14>Modules should have a single, well-defined responsibility
+***[#green] <b><i><color #white><size:12>Common Reuse Principle (CRP)
+****[#yellow] <i><color #black><size:12>A module should contain only classes that are reused together
+****[#yellow] <i><color #black><size:12>Minimizes coupling and maximizes cohesion
+****[#yellow] <i><color #black><size:12>Encourages the creation of fine-grained, reusable modules
+***[#green] <b><i><color #white><size:12>Common Closure Principle (CCP)
+****[#yellow] <i><color #black><size:12>Gather together those classes that change for the same reasons
+****[#yellow] <i><color #black><size:12>Ensures that changes to a module do not have unexpected effects on other modules
+****[#yellow] <i><color #black><size:12>Modules should have a single, well-defined responsibility
 
-**[#lightblue] <i><color #blac><size:14>Coupling:
-***[#green] <b><i><color #white><size:14>Acyclic Dependencies Principle (ADP)
-****[#yellow] <i><color #black><size:14>?
-***[#green] <b><i><color #white><size:14>Stable Dependencies Principle (SDP)
-****[#yellow] <i><color #black><size:14>Depend in the direction of stability
-****[#yellow] <i><color #black><size:14>A module should only depend on modules that are more stable than itself
-****[#yellow] <i><color #black><size:14>Encourages the creation of stable, well-defined interfaces between modules
+**[#lightblue] <i><color #blac><size:12>Coupling:
+***[#green] <b><i><color #white><size:12>Acyclic Dependencies Principle (ADP)
+****[#yellow] <i><color #black><size:12>?
+***[#green] <b><i><color #white><size:12>Stable Dependencies Principle (SDP)
+****[#yellow] <i><color #black><size:12>Depend in the direction of stability
+****[#yellow] <i><color #black><size:12>A module should only depend on modules that are more stable than itself
+****[#yellow] <i><color #black><size:12>Encourages the creation of stable, well-defined interfaces between modules
 
-***[#green] <b><i><color #white><size:14>Stable Abstractions Principle (SAP)
-****[#yellow] <i><color #black><size:14>The stability of a module should be proportional to its abstractness
-****[#yellow] <i><color #black><size:14>More abstract modules should be more stable, while less abstract modules should be less stable
-****[#yellow] <i><color #black><size:14>Encourages the creation of interfaces that are focused on abstraction and are unlikely to change frequently
+***[#green] <b><i><color #white><size:12>Stable Abstractions Principle (SAP)
+****[#yellow] <i><color #black><size:12>The stability of a module should be proportional to its abstractness
+****[#yellow] <i><color #black><size:12>More abstract modules should be more stable, while less abstract modules should be less stable
+****[#yellow] <i><color #black><size:12>Encourages the creation of interfaces that are focused on abstraction and are unlikely to change frequently
 
 @endmindmap
