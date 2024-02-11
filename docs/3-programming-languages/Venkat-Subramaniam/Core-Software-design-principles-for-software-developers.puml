@@ -219,7 +219,7 @@ skinparam hyperlinkColor white
 *****[#gold] *<i><color #black><size:12>**FP** is good at **managing complexity** in **local computation tasks,** \n*<i><color #black><size:12>**OOP** is good at **managing complexity** in <b>global computation tasks.
 ****[#yellow] <i><color #black><size:12>**Simple** is not necessarily <b>familiar
 *****[#gold] <i><color #black><size:12>e.g. <b>For loop
-***[#green] <i><color #white><size:12><b>Good Design
+***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_636.png Good Design]]
 ****[#gold] <i><color #black><size:12>A **good design** is the one that **"hides" or "encapsulates"** the <b>inherent complexity\n<i><color #black><size:12>and <b>"eliminates" the <b>accidental complexity
 *****[#a]:|<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Encapsulation vs. Abstraction]] click me|<#red><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_495.png Dependent Functions Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_496.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_497.png Part-3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_498.png Part-4]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_499.png Part-5]]|
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Data-type vs. Data-Structure]] click me
@@ -554,11 +554,11 @@ skinparam hyperlinkColor white
 *****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_531.png Explicit vs. Implicit Interface]]
 **[#lightblue] <i><color #black><size:12>When to apply these principles?
 ***[#green] <i><color #white><b><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_544.png 2-Phases]] \n<i><color #white><b><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_544.png of Design:]]
-****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_108.png Strategic Design:]]** very high-level design.
+****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_108.png Strategic Design:]]** very high-level design. \t <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_636.png Part-2]]
 *<i><color #black><size:12>Gives "direction & ideas" <b>to go to.
 *<i><color #black><size:12>**SOLID, YAGNI, DRY, & other principles** are used **little bit** during <b>strategic design.;
 *****[#a] *<b><i><color #black><size:12>Will add Link here DDD technique & Deep models from DDD \n*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_612.png Event Storming Technique Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_613.png Part-2]]
-****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_108.png Tactical Design:]]** often low-level design,
+****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_108.png Tactical Design:]]** often low-level design, \t <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_636.png Part-2]]
 *<i><color #black><size:12>Paves the way to refine those "directions & ideas" into realities of the project
 *<i><color #black><size:12>**SOLID, YAGNI, DRY, & other principles** are used **a lot** during <b>tactical design.;
 ***[#green] <i><color #white><b><size:18>How to apply \n<i><color #white><b><size:18>these principles?
