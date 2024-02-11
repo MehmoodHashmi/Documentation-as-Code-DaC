@@ -138,9 +138,10 @@ skinparam hyperlinkColor white
 ****[#yellow]:<i><color #black><size:12>**Design** is **difficult** to <b>reuse.</b> A **design** is **immobile** when it contains **parts** that could be **useful** in **other systems,** but the <u><b>effort & risk involved</b></u> with **separating** those **parts** from the
 <i><color #black><size:12>**original system** are **too great.** This is an unfortunate but very common occurrence.;
 ***[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_511.png 5- Viscosity]]
-****[#yellow]:<i><color #black><size:12>of <b>Software & Environment:
+****[#darkorange]:<i><color #black><size:12><b>of Software & Environment:
 *<i><color #black><size:12>**Software:** It is **difficult** to do the <b>right thing.</b> It is easier to make **”hacky” changes** (quick bad fix) than following the <b>intended design.
-*<i><color #black><size:12>**Environment:** When inefficient, & slow development environment. E.g. **Large compile times** hinder design & code changes even if changes doesn't preserve good design!;
+*<i><color #black><size:12>**Environment:** When inefficient, & slow development environment. E.g. **Large compile times** hinder design & code changes even if changes doesn't preserve good design!
+<i><color #black><size:12>**[[a Cyclomatic complexity]]** is directly proportional to the <b>[[a compilation & build times.]]</b> Hence **viscosity** of the "software environment" <b>increases.;
 ***[#green] <i><color #white><size:12><b>6- Needless complexity
 ****[#yellow] <i><color #black><size:12><b>Overdesign or over engineering;</b> The code is **littered** with **unnecessary constructs** that makes the code **complex** and difficult to understand
 ***[#green] <i><color #white><size:12><b>7- Needless repetition
@@ -377,7 +378,9 @@ skinparam hyperlinkColor white
 <i><color #black><size:12>     force others to be <b>[[docs/3-programming-languages/Venkat-Subramaniam/Micro-services.puml rebuilt & redeployed.]]
 *<i><color #black><size:12>"components" are delivered as <b>.Jar, DLL, .class files in java
 |<#blue><i><color #white><size:12>function calling is on "same" <b>processor & address space|;
-******[#yellow] |<#blue><i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_278.png Hierarchical Structure Vs. Decomposition; click]] |\n<img:images/img_47.png{scale=1.1}>    <img:images/img_50.png{scale=.99}> \n|<#blue><b><i><size:12>[[http://sunnyday.mit.edu/16.355/parnas-criteria.html Parnas 1972 article click me]]|<#grey><i><size:12><b>[[https://hackernoon.com/how-to-decompose-a-system-into-modules-796bd941f036 Another article]] |
+******[#yellow]:|<#blue><i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_278.png Hierarchical Structure Vs. Decomposition]]|<#grey><i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_636.png Part-2]]|
+|<img:images/img_47.png{scale=1.1}>|<img:images/img_50.png{scale=.99}>|
+|<#blue><b><i><size:12>[[http://sunnyday.mit.edu/16.355/parnas-criteria.html Parnas 1972 article click me]]|<#grey><i><size:12><b>[[https://hackernoon.com/how-to-decompose-a-system-into-modules-796bd941f036 Another article]]|;
 *******[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg Modularity]]** decreases the **model-code gap** & increases <b>"abstraction"
 <img:images/img_53.png{scale=0.8}>
 <i><color #black><size:12>Still **cost is higher** because you 've to know about <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/complexity-knowledge-and-Modularity.jpg modularity]] click me
@@ -466,6 +469,7 @@ skinparam hyperlinkColor white
 ******[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_353.png Method Names]]
 *<i><color #black><size:12><b>The declaration of the central data structure (comments on data are usually much more helpful than on algorithms)
 <i><color #black><size:12><b>basically, avoid comments.
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_636.png Parnas article's reformulation: Criteia to be chosen to decompose a system]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_495.png Dependent Functions Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_496.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_497.png Part-3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_498.png Part-4]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_499.png Part-5]];
 
 ****[#yellow]:<i><color #black><size:12><b>How "long" is a "long method"?
@@ -474,7 +478,7 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12>Don't comment **"What",** instead <b>comment "Why"
 *<i><color #black><size:12>A good code is like a <b>joke
 **<i><color #black><size:12>refactor it if it doesnt work;
-***[#green] <i><color #white><size:12><b>SLAP
+***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_634.png SLAP]]
 ***[#green] <i><color #white><size:12><b>Compose Method Pattern
 ****[#gold] <i><color #black><size:12><b>Self documenting code
 ***[#green] <i><color #white><size:12><b>Violation of (SRP)
