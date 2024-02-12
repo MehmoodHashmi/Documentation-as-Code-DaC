@@ -38,7 +38,7 @@ This question is not easy to answer. While there are aspects of the architecture
 Another aspect to consider it is the level of detail. Detailed information tends to outdate faster than more general information. As a result, detailed documents need to be updated more often, resulting in more efforts to keep the documentation up-to-date. Therefore, the goal is to find the right balance between what’s really relevant and the efforts needed to maintain the documentation.
 
 However, architecture document templates can help with answering the question of what should be documented.
-Such templates describe the contents as well as the document structure of an architecture documentation.
+Such templates describe the contents as well as the document structure of architecture documentation.
 Multiple of those templates is freely available on the internet.
 
 ### When there is a change request, it modifies  many artifacts, so be intelligent while keeping & maintaining these artifacts in a project.
