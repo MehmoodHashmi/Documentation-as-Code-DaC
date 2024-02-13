@@ -180,7 +180,7 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 ****[#yellow] <i><color #black><b><size:12>""The perils of using a leaky remote procedure call (RPC) abstraction in your code to make a network request "look like" a method call.""
 ***[#green] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=gH_hwwn2yDk&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=25&ab_channel=JeffreyRichter Retrying Failed Network Operations]]
 ****[#yellow] <i><color #black><b><size:12>""How to make network communication fault tolerate by implementing exactly-once semantics using client side retries and server-side idempotency.""
-****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_695.png Fault-Tolerance--Exactly once semantics via retries & idempotency]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_696.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_697.png 3]] \n*<i><color #black><b><size:12>[[https://www.youtube.com/watch?v=gH_hwwn2yDk&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=25&ab_channel=JeffreyRichter 10-min video]]
+****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_695.png Fault-Tolerance--Exactly once semantics via retries & idempotency]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_696.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_697.png     3]] \n*<i><color #black><b><size:12>[[https://www.youtube.com/watch?v=gH_hwwn2yDk&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=25&ab_channel=JeffreyRichter 10-min video]]
 ***[#green] <i><color #white><b><size:12>Implementing Operations Idempotently
 ****[#yellow]:*<i><color #black><size:12>""How to make network communication fault tolerate by implementing exactly-once semantics using client side retries and server-side <b>idempotency.""
 *<i><color #black><size:12>""**Idempotent:** For the same input **function** always produces same <b>output."";
@@ -188,7 +188,10 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 **[#lightblue] <i><color #black><size:12>Messaging
 ***[#green] <i><color #white><b><size:12>Introduction
 ****[#yellow]:<i><color #black><size:12>**Queues:** are used to facilitate reliable **message-based communication** between **services.** Learn what **queues** are, why **messaging communication** with **queues** is frequently preferable to <b>network
-<i><color #black><size:12>**communication,** & what implications queues 've for the design & implementation of distributed cloud apps;
+<i><color #black><size:12>**communication,** & what implications queues 've for the design & implementation of distributed cloud apps
+====
+*<i><color #black><size:12>""Benefits of using a **messaging pattern** as opposed to <b>normal networking communication."";
+
 ***[#green] <i><color #white><b><size:12>Messaging Communication
 ***[#green] <i><color #white><b><size:12>Messaging with Queues
 ***[#green] <i><color #white><b><size:12>Fault-Tolerant Messaging Processing
