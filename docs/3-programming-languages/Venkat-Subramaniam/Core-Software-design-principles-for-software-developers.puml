@@ -581,7 +581,7 @@ skinparam hyperlinkColor white
 ******[#darkorange] <i><color #black><size:12>**1-** Prediction\n<i><color #black><size:12>**2-** Pattern recognition\n<i><color #black><size:12>**3-** Optimization & decision making
 ****[#yellow] <i><color #black><size:12>**1-** Use as a way to discuss **"among developers",** sit down with "developers" & say \n<i><color #black><size:12>hey if we do this we may **violate LSP or OCP or DIP.** So apply <b>YAGNI & postpone
 ****[#a]:<i><color #black><size:12>**2-** Use during <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_110.png TDD]]. click me
-==<i><color #black><size:14><b>How?==
+==<i><color #black><size:14><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_635.png How?]]==
 *<i><color #black><size:12>When start writing **Test cases**, ask "yourself" the following <b>questions:
 **<i><color #black><size:12>What does this **"test"** do?
 **<i><color #black><size:12>How does this "feels" to "use" this <b>object?

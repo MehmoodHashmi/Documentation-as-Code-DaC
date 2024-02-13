@@ -18,11 +18,11 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 |<#blue><i><size:12><color #white>Casado shares his thoughts on the future of \n<i><size:12><color #white>"infrastructure" as well as views on how 3 important \n<i><size:12><color #white>trends coming together: \n<i><size:12><color #white>1- hardware to software; \n<i><size:12><color #white>2- software to services; \n<i><size:12><color #white>3- & finally, the rise of the developer…|;
 
 ***[#green] <i><color #white><b><size:12>Introduction
-****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_363.png Cloud Apps: are fundamentally different than traditional apps]]** that run on the **desktop, in a browser, or on a mobile device.** Whether you
+****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_363.png Cloud Apps: are fundamentally different than traditional apps]]** that run on the **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_666.png desktop, in a browser, or on a mobile device.]]** Whether you
 <i><color #black><size:12>are **designing apps** for **Microsoft Azure, AWS,or Google or other platforms,** absorbing the **principles** contained here in is a must
 <i><color #black><size:12><b>before writing the first line of code.;
-***[#green] <i><color #white><b><size:12>Why Cloud apps?
-****[#green] <i><color #white><b><size:12>[[https://youtu.be/IBTpNptxYF4 Phases of Cloud Adoption]]
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_667.png Why Cloud apps?]]
+****[#grey] <i><color #white><b><size:12>[[https://youtu.be/IBTpNptxYF4 Phases of Cloud Adoption]] \n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_668.png Embracing failure]]
 ****[#green]:*<i><color #white><b><size:12>[[https://rescale.com/blog/cloud-3-0-the-rise-of-big-compute/ Cloud 1.0 ---is-> SaaS, Cloud 2.0 ---is-> Big Data, Cloud 3.0 ---is-> Big Compute]]
 ====
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_414.png SaaS (Cloud 1.0) transforming the "delivery & business model", &]]
@@ -41,9 +41,9 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 ****[#a]:<b><i><color #black><size:12>Synthesis: [[docs/3-programming-languages/Venkat-Subramaniam/images/img_363.png Reason-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_364.png Reason-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_365.png Reason-3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_271.png Reason-4]], [[docs/cloud-computing/Cloud-Native.puml Cloud Native]],
 <b><i><color #black><size:12>Anti-synthesis: [[https://www.youtube.com/watch?v=O66xpoRpyRk&ab_channel=CloudComputingInsider Why Companies are Kicking Cloud to the Curb]];
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/how-to-adopt-cloud-native.adoc How do we transform a system to be Cloud Native?]] A lot of Companies are at Step-4 due to the "complexity" & the required "DevOps talent"
-***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_367.png Orchestrators]]
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_367.png Orchestrators & Clusters]] \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=LkJr0Ld85AE&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=4&ab_channel=JeffreyRichter 5-minute video]]
 ****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_440.png Purpose of an Orchestrator:]]** Infrastructure/Platform/Containers/Functions as a Service aka Orchestrators
-*<i><color #black><size:12>**Manage a cluster's**  (**set of PC/VMs**) lifecycle, networking, health, upgrades, scaling, & deploys/runs service code.
+*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_669.png Manage a cluster's  (set of PC/VMs)]]** lifecycle, networking, health, upgrades, scaling, & deploys/runs service code.
 ==<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_440.png Automation vs. Orchestration]]==
 <i><color #black><size:12>**Automation:** refers to **automating** a single **process or a small number of related tasks** (e.g., deploying an app)
 <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_440.png Orchestration:]]** refers to **managing** multiple **automated tasks** to **create a dynamica workflow** (e.g., deploying an app, connecting it to a network,
@@ -68,9 +68,9 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 ****[#a] <i><size:12><b>[[docs/cloud-computing/Cloud-Design-Patterns.puml Design for Resilience & Fault Tolerance]]
 *****[#darkorange] *<i><size:12>**Cloud-native apps** are **designed** to be **resilient to failures** & can automatically **recover** from them \n*<i><size:12>Use **[[docs/cloud-computing/Cloud-Design-Patterns.puml fault-tolerant design patterns]]** & consider implementing <b>[[docs/cloud-computing/Cloud-Design-Patterns.puml circuit breakers & retry mechanisms]]
 
-***[#green] <i><color #white><b><size:12>Services & Service-Based Architecture
-***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_271.png Monolith vs. Microservices]]
-****[#yellow]:<i><color #black><size:12>**Four reasons to split monolith to Microservices:**
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_670.png Services & Service-Based Architecture]]
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_271.png Monolith vs. Microservices]] \n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_672.png Microservices Myths]]
+****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_671.png Four reasons to split monolith to Microservices:]]**
 <i><color #black><size:12><b>1- Scale independently (balance cost with speed)
 <i><color #black><size:12><b>2- Different technology stack
 <i><color #black><size:12><b>3- 2-plus clients (clients adopt new features at will)
@@ -84,10 +84,12 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png How Data is sent across servers]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc How session, JWT, Token, SSO, & OAuth-2.0 works?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_394.png Top 4 Most used Authentication Mechanisms]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_392.png HTTP 1.0 -> HTTP 1.1 -> HTTP 2.0 -> HTTP 3.0 (QUIC)]];
+
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc Service-Level Agreements (SLAs) & Dependent Services]]
-***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_440.png Auto Scaling]]
+****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_673.png Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_674.png 2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_675.png 3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_676.png 4]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_676.png 5]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_677.png 6]]
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_440.png Auto Scaling]] \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=on1153sF9iY&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=9&ab_channel=JeffreyRichter 5-min video]]
 ****[#darkorange] <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_440.png has 3-techniques]]**
-***[#green] <i><color #white><b><size:12>12-Factor Services & Apps
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_678.png 12-Factor Services & Apps]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_679.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_680.png Part-3]]
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_368.png Containers]]
 ****[#a] *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_369.png Docker Architecture]] \n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_370.png Image Vs Container]] \n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_371.png VM Vs. Container]]
 ***[#green] <i><color #white><b><size:12>Why Containers?
