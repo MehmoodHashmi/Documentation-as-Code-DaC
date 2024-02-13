@@ -111,7 +111,7 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 ****[#a] <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_372.png VM vs. Containers]]** <b>size, boot-up time & memory usage
 
 ****[#black] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/isolation-vs-density.drawio.png Isolation vs. Density]] \n*<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=C6pyfrwk2uo&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=12&ab_channel=JeffreyRichter 5-min video]]
-*****[#yellow] <i><color #black><size:12>The relationship between **isolation & density** using a spectrum of <b>technologies: \n<i><color #black><size:12><b>PCs, Virtual Machines, Hyper-V Containers, Containers, and Processes.
+*****[#yellow] <i><color #black><size:12>The relationship between **isolation & density** using a spectrum of <b>technologies: \n<i><color #black><size:12><b>""PCs, Virtual Machines, Hyper-V Containers, Containers, & Processes.""
 
 ****[#darkorange] <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_376.png Container Vs. O/S windows, Linux & Mac compatability]]**
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/OS-Kernel-and-container-images.drawio.png Containers & Operating Systems]]
@@ -156,7 +156,7 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 *<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=0OukrSld3sY&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=18&ab_channel=JeffreyRichter 5-min video]]
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png How Data is transmitted between Servers (Apps)]];
 
-*****[#yellow] <i><color #black><b><size:12>What a (forward) proxy and a reverse proxy are and the various things that they can be used for.
+*****[#yellow] <i><color #black><b><size:12>""What a (forward) proxy and a reverse proxy are and the various things that they can be used for.""
 ****[#a] <i><color #black><b><size:12>[[https://www.youtube.com/watch?v=4zuHPMW-faY&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=19&ab_channel=JeffreyRichter Cluster DNS & service reverse proxy]] \n*<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_689.png Part-2]]
 *****[#yellow] <i><color #black><size:12>The flow of network traffic as a client talks to a service via a load balancer (reverse proxy), a domain name service (DNS), and addition reverse proxies to get to a single service instance.
 ****[#a] <i><color #black><b><size:12>[[https://www.youtube.com/watch?v=e6aFk2NgGtw&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=20&ab_channel=JeffreyRichter Reverse proxy load balancer service probes]] \n*<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_690.png Part-2]] must watch 5-min video
@@ -173,10 +173,17 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 *<b><i><color #black><size:12>[[https://www.youtube.com/embed/3t7pMx35Reg APIs Vs. Events | Can they coexist? | API First or Event First]];
 *****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/webservice.puml Webservice?]]
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_46.png Network API Contracts]]
-***[#green] <i><color #white><b><size:12>Leaky RPC-Like Abstractions
-***[#green] <i><color #white><b><size:12>Retrying Failed Network Operations
+****[#yellow] <i><color #black><b><size:12>""The importance of defining a formal networking API contract.""
+****[#a] <i><color #black><b><size:12>[[https://www.youtube.com/watch?v=iEiZyi7BBoI&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=23&ab_channel=JeffreyRichter Part-1]] video, [[docs/3-programming-languages/Venkat-Subramaniam/images/img_693.png Part-2]] image
+
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_694.png Beware of Leaky RPC-Like Abstractions]] \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=uE16hkoHcYE&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=24&ab_channel=JeffreyRichter 2-min video]]
+****[#yellow] <i><color #black><b><size:12>""The perils of using a leaky remote procedure call (RPC) abstraction in your code to make a network request "look like" a method call.""
+***[#green] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=gH_hwwn2yDk&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=25&ab_channel=JeffreyRichter Retrying Failed Network Operations]]
+****[#yellow] <i><color #black><b><size:12>""How to make network communication fault tolerate by implementing exactly-once semantics using client side retries and server-side idempotency.""
+****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_695.png Fault-Tolerance--Exactly once semantics via retries & idempotency]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_696.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_697.png 3]] \n*<i><color #black><b><size:12>[[https://www.youtube.com/watch?v=gH_hwwn2yDk&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=25&ab_channel=JeffreyRichter 10-min video]]
 ***[#green] <i><color #white><b><size:12>Implementing Operations Idempotently
-****[#yellow] <i><color #black><size:12>**Idempotent:** For the same input **function** always produces same <b>output
+****[#yellow]:*<i><color #black><size:12>""How to make network communication fault tolerate by implementing exactly-once semantics using client side retries and server-side <b>idempotency.""
+*<i><color #black><size:12>""**Idempotent:** For the same input **function** always produces same <b>output."";
 
 **[#lightblue] <i><color #black><size:12>Messaging
 ***[#green] <i><color #white><b><size:12>Introduction
