@@ -2,7 +2,9 @@
 title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_374.png>|<img:images/img_375.png{scale=.91}>|\n<i><b><u><size:18>Instructor Jeffrey Richter is Microsoft Most Valuable Professional (MVP)
 * <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers by Venkat Subramaniam]]
 ** <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Designing-Reactive-Systems.puml Designing Reactive Systems by Venkat Subramaniam]]
+
 caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_361.png>|<img:images/img_382.png>|
+
 !theme hacker
 
 *[#darkblue] <color:white><i>Architecting Distributed\n<color:white><i>Cloud Apps
@@ -143,7 +145,11 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 ****[#grey] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_684.png Scalability & availability]] \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=6BaoAZLguYo&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=17&ab_channel=JeffreyRichter 5-minute video]]
 *****[#yellow] <i><color #black><size:12>How **service's** listen for "incoming requests" and how to run multiple services **(each with their own endpoint)** so that the service remains scalable and highly-available when facing <b>failures.
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_685.png Proxies]]
-****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_376.jpg Forward vs. Reverse Proxy]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_685.png More on proxy]] \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=0OukrSld3sY&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=18&ab_channel=JeffreyRichter 5-min video]]
+
+****[#a]:<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_376.jpg Forward vs. Reverse Proxy]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_685.png More on proxy]]
+*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=0OukrSld3sY&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=18&ab_channel=JeffreyRichter 5-min video]]
+*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png How Data is transmitted between Servers (Apps)]];
+
 *****[#yellow] <i><color #black><b><size:12>What a (forward) proxy and a reverse proxy are and the various things that they can be used for.
 ***[#green] <i><color #white><b><size:12>Putting it all together
 ***[#green] <i><color #white><b><size:12>Orchestration & Load Balancing

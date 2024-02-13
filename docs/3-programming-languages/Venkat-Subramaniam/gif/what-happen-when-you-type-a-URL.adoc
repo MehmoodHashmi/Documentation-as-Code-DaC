@@ -6,4 +6,11 @@
 
 #*_Step 4:_*# The server processes the request and sends back the response. For a successful response, the status code is 200. There are 3 parts in the response: HTML, CSS and Javascript. The browser parses HTML and generates DOM tree. It also parses CSS and generates CSSOM tree. It then combines DOM tree and CSSOM tree to render tree. The browser renders the content and display to the user.
 
+.What happens when you type a URL into a browser?
 image::what-happen-when-you-type-a-URL.webp[width = 800]
+
+.What happens when you type a URL in chrome?
+image::../images/img_382.png[]
+
+.How data is transmitted b/w Server (Apps)?
+image::../images/img_388.png[]
