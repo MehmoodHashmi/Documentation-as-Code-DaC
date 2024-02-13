@@ -129,9 +129,9 @@ title =<b><i>Operating Systems\n<img:images/img_11.png> <img:images/img_3.png{sc
 **[#lightblue] <b><color #black><i><size:12>Firewalls
 **[#lightblue] <b><color #black><i><size:12>Intrusion Detection and Prevention
 **[#lightblue] <b><color #black><i><size:12>Security Management
-*[#darkblue] <color #white><i><size:22> Virtualization
-**[#lightblue] <b><color #black><i><size:18>Virtual Machines
-**[#lightblue] <b><color #black><i><size:18>Hypervisors
+*[#darkblue] <color #white><i><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/isolation-vs-density.drawio.png Virtualization]]
+**[#lightblue] <b><color #black><i><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/isolation-vs-density.drawio.png Virtual Machines]]
+**[#lightblue] <b><color #black><i><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/isolation-vs-density.drawio.png Hypervisors]]
 **[#lightblue] <b><color #black><i><size:12>Emulation
 **[#lightblue] <b><color #black><i><size:22>[[docs/3-devops/devops-plantuml-mindmap/Docker.puml Containerization]]
 *[#darkblue] <color #white><i><size:12> Types of Operating Systems

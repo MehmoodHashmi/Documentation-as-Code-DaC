@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><b><u>Interprocess Communication
+title =<i><b><u><size:18>Interprocess Communication
 !theme hacker
 
 *[#darkblue] <i><color #white>Interprocess Communication\n<img:images/img_1.png{scale=.6}>
@@ -19,10 +19,10 @@ title =<i><b><u>Interprocess Communication
 *****[#darkorange] <i><color #black><size:12>**Pipes:** One-way communication
 *****[#darkorange] <i><color #black><size:12>**FIFOs (Named Pipes):** Allows bidirectional communication
 ***[#a] <b><i><color #white><size:12>[[docs/books/1-books-backlog/operating-system/sockets.puml Sockets]]
-****[#yellow] <b><i><color #black><size:12>Network communication between processes on different systems
-*****[#darkorange] <i><color #black><size:12>TCP/IP Sockets
+****[#grey] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png Network communication between]] \n<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png Processes on different systems]]
+*****[#darkorange] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png TCP/IP Sockets]]
 ******[#gold] <i><color #black><size:12>Reliable, connection-oriented
-*****[#darkorange] <i><color #black><size:12>UDP Sockets
+*****[#darkorange] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png UDP Sockets]]
 ******[#gold] <i><color #black><size:12>Unreliable, connectionless
 **[#lightblue] <i><color #black><size:12>Mechanisms
 ***[#green] <b><i><color #white><size:12>Semaphores

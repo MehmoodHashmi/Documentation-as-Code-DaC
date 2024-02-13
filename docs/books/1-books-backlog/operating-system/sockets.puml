@@ -1,25 +1,25 @@
 @startmindmap
-title =<i><b><u>Sockets
+title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png Sockets]]
 !theme hacker
 
-*[#darkblue] <i><color #white>Sockets
-**[#lightblue] <i><color #black><size:12>Definition
-***[#green] <b><i><color #white><size:12>Communication endpoint between two processes
+*[#darkblue] <i><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png Sockets]]
+**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png Definition]]
+***[#green] <b><i><color #white><size:12>Communication endpoint between two [[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png processes]]
 **[#e] <i><color #black><size:12>Types
-***[#green] <b><i><color #white><size:12>TCP Sockets
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png TCP Sockets]]
 ****[#yellow] <i><color #black><size:12>Transmission Control Protocol
 ****[#yellow] <i><color #black><size:12>Connection-oriented, reliable communication
 ****[#yellow] <i><color #black><size:12>Stream-based communication
-***[#green] <b><i><color #white><size:12>UDP Sockets
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png UDP Sockets]]
 ****[#yellow] <i><color #black><size:12>User Datagram Protocol
 ****[#yellow] <i><color #black><size:12>Connectionless, unreliable communication
 ****[#yellow] <i><color #black><size:12>Datagram-based communication
-**[#lightblue] <i><color #black><size:12>Socket Addressing
+**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png Socket Addressing]]
 ***[#green] <b><i><color #white><size:12>IP Address and Port Number
 ****[#yellow] <i><color #black><size:12>Identifies a specific endpoint in the network
 ***[#green] <b><i><color #white><size:12>IP Version
 ****[#yellow] <i><color #black><size:12>IPv4 and IPv6 support for addressing
-**[#lightblue] <i><color #black><size:12>Socket Lifecycle
+**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png Socket Lifecycle]]
 ***[#green] <b><i><color #white><size:12>Creation
 ****[#yellow] <i><color #black><size:12>Socket creation by applications for communication
 ***[#green] <b><i><color #white><size:12>Binding
