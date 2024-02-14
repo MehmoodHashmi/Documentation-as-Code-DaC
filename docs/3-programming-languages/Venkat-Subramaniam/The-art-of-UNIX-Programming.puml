@@ -2,19 +2,80 @@
 title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 !theme hacker
 
-*[#darkblue] <color #white><i>The art of UNIX Programming
-**[#lightblue] <i>Introduction
-***[#green] <size:14><color #white><i>**UML** is not only **class diagram.** Most of the **other diagram types (use case, activity, sequence)** are perfectly applicable to a <b>purely functional programming style.
-**[#lightblue] <i>Diagramming
-***[#green] <size:14><color #white><i><b>UML in functional programming
-****[#yellow] <size:14><color #black><i>Functional programmers 've their own version of UML, it is called <b>category theory.\n*<size:14><color #black><i>There is certain truth to this, but it is meant to be read with a <b>touch of humor.
-***[#green] <size:14><color #white><i><b>Writing down "types"
-****[#yellow] <size:14><color #black><i>Functional programmers generally do not 've a lot of use for diagrams.
-****[#yellow] <size:14><color #black><i>Many Functional programmers (but not all) find that **writing down "types"** is a good way to "encapsulate design relationships" that "OO programmers" put into <b>UML diagrams.
-***[#green] <size:14><color #white><i><b>Mutable state
-****[#yellow] <size:14><color #black><i>Because mutable state is rare in functional programs, there is no mutable "objects", so it is not usually useful or necessary to diagram relationships among them.
-****[#yellow] <size:14><color #black><i>While one function might call another, this property is usually not important to the overall design of a system but only to the implementation of the function doing the calling.
-****[#yellow] <size:14><color #black><i>If you are feeling  strong need to diagram a **"functional program"** then use a **"concept-map or mindmap"** in which **"types or functions"** play the "role" of <b>concepts.
+*[#darkblue] <color #white><i>The art of UNIX\n<color #white><i>Programming
+**[#lightblue] <i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_701.png The Durability of Unix (O/S)]]
+
+***[#green] <size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_701.png Open-Source Software]]
+***[#green] <size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_701.png Open-Source Community]]
+**[#lightblue] |<#red><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_702.png The Lessons of Unix Can Be Applied Elsewhere]]|
+**[#lightblue] |<#red><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_703.png Basics of Unix (is O/S) Philosophy]]|
+***[#green] <size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_257.png Data-structures & algorithms advice]]
+***[#green] <size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png More on UNIX (O/S) philosophy]]
+***[#green] <size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_285.png Attitude Matters Too]]
+
+***[#green] |<#red><i><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_257.png Rules of Unix (O/S) Philosophy]]|
+****[#a]:==|<#red><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png More on UNIX (O/S) Philosophy]]|==
+*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_704.png 1- Rule of Modularity: Write simple parts connected by clean interfaces.]]
+*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_705.png 2- Rule of Clarity: Clarity is better than cleverness.]]
+*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_706.png 3- Rule of Composition: Design programs to be connected with other programs.]]
+*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.png 4- Rule of Separation: Separate policy from mechanism; separate interfaces from engines.]]
+*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_708.png 5- Rule of Simplicity: Design for simplicity; add complexity only where you must.]]
+*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_709.png 6- Rule of Parsimony: Write a big program only when it is clear by demonstration that nothing else will do.]]
+*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_710.png 7- Rule of Transparency: Design for visibility to make inspection and debugging easier.]]
+*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_711.png 8- Rule of Robustness: Robustness is the child of transparency and simplicity.]]
+*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_712.png 9- Rule of Representation: Fold knowledge into data, so program logic can be stupid and robust.]]
+*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_713.png 10- Rule of Least Surprise: In interface design, always do the least surprising thing.]]
+*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_714.png 11- Rule of Silence: When a program has nothing surprising to say, it should say nothing.]]
+*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_715.png 12- Rule of Repair: Repair what you can — but when you must fail, fail noisily and as soon as possible.]]
+*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_716.png 13- Rule of Economy: Programmer time is expensive; conserve it in preference to machine time.]]
+*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_717.png 14- Rule of Generation: Avoid hand-hacking; write programs to write programs when you can.]]
+*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_718.png 15- Rule of Optimization: Prototype before polishing. Get it working before you optimize it.]]
+*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_719.png 16- Rule of Diversity: Distrust all claims for “one true way”.]]
+*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_720.png 17- Rule of Extensibility: Design for the future, because it will be here sooner than you think.]]
+==|<#red><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_721.png The Unix Philosophy in One Lesson]]|<#grey><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_285.png Attitude Matters Too]]  |==;
+
+**[#lightblue] <i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_701.png Those who cannot remember the past are]]\n<i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_701.png condemned to repeat it.]] ""by GeorgeSantayana""
+***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png Exodus: 1971–1980]]
+****[#yellow] <b><i><size:12>It would only take about 5-years for C to drive "machine assemblers" almost completely out of use. \n<b><i><size:12>By the early 1990s C and C++ would dominate not only "systems" but "application" programming; \n<b><i><size:12>by the late 1990s all other conventional compiled languages would be effectively obsolete.
+
+***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png Between 1991 and 1995]]
+****[#darkorange] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png In 1995, Linux O/S found its killer app: Apache, the open-source webserver.]]
+***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png The Lessons of Unix History]]
+****[#darkorange] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png The lesson for the future is that]]
+****[#darkorange] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png Another lesson is this]]
+****[#darkorange] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png Finance, Economy?]] last two paragraph!
+***[#a] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png The "application" of these "lessons" with respect to "software technologies"]] \n<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png other than "Unix" is left as an easy exercise for the reader.]]
+****[#darkorange] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png Will do my research]]
+**[#lightblue] <i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_723.png Software Is a Many-Layered Thing]]
+***[#a] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_723.png Top-Down versus Bottom-Up]]
+***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_724.png Glue Layers]]
+***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_724.png Unix and Object-Oriented Languages]]
+**[#lightblue] <i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_725.png Chapter 6. Transparency]]
+***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_726.png Designing for Maintainability]]
+**[#lightblue] <i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_727.png Chapter 7. Multiprogramming Separating Processes to Separate Function]]
+***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_728.png Separating Complexity Control from Performance Tuning]]
+***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_729.png Threads — Threat or Menace?]]
+***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_730.png Process Partitioning at the Design Level]]
+
+****[#darkorange]:<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_730.png 1- Threads,]]
+<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_730.png 2- Remote-procedure-call interfaces,]]
+<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_730.png 3- Heavyweight object-oriented design (BUFD) is especially dangerous]]
+<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_730.png If you are ever invited onto a project that is supposed to feature (attribute) all three,]]
+<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_730.png ﬂeeing in terror might well be an appropriate reaction.]];
+
+**[#lightblue] <i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_731.png Chapter 12. Optimization]]
+***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_732.png Measure before Optimizing]]
+***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_733.png Nonlocality Considered Harmful]]
+***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_734.png Profiling]]
+**[#lightblue] <i><size:12>Chapter 16. Reuse
+***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_735.png On Not Reinventing the Wheel]]
+***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_736.png Why do programmers reinvent wheels?]]
+****[#darkorange] |<#red><b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_736.png The Tale of Random Newbie]]|
+***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_737.png Transparency as the Key to Reuse]]
+***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_738.png From Reuse to Open Source]]
+***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_738.png From Reuse to Open Source]]
+****[#a] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_739.png The Best Things in Life Are Open]]
+*****[#a] *<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_740.png Issues in Using Open-Source Software]] \n**<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_740.png When You Need a Lawyer…]]
 
 @endmindmap
 
