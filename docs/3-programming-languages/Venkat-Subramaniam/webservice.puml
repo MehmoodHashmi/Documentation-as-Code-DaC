@@ -6,9 +6,9 @@ caption <img:images/image-2023-02-20-18-57-28-106.png{scale=.66}>
 
 *[#darkblue]:<i><color #white>[[docs/3-programming-languages/clean-architecture/images/external-interfaces-or-APIs.png WebService]]  & <size:12>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-57-28-106.png (S/W Project Cost Estimation Technique based on Use Case Points) click me]]
 |<#red><b><i>[[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/use-case.png Nature of Use-Case & Actor vs Use-Case & webservice]] click me|
-|<img:images/img_470.png{scale=.94}>|
-|<img:images/img_469.png{scale=.96}>|
-|<img:images/img_471.png{scale=.838}>|;
+|<img:images/img_469.png>|
+|<#white><img:images/img_628.png>|
+|<img:images/img_471.png{scale=.87}>|;
 **[#lightblue]:<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png Front-end]]
 *<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_574.png DDD]];
 ***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png User Interface]] \n*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_574.png DDD]]
@@ -52,7 +52,9 @@ caption <img:images/image-2023-02-20-18-57-28-106.png{scale=.66}>
 
 
 
-*[#darkblue] <i><color #white>[[docs/3-programming-languages/clean-architecture/images/external-interfaces-or-APIs.png APIs as Integration]] \n<img:images/img_471.png{scale=1}>
+*[#darkblue]:<i><color #white>[[docs/3-programming-languages/clean-architecture/images/external-interfaces-or-APIs.png APIs as Integration]]
+|<img:images/img_471.png{scale=1}>|
+|<#white><img:images/img_628.png{scale=1}>|;
 **[#lightblue] <i><color #black><size:12>RESTful APIs
 ***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc Authentication]]
 ****[#darkorange] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc OAuth]]

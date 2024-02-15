@@ -27,16 +27,17 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ==|<#red><i><size:12>[[https://medium.com/storyblocks-engineering/web-architecture-101-a3224e126947 Web Architecture 101]] article|==
 *<i><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_623.png Web Architecture 101 Part-1]]
 **<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_624.png Part-2]]
-***<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_626.png 1- Simple & small size Web-App]]
-***<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_627.png 2- Small to Medium size Web-App]]
-***<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_628.png 3- Medium to Large size Web-App]]
+**<i><color #black><size:12>Web-App Size:
+***<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_626.png 1- Simple & small]]
+***<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_627.png 2- Small to Medium]]
+***<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_628.png 3- Medium to Large]] + [[https://www.youtube.com/watch?v=Tu9WGaePtBA&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=27&ab_channel=JeffreyRichter video]]
 ==|<i><size:12>Layoffs|==
 *<i><color #black><size:12>[[https://medium.com/jonathans-musings/the-great-tech-deflation-5c42114999a8 The Great Tech Deflation (layoffs)]]
 *<i><color #black><size:12>[[https://betterprogramming.pub/advices-from-a-software-engineer-with-8-years-of-experience-8df5111d4d55 Advice From a Software Engineer]]
 <i><color #black><size:12>[[https://betterprogramming.pub/advices-from-a-software-engineer-with-8-years-of-experience-8df5111d4d55 With 8 Years of Experience]];
 
 ***[#green] <i><color #white><b><size:12>Definition
-****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/app-vs-network-structure.puml Shape of the major structure of a system or topology. architecture is a "view" of a system.]] click me
+****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/app-vs-network-structure.puml Shape of the major structure of a system or topology. architecture is a "view" of a system.]]
 ****[#yellow]:<i><color #black><size:12>**Goal of architecture:** Minimize the **human resources** required to **build & maintain** "software system".
 *<i><color #black><size:12>If **effort** remains **constant or shrinks with time** then **design** is **good**. If **effort** increases with each **passing release** then **design** is <b>bad.;
 ****[#yellow] <i><color #black><size:12>**Martin fowler** article, "Who needs an architect". <b>Said: It is
@@ -168,8 +169,12 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 |<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_743.png 2- Sale value]]|<#red><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_746.png Closed Source & Bad Design]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_749.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_748.png 3]]|
 ==<i><color #black><size:12><b>After the rise of [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Modern Machine Learning]] ([[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Deep-Learning.puml & Deep Learning]])==
 *<i><color #black><size:12><b>Data [[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml (Big Data)]] has "value".;
-****[#gold] *<i><color #black><size:12>""Program = **Data** + **instruction (Code)** on data"" \n*<i><color #black><size:12>In the begining the movement was **Open Source Code;** Nowadays the movement is <b>Open Source Data
-
+****[#gold]:*<i><color #black><size:12>""Program = **Data** + **instructions (Code)** on data""
+*<i><color #black><size:12>In the beginning the movement was **Open Source Code;** Nowadays the movement is <b>Open Source Data
+==|<#a><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_750.png Reinventing the Wheel!]]|==
+<i><color #black><size:12>If I use your software then the "use value" of your software will increase. Why not write my own software so
+<i><color #black><size:12>that my software gets "use value". Really! **This is called reinventing the wheel!.** Why? because s/w is
+<i><color #black><size:12>open-source & answer one question. <b>Do you need "use value" or fame for writing the "software"?;
 **[#lightblue] <i><color #black><size:12>[[docs/1-business-analyst/client-management/software-house/Software-House-Processes.puml The risk of not evolving]]
 ***[#green] <b><i><color #white><size:12>[[docs/1-business-analyst/client-management/software-house/Software-House-Processes.puml Relevance]]
 
