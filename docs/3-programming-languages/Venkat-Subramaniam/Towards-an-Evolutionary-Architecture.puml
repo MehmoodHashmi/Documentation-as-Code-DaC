@@ -163,13 +163,16 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 *<i><color #black><size:12>**Stakeholders** believe that the **requirements & changes** are only **complicated** by <b>scope.
 *<i><color #black><size:12>**Programmers** see each new **requirements** as a **puzzle piece** that must be **fit** into an <b>ever more complex puzzle.
 |<#white><i><color #black><size:12>**Solution:** keep the puzzle **"simple".**|;
-***[#a]:<i><color #black><size:12><b>The book Cathedral & bazaar in late 1990's said two values of software are:
-<i><color #black><size:12><b>1- Use value
-<i><color #black><size:12><b>2- Sale value
-==<i><color #black><size:14><b>After the rise of [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Modern Machine Learning]] ([[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Deep-Learning.puml & Deep Learning]])==
+***[#a]:<i><color #black><size:12><b>The book Cathedral & bazaar in 2003 said two values of software are:
+|<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_743.png 1- Use value]]|<#red><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_744.png More on Use/Sale value]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_745.png Inverse commons]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_746.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_747.png 3]]|
+<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_743.png 2- Sale value]]
+==<i><color #black><size:12><b>After the rise of [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Modern Machine Learning]] ([[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Deep-Learning.puml & Deep Learning]])==
 *<i><color #black><size:12><b>Data [[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml (Big Data)]] has "value".;
+****[#gold] *<i><color #black><size:12>""Program = **Data** + **instruction (Code)** on data"" \n*<i><color #black><size:12>In the begining the movement was **Open Source Code;** Nowadays the movement is <b>Open Source Data
+
 **[#lightblue] <i><color #black><size:12>[[docs/1-business-analyst/client-management/software-house/Software-House-Processes.puml The risk of not evolving]]
 ***[#green] <b><i><color #white><size:12>[[docs/1-business-analyst/client-management/software-house/Software-House-Processes.puml Relevance]]
+
 ****[#gold]:*<i><color #black><size:12>If not evolved may become obsolete & irrelevant.
 <i><color #black><size:12>**1-** Team is held hosted by the architects, architect says you will develop it because we architected it.
 <i><color #black><size:12>**2-** System does one thing & architecture diagrams on the walls does completely different things, they
