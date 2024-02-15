@@ -37,6 +37,7 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 **[#lightblue] <i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_701.png Those who cannot remember the past are]]\n<i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_701.png condemned to repeat it.]] ""by GeorgeSantayana""
 ***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png Exodus: 1971–1980]]
 ****[#yellow] <b><i><size:12>It would only take about 5-years for C to drive "machine assemblers" almost completely out of use. \n<b><i><size:12>By the early 1990s C and C++ would dominate not only "systems" but "application" programming; \n<b><i><size:12>by the late 1990s all other conventional compiled languages would be effectively obsolete.
+*****[#gold] <i><size:12>Now in **2024 Rust & golang** are replacing <b>C, C++ \n<i><size:12>especially in Linux O/S kernel. Linus Torvald himself said this.
 
 ***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png Between 1991 and 1995]]
 ****[#darkorange] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png In 1995, Linux O/S found its killer app: Apache, the open-source webserver.]]
@@ -44,6 +45,7 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 ****[#darkorange] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png The lesson for the future is that]]
 ****[#darkorange] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png Another lesson is this]]
 ****[#darkorange] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png Finance, Economy?]] last two paragraph!
+*****[#a] <b><i><size:12>[[https://www.youtube.com/watch?v=ElcmUYT9V54&t=1811s Make Money with Open-Source?]] 1-hour video YouTube
 ***[#a] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png The "application" of these "lessons" with respect to "software technologies"]] \n<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png other than "Unix" is left as an easy exercise for the reader.]]
 ****[#darkorange] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png Will do my research]] \n*<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_741.png Google Bard]] respone\n*<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_742.png ChatGPT]] respone
 **[#lightblue] <i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_723.png Software Is a Many-Layered Thing]]
@@ -76,6 +78,8 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 ***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_738.png From Reuse to Open Source]]
 ****[#a] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_739.png The Best Things in Life Are Open]]
 *****[#a] *<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_740.png Issues in Using Open-Source Software]] \n**<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_740.png When You Need a Lawyer…]]
+**[#lightblue] <i><size:12>""Book: The Cathedral & the Bazaar""
+***[#green] <b><i><size:12><color #white>d
 
 @endmindmap
 
