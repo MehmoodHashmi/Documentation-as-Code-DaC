@@ -169,8 +169,8 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 |<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_743.png 2- Sale value]]|<#red><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_746.png Closed Source & Bad Design]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_749.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_748.png 3]]|
 ==<i><color #black><size:12><b>After the rise of [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Modern Machine Learning]] ([[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Deep-Learning.puml & Deep Learning]])==
 *<i><color #black><size:12><b>Data [[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml (Big Data)]] has "value".;
-****[#gold]:*<i><color #black><size:12>""Program = **Data** + **instructions (Code)** on data""
-*<i><color #black><size:12>In the beginning the movement was **Open Source Code;** Nowadays the movement is <b>Open Source Data
+****[#darkorange]:*<i><color #black><size:12>""Program = **Data** + **instructions (Code)** on data""
+*<i><color #black><size:12>In the beginning the movement was **Open Source "Code";** Nowadays **(in 2020)** the movement is <b>Open Source "Data" ([[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering/GDPR.puml GDPR]] & [[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering/HIPAA.puml HIPPA]]) compliant
 ==|<#a><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_750.png Reinventing the Wheel!]]|==
 <i><color #black><size:12>If I use your software then the "use value" of your software will increase. Why not write my own software so
 <i><color #black><size:12>that my software gets "use value". Really! **This is called reinventing the wheel!.** Why? because s/w is
