@@ -160,8 +160,7 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 *<b><i><size:12><color #black>Skill with the tools is easy but not simple.
 <b><i><size:12><color #black>2- Right mindset. is more important than first (LLMs as mind amplifiers is a fascinating frame.)
 *<b><i><size:12><color #black>Right mindset (which is much more important) is simple but  not easy.
-<b><i><size:12><color #black>This talk is about achieving and maintaining right mindset.
-;
+<b><i><size:12><color #black>This talk is about achieving and maintaining right mindset.;
 ***[#green] <b><i><size:12><color #white>Defect Attractors
 
 *[#darkblue] <b><i><size:12><color #white>Book: The Programmer's way \n<b><i><size:12><color #white>(A guild to right mindset)
@@ -173,10 +172,10 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 **[#lightblue] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_752.png Engineering, Design & fluctuating cost]]
 **[#lightblue] <b><i><size:12><color #black>Five Gates of the way
 ***[#yellow]:<b><i><size:12><color #black>Mastery of programming rests on two pillars:
-|<b><i><size:12><color #black>1- Skill with the Tools (e.g. compilers, interpreters, editors, VCS, repository sites (github, gitlab, bitbucket,) etc.|
+|<#white><b><i><size:12><color #black>1- Skill with the Tools (e.g. compilers, interpreters, editors, VCS, repository sites (github, gitlab, bitbucket,) etc.|
 <b><i><size:12><color #black>& all technical impediments we use these days). In an and IDE you all of them in one place
 *<b><i><size:12><color #black>Skill with the tools is easy but not simple.
-|<b><i><size:12><color #black>2- Right mindset.|<b><i><size:12><color #black>LLMs as mind amplifiers is a fascinating frame.|
+|<#a><b><i><size:12><color #black>2- Right mindset.|<b><i><size:12><color #black>LLMs as mind amplifiers is a fascinating frame.|
 *<b><i><size:12><color #black>Right mindset (which is far more important) is simple but  not easy.
 <i><size:12><color #black>\tYou've to approach problems in a particular way that finds the places to break them apart into pieces that you can specify.
 <i><size:12><color #black>\tI think is a skill that can be learned but in general we're very poor at teaching it except by having people repeatedly bash their heads into the wall of
@@ -216,6 +215,8 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 ****[#a]:<i><size:12><color #black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_133.png Code is tool or instrument, code is what it does it's not a substitute for thought or correct mental model, getting a correct mental model is hard.]]
 <i><size:12><color #black><b>Code or tool or instrument can't help when you have incorrect mental model of a problem or solution. This means that you does understand the
 <i><size:12><color #black><b>concept or problem instead you must get enough domain knowledge so that you can improve your mental model.;
+**[#lightblue] <b><i><size:12><color #black>Mindset & AI
+***[#a] <b><i><size:12><color #black>LLMs as [[docs/3-programming-languages/Venkat-Subramaniam/images/img_513.png "mind"]] amplifiers is a fascinating frame.
 
 @endmindmap
 
