@@ -79,9 +79,60 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 ****[#a] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_739.png The Best Things in Life Are Open]]
 *****[#a] *<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_740.png Issues in Using Open-Source Software]] \n**<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_740.png When You Need a Lawyer…]]
 **[#lightblue] <i><size:12>""Book: The Cathedral & the Bazaar""
-***[#green] <b><i><size:12><color #white>d
+***[#green] <b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_754.png Introduction]]
+***[#green] <b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_754.png The rise of Unix]]
+***[#green] <b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_754.png Prologue (introduction): The Real Programmers]]
+***[#green] <b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_754.png The End of Elder Days]]
+***[#a]:*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_755.png 1- Every good work of software starts by scratching a developer’s personal itch.]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_755.png 2- Good programmers know what to write. Great ones know what to rewrite (and reuse).]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_755.png 3- ‘‘Plan to throw one away; you will, anyhow. " (Fred Brooks, The Mythical Man-Month, Chapter 11)]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_755.png 4- If you have the right attitude, interesting problems will ﬁnd you.]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_755.png 5- When you lose interest in a program, your last duty to it is to hand it off to a competent successor.]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_755.png 6- Treating your users as co-developers is your least-hassle route to rapid code improvement and effective debugging.]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_755.png 7- Release early. Release often. And listen to your customers.]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_756.png 8- Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the ﬁx obvious to someone.]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_756.png 9- Smart data structures and dumb code works a lot better than the other way around.]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_756.png 11- The next best thing to having good ideas is recognizing good ideas from your users. Sometimes the latter is better.]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_756.png 12- Often, the most striking and innovative solutions come from realizing that your concept of the problem was wrong.]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_756.png 13- ‘‘Perfection (in design) is achieved not when there is nothing more to add, but rather when there is nothing more to take away.’’]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_756.png 14- Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected.]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_756.png 15- When writing gateway software of any kind, take pains to disturb the data stream as little as possible — and never throw away information unless the recipient forces you to!]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_757.png 17- A security system is only as secure as its secret. Beware of pseudo-secrets.]]
+**<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_757.png Necessary Preconditions for the Bazaar Style]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_758.png 18- To solve an interesting problem, start by ﬁnding a problem that is interesting to you.]];
+***[#green] <b><i><size:12><color #red>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_759.png The Manufacturing Delusion]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_760.png The Inverse Commons]]
+***[#gold] <i><color #black><size:12><b>Two values of software
+****[#green] <i><color #white><size:12><b>Behavioral value
+*****[#yellow]:|<#white><i><color #black><size:12>help  **stakeholders** <b>"make or save money".</b> Is actually **use cases** or <b>feature development. (& problem solving)|
+**<i><color #black><size:12>by **making machines behave** in ways that **satisfy** the <b>requirement.
+*<i><color #black><size:12>Many **programmers** believe this is the entirely of their <b>job. They are sadly mistaken.;
+****[#green] <i><color #white><size:12><b>Structural value
+*****[#yellow]:<i><color #black><size:12>is **architecture** & often ignored by the <b>developers
+====
+*<i><color #black><size:12>**Architecture:** Soft-ware is a compound word
+*<i><color #black><size:12>When **stakeholders** change their **minds** the **"change"** to the "software" should be <b>"simple & easy" to make.
+*<i><color #black><size:12>The **cost of change** should be **proportional** to <b>scope (range), not shape.;
+*****[#yellow]:|<#white><i><color #black><size:12><b><u>Scope Vs Shape:|
+*<i><color #black><size:12>**Stakeholders** believe that the **requirements & changes** are only **complicated** by <b>scope.
+*<i><color #black><size:12>**Programmers** see each new **requirements** as a **puzzle piece** that must be **fit** into an <b>ever more complex puzzle.
+|<#white><i><color #black><size:12>**Solution:** keep the puzzle **"simple".**|;
+****[#a]:<i><color #black><size:12><b>The book Cathedral & bazaar in 2001 said two values of software are:
+|<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_743.png 1- Use value]]|<#red><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_744.png More on Use/Sale value]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_745.png Inverse commons]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_746.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_747.png 3]]|
+|<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_743.png 2- Sale value]]|<#red><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_746.png Closed Source & Bad Design]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_749.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_748.png 3]]|
+==<i><color #black><size:12><b>After the rise of [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Modern Machine Learning]] ([[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Deep-Learning.puml & Deep Learning]])==
+*<i><color #black><size:12><b>Data [[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml (Big Data)]] has "value".;
+*****[#darkorange]:*<i><color #black><size:12>""Program = **Data** + **instructions (Code)** on data""
+*<i><color #black><size:12>In the beginning the movement was **Open Source "Code";** Nowadays **(in 2020)** the movement is <b>Open Source "Data" ([[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering/GDPR.puml GDPR]] & [[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering/HIPAA.puml HIPPA]]) compliant
+==|<#a><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_750.png Reinventing the Wheel!]]|==
+<i><color #black><size:12>If I use your software then the "use value" of your software will increase. Why not write my own software so
+<i><color #black><size:12>that my software gets "use value". Really! **This is called reinventing the wheel!.** Why? because s/w is
+<i><color #black><size:12>open-source & answer one question. <b>Do you need "use value" or fame for writing the "software"?;
+
+***[#green] <b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_761.png Afterword: Why Closing a Drivers Loses Its Vendor Money]]
+***[#green] <b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_761.png Beyond Software?]]
+
 **[#lightblue] <i><size:12>""[[https://www.youtube.com/watch?v=qoUsfuJaLxg&ab_channel=Level1Linux Interview in 2019: Eric S Raymond]]""
-***[#green] <b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_751.png Thougts on RISC-V Foundation]]
+***[#green] <b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_751.png Thoughts on RISC-V Foundation]]
 ****[#yellow] <b><i><size:12><color #black>RISC (Reduced Instruction Set Chip/Architecture/Machine)
 ***[#green] <b><i><size:12><color #white>Disruption from below
 ****[#yellow] <b><i><size:12><color #black>E.g. Startups both in hardware & software
@@ -118,6 +169,8 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 <b><i><size:12><color #black>like a master programmer. This new book is not confined to UNIX design tradition.
 <b><i><size:12><color #black>In this new book I'm trying to give people a sense of; In order to architecture & "systems" programming; How you've to learn
 <b><i><size:12><color #black>to carve up the world with your mind ;
+**[#lightblue] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_753.png Reference locality in datastructures]]
+**[#lightblue] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_752.png Engineering, Design & fluctuating cost]]
 **[#lightblue] <b><i><size:12><color #black>Five Gates of the way
 ***[#yellow]:<b><i><size:12><color #black>Mastery of programming rests on two pillars:
 |<b><i><size:12><color #black>1- Skill with the Tools (e.g. compilers, interpreters, editors, VCS, repository sites (github, gitlab, bitbucket,) etc.|
@@ -128,9 +181,41 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 <i><size:12><color #black>\tYou've to approach problems in a particular way that finds the places to break them apart into pieces that you can specify.
 <i><size:12><color #black>\tI think is a skill that can be learned but in general we're very poor at teaching it except by having people repeatedly bash their heads into the wall of
 <i><size:12><color #black>\twriting code and seeing what kind of blood comes out. <b>Read my Book The art of unix programming.
-<b><i><size:12><color #black>This talk is about achieving and maintaining right mindset.
+<b><i><size:12><color #black>This talk is about achieving and maintaining right mindset.;
 
-;
+***[#gold] <b><i><size:12><color #black>First Gate
+****[#yellow] <b><i><size:12><color #black>Sequencial Assignment: that is assigned to a variable. What happens when you assign a "value" to a variable?
+****[#yellow] <b><i><size:12><color #black>I hope you all understand this concept. Someone in the audience said oh, it's algebra.
+
+***[#gold] <b><i><size:12><color #black>Second Gate
+****[#yellow] <b><i><size:12><color #black>Recursion: the idea that a function can call itself. What happens behind the scenes to achieve recursion?
+
+***[#gold] <b><i><size:12><color #black>Third Gate
+****[#yellow] <b><i><size:12><color #black>Pointers: being able to distinguish between "value" & reference to the "value". And reason about data structures that 've pointers in them.
+****[#yellow] <b><i><size:12><color #black>This actually abshould of RAM (sequential or random access) or Linear or non-linear data structures.
+
+***[#gold] <b><i><size:12><color #black>Fourth Gate
+****[#yellow] <b><i><size:12><color #black>Closures or Lambda: e.g. it's great tool for callbacks. meaning when you've to program in callbacks.
+
+***[#gold] <b><i><size:12><color #black>Fifth Gate
+****[#yellow]:<b><i><size:12><color #black>Concurrency: What happens when you've multiple Processes or Threads of execution & they 've to mediate common access to shared data structures & you've problems like
+<b><i><size:12><color #black>asynchronous processes trashing data or reading incomplete data (here means locks) and 've to deal with issues like deadlocks & livelocks. When you hit moore's law then
+<b><i><size:12><color #black>you've no choice but do concurrency.;
+***[#gold]:*<b><i><size:12><color #black>These 5-gates are actually techniques through which a programer has to pass daily.
+*<b><i><size:12><color #black>He tried to put these gates in order like Robert C Martin did with SOLID acroynm. As there are more principles such as YAGNI, KISS, DRY, SLAP, GRASP, and son on
+<b><i><size:12><color #black>In the same manner there can be more more gates in-between these gates or maybe before/after these gates that has been identified by him.;
+
+**[#lightblue] <b><i><size:12><color #black>Two Kinds of skills & \n<b><i><size:12><color #black>Two kinds of Geniuses
+***[#gold] <b><i><size:12><color #black>Two Kinds of Geniuses \n<b><i><size:12><color #black>in the world are:
+****[#yellow] <b><i><size:12><color #black>1- Talent Monsters
+****[#yellow] <b><i><size:12><color #black>2- Skill Monsters
+****[#yellow] <b><i><size:12><color #black>Maps create Mindset
+**[#lightblue] <b><i><size:12><color #black>Two Kinds of pits you may fall into \n<b><i><size:12><color #black>while you program there can be more:
+***[#gold] <b><i><size:12><color #black>1- Stupid Problem
+***[#gold] |<#grey><b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_132.png 2- Finger Trap]]|
+****[#a]:<i><size:12><color #black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_133.png Code is tool or instrument, code is what it does it's not a substitute for thought or correct mental model, getting a correct mental model is hard.]]
+<i><size:12><color #black><b>Code or tool or instrument can't help when you have incorrect mental model of a problem or solution. This means that you does understand the
+<i><size:12><color #black><b>concept or problem instead you must get enough domain knowledge so that you can improve your mental model.;
 
 @endmindmap
 
