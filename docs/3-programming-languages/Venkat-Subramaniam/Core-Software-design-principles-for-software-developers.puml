@@ -41,7 +41,7 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12>**Code** is a **tool** through which you can **express** your **thoughts** about a <b>problem.
 *<i><color #black><size:12>The **moment** you 've better **design idea** the existing **source code** becomes
 <i><color #black><size:12>**obsolete** as it doesn't **reflects** your **latest mental-model** & requires <b>refactoring
-*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_420.png "Programmer's time spent" in "analysis & design" pays off.]]
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_420.png "Programmer's time spent" in "analysis & design" pays off.]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_63.png Who builds S/W?]]
 *<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=wfGhuv3BlTI&list=LL&index=11&pp=gAQBiAQB&ab_channel=SystemsInnovation Standards of Thinking]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_515.png Systematic Thinking Vs. Systematic Principle]]
 ==|<#black><i><color #red><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_526.png Thought vs Imagination]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_592.png ("Intuition" follows Imagination)]] |==
 *<i><color #black><size:12><b>Is thought [[docs/3-programming-languages/Venkat-Subramaniam/images/img_515.png "systematic"?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_597.png Insight vs. Foresight]]
@@ -201,6 +201,7 @@ skinparam hyperlinkColor white
 <img:images/img_32.png>
 ==|<#black><i><color #white><size:12>Model: is an "abstraction" of "reality"|==
 <i><color #black><size:12>Abstraction: [[docs/3-programming-languages/Venkat-Subramaniam/images/img_617.png Grady Booch, Edsger Dijkstra, Donald Knuth, & David Wheeler]]
+*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_730.png Tools & Complexity]]
 ==|<i><color #black><size:12>More on "Complexity" From other fields & domains|==
 *<i><color #black><size:12>[[https://www.youtube.com/watch?v=i-ladOjo1QA&list=LL&index=13&t=9s Complexity Theory Overview]] 10-min
 **<i><color #black><size:12>[[https://www.youtube.com/watch?v=i-ladOjo1QA&list=LL&index=13&t=9s Complexity Explorer (What is Complexity?)]] 30-min
@@ -520,7 +521,7 @@ skinparam hyperlinkColor white
 ****[#gold] <i><color #black><size:12>prevents code <b>rigidity, fragility & non-reusebility!
 **[#lightblue] <i><color #black><size:12>Keep in mind \n<i><color #black><size:12>Liskov's Substitution Principle
 ***[#green] <i><color #white><b><size:12>Inheritance overused
-****[#gold] *<i><color #black><size:12>Bad thing!
+****[#gold] *<i><color #black><size:12>Bad thing! \n*<i><color #black><size:12>so does <b>global variables!
 ***[#green] <i><color #white><b><size:12>Inheritance should be used \n<i><color #white><b><size:12>only for substitutability
 ****[#gold] *<i><color #black><size:12>If **an object of B** should be "used" anywhere **an object of of A** is used then use <b>inheritance. \n*<i><color #black><size:12>If **an object of B** should "use" **an object of A**, then use <b>"composition or delegation".
 ****[#yellow] *<i><color #black><size:12>**Inheritance** demands more from a "developer" than **composition or delegation** does.
