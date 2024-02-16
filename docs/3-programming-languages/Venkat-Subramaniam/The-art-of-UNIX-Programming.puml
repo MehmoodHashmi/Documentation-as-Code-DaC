@@ -154,20 +154,15 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 <b><i><size:12><color #black>like a master programmer. This new book is not confined to UNIX design tradition.
 <b><i><size:12><color #black>In this new book I'm trying to give people a sense of; In order to architecture & "systems" programming; How you've to learn
 <b><i><size:12><color #black>to carve up the world with your mind ;
-****[#yellow] <b><i><size:12><color #black>Five Gates of the way
-*****[#gold]:<b><i><size:12><color #black>Mastery of programming rests on two pillars:
-<b><i><size:12><color #black>1- Skill with the Tools (e.g. compilers, interpreters, editors, VCS, repository sites (github, gitlab, bitbucket,) etc. & all technical impediements we use these days) In an and IDE you all of them in one place
-*<b><i><size:12><color #black>Skill with the tools is easy but not simple.
-<b><i><size:12><color #black>2- Right mindset. is more important than first (LLMs as mind amplifiers is a fascinating frame.)
-*<b><i><size:12><color #black>Right mindset (which is much more important) is simple but  not easy.
-<b><i><size:12><color #black>This talk is about achieving and maintaining right mindset.;
+****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_753.png Reference locality in datastructures]]
+****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_752.png Engineering, Design & fluctuating cost]]
 ***[#green] <b><i><size:12><color #white>Defect Attractors
 
 *[#darkblue] <b><i><size:12><color #white>Book: The Programmer's way \n<b><i><size:12><color #white>(A guild to right mindset)
 **[#lightblue]:<b><i><size:12><color #black>A new book he is working on; It's same like the book "The art of Unix Programming". But this is new book is about how to think
 <b><i><size:12><color #black>like a master programmer. This new book is not confined to UNIX design tradition.
 <b><i><size:12><color #black>In this new book I'm trying to give people a sense of; In order to architecture & "systems" programming; How you've to learn
-<b><i><size:12><color #black>to carve up the world with your mind ;
+<b><i><size:12><color #black>to carve up the world with your mind;
 **[#lightblue] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_753.png Reference locality in datastructures]]
 **[#lightblue] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_752.png Engineering, Design & fluctuating cost]]
 **[#lightblue] <b><i><size:12><color #black>Five Gates of the way
