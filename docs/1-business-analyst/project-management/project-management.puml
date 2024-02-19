@@ -1,60 +1,60 @@
 @startmindmap
-title =<i><b><u>Project Management
+title =<i><b><u><size:12>Project Management
 !theme hacker
 
 *[#darkblue] <i><color #white>Project Management
-**[#lightblue] <i><color #blac><size:14>Overview
-***[#green] <b><i><color #white><size:14>Definition
-****[#yellow] <i><color #black><size:14>Planning, organizing, and managing resources to achieve specific goals within constraints.
-***[#green] <b><i><color #white><size:14>Importance
-****[#yellow] <i><color #black><size:14>Ensures project completion within scope, time, cost, and quality parameters.
-**[#lightblue] <i><color #blac><size:14>Project Lifecycle
-***[#green] <b><i><color #white><size:14>Initiation
-****[#yellow] <i><color #black><size:14>Defining project objectives, scope, and stakeholders' expectations.
-***[#green] <b><i><color #white><size:14>Planning
-****[#yellow] <i><color #black><size:14>Creating a roadmap outlining tasks, resources, timelines, and milestones.
-***[#green] <b><i><color #white><size:14>Execution
-****[#yellow] <i><color #black><size:14>Implementing project plans, allocating resources, and managing tasks.
-***[#green] <b><i><color #white><size:14>Monitoring & Controlling
-****[#yellow] <i><color #black><size:14>Tracking progress, assessing performance, and making necessary adjustments.
-***[#green] <b><i><color #white><size:14>Closure
-****[#yellow] <i><color #black><size:14>Formal completion, delivering the final product, and evaluating project outcomes.
-**[#lightblue] <i><color #blac><size:14>Project Manager Roles
-***[#green] <b><i><color #white><size:14>Leadership
-****[#yellow] <i><color #black><size:14>Guiding the team, setting direction, and fostering collaboration.
-***[#green] <b><i><color #white><size:14>Planning & Organizing
-****[#yellow] <i><color #black><size:14>Defining goals, allocating resources, and structuring tasks.
-***[#green] <b><i><color #white><size:14>Communication
-****[#yellow] <i><color #black><size:14>Facilitating discussions, ensuring information flow, and managing stakeholders.
-***[#green] <b><i><color #white><size:14>Risk Management
-****[#yellow] <i><color #black><size:14>Identifying, assessing, and mitigating project risks.
-***[#green] <b><i><color #white><size:14>Problem Solving
-****[#yellow] <i><color #black><size:14>Addressing issues, making decisions, and adapting plans as needed.
+**[#lightblue] <i><color #blac><size:12>Overview
+***[#green] <b><i><color #white><size:12>Definition
+****[#yellow] <i><color #black><size:12>Planning, organizing, and managing resources to achieve specific goals within constraints.
+***[#green] <b><i><color #white><size:12>Importance
+****[#yellow] <i><color #black><size:12>Ensures project completion within scope, time, cost, and quality parameters.
+**[#lightblue] <i><color #blac><size:12>Project Lifecycle
+***[#green] <b><i><color #white><size:12>Initiation
+****[#yellow] <i><color #black><size:12>Defining project objectives, scope, and stakeholders' expectations.
+***[#green] <b><i><color #white><size:12>Planning
+****[#yellow] <i><color #black><size:12>Creating a roadmap outlining tasks, resources, timelines, and milestones.
+***[#green] <b><i><color #white><size:12>Execution
+****[#yellow] <i><color #black><size:12>Implementing project plans, allocating resources, and managing tasks.
+***[#green] <b><i><color #white><size:12>Monitoring & Controlling
+****[#yellow] <i><color #black><size:12>Tracking progress, assessing performance, and making necessary adjustments.
+***[#green] <b><i><color #white><size:12>Closure
+****[#yellow] <i><color #black><size:12>Formal completion, delivering the final product, and evaluating project outcomes.
+**[#lightblue] <i><color #blac><size:12>Project Manager Roles
+***[#green] <b><i><color #white><size:12>Leadership
+****[#yellow] <i><color #black><size:12>Guiding the team, setting direction, and fostering collaboration.
+***[#green] <b><i><color #white><size:12>Planning & Organizing
+****[#yellow] <i><color #black><size:12>Defining goals, allocating resources, and structuring tasks.
+***[#green] <b><i><color #white><size:12>Communication
+****[#yellow] <i><color #black><size:12>Facilitating discussions, ensuring information flow, and managing stakeholders.
+***[#green] <b><i><color #white><size:12>Risk Management
+****[#yellow] <i><color #black><size:12>Identifying, assessing, and mitigating project risks.
+***[#green] <b><i><color #white><size:12>Problem Solving
+****[#yellow] <i><color #black><size:12>Addressing issues, making decisions, and adapting plans as needed.
 **[#lightblue] <i><color #blac><size:22>Project Management Methodologies
-***[#green] <b><i><color #white><size:14>Waterfall
-****[#yellow] <i><color #black><size:14>Sequential project phases: requirements, design, implementation, testing, deployment.
-***[#green] <b><i><color #white><size:14>Agile
-****[#yellow] <i><color #black><size:14>Iterative approach, adaptive to changes, emphasizing collaboration and flexibility.
-***[#green] <b><i><color #white><size:14>Scrum
-****[#yellow] <i><color #black><size:14>Framework for Agile, comprising sprints, daily stand-ups, and regular reviews.
-***[#green] <b><i><color #white><size:14>Kanban
-****[#yellow] <i><color #black><size:14>Visualizing workflow, limiting work in progress, and continuous delivery.
+***[#green] <b><i><color #white><size:12>Waterfall
+****[#yellow] <i><color #black><size:12>Sequential project phases: requirements, design, implementation, testing, deployment.
+***[#green] <b><i><color #white><size:12>Agile
+****[#yellow] <i><color #black><size:12>Iterative approach, adaptive to changes, emphasizing collaboration and flexibility.
+***[#green] <b><i><color #white><size:12>Scrum
+****[#yellow] <i><color #black><size:12>Framework for Agile, comprising sprints, daily stand-ups, and regular reviews.
+***[#green] <b><i><color #white><size:12>Kanban
+****[#yellow] <i><color #black><size:12>Visualizing workflow, limiting work in progress, and continuous delivery.
 **[#lightblue] <i><color #blac><size:22>Tools & Software
-***[#green] <b><i><color #white><size:14>Project Planning
-****[#yellow] <i><color #black><size:14>Gantt charts, WBS **(Work Breakdown Structure),** PERT charts.
-***[#green] <b><i><color #white><size:14>Communication & Collaboration
-****[#yellow] <i><color #black><size:14>Messaging apps, project management software, shared document platforms.
-***[#green] <b><i><color #white><size:14>Resource Management
-****[#yellow] <i><color #black><size:14>Task trackers, time tracking tools, resource allocation software.
-***[#green] <b><i><color #white><size:14>Reporting & Analytics
-****[#yellow] <i><color #black><size:14>Dashboard tools, reporting software for project metrics and KPIs.
-**[#lightblue] <i><color #blac><size:14>Project Documentation
-***[#green] <b><i><color #white><size:14>Project Charter
-****[#yellow] <i><color #black><size:14>Outlines project objectives, scope, and stakeholders' roles.
-***[#green] <b><i><color #white><size:14>Project Plan
-****[#yellow] <i><color #black><size:14>Detailed roadmap with tasks, timelines, and resource allocations.
-***[#green] <b><i><color #white><size:14>Risk Register
-****[#yellow] <i><color #black><size:14>Identification and assessment of potential risks and mitigation strategies.
-***[#green] <b><i><color #white><size:14>Progress Reports
-****[#yellow] <i><color #black><size:14>Updates on project status, milestones achieved, and remaining tasks.
+***[#green] <b><i><color #white><size:12>Project Planning
+****[#yellow] <i><color #black><size:12>Gantt charts, WBS **(Work Breakdown Structure),** PERT charts.
+***[#green] <b><i><color #white><size:12>Communication & Collaboration
+****[#yellow] <i><color #black><size:12>Messaging apps, project management software, shared document platforms.
+***[#green] <b><i><color #white><size:12>Resource Management
+****[#yellow] <i><color #black><size:12>Task trackers, time tracking tools, resource allocation software.
+***[#green] <b><i><color #white><size:12>Reporting & Analytics
+****[#yellow] <i><color #black><size:12>Dashboard tools, reporting software for project metrics and KPIs.
+**[#lightblue] <i><color #blac><size:12>Project Documentation
+***[#green] <b><i><color #white><size:12>Project Charter
+****[#yellow] <i><color #black><size:12>Outlines project objectives, scope, and stakeholders' roles.
+***[#green] <b><i><color #white><size:12>Project Plan
+****[#yellow] <i><color #black><size:12>Detailed roadmap with tasks, timelines, and resource allocations.
+***[#green] <b><i><color #white><size:12>Risk Register
+****[#yellow] <i><color #black><size:12>Identification and assessment of potential risks and mitigation strategies.
+***[#green] <b><i><color #white><size:12>Progress Reports
+****[#yellow] <i><color #black><size:12>Updates on project status, milestones achieved, and remaining tasks.
 @endmindmap

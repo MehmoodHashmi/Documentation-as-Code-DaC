@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><b><u><size:18>Core Software design principles for software developers \n<i>Dr.Venkat Subramaniam -  2015
+title =<i><b><u><size:18>Core Software design principles for software developers \n<i>Dr.Venkat Subramaniam -  2015 \n|<img:images/img_128.jpg{scale=.35}>|<img:images/img_772.png>|<img:images/img_773.png{scale=.8}>|
 * <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]]
 ** <i><b>[[https://www.youtube.com/watch?v=llGgO74uXMI&ab_channel=Devoxx Core Software design principles for software developers by Venkat Subramaniam]] video
 *** <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png "Learning these principles do not guarantee earning money" Robert C Martin]] image
@@ -225,12 +225,12 @@ skinparam hyperlinkColor white
 ***[#green] <i><color #white><size:12><b>Inherent or\n<i><color #white><size:12><b>Essential
 ****[#yellow] <i><color #black><size:12>is from the **problem domain,** you can't minimize it. When dealing with the **problem;** there are **"complexities"** \n<i><color #black><size:12>of the **problem** that you 've to deal with. And this is the "nature of the application" and **nature** of the <b>domain.
 ****[#yellow] <i><color #black><size:12>Fortunately, on daily basis we 've to deal more with the <b>accidental "complexities"</b> than <b>inherent "complexities"
-***[#green] <i><color #white><size:12><b>Accidental or\n<i><color #white><size:12><b>Non-essential
+***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_764.png Accidental or]]\n<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_764.png Non-essential]]
 ****[#yellow]:<i><color #black><size:12>Often, comes from the **solution** we use to solve a **particular problem.** The **solution** we are using brings
 <i><color #black><size:12>certain **complexities** into the <b>table.
 *<i><color #black><size:12>Now, to solve this **introduced "complexities"** we bring <b>other solutions.
 *<i><color #black><size:12>**Other solutions,** bring more **"complexities"** & this goes on & on.;
-****[#gold] <i><color #black><size:12>The **problem** did not require a **specific solution,** its the **solution we choose** to solve the <b>problem!
+****[#darkorange] <i><color #black><size:12>The **problem** did not require a **specific solution,** its the **solution we choose** to solve the <b>problem! [[docs/3-programming-languages/Venkat-Subramaniam/images/img_764.png click me]]
 ****[#a] *<i><color #black><size:12><b>E.g. Concurrency \n**<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml Low vs High-level Concurrency]] \n*<i><color #black><size:12><b>E.g. Streams </b>(less accidental complexity)
 *****[#gold] *<i><color #black><size:12>**FP** is good at **managing complexity** in **local computation tasks,** \n*<i><color #black><size:12>**OOP** is good at **managing complexity** in <b>global computation tasks.
 ****[#yellow] <i><color #black><size:12>**Simple** is not necessarily <b>familiar

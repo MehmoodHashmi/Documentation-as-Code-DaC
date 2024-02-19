@@ -140,7 +140,7 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 ***[#green] <b><i><size:12><color #white>Desktop adoption
 ***[#green] <b><i><size:12><color #white>Technology Updates
 ***[#green] <b><i><size:12><color #white>Technology Enthusiasts
-****[#gold] <b><i><size:12><color #black>Go play with RaspberryPi & see what engages you most software or hardware
+****[#gold] <b><i><size:12><color #black>Go play with RaspberryPi & see what engages you most software or hardware?
 ***[#green] <b><i><size:12><color #white>Golang vs Rust
 ****[#yellow] <b><i><size:12><color #black>Golang: Good for networking "applications" or in the cloud for microservices because of low memory usage (footprint)
 ****[#yellow]:<b><i><size:12><color #black>Rust: Good for embeded "systems" or "systems" programming e.g. like writing O/S, Compiler, parsing engines, DBMS, Browser, device drivers or edge computing IoT
@@ -159,59 +159,102 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 ***[#green] <b><i><size:12><color #white>Defect Attractors
 
 *[#darkblue] <b><i><size:12><color #white>Book: The Programmer's way \n<b><i><size:12><color #white>(A guild to right mindset)
-**[#lightblue]:<b><i><size:12><color #black>A new book he is working on; It's same like the book "The art of Unix Programming". But this is new book is about how to think
-<b><i><size:12><color #black>like a master programmer. This new book is not confined to UNIX design tradition.
-<b><i><size:12><color #black>In this new book I'm trying to give people a sense of; In order to architecture & "systems" programming; How you've to learn
-<b><i><size:12><color #black>to carve up the world with your mind;
+**[#lightblue]:<b><i><size:12><color #black>A new book he is working on; It's same like the book "The art of Unix Programming". But this is new book is about how to think like a master programmer.
+<b><i><size:12><color #black>This new book is not confined to UNIX design tradition. In this new book I'm trying to give people a sense of; In order to architecture & "systems" programming
+<b><i><size:12><color #black>How you've to learn to carve up the world with your mind;
+
 **[#lightblue] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_753.png Reference locality in datastructures]]
 **[#lightblue] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_752.png Engineering, Design & fluctuating cost]]
 **[#lightblue] <b><i><size:12><color #black>Five Gates of the way
-***[#yellow]:<b><i><size:12><color #black>Mastery of programming rests on two pillars:
-|<#white><b><i><size:12><color #black>1- Skill with the Tools (e.g. compilers, interpreters, editors, VCS, repository sites (github, gitlab, bitbucket,) etc.|
-<b><i><size:12><color #black>& all technical impediments we use these days). In an and IDE you all of them in one place
-*<b><i><size:12><color #black>Skill with the tools is easy but not simple.
-|<#a><b><i><size:12><color #black>2- Right mindset.|<b><i><size:12><color #black>LLMs as mind amplifiers is a fascinating frame.|
+***[#gold] <b><i><size:12><color #black>Mastery of programming rests on two pillars:
+****[#darkorange]:|<#white><b><i><size:12><color #black>1- Skill with the Tools (e.g. compilers, interpreters, editors, VCS, repository sites (github, gitlab, bitbucket,) etc.|
+<b><i><size:12><color #black>& all technical impediments we use these days). In an IDE you can get all of them in one place.
+*<b><i><size:12><color #black>Skill with the tools is easy but not simple.;
+
+****[#darkorange]:|<#white><b><i><size:12><color #black>2- Right mindset.|<#a><b><i><size:12><color #black>LLMs as [[docs/3-programming-languages/Venkat-Subramaniam/images/img_513.png mind]] amplifiers is a fascinating frame but they are not [[docs/3-programming-languages/Venkat-Subramaniam/images/img_513.png minds]]!|
 *<b><i><size:12><color #black>Right mindset (which is far more important) is simple but  not easy.
-<i><size:12><color #black>\tYou've to approach problems in a particular way that finds the places to break them apart into pieces that you can specify.
+<i><size:12><color #black><b>\t[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png You've to approach problems in a particular way that finds the places to break them apart into pieces that you can specify.]]
 <i><size:12><color #black>\tI think is a skill that can be learned but in general we're very poor at teaching it except by having people repeatedly bash their heads into the wall of
 <i><size:12><color #black>\twriting code and seeing what kind of blood comes out. <b>Read my Book The art of unix programming.
 <b><i><size:12><color #black>This talk is about achieving and maintaining right mindset.;
 
 ***[#gold] <b><i><size:12><color #black>First Gate
-****[#yellow] <b><i><size:12><color #black>Sequencial Assignment: that is assigned to a variable. What happens when you assign a "value" to a variable?
-****[#yellow] <b><i><size:12><color #black>I hope you all understand this concept. Someone in the audience said oh, it's algebra.
+****[#yellow] <b><i><size:12><color #black>Sequential Assignment: that is assigned to a variable. What happens when you assign a "value" to a variable?
+****[#yellow] <b><i><size:12><color #black>If you don't understand first gate then you will "fail programming 101" course. Someone in the audience said oh, it's "algebra".
+****[#yellow] <b><i><size:12><color #black>According to 1988 paper only 2% of world population could pass the first gate.
 
 ***[#gold] <b><i><size:12><color #black>Second Gate
-****[#yellow] <b><i><size:12><color #black>Recursion: the idea that a function can call itself. What happens behind the scenes to achieve recursion?
+****[#yellow] <b><i><size:12><color #black>Recursion: the idea that a function can call itself. What happens behind the scenes to achieve recursion? Not many programers understand this concept!
 
 ***[#gold] <b><i><size:12><color #black>Third Gate
-****[#yellow] <b><i><size:12><color #black>Pointers: being able to distinguish between "value" & reference to the "value". And reason about data structures that 've pointers in them.
-****[#yellow] <b><i><size:12><color #black>This actually abshould of RAM (sequential or random access) or Linear or non-linear data structures.
+****[#yellow] <b><i><size:12><color #black>Pointers: being able to distinguish between "value" & reference to the "value". And reason about data structures that 've pointers in them such as linkedlist, tree, graphs, etc.
+****[#yellow] <b><i><size:12><color #black>This actually should of RAM (sequential or random access) or Linear or non-linear data structures.
+****[#yellow] <b><i><size:12><color #black>Some people could never get this, there was time in programming when there were no pointers. e.g. before C language
+****[#a] <b><i><size:12><color #black>Gate 3a: "Data structuring & data normalization" both are same concept but different names!
 
 ***[#gold] <b><i><size:12><color #black>Fourth Gate
-****[#yellow] <b><i><size:12><color #black>Closures or Lambda: e.g. it's great tool for callbacks. meaning when you've to program in callbacks.
+****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_762.png Closures or Lambda: ]] e.g. it's great tool & very handy for callbacks. meaning when you've to program in callbacks.
 
 ***[#gold] <b><i><size:12><color #black>Fifth Gate
 ****[#yellow]:<b><i><size:12><color #black>Concurrency: What happens when you've multiple Processes or Threads of execution & they 've to mediate common access to shared data structures & you've problems like
 <b><i><size:12><color #black>asynchronous processes trashing data or reading incomplete data (here means locks) and 've to deal with issues like deadlocks & livelocks. When you hit moore's law then
 <b><i><size:12><color #black>you've no choice but do concurrency.;
-***[#gold]:*<b><i><size:12><color #black>These 5-gates are actually techniques through which a programer has to pass daily.
-*<b><i><size:12><color #black>He tried to put these gates in order like Robert C Martin did with SOLID acroynm. As there are more principles such as YAGNI, KISS, DRY, SLAP, GRASP, and son on
-<b><i><size:12><color #black>In the same manner there can be more more gates in-between these gates or maybe before/after these gates that has been identified by him.;
+****[#yellow]:<b><i><size:12><color #black>Is more difficult than 4rth gate. The order of the gates also represents their difficultly level
+<b><i><size:12><color #black>Order can vary based on the first language the programmer himself was exposed to.;
+*****[#a] <b><i><size:12><color #black>[[https://www.youtube.com/watch?v=xnGWRRexRlk&ab_channel=Futurology%E2%80%94AnOptimisticFuture The End of Moore’s Law?! (Shrinking The Transistor To 1nm)]] 10-minute
 
-**[#lightblue] <b><i><size:12><color #black>Two Kinds of skills & \n<b><i><size:12><color #black>Two kinds of Geniuses
-***[#gold] <b><i><size:12><color #black>Two Kinds of Geniuses \n<b><i><size:12><color #black>in the world are:
-****[#yellow] <b><i><size:12><color #black>1- Talent Monsters
-****[#yellow] <b><i><size:12><color #black>2- Skill Monsters
-****[#yellow] <b><i><size:12><color #black>Maps create Mindset
-**[#lightblue] <b><i><size:12><color #black>Two Kinds of pits you may fall into \n<b><i><size:12><color #black>while you program there can be more:
-***[#gold] <b><i><size:12><color #black>1- Stupid Problem
-***[#gold] |<#grey><b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_132.png 2- Finger Trap]]|
-****[#a]:<i><size:12><color #black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_133.png Code is tool or instrument, code is what it does it's not a substitute for thought or correct mental model, getting a correct mental model is hard.]]
-<i><size:12><color #black><b>Code or tool or instrument can't help when you have incorrect mental model of a problem or solution. This means that you does understand the
+***[#a]:*<b><i><size:12><color #black>These 5-gates are actually techniques through which a programer has to pass daily.
+*<b><i><size:12><color #black>He tried to put these gates in order like Robert C Martin did with SOLID acroynm. As there are more principles such as YAGNI, KISS, DRY, SLAP, GRASP, and so on
+<b><i><size:12><color #black>In the same manner there can be more gates in-between these gates or maybe before/after these gates that has been identified by him.
+====
+<b><i><size:16><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_764.png Eric S Raymond: In describing these five gates I'm trying to focus on simple characterizable barriers to gaining more mastery]]
+<b><i><size:12><color #black>there may be something that can be abstracted from data structure design that's that simple but I don't know that there is yet.;
+
+**[#lightblue] <b><i><size:12><color #black>Audience: \n<b><i><size:12><color #black>Is programming \n<b><i><size:12><color #black>learnable?
+***[#lightblue] <b><i><size:12><color #black>Two Kinds of skills & \n<b><i><size:12><color #black>Two kinds of Geniuses
+****[#gold] <b><i><size:12><color #black>Two Kinds of Geniuses \n<b><i><size:12><color #black>in the world are:
+*****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_763.png 1- Talent Monsters]]
+******[#yellow]:<b><i><size:12><color #black>Talent monsters can spot each other or identify another talent monster.
+====
+<b><i><size:12><color #black>Richard Faymen was talent master in physics. He had uncanny amount of talent to understand physiological "systems"
+<b><i><size:12><color #black>He had very good physical intuition.;
+
+*****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_763.png 2- Skill Monsters]]
+******[#grey] *<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_654.png Private Victory]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_653.png 7-habits]]
+****[#yellow] <b><i><size:12><color #black>The path to mastery will be very different based on from where you started. Having a talent controls how fast you start but it doesn't control where you end up.
+
+***[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_766.png Ground Truth Specification Document]]
+
+***[#darkorange] <b><i><size:12><color #black>Two Kinds of pits you may fall into \n<b><i><size:12><color #black>while you program there can be more:
+****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_769.png 1- Stupid Problem]]
+*****[#a] <b><i><size:12><color #black>Your mental model of the problem is correct but the machine or code is not working accordingly!. Hence there is bug in the machine/hardware or code.
+****[#gold] |<#grey><b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_132.png 2- Finger Trap]]|<#red><b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_769.png More Explanation]]|
+*****[#a]:<b><i><size:12><color #black>Your mental model of the problem is incorrect but the machine or code is working accordingly meaning execution of incorrect mental model
+<b><i><size:12><color #black>hence producing useless results (machines are dumb, stupid boxes)!;
+
+*****[#a]:<i><size:12><color #black><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_133.png Code is tool or instrument, code is what it does it's not a substitute for thought or correct mental model, getting a correct mental model is hard.]]
+<i><size:12><color #black><b>Code or tool or instrument can't help when you have an incorrect mental model of a problem or solution. This means that you does understand the
 <i><size:12><color #black><b>concept or problem instead you must get enough domain knowledge so that you can improve your mental model.;
-**[#lightblue] <b><i><size:12><color #black>Mindset & AI
-***[#a] <b><i><size:12><color #black>LLMs as [[docs/3-programming-languages/Venkat-Subramaniam/images/img_513.png "mind"]] amplifiers is a fascinating frame.
+
+**[#lightblue] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_765.png Maps create Mindset]] \n*<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_766.png Part-2]]
+***[#gold] <b><i><size:12><color #black>Mindset & AI
+****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_770.png Current AI, ChatGPT & LLMs Hype]]
+*****[#darkorange] <b><i><size:12><color #black>[[https://www.youtube.com/watch?v=GVsUOuSjvcg&ab_channel=Veritasium Digital computers have served us well for decades, but the rise of artificial intelligence demands a totally new kind of computer: analog.]] 20-minute
+****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png Story & History of Programming]]
+*****[#darkorange]:*<b><i><size:12><color #black>[[https://www.youtube.com/watch?v=-M6lANfzFsM&ab_channel=Futurology%E2%80%94AnOptimisticFuture The History of Computing]] 10 minute. This is the best video
+*<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png History of Computers | From 1930 to Present]] 5-mintue
+*<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png History of Computers | From 1930 to Present]] 5-mintue;
+****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 1- Programming by changing  plugs on patch boards]]
+*****[#darkorange] *<b><i><size:12><color #black>[[https://www.youtube.com/watch?v=-M6lANfzFsM&ab_channel=Futurology%E2%80%94AnOptimisticFuture The History of Computing]]
+****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 2- Symbolic Assemblers]]
+****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 3- Compilers]]
+*****[#darkorange] *<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png Assembler vs Compiler vs Linker]] \n*<b><i><size:12><color #black>[[docs/books/1-books-backlog/compiler-construction/compiler-construction-and-design.puml Compiler construction & Design?]]
+****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 4- Structured Programming (Structured Analysis & Design)]]
+****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 5- OOA&D, OOP, MDD, CBD, & UML]]
+****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 6- Now AI & ChatGPT]] \n*<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.png Grady Booch]]
+*****[#darkorange] *<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_62.png The Ambition to engineer has gone up & down]] \n*<b><i><size:12><color #black>LLMs as [[docs/3-programming-languages/Venkat-Subramaniam/images/img_513.png "mind"]] amplifiers is a fascinating frame but they are not [[docs/3-programming-languages/Venkat-Subramaniam/images/img_513.png minds]]!
+*****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_766.png Audience Asks: Senior & Junior Programmer Jobs getting replaced]]
+****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_766.png Ground Specification Document]]
 
 @endmindmap
 
