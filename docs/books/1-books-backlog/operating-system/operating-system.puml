@@ -1,5 +1,5 @@
 @startmindmap
-title =<b><i>Operating Systems\n<img:images/img_11.png> <img:images/img_3.png{scale=0.57}>
+title =<b><i><size:12>Operating Systems\n<img:images/img_11.png> <img:images/img_3.png{scale=0.57}>
 * <b><i>[[https://www.youtube.com/watch?v=cNN_tTXABUA&t=531s&ab_channel=InOneLesson How a CPU works?]] 15-minute video
 ** <b><i>[[https://www.youtube.com/watch?v=NKYgZH7SBjk&ab_channel=InOneLesson What is inside CPU?]] 3-minute video
 *** <b><i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_418.png RISC & CISC Vs. Compiler Design Vs. Operating System]]
@@ -7,7 +7,8 @@ title =<b><i>Operating Systems\n<img:images/img_11.png> <img:images/img_3.png{sc
 
 *[#darkblue] <color #white><i><size:12> Introduction
 **[#lightblue] <b><color #black><i><size:12>Definition of an Operating System
-**[#lightblue] <b><color #black><i><size:12>Evolution of Operating Systems
+**[#lightblue] <b><color #black><i><size:12>[[docs/books/1-books-backlog/operating-system/images/img-41-UNIX-and-Linux-history.png Evolution of Operating Systems]]
+***[#green] |<#grey><b><i><size:12>[[docs/books/1-books-backlog/operating-system/Unix-Architecture.puml Unix Architecture in detail]]|
 **[#lightblue] <b><color #black><i><size:12>Functions of an Operating System
 *[#darkblue] <color #white><i>Processes & Threads\n<img:images/img.png{scale=0.8}>
 **[#lightblue] <b><color #black><i><size:12>[[docs/books/1-books-backlog/operating-system/process-management.puml Process Management]]

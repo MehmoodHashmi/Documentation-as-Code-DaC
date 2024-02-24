@@ -124,9 +124,9 @@ title =<i><b><u><size:18>Don't Walk away from "Complexity" Run
 ****[#gold] <i><color #black><size:12><img:images/img_35.png{scale=0.7}>
 ****[#gold] *<i><color #black><size:12>**"Low code coverage"** means **bad code design** \n*<i><color #black><size:12>**"High code coverage"** does not <b>mean anything
 ****[#gold] <i><color #black><size:12>Machine Learning <b>"Model" "Testing"\n<i><color #black><size:12>is different than <b>(TDD)</b> that is:\n<i><color #black><size:12>**1-** Prediction\n<i><color #black><size:12>**2-** Pattern recognition\n<i><color #black><size:12>**3-** Optimization & decision making
-****[#darkorange] <i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 12- Rule of Repair & TDD:]] click me
+****[#darkorange] <i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png 12- Rule of Repair & TDD:]] click me
 ***[#yellow] <i><color #black><size:12>Database decisions, libraries and frameworks decisions etc.
-***[#darkorange] <i><color #black><size:12>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful\n*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy
+***[#darkorange] <i><color #black><size:12>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful\n*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png 15- Rule of optimization]]** unix philosophy
 ***[#yellow] <i><color #black><size:12>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
 
 **[#lightblue]:<i><color #black><size:18>[[docs/3-programming-languages/Library-vs-Framework.puml Minimize libraries & frameworks]]

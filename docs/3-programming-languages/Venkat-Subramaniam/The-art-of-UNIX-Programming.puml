@@ -4,9 +4,12 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 
 *[#darkblue] <color #white><i>The art of UNIX\n<color #white><i>Programming
 **[#lightblue] <i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_701.png The Durability of Unix (O/S)]]
-
 ***[#green] <size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_701.png Open-Source Software]]
 ***[#green] <size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_701.png Open-Source Community]]
+***[#green] |<#grey><b><i><size:12>[[docs/books/1-books-backlog/operating-system/Unix-Architecture.puml Unix Architecture in detail]]|
+****[#grey] *<b><i><color #black><size:12>[[https://www.youtube.com/watch?v=tc4ROCJYbm0&ab_channel=AT%26TTechChannel UNIX: AT&T Archives: The UNIX Operating System]] 27-minute \n<b><i><color #white><size:12>[[https://www.youtube.com/watch?v=tc4ROCJYbm0&ab_channel=AT%26TTechChannel First 5 minutes on software requirements with ulmitate explanation why & when we develop software]]
+****[#grey] *<b><i><color #black><size:12>[[https://www.youtube.com/watch?v=XvDZLjaCJuw&list=LL&index=3&t=283s&ab_channel=AT%26TTechChannel UNIX: Making Computers Easier To Use -- AT&T Archives film from 1982, Bell Laboratories]] 20-minute \n<b><i><color #black><size:12>[[https://www.youtube.com/watch?v=XvDZLjaCJuw&list=LL&index=3&t=283s&ab_channel=AT%26TTechChannel First 5 minutes on software requirements with outstanding example]]
+
 **[#lightblue] |<#red><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_702.png The Lessons of Unix Can Be Applied Elsewhere]]|
 **[#lightblue] |<#red><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_703.png Basics of Unix (is O/S) Philosophy]]|
 ***[#green] <size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_257.png Data-structures & algorithms advice]]
@@ -15,9 +18,9 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 
 ***[#green] |<#red><i><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_257.png Rules of Unix (O/S) Philosophy]]|
 ****[#a]:==|<#red><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png More on UNIX (O/S) Philosophy]]|==
-*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_704.png 1- Rule of Modularity: Write simple parts connected by clean interfaces.]]
+|<#grey><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_704.png 1- Rule of Modularity: Write simple parts connected by clean interfaces.]]|
 *<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_705.png 2- Rule of Clarity: Clarity is better than cleverness.]]
-*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_706.png 3- Rule of Composition: Design programs to be connected with other programs.]]
+|<#grey>*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_706.png 3- Rule of Composition: Design programs to be connected with other programs.]]|
 *<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.png 4- Rule of Separation: Separate policy from mechanism; separate interfaces from engines.]]
 *<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_708.png 5- Rule of Simplicity: Design for simplicity; add complexity only where you must.]]
 *<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_709.png 6- Rule of Parsimony: Write a big program only when it is clear by demonstration that nothing else will do.]]
@@ -33,6 +36,7 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 *<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_719.png 16- Rule of Diversity: Distrust all claims for “one true way”.]]
 *<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_720.png 17- Rule of Extensibility: Design for the future, because it will be here sooner than you think.]]
 ==|<#red><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_721.png The Unix Philosophy in One Lesson]]|<#grey><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_285.png Attitude Matters Too]]  |==;
+*****[#lightblue] |<img:images-reuseable/41-Unix-operating-system-design.png{scale=.7}>|<img:images-reuseable/5-cocentric-circles-or-layer.png{scale=.67}>|
 
 **[#lightblue] <i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_701.png Those who cannot remember the past are]]\n<i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_701.png condemned to repeat it.]] ""by GeorgeSantayana""
 ***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png Exodus: 1971–1980]]
@@ -79,7 +83,9 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 ****[#a] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_739.png The Best Things in Life Are Open]]
 *****[#a] *<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_740.png Issues in Using Open-Source Software]] \n**<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_740.png When You Need a Lawyer…]]
 **[#lightblue] <i><size:12>""Book: The Cathedral & the Bazaar""
+
 ***[#green] <b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_754.png Introduction]]
+****[#yellow] <i><size:12><color #black>The **MS ofﬁce suite,** the 1980s killer application, wasn’t challenged until the 1990s with the introduction of the <b>web browser and server.
 ***[#green] <b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_754.png The rise of Unix]]
 ***[#green] <b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_754.png Prologue (introduction): The Real Programmers]]
 ***[#green] <b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_754.png The End of Elder Days]]
@@ -89,7 +95,7 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 *<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_755.png 4- If you have the right attitude, interesting problems will ﬁnd you.]]
 *<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_755.png 5- When you lose interest in a program, your last duty to it is to hand it off to a competent successor.]]
 *<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_755.png 6- Treating your users as co-developers is your least-hassle route to rapid code improvement and effective debugging.]]
-*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_755.png 7- Release early. Release often. And listen to your customers.]]
+|<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_755.png 7- Release early. Release often. And listen to your customers.]]|<#red><b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_785.png Part-2 on Linus Torvalds]]|<#grey><b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_785.png The illustrated guide to PhD]]|
 *<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_756.png 8- Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the ﬁx obvious to someone.]]
 *<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_756.png 9- Smart data structures and dumb code works a lot better than the other way around.]]
 *<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_756.png 11- The next best thing to having good ideas is recognizing good ideas from your users. Sometimes the latter is better.]]
@@ -244,17 +250,27 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 *****[#darkorange]:*<b><i><size:12><color #black>[[https://www.youtube.com/watch?v=-M6lANfzFsM&ab_channel=Futurology%E2%80%94AnOptimisticFuture The History of Computing]] 10 minute. This is the best video
 *<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png History of Computers | From 1930 to Present]] 5-mintue
 *<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png History of Computers | From 1930 to Present]] 5-mintue;
-****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 1- Programming by changing  plugs on patch boards]]
-*****[#darkorange] *<b><i><size:12><color #black>[[https://www.youtube.com/watch?v=-M6lANfzFsM&ab_channel=Futurology%E2%80%94AnOptimisticFuture The History of Computing]]
-****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 2- Symbolic Assemblers]]
-****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 3- Compilers]]
-*****[#darkorange] *<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png Assembler vs Compiler vs Linker]] \n*<b><i><size:12><color #black>[[docs/books/1-books-backlog/compiler-construction/compiler-construction-and-design.puml Compiler construction & Design?]]
-****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 4- Structured Programming (Structured Analysis & Design)]]
-****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 5- OOA&D, OOP, MDD, CBD, & UML]]
-****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 6- Now AI & ChatGPT]] \n*<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.png Grady Booch]]
-*****[#darkorange] *<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_62.png The Ambition to engineer has gone up & down]] \n*<b><i><size:12><color #black>LLMs as [[docs/3-programming-languages/Venkat-Subramaniam/images/img_513.png "mind"]] amplifiers is a fascinating frame but they are not [[docs/3-programming-languages/Venkat-Subramaniam/images/img_513.png minds]]!
+****[#grey] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 1- Programming by changing  plugs on patch boards]]
+*****[#darkorange] *<b><i><size:12><color #black>[[https://www.youtube.com/watch?v=-M6lANfzFsM&ab_channel=Futurology%E2%80%94AnOptimisticFuture The History of Computing]] 10-minute
+****[#grey] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 2- Symbolic Assemblers]]
+*****[#darkorange] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png COAL]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png DLD]]
+****[#grey] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 3- Compilers]]
+*****[#grey] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_418.png Operating System + Processor = ]] Platform
+*****[#darkorange]:*<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png Assembler vs Compiler vs Linker]]
+*<b><i><size:12><color #black>[[docs/books/1-books-backlog/compiler-construction/compiler-construction-and-design.puml Discrete Math]]
+*<b><i><size:12><color #black>[[docs/books/1-books-backlog/compiler-construction/compiler-construction-and-design.puml Theory of Automata]]
+*<b><i><size:12><color #black>[[docs/books/1-books-backlog/compiler-construction/compiler-construction-and-design.puml Compiler construction & Design?]];
+****[#grey] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 4- Structured Programming (Structured Analysis & Design)]]
+****[#grey] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 5- OOA&D, OOP, MDD, CBD, & UML]]
+****[#grey] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 6- Now AI & ChatGPT]] \n*<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.png Grady Booch]]
+*****[#darkorange]:*<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_62.png The Ambition to engineer has gone up & down]]
+*<b><i><size:12><color #black>LLMs as [[docs/3-programming-languages/Venkat-Subramaniam/images/img_513.png "mind"]] amplifiers is a fascinating frame but they are not [[docs/3-programming-languages/Venkat-Subramaniam/images/img_513.png minds]]!
+*<b><i><size:12><color #black>UNIX Philosophy: [[docs/3-programming-languages/Venkat-Subramaniam/images/img_704.png 1- Rule of modularity]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.png 3- Rule of composition]]
+==|<b><i><size:12><color #black>Basic & Fundamental Subjects|==
+*<b><i><size:12><color #black>Statistics & Probability, Linear Algebra, Calculus 1 & 2, Machine Learning (Classic & Modern)
+*<b><i><size:12><color #black>Discrete Math, Data structures & Algorithms, Python, SQL, NoSQL;
 *****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_766.png Audience Asks: Senior & Junior Programmer Jobs getting replaced]]
-****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_766.png Ground Specification Document]]
 
+****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_766.png Ground Specification Document]]
 @endmindmap
 

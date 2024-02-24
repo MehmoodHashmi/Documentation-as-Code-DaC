@@ -1,67 +1,67 @@
 @startmindmap
-title =<i><b><u>Shell Scripting [[docs/books/1-books-backlog/operating-system/idea.sh click me example]]
+title =<i><b><u><size:18>Shell Scripting [[docs/books/1-books-backlog/operating-system/idea.sh click me example]]
 !theme hacker
 
 *[#darkblue] <i>Shell Scripting
-**[#lightblue] <i><color #blac><size:14>Definition
-***[#green] <b><i><color #white><size:14>Writing scripts to automate tasks using a shell interpreter.
+**[#lightblue] <i><color #blac><size:12>Definition
+***[#green] <b><i><color #white><size:12>Writing scripts to automate tasks using a shell interpreter.
 **[#lightblue] <i><color #blac><size:22>Types of Shells
 ***[#green] <b><i><color #white><size:22>[[docs/books/1-books-backlog/operating-system/Bash-Scripting.puml Bash]]
-****[#yellow] <i><color #black><size:14>Default shell in most <b>Linux distributions.
-***[#green] <b><i><color #white><size:14>sh (Bourne Shell)
-****[#yellow] <i><color #black><size:14>Standard on Unix systems, predecessor to Bash.
-***[#green] <b><i><color #white><size:14>csh (C Shell)
-****[#yellow] <i><color #black><size:14>C-like syntax shell with different features.
-***[#green] <b><i><color #white><size:14>ksh (Korn Shell)
-****[#yellow] <i><color #black><size:14>Enhanced version of the Bourne Shell.
-***[#green] <b><i><color #white><size:14>zsh (Z Shell)
-****[#yellow] <i><color #black><size:14>Highly customizable shell with advanced features.
-**[#lightblue] <i><color #blac><size:14>Basic Commands
-***[#green] <b><i><color #white><size:14>echo
-****[#yellow] <i><color #black><size:14>Display text or variables.
-***[#green] <b><i><color #white><size:14>grep
-****[#yellow] <i><color #black><size:14>Search text using patterns.
-***[#green] <b><i><color #white><size:14>awk
-****[#yellow] <i><color #black><size:14>Text processing and data extraction tool.
-***[#green] <b><i><color #white><size:14>sed
-****[#yellow] <i><color #black><size:14>Stream editor for text manipulation.
-***[#green] <b><i><color #white><size:14>chmod
-****[#yellow] <i><color #black><size:14>Change file permissions.
-***[#green] <b><i><color #white><size:14>cd
-****[#yellow] <i><color #black><size:14>Change directory.
-***[#green] <b><i><color #white><size:14>ls
-****[#yellow] <i><color #black><size:14>List directory contents.
-**[#lightblue] <i><color #blac><size:14>Scripting Basics
-***[#green] <b><i><color #white><size:14>Shebang (#!)
-****[#yellow] <i><color #black><size:14>Indicates the interpreter to use.
-***[#green] <b><i><color #white><size:14>Comments
-****[#yellow] <i><color #black><size:14># symbol for single-line comments.
-****[#yellow] <i><color #black><size:14>Multi-line comments with : '...'.
-***[#green] <b><i><color #white><size:14>Variables
-****[#yellow] <i><color #black><size:14>Storing data for later use.
-****[#yellow] <i><color #black><size:14>Naming conventions: UPPERCASE by convention.
-***[#green] <b><i><color #white><size:14>Loops
-****[#yellow] <i><color #black><size:14>for, while, until loops for iteration.
-***[#green] <b><i><color #white><size:14>Conditional Statements
-****[#yellow] <i><color #black><size:14>if-else statements for decision-making.
-***[#green] <b><i><color #white><size:14>Functions
-****[#yellow] <i><color #black><size:14>Reusable code blocks.
-**[#lightblue] <i><color #blac><size:14>File Handling
-***[#green] <b><i><color #white><size:14>File Operations
-****[#yellow] <i><color #black><size:14>Reading, writing, appending, and deleting files.
-***[#green] <b><i><color #white><size:14>File Permissions
-****[#yellow] <i><color #black><size:14>Changing and managing file permissions.
-***[#green] <b><i><color #white><size:14>File Testing
-****[#yellow] <i><color #black><size:14>Checking file attributes (existence, type, permissions).
-**[#lightblue] <i><color #blac><size:14>Best Practices
-***[#green] <b><i><color #white><size:14>Code Readability
-****[#yellow] <i><color #black><size:14>Consistent indentation and meaningful naming.
-***[#green] <b><i><color #white><size:14>Error Handling
-****[#yellow] <i><color #black><size:14>Proper error handling with exit codes.
-***[#green] <b><i><color #white><size:14>Documentation
-****[#yellow] <i><color #black><size:14>Clear and concise comments for easy understanding.
-***[#green] <b><i><color #white><size:14>Testing and Validation
-****[#yellow] <i><color #black><size:14>Thoroughly testing scripts in different scenarios.
-***[#green] <b><i><color #white><size:14>Security
-****[#yellow] <i><color #black><size:14>Avoiding potential security vulnerabilities.
+****[#yellow] <i><color #black><size:12>Default shell in most <b>Linux distributions.
+***[#green] <b><i><color #white><size:12>sh (Bourne Shell)
+****[#yellow] <i><color #black><size:12>Standard on Unix systems, predecessor to Bash.
+***[#green] <b><i><color #white><size:12>csh (C Shell)
+****[#yellow] <i><color #black><size:12>C-like syntax shell with different features.
+***[#green] <b><i><color #white><size:12>ksh (Korn Shell)
+****[#yellow] <i><color #black><size:12>Enhanced version of the Bourne Shell.
+***[#green] <b><i><color #white><size:12>zsh (Z Shell)
+****[#yellow] <i><color #black><size:12>Highly customizable shell with advanced features.
+**[#lightblue] <i><color #blac><size:12>Basic Commands
+***[#green] <b><i><color #white><size:12>echo
+****[#yellow] <i><color #black><size:12>Display text or variables.
+***[#green] <b><i><color #white><size:12>grep
+****[#yellow] <i><color #black><size:12>Search text using patterns.
+***[#green] <b><i><color #white><size:12>awk
+****[#yellow] <i><color #black><size:12>Text processing and data extraction tool.
+***[#green] <b><i><color #white><size:12>sed
+****[#yellow] <i><color #black><size:12>Stream editor for text manipulation.
+***[#green] <b><i><color #white><size:12>chmod
+****[#yellow] <i><color #black><size:12>Change file permissions.
+***[#green] <b><i><color #white><size:12>cd
+****[#yellow] <i><color #black><size:12>Change directory.
+***[#green] <b><i><color #white><size:12>ls
+****[#yellow] <i><color #black><size:12>List directory contents.
+**[#lightblue] <i><color #blac><size:12>Scripting Basics
+***[#green] <b><i><color #white><size:12>Shebang (#!)
+****[#yellow] <i><color #black><size:12>Indicates the interpreter to use.
+***[#green] <b><i><color #white><size:12>Comments
+****[#yellow] <i><color #black><size:12># symbol for single-line comments.
+****[#yellow] <i><color #black><size:12>Multi-line comments with : '...'.
+***[#green] <b><i><color #white><size:12>Variables
+****[#yellow] <i><color #black><size:12>Storing data for later use.
+****[#yellow] <i><color #black><size:12>Naming conventions: UPPERCASE by convention.
+***[#green] <b><i><color #white><size:12>Loops
+****[#yellow] <i><color #black><size:12>for, while, until loops for iteration.
+***[#green] <b><i><color #white><size:12>Conditional Statements
+****[#yellow] <i><color #black><size:12>if-else statements for decision-making.
+***[#green] <b><i><color #white><size:12>Functions
+****[#yellow] <i><color #black><size:12>Reusable code blocks.
+**[#lightblue] <i><color #blac><size:12>File Handling
+***[#green] <b><i><color #white><size:12>File Operations
+****[#yellow] <i><color #black><size:12>Reading, writing, appending, and deleting files.
+***[#green] <b><i><color #white><size:12>File Permissions
+****[#yellow] <i><color #black><size:12>Changing and managing file permissions.
+***[#green] <b><i><color #white><size:12>File Testing
+****[#yellow] <i><color #black><size:12>Checking file attributes (existence, type, permissions).
+**[#lightblue] <i><color #blac><size:12>Best Practices
+***[#green] <b><i><color #white><size:12>Code Readability
+****[#yellow] <i><color #black><size:12>Consistent indentation and meaningful naming.
+***[#green] <b><i><color #white><size:12>Error Handling
+****[#yellow] <i><color #black><size:12>Proper error handling with exit codes.
+***[#green] <b><i><color #white><size:12>Documentation
+****[#yellow] <i><color #black><size:12>Clear and concise comments for easy understanding.
+***[#green] <b><i><color #white><size:12>Testing and Validation
+****[#yellow] <i><color #black><size:12>Thoroughly testing scripts in different scenarios.
+***[#green] <b><i><color #white><size:12>Security
+****[#yellow] <i><color #black><size:12>Avoiding potential security vulnerabilities.
 @endmindmap

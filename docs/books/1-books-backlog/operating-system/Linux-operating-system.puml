@@ -1,74 +1,75 @@
 @startmindmap
-title =<i><u><b> Linux Operating System
+title =<i><u><b><size:18>Linux Operating System
 !theme hacker
 
-*[#darkblue] <color #white><i><size:14>Linux Operating System
-**[#lightblue] <color #black><i><size:14>Definition
-***[#green] <color #white><i><size:14>Linux is an open-source, Unix-like operating system kernel that serves as the foundation for various Linux distributions.
-**[#lightblue] <color #black><i><size:14>Key Components
-***[#green] <b><color #white><i><size:14>Kernel
-****[#yellow] <color #black><i><size:14>Core component responsible for managing system resources, providing device drivers, and enabling communication between hardware and software.
-***[#green] <b><color #white><i><size:14>Shell
-****[#yellow] <color #black><i><size:14>Command-line interface that allows users to interact with the operating system, execute commands, and run scripts.
-***[#green] <b><color #white><i><size:14>File System
-****[#yellow] <color #black><i><size:14>Hierarchical structure for organizing and storing files and directories on disk.
-***[#green] <b><color #white><i><size:14>Process Management
-****[#yellow] <color #black><i><size:14>Management of running processes, including process creation, scheduling, termination, and resource allocation.
-***[#green] <b><color #white><i><size:14>Networking
-****[#yellow] <color #black><i><size:14>Networking protocols and tools for establishing and managing network connections, configuring network interfaces, and data transfer.
-***[#green] <b><color #white><i><size:14>Security
-****[#yellow] <color #black><i><size:14>Security mechanisms such as user permissions, access control, encryption, and firewalls to protect the system and data.
-***[#green] <b><color #white><i><size:14>Package Management
-****[#yellow] <color #black><i><size:14>Tools and utilities for software package installation, updates, and dependency management.
-***[#green] <b><color #white><i><size:14>User Interface
-****[#yellow] <color #black><i><size:14>Graphical user interface **(GUI)** environments and window managers for a user-friendly desktop experience.
-**[#lightblue] <color #black><i><size:14>Advantages of Linux
-***[#green] <b><color #white><i><size:14>Open Source
-****[#yellow] <color #black><i><size:14>Source code is freely available, allowing customization, modification, and contribution by the community.
-***[#green] <b><color #white><i><size:14>Stability and Reliability
-****[#yellow] <color #black><i><size:14>Known for its stability and ability to handle high loads and run for extended periods without issues.
-***[#green] <b><color #white><i><size:14>Security
-****[#yellow] <color #black><i><size:14>Strong focus on security, with regular updates, permission-based access control, and robust authentication mechanisms.
-***[#green] <b><color #white><i><size:14>Flexibility and Customization
-****[#yellow] <color #black><i><size:14>Highly customizable, allowing users to configure and optimize the system based on their specific needs.
-***[#green] <b><color #white><i><size:14>Wide Range of Software
-****[#yellow] <color #black><i><size:14>Vast selection of open-source software, libraries, and development tools available for various purposes.
-***[#green] <b><color #white><i><size:14>Cost-Effective
-****[#yellow] <color #black><i><size:14>Linux is typically free to use, reducing licensing costs for individuals and organizations.
-**[#lightblue] <color #black><i><size:14>Popular Linux Distributions
-***[#green] <b><color #white><i><size:14>Ubuntu
-***[#green] <b><color #white><i><size:14>Debian
-***[#green] <b><color #white><i><size:14>Fedora
-***[#green] <b><color #white><i><size:14>CentOS
-***[#green] <b><color #white><i><size:14>Arch Linux
-***[#green] <b><color #white><i><size:14>OpenSUSE
-***[#green] <b><color #white><i><size:14>Linux Mint
-***[#green] <b><color #white><i><size:14>Red Hat Enterprise Linux **(RHEL)**
-***[#green] <b><color #white><i><size:14>Slackware
-***[#green] <b><color #white><i><size:14>Gentoo
-**[#lightblue] <color #black><i><size:14>Use Cases
-***[#green] <b><color #white><i><size:14>Server Applications
-****[#yellow] <color #black><i><size:14>Web servers, database servers, application servers, cloud infrastructure, and more.
-***[#green] <b><color #white><i><size:14>Desktop and Laptop Systems
-****[#yellow] <color #black><i><size:14>Personal computing, productivity, multimedia, and software development.
-***[#green] <b><color #white><i><size:14>Embedded Systems
-****[#yellow] <color #black><i><size:14>Internet of Things **(IoT)** devices, routers, switches, smart TVs, and other embedded applications.
-***[#green] <b><color #white><i><size:14>Scientific and Research Computing
-****[#yellow] <color #black><i><size:14>High-performance computing clusters, data analysis, simulations, and scientific research.
-***[#green] <b><color #white><i><size:14>Networking and Security Appliances
-****[#yellow] <color #black><i><size:14>Firewalls, routers, intrusion detection systems, and network monitoring tools.
-**[#lightblue] <color #black><i><size:14>Community and Support
-***[#green] <b><color #white><i><size:14>Vast and active community of users, developers, and enthusiasts providing support, documentation, and resources.
-***[#green] <b><color #white><i><size:14>Online forums, mailing lists, documentation websites, and community-driven projects.
-**[#lightblue] <color #black><i><size:14>Companies and Organizations Supporting Linux
-***[#green] <b><color #white><i><size:14>Red Hat
-***[#green] <b><color #white><i><size:14>Canonical **(Ubuntu)**
-***[#green] <b><color #white><i><size:14>IBM
-***[#green] <b><color #white><i><size:14>Google
-***[#green] <b><color #white><i><size:14>Intel
-***[#green] <b><color #white><i><size:14>SUSE
-***[#green] <b><color #white><i><size:14>Oracle
-***[#green] <b><color #white><i><size:14>The Linux Foundation
-***[#green] <b><color #white><i><size:14>Mozilla
-***[#green] <b><color #white><i><size:14>Docker
+*[#darkblue] <color #white><i><size:12>Linux Operating System
+**[#lightblue] <color #black><i><size:12>Definition
+***[#green] <color #white><i><size:12>Linux is an open-source, Unix-like operating system kernel that serves as the foundation for various Linux distributions.
+**[#lightblue] <color #black><i><size:12>Key Components
+***[#green] <b><color #white><i><size:12>Kernel
+****[#yellow] <color #black><i><size:12>Core component responsible for managing system resources, providing device drivers, and enabling communication between hardware and software.
+***[#green] <b><color #white><i><size:12>Shell
+****[#yellow] <color #black><i><size:12>Command-line interface that allows users to interact with the operating system, execute commands, and run scripts.
+***[#green] <b><color #white><i><size:12>File System
+****[#yellow] <color #black><i><size:12>Hierarchical structure for organizing and storing files and directories on disk.
+***[#green] <b><color #white><i><size:12>Process Management
+****[#yellow] <color #black><i><size:12>Management of running processes, including process creation, scheduling, termination, and resource allocation.
+***[#green] <b><color #white><i><size:12>Networking
+****[#yellow] <color #black><i><size:12>Networking protocols and tools for establishing and managing network connections, configuring network interfaces, and data transfer.
+***[#green] <b><color #white><i><size:12>Security
+****[#yellow] <color #black><i><size:12>Security mechanisms such as user permissions, access control, encryption, and firewalls to protect the system and data.
+***[#green] <b><color #white><i><size:12>Package Management
+****[#yellow] <color #black><i><size:12>Tools and utilities for software package installation, updates, and dependency management.
+***[#green] <b><color #white><i><size:12>User Interface
+****[#yellow] <color #black><i><size:12>Graphical user interface **(GUI)** environments and window managers for a user-friendly desktop experience.
+***[#green] |<#grey><b><i><size:12>[[docs/books/1-books-backlog/operating-system/Unix-Architecture.puml Unix Architecture in detail]]|
+**[#lightblue] <color #black><i><size:12>Advantages of Linux
+***[#green] <b><color #white><i><size:12>Open Source
+****[#yellow] <color #black><i><size:12>Source code is freely available, allowing customization, modification, and contribution by the community.
+***[#green] <b><color #white><i><size:12>Stability and Reliability
+****[#yellow] <color #black><i><size:12>Known for its stability and ability to handle high loads and run for extended periods without issues.
+***[#green] <b><color #white><i><size:12>Security
+****[#yellow] <color #black><i><size:12>Strong focus on security, with regular updates, permission-based access control, and robust authentication mechanisms.
+***[#green] <b><color #white><i><size:12>Flexibility and Customization
+****[#yellow] <color #black><i><size:12>Highly customizable, allowing users to configure and optimize the system based on their specific needs.
+***[#green] <b><color #white><i><size:12>Wide Range of Software
+****[#yellow] <color #black><i><size:12>Vast selection of open-source software, libraries, and development tools available for various purposes.
+***[#green] <b><color #white><i><size:12>Cost-Effective
+****[#yellow] <color #black><i><size:12>Linux is typically free to use, reducing licensing costs for individuals and organizations.
+**[#lightblue] <color #black><i><size:12>Popular Linux Distributions\n<img:images/img-41-UNIX-and-Linux-history.png>
+***[#green] <b><color #white><i><size:12>Ubuntu
+***[#green] <b><color #white><i><size:12>Debian
+***[#green] <b><color #white><i><size:12>Fedora
+***[#green] <b><color #white><i><size:12>CentOS
+***[#green] <b><color #white><i><size:12>Arch Linux
+***[#green] <b><color #white><i><size:12>OpenSUSE
+***[#green] <b><color #white><i><size:12>Linux Mint
+***[#green] <b><color #white><i><size:12>Red Hat Enterprise Linux **(RHEL)**
+***[#green] <b><color #white><i><size:12>Slackware
+***[#green] <b><color #white><i><size:12>Gentoo
+**[#lightblue] <color #black><i><size:12>Use Cases
+***[#green] <b><color #white><i><size:12>Server Applications
+****[#yellow] <color #black><i><size:12>Web servers, database servers, application servers, cloud infrastructure, and more.
+***[#green] <b><color #white><i><size:12>Desktop and Laptop Systems
+****[#yellow] <color #black><i><size:12>Personal computing, productivity, multimedia, and software development.
+***[#green] <b><color #white><i><size:12>Embedded Systems
+****[#yellow] <color #black><i><size:12>Internet of Things **(IoT)** devices, routers, switches, smart TVs, and other embedded applications.
+***[#green] <b><color #white><i><size:12>Scientific and Research Computing
+****[#yellow] <color #black><i><size:12>High-performance computing clusters, data analysis, simulations, and scientific research.
+***[#green] <b><color #white><i><size:12>Networking and Security Appliances
+****[#yellow] <color #black><i><size:12>Firewalls, routers, intrusion detection systems, and network monitoring tools.
+**[#lightblue] <color #black><i><size:12>Community and Support
+***[#green] <b><color #white><i><size:12>Vast and active community of users, developers, and enthusiasts providing support, documentation, and resources.
+***[#green] <b><color #white><i><size:12>Online forums, mailing lists, documentation websites, and community-driven projects.
+**[#lightblue] <color #black><i><size:12>Companies and Organizations Supporting Linux
+***[#green] <b><color #white><i><size:12>Red Hat
+***[#green] <b><color #white><i><size:12>Canonical **(Ubuntu)**
+***[#green] <b><color #white><i><size:12>IBM
+***[#green] <b><color #white><i><size:12>Google
+***[#green] <b><color #white><i><size:12>Intel
+***[#green] <b><color #white><i><size:12>SUSE
+***[#green] <b><color #white><i><size:12>Oracle
+***[#green] <b><color #white><i><size:12>The Linux Foundation
+***[#green] <b><color #white><i><size:12>Mozilla
+***[#green] <b><color #white><i><size:12>Docker
 @endmindmap

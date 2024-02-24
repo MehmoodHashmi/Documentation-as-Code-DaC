@@ -45,7 +45,7 @@ title =<i><b><u><size:18>Engineering, Productivity & Learning Venkat's Interview
 ***[#honeydew] <i><color #black><size:12>Start with what your **client's needs/expectations are** & then work your way backward from it.
 ***[#yellow] <i><color #black><size:12>Sometimes the answer to a problem is not to even write the code!. \n<i><color #black><size:12>Writing code it the worst thing you can do.
 ****[#yellow] <i><color #black><size:12><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:12>but by avoiding those tasks that <b>should not be done in the first place.
-*****[#darkorange]:*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy; Moreover,
+*****[#darkorange]:*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png 15- Rule of optimization]]** unix philosophy; Moreover,
 <i><color #black><size:13><b>E.g. don't do (Clean Architecture + [[docs/3-programming-languages/Venkat-Subramaniam/images/img_55.jpg DDD]]) for simple apps (system) as it's not applicable.
 <i><color #black><size:13>Instead simple **three layer architecture** is enough. E.g. <b>[[docs/3-programming-languages/clean-architecture/archunit.adoc use ArchUnit]] to enforce the layers
 *<i><color #black><size:13><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/DDD-and-subdomain-classification.html DDD & subdomain classification (Generic Subdomain, Core Subdomains, & Supporting Subdomains)]] this .html file open in browser

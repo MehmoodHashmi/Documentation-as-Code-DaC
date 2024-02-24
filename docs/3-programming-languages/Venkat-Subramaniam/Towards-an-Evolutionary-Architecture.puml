@@ -122,7 +122,9 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ******[#a]:<b><i><color #black><size:12>[[https://docs.google.com/document/d/1yBJZUMnXvuQWVgM9HTpH0VHwaUutjbFmHIjZrzKLMVA/edit Try BDD]] google docs
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_282.png Template]] share google doc with client
 *<b><i><color #black><size:12>[[https://cucumber.io/blog/bdd/better-requirements-by-harnessing-the-power-of-exa/ Better requirements by harnessing the power of examples]] article
-*<b><i><color #black><size:12>[[https://cucumber.io/blog/bdd/bdd-with-event-mapping/ BDD with Event Mapping]] article;
+*<b><i><color #black><size:12>[[https://cucumber.io/blog/bdd/bdd-with-event-mapping/ BDD with Event Mapping]] article
+====
+|<#black><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_574.png Core vs Generic vs Supporting requirements]]|<#red><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_574.png DDD]] 5%, 20%, 80%|;
 
 ****[#a]:*<b><i><color #black><size:12>[[docs/1-business-analyst/requirements-management.puml Gather requirements]]
 ====
@@ -206,7 +208,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 *<i><color #black><size:12>It Fails less but when fails, it fails gracefully;
 
 ****[#yellow] <i><color #black><size:12><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:12>but by avoiding those tasks that <b>should not be done in the first place.
-*****[#darkorange]:*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy; Moreover,
+*****[#darkorange]:*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png 15- Rule of optimization]]** unix philosophy; Moreover,
 <i><color #black><size:13><b>E.g. don't do (Clean Architecture + [[docs/3-programming-languages/Venkat-Subramaniam/images/img_55.jpg DDD]]) for simple apps (system) as it's not applicable.
 <i><color #black><size:13>Instead simple **three layer architecture** is enough. E.g. <b>[[docs/3-programming-languages/clean-architecture/archunit.adoc use ArchUnit]] to enforce the layers
 *<i><color #black><size:13><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/DDD-and-subdomain-classification.html DDD & subdomain classification (Generic Subdomain, Core Subdomains, & Supporting Subdomains)]] this .html file open in browser
@@ -242,9 +244,9 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 *****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_9.jpg Zoom in image]]
 ****[#gold] *<i><color #black><size:12>**"Low code coverage"** means **bad code design** \n*<i><color #black><size:12>**"High code coverage"** does not <b>mean anything
 ****[#gold] <i><color #black><size:12>Machine Learning <b>"Model" "Testing"\n<i><color #black><size:12>is different than <b>(TDD)</b> that is:\n<i><color #black><size:12>**1-** Prediction\n<i><color #black><size:12>**2-** Pattern recognition\n<i><color #black><size:12>**3-** Optimization & decision making
-****[#darkorange] <i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 12- Rule of Repair & TDD:]] click me
+****[#darkorange] <i><color #black><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png 12- Rule of Repair & TDD:]] click me
 ***[#yellow] <i><color #black><size:12>Database decisions, libraries and frameworks decisions etc.
-***[#darkorange] <i><color #black><size:12>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful\n*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 15- Rule of optimization]]** unix philosophy
+***[#darkorange] <i><color #black><size:12>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful\n*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png 15- Rule of optimization]]** unix philosophy
 ***[#yellow] <i><color #black><size:12>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
 **[#lightblue] <i><color #black><size:12>YAGNI
 **[#lightblue] <i><color #black><size:20>What about \n<i><size:20>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml "extensibility"?]]
@@ -259,7 +261,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 *****[#a]:|<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_396.png Types of Software Engineers]]|<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_146.png Student, Intern, Professional]]|
 *<i><color #black><size:12><b>[[docs/1-business-analyst/client-management/software-house/images/img_2.png What is "People" of 3Ps?]];
 
-**[#lightblue] <i><color #black><size:12>Parsimony\n*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 6- Rule of Parsimony]]
+**[#lightblue] <i><color #black><size:12>Parsimony\n*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png 6- Rule of Parsimony]]
 ***[#green] <i><color #white><b><size:12>Absolute minimalism
 ****[#yellow] *<i><color #black><size:12><b>Write very few lines of code; Think does this really you need while writing code
 **[#lightblue] <i><color #black><size:12>Triangulate
@@ -268,7 +270,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ***[#green] <i><color #white><b><size:12>Communicating across systems
 ****[#gold] *<i><color #black><size:18>True in **microservices** world
 ****[#yellow] *<i><color #black><size:18><b>Postel's law says:</b> be very  <b>generous</b> about what you <b>receive\n<i><color #black><size:18>& be very <b>conservative</b> about what you <b>send\n<img:images/img_28.png{scale=1}>\n<i><color #black><size:12>So as long as I can **iterate** over your **collection** it does not what is the **type** of your <b>collection.\n<i><color #black><size:12>In other words, don't make your <b>interface brittle.
-**[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_64.png Reuse]] <size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_160.png Modularity patterns]] & [[https://dzone.com/refcardz/patterns-modular-architecture website link]] \n<i><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/Unix-Philosophy.puml 1- Rule of modularity]]\n<img:images/img_41.png{scale=0.7}>
+**[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_64.png Reuse]] <size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_160.png Modularity patterns]] & [[https://dzone.com/refcardz/patterns-modular-architecture website link]] \n<i><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png 1- Rule of modularity]]\n<img:images/img_41.png{scale=0.7}>
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_137.jpg MVC vs MVP vs MVVP click me]]
 ***[#green] <i><color #white><b><size:12>Grady Booch Says:
 ****[#gold] *<i><color #black><size:18><b>First make the system "usable" then make the system <color #green>"reusable"
