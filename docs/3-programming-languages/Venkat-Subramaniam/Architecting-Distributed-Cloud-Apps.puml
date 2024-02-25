@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><b><u><size:18>Architecting Distributed Cloud Apps \n|<img:images/img_374.png>|<img:images/img_375.png{scale=.91}>|\n<i><b><u><size:18>Instructor Jeffrey Richter is Microsoft Most Valuable Professional (MVP)
+title =<i><b><u><size:18>Architecting Distributed Cloud Apps [[https://docs.google.com/presentation/d/0B9OeL9w7mYN2Nl9LX1BIRjFVeGs/edit?resourcekey=0--9WnRGKB_SSA2SZE3WN4EA#slide=id.p1 (Course Slides)]] \n|<img:images/img_374.png>|<img:images/img_375.png{scale=.91}>|\n<i><b><u><size:18>Instructor Jeffrey Richter is Microsoft Most Valuable Professional (MVP)
 * <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers by Venkat Subramaniam]]
 ** <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Designing-Reactive-Systems.puml Designing Reactive Systems by Venkat Subramaniam]]
 
@@ -19,11 +19,13 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 |<#blue><i><size:15>[[docs/cloud-computing/images/cloud-pyramid.png Cloud Pyramid]]|
 |<#blue><i><size:12><color #white>Casado shares his thoughts on the future of \n<i><size:12><color #white>"infrastructure" as well as views on how 3 important \n<i><size:12><color #white>trends coming together: \n<i><size:12><color #white>1- hardware to software; \n<i><size:12><color #white>2- software to services; \n<i><size:12><color #white>3- & finally, the rise of the developer…|;
 
-***[#green] <i><color #white><b><size:12>Introduction
+***[#green] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=xJMbkZvuVO0&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=1&ab_channel=JeffreyRichter Introduction]]
 ****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_363.png Cloud Apps: are fundamentally different than traditional apps]]** that run on the **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_666.png desktop, in a browser, or on a mobile device.]]** Whether you
 <i><color #black><size:12>are **designing apps** for **Microsoft Azure, AWS,or Google or other platforms,** absorbing the **principles** contained here in is a must
 <i><color #black><size:12><b>before writing the first line of code.;
-***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_667.png Why Cloud apps?]]
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_667.png Why Cloud apps?]] \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=p7NkTUyEE1o&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=2&ab_channel=JeffreyRichter 10-minute]]
+****[#yellow] <i><color #black><size:12>Here we've compared what is different about **building distributed services** in the past with the **mindset-shift** required to <b>build distributed cloud applications today.
+
 ****[#grey] <i><color #white><b><size:12>[[https://youtu.be/IBTpNptxYF4 Phases of Cloud Adoption]] \n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_668.png Embracing failure]]
 ****[#green]:*<i><color #white><b><size:12>[[https://rescale.com/blog/cloud-3-0-the-rise-of-big-compute/ Cloud 1.0 ---is-> SaaS, Cloud 2.0 ---is-> Big Data, Cloud 3.0 ---is-> Big Compute]]
 ====
@@ -138,7 +140,7 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_405.png 3- Network & Management &]] [[docs/3-programming-languages/Venkat-Subramaniam/images/img_405.png 4- App & Dev]];
 *****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_408.png Classless Inter-Domain Routing (is "CIDR")]] \n*<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=O3fgul-fJCk&ab_channel=AWSTrainingCenter Classless means (no A, B, C & D class like we have in "IPV-4", its "32-bit")]] video
 ****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_408.png Traffic Routing]]
-*****[#a] *<i><color #black><size:12><b>CDNs \n*<i><color #black><size:12><b>DNS Services (Translate domain names to IPs)
+*****[#a] *<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=W66STrTY0ss&t=315s CDNs]] \n*<i><color #black><size:12><b>DNS Services (Translate domain names to IPs)
 ******[#gold] <i><color #black><size:12><b>Example: \n<i><color #black><size:12><b>Designing a social website like Facebook.
 *******[#darkorange]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_409.png Without Cloud computing]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_410.png With Cloud computing]]
@@ -201,63 +203,81 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_700.png Fault-Tolerant Messaging Processing]]
 ****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_700.png How "service instances" process queue "messages" in a fault-tolerant fashion.]]
 *****[#a] |<#red><i><color #white><b><size:12>[[https://www.youtube.com/watch?v=XndpZCyRIXw&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=28&ab_channel=JeffreyRichter Cloud or Messaging with Queues Part-2]]|\n*<i><color #white><b><size:12>5-min video must watch
-***[#green] <i><color #white><b><size:12>More About Queues
-****[#a] <i><color #white><b><size:12>Additional features that are frequently available with queue systems.
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_789.png More About Queues]]
+****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_789.png Additional features that are frequently available with queue systems.]] \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=TeC7FD8wrRQ&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=35&ab_channel=JeffreyRichter 5-minute video]]
 
-**[#lightblue] <i><color #black><size:12>Versioning Services
+**[#lightblue] <i><color #black><size:12>[[https://www.youtube.com/watch?v=5cBnQpG0YTE&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=30&ab_channel=JeffreyRichter Versioning Service source-code]] \n*<i><color #black><size:12>[[https://www.youtube.com/watch?v=5cBnQpG0YTE&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=30&ab_channel=JeffreyRichter 10-minute video]] with animation
 ***[#green] <i><color #white><b><size:12>Introduction
 ****[#yellow]:<i><color #black><size:12>**Services:** inevitably evolve, which means an important consideration when deploying them is how to version them without disrupting service. Learn the ins & outs of versioning the services that
 <i><color #black><size:12>comprise cloud apps & how to protect the **configuration data** that accompanies them.;
-***[#green] <i><color #white><b><size:12>Service-Update Options
-***[#green] <i><color #white><b><size:12>Comparing Service-Update Options
-***[#green] <i><color #white><b><size:12>Two-Phase Updates
-***[#green] <i><color #white><b><size:12>Shutting Down Service Instances
-***[#green] <i><color #white><b><size:12>Service Configuration & Secrets
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_790.png Service-Update Options]]
+****[#yellow] *<i><color #black><size:12>Various ways to versioning and upgrading your running service code: \n<i><color #black><b><size:12>1- Delete & Upload \n<i><color #black><b><size:12>2- Rolling Update \n<i><color #black><b><size:12>3- Blue-Green Deployment (cluster or across 2 clusters)
+****[#grey] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_790.png Comparing Service-Update Options]]
+***[#green] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=d-Eq-L5HD6Q&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=31&ab_channel=JeffreyRichter Two-Phase Updates]] \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=d-Eq-L5HD6Q&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=31&ab_channel=JeffreyRichter 3-minute video]]
+****[#a] <i><color #black><size:12><b>Rolling Update: [[docs/3-programming-languages/Venkat-Subramaniam/images/img_791.png How to properly perform a 2-phase update when you are changing the protocol used by a service that talks to other instances of itself.]]
+***[#green] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=h74NPW-oaBg&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=32&ab_channel=JeffreyRichter Shutting Down Service Instances]]
+****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_792.png How to gracefully shutdown a service instance so that it can be upgraded or scaled down without any adverse customer behavior.]]
+***[#green] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=tXqBjpk4kHA&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=33&ab_channel=JeffreyRichter Service Configuration & Secrets]]
+****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_793.png How to create service configuration & how to hand it off to a service.]]
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_794.png How to use Cryptographic Message Syntax (CMS) to embed secrets in your configuration.]];
 ***[#green] <i><color #white><b><size:12>Cryptographic Message Syntax
 
-**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc Leader Election]]
+**[#lightblue] <i><color #black><size:12>[[https://www.youtube.com/watch?v=5h2aS0_YckI&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=34&ab_channel=JeffreyRichter Leader Election]]
 ***[#green] <i><color #white><b><size:12>Introduction
 ****[#yellow]:<i><color #black><size:12>**Leader election:** is a pattern that is commonly used in **distributed cloud apps.** The purpose is to allow one service instance to coordinate tasks among other service instances, & to easily be
 <i><color #black><size:12>replaced if it goes out of scope down. Learn about the leader election pattern & understand <b>how & why to implement it.;
-***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc What is leader election, & why would I use it?]]
-***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc Leader election using "leases"]]
-***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc Leader election using "Queue Messaging"]]
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_795.png What is leader election, & why would I use it?]]
+****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc Leader election: a way to pick 1 service instance to coordinate tasks among other service instance.]] gif
+***[#green] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=fTCY93FsNko&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=35&ab_channel=JeffreyRichter Leader election using "leases"]] \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=fTCY93FsNko&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=35&ab_channel=JeffreyRichter 5-minute video animation]]
+****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_796.png How to implement leader election using a lease mechanism.]]
+***[#green] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=Cc_qriHq9JQ&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=36&ab_channel=JeffreyRichter Leader election using "Queue Messaging"]] \n<i><color #white>2-minute
+****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_797.png How to implement leader election using a message queue mechanism.]]
 
 **[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png Data Storage]]
 ***[#green] <i><color #white><b><size:12>Introduction
 ****[#yellow]:<i><color #black><size:12>Being **reliable & scalable services** that **manage state** is **exponentially more difficult** than **building stateless services.** Here follows the problems that you will encounter, solutions to those
-<i><color #black><size:12>problems & patterns that will help you implement them.;
+<i><color #black><size:12>problems & patterns that will help you implement them.
+|<#red><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_798.png What makes building reliable & scalable data storage services substantially more harder than building stateless services?]] click|;
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png Data Storage Considerations]]
 ****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_393.png Types of Data Storage (from ground)]]
-***[#green] <i><color #white><b><size:12>Data Temperature
+***[#green] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=ZQx7TjB-DGc&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=38&ab_channel=JeffreyRichter Data Temperature]]
+****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_799.png Hot, warm, and cold data and how to think about these in terms of latency, costs, request rate, durability, and size.]]
 
 
-***[#green] <i><color #white><b><size:12>Performance Optimization
-****[#a] *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_385.png Caching]] & \n*<i><color #white><b><size:12>CDNs
+***[#green] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=0ijNG_9ks3A&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=39&ab_channel=JeffreyRichter Performance Optimization]]
+****[#grey] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_800.png The typical topology of a an app that uses multiple stateless services and a back-end storage service. And, to improve performce, you can introduce a cache.]]
+****[#a] *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_385.png Caching]] & \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=W66STrTY0ss&t=315s CDNs]]
 *****[#darkorange]:*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/how-does-redis-persist-data.adoc How does Redis persist data? gif]]
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_380.png Where do we cache data?]]
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_381.png Top 5 Caching strategies]]
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_385.png Caching complete mind-map]]
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/How-can-Cache-Systems-go-wrong.adoc How can Cache Systems go wrong? (cache challenges)]] gif;
 
-***[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png File & Object Storage]]
+***[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png File & Object Storage]] \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=W66STrTY0ss&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=40&ab_channel=JeffreyRichter Video 9-minute]]
+****[#grey]:*<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_801.png Object (blob) storage services for documents, pictures, images, and videos.]] & Big Data
+*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=W66STrTY0ss&t=315s How to improve performance of client's accessing these documents by using a Content Delivery Network (CDN).]];
 ****[#darkorange]:*<i><color #white><b><size:12>How to improve performance of client’s accessing these documents by using a Content Delivery Network (CDN).
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/blob-and-object-store-use-cases.adoc File & Object Storage top six (6) use-cases]] gif
 *<i><color #white><b><size:12>[[docs/cloud-computing/AWS-Cloud/image-2023-03-05-20-07-51-822.png Performance comparison of storage types]]
 *<i><color #black><b><size:12>[[https://www.youtube.com/embed/6vNC_BCqFmI AWS Storage - EBS vs S3 vs EFS]] video;
 
-***[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png Database Storage]]
+***[#a]:<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png Database Storage]]
+*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=z4JwZnSWaTY&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=41&ab_channel=JeffreyRichter 10-minute]];
+****[#grey] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_802.png Compare & contrast relational (SQL) databases with non-relational (noSQL) databases]] \n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_803.png SQL vs NoSQL]]
 ****[#darkorange] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_380.jpg 8 data-structures that power "Modern Database"]]
-***[#a] <i><color #white><b><size:12>Data Partitioning
-****[#a] <i><color #white><b><size:12>➢ Data is partitioned for size, speed or both \n<i><color #white><b><size:12>➢ Each partition’s data is replicated for reliability \n<i><color #white><b><size:12>➢ How you partition your data is your choice & its super important.
+***[#a] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=zUGPl2B--kg&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=42&ab_channel=JeffreyRichter Data Partitioning]] \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=zUGPl2B--kg&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=42&ab_channel=JeffreyRichter 10-minute]]
+****[#a]:<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_804.png ➢ Data is partitioned for size, speed or both]]
+<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=zUGPl2B--kg&t=730s ➢ Each partition’s data is replicated for reliability]]
+<i><color #white><b><size:12>➢ How you partition your data is your choice & its super important.;
+*****[#grey] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_804.png ➢ Data partitioning (for size, speed, or both) and data replication (for reliability).]]
 
-***[#a] <i><color #white><b><size:12>[[docs/cloud-computing/images/data-consistency.png Data Consistency]] <size:9> click me
-****[#darkorange]:<i><color #white><b><size:12>Strong & Weak data consistency, the CAP theorem, & apology-based computing.
-*<i><color #white><b><size:12>[[docs/cloud-computing/images/consistency-or-availabilty-which-is-better.png Data Consistency or avail-ability which is better?]]
+***[#a] <i><color #white><b><size:12>[[docs/cloud-computing/images/data-consistency.png Data Consistency]] <size:9> click me \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=R8CnjBGHnTo&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=43&ab_channel=JeffreyRichter 15-minute]]
+****[#yellow] <i><color #black><size:12>Strong & Weak data consistency, the CAP theorem, & apology-based computing.
+****[#grey]:*<i><color #white><b><size:12>[[docs/cloud-computing/images/consistency-or-availabilty-which-is-better.png Data Consistency or avail-ability which is better?]]
 *<i><color #white><b><size:12>[[docs/cloud-computing/images/implementing-eventual-consistency.png Implementing Eventual Consistency]];
 
 ***[#green] <i><color #white><b><size:12>Patterns
-****[#yellow] <i><color #black><size:12><b>CQRS Pattern: </b> separates **data modifications** (commands) from <b>data queries.
+****[#yellow] |<#red><i><color #black><size:12><b>[[https://www.youtube.com/watch?v=_QV3tgdwcY4&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=44&ab_channel=JeffreyRichter CQRS Pattern:]] </b> separates **data modifications** (commands) from <b>data queries.|
 ****[#yellow] <i><color #black><size:12><b>Event-Sourcing Pattern
 *****[#a]:<i><color #black><size:12><b>A way of storing "immutable" (big) data & then producing "views" over this "data".
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/CRUD-Vs-Event-Sourcing.adoc CRUD Vs. Event-Sourcing]] gif
