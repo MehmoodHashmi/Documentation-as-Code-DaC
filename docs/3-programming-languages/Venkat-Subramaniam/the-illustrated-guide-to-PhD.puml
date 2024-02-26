@@ -2,7 +2,7 @@
 title =<i><b><u><size:18>The illustrated guide to PhD
 !theme hacker
 
-*[#darkblue] <i><color #white>The illustrated guide to PhD
+*[#darkblue] <i><color #white>The illustrated \n<i><color #white>guide to PhD
 **[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_65.png What is PhD?]]
 ***[#green]:<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_65.png What does it Mean to Have a PhD:]]
 *<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_65.png Myths of Specialization and Departmental Expertise]];
@@ -14,12 +14,19 @@ title =<i><b><u><size:18>The illustrated guide to PhD
 ***[#green] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_66.png By the time you finish "high school", you know a bit more: ]]
 ***[#green] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_67.png With a "bachelor's degree", you gain a specialty: ]]
 ***[#green] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_781.png A master's degree (MS) deepens that specialty: ]]
-***[#green] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_782.png Reading research papers takes you to the edge of human knowledge:]]
+***[#green]:|<#red><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_782.png Reading research papers takes you to the edge of human knowledge:]]|
+====
+|<#grey><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_809.png How to absorb textbooks like a sponge?]]|
+|<#grey><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_810.png AI Prof. Wah Uni (PhD student & Data structures & algorithm design]] \n\t<b><i><color #red>* <size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_812.png Algorithm research areas]]|
+|<#grey><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_810.png AI Prof. Wah Uni (AI, Databases, & Data-science, ML & other fields)]]|
+|<#grey><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_811.png Goal Setting and Planning (Programming Tip by Tim Buchalka)]]|;
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_782.png Once you're at the boundary, you focus:]]
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_783.png You push at the boundary for a few years:]]
+*****[#black] |<#red><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_785.png Linus Torvalds pushing at the boundary for a few years?]]|
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_783.png Until one day, the boundary gives way:]]
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_783.png And, that dent you've made is called a Ph.D.:]]
 ****[#green] |<#red><b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_784.png Of course, the world looks different to you now:]] |
 *****[#black] |<#red><b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_785.png So, don't forget the bigger picture: & Keep pushing]]|
+
 
 @endmindmap

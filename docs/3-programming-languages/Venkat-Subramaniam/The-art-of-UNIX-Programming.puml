@@ -95,7 +95,7 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 *<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_755.png 4- If you have the right attitude, interesting problems will ﬁnd you.]]
 *<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_755.png 5- When you lose interest in a program, your last duty to it is to hand it off to a competent successor.]]
 *<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_755.png 6- Treating your users as co-developers is your least-hassle route to rapid code improvement and effective debugging.]]
-|<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_755.png 7- Release early. Release often. And listen to your customers.]]|<#red><b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_785.png Part-2 on Linus Torvalds]]|<#grey><b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_785.png The illustrated guide to PhD]]|
+|<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_755.png 7- Release early. Release often. And listen to your customers.]]|<#red><b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_785.png Part-2 on Linus Torvalds]]|<#grey><b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/the-illustrated-guide-to-PhD.puml The illustrated guide to PhD]]|
 *<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_756.png 8- Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the ﬁx obvious to someone.]]
 *<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_756.png 9- Smart data structures and dumb code works a lot better than the other way around.]]
 *<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_756.png 11- The next best thing to having good ideas is recognizing good ideas from your users. Sometimes the latter is better.]]
@@ -256,9 +256,9 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 *****[#darkorange] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png COAL]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png DLD]]
 ****[#grey] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 3- Compilers]]
 *****[#grey] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_418.png Operating System + Processor = ]] Platform
-*****[#darkorange]:*<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png Assembler vs Compiler vs Linker]]
-*<b><i><size:12><color #black>[[docs/books/1-books-backlog/compiler-construction/compiler-construction-and-design.puml Discrete Math]]
-*<b><i><size:12><color #black>[[docs/books/1-books-backlog/compiler-construction/compiler-construction-and-design.puml Theory of Automata]]
+*****[#darkorange]:|<#red><b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png Assembler vs Compiler vs Linker]]|<#a><b><i><size:12><color #black>Even more tools at O/S layer e.g. [[docs/3-programming-languages/Venkat-Subramaniam/images/isolation-vs-density.drawio.png Isolation vs Density]]|
+*<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_808.png Discrete Math]]
+*<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_808.png Theory of Automata]]
 *<b><i><size:12><color #black>[[docs/books/1-books-backlog/compiler-construction/compiler-construction-and-design.puml Compiler construction & Design?]];
 ****[#grey] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 4- Structured Programming (Structured Analysis & Design)]]
 ****[#grey] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_771.png 5- OOA&D, OOP, MDD, CBD, & UML]]
@@ -269,7 +269,11 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 ==|<b><i><size:12><color #black>Basic & Fundamental Subjects|==
 *<b><i><size:12><color #black>Statistics & Probability, Linear Algebra, Calculus 1 & 2, Machine Learning (Classic & Modern)
 *<b><i><size:12><color #black>Discrete Math, Data structures & Algorithms, Python, SQL, NoSQL;
-*****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_766.png Audience Asks: Senior & Junior Programmer Jobs getting replaced]]
+*****[#a]:*<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_806.png Audience Asks: Senior & Junior Programmer Jobs getting replaced]]
+*<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_806.png How do you create reproducible builds when you use ChatGPT as a preprocessor?]]
+*<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_807.png Reference of Locality (Good vs. Bad semantic locality)]]
+**<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_753.png Reference locality in datastructures]]
+**<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_752.png Engineering, Design & fluctuating cost]];
 
 ****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_766.png Ground Specification Document]]
 @endmindmap

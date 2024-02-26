@@ -1,6 +1,6 @@
 @startmindmap
 title =<i><b><u><size:18>Core Software design principles for software developers \n<i>Dr.Venkat Subramaniam -  2015 \n|<img:images/img_128.jpg{scale=.35}>|<img:images/img_772.png>|<img:images/img_773.png{scale=.8}>|
-* <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]]
+* <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]] & \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/the-illustrated-guide-to-PhD.puml The illustrated Guide to PhD]]
 ** <i><b>[[https://www.youtube.com/watch?v=llGgO74uXMI&ab_channel=Devoxx Core Software design principles for software developers by Venkat Subramaniam]] video
 *** <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png "Learning these principles do not guarantee earning money" Robert C Martin]] image
 
@@ -106,7 +106,7 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12><b>Introduction [[docs/3-programming-languages/Venkat-Subramaniam/images/img_653.png 7-Habbits]]:
 **<i><color #black><size:12><b>Basic Structure & framework of 7-habbits [[docs/3-programming-languages/Venkat-Subramaniam/images/img_657.png Maturity Continuum]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_658.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_659.png 3]]
 **<i><color #black><size:12><b>Overview: [[docs/3-programming-languages/Venkat-Subramaniam/images/img_654.png Private Victory]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_655.png Public Victory]] also [[docs/3-programming-languages/Venkat-Subramaniam/images/img_656.png Freedom to choose]]
-;
+|<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/the-illustrated-guide-to-PhD.puml The illustrated Guide to PhD]]|;
 
 *****[#black] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_629.png Rise of of low-code and no-code platforms]]
 
@@ -203,7 +203,8 @@ skinparam hyperlinkColor white
 <img:images/img_32.png>
 ==|<#black><i><color #white><size:12>Model: is an "abstraction" of "reality"|==
 <i><color #black><size:12>Abstraction: [[docs/3-programming-languages/Venkat-Subramaniam/images/img_617.png Grady Booch, Edsger Dijkstra, Donald Knuth, & David Wheeler]]
-*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_730.png Tools & Complexity]]
+*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_730.png Tools & Complexity]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_805.png In programing power comes from abstractions.]]
+**<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_805.png Examples: Kenthopson & Linus Torvalds]]
 ==|<i><color #black><size:12>More on "Complexity" From other fields & domains|==
 *<i><color #black><size:12>[[https://www.youtube.com/watch?v=i-ladOjo1QA&list=LL&index=13&t=9s Complexity Theory Overview]] 10-min
 **<i><color #black><size:12>[[https://www.youtube.com/watch?v=i-ladOjo1QA&list=LL&index=13&t=9s Complexity Explorer (What is Complexity?)]] 30-min

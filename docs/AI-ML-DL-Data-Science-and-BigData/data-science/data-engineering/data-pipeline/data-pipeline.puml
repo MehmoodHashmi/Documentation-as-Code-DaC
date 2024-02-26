@@ -6,78 +6,78 @@ title =<i>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering
 
 !theme hacker
 * Data Pipeline
-**[#lightblue] <color #black><i><size:14>Data Source
-***[#green] <color #white><i><size:14>File Systems
-****[#yellow] <i><size:14><color #black>Local File System
-****[#yellow] <i><size:14><color #black>Distributed File System
-***[#green] <color #white><i><size:14>Relational Databases
-****[#yellow] <i><size:14><color #black>MySQL
-****[#yellow] <i><size:14><color #black>Oracle
-****[#yellow] <i><size:14><color #black>SQL Server
-****[#yellow] <i><size:14><color #black>PostgreSQL
-***[#green] <color #white><i><size:14>NoSQL Databases
-****[#yellow] <i><size:14><color #black>MongoDB
-****[#yellow] <i><size:14><color #black>Cassandra
-****[#yellow] <i><size:14><color #black>Redis
-****[#yellow] <i><size:14><color #black>Elasticsearch
-**[#lightblue] <color #black><i><size:14>Data Ingestion (ETL)
-***[#green] <color #white><i><size:14>Data **Extraction**
-****[#yellow] <i><size:14><color #black>File Parsing
-****[#yellow] <i><size:14><color #black>API Integration
-****[#yellow] <i><size:14><color #black>Database Queries
-***[#green] <color #white><i><size:14>Data **Transformation**
-****[#yellow] <i><size:14><color #black>Data Cleaning
-****[#yellow] <i><size:14><color #black>Data Validation
-****[#yellow] <i><size:14><color #black>Data Enrichment
-****[#yellow] <i><size:14><color #black>Data Formatting
-***[#green] <color #white><i><size:14>Data **Loading**
-****[#yellow] <i><size:14><color #black>Batch Loading
-****[#yellow] <i><size:14><color #black>Real-time Streaming
-****[#yellow] <i><size:14><color #black>Database Insertion
-****[#yellow] <i><size:14><color #black>File Writing
-**[#lightblue] <color #black><i><size:14>Data Processing
-***[#green] <color #white><i><size:14>Data Manipulation
-****[#yellow] <i><size:14><color #black>Filtering
-****[#yellow] <i><size:14><color #black>Aggregation
-****[#yellow] <i><size:14><color #black>Joining
-****[#yellow] <i><size:14><color #black>Sorting
-***[#green] <color #white><i><size:14>Data Analysis
-****[#yellow] <i><size:14><color #black>Descriptive Statistics
-****[#yellow] <i><size:14><color #black>Data Mining
-****[#yellow] <i><size:14><color #black>Machine Learning
-****[#yellow] <i><size:14><color #black>Predictive Modeling
-***[#green] <color #white><i><size:14>Data Visualization
-****[#yellow] <i><size:14><color #black>Charts
-****[#yellow] <i><size:14><color #black>Graphs
-****[#yellow] <i><size:14><color #black>Dashboards
-****[#yellow] <i><size:14><color #black>Reports
-**[#lightblue] <color #black><i><size:14>Data Storage
-***[#green] <color #white><i><size:14>Data Warehouses
-****[#yellow] <i><size:14><color #black>On-Premise Data Warehouses
-****[#yellow] <i><size:14><color #black>Cloud Data Warehouses
-***[#green] <color #white><i><size:14>Data Lakes
-****[#yellow] <i><size:14><color #black>Hadoop Distributed File System (HDFS)
-****[#yellow] <i><size:14><color #black>Amazon S3
-****[#yellow] <i><size:14><color #black>Google Cloud Storage
-****[#yellow] <i><size:14><color #black>Azure Blob Storage
-***[#green] <color #white><i><size:14>NoSQL Databases
-****[#yellow] <i><size:14><color #black>MongoDB
-****[#yellow] <i><size:14><color #black>Cassandra
-****[#yellow] <i><size:14><color #black>Redis
-****[#yellow] <i><size:14><color #black>Elasticsearch
+**[#lightblue] <color #black><i><size:12>Data Source
+***[#green] <color #white><i><size:12>File Systems
+****[#yellow] <i><size:12><color #black>Local File System
+****[#yellow] <i><size:12><color #black>Distributed File System
+***[#green] <color #white><i><size:12>Relational Databases
+****[#yellow] <i><size:12><color #black>MySQL
+****[#yellow] <i><size:12><color #black>Oracle
+****[#yellow] <i><size:12><color #black>SQL Server
+****[#yellow] <i><size:12><color #black>PostgreSQL
+***[#green] <color #white><i><size:12>NoSQL Databases
+****[#yellow] <i><size:12><color #black>MongoDB
+****[#yellow] <i><size:12><color #black>Cassandra
+****[#yellow] <i><size:12><color #black>Redis
+****[#yellow] <i><size:12><color #black>Elasticsearch
+**[#lightblue] <color #black><i><size:12>Data Ingestion (ETL)
+***[#green] <color #white><i><size:12>Data **Extraction**
+****[#yellow] <i><size:12><color #black>File Parsing
+****[#yellow] <i><size:12><color #black>API Integration
+****[#yellow] <i><size:12><color #black>Database Queries
+***[#green] <color #white><i><size:12>Data **Transformation**
+****[#yellow] <i><size:12><color #black>Data Cleaning
+****[#yellow] <i><size:12><color #black>Data Validation
+****[#yellow] <i><size:12><color #black>Data Enrichment
+****[#yellow] <i><size:12><color #black>Data Formatting
+***[#green] <color #white><i><size:12>Data **Loading**
+****[#yellow] <i><size:12><color #black>Batch Loading
+****[#yellow] <i><size:12><color #black>Real-time Streaming
+****[#yellow] <i><size:12><color #black>Database Insertion
+****[#yellow] <i><size:12><color #black>File Writing
+**[#lightblue] <color #black><i><size:12>Data Processing
+***[#green] <color #white><i><size:12>Data Manipulation
+****[#yellow] <i><size:12><color #black>Filtering
+****[#yellow] <i><size:12><color #black>Aggregation
+****[#yellow] <i><size:12><color #black>Joining
+****[#yellow] <i><size:12><color #black>Sorting
+***[#green] <color #white><i><size:12>Data Analysis
+****[#yellow] <i><size:12><color #black>Descriptive Statistics
+****[#yellow] <i><size:12><color #black>Data Mining
+****[#yellow] <i><size:12><color #black>Machine Learning
+****[#yellow] <i><size:12><color #black>Predictive Modeling
+***[#green] <color #white><i><size:12>Data Visualization
+****[#yellow] <i><size:12><color #black>Charts
+****[#yellow] <i><size:12><color #black>Graphs
+****[#yellow] <i><size:12><color #black>Dashboards
+****[#yellow] <i><size:12><color #black>Reports
+**[#lightblue] <color #black><i><size:12>Data Storage
+***[#green] <color #white><i><size:12>Data Warehouses
+****[#yellow] <i><size:12><color #black>On-Premise Data Warehouses
+****[#yellow] <i><size:12><color #black>Cloud Data Warehouses
+***[#green] <color #white><i><size:12>Data Lakes
+****[#yellow] <i><size:12><color #black>Hadoop Distributed File System (HDFS)
+****[#yellow] <i><size:12><color #black>Amazon S3
+****[#yellow] <i><size:12><color #black>Google Cloud Storage
+****[#yellow] <i><size:12><color #black>Azure Blob Storage
+***[#green] <color #white><i><size:12>NoSQL Databases
+****[#yellow] <i><size:12><color #black>MongoDB
+****[#yellow] <i><size:12><color #black>Cassandra
+****[#yellow] <i><size:12><color #black>Redis
+****[#yellow] <i><size:12><color #black>Elasticsearch
 **[#lightblue] =<i>Data Delivery
 ***[#green] <color #white><i><size:22>Data APIs
-****[#yellow] <i><size:14><color #black>RESTful APIs
-****[#yellow] <i><size:14><color #black>GraphQL APIs
-****[#yellow] <i><size:14><color #black>SOAP APIs
+****[#yellow] <i><size:12><color #black>RESTful APIs
+****[#yellow] <i><size:12><color #black>GraphQL APIs
+****[#yellow] <i><size:12><color #black>SOAP APIs
 ***[#green] <color #white><i><size:22>Data Streaming
-****[#yellow] <i><size:14><color #black>Apache Kafka
-****[#yellow] <i><size:14><color #black>Amazon Kinesis
-****[#yellow] <i><size:14><color #black>Apache Flink
-****[#yellow] <i><size:14><color #black>Apache Spark Streaming
-***[#green] <color #white><i><size:14>Data Export
-****[#yellow] <i><size:14><color #black>File Formats (CSV, JSON, XML)
-****[#yellow] <i><size:14><color #black>Database Replication
-****[#yellow] <i><size:14><color #black>API Integration
-****[#yellow] <i><size:14><color #black>Data Publishing
+****[#yellow] <i><size:12><color #black>Apache Kafka
+****[#yellow] <i><size:12><color #black>Amazon Kinesis
+****[#yellow] <i><size:12><color #black>Apache Flink
+****[#yellow] <i><size:12><color #black>Apache Spark Streaming
+***[#green] <color #white><i><size:12>Data Export
+****[#yellow] <i><size:12><color #black>File Formats (CSV, JSON, XML)
+****[#yellow] <i><size:12><color #black>Database Replication
+****[#yellow] <i><size:12><color #black>API Integration
+****[#yellow] <i><size:12><color #black>Data Publishing
 @endmindmap
