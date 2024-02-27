@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><b><u>From Connection to relation & then function
+title =<i><b><u><size:18>From Connection to relation & then function
 * <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_69.png Function]] What is science & how it works?
 ** <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_68.png How science is different from computing?]] Grady Booch
 !theme hacker
@@ -21,7 +21,13 @@ title =<i><b><u>From Connection to relation & then function
 ****[#yellow] <i><color #black><size:12>Describes an **association or link** between <b>elements or concepts
 ****[#yellow] <i><color #black><size:12>Defines **how entities** are <b>related or connected
 ****[#darkorange] <i><color #black><size:12>Every **"function"** is a **relation,** but every **"relation"** is not a <b>function.
-*****[#gold] <i><color #black><size:12>But you can convert a **relation into a function** by applying <b>restriction/extension \n<i><color #black><size:12>on **relation.** Meaning by manipulating **(domain & range)** of the <b>relation.\n<img:images/img_70.png{scale=.812}>
+*****[#gold]:<i><color #black><size:12>But you can convert a **relation into a function** by applying <b>restriction/extension
+<i><color #black><size:12>on **relation.** Meaning by manipulating **(domain & range)** of the <b>relation.
+<img:images/img_70.png{scale=.812}>
+*<i><color #black><size:12>Don't hard wire yourself into **domain & range** in terms of **numbers** or only **digits** you can think
+<i><color #black><size:12>of **scale (scalability)** as well. **Scale** can also be **extended & restricted.** Sometimes something
+<i><color #black><size:12>does not seems to be revolutionary when imagined or executed at small scale but when done at
+<i><color #black><size:12>large scale it becomes horrendous, horrible, even does paradigm shift & mind-shift.;
 *****[#gold] <i><color #black><size:12>**Construct or deconstruct** an <b>idea/thought
 ***[#green] <b><i><color #white><size:12>Examples
 ****[#yellow] <i><color #black><size:12>Family relationships <b>(e.g., parent-child)
