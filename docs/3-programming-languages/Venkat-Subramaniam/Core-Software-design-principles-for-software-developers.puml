@@ -3,7 +3,7 @@ title =<i><b><u><size:18>Core Software design principles for software developers
 * <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]] & \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/the-illustrated-guide-to-PhD.puml The illustrated Guide to PhD]]
 ** <i><b>[[https://www.youtube.com/watch?v=llGgO74uXMI&ab_channel=Devoxx Core Software design principles for software developers by Venkat Subramaniam]] video
 *** <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_59.png "Learning these principles do not guarantee earning money" Robert C Martin]] image
-
+caption <img:images/img_771.png>
 !theme hacker
 'let it stay white, you can change it to yellow if needed or green or some clear color
 skinparam hyperlinkColor white
@@ -135,6 +135,7 @@ skinparam hyperlinkColor white
 ****[#yellow] <i><color #black><size:12>We need better approach than that!
 ***[#green] <i><color #white><size:12><b>Good design
 ****[#yellow] <i><color #black><size:12>When **cost** of "changing the design" is <b>minimum
+*****[#grey] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_741.png Cheap vs. expensive solution]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_752.png Engineering, Design & fluctuating cost]], & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_274.png Murphy & Moore's Law?]]
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_98.png Change the design along the way]] click me
 ****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_98.png Almost impossible to get "design" right the first time (in one sitting)]] click me
 ****[#yellow] <i><color #black><size:12>Software is never **written,** it is always <b>rewritten.
@@ -279,15 +280,19 @@ skinparam hyperlinkColor white
 ****[#yellow]:*<i><color #black><size:12>If **SOLID principles** tell use how to arrange the **bricks into walls & rooms,** then the **component principles** tell us how to **arrange** the **rooms** into <b>building.
 *<i><color #black><size:12>Large software systems, like large buildings, are built out of smaller <b>components.;
 
-**[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_240.png Coupling]]\n<img:images/img_154.png{scale=.77}>
+**[#lightblue]:<i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_240.png Coupling]]
+<img:images/img_154.png{scale=.77}>
+*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_500.png Part-1]]
+*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_501.png Part-2]];
+
 ***[#green] <i><color #white><size:12><b>is what you depend on
-****[#yellow]:*<i><color #black><size:12>Worst form of coupling is <b>inheritance
+****[#a]:*<i><color #black><size:12>Worst form of coupling is <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_501.png inheritance]]
 *<i><color #black><size:12>Try to see if you can remove coupling
 *<i><color #black><size:12>"knock out before you mock out";
 
 ****[#yellow] <i><color #black><size:12>Can't remove all the <b>dependencies
 *****[#gold] <i><color #black><size:12>**"System"** will become so **"stable"** that it won't even <b>run!\n*<i><color #black><size:12>E.g. if all **classes** are **abstract,** then none of them can be <b>instantiated.
-******[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_354.png "Relationship" among "objects" in a "system"]] \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Abstraction vs. Encapsulation]] & \n*<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/knowledge-and-data-structure.drawio.png.png knowledge vs. Data structures]]
+******[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_354.png "Relationship" among "objects" in a "system"]] \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Abstraction vs. Encapsulation]] & \n*<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/knowledge-and-data-structure.drawio.png knowledge vs. Data structures]]
 
 ***[#green] <b><i><color #white><size:12>Dealing with Coupling
 ****[#yellow] *<i><color #black><size:12>Get rid of it \n*<i><color #black><size:12>Extremely **loose coupling requires** very **few rules,** but they need to be <b>enforced strictly.

@@ -51,7 +51,7 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 ****[#darkorange] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png Finance, Economy?]] last two paragraph!
 *****[#a] <b><i><size:12>[[https://www.youtube.com/watch?v=ElcmUYT9V54&t=1811s Make Money with Open-Source?]] 1-hour video YouTube
 ***[#a] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png The "application" of these "lessons" with respect to "software technologies"]] \n<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png other than "Unix" is left as an easy exercise for the reader.]]
-****[#darkorange] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png Will do my research]] \n*<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_741.png Google Bard]] respone\n*<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_742.png ChatGPT]] respone
+****[#darkorange] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png Will do my research]] \n*<b><i><size:12>Response from: \n**<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_741.png Bard & ChatGPT]]
 **[#lightblue] <i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_723.png Software Is a Many-Layered Thing]]
 ***[#a] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_723.png Top-Down versus Bottom-Up]]
 ***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_724.png Glue Layers]]
@@ -272,7 +272,7 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 *****[#a]:*<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_806.png Audience Asks: Senior & Junior Programmer Jobs getting replaced]]
 *<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_806.png How do you create reproducible builds when you use ChatGPT as a preprocessor?]]
 *<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_807.png Reference of Locality (Good vs. Bad semantic locality)]]
-**<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_753.png Reference locality in datastructures]]
+**<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_753.png Reference locality in data structures]]
 **<b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_752.png Engineering, Design & fluctuating cost]];
 
 ****[#a] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_766.png Ground Specification Document]]

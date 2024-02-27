@@ -1,5 +1,6 @@
 @startmindmap
 title =<i><b><u><size:18>Spearheading the future of programming \n<i>Dr.Venkat Subramaniam -  2023
+caption <img:images/img_771.png>
 !theme hacker
 
 *[#darkblue] <color:white><i>Spearheading the \n<color:white><i>future of programming
@@ -27,7 +28,10 @@ title =<i><b><u><size:18>Spearheading the future of programming \n<i>Dr.Venkat S
 **[#lightblue] <i><color #blac><size:12>Characteristics
 ***[#green] <b><i><color #white><size:12>"Things change really fast in our field"
 ****[#yellow] <i><color #black><size:12>Sure, true to some extent
-*****[#darkorange] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_60.png UNWELCOME FACT! What is software made of?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/40-software-is-coding-turtles-all-the-way-down.png Part-2]] \n*<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_274.png Murphy & Moore's Law?]] \n*<b><color:white><i>[[docs/3-programming-languages/Venkat-Subramaniam/The-art-of-UNIX-Programming.puml The art of Unix Programming]]
+*****[#darkorange]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_60.png UNWELCOME FACT! What is software made of?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/40-software-is-coding-turtles-all-the-way-down.png Part-2]]
+*<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_274.png Murphy & Moore's Law?]]
+*<b><color:white><i>[[docs/3-programming-languages/Venkat-Subramaniam/The-art-of-UNIX-Programming.puml The art of Unix Programming]];
+
 ******[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_106.png Paradigm conclusion]]
 ***[#green] <b><i><color #white><size:12>How are we Programming in new Century?
 ****[#yellow] <i><color #black><size:12>Still imperative programming e.g. <b> for (int i =0; i < prices.size() -1; i ++) {}
