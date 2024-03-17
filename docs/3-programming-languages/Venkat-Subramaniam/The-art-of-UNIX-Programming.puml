@@ -20,21 +20,22 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 ****[#a]:==|<#red><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png More on UNIX (O/S) Philosophy]]|==
 |<#grey><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_704.png 1- Rule of Modularity: Write simple parts connected by clean interfaces.]]|
 *<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_705.png 2- Rule of Clarity: Clarity is better than cleverness.]]
-|<#grey>*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_706.png 3- Rule of Composition: Design programs to be connected with other programs.]]|
-*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.png 4- Rule of Separation: Separate policy from mechanism; separate interfaces from engines.]]
-*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_708.png 5- Rule of Simplicity: Design for simplicity; add complexity only where you must.]]
-*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_709.png 6- Rule of Parsimony: Write a big program only when it is clear by demonstration that nothing else will do.]]
-*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_710.png 7- Rule of Transparency: Design for visibility to make inspection and debugging easier.]]
-*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_711.png 8- Rule of Robustness: Robustness is the child of transparency and simplicity.]]
-*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_712.png 9- Rule of Representation: Fold knowledge into data, so program logic can be stupid and robust.]]
+|<#grey><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_706.png 3- Rule of Composition: Design programs to be connected with other programs.]]|
+|<#grey><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.png 4- Rule of Separation: Separate policy from mechanism; separate interfaces from engines.]]|
+|<#black><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_719.png 5- Rule of Simplicity: Design for simplicity; add complexity only where you must.]]|
+|<#black><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_719.png 6- Rule of Parsimony: Write a big program only when it is clear by demonstration that nothing else will do.]]|
+|<#black><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_719.png 7- Rule of Transparency: Design for visibility to make inspection and debugging easier.]]|
+|<#black><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_719.png 8- Rule of Robustness: Robustness is the child of transparency and simplicity.]]|
+|<#blue><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/knowledge-and-data-structure.drawio.png 9- Rule of Representation: Fold knowledge into data, so program logic can be stupid and robust.]]|
 *<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_713.png 10- Rule of Least Surprise: In interface design, always do the least surprising thing.]]
 *<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_714.png 11- Rule of Silence: When a program has nothing surprising to say, it should say nothing.]]
-*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_715.png 12- Rule of Repair: Repair what you can — but when you must fail, fail noisily and as soon as possible.]]
-*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_716.png 13- Rule of Economy: Programmer time is expensive; conserve it in preference to machine time.]]
-*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_717.png 14- Rule of Generation: Avoid hand-hacking; write programs to write programs when you can.]]
-*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_718.png 15- Rule of Optimization: Prototype before polishing. Get it working before you optimize it.]]
-*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_719.png 16- Rule of Diversity: Distrust all claims for “one true way”.]]
-*<size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_720.png 17- Rule of Extensibility: Design for the future, because it will be here sooner than you think.]]
+|<#grey><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_715.png 12- Rule of Repair: Repair what you can — but when you must fail, fail noisily and as soon as possible.]]|
+|<#brown><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_716.png 13- Rule of Economy: Programmer time is expensive; conserve it in preference to machine time.]]|
+|<#brown><b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_752.png Engineering, Design & fluctuating cost]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_722.png Finance, Economy?]] last 2 paragraph & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_741.png Cheap vs. expensive solution]]|
+|<#brown><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_717.png 14- Rule of Generation: Avoid hand-hacking; write programs to write programs when you can.]]|
+|<#grey><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_718.png 15- Rule of Optimization: Prototype before polishing. Get it working before you optimize it.]]|
+|<#black><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_719.png 16- Rule of Diversity: Distrust all claims for “one true way”.]]|
+|<#black><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_719.png 17- Rule of Extensibility: Design for the future, because it will be here sooner than you think.]]|
 ==|<#red><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_721.png The Unix Philosophy in One Lesson]]|<#grey><size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_285.png Attitude Matters Too]]  |==;
 *****[#lightblue] |<img:images-reuseable/41-Unix-operating-system-design.png{scale=.7}>|<img:images-reuseable/5-cocentric-circles-or-layer.png{scale=.67}>|
 
@@ -71,13 +72,15 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 
 **[#lightblue] <i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_731.png Chapter 12. Optimization]]
 ***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_732.png Measure before Optimizing]]
-***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_733.png Nonlocality Considered Harmful]]
+***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_733.png Non-locality Considered Harmful]]
 ***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_734.png Profiling]]
 **[#lightblue] <i><size:12>Chapter 16. Reuse
 ***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_735.png On Not Reinventing the Wheel]]
+****[#grey] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_716.png 13- Rule of Economy: Programmer time is expensive; conserve it in preference to machine time.]]
 ***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_736.png Why do programmers reinvent wheels?]]
 ****[#darkorange] |<#red><b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_736.png The Tale of Random Newbie]]|
 ***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_737.png Transparency as the Key to Reuse]]
+****[#grey] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_719.png 7- Rule of Transparency: Design for visibility to make inspection and debugging easier.]]|
 ***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_738.png From Reuse to Open Source]]
 ***[#green] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_738.png From Reuse to Open Source]]
 ****[#a] <b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_739.png The Best Things in Life Are Open]]
@@ -108,31 +111,7 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 *<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_758.png 18- To solve an interesting problem, start by ﬁnding a problem that is interesting to you.]];
 ***[#green] <b><i><size:12><color #red>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_759.png The Manufacturing Delusion]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_760.png The Inverse Commons]]
 ***[#gold] <i><color #black><size:12><b>Two values of software
-****[#green] <i><color #white><size:12><b>Behavioral value
-*****[#yellow]:|<#white><i><color #black><size:12>help  **stakeholders** <b>"make or save money".</b> Is actually **use cases** or <b>feature development. (& problem solving)|
-**<i><color #black><size:12>by **making machines behave** in ways that **satisfy** the <b>requirement.
-*<i><color #black><size:12>Many **programmers** believe this is the entirely of their <b>job. They are sadly mistaken.;
-****[#green] <i><color #white><size:12><b>Structural value
-*****[#yellow]:<i><color #black><size:12>is **architecture** & often ignored by the <b>developers
-====
-*<i><color #black><size:12>**Architecture:** Soft-ware is a compound word
-*<i><color #black><size:12>When **stakeholders** change their **minds** the **"change"** to the "software" should be <b>"simple & easy" to make.
-*<i><color #black><size:12>The **cost of change** should be **proportional** to <b>scope (range), not shape.;
-*****[#yellow]:|<#white><i><color #black><size:12><b><u>Scope Vs Shape:|
-*<i><color #black><size:12>**Stakeholders** believe that the **requirements & changes** are only **complicated** by <b>scope.
-*<i><color #black><size:12>**Programmers** see each new **requirements** as a **puzzle piece** that must be **fit** into an <b>ever more complex puzzle.
-|<#white><i><color #black><size:12>**Solution:** keep the puzzle **"simple".**|;
-****[#a]:<i><color #black><size:12><b>The book Cathedral & bazaar in 2001 said two values of software are:
-|<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_743.png 1- Use value]]|<#red><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_744.png More on Use/Sale value]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_745.png Inverse commons]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_746.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_747.png 3]]|
-|<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_743.png 2- Sale value]]|<#red><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_746.png Closed Source & Bad Design]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_749.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_748.png 3]]|
-==<i><color #black><size:12><b>After the rise of [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Modern Machine Learning]] ([[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Deep-Learning.puml & Deep Learning]])==
-*<i><color #black><size:12><b>Data [[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml (Big Data)]] has "value".;
-*****[#darkorange]:*<i><color #black><size:12>""Program = **Data** + **instructions (Code)** on data""
-*<i><color #black><size:12>In the beginning the movement was **Open Source "Code";** Nowadays **(in 2020)** the movement is <b>Open Source "Data" ([[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering/GDPR.puml GDPR]] & [[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering/HIPAA.puml HIPPA]]) compliant
-==|<#a><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_750.png Reinventing the Wheel!]]|==
-<i><color #black><size:12>If I use your software then the "use value" of your software will increase. Why not write my own software so
-<i><color #black><size:12>that my software gets "use value". Really! **This is called reinventing the wheel!.** Why? because s/w is
-<i><color #black><size:12>open-source & answer one question. <b>Do you need "use value" or fame for writing the "software"?;
+****[#grey] <i><color #white><size:22><b>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml See mindmap:Towards an evolutionary architecture]]
 
 ***[#green] <b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_761.png Afterword: Why Closing a Drivers Loses Its Vendor Money]]
 ***[#green] <b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_761.png Beyond Software?]]
@@ -169,8 +148,6 @@ title =<i><u><size:18>The art of UNIX Programming \n<i>By Eric S Raymond
 <b><i><size:12><color #black>This new book is not confined to UNIX design tradition. In this new book I'm trying to give people a sense of; In order to architecture & "systems" programming
 <b><i><size:12><color #black>How you've to learn to carve up the world with your mind;
 
-**[#lightblue] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_753.png Reference locality in datastructures]]
-**[#lightblue] <b><i><size:12><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_752.png Engineering, Design & fluctuating cost]]
 **[#lightblue] <b><i><size:12><color #black>Five Gates of the way
 ***[#gold] <b><i><size:12><color #black>Mastery of programming rests on two pillars:
 ****[#darkorange]:|<#white><b><i><size:12><color #black>1- Skill with the Tools (e.g. compilers, interpreters, editors, VCS, repository sites (github, gitlab, bitbucket,) etc.|

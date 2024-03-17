@@ -1,51 +1,51 @@
 @startmindmap
-title =<i><b><u>Tensors  (data-structure)\n<img:images/img_3.png{scale=.966}> <img:images/img_2.png{scale=.55}>
+title =<i><b><u><size:18>Tensors  (data-structure)\n<img:images/img_3.png{scale=.966}> <img:images/img_2.png{scale=.55}>
 
 * <size:15><b>[[https://towardsdatascience.com/what-is-a-tensor-in-deep-learning-6dedd95d6507 What is a Tensor in Machine Learning?]] aritcle
 ** <b>[[https://www.youtube.com/watch?app=desktop&v=tIqoI4jGE-w&ab_channel=MinsukHeo%ED%97%88%EB%AF%BC%EC%84%9D What is Tensor in Machine Learning?]] 5-minute video
 ***:=<i>TensorFlow, PyTorch:
 * Every deep learning framework relies on the same basic <size:18><u><i><b>object: tensors.
-* They’re used to store almost everything in <size:14><u><i><b>deep learning: input data, weights, biases, predictions, etc.;
+* They’re used to store almost everything in <size:12><u><i><b>deep learning: input data, weights, biases, predictions, etc.;
 !theme hacker
 
 *[#darkblue] <size:28><i>Tensors\n<img:images/img_5.png{scale=.6}>\n\n<img:images/img_1.png{scale=.7}>
-**[#lightblue] <i><size:14>Definition
+**[#lightblue] <i><size:12>Definition
 ***[#green] <color #white><i><size:18>Multidimensional arrays with a fixed type.
-**[#lightblue] <i><size:14>Characteristics\n<img:images/img_4.png{scale=.8}>
+**[#lightblue] <i><size:12>Characteristics\n<img:images/img_4.png{scale=.8}>
 ***[#green] <color #white><i><size:18>**Rank:** "Number" of "dimensions".
 ***[#green] <color #white><i><size:18>**Shape:** "Size" of "each dimension".
 ***[#green] <color #white><i><size:18>**Data Type:** Type of elements.
-**[#lightblue] <i><size:14>Operations
-***[#green] <color #white><b><i><size:14>Creation
-****[#yellow] <color #black><i><size:14>tf.constant()
+**[#lightblue] <i><size:12>Operations
+***[#green] <color #white><b><i><size:12>Creation
+****[#yellow] <color #black><i><size:12>tf.constant()
 *****[#yellow] <color #black><i><size:22>e.g. constant_tensor = tf.constant**(**[1, 2, 3]**)**
-****[#yellow] <color #black><i><size:14>tf.Variable()
-****[#yellow] <color #black><i><size:14>tf.zeros(), tf.ones()
-***[#green] <color #white><b><i><size:14>Math Operations
-****[#yellow] <color #black><i><size:14>tf.add(), tf.subtract(), tf.multiply(), tf.divide()
-****[#yellow] <color #black><i><size:14>tf.matmul(), tf.tensordot()
-***[#green] <color #white><b><i><size:14>Indexing and Slicing
-****[#yellow] <color #black><i><size:14>tf.slice(), tf.gather(), tf.boolean_mask()
-***[#green] <color #white><b><i><size:14>Reshaping
-****[#yellow] <color #black><i><size:14>tf.reshape(), tf.transpose(), tf.expand_dims()
-***[#green] <color #white><b><i><size:14>Reduction
-****[#yellow] <color #black><i><size:14>tf.reduce_sum(), tf.reduce_mean(), tf.reduce_max()
-***[#green] <color #white><b><i><size:14>Element-Wise
-****[#yellow] <color #black><i><size:14>tf.square(), tf.sqrt(), tf.exp()
-***[#green] <color #white><b><i><size:14>Concatenation
-****[#yellow] <color #black><i><size:14>tf.concat(), tf.stack()
-**[#lightblue] <i><size:14>Use Cases
-***[#green] <color #white><b><i><size:14>Machine Learning
-****[#yellow] <color #black><i><size:14>Model Parameters
-****[#yellow] <color #black><i><size:14>Input Data
-****[#yellow] <color #black><i><size:14>Output Predictions
-***[#green] <color #white><b><i><size:14>Image Processing
-****[#yellow] <color #black><i><size:14>Pixel Data
-****[#yellow] <color #black><i><size:14>Color Channels
-***[#green] <color #white><b><i><size:14>Natural Language Processing
-****[#yellow] <color #black><i><size:14>Word Embeddings
-****[#yellow] <color #black><i><size:14>Language Models
+****[#yellow] <color #black><i><size:12>tf.Variable()
+****[#yellow] <color #black><i><size:12>tf.zeros(), tf.ones()
+***[#green] <color #white><b><i><size:12>Math Operations
+****[#yellow] <color #black><i><size:12>tf.add(), tf.subtract(), tf.multiply(), tf.divide()
+****[#yellow] <color #black><i><size:12>tf.matmul(), tf.tensordot()
+***[#green] <color #white><b><i><size:12>Indexing and Slicing
+****[#yellow] <color #black><i><size:12>tf.slice(), tf.gather(), tf.boolean_mask()
+***[#green] <color #white><b><i><size:12>Reshaping
+****[#yellow] <color #black><i><size:12>tf.reshape(), tf.transpose(), tf.expand_dims()
+***[#green] <color #white><b><i><size:12>Reduction
+****[#yellow] <color #black><i><size:12>tf.reduce_sum(), tf.reduce_mean(), tf.reduce_max()
+***[#green] <color #white><b><i><size:12>Element-Wise
+****[#yellow] <color #black><i><size:12>tf.square(), tf.sqrt(), tf.exp()
+***[#green] <color #white><b><i><size:12>Concatenation
+****[#yellow] <color #black><i><size:12>tf.concat(), tf.stack()
+**[#lightblue] <i><size:12>Use Cases
+***[#green] <color #white><b><i><size:12>Machine Learning
+****[#yellow] <color #black><i><size:12>Model Parameters
+****[#yellow] <color #black><i><size:12>Input Data
+****[#yellow] <color #black><i><size:12>Output Predictions
+***[#green] <color #white><b><i><size:12>Image Processing
+****[#yellow] <color #black><i><size:12>Pixel Data
+****[#yellow] <color #black><i><size:12>Color Channels
+***[#green] <color #white><b><i><size:12>Natural Language Processing
+****[#yellow] <color #black><i><size:12>Word Embeddings
+****[#yellow] <color #black><i><size:12>Language Models
 ***[#green] <color #white><b><i><size:22>Physics and Engineering
-****[#yellow] <color #black><i><size:14>Vectors, Matrices
-****[#yellow] <color #black><i><size:14>Physical Quantities
+****[#yellow] <color #black><i><size:12>Vectors, Matrices
+****[#yellow] <color #black><i><size:12>Physical Quantities
 @endmindmap

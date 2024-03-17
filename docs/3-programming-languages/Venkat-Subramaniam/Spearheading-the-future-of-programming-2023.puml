@@ -1,6 +1,6 @@
 @startmindmap
 title =<i><b><u><size:18>Spearheading the future of programming \n<i>Dr.Venkat Subramaniam -  2023
-caption <img:images/img_771.png>
+caption |<img:images/img_771.png>|\n|<img:images-reuseable/43-evolution-and-birth-of-new-platforms.png>|
 !theme hacker
 
 *[#darkblue] <color:white><i>Spearheading the \n<color:white><i>future of programming
@@ -12,7 +12,7 @@ caption <img:images/img_771.png>
 ***[#green] <i><color #white><size:12><b>Where things are today & \n<i><color #white><size:12><b>where things are heading?
 ****[#a] <i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_68.png How "science" is different from "computing"? Grady Booch]]
 *****[#a] <i><size:12><b><i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Conception-Notation-and-Implementation.puml Conception, notation & then implementation]]
-****[#darkorange] <i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Refactor-your-language-knowledge-portfolio-(we-are-what-we-can-code-in).puml Refactor your language knowledge portfolio (we are what we can code in)]] Venkat Subramaniam
+****[#a] <i><size:12><b><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/Refactor-your-language-knowledge-portfolio-(we-are-what-we-can-code-in).puml Refactor your language knowledge portfolio (we are what we can code in)]] Venkat Subramaniam
 ****[#a] <i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_69.png Religion vs Philosophy vs Science vs literature (Art/Craft)]]
 *****[#black]:<i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_239.png Dr. Naveed Malik Advice]]
 ====
@@ -26,7 +26,7 @@ caption <img:images/img_771.png>
 <i><color #black><size:12><b>[[https://www.youtube.com/watch?v=i-ladOjo1QA&list=LL&index=13&t=9s Complexity Theory Overview 10-min]];
 
 **[#lightblue] <i><color #blac><size:12>Characteristics
-***[#green] <b><i><color #white><size:12>"Things change really fast in our field"
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_701.png "Things change really fast in our field"]]
 ****[#yellow] <i><color #black><size:12>Sure, true to some extent
 *****[#darkorange]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_60.png UNWELCOME FACT! What is software made of?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/40-software-is-coding-turtles-all-the-way-down.png Part-2]]
 *<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_274.png Murphy & Moore's Law?]]
@@ -44,12 +44,12 @@ caption <img:images/img_771.png>
 ****[#a]:*<i><color #black><size:12>Every **new path** starts by throwing away what you already had & starting all over with <b>new vocabulary, new practices, & new gurus.
 *<i><color #black><size:12>And **Each path** results in a <u>**paradigm change**</u> with many **<u>methods</u>** -- sometime 100s of them.
 **<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/mixed-paradigms-(the-method-to-madness).puml Mixed Paradigms: The method to madness]] click me
-**<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_62.png The ambition to engineer has gone up & down]] & also [[docs/3-programming-languages/Venkat-Subramaniam/images/img_69.png (Art Vs. Craft)]] also [[docs/3-programming-languages/Venkat-Subramaniam/images/img_63.png Software is a craft]] & also [[docs/3-programming-languages/Venkat-Subramaniam/Difference-Between-Craft-and-Engineering.puml Craft vs. Engineering]] & also [[docs/3-programming-languages/Venkat-Subramaniam/images/img_63.png Who builds & designs the software?]] & also
+**<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_62.png The ambition to engineer has gone up & down]] & also [[docs/3-programming-languages/Venkat-Subramaniam/images/img_69.png (Art Vs. Craft)]] also [[docs/3-programming-languages/Venkat-Subramaniam/images/img_63.png Software is a craft]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_063.png Part-2: Software is a craft]] & also [[docs/3-programming-languages/Venkat-Subramaniam/Difference-Between-Craft-and-Engineering.puml Craft vs. Engineering]] & also [[docs/3-programming-languages/Venkat-Subramaniam/images/img_63.png Who builds & designs the software?]]
 **<i><color #black><size:12><b>Trade-off [[docs/3-programming-languages/Venkat-Subramaniam/images/img_241.png S/W (Build Vs. Design & Quality Vs Cost)]] [[docs/3-programming-languages/Venkat-Subramaniam/images/img_241.png The common trade-off between "cost & quality", this trade-off doesn't apply to software.]] & also [[docs/3-programming-languages/Venkat-Subramaniam/images/software-product-quallity.jpg What is S/W Product Quality?]]
 **<i><color #black><size:12><b>[[docs/1-business-analyst/client-management/software-house/images/img_2.png Attitude Matters Too]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_285.png S/W Design & Development is Craft]] also see [[docs/3-programming-languages/Venkat-Subramaniam/Crafting-High-Quality-Code.puml Crafting High-Quality Code]] & [[docs/3-programming-languages/Venkat-Subramaniam/Crafting-High-Quality-Software-Design.puml Crafting High-Quality S/W Design]] from Cathedral & the Bazaar
 ***<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_291.png Screaming architecture & frameworks]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_286.png Unix Philosophy in One lesson]]
-***<i><color #black><size:12><b>& also [[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png 14- Rule of Generation (avoid hand-hacking)]] & also [[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png 13-Rule of Economy: Programmer time is expensive; conserve it in preference to machine time]];
+***<i><color #black><size:12><b>& also [[docs/3-programming-languages/Venkat-Subramaniam/images/img_717.png 14- Rule of Generation (avoid hand-hacking)]] & also [[docs/3-programming-languages/Venkat-Subramaniam/images/img_716.png 13-Rule of Economy: Programmer time is expensive; conserve it in preference to machine time]];
 
 ****[#darkorange] <i><color #black><size:12><b>1st paradigm shift:</b> Procedural programming or <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.png "algorithmic decomposition" of code (modules)]]
 
@@ -199,7 +199,7 @@ caption <img:images/img_771.png>
 ***[#green] <b><i><color #white><size:12>Why does it take so long for adoption?
 ****[#yellow] <i><color #black><size:12>We take change in bit size
 ****[#yellow] <i><color #black><size:12>Habits are hard to change, it takes a new generation
-****[#yellow] <i><color #black><size:12>We are poised (prepare) for a few big changes
+****[#yellow] <i><color #black><size:12>We are poised (prepare, balanced, grounded, and ready for action) for a few big changes
 ****[#yellow] <i><color #black><size:12><b>It started between 2003-2006
 *****[#yellow] <i><color #black><size:12>Hardware changed <b>(single core to multiple core machines)
 *****[#yellow] <i><color #black><size:12>Business world decided to change
@@ -211,10 +211,10 @@ caption <img:images/img_771.png>
 ***[#green] <b><i><color #white><size:12>How do we build web-apps?
 ****[#yellow] <i><color #black><size:12>"Stateless" <b>(Request-Response)
 *****[#yellow] <i><color #black><size:12>Poor separation of concern
-***[#green] <b><i><color #white><size:12>How do we build moderen web-apps?
+***[#green] <b><i><color #white><size:12>How do we build modern web-apps?
 ****[#yellow] <i><color #black><size:12>"Continuations" <b>(Request-Response)
 *****[#yellow] <i><color #black><size:12>Save execution state & return to that point later in time
-****[#darkorange] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml "Languages" should make simple things simpler, hard things manageable]]
+****[#grey] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml "Languages" should make simple things simpler, hard things manageable]]
 ****[#yellow] <i><color #black><size:15>Languages must promote <b>higher-level of abstraction, compos-ability, & declarative style
 ****[#yellow] <i><color #black><size:15><b>Expressive Languages</b> (intuitive to use)
 *****[#yellow] <i><color #black><size:15><b>"Expressive code"</b> often leads to better design & extensibility

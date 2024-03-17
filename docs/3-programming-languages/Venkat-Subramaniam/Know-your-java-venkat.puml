@@ -1,86 +1,90 @@
 @startmindmap
-title =<b><i><u>Know Your Java
+title =<b><i><u><size:18>Know Your Java
 !theme hacker
 
 *[#darkblue] <i>Know your java
 **[#lightblue] <i>Things "compiler" does not tell\n you when they are "wrong"
-***[#green] <size:14><color #white><i><b>Error
-****[#yellow] <size:14><color #black><i>Compile-time errors <b>(easy to trace & fix)
-****[#yellow] <size:14><color #black><i>Link-time errors <b>(hard to trace & fix)
-****[#yellow] <size:14><color #black><i>Runtime errors <b>(hardest to trace & fix)
-***[#green] <size:14><color #white><i>No <b>compilation errors</b> even when "code" is wrong
-****[#yellow] <size:14><color #black><i>Syntax errors <&check>
-****[#yellow] <size:14><color #black><i>Semantic errors <size:18><&bug>
-*****[#gold] <size:14><color #black><i>Different code behaviors
-*****[#gold] *<size:14><color #black><i>"But it works on my machine" is bad scenario <size:18><&circle-x>\n*<size:14><color #black><i>But bloats/crashes in production environments
-*****[#gold] <size:14><color #black><i>"It fails on my machine" is better scenario <&check>\n*<size:14><color #black><i><b> Do TDD
-***[#green] <size:14><color #white><i><b>Polymorphism
-****[#yellow] <size:14><color #black><i>Compile Time polymorphism <b>(function overloading) is "early binding"
-****[#a] <size:14><color #black><i>Runtime Time polymorphism **(function overriding). "Overriding"** only tends to exist in case of <b>inheritance. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_107.png Late binding]] click me
-***[#green] <size:14><color #white><i><b>Multimethod
-****[#yellow] <size:14><color #black><i>is polymorphism on steroids. The method that is called is based on the runtime of both the reference of the receiver and the \n<size:14><color #black><i>runtime type of the parameters of functions. e.g. Groovy language supports multimethods
-***[#green] <size:14><color #white><i><b>Type Inference
-****[#yellow] <size:14><color #black><i>It asks "compiler" to infer/tell the type. e.g. **var** in Java
-*****[#gold] <size:14><color #black><i>Use it when e.g. <b>var name = getName() <&check>
-*****[#gold] <size:14><color #black><i>Do not use it like e.g. <b>var name = List<Integer> <size:18><&circle-x>
-***[#green] <size:14><color #white><i><b>Loop
-****[#yellow] <size:14><color #black><i>Internal (on autopilot) <b>e.g. foreach
-*****[#gold] <size:14><color #black><i>__Sharing variables__ is not bad <b>(if encapsulated)
-*****[#gold] <size:14><color #black><i>__Mutating variables__ is not bad either <b>(if encapsulated)
-*****[#gold] <size:14><color #black><i>But __Sharing + Mutating variables__ = bad approach <b>(Devils work)
-****[#yellow] <size:14><color #black><i>External (you manage) <b>e.g. for(i =0; i < size; i++)
+***[#green] <size:12><color #white><i><b>Error
+****[#yellow] <size:12><color #black><i>Compile-time errors <b>(easy to trace & fix)
+****[#yellow] <size:12><color #black><i>Link-time errors <b>(hard to trace & fix)
+****[#yellow] <size:12><color #black><i>Runtime errors <b>(hardest to trace & fix)
+***[#green] <size:12><color #white><i>No <b>compilation errors</b> even when "code" is wrong
+****[#yellow] <size:12><color #black><i>Syntax errors <&check>
+****[#yellow] <size:12><color #black><i>Semantic errors <size:18><&bug>
+*****[#gold] <size:12><color #black><i>Different code behaviors
+*****[#gold] *<size:12><color #black><i>"But it works on my machine" is bad scenario <size:18><&circle-x>\n*<size:12><color #black><i>But bloats/crashes in production environments
+*****[#gold] <size:12><color #black><i>"It fails on my machine" is better scenario <&check>
+******[#yellow]:*<size:12><color #black><i>How to achieve <b>""It fails on my machine?""
+|<#grey><size:12><color #black><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_715.png Answer: Do "TDD" & use docker "containers"]]|
+|<#grey><size:12><color #black><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_715.png 12- Rule of Repair: Unix philosophy]]|;
+
+***[#green] <size:12><color #white><i><b>Polymorphism
+****[#yellow] <size:12><color #black><i>Compile Time polymorphism <b>(function overloading) is "early binding"
+****[#a] <size:12><color #black><i>Runtime Time polymorphism **(function overriding). "Overriding"** only tends to exist in case of <b>inheritance. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_107.png Late binding]] click me
+***[#green] <size:12><color #white><i><b>Multimethod
+****[#yellow] <size:12><color #black><i>is polymorphism on steroids. The method that is called is based on the runtime of both the reference of the receiver and the \n<size:12><color #black><i>runtime type of the parameters of functions. e.g. Groovy language supports multimethods
+***[#green] <size:12><color #white><i><b>Type Inference
+****[#yellow] <size:12><color #black><i>It asks "compiler" to infer/tell the type. e.g. **var** in Java
+*****[#gold] <size:12><color #black><i>Use it when e.g. <b>var name = getName() <&check>
+*****[#gold] <size:12><color #black><i>Do not use it like e.g. <b>var name = List<Integer> <size:18><&circle-x>
+***[#green] <size:12><color #white><i><b>Loop
+****[#yellow] <size:12><color #black><i>Internal (on autopilot) <b>e.g. foreach
+*****[#gold] <size:12><color #black><i>__Sharing variables__ is not bad <b>(if encapsulated)
+*****[#gold] <size:12><color #black><i>__Mutating variables__ is not bad either <b>(if encapsulated)
+*****[#gold] <size:12><color #black><i>But __Sharing + Mutating variables__ = bad approach <b>(Devils work)
+****[#yellow] <size:12><color #black><i>External (you manage) <b>e.g. for(i =0; i < size; i++)
 ***[#green] <size:22><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Streams.puml Stream]]
-****[#yellow] <size:14><color #black><i>map, filter, reduce
-****[#yellow] <size:14><color #black><i><b>teeing():</b> lets you "split" the "stream" into "multiple streams" based on the condition
-*****[#gold] <size:14><color #black><i><img:images/img_4.png> <img:images/img_5.png{scale=0.58}>
-****[#yellow] <size:14><color #black><i>In languages like "Java, C# & python" the execution of "stream" is always <b>lazy
-****[#yellow] <size:14><color #black><i>In languages like "Kotlin & Scala" you can choose the execution of "stream" is <b>lazy or eager
-****[#yellow] <size:14><color #black><i>In languages like "Javascript" the execution of "stream" is <b>eager</b> all the time unless the you use 3rd party libraries libraries
-****[#yellow] <size:14><color #black><i><b>Semantics matter
-****[#yellow] <size:14><color #black><i><b>Stream Execution:
-*****[#gold] <size:14><color #black><i><b>Sequential </b>(lazy or eager)
-*****[#gold] <size:14><color #black><i><b>Parallel </b>(lazy or eager)
-****[#yellow] <size:14><color #black><i><b>Functional Programming
-*****[#gold]:*<size:14><color #black><i>**FP:** relies on "lazy evaluation" for <b>"efficiency"
-*<size:14><color #black><i>**"lazy evaluation"** relies on **"purity of functions"** for <b>"correctness"
-*<size:14><color #black><i>We need make sure **"lambda" (->)** are <b>"pure"
+****[#yellow] <size:12><color #black><i>map, filter, reduce
+****[#yellow] <size:12><color #black><i><b>teeing():</b> lets you "split" the "stream" into "multiple streams" based on the condition
+*****[#gold] <size:12><color #black><i><img:images/img_4.png> <img:images/img_5.png{scale=0.58}>
+****[#yellow] <size:12><color #black><i>In languages like "Java, C# & python" the execution of "stream" is always <b>lazy
+****[#yellow] <size:12><color #black><i>In languages like "Kotlin & Scala" you can choose the execution of "stream" is <b>lazy or eager
+****[#yellow] <size:12><color #black><i>In languages like "Javascript" the execution of "stream" is <b>eager</b> all the time unless the you use 3rd party libraries libraries
+****[#yellow] <size:12><color #black><i><b>Semantics matter
+****[#yellow] <size:12><color #black><i><b>Stream Execution:
+*****[#gold] <size:12><color #black><i><b>Sequential </b>(lazy or eager)
+*****[#gold] <size:12><color #black><i><b>Parallel </b>(lazy or eager)
+****[#yellow] <size:12><color #black><i><b>Functional Programming
+*****[#gold]:*<size:12><color #black><i>**FP:** relies on "lazy evaluation" for <b>"efficiency"
+*<size:12><color #black><i>**"lazy evaluation"** relies on **"purity of functions"** for <b>"correctness"
+*<size:12><color #black><i>We need make sure **"lambda" (->)** are <b>"pure"
 
-**<size:14><color #black><i>Pure functions do not have side-effects. They are <b>idempotent.
-**<size:14><color #black><i>**Idempotent:** For the same input function always produces same output
+**<size:12><color #black><i>Pure functions do not have side-effects. They are <b>idempotent.
+**<size:12><color #black><i>**Idempotent:** For the same input function always produces same output
 
-<size:14><color #black><i><u><b>Rules of Purity </b>(rule 1 is necessary but not sufficient)
-#<size:14><color #black><i> The function does not mutate or change anything that is visible from the outside
-#<size:14><color #black><i>The function does not depend on anything from outside that may/possibly change
+<size:12><color #black><i><u><b>Rules of Purity </b>(rule 1 is necessary but not sufficient)
+#<size:12><color #black><i> The function does not mutate or change anything that is visible from the outside
+#<size:12><color #black><i>The function does not depend on anything from outside that may/possibly change
 ====
-*<size:14><color #black><i><b>Java-8 "streams"</b> do not **"segment"** the "pipeline" for different "threading model",
-<size:14><color #black><i>  the last setting before the terminal call, overrides the entire pipeline's threading behavior!
-**<size:14><color #black><i><b>Reactive streams</b> do **"segment"** the "pipeline" for different "threading model";
-***[#green] <size:14><color #white><i><b>Inheritance
-****[#yellow] <size:14><color #black><i>Do not do anything serious in the **constructors**, especially do not call <b>virtual methods
-***[#green] <size:14><color #white><i><b>Data or Collections
-****[#yellow] <size:14><color #black><i>Mutable data or collections <b>(are not safe to share)
-****[#yellow] <size:14><color #black><i>Immutable data or collections <b>(are safe to copy & share)
-****[#yellow] <size:14><color #black><i>Domain Driven Design **(DDD)** "value objects" are expected to be immutable!
-***[#green] <size:14><color #white><i><b>Statement vs Expression
-****[#yellow] <size:14><color #black><i><b>Statement:</b> Perform **action** but do not **return** anything, causes side-effects (mutability)
-*****[#yellow] <size:14><color #black><i>Verbose
-*****[#yellow] <size:14><color #black><i>Error prone
-****[#yellow] <size:14><color #black><i><b>Expression:
-*****[#yellow] <size:14><color #black><i>Concise
-*****[#yellow] <size:14><color #black><i>less error prone
-*****[#yellow] <size:14><color #black><i>no side-effects (immutable)
-***[#green] <size:14><color #white><i><b>Functional
-****[#yellow] *<size:14><color #black><i>{1, 2 ,3, 4, 5, 6, 7, 8, 9, 10} <b>is flatten\n*<size:14><color #black><i>{[1,2], [3,4], [5,6], [7,8], [9,10]} <b>is bloated
-****[#yellow] *<size:14><color #black><i>One to one --> use "map"\n*<size:14><color #black><i>One to many --> use "flatmap"
-****[#yellow]:*<size:14><color #black><i>If<b> Stream<T></b> and "One to one" function, that means one input gives one output
-<size:14><color #blue><i>e.g. If I ask you what are you date of birth? This is one to one mapping every one of us has one date of birth
-**<size:14><color #blue><i><b>Stream<T>.map(one to one) ====> Stream<R>, R is the return type
-*<size:14><color #black><i>If<b> Stream<T></b> and "One to many" function, that means one input gives many output
-<size:14><color #green><i>e.g. If I ask you what are you email address? This is one to many mapping every one of us has many email addresses
-**<size:14><color #green><i><b>Stream<T>.map(one to many) ====> Stream<List<R>>, R is the return type
+*<size:12><color #black><i><b>Java-8 "streams"</b> do not **"segment"** the "pipeline" for different "threading model",
+<size:12><color #black><i>  the last setting before the terminal call, overrides the entire pipeline's threading behavior!
+**<size:12><color #black><i><b>Reactive streams</b> do **"segment"** the "pipeline" for different "threading model";
+***[#green] <size:12><color #white><i><b>Inheritance
+****[#yellow] <size:12><color #black><i>Do not do anything serious in the **constructors**, especially do not call <b>virtual methods
+***[#green] <size:12><color #white><i><b>Data or Collections
+****[#yellow] <size:12><color #black><i>Mutable data or collections <b>(are not safe to share)
+****[#yellow] <size:12><color #black><i>Immutable data or collections <b>(are safe to copy & share)
+****[#yellow] <size:12><color #black><i>Domain Driven Design **(DDD)** "value objects" are expected to be immutable!
+***[#green] <size:12><color #white><i><b>Statement vs Expression
+****[#yellow] <size:12><color #black><i><b>Statement:</b> Perform **action** but do not **return** anything, causes side-effects (mutability)
+*****[#yellow] <size:12><color #black><i>Verbose
+*****[#yellow] <size:12><color #black><i>Error prone
+****[#yellow] <size:12><color #black><i><b>Expression:
+*****[#yellow] <size:12><color #black><i>Concise
+*****[#yellow] <size:12><color #black><i>less error prone
+*****[#yellow] <size:12><color #black><i>no side-effects (immutable)
+***[#green] <size:12><color #white><i><b>Functional
+****[#yellow] *<size:12><color #black><i>{1, 2 ,3, 4, 5, 6, 7, 8, 9, 10} <b>is flatten\n*<size:12><color #black><i>{[1,2], [3,4], [5,6], [7,8], [9,10]} <b>is bloated
+****[#yellow] *<size:12><color #black><i>One to one --> use "map"\n*<size:12><color #black><i>One to many --> use "flatmap"
+****[#yellow]:*<size:12><color #black><i>If<b> Stream<T></b> and "One to one" function, that means one input gives one output
+<size:12><color #blue><i>e.g. If I ask you what are you date of birth? This is one to one mapping every one of us has one date of birth
+**<size:12><color #blue><i><b>Stream<T>.map(one to one) ====> Stream<R>, R is the return type
+*<size:12><color #black><i>If<b> Stream<T></b> and "One to many" function, that means one input gives many output
+<size:12><color #green><i>e.g. If I ask you what are you email address? This is one to many mapping every one of us has many email addresses
+**<size:12><color #green><i><b>Stream<T>.map(one to many) ====> Stream<List<R>>, R is the return type
 ==<size:14><color #black><i><b>Conclusion==
-#<size:14><color #black><i>If you want a collection of collection, map is great in the second scenario
-#<size:14><color #black><i>But If you want a collection of collection in the end, that does not help;
+#<size:12><color #black><i>If you want a collection of collection, map is great in the second scenario
+#<size:12><color #black><i>But If you want a collection of collection in the end, that does not help;
 
 @endmindmap
 

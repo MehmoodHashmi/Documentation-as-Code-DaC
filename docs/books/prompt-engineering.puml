@@ -57,7 +57,7 @@ title =<i><b><u>title goes here
 //!theme hacker
 
 * *[#darkblue] <i>Text goes here
-* **[#lightblue] <i><color #blac><size:14>Text goes here
+* **[#lightblue] <i><color #black><size:14>Text goes here
 * ***[#green] <b><i><color #white><size:14>Text goes here
 * ****[#yellow] <i><color #black><size:14>Text goes here;
 
