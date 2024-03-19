@@ -4,134 +4,134 @@ title =__ Algorithm Design Strategies__
 
 *[#darkblue] <i>Algorithm Design Strategy
 
-**[#lightblue] <i><color #black><size:14>Problem Definition
-***[#green] <b><i><color #white><size:14>Clearly Define the Problem Statement
-***[#green] <b><i><color #white><size:14>Identify Input and Output Requirements
+**[#lightblue] <i><color #black><size:12>Problem Definition
+***[#green] <b><i><color #white><size:12>Clearly Define the Problem Statement
+***[#green] <b><i><color #white><size:12>Identify Input and Output Requirements
 
-**[#lightblue] <i><color #black><size:14>Algorithm Design Approach
-***[#green] <b><i><color #white><size:14>Choose an Algorithm Design Technique
-****[#yellow] <i><color #black><size:14>Divide and Conquer
-****[#yellow] <i><color #black><size:14>Greedy Algorithms
-****[#yellow] <i><color #black><size:14>Dynamic Programming
-****[#yellow] <i><color #black><size:14>Backtracking
-****[#yellow] <i><color #black><size:14>Brute Force
-****[#yellow] <i><color #black><size:14>...
+**[#lightblue] <i><color #black><size:12>Algorithm Design Approach
+***[#green] <b><i><color #white><size:12>Choose an Algorithm Design Technique
+****[#yellow] <i><color #black><size:12>Divide and Conquer
+****[#yellow] <i><color #black><size:12>Greedy Algorithms
+****[#yellow] <i><color #black><size:12>Dynamic Programming
+****[#yellow] <i><color #black><size:12>Backtracking
+****[#yellow] <i><color #black><size:12>Brute Force
+****[#yellow] <i><color #black><size:12>...
 
-**[#lightblue] <i><color #black><size:14>Step-by-Step Algorithm Design
-***[#green] <b><i><color #white><size:14>Break Down the Problem into Subproblems
-***[#green] <b><i><color #white><size:14>Design the Algorithm for Each Subproblem
+**[#lightblue] <i><color #black><size:12>Step-by-Step Algorithm Design
+***[#green] <b><i><color #white><size:12>Break Down the Problem into Subproblems
+***[#green] <b><i><color #white><size:12>Design the Algorithm for Each Subproblem
 
-**[#lightblue] <i><color #black><size:14>Algorithm Analysis
-***[#green] <b><i><color #white><size:14>Evaluate Time and Space Complexity
-***[#green] <b><i><color #white><size:14>Assess Efficiency and Scalability
+**[#lightblue] <i><color #black><size:12>Algorithm Analysis
+***[#green] <b><i><color #white><size:12>Evaluate Time and Space Complexity
+***[#green] <b><i><color #white><size:12>Assess Efficiency and Scalability
 
-**[#lightblue] <i><color #black><size:14>Algorithm Optimization
-***[#green] <b><i><color #white><size:14>Identify Bottlenecks and Performance Issues
-***[#green] <b><i><color #white><size:14>Optimize the Algorithm Design if Necessary
+**[#lightblue] <i><color #black><size:12>Algorithm Optimization
+***[#green] <b><i><color #white><size:12>Identify Bottlenecks and Performance Issues
+***[#green] <b><i><color #white><size:12>Optimize the Algorithm Design if Necessary
 
 *[#darkblue] <i>Algorithm Design Techniques
 
-**[#lightblue] <i><color #black><size:14>Divide and Conquer
-***[#green] <b><i><color #white><size:14>Divide the Problem into Subproblems
-***[#green] <b><i><color #white><size:14>Solve Each Subproblem Independently
-***[#green] <b><i><color #white><size:14>Combine Subproblem Solutions
+**[#lightblue] <i><color #black><size:12>Divide and Conquer
+***[#green] <b><i><color #white><size:12>Divide the Problem into Subproblems
+***[#green] <b><i><color #white><size:12>Solve Each Subproblem Independently
+***[#green] <b><i><color #white><size:12>Combine Subproblem Solutions
 
-**[#lightblue] <i><color #black><size:14>Greedy Algorithms
-***[#green] <b><i><color #white><size:14>Make Locally Optimal Choices at Each Step
-***[#green] <b><i><color #white><size:14>Build Solution Incrementally
-***[#green] <b><i><color #white><size:14>May Not Always Produce the Globally Optimal Solution
+**[#lightblue] <i><color #black><size:12>Greedy Algorithms
+***[#green] <b><i><color #white><size:12>Make Locally Optimal Choices at Each Step
+***[#green] <b><i><color #white><size:12>Build Solution Incrementally
+***[#green] <b><i><color #white><size:12>May Not Always Produce the Globally Optimal Solution
 
-**[#lightblue] <i><color #black><size:14>Dynamic Programming
-***[#green] <b><i><color #white><size:14>Break Problem into Overlapping Subproblems
-***[#green] <b><i><color #white><size:14>Store Solutions to Subproblems in a Table
-***[#green] <b><i><color #white><size:14>Use Memoization or Tabulation
+**[#lightblue] <i><color #black><size:12>Dynamic Programming
+***[#green] <b><i><color #white><size:12>Break Problem into Overlapping Subproblems
+***[#green] <b><i><color #white><size:12>Store Solutions to Subproblems in a Table
+***[#green] <b><i><color #white><size:12>Use Memoization or Tabulation
 
-**[#lightblue] <i><color #black><size:14>Backtracking
-***[#green] <b><i><color #white><size:14>Systematically Explore the Search Space
-***[#green] <b><i><color #white><size:14>Maintain Partial Solutions
-***[#green] <b><i><color #white><size:14>Backtrack and Make Alternative Choices as Needed
+**[#lightblue] <i><color #black><size:12>Backtracking
+***[#green] <b><i><color #white><size:12>Systematically Explore the Search Space
+***[#green] <b><i><color #white><size:12>Maintain Partial Solutions
+***[#green] <b><i><color #white><size:12>Backtrack and Make Alternative Choices as Needed
 
-**[#lightblue] <i><color #black><size:14>Brute Force
-***[#green] <b><i><color #white><size:14>Exhaustively Try All Possible Solutions
-***[#green] <b><i><color #white><size:14>Test Each Solution for Validity
-***[#green] <b><i><color #white><size:14>Suitable for Small Problem Sizes
+**[#lightblue] <i><color #black><size:12>Brute Force
+***[#green] <b><i><color #white><size:12>Exhaustively Try All Possible Solutions
+***[#green] <b><i><color #white><size:12>Test Each Solution for Validity
+***[#green] <b><i><color #white><size:12>Suitable for Small Problem Sizes
 
-**[#lightblue] <i><color #black><size:14>Randomized Algorithms
-***[#green] <b><i><color #white><size:14>Use Randomness in Algorithm Design
-***[#green] <b><i><color #white><size:14>Introduce Randomness to Achieve Efficiency or Probabilistic Guarantees
+**[#lightblue] <i><color #black><size:12>Randomized Algorithms
+***[#green] <b><i><color #white><size:12>Use Randomness in Algorithm Design
+***[#green] <b><i><color #white><size:12>Introduce Randomness to Achieve Efficiency or Probabilistic Guarantees
 
-**[#lightblue] <i><color #black><size:14>Heuristic Algorithms
-***[#green] <b><i><color #white><size:14>Find Acceptable Solutions in Reasonable Time
-***[#green] <b><i><color #white><size:14>Trade-Off Optimality for Speed
-***[#green] <b><i><color #white><size:14>Use Approximations or Rule-Based Techniques
+**[#lightblue] <i><color #black><size:12>Heuristic Algorithms
+***[#green] <b><i><color #white><size:12>Find Acceptable Solutions in Reasonable Time
+***[#green] <b><i><color #white><size:12>Trade-Off Optimality for Speed
+***[#green] <b><i><color #white><size:12>Use Approximations or Rule-Based Techniques
 
-**[#lightblue] <i><color #black><size:14>Genetic Algorithms
-***[#green] <b><i><color #white><size:14>Inspired by Natural Selection and Genetics
-***[#green] <b><i><color #white><size:14>Use Selection, Mutation, and Crossover Operators
-***[#green] <b><i><color #white><size:14>Iteratively Improve Solutions
+**[#lightblue] <i><color #black><size:12>Genetic Algorithms
+***[#green] <b><i><color #white><size:12>Inspired by Natural Selection and Genetics
+***[#green] <b><i><color #white><size:12>Use Selection, Mutation, and Crossover Operators
+***[#green] <b><i><color #white><size:12>Iteratively Improve Solutions
 
-**[#lightblue] <i><color #black><size:14>Simulated Annealing
-***[#green] <b><i><color #white><size:14>Inspired by Annealing Process in Metallurgy
-***[#green] <b><i><color #white><size:14>Start with a Random Solution and Iteratively Improve
-***[#green] <b><i><color #white><size:14>Allow "Worse" Solutions Temporarily to Escape Local Optima
+**[#lightblue] <i><color #black><size:12>Simulated Annealing
+***[#green] <b><i><color #white><size:12>Inspired by Annealing Process in Metallurgy
+***[#green] <b><i><color #white><size:12>Start with a Random Solution and Iteratively Improve
+***[#green] <b><i><color #white><size:12>Allow "Worse" Solutions Temporarily to Escape Local Optima
 
-**[#lightblue] <i><color #black><size:14>Ant Colony Optimization
-***[#green] <b><i><color #white><size:14>Inspired by the Behavior of Ant Colonies
-***[#green] <b><i><color #white><size:14>Ants Lay Pheromone Trails to Indicate Good Paths
-***[#green] <b><i><color #white><size:14>Use Probability and Pheromone Evaporation to Guide Search
+**[#lightblue] <i><color #black><size:12>Ant Colony Optimization
+***[#green] <b><i><color #white><size:12>Inspired by the Behavior of Ant Colonies
+***[#green] <b><i><color #white><size:12>Ants Lay Pheromone Trails to Indicate Good Paths
+***[#green] <b><i><color #white><size:12>Use Probability and Pheromone Evaporation to Guide Search
 
-*[#darkblue] <i><color #white><size:14>Algorithm **Design Strategies**
-**[#lightblue] <i><color #black><size:14>Brute Force
-***[#yellow] <i><color #black><size:14>Linear Search
-***[#yellow] <i><color #black><size:14>Quadratic Search
-**[#lightblue] <i><color #black><size:14>Divide and Conquer
-***[#yellow] <i><color #black><size:14>Binary Search
-***[#yellow] <i><color #black><size:14>Merge Sort
-***[#yellow] <i><color #black><size:14>Quick Sort
-**[#lightblue] <i><color #black><size:14>Greedy Algorithms
-***[#yellow] <i><color #black><size:14>Huffman Encoding
-***[#yellow] <i><color #black><size:14>Kruskal's Algorithm
-**[#lightblue] <i><color #black><size:14>Dynamic Programming
-***[#yellow] <i><color #black><size:14>Fibonacci Sequence
-***[#yellow] <i><color #black><size:14>Knapsack Problem
-***[#yellow] <i><color #black><size:14>Longest Common Subsequence
-**[#lightblue] <i><color #black><size:14>Backtracking
-***[#yellow] <i><color #black><size:14>N-Queens Problem
-***[#yellow] <i><color #black><size:14>Traveling Salesman Problem
-**[#lightblue] <i><color #black><size:14>Randomized Algorithms
-***[#yellow] <i><color #black><size:14>QuickSelect
-***[#yellow] <i><color #black><size:14>Randomized Primality Testing
-***[#yellow] <i><color #black><size:14>Las Vegas Algorithms
-**[#lightblue] <i><color #black><size:14>Branch and Bound
-***[#yellow] <i><color #black><size:14>0/1 Knapsack Problem
-***[#yellow] <i><color #black><size:14>Traveling Salesman Problem
-***[#yellow] <i><color #black><size:14>Job Scheduling Problem
-**[#lightblue] <i><color #black><size:14>Heuristic Algorithms
-***[#yellow] <i><color #black><size:14>Simulated Annealing
-***[#yellow] <i><color #black><size:14>Genetic Algorithms
-***[#yellow] <i><color #black><size:14>Ant Colony Optimization
-*[#darkblue] <i><color #white><size:14>Algorithms
-**[#lightblue] <i><color #black><size:14>Searching Algorithms
-***[#yellow] <i><color #black><size:14>Linear Search
-***[#yellow] <i><color #black><size:14>Binary Search
-**[#lightblue] <i><color #black><size:14>Sorting Algorithms
-***[#yellow] <i><color #black><size:14>Bubble Sort
-***[#yellow] <i><color #black><size:14>Insertion Sort
-***[#yellow] <i><color #black><size:14>Selection Sort
-***[#yellow] <i><color #black><size:14>Merge Sort
-***[#yellow] <i><color #black><size:14>Quick Sort
-**[#lightblue] <i><color #black><size:14>Graph Algorithms
-***[#yellow] <i><color #black><size:14>Depth-First Search
-***[#yellow] <i><color #black><size:14>Breadth-First Search
-***[#yellow] <i><color #black><size:14>Dijkstra's Algorithm
-***[#yellow] <i><color #black><size:14>Bellman-Ford Algorithm
-***[#yellow] <i><color #black><size:14>Floyd-Warshall Algorithm
-**[#lightblue] <i><color #black><size:14>String Algorithms
-***[#yellow] <i><color #black><size:14>String Matching
-***[#yellow] <i><color #black><size:14>Longest Common Subsequence
-***[#yellow] <i><color #black><size:14>Knuth-Morris-Pratt Algorithm
-**[#lightblue] <i><color #black><size:14>Numerical Algorithms
-***[#yellow] <i><color #black><size:14>Euclid's Algorithm
-***[#yellow] <i><color #black><size:14>Sieve of Eratosthenes
-***[#yellow] <i><color #black><size:14>Newton-Raphson Method
+*[#darkblue] <i><color #white><size:12>Algorithm **Design Strategies**
+**[#lightblue] <i><color #black><size:12>Brute Force
+***[#yellow] <i><color #black><size:12>Linear Search
+***[#yellow] <i><color #black><size:12>Quadratic Search
+**[#lightblue] <i><color #black><size:12>Divide and Conquer
+***[#yellow] <i><color #black><size:12>Binary Search
+***[#yellow] <i><color #black><size:12>Merge Sort
+***[#yellow] <i><color #black><size:12>Quick Sort
+**[#lightblue] <i><color #black><size:12>Greedy Algorithms
+***[#yellow] <i><color #black><size:12>Huffman Encoding
+***[#yellow] <i><color #black><size:12>Kruskal's Algorithm
+**[#lightblue] <i><color #black><size:12>Dynamic Programming
+***[#yellow] <i><color #black><size:12>Fibonacci Sequence
+***[#yellow] <i><color #black><size:12>Knapsack Problem
+***[#yellow] <i><color #black><size:12>Longest Common Subsequence
+**[#lightblue] <i><color #black><size:12>Backtracking
+***[#yellow] <i><color #black><size:12>N-Queens Problem
+***[#yellow] <i><color #black><size:12>Traveling Salesman Problem
+**[#lightblue] <i><color #black><size:12>Randomized Algorithms
+***[#yellow] <i><color #black><size:12>QuickSelect
+***[#yellow] <i><color #black><size:12>Randomized Primality Testing
+***[#yellow] <i><color #black><size:12>Las Vegas Algorithms
+**[#lightblue] <i><color #black><size:12>Branch and Bound
+***[#yellow] <i><color #black><size:12>0/1 Knapsack Problem
+***[#yellow] <i><color #black><size:12>Traveling Salesman Problem
+***[#yellow] <i><color #black><size:12>Job Scheduling Problem
+**[#lightblue] <i><color #black><size:12>Heuristic Algorithms
+***[#yellow] <i><color #black><size:12>Simulated Annealing
+***[#yellow] <i><color #black><size:12>Genetic Algorithms
+***[#yellow] <i><color #black><size:12>Ant Colony Optimization
+*[#darkblue] <i><color #white><size:12>Algorithms
+**[#lightblue] <i><color #black><size:12>Searching Algorithms
+***[#yellow] <i><color #black><size:12>Linear Search
+***[#yellow] <i><color #black><size:12>Binary Search
+**[#lightblue] <i><color #black><size:12>Sorting Algorithms
+***[#yellow] <i><color #black><size:12>Bubble Sort
+***[#yellow] <i><color #black><size:12>Insertion Sort
+***[#yellow] <i><color #black><size:12>Selection Sort
+***[#yellow] <i><color #black><size:12>Merge Sort
+***[#yellow] <i><color #black><size:12>Quick Sort
+**[#lightblue] <i><color #black><size:12>Graph Algorithms
+***[#yellow] <i><color #black><size:12>Depth-First Search
+***[#yellow] <i><color #black><size:12>Breadth-First Search
+***[#yellow] <i><color #black><size:12>Dijkstra's Algorithm
+***[#yellow] <i><color #black><size:12>Bellman-Ford Algorithm
+***[#yellow] <i><color #black><size:12>Floyd-Warshall Algorithm
+**[#lightblue] <i><color #black><size:12>String Algorithms
+***[#yellow] <i><color #black><size:12>String Matching
+***[#yellow] <i><color #black><size:12>Longest Common Subsequence
+***[#yellow] <i><color #black><size:12>Knuth-Morris-Pratt Algorithm
+**[#lightblue] <i><color #black><size:12>Numerical Algorithms
+***[#yellow] <i><color #black><size:12>Euclid's Algorithm
+***[#yellow] <i><color #black><size:12>Sieve of Eratosthenes
+***[#yellow] <i><color #black><size:12>Newton-Raphson Method
 @endmindmap
