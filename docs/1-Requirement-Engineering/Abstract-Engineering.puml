@@ -9,7 +9,8 @@ caption <size:34> <i>__Computer science__ is not __"science"__ & also it's not _
 ***[#green] <b><i><color #white><size:12>A **"process"** of designing, creating, and developing systems, structures, or processes that do not exist in **"physical form"**e.g. **ideas (or thoughts)**
 **[#lightblue] <i><color #black><size:12>Key Concepts
 ***[#green] <b><i><color #white><size:12>Abstraction
-****[#yellow] <i><color #black><size:12>The ability to represent complex systems or structures using simplified models
+****[#yellow] <i><color #black><size:12>The ability to represent complex systems or structures using simplified <b>models
+*****[#gold] <i><color #black><size:12>A picture is worth thousand words!
 ****[#yellow] <i><color #black><size:12>Helps in reducing complexity and creating more efficient designs
 ***[#green] <b><i><color #white><size:12>Modularity
 ****[#yellow] <i><color #black><size:12>Breaking down complex systems into smaller, more manageable parts
@@ -26,7 +27,7 @@ caption <size:34> <i>__Computer science__ is not __"science"__ & also it's not _
 **[#lightblue] <i><color #black><size:12>Applications
 ***[#green] <b><i><color #white><size:12>Software <color #gold>"Engineering"
 ****[#yellow] <i><color #black><size:12>Designing and developing software systems using abstract engineering principles
-****[#yellow] <i><color #black><size:12>Creating scalable, modular, and extensible software architectures
+****[#yellow] <i><color #black><size:12><b>Creating scalable, modular, and extensible software architectures
 ***[#green] <b><i><color #white><size:12>Hardware <color #gold>"Engineering"
 ****[#yellow] <i><color #black><size:12>Designing and developing hardware systems using abstract engineering principles
 ****[#yellow] <i><color #black><size:12>Creating modular and scalable hardware architectures

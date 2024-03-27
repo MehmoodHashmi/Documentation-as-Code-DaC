@@ -24,6 +24,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 <i><color #black><size:12>Standard Template used in Countries
 *<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_571.png ADD in Russia]]
 *<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_571.png Arch42 in Germany]]
+*<i><color #black><size:11>[[https://developertoarchitect.com/resources.html Architecture Characteristics Worksheet]]
 ==|<#red><i><size:12>[[https://medium.com/storyblocks-engineering/web-architecture-101-a3224e126947 Web Architecture 101]] article|==
 *<i><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_623.png Web Architecture 101 Part-1]]
 **<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_624.png Part-2]]
@@ -147,7 +148,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 *****[#yellow] *<i><color #black><size:12>Does client's problem requires research? Or did he asked for doing research? <b>If yes, then requires more cost & time \n*<i><color #black><size:12>Providing solution to a problem without doing research & after research are two different processes
 ****[#black] *<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Programming If you want to build what your customers wanted, you will]] <b>"fail".\n*<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Programming You need to build what your customers still want.]]
 ****[#yellow] <i><color #black><size:13>Build working software.
-*****[#gold] <i><color #black><size:12>Half of the total programmers in the world can do it
+*****[#gold] |<#grey><i><color #black><size:12>[[a Half of the total programmers in the world can do it]]|<#grey><i><color #black><size:12>d|
 *****[#gold] <i><color #black><size:12>But I want to build <b>relevant working software\n*<b><i><color #black><size:12>Requires more effort
 ****[#a] <i><color #black><size:13><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_251.png PowerPoint Architect]] \n*<i><color #black><size:13><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_431.png Ivory Tower]] \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_446.png Architect & Devloper]]
 *****[#yellow] <i><color #black><size:12><b>When we Say an Architect must code, the goal is not they should sit & code. Then why are we saying they should code? Because you want \n<i><color #black><size:12><b>them to get insight at the low levels so that when they make decisions at the higher levels, they are not limiting what you can do. Those \n<i><color #black><size:12><b>constraints their knowledge, visibility & understanding is what you count on. \n*<i>Doing **"Pair Programing"** with <b>developers!
