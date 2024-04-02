@@ -11,7 +11,7 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 **[#lightblue]:<i><color #black><size:12>Fundamentals
 |<img:images/img_270.png{scale=.504}>|
 |<img:images/img_366.png{scale=.2109}>|
-|<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_377.jpg Most Popular Cloud Services in 2023, click]]|
+|<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_0377.png Most Popular Cloud Services in 2023, click]]|
 |<img:images/img_272.png{scale=.5}>|
 |<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_387.png Monitoring Services Across Cloud click]]|
 |<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_362.png Software Defined Networking (SDN & IaC)]]|
@@ -166,6 +166,7 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 
 ***[#green] <i><color #white><b><size:12>Putting it all together
 ***[#green] <i><color #white><b><size:12>Orchestration & Load Balancing
+****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/cloud-load-balancer.adoc Cloud load balancer cheatsheet gif]]
 ***[#green] <i><color #white><b><size:12>Connecting Microservices
 ***[#green] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=jXAUAWPhIcc&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=22&ab_channel=JeffreyRichter API Versioning]] \n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_692.png Part-2]]
 ****[#gold] <i><color #black><size:12>""The importance of versioning service APIs correctly in order to maintain backward compatibility.""
