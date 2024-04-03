@@ -75,7 +75,9 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc 1- High availability,]]
 <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc 2- High Throughput,]]
 <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc 3- High Scalability]];
-****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_390.png Cloud hidden cost]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_391.png 2-Decades of Cloud Evolution]] & [[docs/cloud-computing/images/IaaS,PaaS,SaaS.png How we reached here?]]
+****[#a]:*<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_390.png Cloud hidden cost]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_391.png 2-Decades of Cloud Evolution]] & [[docs/cloud-computing/images/IaaS,PaaS,SaaS.png How we reached here?]]
+*<i><color #black><b><size:12> ;
+
 ****[#a] <i><size:12><b>[[docs/cloud-computing/Cloud-Design-Patterns.puml Design for Resilience & Fault Tolerance]]
 *****[#darkorange] *<i><size:12>**Cloud-native apps** are **designed** to be **resilient to failures** & can automatically **recover** from them \n*<i><size:12>Use **[[docs/cloud-computing/Cloud-Design-Patterns.puml fault-tolerant design patterns]]** & consider implementing <b>[[docs/cloud-computing/Cloud-Design-Patterns.puml circuit breakers & retry mechanisms]]
 
