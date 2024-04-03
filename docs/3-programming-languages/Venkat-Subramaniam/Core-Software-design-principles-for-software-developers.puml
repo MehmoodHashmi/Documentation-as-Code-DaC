@@ -26,7 +26,8 @@ skinparam hyperlinkColor white
 <i><color #white><size:12>**making hands dirty via hands on learning.** In reality there should be balance between.;
 
 **[#lightblue] <i><color #black><size:12>Code Vs Thought
-***[#green] *<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_475.png Dr. Naveed Malik &]] \n*<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Bjarne Stroustrup]]
+***[#green]:|<#grey><i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_475.png Dr. Naveed Malik]]|<#red><i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/56-Program-Testing.png Part-2,]]|<#grey><i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_0239.png 3]]|
+*<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Bjarne Stroustrup]];
 ****[#darkorange] <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_0239.png Software failures]]** are failures of <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_0239.png understanding & imagination.]]
 
 *****[#a]:*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_137.png Tools of trade:]]** You need following tools in advance to <b>write, build, test & debug your programs.
