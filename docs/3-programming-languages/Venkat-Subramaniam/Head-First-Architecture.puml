@@ -1,0 +1,22 @@
+@startmindmap
+title = <i><size:18>Head First Architecture (Planning the Architecture)
+!theme hacker
+
+*[#darkblue] <i><color #white>Head First Architecture (Planning the Architecture) \n<img:images/img_841.png{scale=1}>
+**[#lightblue] <i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_832.png Testing Your knowledge]]
+**[#lightblue] <i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_833.png Problem statement]]
+***[#green] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_833.png Welcome to Make the Grade]]
+***[#green] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_834.png Student testing workflow]]
+****[#yellow]:<i><b><color #black>Understand two things:
+<i><color #black>1- Data flow (do high-level DFD) <&check>
+<i><color #black>2- App Control flow (high-level) may or may not;
+**[#lightblue] <i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_835.png Planning the architecture]]
+***[#green] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_836.png The architects’ roadmap]]
+****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_837.png Step 1: Identify architectural characteristics]]
+****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_838.png Step 2: Identify logical components]]
+****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_839.png Step 3: Choose an architectural style]]
+****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_840.png Step Step 4: Document your decision]]
+****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_836.png Step 1: Identify architectural characteristics]]
+****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_836.png Step 1: Identify architectural characteristics]]
+
+@endmindmap

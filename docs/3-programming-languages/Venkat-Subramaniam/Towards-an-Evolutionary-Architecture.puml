@@ -117,7 +117,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 <b><i><color #black><size:11> [[docs/3-programming-languages/Venkat-Subramaniam/images/img_766.png Ground Truth Specification]]
 <b><i><color #black><size:12> [[docs/3-programming-languages/Venkat-Subramaniam/images/img_766.png Document]];
 
-*****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_242.png Requirements Engineering Process Maturity Model]]
+*****[#a]:|<#grey><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_242.png Requirements Engineering Process Maturity Model]]|<#red><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Head-First-Architecture.puml Planning the Architecture]]|
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_244.png CMMI version-2]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_439.png S/W Project Estimation (Robert C Martin)]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-57-28-106.png S/W Project Cost Estimation Technique based on Use Case Points]];
 
@@ -288,7 +288,9 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 |<img:images/img_31.png{scale=0.84}>| <img:images/img_34.png>|
 ==<i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_267.png Minimizing Libraries. How?]]==
 |<img:images/img_56.jpg{scale=.65}>|<img:images/img_464.png{scale=.52}>|
-<i><color #black><size:15>"interface" minimizes the "surface area" of "coupling code" & ease's replacing "library";
+<i><color #black><size:15>"interface" minimizes the "surface area" of "coupling code" & ease's replacing "library"
+==|<#red><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Head-First-Architecture.puml Planning the Architecture]]|==
+<img:images/img_841.png{scale=.94}>;
 ***[#yellow] <i><color #black><size:12>in the system, otherwise it is **"infatuation"** with the <b>"technology"
 ***[#darkorange] *<i><color #black><size:12>Don't **build** what you can **buy/download.** Don't **buy/download** what you don't <b>need! [[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png DDD]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_574.png Part-2]] \n*<i><color #black><size:12>"To slaughter a goat for a single grain". You could **buy** the **needed grain** from <b>market!
 ***[#gold] <i><color #black><size:12>If we're going to 've a **delivery independent architecture**, we 've to start with \n<i><color #black><size:12><b>delivery independent <color:#brown>"use cases"
