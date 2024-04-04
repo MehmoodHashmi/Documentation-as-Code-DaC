@@ -4,75 +4,142 @@ skinparam nodeHeight 40
 skinparam nodeFontSize 14
 skinparam ArrowColor #808080
 
-title =__ Pakistan Legislation__
+title = <size:18><i>Pakistan Legislation
+!theme hacker
 
-* Pakistan Legislation قانون سازی
-** Constitution
-*** Fundamental Rights
-**** Right to Life
-**** Right to Freedom of Speech
-**** Right to Equality
-**** Right to Education
-*** Parliament
-**** National Assembly
-**** Senate
-**** Legislation قانون سازی Process
-***** Introduction of Bill
-***** Committee Review
-***** Debate and Voting
-***** President's Approval
-**** Legislation Types
-***** Constitutional Amendments (change)
-***** Ordinary Laws
-***** Money Bills
-** Criminal Law
-*** Pakistan Penal (سزا کے متعلق) Code (PPC)
-**** Offenses Against the Human Body
-**** Offenses Against Property
-**** Offenses Against Public Tranquility (peace or سکون)
-**** Offenses Against the State
-**** Offenses Against the Administration of Justice
-*** Criminal Procedure Code (CrPC)
-**** Investigation Process
-**** Arrest and Bail
-**** Trial and Sentencing
-**** Appeals and Revision
-** Civil Law
-*** Civil Procedure Code (CPC)
-**** Jurisdiction of Courts
-**** Pleadings and Written Statements
-**** Evidence and Witnesses
-**** Judgments and Decrees فرمان
-**** Execution of Decrees
-*** Family Laws
-**** Marriage and Divorce
-**** Inheritance and Succession
-**** Child Custody and Guardianship
-**** Dowry and Domestic Violence
-** Business and Commercial Law
-*** Companies Act
-**** Incorporation and Registration
-**** Shareholding and Shareholders' Rights
-**** Directors and Board of Directors
-**** Mergers and Acquisitions
-*** Contracts Law
-**** Formation of Contracts
-**** Terms and Conditions
-**** Breach خلاف ورزی of Contract (promise)
-**** Remedies and Damages
-** Intellectual Property Law
-*** Copyright Law
-**** Protection of Literary and Artistic Works
-**** Ownership and Licensing
-**** Infringement (deviation خلاف ورزی) and Enforcement
-*** Trademark Law
-**** Registration and Protection of Trademarks
-**** Use and Authorization
-**** Trademark Infringement
-**** Passing Off
-*** Patent (copyright) Law
-**** Patentability and Inventive Step
-**** Application and Examination
-**** Grant and Term
-**** Infringement and Invalidity
+*[#darkblue] <i>Pakistan Legislation قانون سازی
+**[#lightblue] <i>Constitution
+***[#green] <i><color #white><b><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/My-Rights-in-Legal-Interactions-in-Pakistan.puml Fundamental Rights]]
+****[#yellow] <color #black><i>Right to Life
+****[#yellow] <color #black><i>Right to Freedom of Speech
+****[#yellow] <color #black><i>Right to Equality
+****[#yellow] <color #black><i>Right to Education
+***[#green] <i><color #white><b>Parliament \n<img:img_768.png>
+****[#yellow] <color #black><i>National Assembly
+****[#yellow] <color #black><i>Senate
+****[#yellow] <color #black><i>Legislation قانون سازی Process
+****[#yellow] <color #black><i>Introduction of Bill
+****[#yellow] <color #black><i>Committee Review
+****[#yellow] <color #black><i>Debate and Voting
+****[#yellow] <color #black><i>President's Approval
+****[#yellow] <color #black><i>Legislation Types
+****[#yellow] <color #black><i>Constitutional Amendments (change)
+****[#yellow] <color #black><i>Ordinary Laws
+****[#yellow] <color #black><i>Money Bills
+**[#lightblue] <i>[[docs/books/politics/asia/pakistan/Criminal-Law.puml Criminal Law]]
+***[#green] <i><color #white><b>Pakistan Penal (سزا کے متعلق) Code (PPC)
+****[#yellow] <color #black><i>Offenses Against the Human Body
+****[#yellow] <color #black><i>Offenses Against Property
+****[#yellow] <color #black><i>Offenses Against Public Tranquility (peace or سکون)
+****[#yellow] <color #black><i>Offenses Against the State
+****[#yellow] <color #black><i>Offenses Against the Administration of Justice
+***[#green] <i><color #white><b>Criminal Procedure Code (CrPC)
+****[#yellow] <color #black><i>Investigation Process
+****[#yellow] <color #black><i>Arrest and Bail
+****[#yellow] <color #black><i>Trial and Sentencing
+****[#yellow] <color #black><i>Appeals and Revision
+**[#lightblue] <i>[[docs/books/politics/asia/pakistan/Pakistan-Civil-Law.puml Civil Law]]
+***[#green] <i><color #white><b>Civil Procedure Code (CPC)
+****[#yellow] <color #black><i>Jurisdiction of Courts
+****[#yellow] <color #black><i>Pleadings and Written Statements
+****[#yellow] <color #black><i>Evidence and Witnesses
+****[#yellow] <color #black><i>Judgments and Decrees فرمان
+****[#yellow] <color #black><i>Execution of Decrees
+***[#green] <i><color #white><b>Family Laws
+****[#yellow] <color #black><i>Marriage and Divorce
+****[#yellow] <color #black><i>Inheritance and Succession
+****[#yellow] <color #black><i>Child Custody and Guardianship
+****[#yellow] <color #black><i>Dowry and Domestic Violence
+**[#lightblue] <i>[[docs/books/politics/asia/pakistan/Business-and-Commercial-Law-(Pakistan).puml Business and Commercial Law]]
+***[#green] <i><color #white><b>Companies Act
+****[#yellow] <color #black><i>Incorporation and Registration
+****[#yellow] <color #black><i>Shareholding and Shareholders' Rights
+****[#yellow] <color #black><i>Directors and Board of Directors
+****[#yellow] <color #black><i>Mergers and Acquisitions
+***[#green] <i><color #white><b>Contracts Law
+****[#yellow] <color #black><i>Formation of Contracts
+****[#yellow] <color #black><i>Terms and Conditions
+****[#yellow] <color #black><i>Breach خلاف ورزی of Contract (promise)
+****[#yellow] <color #black><i>Remedies and Damages
+**[#lightblue] <i>[[docs/books/politics/asia/pakistan/Intellectual-Property-Law-(Pakistan).puml Intellectual Property Law]]
+***[#green] <i><color #white><b>Copyright Law
+****[#yellow] <color #black><i>Protection of Literary and Artistic Works
+****[#yellow] <color #black><i>Ownership and Licensing
+****[#yellow] <color #black><i>Infringement (deviation خلاف ورزی) and Enforcement
+***[#green] <i><color #white><b>Trademark Law
+****[#yellow] <color #black><i>Registration and Protection of Trademarks
+****[#yellow] <color #black><i>Use and Authorization
+****[#yellow] <color #black><i>Trademark Infringement
+****[#yellow] <color #black><i>Passing Off
+***[#green] <i><color #white><b>Patent (copyright) Law
+****[#yellow] <color #black><i>Patentability and Inventive Step
+****[#yellow] <color #black><i>Application and Examination
+****[#yellow] <color #black><i>Grant and Term
+****[#yellow] <color #black><i>Infringement and Invalidity
+
+*[#darkblue] <i>Pakistan Constitution \n<img:img_768.png>
+**[#lightblue] <i><b><i>Preamble:
+***:<b><i>A **constitution** <i>is a document that governs a nation by defining its laws and regulations. **Legislation**[#lightblue] <i>is the process of <b>creating laws.
+<i>The word 'constitution' is used in the sense of 'the act or method of constituting the composition of something. The word **'legislation'** is used in the sense of 'the
+<i>process of making laws'. It refers to **'laws collectively'.** This is the main difference between the two words <b>'constitution' and 'legislation';
+**[#lightblue] <i>Fundamental Rights
+***[#yellow] <color #black><i>Right to Life
+***[#yellow] <color #black><i>Right to Freedom of Speech
+***[#yellow] <color #black><i>Right to Equality
+***[#yellow] <color #black><i>Right to Education
+**[#lightblue] <i>Directive Principles of State Policy
+***[#yellow] <color #black><i>Social and Economic Justice
+***[#yellow] <color #black><i>Protection of Women and Children
+***[#yellow] <color #black><i>Promotion of Local Government
+***[#yellow] <color #black><i>Ensuring Fundamental Rights
+**[#lightblue] <i>President
+***[#yellow] <color #black><i>Election and Term
+***[#yellow] <color #black><i>Executive Powers
+***[#yellow] <color #black><i>Role and Responsibilities
+***[#yellow] <color #black><i>Impeachment الزام لگانا Process
+**[#lightblue] <i>Prime Minister
+***[#yellow] <color #black><i>Election and Term
+***[#yellow] <color #black><i>Council of Ministers
+***[#yellow] <color #black><i>Legislative Powers
+***[#yellow] <color #black><i>Role and Responsibilities
+**[#lightblue] <i>Parliament
+***[#yellow] <color #black><i>National Assembly
+****[#gold] <color #black><i>Members and Elections
+****[#gold] <color #black><i>Legislative Process
+****[#gold] <color #black><i>Debate and Voting
+****[#gold] <color #black><i>Passage of Bills
+***[#yellow] <color #black><i>Senate
+****[#gold] <color #black><i>Members and Elections
+****[#gold] <color #black><i>Legislative Process
+****[#gold] <color #black><i>Debate and Voting
+****[#gold] <color #black><i>Passage of Bills
+**[#lightblue] <i>Judiciary
+***[#yellow] <color #black><i>Supreme Court
+****[#gold] <color #black><i>Appointment of Judges
+****[#gold] <color #black><i>Jurisdiction and Powers
+****[#gold] <color #black><i>Judicial Review
+****[#gold] <color #black><i>Protection of Fundamental Rights
+***[#yellow] <color #black><i>High Courts
+****[#gold] <color #black><i>Appointment of Judges
+****[#gold] <color #black><i>Jurisdiction and Powers
+****[#gold] <color #black><i>Appeals and Writs (or warrant a piece or body of writing.)
+**[#lightblue] <i>Provincial Governments \n<img:img.png{scale=.4}>
+***[#yellow] <color #black><i>Governors
+****[#gold] <color #black><i>Appointment and Powers
+****[#gold] <color #black><i>Role and Responsibilities
+***[#yellow] <color #black><i>Chief Ministers
+****[#gold] <color #black><i>Appointment and Powers
+****[#gold] <color #black><i>Council of Ministers
+****[#gold] <color #black><i>Legislative Powers
+**[#lightblue] <i>Federal and \n<i>Provincial Relations
+***[#gold]:<color #black><i>**Federal:** a form of **government** where **power** is shared between a **central authority** and a number of constituent territorial units, such as <b>states.
+<i>For example, in the United States, the President, Congress, and the Supreme Court are all part of the federal government.;
+***[#yellow] <color #black><i>Concurrent Legislative List
+***[#yellow] <color #black><i>Financial Relations
+***[#yellow] <color #black><i>Inter-Provincial Coordination
+***[#yellow] <color #black><i>Council of Common Interests
+**[#lightblue] <i>Constitutional Amendments
+***[#yellow] <color #black><i>Procedure and Requirements
+***[#yellow] <color #black><i>Limitations and Safeguards
+***[#yellow] <color #black><i>Basic Structure Doctrine
 @endmindmap
