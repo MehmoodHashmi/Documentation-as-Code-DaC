@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><b><u>Centralized System
+title =<i><b><u><size:18>Centralized System
 !theme hacker
 
 
@@ -8,45 +8,45 @@ title =<i><b><u>Centralized System
 
 
 *[#darkblue] <i><color:white>Definition
-**[#lightblue] <i><color #blac><size:14>A computing system in which all processing is done in a central location
-**[#lightblue] <i><color #blac><size:14>Users access the system through remote terminals or devices
+**[#lightblue] <i><color #blac><size:12>A computing system in which all processing is done in a central location
+**[#lightblue] <i><color #blac><size:12>Users access the system through remote terminals or devices
 
 *[#darkblue] <i><color:white>Characteristics
-**[#lightblue] <i><color #blac><size:14>Centralized control of resources and data
-**[#lightblue] <i><color #blac><size:14>Single point of failure
-**[#lightblue] <i><color #blac><size:14>Limited scalability
-**[#lightblue] <i><color #blac><size:14>Potential for network congestion
-**[#lightblue] <i><color #blac><size:14>Lower hardware and maintenance costs
+**[#lightblue] <i><color #blac><size:12>Centralized control of resources and data
+**[#lightblue] <i><color #blac><size:12>Single point of failure
+**[#lightblue] <i><color #blac><size:12>Limited scalability
+**[#lightblue] <i><color #blac><size:12>Potential for network congestion
+**[#lightblue] <i><color #blac><size:12>Lower hardware and maintenance costs
 
 *[#darkblue] <i><color:white>Types of Centralized Systems
-**[#lightblue] <i><color #blac><size:14>Mainframe Systems
-***[#yellow] <i><color #black><size:14>Used for large-scale computing tasks
-***[#yellow] <i><color #black><size:14>Highly reliable and secure
-***[#yellow] <i><color #black><size:14>Require specialized skills and resources to operate and maintain
-**[#lightblue] <i><color #blac><size:14>Client-Server Systems
-***[#yellow] <i><color #black><size:14>Consist of a central server and multiple clients
-***[#yellow] <i><color #black><size:14>Clients request resources and services from the server
-***[#yellow] <i><color #black><size:14>Widely used in business and enterprise environments
-**[#lightblue] <i><color #blac><size:14>Cloud Computing Systems
-***[#yellow] <i><color #black><size:14>Provide centralized access to computing resources and services over the internet
-***[#yellow] <i><color #black><size:14>Users pay for usage rather than purchasing and maintaining hardware and software
-***[#yellow] <i><color #black><size:14>Offer scalability, flexibility, and reliability
+**[#lightblue] <i><color #blac><size:12>Mainframe Systems
+***[#yellow] <i><color #black><size:12>Used for large-scale computing tasks
+***[#yellow] <i><color #black><size:12>Highly reliable and secure
+***[#yellow] <i><color #black><size:12>Require specialized skills and resources to operate and maintain
+**[#lightblue] <i><color #blac><size:12>Client-Server Systems
+***[#yellow] <i><color #black><size:12>Consist of a central server and multiple clients
+***[#yellow] <i><color #black><size:12>Clients request resources and services from the server
+***[#yellow] <i><color #black><size:12>Widely used in business and enterprise environments
+**[#lightblue] <i><color #blac><size:12>Cloud Computing Systems
+***[#yellow] <i><color #black><size:12>Provide centralized access to computing resources and services over the internet
+***[#yellow] <i><color #black><size:12>Users pay for usage rather than purchasing and maintaining hardware and software
+***[#yellow] <i><color #black><size:12>Offer scalability, flexibility, and reliability
 
 *[#darkblue] <i><color:white>Advantages
-**[#lightblue] <i><color #blac><size:14>Centralized control of resources and data
-**[#lightblue] <i><color #blac><size:14>Easier management and maintenance
-**[#lightblue] <i><color #blac><size:14>Lower hardware and maintenance costs
-**[#lightblue] <i><color #blac><size:14>Improved security and backup
+**[#lightblue] <i><color #blac><size:12>Centralized control of resources and data
+**[#lightblue] <i><color #blac><size:12>Easier management and maintenance
+**[#lightblue] <i><color #blac><size:12>Lower hardware and maintenance costs
+**[#lightblue] <i><color #blac><size:12>Improved security and backup
 
 *[#darkblue] <i><color:white>Disadvantages
-**[#lightblue] <i><color #blac><size:14>Single point of failure
-**[#lightblue] <i><color #blac><size:14>Limited scalability
-**[#lightblue] <i><color #blac><size:14>Potential for network congestion
-**[#lightblue] <i><color #blac><size:14>Less flexibility and innovation
+**[#lightblue] <i><color #blac><size:12>Single point of failure
+**[#lightblue] <i><color #blac><size:12>Limited scalability
+**[#lightblue] <i><color #blac><size:12>Potential for network congestion
+**[#lightblue] <i><color #blac><size:12>Less flexibility and innovation
 
 *[#darkblue] <i><color:white>Best Practices
-**[#lightblue] <i><color #blac><size:14>Proper hardware and software selection and configuration
-**[#lightblue] <i><color #blac><size:14>Regular backups and disaster recovery planning
-**[#lightblue] <i><color #blac><size:14>Monitoring and management of system performance and security
-**[#lightblue] <i><color #blac><size:14>Proper resource allocation and load balancing
+**[#lightblue] <i><color #blac><size:12>Proper hardware and software selection and configuration
+**[#lightblue] <i><color #blac><size:12>Regular backups and disaster recovery planning
+**[#lightblue] <i><color #blac><size:12>Monitoring and management of system performance and security
+**[#lightblue] <i><color #blac><size:12>Proper resource allocation and load balancing
 @endmindmap

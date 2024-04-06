@@ -1,63 +1,63 @@
 @startmindmap
-title =<i><b><u>Distributed Systems
+title =<i><b><u><size:18>Distributed Systems
 !theme hacker
 
 *[#darkblue] <i>Distributed Systems
-**[#lightblue] <i><color #blac><size:14>Definition
-***[#green] <b><i><color #white><size:14>Multiple interconnected computers working together as a single system.
-**[#lightblue] <i><color #blac><size:14>Characteristics
-***[#green] <b><i><color #white><size:14>Concurrency
-****[#yellow] <i><color #black><size:14>Simultaneous execution of processes or tasks.
-***[#green] <b><i><color #white><size:14>Scalability
-****[#yellow] <i><color #black><size:14>Ability to expand resources to handle increased load.
-***[#green] <b><i><color #white><size:14>Fault Tolerance
-****[#yellow] <i><color #black><size:14>System's ability to operate in the presence of faults or failures.
-***[#green] <b><i><color #white><size:14>Transparency
-****[#yellow] <i><color #black><size:14>Hiding the complexity of the system's distributed nature from users.
-**[#lightblue] <i><color #blac><size:14>Types
-***[#green] <b><i><color #white><size:14>Client-Server Architecture
-****[#yellow] <i><color #black><size:14>Centralized model with client requests and server responses.
-***[#green] <b><i><color #white><size:14>Peer-to-Peer (P2P)
-****[#yellow] <i><color #black><size:14>Decentralized model allowing direct communication between nodes.
-***[#green] <b><i><color #white><size:14>Cloud Computing
-****[#yellow] <i><color #black><size:14>Delivery of computing services over the internet.
-***[#green] <b><i><color #white><size:14>Edge Computing
-****[#yellow] <i><color #black><size:14>Processing data closer to the source or edge devices.
-**[#lightblue] <i><color #blac><size:14>Communication Models
-***[#green] <b><i><color #white><size:14>Message Passing
-****[#yellow] <i><color #black><size:14>Exchange of messages between distributed components.
-***[#green] <b><i><color #white><size:14>Remote Procedure Call (RPC)
-****[#yellow] <i><color #black><size:14>Invoking functions or procedures on remote systems.
-***[#green] <b><i><color #white><size:14>Publish-Subscribe
-****[#yellow] <i><color #black><size:14>Broadcasting events or messages to multiple subscribers.
-***[#green] <b><i><color #white><size:14>Distributed Transactions
-****[#yellow] <i><color #black><size:14>Coordinating transactions across multiple systems.
-**[#lightblue] <i><color #blac><size:14>Challenges
-***[#green] <b><i><color #white><size:14>Network Complexity
-****[#yellow] <i><color #black><size:14>Handling communication and synchronization across nodes.
-***[#green] <b><i><color #white><size:14>Consistency and Replication
-****[#yellow] <i><color #black><size:14>Ensuring data consistency in replicated systems.
-***[#green] <b><i><color #white><size:14>Security and Privacy
-****[#yellow] <i><color #black><size:14>Protecting data and communication in a distributed environment.
-***[#green] <b><i><color #white><size:14>Load Balancing
-****[#yellow] <i><color #black><size:14>Distributing workloads efficiently across nodes.
+**[#lightblue] <i><color #blac><size:12>Definition
+***[#green] <b><i><color #white><size:12>Multiple interconnected computers working together as a single system.
+**[#lightblue] <i><color #blac><size:12>Characteristics
+***[#green] <b><i><color #white><size:12>Concurrency
+****[#yellow] <i><color #black><size:12>Simultaneous execution of processes or tasks.
+***[#green] <b><i><color #white><size:12>Scalability
+****[#yellow] <i><color #black><size:12>Ability to expand resources to handle increased load.
+***[#green] <b><i><color #white><size:12>Fault Tolerance
+****[#yellow] <i><color #black><size:12>System's ability to operate in the presence of faults or failures.
+***[#green] <b><i><color #white><size:12>Transparency
+****[#yellow] <i><color #black><size:12>Hiding the complexity of the system's distributed nature from users.
+**[#lightblue] <i><color #blac><size:12>Types
+***[#green] <b><i><color #white><size:12>Client-Server Architecture
+****[#yellow] <i><color #black><size:12>Centralized model with client requests and server responses.
+***[#green] <b><i><color #white><size:12>Peer-to-Peer (P2P)
+****[#yellow] <i><color #black><size:12>Decentralized model allowing direct communication between nodes.
+***[#green] <b><i><color #white><size:12>Cloud Computing
+****[#yellow] <i><color #black><size:12>Delivery of computing services over the internet.
+***[#green] <b><i><color #white><size:12>Edge Computing
+****[#yellow] <i><color #black><size:12>Processing data closer to the source or edge devices.
+**[#lightblue] <i><color #blac><size:12>Communication Models
+***[#green] <b><i><color #white><size:12>Message Passing
+****[#yellow] <i><color #black><size:12>Exchange of messages between distributed components.
+***[#green] <b><i><color #white><size:12>Remote Procedure Call (RPC)
+****[#yellow] <i><color #black><size:12>Invoking functions or procedures on remote systems.
+***[#green] <b><i><color #white><size:12>Publish-Subscribe
+****[#yellow] <i><color #black><size:12>Broadcasting events or messages to multiple subscribers.
+***[#green] <b><i><color #white><size:12>Distributed Transactions
+****[#yellow] <i><color #black><size:12>Coordinating transactions across multiple systems.
+**[#lightblue] <i><color #blac><size:12>Challenges
+***[#green] <b><i><color #white><size:12>Network Complexity
+****[#yellow] <i><color #black><size:12>Handling communication and synchronization across nodes.
+***[#green] <b><i><color #white><size:12>Consistency and Replication
+****[#yellow] <i><color #black><size:12>Ensuring data consistency in replicated systems.
+***[#green] <b><i><color #white><size:12>Security and Privacy
+****[#yellow] <i><color #black><size:12>Protecting data and communication in a distributed environment.
+***[#green] <b><i><color #white><size:12>Load Balancing
+****[#yellow] <i><color #black><size:12>Distributing workloads efficiently across nodes.
 **[#lightblue] <i><color #blac><size:22>Technologies
-***[#green] <b><i><color #white><size:14>Apache Kafka
-****[#yellow] <i><color #black><size:14>Distributed streaming platform for building real-time data pipelines.
-***[#green] <b><i><color #white><size:14>Docker Swarm
-****[#yellow] <i><color #black><size:14>Docker's native clustering for managing containerized applications.
-***[#green] <b><i><color #white><size:14>Kubernetes
-****[#yellow] <i><color #black><size:14>Container orchestration platform for automating deployment, scaling, and management.
-***[#green] <b><i><color #white><size:14>Hadoop
-****[#yellow] <i><color #black><size:14>Framework for distributed storage and processing of large datasets.
-**[#lightblue] <i><color #blac><size:14>Applications
-***[#green] <b><i><color #white><size:14>E-commerce Platforms
-****[#yellow] <i><color #black><size:14>Handling transactions, inventory, and user interactions.
-***[#green] <b><i><color #white><size:14>Social Media Networks
-****[#yellow] <i><color #black><size:14>Managing user data, posts, and interactions across multiple servers.
-***[#green] <b><i><color #white><size:14>Financial Systems
-****[#yellow] <i><color #black><size:14>Processing transactions and managing banking operations.
-***[#green] <b><i><color #white><size:14>IoT Infrastructure
-****[#yellow] <i><color #black><size:14>Collecting and processing data from various edge devices.
+***[#green] <b><i><color #white><size:12>Apache Kafka
+****[#yellow] <i><color #black><size:12>Distributed streaming platform for building real-time data pipelines.
+***[#green] <b><i><color #white><size:12>Docker Swarm
+****[#yellow] <i><color #black><size:12>Docker's native clustering for managing containerized applications.
+***[#green] <b><i><color #white><size:12>Kubernetes
+****[#yellow] <i><color #black><size:12>Container orchestration platform for automating deployment, scaling, and management.
+***[#green] <b><i><color #white><size:12>Hadoop
+****[#yellow] <i><color #black><size:12>Framework for distributed storage and processing of large datasets.
+**[#lightblue] <i><color #blac><size:12>Applications
+***[#green] <b><i><color #white><size:12>E-commerce Platforms
+****[#yellow] <i><color #black><size:12>Handling transactions, inventory, and user interactions.
+***[#green] <b><i><color #white><size:12>Social Media Networks
+****[#yellow] <i><color #black><size:12>Managing user data, posts, and interactions across multiple servers.
+***[#green] <b><i><color #white><size:12>Financial Systems
+****[#yellow] <i><color #black><size:12>Processing transactions and managing banking operations.
+***[#green] <b><i><color #white><size:12>IoT Infrastructure
+****[#yellow] <i><color #black><size:12>Collecting and processing data from various edge devices.
 
 @endmindmap

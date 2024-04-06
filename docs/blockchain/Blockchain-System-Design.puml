@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><u>Blockchain System Design
+title =<i><u><size:18>Blockchain System Design
 *:*<i><size:12>The **'Internet'** focuses much more on **'information exchange'**, while **'blockchain'** focuses on **'value exchange'.** When thinking about a **blockchain use case,** ask yourself whether it <b>leverages some value exchange,
 <i><size:12>particularly that which cannot be handled by <b>a single authority.
 
@@ -51,14 +51,11 @@ title =<i><u>Blockchain System Design
 +++[#green] <i><size:12><color #white>**Smart Contracts**
 ****[#orange] <i><size:12><color #black>**Definition:** A **smart contract** is an **agreement** between **two parties** in the form of **computer code.** Smart contracts are stored in the blockchain,\n<i><size:12><color #black>so they are **part** of the **public ledger** and cannot be **changed.** <u>Smart contracts run on the blockchain and the transactions that happen are processed\n<i><size:12><color #black>by it, which means they can be sent automatically without a third party. The transactions only occur when specific conditions are met.
 ****[#orange] <i><size:12><color #black>Ethereum
-*****[#yellow] <i><size:12>Solidity
-*****[#yellow] <i><size:12>Vyper
+*****[#yellow] *<i><size:12>Solidity \n*<i><size:12>Vyper
 ****[#orange] <i><size:12><color #black>EOS
-*****[#yellow] <i><size:12>C++
-*****[#yellow] <i><size:12>WebAssembly
+*****[#yellow] *<i><size:12>C++ \n*<i><size:12>WebAssembly
 ****[#orange] <i><size:12><color #black>Cardano
-*****[#yellow] <i><size:12>Plutus
-*****[#yellow] <i><size:12>Marlowe
+*****[#yellow] *<i><size:12>Plutus \n*<i><size:12>Marlowe
 
 **[#lightblue] <i><size:18>__**Blockchain Networks Type:**__\n<img:images/img_1.png{scale=.8}>
 ***[#green]:<i><size:12><color #white>**Permissionless network:** allows access to any user to pseudo-anonymously join the network and become a node, without
@@ -70,11 +67,7 @@ title =<i><u>Blockchain System Design
 <i><size:12><color #white><u>**the above**</u> networks, consortium and hybrid blockchains were developed.;
 
 +++[#green] <i><size:12><color #white>**Public Blockchains**
-****[#orange] <i><size:12><color #black>Bitcoin
-****[#orange] <i><size:12><color #black>Ethereum
-****[#orange] <i><size:12><color #black>Litecoin
-****[#orange] <i><size:12><color #black>Cardano
-****[#orange] <i><size:12><color #black>Polkadot
+****[#orange] *<i><size:12><color #black>Bitcoin \n*<i><size:12><color #black>Ethereum \n*<i><size:12><color #black>Litecoin \n*<i><size:12><color #black>Cardano \n*<i><size:12><color #black>Polkadot
 +++[#green] <i><size:12><color #white>**Private Blockchains**
 ****[#orange] <i><size:12><color #black>Hyperledger Fabric
 ****[#orange] <i><size:12><color #black>R3 Corda
@@ -86,18 +79,14 @@ title =<i><u>Blockchain System Design
 ++[#lightblue] <i><size:12>Scalability Solutions
 +++[#green] <i><size:12><color #white>**Layer 1 Solutions**
 ****[#orange] <i><size:12><color #black>Sharding
-*****[#yellow] <i><size:12>Ethereum 2.0
-*****[#yellow] <i><size:12>Zilliqa
-*****[#yellow] <i><size:12>Polkadot
+*****[#yellow] *<i><size:12>Ethereum 2.0 \n*<i><size:12>Zilliqa \n*<i><size:12>Polkadot
 +++[#green] <i><size:12><color #white>**Layer 2 Solutions**
 ****[#orange] <i><size:12><color #black>State Channels
-*****[#yellow] <i><size:12>Lightning Network (Bitcoin)
-*****[#yellow] <i><size:12>Raiden Network (Ethereum)
+*****[#yellow] *<i><size:12>Lightning Network (Bitcoin) \n*<i><size:12>Raiden Network (Ethereum)
 ****[#orange] <i><size:12><color #black>Plasma
 *****[#yellow] <i><size:12>OmiseGO
 ****[#orange] <i><size:12><color #black>Rollups
-*****[#yellow] <i><size:12>Optimistic Rollups
-*****[#yellow] <i><size:12>ZK-Rollups
+*****[#yellow] *<i><size:12>Optimistic Rollups \n*<i><size:12>ZK-Rollups
 
 ++[#lightblue] <i><size:12>Interoperability
 +++[#green] <i><size:12><color #white>**Cross-Chain Communication**
@@ -106,8 +95,7 @@ title =<i><u>Blockchain System Design
 ****[#orange] <i><size:12><color #black>Wanchain
 +++[#green] <i><size:12><color #white>**Atomic Swaps**
 ****[#orange] <i><size:12><color #black>Hashed Timelock Contracts (HTLC)
-*****[#yellow] <i><size:12>Lightning Network (Bitcoin)
-*****[#yellow] <i><size:12>Raiden Network (Ethereum)
+*****[#yellow] *<i><size:12>Lightning Network (Bitcoin) \n*<i><size:12>Raiden Network (Ethereum)
 
 ++[#lightblue] <i><size:12>Security
 +++[#green] <i><size:12><color #white>**51% Attack**

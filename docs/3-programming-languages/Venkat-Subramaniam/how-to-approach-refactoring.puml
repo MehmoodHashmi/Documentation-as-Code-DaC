@@ -15,8 +15,14 @@ title =<i><b><u><size:18>How to approach Refactoring \n<i>[[docs/3-programming-l
 <i><color #black><size:12>alter the external behavior of the code yet improves its internal structure. --- Martin Fowler;
 
 **[#lightblue] <i><color #black><size:12>Make it work, make it better real soon!
-***[#green] <b><i><color #white><size:12>TDD
+***[#green]:==|<#red><b><i><color #white><size:12>[[docs/books/1-books-backlog/software-testing/images/img_6.png TDD]]|==
+<img:images-reuseable/57-TDD-red-green-refactor.png>;
 ****[#yellow] <i><color #black><size:12>Do <b><color #red>Red, <color #lime>Green, <color #black>Refactor
+*****[#a]:|<#white><i><color #black><size:12>As you **Tests** get more **specific** your **production code** becomes more "generic". **Testing** is to get **insight** into a product.|
+|<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/58-TDD-red-green-refactor.png Ian Cooper:]]** My advice is to lean into the <color #lightgreen>**green step** </color> in TDD. Write the test by hand. With **multi-file context** these are the **requirements** for the <b>LLM.|
+|<i><color #black><size:12>**Use the LLM to go <color #lightgreen>green** </color>- remember **"make it work"** here. Then when it passes move to the manual refactoring step to make it good. <b>In essence, you|
+|<i><color #black><size:12>mirror the paring technique of: one developer writes the test; the other developer gets the test to green; we discuss possible <b>refactorings.|;
+
 ****[#yellow] <i><color #black><size:12>It is almost impossible to write correct for the first time <b>(structural design)
 ****[#darkorange]:<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_512.png Micro deletion vs Macro deletion]]
 ====
@@ -121,7 +127,7 @@ title =<i><b><u><size:18>How to approach Refactoring \n<i>[[docs/3-programming-l
 ***[#yellow] <i><color #black><size:12>**When a programmer says:** Let me figure out what this code is saying
 ****[#gold] <i><color #black><size:12>This means this code sucks
 ****[#gold] <i><color #black><size:12>Don't make the reader read through every single line of code to understand **"what"** the code is doing
-***[#yellow]:*<i><color #black><size:12>**How Do I know <color #red>if(<color #blue> if File Is Invalid<color #green>(line) <color #red>)**
+***[#yellow]:*<i><color #black><size:12>**How Do I know <color #red>if (<color #blue>if File Is Invalid<color #green>(line) <color #red>)**
 ====
 *<i><color #black><size:12>**Convey** the **"what"** & **delegate** the <b>"how";
 ****[#gold] <i><color #black><size:12><b>I don't care

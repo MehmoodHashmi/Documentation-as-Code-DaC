@@ -6,7 +6,8 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 *[#darkblue]:<color:white><i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_630.png Towards an Evolutionary Architecture]]
 <color:white><i><size:12>Following are on Thought-Works Tech-Radar:
 *<color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_630.png Evolutionary Architecture "Adapt"(since 2011)]]
-**<color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_149.png Is related to "Application Architecture"]]
+|<#grey><color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_149.png Is 80% related to "Application Architecture"]]|
+|<#blue><color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_149.png Is 20% related to growing "App N/W Topology"]]|
 **<color:white><i><size:11>[[https://www.thoughtworks.com/radar/techniques/lightweight-approach-to-rfcs Lightweight approach to RFCs "Adapt" (since 2024)]]
 ***<color:white><i><size:12>[[https://www.thoughtworks.com/radar/techniques/lightweight-approach-to-rfcs Lightweight approach to RFCs, How to article?]]
 ***<color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_569.png Lightweight approach to RFCs .png]]
@@ -219,8 +220,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 **[#lightblue]:<i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_249.png Refactor ]]
 <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_466.png 1- Structure (generally reversible)]]
 <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_466.png 2- Behavior (generally irreversible)]]
-====
-<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/how-to-approach-refactoring.puml How to approach refactoring "Venkat"]];
+|<#red><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/how-to-approach-refactoring.puml How to approach refactoring "Venkat"]]|;
 ***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.png 50% to 60% of the time you want to]]
 ****[#yellow] <i><color #black><size:12><b>Refactor:</b> others people code
 ***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.png Other times you need to 've the courage to]]
