@@ -10,13 +10,19 @@ title = <i><size:18>Head First Architecture (Planning the Architecture)
 ****[#yellow]:<i><b><color #black>Understand two things:
 <i><color #black>1- Data flow (do high-level DFD) <&check>
 <i><color #black>2- App Control flow (high-level) may or may not;
+****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_849.png Problem statement modified (advanced version)]]
 **[#lightblue] <i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_835.png Planning the architecture]]
 ***[#green] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_836.png The architects’ roadmap]]
 ****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_837.png Step 1: Identify architectural characteristics]]
+*****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_848.png solution]]
 ****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_838.png Step 2: Identify logical components]]
+*****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_850.png solution]]
 ****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_839.png Step 3: Choose an architectural style]]
-****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_840.png Step Step 4: Document your decision]]
-****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_836.png Step 1: Identify architectural characteristics]]
-****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_836.png Step 1: Identify architectural characteristics]]
+*****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_851.png solution]]
+****[#grey] |<#red><b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_840.png Step Step 4: Document your decision]]|<#grey><b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_845.png Architectural Decision Record]]|
+*****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_852.png solution]]
+****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_846.png Step 5: Diagram your architecture]]
+*****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_853.png solution]]
+****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_847.png There are no right (or wrong) answers!]]
 
 @endmindmap
