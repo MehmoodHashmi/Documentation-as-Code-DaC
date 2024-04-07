@@ -1,6 +1,7 @@
 @startmindmap
 title = <i><size:18>Head First Architecture (Planning the Architecture)
 !theme hacker
+caption <img:images/img_854.png>
 
 *[#darkblue] <i><color #white>Head First Architecture (Planning the Architecture) \n<img:images/img_841.png{scale=1}>
 **[#lightblue] <i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_832.png Testing Your knowledge]]
@@ -15,9 +16,10 @@ title = <i><size:18>Head First Architecture (Planning the Architecture)
 ***[#green] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_836.png The architects’ roadmap]]
 ****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_837.png Step 1: Identify architectural characteristics]]
 *****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_848.png solution]]
-****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_838.png Step 2: Identify logical components]]
+****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_838.png Step 2: Identify logical components]] \n*<b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_855.png More on logical components]]
+
 *****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_850.png solution]]
-****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_839.png Step 3: Choose an architectural style]]
+****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_839.png Step 3: Choose an architectural style]] \n*<b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_856.png More on architectural style]]
 *****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_851.png solution]]
 ****[#grey] |<#red><b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_840.png Step Step 4: Document your decision]]|<#grey><b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_845.png Architectural Decision Record]]|
 *****[#grey] <b><i><color #black>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_852.png solution]]

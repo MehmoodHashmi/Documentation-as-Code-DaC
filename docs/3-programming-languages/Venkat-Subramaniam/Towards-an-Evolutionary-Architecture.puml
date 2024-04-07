@@ -305,7 +305,8 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ==|<#lightblue><i><color #black><size:16>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_555.png Outside-in]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_555.png Top-down]]** <color:blue>(High-level analysis & design)|==
 *<i><color #black><size:16>**Outside-in:** approach (1st select right tools, integrations etc. for app development)
 <i><color #green><b><size:15>4- Outer most layer <color #white>(Databases, Devices, External interfaces, Web, UI/UX etc.)
-**<i><color #green><b><size:12>E.g. [[docs/books/1-books-backlog/DBMS/Designing-Data-Intensive-Applications.puml NFR technology constraints]], seldom "client" tells "explicitly" if not they still exist "implicitly"
+**<i><color #green><b><size:12>E.g. [[docs/books/1-books-backlog/DBMS/Designing-Data-Intensive-Applications.puml NFR & technology constraints]], seldom "client" tells "explicitly" if not they still exist "implicitly"
+|<i><color #green><b><size:12>Both [[docs/books/1-books-backlog/DBMS/Designing-Data-Intensive-Applications.puml NFR or architectural characteristics]] are same thing|
 **<i><color #green><b><size:12>E.g. [[docs/books/1-books-backlog/DBMS/Designing-Data-Intensive-Applications.puml SQL or NoSQL]]
 **<i><color #green><b><size:12>E.g. CLI or [[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/UI-UX.puml GUI (UI/UX)]]
 **<i><color #green><b><size:12>E.g. [[docs/3-programming-languages/Venkat-Subramaniam/images/external-interfaces-or-APIs.png External Interfaces (APIs)]] or [[docs/1-Requirement-Engineering/APIs-design/types-of-APIs-Integration.puml Types of API integration]] or [[docs/1-Requirement-Engineering/APIs-design/Using-an-API.puml Using an API]] or [[docs/1-Requirement-Engineering/APIs-design/Designing-API.puml Designing API]]
