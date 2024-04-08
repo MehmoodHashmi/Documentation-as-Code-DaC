@@ -1,0 +1,62 @@
+@startwbs
+title <i>Client Types and Budget Negotiation
+
+skinparam nodeMargin 10
+!theme hacker
+
+*[#darkblue] <i>Clients
+**[#lightblue] <i>Money-Oriented
+***[#green] <color #white><b><i>Characteristics:
+****[#yellow] <size:12><color #black><i>Focuses on cost-saving and maximizing <b>ROI
+****[#yellow] <size:12><color #black><i>Willing to compromise on time and quality for lower costs
+****[#yellow] <size:12><color #black><i>Prioritizes budget constraints over other factors
+***[#green] <color #white><b><i>Negotiation Strategy:
+****[#yellow] <size:12><color #black><i>Emphasize cost-effectiveness and potential savings
+****[#yellow] <size:12><color #black><i>Offer competitive pricing and discounts for bulk purchases
+****[#yellow] <size:12><color #black><i>Provide evidence of long-term benefits and return on investment <b>(ROI)
+***[#green] <color #white><b><i>Pros:
+****[#yellow] <size:12><color #black><i>Potential for cost savings and maximizing profits
+****[#yellow] <size:12><color #black><i>Easy to negotiate with if cost is the primary concern
+****[#yellow] <size:12><color #black><i>Opportunity to establish long-term partnerships based on mutual financial benefits
+***[#green] <color #white><b><i>Cons:
+****[#yellow] <size:12><color #black><i>May sacrifice quality or time to meet budget constraints
+****[#gold] <size:12><color #black><i>Reluctant to invest in premium services or products
+****[#gold] <size:12><color #black><i>Risk of undervaluing quality and long-term sustainability
+
+**[#lightblue] <i>Time-Oriented
+***[#green] <color #white><b><i>Characteristics:
+****[#yellow] <size:12><color #black><i>Values prompt delivery and quick turnaround times
+****[#yellow] <size:12><color #black><i>Prioritizes meeting deadlines over other considerations
+****[#yellow] <size:12><color #black><i>Willing to pay more for expedited services or products
+***[#green] <color #white><b><i>Negotiation Strategy:
+****[#yellow] <size:12><color #black><i>Highlight efficiency and time-saving solutions
+****[#yellow] <size:12><color #black><i>Offer expedited delivery options with premium pricing
+****[#yellow] <size:12><color #black><i>Provide realistic timelines and deliverables to manage expectations
+***[#green] <color #white><b><i>Pros:
+****[#yellow] <size:12><color #black><i>Potential for higher revenue through expedited services
+****[#yellow] <size:12><color #black><i>Opportunity to establish a reputation for reliability and punctuality
+****[#yellow] <size:12><color #black><i>Flexibility in negotiating contracts based on project timelines
+***[#green] <color #white><b><i>Cons:
+****[#yellow] <size:12><color #black><i>Risk of compromising quality or thoroughness to meet tight deadlines
+****[#gold] <size:12><color #black><i>Pressure to deliver on time may lead to **burnout or stress** among team members
+****[#yellow] <size:12><color #black><i>Dependence on external factors (e.g., suppliers, vendors) for timely delivery
+
+**[#lightblue] <i>Quality-Oriented
+***[#green] <color #white><b><i>Characteristics:
+****[#yellow] <size:12><color #black><i>Emphasizes superior craftsmanship and attention to detail
+****[#yellow] <size:12><color #black><i>Values excellence and premium quality over cost or time considerations
+****[#yellow] <size:12><color #black><i>Willing to invest more for top-tier products or services
+***[#green] <color #white><b><i>Negotiation Strategy:
+****[#yellow] <size:12><color #black><i>Emphasize the value of premium quality and craftsmanship
+****[#yellow] <size:12><color #black><i>Provide evidence of superior performance and durability
+****[#yellow] <size:12><color #black><i>Offer customization options and personalized services to meet unique needs
+***[#green] <color #white><b><i>Pros:
+****[#yellow] <size:12><color #black><i>Potential for higher profit margins through premium pricing
+****[#yellow] <size:12><color #black><i>Opportunity to establish a reputation for excellence and prestige
+****[#yellow] <size:12><color #black><i>Greater satisfaction and loyalty among clients who prioritize quality
+***[#green] <color #white><b><i>Cons:
+****[#yellow] <size:12><color #black><i>Risk of higher production costs and overhead expenses
+****[#yellow] <size:12><color #black><i>Limited flexibility in negotiating lower prices or discounts
+****[#gold] <size:12><color #black><i>Pressure to maintain consistently high standards of quality and craftsmanship
+
+@endwbs

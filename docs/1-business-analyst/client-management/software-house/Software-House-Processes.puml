@@ -159,7 +159,7 @@ title =<i><size:18>Software House Processes \n|<img:images/img.png>|<img:images/
 ***[#green] <i><size:22><color #white>**[[docs/1-business-analyst/client-management/2-types-of-client.puml Client Onboarding]]**
 ****[#orange] <i><size:12><color #black>**Requirements Gathering**
 *****[#yellow] <i><size:12>Gather detailed requirements from clients to understand their specific needs.
-****[#orange] <i><size:12><color #black>**Contract Negotiation**
+****[#orange] <i><size:12><color #black>**[[docs/1-business-analyst/client-management/Client-Types-and-Budget-Negotiation.puml Contract Negotiation]]**
 *****[#yellow] <i><size:12>Establish clear contracts and agreements that define project scope and terms.
 
 ***[#green] <i><size:12><color #white>**Communication**
