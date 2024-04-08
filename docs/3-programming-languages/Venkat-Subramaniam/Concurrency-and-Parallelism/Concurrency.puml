@@ -1,51 +1,51 @@
 @startmindmap
-title =<i><b><u>Concurrency
+title =<i><b><u><size:18>Concurrency
 * =<i>[[Concurrency-Patterns.puml Concurrency Patterns]]
 !theme hacker
 
 *[#darkblue] <i>Concurrency
-**[#lightblue] <i><color #blac><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Concurrency-and-Parallelism/images/img_1.png Introduction to Concurrency]]
-***[#green] <b><i><color #white><size:14>What is Concurrency?
-****[#a] <b><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Concurrency-and-Parallelism/images/img_1.png click me]]
-***[#green] <b><i><color #white><size:14>Why is Concurrency Important?
-***[#green] <b><i><color #white><size:14>Examples of Concurrency in Real-World Systems
-**[#lightblue] <i><color #blac><size:14>Fundamentals of Concurrency
+**[#lightblue] <i><color #blac><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Concurrency-and-Parallelism/images/img_1.png Introduction to Concurrency]]
+***[#green] <b><i><color #white><size:12>What is Concurrency?
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Concurrency-and-Parallelism/images/img_1.png click me]]
+***[#green] <b><i><color #white><size:12>Why is Concurrency Important?
+***[#green] <b><i><color #white><size:12>Examples of Concurrency in Real-World Systems
+**[#lightblue] <i><color #blac><size:12>Fundamentals of Concurrency
 ***[#green] <b><i><color #white><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/Threads.puml Processes vs Threads]] click me
 ***[#green] <b><i><color #white><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Synchronous vs Asynchronous Execution]] click me
 ***[#green] <b><i><color #white><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Parallelism vs Concurrency]]
 **[#lightblue] <i><color #blac><size:22>Concurrency Models
-***[#green] <b><i><color #white><size:14>Shared Memory Concurrency
-****[#yellow] <i><color #black><size:14>Locks and Semaphores
-****[#yellow] <i><color #black><size:14>Monitors
-****[#yellow] <i><color #black><size:14>Read-Write Locks
-****[#yellow] <i><color #black><size:14>Atomic Operations
-***[#green] <b><i><color #white><size:14>Message Passing Concurrency
-****[#yellow] <i><color #black><size:14>Sockets and Pipes
-****[#yellow] <i><color #black><size:14>Message Queues
-****[#yellow] <i><color #black><size:14>Remote Procedure Calls (RPCs)
-****[#yellow] <i><color #black><size:14>Actors
-**[#lightblue] <i><color #blac><size:14>Concurrency Issues and Solutions
-***[#green] <b><i><color #white><size:14>Race Conditions
-****[#yellow] <i><color #black><size:14>Critical Sections
-****[#yellow] <i><color #black><size:14>Deadlocks and Livelocks
-***[#green] <b><i><color #white><size:14>Resource Contention
-****[#yellow] <i><color #black><size:14>Locking Granularity
-****[#yellow] <i><color #black><size:14>Lock-Free Data Structures
-****[#yellow] <i><color #black><size:14>Memory Barriers and Fences
-***[#green] <b><i><color #white><size:14>Synchronization
-****[#yellow] <i><color #black><size:14>Mutual Exclusion
-****[#yellow] <i><color #black><size:14>Wait-Free Synchronization
-****[#yellow] <i><color #black><size:14>Thread Local Storage
-***[#green] <b><i><color #white><size:14>Scalability
-****[#yellow] <i><color #black><size:14>Thread Pooling
-****[#yellow] <i><color #black><size:14>Task Parallelism
-****[#yellow] <i><color #black><size:14>Work Stealing
-**[#lightblue] <i><color #blac><size:14>Advanced Concurrency Topics
-***[#green] <b><i><color #white><size:14>Parallel Algorithms
-***[#green] <b><i><color #white><size:14>Non-blocking Algorithms
-***[#green] <b><i><color #white><size:14>Transactional Memory
-***[#green] <b><i><color #white><size:14>Software Transactional Memory (STM)
-***[#green] <b><i><color #white><size:14>Hardware Transactional Memory (HTM)
-***[#green] <b><i><color #white><size:14>Concurrency Testing and Debugging
-***[#green] <b><i><color #white><size:14>Concurrency Profiling and Optimization
+***[#green] <b><i><color #white><size:12>Shared Memory Concurrency
+****[#yellow] <i><color #black><size:12>Locks and Semaphores
+****[#yellow] <i><color #black><size:12>Monitors
+****[#yellow] <i><color #black><size:12>Read-Write Locks
+****[#yellow] <i><color #black><size:12>Atomic Operations
+***[#green] <b><i><color #white><size:12>Message Passing Concurrency
+****[#yellow] <i><color #black><size:12>Sockets and Pipes
+****[#yellow] <i><color #black><size:12>Message Queues
+****[#yellow] <i><color #black><size:12>Remote Procedure Calls (RPCs)
+****[#yellow] <i><color #black><size:12>Actors
+**[#lightblue] <i><color #blac><size:12>Concurrency Issues and Solutions
+***[#green] <b><i><color #white><size:12>Race Conditions
+****[#yellow] <i><color #black><size:12>Critical Sections
+****[#yellow] <i><color #black><size:12>Deadlocks and Livelocks
+***[#green] <b><i><color #white><size:12>Resource Contention
+****[#yellow] <i><color #black><size:12>Locking Granularity
+****[#yellow] <i><color #black><size:12>Lock-Free Data Structures
+****[#yellow] <i><color #black><size:12>Memory Barriers and Fences
+***[#green] <b><i><color #white><size:12>Synchronization
+****[#yellow] <i><color #black><size:12>Mutual Exclusion
+****[#yellow] <i><color #black><size:12>Wait-Free Synchronization
+****[#yellow] <i><color #black><size:12>Thread Local Storage
+***[#green] <b><i><color #white><size:12>Scalability
+****[#yellow] <i><color #black><size:12>Thread Pooling
+****[#yellow] <i><color #black><size:12>Task Parallelism
+****[#yellow] <i><color #black><size:12>Work Stealing
+**[#lightblue] <i><color #blac><size:12>Advanced Concurrency Topics
+***[#green] <b><i><color #white><size:12>Parallel Algorithms
+***[#green] <b><i><color #white><size:12>Non-blocking Algorithms
+***[#green] <b><i><color #white><size:12>Transactional Memory
+***[#green] <b><i><color #white><size:12>Software Transactional Memory (STM)
+***[#green] <b><i><color #white><size:12>Hardware Transactional Memory (HTM)
+***[#green] <b><i><color #white><size:12>Concurrency Testing and Debugging
+***[#green] <b><i><color #white><size:12>Concurrency Profiling and Optimization
 @endmindmap
