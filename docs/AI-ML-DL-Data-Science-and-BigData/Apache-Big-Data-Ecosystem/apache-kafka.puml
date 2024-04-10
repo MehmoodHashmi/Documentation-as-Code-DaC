@@ -1,5 +1,5 @@
 @startmindmap
-title =<b><u><i>Apache Kafka \n<img:images/apache-kafka.png{scale=.7}>
+title =<img:images/apache-kafka.png{scale=1}>
 caption <img:images/kafka-cluster.png{scale=.5}>
 
 * <b><size:12><i>[[https://www.youtube.com/watch?v=0V9SK6jmDPk&ab_channel=ITkFunde Apache Kafka Basics ]]
