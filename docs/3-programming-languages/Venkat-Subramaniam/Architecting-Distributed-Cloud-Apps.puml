@@ -76,7 +76,7 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc 2- High Throughput,]]
 <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc 3- High Scalability]];
 ****[#a]:*<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_390.png Cloud hidden cost]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_391.png 2-Decades of Cloud Evolution]] & [[docs/cloud-computing/images/IaaS,PaaS,SaaS.png How we reached here?]]
-*<i><color #black><b><size:12> ;
+*<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/cloud-cost-reduction-techniques.adoc Cloud Cost Reduction Techniques gif]];
 
 ****[#a] <i><size:12><b>[[docs/cloud-computing/Cloud-Design-Patterns.puml Design for Resilience & Fault Tolerance]]
 *****[#darkorange] *<i><size:12>**Cloud-native apps** are **designed** to be **resilient to failures** & can automatically **recover** from them \n*<i><size:12>Use **[[docs/cloud-computing/Cloud-Design-Patterns.puml fault-tolerant design patterns]]** & consider implementing <b>[[docs/cloud-computing/Cloud-Design-Patterns.puml circuit breakers & retry mechanisms]]
@@ -158,6 +158,7 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 
 ****[#a]:<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_376.jpg Forward vs. Reverse Proxy]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_685.png More on proxy]]
 *<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=0OukrSld3sY&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=18&ab_channel=JeffreyRichter 5-min video]]
+*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_858.png Reverse proxy vs. API gateway vs. load balancer]]
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png How Data is transmitted between Servers (Apps)]];
 
 *****[#yellow] <i><color #black><b><size:12>""What a (forward) proxy and a reverse proxy are and the various things that they can be used for.""
@@ -168,7 +169,7 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 
 ***[#green] <i><color #white><b><size:12>Putting it all together
 ***[#green] <i><color #white><b><size:12>Orchestration & Load Balancing
-****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/cloud-load-balancer.adoc Cloud load balancer cheatsheet gif]]
+****[#a] *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/cloud-load-balancer.adoc Cloud load balancer cheatsheet gif]] \n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_857.png Top-6 Load balancing algorithms]]
 ***[#green] <i><color #white><b><size:12>Connecting Microservices
 ***[#green] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=jXAUAWPhIcc&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=22&ab_channel=JeffreyRichter API Versioning]] \n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_692.png Part-2]]
 ****[#gold] <i><color #black><size:12>""The importance of versioning service APIs correctly in order to maintain backward compatibility.""
@@ -194,7 +195,7 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 ***[#green] <i><color #white><b><size:12>Introduction
 ****[#yellow]:<i><color #black><size:12>**Queues:** are used to facilitate reliable **message-based communication** between **services.** Learn what **queues** are, why **messaging communication** with **queues** is frequently preferable to <b>network
 <i><color #black><size:12>**communication,** & what implications **queues** 've for the <b>design & implementation of distributed cloud apps.
-====
+==|<#red><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/top-6-cloud-messaging-patterns.adoc Top 6 Cloud Messaging Patterns.]]|==
 *<i><color #black><size:12>""Benefits of using a **messaging pattern** as opposed to <b>normal networking communication."";
 
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_698.png Messaging Communication]]
