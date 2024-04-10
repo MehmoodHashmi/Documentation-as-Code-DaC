@@ -1,73 +1,74 @@
 @startmindmap
 title =<b><u><i>Apache Kafka \n<img:images/apache-kafka.png{scale=.7}>
+caption <img:images/kafka-cluster.png{scale=.5}>
 
-* <b><size:14><i>[[https://www.youtube.com/watch?v=0V9SK6jmDPk&ab_channel=ITkFunde Apache Kafka Basics ]]
-** <b><size:14><i>[[https://www.youtube.com/watch?v=84HRqqWpqL4&list=PLBb5HFCJVQts9MRueDBfi-K8DB_p_dGLJ&index=2&ab_channel=JavaShastra Kafka Producer Consumer using spring boot | Kafka producer | Kafka Consumer]]
+* <b><size:12><i>[[https://www.youtube.com/watch?v=0V9SK6jmDPk&ab_channel=ITkFunde Apache Kafka Basics ]]
+** <b><size:12><i>[[https://www.youtube.com/watch?v=84HRqqWpqL4&list=PLBb5HFCJVQts9MRueDBfi-K8DB_p_dGLJ&index=2&ab_channel=JavaShastra Kafka Producer Consumer using spring boot | Kafka producer | Kafka Consumer]]
 
 !theme hacker
 
 *[#darkblue] =<i>Apache Kafka\n<img:images/kafka.png{scale=.7}>
-**[#lightblue] <i><size:14>Overview
-***[#green] <color #white><b><i><size:14><size:14>Distributed streaming platform
-***[#green] <color #white><b><i><size:14><size:14>Handles high-volume, real-time data feeds
-***[#green] <color #white><b><i><size:14><size:14>Provides fault-tolerant and scalable data processing
-**[#lightblue] <i><size:14>Core Concepts \n<img:images/producer-consumer.png{scale=.7}>\n\n<img:images/queue.png{scale=.62}>
-***[#green] <color #white><b><i><size:14>Topics
-****[#yellow] <color #black><i><size:14>Categories or feeds of messages in Kafka
-****[#yellow] <color #black><i><size:14>Partitioned and distributed across **brokers** (are nothing but **kafka server instances**)
-****[#yellow] <color #black><i><size:14>Can have multiple producers and consumers
-***[#green] <color #white><b><i><size:14>Producers
-****[#yellow] <color #black><i><size:14>Send messages to Kafka topics
-****[#yellow] <color #black><i><size:14>Responsible for data ingestion
-***[#green] <color #white><b><i><size:14>Consumers
-****[#yellow] <color #black><i><size:14>Receive messages from Kafka topics
-****[#yellow] <color #black><i><size:14>Process and analyze data
-***[#green] <color #white><b><i><size:14>Brokers
-****[#gold] <i><size:14>**are Kafka server instances**
-****[#yellow] <color #black><i><size:14>Responsible for storing and managing topics and partitions
-***[#green] <color #white><b><i><size:14>Partitions
-****[#yellow] <color #black><i><size:14>Subdivisions of topics for better scalability
-****[#yellow] <color #black><i><size:14>Each partition is ordered and has a unique offset
-****[#yellow] <color #black><i><size:14>Enables parallel processing and load balancing
-**[#lightblue] <i><size:14>Key Features
-***[#green] <color #white><b><i><size:14>Fault Tolerance
-****[#yellow] <color #black><i><size:14>Replicates data across multiple brokers
-****[#yellow] <color #black><i><size:14>Provides automatic failover and data recovery
-***[#green] <color #white><b><i><size:14>Scalability
-****[#yellow] <color #black><i><size:14>Horizontal scalability by adding more brokers
-****[#yellow] <color #black><i><size:14>Supports large-scale data processing
-***[#green] <color #white><b><i><size:14>High Throughput
-****[#yellow] <color #black><i><size:14>Optimized for handling high volume and velocity of data
-****[#yellow] <color #black><i><size:14>Enables real-time data streaming
-***[#green] <color #white><b><i><size:14>Durability
-****[#yellow] <color #black><i><size:14>Persists messages on disk
-****[#yellow] <color #black><i><size:14>Allows for data retention based on configurable policies
-**[#lightblue] <i><size:14>[[docs/AI-ML-DL-Data-Science-and-BigData/Apache-Big-Data-Ecosystem/gif/apache-kafka-use-cases.adoc Use Cases]] gif
-***[#green] <color #white><b><i><size:14>Real-time Stream Processing
-****[#yellow] <color #black><i><size:14>Analyzing and reacting to real-time data streams
-****[#yellow] <color #black><i><size:14>Enabling near-instantaneous data processing
-***[#green] <color #white><b><i><size:14>Event Sourcing
-****[#yellow] <color #black><i><size:14>Capturing and storing all changes as a sequence of events
-****[#yellow] <color #black><i><size:14>Facilitating auditing, compliance, and historical analysis
-***[#green] <color #white><b><i><size:14>Log Aggregation
-****[#yellow] <color #black><i><size:14>Consolidating logs from multiple sources into a central system
-****[#yellow] <color #black><i><size:14>Simplifying log management and analysis
-**[#lightblue] <i><size:14>Ecosystem
-***[#green] <color #white><b><i><size:14>Kafka Connect
-****[#yellow] <color #black><i><size:14>Enables integration with external systems
-****[#yellow] <color #black><i><size:14>Facilitates data import/export to and from Kafka
-***[#green] <color #white><b><i><size:14>Kafka Streams
-****[#yellow] <color #black><i><size:14>Stream processing library for building applications and microservices
-****[#yellow] <color #black><i><size:14>Enables real-time data processing and transformations
-***[#green] <color #white><b><i><size:14>Kafka MirrorMaker
-****[#yellow] <color #black><i><size:14>Replicates Kafka topics across data centers or clusters
-****[#yellow] <color #black><i><size:14>Facilitates data replication and disaster recovery
-**[#lightblue] <i><size:14>Integration with Other Technologies
-***[#green] <color #white><b><i><size:14>Apache Spark
-***[#green] <color #white><b><i><size:14>Apache Flink
-***[#green] <color #white><b><i><size:14>Apache Storm
-***[#green] <color #white><b><i><size:14>Elasticsearch
-***[#green] <color #white><b><i><size:14>MongoDB
+**[#lightblue] <i><size:12>Overview
+***[#green] <color #white><b><i><size:12><size:12>Distributed streaming platform
+***[#green] <color #white><b><i><size:12><size:12>Handles high-volume, real-time data feeds
+***[#green] <color #white><b><i><size:12><size:12>Provides fault-tolerant and scalable data processing
+**[#lightblue] <i><size:12>Core Concepts \n<img:images/producer-consumer.png{scale=.7}>\n\n<img:images/queue.png{scale=.62}>
+***[#green] <color #white><b><i><size:12>Topics
+****[#yellow] <color #black><i><size:12>Categories or feeds of messages in Kafka
+****[#yellow] <color #black><i><size:12>Partitioned and distributed across **brokers** (are nothing but **kafka server instances**)
+****[#yellow] <color #black><i><size:12>Can have multiple producers and consumers
+***[#green] <color #white><b><i><size:12>Producers
+****[#yellow] <color #black><i><size:12>Send messages to Kafka topics
+****[#yellow] <color #black><i><size:12>Responsible for data ingestion
+***[#green] <color #white><b><i><size:12>Consumers
+****[#yellow] <color #black><i><size:12>Receive messages from Kafka topics
+****[#yellow] <color #black><i><size:12>Process and analyze data
+***[#green] <color #white><b><i><size:12>Brokers
+****[#gold] <i><size:12>**are Kafka server instances**
+****[#yellow] <color #black><i><size:12>Responsible for storing and managing topics and partitions
+***[#green] <color #white><b><i><size:12>Partitions
+****[#yellow] <color #black><i><size:12>Subdivisions of topics for better scalability
+****[#yellow] <color #black><i><size:12>Each partition is ordered and has a unique offset
+****[#yellow] <color #black><i><size:12>Enables parallel processing and load balancing
+**[#lightblue] <i><size:12>Key Features
+***[#green] <color #white><b><i><size:12>Fault Tolerance
+****[#yellow] <color #black><i><size:12>Replicates data across multiple brokers
+****[#yellow] <color #black><i><size:12>Provides automatic failover and data recovery
+***[#green] <color #white><b><i><size:12>Scalability
+****[#yellow] <color #black><i><size:12>Horizontal scalability by adding more brokers
+****[#yellow] <color #black><i><size:12>Supports large-scale data processing
+***[#green] <color #white><b><i><size:12>High Throughput
+****[#yellow] <color #black><i><size:12>Optimized for handling high volume and velocity of data
+****[#yellow] <color #black><i><size:12>Enables real-time data streaming
+***[#green] <color #white><b><i><size:12>Durability
+****[#yellow] <color #black><i><size:12>Persists messages on disk
+****[#yellow] <color #black><i><size:12>Allows for data retention based on configurable policies
+**[#lightblue] <i><size:12>[[docs/AI-ML-DL-Data-Science-and-BigData/Apache-Big-Data-Ecosystem/gif/apache-kafka-use-cases.adoc Use Cases]] gif
+***[#green] <color #white><b><i><size:12>Real-time Stream Processing
+****[#yellow] <color #black><i><size:12>Analyzing and reacting to real-time data streams
+****[#yellow] <color #black><i><size:12>Enabling near-instantaneous data processing
+***[#green] <color #white><b><i><size:12>Event Sourcing
+****[#yellow] <color #black><i><size:12>Capturing and storing all changes as a sequence of events
+****[#yellow] <color #black><i><size:12>Facilitating auditing, compliance, and historical analysis
+***[#green] <color #white><b><i><size:12>Log Aggregation
+****[#yellow] <color #black><i><size:12>Consolidating logs from multiple sources into a central system
+****[#yellow] <color #black><i><size:12>Simplifying log management and analysis
+**[#lightblue] <i><size:12>Ecosystem
+***[#green] <color #white><b><i><size:12>Kafka Connect
+****[#yellow] <color #black><i><size:12>Enables integration with external systems
+****[#yellow] <color #black><i><size:12>Facilitates data import/export to and from Kafka
+***[#green] <color #white><b><i><size:12>Kafka Streams
+****[#yellow] <color #black><i><size:12>Stream processing library for building applications and microservices
+****[#yellow] <color #black><i><size:12>Enables real-time data processing and transformations
+***[#green] <color #white><b><i><size:12>Kafka MirrorMaker
+****[#yellow] <color #black><i><size:12>Replicates Kafka topics across data centers or clusters
+****[#yellow] <color #black><i><size:12>Facilitates data replication and disaster recovery
+**[#lightblue] <i><size:12>Integration with Other Technologies
+***[#green] <color #white><b><i><size:12>Apache Spark
+***[#green] <color #white><b><i><size:12>Apache Flink
+***[#green] <color #white><b><i><size:12>Apache Storm
+***[#green] <color #white><b><i><size:12>Elasticsearch
+***[#green] <color #white><b><i><size:12>MongoDB
 
-* <img:images/kafka-cluster.png{scale=.45}>
+
 @endmindmap

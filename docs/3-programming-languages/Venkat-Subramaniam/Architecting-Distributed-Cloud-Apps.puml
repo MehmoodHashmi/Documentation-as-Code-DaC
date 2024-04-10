@@ -195,7 +195,7 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 ***[#green] <i><color #white><b><size:12>Introduction
 ****[#yellow]:<i><color #black><size:12>**Queues:** are used to facilitate reliable **message-based communication** between **services.** Learn what **queues** are, why **messaging communication** with **queues** is frequently preferable to <b>network
 <i><color #black><size:12>**communication,** & what implications **queues** 've for the <b>design & implementation of distributed cloud apps.
-==|<#red><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/top-6-cloud-messaging-patterns.adoc Top 6 Cloud Messaging Patterns.]]|==
+==|<#red><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/top-6-cloud-messaging-patterns.adoc Top 6 Cloud Messaging Patterns.]]|<#grey><i><b>[[docs/AI-ML-DL-Data-Science-and-BigData/Apache-Big-Data-Ecosystem/apache-kafka.puml Apache Kafka]]|==
 *<i><color #black><size:12>""Benefits of using a **messaging pattern** as opposed to <b>normal networking communication."";
 
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_698.png Messaging Communication]]
