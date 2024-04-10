@@ -12,7 +12,7 @@ caption <img:images/kafka-cluster.png{scale=.5}>
 ***[#green] <color #white><b><i><size:12><size:12>Distributed streaming platform
 ***[#green] <color #white><b><i><size:12><size:12>Handles high-volume, real-time data feeds
 ***[#green] <color #white><b><i><size:12><size:12>Provides fault-tolerant and scalable data processing
-**[#lightblue] <i><size:12>Core Concepts \n<img:images/producer-consumer.png{scale=.7}>\n\n<img:images/queue.png{scale=.62}>
+**[#lightblue] <i><size:12>Core Concepts \n|<img:images/producer-consumer.png{scale=.7}>|\n|<img:images/queue.png{scale=.62}>|
 ***[#green] <color #white><b><i><size:12>Topics
 ****[#yellow] <color #black><i><size:12>Categories or feeds of messages in Kafka
 ****[#yellow] <color #black><i><size:12>Partitioned and distributed across **brokers** (are nothing but **kafka server instances**)
