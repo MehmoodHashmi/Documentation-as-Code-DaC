@@ -1,11 +1,11 @@
 @startwbs
-title <i>Client Types and Budget Negotiation
+title <i>3- Client Types and Budget Negotiation
 
 skinparam nodeMargin 10
 !theme hacker
 
-*[#darkblue] <i>Clients
-**[#lightblue] <i>Money-Oriented
+*[#darkblue] <i>When a Clients is:
+**[#lightblue] <i>1- Money-Oriented
 ***[#green] <color #white><b><i>Characteristics:
 ****[#yellow] <size:12><color #black><i>Focuses on cost-saving and maximizing <b>ROI
 ****[#yellow] <size:12><color #black><i>Willing to compromise on time and quality for lower costs
@@ -23,7 +23,7 @@ skinparam nodeMargin 10
 ****[#gold] <size:12><color #black><i>Reluctant to invest in premium services or products
 ****[#gold] <size:12><color #black><i>Risk of undervaluing quality and long-term sustainability
 
-**[#lightblue] <i>Time-Oriented
+**[#lightblue] <i>2- Time-Oriented
 ***[#green] <color #white><b><i>Characteristics:
 ****[#yellow] <size:12><color #black><i>Values prompt delivery and quick turnaround times
 ****[#yellow] <size:12><color #black><i>Prioritizes meeting deadlines over other considerations
@@ -41,7 +41,7 @@ skinparam nodeMargin 10
 ****[#gold] <size:12><color #black><i>Pressure to deliver on time may lead to **burnout or stress** among team members
 ****[#yellow] <size:12><color #black><i>Dependence on external factors (e.g., suppliers, vendors) for timely delivery
 
-**[#lightblue] <i>Quality-Oriented
+**[#lightblue] <i>3- Quality-Oriented
 ***[#green] <color #white><b><i>Characteristics:
 ****[#yellow] <size:12><color #black><i>Emphasizes superior craftsmanship and attention to detail
 ****[#yellow] <size:12><color #black><i>Values excellence and premium quality over cost or time considerations
