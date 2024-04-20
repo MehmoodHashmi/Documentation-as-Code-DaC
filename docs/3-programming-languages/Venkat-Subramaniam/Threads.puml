@@ -1,70 +1,70 @@
 @startmindmap
-title =<i><b><u>Threads in Java
-* =<i>[[docs/3-programming-languages/Venkat-Subramaniam/Virtual-Threads.puml Virtual Threads]]
+title =<i><b><u><size:18>Threads in Java
+* ==<i>[[docs/3-programming-languages/Venkat-Subramaniam/Virtual-Threads.puml Virtual Threads]]
 
 !theme hacker
 
 *[#darkblue] <i>Threads in Java
-**[#lightblue] <i><color #blac><size:14>Definition
-***[#green] <b><i><color #white><size:14>Lightweight processes within a program.
-**[#lightblue] <i><color #blac><size:14>Characteristics
-***[#green] <b><i><color #white><size:14>Concurrency
-****[#yellow] <i><color #black><size:14>Simultaneous execution of <b>"multiple tasks".
-***[#green] <b><i><color #white><size:14>Multithreading
-****[#yellow] <i><color #black><size:14>Executing "multiple threads" within a <b>"process".
-***[#green] <b><i><color #white><size:14>Shared Resources
-****[#yellow] <i><color #black><size:14>Accessing common data or resources.
-***[#green] <b><i><color #white><size:14>Context Switching
-****[#yellow] <i><color #black><size:14>Switching between threads by the scheduler.
-**[#lightblue] <i><color #blac><size:14>Thread Creation
-***[#green] <b><i><color #white><size:14>Extending Thread class
-****[#yellow] <i><color #black><size:14>Creating a subclass of Thread class.
-***[#green] <b><i><color #white><size:14>Implementing Runnable Interface
-****[#yellow] <i><color #black><size:14>Implementing the run() method.
-***[#green] <b><i><color #white><size:14>Executor Framework
-****[#yellow] <i><color #black><size:14>Managing thread creation and execution.
-**[#lightblue] <i><color #blac><size:14>Thread States\n<img:images/img_14.png{scale=0.75}>
-***[#green] <b><i><color #white><size:14>New
-****[#yellow] <i><color #black><size:14>Newly created thread, not yet started.
-***[#green] <b><i><color #white><size:14>Runnable
-****[#yellow] <i><color #black><size:14>Ready to run but waiting for CPU time.
-***[#green] <b><i><color #white><size:14>Blocked/Waiting
-****[#yellow] <i><color #black><size:14>Waiting for a resource or condition.
-***[#green] <b><i><color #white><size:14>Timed Waiting
-****[#yellow] <i><color #black><size:14>Waiting for a specific time period.
-***[#green] <b><i><color #white><size:14>Terminated
-****[#yellow] <i><color #black><size:14>Finished execution or terminated abruptly.
-**[#lightblue] <i><color #blac><size:14>Synchronization
-***[#green] <b><i><color #white><size:14>Thread Safety
-****[#yellow] <i><color #black><size:14>Ensuring shared resources are accessed safely.
-***[#green] <b><i><color #white><size:14>Locks and Monitors
-****[#yellow] <i><color #black><size:14>Using synchronized blocks, locks, and conditions.
-***[#green] <b><i><color #white><size:14>Volatile Keyword
-****[#yellow] <i><color #black><size:14>Ensuring visibility of shared variables.
-**[#lightblue] <i><color #blac><size:14>Thread Interaction
-***[#green] <b><i><color #white><size:14>Joining Threads
-****[#yellow] <i><color #black><size:14>Waiting for another thread to complete.
-***[#green] <b><i><color #white><size:14>Inter-thread Communication
-****[#yellow] <i><color #black><size:14>Using wait(), notify(), and notifyAll().
-***[#green] <b><i><color #white><size:14>Daemon Threads
-****[#yellow] <i><color #black><size:14>Background threads that don't prevent the JVM from exiting.
-**[#lightblue] <i><color #blac><size:14>Thread Pools
-***[#green] <b><i><color #white><size:14>Managing Thread Lifecycle
-****[#yellow] <i><color #black><size:14>Reusing threads to improve performance.
-***[#green] <b><i><color #white><size:14>Executors
-****[#yellow] <i><color #black><size:14>Executors.newFixedThreadPool(), Executors.newCachedThreadPool(), etc.
-**[#lightblue] <i><color #blac><size:14>Thread Priorities
-***[#green] <b><i><color #white><size:14>Priority Levels
-****[#yellow] <i><color #black><size:14>Thread.MIN_PRIORITY, Thread.MAX_PRIORITY, Thread.NORM_PRIORITY.
-***[#green] <b><i><color #white><size:14>Influencing Thread Execution
-****[#yellow] <i><color #black><size:14>Higher priority threads get more CPU time.
-**[#lightblue] <i><color #blac><size:14>Best Practices
-***[#green] <b><i><color #white><size:14>Resource Cleanup
-****[#yellow] <i><color #black><size:14>Releasing resources in finally blocks.
-***[#green] <b><i><color #white><size:14>Proper Exception Handling
-****[#yellow] <i><color #black><size:14>Handling exceptions to prevent thread leaks.
-***[#green] <b><i><color #white><size:14>Designing for Concurrency
-****[#yellow] <i><color #black><size:14>Writing thread-safe code and avoiding deadlocks.
-***[#green] <b><i><color #white><size:14>Choosing the Right Concurrency Approach
-****[#yellow] <i><color #black><size:14>Deciding between synchronization, locks, or concurrent collections.
+**[#lightblue] <i><color #blac><size:12>Definition
+***[#green] <b><i><color #white><size:12>Lightweight processes within a program.
+**[#lightblue] <i><color #blac><size:12>Characteristics
+***[#green] <b><i><color #white><size:12>[[https://www.youtube.com/watch?v=3X93PnKRNUo&list=LL&index=2&ab_channel=CoreDumped Concurrency]] 15-min video
+****[#yellow] <i><color #black><size:12>Simultaneous execution of <b>"multiple tasks".
+***[#green] <b><i><color #white><size:12>Multithreading
+****[#yellow] <i><color #black><size:12>Executing "multiple threads" within a <b>"process".
+***[#green] <b><i><color #white><size:12>Shared Resources
+****[#yellow] <i><color #black><size:12>Accessing common data or resources.
+***[#green] <b><i><color #white><size:12>Context Switching
+****[#yellow] <i><color #black><size:12>Switching between threads by the scheduler.
+**[#lightblue] <i><color #blac><size:12>Thread Creation
+***[#green] <b><i><color #white><size:12>Extending Thread class
+****[#yellow] <i><color #black><size:12>Creating a subclass of Thread class.
+***[#green] <b><i><color #white><size:12>Implementing Runnable Interface
+****[#yellow] <i><color #black><size:12>Implementing the run() method.
+***[#green] <b><i><color #white><size:12>Executor Framework
+****[#yellow] <i><color #black><size:12>Managing thread creation and execution.
+**[#lightblue] <i><color #blac><size:12>Thread States\n<img:images/img_14.png{scale=0.75}>
+***[#green] <b><i><color #white><size:12>New
+****[#yellow] <i><color #black><size:12>Newly created thread, not yet started.
+***[#green] <b><i><color #white><size:12>Runnable
+****[#yellow] <i><color #black><size:12>Ready to run but waiting for CPU time.
+***[#green] <b><i><color #white><size:12>Blocked/Waiting
+****[#yellow] <i><color #black><size:12>Waiting for a resource or condition.
+***[#green] <b><i><color #white><size:12>Timed Waiting
+****[#yellow] <i><color #black><size:12>Waiting for a specific time period.
+***[#green] <b><i><color #white><size:12>Terminated
+****[#yellow] <i><color #black><size:12>Finished execution or terminated abruptly.
+**[#lightblue] <i><color #blac><size:12>Synchronization
+***[#green] <b><i><color #white><size:12>Thread Safety
+****[#yellow] <i><color #black><size:12>Ensuring shared resources are accessed safely.
+***[#green] <b><i><color #white><size:12>Locks and Monitors
+****[#yellow] <i><color #black><size:12>Using synchronized blocks, locks, and conditions.
+***[#green] <b><i><color #white><size:12>Volatile Keyword
+****[#yellow] <i><color #black><size:12>Ensuring visibility of shared variables.
+**[#lightblue] <i><color #blac><size:12>Thread Interaction
+***[#green] <b><i><color #white><size:12>Joining Threads
+****[#yellow] <i><color #black><size:12>Waiting for another thread to complete.
+***[#green] <b><i><color #white><size:12>Inter-thread Communication
+****[#yellow] <i><color #black><size:12>Using wait(), notify(), and notifyAll().
+***[#green] <b><i><color #white><size:12>Daemon Threads
+****[#yellow] <i><color #black><size:12>Background threads that don't prevent the JVM from exiting.
+**[#lightblue] <i><color #blac><size:12>Thread Pools
+***[#green] <b><i><color #white><size:12>Managing Thread Lifecycle
+****[#yellow] <i><color #black><size:12>Reusing threads to improve performance.
+***[#green] <b><i><color #white><size:12>Executors
+****[#yellow] <i><color #black><size:12>Executors.newFixedThreadPool(), Executors.newCachedThreadPool(), etc.
+**[#lightblue] <i><color #blac><size:12>Thread Priorities
+***[#green] <b><i><color #white><size:12>Priority Levels
+****[#yellow] <i><color #black><size:12>Thread.MIN_PRIORITY, Thread.MAX_PRIORITY, Thread.NORM_PRIORITY.
+***[#green] <b><i><color #white><size:12>Influencing Thread Execution
+****[#yellow] <i><color #black><size:12>Higher priority threads get more CPU time.
+**[#lightblue] <i><color #blac><size:12>Best Practices
+***[#green] <b><i><color #white><size:12>Resource Cleanup
+****[#yellow] <i><color #black><size:12>Releasing resources in finally blocks.
+***[#green] <b><i><color #white><size:12>Proper Exception Handling
+****[#yellow] <i><color #black><size:12>Handling exceptions to prevent thread leaks.
+***[#green] <b><i><color #white><size:12>Designing for Concurrency
+****[#yellow] <i><color #black><size:12>Writing thread-safe code and avoiding deadlocks.
+***[#green] <b><i><color #white><size:12>Choosing the Right Concurrency Approach
+****[#yellow] <i><color #black><size:12>Deciding between synchronization, locks, or concurrent collections.
 @endmindmap

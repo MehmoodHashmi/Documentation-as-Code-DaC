@@ -42,7 +42,7 @@ caption <img:images/img_590.png>
 ****[#yellow]:<b><i><size:12>Much like how we pass data, we can pass the code or functions around. These functions
 <b><i><size:12>that can either receive or return function are called <color :black> "Higher Order Functions";
 ***[#green] <size:18><color #white><i> <color :white>"Flows" like "problem statement", has "less complexity" \n\n<b><size:18><color #white><i> example\n<img:images/img.png{scale=0.92}>
-****[#black] <size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_283.png Parallel code execution]] <size:9>\t("Parallelism" is not the "goal" of "concurrency")\n<img:images/img_1.png{scale=0.8}>
+****[#black] <size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_283.png Parallel code execution]] <size:9>\t[[https://www.youtube.com/watch?v=3X93PnKRNUo&list=LL&index=2&ab_channel=CoreDumped "Parallelism" is not the "goal" of "concurrency"]]\n<img:images/img_1.png{scale=0.8}>
 *****[#black] <size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_283.png "Sharing variables" is not "bad" (if "encapsulated")]]
 *****[#black] <b><size:12><color #white><i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_283.png "Mutating variables" is not "bad" either (if "encapsulated")]]
 *****[#black] <b><size:12><color #white><i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_283.png But "Sharing" + "Mutating variables" = bad approach (Devils work)]]

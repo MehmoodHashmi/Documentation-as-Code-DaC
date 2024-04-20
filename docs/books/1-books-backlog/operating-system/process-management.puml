@@ -25,7 +25,7 @@ title =<i><b><u><size:12>Process Management
 ***[#green] <b><i><color #white><size:12>Data structure containing process-related information
 ****[#yellow] <i><color #black><size:12>Process ID, state, priority, memory information
 ****[#yellow] <i><color #black><size:12>CPU registers, scheduling information
-**[#lightblue] <i><color #black><size:12>Process Scheduling
+**[#lightblue] <i><color #black><size:12>[[https://www.youtube.com/watch?v=3X93PnKRNUo&list=LL&index=2&ab_channel=CoreDumped Process Scheduling]] 15-min video
 ***[#green] <b><i><color #white><size:12>CPU Scheduling Algorithms
 ****[#yellow] <i><color #black><size:12>Determines which process to run next
 ****[#yellow] <i><color #black><size:12>Examples: FCFS, SJF, Round Robin

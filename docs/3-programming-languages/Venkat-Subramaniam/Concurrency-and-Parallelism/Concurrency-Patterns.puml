@@ -1,37 +1,37 @@
 @startmindmap
-title =<i><b><u>Concurrency Patterns
+title =<i><b><u><size:18>Concurrency Patterns
 !theme hacker
 
 *[#darkblue] <i>Concurrency Patterns
-**[#lightblue] <i><color #blac><size:14>Execution
-***[#green] <b><i><color #white><size:14>Thread Pool
-****[#yellow] <i><color #black><size:14>Fixed Thread Pool
-****[#yellow] <i><color #black><size:14>Cached Thread Pool
-****[#yellow] <i><color #black><size:14>Work Stealing Thread Pool
-***[#green] <b><i><color #white><size:14>Fork/Join
-****[#yellow] <i><color #black><size:14>RecursiveTask
-****[#yellow] <i><color #black><size:14>RecursiveAction
-**[#lightblue] <i><color #blac><size:14>Coordination
-***[#green] <b><i><color #white><size:14>Barrier
-****[#yellow] <i><color #black><size:14>Cyclic Barrier
-****[#yellow] <i><color #black><size:14>Phaser
-***[#green] <b><i><color #white><size:14>Latch
-****[#yellow] <i><color #black><size:14>Count Down Latch
-****[#yellow] <i><color #black><size:14>Concurrent Latch
-***[#green] <b><i><color #white><size:14>Semaphore
-****[#yellow] <i><color #black><size:14>Binary Semaphore
-****[#yellow] <i><color #black><size:14>Counting Semaphore
-**[#lightblue] <i><color #blac><size:14>Synchronization
-***[#green] <b><i><color #white><size:14>Locks
-****[#yellow] <i><color #black><size:14>Reentrant Lock
-****[#yellow] <i><color #black><size:14>Read/Write Lock
-***[#green] <b><i><color #white><size:14>Atomic Variables
-****[#yellow] <i><color #black><size:14>Atomic Integer
-****[#yellow] <i><color #black><size:14>Atomic Long
-****[#yellow] <i><color #black><size:14>Atomic Reference
-***[#green] <b><i><color #white><size:14>Concurrent Collections
-****[#yellow] <i><color #black><size:14>Concurrent Hash Map
-****[#yellow] <i><color #black><size:14>Concurrent Skip List Map
-****[#yellow] <i><color #black><size:14>Copy On Write Array List
-****[#yellow] <i><color #black><size:14>Concurrent Linked Queue
+**[#lightblue] <i><color #blac><size:12>Execution
+***[#green] <b><i><color #white><size:12>Thread Pool
+****[#yellow] <i><color #black><size:12>Fixed Thread Pool
+****[#yellow] <i><color #black><size:12>Cached Thread Pool
+****[#yellow] <i><color #black><size:12>Work Stealing Thread Pool
+***[#green] <b><i><color #white><size:12>Fork/Join
+****[#yellow] <i><color #black><size:12>RecursiveTask
+****[#yellow] <i><color #black><size:12>RecursiveAction
+**[#lightblue] <i><color #blac><size:12>Coordination
+***[#green] <b><i><color #white><size:12>Barrier
+****[#yellow] <i><color #black><size:12>Cyclic Barrier
+****[#yellow] <i><color #black><size:12>Phaser
+***[#green] <b><i><color #white><size:12>Latch
+****[#yellow] <i><color #black><size:12>Count Down Latch
+****[#yellow] <i><color #black><size:12>Concurrent Latch
+***[#green] <b><i><color #white><size:12>Semaphore
+****[#yellow] <i><color #black><size:12>Binary Semaphore
+****[#yellow] <i><color #black><size:12>Counting Semaphore
+**[#lightblue] <i><color #blac><size:12>Synchronization
+***[#green] <b><i><color #white><size:12>Locks
+****[#yellow] <i><color #black><size:12>Reentrant Lock
+****[#yellow] <i><color #black><size:12>Read/Write Lock
+***[#green] <b><i><color #white><size:12>Atomic Variables
+****[#yellow] <i><color #black><size:12>Atomic Integer
+****[#yellow] <i><color #black><size:12>Atomic Long
+****[#yellow] <i><color #black><size:12>Atomic Reference
+***[#green] <b><i><color #white><size:12>Concurrent Collections
+****[#yellow] <i><color #black><size:12>Concurrent Hash Map
+****[#yellow] <i><color #black><size:12>Concurrent Skip List Map
+****[#yellow] <i><color #black><size:12>Copy On Write Array List
+****[#yellow] <i><color #black><size:12>Concurrent Linked Queue
 @endmindmap

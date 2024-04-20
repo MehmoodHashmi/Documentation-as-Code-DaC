@@ -9,7 +9,7 @@ title =<i><b><u><size:18>Concurrency
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Concurrency-and-Parallelism/images/img_1.png click me]]
 ***[#green] <b><i><color #white><size:12>Why is Concurrency Important?
 ***[#green] <b><i><color #white><size:12>Examples of Concurrency in Real-World Systems
-**[#lightblue] <i><color #blac><size:12>Fundamentals of Concurrency
+**[#lightblue] <i><color #blac><size:12>[[https://www.youtube.com/watch?v=3X93PnKRNUo&list=LL&index=2&ab_channel=CoreDumped Fundamentals of Concurrency]] \n*<i><color #blac><size:12>is 15-min video
 ***[#green] <b><i><color #white><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/Threads.puml Processes vs Threads]] click me
 ***[#green] <b><i><color #white><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/gif/synchronous-vs-asynchronous.adoc Synchronous vs Asynchronous Execution]] click me
 ***[#green] <b><i><color #white><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/gif/Multi-threading-vs-Multi-processing-programming.adoc Parallelism vs Concurrency]]
