@@ -108,6 +108,7 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 ****[#darkorange] <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_440.png has 3-techniques]]**
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_678.png 12-Factor Services & Apps]]
 ****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_679.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_680.png Part-3]]
+****[#a] |<#blue><i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/design-a-secure-system-cheat-sheet.adoc How do we design secure system?]]|<#red><i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/design-a-secure-system-cheat-sheet.adoc Cheat sheet for designing secure systems]]|
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_368.png Containers]]
 ****[#a] *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_369.png Docker Architecture]] \n*<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_370.png Image Vs Container]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_681.png Part-2]] \n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_371.png VM Vs. Container]]
 
@@ -267,7 +268,7 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 
 ***[#a]:<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_379.png Database Storage]]
 *<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=z4JwZnSWaTY&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=41&ab_channel=JeffreyRichter 10-minute]];
-****[#grey] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_802.png Compare & contrast relational (SQL) databases with non-relational (noSQL) databases]] \n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_803.png SQL vs NoSQL]]
+****[#grey] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_802.png Compare & contrast relational (SQL) databases with non-relational (noSQL) databases]] \n|<#a><i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_803.png SQL vs NoSQL]]|<#red><i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_862.png Types of databases]]|
 ****[#darkorange] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_380.jpg 8 data-structures that power "Modern Database"]]
 ***[#a] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=zUGPl2B--kg&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=42&ab_channel=JeffreyRichter Data Partitioning]] \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=zUGPl2B--kg&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=42&ab_channel=JeffreyRichter 10-minute]]
 ****[#a]:<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_804.png ➢ Data is partitioned for size, speed or both]]
