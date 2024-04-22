@@ -28,3 +28,37 @@ The saga pattern addresses the challenge of maintaining data consistency without
 
 🔹 Competing Consumers
 This pattern enables multiple concurrent consumers to process messages received on the same messaging channel. There is no need to configure complex coordination between the consumers. However, this pattern cannot guarantee message ordering.
+
+
+.Proving Programs Correct
+
+When you write a program, you do not know whether it is correct or not. You will test the program with some test data. But for the given test data if the program works correctly, or it gives you the correct output, you cannot say it will always be correct, because, on some other input, the program may give the wrong value.
+So Testing only points out (figures or identifies) if there are any errors. Even if the program runs correctly, it does not mean there are no errors, you could’ve errors for some other inputs it may not work properly.
+Testing does not tell you the absence of errors, it only points out if there are any errors. So when you write a program, it is better to prove that it works correctly. And how we will do this? We will do it help of predicate logic.
+For very large programs, this sort of method does not work because it is too much involved.
+For small programs, we can use this method, but for very large programs, Testing is the only possibility, and if you test with proper data, you've to assume that the program works correctly.
+
+For simplicity, we shall take flow chart programs thought it is a very old concept.
+
+Flowchart programs are not allowed to include "dead-end" or infinite loops.
+
+
+There are two aspects of proving a program works correctly. Partial correctness
+Termination.
+
+Generally, when we've a program, you've what is known as input predicate which satisfies some condition (input should satisfy some condition in the beginning), then when program is executed, there is an output predicate that tells you the relationship between inputs and outputs. And so when you start the program, enter an input which satisfies the input predicate. Finally, when you reach the halt statement, the output predicate should be satisfied. This is what we want.
+
+So in the partial correction portion of it, we are not bother about the "termination". What you say is given the input predicates if the program is executed & you reach the halt statement the output predicates is specified. You will not be worrying about whether it is going to halt or not, whereas in the second portion (termination) you've to worry about the termination of the program.
+
+So given an input predicate, you to show that the program will terminate for that particular value, so in order to prove a program is totally correct, you've to prove both parts.
+
+Total Correctness
+Partial correctness termination
+
+There is no automatic way of writing the inductive assertions, you've to think:
+What the program does at that point?
+What are the conditions specified by the input & the program variables at that point?
+
+So for a small program you can do that & you can write all the verification conditions & termination conditions etc. But if the program is very big, then I know that this is going to take a lot of time & so I resort to testing rather than proving programs correct.
+
+And Testing, how do you do? You give proper input values thinking these are the possible values & run the program & if the program gives the proper output values, then you assume that what you've written is correct or the program you've written is correct. But the correct way of going about any program is you have to prove that the program is correct. But for the practical purpose for very large programs, this may not be possible. But still, this way of proving programs correct it tells you the use of logic or the use of propositional logic & predicate logic in proving the program is correct. So logic is the basis of the computer science & this tells us how it forms the basis for the writing & proving programs correct.
