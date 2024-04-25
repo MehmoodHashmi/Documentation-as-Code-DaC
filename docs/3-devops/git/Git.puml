@@ -1,6 +1,8 @@
 @startmindmap
 title =<i><b><u><size:18>Git
 * =<i>[[docs/3-devops/git/Advanced-Git.puml "Advanced-Git" & "git workflows" for "different teams structure" & projects]] click me
+** =<i>is Very important!
+
 !theme hacker
 
 *[#darkblue] <color #white><i>Git
