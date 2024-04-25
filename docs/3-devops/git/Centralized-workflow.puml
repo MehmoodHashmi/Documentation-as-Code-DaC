@@ -1,49 +1,49 @@
 @startmindmap
-title =<i><b><u>Centralized Workflow
+title =<i><b><u><size:18>Centralized Workflow
 !theme hacker
 
 *[#darkblue] <i>Centralized Workflow\n<img:images/img_9.png>
-**[#lightblue] <i><color #blac><size:14>Overview
-***[#green] <b><i><color #white><size:14>Utilizes a Single Shared Repository
-****[#yellow] <i><color #black><size:14>All developers interact with a central repository.
-***[#green] <b><i><color #white><size:14>Linear Development Flow
-****[#yellow] <i><color #black><size:14>Follows a straightforward commit and update cycle.
-***[#a] <b><i><color #black><size:14>[[https://www.atlassian.com/git/tutorials/comparing-workflows Centralized workflow]] article of attlasian
-**[#lightblue] <i><color #blac><size:14>Main Components\n<img:images/img_9.png{scale=.84}>
-***[#green] <b><i><color #white><size:14>Master Branch
-****[#yellow] <i><color #black><size:14>Mainline branch representing the official project history.
-***[#green] <b><i><color #white><size:14>Commits and Updates
-****[#yellow] <i><color #black><size:14>Developers commit changes directly to the master branch.
-***[#green] <b><i><color #white><size:14>Collaboration and Communication
-****[#yellow] <i><color #black><size:14>Developers coordinate changes and updates through direct commits.
-**[#lightblue] <i><color #blac><size:14>Workflow Characteristics
-***[#green] <b><i><color #white><size:14>Simplicity and Linearity
-****[#yellow] <i><color #black><size:14>Easy-to-understand, sequential approach for development.
-***[#green] <b><i><color #white><size:14>Version Control
-****[#yellow] <i><color #black><size:14>Tracks changes and maintains a linear history.
-***[#green] <b><i><color #white><size:14>Limitations in Collaboration
-****[#yellow] <i><color #black><size:14>Lacks features for concurrent, collaborative development.
-**[#lightblue] <i><color #blac><size:14>Process Flow
-***[#green] <b><i><color #white><size:14>Clone Central Repository
-****[#yellow] <i><color #black><size:14>Developers clone the central repository to their local machines.
-***[#green] <b><i><color #white><size:14>Make Changes Locally
-****[#yellow] <i><color #black><size:14>Changes and updates made within the local repository.
-***[#green] <b><i><color #white><size:14>Commit to Central Repository
-****[#yellow] <i><color #black><size:14>Developers commit changes directly to the master branch.
-***[#green] <b><i><color #white><size:14>Pull Updates
-****[#yellow] <i><color #black><size:14>Periodically pull changes made by others from the central repository.
-**[#lightblue] <i><color #blac><size:14>Advantages
-***[#green] <b><i><color #white><size:14>Straightforward and Understandable
-****[#yellow] <i><color #black><size:14>Easy for new users to grasp and follow.
-***[#green] <b><i><color #white><size:14>Clear Versioning
-****[#yellow] <i><color #black><size:14>Provides a linear history of changes.
-***[#green] <b><i><color #white><size:14>Centralized Control
-****[#yellow] <i><color #black><size:14>Offers centralized oversight and management of the codebase.
-**[#lightblue] <i><color #blac><size:14>Considerations
-***[#green] <b><i><color #white><size:14>Limited Collaboration Features
-****[#yellow] <i><color #black><size:14>Restricts concurrent, collaborative work.
-***[#green] <b><i><color #white><size:14>Risk of Conflicting Changes\n<img:images/img_12.png{scale=.8}>
-****[#yellow] <i><color #black><size:14>Direct commits to master may lead to conflicts.
-***[#green] <b><i><color #white><size:14>Central Repository Dependency
-****[#yellow] <i><color #black><size:14>Heavily reliant on the central repository's availability.
+**[#lightblue] <i><color #blac><size:12>Overview
+***[#green] <b><i><color #white><size:12>Utilizes a Single Shared Repository
+****[#yellow] <i><color #black><size:12>All developers interact with a central repository.
+***[#green] <b><i><color #white><size:12>Linear Development Flow
+****[#yellow] <i><color #black><size:12>Follows a straightforward commit and update cycle.
+***[#a] <b><i><color #black><size:12>[[https://www.atlassian.com/git/tutorials/comparing-workflows Centralized workflow]] article of attlasian
+**[#lightblue] <i><color #blac><size:12>Main Components\n<img:images/img_9.png{scale=.84}>
+***[#green] <b><i><color #white><size:12>Master Branch
+****[#yellow] <i><color #black><size:12>Mainline branch representing the official project history.
+***[#green] <b><i><color #white><size:12>Commits and Updates
+****[#yellow] <i><color #black><size:12>Developers commit changes directly to the master branch.
+***[#green] <b><i><color #white><size:12>Collaboration and Communication
+****[#yellow] <i><color #black><size:12>Developers coordinate changes and updates through direct commits.
+**[#lightblue] <i><color #blac><size:12>Workflow Characteristics
+***[#green] <b><i><color #white><size:12>Simplicity and Linearity
+****[#yellow] <i><color #black><size:12>Easy-to-understand, sequential approach for development.
+***[#green] <b><i><color #white><size:12>Version Control
+****[#yellow] <i><color #black><size:12>Tracks changes and maintains a linear history.
+***[#green] <b><i><color #white><size:12>Limitations in Collaboration
+****[#yellow] <i><color #black><size:12>Lacks features for concurrent, collaborative development.
+**[#lightblue] <i><color #blac><size:12>Process Flow
+***[#green] <b><i><color #white><size:12>Clone Central Repository
+****[#yellow] <i><color #black><size:12>Developers clone the central repository to their local machines.
+***[#green] <b><i><color #white><size:12>Make Changes Locally
+****[#yellow] <i><color #black><size:12>Changes and updates made within the local repository.
+***[#green] <b><i><color #white><size:12>Commit to Central Repository
+****[#yellow] <i><color #black><size:12>Developers commit changes directly to the master branch.
+***[#green] <b><i><color #white><size:12>Pull Updates
+****[#yellow] <i><color #black><size:12>Periodically pull changes made by others from the central repository.
+**[#lightblue] <i><color #blac><size:12>Advantages
+***[#green] <b><i><color #white><size:12>Straightforward and Understandable
+****[#yellow] <i><color #black><size:12>Easy for new users to grasp and follow.
+***[#green] <b><i><color #white><size:12>Clear Versioning
+****[#yellow] <i><color #black><size:12>Provides a linear history of changes.
+***[#green] <b><i><color #white><size:12>Centralized Control
+****[#yellow] <i><color #black><size:12>Offers centralized oversight and management of the codebase.
+**[#lightblue] <i><color #blac><size:12>Considerations
+***[#green] <b><i><color #white><size:12>Limited Collaboration Features
+****[#yellow] <i><color #black><size:12>Restricts concurrent, collaborative work.
+***[#green] <b><i><color #white><size:12>Risk of Conflicting Changes\n<img:images/img_12.png{scale=.8}>
+****[#yellow] <i><color #black><size:12>Direct commits to master may lead to conflicts.
+***[#green] <b><i><color #white><size:12>Central Repository Dependency
+****[#yellow] <i><color #black><size:12>Heavily reliant on the central repository's availability.
 @endmindmap

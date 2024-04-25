@@ -1,53 +1,53 @@
 @startmindmap
-title =<i><b><u>Forking Workflow\n|<img:images/img_16.png{scale=1.3}>|<img:images/img_17.png{scale=1}>|
+title =<i><b><u><size:18>Forking Workflow\n|<img:images/img_16.png{scale=1.3}>|<img:images/img_17.png{scale=1}>|
 !theme hacker
 
 *[#darkblue] <i>Forking \n<i>Workflow
-**[#lightblue] <i><color #blac><size:14>Overview
-***[#green] <b><i><color #white><size:14>Utilizes Independent Repositories
-****[#yellow] <i><color #black><size:14>The **Forking Workflow** is most often seen in <b>public open source projects.
-****[#yellow] <i><color #black><size:14>Each developer forks the main repository, works in their forked repository, and creates pull requests (PRs) to the main repository.
-***[#green] <b><i><color #white><size:14>Facilitates Independent Development
-****[#yellow] <i><color #black><size:14>Developers work in their isolated environment.
-***[#green] <b><i><color #white><size:14>Collaboration through PRs
-****[#yellow] <i><color #black><size:14>Changes integrated via PRs after review and approval.
-**[#lightblue] <i><color #blac><size:14>Main Components\n|<img:images/img_16.png{scale=.65}>|<img:images/img_17.png{scale=.51}>|
-***[#green] <b><i><color #white><size:14>Main Repository
-****[#yellow] <i><color #black><size:14>Central repository representing the project.
-***[#green] <b><i><color #white><size:14>Forked Repositories
-****[#yellow] <i><color #black><size:14>Copies of the main repository owned by individual developers.
-***[#green] <b><i><color #white><size:14>Commits and Updates
-****[#yellow] <i><color #black><size:14>Developers commit changes to their forked repositories.
-***[#green] <b><i><color #white><size:14>Pull Requests (PRs)
-****[#yellow] <i><color #black><size:14>Used for proposing and merging changes to the main repository.
-**[#lightblue] <i><color #blac><size:14>Workflow Characteristics
-***[#green] <b><i><color #white><size:14>Decentralized Development
-****[#yellow] <i><color #black><size:14>Developers work independently in their own repositories.
-***[#green] <b><i><color #white><size:14>Collaborative Integration
-****[#yellow] <i><color #black><size:14>Collaboration facilitated through PRs and code review.
-***[#green] <b><i><color #white><size:14>Enhanced Isolation and Experimentation
-****[#yellow] <i><color #black><size:14>Developers can experiment without affecting the main project.
-**[#lightblue] <i><color #blac><size:14>Process Flow
-***[#green] <b><i><color #white><size:14>Fork Main Repository
-****[#yellow] <i><color #black><size:14>Developers fork the main repository to create their own copy.
-***[#green] <b><i><color #white><size:14>Make Changes Locally
-****[#yellow] <i><color #black><size:14>Developers make changes within their forked repositories.
-***[#green] <b><i><color #white><size:14>Create Pull Request
-****[#yellow] <i><color #black><size:14>Propose changes to the main repository via a pull request.
-***[#green] <b><i><color #white><size:14>Review and Merge
-****[#yellow] <i><color #black><size:14>Changes reviewed, discussed, and merged into the main repository.
-**[#lightblue] <i><color #blac><size:14>Advantages
-***[#green] <b><i><color #white><size:14>Decentralized Development
-****[#yellow] <i><color #black><size:14>Allows developers to work independently in their own environments.
-***[#green] <b><i><color #white><size:14>Code Review and Collaboration
-****[#yellow] <i><color #black><size:14>Encourages collaboration and code review through PRs.
-***[#green] <b><i><color #white><size:14>Experimentation without Impact
-****[#yellow] <i><color #black><size:14>Changes experimented with without affecting the main codebase.
-**[#lightblue] <i><color #blac><size:14>Considerations
-***[#green] <b><i><color #white><size:14>Synchronization Challenges
-****[#yellow] <i><color #black><size:14>Potential conflicts during merging with the main repository.
-***[#green] <b><i><color #white><size:14>PR Management
-****[#yellow] <i><color #black><size:14>Managing multiple PRs and their respective discussions.
-***[#green] <b><i><color #white><size:14>Learning Curve
-****[#yellow] <i><color #black><size:14>Requires familiarity with PR-based collaboration workflows.
+**[#lightblue] <i><color #blac><size:12>Overview
+***[#green] <b><i><color #white><size:12>Utilizes Independent Repositories
+****[#yellow] <i><color #black><size:12>The **Forking Workflow** is most often seen in <b>public open source projects.
+****[#yellow] <i><color #black><size:12>Each developer forks the main repository, works in their forked repository, and creates pull requests (PRs) to the main repository.
+***[#green] <b><i><color #white><size:12>Facilitates Independent Development
+****[#yellow] <i><color #black><size:12>Developers work in their isolated environment.
+***[#green] <b><i><color #white><size:12>Collaboration through PRs
+****[#yellow] <i><color #black><size:12>Changes integrated via PRs after review and approval.
+**[#lightblue] <i><color #blac><size:12>Main Components\n|<img:images/img_16.png{scale=.65}>|<img:images/img_17.png{scale=.51}>|
+***[#green] <b><i><color #white><size:12>Main Repository
+****[#yellow] <i><color #black><size:12>Central repository representing the project.
+***[#green] <b><i><color #white><size:12>Forked Repositories
+****[#yellow] <i><color #black><size:12>Copies of the main repository owned by individual developers.
+***[#green] <b><i><color #white><size:12>Commits and Updates
+****[#yellow] <i><color #black><size:12>Developers commit changes to their forked repositories.
+***[#green] <b><i><color #white><size:12>Pull Requests (PRs)
+****[#yellow] <i><color #black><size:12>Used for proposing and merging changes to the main repository.
+**[#lightblue] <i><color #blac><size:12>Workflow Characteristics
+***[#green] <b><i><color #white><size:12>Decentralized Development
+****[#yellow] <i><color #black><size:12>Developers work independently in their own repositories.
+***[#green] <b><i><color #white><size:12>Collaborative Integration
+****[#yellow] <i><color #black><size:12>Collaboration facilitated through PRs and code review.
+***[#green] <b><i><color #white><size:12>Enhanced Isolation and Experimentation
+****[#yellow] <i><color #black><size:12>Developers can experiment without affecting the main project.
+**[#lightblue] <i><color #blac><size:12>Process Flow
+***[#green] <b><i><color #white><size:12>Fork Main Repository
+****[#yellow] <i><color #black><size:12>Developers fork the main repository to create their own copy.
+***[#green] <b><i><color #white><size:12>Make Changes Locally
+****[#yellow] <i><color #black><size:12>Developers make changes within their forked repositories.
+***[#green] <b><i><color #white><size:12>Create Pull Request
+****[#yellow] <i><color #black><size:12>Propose changes to the main repository via a pull request.
+***[#green] <b><i><color #white><size:12>Review and Merge
+****[#yellow] <i><color #black><size:12>Changes reviewed, discussed, and merged into the main repository.
+**[#lightblue] <i><color #blac><size:12>Advantages
+***[#green] <b><i><color #white><size:12>Decentralized Development
+****[#yellow] <i><color #black><size:12>Allows developers to work independently in their own environments.
+***[#green] <b><i><color #white><size:12>Code Review and Collaboration
+****[#yellow] <i><color #black><size:12>Encourages collaboration and code review through PRs.
+***[#green] <b><i><color #white><size:12>Experimentation without Impact
+****[#yellow] <i><color #black><size:12>Changes experimented with without affecting the main codebase.
+**[#lightblue] <i><color #blac><size:12>Considerations
+***[#green] <b><i><color #white><size:12>Synchronization Challenges
+****[#yellow] <i><color #black><size:12>Potential conflicts during merging with the main repository.
+***[#green] <b><i><color #white><size:12>PR Management
+****[#yellow] <i><color #black><size:12>Managing multiple PRs and their respective discussions.
+***[#green] <b><i><color #white><size:12>Learning Curve
+****[#yellow] <i><color #black><size:12>Requires familiarity with PR-based collaboration workflows.
 @endmindmap

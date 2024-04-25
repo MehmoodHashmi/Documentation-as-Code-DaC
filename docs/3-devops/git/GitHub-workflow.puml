@@ -1,52 +1,52 @@
 @startmindmap
-title =<i><b><u>GitHub Flow
+title =<i><b><u><size:18>GitHub Flow
 !theme hacker
 
 *[#darkblue] <i>GitHub Flow
-**[#lightblue] <i><color #blac><size:14>[[docs/3-devops/git/gif/github-flow.adoc Overview]]click gif
-***[#green] <b><i><color #white><size:14>Based on Branching Workflow
-****[#yellow] <i><color #black><size:14>Emphasizes a lightweight and flexible branching strategy for development.
-***[#green] <b><i><color #white><size:14>Simple and Iterative Process
-****[#yellow] <i><color #black><size:14>Focuses on continuous integration and deployment for each change.
-***[#green] <b><i><color #white><size:14>Collaboration and Code Review
-****[#yellow] <i><color #black><size:14>Encourages collaboration and code review through pull requests (PRs).
-**[#lightblue] <i><color #blac><size:14>Main Components\n<img:images/img_15.png{scale=.7}>
-***[#green] <b><i><color #white><size:14>Main Branch
-****[#yellow] <i><color #black><size:14>master or main branch representing the production-ready code.
-***[#green] <b><i><color #white><size:14>Feature Branches
-****[#yellow] <i><color #black><size:14>Branches created for developing specific features or fixes.
-***[#green] <b><i><color #white><size:14>Pull Requests (PRs)
-****[#yellow] <i><color #black><size:14>Propose, review, and merge changes via PRs.
-***[#green] <b><i><color #white><size:14>Continuous Deployment
-****[#yellow] <i><color #black><size:14>Continuous deployment based on successful PR merging.
-**[#lightblue] <i><color #blac><size:14>Workflow Characteristics
-***[#green] <b><i><color #white><size:14>Continuous Integration and Deployment
-****[#yellow] <i><color #black><size:14>Emphasizes automated testing and deployment for each PR.
-***[#green] <b><i><color #white><size:14>Lightweight and Simple
-****[#yellow] <i><color #black><size:14>Simple branching model suitable for smaller teams and projects.
-***[#green] <b><i><color #white><size:14>Collaboration and Code Review
-****[#yellow] <i><color #black><size:14>Collaboration and code review integral to the workflow through PRs.
-**[#lightblue] <i><color #blac><size:14>Process Flow
-***[#green] <b><i><color #white><size:14>Create Feature Branch
-****[#yellow] <i><color #black><size:14>Developers create a branch from the main branch for a new feature.
-***[#green] <b><i><color #white><size:14>Work on Feature
-****[#yellow] <i><color #black><size:14>Develop and commit changes to the feature branch.
-***[#green] <b><i><color #white><size:14>Create Pull Request
-****[#yellow] <i><color #black><size:14>Propose changes via a PR for review and integration.
-***[#green] <b><i><color #white><size:14>Review, Test, and Merge
-****[#yellow] <i><color #black><size:14>Code reviewed, tested, and merged into the main branch.
-**[#lightblue] <i><color #blac><size:14>Advantages
-***[#green] <b><i><color #white><size:14>Simplicity and Flexibility
-****[#yellow] <i><color #black><size:14>Lightweight and adaptable branching model.
-***[#green] <b><i><color #white><size:14>Continuous Integration and Deployment
-****[#yellow] <i><color #black><size:14>Automated testing and deployment for each change.
-***[#green] <b><i><color #white><size:14>Collaboration and Code Review
-****[#yellow] <i><color #black><size:14>Encourages collaboration and code review through PRs.
-**[#lightblue] <i><color #blac><size:14>Considerations
-***[#green] <b><i><color #white><size:14>Branch and Merge Management
-****[#yellow] <i><color #black><size:14>Proper branch creation and management practices required.
-***[#green] <b><i><color #white><size:14>Overhead in PR Management
-****[#yellow] <i><color #black><size:14>Managing multiple PRs and their discussions.
-***[#green] <b><i><color #white><size:14>Learning Curve
-****[#yellow] <i><color #black><size:14>Familiarity with PR-based workflows essential.
+**[#lightblue] <i><color #black><size:12>[[docs/3-devops/git/gif/github-flow.adoc Overview]]click gif
+***[#green] <b><i><color #white><size:12>Based on Branching Workflow
+****[#yellow] <i><color #black><size:12>Emphasizes a lightweight and flexible branching strategy for development.
+***[#green] <b><i><color #white><size:12>Simple and Iterative Process
+****[#yellow] <i><color #black><size:12>Focuses on continuous integration and deployment for each change.
+***[#green] <b><i><color #white><size:12>Collaboration and Code Review
+****[#yellow] <i><color #black><size:12>Encourages collaboration and code review through pull requests (PRs).
+**[#lightblue] <i><color #black><size:12>Main Components\n<img:images/img_15.png{scale=.7}>
+***[#green] <b><i><color #white><size:12>Main Branch
+****[#yellow] <i><color #black><size:12>master or main branch representing the production-ready code.
+***[#green] <b><i><color #white><size:12>Feature Branches
+****[#yellow] <i><color #black><size:12>Branches created for developing specific features or fixes.
+***[#green] <b><i><color #white><size:12>Pull Requests (PRs)
+****[#yellow] <i><color #black><size:12>Propose, review, and merge changes via PRs.
+***[#green] <b><i><color #white><size:12>Continuous Deployment
+****[#yellow] <i><color #black><size:12>Continuous deployment based on successful PR merging.
+**[#lightblue] <i><color #black><size:12>Workflow Characteristics
+***[#green] <b><i><color #white><size:12>Continuous Integration and Deployment
+****[#yellow] <i><color #black><size:12>Emphasizes automated testing and deployment for each PR.
+***[#green] <b><i><color #white><size:12>Lightweight and Simple
+****[#yellow] <i><color #black><size:12>Simple branching model suitable for smaller teams and projects.
+***[#green] <b><i><color #white><size:12>Collaboration and Code Review
+****[#yellow] <i><color #black><size:12>Collaboration and code review integral to the workflow through PRs.
+**[#lightblue] <i><color #black><size:12>Process Flow
+***[#green] <b><i><color #white><size:12>Create Feature Branch
+****[#yellow] <i><color #black><size:12>Developers create a branch from the main branch for a new feature.
+***[#green] <b><i><color #white><size:12>Work on Feature
+****[#yellow] <i><color #black><size:12>Develop and commit changes to the feature branch.
+***[#green] <b><i><color #white><size:12>Create Pull Request
+****[#yellow] <i><color #black><size:12>Propose changes via a PR for review and integration.
+***[#green] <b><i><color #white><size:12>Review, Test, and Merge
+****[#yellow] <i><color #black><size:12>Code reviewed, tested, and merged into the main branch.
+**[#lightblue] <i><color #black><size:12>Advantages
+***[#green] <b><i><color #white><size:12>Simplicity and Flexibility
+****[#yellow] <i><color #black><size:12>Lightweight and adaptable branching model.
+***[#green] <b><i><color #white><size:12>Continuous Integration and Deployment
+****[#yellow] <i><color #black><size:12>Automated testing and deployment for each change.
+***[#green] <b><i><color #white><size:12>Collaboration and Code Review
+****[#yellow] <i><color #black><size:12>Encourages collaboration and code review through PRs.
+**[#lightblue] <i><color #black><size:12>Considerations
+***[#green] <b><i><color #white><size:12>Branch and Merge Management
+****[#yellow] <i><color #black><size:12>Proper branch creation and management practices required.
+***[#green] <b><i><color #white><size:12>Overhead in PR Management
+****[#yellow] <i><color #black><size:12>Managing multiple PRs and their discussions.
+***[#green] <b><i><color #white><size:12>Learning Curve
+****[#yellow] <i><color #black><size:12>Familiarity with PR-based workflows essential.
 @endmindmap
