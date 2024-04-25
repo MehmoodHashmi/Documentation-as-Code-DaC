@@ -1,68 +1,68 @@
 @startmindmap
-title =<i><b><u>Git
+title =<i><b><u><size:18>Git
 * =<i>[[docs/3-devops/git/Advanced-Git.puml "Advanced-Git" & "git workflows" for "different teams structure" & projects]] click me
 !theme hacker
 
 *[#darkblue] <color #white><i>Git
-**[#lightblue] <i><color #blac><size:14>Definition: "Git" is a "distributed version control system" used for "tracking changes" in "source code" and other "files" during "software development".
-**[#lightblue] <i><color #blac><size:14>Concepts
-***[#green] <b><i><color #white><size:14>Repository
-****[#yellow] <i><color #black><size:14>A central location where a Git project is stored, containing all the files and folders as well as the commit history.
-***[#green] <b><i><color #white><size:14>Commit
-****[#yellow] <i><color #black><size:14>A record of changes made to a repository. Commits are used to save and track changes made to files over time.
-***[#green] <b><i><color #white><size:14>Branch
-****[#yellow] <i><color #black><size:14>A separate line of development in a repository. Branches allow developers to work on features or bug fixes in isolation from the main codebase.
-***[#green] <b><i><color #white><size:14>Merge
-****[#yellow] <i><color #black><size:14>The process of combining changes made in one branch with another. Merging allows developers to integrate changes made in separate branches back into the main codebase.
-***[#green] <b><i><color #white><size:14>Pull Request
-****[#yellow] <i><color #black><size:14>A request to merge changes from one branch into another. Pull requests provide a way for developers to review and discuss changes before they are merged into the main codebase.
-***[#green] <b><i><color #white><size:14>Fork
-****[#yellow] <i><color #black><size:14>A copy of a repository that allows developers to work on their own version of the project without affecting the original codebase.
-***[#green] <b><i><color #white><size:14>Tag
-****[#yellow] <i><color #black><size:14>A named pointer to a specific commit in a repository. Tags are used to mark significant points in a project's history, such as a release.
-**[#lightblue] <i><color #blac><size:14>Commands
-***[#green] <b><i><color #white><size:14>Clone
-****[#yellow] <i><color #black><size:14>The process of creating a local copy of a remote repository.
-***[#green] <b><i><color #white><size:14>Add
-****[#yellow] <i><color #black><size:14>The process of staging changes made to files in a repository for inclusion in a commit.
-***[#green] <b><i><color #white><size:14>Commit
-****[#yellow] <i><color #black><size:14>The process of saving changes made to files in a repository.
-***[#green] <b><i><color #white><size:14>Push
-****[#yellow] <i><color #black><size:14>The process of uploading local changes to a remote repository.
-***[#green] <b><i><color #white><size:14>Pull
-****[#yellow] <i><color #black><size:14>The process of downloading changes from a remote repository and merging them into a local repository.
-***[#green] <b><i><color #white><size:14>Merge
-****[#yellow] <i><color #black><size:14>The process of combining changes made in one branch with another.
-***[#green] <b><i><color #white><size:14>Rebase
-****[#yellow] <i><color #black><size:14>The process of applying changes made in one branch to another, rewriting the commit history to create a linear history.
-**[#lightblue] <i><color #blac><size:14>Hosting Services
-***[#green] <b><i><color #white><size:14>GitHub
-****[#yellow] <i><color #black><size:14>A web-based hosting service for Git repositories. GitHub provides features such as issue tracking, pull requests, and collaboration tools.
-***[#green] <b><i><color #white><size:14>GitLab
-****[#yellow] <i><color #black><size:14>A web-based hosting service for Git repositories. GitLab provides features such as continuous integration, issue tracking, and collaboration tools.
-***[#green] <b><i><color #white><size:14>Bitbucket
-****[#yellow] <i><color #black><size:14>A web-based hosting service for Git repositories. Bitbucket provides features such as pull requests, code reviews, and collaboration tools.
-**[#lightblue] <i><color #blac><size:14>Advantages
-***[#green] <b><i><color #white><size:14>Distributed Version Control
-***[#green] <b><i><color #white><size:14>Branching and Merging
-***[#green] <b><i><color #white><size:14>Collaboration
-***[#green] <b><i><color #white><size:14>Security
-***[#green] <b><i><color #white><size:14>Easy to Learn
-**[#lightblue] <i><color #blac><size:14>Challenges
-***[#green] <b><i><color #white><size:14>Learning Curve
-***[#green] <b><i><color #white><size:14>Conflicts and Merge Issues
-***[#green] <b><i><color #white><size:14>Complexity
-***[#green] <b><i><color #white><size:14>Repository Size
-***[#green] <b><i><color #white><size:14>Disk Space Usage
-***[#green] <b><i><color #white><size:14>File Management
-***[#green] <b><i><color #white><size:14>Repository Management
-**[#lightblue] <i><color #blac><size:14>Best Practices
-***[#gold] <i><color #black><size:14>Use descriptive commit messages
-***[#gold] <i><color #black><size:14>Create small, focused commits
-***[#gold] <i><color #black><size:14>Use branching and merging effectively
-***[#gold] <i><color #black><size:14>Use pull requests for code reviews
-***[#gold] <i><color #black><size:14>Keep the repository clean and organized
-***[#gold] <i><color #black><size:14>Use tags to mark significant points in the project's history
-***[#gold] <i><color #black><size:14>Regularly backup the repository
+**[#lightblue] <i><color #blac><size:12>Definition: "Git" is a "distributed version control system" used for "tracking changes" in "source code" and other "files" during "software development".
+**[#lightblue] <i><color #blac><size:12>Concepts
+***[#green] <b><i><color #white><size:12>Repository
+****[#yellow] <i><color #black><size:12>A central location where a Git project is stored, containing all the files and folders as well as the commit history.
+***[#green] <b><i><color #white><size:12>Commit
+****[#yellow] <i><color #black><size:12>A record of changes made to a repository. Commits are used to save and track changes made to files over time.
+***[#green] <b><i><color #white><size:12>Branch
+****[#yellow] <i><color #black><size:12>A separate line of development in a repository. Branches allow developers to work on features or bug fixes in isolation from the main codebase.
+***[#green] <b><i><color #white><size:12>Merge
+****[#yellow] <i><color #black><size:12>The process of combining changes made in one branch with another. Merging allows developers to integrate changes made in separate branches back into the main codebase.
+***[#green] <b><i><color #white><size:12>Pull Request
+****[#yellow] <i><color #black><size:12>A request to merge changes from one branch into another. Pull requests provide a way for developers to review and discuss changes before they are merged into the main codebase.
+***[#green] <b><i><color #white><size:12>Fork
+****[#yellow] <i><color #black><size:12>A copy of a repository that allows developers to work on their own version of the project without affecting the original codebase.
+***[#green] <b><i><color #white><size:12>Tag
+****[#yellow] <i><color #black><size:12>A named pointer to a specific commit in a repository. Tags are used to mark significant points in a project's history, such as a release.
+**[#lightblue] <i><color #blac><size:12>Commands
+***[#green] <b><i><color #white><size:12>Clone
+****[#yellow] <i><color #black><size:12>The process of creating a local copy of a remote repository.
+***[#green] <b><i><color #white><size:12>Add
+****[#yellow] <i><color #black><size:12>The process of staging changes made to files in a repository for inclusion in a commit.
+***[#green] <b><i><color #white><size:12>Commit
+****[#yellow] <i><color #black><size:12>The process of saving changes made to files in a repository.
+***[#green] <b><i><color #white><size:12>Push
+****[#yellow] <i><color #black><size:12>The process of uploading local changes to a remote repository.
+***[#green] <b><i><color #white><size:12>Pull
+****[#yellow] <i><color #black><size:12>The process of downloading changes from a remote repository and merging them into a local repository.
+***[#green] <b><i><color #white><size:12>Merge
+****[#yellow] <i><color #black><size:12>The process of combining changes made in one branch with another.
+***[#green] <b><i><color #white><size:12>Rebase
+****[#yellow] <i><color #black><size:12>The process of applying changes made in one branch to another, rewriting the commit history to create a linear history.
+**[#lightblue] <i><color #blac><size:12>Hosting Services
+***[#green] <b><i><color #white><size:12>GitHub
+****[#yellow] <i><color #black><size:12>A web-based hosting service for Git repositories. GitHub provides features such as issue tracking, pull requests, and collaboration tools.
+***[#green] <b><i><color #white><size:12>GitLab
+****[#yellow] <i><color #black><size:12>A web-based hosting service for Git repositories. GitLab provides features such as continuous integration, issue tracking, and collaboration tools.
+***[#green] <b><i><color #white><size:12>Bitbucket
+****[#yellow] <i><color #black><size:12>A web-based hosting service for Git repositories. Bitbucket provides features such as pull requests, code reviews, and collaboration tools.
+**[#lightblue] <i><color #blac><size:12>Advantages
+***[#green] <b><i><color #white><size:12>Distributed Version Control
+***[#green] <b><i><color #white><size:12>Branching and Merging
+***[#green] <b><i><color #white><size:12>Collaboration
+***[#green] <b><i><color #white><size:12>Security
+***[#green] <b><i><color #white><size:12>Easy to Learn
+**[#lightblue] <i><color #blac><size:12>Challenges
+***[#green] <b><i><color #white><size:12>Learning Curve
+***[#green] <b><i><color #white><size:12>Conflicts and Merge Issues
+***[#green] <b><i><color #white><size:12>Complexity
+***[#green] <b><i><color #white><size:12>Repository Size
+***[#green] <b><i><color #white><size:12>Disk Space Usage
+***[#green] <b><i><color #white><size:12>File Management
+***[#green] <b><i><color #white><size:12>Repository Management
+**[#lightblue] <i><color #blac><size:12>Best Practices
+***[#gold] <i><color #black><size:12>Use descriptive commit messages
+***[#gold] <i><color #black><size:12>Create small, focused commits
+***[#gold] <i><color #black><size:12>Use branching and merging effectively
+***[#gold] <i><color #black><size:12>Use pull requests for code reviews
+***[#gold] <i><color #black><size:12>Keep the repository clean and organized
+***[#gold] <i><color #black><size:12>Use tags to mark significant points in the project's history
+***[#gold] <i><color #black><size:12>Regularly backup the repository
 ***[#darkorange] <i><color #black><size:22><b>Use "gitignore" to "ignore files" and "folders" that do not belong in the "repository"
 @endmindmap
