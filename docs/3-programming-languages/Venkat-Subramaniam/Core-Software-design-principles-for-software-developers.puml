@@ -66,6 +66,7 @@ skinparam hyperlinkColor white
 <i><color #black><size:12>Meaning something is bad inherently than stop doing it.
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_663.png A "new world" is made possible by "new ideas" for "stones & bricks" can't]]
 <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_663.png create a "new world"]]
+*<i><color #black><size:11><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_662.png Gora said: We can't let others to do our thinking for us!]]
 *<i><color #black><size:11><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_662.png It's not the mountains ahead to climb that wear you out, it's the pebble in your shoe.]]
 *<i><color #black><size:12><b>Aura of Authority: (+ve, -ve)
 |<#white><i><color #black><size:12><b>Outer world = <color #green> to control outer world you 've to <b>control inner world.|<#blue><i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_517.png Future]]|
@@ -405,7 +406,7 @@ skinparam hyperlinkColor white
 ******[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_130.png The missing advice]]
 ****[#a]:<i><color #black><size:12>It's not difficult to imagine that a **"System"** that runs comfortably on **"one server"** right now **"might grow"** to the point where some of its **"components"** ought ('ve to) to run
 <i><color #black><size:12>on **separate server**. While the **"System"** runs on single server, the **"source-level" decoupling** might be sufficient. Later, however, it might **require decoupling** to
-<i><color #black><size:12>**deployable units, or even "services"**. <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.jpg click me]] & [[a Conway's law]] click me;
+<i><color #black><size:12>**deployable units, or even "services"**. <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_54.jpg click me]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_863.jpg Conway's law]] click me;
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_608.png Software component]] \n<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_608.png boundaries means:]]
 ****[#darkorange] <i><color #black><size:12>**1- [[docs/3-programming-languages/Venkat-Subramaniam/images/img_608.png Boundary]]** crossing at <b>runtime:\n<i><color #black><size:12> <b>(source code dependencies)
 *****[#a]:*<i><color #black><size:12>**Communication** through <b>function calling.
