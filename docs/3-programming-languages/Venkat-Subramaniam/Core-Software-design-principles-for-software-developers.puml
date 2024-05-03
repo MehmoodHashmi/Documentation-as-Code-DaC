@@ -14,7 +14,7 @@ skinparam hyperlinkColor white
 ***[#green]:<i><color #white><size:12><b>Writing code is easy. Writing good quality code is an entirely different story.
 <i><color #white><size:12>How can we measure quality of **design?** How do we know we're doing the right set of
 <i><color #white><size:12>things that will leads us to a <b>better design?;
-****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Computational Thinking]] \n*<i><color #black><size:12><b>[[docs/1-Requirement-Engineering/Abstract-Thinking.puml Abstract Thinking]]
+****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Computational Thinking]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_710.png Part-2]]\n*<i><color #black><size:12><b>[[docs/1-Requirement-Engineering/Abstract-Thinking.puml Abstract Thinking]]
 *****[#darkorange]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png Programming is part practical, & part theoretical]]
 **<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_620.png Pattern Recognition]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_621.png List of common 20 Patterns]]
 ***<i><color #black><size:12><b>[[https://levelup.gitconnected.com/dont-just-leetcode-follow-the-coding-patterns-instead-4beb6a197fdb Don’t Just LeetCode; Follow the Coding Patterns Instead]]
