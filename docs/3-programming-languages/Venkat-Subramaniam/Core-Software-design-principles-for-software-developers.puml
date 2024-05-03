@@ -193,6 +193,7 @@ skinparam hyperlinkColor white
 *****[#gold] <i><color #black><size:12>Stop getting attached to the **solution,** and attach yourself to <b>solving the problem
 ****[#yellow] <i><color #black><size:12>Two Kinds of "people" that are **dangerous** to <b>work:\n*<b><i><color #black><size:12>Who can't follow instructions \n*<b><i><color #black><size:12>Who can only follow instructions
 ***[#yellow] <i><color #black><size:12>**Software** is not limited by **physics,** like **buildings are.** It is limited by **imagination, by design, by organization.** In short, it is **limited** by the <b>properties of people,\n<i><color #black><size:12>not by the <b>properties of the world. "We 've met the enemy & he is us."
+****[#a] *<b><i><color #black><size:12>[[docs/1-Requirement-Engineering/Software-Limitations.puml software limitations]]
 
 **[#lightblue] <i><color #black><size:12>How to create good design?
 ***[#green] *<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.png Take time to "review" design & code]] \n*<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Code-Review-you-said.puml Code "reviews" By Venkat]]
@@ -236,11 +237,12 @@ skinparam hyperlinkColor white
 <i><color #black><size:12>the possibility of <color #yellow>"Design" </color> <size:12>as a  scientific explanation. It just means that if
 <i><color #black><size:12>you want to be scientific you must limit yourself to explanations that <color #white>"invoke"
 <i><color #black><size:12>only <color #yellow>"natural cause" (cause & effect), </color><size:12>you can't invoke <color #white>"intelligence" as a cause
+==|<#red><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_859.png Cause & Effect]]|<#lime><i><color #black><size:12>""Intelligence"" as a ""cause""|<#grey><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_596.png Design]]|==
 **<i><color #black><size:12>[[https://www.youtube.com/watch?v=_5SQE0rp5gI&list=LL&index=3&t=160s&pp=gAQBiAQB&ab_channel=PragerU What is Intelligent Design (Science & God)]] 5-min
 **<i><color #black><size:12>[[https://www.youtube.com/watch?v=prFZTMIKOi4&list=LL&index=5&t=254s&ab_channel=VerdantServant Richard Dawkins Proves Intelligent Design]] 5-min
 *<i><color #black><size:12>[[https://www.youtube.com/watch?v=NvtvqGdMJbo&list=LL&index=14&ab_channel=RandallChristopherNiles DNA Double Helix]] 9-min
 ====
-<i><color #black><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_354.png Systems Theory: System is not sum of its parts but the product of its inter-actions.]];
+|<#grey><i><color #black><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_354.png Systems Theory: System is not sum of its parts but the product of its inter-actions.]]|;
 
 ***[#green] <i><color #white><size:12><b>Inherent or\n<i><color #white><size:12><b>Essential
 ****[#yellow] <i><color #black><size:12>is from the **problem domain,** you can't minimize it. When dealing with the **problem;** there are **"complexities"** \n<i><color #black><size:12>of the **problem** that you 've to deal with. And this is the "nature of the application" and **nature** of the <b>domain.
@@ -290,7 +292,7 @@ skinparam hyperlinkColor white
 ***[#green] <i><color #white><size:12><b>Like things stay together, and unlike things stay apart
 ****[#yellow] <i><color #black><size:12>**"Code that deals"** with **database** is different than **"code that deals"** with <b>XML processing
 ****[#a] <i><color #black><size:12>**"Code that deals"** with **database** is different than **"code that deals"** with <b>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/UI-UX.puml UI]] click me
-***[#green] <i><color #white><size:12><b>Class-level Principles
+***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/knowledge-and-data-structure.drawio.png Class-level Principles]] \t [[docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/49-Graph-and-Array-data-structure-and-their-algorithms.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/how-to-approach-refactoring.puml 3]]
 ****[#yellow] *<i><color #black><size:12>SOLID, GRASP & TDD. **\tClass design patterns:** (Structural, Behavioral & Creational) can be <b>reused
 ***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/class-and-package-level-SOLID-Principles.puml Package-level Principles]] <size:9>click me
 ****[#a]:*<i><color #black><size:12>**Package Cohesion:** CCP, CRP, & REP
@@ -310,7 +312,7 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12>"knock out before you mock out";
 
 ****[#yellow] <i><color #black><size:12>Can't remove all the <b>dependencies
-*****[#gold] <i><color #black><size:12>**"System"** will become so **"stable"** that it won't even <b>run!\n*<i><color #black><size:12>E.g. if all **classes** are **abstract,** then none of them can be <b>instantiated.
+*****[#gold] <i><color #black><size:12>**"System"** will become soo much **"stable"** that it won't even <b>run!\n*<i><color #black><size:12>E.g. if all **classes** are **abstract,** then none of them can be <b>instantiated.
 ******[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_354.png "Relationship" among "objects" in a "system"]] \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Abstraction vs. Encapsulation]] & \n*<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/knowledge-and-data-structure.drawio.png knowledge vs. Data structures]]
 
 ***[#green] <b><i><color #white><size:12>Dealing with Coupling
@@ -348,10 +350,10 @@ skinparam hyperlinkColor white
 <i><color #white><size:12><b>\t And, yes, I know that the last two are cheap but the first one is not.
 **<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_358.png Conclusion: Decoupling mode of a system is one of those things that is likely to change with time.]];
 ****[#darkorange] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Distributed Architecture & Cloud apps]]
-*****[#a] *<i><color #black><size:12><b>[[docs/3-devops/images/kubernetes.puml "Kuberenetes cluster"]] is good for systems involving "syncrhronous communication" like e.g. "microservices"\n*<i><color #black><size:12><b>[[docs/cloud-computing/AWS-Cloud/serverless.puml "AWS lambda" (Serverless)]] is good in reactive systems involving "asynchronous communication" e.g. EDA
+*****[#a] *<i><color #black><size:12><b>[[docs/3-devops/images/kubernetes.puml "Kuberenetes cluster"]] is good for systems involving "syncrhronous communication" e.g. "microservices"\n*<i><color #black><size:12><b>[[docs/cloud-computing/AWS-Cloud/serverless.puml "AWS lambda" (Serverless)]] is good in reactive systems involving "asynchronous communication" e.g. EDA
 ****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_258.png History of Components]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_429.png Heart of CBD]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_530.png CBD promotes black-box reuse]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_425.png More on "Components"]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_377.png Build Tools (Maven)]]
 *<i><color #black><b><size:12>Large Scale Software development: [[docs/3-programming-languages/Venkat-Subramaniam/component-based-development-CBD.puml Component Based Development (CBD)]];
-****[#yellow]:<i><color #black><size:12>**How do yo decouple one module from another?** That depends on the **level of decoupling you need.** Sometimes simply extracting code
+****[#yellow]:<i><color #black><size:12>**How do you decouple one module from another?** That depends on the **level of decoupling you need.** Sometimes simply extracting code
 <i><color #black><size:12>into a separate function is enough. More often, it's better to move all the **related code** into a **separate class** & even a separate **source file.**
 <i><color #black><size:12>And in extreme cases, you want to put those classes behind <b>polymorphic interfaces.;
 
@@ -375,11 +377,11 @@ skinparam hyperlinkColor white
 ****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_109.png How source code (components, .jars, .DLL etc.) gets converted into code?]] Compilation, linking & loading both static & dynamic , & assembling
 
 ****[#yellow] <i><color #black><b><size:12>In general:
-*****[#darkorange]:<i><color #black><size:12>**Logical design** (classes & packages) impacts <color #white><b> [[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml "extensibility"]]
+*****[#darkorange]:|<#red><i><color #black><size:12>**Logical design** (classes & packages) impacts <color #white><b> [[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml "extensibility"]]|
 ====
 *<i><color #black><size:12>**Methods:** one function calling another "function". <b>requires recompilation &  static linking
 *<i><color #black><size:12>**Modules:** one function calling another "function". <b>requires no recompilation & supports dynamic linking;
-*****[#a]:<i><color #black><size:12>**Physical design** (.jar) impacts <color #white><b>"re-usability & usability"
+*****[#a]:|<#red><i><color #black><size:12>**Physical design** (.jar) impacts <color #white><b>"re-usability & usability"|
 ====
 *<i><color #black><size:12>**Components:** "communication" with each other using "socket, shared memory, IPC, mail boxes or message queues"
 <i><color #black><size:12> **"components"** are **"linked"** <b>statically or dynamically.</b> E.g. <b>.Jar, DLL, etc.

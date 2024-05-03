@@ -51,10 +51,10 @@ caption <img:images/img_590.png>
 ****[#yellow] <size:12><color #black><i><b>Functional composition (like object composition in OOP)
 ****[#yellow] <size:12><color #black><i><b>Rules for purity:
 *****[#yellow] *<size:12><color #black><i>The function does not mutate or change anything that is visible from the outside \n* <size:12><color #black><i>The function does not depend on anything from outside that may/possibly change
-****[#a]:=<i><color:darkorange>[[docs/3-programming-languages/Venkat-Subramaniam/Exception-Handling-in-Functional-and-Reactive-Programming.puml Exception Handling:]]</color> is an imperative style programming idea.
-<size:18> <i>FP & Exception handling are __mutually exclusive.__ Do not throw exceptions
-<size:18> <i>in FP. Treat __"Errors"__ as a form of __"Data"__ and deal with them __"downstream"__;
+****[#a]:<size:21><i><color:darkorange>**[[docs/3-programming-languages/Venkat-Subramaniam/Exception-Handling-in-Functional-and-Reactive-Programming.puml Exception Handling:]]**</color> <color #black>is an imperative style programming idea.
+<size:18><color #black> <i>FP & Exception handling are __mutually exclusive.__ Do not throw exceptions
+<size:18><color #black> <i>in FP. Treat __"Errors"__ as a form of __"Data"__ and deal with them __"downstream"__;
 
-***[#green] <size:16><color #white><i> <color :white>Functional Programming = Functional Composition + Leazy evaluation
+***[#green] <size:16><color #white><i> <color :white>Functional Programming = Functional Composition + Lazy evaluation
 ***[#green] <size:16><color #white><i> <color :white><b>[[docs/3-programming-languages/Venkat-Subramaniam/Asynchronous-Programming-in-Java-Options-to-Choose-from.puml Functional Reactive Programming]]</b> = Functional Programming++
 @endmindmap

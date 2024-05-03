@@ -5,13 +5,13 @@ title =<i><b><u> Deployment Size
 *[#darkblue] <i><color #white>Deployment Size
 **[#lightblue] <i><color #black><size:12>Definition
 ***[#green] <b><i><color #white><size:12>Small-Scale Deployments
-****[#yellow] <i><color #black><size:12>Limited Scope and Resources
+****[#yellow] <i><color #black><size:12>Limited **Scope** and Resources
 ****[#yellow] <i><color #black><size:12>Compact Infrastructure
 ***[#green] <b><i><color #white><size:12>Medium-Scale Deployments
-****[#yellow] <i><color #black><size:12>Moderate Scope and Resources
+****[#yellow] <i><color #black><size:12>Moderate **Scope** and Resources
 ****[#yellow] <i><color #black><size:12>Balanced Infrastructure
 ***[#green] <b><i><color #white><size:12>Large-Scale Deployments
-****[#yellow] <i><color #black><size:12>Extensive Scope and Resources
+****[#yellow] <i><color #black><size:12>Extensive **Scope** and Resources
 ****[#yellow] <i><color #black><size:12>Complex Infrastructure
 **[#lightblue] <i><color #black><size:12>Characteristics
 ***[#green] <b><i><color #white><size:12>Small-Scale
@@ -82,13 +82,13 @@ title =<i><b><u> Deployment Size
 ***[#green] <b><i><color #white><size:12>Small-Scale
 ****[#yellow] <i><color #black><size:12>Limited Maintenance Overhead
 ****[#yellow] <i><color #black><size:12>Limited Scaling Needs
-****[#yellow] <i><color #black><size:12><b>Quick Deployment
+****[#lime] <i><color #black><size:12><b>Quick Deployment
 ***[#green] <b><i><color #white><size:12>Medium-Scale
 ****[#yellow] <i><color #black><size:12>Balancing Costs and Resources
 ****[#yellow] <i><color #black><size:12>Planning for Growth and Scalability
-****[#yellow] <i><color #black><size:12>Resource Optimization
+****[#lime] <i><color #black><size:12><b>Resource Optimization
 ***[#green] <b><i><color #white><size:12>Large-Scale
 ****[#gold] <i><color #black><size:12><b>Extensive Maintenance Requirements
 ****[#yellow] <i><color #black><size:12>Advanced Planning for Scaling
-****[#yellow] <i><color #black><size:12>Robust Infrastructure and Support
+****[#lime] <i><color #black><size:12><b>Robust Infrastructure and Support
 @endmindmap
