@@ -1,83 +1,84 @@
 @startmindmap
-title =<b><i>__Deep Learning__
+title =<b><i>__<size:18>Deep Learning__
+caption <img:../../../../docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/44-Program-vs-ML-model.png>
 !theme hacker
 
-*[#darkblue] <size:14><i>Deep Learning
-**[#lightblue] <size:14><i>Definition
+*[#darkblue] <color #white><i>Deep Learning
+**[#lightblue] <size:12><i>Definition
 ***[#green] <i><color #white><size:21>**Deep Learning** is a __subset of machine learning__ that __focuses on **[[Neural-Network-Architecture.puml neural networks]]** with multiple layers **[[Neural-Network-Architecture.puml (deep neural networks)]]**__ \n<i><size:21><color #white>to __model and solve complex tasks by learning **representations** from **data.**__
 
-**[#lightblue] <size:14><i>Key Concepts
-***[#green] <color #white><b><size:14><i>Artificial Neural Networks **(ANN)**
-****[#yellow] <i><color #black><size:14>A computational model inspired by the human brain, consisting of interconnected nodes **(neurons)**.
-***[#green] <color #white><b><size:14><i>Deep Neural Networks **(DNN)**
-****[#yellow] <i><color #black><size:14>Neural networks with multiple hidden layers for increased complexity.
-***[#green] <color #white><b><size:14><i>Backpropagation
-****[#yellow] <i><color #black><size:14>A training algorithm for updating neural network weights.
-***[#green] <color #white><b><size:14><i>Activation Functions
-****[#yellow] <i><color #black><size:14>Functions applied to neurons to introduce non-linearity.
-***[#green] <color #white><b><size:14><i>Convolutional Neural Networks **(CNN)**
-****[#yellow] <i><color #black><size:14>Specialized for image and spatial data.
-***[#green] <color #white><b><size:14><i>Recurrent Neural Networks **(RNN)**
-****[#yellow] <i><color #black><size:14>Designed for sequential and time-series data.
-***[#green] <color #white><b><size:14><i>Long Short-Term Memory **(LSTM)**
-****[#yellow] <i><color #black><size:14>A type of RNN designed for capturing long-range dependencies.
-***[#green] <color #white><b><size:14><i>Gated Recurrent Unit **(GRU)**
-****[#yellow] <i><color #black><size:14>A simpler variant of LSTM for sequence modeling.
+**[#lightblue] <size:12><i>Key Concepts
+***[#green] <color #white><b><size:12><i>Artificial Neural Networks **(ANN)**
+****[#yellow] <i><color #black><size:12>A computational model inspired by the human brain, consisting of interconnected nodes **(neurons)**.
+***[#green] <color #white><b><size:12><i>Deep Neural Networks **(DNN)**
+****[#yellow] <i><color #black><size:12>Neural networks with multiple hidden layers for increased complexity.
+***[#green] <color #white><b><size:12><i>Backpropagation
+****[#yellow] <i><color #black><size:12>A training algorithm for updating neural network weights.
+***[#green] <color #white><b><size:12><i>Activation Functions
+****[#yellow] <i><color #black><size:12>Functions applied to neurons to introduce non-linearity.
+***[#green] <color #white><b><size:12><i>Convolutional Neural Networks **(CNN)**
+****[#yellow] <i><color #black><size:12>Specialized for image and spatial data.
+***[#green] <color #white><b><size:12><i>Recurrent Neural Networks **(RNN)**
+****[#yellow] <i><color #black><size:12>Designed for sequential and time-series data.
+***[#green] <color #white><b><size:12><i>Long Short-Term Memory **(LSTM)**
+****[#yellow] <i><color #black><size:12>A type of RNN designed for capturing long-range dependencies.
+***[#green] <color #white><b><size:12><i>Gated Recurrent Unit **(GRU)**
+****[#yellow] <i><color #black><size:12>A simpler variant of LSTM for sequence modeling.
 ***[#green] <i><color #white><size:18><b>[[Model-Fine-Tuning.puml Transfer Learning]]
-****[#white] <i><color #black><size:14>**Reusing pre-trained models for new tasks.**
-***[#green] <color #white><b><size:14><i>Generative Adversarial Networks **(GANs)**
-****[#yellow] <i><color #black><size:14>Models for generating data and images.
-***[#green] <color #white><b><size:14><i>Autoencoders
-****[#yellow] <i><color #black><size:14>Neural networks used for dimensionality reduction and feature learning.
-***[#green] <color #white><b><size:14><i>Neural Architecture Search **(NAS)**
-****[#yellow] <i><color #black><size:14>Automating the design of neural network architectures.
+****[#white] <i><color #black><size:12>**Reusing pre-trained models for new tasks.**
+***[#green] <color #white><b><size:12><i>Generative Adversarial Networks **(GANs)**
+****[#yellow] <i><color #black><size:12>Models for generating data and images.
+***[#green] <color #white><b><size:12><i>Autoencoders
+****[#yellow] <i><color #black><size:12>Neural networks used for dimensionality reduction and feature learning.
+***[#green] <color #white><b><size:12><i>Neural Architecture Search **(NAS)**
+****[#yellow] <i><color #black><size:12>Automating the design of neural network architectures.
 
-**[#lightblue] <size:14><i>Deep Learning Frameworks
-***[#green] <color #white><b><size:14><i>TensorFlow
-****[#yellow] <i><color #black><size:14>An open-source framework developed by Google for deep learning and machine learning.
-***[#green] <color #white><b><size:14><i>PyTorch
-****[#yellow] <i><color #black><size:14>An open-source deep learning framework developed by Facebook's AI Research lab.
-***[#green] <color #white><b><size:14><i>Keras
-****[#yellow] <i><color #black><size:14>A high-level neural networks API running on top of TensorFlow and others.
-***[#green] <color #white><b><size:14><i>Caffe
-****[#yellow] <i><color #black><size:14>A deep learning framework particularly useful for image classification.
-***[#green] <color #white><b><size:14><i>MXNet
-****[#yellow] <i><color #black><size:14>A flexible deep learning framework for both symbolic and imperative programming.
+**[#lightblue] <size:12><i>Deep Learning Frameworks
+***[#green] <color #white><b><size:12><i>TensorFlow
+****[#yellow] <i><color #black><size:12>An open-source framework developed by Google for deep learning and machine learning.
+***[#green] <color #white><b><size:12><i>PyTorch
+****[#yellow] <i><color #black><size:12>An open-source deep learning framework developed by Facebook's AI Research lab.
+***[#green] <color #white><b><size:12><i>Keras
+****[#yellow] <i><color #black><size:12>A high-level neural networks API running on top of TensorFlow and others.
+***[#green] <color #white><b><size:12><i>Caffe
+****[#yellow] <i><color #black><size:12>A deep learning framework particularly useful for image classification.
+***[#green] <color #white><b><size:12><i>MXNet
+****[#yellow] <i><color #black><size:12>A flexible deep learning framework for both symbolic and imperative programming.
 
-**[#lightblue] <size:14><i>Applications
-***[#green] <color #white><b><size:14><i>Image Recognition
-****[#yellow] <i><color #black><size:14>Identifying objects, faces, and patterns in images or **(Object detection, image classification, and image generation.)**
-***[#green] <color #white><b><size:14><i>Natural Language Processing **(NLP)**
-****[#yellow] <i><color #black><size:14>Language understanding and generation **(Language understanding, translation, sentiment analysis, and chatbots.)**
-***[#green] <color #white><b><size:14><i>Speech Recognition
-****[#yellow] <i><color #black><size:14>Converting spoken language into text and voice assistants.
-***[#green] <color #white><b><size:14><i>Autonomous Vehicles
-****[#yellow] <i><color #black><size:14>Self-driving cars and drones.
-***[#green] <color #white><b><size:14><i>Healthcare
-****[#yellow] <i><color #black><size:14>Medical image analysis, disease diagnosis, and drug discovery.
+**[#lightblue] <size:12><i>Applications
+***[#green] <color #white><b><size:12><i>Image Recognition
+****[#yellow] <i><color #black><size:12>Identifying objects, faces, and patterns in images or **(Object detection, image classification, and image generation.)**
+***[#green] <color #white><b><size:12><i>Natural Language Processing **(NLP)**
+****[#yellow] <i><color #black><size:12>Language understanding and generation **(Language understanding, translation, sentiment analysis, and chatbots.)**
+***[#green] <color #white><b><size:12><i>Speech Recognition
+****[#yellow] <i><color #black><size:12>Converting spoken language into text and voice assistants.
+***[#green] <color #white><b><size:12><i>Autonomous Vehicles
+****[#yellow] <i><color #black><size:12>Self-driving cars and drones.
+***[#green] <color #white><b><size:12><i>Healthcare
+****[#yellow] <i><color #black><size:12>Medical image analysis, disease diagnosis, and drug discovery.
 
-**[#lightblue] <size:14><i>Challenges
-***[#green] <color #white><b><size:14><i>Data Quantity
-****[#yellow] <i><color #black><size:14>Deep learning often requires large datasets for training.
-***[#green] <color #white><b><size:14><i>Model Complexity
-****[#yellow] <i><color #black><size:14>Designing, training, and optimizing deep models is challenging.
+**[#lightblue] <size:12><i>Challenges
+***[#green] <color #white><b><size:12><i>Data Quantity
+****[#yellow] <i><color #black><size:12>Deep learning often requires large datasets for training.
+***[#green] <color #white><b><size:12><i>Model Complexity
+****[#yellow] <i><color #black><size:12>Designing, training, and optimizing deep models is challenging.
 ***[#green] <color #white><b><size:18><i>Hardware Resources
-****[#yellow] <i><color #black><size:14><b>Powerful GPUs, TPUs, and "distributed computing" for deep learning are often needed
+****[#yellow] <i><color #black><size:12><b>Powerful GPUs, TPUs, and "distributed computing" for deep learning are often needed
 ***[#pink] <i><color #black><size:18>**Overfitting**
-****[#white] <i><color #black><size:14>**Preventing __models__ from "memorizing" __data__ instead of __learning__.**
+****[#white] <i><color #black><size:12>**Preventing __models__ from "memorizing" __data__ instead of __learning__.**
 
-**[#lightblue] <size:14><i>Best Practices
-***[#green] <color #white><b><size:14><i>Data Augmentation
-****[#yellow] <i><color #black><size:14>Creating more training data through transformations.
-***[#pink] <i><color #black><size:14>**Regularization**
-****[#yellow] <i><color #black><size:14>**Techniques like "dropout" to prevent "overfitting".**
+**[#lightblue] <size:12><i>Best Practices
+***[#green] <color #white><b><size:12><i>Data Augmentation
+****[#yellow] <i><color #black><size:12>Creating more training data through transformations.
+***[#pink] <i><color #black><size:12>**Regularization**
+****[#yellow] <i><color #black><size:12>**Techniques like "dropout" to prevent "overfitting".**
 ***[#darkorange] <i><color #black><size:16><b>[[Hyperparameter-Tuning.puml Hyperparameter Tuning]]
-****[#yellow] <i><color #black><size:14>Fine-tuning model parameters for optimal performance.
+****[#yellow] <i><color #black><size:12>Fine-tuning model parameters for optimal performance.
 ***[#green] <i><color #white><size:18><b>[[Model-Fine-Tuning.puml Transfer Learning]]
-****[#yellow] <i><color #black><size:14>**Leveraging pre-trained models for new tasks.**
-***[#green] <color #white><b><size:14><i>Deep Learning Research
-****[#yellow] <i><color #black><size:14>Staying up-to-date with the latest research and developments.
-***[#green] <color #white><b><size:14><i>[[how-to/Model-Explainability.puml Model Interpretability]]
-****[#yellow] <i><color #black><size:14>Making complex models interpretable and explainable.
+****[#yellow] <i><color #black><size:12>**Leveraging pre-trained models for new tasks.**
+***[#green] <color #white><b><size:12><i>Deep Learning Research
+****[#yellow] <i><color #black><size:12>Staying up-to-date with the latest research and developments.
+***[#green] <color #white><b><size:12><i>[[how-to/Model-Explainability.puml Model Interpretability]]
+****[#yellow] <i><color #black><size:12>Making complex models interpretable and explainable.
 
 @endmindmap

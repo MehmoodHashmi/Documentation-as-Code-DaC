@@ -1,74 +1,74 @@
 @startmindmap
 title =<b><i><u><size:18>Modern Machine Learning \n|<img:images/img_2.png{scale=.9}>|<img:images/img_23.png{scale=.644}>|<img:images/23-data-and-instructions-or-OOP.png{scale=.666}>|
-caption <img:images/img_22.png{scale=1}>
+caption |<img:images/img_22.png{scale=1}>|\n|<img:../../../docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/44-Program-vs-ML-model.png>|
 !theme hacker
 
-*[#darkblue] <color #white><i>Modern Machine \n<color #white><i>Learning
-**[#lightblue] <size:14><i>Definition
-***[#green] <color #white><i><size:14><i>**Modern Machine Learning** __refers__ to the **current state of machine learning,** which incorporates **advanced techniques and methodologies to build and deploy intelligent systems.**
+*[#darkblue] <color #white><i>Modern Machine <i>Learning \n<img:images/img_24.png{scale=1}>
+**[#lightblue] <size:12><i>Definition
+***[#green] <color #white><i><size:12><i>**Modern Machine Learning** __refers__ to the **current state of machine learning,** which incorporates **advanced techniques and methodologies to build and deploy intelligent systems.**
 
-**[#lightblue] <size:14><i>Key Concepts
+**[#lightblue] <size:12><i>Key Concepts
 ***[#green] <size:22><color #white><i>**[[3-deep-learning-DL/Deep-Learning.puml Deep Learning]]**
-****[#yellow] <color #black><i><size:14>Neural networks with multiple layers for complex tasks.
+****[#yellow] <color #black><i><size:12>Neural networks with multiple layers for complex tasks.
 ***[#green] <i><size:22><b><color #white>Transfer Learning
-****[#white] <i><size:14>**Leveraging pre-trained models for new tasks.**
-***[#green] <b><color #white><i><size:14>Reinforcement Learning
-****[#yellow] <color #black><i><size:14>Learning through interaction and rewards.
+****[#white] <i><size:12>**Leveraging pre-trained models for new tasks.**
+***[#green] <b><color #white><i><size:12>Reinforcement Learning
+****[#yellow] <color #black><i><size:12>Learning through interaction and rewards.
 ***[#green] <b><color #white><i><size:22>[[3-deep-learning-DL/how-to/Model-Explainability.puml Explainable AI (XAI)]]
-****[#yellow] <color #black><i><size:14>Making machine learning models interpretable and explainable.
-***[#green] <b><color #white><i><size:14>AutoML **(Automated Machine Learning)**
-****[#yellow] <color #black><i><size:14>Automation of the machine learning process.
-***[#green] <b><color #white><i><size:14>Federated Learning
-****[#yellow] <color #black><i><size:14>Training models on decentralized data.
-***[#green] <b><color #white><i><size:14>GANs **(Generative Adversarial Networks)**
-****[#yellow] <color #black><i><size:14>Models for generating data, images, and more.
+****[#yellow] <color #black><i><size:12>Making machine learning models interpretable and explainable.
+***[#green] <b><color #white><i><size:12>AutoML **(Automated Machine Learning)**
+****[#yellow] <color #black><i><size:12>Automation of the machine learning process.
+***[#green] <b><color #white><i><size:12>Federated Learning
+****[#yellow] <color #black><i><size:12>Training models on decentralized data.
+***[#green] <b><color #white><i><size:12>GANs **(Generative Adversarial Networks)**
+****[#yellow] <color #black><i><size:12>Models for generating data, images, and more.
 ***[#green] <size:18><color #white><i>**Edge Computing**
-****[#yellow] <color #black><i><size:14>Running machine learning models on __**edge devices**__ **(e.g. mobile, laptop, ipad, IoT).**
+****[#yellow] <color #black><i><size:12>Running machine learning models on __**edge devices**__ **(e.g. mobile, laptop, ipad, IoT).**
 
 **[#lightblue] <size:22><i>Machine Learning Libraries and Frameworks
 ***[#green] <b><color #white><i><size:22>[[tensorflow-by-google/tensorflow.puml TensorFlow]]
-****[#yellow] <color #black><i><size:14>An open-source deep learning framework developed by **Google.**
-***[#green] <b><color #white><i><size:14>PyTorch
-****[#yellow] <color #black><i><size:14>An open-source deep learning framework developed by **Facebook.**
+****[#yellow] <color #black><i><size:12>An open-source deep learning framework developed by **Google.**
+***[#green] <b><color #white><i><size:12>PyTorch
+****[#yellow] <color #black><i><size:12>An open-source deep learning framework developed by **Facebook.**
 ***[#green] <size:18><color #white><i>**Scikit-Learn**
-****[#yellow] <color #black><i><size:14>A popular library for **classical machine learning algorithms.**
-***[#green] <b><color #white><i><size:14>XGBoost
-****[#yellow] <color #black><i><size:14>A gradient boosting framework for efficient tree-based models.
+****[#yellow] <color #black><i><size:12>A popular library for **classical machine learning algorithms.**
+***[#green] <b><color #white><i><size:12>XGBoost
+****[#yellow] <color #black><i><size:12>A gradient boosting framework for efficient tree-based models.
 
-**[#lightblue] <size:14><i>Applications
-***[#green] <b><color #white><i><size:14>Computer Vision
-****[#yellow] <color #black><i><size:14>Object detection, image classification, and more.
-***[#green] <b><color #white><i><size:14>Natural Language Processing **(NLP)**
-****[#yellow] <color #black><i><size:14>Language understanding, translation, and sentiment analysis.
-***[#green] <b><color #white><i><size:14>Recommender Systems
-****[#yellow] <color #black><i><size:14>Personalized recommendations in e-commerce and content platforms.
-***[#green] <b><color #white><i><size:14>Healthcare
-****[#yellow] <color #black><i><size:14>Medical image analysis and diagnosis.
-***[#green] <b><color #white><i><size:14>Autonomous Vehicles
-****[#yellow] <color #black><i><size:14>Self-driving cars and drones.
+**[#lightblue] <size:12><i>Applications
+***[#green] <b><color #white><i><size:12>Computer Vision
+****[#yellow] <color #black><i><size:12>Object detection, image classification, and more.
+***[#green] <b><color #white><i><size:12>Natural Language Processing **(NLP)**
+****[#yellow] <color #black><i><size:12>Language understanding, translation, and sentiment analysis.
+***[#green] <b><color #white><i><size:12>Recommender Systems
+****[#yellow] <color #black><i><size:12>Personalized recommendations in e-commerce and content platforms.
+***[#green] <b><color #white><i><size:12>Healthcare
+****[#yellow] <color #black><i><size:12>Medical image analysis and diagnosis.
+***[#green] <b><color #white><i><size:12>Autonomous Vehicles
+****[#yellow] <color #black><i><size:12>Self-driving cars and drones.
 
-**[#lightblue] <size:14><i>Challenges
-***[#green] <b><color #white><i><size:14>Data Quality and Quantity
-****[#yellow] <color #black><i><size:14>Obtaining and preparing high-quality data.
+**[#lightblue] <size:12><i>Challenges
+***[#green] <b><color #white><i><size:12>Data Quality and Quantity
+****[#yellow] <color #black><i><size:12>Obtaining and preparing high-quality data.
 ***[#green] <b><color #white><i><size:18>[[3-deep-learning-DL/how-to/Model-Explainability.puml Model Interpretability]]
-****[#yellow] <color #black><i><size:14>Making complex models understandable.
-***[#green] <b><color #white><i><size:14>Ethical Concerns
-****[#yellow] <color #black><i><size:14>Addressing bias, fairness, and privacy.
+****[#yellow] <color #black><i><size:12>Making complex models understandable.
+***[#green] <b><color #white><i><size:12>Ethical Concerns
+****[#yellow] <color #black><i><size:12>Addressing bias, fairness, and privacy.
 ***[#green] <size:18><color #white><i>**Scalability**
-****[#yellow] <color #black><i><size:14>Scaling machine learning to handle big data.
-***[#green] <b><color #white><i><size:14>Hardware Resources
-****[#yellow] <color #black><i><size:14>**GPUs, TPUs, and distributed computing for training.**
+****[#yellow] <color #black><i><size:12>Scaling machine learning to handle big data.
+***[#green] <b><color #white><i><size:12>Hardware Resources
+****[#yellow] <color #black><i><size:12>**GPUs, TPUs, and distributed computing for training.**
 
-**[#lightblue] <size:14><i>Best Practices
-***[#green] <b><size:14><color #white><i>**Data Preprocessing**
-****[#yellow] <color #black><i><size:14>Cleaning, transforming, and augmenting data.
+**[#lightblue] <size:12><i>Best Practices
+***[#green] <b><size:12><color #white><i>**Data Preprocessing**
+****[#yellow] <color #black><i><size:12>Cleaning, transforming, and augmenting data.
 ***[#green] <i><size:18>**[[3-deep-learning-DL/how-to/Criteria-to-Select-a-Network-Architecture.puml Model Selection]]**
-****[#yellow] <color #black><i><size:14>Choosing the right algorithms and architectures.
+****[#yellow] <color #black><i><size:12>Choosing the right algorithms and architectures.
 ***[#green] <i><size:18>**[[3-deep-learning-DL/Hyperparameter-Tuning.puml Hyperparameter Tuning]]**
-****[#yellow] <color #black><i><size:14>Optimizing model parameters.
+****[#yellow] <color #black><i><size:12>Optimizing model parameters.
 ***[#green] <b><color #white><i><size:18>[[Model-Evaluation.puml Model Evaluation]]
-****[#yellow] <color #black><i><size:14>Properly assessing model performance.
-***[#green] <b><color #white><i><size:14>Ethical AI
-****[#yellow] <color #black><i><size:14>Ensuring fairness, transparency, and privacy in AI systems.
+****[#yellow] <color #black><i><size:12>Properly assessing model performance.
+***[#green] <b><color #white><i><size:12>Ethical AI
+****[#yellow] <color #black><i><size:12>Ensuring fairness, transparency, and privacy in AI systems.
 
 @endmindmap
