@@ -10,9 +10,9 @@ title =<i><b><size:18>Prototyping\n|<img:images/img.jpg{scale=.56}>|<img:images/
 ***[#green] <i><color #white><size:12>**Prototyping** is the process of creating a preliminary model or sample of a product or system to visualize its design, test its functionality, and gather feedback before the final product is developed.
 
 **[#lightblue] <i><color #black><size:12>Types of Prototypes
-***[#green] <i><color #white><size:12><b>Throwaway Prototypes
+***[#green] |<#grey><i><color #white><size:12><b>Throwaway Prototypes|
 ****[#yellow] <i><color #black><size:12>Used for exploring design ideas and functionality without the intention of being part of the final product.
-***[#green] <i><color #white><size:12><b>Evolutionary Prototypes
+***[#green] |<#red><i><color #white><size:12><b>Evolutionary Prototypes|
 ****[#yellow] <i><color #black><size:12>Developed incrementally, with each iteration building on the previous one, often becoming part of the final product.
 
 **[#lightblue] <i><color #black><size:12>Benefits
