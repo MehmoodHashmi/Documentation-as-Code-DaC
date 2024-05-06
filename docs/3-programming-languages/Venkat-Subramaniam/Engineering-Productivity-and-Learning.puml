@@ -8,8 +8,9 @@ title =<i><b><u><size:18>Engineering, Productivity & Learning Venkat's Interview
 **[#lightblue] <i><color #black><size:12>Introduction into Venkat's Journey
 ***[#yellow]:<i><color #black><size:12>I'm generalist, I'm a problem solver. I usually go one level below the level of abstraction to understand how things work & why they work.
 <i><color #black><size:12>So, I share this information of how & why things work in my talks & while teaching others;
-***[#black] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_396.png Having very specialized or narrow knowledge in software development limits your interaction with others or "stakeholders".]] \n<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_245.png Knowledge Triangle]]
-***[#yellow] <i><color #black><size:12>Not Learning the **API** instead taking time to learn why the API exists the way it is. And then asking questions what is good about it and what can be improved? What are it's deficiencies
+***[#black] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_396.png Having very specialized or narrow knowledge in software development limits your interaction with others or "stakeholders".]]
+****[#grey] *<b><i><color #black><size:12><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_245.png Knowledge Triangle]]
+***[#yellow] <i><color #black><size:12>Not Learning the **API** instead taking time to learn **why the API exists** the way it is. And then asking questions what is good about it and what can be improved? What are it's deficiencies
 
 **[#lightblue] <i><color #black><size:12>How is Venkat able to do so many things?
 ***[#yellow] <i><color #black><size:12>Support from the family & understanding
@@ -28,9 +29,10 @@ title =<i><b><u><size:18>Engineering, Productivity & Learning Venkat's Interview
 <i><color #black><size:12><b>1) Relationship (friends & relatives)
 <i><color #black><size:12><b>2) Wealth (Am I financially free? When I get up in the morning am I forced to work? Can I stay at home and do nothing?)
 <i><color #black><size:12><b>3) Health (healthy food & exercise);
-****[#gold]:*<i><color #black><size:12>**Analysis paralysis** is overflow of information (& leads to no **action**)
-*<i><color #black><size:12>**Analysis paralysis** comes from **uncertainty** (is when someone else from **outside** controls your actions which are in your **area of influence**)
-*<i><color #black><size:12>**Analysis paralysis** is overthinking (or loop thinking, dead loop of thought or idea);
+****[#gold]  <i><color #black><size:12>**Analysis paralysis:**
+*****[#yellow]:*<i><color #black><size:12>is overflow of information (& leads to no **action**)
+*<i><color #black><size:12><i><color #black><size:12>comes from **uncertainty** (is when someone else from **outside** controls your actions which are in your **area of influence**)
+*<i><color #black><size:12><i><color #black><size:12>is overthinking (or loop thinking, dead loop of thought or idea);
 
 ****[#darkorange]:<i><color #black><size:12>**Study, research & analyze a "problem domain"** via asking questions in **Breadth-First Search fashion** until you get enough information to decide if it is worth digging in more or not so.
 <i><color #black><size:12>I could use **Depth-First Search** approach as well. **Breadth-First Search fashion** helps you maintain **abstraction** by avoiding knowing everything in detail in <b>first interaction. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_245.png click me]];
@@ -52,7 +54,7 @@ title =<i><b><u><size:18>Engineering, Productivity & Learning Venkat's Interview
 <i><color #black><size:13>Instead simple **three layer architecture** is enough. E.g. <b>[[docs/3-programming-languages/clean-architecture/archunit.adoc use ArchUnit]] to enforce the layers
 *<i><color #black><size:13><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/DDD-and-subdomain-classification.html DDD & subdomain classification (Generic Subdomain, Core Subdomains, & Supporting Subdomains)]] this .html file open in browser
 **<i><color #black><size:13><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/DDD-and-questions.drawio.png Use DDD or not; answer the following  questions]];
-***[#green]:<i><color #white><b><size:12>Talk to your clients, users, and customers & find out what they want & why they want it. And see what you can do to achieve that.
+***[#green]:|<#grey><i><color #white><b><size:12>Talk to your clients, users, and customers & find out what they want & why they want it. And see what you can do to achieve that.|
 *<i><color #white><b><size:12>When you step into the company's building ask yourself What is your worth for this company?
 *<i><color #white><b><size:12>Raise the bar, raise the competency of your team.
 *<i><color #white><b><size:12>I don't want to be perfect. Perfection is a goal hard to achieve. But I want to be better everyday or better than yesterday.;

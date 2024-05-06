@@ -3,8 +3,8 @@ title =<b><i><u><size:18>Know Your Java
 !theme hacker
 
 *[#darkblue] <i>Know your java
-**[#lightblue] <i>Things "compiler" does not tell\n you when they are "wrong"
-***[#green] <size:12><color #white><i><b>Error
+**[#lightblue] <i>Things "compiler" does not tell \n<i>you when they are "wrong"
+***[#green] <size:12><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_715.png Error]]
 ****[#yellow] <size:12><color #black><i>Compile-time errors <b>(easy to trace & fix)
 ****[#yellow] <size:12><color #black><i>Link-time errors <b>(hard to trace & fix)
 ****[#yellow] <size:12><color #black><i>Runtime errors <b>(hardest to trace & fix)
@@ -29,9 +29,10 @@ title =<b><i><u><size:18>Know Your Java
 *****[#gold] <size:12><color #black><i>Do not use it like e.g. <b>var name = List<Integer> <size:18><&circle-x>
 ***[#green] <size:12><color #white><i><b>Loop
 ****[#yellow] <size:12><color #black><i>Internal (on autopilot) <b>e.g. foreach
-*****[#gold] <size:12><color #black><i>__Sharing variables__ is not bad <b>(if encapsulated)
-*****[#gold] <size:12><color #black><i>__Mutating variables__ is not bad either <b>(if encapsulated)
-*****[#gold] <size:12><color #black><i>But __Sharing + Mutating variables__ = bad approach <b>(Devils work)
+*****[#gold]:*<size:12><color #black><i>__Sharing variables__ is not bad <b>(if encapsulated)
+*<size:12><color #black><i>__Mutating variables__ is not bad either <b>(if encapsulated)
+*<size:12><color #black><i>But __Sharing + Mutating variables__ = bad approach <b>(Devil's work);
+
 ****[#yellow] <size:12><color #black><i>External (you manage) <b>e.g. for(i =0; i < size; i++)
 ***[#green] <size:22><color #white><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Streams.puml Stream]]
 ****[#yellow] <size:12><color #black><i>map, filter, reduce
@@ -42,8 +43,9 @@ title =<b><i><u><size:18>Know Your Java
 ****[#yellow] <size:12><color #black><i>In languages like "Javascript" the execution of "stream" is <b>eager</b> all the time unless the you use 3rd party libraries libraries
 ****[#yellow] <size:12><color #black><i><b>Semantics matter
 ****[#yellow] <size:12><color #black><i><b>Stream Execution:
-*****[#gold] <size:12><color #black><i><b>Sequential </b>(lazy or eager)
-*****[#gold] <size:12><color #black><i><b>Parallel </b>(lazy or eager)
+*****[#gold]:*<size:12><color #black><i><b>Sequential </b>(lazy or eager)
+*<size:12><color #black><i><b>Parallel </b>(lazy or eager);
+
 ****[#yellow] <size:12><color #black><i><b>Functional Programming
 *****[#gold]:*<size:12><color #black><i>**FP:** relies on "lazy evaluation" for <b>"efficiency"
 *<size:12><color #black><i>**"lazy evaluation"** relies on **"purity of functions"** for <b>"correctness"
@@ -66,13 +68,16 @@ title =<b><i><u><size:18>Know Your Java
 ****[#yellow] <size:12><color #black><i>Immutable data or collections <b>(are safe to copy & share)
 ****[#yellow] <size:12><color #black><i>Domain Driven Design **(DDD)** "value objects" are expected to be immutable!
 ***[#green] <size:12><color #white><i><b>Statement vs Expression
+
 ****[#yellow] <size:12><color #black><i><b>Statement:</b> Perform **action** but do not **return** anything, causes side-effects (mutability)
-*****[#yellow] <size:12><color #black><i>Verbose
-*****[#yellow] <size:12><color #black><i>Error prone
+*****[#gold]:*<size:12><color #black><i>Verbose
+*<size:12><color #black><i>Error prone;
+
 ****[#yellow] <size:12><color #black><i><b>Expression:
-*****[#yellow] <size:12><color #black><i>Concise
-*****[#yellow] <size:12><color #black><i>less error prone
-*****[#yellow] <size:12><color #black><i>no side-effects (immutable)
+*****[#gold]:*<size:12><color #black><i>Concise
+*<size:12><color #black><i>less error prone
+*<size:12><color #black><i>no side-effects (immutable);
+
 ***[#green] <size:12><color #white><i><b>Functional
 ****[#yellow] *<size:12><color #black><i>{1, 2 ,3, 4, 5, 6, 7, 8, 9, 10} <b>is flatten\n*<size:12><color #black><i>{[1,2], [3,4], [5,6], [7,8], [9,10]} <b>is bloated
 ****[#yellow] *<size:12><color #black><i>One to one --> use "map"\n*<size:12><color #black><i>One to many --> use "flatmap"
