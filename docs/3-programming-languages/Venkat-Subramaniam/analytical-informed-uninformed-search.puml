@@ -1,0 +1,49 @@
+@startmindmap
+title = <i><size:18>Search algorithms (analytical, informed, and uninformed)
+caption |<img:images/img_829.png{scale=.7}>|<img:images/img_865.png{scale=.7}>|<img:images/img_866.png{scale=1}>|
+
+!theme hacker
+
+*[#darkblue] <color #white><i>Search \n<i>algorithms
+**[#lightblue] <i><size:12>1- Analytical Search Algorithms:
+
+***[#yellow]:*<color #black><i><size:12>use **mathematical or logical techniques** to systematically explore a **problem space** and find a <b>solution.
+*<color #black><i><size:12>These algorithms typically rely on **rigorous analysis** and often guarantee <b>optimality or completeness.;
+***[#green] <b><i><size:12><color #white>Examples:
+****[#yellow]:*<color #black><i><size:12>Dynamic programming
+**<color #black><i><size:12>We study & analyze Problems in DP mostly using <b>recursive formulas
+*<color #black><i><size:12>Linear programming
+*<color #black><i><size:12>Branch and bound algorithms;
+
+*****[#gold] <color #black><i><size:12>**Analytical search algorithms** are efficient but may not be suitable for problems \n<color #black><i><size:12>with large or complex problem spaces.
+
+**[#lightblue] <i><size:12>Traditional search algorithms used in \n<i><size:12>artificial intelligence or optimization
+***[#a] <i><size:12><b>2- Uninformed Search Algorithms:
+****[#yellow]:*<color #black><i><size:12>also known as **blind search algorithms,** explore a **problem space** without any additional information about the **problem** beyond the **problem definition** itself.
+**<color #black><i><size:12>These algorithms do not use **heuristics or domain-specific knowledge** to guide the search process.;
+
+****[#green] <b><i><size:12><color #white>Examples:
+*****[#yellow]:*<color #black><i><size:12>Breadth-first search (BFS)
+**<color #black><i><size:12>Depth-first search (DFS)
+**<color #black><i><size:12>Uniform cost search.;
+******[#gold]:<color #black><i><size:12>**Uninformed search algorithms** are simple and easy to implement but may be **inefficient** for
+<color #black><i><size:12>**large problem spaces** or when the **solution** is located **deep** within the <b>search tree.;
+
+
+***[#a] <b><i><size:12>3- Informed Search Algorithms:
+****[#yellow]:*<color #black><i><size:12>also known as **heuristic search algorithms, use domain-specific knowledge or heuristics** to guide the search process towards the most promising areas of the <b>problem space.
+**<color #black><i><size:12>Unlike uninformed search algorithms, **informed search algorithms** have access to additional information that helps **prioritize** the exploration of the <b>search space.;
+****[#green] <b><i><size:12><color #white>Examples:
+*****[#yellow]:* <color #black><i><size:12>A* search
+*<color #black><i><size:12>Greedy best-first search
+*<color #black><i><size:12>Hill climbing;
+******[#gold]:<color #black><i><size:12>**Informed search algorithms** are often more efficient than **uninformed search algorithms,**
+<color #black><i><size:12>especially for complex problems, but they may not guarantee optimality or completeness in all cases.;
+
+***[#lightblue] <i><size:12><b>Conclusion:
+****[#yellow] *<color #black><i><size:12>So, the key distinction between informed & uninformed is  whether the search algorithm uses **additional knowledge (heuristic)** to guide its **search** or not.
+****[#yellow]:*<color #black><i><size:12>Each type of **search algorithm** has its **advantages and disadvantages**, and the **choice of algorithm** depends on factors such as the
+***<color #black><i><size:12><b>nature of the problem,
+***<color #black><i><size:12><b>the size of the problem space, and
+***<color #black><i><size:12><b>the availability of domain-specific knowledge.;
+@endmindmap
