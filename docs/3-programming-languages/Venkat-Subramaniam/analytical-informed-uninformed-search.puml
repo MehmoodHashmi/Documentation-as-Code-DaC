@@ -9,7 +9,7 @@ caption |<img:images/img_829.png{scale=.7}>|<img:images/img_865.png{scale=.7}>|<
 
 ***[#yellow]:*<color #black><i><size:12>use **mathematical or logical techniques** to systematically explore a **problem space** and find a <b>solution.
 *<color #black><i><size:12>These algorithms typically rely on **rigorous analysis** and often guarantee <b>optimality or completeness.;
-***[#green] <b><i><size:12><color #white>Examples:
+***[#green] <b><i><size:12><color #white>E.g.
 ****[#yellow]:*<color #black><i><size:12>Dynamic programming
 **<color #black><i><size:12>We study & analyze Problems in DP mostly using <b>recursive formulas
 *<color #black><i><size:12>Linear programming
@@ -22,7 +22,7 @@ caption |<img:images/img_829.png{scale=.7}>|<img:images/img_865.png{scale=.7}>|<
 ****[#yellow]:*<color #black><i><size:12>also known as **blind search algorithms,** explore a **problem space** without any additional information about the **problem** beyond the **problem definition** itself.
 **<color #black><i><size:12>These algorithms do not use **heuristics or domain-specific knowledge** to guide the search process.;
 
-****[#green] <b><i><size:12><color #white>Examples:
+****[#green] <b><i><size:12><color #white>E.g.
 *****[#yellow]:*<color #black><i><size:12>Breadth-first search (BFS)
 **<color #black><i><size:12>Depth-first search (DFS)
 **<color #black><i><size:12>Uniform cost search.;
@@ -30,10 +30,10 @@ caption |<img:images/img_829.png{scale=.7}>|<img:images/img_865.png{scale=.7}>|<
 <color #black><i><size:12>**large problem spaces** or when the **solution** is located **deep** within the <b>search tree.;
 
 
-***[#a] <b><i><size:12>3- Informed Search Algorithms:
+***[#a] <b><i><size:12>3- Informed \n<b><i><size:12>Search Algorithms:
 ****[#yellow]:*<color #black><i><size:12>also known as **heuristic search algorithms, use domain-specific knowledge or heuristics** to guide the search process towards the most promising areas of the <b>problem space.
 **<color #black><i><size:12>Unlike uninformed search algorithms, **informed search algorithms** have access to additional information that helps **prioritize** the exploration of the <b>search space.;
-****[#green] <b><i><size:12><color #white>Examples:
+****[#green] <b><i><size:12><color #white>E.g.
 *****[#yellow]:* <color #black><i><size:12>A* search
 *<color #black><i><size:12>Greedy best-first search
 *<color #black><i><size:12>Hill climbing;
