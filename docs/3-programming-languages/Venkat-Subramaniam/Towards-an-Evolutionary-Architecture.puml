@@ -177,7 +177,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 |<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_743.png 2- Sale value]]|<#red><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_746.png Closed Source & Bad Design]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_749.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_748.png 3]]|
 ==<i><color #black><size:12><b>After the rise of [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Modern Machine Learning]] ([[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Deep-Learning.puml & Deep Learning]])==
 *<i><color #black><size:12><b>Data [[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml (Big Data)]] has "value".;
-****[#darkorange]:*<i><color #black><size:12>""Program = **Data** + **instructions (Code)** on data""
+****[#darkorange]:|<#red><i><color #black><size:12>""Program = **Data** + **instructions (Code)** on data""|<#white><i><color #black><size:12>""Model = **Data** + **algorithm**""|
 *<i><color #black><size:12>In the beginning the movement was **Open Source "Code";** Nowadays **(in 2020)** the movement is <b>Open Source "Data" ([[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering/GDPR.puml GDPR]] & [[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering/HIPAA.puml HIPPA]]) compliant
 ==|<#a><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_750.png Reinventing the Wheel!]]|==
 <i><color #black><size:12>If I use your software then the "use value" of your software will increase. Why not write my own software so
@@ -257,7 +257,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ****[#yellow] *<i><color #black><size:12><b>Knowledge of software design & concerns
 ***[#green] <i><color #white><b><size:12>Three Kinds of people in \n<i><color #white><b><size:12>organization we work with:
 ****[#yellow] *<i><color #black><size:12><b>People with domain knowledge but no clue of Software design\n*<i><color #black><size:12>Too many in an organization
-****[#yellow] *<i><color #black><size:12><b>People with no clue of domain knowledge but with knowledge the Software design\n*<i><color #black><size:12>Too many in an organization
+****[#yellow] *<i><color #black><size:12><b>People with no clue of domain knowledge but with knowledge of the Software design\n*<i><color #black><size:12>Too many in an organization
 ****[#gold] *<i><color #black><size:18><b>People with domain knowledge & also knowledge of the Software design\n*<i><color #black><size:12>Very few in an organization
 
 *****[#a]:|<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_396.png Types of Software Engineers]]|<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_146.png Student, Intern, Professional]]|
@@ -271,7 +271,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 **[#lightblue] <i><color #black><size:22>Postel's law
 ***[#green] <i><color #white><b><size:12>Communicating across systems
 ****[#gold] *<i><color #black><size:18>True in **microservices** world
-****[#yellow] *<i><color #black><size:18><b>Postel's law says:</b> be very  <b>generous</b> about what you <b>receive\n<i><color #black><size:18>& be very <b>conservative</b> about what you <b>send\n<img:images/img_28.png{scale=1}>\n<i><color #black><size:12>So as long as I can **iterate** over your **collection** it does not what is the **type** of your <b>collection.\n<i><color #black><size:12>In other words, don't make your <b>interface brittle.
+****[#yellow] *<i><color #black><size:18><b>Postel's law says:</b> be very  <b>generous</b> about what you <b>receive\n<i><color #black><size:18>& be very <b>conservative</b> about what you <b>send\n<img:images/img_28.png{scale=1}>\n<i><color #black><size:12>So as long as I can **iterate** over your **collection** it does not matter what is the **type** of your <b>collection.\n<i><color #black><size:12>In other words, don't make your <b>interface brittle.
 **[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_64.png Reuse]] <size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_160.png Modularity patterns]] & [[https://dzone.com/refcardz/patterns-modular-architecture website link]] \n<i><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png 1- Rule of modularity]]\n<img:images/img_41.png{scale=0.7}>
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_137.jpg MVC vs MVP vs MVVP click me]]
 ***[#green] <i><color #white><b><size:12>Grady Booch Says:

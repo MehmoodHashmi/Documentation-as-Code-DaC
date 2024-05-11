@@ -1,10 +1,12 @@
 @startmindmap
-title =<i><size:12>Unix Architecture\n|<img:images/img_18.png{scale=.5}>|<img:images/img_19.png{scale=.88}>|<img:images/img_20.png{scale=.88}>|<img:images/img_29.png{scale=.767}>|
+title =<i><size:12>Unix Architecture\n|<img:images/img_42.png{scale=.59}>|<img:images/img_18.png{scale=.5}>|<img:images/img_19.png{scale=.88}>|<img:images/img_20.png{scale=.88}>|<img:images/img_29.png{scale=.767}>|
 caption <img:images/img_35.png>
 !theme hacker
 
 *[#darkblue]:<i><color #white>Unix Architecture Figure-1
 |<img:images/img_18.png{scale=.5}>|
+|<i>[[docs/books/1-books-backlog/operating-system/images/img_42.png System calls & subroutines]] click me|
+|<img:images/img_42.png{scale=.467}>|
 |<i>[[https://en.wikipedia.org/wiki/Protection_ring Protection Ring]] click me\n<img:images/img_19.png{scale=.7}>|
 |<img:images/img_28.png{scale=.54}>|
 |<img:images/img_20.png{scale=.94}>|
@@ -51,6 +53,7 @@ caption <img:images/img_35.png>
 *<i><color #white><size:12>A **shell** is a **command-line interpreter** that reads user input and executes commands. The user input to a shell is
 <i><color #white><size:12>normally from the terminal (an interactive shell) or sometimes from a <b>[[ docs/books/1-books-backlog/operating-system/idea.shfile (called a shell script).]];
 
+****[#green] <i><color #white><size:12><b>[[https://www.youtube.com/watch?v=3X93PnKRNUo&t=2s&ab_channel=CoreDumped Terminal: and concurrency is an illusion? 15min video]]
 ***[#green] <i><color #white><size:12><b>Unix Commands
 ****[#yellow]:<i><color #black><size:12>The **shell** is an important Unix **system program.** The **shell** accepts commands typed into the **terminal** and **executes** them.
 *<i><color #black><size:12>It executes two types of commands: <b>internal and external.

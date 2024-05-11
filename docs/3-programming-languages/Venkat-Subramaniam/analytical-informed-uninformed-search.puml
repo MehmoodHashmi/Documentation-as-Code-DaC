@@ -18,14 +18,14 @@ caption |<img:images/img_829.png{scale=.7}>|<img:images/img_865.png{scale=.7}>|<
 *****[#gold] <color #black><i><size:12>**Analytical search algorithms** are efficient but may not be suitable for problems \n<color #black><i><size:12>with large or complex problem spaces.
 
 **[#lightblue] <i><size:12>Traditional search algorithms used in \n<i><size:12>artificial intelligence or optimization
-***[#a] <i><size:12><b>2- Uninformed Search Algorithms:
+***[#a] <i><size:12><b>2- Uninformed \n<i><size:12><b>Search Algorithms:
 ****[#yellow]:*<color #black><i><size:12>also known as **blind search algorithms,** explore a **problem space** without any additional information about the **problem** beyond the **problem definition** itself.
 **<color #black><i><size:12>These algorithms do not use **heuristics or domain-specific knowledge** to guide the search process.;
 
 ****[#green] <b><i><size:12><color #white>E.g.
-*****[#yellow]:*<color #black><i><size:12>Breadth-first search (BFS)
-**<color #black><i><size:12>Depth-first search (DFS)
-**<color #black><i><size:12>Uniform cost search.;
+*****[#yellow]:*<color #black><i><size:12>Breadth-first search <b>(BFS)
+*<color #black><i><size:12>Depth-first search <b>(DFS)
+*<color #black><i><size:12>Uniform cost search.;
 ******[#gold]:<color #black><i><size:12>**Uninformed search algorithms** are simple and easy to implement but may be **inefficient** for
 <color #black><i><size:12>**large problem spaces** or when the **solution** is located **deep** within the <b>search tree.;
 
