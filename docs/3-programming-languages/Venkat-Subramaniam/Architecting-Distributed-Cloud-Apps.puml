@@ -178,7 +178,8 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 ****[#darkorange] <i><color #black><size:12>Designing & Versioning <b>HTTP/REST APIs; & [[docs/3-programming-languages/Venkat-Subramaniam/gif/Common-HTTP-Verbs.adoc Common HTTP Verbs]] gif
 ****[#darkorange] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/API-vs-SDK.adoc API vs SDK]] gif [[a Webservice]]
 ****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_397.png What does API gateway do?]] & [[docs/3-programming-languages/Venkat-Subramaniam/gif/3-API-gateway-use-cases.adoc 3 API gateway use cases]]
-*<b><i><color #black><size:12>[[https://www.youtube.com/embed/3t7pMx35Reg APIs Vs. Events | Can they coexist? | API First or Event First]];
+*<b><i><color #black><size:12>[[https://www.youtube.com/embed/3t7pMx35Reg APIs Vs. Events | Can they coexist? | API First or Event First]]
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/5-common-ways-to-improve-API-performance.adoc Top 5 common ways to improve API performance]] gif;
 *****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/webservice.puml Webservice?]]
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_46.png Network API Contracts]]
 ****[#yellow] <i><color #black><b><size:12>""The importance of defining a formal networking API contract.""

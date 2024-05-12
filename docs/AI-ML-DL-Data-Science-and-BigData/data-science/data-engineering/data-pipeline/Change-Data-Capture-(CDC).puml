@@ -1,54 +1,54 @@
 @startmindmap
-title =Change Data Capture (CDC)
+title =<i><size:18>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/data-engineering/data-pipeline/gif/change-data-capture.adoc Change Data Capture (CDC)]] gif
 !theme hacker
 
 * Change Data Capture (CDC)
 ** Definition
-*** <size:14>**Change Data Capture** is the process of identifying and capturing changes made to **data** in **source systems,** allowing **real-time or near-real-time replication and synchronization** with **target systems.**
+*** <size:12>**Change Data Capture** is the process of identifying and capturing changes made to **data** in **source systems,** allowing **real-time or near-real-time replication and synchronization** with **target systems.**
 
 ** Objectives
 *** Real-Time Data Updates
-****[#yellow] ====<size:14>Capture and apply changes to **data** immediately as they occur.
+****[#yellow] <i><size:12>Capture and apply changes to **data** immediately as they occur.
 *** Data Synchronization
-****[#yellow] ====<size:14>Keep target systems up-to-date with source system changes.
+****[#yellow] <i><size:12>Keep target systems up-to-date with source system changes.
 *** Minimize Latency
-****[#yellow] ====<size:14>Reduce the time between **data** changes and their replication.
+****[#yellow] <i><size:12>Reduce the time between **data** changes and their replication.
 
 **[#lime] CDC Techniques
-***[#gold] ===Log-Based CDC
-****[#yellow] ====<size:14>Capture changes from **database** transaction logs.
-***[#orange] ===Trigger-Based CDC
-****[#yellow] ====<size:14>Use **database** triggers to capture changes.
-***[#pink] ===Polling-Based CDC
-****[#yellow] ====<size:14>Periodically poll source systems to identify changes.
+***[#gold] <i><b>Log-Based CDC
+****[#yellow] <i><size:12>Capture changes from **database** transaction logs.
+***[#orange] <i><b>Trigger-Based CDC
+****[#yellow] <i><size:12>Use **database** triggers to capture changes.
+***[#pink] <i><b>Polling-Based CDC
+****[#yellow] <i><size:12>Periodically poll source systems to identify changes.
 
 ** CDC Tools
 *** Debezium
-****[#yellow] ====<size:14>An open-source **CDC** platform supporting multiple **databases**.
+****[#yellow] <i><size:12>An open-source **CDC** platform supporting multiple **databases**.
 *** Apache Kafka Connect
-****[#yellow] ====<size:14>Connectors for **CDC** with integration into Apache Kafka.
+****[#yellow] <i><size:12>Connectors for **CDC** with integration into Apache Kafka.
 *** AWS Database Migration Services (DMS)
-****[#yellow] ====<size:14>A managed service for **CDC** and **database** migrations.
+****[#yellow] <i><size:12>A managed service for **CDC** and **database** migrations.
 
 **[#a] Considerations
 *** Data Source Compatibility
-****[#yellow] ====<size:14>Ensure that source systems support the chosen **CDC** technique.
-***[#orange] ===Data Volume
-****[#yellow] ====<size:14>Plan for scalability to handle high **data** volumes in real-time.
+****[#yellow] <i><size:12>Ensure that source systems support the chosen **CDC** technique.
+***[#orange] <i><b>Data Volume
+****[#yellow] <i><size:12>Plan for scalability to handle high **data** volumes in real-time.
 *** Data Schema Changes
-****[#yellow] ====<size:14>Address challenges related to schema changes in source systems.
+****[#yellow] <i><size:12>Address challenges related to schema changes in source systems.
 
 *** Data Security
-****[#yellow] ====<size:14>Implement encryption and access controls to secure captured changes.
+****[#yellow] <i><size:12>Implement encryption and access controls to secure captured changes.
 
 ** Best Practices
 *** Data Schema Evolution
-****[#yellow] ====<size:14>Plan for schema changes and evolution in the target systems.
+****[#yellow] <i><size:12>Plan for schema changes and evolution in the target systems.
 *** Data Validation
-****[#yellow] ====<size:14>Implement validation checks to ensure the integrity of replicated **data**.
+****[#yellow] <i><size:12>Implement validation checks to ensure the integrity of replicated **data**.
 *** Error Handling
-****[#yellow] ====<size:14>Develop robust error handling and conflict resolution mechanisms.
+****[#yellow] <i><size:12>Develop robust error handling and conflict resolution mechanisms.
 *** Monitoring and Alerting
-****[#yellow] ====<size:14>Set up continuous monitoring and alerting for **CDC** processes.
+****[#yellow] <i><size:12>Set up continuous monitoring and alerting for **CDC** processes.
 
 @endmindmap
