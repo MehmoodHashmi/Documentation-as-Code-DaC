@@ -101,7 +101,7 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 ****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_383.png Latency Number you should know]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_384.png Commonly used tech-stack for microservices]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png How Data is sent across servers]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc How session, JWT, Token, SSO, & OAuth-2.0 works?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_394.png Top 4 Most used Authentication Mechanisms]]
-*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_392.png HTTP 1.0 -> HTTP 1.1 -> HTTP 2.0 -> HTTP 3.0 (QUIC)]];
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_392.png HTTP 1.0 -> HTTP 1.1 -> HTTP 2.0 -> HTTP 3.0 (QUIC)]] & [[docs/3-programming-languages/Venkat-Subramaniam/gif/What-is-SSO-(Single-Sign-On).png What is SSO (Single Sign-On)?]];
 
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/system-design-availability-throughput-scalability.adoc Service-Level Agreements (SLAs) & Dependent Services]]
 ****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_673.png Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_674.png 2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_675.png 3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_676.png 4]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_676.png 5]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_677.png 6]]
@@ -171,7 +171,7 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 
 ***[#green] <i><color #white><b><size:12>Putting it all together
 ***[#green] <i><color #white><b><size:12>Orchestration & Load Balancing
-****[#a] *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/cloud-load-balancer.adoc Cloud load balancer cheatsheet gif]] \n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_857.png Top-6 Load balancing algorithms]]
+****[#a] *<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/cloud-load-balancer.adoc Cloud load balancer cheatsheet]] gif\n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_857.png Top-6 Load balancing algorithms]]
 ***[#green] <i><color #white><b><size:12>Connecting Microservices
 ***[#green] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=jXAUAWPhIcc&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=22&ab_channel=JeffreyRichter API Versioning]] \n*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_692.png Part-2]]
 ****[#gold] <i><color #black><size:12>""The importance of versioning service APIs correctly in order to maintain backward compatibility.""
