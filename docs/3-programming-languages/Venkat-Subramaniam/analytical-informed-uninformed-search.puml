@@ -4,7 +4,7 @@ caption |<img:images/img_829.png{scale=.7}>|<img:images/img_865.png{scale=.7}>|<
 
 !theme hacker
 
-*[#darkblue] <color #white><i>Search \n<i>algorithms
+*[#darkblue] <color #white><i>Search  \n<i>algorithms
 **[#lightblue] <i><size:12>1- Analytical Search Algorithms:
 
 ***[#yellow]:*<color #black><i><size:12>use **mathematical or logical techniques** to systematically explore a **problem space** and find a <b>solution.
