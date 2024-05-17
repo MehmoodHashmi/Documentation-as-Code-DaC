@@ -394,7 +394,7 @@ skinparam hyperlinkColor white
 *<color #black><size:12><i><b>.War:</b> many ".Jar" inside a <b>.war file;
 ***[#green]:<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_608.png Boundary Anatomy]]
 <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_608.png (structure, framework, composition)]];
-****[#darkorange] <i><color #black><size:12>The **<u>"architecture"</u>** of a **<u>"System"</u>** is defined by a <u>**set of "software components"**</u> \n<i><color #black><size:12>& the **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_608.png boundaries]]** that <u><b>separate</u> them. from book "Clean Architecture"
+****[#darkorange] <i><color #black><size:12>The **<u>"architecture"</u>** of a **<u>"System"</u>** is defined by a <u>**set of "software components"**</u> \n<i><color #black><size:12>& the **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_608.png boundaries]]** that <u><b>separate</u> them. from <b>book "Clean Architecture"
 *****[#yellow] <i><color #black><size:12>**1-** Crossing Boundaries. How? use <b>DIP\n<i><color #black><size:12>**2-** Which **data** crosses boundaries? simple <b>DTO's
 ***[#green]:|<#grey><i><color #white><size:12><b>Many Ways to decouple <i><b><color:pink><size:18>"use cases & layers"\t    .|
 <img:images-reuseable/2-use-case.png>;
