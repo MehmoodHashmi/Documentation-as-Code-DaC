@@ -29,7 +29,7 @@ title =<b><i><u> Four Principles of Optimality
   **Principle of** <color #pink>**State Transition:**</color> This principle highlights that problem-solving can be represented as a state transition diagram. It
   involves transitioning from one state to another by applying operators or actions. State transition diagrams aid in understanding the
   problem structure and designing efficient algorithms.;
-** <img:img_36.png>
+** <img:img_36.png{scale=.6}>
 * Four Principles of **Optimality**
 ** Principle of **Optimality**
 *** Sub-problems should exhibit the **optimal substructure property**.
