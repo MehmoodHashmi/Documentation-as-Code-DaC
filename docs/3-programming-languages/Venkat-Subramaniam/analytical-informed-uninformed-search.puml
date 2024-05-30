@@ -2,6 +2,7 @@
 title = <i><size:18>Search algorithms (analytical, informed, and uninformed)
 caption |<img:images/img_829.png{scale=.7}>|<img:images/img_865.png{scale=.7}>|<img:images/img_866.png{scale=1}>|
 
+* <b>[[docs/books/1-books-backlog/data-structure-and-algorithm/Algorithms-Four-Principles-of-optimality.puml Algorithms Four Principles of optimality]]
 !theme hacker
 
 *[#darkblue] <color #white><i>Search  \n<i>algorithms
@@ -10,10 +11,10 @@ caption |<img:images/img_829.png{scale=.7}>|<img:images/img_865.png{scale=.7}>|<
 ***[#yellow]:*<color #black><i><size:12>use **mathematical or logical techniques** to systematically explore a **problem space** and find a <b>solution.
 *<color #black><i><size:12>These algorithms typically rely on **rigorous analysis** and often guarantee <b>optimality or completeness.;
 ***[#green] <b><i><size:12><color #white>E.g.
-****[#yellow]:*<color #black><i><size:12>Dynamic programming
+****[#yellow]:<color #black><i><size:12>**1-** Dynamic programming
 **<color #black><i><size:12>We study & analyze Problems in DP mostly using <b>recursive formulas
-*<color #black><i><size:12>Linear programming
-*<color #black><i><size:12>Branch and bound algorithms;
+|<#grey><color #black><i><size:12><b>[[docs/books/1-books-backlog/data-structure-and-algorithm/images/img_51.png 2- Linear programming]]|
+<color #black><i><size:12>**3-** Branch and bound algorithms;
 
 *****[#gold] <color #black><i><size:12>**Analytical search algorithms** are efficient but may not be suitable for problems \n<color #black><i><size:12>with large or complex problem spaces.
 

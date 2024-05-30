@@ -1,6 +1,7 @@
 @startmindmap
 title = <i>Algorithm Design Strategies
 * <b><i>[[docs/3-programming-languages/Venkat-Subramaniam/analytical-informed-uninformed-search.puml analytical, informed, & uninformed search]]
+** <b><i>[[docs/books/1-books-backlog/data-structure-and-algorithm/Algorithms-Four-Principles-of-optimality.puml Algorithms Four Principles of optimality]]
 !theme hacker
 
 *[#darkblue] <i>Algorithm Design Strategy

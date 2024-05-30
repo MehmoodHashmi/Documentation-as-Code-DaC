@@ -100,6 +100,15 @@ Here are a few notable ones:
 ** Principle of Duality
 *** Optimization problems have a dual formulation.
 *** Solving the dual problem provides insights into the original problem.
+***[#yellow]:The principle of the dual problem in optimization, particularly in linear programming, involves formulating a dual problem from a given primal problem.
+The dual problem provides an alternative perspective on the same optimization task, often offering insights or simplifications that are not immediately
+apparent in the primal problem. Here are the core principles;
+****[#gold]:**Duality Relationship:** Every linear programming problem,
+called the primal problem, has a corresponding dual problem.
+If the primal is a minimization problem, the dual will be a
+maximization problem, and vice versa.;
+
+****[#grey] <b>[[docs/books/1-books-backlog/data-structure-and-algorithm/images/img_51.png Click me]]
 
 ** Principle of Convexity
 *** Optimization problems with convex objective functions and constraints.
