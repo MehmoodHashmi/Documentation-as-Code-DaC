@@ -1,0 +1,42 @@
+@startmindmap
+title =<i><b><u><size:18>Creating and Maintaining Architectural Fitness Functions\n<i>Dr.Venkat Subramaniam -  2023
+caption |<img:images/img_771.png>|\n|<img:images-reuseable/43-evolution-and-birth-of-new-platforms.png>|
+* <b><i>[[https://www.youtube.com/watch?v=Ifx__V6O5bg&t=827s&ab_channel=DeveloperSummit Creating and Maintaining Architectural Fitness Functions]] video
+!theme hacker
+
+*[#darkblue] <color:white><i>Creating and Maintaining \n<color:white><i>Architectural Fitness Functions
+**[#lightblue] <i><color #black><size:12>Part-1
+***[#green] <i><color #white><size:12><b>Fitness Functions
+****[#gold] <i><color #black><size:12><b>Introduction
+*****[#yellow]:<i><color #black><size:12>We have measures for the **health** of a **person, a process plant, an aircraft,** etc. How do we measure the **health of your applications,** from the **architectural** point of view.
+<i><color #black><size:12>**Fitness functions** are intended to provide a healthy status and can be useful to keep an eye on the system as the architecture evolves. In this presentation, we will look
+<i><color #black><size:12>at fitness functions, and the different types, present examples, and discuss how they may apply to your own applications.;
+***[#green] <i><color #a><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_868.png Learning from other fields]] click me
+****[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_869.png Health check]]
+****[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_870.png Flight check]]
+****[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_871.png Checklist manifesto]]
+***[#green] <i><color #white><size:12><b>How well your architectural goals are being met?
+****[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_872.png Click me]]
+***[#green] <i><color #white><size:12><b>What are fitness functions?
+****[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_873.png Click me]]
+***[#green] <i><color #white><size:12><b>Examples of fitness functions?
+****[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_874.png Click me]]
+***[#green] <i><color #white><size:12><b>Examples of Architectural fitness functions?
+****[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_875.png Click me]]
+***[#green] <i><color #white><size:12><b>What is ArchUnit
+****[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_876.png Click me]]
+***[#green] <i><color #white><size:12><b>Where do we use it?
+****[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_877.png Click me]]
+***[#green] <i><color #white><size:12><b>How do we use it?
+****[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_878.png Click me]]
+****[#green] <i><color #white><size:12><b>An example of a fitness function in archunit
+*****[#gold]:*<i><color #black><size:12><b>Acyclic dependency principle
+*<i><color #black><size:12><b>Dependency: archunit-JUnit5
+*<i><color #black><size:12><b>Archunit user guide;
+
+
+
+
+
+
+@endmindmap

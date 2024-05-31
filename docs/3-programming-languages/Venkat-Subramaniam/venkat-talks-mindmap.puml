@@ -29,7 +29,7 @@ caption |<img:images/img_778.png>|<img:images/img_766.png>|<img:images/img_769.p
 **<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Synonym with "System Design"]]
 **<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Cost & Infra Optimization]];
 
-****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Qualities-of-good-architect.puml Architectural Fitness functions & ArchUnit]]
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Creating-and-Maintaining-Architectural-Fitness-Functions.puml Creating & Maintaining Architectural Fitness functions & ArchUnit]]
 *****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Qualities-of-good-architect.puml Qualities of good-architect]]
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Designing-Reactive-Systems.puml Designing Reactive Systems]]
 

@@ -86,7 +86,7 @@ title =<b><i><size:12>Operating Systems\n<img:images/img_11.png> <img:images/img
 **[#lightblue] <b><color #black><i><size:12>Fragmentation\n<img:images/img_7.png{scale=0.6}>\n\n<img:images/img_8.png{scale=0.6}>
 ***[#green] <b><color #white><i><size:12>External Fragmentation
 ***[#green] <b><color #white><i><size:12>Internal Fragmentation
-*[#darkblue] <color #white><i><size:12> File Systems
+*[#darkblue] |<#red><color #white><i><size:12>[[https://www.youtube.com/watch?v=HbgzrKJvDRw&list=LL&index=59&t=717s&ab_channel=DorianDotSlash File Systems]]|<#a><color #white><i><size:12>[[https://www.youtube.com/watch?v=42iQKuQodW4&list=LL&index=60&ab_channel=Fireship Part-2]]|
 **[#lightblue] <b><color #black><i><size:12>File Concepts
 **[#lightblue] <b><color #black><i><size:12>File Access Methods
 **[#lightblue] <b><color #black><i><size:12>File Allocation Methods

@@ -1,78 +1,80 @@
 @startmindmap
-title = ArchUnit Process
-* ArchUnit
+title =<i><size:18> ArchUnit Process
+!theme hacker
 
-** What is ArchUnit?
-*** ArchUnit is a Java library for unit testing architecture and design rules in your codebase.
+*[#blue] <i><color #white>ArchUnit
 
-** Key Features
-*** Automated testing of architectural constraints.
-*** Support for multiple architectural styles, including layered, hexagonal, and microservices.
-*** Customizable and extensible rules.
-*** Integration with popular testing frameworks like JUnit and TestNG.
-*** Support for analyzing Java bytecode, Java classes, and Java packages.
+**[#lightblue] <i><color #black>What is ArchUnit?
+***[#gold] <i><color #black>ArchUnit is a Java library for unit testing architecture and design rules in your codebase.
 
-** How to Use ArchUnit
-*** Define architectural rules using Java code or a fluent API.
-*** Write unit tests to check if the codebase follows the defined rules.
-*** Integrate ArchUnit with your build system to automatically run tests as part of the build process.
+**[#lightblue] <i><color #black>Key Features
+***[#gold] <i><color #black>Automated testing of <b>architectural constraints.
+***[#gold] <i><color #black>Support for multiple architectural styles, including <b>layered, hexagonal, and microservices.
+***[#gold] <i><color #black>Customizable and extensible rules.
+***[#gold] <i><color #black>Integration with popular testing frameworks like <b>JUnit and TestNG.
+***[#gold] <i><color #black>Support for analyzing Java <b>bytecode, Java classes, and Java packages.
 
-** Benefits of Using ArchUnit
-*** Catch architectural violations early in the development process.
-*** Ensure consistency and maintainability of the codebase.
-*** Facilitate communication between developers and architects.
-*** Save time and effort by automating architectural testing.
+**[#lightblue] <i><color #black>How to Use ArchUnit
+***[#gold] <i><color #black>Define architectural rules using Java code or a fluent API.
+***[#gold] <i><color #black>Write unit tests to check if the codebase follows the defined rules.
+***[#gold] <i><color #black>Integrate ArchUnit with your build system to automatically run tests as part of the build process.
 
-** Example Rule
-*** No classes from the domain layer should depend on the infrastructure layer.
-**** `noClasses().that().resideInAPackage("..domain..").should().dependOnClassesThat().resideInAPackage("..infrastructure..");`
+**[#lightblue] <i><color #black>Benefits of Using ArchUnit
+***[#gold] <i><color #black>Catch architectural violations early in the development process.
+***[#gold] <i><color #black>Ensure consistency and maintainability of the codebase.
+***[#gold] <i><color #black>Facilitate communication between developers and architects.
+***[#gold] <i><color #black>Save time and effort by automating architectural testing.
 
-** Integrations
-*** JUnit 4 and 5
-*** TestNG
-*** Gradle
-*** Maven
-*** Ant
+**[#lightblue] <i><color #black>Example Rule
+***[#gold] <i><color #black>No classes from the **domain layer** should depend on the <b>infrastructure layer.
+****[#yellow] <i><color #black>noClasses().that().resideInAPackage("..domain..").should().dependOnClassesThat().resideInAPackage("..infrastructure..");
 
-* ArchUnit Process
+**[#lightblue] <i><color #black>Integrations
+***[#gold] <i><color #black>JUnit 4 and 5
+***[#gold] <i><color #black>TestNG
+***[#gold] <i><color #black>Gradle
+***[#gold] <i><color #black>Maven
+***[#gold] <i><color #black>Ant
 
-** Define Architecture
-*** Define the architecture of your application, including the different layers and components.
+*[#blue] <i><color #white>ArchUnit Process
 
-** Define Architectural Rules
-*** Define constraints and rules for your architecture using Java code or a fluent API.
+**[#lightblue] <i><color #black>Define Architecture
+***[#gold] <i><color #black>Define the architecture of your application, including the different layers and components.
 
-** Write Unit Tests
-*** Write unit tests to check if the codebase follows the defined architectural rules.
-*** Use ArchUnit's built-in assertions or create custom assertions to test specific architectural constraints.
+**[#lightblue] <i><color #black>Define Architectural Rules
+***[#gold] <i><color #black>Define constraints and rules for your architecture using Java code or a fluent API.
 
-** Integrate with Build System
-*** Integrate ArchUnit with your build system to automatically run tests as part of the build process.
-*** Use plugins or build scripts to configure ArchUnit.
+**[#lightblue] <i><color #black>Write Unit Tests
+***[#gold] <i><color #black>Write unit tests to check if the codebase follows the defined architectural rules.
+***[#gold] <i><color #black>Use ArchUnit's built-in assertions or create custom assertions to test specific architectural constraints.
 
-** Analyze Results
-*** Analyze the results of the tests to identify architectural violations and inconsistencies.
-*** Use the output to improve the architecture of the codebase.
+**[#lightblue] <i><color #black>Integrate with Build System
+***[#gold] <i><color #black>Integrate ArchUnit with your build system to automatically run tests as part of the build process.
+***[#gold] <i><color #black>Use plugins or build scripts to configure ArchUnit.
 
-** Refactor Code
-*** Refactor the code to remove architectural violations and improve the overall architecture.
-*** Re-run ArchUnit tests to ensure that the architecture is consistent and maintainable.
+**[#lightblue] <i><color #black>Analyze Results
+***[#gold] <i><color #black>Analyze the results of the tests to identify architectural violations and inconsistencies.
+***[#gold] <i><color #black>Use the output to improve the architecture of the codebase.
 
-* **Steps to Use ArchUnit**
+**[#lightblue] <i><color #black>Refactor Code
+***[#gold] <i><color #black>Refactor the code to remove architectural violations and improve the overall architecture.
+***[#gold] <i><color #black>Re-run ArchUnit tests to ensure that the architecture is consistent and maintainable.
 
-** Define Architectural Rules
-*** Define constraints and rules for your architecture using Java code or a fluent API.
+*[#blue] <i><color #white>Steps to Use ArchUnit
 
-** Write Unit Tests
-*** Write unit tests to check if the codebase follows the defined architectural rules.
+**[#lightblue] <i><color #black>Define Architectural Rules
+***[#gold] <i><color #black>Define constraints and rules for your architecture using Java code or a fluent API.
 
-** Run Tests
-*** Integrate ArchUnit with your build system to automatically run tests as part of the build process.
-*** ArchUnit can be integrated with popular testing frameworks like JUnit and TestNG.
+**[#lightblue] <i><color #black>Write Unit Tests
+***[#gold] <i><color #black>Write unit tests to check if the codebase follows the defined architectural rules.
 
-** Analyze Results
-*** Analyze the results of the tests to identify architectural violations and inconsistencies.
-*** Use the output to improve the architecture of the codebase.
+**[#lightblue] <i><color #black>Run Tests
+***[#gold] <i><color #black>Integrate ArchUnit with your build system to automatically run tests as part of the build process.
+***[#gold] <i><color #black>ArchUnit can be integrated with popular testing frameworks like JUnit and TestNG.
+
+**[#lightblue] <i><color #black>Analyze Results
+***[#gold] <i><color #black>Analyze the results of the tests to identify architectural violations and inconsistencies.
+***[#gold] <i><color #black>Use the output to improve the architecture of the codebase.
 
 
 
