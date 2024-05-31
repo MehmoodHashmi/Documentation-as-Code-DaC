@@ -37,10 +37,10 @@ title =<b><i><size:12>Operating Systems\n<img:images/img_11.png> <img:images/img
 **<b><color #white><i><size:12> Signals etc.
 <img:images/img_1.png{scale=0.62}>;
 ****[#a] <color #black><i><size:12><b>Process ID & [[docs/books/1-books-backlog/operating-system/port-numbers.puml Port number]] click me\n<img:images/img_12.png{scale=.65}>
-***[#green] <b><color #white><i><size:12>Process Synchronization
+***[#green] <b><color #a><i><size:12>[[docs/books/1-books-backlog/operating-system/images/img_43.png Process Synchronization]] click me
 **[#lightblue] <b><color #black><i><size:12>Thread Management \n*<b><color #black><i><size:12>[[https://www.youtube.com/watch?v=3X93PnKRNUo&list=LL&index=2&ab_channel=CoreDumped 15-minute]] video
 ***[#green] <b><color #white><i><size:12>Thread Scheduling
-***[#green] <b><color #white><i><size:12>Thread Synchronization
+***[#green] <b><color #a><i><size:12>[[docs/books/1-books-backlog/operating-system/images/img_43.png Thread Synchronization]] click me
 ***[#gold] <b><color #black><i><size:12>Thread Local Storage (TLS):\n|<img:images/img_14.png{scale=.4}>|<img:images/img_15.png{scale=.61}>|
 ****[#yellow] <color #black><i><size:12><b>is a data-structure, something \n<color #black><i><size:12><b>like "Process Control Block"
 **[#lightblue] <b><color #black><i><size:12>Deadlock and Starvation

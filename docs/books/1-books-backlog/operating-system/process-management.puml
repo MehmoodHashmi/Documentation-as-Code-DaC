@@ -48,7 +48,7 @@ title =<i><b><u><size:12>Process Management
 ***[#green] <b><i><color #white><size:12>Lightweight processes within a process
 ****[#yellow] <i><color #black><size:12>Share memory space, resources
 ****[#yellow] <i><color #black><size:12>Increase application responsiveness and concurrency
-**[#lightblue] <i><color #black><size:12>Process Synchronization
+**[#lightblue] <i><color #black><size:12>[[docs/books/1-books-backlog/operating-system/images/img_43.png Process Synchronization]]
 ***[#green] <b><i><color #white><size:12>Preventing race conditions and ensuring data consistency
 ****[#yellow] <i><color #black><size:12>Mutexes, Semaphores, Monitors
 **[#lightblue] <i><color #black><size:12>Process Termination
