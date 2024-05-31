@@ -42,6 +42,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/app-vs-network-structure.puml Shape of the major structure of a system or topology. architecture is a "view" of a system.]]
 ****[#yellow]:<i><color #black><size:12>**Goal of architecture:** Minimize the **human resources** required to **build & maintain** "software system".
 *<i><color #black><size:12>If **effort** remains **constant or shrinks with time** then **design** is **good**. If **effort** increases with each **passing release** then **design** is <b>bad.;
+****[#yellow] *<i><color #black><size:12>An evolutinoary architecutre supports **incremental, guided** "change" as a first principle along <b>multiple dimensions.
 ****[#yellow] <i><color #black><size:12>**Martin fowler** article, "Who needs an architect". <b>Said: It is
 *****[#darkorange] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_252.png Shared understanding between the senior team members of a system.]] click
 ****[#green] *<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_271.png Software Engineering in the Cloud]] <&cloud> click me \n*<b><i><color #white><size:12>[[docs/3-programming-languages/clean-architecture/images/img.png Software Architecture the Hard Parts]] click me

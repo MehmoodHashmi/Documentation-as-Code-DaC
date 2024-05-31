@@ -11,6 +11,7 @@ caption |<img:images/img_771.png>|\n|<img:images-reuseable/43-evolution-and-birt
 *****[#yellow]:<i><color #black><size:12>We have measures for the **health** of a **person, a process plant, an aircraft,** etc. How do we measure the **health of your applications,** from the **architectural** point of view.
 <i><color #black><size:12>**Fitness functions** are intended to provide a healthy status and can be useful to keep an eye on the system as the architecture evolves. In this presentation, we will look
 <i><color #black><size:12>at fitness functions, and the different types, present examples, and discuss how they may apply to your own applications.;
+*****[#grey] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Head-First-Architecture.puml Planning the architecture]]
 ***[#green] <i><color #a><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_868.png Learning from other fields]] click me
 ****[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_869.png Health check]]
 ****[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_870.png Flight check]]
@@ -19,6 +20,7 @@ caption |<img:images/img_771.png>|\n|<img:images-reuseable/43-evolution-and-birt
 ****[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_872.png Click me]]
 ***[#green] <i><color #white><size:12><b>What are fitness functions?
 ****[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_873.png Click me]]
+****[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_879.png Fitness changes over time]]
 ***[#green] <i><color #white><size:12><b>Examples of fitness functions?
 ****[#a] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_874.png Click me]]
 ***[#green] <i><color #white><size:12><b>Examples of Architectural fitness functions?
