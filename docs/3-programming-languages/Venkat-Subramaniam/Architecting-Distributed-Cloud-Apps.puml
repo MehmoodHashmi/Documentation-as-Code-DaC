@@ -13,6 +13,7 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 |<img:images/img_366.png{scale=.2109}>|
 |<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_0377.png Most Popular Cloud Services in 2023, click]]|
 |<#red><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_863.png What Are the Most Important AWS Services To Learn?]]|
+|<#blue><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_880.png AWS Services for Interviews]]|
 |<img:images/img_272.png{scale=.5}>|
 |<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_387.png Monitoring Services Across Cloud click]]|
 |<#blue><i><size:15>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_362.png Software Defined Networking (SDN & IaC)]]|
@@ -49,7 +50,7 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 
 *****[#a]:<b><i><color #black><size:12>What you are paying for in cloud is convenience not small apex or little upfront infra cost.
 **<b><i><color #black><size:12>In other words; [[docs/3-programming-languages/Venkat-Subramaniam/images/img_572.png Bare Metal]] - [[docs/3-programming-languages/Venkat-Subramaniam/images/img_686.png Pain]] = [[docs/3-programming-languages/Venkat-Subramaniam/images/img_687.png AWS]]
-**<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_687.png AWS]] - Pain = [[docs/3-programming-languages/Venkat-Subramaniam/images/img_688.png Vercel]] & Netlify|;
+**<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_687.png AWS]] - Pain = [[docs/3-programming-languages/Venkat-Subramaniam/images/img_688.png Vercel]] & Netlify;
 
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/how-to-adopt-cloud-native.adoc How do we transform a system to be Cloud Native?]] A lot of Companies are at Step-4 due to the "complexity" & the required "DevOps talent"
 
@@ -60,7 +61,8 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 <i><color #black><size:12>**Automation:** refers to **automating** a single **process or a small number of related tasks** (e.g., deploying an app)
 <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_440.png Orchestration:]]** refers to **managing** multiple **automated tasks** to **create a dynamica workflow** (e.g., deploying an app, connecting it to a network,
 <i><color #black><size:12>& **integrating** it with other <b>systems);
-****[#a] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_386.png Kubernetes Tool Ecosystem]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_395.png Kubernetes Vs. Docker]]
+****[#a]:*<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_386.png Kubernetes Tool Ecosystem]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_395.png Kubernetes Vs. Docker]]
+*<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_893.png How Does Kubernetes Worker Nodes Scale?]];
 
 ***[#green]:*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/region-availability-zone-and-fault-domain.drawio.png Region, availability zone and fault domain]]
 ====
@@ -99,7 +101,7 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 *<i><color #black><size:12>When you are using old **monolithic applications** then **VMs** are not a bad option.;
 
 ****[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_383.png Latency Number you should know]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_384.png Commonly used tech-stack for microservices]]
-*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png How Data is sent across servers]]
+|<#red><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_388.png How Data is sent across servers]] &|<#blue><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_887.png IP Address Vs. URL]]|<#red><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_881.png Microservices with ALB]]|
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/session-JWT-Token-SSO-and-OAuth-2-0.adoc How session, JWT, Token, SSO, & OAuth-2.0 works?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_394.png Top 4 Most used Authentication Mechanisms]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_392.png HTTP 1.0 -> HTTP 1.1 -> HTTP 2.0 -> HTTP 3.0 (QUIC)]] & [[docs/3-programming-languages/Venkat-Subramaniam/gif/What-is-SSO-(Single-Sign-On).png What is SSO (Single Sign-On)?]];
 
@@ -125,7 +127,9 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 ****[#a] <i><color #black><b><size:12>[[https://www.youtube.com/watch?v=BZgB3fGXRHc&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=14&ab_channel=JeffreyRichter Orchestrator starts containers on cluster's PCs/VMs]] 5-min video
 
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_373.png Continuous Integration & Continuous Deployment]] \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=WqPSstx41wY&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=15&ab_channel=JeffreyRichter 5-minute video]]
-****[#darkorange] <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/conventional-SDLC-vs-DevOps-vs-NoOps.adoc Conventional SDLC vs. DevOps Vs. NoOps]] gif
+****[#darkorange]:*<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/conventional-SDLC-vs-DevOps-vs-NoOps.adoc Conventional SDLC vs. DevOps Vs. NoOps]] gif, <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_888.png DevOps CICD Phases with Tools]] & <i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_889.png DevOps CICD Phases]]
+*<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_890.png Traditional CICD Vs. GitOps]], & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_891.png Platform Team and Developer Team]];
+
 **[#lightblue] *<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_362.png Networking Communication]] \n*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_378.png Multi-Cloud Networking Cheatsheet]]
 
 ***[#green] <i><color #white><b><size:12>Introduction
@@ -135,13 +139,16 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 ****[#a] <i><color #black><size:12><b>Virtual Networks
 *****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_572.png Networking:]]** is the **thing** which **decides** the **security** of your **application architecture** as well as whether your **application can scale**
 <i><color #black><size:12>& how do you **design** the **traffic, security groups, or say firewalls & the routing decisions** you take.;
-*****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_406.png VPCs]] \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_407.png Subnets]]
-******[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_441.png What is VPC & How it Works? Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_442.png Part-2 (Two Types of VPC)]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_443.png Part-3 AWS-VPC Peering (2 VPC within a Region)]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_444.png Part-4 AWS N/W ACL's inside VPC]]
+*****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_406.png VPCs]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_885.png 2]]  \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_407.png Subnets]]
+******[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_441.png What is VPC & How it Works? Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_442.png Part-2 (Two Types of VPC)]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_443.png Part-3 AWS-VPC Peering (2 VPC within a Region)]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_444.png Part-4 AWS N/W ACL's inside VPC]]
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_887.png IP Address Vs. URL]];
+
 ******[#darkorange]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_401.png What are services, regions & Availability zones (AZ) & how they map to each other]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_401.png What is AWS Account, Users & Services Scope]];
-*******[#black]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_402.png 1- Compute Services &]] [[docs/3-programming-languages/Venkat-Subramaniam/images/img_403.png 1- Compute & Analytics]]
-*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_404.png 2- Storage & Database Services]]
-*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_405.png 3- Network & Management &]] [[docs/3-programming-languages/Venkat-Subramaniam/images/img_405.png 4- App & Dev]];
+*******[#black]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_402.png 1- Compute Services &]] [[docs/3-programming-languages/Venkat-Subramaniam/images/img_886.png 1- Is AWS Lambda Cheaper than Amazon EC2?]]
+|<#blue><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_892.png Scaling Difference Between Lambda, EC2, EKS]]|
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_0377.png 2- Storage & Database Services]] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_0377.png 3- Network & Management &]] [[docs/3-programming-languages/Venkat-Subramaniam/images/img_0377.png 4- App & Dev]];
+
 *****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_408.png Classless Inter-Domain Routing (is "CIDR")]] \n*<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=O3fgul-fJCk&ab_channel=AWSTrainingCenter Classless means (no A, B, C & D class like we have in "IPV-4", its "32-bit")]] video
 ****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_408.png Traffic Routing]]
 *****[#a] *<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=W66STrTY0ss&t=315s CDNs]] \n*<i><color #black><size:12><b>DNS Services (Translate domain names to IPs)
@@ -203,9 +210,12 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_698.png Messaging Communication]]
 ****[#a] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=C26paSeSQD8&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=26&ab_channel=JeffreyRichter 3-min video]]
-****[#a] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=C26paSeSQD8&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=26&ab_channel=JeffreyRichter I think Here virtual threads now can help or 've provided improvements in this situation or scenario]]
+****[#darkorange] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=C26paSeSQD8&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=26&ab_channel=JeffreyRichter I think Here virtual threads now can help or 've provided improvements in this situation or scenario]]
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_699.png Messaging with Queues]]
-****[#a] <i><color #white><b><size:12>The flow of a bunch of services using messaging. \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=Tu9WGaePtBA&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=27&ab_channel=JeffreyRichter Must watch video]] 5-minute
+****[#a]:<i><color #white><b><size:12>The flow of a bunch of services using messaging.
+*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=Tu9WGaePtBA&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=27&ab_channel=JeffreyRichter Must watch video]] 5-minute
+*<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_882.png Event Driven Architecture (Basic),]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_883.png Advance]]
+*<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_884.png 3 Tier Architecture]];
 *****[#a] |<#red><i><color #white><b><size:12>[[https://www.youtube.com/watch?v=Tu9WGaePtBA&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=27&ab_channel=JeffreyRichter Cloud or Messaging with Queues]]|<#grey><i><color #white><b><size:12>[[https://www.youtube.com/watch?v=eWljhk1RvCM&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=21&ab_channel=JeffreyRichter Cloud or Messaging without Queues]]|
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_700.png Fault-Tolerant Messaging Processing]]
 ****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_700.png How "service instances" process queue "messages" in a fault-tolerant fashion.]]
