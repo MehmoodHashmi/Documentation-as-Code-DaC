@@ -1,6 +1,6 @@
 @startmindmap
 title =<i><b><u><size:18>Neural Network Architecture \n<color #red><i>Activation Functions (or neurons) both words can be used interchangeably
-caption <img:../../../../docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/44-Program-vs-ML-model.png>
+caption |<img:../../../../docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/44-Program-vs-ML-model.png>|\n|<img:../../../../docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/ML-stuff.png>|
 * <b>[[https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&ab_channel=3Blue1Brown But what is a neural network? | Chapter 1, Deep learning]]
 ** <b>[[https://www.youtube.com/watch?v=IHZwWFHWa-w&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=2&ab_channel=3Blue1Brown Gradient descent, how neural networks learn | Chapter 2, Deep learning]]
 *** <b>[[https://www.youtube.com/watch?v=Ilg3gGewQ5U&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=3&ab_channel=3Blue1Brown What is backpropagation really doing? | Chapter 3, Deep learning]]
