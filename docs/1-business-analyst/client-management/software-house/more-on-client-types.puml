@@ -1,0 +1,54 @@
+@startmindmap
+title =<i><b><u><size:18>Analysis of a client based on hourly rate and weekly hours allowed
+!theme hacker
+
+* Root
+**[#lightblue] <b><i><color #white><size:12>Analysis of Client
+***[#green] <b><i><color #white><size:12>Scenario
+****[#yellow] <i><color #black><size:12>Does not increase hourly rate
+****[#yellow] <i><color #black><size:12>Increases weekly hourly limit
+**[#lightblue] <b><i><color #white><size:12>Pros
+***[#green] <b><i><color #white><size:12>Increased Work Volume
+****[#yellow] <i><color #black><size:12>More billable hours per week
+****[#yellow] <i><color #black><size:12>Potentially higher overall income
+***[#green] <b><i><color #white><size:12>Stability
+****[#yellow] <i><color #black><size:12>Consistent work
+****[#yellow] <i><color #black><size:12>Long-term engagement
+***[#green] <b><i><color #white><size:12>Trust Building
+****[#yellow] <i><color #black><size:12>Opportunity to build stronger relationship
+****[#yellow] <i><color #black><size:12>Demonstrates reliability
+**[#lightblue] <b><i><color #white><size:12>Cons
+***[#green] <b><i><color #white><size:12>Burnout Risk
+****[#yellow] <i><color #black><size:12>Increased workload
+****[#yellow] <i><color #black><size:12>Potential for overwork
+***[#green] <b><i><color #white><size:12>Fixed Rate Issues
+****[#yellow] <i><color #black><size:12>Hourly rate does not reflect increased workload
+****[#yellow] <i><color #black><size:12>Potential undervaluation of time
+***[#green] <b><i><color #white><size:12>Quality vs. Quantity
+****[#yellow] <i><color #black><size:12>Potential decline in work quality
+****[#yellow] <i><color #black><size:12>Rushed output
+**[#lightblue] <b><i><color #white><size:12>How to Deal with This Client
+***[#green] <b><i><color #white><size:12>Negotiation Strategies
+****[#yellow] <i><color #black><size:12>Propose periodic rate reviews
+****[#yellow] <i><color #black><size:12>Highlight value and impact of work
+***[#green] <b><i><color #white><size:12>Time Management
+****[#yellow] <i><color #black><size:12>Set clear boundaries
+****[#yellow] <i><color #black><size:12>Prioritize tasks effectively
+***[#green] <b><i><color #white><size:12>Communication
+****[#yellow] <i><color #black><size:12>Regular check-ins on workload
+****[#yellow] <i><color #black><size:12>Open dialogue about expectations
+***[#green] <b><i><color #white><size:12>Documentation
+****[#yellow] <i><color #black><size:12>Track hours diligently
+****[#yellow] <i><color #black><size:12>Report on progress and deliverables
+**[#lightblue] <b><i><color #white><size:12>Client Type Analysis
+***[#green] <b><i><color #white><size:12>Time-Bound Client
+****[#yellow] <i><color #black><size:12>Focused on deadlines
+****[#yellow] <i><color #black><size:12>Willing to increase hours to meet time constraints
+***[#green] <b><i><color #white><size:12>Cost-Bound Client
+****[#yellow] <i><color #black><size:12>Focused on budget
+****[#yellow] <i><color #black><size:12>Reluctant to increase hourly rate
+****[#yellow] <i><color #black><size:12>Increases hours to maximize budget use
+***[#green] <b><i><color #white><size:12>Quality-Bound Client
+****[#yellow] <i><color #black><size:12>Focused on high-quality output
+****[#yellow] <i><color #black><size:12>Less likely to compromise on hourly rate or hours
+@endmindmap
