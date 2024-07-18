@@ -18,6 +18,6 @@ The diagram below illustrates the typical workflow.
 
 #*_Step 9:_*# If the UAT testing is successful, the builds become release candidates and will be deployed to the production environment on schedule. Here we might not want to deploy to all the users in one go to mitigate the change risks, so some techniques like feature toggle, canary deployment can be used.
 
-#*_Step 10:_*# SRE (Site Reliability Engineering) team is responsible for prod monitoring. They leverage a bunch of log-analyzing tools and process-tracing tools like ELK stack, Prometheus, and Skywalking. They report production issues to QA and dev teams, and teams need to fix them based on defined priority.
+#*_Step 10:_*# *SRE (Site Reliability Engineering)* team is responsible for *prod monitoring.* They leverage a bunch of log-analyzing tools and process-tracing tools like ELK stack, Prometheus, and Skywalking. They report production issues to QA and dev teams, and teams need to fix them based on defined priority.
 
 image::how-companies-ship-code.webp[width = 800]

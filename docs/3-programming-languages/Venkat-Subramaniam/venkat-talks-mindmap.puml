@@ -40,6 +40,8 @@ caption |<img:images/img_778.png>|<img:images/img_766.png>|<img:images/img_769.p
 **<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Synonym with "System Design"]]
 **<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Cost & Infra Optimization]];
 
+*****[#black] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Observing-Applications-in-Production.puml Observing Applications in Production + (SRE)]]
+
 *****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Versioning HTTP APIs]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/webservice.puml Webservices]] can be:
 **<b><i><color #black><size:12>[[https://www.youtube.com/watch?v=eWljhk1RvCM&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=21&ab_channel=JeffreyRichter 1- Synchronous]] (blocking) e.g. RESTful

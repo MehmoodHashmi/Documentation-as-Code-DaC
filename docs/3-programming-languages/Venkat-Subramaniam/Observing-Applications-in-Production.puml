@@ -1,0 +1,93 @@
+@startmindmap
+title =<i><size:14>"Observing" Applications in __Production__ by Venkat Subramaniam
+!theme hacker
+
+*[#darkblue] <i><color #white><size:12>Observing Applications in Production
+**[#lightblue] <i>Introduction
+***[#a]:<i>Managing **Microservices** on the **Cloud** requires far more effort than dealing with **traditional applications.** Getting a clear view of the **status** of applications in <b>production
+<i>can make a difference between smooth operation and chaos, between success and loss. This mindmap will discuss different **tools and techniques** that can help us keep a
+<i>close eye on **applications** in **production** and how to leverage their powers for a successful <b>production environment.
+==<b><i>[[docs/3-programming-languages/Venkat-Subramaniam/gif/how-companies-ship-code.adoc How Companies ship code?]]==;
+
+**[#lightblue] <i>Monitoring vs Observability:
+***[#yellow]:*<i>**Monitoring** to keep an eye on the system's behaviour
+*<i>**Observability** is the ability to collect details that can help us improve a system's usability;
+
+**[#lightblue] <i>Challenges of modern architectures:
+***[#yellow]:*<i>**Distributed architecture:**
+**<i>**Microservices**
+**<i>**Service based architecture**
+**<i>**Event driven architecture**;
+****[#gold]:*<i><color #black><size:12>In the past we built really monoliths we cannot name variables properly, we cannot name functions properly,
+<i><color #black><size:12>I mean think of the word NoSQL. What does that even mean NoSQL? Is the stupidest name you could think of, and it's NoSQL
+<i><color #black><size:12>actually has SQL. So why call it NoSQL? What I really don't like is the word **microservices** because it's neither **micro** nor a **service**
+<i><color #black><size:12>and yet we call it microservices.
+
+<i><color #black><size:12>But when it comes to using these kinds of **systems** these are widely classified as **distributed architecture** which in itself
+<i><color #black><size:12>is a terrible name. Because if I tell you microservices are distributed then it makes you believe by mistake that **monoliths** are not
+<i><color #black><size:12>**distributed**. As it turns out monoliths are distributed. When was the last time you created a monolith that was just one Big Blob that
+<i><color #black><size:12>happened about 45 years ago and since that time I've never seen anyone build a monolith which is just one piece that is never distributed
+<i><color #black><size:12>you got a database server in a monolith you got application service in a monolith you got different service in monolith so every monolith
+<i><color #black><size:12>is distributed as well, and yet we want to call distributed architecture versus monolith.;
+
+****[#gold]:*<i><color #black><size:12>So huge amount of confusion in things we name but in general though when we talk about a **distributor architecture** here
+<i><color #black><size:12>we are talking about **systems and subsystems** that can be **deployed independent of each other**.
+*<i><color #black><size:12> So the **distribution** here is **not** in the **execution model** but it's in the **deployment model**.
+*<i><color #black><size:12> So you can **deploy** each of the parts independent of each other whereas in a monolith the different parts are distributed together
+<i><color #black><size:12>so you can think about this as a **synchronized deployment** versus a **distributed deployment**.
+<i><color #black><size:12><b>So when it comes to <b>distributed architectures</b> there are several of them: such as
+<i><color #black><size:12><b>microservices, service based architecture, service oriented architectures, event driven architecture and so on.;
+
+***[#a] *<i>**Challenges**
+****[#a]:*<i><color #black><size:12>But a lot of these have very similar challenges one of the very first problems is they have way too many moving Parts in it. So
+<color #black><size:12>when you have many moving Parts in it. What is the problem when you have many moving Parts? The different parts can break at
+<color #black><size:12>different time, and if the parts don't work properly then you're going to have a problem with the **overall system**. So that requires
+<color #black><size:12>a lot more **proactive monitoring and observability** when you have too many moving Parts in it so that's one problem;
+
+
+****[#yellow] *<i><color #black><size:12>Too many moving parts
+****[#yellow] *<i><color #black><size:12>System failures are inevitable
+****[#yellow] *<i><color #black><size:12>Failure of a part can affect the overall system
+
+**[#lightblue] <i>Reasons to observe and monitor applications:
+***[#yellow] *<i>**Poor Performance**
+****[#gold]:*<i>**Loss of revenue**
+*<i>**Loss of business**
+*<i>**Loss of customers**
+*<i>**Loss of reputation**;
+***[#yellow] <i>**address issues that impact user experience**
+***[#yellow] <i>proactively improve performance
+***[#yellow] <i>Keep an eye out for security vulnerabilities
+***[#yellow] <i>Identify usage trend
+***[#yellow] <i>Improve resource provisions
+***[#yellow] <i>Optimize costs
+
+**[#lightblue] <i>Things to monitor
+***[#yellow] *<i><b>User experience
+****[#gold]:*<i><b>load time
+* <i><b>response time
+* <i><b>availability;
+***[#yellow] *<i><b>application behaviour
+****[#gold]:*<i><b>performance
+* <i><b>throughput
+* <i><b>error rate;
+
+***[#yellow] *<i><b>Resource monitoring
+****[#gold]:*<i><b>memory utilization
+* <i><b>CPU utilization
+* <i><b>N/W performance
+* <i><b>Disk space;
+
+***[#yellow] *<i><b>Database performance
+****[#gold]:*<i><b>Query performance
+* <i><b>Procedure performance
+* <i><b>N/W performance;
+***[#yellow] *<i><b>Security monitoring
+
+**[#lightblue] <i>Means to observe
+***[#yellow]:*<i><b>Dashboards
+*<i><b>alerts
+*<i><b>notifications;
+
+
+@endmindmap
