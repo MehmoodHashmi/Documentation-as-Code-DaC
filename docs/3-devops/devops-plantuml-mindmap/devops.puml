@@ -1,121 +1,87 @@
 @startmindmap
-
-title =__DevOps__
+title =__**[[devops.puml DevOps]]**__
 !theme hacker
 
-* Principles
-** Agile
-** Continuous Delivery
-** Automation
-** Collaboration
-** Monitoring
-** Measurement
-** Feedback
-** Continuous Improvement
-** Infrastructure as Code
-** Microservices
-**[#pink] ====Containers
-* Culture
-** Collaboration
-** Shared Responsibility
-** Transparency
-** Continuous Learning
-** Innovation
-** Experimentation
-** Blameless Culture
-* Methods
-** Scrum
-** Kanban
-** Lean
-** ITIL
-** Site Reliability Engineering (SRE)
-** Value Stream Mapping
-** DevSecOps
+* DevOps
+** Definition
+***[#a] <i><size:12>**[[devops.puml DevOps]]** is a set of **practices and cultural philosophies** that aims to __automate and integrate the processes of software development__ **(Dev)** and IT operations **(Ops)** to achieve continuous delivery and improve \n<size:12>//software quality and efficiency.//
 
+** Key Concepts
+*** Continuous Integration **(CI)**
+****[#yellow] <i><size:12>Automating the process of code integration and validation.
+*** Continuous Delivery **(CD)**
+****[#yellow] <i><size:12>Automatically deploying code to production or staging environments.
+*** Infrastructure as Code **(IaC)**
+****[#yellow] <i><size:12>Managing and provisioning infrastructure using code.
+***[#gold] <i>**Automation**
+****[#yellow] <i><size:18>**Reducing manual, repetitive tasks through scripting and tooling.**
+***[#orange] <i>**Collaboration**
+****[#pink] <i><size:16>**Encouraging cross-functional teamwork and communication.**
+*** Monitoring and Feedback
+****[#yellow] <i><size:12>Collecting and analyzing data to inform improvements.
 
+** DevOps Practices
+*** Version Control
+****[#yellow] <i><size:12>Using tools like **Git** to manage and track changes in code.
+*** Continuous Integration **(CI)**
+****[#yellow] <i><size:12>**Building and testing** code __automatically__ upon **commits.**
+*** Continuous Delivery **(CD)**
+****[#yellow] <i><size:12>Deploying code to various environments in an automated fashion.
+*** Configuration Management
+****[#yellow] <i><size:12>Managing infrastructure and application configurations.
+*** Containers and Orchestration
+****[#yellow] <i><size:12>Using containerization **(e.g., Docker)** and orchestrators **(e.g., Kubernetes)**.
+*** Release Management
+****[#yellow] <i><size:12>Planning, scheduling, and controlling software releases.
+*** Monitoring and Logging
+****[#yellow] <i><size:12>Collecting data and generating logs for analysis.
+***[#white] <i><size:12>**Security**
+****[#lightgreen] <i><size:12>**Integrating security practices** into the **DevOps pipeline.**
 
-' Advanced DevOps
+** DevOps Tools
+*** Version Control
+****[#yellow] <i><size:12>Git, SVN, and Mercurial.
+*** CI/CD
+****[#yellow] <i><size:12>Jenkins, Travis CI, GitLab CI/CD.
+*** Containerization
+****[#yellow] <i><size:12>**Docker** and container orchestration tools **(e.g., Kubernetes)**.
+*** Configuration Management
+****[#yellow] <i><size:12>Ansible, Puppet, and Chef.
+*** Collaboration
+****[#yellow] <i><size:12>Chat and communication tools **(e.g., Slack)**.
+*** Monitoring and Logging
+****[#yellow] <i><size:12>Prometheus, Grafana, ELK Stack.
+*** IaC
+****[#yellow] <i><size:12>Terraform, Pulumi and CloudFormation.
+***[#white] <i><size:12>**Security**
+****[#lightgreen] <i><size:12>**Tools for vulnerability scanning and security audits.**
 
-* Culture
-** Agile Methodologies
-** Continuous Improvement
-** Collaboration
-** Automation
-** Learning Culture
-** Ownership
-* Processes
-** Agile Frameworks
-***[#yellow] ====<size:14>Scrum
-***[#yellow] ====<size:14>Kanban
-** Continuous Integration
-** Continuous Delivery
-** Continuous Deployment
-** Release Management
-** Change Management
-** DevOps Metrics
-* Tools
-** Source Control
-***[#yellow] ====<size:14>Git
-***[#yellow] ====<size:14>GitHub
-***[#yellow] ====<size:14>GitLab
-***[#yellow] ====<size:14>Subversion
-***[#yellow] ====<size:14>Mercurial
-** Build Tools
-***[#yellow] ====<size:14>Jenkins
-***[#yellow] ====<size:14>Travis CI
-***[#yellow] ====<size:14>CircleCI
-***[#yellow] ====<size:14>GitLab CI/CD
-** Configuration Management
-***[#yellow] ====<size:14>Chef
-***[#yellow] ====<size:14>Puppet
-***[#yellow] ====<size:14>Ansible
-***[#yellow] ====<size:14>SaltStack
-**[#pink] ====Containers
-***[#yellow] ====<size:14>Docker
-***[#yellow] ====<size:14>Kubernetes
-**[#gold] ====Cloud Computing
-***[#yellow] ====<size:14>AWS
-***[#yellow] ====<size:14>Azure
-***[#yellow] ====<size:14>Google Cloud Platform
-***[#yellow] ====<size:14>IBM Cloud
-***[#yellow] ====<size:14>Oracle Cloud
-** Monitoring and Logging
-***[#yellow] ====<size:14>Prometheus
-***[#yellow] ====<size:14>Grafana
-***[#yellow] ====<size:14>Elasticsearch
-***[#yellow] ====<size:14>Logstash
-***[#yellow] ====<size:14>Kibana
-***[#yellow] ====<size:14>ELK Stack
+**[#gold] <i>DevOps Lifecycle
+*** Plan
+****[#yellow] <i><size:12>Define project goals and requirements.
+*** Code
+****[#yellow] <i><size:12>Write and maintain code.
+*** Build
+****[#yellow] <i><size:12>Compile, build, and package code.
+*** Test
+****[#yellow] <i><size:12>Validate code quality through testing.
+*** Deploy
+****[#yellow] <i><size:12>Deploy code to various environments.
+*** Operate
+****[#yellow] <i><size:12>Manage and monitor deployed applications.
+*** Monitor
+****[#yellow] <i><size:12>Collect data and feedback for continuous improvement.
 
-** Collaboration
-***[#yellow] ====<size:14>Slack
-***[#yellow] ====<size:14>Microsoft Teams
-***[#yellow] ====<size:14>Jira
-***[#yellow] ====<size:14>Confluence
-* Skills
-** Scripting Languages
-***[#yellow] ====<size:14>Bash
-***[#pink] ====<size:14>**Python**
-***[#yellow] ====<size:14>Ruby
-***[#yellow] ====<size:14>PowerShell
-** Infrastructure as Code
-***[#yellow] ====<size:14>Terraform
-***[#yellow] ====<size:14>Pulumi
-***[#yellow] ====<size:14>CloudFormation
-** Continuous Integration/Delivery/Deployment
-***[#yellow] ====<size:14>Jenkins
-***[#yellow] ====<size:14>CircleCI
-***[#yellow] ====<size:14>Travis CI
-***[#yellow] ====<size:14>GitLab CI/CD
-**[#lime] ====Container Orchestration
-***[#yellow] ====<size:14>Kubernetes
-***[#yellow] ====<size:14>Amazon ECS
-***[#yellow] ====<size:14>Google Kubernetes Engine
-***[#yellow] ====<size:14>Azure Kubernetes Service
-**[#gold] ====Cloud Platforms
-***[#yellow] ====<size:14>AWS
-***[#yellow] ====<size:14>Azure
-***[#yellow] ====<size:14>Google Cloud Platform
-***[#yellow] ====<size:14>IBM Cloud
-***[#yellow] ====<size:14>Oracle Cloud
+** Benefits of DevOps
+*** Faster Delivery
+****[#yellow] <i><size:12>Speeding up software development and deployment.
+*** Improved Quality
+****[#yellow] <i><size:12>Enhanced testing and reduced defects.
+*** Increased Collaboration
+****[#yellow] <i><size:12>Bridging the gap between development and operations teams.
+*** Greater Scalability
+****[#yellow] <i><size:12>Handling increased workloads and complexity.
+*** Enhanced Security
+****[#yellow] <i><size:12>Integrating security practices from the start.
+
 @endmindmap
