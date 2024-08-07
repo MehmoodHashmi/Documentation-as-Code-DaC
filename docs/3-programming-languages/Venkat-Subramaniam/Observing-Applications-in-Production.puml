@@ -1,5 +1,7 @@
 @startmindmap
 title =<i><size:14>"Observing" Applications in __Production__ by Venkat Subramaniam
+* <b>[[https://www.youtube.com/watch?v=RgqWOHFK9Ng&list=LL&index=32&t=1217s Observing" Applications in __Production__ by Venkat Subramaniam]] video
+
 !theme hacker
 
 *[#darkblue] <i><color #white><size:12>Observing Applications in Production
@@ -88,6 +90,62 @@ title =<i><size:14>"Observing" Applications in __Production__ by Venkat Subraman
 ***[#yellow]:*<i><b>Dashboards
 *<i><b>alerts
 *<i><b>notifications;
+****[#gold] *<i><b>Note: None of these is the only option you want to use.
+****[#gold] *<i><b>Note: Do not configure your system, so it gives you too many alerts. Hence, you start ignoring the alerts.
 
+**[#lightblue] <i><b>Some tools
+***[#yellow]:*<i><b>AWS cloudWatch
+* <i><b>Google StackDriver
+* <i><b>Microsoft Azure monitoring
+* <i><b>VMware products
+* <i><b>New Relic suite
+* <i><b>Dynatrace
+* <i><b>AppDynamics Cisco
+* <i><b>Elastic observability
+* ...;
+
+****[#yellow]:<i><b>What are some of the tools that can be useful now the concepts we talked about so far. <u>You can use almost any tool in the market to be able to do this. The point is that you want to be able to
+<i><b>observe some of these things and be able to look into it, but I'm not a big fan of a particular tool I usually use whatever tool is available based on the particular Cloud providers I'm using or
+<i><b>a particular application or a client that I'm working with so my recommendation is we can use whatever that makes sense some of them are open source some of them are commercial Cloud
+<i><b>providers I'm using. So if you're running your applications on AWS already you can probably use the tools provided by AWS already and that I would say is probably the first good option.;
+
+**[#lightblue] <i><b>Key Considerations
+***[#yellow]:*<i><b>Monitor every layer of the system
+* <i><b>Observe database, code, transaction, network, ... performance
+* <i><b>Provide useful information and guidance that are actionable
+* <i><b>Should not have negative impact on the systems execution. ;
+
+**[#lightblue] <i><b>Monitoring techniques
+***[#yellow]:*<i><b>Event correlation
+* <i><b>End user monitoring
+* <i><b>Synthetic user monitoring
+* <i><b>Simulated scenarios;
+
+
+**[#lightblue] <i><b>Options for observability
+***[#yellow]:*<i><b>Logs - When and what is happening?
+* <i><b>Metrics - Characteristics of an individual component or part
+* <i><b>Traces - How a request flows through the system from the user's point of view
+* <i><b>Events -Actions performed in different parts of a system;
+
+**[#lightblue] <i><b>Observability in distributed architecture
+***[#yellow]:*<i><b>Distributed tracing
+** <i><b>Use our unique ID for each request to facilitate end-to-end tracing, end-to-end visibility, instead of bits and pieces information
+* <i><b>Health checks
+** <i><b><color #blue>Health checks to keep an eye out for non-responsive services
+*** <i><b><color #red>If service is non-responsive
+**** <i><b>Reroute to other instances
+**** <i><b>Start the shutdown and recovery process
+**** <i><b>The service when it becomes responsive again
+* <i><b>Auditing and traceability
+** <i><b>Some domains (e.g. medical industry) require keeping track of change by users
+** <i><b>Use techniques like event sourcing to gather up audit logs
+* <i><b>Log aggregation
+** <i><b>Logs that are supplied across systems are hard to use
+*** <i><b>Maybe lost when the system restarts
+*** <i><b><color #green>May fill up the local hard drive
+*** <i><b><color #red>Log aggregation
+**** <i><b>Helps to collect the logs in one place
+**** <i><b>Provides an easy way to analyze across the full-stack;
 
 @endmindmap
