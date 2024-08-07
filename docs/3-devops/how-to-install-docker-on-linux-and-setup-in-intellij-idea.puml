@@ -3,6 +3,8 @@ title =<i><size:18>Installing Docker desktop & Engine on "Linux" & setup with In
 * <b><i>[[docs/3-devops/linux.adoc Few more things related to installing Docker desktop & Docker Engine on "Linux" & setup with IntelliJ IDEA]]
 ** *<b><i>[[docs/3-devops/docker.adoc Docker]] \n*<b><i>[[docs/3-devops/kubernetes.adoc Kubernetes]] & [[docs/3-devops/linux.adoc Linux]]
 *** *<b><i>[[https://medium.com/@jonas.granlund/docker-essentials-building-and-running-your-first-container-47aff380b50b Dockerize python Django app Part-1]], \n*<b><i>[[https://medium.com/@jonas.granlund/running-django-with-postgresql-in-docker-a-step-by-step-guide-f6ab3bf05f44 Part-2]]
+
+caption <img:images/img_5.png>
 !theme hacker
 
 *[#darkblue] <color #white><i>Install Docker "Desktop & Engine"\n<color #white><i>on Linux & setup with IntelliJ IDEA
