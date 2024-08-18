@@ -1,0 +1,100 @@
+¶@startmindmap
+title =<i><b><u><size:12>Design Trade-offs in Modern Architectures by venkat
+* <b>[[https://www.youtube.com/watch?v=MTS7hCrznpA&list=LL&index=32&t=1556s Design Trade-offs in Modern Architectures by venkat]] video
+!theme hacker
+
+*[#darkblue] <i>Design Trade-offs in \n<i>Modern Architectures
+**[#lightblue] <i><color #blac><size:12>Introduction
+***[#green]:<b><i><color #white><size:12>Quality can make or break the ability to maintain software. We often talk about software design principles when discussing design for the backend.
+<b><i><color #white><size:12>Frontend code deserves due considerations as well. In this presentation we will discuss some of the does and don'ts for creating frontend code and
+<b><i><color #white><size:12>look at the principles and practices that can help us to develop maintainable code. Along the way we'll discuss some tools that can guide us along.;
+
+
+**[#lightblue] <b><i><color #black><size:12>Functional requirements
+***[#blue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_896.png click me]]
+
+**[#lightblue] <b><i><color #black><size:12>Non-functional requirements
+***[#blue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_897.png click me]]
+****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_3.jpg png]] click me
+
+
+**[#lightblue] <b><i><color #black><size:12>Characteristics
+***[#blue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_898.png click me]]
+***[#a]:*<i><color #white><size:12>When it comes to **performance**, the question is not about speed, it is about is it <b>aducate?
+*<i><color #white><size:12>If you worry about **performance**, the end result is the worry and not the performance.
+*<i><color #white><size:12>You can either get high scale or high performance, but not both.
+====
+*<i><color #white><size:12>If you spend a lot of time and effort providing what is not essential, you are going to have two problems:
+<b><i><color #white><size:12>1- Unnecessary complexity
+<b><i><color #white><size:12>2- You may not be able to provide what is truly essential
+<i><color #white><size:12>We should rather think of **trade-offs and evaluate them otherwise all decisions are based on infatuation, emotions, and misinformation
+<i><color #white><size:12>and the result is a disaster!
+====
+<b><i><color #white><size:12>CAP theorem: (You can only provide two of the following three)
+***<i><color #white><size:12>1- Consistency
+***<i><color #white><size:12>2- Availability
+***<i><color #white><size:12>3- Partition tolerance;
+
+**[#lightblue] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_3.jpg the illities]]
+**[#lightblue] <b><i><color #black><size:12>Architectural Patterns:
+***[#blue]:*<i><color #white><b><size:12>Monoliths
+*<i><color #white><b><size:12>Pipelined Architectures
+*<i><color #white><b><size:12>Microkernel
+*<i><color #white><b><size:12>Service Based
+*<i><color #white><b><size:12>Microservices
+**<i><color #white><b><size:12>Microservices are neigther micro, not services
+**<i><color #white><b><size:12>Micro in microservices is like micro in the microscope
+**<i><color #white><b><size:12>Microservices is focused on the domain with a bounded context;
+
+***[#yellow]:*<i>The trade-offs
+*<i>Architecting is an act of evaluating trade-offs;
+****[#orange]:*<i><color #black>Stability is more important than agility
+*<i><color #black>very high reuse.
+*<i><color #black>We have dry.
+*<i><color #black>We have low agility
+*<i><color #black>share database == Poor Encapsulation == low agility
+*<i><color #black>More coupling provides more reuse
+====
+<i><color #black>There are two things I would never share others:
+<i><color #black>**1- Toothbrush** (I may share toothbrush with my very close relative, but never database!)
+<i><color #black>**2- Database** (Do not expose your database, instead <b>export your data);
+***** <b><i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_899.png Start with what business really needs]] & conflicting charateristics
+**[#lightblue] <i>Challenges of modern architectures:
+***[#yellow]:*<i>**Distributed architecture:**
+**<i>**Microservices**
+**<i>**Service based architecture**
+**<i>**Event driven architecture**;
+****[#gold]:*<i><color #black><size:12>In the past we built really monoliths we cannot name variables properly, we cannot name functions properly,
+<i><color #black><size:12>I mean think of the word NoSQL. What does that even mean NoSQL? Is the stupidest name you could think of, and it's NoSQL
+<i><color #black><size:12>actually has SQL. So why call it NoSQL? What I really don't like is the word **microservices** because it's neither **micro** nor a **service**
+<i><color #black><size:12>and yet we call it microservices.
+
+<i><color #black><size:12>But when it comes to using these kinds of **systems** these are widely classified as **distributed architecture** which in itself
+<i><color #black><size:12>is a terrible name. Because if I tell you microservices are distributed then it makes you believe by mistake that **monoliths** are not
+<i><color #black><size:12>**distributed**. As it turns out monoliths are distributed. When was the last time you created a monolith that was just one Big Blob that
+<i><color #black><size:12>happened about 45 years ago and since that time I've never seen anyone build a monolith which is just one piece that is never distributed
+<i><color #black><size:12>you got a database server in a monolith you got application service in a monolith you got different service in monolith so every monolith
+<i><color #black><size:12>is distributed as well, and yet we want to call distributed architecture versus monolith.;
+
+****[#gold]:*<i><color #black><size:12>So huge amount of confusion in things we name but in general though when we talk about a **distributor architecture** here
+<i><color #black><size:12>we are talking about **systems and subsystems** that can be **deployed independent of each other**.
+*<i><color #black><size:12>So the **distribution** here is **not** in the **execution model** but it's in the **deployment model**.
+*<i><color #black><size:12>So you can **deploy** each of the parts independent of each other whereas in a monolith the different parts are distributed together.
+==|<#white><i><color #black><size:12>Monoliths need single or synchronized unit of deployment|<#lightblue><i><color #black><size:12>Distributed architecture facilitated multiple units of deployment|==
+<i><color #black><size:12>So you can think about this as a **synchronized deployment** versus a **distributed deployment**.
+<i><color #black><size:12><b>So when it comes to <b>distributed architectures</b> there are several of them: such as
+<i><color #black><size:12><b>microservices, service based architecture, service oriented architectures, event driven architecture and so on.
+==|<#black><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_839.png Choosing the architecture]]|<#blue><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Head-First-Architecture.puml Planning the architecture]]|==;
+
+***[#a] *<i>**Challenges**
+****[#a]:*<i><color #black><size:12>But a lot of these have very similar challenges one of the very first problems is they have way too many moving Parts in it. So
+<color #black><size:12>when you have many moving Parts in it. What is the problem when you have many moving Parts? The different parts can break at
+<color #black><size:12>different time, and if the parts don't work properly then you're going to have a problem with the **overall system**. So that requires
+<color #black><size:12>a lot more **proactive monitoring and observability** when you have too many moving Parts in it so that's one problem;
+
+
+****[#yellow] *<i><color #black><size:12>Too many moving parts
+****[#yellow] *<i><color #black><size:12>System failures are inevitable
+****[#yellow] *<i><color #black><size:12>Failure of a part can affect the overall system
+
+@endmindmap

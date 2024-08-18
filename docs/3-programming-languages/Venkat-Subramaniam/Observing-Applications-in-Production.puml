@@ -34,11 +34,13 @@ title =<i><size:14>"Observing" Applications in __Production__ by Venkat Subraman
 
 ****[#gold]:*<i><color #black><size:12>So huge amount of confusion in things we name but in general though when we talk about a **distributor architecture** here
 <i><color #black><size:12>we are talking about **systems and subsystems** that can be **deployed independent of each other**.
-*<i><color #black><size:12> So the **distribution** here is **not** in the **execution model** but it's in the **deployment model**.
-*<i><color #black><size:12> So you can **deploy** each of the parts independent of each other whereas in a monolith the different parts are distributed together
-<i><color #black><size:12>so you can think about this as a **synchronized deployment** versus a **distributed deployment**.
+*<i><color #black><size:12>So the **distribution** here is **not** in the **execution model** but it's in the **deployment model**.
+*<i><color #black><size:12>So you can **deploy** each of the parts independent of each other whereas in a monolith the different parts are distributed together
+==|<#white><i><color #black><size:12>Monoliths need single or synchronized unit of deployment|<#lightblue><i><color #black><size:12>Distributed architecture facilitated multiple units of deployment|==
+<i><color #black><size:12>So you can think about this as a **synchronized deployment** versus a **distributed deployment**.
 <i><color #black><size:12><b>So when it comes to <b>distributed architectures</b> there are several of them: such as
-<i><color #black><size:12><b>microservices, service based architecture, service oriented architectures, event driven architecture and so on.;
+<i><color #black><size:12><b>microservices, service based architecture, service oriented architectures, event driven architecture and so on.
+==|<#black><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_839.png Choosing the architecture]]|<#blue><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Head-First-Architecture.puml Planning the architecture]]|==;
 
 ***[#a] *<i>**Challenges**
 ****[#a]:*<i><color #black><size:12>But a lot of these have very similar challenges one of the very first problems is they have way too many moving Parts in it. So
