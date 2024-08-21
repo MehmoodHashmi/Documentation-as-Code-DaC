@@ -60,6 +60,14 @@ title =<i><b><u>title goes here
 * **[#lightblue] <i><color #black><size:14>Text goes here
 * ***[#green] <b><i><color #white><size:14>Text goes here
 * ****[#yellow] <i><color #black><size:14>Text goes here;
+**:In the Grammarly prompt box, you can type any prompt you want—you’re limited only by your imagination.
+The prompt can take any structure you want, but if you want some inspiration, try using this template:
+
+   <b><i>Write a [composition type] for [audience] that [purpose]. Make it [tone] and [length].
+
+   For example:
+
+   <b><i>Write a [business proposal] for [the CEO] that [pitches the value of launching an ebike]. Make it [professional] and [concise].;
 
 * =//**Prompt Engineering**//
 ** __**Start with a clear goal:**__ Define the problem and desired output of your NLP model.

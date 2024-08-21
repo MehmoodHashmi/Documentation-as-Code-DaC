@@ -1,4 +1,5 @@
 @startmindmap
+
 title =<i><b><u><size:18>Core Software design principles for software developers <size:12>(Dr.Venkat Subramaniam -  2015) \n|<img:images/img_128.jpg{scale=.35}>|<img:images/img_772.png>|<img:images/img_773.png{scale=.8}>|
 
 * <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]] & \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/the-illustrated-guide-to-PhD.puml The illustrated Guide to PhD]]
@@ -50,6 +51,9 @@ skinparam hyperlinkColor white
 <i><color #black><size:12>**obsolete** as it doesn't **reflects** your **latest mental-model** & requires <b>refactoring
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_420.png "Programmer's time spent" in "analysis & design" pays off.]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_63.png Who builds S/W?]]
 *<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=wfGhuv3BlTI&list=LL&index=11&pp=gAQBiAQB&ab_channel=SystemsInnovation Standards of Thinking]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_515.png Systematic Thinking Vs. Systematic Principle]]
+*<i><color #black><size:12>Our **job** is __**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_900.png problem solving;]]**__ **"[[https://www.youtube.com/watch?v=Pxe84h0aCts&t=658s software]]"** is the **"[[https://www.youtube.com/watch?v=Pxe84h0aCts&t=658s tool]]"** we **"use"** to **"solve"** the
+<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_900.png problems]]** and so **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_900.png learning]]** is the other **tool** that we need to be able to wield to be **good**
+<i><color #black><size:12>at <b>software development.
 ==|<#black><i><color #red><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_526.png Thought vs Imagination]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_592.png ("Intuition" follows Imagination)]] |==
 *<i><color #black><size:12><b>Is thought [[docs/3-programming-languages/Venkat-Subramaniam/images/img_515.png "systematic"?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_597.png Insight vs. Foresight]]
 **<i><color #black><size:12>No, it's not it can fly to anywhere at any time. But <b>[[docs/3-programming-languages/Venkat-Subramaniam/inner-world-vs-outer-world.puml Inner world & outer world]]
