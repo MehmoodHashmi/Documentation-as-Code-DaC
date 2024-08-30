@@ -80,7 +80,7 @@ caption |<img:images/img_771.png>|\n|<img:images-reuseable/43-evolution-and-birt
 ***<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Principles: SOLID, GRASP, TDD, YAGNI, KISS, SLAP & DRY]]
 **<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/modularity-patterns.pdf Modularity design patterns]] can be reused:
 ***<i><color #black><size:12><b>[[docs/3-programming-languages/class-and-package-level-SOLID-Principles.puml Principles: (REP, CRP, CCP) & (ADP, SDP, SAP)]]
-*<i><color #black><size:12><b>"Runtime-Polymorphism" is <u>"in-direction"</b>
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_169.png "Runtime-Polymorphism"]] is <u>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_169.png "in-direction"]]
 *<i><color #black><size:12><b>"Diagramming:" using <u>"UML" + [[docs/3-programming-languages/Venkat-Subramaniam/images/img_93.png "C4-model"]]</b>;
 ******[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/what-is-OOP.puml What is OOP?]] click me
 ******[#gold] <i><color #black><size:12><img:images/img_33.png{scale=0.65}>
@@ -158,10 +158,12 @@ caption |<img:images/img_771.png>|\n|<img:images-reuseable/43-evolution-and-birt
 ******[#yellow] <i><color #black><size:22><b>Data-set\n<img:images/img_6.png>
 ***[#green] <b><i><color #white><size:12>People ask me which programming language I should learn
 ****[#yellow] <i><color #black><size:12>I always tell don't pick a **language** to learn instead pick a **programming paradigm** to learn
-****[#yellow] <i><color #black><size:12>Because when you learn a <b>different paradigm,</b> you learn a <b>different way of thinking
+****[#yellow] <i><color #black><size:12>Because when you learn a <b>different paradigm,</b> you learn a <b>different way of thinking \n**<i><color #black><size:12>A **Programming language** tries to constrain you __to do only__ what the **designer** of the language **thought** was <b>good. <color #red>\tBy Bajarne Stroustrup
+
+
 ****[#darkorange] <i><color #black><size:12>Learn <b>Problem solving
 *****[#gold] <i><color #black><size:12>**Programming:** is part **practical,** part <color #green><b>theoretical.\n<i><color #black><size:12>**1-** If you are just <color #green>**theoretical, (analysis & design)**</color> <size:12>you will produce <u><b>unusable (or unaffordable) toys.\n<i><color #black><size:12>**2-** If you are just **practical, (code & test)** you will produce <u><b>non-scalable, unmaintainable hacks.
-******[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png click me]]
+******[#a] *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_268.png click me]] \n*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_133.png click me]]
 
 ****[#yellow] <i><color #black><size:12>Because when you know <b>Java</b> & then you learn <b>C#,</b> it does not count, your total count is still one
 ****[#yellow]:<i><color #black><size:12>Pickup something that will hurt you, make your cry, beg for mercy only then you are learning something interesting.
@@ -230,7 +232,7 @@ caption |<img:images/img_771.png>|\n|<img:images-reuseable/43-evolution-and-birt
 *<size:12><color #black><i>We need make sure **"lambda" (->)** are <b>"pure"
 
 **<size:12><color #black><i>Pure functions do not have side-effects. They are <b>idempotent.
-**<size:12><color #black><i>**Idempotent:** For the same input function always produces same output
+**<size:12><color #black><i>**Idempotent:** For the same input; function always produces same output
 
 <size:12><color #black><i><u><b>Rules of Purity </b>(rule 1 is necessary but not sufficient)
 #<size:12><color #black><i>The function does not mutate or change anything that is visible from the outside

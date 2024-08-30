@@ -1,0 +1,102 @@
+@startmindmap
+title = <i><size:18>Documentation as Code (using AsciiDoc + Antora) \n<img:images/img_911.png{scale=.4}>
+!theme hacker
+
+
+*[#darkblue] <i>Antora: \n<i>Documentation Sites for Software Teams\n<img:images/img_907.png{scale=.16}>
+**[#lightblue] <i>Introduction
+***[#green] <b><i><color #white>Dan Allen's background
+****[#yellow] <i><color #black><size:12>Business owner
+****[#yellow] <i><color #black><size:12>Lead of several open-source projects
+****[#yellow] <i><color #black><size:12>Tech writer
+****[#yellow] <i><color #black><size:12>Focus on documentation tooling
+****[#yellow] <i><color #black><size:12>**Company:** Open Device
+****[#yellow] <i><color #black><size:12>**Platform:** Pantera (open-source)
+****[#yellow] <i><color #black><size:12>**Purpose:** Make documentation easy, collaborative, scalable
+***[#green] <b><i><color #white>Objective
+****[#yellow] <i><color #black><size:12>Show how to create **professional documentation sites** using <b>Antora
+****[#yellow] <i><color #black><size:12>Producing enterprise documentation, or producing documentation at **scale** if you need to get to that <b>point
+**[#lightblue] <i>Importance of Documentation \n<img:images/img_908.png{scale=.2}>
+***[#green] <b><i><color #white>Impact on Software
+****[#yellow] <i><color #black><size:12>Quality of documentation reflects software quality
+****[#grey] <i><color #black><size:12><b>[[/images/img_909.png Curb appeal analogy]]
+***[#green] <b><i><color #white>Statistics
+****[#yellow] <i><color #black><size:12>**Red Monk analysis:** Good docs are crucial in software adoption
+****[#yellow] <i><color #black><size:12>**GitHub 2017 survey:** 93% reported incomplete/outdated docs as a problem
+***[#green] <b><i><color #white>Role in Development
+****[#yellow] <i><color #black><size:12>Affects both **creators and consumers** of <b>software
+****[#yellow] <i><color #black><size:12>Can influence the release of software
+** Antora Overview
+***[#green] <b><i><color #white>Motivation
+****[#yellow] <i><color #black><size:12>Frustration with existing documentation platforms
+****[#yellow] <i><color #black><size:12>Existing tools either had wrong scope or required deep web stack knowledge
+****[#yellow] <i><color #black><size:12>Preference for AsciiDoc by clients
+****[#yellow] <i><color #black><size:12>Lack of a platform dedicated to AsciiDoc
+***[#green] <b><i><color #white>Purpose
+****[#yellow] <i><color #black><size:12>Fill the gaps with Antora
+****[#yellow] <i><color #black><size:12>Designed as a static site generator
+****[#yellow] <i><color #black><size:12>Generates documentation sites from AsciiDoc documents
+****[#yellow] <i><color #black><size:12>Sources content from multiple Git repositories
+****[#yellow] <i><color #black><size:12>Uses Asciidoctor to convert <b>AsciiDoc to HTML
+***[#green] <b><i><color #white>Collaborat<b>ion
+****[#yellow] <i><color #black><size:12>**Asciidoctor:** Converts <b>AsciiDoc to HTML
+****[#yellow] <i><color #black><size:12>**Antora:** Handles site <b>publishing
+** Comparison with Other Tools
+***[#green] <b><i><color #white>General-purpose tools <b>(e.g., Jekyll, Hugo, etc.)
+****[#yellow] <i><color #black><size:12>Not well-suited for large-scale documentation sites
+****[#yellow] <i><color #black><size:12>Documentation-specific concerns require specialized tools
+****[#yellow] <i><color #black><size:12>Retooling general static site generators for documentation often fails
+** Key Features of Antora
+***[#green] <b><i><color #white>Docs as Code approach
+****[#grey] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_901.png Produce documentation from distributed content]]
+****[#yellow] <i><color #black><size:12>Reuse conventions, processes, tools from software development
+***[#green] <b><i><color #white>Content Distribution
+****[#grey] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_902.png Content not owned by website or repository]]
+****[#grey] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_902.png Antora supports distributed content across multiple repositories]]
+****[#grey] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_903.png Requires a standard project structure]]
+***[#green] <b><i><color #white>[[/images/img_904.png Content Aggregation]]
+****[#yellow] <i><color #black><size:12>Antora as a Git client
+****[#yellow] <i><color #black><size:12>Clones or fetches multiple repositories and branches
+****[#yellow] <i><color #black><size:12>Aggregates content and builds a content catalog
+****[#yellow] <i><color #black><size:12>Catalog fed to site generator
+***[#green] <b><i><color #white>[[/images/img_905.png Versioning]]
+****[#black] *<b><i><color #black><size:12>[[/images/img_910.png Documentation needs versioning like software]]
+****[#yellow] <i><color #black><size:12>Components and versions are first-class citizens in Antora
+****[#yellow] <i><color #black><size:12>Metadata managed via antora.yml file
+****[#yellow] <i><color #black><size:12>Antora pulls content and metadata, builds site catalog
+****[#yellow] <i><color #black><size:12>Supports navigating between multiple versions of the same page
+***[#green] <b><i><color #white>UI Separation
+****[#yellow] <i><color #black><size:12>UI as a dedicated project
+****[#yellow] <i><color #black><size:12>Provides the front-end and theme
+****[#yellow] <i><color #black><size:12>UI and content are completely separated
+****[#yellow] <i><color #black><size:12>Site generator specifies UI bundle URL in the playbook
+****[#yellow] <i><color #black><size:12>Allows A/B testing with themes
+***[#green] <b><i><color #white>[[/images/img_906.png Integration with CI Pipeline]]
+****[#yellow] <i><color #black><size:12>Write content in AsciiDoc
+****[#yellow] <i><color #black><size:12>Content editing feels like writing source code
+****[#yellow] <i><color #black><size:12>Antora runs as part of CI pipeline
+****[#yellow] <i><color #black><size:12>Jobs triggered by webhooks from content repositories
+** Demo Overview
+***[#green] <b><i><color #white>[[/images/img_906.png CI Process]]
+****[#yellow] <i><color #black><size:12>Content editing and commit to Git
+****[#yellow] <i><color #black><size:12>Webhook triggers CI job
+****[#yellow] <i><color #black><size:12>CI server starts job, installs Antora, clones PlayBook repository
+****[#yellow] <i><color #black><size:12>PlayBook repository as a manifest for the doc site
+****[#yellow] <i><color #black><size:12>Clones content repositories and downloads UI
+****[#yellow] <i><color #black><size:12>Aggregates content and generates the site
+****[#yellow] <i><color #black><size:12>Site output to folder, zip file, or remote server
+****[#yellow] <i><color #black><size:12>Syncs with web server or CDN infrastructure
+****[#yellow] <i><color #black><size:12>**Example:** Couchbase documentation migrated to Antora
+***[#green] <b><i><color #white>Terminal Commands
+****[#yellow] <i><color #black><size:12>Install Antora CLI and site generator
+****[#yellow] <i><color #black><size:12>**Example PlayBook file:** Basic site information, content sources, UI configuration
+****[#yellow] <i><color #black><size:12>**Run Antora:** Clones repositories, builds site in public folder
+****[#yellow] <i><color #black><size:12>Example of adding another version
+****[#yellow] <i><color #black><size:12>Editing content locally and remotely
+****[#yellow] <i><color #black><size:12>**Navigation file (nav.adoc):** Lists pages and components
+***[#green] <b><i><color #white>Conclusion
+****[#yellow] <i><color #black><size:12>Antora scales to meet complex documentation needs
+****[#yellow] <i><color #black><size:12>Encouragement to evaluate Antora for documentation needs
+****[#yellow] <i><color #black><size:12>Slides and transcript available online
+@endmindmap
+

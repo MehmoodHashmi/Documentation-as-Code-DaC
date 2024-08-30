@@ -1,0 +1,101 @@
+@startmindmap
+title = <i><size:18>Documentation as Code (using AsciiDoc + Antora) \n<img:images/img_911.png{scale=.4}>
+!theme hacker
+
+caption <img:images/img_903.png{scale=.8}>
+
+*[#darkblue] <i>Antora: \n<i>Documentation Sites for Software Teams\n<img:images/img_907.png{scale=.16}>
+**[#lightblue] <i>Introduction
+***[#green] <b><i><color #white>Speaker: Alexander Schwartz
+***[#green] <b><i><color #white>Principal IT Consultant at MSG
+***[#grey] <b><i><color #white>[[/images/img_0.png Focus: Empowering users with up-to-date, consistent documentation]]
+***[#grey] <b><i><color #white>Goal: [[/images/img_0.png Publish updated documentation simultaneously with new software features]]
+**[#lightblue] <i>Antora Overview
+***[#green] <b><i><color #white>Why AsciiDoc and Antora?
+****[#yellow] <i><color #black>Empowers your users with documentation so they get their work done
+***[#green] <b><i><color #white>Provides online documentation sites
+***[#green] <b><i><color #white>Fully automates documentation processes
+***[#green] <b><i><color #white>Searchable and topic-based content
+***[#green] <b><i><color #white>Navigation outline and cross-references within pages
+***[#green] <b><i><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/documentation-project/images/img_910.png Grouping by version and component]]
+****[#yellow] <i><color #black><size:12><b>Version grouping
+*****[#gold] <i><color #black><size:12>Directs users to **documentation** matching their <b>software version
+****[#yellow] <i><color #black><size:12><b>Component grouping
+*****[#gold] <i><color #black><size:12>Addresses different **user types** with <b>specific content
+**[#lightblue] <i>[[/images/img_1.png Publishing Tools and Documentation Structure]]
+***[#green] <b><i><color #white>Structured into components and modules
+***[#green] <b><i><color #white>Collects content from multiple Git repositories and branches
+***[#green] <b><i><color #white>Converts AsciiDoc content to HTML output
+****[#yellow] <i><color #black><size:12>HTML output merged with UI theme
+****[#yellow] <i><color #black><size:12>Creates static site
+***[#green] <b><i><color #white>Key benefits
+****[#yellow] <i><color #black><size:12>Fast conversion using Node.js
+****[#yellow] <i><color #black><size:12>Minimal dependencies
+****[#yellow] <i><color #black><size:12>Modular and extendable
+****[#yellow] <i><color #black><size:12>Built on AsciiDoc and AsciiDoctor
+***[#green] <b><i><color #white>AsciiDoc
+****[#yellow] <i><color #black><size:12>Frictionless writing using plain text
+****[#yellow] <i><color #black><size:12>Suited for Git version control
+****[#yellow] <i><color #black><size:12>Feature-rich syntax for technical documentation
+*****[#gold] <i><color #black><size:12>Lists, tables, listings, callouts
+****[#yellow] <i><color #black><size:12>Over 15 years in use
+****[#yellow] <i><color #black><size:12>Standardization started at Eclipse Foundation
+***[#green] <b><i><color #white>AsciiDoctor
+****[#yellow] <i><color #black><size:12>Toolchain for creating HTML and other formats from AsciiDoc
+****[#yellow] <i><color #black><size:12>Open-source, runs on Java, Ruby, and JavaScript runtimes
+****[#yellow] <i><color #black><size:12>Powers Antora’s AsciiDoc to HTML conversion
+**[#lightblue] <i>Writing in IDE
+***[#green] <b><i><color #white>Stay focused without switching apps
+***[#green] <b><i><color #white>Best collaboration support using version control
+***[#green] <b><i><color #white>IntelliJ AsciiDoc plugin
+****[#yellow] <i><color #black><size:12>Supports both <b>Antora and AsciiDoc
+****[#yellow] <i><color #black><size:12>**Maintainer:** Alexander Schwartz
+**[#lightblue] <i>Antora Structure
+***[#green] <b><i><color #white>Components \n<img:images/img_9.png{scale=.2}>
+****[#grey] <i><color #black><size:12>[[/images/img_2.png Multiple independent components per site]]
+*****[#orange] <i><color #black><size:12><b>[[/images/img_3.png Identified by name and version]]
+****[#grey] <i><color #black><size:12>[[/images/img_3.png Multiple modules per component]]
+****[#grey] <i><color #black><size:12>[[/images/img_4.png Cross-references between components and modules]]
+****[#yellow] <i><color #black><size:12>Modules have predefined structure
+*****[#gold] <i><color #black><size:12>Pages, images, examples, attachments, partials
+****[#yellow] <i><color #black><size:12>**Partials:** Content snippets reusable in multiple places
+***[#green] <b><i><color #white>[[/images/img_4.png Advanced feature: Distributed components]]
+****[#yellow] <i><color #black><size:12>Components across multiple folders, branches, and repositories
+****[#yellow] <i><color #black><size:12>You may not need this feature unless your project becomes very large & big
+**[#lightblue] <i>Antora Process
+***[#green] <b><i><color #white>User runs Antora \n<img:images/img_5.png{scale=.73}>
+****[#yellow] <i><color #black><size:12>Loads playbook with list of repositories and branches
+****[#yellow] <i><color #black><size:12>Clones Git repositories \n***<i><color #black><size:12>Converts AsciiDoc content to HTML
+****[#yellow] <i><color #black><size:12>Merges with UI theme and customizations
+****[#yellow] <i><color #black><size:12>Optionally creates search index and other outputs
+****[#yellow] <i><color #black><size:12>Generates static site output folder
+****[#yellow] <i><color #black><size:12>Can be hosted on any web server, CDN, or sent as a zip file
+**[#lightblue] <i>Roles in Documentation Project \n<img:images/img_6.png{scale=.76}>
+***[#green] <b><i><color #white>Authors
+****[#yellow] <i><color #black><size:12>Structure and write content
+****[#yellow] <i><color #black><size:12>Familiar with Git or willing to learn
+****[#yellow] <i><color #black><size:12>Write content in AsciiDoc
+***[#green] <b><i><color #white>DocOps
+****[#yellow] <i><color #black><size:12>Automation and infrastructure setup
+****[#yellow] <i><color #black><size:12>Git repository setup
+****[#yellow] <i><color #black><size:12>Write YAML for configuration
+****[#yellow] <i><color #black><size:12>Setup package.json for version management
+****[#yellow] <i><color #black><size:12>Continuous integration setup
+***[#green] <b><i><color #white>Web Developers
+****[#yellow] <i><color #black><size:12>Create and customize website
+****[#yellow] <i><color #black><size:12>Knowledge of HTML, CSS, and possibly JavaScript
+**[#lightblue] <i>First Steps in Setting Up Antora Site \n|<img:images/img_7.png>|<img:images/img_8.png>|
+***[#green] <b><i><color #white>Authors
+****[#yellow] <i><color #black><size:12>**1- Create** first **component (my-component)** with <b>folder structure
+****[#yellow] <i><color #black><size:12>**2- Create** Antora YAML file
+*****[#gold] <i><color #black><size:12>and then name and version the <b>component
+****[#yellow] <i><color #black><size:12>**3- Create** first page in pages folder
+****[#yellow] <i><color #black><size:12>**4- Create** **navigation entries** in **navigation file** and then, \n***<i><color #black><size:12>Reference **navigation** in **Antora YAML** file
+***[#green] <b><i><color #white>[[/images/img_10.png DocOps]]
+****[#yellow] <i><color #black><size:12>**1- Install Antora** using **npm** or <b>package.json
+****[#yellow] <i><color #black><size:12>**2-** Create **playbook** for local preview site
+****[#yellow] <i><color #black><size:12>**3-** Create **playbook** for **publishing site** on the internet
+***[#green] <b><i><color #white>Web Developers
+****[#yellow] <i><color #black><size:12>Copy or create UI theme for Antora
+****[#yellow] <i><color #black><size:12>Provide necessary customizations <b>(e.g., header and footer content)
+@endmindmap

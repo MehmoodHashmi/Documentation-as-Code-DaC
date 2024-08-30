@@ -1,5 +1,5 @@
 @startmindmap
-title =<i><b><u>Design Patterns in Asynchronous Programming
+title =<i><b><u><size:18>Design Patterns in Asynchronous Programming
 !theme hacker
 
 *[#darkblue] <i><color #white>Design Patterns in Asynchronous Programming
@@ -31,7 +31,7 @@ title =<i><b><u>Design Patterns in Asynchronous Programming
 ****[#yellow] <i><color #black><size:14>Managing continuous data streams and their flow.
 ***[#green] <b><i><color #white><size:14>Event Handling and Reactivity
 ****[#yellow] <i><color #black><size:14>Handling events and their reactivity in programming.
-**[#lightblue] <i><color #blac><size:14>Actor Model
+**[#gold] <i><color #blac><size:14>Actor Model
 ***[#green] <b><i><color #white><size:14>Concurrency through Actors
 ****[#yellow] <i><color #black><size:14>Achieving concurrency through actor-based systems.
 ***[#green] <b><i><color #white><size:14>Message Passing

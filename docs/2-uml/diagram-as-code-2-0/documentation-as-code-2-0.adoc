@@ -18,7 +18,7 @@ Now that we've covered the different types of C4 diagrams, there is one more imp
 This distinction becomes powerful when we can *create a single model* and reuse different elements of it in different diagrams. This allows us to apply the DRY principle to our diagrams.
 
 .4+1 View Model
-image:/home/mehmood/IdeaProjects/Documentation-as-Code-DaC/docs/uml/diagram-as-code-2-0/images/img.png[]
+image:images/img.png[]
 
 You've highlighted an important distinction between modeling and diagramming in the context of C4 diagrams. Modeling involves creating a structured representation of your system, describing its components, relationships, and other relevant details. *It's essentially about defining the underlying data and structure of your system.*
 

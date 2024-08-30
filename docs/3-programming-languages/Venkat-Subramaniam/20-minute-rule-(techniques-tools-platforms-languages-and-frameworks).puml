@@ -1,0 +1,224 @@
+@startmindmap
+* <i><b>[[https://www.thoughtworks.com/radar 20-minute rule thoughtworks]] click me
+
+!theme hacker
+title = <i><size:18>20 minute rule (techniques, tools, platforms, languages, and frameworks)
+
+*[#darkblue] <i><color #white>20 minute rule (techniques, tools, platforms, languages, and frameworks) \n<img:images/img_902.png{scale=1}>
+**[#gold] <i><color #black>Introduction
+***[#green] <i><color #white><b><size:12>Techniques
+****[#yellow]:<i><color #black><size:12>are **abstract.** They refer to methodologies, approaches, or practices that **guide** the process of software development and engineering.
+<i><color #black><size:12>Techniques are conceptual frameworks or strategies that are applied during development to achieve specific goals, such as improving quality, efficiency, or collaboration.
+<i><color #black><size:12>Examples include Agile Methodology, Test-Driven Development (TDD), and DevOps.;
+
+***[#green] <i><color #white><b><size:12>Tools
+****[#yellow]:<i><color #black><size:12>are **concrete**. They are tangible software or systems that developers and engineers use to implement these techniques or perform specific tasks within the
+<i><color #black><size:12>development process. Tools provide the practical means to carry out development activities, such as coding, testing, deployment, and monitoring.
+<i><color #black><size:12>Examples include Git (for version control), Jenkins (for CI/CD), and Docker (for containerization).;
+***[#green] <i><color #white><b><size:12>Summary
+****[#yellow] <i><color #black><size:12>**Techniques** are the <b>"how" or the "approach" (abstract). \n<i><color #black><size:12>**Tools** are the <b>"what" or the "means" (concrete).
+
+**[#lightblue] <i><color #black>Techniques
+***[#green] <i><color #white><b><size:12>Agile Methodology
+****[#yellow]:*<i><color #black><size:12>Scrum
+* <i><color #black><size:12>Kanban
+* <i><color #black><size:12>Extreme Programming (XP)
+* <i><color #black><size:12>Lean Software Development;
+
+***[#green] <i><color #white><b><size:12>Waterfall Model
+***[#green] <i><color #white><b><size:12>DevOps
+****[#yellow]:*<i><color #black><size:12>Continuous Integration (CI)
+*<i><color #black><size:12>Continuous Deployment (CD)
+*<i><color #black><size:12>Infrastructure as Code (IaC);
+***[#green] <i><color #white><b><size:12>Test-Driven Development (TDD)
+****[#yellow] <i><color #black><size:12>Unit Testing
+****[#yellow] <i><color #black><size:12>Integration Testing
+****[#yellow] <i><color #black><size:12>Acceptance Testing
+***[#green] <i><color #white><b><size:12>Behavior-Driven Development (BDD)
+***[#green] <i><color #white><b><size:12>Pair Programming
+***[#green] <i><color #white><b><size:12>Code Review
+***[#green] <i><color #white><b><size:12>Prototyping
+***[#green] <i><color #white><b><size:12>Software Design Patterns
+****[#yellow] <i><color #black><size:12>Creational Patterns
+*****[#gold]:*<i><color #black><size:12>Singleton
+*<i><color #black><size:12>Factory Method
+*<i><color #black><size:12>Builder;
+
+****[#yellow] <i><color #black><size:12>Structural Patterns
+*****[#gold]:*<i><color #black><size:12>Adapter
+*<i><color #black><size:12>Composite
+*<i><color #black><size:12>Proxy;
+
+****[#yellow] <i><color #black><size:12>Behavioral Patterns
+*****[#gold]:*<i><color #black><size:12>Observer
+*<i><color #black><size:12>Strategy
+*<i><color #black><size:12>Command;
+
+***[#green] <i><color #white><b><size:12>Refactoring
+**[#lightblue] <i><color #black>Tools
+***[#green] <i><color #white><b><size:12>Version Control Systems
+****[#yellow]:*<i><color #black><size:12>Git
+*<i><color #black><size:12>SVN (Subversion)
+*<i><color #black><size:12>Mercurial;
+
+***[#green] <i><color #white><b><size:12>CI/CD Tools
+****[#yellow]:*<i><color #black><size:12>Jenkins
+*<i><color #black><size:12>GitLab CI
+*<i><color #black><size:12>CircleCI
+*<i><color #black><size:12>Travis CI
+*<i><color #black><size:12>GitHub Actions;
+
+***[#green] <i><color #white><b><size:12>Code Editors/IDEs
+****[#yellow]:*<i><color #black><size:12>Visual Studio Code
+*<i><color #black><size:12>IntelliJ IDEA
+*<i><color #black><size:12>Eclipse
+*<i><color #black><size:12>PyCharm
+*<i><color #black><size:12>Sublime Text
+*<i><color #black><size:12>Atom;
+
+***[#green] <i><color #white><b><size:12>Containerization Tools
+****[#yellow]:*<i><color #black><size:12>Docker
+*<i><color #black><size:12>Kubernetes
+*<i><color #black><size:12>Podman;
+***[#green] <i><color #white><b><size:12>Monitoring Tools
+****[#yellow]:*<i><color #black><size:12>Prometheus
+*<i><color #black><size:12>Grafana
+*<i><color #black><size:12>Nagios
+*<i><color #black><size:12>Datadog;
+
+***[#green] <i><color #white><b><size:12>Testing Tools
+****[#yellow]:*<i><color #black><size:12>JUnit
+*<i><color #black><size:12>Selenium
+*<i><color #black><size:12>pytest
+*<i><color #black><size:12>Postman
+*<i><color #black><size:12>JMeter;
+
+***[#green] <i><color #white><b><size:12>Project Management Tools
+****[#yellow]:*<i><color #black><size:12>Jira
+*<i><color #black><size:12>Trello
+*<i><color #black><size:12>Asana
+*<i><color #black><size:12>Monday.com;
+
+***[#green] <i><color #white><b><size:12>Build Tools
+****[#yellow]:*<i><color #black><size:12>Maven
+*<i><color #black><size:12>Gradle
+*<i><color #black><size:12>Ant
+*<i><color #black><size:12>Make;
+
+***[#green] <i><color #white><b><size:12>Configuration Management
+****[#yellow] <i><color #black><size:12>Ansible
+****[#yellow] <i><color #black><size:12>Puppet
+****[#yellow] <i><color #black><size:12>Chef
+****[#yellow] <i><color #black><size:12>SaltStack
+**[#lightblue] <i><color #black>Platforms\n<img:images/img_901.png{scale=.4}>
+***[#green] <i><color #white><b><size:12>Cloud Platforms
+****[#yellow]:*<i><color #black><size:12>Amazon Web Services (AWS)
+*<i><color #black><size:12>Google Cloud Platform (GCP)
+*<i><color #black><size:12>Microsoft Azure
+*<i><color #black><size:12>IBM Cloud
+*<i><color #black><size:12>Oracle Cloud;
+
+***[#green] <i><color #white><b><size:12>Operating Systems
+****[#yellow] <i><color #black><size:12><b>Linux
+*****[#gold]:*<i><color #black><size:12>Ubuntu
+*<i><color #black><size:12>CentOS
+*<i><color #black><size:12>Red Hat;
+****[#yellow] <i><color #black><size:12>Windows
+****[#yellow] <i><color #black><size:12>macOS
+***[#green] <i><color #white><b><size:12>Mobile Platforms
+****[#yellow] <i><color #black><size:12>Android
+****[#yellow] <i><color #black><size:12>iOS
+***[#green] <i><color #white><b><size:12>Virtualization Platforms
+****[#yellow]:*<i><color #black><size:12>VMware
+*<i><color #black><size:12>Hyper-V
+*<i><color #black><size:12>VirtualBox;
+
+***[#green] <i><color #white><b><size:12>Serverless Platforms
+****[#yellow]:*<i><color #black><size:12>AWS Lambda
+*<i><color #black><size:12>Google Cloud Functions
+*<i><color #black><size:12>Azure Functions;
+
+**[#lightblue] <i><color #black>Languages
+***[#green] <i><color #white><b><size:12>Programming Languages
+****[#yellow]:*<i><color #black><size:12>Java
+*<i><color #black><size:12>Python
+*<i><color #black><size:12>JavaScript
+*<i><color #black><size:12>C#
+*<i><color #black><size:12>C++
+*<i><color #black><size:12>Ruby
+*<i><color #black><size:12>PHP
+*<i><color #black><size:12>Swift
+*<i><color #black><size:12>Kotlin
+*<i><color #black><size:12>TypeScript
+*<i><color #black><size:12>Go
+*<i><color #black><size:12>Rust;
+
+
+***[#green] <i><color #white><b><size:12>Scripting Languages
+****[#yellow] <i><color #black><size:12>Bash
+****[#yellow] <i><color #black><size:12>PowerShell
+****[#yellow] <i><color #black><size:12>Perl
+***[#green] <i><color #white><b><size:12>Markup Languages
+****[#yellow]:*<i><color #black><size:12>HTML
+*<i><color #black><size:12>XML
+*<i><color #black><size:12>YAML
+*<i><color #black><size:12>Markdown
+*<i><color #black><size:12>LaTeX;
+
+***[#green] <i><color #white><b><size:12>Query Languages
+****[#yellow] <i><color #black><size:12>SQL
+****[#yellow] <i><color #black><size:12>GraphQL
+****[#yellow] <i><color #black><size:12>SPARQL
+**[#lightblue] <i><color #black>Frameworks
+***[#green] <i><color #white><b><size:12>Web Development
+****[#yellow] <i><color #black><size:12>Frontend
+*****[#gold]:*<i><color #black><size:12>React
+*<i><color #black><size:12>Angular
+*<i><color #black><size:12>Vue.js
+*<i><color #black><size:12>Svelte;
+
+****[#yellow] <i><color #black><size:12>Backend
+*****[#gold]:*<i><color #black><size:12>Spring Boot
+*<i><color #black><size:12>Django
+*<i><color #black><size:12>Flask
+*<i><color #black><size:12>Express.js
+*<i><color #black><size:12>Ruby on Rails
+*<i><color #black><size:12>ASP.NET Core;
+
+***[#green] <i><color #white><b><size:12>Mobile Development
+****[#yellow]:*<i><color #black><size:12>React Native
+*<i><color #black><size:12>Flutter
+*<i><color #black><size:12>Xamarin
+*<i><color #black><size:12>SwiftUI
+*<i><color #black><size:12>Jetpack Compose;
+
+***[#green] <i><color #white><b><size:12>Testing Frameworks
+****[#yellow]:*<i><color #black><size:12>JUnit
+*<i><color #black><size:12>Mocha
+*<i><color #black><size:12>Jest
+*<i><color #black><size:12>pytest
+*<i><color #black><size:12>RSpec
+*<i><color #black><size:12>Selenium;
+
+***[#green] <i><color #white><b><size:12>Data Science & Machine Learning
+****[#yellow] <i><color #black><size:12>TensorFlow
+****[#yellow] <i><color #black><size:12>PyTorch
+****[#yellow] <i><color #black><size:12>scikit-learn
+****[#yellow] <i><color #black><size:12>Keras
+****[#yellow] <i><color #black><size:12>Apache Spark
+***[#green] <i><color #white><b><size:12>UI/UX Design
+****[#yellow] <i><color #black><size:12>Bootstrap
+****[#yellow] <i><color #black><size:12>Material-UI
+****[#yellow] <i><color #black><size:12>Tailwind CSS
+****[#yellow] <i><color #black><size:12>Ant Design
+***[#green] <i><color #white><b><size:12>API Development
+****[#yellow] <i><color #black><size:12>RESTful API
+****[#yellow] <i><color #black><size:12>GraphQL
+****[#yellow] <i><color #black><size:12>gRPC
+
+***[#green] <i><color #white><b><size:12>Database Management
+****[#yellow]:*<i><color #black><size:12>Hibernate
+*<i><color #black><size:12>Sequelize
+*<i><color #black><size:12>TypeORM
+*<i><color #black><size:12>Entity Framework;
+@endmindmap
