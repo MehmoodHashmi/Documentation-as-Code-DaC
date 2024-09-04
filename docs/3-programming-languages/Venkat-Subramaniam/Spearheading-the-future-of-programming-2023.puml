@@ -158,8 +158,9 @@ caption |<img:images/img_771.png>|\n|<img:images-reuseable/43-evolution-and-birt
 ******[#yellow] <i><color #black><size:22><b>Data-set\n<img:images/img_6.png>
 ***[#green] <b><i><color #white><size:12>People ask me which programming language I should learn
 ****[#yellow] <i><color #black><size:12>I always tell don't pick a **language** to learn instead pick a **programming paradigm** to learn
-****[#yellow] <i><color #black><size:12>Because when you learn a <b>different paradigm,</b> you learn a <b>different way of thinking \n**<i><color #black><size:12>A **Programming language** tries to constrain you __to do only__ what the **designer** of the language **thought** was <b>good. <color #red>\tBy Bajarne Stroustrup
-
+****[#yellow]:<i><color #black><size:12>Because when you learn a <b>different paradigm,</b> you learn a <b>different way of thinking.
+**<i><color #black><size:12>A **Programming language** tries to constrain you __to do only__ what the **designer** of the language **thought** was <b>good. <color #red>\tBy Bajarne Stroustrup
+**<i><color #black><size:12>**Alan Perlis** once said: "A **language** that doesn't affect the way you think about programming, is not worth knowing".;
 
 ****[#darkorange] <i><color #black><size:12>Learn <b>Problem solving
 *****[#gold] <i><color #black><size:12>**Programming:** is part **practical,** part <color #green><b>theoretical.\n<i><color #black><size:12>**1-** If you are just <color #green>**theoretical, (analysis & design)**</color> <size:12>you will produce <u><b>unusable (or unaffordable) toys.\n<i><color #black><size:12>**2-** If you are just **practical, (code & test)** you will produce <u><b>non-scalable, unmaintainable hacks.

@@ -49,7 +49,7 @@ title =<i><b><u>Goal: of the data-structures is no "incidental data structures"\
 ***[#green] <b><i><color #white><size:12>is "tactical design"
 ****[#yellow] <i><color #black><size:12>**Performance** comes through <b>Data-structure
 ****[#yellow]:<i><color #black><size:12>**Performance:** how quickly a program does its work, that means it is measurable.
-*<i><color #red><size:12>Improving **performance** involves doing work <b>faster!
+*<i><color #red><size:12>Improving **performance** involves doing <b>work faster!
 *<i><color #black><size:12>There is no point at which a program can't do work any faster... until you Bremermann's limit...;
 ****[#darkorange] <i><color #black><size:12>There is some **theoretical limit** how quickly a "program" can do its <b>work.\n*<i><color #black><size:12>**Physics Limit:** I can't pass **information** faster than the <b>speed of light.\n*<i><color #black><size:12>I can **compress information** only to **certain level,** this is just the nature of the **laws of physics** of the world in which we live.
 ****[#yellow] <i><color #black><size:12>Inside-out
@@ -57,7 +57,7 @@ title =<i><b><u>Goal: of the data-structures is no "incidental data structures"\
 ***[#green] <b><i><color #white><size:12>is "strategic design"
 ****[#yellow] <i><color #black><size:12>**Efficiency** comes through <b>"algorithm"
 ****[#yellow]:<i><color #black><size:12>**Efficiency:** is how much work is required by a <b>task.
-*<i><color #green><size:12>Improving **"efficiency"** involves doing less work & get same result.
+*<i><color #green><size:12>Improving **"efficiency"** involves doing **less work** & get same result.
 *<i><color #black><size:12>An **Efficient:** program is one which does the minimum (that we're aware of) amount of work to accomplish a given task.;
 ****[#darkorange] <i><color #black><size:12>Improving **"algorithmic efficiency"** requires finding a different way of solving the same problem.
 ****[#yellow] <i><color #black><size:12>Outside-in

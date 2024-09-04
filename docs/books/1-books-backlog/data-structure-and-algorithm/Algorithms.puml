@@ -136,7 +136,7 @@ How we know its disjoint set? ** s1 intersection s2 = empty set**
 to which set it belongs. If both     (elements) belong to same sets then it means there is a cycle.;
 
 *** **Divide and Conquer Strategy** \n<img:images/img_34.png> \n**general algorithm design for divide and conquer**\n<img:images/img_35.png>
-**** if the sub-problems if the sub-problem is large then again divide the sub-problem and then solve it.
+**** If the sub-problem is large then again divide the sub-problem and then solve it.
 ****:**Note:** whatever the **problem (P)** is, the sub-problem **(P1, P2, ...)** must be of the same nature or behavior
  as the big problem or Main problem, the sub-problem must not deviate from the orignal problem e.g.
 * if the **big problem** is to **sort** then **sub-problems** must be also be **sort.**

@@ -1,37 +1,39 @@
 @startmindmap
 title Basic and Advanced Data Structures
+!theme hacker
 
-* Basic Data Structures
-** Arrays
-** Linked Lists
-** Stacks
-** Queues
-** Trees
-*** Binary Trees
-*** Balanced Trees
-*** AVL Trees
-*** Red-Black Trees
-*** B-Trees
-** Hash Tables
-** Graphs
-*** Undirected Graphs
-*** Directed Graphs
++ Data Structures
+++[#lightblue] <i><color #black>Basic Data Structures
++++[#green] <i><color #white><b>Arrays
++++[#green] <i><color #white><b>Linked Lists
++++[#green] <i><color #white><b>Stacks
++++[#green] <i><color #white><b>Queues
++++[#green] <i><color #white><b>Trees
+++++[#yellow] <i><color #black>Binary Trees
+++++[#yellow] <i><color #black>Balanced Trees
+++++[#yellow] <i><color #black>AVL Trees
+++++[#yellow] <i><color #black>Red-Black Trees
+++++[#yellow] <i><color #black>B-Trees
++++[#green] <i><color #white><b>Hash Tables
++++[#green] <i><color #white><b>Graphs
+++++[#yellow] <i><color #black>Undirected Graphs
+++++[#yellow] <i><color #black>Directed Graphs
 
-* Advanced Data Structures
-** Priority Queues
-** Heaps
-** Fibonacci Heaps
-** Tries
-** Suffix Trees
-** Segment Trees
-** Disjoint Set Union
-** Fenwick Trees
-** Bloom Filters
-** Skip Lists
-** Self-Balancing Search Trees
-*** Splay Trees
-*** Treaps
-*** 2-3 Trees
-*** 2-3-4 Trees
+--[#lightblue] <i><color #black>Advanced Data Structures
+---[#green] <i><color #white><b>Priority Queues
+---[#green] <i><color #white><b>Heaps
+---[#green] <i><color #white><b>Fibonacci Heaps
+---[#green] <i><color #white><b>Tries
+---[#green] <i><color #white><b>Suffix Trees
+---[#green] <i><color #white><b>Segment Trees
+---[#green] <i><color #white><b>Disjoint Set Union
+---[#green] <i><color #white><b>Fenwick Trees
+---[#green] <i><color #white><b>Bloom Filters
+---[#green] <i><color #white><b>Skip Lists
+---[#green] <i><color #white><b>Self-Balancing Search Trees
+----[#yellow] <i><color #black>Splay Trees
+----[#yellow] <i><color #black>Treaps
+----[#yellow] <i><color #black>2-3 Trees
+----[#yellow] <i><color #black>2-3-4 Trees
 
 @endmindmap
