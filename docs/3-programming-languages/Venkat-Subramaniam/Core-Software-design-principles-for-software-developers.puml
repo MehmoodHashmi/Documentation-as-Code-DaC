@@ -53,6 +53,7 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12>Our **job** is __**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_900.png problem solving;]]**__ **"[[https://www.youtube.com/watch?v=Pxe84h0aCts&t=658s software]]"** is the **"[[https://www.youtube.com/watch?v=Pxe84h0aCts&t=658s tool]]"** we **"use"** to **"solve"** the
 <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_900.png problems]]** and so **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_900.png learning]]** is the other **tool** that we need to be able to wield to be **good**
 <i><color #black><size:12>at <b>software development.
+|<#white><i><color #black><size:12>**Logic** is the **science** of <b>thought or thinking.|
 ==|<#black><i><color #red><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_526.png Thought vs Imagination]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_592.png ("Intuition" follows Imagination)]] |==
 *<i><color #black><size:12><b>Is thought [[docs/3-programming-languages/Venkat-Subramaniam/images/img_515.png "systematic"?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_597.png Insight vs. Foresight]]
 **<i><color #black><size:12>No, it's not it can fly to anywhere at any time. But <b>[[docs/3-programming-languages/Venkat-Subramaniam/inner-world-vs-outer-world.puml Inner world & outer world]]
@@ -146,7 +147,7 @@ skinparam hyperlinkColor white
 <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_136.png How do you not become arrogant, even though you achieve a lot?]];
 
 ****[#yellow] <i><color #black><size:12>**Computation** is the **principle,** the **computer** is simply the <b>tool
-**[#lightblue]:<i><color #black><size:12>What is a good design? \t "Design" it twice!
+**[#lightblue]:<i><color #black><size:12>What is a good design? \t "Design" it twice! \t\t\t\t\t\t [[docs/3-programming-languages/Venkat-Subramaniam/images/img_903.png Design is emrgent while architecture is not!]] click me
 |<img:images/img_600.png{scale=.4}>|<img:images/img_709.png{scale=.72}>|;
 ***[#green] <i><color #white><size:12><b>Usually my thinking is
 ****[#yellow] <i><color #black><size:12>The Design is good because <b>"I created it!"
@@ -282,7 +283,7 @@ skinparam hyperlinkColor white
 ****[#yellow] <i><color #black><size:12>Database decisions, libraries and frameworks decisions etc.
 *****[#a] *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/mixed-paradigms-(the-method-to-madness).puml Choosing programing language venkat-subramaniam]] \n*<i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]]
 ****[#darkorange] <i><color #black><size:16>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful. \n*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_718.png 15- Rule of optimization]]** Unix philosophy
-*****[#a] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_864.png more on optimization & algorithms]]
+*****[#a] *<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_864.png More on optimization & algorithms]] \n*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_903.png "Design" is "emergent" but not "architecture". In other words  you can do MVP thing with design but not with architecture.]]
 ****[#yellow] <i><color #black><size:12>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
 
 **[#lightblue]:<i><color #black><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_76.png Cohesion]]

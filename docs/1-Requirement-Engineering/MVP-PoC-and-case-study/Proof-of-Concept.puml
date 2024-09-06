@@ -1,11 +1,12 @@
 @startmindmap
-title =<b><u><i><size:18>Proof of Concept (PoC)\n|<img:images/img_34.png>|<img:images/img.jpg{scale=.53}>|<img:images/image_3.png{scale=.111}>|<img:images/image_4.png{scale=.26}>|
+title =<b><u><i><size:18>Proof of Concept (PoC)\n|<img:images/img_34.png>|<img:images/img.jpg{scale=.53}>|<img:images/img_10.png{scale=.33}>|<img:images/image_3.png{scale=.111}>|<img:images/image_4.png{scale=.26}>|
 
 !theme hacker
 
 *[#darkblue]:<i><color #white>Proof of Concept
 |<img:images/img.jpg{scale=.57}>|
-|<img:images/img_34.png>|;
+|<img:images/img_34.png>|
+|<img:images/img_10.png{scale=.344}>|;
 **[#lightblue] <i><size:12><color #black><b>Definition
 ***[#green] <i><size:12><color #white><b>What is a PoC?
 ****[#yellow] <i><size:12><color #black>Initial Experimentation

@@ -5,9 +5,11 @@ title =<i><b><size:18>Prototyping\n|<img:images/img.jpg{scale=.56}>|<img:images/
 *[#darkblue]:<color:white><i>Prototyping
 |<img:images/img_5.png{scale=0.42}>|
 |<img:images/img_4.png{scale=0.5}>|
-|<img:images/img_6.png{scale=0.55}>|;
+|<img:images/img_6.png{scale=0.55}>|
+|<img:images/img_10.png{scale=0.305}>|;
 **[#lightblue] <i><color #black><size:12>Definition
 ***[#green] <i><color #white><size:12>**Prototyping** is the process of creating a preliminary model or sample of a product or system to visualize its design, test its functionality, and gather feedback before the final product is developed.
+***[#a] *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_903.png "Design" is "emergent" but not "architecture". In other words  you can do MVP thing with design but not with architecture.]]
 
 **[#lightblue] <i><color #black><size:12>Types of Prototypes
 ***[#green] |<#grey><i><color #white><size:12><b>Throwaway Prototypes|
