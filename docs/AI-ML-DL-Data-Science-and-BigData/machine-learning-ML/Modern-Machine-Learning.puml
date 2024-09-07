@@ -3,7 +3,10 @@ title =<b><i><u><size:18>Modern Machine Learning \n|<img:images/img_2.png{scale=
 caption |<img:images/img_22.png{scale=1}>|\n|<img:../../../docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/44-Program-vs-ML-model.png>|\n|<img:../../../docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/ML-stuff.png>|
 !theme hacker
 
-*[#darkblue] <color #white><i>Modern Machine <i>Learning \n<img:images/img_24.png{scale=1}>
+*[#darkblue]:<color #white><i>Modern Machine <i>Learning
+<img:images/img_24.png{scale=1}>
+|<#black><i><color #white><size:15><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_904.png What is "Singularity" in Artificial Intelligence?]]|;
+
 **[#lightblue] <size:12><i>Definition
 ***[#green] <color #white><i><size:12><i>**Modern Machine Learning** __refers__ to the **current state of machine learning,** which incorporates **advanced techniques and methodologies to build and deploy intelligent systems.**
 
