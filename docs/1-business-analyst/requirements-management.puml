@@ -1,63 +1,63 @@
 @startmindmap
-title =<i><b><u>Requirements Management\n<img:img.png{scale=.55}>
+title =<i><b><u><size:18>Requirements Management
 !theme hacker
 
 
-*[#darkblue] <i>Requirements Management
-**[#lightblue] <i><color #blac><size:14>Overview
-***[#green] <b><i><color #white><size:14>Definition
-****[#yellow] <i><color #black><size:14>Systematic process of gathering, documenting, and managing project needs and expectations.
-***[#green] <b><i><color #white><size:14>Importance
-****[#yellow] <i><color #black><size:14>Ensures project goals align with stakeholder needs, leading to successful outcomes.
-**[#lightblue] <i><color #blac><size:14>Requirement Types
-***[#green] <b><i><color #white><size:14>Business Requirements
-****[#yellow] <i><color #black><size:14>High-level needs defining project scope and objectives.
-***[#green] <b><i><color #white><size:14>Functional Requirements
-****[#yellow] <i><color #black><size:14>Specific functionalities or features a system or product must possess.
-***[#green] <b><i><color #white><size:14>Non-Functional Requirements
-****[#yellow] <i><color #black><size:14>Quality attributes like performance, security, usability, etc.
-***[#green] <b><i><color #white><size:14>Stakeholder Requirements
-****[#yellow] <i><color #black><size:14>Needs and expectations from various project stakeholders.
-**[#lightblue] <i><color #blac><size:14>Requirement Gathering
-***[#green] <b><i><color #white><size:14>Elicitation Techniques
-****[#yellow] <i><color #black><size:14>Interviews, workshops, surveys, observation, and prototyping.
-***[#green] <b><i><color #white><size:14>Documentation
-****[#yellow] <i><color #black><size:14>Use cases, user stories, requirements documents, and visual models.
-**[#lightblue] <i><color #blac><size:14>Requirement Analysis
-***[#green] <b><i><color #white><size:14>Prioritization
-****[#yellow] <i><color #black><size:14>Assessing and ranking requirements based on importance and urgency.
-***[#green] <b><i><color #white><size:14>Validation & Verification
-****[#yellow] <i><color #black><size:14>Ensuring requirements are accurate, feasible, and traceable.
-***[#green] <b><i><color #white><size:14>Gap Analysis
-****[#yellow] <i><color #black><size:14>Identifying inconsistencies or gaps in requirements.
-**[#lightblue] <i><color #blac><size:14>Requirement Traceability
-***[#green] <b><i><color #white><size:14>Tracing
-****[#yellow] <i><color #black><size:14>Linking requirements across project phases to ensure completeness.
-***[#green] <b><i><color #white><size:14>Impact Analysis
-****[#yellow] <i><color #black><size:14>Assessing how changes in requirements affect project scope or deliverables.
-**[#lightblue] <i><color #blac><size:14>Requirement Change Management
-***[#green] <b><i><color #white><size:14>Change Control
-****[#yellow] <i><color #black><size:14>Process for evaluating, approving, and implementing requirement changes.
-***[#green] <b><i><color #white><size:14>Impact Assessment
-****[#yellow] <i><color #black><size:14>Analyzing the effects of proposed changes on the project.
-***[#green] <b><i><color #white><size:14>Version Control
-****[#yellow] <i><color #black><size:14>Managing different versions of requirements documentation.
+*[#darkblue] <i><color #white>Requirements Management \n<img:img.png{scale=.55}>
+**[#lightblue] <i><color #blac><size:12>Overview
+***[#green] <b><i><color #white><size:12>Definition
+****[#yellow] <i><color #black><size:12>Systematic process of gathering, documenting, and managing project needs and expectations.
+***[#green] <b><i><color #white><size:12>Importance
+****[#yellow] <i><color #black><size:12>Ensures project goals align with stakeholder needs, leading to successful outcomes.
+**[#lightblue] <i><color #blac><size:12>Requirement Types
+***[#green] <b><i><color #white><size:12>Business Requirements
+****[#yellow] <i><color #black><size:12>High-level needs defining project scope and objectives.
+***[#green] <b><i><color #white><size:12>Functional Requirements
+****[#yellow] <i><color #black><size:12>Specific functionalities or features a system or product must possess.
+***[#green] <b><i><color #white><size:12>Non-Functional Requirements
+****[#yellow] <i><color #black><size:12>Quality attributes like performance, security, usability, etc.
+***[#green] <b><i><color #white><size:12>Stakeholder Requirements
+****[#yellow] <i><color #black><size:12>Needs and expectations from various project stakeholders.
+**[#lightblue] <i><color #blac><size:12>Requirement Gathering
+***[#green] <b><i><color #white><size:12>Elicitation Techniques
+****[#a] <i><color #black><size:12>Interviews, workshops, surveys, observation, and <b>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml prototyping.]]
+***[#green] <b><i><color #white><size:12>Documentation
+****[#a] <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_171.png Use cases,]]** user stories, requirements documents, and visual models.
+**[#lightblue] <i><color #blac><size:12>Requirement Analysis
+***[#green] <b><i><color #white><size:12>Prioritization
+****[#yellow] <i><color #black><size:12>Assessing and ranking requirements based on importance and urgency.
+***[#green] <b><i><color #white><size:12>Validation & Verification
+****[#yellow] <i><color #black><size:12>Ensuring requirements are accurate, feasible, and traceable.
+***[#green] <b><i><color #white><size:12>Gap Analysis
+****[#yellow] <i><color #black><size:12>Identifying inconsistencies or gaps in requirements.
+**[#lightblue] <i><color #blac><size:12>Requirement Traceability
+***[#green] <b><i><color #white><size:12>Tracing
+****[#yellow] <i><color #black><size:12>Linking requirements across project phases to ensure completeness.
+***[#green] <b><i><color #white><size:12>Impact Analysis
+****[#yellow] <i><color #black><size:12>Assessing how changes in requirements affect project scope or deliverables.
+**[#lightblue] <i><color #blac><size:12>Requirement Change Management
+***[#green] <b><i><color #white><size:12>Change Control
+****[#yellow] <i><color #black><size:12>Process for evaluating, approving, and implementing requirement changes.
+***[#green] <b><i><color #white><size:12>Impact Assessment
+****[#yellow] <i><color #black><size:12>Analyzing the effects of proposed changes on the project.
+***[#green] <b><i><color #white><size:12>Version Control
+****[#yellow] <i><color #black><size:12>Managing different versions of requirements documentation.
 **[#lightblue] <i><color #blac><size:22>Tools & Techniques
-***[#green] <b><i><color #white><size:14>Requirement Management Software
-****[#yellow] <i><color #black><size:14>Tools for capturing, documenting, and tracking requirements.
-***[#green] <b><i><color #white><size:14>Prototyping & Modeling Tools
-****[#yellow] <i><color #black><size:14>Visual representation of requirements using wireframes or diagrams.
-***[#a] <b><i><color #white><size:14>[[docs/3-devops/devops-plantuml-mindmap/Collaboration.puml Collaboration Platforms]]
-****[#yellow] <i><color #black><size:14>Shared spaces for stakeholders to review and comment on requirements.
-***[#green] <b><i><color #white><size:14>Traceability Matrix
-****[#yellow] <i><color #black><size:14>Documenting and tracking relationships between requirements.
-**[#lightblue] <i><color #blac><size:14>Requirement Documentation
-***[#green] <b><i><color #white><size:14>Requirement Specification
-****[#yellow] <i><color #black><size:14>Detailed descriptions of individual requirements.
-***[#green] <b><i><color #white><size:14>Use Cases & User Stories
-****[#yellow] <i><color #black><size:14>Scenarios describing system interactions or user perspectives.
-***[#green] <b><i><color #white><size:14>Requirement Traceability Matrix
-****[#yellow] <i><color #black><size:14>Mapping of requirements to test cases and design elements.
-***[#green] <b><i><color #white><size:14>Requirement Change Log
-****[#yellow] <i><color #black><size:14>Record of changes made to requirements throughout the project.
+***[#green] <b><i><color #white><size:12>Requirement Management Software
+****[#yellow] <i><color #black><size:12>Tools for capturing, documenting, and tracking requirements.
+***[#green] <b><i><color #white><size:12>Prototyping & Modeling Tools
+****[#yellow] <i><color #black><size:12>Visual representation of requirements using wireframes or diagrams.
+***[#a] <b><i><color #white><size:12>[[docs/3-devops/devops-plantuml-mindmap/Collaboration.puml Collaboration Platforms]]
+****[#yellow] <i><color #black><size:12>Shared spaces for stakeholders to review and comment on requirements.
+***[#green] <b><i><color #white><size:12>Traceability Matrix
+****[#yellow] <i><color #black><size:12>Documenting and tracking relationships between requirements.
+**[#lightblue] <i><color #blac><size:12>Requirement Documentation
+***[#green] <b><i><color #white><size:12>Requirement Specification
+****[#yellow] <i><color #black><size:12>Detailed descriptions of individual requirements.
+***[#green] <b><i><color #white><size:12>Use Cases & User Stories
+****[#yellow] <i><color #black><size:12>Scenarios describing system interactions or user perspectives.
+***[#green] <b><i><color #white><size:12>Requirement Traceability Matrix
+****[#yellow] <i><color #black><size:12>Mapping of requirements to test cases and design elements.
+***[#green] <b><i><color #white><size:12>Requirement Change Log
+****[#yellow] <i><color #black><size:12>Record of changes made to requirements throughout the project.
 @endmindmap
