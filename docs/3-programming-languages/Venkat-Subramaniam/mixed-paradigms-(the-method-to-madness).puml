@@ -1,5 +1,5 @@
 @startmindmap
-title =<b><i><u>Mixed Paradigm: The method to madness
+title =<b><i><u><size:18>Mixed Paradigm: The method to madness
 * <b><i>[[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml Imperative vs Functional Which one to Choose]]
 !theme hacker
 
@@ -10,7 +10,7 @@ title =<b><i><u>Mixed Paradigm: The method to madness
 ***[#green] <size:12><color #white><i>Some of us create more problems than we solve but nevertheless <b>we are problem solvers
 **[#lightblue] <i>Problem Solving
 ***[#green] <size:12><color #white><i><b>Programming languages
-****[#yellow] *<size:12><color #black><i>is a **small part** of <b>problem solving</b> of solving the big puzzle \n*<size:12><color #black><i>Languages play a role in that; but very small role \n*<size:12><color #black><i>Languages play a role in that; but very small role
+****[#yellow] *<size:12><color #black><i>is a **small part** of <b>problem solving</b> of solving the big puzzle \n*<size:12><color #black><i>Languages play a role in that; but very small role
 ***[#green] <size:12><color #white><i><b>What is language?
 ****[#yellow] <size:12><color #black><i>is a <b>communication "tool"
 ****[#yellow]:<size:12><color #black><i>I see **languages** as **vehicles.** And certain (some) **vehicles** are better for **transportation** in a **certain situation**.

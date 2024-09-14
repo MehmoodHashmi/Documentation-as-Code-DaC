@@ -1,0 +1,72 @@
+@startmindmap
+title =<i><b><u><size:18>class diagram associations
+
+* <i><b>Most links inside the diagrams are clickable (but not inside IDE) if you use the finder or file-explorer and then use macOS native image viewer/previewer, and then hover over the link in the diagram
+
+!theme hacker
+caption |<img:images/img_433.png>|<img:images/img_174.png{scale=.85}>|
+skinparam hyperlinkColor white
+
+*[#darkblue] <color #white><i>Class Diagram\n<img:images/img_33.png>
+**[#lightblue] <i><color #black><size:12>Introduction
+***[#green]:<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_905.jpg The Modeling Process follows an iterative approach. The vocabulary, the process model and other artifacts are not created in a “Big Bang”.]]
+*<i><color #black><size:12><b>[[https://www.laurenceanthony.net/software/antconc/ How to use AntConc?]] A freeware corpus analysis toolkit for concordancing and text analysis. & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_906.jpg Part-2]];
+
+**[#lightblue] <i><color #black><size:12>Class/Structural diagram or Data Model or System Design
+***[#grey]:<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_907.jpg class diagram]]
+*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_907.jpg Mapping OO classes to Relational tables]]
+*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_907.jpg In OOP focus is on data/object & relationship b/w objects rather than on functions]]
+*<i><b><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_907.jpg Knowing the OO basics does not make you a good OO designer. Fold knowledge into data (Data structure)]]
+*<i><b><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_908.jpg Alogrithm & Data structure advice]];
+
+**[#lightblue] <i><color #black><size:12>Controller, Handler, Listener?
+***[#grey] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_909.png click me]]
+**[#lightblue] <i><color #black><size:12>Restful API Design
+***[#a] *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_910.jpg using class diagram]] & visual paradigm \n*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_910.jpg challenges]]
+
+
+**[#lightblue] <i><color #black><size:12>Modeling semantic of class
+***[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_911.jpg to model the semantic of a class]]
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_911.jpg objects]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_911.jpg what is an object?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_911.jpg what is a class?]]
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_911.jpg Links & associations]];
+
+***[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_912.jpg Operations]]
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_913.jpg Active objects/classes]]
+**<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_913.jpg Processes and Threads]];
+
+****[#blue] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_914.jpg Flow of Control]]
+*****[#orange]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_914.jpg Sequential vs concurrent system]]
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_914.jpg Classes & Events]]
+**<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_914.jpg communication, synchronization, & process views]];
+
+****[#blue] *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_915.jpg Modeling multiple flow of Controls]] \n*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_915.jpg Modeling Inter-process communication]]
+*****[#orange]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_916.jpg Concurrency in sequence diagram]]
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_916.jpg Concurrency in communication diagram]]
+|<#black><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_916.jpg Correct design for signals in UML class diagram?]]|<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_917.jpg What is signal?]]|;
+******[#black]:<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_918.jpg Introduction to Events]]
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_918.jpg Types of Events:]]
+**<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_918.jpg 1- Signals (asynchronous)]]
+**<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_918.jpg 2- Calls (synchronous)]]
+**<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_918.jpg 3- Passage of time (asynchronous)]]
+**<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_918.jpg 4- Change in state (asynchronous)]]
+==|<#a><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_919.jpg Sending & receiving signals]]|==
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_919.jpg Modeling a family of Signals]]
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_919.jpg Modeling Exceptions]]
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_919.jpg Concurrency Models & Distributed systems similarity]]
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_919.jpg Which Concurrency Model is best?]]
+<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_919.jpg Concurrency Models]];
+
+***[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_921.jpg Modeling Comments]]
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_921.jpg Modeling new semantics]]
+**<b><i><color #black><size:8>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_921.jpg Object constraint Language]] (OCL)  ;
+
+***[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_920.jpg Advanced relationships in UML]]
+****[#blue]:*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_920.jpg Dependency]]** (bind, derive, friend, instanceOf, instantiate, powerType, refine, use)
+*<i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_920.jpg There are two stereotypes that apply to dependencies between]] <b>packages.
+*<i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_920.jpg Three stereotypes apply to interactions among]] <b>objects.
+*<i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_920.jpg One stereotype applies to dependencies in the context of]]<b> state machines
+*<i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_920.jpg One stereotype applies to dependencies in the context of]]<b> subsystem
+*<i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_920.jpg There are four standard constraints that apply to the]]<b> generalization relationship;
+'TODO have to complete this mindmap
+
+@endmindmap

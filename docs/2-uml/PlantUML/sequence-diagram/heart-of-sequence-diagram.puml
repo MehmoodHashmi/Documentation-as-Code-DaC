@@ -1,5 +1,7 @@
 @startmindmap
 !theme hacker
+title =<b><i><size:18>Heart of Sequence diagram
+
 *[#lightblue] <b><i><size:14>[[docs/2-uml/PlantUML/sequence-diagram/sequence-diagram-syntax.png Sequence Diagram syntax]] click me
 **[#green] <color #white><b><i><size:14>During Analysis & Design
 ***[#a]:<color #black><i><size:14><b>System Level Sequence Diagram (SSD):</b> Depict the interactions between **external actors and the system itself,** outlining
@@ -16,7 +18,6 @@
 <i><size:14><color #black>illustrating the **messages exchanged** and the **order** of these <b>interactions
 <i><size:14><color #black><b>[[docs/2-uml/PlantUML/sequence-diagram/images/img_12.png Example]];
 
-title =<b><i>Heart of Sequence diagram
 
 *:<img:images/img.png>
 <img:images/img_1.png{scale=.94}>;
