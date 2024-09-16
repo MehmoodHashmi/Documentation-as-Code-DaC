@@ -1,7 +1,18 @@
 @startmindmap
-title =<i><b><u><size:18>class diagram associations
+title =<i><b><u><size:18>Class Diagram Associations <size:14>[[https://www.youtube.com/watch?v=aWZFRk-w3ng (Build Abstractions Not Illusions)]]\n<img:images/img_68.png>
 
-* <i><b>Most links inside the diagrams are clickable (but not inside IDE) if you use the finder or file-explorer and then use macOS native image viewer/previewer, and then hover over the link in the diagram
+* <i><b><size:12>Most links inside the diagrams are clickable (but not inside IDE) if you use the finder or file-explorer and then use macOS native image viewer/previewer, and then hover over the link in the diagram
+** <i><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_128.jpg UML cheatsheet]]
+* *<i><b><size:12>class diagram \n*<i><b><size:12>ERD diagram
+** <i><b><size:12>package diagram
+*** <i><b><size:12>state machine diagram
+**** *<i><b><size:12>use case diagram \n*<i><b><size:12>DFD diagram\n*<i><b><size:12>[[docs/1-Requirement-Engineering/VU-course/Event-Storming-technique.adoc Event Storming]] \n*<i><b><size:12>ATDD & BDD \n*<i><b><size:8>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_248.png Keep your audience in mind]]
+***** <i><b><size:12>sequence diagram
+****** <i><b><size:12>communication diagram
+******* <i><b><size:12>timing diagram
+******** <i><b><size:12>[[docs/2-uml/PlantUML/activity-diagram/activity-diagram-syntax.png activity diagram]]
+********* <i><b><size:12>component diagram
+********** <i><b><size:12>deployment diagram
 
 !theme hacker
 caption |<img:images/img_433.png>|<img:images/img_174.png{scale=.85}>|
@@ -10,7 +21,10 @@ skinparam hyperlinkColor white
 *[#darkblue] <color #white><i>Class Diagram.\n<img:images/img_33.png>
 **[#lightblue] <i><color #black><size:12>Introduction
 ***[#green]:<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_905.jpg The Modeling Process follows an iterative approach. The vocabulary, the process model and other artifacts are not created in a “Big Bang”.]]
-*<i><color #black><size:12><b>[[https://www.laurenceanthony.net/software/antconc/ How to use AntConc?]] A freeware corpus analysis toolkit for concordancing and text analysis. & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_906.jpg Part-2]];
+*<i><color #black><size:12><b>[[https://www.laurenceanthony.net/software/antconc/ How to use AntConc?]] A freeware corpus analysis toolkit for concordancing and text analysis. & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_906.jpg Part-2]]
+====
+<i><color #white><size:12>Taken to extremes, no **abstractions** means writing **machine code** because all **programming languages** are abstractions. Good **general-purpose abstractions** get turned into or added to programming languages.
+<i><color #white><size:12>Good **special-purpose abstractions** become widely used **libraries** like <b>NumPy, OpenSSL or OpenCV. \t[[docs/3-programming-languages/Venkat-Subramaniam/images/img_929.png click me]];
 
 **[#lightblue] <i><color #black><size:12>Class/Structural diagram or Data Model or System Design
 ***[#grey]:<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_907.jpg class diagram]]
@@ -67,6 +81,34 @@ skinparam hyperlinkColor white
 *<i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_920.jpg One stereotype applies to dependencies in the context of]]<b> state machines
 *<i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_920.jpg One stereotype applies to dependencies in the context of]]<b> subsystem
 *<i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_920.jpg There are four standard constraints that apply to the]]<b> generalization relationship;
+
+****[#blue]:*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_924.png Raising Exceptions]]**
+*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_924.png Data Types & enumerations]]**
+*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_924.png Unique & readonly attributes/properties]]**
+**<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_924.png Value objects]]** and leaf class;
+
+****[#blue]:*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_923.png Associations & Links]]**
+*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_923.png Bi-directional accociations != Binary relationship or binary association]]**
+**<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_925.png Attributes]]**;
+
+****[#blue]:*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_926.png Multiplicity (vs cardinality)]]**
+*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_926.png Ordering roles]]**
+**<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_926.png Association vs Link]]**
+**<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_926.png Constraints in class dependency]]**;
+
+*****[#grey]:*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_927.png Association end names]]**
+*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_927.png Reflexive (or self) association]]**
+**<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_927.png Constraint on a class]]**;
+
+****[#blue]:*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_928.png Aggregation: Part-whole relationship]]**
+*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_928.png Shared & composite aggregation]]**
+**<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_928.png membership relation]]**;
+
+*****[#grey]:*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_928.png Composition]]**
+*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_928.png Shared & composite aggregation]]**
+**<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_928.png membership relation]]**;
+
+
 'TODO have to complete this mindmap
 
 @endmindmap
