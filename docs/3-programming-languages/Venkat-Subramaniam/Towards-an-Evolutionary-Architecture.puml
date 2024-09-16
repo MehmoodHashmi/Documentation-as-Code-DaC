@@ -277,7 +277,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_137.jpg MVC vs MVP vs MVVP click me]]
 ***[#green] <i><color #white><b><size:12>Grady Booch Says:
 ****[#gold] *<i><color #black><size:18><b>First make the system "usable" then make the system <color #green>"reusable"
-****[#yellow] *<i><color #black><size:18><b>To make a piece of the system/software "reusable" it has to be very<color #red> "generic"\n*<i><color #black><size:18><b>To make a piece of the system/software "usable"" it has to be very <color #brown>"specific"
+****[#yellow] *<i><color #black><size:18><b>To make a piece of the system/software "reusable" it has to be very<color #red> "generic"\n*<i><color #black><size:18><b>To make a piece of the system/software "usable" it has to be very <color #brown>"specific"
 ****[#a] *<i><color #black><size:18><b>It's a tension between the two
 ***[#green] <i><color #white><b><size:12>In general:
 ****[#darkorange] <i><color #black><size:18>**[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Logical design]]** (classes & packages) impacts <color #white><b>"extensibility"

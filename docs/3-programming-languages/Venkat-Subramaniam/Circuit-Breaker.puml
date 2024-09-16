@@ -1,54 +1,54 @@
 @startmindmap
-title =<i><b><u>Circuit Breakers
+title =<i><b><u><size:18>Circuit Breakers
 !theme hacker
 
 *[#darkblue] <i>Circuit Breakers
-**[#lightblue] <i><color #blac><size:14>Overview
-***[#green] <b><i><color #white><size:14>Definition
-****[#yellow] <i><color #black><size:14>Software pattern to manage and prevent system failures during network or service interactions.
-***[#green] <b><i><color #white><size:14>Purpose
-****[#yellow] <i><color #black><size:14>Fault Tolerance
-*****[#gold] <i><color #black><size:14>Prevents cascading failures by detecting and handling faults.
-****[#yellow] <i><color #black><size:14>Graceful Degradation
-*****[#gold] <i><color #black><size:14>Maintains partial functionality when services fail or experience issues.
-***[#green] <b><i><color #white><size:14>Analogous to Physical Circuit Breakers
-****[#yellow] <i><color #black><size:14>Stops electrical flow when a fault occurs, preventing damage.
-****[#yellow] <i><color #black><size:14>Restores flow once the issue is resolved.
-**[#lightblue] <i><color #blac><size:14>Working Principles
-***[#green] <b><i><color #white><size:14>States
-****[#yellow] <i><color #black><size:14><b>Closed
-*****[#gold] <i><color #black><size:14>Normal operation, allowing requests to pass through.
-****[#yellow] <i><color #black><size:14><b>Open
-*****[#gold] <i><color #black><size:14>Blocks requests, indicating a failure or issue.
-****[#yellow] <i><color #black><size:14><b>Half-Open
-*****[#gold] <i><color #black><size:14>Allows limited requests to test if the underlying system is functional.
-***[#green] <b><i><color #white><size:14>Failure Thresholds
-****[#yellow] <i><color #black><size:14>Defines conditions triggering state transitions.
-****[#yellow] <i><color #black><size:14>Failure Rate, Latency, Error Rates are common thresholds.
-***[#green] <b><i><color #white><size:14>Timeouts and Retries
-****[#yellow] <i><color #black><size:14>Time-based settings for transitioning between states and re-establishing connections.
-**[#lightblue] <i><color #blac><size:14>Implementation
-***[#green] <b><i><color #white><size:14>Libraries and Frameworks
-****[#yellow] <i><color #black><size:14>Hystrix
-*****[#gold] <i><color #black><size:14>Provides circuit breaker patterns and fault tolerance capabilities.
-****[#yellow] <i><color #black><size:14>Resilience4j
-*****[#gold] <i><color #black><size:14>Lightweight and flexible library for implementing circuit breakers in Java.
-***[#green] <b><i><color #white><size:14>Custom Implementations
-****[#yellow] <i><color #black><size:14>Tailored circuit breaker logic designed specifically for application needs.
-***[#green] <b><i><color #white><size:14>Integration with Service Mesh
-****[#yellow] <i><color #black><size:14>Utilizes service mesh frameworks to automate circuit breaker behavior in microservices.
-**[#lightblue] <i><color #blac><size:14>Benefits
-***[#green] <b><i><color #white><size:14>Fault Isolation
-****[#yellow] <i><color #black><size:14>Prevents system-wide failures by isolating faulty services or components.
-***[#green] <b><i><color #white><size:14>Resilience
-****[#yellow] <i><color #black><size:14>Enhances system resilience by handling and recovering from failures.
-***[#green] <b><i><color #white><size:14>Monitoring and Metrics
-****[#yellow] <i><color #black><size:14>Provides insights into system health and performance through collected data.
-**[#lightblue] <i><color #blac><size:14>Best Practices
-***[#green] <b><i><color #white><size:14>Configuration Tuning
-****[#yellow] <i><color #black><size:14>Adjust thresholds and timeouts based on system behavior and requirements.
-***[#green] <b><i><color #white><size:14>Fail-Fast Approach
-****[#yellow] <i><color #black><size:14>Quickly detect faults and limit the impact on the system by opening the circuit.
-***[#green] <b><i><color #white><size:14>Circuit Breaker Dashboard
-****[#yellow] <i><color #black><size:14>Visualization of circuit breaker states and performance metrics for monitoring.
+**[#lightblue] <i><color #blac><size:12>Overview
+***[#green] <b><i><color #white><size:12>Definition
+****[#yellow] <i><color #black><size:12>Software pattern to manage and prevent system failures during network or service interactions.
+***[#green] <b><i><color #white><size:12>Purpose
+****[#yellow] <i><color #black><size:12>Fault Tolerance
+*****[#gold] <i><color #black><size:12>Prevents cascading failures by detecting and handling faults.
+****[#yellow] <i><color #black><size:12>Graceful Degradation
+*****[#gold] <i><color #black><size:12>Maintains partial functionality when services fail or experience issues.
+***[#green] <b><i><color #white><size:12>Analogous to Physical Circuit Breakers
+****[#yellow] <i><color #black><size:12>Stops electrical flow when a fault occurs, preventing damage.
+****[#yellow] <i><color #black><size:12>Restores flow once the issue is resolved.
+**[#lightblue] <i><color #blac><size:12>Working Principles
+***[#green] <b><i><color #white><size:12>States
+****[#yellow] <i><color #black><size:12><b>Closed
+*****[#gold] <i><color #black><size:12>Normal operation, allowing requests to pass through.
+****[#yellow] <i><color #black><size:12><b>Open
+*****[#gold] <i><color #black><size:12>Blocks requests, indicating a failure or issue.
+****[#yellow] <i><color #black><size:12><b>Half-Open
+*****[#gold] <i><color #black><size:12>Allows limited requests to test if the underlying system is functional.
+***[#green] <b><i><color #white><size:12>Failure Thresholds
+****[#yellow] <i><color #black><size:12>Defines conditions triggering state transitions.
+****[#yellow] <i><color #black><size:12>Failure Rate, Latency, Error Rates are common thresholds.
+***[#green] <b><i><color #white><size:12>Timeouts and Retries
+****[#yellow] <i><color #black><size:12>Time-based settings for transitioning between states and re-establishing connections.
+**[#lightblue] <i><color #blac><size:12>Implementation
+***[#green] <b><i><color #white><size:12>Libraries and Frameworks
+****[#yellow] <i><color #black><size:12>Hystrix
+*****[#gold] <i><color #black><size:12>Provides circuit breaker patterns and fault tolerance capabilities.
+****[#yellow] <i><color #black><size:12>Resilience4j
+*****[#gold] <i><color #black><size:12>Lightweight and flexible library for implementing circuit breakers in Java.
+***[#green] <b><i><color #white><size:12>Custom Implementations
+****[#yellow] <i><color #black><size:12>Tailored circuit breaker logic designed specifically for application needs.
+***[#green] <b><i><color #white><size:12>Integration with Service Mesh
+****[#yellow] <i><color #black><size:12>Utilizes service mesh frameworks to automate circuit breaker behavior in microservices.
+**[#lightblue] <i><color #blac><size:12>Benefits
+***[#green] <b><i><color #white><size:12>Fault Isolation
+****[#yellow] <i><color #black><size:12>Prevents system-wide failures by isolating faulty services or components.
+***[#green] <b><i><color #white><size:12>Resilience
+****[#yellow] <i><color #black><size:12>Enhances system resilience by handling and recovering from failures.
+***[#green] <b><i><color #white><size:12>Monitoring and Metrics
+****[#yellow] <i><color #black><size:12>Provides insights into system health and performance through collected data.
+**[#lightblue] <i><color #blac><size:12>Best Practices
+***[#green] <b><i><color #white><size:12>Configuration Tuning
+****[#yellow] <i><color #black><size:12>Adjust thresholds and timeouts based on system behavior and requirements.
+***[#green] <b><i><color #white><size:12>Fail-Fast Approach
+****[#yellow] <i><color #black><size:12>Quickly detect faults and limit the impact on the system by opening the circuit.
+***[#green] <b><i><color #white><size:12>Circuit Breaker Dashboard
+****[#yellow] <i><color #black><size:12>Visualization of circuit breaker states and performance metrics for monitoring.
 @endmindmap

@@ -20,7 +20,7 @@ skinparam hyperlinkColor white
 *<i><b><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_908.jpg Alogrithm & Data structure advice]];
 
 **[#lightblue] <i><color #black><size:12>Controller, Handler, Listener?
-***[#grey] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_909.png click me]]
+***[#grey] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_909.png Enitiy, controller, and boundary]] \n*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_909.png Three types of classes]]
 **[#lightblue] <i><color #black><size:12>Restful API Design
 ***[#a] *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_910.jpg using class diagram]] & visual paradigm \n*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_910.jpg challenges]]
 
