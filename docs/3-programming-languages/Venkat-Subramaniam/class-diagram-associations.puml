@@ -7,7 +7,7 @@ title =<i><b><u><size:18>class diagram associations
 caption |<img:images/img_433.png>|<img:images/img_174.png{scale=.85}>|
 skinparam hyperlinkColor white
 
-*[#darkblue] <color #white><i>Class Diagram\n<img:images/img_33.png>
+*[#darkblue] <color #white><i>Class Diagram.\n<img:images/img_33.png>
 **[#lightblue] <i><color #black><size:12>Introduction
 ***[#green]:<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_905.jpg The Modeling Process follows an iterative approach. The vocabulary, the process model and other artifacts are not created in a “Big Bang”.]]
 *<i><color #black><size:12><b>[[https://www.laurenceanthony.net/software/antconc/ How to use AntConc?]] A freeware corpus analysis toolkit for concordancing and text analysis. & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_906.jpg Part-2]];
