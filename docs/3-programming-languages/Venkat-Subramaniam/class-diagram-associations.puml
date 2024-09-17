@@ -34,8 +34,8 @@ skinparam hyperlinkColor white
 **[#lightblue] <i><color #black><size:12>Class/Structural diagram or Data Model or System Design
 ***[#grey]:<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_907.jpg class diagram]]
 *<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_907.jpg Mapping OO classes to Relational tables]]
-*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_907.jpg In OOP focus is on data/object & relationship b/w objects rather than on functions]]
-*<i><b><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_907.jpg Knowing the OO basics does not make you a good OO designer. Fold knowledge into data (Data structure)]]
+|<#black><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_907.jpg In OOP focus is on data/object & relationship b/w objects rather than on functions]]|
+|<#black><i><b><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_907.jpg Knowing the OO basics does not make you a good OO designer. Fold knowledge into data (Data structure)]]|
 *<i><b><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_908.jpg Alogrithm & Data structure advice]];
 
 **[#lightblue] <i><color #black><size:12>Controller, Handler, Listener?
