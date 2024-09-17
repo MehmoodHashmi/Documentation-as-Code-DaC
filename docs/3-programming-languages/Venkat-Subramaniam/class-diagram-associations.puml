@@ -17,7 +17,7 @@ title =<i><b><u><size:18>Class Diagram Associations <size:14>[[https://www.youtu
 ******* <i><b><size:12>timing diagram
 ******** <i><b><size:12>[[docs/2-uml/PlantUML/activity-diagram/activity-diagram-syntax.png activity diagram]]
 ********* <i><b><size:12>component diagram
-********** <i><b><size:12>deployment diagram
+********** <i><b><size:12>deployment diagram \n*<i><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_247.png 4+1 View Model]]
 
 !theme hacker
 caption |<img:images/img_433.png>|<img:images/img_174.png{scale=.85}>|
@@ -109,9 +109,36 @@ skinparam hyperlinkColor white
 *<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_928.png Shared & composite aggregation]]**
 **<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_928.png membership relation]]**;
 
-*****[#grey]:*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_928.png Composition]]**
-*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_928.png Shared & composite aggregation]]**
-**<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_928.png membership relation]]**;
+*****[#grey]:*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_930.png Composition]]**
+*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_931.png Complications]]**
+**<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_931.png Types of aggregation]]**
+**<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_932.png part-whole relationship in UML]]**
+**<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_932.png Transitivity problem]]**
+**<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_932.png non part-whole relationships]]**;
+
+****[#blue]:*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_933.png Collections]]**
+*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_933.png Ordering & uniqueness]]**
+**<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_933.png Implementation]]**;
+
+*****[#grey]:*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_933.png Collections]]**
+*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_933.png Ordering & uniqueness]]**
+**<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_933.png Implementation]]**
+*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_934.png More on ordering]]**
+*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_934.png Association constraints:]]**
+**<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_934.png implicit, ordered, changeable, addOnly, frozen, xor)]]**
+*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_934.png Bags, and sequences]]**
+**<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_934.png ordering the ends of an association]]**
+*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_934.png association name direction arrow]]**;
+
+******[#orange]:*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_935.png UML constraints from IBM]]**
+*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_935.png UML constraints from Visual Paradigm]]**
+|<#grey><i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_935.png Object Constraint Language (OCL)]]**|;
+
+****[#blue]:*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_936.png Adding Interfaces to modeling diagrams]]**
+*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_936.png 1) Provided Interface 2) Required Interface]]**
+**<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_531.png Explicit vs Implicit Interface]]**
+*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_936.png Association classes]]**;
+
 
 
 'TODO have to complete this mindmap
