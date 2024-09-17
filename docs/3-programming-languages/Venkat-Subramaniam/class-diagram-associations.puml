@@ -3,10 +3,15 @@ title =<i><b><u><size:18>Class Diagram Associations <size:14>[[https://www.youtu
 
 * <i><b><size:12>Most links inside the diagrams are clickable (but not inside IDE) if you use the finder or file-explorer and then use macOS native image viewer/previewer, and then hover over the link in the diagram \n*<i><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers]] & [[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]]
 ** <i><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_128.jpg UML cheatsheet]]
-* *<i><b><size:12>class diagram \n*<i><b><size:12>ERD diagram
+* *<i><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_543.png class diagram]] \n*<i><b><size:12>ERD diagram
 ** <i><b><size:12>package diagram
 *** <i><b><size:12>state machine diagram
-**** *<i><b><size:12>use case diagram \n*<i><b><size:12>DFD diagram\n*<i><b><size:12>[[docs/1-Requirement-Engineering/VU-course/Event-Storming-technique.adoc Event Storming]] \n*<i><b><size:12>BDD & ATDD\n*<i><b><size:8>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_248.png Keep your audience in mind]]
+****:*<i><b><size:12>use case diagram
+*<i><b><size:12>DFD diagram
+*<i><b><size:12>[[docs/1-Requirement-Engineering/VU-course/Event-Storming-technique.adoc Event Storming]]
+*<i><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml BDD & ATDD]]
+*<i><b><size:8>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_248.png Keep your audience in mind]];
+
 ***** <i><b><size:12>sequence diagram
 ****** <i><b><size:12>communication diagram
 ******* <i><b><size:12>timing diagram
