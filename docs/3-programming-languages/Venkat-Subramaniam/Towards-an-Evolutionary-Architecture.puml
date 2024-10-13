@@ -44,7 +44,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 *<i><color #black><size:12>If **effort** remains **constant or shrinks with time** then **design** is **good**. If **effort** increases with each **passing release** then **design** is <b>bad.;
 ****[#yellow] *<i><color #black><size:12>An evolutinoary architecutre supports **incremental, guided** "change" as a first principle along <b>multiple dimensions.
 ****[#yellow] <i><color #black><size:12>**Martin fowler** article, "Who needs an architect". <b>Said: It is
-*****[#darkorange] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_252.png Shared understanding between the senior team members of a system.]] click
+*****[#darkorange] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_252.png Shared understanding between the senior team members of a system.]]
 ****[#green] *<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_271.png Software Engineering in the Cloud]] <&cloud> click me \n*<b><i><color #white><size:12>[[docs/3-programming-languages/clean-architecture/images/img.png Software Architecture the Hard Parts]] click me
 
 ***[#green]:<b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_630.png Why evolutionary architecture? click me]]
@@ -198,7 +198,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ****[#yellow] *<i><color #black><size:12><b>Planned Features
 *****[#yellow] *<i><color #black><size:12>Things you know, you will work on, in the beginning of the project you had project backlog. \n<i><color #black><size:12>A list of requirements given to you.
 *****[#a] *<i><color #black><size:12>Find the following for each <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_448.png user story:]]\n<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_559.png 1- Business value]] \n<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_448.png 2- Architecture Impact]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_603.png Part-2]] \n*<i><color #black><size:12>Now prioritize & implement the high value features first!
-******[#black] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_447.png Jira, Trello, User Story, Requirements & Backlog, Project Management & Client Management (Transparency with client)]]
+******[#black] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_447.png Jira, Trello, User Story, Requirements & Backlog, Project Management & Client Management (Transparency with client)]] \n|<#red><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/product-owner.puml Who is Product Owner?]]|
 ****[#yellow] *<i><color #black><size:12>Surprise Features
 *****[#yellow] *<i><color #black><size:12>Do **minimal architecture** like **Clean Architecture** so that you can "modify & maintain" the system
 ***[#green] <i><color #white><b><size:12>How to deal with that?
