@@ -1,5 +1,5 @@
 @startmindmap
-title =  <b><i><u>Use Case 2.0\n<img:img.png{scale=0.7}>
+title =  <b><i><u><size:18>Use Case 2.0\n<img:img.png{scale=0.7}>
 caption <img:img_1.png{scale=0.7}>
 * <size:12><b><i>[[use-case.png Use Case types]]
 ** <size:12><b><i>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-32-12-378.png Use Case Event Table]]

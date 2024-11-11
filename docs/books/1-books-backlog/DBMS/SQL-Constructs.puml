@@ -44,11 +44,11 @@ title =<i>Four main categories of SQL constructs: \nData Definition Language (DD
 ****[#yellow] <i><color #black><size:12>HAVING
 ****[#yellow] <i><color #black><size:12>ORDER BY
 ****[#yellow] <i><color #black><size:12>JOIN
-*****[#gold] <i><color #black><size:12>INNER JOIN
-*****[#gold] <i><color #black><size:12>LEFT JOIN
-*****[#gold] <i><color #black><size:12>RIGHT JOIN
-*****[#gold] <i><color #black><size:12>FULL OUTER JOIN
-*****[#gold] <i><color #black><size:12>CROSS JOIN
+*****[#gold]:*<i><color #black><size:12>INNER JOIN
+*<i><color #black><size:12>LEFT JOIN
+*<i><color #black><size:12>RIGHT JOIN
+*<i><color #black><size:12>FULL OUTER JOIN
+*<i><color #black><size:12>CROSS JOIN;
 ****[#yellow] <i><color #black><size:12>UNION
 ****[#yellow] <i><color #black><size:12>SUBQUERY
 ****[#yellow] <i><color #black><size:12>EXISTS

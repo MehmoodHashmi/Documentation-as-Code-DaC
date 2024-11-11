@@ -67,7 +67,7 @@ skinparam hyperlinkColor white
 <i><color #black><size:12>You're **tossing** different **balls (thoughts)** in **hands** & our goal is to hold the <b>ball of
 <i><color #black><size:12>happiness for max time while keep tossing the balls & this is <b>life/thoughts management.
 <i><color #black><size:12>**Father:** Tute main pather maro chenthain he urte hain or kupry gandy hoty hain
-<i><color #black><size:12>Meaning something is bad inherently than stop doing it.
+<i><color #black><size:12>Meaning something is bad inherently then stop doing it.
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_663.png A "new world" is made possible by "new ideas" for "stones & bricks" can't]]
 <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_663.png create a "new world"]]
 *<i><color #black><size:11><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_662.png Gora said: We can't let others to do our thinking for us!]]
@@ -111,8 +111,8 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=5Vt3tPgJkcY&t=246s&ab_channel=HidayahPortal Why GOD Created me without My Permission?]];
 
 *****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_861.png My thinking style]]
-*****[#a]:|<#white><i><color #black><size:12><b>Critical Thinking: </b>means processing the information (or you've the ability to process the information or investigating (analyzing) the available information), search for <b>evidence|
-|<#yellow><i><color #black><size:12><b>Belief: </b>means not processing the information (or you don't have the ability to process the information or the information is not available hence there is no clear <b>evidence)|
+*****[#a]:|<#white><i><color #black><size:12><b>Critical Thinking: </b>means processing the information **(**or you've the ability to process the information or investigating (analyzing) the available information**)**, search for <b>evidence|
+|<#yellow><i><color #black><size:12><b>Belief: </b>means not processing the information **(**or you don't have the ability to process the information or the information is not available hence there is no clear <b>evidence)|
 **<i><color #black><size:12><b>E.g. When ""Devil"" rebutted all the evidence of ""existence of God"" then, ""human"" said I believe in ""God"" without asking (requiring) for evidence. <color #white>This is belief!
 <i><color #white><size:12>So the point is what I believe in is my problem. You can't impose your beliefs on others as not everyone believe in same thing, and many people ask for evidence & information
 <i><color #white><size:12>if not available they simply reject this belief (notion or idea)!;
@@ -260,7 +260,7 @@ skinparam hyperlinkColor white
 ****[#a] *<i><color #black><size:12><b>E.g. Concurrency \n**<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml Low vs High-level Concurrency]] \n*<i><color #black><size:12><b>E.g. Streams </b>(less accidental complexity)
 *****[#gold] *<i><color #black><size:12>**FP** is good at **managing complexity** in **local computation tasks,** \n*<i><color #black><size:12>**OOP** is good at **managing complexity** in <b>global computation tasks.
 ****[#yellow] <i><color #black><size:12>**Simple** is not necessarily <b>familiar
-*****[#gold] <i><color #black><size:12>e.g. <b>For loop
+*****[#gold] <i><color #black><size:12>e.g. <b>For/While loop </b>(with 4 mutable variables in it) is familiar not simple!
 ***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_636.png Good Design]]
 ****[#gold] <i><color #black><size:12>A **good design** is the one that **"hides" or "encapsulates"** the <b>inherent complexity\n<i><color #black><size:12>and <b>"eliminates" the <b>accidental complexity
 *****[#a]:|<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Encapsulation vs. Abstraction]] click me|<#red><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_495.png Dependent Functions Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_496.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_497.png Part-3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_498.png Part-4]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_499.png Part-5]]|
@@ -270,14 +270,14 @@ skinparam hyperlinkColor white
 **[#lightblue] <i><color #black><size:12>Think YAGNI
 ***[#green] <i><color #white><size:12><b>You are not goona need it yet!
 ***[#green] <i><color #white><size:12><b>When should I implement something?
-****[#gold] *<i><color #black><size:12><b>How much do you know? \n*<i><color #black><size:12><b>Cost of implementing?
+****[#darkorange] *<i><color #black><size:12><b>How much do you know? \n*<i><color #black><size:12><b>Cost of implementing? [[docs/3-programming-languages/Venkat-Subramaniam/images/img_939.png click me]]
 ****[#yellow] <i><color #black><size:12>Like **"Rewrite"** java **app** in go-lang or C# or python, this is difficult, time consuming & hard to <b>reverse.
 ****[#yellow]:<i><color #black><size:12>The more you are **couple to a decision** the harder it is to **reverse,** introduce **indirection** to increase <b>reversibility.
 *<i><color #black><size:12>**Donaldth Knuth:** People 've written **thesis & research papers** on polymorphism & **late binding** to achieve <b>YAGNI (via deferred decisions). ;
 
 ****[#a]:<i><color #black><size:12>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.
-*<b><i><color #black><size:12>Why don't we postpone?
-**<b><i><color #green><size:12>Because we are afraid!
+*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_940.png Why don't we postpone?]]
+**<b><i><color #green><size:12>Because we are afraid (or scared)!
 *<b><i><color #black><size:12>[[docs/books/1-books-backlog/software-testing/gif/testing.adoc If you want to "postpone" we need to 've good "automated testing". (TDD) levels]] click gif;
 *****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_614.png Testing or (TDD) is Self Testing Code]]
 ****[#yellow] <i><color #black><size:12>Database decisions, libraries and frameworks decisions etc.
@@ -313,7 +313,7 @@ skinparam hyperlinkColor white
 
 ***[#green] <i><color #white><size:12><b>is what you depend on
 ****[#a]:*<i><color #black><size:12>Worst form of coupling is <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_501.png inheritance]]
-*<i><color #black><size:12>Try to see if you can remove coupling
+*<i><color #black><size:12>Try to see if you can remove (not eliminate) coupling
 *<i><color #black><size:12>"knock out before you mock out";
 
 ****[#yellow] <i><color #black><size:12>Can't remove all the <b>dependencies
@@ -409,8 +409,8 @@ skinparam hyperlinkColor white
 *****[#darkorange]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_466.png "TDD" can help here]]  & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_616.png 4-Step TDD Experience]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_614.png Testing or (TDD) is Self Testing Code]];
 
-****[#gold] <i><color #black><size:12><b>Deployment level
-*****[#darkorange] <i><color #black><size:12><b>is modular monolith
+****[#darkorange] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Design-Trade-offs-in-Modern-Architectures.puml Deployment level]]
+*****[#darkorange] <i><color #black><size:12><b>is modular monolith \n*<i><color #black><size:12><b>synchronized vs distributed deployment
 ****[#darkorange] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Micro-services.puml Service level]]
 *****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_96.png Decoupling modes (Again)]]
 ******[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_130.png The missing advice]]
@@ -481,8 +481,8 @@ skinparam hyperlinkColor white
 ****[#yellow]:<i><color #black><size:12>Don't duplicate <b>code
 ====
 *<i><color #black><size:12>Every "piece of knowledge" in a "System" should 've <b><u>single unambiguous authoritative representation
-*<i><color #black><size:12>It "reduces" the "cost" of "development"
-|<#grey><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_705.png The future you will thank you!]]|
+*<i><color #black><size:12>DRY "reduces" the "cost" of "development"
+|<#grey><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_705.png Why should we care for DRY? The future you will thank you!]]|
 *<i><color #black><size:12><b>Do code refactor!
 **<i><color #black><size:12><b>Some tools:
 *** <i><color #black><size:12><b>CPD (Copy paste detector)
@@ -509,19 +509,23 @@ skinparam hyperlinkColor white
 <i><color #black><size:12>Code...;
 *****[#gold]:<i><color #black><size:12><b>Long Methods are bad:</b>
 *<i><color #black><size:12>Hard to test <b>(TDD)
+<i><color #black><size:12>Why? because the no. of permutations
+<i><color #black><size:12>& combinations you've to go through
+<i><color #black><size:12>is unbelievable
 *<i><color #black><size:12>Hard to read
 *<i><color #black><size:12>Hard to remember
-*<i><color #black><size:12>Obscured business rules
-*<i><color #black><size:12>Hard to <b>reuse
-*<i><color #black><size:12>Leads to duplication
+*<i><color #black><size:12>Obscured (not clear) business rules
+*<i><color #red><size:12>Hard to <b>reuse
+*<i><color #red><size:12>Leads to duplication
 *<i><color #black><size:12>many reasons to change
 *<i><color #black><size:12>Can't be optimized by anything
 *<i><color #black><size:12>Lot of variables...
 *<i><color #black><size:12>Not developer friendly
 *<i><color #black><size:12><b>Mixed levels
 *<i><color #black><size:12>Obsolete comments
-*<i><color #black><size:12>Hard to debug <b>(victim);
-******[#yellow] <i><color #black><size:12><b>Opposite of:\n*<i><color #black><size:12><b>High Cohesion\n*<i><color #black><size:12><b>Low Coupling
+|<#grey><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_941.png Hard to debug ]]<b>(victim)|
+*<i><color #black><size:12>low cohesion <size:16><&circle-x></size> & high coupling <size:16><&circle-x>;
+******[#yellow] <i><color #black><size:12><b>Opposite of:\n*<i><color #black><size:12><b>High Cohesion <size:16><&circle-check>\n*<i><color #black><size:12><b>Low Coupling <size:16><&circle-check>
 ******[#a]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_353.png Method Names]]
 *<i><color #black><size:12><b>The declaration of the central data structure (comments on data are usually much more helpful than on algorithms)
 <i><color #black><size:12><b>basically, avoid comments.
@@ -535,11 +539,11 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12>A good code is like a <b>joke
 **<i><color #black><size:12>refactor it if it doesnt work;
 ***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_634.png SLAP]]
-***[#green] <i><color #white><size:12><b>Compose Method Pattern
+***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_942.png Compose Method Pattern]]
 ****[#gold] <i><color #black><size:12><b>Self documenting code
 ***[#green] <i><color #white><size:12><b>Violation of (SRP)
 ****[#gold] <i><color #black><size:12>increases code <b>rigidity, fragility & reuse-ability!
-**[#lightblue] <i><color #black><size:12>Don't violate the \n<i><color #black><size:12>Open-Closed Principle (OCP)
+**[#lightblue] <i><color #black><size:12>Don't violate the \n<i><color #black><size:12>Open-Closed Principle (OCP) \n\n*<i><color #black><size:12>Combine OCP with SRP
 ***[#green] <i><color #white><size:12><b>"Software module" should be "open" for\n<i><color #white><size:12><b>"extension" but "closed" for "modification"
 ****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Abstraction]]
 ****[#darkorange] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_169.png Polymorphism]]
