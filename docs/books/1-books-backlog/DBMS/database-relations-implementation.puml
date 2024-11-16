@@ -1,0 +1,36 @@
+@startmindmap
+title =<b><i><u><size:18>Database notation implementation
+
+!theme hacker
+caption <img:../../../../docs/3-programming-languages/Venkat-Subramaniam/images/img_926.png>
+
+*[#darkblue] <i><color #white>Database notation implementation\n<img:../../../../docs/3-programming-languages/Venkat-Subramaniam/images/img_938.png>
+**[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_9.png Relationship]]
+***[#green] <i><size:12><color #white>Implementation 1
+***[#green] <i><size:12><color #white>Implementation 2
+
+**[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_10.png One]]
+***[#green] <i><size:12><color #white>Implementation 1
+***[#green] <i><size:12><color #white>Implementation 2
+
+**[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_11.png Many]]
+***[#green] <i><size:12><color #white>Implementation 1
+***[#green] <i><size:12><color #white>Implementation 2
+
+**[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_12.png One and ONLY One]]
+***[#green] <i><size:12><color #white>Implementation 1
+***[#green] <i><size:12><color #white>Implementation 2
+
+**[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_15.png Zero or One]]
+***[#green] <i><size:12><color #white>Implementation 1
+***[#green] <i><size:12><color #white>Implementation 2
+
+**[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_13.png One or Many]]
+***[#green] <i><size:12><color #white>Implementation 1
+***[#green] <i><size:12><color #white>Implementation 2
+
+**[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_14.png Zero or Many]]
+***[#green] <i><size:12><color #white>Implementation 1
+***[#green] <i><size:12><color #white>Implementation 2
+
+@endmindmap
