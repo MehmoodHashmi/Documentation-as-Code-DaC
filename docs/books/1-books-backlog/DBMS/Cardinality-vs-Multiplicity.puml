@@ -1,22 +1,49 @@
 @startmindmap
-title =<b><i><u>Cardinality vs Multiplicity
+title =<b><i><u><size:18>Cardinality vs Multiplicity <size:11>(in depth, & 5-minute read )
+* <b>[[https://www.netdata.cloud/academy/what-is-cardinality-in-databases-a-comprehensive-guide/ What Is Cardinality In Databases: A Comprehensive Guide]]
+** <b>[[https://orangematter.solarwinds.com/2020/01/05/what-is-cardinality-in-a-database/ What Is Cardinality In Databases]]
+
 !theme hacker
+caption \n<img:../../../../docs/3-programming-languages/Venkat-Subramaniam/images/img_926.png>
 
-*[#darkblue] <i><color #white>Cardinality vs Multiplicity
-**[#lightblue] <i><size:18><color #black>Cardinality
-***[#green] <i><size:22><color #white>**Definition:** The number of **instances** of **an entity** that can be **"associated"** with <b>another entity.
-***[#green] <b><i><size:14><color #white>Types:
-****[#yellow] <i><size:14><color #black>One-to-One
-****[#yellow] <i><size:14><color #black>One-to-Many
-****[#yellow] <i><size:14><color #black>Many-to-One
-****[#yellow] <i><size:14><color #black>Many-to-Many
+*[#darkblue] <i><color #white>[[docs/books/1-books-backlog/DBMS/images/img_0.png Cardinality vs Multiplicity]]
+**[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_3.png Introduction]]
 
-**[#lightblue] <i><size:18><color #black>Multiplicity
-***[#green] <i><size:22><color #white>**Definition:** The number of times **an instance** in **one entity** can be **"related"** to **instances** in <b>another entity.
-***[#green] <b><i><size:14><color #white>Types:
-****[#yellow] <i><size:14><color #black>Optional (0..1)
-****[#yellow] <i><size:14><color #black>Mandatory (1)
-****[#yellow] <i><size:14><color #black>Zero or Many (0..*)
-****[#yellow] <i><size:14><color #black>One or Many (1..*)
+**[#lightblue] <i><color #black>What Is Cardinality?
+***[#green] <i><size:12><color #white>Cardinality in databases refers to the __uniqueness of data values__ contained in a **column.** It essentially measures how many distinct values exist in a column compared to the total number of rows in a table.
+***[#green] <b><i><size:12><color #white>[[docs/books/1-books-backlog/DBMS/images/img_7.png Cardinality Definition in Databases]]
+****[#yellow]:<i><size:12><color #black><u>Cardinality can be understood in two main ways:
+*<i><size:12><color #black>**Mathematical Sense:** The number of elements in a set.
+*<i><size:12><color #black>**Database Context:** The number of unique values in a column, which helps in optimizing how data is stored and retrieved.;
+****[#grey] <b><i><size:12><color #white>[[docs/books/1-books-backlog/DBMS/images/img_7.png Relationship Cardinality vs Data Cardinality]]
+****[#grey] <b><i><size:12><color #white>[[https://orangematter.solarwinds.com/2020/01/05/what-is-cardinality-in-a-database/ Cardinality in Time Series Databases]]
+
+**[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_8.png The Importance of Cardinality in Databases]]
+***[#green] <i><size:12><color #white>Understanding cardinality is vital for database performance and efficiency. It affects query optimization, indexing, and overall database design.
+***[#green] <i><size:12><color #white><b>Query Optimization
+****[#yellow]:<i><size:12><color #black>Database query optimizers use cardinality to determine the most efficient way to execute queries.
+<i><size:12><color #black>Knowing how many unique values are in a column helps the optimizer choose the best method to retrieve data.
+
+<i><size:12><color #black>For example, in an e-commerce database, the ProductID column typically has high cardinality because each product has a unique ID.
+<i><size:12><color #black>This makes it ideal for indexing. On the other hand, the Category column might have low or medium cardinality because many products share the same category.;
+***[#green] <i><size:12><color #white><b>Impact on Indexing
+****[#yellow]:*<i><size:12><color #black>**High Cardinality:** Columns with high cardinality are great for indexing because they allow the database to quickly locate specific rows.
+*<i><size:12><color #black>**Low Cardinality:** Columns with low cardinality are less effective for indexing as they result in larger sets of data to be scanned.;
+**[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_4.png High Cardinality vs Low Cardinality]]
+**[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_5.png Cardinality in SQL]]
+**[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_6.png The Difference Between Cardinality & Selectivity in Database Optimization]]
+***[#green] <i><size:12><color #white><b>[[docs/books/1-books-backlog/DBMS/images/img_6.png How they relate]]
+***[#green] <i><size:12><color #white><b>[[docs/books/1-books-backlog/DBMS/images/img_6.png Low vs high cardinality]]
+**[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_6.png Monitoring & Managing Cardinality]]
+***[#green] <i><size:12><color #white><b>[[docs/books/1-books-backlog/DBMS/images/img_6.png Tools & Techniques]]
+**[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_6.png Best Practices]]
+***[#green] <i><size:12><color #white><b>[[docs/books/1-books-backlog/DBMS/images/img_6.png Regular Monitoring, Optimize Indexes, Update Statistics]]
+**[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_6.png Conclusion]]
+
+
+
+
+
+
 
 @endmindmap

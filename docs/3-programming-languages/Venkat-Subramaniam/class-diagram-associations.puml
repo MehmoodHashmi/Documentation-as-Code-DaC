@@ -3,7 +3,7 @@ title =<i><b><u><size:18>Class Diagram Associations <size:14>[[https://www.youtu
 
 * <i><b><size:12>Most links inside the diagrams are clickable (but not inside IDE) if you use the finder or file-explorer and then use macOS native image viewer/previewer, and then hover over the link in the diagram \n*<i><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers]] & [[docs/3-programming-languages/Venkat-Subramaniam/Towards-an-Evolutionary-Architecture.puml Towards an Evolutionary Architecture]]
 ** <i><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_128.jpg UML cheatsheet]]
-* *<i><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_543.png class diagram]] \n*<i><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_938.png ERD diagram]], [[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/img_1.jpg 2]]
+* *<i><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_543.png class diagram]] \n*<i><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_938.png ERD diagram]], [[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/img_1.png 2]]
 ** <i><b><size:12>package diagram
 *** <i><b><size:12>state machine diagram
 ****:*<i><b><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/use-case-2-0-overview.puml use case diagram]]
@@ -96,7 +96,7 @@ skinparam hyperlinkColor white
 *<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_923.png Bi-directional accociations != Binary relationship or binary association]]**
 **<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_925.png Attributes]]**;
 
-****[#blue]:*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_926.png Multiplicity (vs cardinality)]]**
+****[#blue]:*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_926.png Multiplicity (vs cardinality),]]** <b>[[docs/books/1-books-backlog/DBMS/Cardinality-vs-Multiplicity.puml Part2]]
 *<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_926.png Ordering roles]]**
 **<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_926.png Association vs Link]]**
 **<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_926.png Constraints in class dependency]]**;

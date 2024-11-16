@@ -1,6 +1,8 @@
 @startmindmap
 title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_630.png Towards an Evolutionary Architecture]] <size:12>click me
 * <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers by Venkat Subramaniam]]
+** <i><b>[[ Towards an Evolutionary Architecture]] video
+
 !theme hacker
 
 *[#darkblue]:<color:white><i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_630.png Towards an Evolutionary Architecture]]
@@ -38,7 +40,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 *<i><color #black><size:12>[[https://betterprogramming.pub/advices-from-a-software-engineer-with-8-years-of-experience-8df5111d4d55 Advice From a Software Engineer]]
 <i><color #black><size:12>[[https://betterprogramming.pub/advices-from-a-software-engineer-with-8-years-of-experience-8df5111d4d55 With 8 Years of Experience]];
 
-***[#green] <i><color #white><b><size:12>Definition
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_944.png Definition]]
 ****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/app-vs-network-structure.puml Shape of the major structure of a system or topology. architecture is a "view" of a system.]]
 ****[#yellow]:<i><color #black><size:12>**Goal of architecture:** Minimize the **human resources** required to **build & maintain** "software system".
 *<i><color #black><size:12>If **effort** remains **constant or shrinks with time** then **design** is **good**. If **effort** increases with each **passing release** then **design** is <b>bad.;
@@ -184,7 +186,11 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 <i><color #black><size:12>If I use your software then the "use value" of your software will increase. Why not write my own software so
 <i><color #black><size:12>that my software gets "use value". Really! **This is called reinventing the wheel!.** Why? because s/w is
 <i><color #black><size:12>open-source & answer one question. <b>Do you need "use value" or fame for writing the "software"?;
-**[#lightblue] <i><color #black><size:12>[[docs/1-business-analyst/client-management/software-house/Software-House-Processes.puml The risk of not evolving]]
+
+**[#lightblue]:*<i><color #black><size:12>[[docs/1-business-analyst/client-management/software-house/Software-House-Processes.puml The risk of not evolving]] + [[docs/3-programming-languages/Venkat-Subramaniam/images/img_945.png click me]]
+**<i><color #black><size:12>Two potential problems:
+<i><color #black><size:12>1) Relevance
+<i><color #black><size:12>2) Governance;
 ***[#green] <b><i><color #white><size:12>[[docs/1-business-analyst/client-management/software-house/Software-House-Processes.puml Relevance]]
 
 ****[#gold]:*<i><color #black><size:12>If not evolved may become obsolete & irrelevant.
@@ -195,22 +201,23 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ****[#gold] *<i><color #black><size:12>**Architecture committee,** slows down the process & "initial architecture" draft becomes useless.
 **[#lightblue] <i><color #black><size:12>The risk of  evolving
 ***[#green] <b><i><color #white><size:12>What if we can't \n<b><i><color #white><size:12>support a feature?
-****[#yellow] *<i><color #black><size:12><b>Planned Features
-*****[#yellow] *<i><color #black><size:12>Things you know, you will work on, in the beginning of the project you had project backlog. \n<i><color #black><size:12>A list of requirements given to you.
-*****[#a] *<i><color #black><size:12>Find the following for each <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_448.png user story:]]\n<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_559.png 1- Business value]] \n<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_448.png 2- Architecture Impact]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_603.png Part-2]] \n*<i><color #black><size:12>Now prioritize & implement the high value features first!
-******[#black] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_447.png Jira, Trello, User Story, Requirements & Backlog, Project Management & Client Management (Transparency with client)]] \n|<#red><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/product-owner.puml Who is Product Owner?]]|
-****[#yellow] *<i><color #black><size:12>Surprise Features
-*****[#yellow] *<i><color #black><size:12>Do **minimal architecture** like **Clean Architecture** so that you can "modify & maintain" the system
-***[#green] <i><color #white><b><size:12>How to deal with that?
+****[#a] *<i><color #black><size:12>Find the following for each <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_448.png user story:]]\n<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_559.png 1- Business value]] \n<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_448.png 2- Architecture Impact]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_603.png Part-2]] \n*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_946.png Now prioritize & implement the high value features first!]]
+*****[#yellow] *<i><color #black><size:12><b>Planned Features
+******[#yellow] *<i><color #black><size:12>Things you know, you will work on, in the beginning of the project you had project backlog. \n<i><color #black><size:12>A list of requirements given to you.
+*****[#yellow] *<i><color #black><size:12>Surprise Features
+******[#yellow] *<i><color #black><size:12>Do **minimal architecture** like **Clean Architecture** so that you can "modify & maintain" the system
+*****[#black] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_447.png Jira, Trello, User Story, Requirements & Backlog, Project Management & Client Management (Transparency with client)]] \n|<#red><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/product-owner.puml Who is Product Owner?]]|
+***[#green] <i><color #white><b><size:12>How to deal with <u>"Surprise feature"?
 ****[#yellow] <b><i><color #black><size:12>Prioritize on value & architecture impact
-**[#lightblue] <i><color #black><size:12>Keep it simple
 
+**[#lightblue] <i><color #black><size:12>Keep it simple
+***[#yellow] <i><color #black><size:12>What follows next <b>(KISS, Refactor, Reversibility, YAGNI, Extensibility, Parsimony, Triangulate, Postel's Law, Reuse, Minimize libraries & frameworks) are <color #red>__best Practices__ <color #black> in "software development"
 ***[#green] <i><color #white><b><size:12>How?
 ****[#yellow]:*<i><color #black><size:12>Make it easy to understand
 *<i><color #black><size:12>Make it easier to change
 *<i><color #black><size:12>It has few moving parts in it
 *<i><color #black><size:12>It Fails less but when fails, it fails gracefully;
-
+*****[#darkorange] <i><color #black><size:12><b>See section on __coupling__ for more details on how? [[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers by Venkat Subramaniam]]
 ****[#yellow] <i><color #black><size:12><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:12>but by avoiding those tasks that <b>should not be done in the first place.
 *****[#darkorange]:*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_718.png 15- Rule of optimization]]** unix philosophy; Moreover,
 <i><color #black><size:13><b>E.g. don't do (Clean Architecture + [[docs/3-programming-languages/Venkat-Subramaniam/images/img_55.jpg DDD]]) for simple apps (system) as it's not applicable.
@@ -218,7 +225,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 *<i><color #black><size:13><b>[[docs/3-programming-languages/Venkat-Subramaniam/gif/DDD-and-subdomain-classification.html DDD & subdomain classification (Generic Subdomain, Core Subdomains, & Supporting Subdomains)]] this .html file open in browser
 **<i><color #black><size:13><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/DDD-and-questions.drawio.png Use DDD or not; answer the following  questions]];
 
-**[#lightblue]:<i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_249.png Refactor ]]
+**[#lightblue]:<i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_249.png Refactor]]
 <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_466.png 1- Structure (generally reversible)]]
 <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_466.png 2- Behavior (generally irreversible)]]
 |<#red><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/how-to-approach-refactoring.puml How to approach refactoring "Venkat"]]|;
@@ -301,7 +308,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_557.png What are critical Business Rules?]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_559.png Business Rules & Coincidence Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_560.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_574.png Part-3]]
 ==|<#red><i><color #black><size:16>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_537.png Inside-out]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_555.png Bottom-up]], & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_556.png BUFD]]** <color:yellow>(Low-level analysis & design)|==
 *<i><color #black><size:16>**Inside-out:** approach is (1st <u>**analyze & design entities & use cases layer**)
-|<#darkorange><i><color #black><b><size:16>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_558.png 1- Entities]], <size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_555.png (Bottom-up design)]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_530.png Over Engineering]], [[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/img_1.jpg Class -to-> to ERD]]|
+|<#darkorange><i><color #black><b><size:16>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_558.png 1- Entities]], <size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_555.png (Bottom-up design)]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_530.png Over Engineering]], [[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/img_1.png Class -to-> to ERD]]|
 |<#red><i><color #black><b><size:16>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_538.png 2- Use Cases]], <size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_561.png (Top-down vs- Bottom-up?)]] & [[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/use-case-2-0-overview.puml Use-Case 2.0]] or [[docs/1-Requirement-Engineering/VU-course/Event-Storming-technique.adoc Event Storming]]or [[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/img_3.png DFD]] etc.|
 ==|<#lightblue><i><color #black><size:16>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_555.png Outside-in]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_555.png Top-down]]** <color:blue>(High-level analysis & design)|==
 *<i><color #black><size:16>**Outside-in:** approach (1st select right tools, integrations etc. for app development)

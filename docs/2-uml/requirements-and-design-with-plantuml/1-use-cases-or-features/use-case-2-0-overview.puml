@@ -9,7 +9,7 @@ caption <img:img_1.png{scale=0.7}>
 ***** <size:12><b><i>[[docs/3-programming-languages/clean-architecture/images/Screenshot_3x.png use case decomposition]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_561.png Part-2]]
 ***** <size:12><b><i>[[docs/3-programming-languages/clean-architecture/images/use-case-modeling.png use case Modeling]]
 **** <size:12><b><i>[[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/img_3.png use case diagram --to-> DFD & vice versa]] click
-**** <size:12><b><i>[[img_1.jpg Class diagram --to-> ERD ]] click
+**** <size:12><b><i>[[img_1.png Class diagram --to-> ERD ]] click
 
 !theme hacker
 
