@@ -8,31 +8,25 @@ caption <img:../../../../docs/3-programming-languages/Venkat-Subramaniam/images/
 *[#darkblue] <i><color #white>Database notation implementation\n<img:../../../../docs/3-programming-languages/Venkat-Subramaniam/images/img_938.png>
 **[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_9.png Relationship]]
 ***[#green] <i><size:12><color #white>Implementation 1
-***[#green] <i><size:12><color #white>Implementation 2
 
 **[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_10.png One]]
-***[#green] <i><size:12><color #white>Implementation 1
-***[#green] <i><size:12><color #white>Implementation 2
+***[#green] <i><size:12><color #white>some what same as <b>one and only one
 
 **[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_11.png Many]]
 ***[#green] <i><size:12><color #white>Implementation 1
-***[#green] <i><size:12><color #white>Implementation 2
 
 **[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_12.png One and ONLY One]]
 ***[#green] <i><size:12><color #white>Implementation 1
-***[#green] <i><size:12><color #white>Implementation 2
 
 **[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_15.png Zero or One]]
 ***[#green] <i><size:12><color #white>Implementation 1
-***[#green] <i><size:12><color #white>Implementation 2
 
 **[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_13.png One or Many]]
 ***[#green] <i><size:12><color #white>Implementation 1
-***[#green] <i><size:12><color #white>Implementation 2
 
 **[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_14.png Zero or Many]]
 ***[#green] <i><size:12><color #white>Implementation 1
-***[#green] <i><size:12><color #white>Implementation 2
+
 **[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_16.png Warning]]
 ***[#green] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_18.png Uses of ERDs]] \n*<i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_18.png Limitations of ERD and models]]
 
