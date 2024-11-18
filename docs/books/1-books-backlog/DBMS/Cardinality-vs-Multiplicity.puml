@@ -16,6 +16,7 @@ caption \n<img:../../../../docs/3-programming-languages/Venkat-Subramaniam/image
 *<i><size:12><color #black>**Mathematical Sense:** The number of elements in a set.
 *<i><size:12><color #black>**Database Context:** The number of unique values in a column, which helps in optimizing how data is stored and retrieved.;
 ****[#grey] <b><i><size:12><color #white>[[docs/books/1-books-backlog/DBMS/images/img_7.png Relationship Cardinality vs Data Cardinality]]
+*****[#darkorange] <b><i><size:12><color #white>[[docs/books/1-books-backlog/DBMS/images/img_17.png Cardinality vs ordinality]]
 ****[#grey] <b><i><size:12><color #white>[[https://orangematter.solarwinds.com/2020/01/05/what-is-cardinality-in-a-database/ Cardinality in Time Series Databases]]
 
 **[#lightblue] <i><color #black>[[docs/books/1-books-backlog/DBMS/images/img_8.png The Importance of Cardinality in Databases]]
