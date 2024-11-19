@@ -120,10 +120,7 @@ skinparam hyperlinkColor white
 *<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_933.png Ordering & uniqueness]]**
 **<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_933.png Implementation]]**;
 
-*****[#grey]:*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_933.png Collections]]**
-*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_933.png Ordering & uniqueness]]**
-**<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_933.png Implementation]]**
-*<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_934.png More on ordering]]**
+*****[#grey]:*<i><color #white><size:12><i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_934.png More on ordering]]**
 *<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_934.png Association constraints:]]**
 **<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_934.png implicit, ordered, changeable, addOnly, frozen, xor)]]**
 *<i><color #white><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_934.png Bags, and sequences]]**
