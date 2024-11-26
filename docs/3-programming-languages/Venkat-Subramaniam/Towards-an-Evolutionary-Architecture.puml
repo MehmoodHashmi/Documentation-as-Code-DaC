@@ -75,8 +75,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 **<b><i><color #black><size:10>[[docs/2-architecture-document-template/ADD-3.0/Tactics-Based-Questionnaires.adoc Part-2]]
 **<b><i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_633.png NFR & QAS]]
 *<b><i><color #black><size:10>[[https://dev.to/frosnerd/quality-attributes-in-software-1ha9 QAS Workshop]]
-*<b><i><color #black><size:10>[[https://dev.to/frosnerd/quality-attributes-in-software-1ha9 Fitness function]]
-;
+*<b><i><color #black><size:10>[[https://dev.to/frosnerd/quality-attributes-in-software-1ha9 Fitness function]];
 
 ****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_247.png 4+1 View Model]]
 *<b><i><color #black><size:11>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_527.png Why 4+1 View Model?]]
@@ -99,7 +98,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 <b><i><color #black><size:12>[[a Independent Develop-ability vs Deploy-ability]]
 |<#blue><b><i><color #red><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.jpg Onion, Clean, Hexagon Architecture]] != [[docs/3-programming-languages/Venkat-Subramaniam/images/img_41.png Modularization]]|<#grey><b><i><color #red><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.jpg Onion, Clean, Hexagon Architecture]] = [[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.png Separation of Concerns]]|
 *<b><i><color #black><size:12>A [[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.jpg Separation of Concerns architecture]] are concerned with [[docs/3-programming-languages/Venkat-Subramaniam/images/img_7.jpg separating "domain code" from "infrastructure code".]] These
-<b><i><color #black><size:12>are not actually concerned with [[docs/3-programming-languages/Venkat-Subramaniam/images/img_580.png structuring of domain itself.]]
+<b><i><color #black><size:12>are not actually concerned with [[docs/3-programming-languages/Venkat-Subramaniam/images/img_580.png structuring of domain itself.]] <size:11>(To achieve it, do Event storming or Use case study, [[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml see design smell 3 & 4]])
 |<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_73.png Software Architecture]] !=|<#red><b><i><color #red><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png Architecture Style]]|<#brown><b><i><color #black><size:12>!= [[docs/3-programming-languages/Venkat-Subramaniam/integration-style.puml Integration Style]]|<b><i><color #black><size:12>!= [[docs/3-programming-languages/Venkat-Subramaniam/images/img_77.png Architectural Pattern]]|<#grey><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_633.png NFR & QAS]] = [[docs/3-programming-languages/Venkat-Subramaniam/images/img_603.png Capabilities & Constraints]]|
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_582.png Architecture Vs Design Part-0]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_575.png Part-1: Components are not gold standard]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_583.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_584.png Part-3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_585.png Part-4]],
 <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_586.png components is not only the way & also not a silver bullet Part-5]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_587.png Part-6: DDD can be be used with different architectures!]]
@@ -234,7 +233,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_131.png Other times you need to 've the courage to]]
 ****[#yellow] <i><color #black><size:12><b>Rewrite:</b> your own code
 **[#lightblue] <i><color #black><size:12>Reversibility
-***[#green] <b><i><color #white><size:12>Last responsible moment
+***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_952.png Last responsible moment]]
 ****[#gold] <i><color #black><size:12>You either make the decision now or if you do not you begin to <b>procrastinate
 ****[#gold] <i><color #black><size:12><b>Two main reason: \n<i><color #black><size:12>**1-** You are smarter tomorrow than you are today\n<i><color #black><size:12>**2-** If I don't make the decision now, I can go faster focusing on other decisions that 've to \n<i><color #black><size:12>be done now. And you want to postponed things that gives you <b>focus.
 ****[#yellow] <i><color #black><size:12><b>E.g.</b> Databases (SQL or NoSQL) etc.
@@ -271,14 +270,16 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 *****[#a]:|<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_396.png Types of Software Engineers]]|<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_146.png Student, Intern, Professional]]|
 *<i><color #black><size:12><b>[[docs/1-business-analyst/client-management/software-house/images/img_2.png What is "People" of 3Ps?]];
 
-**[#lightblue] <i><color #black><size:12>Parsimony\n*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png 6- Rule of Parsimony]]
+**[#lightblue]:<i><color #black><size:12>Parsimony
+*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png 6- Rule of Parsimony]]
+*<i><color #black><size:10>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png Use Rule 6 & 12 together]];
 ***[#green] <i><color #white><b><size:12>Absolute minimalism
 ****[#yellow] *<i><color #black><size:12><b>Write very few lines of code; Think does this really you need while writing code
-**[#lightblue] <i><color #black><size:12>Triangulate
+**[#lightblue] <i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_949.png Triangulate]]
 ***[#green] <i><color #white><b><size:12>Develop the system in a light weight manner
-**[#lightblue] <i><color #black><size:22>Postel's law
+**[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_950.png Postel's law]]
 ***[#green] <i><color #white><b><size:12>Communicating across systems
-****[#gold] *<i><color #black><size:18>True in **microservices** world
+****[#gold] *<i><color #black><size:18>True in **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_950.png microservices]]** world
 ****[#yellow] *<i><color #black><size:18><b>Postel's law says:</b> be very  <b>generous</b> about what you <b>receive\n<i><color #black><size:18>& be very <b>conservative</b> about what you <b>send\n<img:images/img_28.png{scale=1}>\n<i><color #black><size:12>So as long as I can **iterate** over your **collection** it does not matter what is the **type** of your <b>collection.\n<i><color #black><size:12>In other words, don't make your <b>interface brittle.
 **[#lightblue] <i><color #black><size:22>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_64.png Reuse]] <size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_160.png Modularity patterns]] & [[https://dzone.com/refcardz/patterns-modular-architecture website link]] \n<i><size:13>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_707.drawio.png 1- Rule of modularity]]\n<img:images/img_41.png{scale=0.7}>
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_137.jpg MVC vs MVP vs MVVP click me]]
@@ -299,10 +300,10 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 <i><color #black><size:15>"interface" minimizes the "surface area" of "coupling code" & eases replacing "library"
 ==|<#red><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Head-First-Architecture.puml Planning the Architecture]]|==
 <img:images/img_841.png{scale=.94}>;
-***[#yellow] <i><color #black><size:12>in the system, otherwise it is **"infatuation"** with the <b>"technology"
+***[#yellow] <i><color #black><size:12>Minimize libraries & frameworks in the system, otherwise it is **"infatuation"** with the <b>"technology"
 ***[#darkorange] *<i><color #black><size:12>Don't **build** what you can **buy/download.** Don't **buy/download** what you don't <b>need! [[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png DDD]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_574.png Part-2]] \n*<i><color #black><size:12>"To slaughter a goat for a single grain". You could **buy** the **needed grain** from <b>market!
-***[#gold] <i><color #black><size:12>If we're going to 've a **delivery independent architecture**, we 've to start with \n<i><color #black><size:12><b>delivery independent <color:#brown>"use cases"
-***[#darkorange] *<i><color #black><size:12>**"main ()"** function is at **outer most layer.** Why? Because it is nearest to **input/output** & prone to <b>changes. \n*<i><color #black><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_424.png click me]]
+***[#gold] <i><color #black><size:12>If we're going to 've a **delivery independent architecture**, we 've to start with <b>delivery independent <color:#brown>"use cases"
+***[#darkorange] *<i><color #black><size:12>**"main ()"** function is at **outer most layer.** Why? Because it is nearest to **input/output** & prone to <b>changes. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_424.png click me]]
 ***[#a]:<i><color #black><size:12>There is nothing wrong with **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_56.png outside-in or inside-out approach]]** so long as you **[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml decouple]]** your
 <i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_557.png business rules]]** from them.
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_557.png What are critical Business Rules?]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_559.png Business Rules & Coincidence Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_560.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_574.png Part-3]]
@@ -325,7 +326,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 **<i><color #green><b><size:12>E.g. [[docs/books/1-books-backlog/operating-system/Linux-operating-system.puml O/S open source e.g. Linux]] or [[a proprietary e.g. Windows]]
 **<i><color #green><b><size:12>E.g. [[a Brownfield]] (maintenance) or [[a Greenfield]] (new project)
 **<i><color #green><b><size:12>E.g. [[docs/blockchain/Blockchain-System-Design.puml Blockchain (value exchange)]] or [[docs/blockchain/Blockchain-System-Design.puml Internet/Web (info. exchange)]] or Without internet etc.
-==<i><color #black><size:16><b>Conclusion==
+==<i><color #black><size:16><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_951.png Conclusion]]==
 *<i><color #black><b><size:12>In reality a mix of both "inside-out & outside-in" is used.;
 ****[#yellow] <img:images/img_245.png{scale=.8}>
 *****[#a]:*<i><color #black><b>Law of Attraction: Applies to both knowledge & materialistic desires
