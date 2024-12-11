@@ -1,0 +1,53 @@
+@startmindmap
+title <i><size:18>Evolution of software architecture with the co-creator of UML (Grady Booch) Dec 4, 2024
+!theme hacker
+
+*[#darkblue] <i><color #white>Evolution of software architecture \n<i><color #white>with the co-creator of UML\n<i><color #white>(Grady Booch) Dec 4, 2024 \n <img:images-1/img_0.png{scale=.5}>
+
+**[#lightblue] <i>Introduction and Overview
+
+***[#green] <color #white><i>What it means to be a Fellow at IBM
+****[#black] <color #white><i>[[docs/3-programming-languages/Venkat-Subramaniam/images-1/img_1.png click me]]
+
+**[#lightblue] <i>Grady’s Professional Contributions
+***[#green] <color #white><i>Grady’s work with legacy systems
+****[#black] <color #white><i>[[docs/3-programming-languages/Venkat-Subramaniam/images-1/img_2.png click me]]
+***[#green] <color #white><i>Some examples of domains Grady has contributed to
+****[#black] <color #white><i>[[docs/3-programming-languages/Venkat-Subramaniam/images-1/img_3.png click me]]
+***[#green] <color #white><i>The evolution of the field of software development
+****[#black] <color #white><i>[[docs/3-programming-languages/Venkat-Subramaniam/images-1/img_4.png click me]]
+
+**[#lightblue] <i>The Booch Method and Software Development
+***[#green] <color #white><i>An overview of the Booch method
+****[#black] <color #white><i>[[docs/3-programming-languages/Venkat-Subramaniam/images-1/img_5.png click me]]
+***[#green] <color #white><i>Software development prior to the Booch method
+
+**[#lightblue] <i>Collaborations and Major Projects
+***[#green] <color #white><i>Forming Rational Machines with Paul and Mike
+***[#green] <color #white><i>Grady’s work with Bjarne Stroustrup
+***[#green] <color #white><i>ROSE and working with the commercial sector
+***[#green] <color #white><i>How Grady built UML with Ibar Jacobson and James Rumbaugh
+
+**[#lightblue] <i>Unified Modeling Language (UML)
+***[#green] <color #white><i>The IBM acquisition and why Grady declined Bill Gates’s job offer
+***[#green] <color #white><i>An explanation of UML and why it was a mistake to turn it into a programming language
+***[#green] <color #white><i>Why UML is no longer used in industry
+
+**[#lightblue] <i>Reflections on Software Development
+***[#green] <color #white><i>Grady’s thoughts on formal methods
+***[#green] <color #white><i>How the software architect role changed over time
+***[#green] <color #white><i>Disruptive changes and major leaps in software development
+
+**[#lightblue] <i>AI and Space Exploration
+***[#green] <color #white><i>Grady’s early work in AI
+***[#green] <color #white><i>Grady’s work with Johnson Space Center
+***[#green] <color #white><i>Grady’s thoughts on LLMs
+***[#green] <color #white><i>Why Grady thinks we are a long way off from sentient AI
+**[#lightblue] <i>Grady’s advice to less experienced software engineers
+**[#lightblue] <i>What’s next for Grady
+**[#lightblue] <i>Rapid fire round
+
+
+*** OSMC
+
+@endmindmap

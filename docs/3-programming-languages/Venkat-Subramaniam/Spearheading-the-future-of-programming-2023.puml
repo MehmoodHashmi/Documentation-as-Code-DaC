@@ -150,8 +150,7 @@ caption |<img:images/img_771.png>|\n|<img:images-reuseable/43-evolution-and-birt
 ****[#darkorange] <i><color #black><size:22><b>11th paradigm shift:</b> <b>[[docs/AI-ML-DL-Data-Science-and-BigData/data-science/statistics/professor-leonard-statistics-notes/descriptive-(or-EDA)-statistics/4-machine-learning.puml Machine learning]] click\n<img:images/img_7.png{scale=0.95}>
 *****[#darkorange] <i><color #black><size:16><b>[[docs/books/selfanalysis/anatomy-of-knowledge.puml Anatomy of knowledge]] click me\n<img:images/img_8.png{scale=0.60}>
 ******[#darkorange]:<i><color #black><size:15><b>[[docs/AI-ML-DL-Data-Science-and-BigData/big-data/big-data.puml Data]] + [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/Modern-Machine-Learning.puml Algorithm]] = [[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/machine-learning-basic-terminology.puml Model]]
-*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_430.png "ML" Good for "Pattern recognition", "Predictions" &]]
-<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_430.png "Optimization & decision making"]]
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_430.png "ML" Good for "Pattern recognition", "Predictions" & Optimization & decision making"]]
 *<i><color #black><size:12><b>[[docs/AI-ML-DL-Data-Science-and-BigData/machine-learning-ML/3-deep-learning-DL/Model-Fine-Tuning.puml Transfer learning:]] or Model fine-tuning; Model can be reused.
 ====
 *<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=VHHT6W-N0ak&ab_channel=MasteryLearning LinusTorvalds: Impact of Artificial Intelligence on Programming Transfer learning]];
