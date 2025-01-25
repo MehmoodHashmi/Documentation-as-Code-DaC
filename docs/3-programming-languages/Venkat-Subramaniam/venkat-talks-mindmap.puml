@@ -8,8 +8,11 @@ caption |<img:images/img_778.png>|<img:images/img_766.png>|<img:images/img_769.p
 |<#red><color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/My-Rights-in-Legal-Interactions-in-Pakistan.puml My (individual) Rights in a Legal Interactions in Pakistan]]|
 **<color:white><i><size:12>Rule != Law
 ***<color:white><i><size:12>Rule: is in school, university, offices, home, hostel etc.
-***<color:white><i><size:12>Law: is enforced by government via police, rangers, etc.
-****<color:white><i><size:12>And things like high court, supreme court, advocate,  & judge;
+**<color:white><i><size:12>Law: is enforced by government via police, rangers, etc.
+<color:white><i><size:12>And things like high court, supreme court, advocate,  & judge
+***<color:white><i><size:12>1- Criminal Law: violations resulting in immediate jail
+***<color:white><i><size:12>2- Civil Law: violations does not result in immediate jail. E.g.
+<i><size:11>government can't put me in jail because I've not paid my electricity bill.;
 
 **[#lightblue]:<color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles]]
 <color:white><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml for software developers]]
