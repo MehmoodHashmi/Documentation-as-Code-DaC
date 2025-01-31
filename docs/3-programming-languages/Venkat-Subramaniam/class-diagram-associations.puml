@@ -5,7 +5,7 @@ title =<i><b><u><size:18>Class Diagram Associations <size:14>[[https://www.youtu
 ** <i><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_128.jpg UML cheatsheet]]
 * *<i><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_543.png class diagram]] \n*<i><b><size:12>[[docs/books/1-books-backlog/DBMS/database-relations-implementation.puml ERD diagram]], [[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/img_1.png 2]]
 ** <i><b><size:12>package diagram
-*** <i><b><size:12>state machine diagram
+*** <i><b><size:12>state machine diagram [[https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-state-machine-diagram/ 1]], [[https://www.uml-diagrams.org/state-machine-diagrams.html 2]]
 ****:*<i><b><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/use-case-2-0-overview.puml use case diagram]]
 *<i><b><size:12>DFD diagram
 *<i><b><size:12>[[docs/1-Requirement-Engineering/VU-course/Event-Storming-technique.adoc Event Storming]]

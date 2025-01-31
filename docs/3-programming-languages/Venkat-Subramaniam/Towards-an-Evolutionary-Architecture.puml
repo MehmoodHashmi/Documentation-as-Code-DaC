@@ -1,7 +1,7 @@
 @startmindmap
 title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_630.png Towards an Evolutionary Architecture]] <size:12>click me
 * <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers by Venkat Subramaniam]]
-** <i><b>[[ Towards an Evolutionary Architecture]] video
+** <i><b>[[https://www.youtube.com/watch?v=CtSwv9MzK-o Towards an Evolutionary Architecture]] video
 
 !theme hacker
 
@@ -202,7 +202,8 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ***[#green] <b><i><color #white><size:12>What if we can't \n<b><i><color #white><size:12>support a feature?
 ****[#a] *<i><color #black><size:12>Find the following for each <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_448.png user story:]]\n<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_559.png 1- Business value]] \n<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_448.png 2- Architecture Impact]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_603.png Part-2]] \n*<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_946.png Now prioritize & implement the high value features first!]]
 *****[#yellow] *<i><color #black><size:12><b>Planned Features
-******[#yellow] *<i><color #black><size:12>Things you know, you will work on, in the beginning of the project you had project backlog. \n<i><color #black><size:12>A list of requirements given to you.
+******[#yellow]:*<i><color #black><size:12>Things you know, you will work on, in the beginning of the project you had project backlog.
+|<i><color #black><size:12>A list of requirements given to you.|<#darkorange><i><color #black><size:12>In case of **Planned features** use this <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_946.png approach]]|;
 *****[#yellow] *<i><color #black><size:12>Surprise Features
 ******[#yellow] *<i><color #black><size:12>Do **minimal architecture** like **Clean Architecture** so that you can "modify & maintain" the system
 *****[#black] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_447.png Jira, Trello, User Story, Requirements & Backlog, Project Management & Client Management (Transparency with client)]] \n|<#red><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/product-owner.puml Who is Product Owner?]]|
@@ -211,11 +212,15 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 
 **[#lightblue] <i><color #black><size:12>Keep it simple
 ***[#yellow] <i><color #black><size:12>What follows next <b>(KISS, Refactor, Reversibility, YAGNI, Extensibility, Parsimony, Triangulate, Postel's Law, Reuse, Minimize libraries & frameworks) are <color #red>__best Practices__ <color #black> in "software development"
+****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_953.png click me]]
 ***[#green] <i><color #white><b><size:12>How?
-****[#yellow]:*<i><color #black><size:12>Make it easy to understand
-*<i><color #black><size:12>Make it easier to change
-*<i><color #black><size:12>It has few moving parts in it
-*<i><color #black><size:12>It Fails less but when fails, it fails gracefully;
+****[#yellow]:*<i><color #black><size:12>Make it easy to **understand** & easier to <b>change
+====
+*<i><color #black><size:12><b>Simple:
+**<i><color #black><size:12>has few moving parts in it
+**<i><color #black><size:12>Fails less but when fails, it fails gracefully
+**<i><color #black><size:12>is easier to evolve
+**<i><color #black><size:12>does not has unnecessary details in it;
 *****[#darkorange] <i><color #black><size:12><b>See section on __coupling__ for more details on how? [[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers by Venkat Subramaniam]]
 ****[#yellow] <i><color #black><size:12><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:12>but by avoiding those tasks that <b>should not be done in the first place.
 *****[#darkorange]:*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_718.png 15- Rule of optimization]]** unix philosophy; Moreover,
@@ -236,6 +241,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ***[#green] <b><i><color #white><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_952.png Last responsible moment]]
 ****[#gold] <i><color #black><size:12>You either make the decision now or if you do not you begin to <b>procrastinate
 ****[#gold] <i><color #black><size:12><b>Two main reason: \n<i><color #black><size:12>**1-** You are smarter tomorrow than you are today\n<i><color #black><size:12>**2-** If I don't make the decision now, I can go faster focusing on other decisions that 've to \n<i><color #black><size:12>be done now. And you want to postponed things that gives you <b>focus.
+*****[#gold] <img:images/img_464.png{scale=.52}>
 ****[#yellow] <i><color #black><size:12><b>E.g.</b> Databases (SQL or NoSQL) etc.
 ***[#yellow] <i><color #black><size:12>E.g. **"Rewrite"** java app in go-lang or C# or python, this is difficult, time consuming & hard to <b>reverse.
 ***[#yellow] <i><color #black><size:12>The more you are **couple to a decision** the harder it is to **reverse,** introduce **indirection** to increase <b>reversibility.
@@ -257,7 +263,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ***[#yellow] <i><color #black><size:12>Database decisions, libraries and frameworks decisions etc.
 ***[#darkorange] <i><color #black><size:12>**[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Prototyping.puml Prototyping]]** is helpful\n*<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_718.png 15- Rule of optimization]]** unix philosophy
 ***[#yellow] <i><color #black><size:12>**YAGNI principle** is not goona help you, if you 've very <b>poor (slow) feedback loop
-**[#lightblue] <i><color #black><size:12>YAGNI
+**[#lightblue] <i><color #black><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_954.png YAGNI]]
 **[#lightblue] <i><color #black><size:20>What about \n<i><size:20>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml "extensibility"?]]
 ***[#green] <i><color #white><b><size:12>Two things you need to \n<i><color #white><b><size:12>make software extensible.
 ****[#yellow] *<i><color #black><size:12><b>Domain Knowledge
@@ -296,7 +302,7 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ==<i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_266.png Minimizing frameworks. How?]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_357.png Frameworks that you must marry?]]==
 |<img:images/img_31.png{scale=0.94}>| <img:images/img_34.png>|
 ==<i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_267.png Minimizing Libraries. How?]]==
-|<img:images/img_56.jpg{scale=.65}>|<img:images/img_464.png{scale=.52}>|
+|<img:images/img_56.jpg{scale=.72}>|<img:images/img_464.png{scale=.66}>|
 <i><color #black><size:15>"interface" minimizes the "surface area" of "coupling code" & eases replacing "library"
 ==|<#red><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Head-First-Architecture.puml Planning the Architecture]]|==
 <img:images/img_841.png{scale=.94}>;
