@@ -158,7 +158,10 @@ skinparam hyperlinkColor white
 ****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_98.png Change the design along the way]] click me
 ****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_98.png Almost impossible to get "design" right the first time (in one sitting)]] click me
 ****[#yellow] <i><color #black><size:12>Software is never **written,** it is always <b>rewritten.
-*****[#gold] <i><color #black><size:12>Because any "software" that is **"relevant"** has to <b>change\n*<i><color #black><size:12>Otherwise, it means your **"client or business"** has become <b>bankrupt
+*****[#gold]:<i><color #black><size:12>Because any "software" that is **"relevant"** has to <b>change
+*<i><color #black><size:12>Otherwise, it means your **"client or business"** has become <b>bankrupt
+*<i><color #black><size:12>If somebody tells you that they wrote the software once & they never had
+<i><color #black><size:12>to change it again; what they 're telling your is <u><b>"their project got cancelled";
 ****[#darkorange] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_241.png Trade-off]] \n*<i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images-reuseable/36-software-architecture-charateristics.png Quality]]
 *****[#a] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_241.png The common trade-off between "cost & quality", this trade-off doesn't apply to software.]] click me
 
@@ -207,6 +210,7 @@ skinparam hyperlinkColor white
 
 
 **[#lightblue] <i><color #black><size:12>Keep it simple
+***[#yellow] <i><color #black><size:12>What follows next <b>(KISS, Manage Complexity (inherent & accidental), Think YAGNI, Cohesion & Coupling, Keep it DRY, & SOLID) are <color #red>__Software Design Principles__ <color #black> in "software development"
 ***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_721.png KISS principle]]
 ****[#yellow] <i><color #black><size:12><b>Keep it "simple" and stupid
 ****[#yellow] <i><color #black><size:12><b>Most of us don't know what is <b>"simple"
@@ -260,15 +264,15 @@ skinparam hyperlinkColor white
 ****[#a] *<i><color #black><size:12><b>E.g. Concurrency \n**<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Imperative-vs-Functional-Which-one-to-Choose.puml Low vs High-level Concurrency]] \n*<i><color #black><size:12><b>E.g. Streams </b>(less accidental complexity)
 *****[#gold] *<i><color #black><size:12>**FP** is good at **managing complexity** in **local computation tasks,** \n*<i><color #black><size:12>**OOP** is good at **managing complexity** in <b>global computation tasks.
 ****[#yellow] <i><color #black><size:12>**Simple** is not necessarily <b>familiar
-*****[#gold] <i><color #black><size:12>e.g. <b>For/While loop </b>(with 4 mutable variables in it) is familiar not simple!
+*****[#gold] <i><color #black><size:12>e.g. <b>For/While loop </b>(with 4 mutable variables in it) is familiar <b>not simple!
 ***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_636.png Good Design]]
 ****[#gold] <i><color #black><size:12>A **good design** is the one that **"hides" or "encapsulates"** the <b>inherent complexity\n<i><color #black><size:12>and <b>"eliminates" the <b>accidental complexity
 *****[#a]:|<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Encapsulation vs. Abstraction]] click me|<#red><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_495.png Dependent Functions Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_496.png Part-2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_497.png Part-3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_498.png Part-4]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_499.png Part-5]]|
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Data-type vs. Data-Structure]] click me
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/knowledge-and-data-structure.drawio.png knowledge Vs. Data-Structures]] click me;
-****[#gold] <i><color #black><size:12><b>Follow YAGNI Principle
+****[#darkorange] <i><color #black><size:12><b>Follow [[docs/3-programming-languages/Venkat-Subramaniam/images/img_954.png YAGNI]] Principle
 **[#lightblue] <i><color #black><size:12>Think <color #red>YAGNI
-***[#green] <i><color #white><size:12><b>You are not goona need it yet!
+***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_954.png You are not goona need it yet!]] \n*<i><color #white><size:8><b>is controversial principle, some ppl don't agree with it
 ***[#green] <i><color #white><size:12><b>When should I implement something?
 ****[#darkorange] *<i><color #black><size:12><b>How much do you know? \n*<i><color #black><size:12><b>Cost of implementing? [[docs/3-programming-languages/Venkat-Subramaniam/images/img_939.png click me]]
 ****[#yellow] <i><color #black><size:12>Like **"Rewrite"** java **app** in go-lang or C# or python, this is difficult, time consuming & hard to <b>reverse.
@@ -312,8 +316,8 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_501.png Part-2]];
 
 ***[#green] <i><color #white><size:12><b>is what you depend on
-****[#a]:*<i><color #black><size:12>Worst form of coupling is <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_501.png inheritance]]
-*<i><color #black><size:12>Try to see if you can remove (not eliminate) coupling
+****[#a]:*<i><color #black><size:12>Worst form of coupling is <b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_501.png inheritance]]</b> (traditional class based inheritance; that is **Java/C#/C++** type inheritance not **JavaScript** type inheritance which is actually better)
+*<i><color #black><size:12>Try to see if you can remove (not **eliminate**) coupling
 *<i><color #black><size:12>"knock out before you mock out";
 
 ****[#yellow] <i><color #black><size:12>Can't remove all the <b>dependencies
