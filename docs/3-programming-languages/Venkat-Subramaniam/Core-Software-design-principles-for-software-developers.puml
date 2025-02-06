@@ -219,7 +219,8 @@ skinparam hyperlinkColor white
 ****[#yellow]:*<i><color #black><size:12><b>Keeps you "focused"
 *<i><color #black><size:12><b>Solves only "real problems" we know about
 *<i><color #black><size:12><b>Fails less (is resilient & robust)
-*<i><color #black><size:12><b>Easier to "understand"
+*<i><color #black><size:12><b>Easier to "understand" & evolve; program with intent.
+|<#black><b><i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_955.png Program with intent]]|
 *<i><color #black><size:12>Has few "moving parts" in it;
 
 ****[#yellow] <i><color #black><size:12><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:12>but by avoiding those tasks that <b>should not be done in the first place.
@@ -542,6 +543,7 @@ skinparam hyperlinkColor white
 *<i><color #black><size:12>Don't comment **"What",** instead <b>comment "Why"
 *<i><color #black><size:12>A good code is like a <b>joke
 **<i><color #black><size:12>refactor it if it doesnt work;
+*****[#green] <i><color #white><size:12><b>Not only "functions" but also "classes" are victem of vilatating SLAP
 ***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_634.png SLAP]]
 ***[#green] <i><color #white><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_942.png Compose Method Pattern]]
 ****[#gold] <i><color #black><size:12><b>Self documenting code

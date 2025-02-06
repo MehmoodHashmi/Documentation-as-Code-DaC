@@ -1,7 +1,7 @@
 @startmindmap
 title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_630.png Towards an Evolutionary Architecture]] <size:12>click me
 * <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers by Venkat Subramaniam]]
-** <i><b>[[https://www.youtube.com/watch?v=CtSwv9MzK-o Towards an Evolutionary Architecture]] video
+** <i><b>[[https://www.youtube.com/watch?v=CtSwv9MzK-o Towards an Evolutionary Architecture]] video-Part-1, [[https://www.youtube.com/watch?v=M-oPkFNtLT8 Part-2]]
 
 !theme hacker
 
@@ -140,8 +140,9 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 **<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_533.png UI Design]]
 **<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_535.png IA Info Architecture]]
 **<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_536.png ID Interaction Design]];
+' TODO will fix this image docs/3-programming-languages/Venkat-Subramaniam/images/img_0538.png
 *****[#a]:<b><i><color #black><size:12>[[docs/1-business-analyst/project-management/project-management.puml Project Management]] & [[docs/3-programming-languages/Venkat-Subramaniam/pdf/software-requirements.pdf Software Requirements Book]] 2-pages [[docs/3-programming-languages/Venkat-Subramaniam/images/img_538.png Use Case Development Top-down or Bottom-Up? Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_561.png Part-2]],  & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_539.png Use Case 2.0 Work Products]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_540.png Use Case Limitations]]
-* <b><i><color #black><size:12>[[https://drawio-app.com/blog/use-draw-io-to-mockup-your-mobile-apps/ Use draw.io to mockup your mobile/web apps]] & [[https://drawio-app.com/blog/use-draw-io-to-mockup-your-mobile-apps/ Tips for creating good app mockups]]
+* <b><i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_0538.png Textual vs visual and low detail vs high details]] & <b><i><color #black><size:12>[[https://drawio-app.com/blog/use-draw-io-to-mockup-your-mobile-apps/ Use draw.io to mockup your mobile/web apps]] & [[https://drawio-app.com/blog/use-draw-io-to-mockup-your-mobile-apps/ Tips for creating good app mockups]]
 |<b><i><color #black><size:12>[[docs/3-programming-languages/clean-architecture/images/use-case-modeling.png Traditional use case modeling]] vs [[docs/3-programming-languages/Venkat-Subramaniam/images/img_171.png Use Case 2.0 Modeling Part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_345.png Part-2]], & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_211.png Work Products]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_287.png Use Case variations]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_128.jpg UML cheatsheet]]|<#blue><b><i>[[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/use-case.png Use-Case vs webservice]]|
 |<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Identification-of-a-use-case.puml Identification of a Use Case]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_355.png Use Case 2.0 Test Cases]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_356.png Principles of Use Case 2.0, activities for (iterative or incremental) development]]|<#red><b><i>[[docs/3-programming-languages/clean-architecture/images/Screenshot_33.png Use-Case Templates]]|
 |<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/BDD-Vs-TDD.drawio.png BDD vs. TDD Part-1]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_427.png BDD Part-2 Naveen-Automation-Lab]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_426.png TDD vs. BDD vs ATDD naveen-automation-lab]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/ATDD-vs-TDD-robert-c-martin.drawio.png TDD vs. BDD vs. ATDD Robert C Martin]]|<#black><i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_525.png Use-Case Vs. CRUD]]|
@@ -219,8 +220,9 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ====
 *<i><color #black><size:12><b>Simple:
 **<i><color #black><size:12>has few moving parts in it
-**<i><color #black><size:12>Fails less but when fails, it fails gracefully
-**<i><color #black><size:12>is easier to evolve
+**<i><color #black><size:12>Fails less but when fails, it fails gracefully.
+**<i><color #black><size:12>is easier to evolve; program with intent.
+|<#black><b><i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_955.png Program with intent]]|
 **<i><color #black><size:12>does not has unnecessary details in it;
 *****[#darkorange] <i><color #black><size:12><b>See section on __coupling__ for more details on how? [[docs/3-programming-languages/Venkat-Subramaniam/Core-Software-design-principles-for-software-developers.puml Core Software design principles for software developers by Venkat Subramaniam]]
 ****[#yellow] <i><color #black><size:12><b>Efficiency</b> is attained not by doing <b>tasks faster,\n<i><color #black><size:12>but by avoiding those tasks that <b>should not be done in the first place.
@@ -246,6 +248,15 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ****[#yellow] <i><color #black><size:12><b>E.g.</b> Databases (SQL or NoSQL) etc.
 ***[#yellow] <i><color #black><size:12>E.g. **"Rewrite"** java app in go-lang or C# or python, this is difficult, time consuming & hard to <b>reverse.
 ***[#yellow] <i><color #black><size:12>The more you are **couple to a decision** the harder it is to **reverse,** introduce **indirection** to increase <b>reversibility.
+***[#yellow]:<i><color #black><size:12>The cost of reversibility must be affordable compared to the benefit we get out of it; this question should be asked very well.
+<i><color #black><size:12>Understand the cost vs benefit of reversibility and then favor accordingly.<b>Things that should be reversible are:;
+****[#gold]:<i><color #black><size:12><b>1- Database (SQL or NoSQL, etc.) you use
+<i><color #black><size:12><b>2- Web-services you depend on
+<i><color #black><size:12><b>3- Third-party components you depend on
+<i><color #black><size:12><b>4- Algorithms you depend on
+<i><color #black><size:12><b>5- Library is you depend down on;
+*****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_956.png click me]]
+
 ***[#a]:<i><color #black><size:12>Things which are irreversible (expensive to change) **postponed** them till the end of the <b>implementation.
 *<b><i><color #black><size:12>Why don't we postpone?
 **<b><i><color #green><size:12>Because we are afraid!
