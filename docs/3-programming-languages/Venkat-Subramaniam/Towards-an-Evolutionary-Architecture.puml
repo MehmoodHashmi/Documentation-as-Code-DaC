@@ -212,7 +212,8 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 ***[#green] <i><color #white><b><size:12>How to deal with <u>"Surprise feature"?
 ****[#yellow] <b><i><color #black><size:12>Prioritize on value & architecture impact
 
-**[#lightblue] <i><color #black><size:12>Keep it simple
+' will do mindmap on this video in the following line
+**[#lightblue] <i><color #black><size:12>[[https://www.youtube.com/watch?v=AFZMI4y7Cuk&ab_channel=JavaDayIstanbul Keep it simple]]
 ***[#yellow] <i><color #black><size:12>What follows next <b>(KISS, Refactor, Reversibility, YAGNI, Extensibility, Parsimony, Triangulate, Postel's Law, Reuse, Minimize libraries & frameworks) are <color #red>__best Practices__ <color #black> in "software development"
 ****[#a] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_953.png click me]]
 ***[#green] <i><color #white><b><size:12>How?
