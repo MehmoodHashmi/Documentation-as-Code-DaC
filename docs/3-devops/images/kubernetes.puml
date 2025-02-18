@@ -1,5 +1,5 @@
 @startmindmap
-title = <i>Kubernetes \n<img:img_1.png{scale=.66}> <img:img_2.png> \n<i><color #white>[[docs/3-devops/images/k8-cheatsheet.png kubernetes cheatsheet]] cick me
+title = <i>Kubernetes <size:14>([[docs/3-devops/images/k8-cheatsheet.png kubernetes cheatsheet]]), [[docs/3-devops/images/img_7.png Kubernetes Vs. Open-Shift]] \n<img:img_06.png{scale=.85}> <img:img_1.png{scale=.66}> <img:img_2.png> <img:img_6.png{scale=.75}>
 caption |<img:k8_architecture.png{scale=.65}>|<img:k8_architecture1.png{scale=.53}>|
 
 !theme hacker
@@ -8,14 +8,13 @@ caption |<img:k8_architecture.png{scale=.65}>|<img:k8_architecture1.png{scale=.5
 ***[#a]:*<i><size:12><b>[[docs/3-devops/docker.adoc docker.adoc]] Click me
 *<i><size:12><b>[[docs/3-devops/dockerize-a-web-app.puml dockerize a web-app]] Click me;
 **[#black] <color #white><i><size:12>[[docs/3-devops/kubernetes.adoc Kubernetes in depth]]
-***[#lightblue]:<i><size:12>Click me .adoc
-*<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/4-K8-service-type.adoc Top 4 kubernetes services]] gif
+***[#darkblue]:*<b><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/gif/4-K8-service-type.adoc Top 4 kubernetes services]] gif
 *<i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_386.png Kubernetes tool ecosystem]]
 *<i><color #white><b><size:12>[[docs/3-devops/images/top-10-kuberenetes-design-patterns.adoc Top 10 Kubernetes design patterns]] <color #black>& [[docs/3-devops/images/top_10_kubernetes_patterns.png png]];
 ****[#lightblue] <i><size:12>[[https://developers.redhat.com/blog/2020/05/11/top-10-must-know-kubernetes-design-patterns# Top 10 Kubernetes design patterns]] <b>article
 
 **[#black] <color #white><i><size:12>Introduction to AWS
-***[#lightblue] <i><size:12>Click me
+***[#lightblue] <i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Click me]]
 **[#gold] <i><size:12>Core Components
 ***[#lightblue] <i><size:12>API Server
 ***[#lightblue] <i><size:12>etcd
