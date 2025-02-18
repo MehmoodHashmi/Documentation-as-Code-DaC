@@ -22,9 +22,8 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 |<#blue><i><size:12><color #white>Casado shares his thoughts on the future of \n<i><size:12><color #white>"infrastructure" as well as views on how 3 important \n<i><size:12><color #white>trends coming together: \n<i><size:12><color #white>1- hardware to software; \n<i><size:12><color #white>2- software to services; \n<i><size:12><color #white>3- & finally, the rise of the developer…|;
 
 ***[#green] <i><color #white><b><size:12>[[https://www.youtube.com/watch?v=xJMbkZvuVO0&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=1&ab_channel=JeffreyRichter Introduction]]
-****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_363.png Cloud Apps: are fundamentally different than traditional apps]]** that run on the **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_666.png desktop, in a browser, or on a mobile device.]]** Whether you
-<i><color #black><size:12>are **designing apps** for **Microsoft Azure, AWS,or Google or other platforms,** absorbing the **principles** contained here in is a must
-<i><color #black><size:12><b>before writing the first line of code.;
+****[#a]:<i><color #black><size:12>**[[docs/3-programming-languages/Venkat-Subramaniam/images/img_363.png Cloud Apps: are fundamentally different than traditional apps]]** that run on the **[[docs/3-programming-languages/Venkat-Subramaniam/images/img_666.png desktop, in a browser, or on a mobile device.]]** Whether you are **designing apps**
+<i><color #black><size:12>for **Microsoft Azure, AWS, or Google or other platforms,** absorbing the **principles** contained here in is a must before writing the first line of code.;
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_667.png Why Cloud apps?]] \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=p7NkTUyEE1o&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=2&ab_channel=JeffreyRichter 10-minute]]
 ****[#yellow] <i><color #black><size:12>Here we've compared what is different about **building distributed services** in the past with the **mindset-shift** required to <b>build distributed cloud applications today.
 
