@@ -9,7 +9,8 @@ caption |<img:images/img_0.png{scale=.56}>|<img:images/img.png{scale=.75}>|<img:
 **[#lightblue] <i><color #blac><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_533.png User Interface (UI)]]
 ***[#green] <b><i><color #white><size:12>Design
 ****[#yellow] <i><color #black><size:12>Aesthetics
-****[#yellow] <i><color #black><size:12>Layout
+****[#darkorange] <i><color #black><size:12><b>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/images/img_13.png Layout]]
+*****[#black] <i><color #black><size:12><b>[[https://www.google.com/search?q=webste+layout+examples&sca_esv=c626e369dc3244e1&rlz=1C5CHFA_enPK1121PK1121&udm=2&biw=2056&bih=1164&sxsrf=AHTn8zqDBJrtFgGHDYPmUOAkydwFtWRZXQ%3A1739733716552&ei=1DqyZ76_IYeGw8cPxenq-QY&ved=0ahUKEwi--baR9ciLAxUHw_ACHcW0Om8Q4dUDCBE&uact=5&oq=webste+layout+examples&gs_lp=EgNpbWciFndlYnN0ZSBsYXlvdXQgZXhhbXBsZXMyBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHkjIHVD1Dli7GnABeACQAQCYAZkEoAGAFqoBBTQtNC4yuAEDyAEA-AEBmAIBoAIDmAMAiAYBkgcBMaAH9Bk&sclient=img google images]]
 ****[#yellow] <i><color #black><size:12>Visual Hierarchy
 ****[#yellow] <i><color #black><size:12>Typography
 ****[#yellow] <i><color #black><size:12>Color
@@ -18,6 +19,8 @@ caption |<img:images/img_0.png{scale=.56}>|<img:images/img.png{scale=.75}>|<img:
 ***[#green] <b><i><color #white><size:12>Components
 ****[#a] <b><i><color #black><size:12>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/Design-Systems.puml Design Systems]] its a new concept & related to UI
 ****[#yellow] <i><color #black><size:12><b>Buttons, Forms, Dropdowns, Menus, Lists, Icons, Navigation, \n<i><color #black><size:12><b>Cards, Modals, Popovers, Tooltips, Progress Bars, Spinners
+*****[#a]:*<i><color #black><size:18><b>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/images/img_11.png Padding vs Margin]] & [[https://csswolf.com/css-padding-ultimate-beginners-guide/ link-1,]] [[https://blog.hubspot.com/website/css-margin-vs-padding 2,]] [[https://blog.hubspot.com/website/css-margin-vs-padding 3]]
+*<i><color #black><size:18><b>[[docs/1-Requirement-Engineering/MVP-PoC-and-case-study/images/img_12.png What is pixel?]];
 ***[#green] <b><i><color #white><size:12>Usability
 ****[#yellow] <i><color #black><size:12>Navigation
 ****[#yellow] <i><color #black><size:12>Feedback

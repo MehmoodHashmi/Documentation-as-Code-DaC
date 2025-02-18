@@ -319,6 +319,8 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 <i><color #black><size:15>"interface" minimizes the "surface area" of "coupling code" & eases replacing "library"
 ==|<#red><i><color #black><size:14>[[docs/3-programming-languages/Venkat-Subramaniam/Head-First-Architecture.puml Planning the Architecture]]|==
 <img:images/img_841.png{scale=.94}>;
+***[#yellow] <i><color #black><size:12>**Question:** How many **IDEs** do you ‘ve  installed on your system? **Venkat Subramaniam** said I leverage **build tools** more than <b>IDEs.
+****[#black] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_959.png click me]]
 ***[#yellow] <i><color #black><size:12>**Grady Booch:** when I'm making my **design decisions** I’m always **__thinking__** in terms of **abstractions,** no matter what language I’m doing, \n<i><color #black><size:12>and you will see that reflected in code of any language that I write.
 ***[#yellow] <i><color #black><size:12>Minimize libraries & frameworks in the system, otherwise it is **"infatuation"** with the <b>"technology"
 ***[#darkorange] *<i><color #black><size:12>Don't **build** what you can **buy/download.** Don't **buy/download** what you don't <b>need! [[docs/3-programming-languages/Venkat-Subramaniam/images/img_428.png DDD]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_574.png Part-2]] \n*<i><color #black><size:12>"To slaughter a goat for a single grain". You could **buy** the **needed grain** from <b>market!
@@ -375,7 +377,8 @@ title =<i><b><u><size:18>[[docs/3-programming-languages/Venkat-Subramaniam/image
 *<i><color #black><b><size:12>If the list of things you've used in production is small than the things you've learnt over the years then we can talk;
 **[#lightblue] <i><color #black><size:12>Summary
 ***[#black]:<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_242.png 1- Requirements,]] [[docs/3-programming-languages/Venkat-Subramaniam/images/img_538.png Part-2,]] [[docs/3-programming-languages/Venkat-Subramaniam/images/img_0538.png Part-3]]
-<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images-1/img_12.png 2- Documentation,]]
-<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_574.png 3- Implementation,]] [[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Part-2,]] [[docs/3-programming-languages/images/img_35.png Part-3]];
+<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images-1/img_12.png 2- Documentation,]] [[docs/3-programming-languages/Venkat-Subramaniam/images-1/img_13.png Install following plugins for complete workflow]]
+<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_574.png 3- Implementation,]] [[docs/3-programming-languages/Venkat-Subramaniam/images/img_346.png Part-2,]] [[docs/3-programming-languages/images/img_35.png Part-3,]] [[docs/3-programming-languages/Venkat-Subramaniam/images/img_958.png Part-4 (The Future of 95% reuse & 5% innovation)]];
+****[#darkorange] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Architecting Distributed Cloud Apps]]
 
 @endmindmap
