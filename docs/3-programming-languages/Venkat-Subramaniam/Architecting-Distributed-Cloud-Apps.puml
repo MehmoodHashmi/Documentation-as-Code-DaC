@@ -152,12 +152,30 @@ caption |<img:images/img_606.png>|<img:images/img_607.png>|\n|<img:images/img_36
 *****[#a] *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_408.png Classless Inter-Domain Routing (is "CIDR")]] \n*<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=O3fgul-fJCk&ab_channel=AWSTrainingCenter Classless means (no A, B, C & D class like we have in "IPV-4", its "32-bit")]] video
 ****[#a] <i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_408.png Traffic Routing]]
 *****[#a] *<i><color #black><size:12><b>[[https://www.youtube.com/watch?v=W66STrTY0ss&t=315s CDNs]] \n*<i><color #black><size:12><b>DNS Services (Translate domain names to IPs)
-******[#gold] <i><color #black><size:12><b>Example: \n<i><color #black><size:12><b>Designing a social website like Facebook.
-*******[#darkorange]:*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_409.png Without Cloud computing]]
+******[#red] <i><color #black><size:12><b>Example:\n<img:images/img_971.png>
+*******[#darkorange]:<b><i>[[https://www.youtube.com/watch?v=uaflChh3n1A&t=4s Introduction to AWS services in 2019]]; <color #green>Designing a social website like Facebook.
+*<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_409.png Without Cloud computing]]
 *<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_410.png With Cloud computing]]
 **<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_411.png When added more AWS services like (App services)]]
 **<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_412.png When added more AWS services like (Security services)]]
-**<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_413.png When added more AWS services like (Development & DevOps services)]];
+**<i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_413.png When added more AWS services like (Development & DevOps services)]]
+==|<#yellow><b><i><size:14>2024 introduction is much better & highly customizable|==
+<i><color #black><size:15><b>[[https://www.youtube.com/watch?v=uaflChh3n1A&t=4s Introduction to AWS services in 2024]] is video link <color #green>Designing a social website like Facebook.
+<b>1. [[docs/3-programming-languages/Venkat-Subramaniam/images/img_960.png Cloud Computing?]] (is the **on-demand** delivery of **IT resources** over the **Internet** with <b>pay-as-you-go pricing) [[docs/3-programming-languages/Venkat-Subramaniam/images/img_961.png click me]]
+<b>2. AWS Global Infrastructure
+**<b> [[docs/3-programming-languages/Venkat-Subramaniam/images/img_405.png AWS region]] & [[docs/3-programming-languages/Venkat-Subramaniam/images/img_567.png Availability Zone]]
+***<b> [[docs/3-programming-languages/Venkat-Subramaniam/images/img_905.png Design of availability zone]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_568.png AZ distance]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_906.png different flood planes]],
+***<b> [[docs/3-programming-languages/Venkat-Subramaniam/images/img_907.png AZ's redundant power supply & all AZ are connected with high bandwidth N/W]]
+**<b> AWS Locations:
+***<b> [[https://www.youtube.com/watch?v=uaflChh3n1A&t=290s AWS Edge locations (used by Amazon CloudFront)]] 3-minute video
+***<b> [[https://www.youtube.com/watch?v=uaflChh3n1A&t=458s AWS local zones]] 2-minute video
+***<b> [[https://www.youtube.com/watch?v=uaflChh3n1A&t=585s AWS Wavelength]] 1-minute video
+***<b> [[https://www.youtube.com/watch?v=uaflChh3n1A&t=625s AWS Outposts]] 1-minute video
+|<b>3. [[https://www.youtube.com/watch?v=uaflChh3n1A&t=685s AWS Account]] 1-minute video [[docs/3-programming-languages/Venkat-Subramaniam/images/img_908.png .png]]|
+|<b>4. Overview of AWS Services|
+|<#red><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_962.png SDLC & Architecting a social media app part-1]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_963.png 2]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_964.png 3]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_965.png 4]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_966.png 5]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_967.png conversion to AWS]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_968.png IaC]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_969.png DevOps]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_970.png New Topology]] Old understanding|
+|<b>5. Learning AWS from scratch|;
+
 ***[#green] <i><color #white><b><size:12>[[docs/books/1-books-backlog/DBMS/8-Fallacies-of-Distributed-Systems.puml 8 Fallacies of Distributed Computing]]
 ****[#darkorange] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_682.png More on 8 Fallacies of Distributed Computing]] \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=-Ed6Ny9iFeg&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=16&ab_channel=JeffreyRichter 5-minute video]]
 ***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_683.png Service Endpoints]] \n*<i><color #white><b><size:12>[[https://www.youtube.com/watch?v=6BaoAZLguYo&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=17&ab_channel=JeffreyRichter 5-minute video]]
