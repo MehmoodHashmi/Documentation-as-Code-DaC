@@ -1,0 +1,60 @@
+@startmindmap
+title = <i><size:18>Twelve Essential Practices to be Effective in Continuous Delivery by Venkat Subramaniam [[https://youtu.be/NI1T5qPL4mo?si=OXIL9YHEjfjFJRE5 video]]
+
+caption |<img:images/img_970.png>|<img:images/img_0968.png>|
+!theme hacker
+
+*[#darkblue] <i>Twelve Essential Practices to be \n<i>Effective in Continuous Delivery
+
+**[#lightblue] |<#white><i><size:12>Software Development LifeCycle|
+***[#green] <b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_973.png Waterfall]]
+****[#yellow]:<color #black><i><size:12>**Continuous Delivery** extends the spirit of agility, from development to production, in order to keep pace with the fast changing business demands.
+<color #black><i><size:12>In order to succeed in that spirit to keep up with change, we need to bring in several **sustainable practices.** Without proper discipline and rigor the
+<color #black><i><size:12>efforts for continuous deliver can soon turn into a nightmare for teams and organizations that rely on them. Here we will discuss a dozen best practices,
+<color #black><i><size:12>why we need to focus on each one of them, and how they impact the ability to keep pace with <b>continuous delivery.;
+***[#green]:*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_973.png Incremental and Iterative Development]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_973.png Agile Development]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_973.png Scrum and Sprints]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_973.png Kanban]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_973.png But, Why]]
+*<b><i><size:12><color #white>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_973.png Why not release anytime a feature is ready?]];
+**[#lightblue] <i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_974.png CI/CD:]]
+***[#green] <b><i><size:12><color #white>Continuous integration
+****[#yellow] <i><size:12><color #black>is <b>prerequisite
+***[#green] <b><i><size:12><color #white>Continuous Delivery
+****[#yellow] <i><size:12><color #black>the <b>end goal
+**[#lightblue] <i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_975.png Benefits]]
+***[#green]:*<color #white><i><size:12>Fast time to release
+*<color #white><i><size:12>Reduces the chances of errors
+*<color #white><i><size:12>Minimizes waste;
+***[#green] <color #white><i><size:12><b>Promotes faster and shorter feedback loops
+****[#yellow]:<color #black><i><size:12><b>Two types of feedback I want in SDLC:
+<color #black><i><size:12>1- **Regression:** what worked yesterday, does it still work?
+<color #black><i><size:12>2- **Relevance:** is this what we really need from user's point of view?;
+***[#green]:*<color #white><i><size:12><b>Short time between ideation and utilization
+*<color #white><i><size:12><b>Business can benefit quickly
+*<color #white><i><size:12><b>Deliver value faster;
+**[#lightblue] |<#white><i><size:12>12 practices to be effective to deliver CI/CD:|
+***[#green] <color #white><i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_976.png Create good quality code]]
+****[#yellow]:*<color #black><i><size:12>You cannot be a child if you are called sucks
+*<color #black><i><size:12>Code is how you tell your colleagues how you feel about them
+*<color #black><i><size:12>the equality of code is inversely proportional to the amount of time & effort it takes to understand it.
+*<color #black><i><size:12>Knowing is not doing;
+***[#green] <color #white><i><size:12><b>Write automated tests (unit, acceptance), functional, integration, contract tests etc.
+***[#green] <color #white><i><size:12><b>Use fakes for end to end and integration testing
+***[#green] <color #white><i><size:12><b>All artifacts should be under version control
+***[#green] <color #white><i><size:12><b>Maintain and merge often into an integration branch, avoid long running branches
+***[#green] <color #white><i><size:12><b>All environments: development, staging, testing, production (are alike)
+***[#green] <color #white><i><size:12><b>Automate updates of the database schema
+***[#green] <color #white><i><size:12><b>Practice continues integration
+****[#yellow] <color #black><i><size:12>Compile, runs tests, check styles, check code, complexity,...
+***[#green] <color #white><i><size:12><b>Commit stage, acceptance, test stage, manual test stage, performance test stage, release stage
+***[#green] <color #white><i><size:12><b>Create automated deployment scripts (IaC))
+***[#green] <color #white><i><size:12><b>Create a release strategy
+****[#yellow] <color #black><i><size:12>immutable updates
+****[#yellow] <color #black><i><size:12>blue-green deployments
+****[#yellow] <color #black><i><size:12>canary deployments
+***[#green] <color #white><i><size:12><b>Monitor applications in production
+
+@endmindmap
+

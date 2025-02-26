@@ -27,7 +27,7 @@ title =<i><b><u><size:12>Design Trade-offs in Modern Architectures by venkat
 *<i><color #white><size:12>If you spend a lot of time and effort providing what is not essential, you are going to have two problems:
 <b><i><color #white><size:12>1- Unnecessary complexity
 <b><i><color #white><size:12>2- You may not be able to provide what is truly essential
-<i><color #white><size:12>We should rather think of **trade-offs and evaluate them otherwise all decisions are based on infatuation, emotions, and misinformation
+<i><color #white><size:12>We should rather think of **trade-offs** and evaluate them otherwise all decisions are based on infatuation, emotions, and misinformation
 <i><color #white><size:12>and the result is a disaster!
 ====
 <b><i><color #white><size:12>CAP theorem: (You can only provide two of the following three)

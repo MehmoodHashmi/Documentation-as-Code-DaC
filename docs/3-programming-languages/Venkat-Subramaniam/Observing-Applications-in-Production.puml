@@ -1,10 +1,10 @@
 @startmindmap
 title =<i><size:14>"Observing" Applications in __Production__ by Venkat Subramaniam
 * <b>[[https://www.youtube.com/watch?v=RgqWOHFK9Ng&list=LL&index=32&t=1217s Observing" Applications in __Production__ by Venkat Subramaniam]] video
-
+caption |<img:images/img_968.png>|<img:images/img_969.png>
 !theme hacker
 
-*[#darkblue] <i><color #white><size:12>Observing Applications in Production
+*[#darkblue] <i><color #white>Observing Applications in Production
 **[#lightblue] <i>Introduction
 ***[#a]:<i>Managing **Microservices** on the **Cloud** requires far more effort than dealing with **traditional applications.** Getting a clear view of the **status** of applications in <b>production
 <i>can make a difference between smooth operation and chaos, between success and loss. This mindmap will discuss different **tools and techniques** that can help us keep a

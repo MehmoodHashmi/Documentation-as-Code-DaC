@@ -483,7 +483,7 @@ skinparam hyperlinkColor white
 ******[#yellow] <img:images/img_246.png{scale=.135}>
 *******[#yellow] <img:images/img_260.png{scale=.85}>
 **[#lightblue] <i><color #black><size:12>Keep it <color #red>DRY!
-***[#green] <i><color #white><b><size:12>Don't Repeat yourself
+***[#green] <i><color #white><b><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_974.png Don't Repeat yourself]]
 ****[#yellow]:<i><color #black><size:12>Don't duplicate <b>code
 ====
 *<i><color #black><size:12>Every "piece of knowledge" in a "System" should 've <b><u>single unambiguous authoritative representation
