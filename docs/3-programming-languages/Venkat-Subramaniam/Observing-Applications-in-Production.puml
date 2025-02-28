@@ -5,7 +5,7 @@ caption |<img:images/img_968.png>|<img:images/img_969.png>
 !theme hacker
 
 *[#darkblue] <i><color #white>Observing Applications in Production
-**[#lightblue] <i>Introduction
+**[#lightblue] <i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_983.png Introduction]]
 ***[#a]:<i>Managing **Microservices** on the **Cloud** requires far more effort than dealing with **traditional applications.** Getting a clear view of the **status** of applications in <b>production
 <i>can make a difference between smooth operation and chaos, between success and loss. This mindmap will discuss different **tools and techniques** that can help us keep a
 <i>close eye on **applications** in **production** and how to leverage their powers for a successful <b>production environment.

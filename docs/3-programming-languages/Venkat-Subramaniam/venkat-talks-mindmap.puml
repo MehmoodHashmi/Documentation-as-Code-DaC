@@ -43,7 +43,7 @@ caption |<img:images/img_778.png>|<img:images/img_766.png>|<img:images/img_769.p
 **<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Synonym with "System Design"]]
 **<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Cost & Infra Optimization]];
 
-*****[#black] <b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Observing-Applications-in-Production.puml Observing Applications in Production + (SRE)]]
+*****[#white] |<#black><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Observing-Applications-in-Production.puml Observing Applications in Production + (SRE)]]|<#red><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/12-Essential-Practices-to-be-Effective-in-Continuous-Delivery.puml 12 Essential Practices to be Effective in Continuous Delivery]]|
 
 *****[#a]:*<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Architecting-Distributed-Cloud-Apps.puml Versioning HTTP APIs]]
 *<b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/webservice.puml Webservices]] can be:

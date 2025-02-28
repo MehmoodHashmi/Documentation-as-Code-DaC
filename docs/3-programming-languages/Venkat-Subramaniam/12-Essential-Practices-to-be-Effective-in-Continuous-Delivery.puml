@@ -40,21 +40,27 @@ caption |<img:images/img_970.png>|<img:images/img_0968.png>|
 *<color #black><i><size:12>Code is how you tell your colleagues how you feel about them
 *<color #black><i><size:12>the equality of code is inversely proportional to the amount of time & effort it takes to understand it.
 *<color #black><i><size:12>Knowing is not doing;
-***[#green] <color #white><i><size:12><b>Write automated tests (unit, acceptance), functional, integration, contract tests etc.
-***[#green] <color #white><i><size:12><b>Use fakes for end to end and integration testing
-***[#green] <color #white><i><size:12><b>All artifacts should be under version control
-***[#green] <color #white><i><size:12><b>Maintain and merge often into an integration branch, avoid long running branches
-***[#green] <color #white><i><size:12><b>All environments: development, staging, testing, production (are alike)
-***[#green] <color #white><i><size:12><b>Automate updates of the database schema
-***[#green] <color #white><i><size:12><b>Practice continues integration
+***[#green] <color #white><i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_977.png Write automated tests (unit, acceptance), functional, integration, contract tests etc.]]
+****[#yellow]:*<color #black><i><size:12>Programmer is the person who gets hired to write terrible code and then gets paid more to come fix it.
+*<color #black><i><size:12>I write automated tests not because I have a lot of time, it is because I don't.
+|<#black><b><color #black><i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_716.png 13- rule of economy, programmer time is expensive conserve it in preference to machine time]]|;
+***[#green] <color #white><i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_978.png Use fakes for end to end and integration testing]]
+***[#green] |<#black><color #white><i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_979.png All artifacts should be under version control]]|
+***[#green] <color #white><i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_980.png Maintain and merge often into an integration branch, avoid long running branches]]
+****[#yellow]:*<color #black><i><size:12>When it runs to merge, Hell, you should always get it, never receive it.
+*<color #black><i><size:12>The cost of **undo** should be zero. **Why?** Because **innovation** is high when we waste less time to rollback!;
+***[#green] <color #white><i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_981.png All environments: development, staging, testing, production (are alike)]]
+***[#green] <color #white><i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_981.png Automate updates of the database schema]]
+***[#green] <color #white><i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_981.png Practice continues integration]]
 ****[#yellow] <color #black><i><size:12>Compile, runs tests, check styles, check code, complexity,...
-***[#green] <color #white><i><size:12><b>Commit stage, acceptance, test stage, manual test stage, performance test stage, release stage
-***[#green] <color #white><i><size:12><b>Create automated deployment scripts (IaC))
-***[#green] <color #white><i><size:12><b>Create a release strategy
-****[#yellow] <color #black><i><size:12>immutable updates
-****[#yellow] <color #black><i><size:12>blue-green deployments
-****[#yellow] <color #black><i><size:12>canary deployments
-***[#green] <color #white><i><size:12><b>Monitor applications in production
+***[#green] <color #white><i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_982.png Commit stage, acceptance, test stage, manual test stage, performance test stage, release stage]]
+***[#green] <color #white><i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_982.png Create automated deployment scripts (IaC))]]
+***[#green] <color #white><i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_982.png Create a release strategy]]
+****[#yellow] <color #black><i><size:12>Do not recycle a <b>production instance
+****[#yellow]:*<color #black><i><size:12>immutable updates
+*<color #black><i><size:12>blue-green deployments
+*<color #black><i><size:12>canary deployments;
+***[#green] <color #white><i><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_982.png Monitor applications in production]]
 
 @endmindmap
 
