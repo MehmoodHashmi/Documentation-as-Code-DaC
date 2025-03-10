@@ -1,5 +1,8 @@
 @startmindmap
-title =<i>Four main categories of SQL constructs: \nData Definition Language (DDL), Data Manipulation Language (DML), Transaction Control Language (TCL), and Data Control Language (DCL). \nEach category has subcategories with specific SQL commands such as CREATE, ALTER, SELECT, INSERT, UPDATE, DELETE, COMMIT, ROLLBACK, GRANT, and REVOKE. \nThese commands are used to create, modify, and manage databases, tables, views, indexes, triggers, functions, and procedures, as well as to control transactions and access to data.
+title =<i>Four main categories of SQL constructs: \nData Definition Language (DDL), Data Manipulation Language (DML), Transaction Control Language (TCL), and Data Control Language (DCL).
+*:Each category has subcategories with specific SQL commands such as <b>CREATE, ALTER, SELECT, INSERT, UPDATE, DELETE, COMMIT, ROLLBACK, GRANT, and REVOKE.
+These commands are used to create, modify, and manage databases, tables, views, indexes, triggers, functions, and procedures, as well as to control transactions and access to data.;
+
 !theme hacker
 
 

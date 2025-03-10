@@ -5,7 +5,7 @@ title =<i><b><u><size:18>Git
 
 !theme hacker
 
-*[#darkblue] <color #white><i>Git
+*[#darkblue] <color #white><i>Git\n<img:images/img_1.jpeg{scale=.4}>
 **[#lightblue] <i><color #blac><size:12>Definition: "Git" is a "distributed version control system" used for "tracking changes" in "source code" and other "files" during "software development".
 **[#lightblue] <i><color #blac><size:12>Concepts
 ***[#green] <b><i><color #white><size:12>Repository

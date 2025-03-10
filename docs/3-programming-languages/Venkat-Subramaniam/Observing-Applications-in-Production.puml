@@ -42,7 +42,7 @@ caption |<img:images/img_968.png>|<img:images/img_969.png>
 <i><color #black><size:12><b>microservices, service based architecture, service oriented architectures, event driven architecture and so on.
 ==|<#black><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_839.png Choosing the architecture]]|<#blue><i><color #black><size:12><b>[[docs/3-programming-languages/Venkat-Subramaniam/Head-First-Architecture.puml Planning the architecture]]|==;
 
-***[#a] *<i>**Challenges**
+***[#a] <i>**Challenges:**
 ****[#a]:*<i><color #black><size:12>But a lot of these have very similar challenges one of the very first problems is they have way too many moving Parts in it. So
 <color #black><size:12>when you have many moving Parts in it. What is the problem when you have many moving Parts? The different parts can break at
 <color #black><size:12>different time, and if the parts don't work properly then you're going to have a problem with the **overall system**. So that requires
@@ -64,28 +64,33 @@ caption |<img:images/img_968.png>|<img:images/img_969.png>
 ***[#yellow] <i>Keep an eye out for security vulnerabilities
 ***[#yellow] <i>Identify usage trend
 ***[#yellow] <i>Improve resource provisions
-***[#yellow] <i>Optimize costs
+***[#yellow] <i>Optimize costs (reconsider deployment in cloud)
 
 **[#lightblue] <i>Things to monitor
 ***[#yellow] *<i><b>User experience
 ****[#gold]:*<i><b>load time
 * <i><b>response time
-* <i><b>availability;
+* <i><b>availability
+* <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_969.png 2, 3a,3b, 3c, 4b,4c, 9b]];
 ***[#yellow] *<i><b>application behaviour
 ****[#gold]:*<i><b>performance
 * <i><b>throughput
-* <i><b>error rate;
+* <i><b>error rate
+* <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_969.png 2, 3a,3b, 3c, 4b,4c, 9b]];
 
 ***[#yellow] *<i><b>Resource monitoring
 ****[#gold]:*<i><b>memory utilization
 * <i><b>CPU utilization
 * <i><b>N/W performance
-* <i><b>Disk space;
+* <i><b>Disk space
+* <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_969.png 2, 3a,3b, 3c, 4b,4c, 9b]];
 
 ***[#yellow] *<i><b>Database performance
 ****[#gold]:*<i><b>Query performance
 * <i><b>Procedure performance
-* <i><b>N/W performance;
+* <i><b>N/W performance
+* <i><b>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_969.png 2, 3a,3b, 3c, 4b,4c, 9b]];
+
 ***[#yellow] *<i><b>Security monitoring
 
 **[#lightblue] <i>Means to observe
@@ -112,8 +117,8 @@ caption |<img:images/img_968.png>|<img:images/img_969.png>
 <i><b>providers I'm using. So if you're running your applications on AWS already you can probably use the tools provided by AWS already and that I would say is probably the first good option.;
 
 **[#lightblue] <i><b>Key Considerations
-***[#yellow]:*<i><b>Monitor every layer of the system
-* <i><b>Observe database, code, transaction, network, ... performance
+***[#darkorange]:*<i><b>Monitor every __layer__ of the system [[docs/3-programming-languages/Venkat-Subramaniam/images/img_969.png 2, 3a,3b, 3c, 4b,4c, 9b]]
+** <i><b>Observe database, code, transaction, network, ... performance
 * <i><b>Provide useful information and guidance that are actionable
 * <i><b>Should not have negative impact on the systems execution. ;
 

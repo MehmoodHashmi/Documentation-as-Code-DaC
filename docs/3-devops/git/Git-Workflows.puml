@@ -2,7 +2,7 @@
 title =<i><b><u><size:18>Git Workflows\n|<img:images/img_10.png>|<img:images/Git.jpg{scale=.805}>|<img:images/img_18.png{scale=.61}>|
 !theme hacker
 
-*[#darkblue] <i>Git Workflows
+*[#darkblue] <i>Git Workflows\n<img:images/img_1.jpeg{scale=.5}>
 **[#lightblue] <i><color #blac><size:22>[[docs/3-devops/git/Pull-Request-Workflow.puml Pull request Workflow]]
 ***[#yellow] <i><color #black><size:12>is used along with other workflows or almost in every workflow
 **[#lightblue] <i><color #blac><size:12>[[docs/3-devops/git/Centralized-workflow.puml Centralized Workflow]]
