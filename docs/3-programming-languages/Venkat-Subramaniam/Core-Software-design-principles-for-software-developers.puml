@@ -9,6 +9,8 @@ caption |<img:images/img_771.png>|\n|<img:images-reuseable/43-evolution-and-birt
 'let it stay white, you can change it to yellow if needed or green or some clear color
 skinparam hyperlinkColor white
 
+
+
 *[#darkblue] <color #white><i>Core Software design \n<color #white><i>principles for software \n<color #white><i>developers\n<img:images/img_254.png{scale=.246}>
 **[#lightblue] <i><color #black><size:12>Introduction
 ***[#green]:<i><color #white><size:12><b>Writing code is easy. Writing good quality code is an entirely different story.
