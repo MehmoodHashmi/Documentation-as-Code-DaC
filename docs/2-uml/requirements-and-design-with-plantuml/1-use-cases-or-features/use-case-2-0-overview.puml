@@ -1,19 +1,26 @@
 @startmindmap
-title =  <b><i><u><size:18>Use Case 2.0\n<img:img.png{scale=0.7}>
-caption <img:img_1.png{scale=0.7}>
+title =  <b><i><u><size:30>Use Case 2.0</u> <size:14>__Note:__ If we are going to have a __delivery independent architecture__, we need to start with <color #red><u>delivery independent use cases.\n|<img:img.png{scale=0.7}>|<img:use-case-view-4+1-model.png{scale=1}>|
+
+caption |<img:img_1.png{scale=0.8}>|<img:img_11.png{scale=0.9}>|
+
 * <size:12><b><i>[[use-case.png Use Case types]]
-** <size:12><b><i>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-32-12-378.png Use Case Event Table]]
+** <size:12><b><i>[[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/use-case-event-table.png Use Case Event Table]]
 ** <size:12><b><i>[[img.jpg Use Case Modeling benefits]]
-*** <size:12><b><i>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-36-44-142.png Modeling Loosely coupled use case]]
-**** <size:12><b><i>[[docs/3-programming-languages/clean-architecture/images/image-2023-02-20-18-39-05-976.png Modeling Loosely coupled use case]] continue
-***** <size:12><b><i>[[docs/3-programming-languages/clean-architecture/images/Screenshot_3x.png use case decomposition]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_561.png Part-2]]
-***** <size:12><b><i>[[docs/3-programming-languages/clean-architecture/images/use-case-modeling.png use case Modeling]]
-**** <size:12><b><i>[[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/img_3.png use case diagram --to-> DFD & vice versa]] click
-**** <size:12><b><i>[[img_1.png Class diagram --to-> ERD ]] click
+*** <size:12><b><i>[[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/modeling-loosely-coupled-use-cases.png Modeling Loosely coupled use case]]
+**** <size:12><b><i>[[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/use-case-decomposition.png use case decomposition]], [[docs/3-programming-languages/Venkat-Subramaniam/images/img_561.png Part-2]]
+**** <size:12><b><i>[[docs/3-programming-languages/clean-architecture/images/use-case-modeling.png use case Modeling]]
+*** <size:12><b><i>[[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/img_3.png use case diagram --to-> DFD & vice versa]] click
+*** <size:12><b><i>[[img_1.png Class diagram --to-> ERD ]] click
 
 !theme hacker
 
-*[#darkblue] <color #white><i>Use Case#1 or feature#1
+*[#darkblue]:*<size:14><i>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_242.png Requirement Engineering Process Matuarity Model]]
+<color #white><i>Use Case#1 or feature#1 <size:12>[[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/use-case-details-templates.png (Templates)]]
+
+<img:use-case-vs-user-story.png>
+<img:wireframe-1.png{scale=.76}>
+|<img:img_0.png{scale=.85}>|;
+
 **[#lightblue] <i><size:12>Use Case Name
 ***[#yellow] <i><size:12>A short, descriptive name for the use case
 **[#lightblue] <i><size:12>Actor
@@ -34,33 +41,43 @@ caption <img:img_1.png{scale=0.7}>
 #<i><size:12> Second post-condition;
 **[#lightblue] <i><size:12>Use Case Dependncy
 ***[#green] <b><color #white><i><size:12>'<<Includes>>'
-****[#a] <color #white><b><i><size:12>Use Case#2, Use Case#3, click me
+****[#a] <color #white><b><i><size:12>Use Case#2, Use Case#3,
 ***[#green] <b><color #white><i><size:12>'<<Extends>>'
-****[#a] <color #white><b><i><size:12>Use Case#4, Use Case#5, click me
+****[#a] <color #white><b><i><size:12>Use Case#4, Use Case#5,
 ***[#green] <b><color #white><i><size:12><img:img_2.png{scale=.7}>
 **[#lightblue] <i><size:12>Use Case Notes:
 ***[#yellow] <i><size:12>If any
-**[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/activity-diagrams/use-case-1-activity.puml Use case#1 Activity Diagram]] click me
+**[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/activity-diagrams/use-case-1-activity.puml Use case#1 Activity Diagram]]
 ***[#green] <color #white><b><i><size:12>--Main-- --Flow--
 ****[#yellow] <i><size:12>A sequence of steps that describe the normal course of events for the use case
 ***[#green] <color #white><b><i><size:12>--Alternative-- --Flows--
 ****[#yellow] <i><size:12>Sequences of steps that describe exceptional courses of events for the use case
 ***[#green] <color #white><b><i><size:12>Exception Flows
 ****[#yellow] <i><size:12>Sequences of steps that describe how the system handles unexpected events
-**[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/sequence-diagrams/use-case-1-sequence.puml Use case#1 Sequence Diagram]] click me
+**[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/sequence-diagrams/use-case-1-sequence.puml Use case#1 Sequence Diagram]]
 ***[#green] <color #white><b><i><size:12>During Analysis & Design
 ****[#yellow] <color #black><i><size:12><b>System Level Sequence Diagram (SSD):</b> Depict the interactions between external actors and the system itself, outlining\n<i><size:12><color #black>the flow of events without delving into the internal workings of the system
 ****[#yellow] <color #black><i><size:12><b>Design Level Sequence Diagram (DSD):</b>These provide an overview of interactions between major components or \n<i><size:12><color #black>systems, focusing on their relationships and interactions
 ***[#green] <color #white><b><i><size:12>Just before Implementation
 ****[#yellow] <color #black><i><size:12><b>Object-Level Sequence Diagrams (OSD):</b> Detail the interactions between specific **objects or instances,** \n<i><size:12><color #black>illustrating the messages exchanged and the order of these interactions
-**[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/state-transition-diagrams/use-case-1-state-transition.puml Use case#1 State Transition Diagram]] click me
+**[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/state-transition-diagrams/use-case-1-state-transition.puml Use case#1 State Transition Diagram]]
 ***[#green] <color #white><b><i><size:12>During Analysis & Design
-**[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/0-use-case-diagrams/Tomplot-Use-Case-diagram.puml Use case Diagram]] click me
+**[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/0-use-case-diagrams/Tomplot-Use-Case-diagram.puml Use case Diagram]]
+**[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/0-use-case-diagrams/Tomplot-Use-Case-diagram.puml DFD level-0, level-1, level-2]]
+**[#lightblue] <i><size:12>[[docs/2-uml/diagram-as-code-2-0/images/C4-model.drawio.png C4-Model Context, Container, Component, Class]] & [[https://c4model.com/ Part-2]]
+**[#lightblue] <i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_965.png Deployment Diagram]]
+***[#green] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/0-use-case-diagrams/Tomplot-Use-Case-diagram.puml Networking Diagram]]
+**[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/0-use-case-diagrams/Tomplot-Use-Case-diagram.puml Work breakdown structure]] (WBS)
+**[#lightblue] |<#black><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_984.png Transcribe video or audio locally]]|<#red><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_984.png Use ChatGPT, DeepSeek]]|<#black><b><i><color #black><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/images/img_985.png Use AntConc & KWIC]]|
+**[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/1-use-cases-or-features/wireframe.png Use Case#1 Wireframes]]
+**[#lightblue] <i><size:12>TDD, BDD, ATDD
+***[#green] <i><size:12>[[docs/3-programming-languages/Venkat-Subramaniam/Creating-and-Maintaining-Architectural-Fitness-Functions.puml Architecture fitness functions]]
+**[#lightblue] <i><size:12>Arc42-template, ADD-3.0 template
 **[#lightblue] <i><size:12>[[docs/2-uml/requirements-and-design-with-plantuml/glossary.puml Glossary]]
 **[#lightblue] <i><size:12>Schema Diagram
 ***[#green] <color #white><b><i><size:12>Don't add schema details inside the use case. Keep it simple. You are adding Databases (SQL, NoSQL) & Programming in use cases.
 ***[#green] <color #white><b><i><size:12>Class diagram
-****[#yellow] <color #black><i><size:12><b>Domain model (DDD) Or Deep Model
+****[#yellow] <color #black><i><size:12><b>Domain model (DDD) Or Deep Model (use visual paradigm for it, saves enormous time)
 ****[#yellow] <color #black><i><size:12><b>Class diagram
 ****[#yellow] <color #black><i><size:12><b>Object Model
 ***[#green] <color #white><b><i><size:12>Data model

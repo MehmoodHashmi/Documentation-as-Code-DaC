@@ -1,0 +1,106 @@
+@startmindmap
+!theme hacker
+
+*[#darkgreen] <color #white><i>Object-Oriented \n<color #white><i>Modeling Concepts
+**[#darkblue] <color #white><i>Layer 1: Core Object-Oriented Fundamentals
+***[#lightblue] <color #black><i>**Goal:** Understand the basic building blocks of an object-oriented model.
+***[#lightblue] <color #black><i>**Concepts:**
+****[#green] <color #white><i><size:12>**Classes:** The fundamental blueprint (start with Entity classes conceptually).
+****[#green] <color #white><i><size:12>**Attributes:** Properties of classes ([visibility] name : type [=initial value]).
+*****[#yellow] <color #black><i><size:12>Focus on name, type, and basic visibility first.
+****[#green] <color #white><i><size:12>**Operations:** Behaviors of classes ([visibility] name [(parameters-list)] [: return-type]).
+*****[#yellow] <color #black><i><size:12>Focus on name, basic parameters, return-type, and visibility.
+****[#green] <color #white><i><size:12>**Visibility**: Public (+), Private (-), Protected (#) - essential for encapsulation.
+****[#green] <color #white><i><size:12>**Association & Link:** The most basic relationship - how objects of classes are connected. Understand it conceptually as a structural connection.
+****[#green] <color #white><i><size:12>**Objects:** Instances of classes (understand the concept).
+
+**[#darkblue] <color #white><i>Layer 2: Essential Relationships and Structure
+***[#lightblue] <color #black><i>**Goal:** Define how classes relate to each other in more detail and structure the static model.
+***[#lightblue] <color #black><i>**Concepts:**
+****[#green] <color #white><i><size:12>Generalization/Inheritance/Specialization: The "is-a" relationship. Crucial for code reuse and classification.
+*****[#yellow] <color #black><i><size:12>**Related Concepts:** Abstract, Root, Leaf classes.
+****[#green] <color #white><i><size:12>Multiplicity: How many instances participate in a relationship (e.g., 1, *, 0..1, 1..*). Apply this to Associations.
+****[#green] <color #white><i><size:12>Association End Names (Roles): Naming the ends of an association for clarity.
+****[#green] <color #white><i><size:12>Aggregation: "Has-a" relationship (whole-part, part can exist independently).
+****[#green] <color #white><i><size:12>Composition: Stronger "has-a" (whole-part, part's lifecycle depends on the whole). Distinguish from Aggregation and basic Association.
+****[#green] <color #white><i><size:12>Dependency: A weaker "uses-a" relationship, where a change in one element may affect another.
+****[#green] <color #white><i><size:12>Reflexive (or self) Association: A class relating to itself.
+
+**[#darkblue] <color #white><i>Layer 3: Refining Classes, Operations, and Basic Constraints
+***[#lightblue] <color #black><i>**Goal:** Add more detail to class members and introduce basic rules.
+***[#lightblue] <color #black><i>**Concepts:**
+****[#green] <color #white><i><size:12>Attribute Refinements: direction (in, out, inout), initial value.
+****[#green] <color #white><i><size:12>Operation Refinements: Full parameters-list, {property-string} (like isQuery).
+*****[#yellow] <color #black><i><size:12>**Operation Properties:** isQuery, sequential, guarded, concurrent (understand their meaning, especially isQuery early on).
+****[#green] <color #white><i><size:12>Data Types and Enumerations: Defining custom types and sets of named constants.
+****[#green] <color #white><i><size:12>Interfaces: Defining contracts (Provided interfaces, Required interfaces). Consider these as alternatives/additions to class inheritance (Kinds of Multiple Inheritance - implementing multiple interfaces).
+****[#green] <color #white><i><size:12>Association Classes: Modeling associations that have their own attributes and operations.
+****[#green] <color #white><i><size:12>Qualified Association: Using a Qualifier to reduce multiplicity, often modeling lookups or indexed access.
+****[#green]:<color #white><i><size:12>Constraints (Basic): Introduce the concept of rules that must hold true ({constraint text}).
+<color #white><i><size:12>Mention OCL (Object Constraint Language) as the standard way to write these, but start simple.;
+*****[#yellow]:*<color #black><i><size:12>General idea of a Constraint.
+*<color #black><i><size:12>Basic constraints on attributes or multiplicities.;
+
+**[#darkblue] <color #white><i>Layer 4: Dynamic Behavior - How Objects Interact Over Time
+***[#lightblue] <color #black><i>**Goal:** Model the system's behavior, communication, and state changes.
+***[#lightblue] <color #black><i>**Concepts:**
+****[#green] <color #white><i><size:12>**Events:** Triggers for behavior.
+*****[#yellow] <color #black><i><size:12>**Types of Events:** signals (asynchronous), calls (synchronous), the passage of time (asynchronous), a change in state (asynchronous). Differentiate External vs. Internal.
+****[#green] <color #white><i><size:12>**State Machines:** Modeling the lifecycle of an object in response to events. (Implicitly involves states, transitions, actions).
+*****[#yellow] <color #black><i><size:12>Related: State machine stereotypes: send.
+****[#green] <color #white><i><size:12>**Flow of Control:** Understanding sequences of actions. (Often visualized with Interaction Diagrams like Sequence or Activity Diagrams, although the diagram types weren't explicitly listed, the concepts are).
+****[#green] <color #white><i><size:12>**Communication:** How objects interact (sending/receiving events/calls).
+****[#green] <color #white><i><size:12>Modeling Exceptions and Raising Exceptions: Handling error conditions.
+
+**[#darkblue] <color #white><i>Layer 5: Concurrency and Distribution
+***[#lightblue] <color #black><i>**Goal:** Model systems with multiple simultaneous threads of execution or distributed components.
+***[#lightblue] <color #black><i>**Concepts:**
+****[#green] <color #white><i><size:12>Active Objects/Classes: Objects managing their own thread of control.
+****[#green] <color #white><i><size:12>Processes and Threads: Explicitly modeling concurrent units.
+****[#green] <color #white><i><size:12>Modeling Multiple Flows of Control.
+****[#green] <color #white><i><size:12>Synchronization: Coordinating access to shared resources between concurrent flows.
+****[#green] <color #white><i><size:12>Modeling Inter-process Communication (IPC).
+****[#green] <color #white><i><size:12>Concurrency Models and Distributed System Similarities. (Higher-level understanding).
+****[#green] <color #white><i><size:12>Process Views: Modeling different aspects or perspectives of processes.
+
+**[#darkblue] <color #white><i>Layer 6: Advanced Modeling Techniques and Refinements
+***[#lightblue] <color #black><i>**Goal:** Utilize more sophisticated UML features and address complex scenarios.
+***[#lightblue] <color #black><i>**Concepts:**
+****[#green] <color #white><i><size:12>Advanced Relationships:
+*****[#yellow] <color #black><i><size:12>**Dependency Stereotypes:** bind, derive, friend, instanceOf, instantiate, powertype, refine, use, trace (for subsystems). Understand their specific meanings.
+****[#green] <color #white><i><size:12>Stereotypes (<<stereotype>>): Extending UML's vocabulary.
+*****[#yellow]:*<color #black><i><size:12>Formally introduce Three types of classes: entity, boundary, control (often applied using stereotypes during design).
+*<color #black><i><size:12>Other stereotypes: become, call, copy (for objects).;
+****[#green] <color #white><i><size:12>Templates (Generics): Creating parameterized model elements.
+****[#green] <color #white><i><size:12>**Advanced Constraints (OCL):** Applying more complex OCL rules.
+*****[#yellow] <color #black><i><size:12>Constraints on Objects, Generalization Sets, Links.
+****[#green] <color #white><i><size:12>Derived Data: Attributes or associations whose values are computed from others (/derivedElement).
+****[#green] <color #white><i><size:12>Metadata: Data about the model itself.
+****[#green] <color #white><i><size:12>Reification: Modeling something (like a relationship) as a first-class object (related to Association Classes).
+****[#green] <color #white><i><size:12>Ordering and Uniqueness (Association Ends):
+*****[#yellow]:*<color #black><i><size:12>**Properties:** isOrdered, isUnique.
+*<color #black><i><size:12>**Collections:** ordered set, set, list, multi-set.
+*<color #black><i><size:12>**Constraints:** implicit, ordered, changeable, addOnly, frozen, xor.
+*<color #black><i><size:12>**Permitting multiple links:** {bag}, {sequence}.;
+
+****[#green] <color #white><i><size:12>Ownership of Association End: Specifying which class "owns" or manages the association end.
+****[#green] <color #white><i><size:12>Multiple Classification: An object being an instance of multiple, independent classes.
+****[#green] <color #white><i><size:12>Non Part-Whole Conceptual Relationships: Understanding nuances beyond basic structural links (Topological Inclusion, Classification Inclusion, Attribution, Attachment, Ownership).
+
+**[#darkblue] <color #white><i>Layer 7: Design Principles, Patterns, and Best Practices
+***[#lightblue] <color #black><i>**Goal:** Apply established design wisdom and avoid common modeling mistakes.
+***[#lightblue] <color #black><i>**Concepts:**
+****[#green] <color #white><i><size:12>**GoF: Design Patterns:** Reusable solutions to common software design problems. Apply after understanding the basic modeling elements they use.
+****[#green] <color #white><i><size:12>SOLID, DRY, YAGNI, KISS: Guiding principles for writing maintainable and robust code/models.
+****[#green] <color #white><i><size:12>Ubiquitous Language: Ensuring model terminology aligns with the problem domain experts' language.
+****[#green] <color #white><i><size:12>Modeling Comments: How to effectively annotate diagrams.
+****[#green] <color #white><i><size:12>Class Diagram Anti-Patterns: Learning common pitfalls (Unspecified Endpoints, Plural Class Names, Debatable Aggregates, Attributes vs References, etc.).
+****[#green] <color #white><i><size:12>Modeling Considerations:
+*****[#yellow]:*<color #black><i><size:12>Do interfaces belong in Domain Models?
+*<color #black><i><size:12>Should visibility be specified in Domain Models? (Often yes for design, maybe less strict for pure analysis).
+*<color #black><i><size:12>Confusing roles or objects with classes.
+*<color #black><i><size:12>Failure to Pass the Uses-A or Is-A tests (validating relationships).
+*<color #black><i><size:12>Aggregation Versus Association (revisiting the distinction).
+*<color #black><i><size:12>Delegation versus Inheritance.;
+@endmindmap
+
